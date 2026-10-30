@@ -65,7 +65,7 @@ let file=null,pass=null,mode=live?'live':'offline';
 console.log(color.bold('TenderScout – interaktiver Test')+color.dim('  q = Ende'));
 if(!live)console.log(color.dim('OPENAI_API_KEY/OPENAI_MODEL fehlen: nur Offline-Modus. Siehe npm run setup.'));
 while(true){
- const examples=readdirSync('examples').filter(f=>/\.(pass|profile)\.json$/.test(f)).sort();
+ const examples=readdirSync('examples').filter(f=>/\.(pass|profile)\.json$|\.prompt\.txt$/.test(f)).sort();
  console.log(`\n${color.bold('Firmenpass wählen')}`);
  examples.forEach((f,i)=>console.log(`  ${i+1}) ${f}`));
  console.log(`  p) eigener Pfad${file?`\n  Enter) ${basename(file)} erneut (Änderungen bleiben)`:''}`);
@@ -74,34 +74,38 @@ while(true){
  if(pick){
   const next=pick==='p'?await ask('Pfad: '):examples[Number(pick)-1]&&join('examples',examples[Number(pick)-1]);
   if(!next||!existsSync(next)){console.log(color.bad('Unbekannte Auswahl.'));continue;}
-  try{pass=JSON.parse(readFileSync(next,'utf8'));file=next;}catch(e){console.log(color.bad(`Kein gültiges JSON: ${e.message}`));continue;}
+  // .prompt.txt holds a free-text request: the agent builds the Firmenpass itself (tender/intake.mjs).
+  if(next.endsWith('.prompt.txt')){pass=readFileSync(next,'utf8').trim();file=next;}
+  else try{pass=JSON.parse(readFileSync(next,'utf8'));file=next;}catch(e){console.log(color.bad(`Kein gültiges JSON: ${e.message}`));continue;}
  }
  if(live){
   const m=await ask(`Modus: l) live mit Modell  o) offline Platzhalter  [${mode==='live'?'l':'o'}] `,mode==='live'?'l':'o');
   if(m==='q')break;
   mode=m.startsWith('o')?'offline':'live';
  }
- console.log(color.dim(brief(pass)));
- let entry;
- while((entry=await ask('Feld ändern (feld=wert, „zeigen“, Enter = starten): '))){
+ const text=typeof pass==='string';
+ console.log(color.dim(text?`Freitext: ${pass.slice(0,160)}${pass.length>160?'…':''}`:brief(pass)));
+ if(text)console.log(color.dim('Freitext: keine Feldänderung, der Agent leitet den Firmenpass selbst ab (Annahmen im Bericht).'));
+ let entry='';
+ while(!text&&(entry=await ask('Feld ändern (feld=wert, „zeigen“, Enter = starten): '))){
   if(entry==='q')break;
   if(entry==='zeigen'){console.log(JSON.stringify(pass,null,1));continue;}
   try{applyChange(pass,entry);console.log(color.dim(brief(pass)))}catch(e){console.log(color.bad(e.message))}
  }
  if(entry==='q')break;
  if(mode==='live'&&!await ensureEve())continue;
- const stamp=new Date().toISOString().replace(/[:.]/g,'-').slice(0,19),name=basename(file).replace(/\.(pass|profile)\.json$/,'');
+ const stamp=new Date().toISOString().replace(/[:.]/g,'-').slice(0,19),name=basename(file).replace(/\.(pass|profile)\.json$|\.prompt\.txt$/,'');
  console.log(color.dim(`Läuft (${mode})…`));
  const started=Date.now();
  let report;
- try{report=await scout(JSON.stringify(pass),join(OUT,`${name}-${stamp}-session.json`),undefined,mode==='offline'?{ask:placeholder}:{});}
+ try{report=await scout(text?pass:JSON.stringify(pass),join(OUT,`${name}-${stamp}-session.json`),undefined,mode==='offline'?{ask:placeholder}:{});}
  catch(e){console.log(color.bad(`Fehler: ${e.message}`));if(mode==='live')console.log(color.dim(`Eve-Log: ${OUT}/eve.log oder Terminal von npm start`));continue;}
  const saved=join(OUT,`${name}-${stamp}-${mode}.md`);
  writeFileSync(saved,report,{mode:0o600});
  console.log(`\n${report}`);
  const rows=ranking(report),footer=JSON.parse(report.match(/```json\n(.*)\n```/)?.[1]??'{}');
  console.log(color.bold(`Zusammenfassung (${((Date.now()-started)/1000).toFixed(1)} s)`));
- if(footer.verified!==undefined)console.log(`  ${footer.verified} gelistet · ${footer.go} GO · ${footer.matches-footer.verified} bei Gegenprüfung verworfen`);
+ if(footer.verified!==undefined)console.log(`  ${footer.go+footer.conditional} gelistet · ${footer.go} GO · ${footer.verified-footer.go-footer.conditional} NO-GO (nicht aufgeführt) · ${footer.matches-footer.verified} bei Gegenprüfung verworfen`);
  for(const r of rows)console.log(`  ${r.verdict.padEnd(16)} ${String(r.score).padStart(3)}  ${r.title.slice(0,70)}`);
  console.log(color.dim(`  Bericht: ${saved}`));
  compare(name,rows);

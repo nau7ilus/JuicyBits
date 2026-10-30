@@ -16,7 +16,7 @@ const HELP={
  OPENAI_API_KEY:'API-Key aus eurem OpenAI-Konto (API keys)',
  OPENAI_MODEL:'Modell-ID, die euer OpenAI-Key nutzen darf',
  OPENAI_CONTEXT_WINDOW_TOKENS:'optional, nur wenn Eve das Modell nicht kennt: Kontextlimit laut Anbieter',
- OPENAI_BASE_URL:'optional, nur für Proxy/Gateway; leer = https://api.openai.com/v1',
+ OPENAI_BASE_URL:'wird vom Agenten nicht genutzt (Eve-OpenAI-Anbindung, Standard-Endpunkt); leer lassen',
  EVE_PORT:'lokaler Port, Vorgabe 21949',EVE_URL:'http://127.0.0.1:<EVE_PORT>',
  COWORKER_ID:'Coworker-ID aus `sokosumi --preprod coworkers register …` (Skill tum-hackathon-agent, Schritt 2)',
  SOKOSUMI_ORGANIZATION_ID:'leer = Personal Workspace; TUM Workspace: aus `sokosumi --preprod workspaces list --json`',
@@ -43,8 +43,8 @@ else if(await offer('node_modules fehlt. Jetzt `npm ci` ausführen?')){run('npm'
 else need('Abhängigkeiten installieren','npm ci');
 const cli=run('sokosumi',['--version']);
 const cliVersion=cli.out.match(/\d+\.\d+\.\d+/)?.[0];
-if(!cli.ok)need('Sokosumi CLI fehlt','npm install --global @masumi_network/sokosumi@1.0.4');
-else cliVersion==='1.0.4'?line('ok','Sokosumi CLI 1.0.4'):need(`Sokosumi CLI ${cliVersion} statt 1.0.4`,'npm install --global @masumi_network/sokosumi@1.0.4');
+if(!cli.ok)need('Sokosumi CLI fehlt','npm install --global @masumi_network/sokosumi@1.1.0');
+else cliVersion==='1.1.0'?line('ok','Sokosumi CLI 1.1.0'):need(`Sokosumi CLI ${cliVersion} statt 1.1.0`,'npm install --global @masumi_network/sokosumi@1.1.0 (1.0.4 scheitert an tasks create --personal, Core-Route entfernt, siehe docs/tickets/T12)');
 
 section('2. Private Konfiguration (.env)');
 let env=readEnv();
@@ -69,7 +69,7 @@ for(const [stage,keys] of STAGES){
  line(stage.startsWith('Bezahlte')?'info':'todo',stage,`fehlt: ${missing.join(', ')}`);
  if(!stage.startsWith('Bezahlte'))for(const k of missing)todos.push({label:`${k} in .env`,how:HELP[k]});
 }
-line('info',`OPENAI_BASE_URL ${set('OPENAI_BASE_URL')?'gesetzt':'leer (Standard-Endpunkt)'}`);
+line('info',`OPENAI_BASE_URL ${set('OPENAI_BASE_URL')?'gesetzt, wird vom Agenten nicht genutzt':'leer (Standard-Endpunkt)'}`);
 line('info',set('SOKOSUMI_ORGANIZATION_ID')?'Tasks laufen im Organization-Workspace':'Tasks laufen im Personal Workspace');
 
 section('3. Daten (data/bayern)');

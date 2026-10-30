@@ -1,7 +1,7 @@
 import {createServer} from 'node:http';
 import {randomUUID} from 'node:crypto';
 import {existsSync,readFileSync,writeFileSync,mkdirSync,readdirSync} from 'node:fs';
-import {answer,client} from './client.mjs';
+import {scout} from './tender/scout.mjs';
 import {inputHash,resultHash,sha256} from './standard-hash.mjs';
 import {confirmedState} from './paid-task.mjs';
 const jobsDir='.local/standard-jobs';mkdirSync(jobsDir,{recursive:true,mode:0o700});
@@ -13,7 +13,7 @@ export async function mps(path,body){
  const response=await fetch(process.env.MPS_URL+'/api/v1'+path,{method:body?'POST':'GET',headers:{token,'content-type':'application/json'},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(30000)});
  const data=await response.json();if(!response.ok)throw new Error(`Payment service HTTP ${response.status}`);return data.data;
 }
-const schema={input_data:[{id:'prompt',type:'string',name:'Team brief',data:{description:'Describe your hackathon project and preferred name style.'},validations:[{validation:'min',value:'1'},{validation:'max',value:'16000'}]}]};
+const schema={input_data:[{id:'prompt',type:'string',name:'Firmenpass (JSON)',data:{description:'Firmenpass der Firma als JSON-Objekt: Gewerk, Leistungsbeschreibung, Bundesland DE-BY, Auftragswert von/bis, verfuegbar ab, Zulassungen, Zertifikate, Ausschluesse. Felder: docs/firmenpass.md im Repository.'},validations:[{validation:'min',value:'1'},{validation:'max',value:'16000'}]}]};
 const respond=(res,status,data)=>{res.writeHead(status,{'content-type':'application/json'});res.end(JSON.stringify(data))};
 const port=Number(process.env.AGENT_API_PORT||21950);
 createServer(async(req,res)=>{
@@ -52,7 +52,7 @@ setInterval(async()=>{
  if(Number(payment.submitResultTime)<=Date.now()+120000){job.phase='deadline-blocked';job.status='failed';save(job);continue;}
  job.phase='model-pending';job.status='running';save(job);
  if(Number(payment.submitResultTime)<=Date.now()+120000)continue;
- job.result=await answer(job.input.prompt,`${jobsDir}/${job.id}-session`,Number(payment.submitResultTime));
+ job.result=await scout(job.input.prompt,`${jobsDir}/${job.id}-session`,Number(payment.submitResultTime));
  writeFileSync(`${jobsDir}/${job.id}.txt`,job.result,{mode:0o600});job.resultHash=resultHash(job.result,job.nonce);job.phase='submit-pending';save(job);
  if(Number(payment.submitResultTime)<=Date.now()){job.phase='deadline-blocked';job.status='failed';save(job);continue;}
  await mps('/payment/submit-result',{network:'Preprod',blockchainIdentifier:payment.blockchainIdentifier,submitResultHash:job.resultHash});

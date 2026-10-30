@@ -7,6 +7,7 @@ import {prefilter} from './prefilter.mjs';
 import {renderReport,sha256} from './report.mjs';
 import {scout} from './scout.mjs';
 import {verifyAll} from './verify.mjs';
+import {placeholder} from './offline.mjs';
 const pass=validatePass(EXAMPLE_PASS);
 const STRONG={zulassung:10,referenzen:15,leistungsfaehigkeit:10,leistungstext:5,kapazitaet:10,entfernung:5,groesse:10,gewinnchance:5,aufwand:3,risiko_abzug:4};
 const judgement=(id,extra={})=>({id,points:STRONG,ko:[],todos:[],reasons:['Fachliche Passung (description): Flachdach.','Eignung (selectionCriteria): Meisterbrief vorhanden.','Zeitraum (plannedStart): passt.'],proofs:['Meisterbrief'],risks:[],...extra});
@@ -73,4 +74,20 @@ test('HTML entities from the source are decoded before Markdown escaping',()=>{
  const [facts]=prefilter(pass,[record('a')],NOW).candidates;
  const [m]=mergeJudgements([{...facts,title:'Unterstützung &quot;Omnissa&quot; &amp; Co'}],[judgement('a')]).assessed;
  assert.match(renderReport({pass,verified:[m],excluded:{},coverage:{firstDay:null,lastDay:null},now:NOW}),/### 1\. Unterstützung "Omnissa" & Co/);
+});
+test('free-text intake adds the understanding block and the hash still covers it',async()=>{
+ const intake={source:'text',assumptions:['A1 Datenbasis nur Bayern'],questions:['Q1 Zertifikate?']};
+ const report=await scout(null,null,undefined,{pass:EXAMPLE_PASS,intake,records:[record('a')],now:NOW,ask:async()=>reply([judgement('a')])});
+ const f=footer(report),markdown=report.slice(0,report.lastIndexOf('\n\n```json'));
+ assert.equal(f.sha256,sha256(markdown));
+ assert.match(report,/## So wurde Ihre Anfrage verstanden/);assert.match(report,/\*\*Annahmen\*\*\n- A1 Datenbasis nur Bayern/);assert.match(report,/\*\*Offene Punkte\*\*\n- Q1 Zertifikate\?/);
+ assert.ok(report.indexOf('So wurde Ihre Anfrage verstanden')<report.indexOf('**Ergebnis:**'));
+});
+test('JSON passes render no understanding block',async()=>{
+ const report=await scout(JSON.stringify(EXAMPLE_PASS),null,undefined,{records:[record('a')],now:NOW,ask:async()=>reply([judgement('a')])});
+ assert.doesNotMatch(report,/So wurde Ihre Anfrage verstanden/);
+});
+test('offline placeholder answers an intake prompt with a valid IT pass',async()=>{
+ const answer=JSON.parse(await placeholder('AUFGABE: Firmenpass ableiten.\n\nFREITEXT:\nWir suchen IT-Aufträge.'));
+ assert.equal(answer.pass.trade,'it');assert.ok(Array.isArray(answer.assumptions));
 });

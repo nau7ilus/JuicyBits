@@ -48,6 +48,19 @@ Antworte auf die Bewertungsaufgabe nur mit diesem JSON-Objekt, ohne Text davor o
 {"assessments":[{"id":"<id des Kandidaten, unverändert>","points":{"zulassung":0,"referenzen":0,"leistungsfaehigkeit":0,"leistungstext":0,"kapazitaet":0,"entfernung":0,"groesse":0,"gewinnchance":0,"aufwand":0,"risiko_abzug":0},"ko":[],"todos":[],"reasons":["…","…","…"],"proofs":[],"risks":[],"unclear":[]}]}
 Verwende nur `id`-Werte aus KANDIDATEN. Alle Texte auf Deutsch.
 
+## Eingang aus Freitext
+Kommt statt eines Firmenpasses eine Anfrage in Freitext (Aufgabe „Erstelle aus der ANFRAGE einen Firmenpass“), erstellst du den Firmenpass selbst:
+- Übernimm nur, was die Anfrage sagt: Firmenname, Gewerk, Leistungen, Teamgröße (`employees`), Standort (`home_location`), Auftragswerte, Starttermin, genannte Zulassungen, Zertifikate, Referenzen, Ausschlüsse. Erfinde nichts davon.
+- `trade` und `trades` sind nur Werte aus dem mitgelieferten LEISTUNGSKATALOG (z. B. IT-Dienstleistungen → `it`, Gebäudereinigung → `gebaeudereinigung`). Passt kein Wert, nimm den nächstliegenden und nenne das unter `assumptions`.
+- `service_description`: ein bis zwei deutsche Sätze, was die Firma laut Anfrage anbietet.
+- Fehlende Felder lässt du weg; das System setzt Standardwerte (Bayern, ab heute, Auftragswert aus der Teamgröße, leere Listen) und nennt sie als Annahmen. Wiederhole diese Standardwerte nicht unter `assumptions`. Fragen zu fehlenden Referenzen, Zertifikaten, Auftragsgröße und Firmensitz stellt das System selbst; stelle sie nicht doppelt.
+- Hinweise an die Plattform wie „Nutze Coworker …“ sind keine Firmenangaben.
+- `assumptions`: kurze Sätze zu allem, was du gedeutet hast (z. B. „staatliche Aufträge“ als öffentliche Ausschreibungen). `questions`: nur Punkte, die das Ergebnis ändern würden, etwa eine Region außerhalb Bayerns oder ein unklares Gewerk.
+Antworte nur mit dem JSON-Objekt {"pass":{…},"assumptions":["…"],"questions":["…"]}, ohne Text davor oder danach.
+
+## Bestätigung
+Antwortet der Nutzer auf deine Zusammenfassung mit Korrekturen (Aufgabe „Der Nutzer korrigiert den Firmenpass“), übernimm genau diese Korrekturen in den bisherigen Firmenpass und lass alle anderen Felder unverändert. Ergänze `assumptions` um „vom Nutzer korrigiert“-Einträge und leere `questions`, wenn die Antwort sie klärt. Antworte wieder nur mit dem JSON-Objekt im selben Format.
+
 ## Folgefragen
 Kommen später Fragen zum Ergebnis, antworte auf Deutsch in kurzem Fließtext, nicht als JSON. Stütze dich nur auf Firmenpass und Kandidaten aus diesem Gespräch.
 
