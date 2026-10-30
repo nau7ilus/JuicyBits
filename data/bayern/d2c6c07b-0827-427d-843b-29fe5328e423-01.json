@@ -1,0 +1,235 @@
+{
+ "id": "d2c6c07b-0827-427d-843b-29fe5328e423-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "d2c6c07b-0827-427d-843b-29fe5328e423",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d2c6c07b-0827-427d-843b-29fe5328e423",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:d2c6c07b-0827-427d-843b-29fe5328e423-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:d2c6c07b-0827-427d-843b-29fe5328e423-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d2c6c07b-0827-427d-843b-29fe5328e423?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Spezialbaumeister",
+  "buyer": "Staatliches Bauamt Ingolstadt",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "DE211",
+   "DE219"
+  ],
+  "deadline": "2026-11-12T09:45:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4244d99a-c0d2-4e83-8464-bb83b0e7d301",
+  "id": "d2c6c07b-0827-427d-843b-29fe5328e423",
+  "date": "2026-10-18T09:38:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Ingolstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0991208-91",
+     "legalName": "Staatliches Bauamt Ingolstadt"
+    },
+    "address": {
+     "streetAddress": "Elbrachtstr. 20",
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Süd",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Süd"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Ingolstadt-Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:084193460",
+     "legalName": "Staatliches Bauamt Ingolstadt-Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Elbrachtstr. 20",
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Ingolstadt",
+   "id": "09-0991208-91",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Ingolstadt"
+   },
+   "address": {
+    "streetAddress": "Elbrachtstr. 20",
+    "locality": "Ingolstadt",
+    "region": "DE211",
+    "postalCode": "85049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4244d99a-c0d2-4e83-8464-bb83b0e7d301",
+   "title": "Spezialbaumeister",
+   "description": "- Entfernen von schadhaften Verfugungen aus Kalk- und Zementmörtel, losen Zwickern und sonstigen \nVerschmutzung \n- Handsanierungen von geöffneten Rissen und Fugen im Mauerwerkswänden und Gewölbe \n- Kernbohrungen und Setzen von Mauer- und Nadelankern \n- Verpressarbeiten über Einpressstutzen \n- Kraftschlüssiges Ausmauern von Fehlstellen im Mauerwerk \n- 17 Stk Verankerung mittels im Mauerwerk eingelassene Ankerplatte \n- 4 Stk Verankerung als Sacklochanker mittels vorverpresster Ankerstrecke \n- 10 Kontrollöffnungen der Endverankerungsstrecke der Sacklochanker \n- Gewölbesanierung mit Einbau von Zugverankerungen, Maueranker \n- Ca. 200 Stk. Einbau der Ankerplatte und das Anziehen der Muttern für Flacheisen-Verankerung von \nBalken der Holzbalkendecken in der Mauer, um die Stabilität und Sicherheit des Tragwerks \nherzustellen (Sanierung der Holzbalkendecken erfolgt bauseits)",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "deliveryAddress": {
+      "locality": "Eichstätt",
+      "region": "DE219",
+      "postalCode": "85072",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303940",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Spezialbaumeister",
+     "description": "- Entfernen von schadhaften Verfugungen aus Kalk- und Zementmörtel, losen Zwickern und sonstigen \nVerschmutzung \n- Handsanierungen von geöffneten Rissen und Fugen im Mauerwerkswänden und Gewölbe \n- Kernbohrungen und Setzen von Mauer- und Nadelankern \n- Verpressarbeiten über Einpressstutzen \n- Kraftschlüssiges Ausmauern von Fehlstellen im Mauerwerk \n- 17 Stk Verankerung mittels im Mauerwerk eingelassene Ankerplatte \n- 4 Stk Verankerung als Sacklochanker mittels vorverpresster Ankerstrecke \n- 10 Kontrollöffnungen der Endverankerungsstrecke der Sacklochanker \n- Gewölbesanierung mit Einbau von Zugverankerungen, Maueranker \n- Ca. 200 Stk. Einbau der Ankerplatte und das Anziehen der Muttern für Flacheisen-Verankerung von \nBalken der Holzbalkendecken in der Mauer, um die Stabilität und Sicherheit des Tragwerks \nherzustellen (Sanierung der Holzbalkendecken erfolgt bauseits)\n\nSachkunde:\nMindestens 3 Referenzen zu bereits ausgeführten Denkmalschutzprojekten \n(siehe hierzu die im LV dargestellte „Objektbeschreibung“) vergleichbarer \nSchwierigkeit in den letzten 8 Jahren",
+     "contractPeriod": {
+      "startDate": "2027-03-19T00:00:00+01:00",
+      "endDate": "2029-04-25T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "727406-2025",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "727406-2025"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d2c6c07b-0827-427d-843b-29fe5328e423",
+  "version": "01",
+  "title": "Spezialbaumeister",
+  "description": "- Entfernen von schadhaften Verfugungen aus Kalk- und Zementmörtel, losen Zwickern und sonstigen \nVerschmutzung \n- Handsanierungen von geöffneten Rissen und Fugen im Mauerwerkswänden und Gewölbe \n- Kernbohrungen und Setzen von Mauer- und Nadelankern \n- Verpressarbeiten über Einpressstutzen \n- Kraftschlüssiges Ausmauern von Fehlstellen im Mauerwerk \n- 17 Stk Verankerung mittels im Mauerwerk eingelassene Ankerplatte \n- 4 Stk Verankerung als Sacklochanker mittels vorverpresster Ankerstrecke \n- 10 Kontrollöffnungen der Endverankerungsstrecke der Sacklochanker \n- Gewölbesanierung mit Einbau von Zugverankerungen, Maueranker \n- Ca. 200 Stk. Einbau der Ankerplatte und das Anziehen der Muttern für Flacheisen-Verankerung von \nBalken der Holzbalkendecken in der Mauer, um die Stabilität und Sicherheit des Tragwerks \nherzustellen (Sanierung der Holzbalkendecken erfolgt bauseits)",
+  "procedureType": "open",
+  "nuts": [
+   "DE219"
+  ],
+  "cpv": [
+   "45000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Spezialbaumeister",
+    "description": "- Entfernen von schadhaften Verfugungen aus Kalk- und Zementmörtel, losen Zwickern und sonstigen \nVerschmutzung \n- Handsanierungen von geöffneten Rissen und Fugen im Mauerwerkswänden und Gewölbe \n- Kernbohrungen und Setzen von Mauer- und Nadelankern \n- Verpressarbeiten über Einpressstutzen \n- Kraftschlüssiges Ausmauern von Fehlstellen im Mauerwerk \n- 17 Stk Verankerung mittels im Mauerwerk eingelassene Ankerplatte \n- 4 Stk Verankerung als Sacklochanker mittels vorverpresster Ankerstrecke \n- 10 Kontrollöffnungen der Endverankerungsstrecke der Sacklochanker \n- Gewölbesanierung mit Einbau von Zugverankerungen, Maueranker \n- Ca. 200 Stk. Einbau der Ankerplatte und das Anziehen der Muttern für Flacheisen-Verankerung von \nBalken der Holzbalkendecken in der Mauer, um die Stabilität und Sicherheit des Tragwerks \nherzustellen (Sanierung der Holzbalkendecken erfolgt bauseits)\n\nSachkunde:\nMindestens 3 Referenzen zu bereits ausgeführten Denkmalschutzprojekten \n(siehe hierzu die im LV dargestellte „Objektbeschreibung“) vergleichbarer \nSchwierigkeit in den letzten 8 Jahren",
+    "cpv": [
+     "45000000"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": "2026-11-12T09:45:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-19+01:00",
+    "plannedEnd": "2029-04-25+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind. \n\nMindestens 3 Referenzen zu bereits ausgeführten Denkmalschutzprojekten (siehe hierzu die im LV dargestellte „Objektbeschreibung“) vergleichbarer Schwierigkeit in den letzten 8 Jahren"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

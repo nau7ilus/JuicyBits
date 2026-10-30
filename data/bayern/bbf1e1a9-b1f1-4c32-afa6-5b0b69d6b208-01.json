@@ -1,0 +1,191 @@
+{
+ "id": "bbf1e1a9-b1f1-4c32-afa6-5b0b69d6b208-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "bbf1e1a9-b1f1-4c32-afa6-5b0b69d6b208",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bbf1e1a9-b1f1-4c32-afa6-5b0b69d6b208",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:bbf1e1a9-b1f1-4c32-afa6-5b0b69d6b208-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:bbf1e1a9-b1f1-4c32-afa6-5b0b69d6b208-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bbf1e1a9-b1f1-4c32-afa6-5b0b69d6b208?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "RV zum Kauf und Installation von Bandlaufwerken der Firma IBM",
+  "buyer": "Bayerischer Rundfunk A.d.ö.R.",
+  "cpv": [
+   "30230000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE300"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-33f9c652-74ef-46e5-8023-a2a9a0bb62b7",
+  "id": "bbf1e1a9-b1f1-4c32-afa6-5b0b69d6b208",
+  "date": "2026-10-22T02:08:31Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerischer Rundfunk A.d.ö.R.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129523494",
+     "legalName": "Bayerischer Rundfunk A.d.ö.R."
+    },
+    "address": {
+     "streetAddress": "Rundfunkplatz 1",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80335",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern  Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern  Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerischer Rundfunk A.d.ö.R.",
+   "id": "DE129523494",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerischer Rundfunk A.d.ö.R."
+   },
+   "address": {
+    "streetAddress": "Rundfunkplatz 1",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80335",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "33f9c652-74ef-46e5-8023-a2a9a0bb62b7",
+   "title": "RV zum Kauf und Installation von Bandlaufwerken der Firma IBM",
+   "description": "Rahmenvereinbarung zum Kauf und zur Installation von IBM-Jaguar-6-Bandlaufwerken der Firma IBM.",
+   "procuringEntity": {
+    "name": "Bayerischer Rundfunk A.d.ö.R.",
+    "id": "DE129523494"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30230000",
+      "description": "Computer-related equipment"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Rundfunkplatz 1",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80335",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "RV zum Kauf und Installation von Bandlaufwerken der Firma IBM",
+     "description": "Ziel der Ausschreibung ist der Abschluss einer Rahmenvereinbarung für den Bayerischen Rundfunk (BR).\nBezugsberechtigt ist auch der Rundfunk Berlin Brandenburg (RBB).\nAusgeschrieben werden ausschließlich IBM-Jaguar-6-Bandlaufwerke Modell\nTS1160 / 3592-60F inklusive 60 Monate Wartung sowie Einbau und Montage vor Ort.\n\nDas Höchstabnahmevolumen innerhalb der 24-monatigen Rahmenvertragslaufzeit beträgt 72 Stück.",
+     "contractPeriod": {
+      "startDate": "2026-10-26T00:00:00+01:00",
+      "endDate": "2028-10-25T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "bbf1e1a9-b1f1-4c32-afa6-5b0b69d6b208",
+  "version": "01",
+  "title": "RV zum Kauf und Installation von Bandlaufwerken der Firma IBM",
+  "description": "Rahmenvereinbarung zum Kauf und zur Installation von IBM-Jaguar-6-Bandlaufwerken der Firma IBM.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212",
+   "DE300"
+  ],
+  "cpv": [
+   "30230000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "RV zum Kauf und Installation von Bandlaufwerken der Firma IBM",
+    "description": "Ziel der Ausschreibung ist der Abschluss einer Rahmenvereinbarung für den Bayerischen Rundfunk (BR).\nBezugsberechtigt ist auch der Rundfunk Berlin Brandenburg (RBB).\nAusgeschrieben werden ausschließlich IBM-Jaguar-6-Bandlaufwerke Modell\nTS1160 / 3592-60F inklusive 60 Monate Wartung sowie Einbau und Montage vor Ort.\n\nDas Höchstabnahmevolumen innerhalb der 24-monatigen Rahmenvertragslaufzeit beträgt 72 Stück.",
+    "cpv": [
+     "30230000"
+    ],
+    "nuts": [
+     "DE212",
+     "DE300"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-26+01:00",
+    "plannedEnd": "2028-10-25+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

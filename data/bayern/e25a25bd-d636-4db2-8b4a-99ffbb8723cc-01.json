@@ -5,14 +5,14 @@
   "noticeId": "e25a25bd-d636-4db2-8b4a-99ffbb8723cc",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e25a25bd-d636-4db2-8b4a-99ffbb8723cc",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:e25a25bd-d636-4db2-8b4a-99ffbb8723cc-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:e25a25bd-d636-4db2-8b4a-99ffbb8723cc-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/e25a25bd-d636-4db2-8b4a-99ffbb8723cc?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Realschule Simbach BA 3, Malerarbeiten",
   "buyer": "Landkreis Rottal-Inn",
   "cpv": [
@@ -198,5 +198,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e25a25bd-d636-4db2-8b4a-99ffbb8723cc",
+  "version": "01",
+  "title": "Realschule Simbach BA 3, Malerarbeiten",
+  "description": "ca. 250 m2 Anstrich auf Gipskarton ca. 5000 m2 Imprägnierung auf Holz ca. 350 m2 Betonlasur",
+  "procedureType": "open",
+  "nuts": [
+   "DE22A"
+  ],
+  "cpv": [
+   "45442100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Realschule Simbach BA 3, Malerarbeiten",
+    "description": "ca. 250 m2 Anstrich auf Gipskarton ca. 5000 m2 Imprägnierung auf Holz ca. 350 m2 Betonlasur",
+    "cpv": [
+     "45442100"
+    ],
+    "nuts": [
+     "DE22A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-02+01:00",
+    "plannedEnd": "2027-09-24+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis gilt als alleiniges Wertungskriterium.",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

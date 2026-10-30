@@ -5,14 +5,14 @@
   "noticeId": "9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "planning"
   ],
-  "noticeType": null,
+  "noticeType": "PriorInformationNotice",
   "title": "MVV Flex",
   "buyer": "Landratsamt Rosenheim",
   "cpv": [
@@ -122,5 +122,43 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "PriorInformationNotice",
+  "noticeSubType": "4",
+  "noticeId": "9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6",
+  "version": "01",
+  "title": "MVV Flex",
+  "description": "On demand Verkehr (bedarfsgesteuert) mit Kfz in den Gemeinden Bad Endorf, Bernau, Breitbrunn, Eggstätt, Frasdorf, Gstadt am Chiemsee, Höslwang, Prien am Chiemsee, Rimsting mit einer Haltestelle in Aschau i. Chiemgau",
+  "procedureType": null,
+  "nuts": [
+   "DE213"
+  ],
+  "cpv": [
+   "60112000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "PAR-0001",
+    "title": "MVV Flex",
+    "description": "On demand Verkehr (bedarfsgesteuert) mit Kfz in den Gemeinden Bad Endorf, Bernau, Breitbrunn, Eggstätt, Frasdorf, Gstadt am Chiemsee, Höslwang, Prien am Chiemsee, Rimsting mit einer Haltestelle in Aschau i. Chiemgau",
+    "cpv": [
+     "60112000"
+    ],
+    "nuts": [
+     "DE213"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

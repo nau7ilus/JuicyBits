@@ -1,0 +1,233 @@
+{
+ "id": "4d24b033-53b1-4031-a6ac-681875d3d0d5-02",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "4d24b033-53b1-4031-a6ac-681875d3d0d5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4d24b033-53b1-4031-a6ac-681875d3d0d5",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:4d24b033-53b1-4031-a6ac-681875d3d0d5-02.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:4d24b033-53b1-4031-a6ac-681875d3d0d5-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4d24b033-53b1-4031-a6ac-681875d3d0d5?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Rasterelektronenmikroskop",
+  "buyer": "Fraunhofer UMSICHT",
+  "cpv": [
+   "38511100"
+  ],
+  "nuts": [
+   "DE234"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-47ab5300-d643-41ae-bb45-cb74fe97c951",
+  "id": "4d24b033-53b1-4031-a6ac-681875d3d0d5",
+  "date": "2026-10-21T02:10:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer UMSICHT",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "11397",
+     "legalName": "Fraunhofer UMSICHT"
+    },
+    "address": {
+     "streetAddress": "An der Maxhütte 1",
+     "locality": "Sulzbach-Rosenberg",
+     "region": "DE234",
+     "postalCode": "92237",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "9bf16224-5605-427b-ba3a-8b44f7c28f42",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Tescan GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE124904551",
+     "legalName": "Tescan GmbH"
+    },
+    "address": {
+     "locality": "Dortmund",
+     "region": "DEA52",
+     "postalCode": "44319",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer UMSICHT",
+   "id": "11397",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Fraunhofer UMSICHT"
+   },
+   "address": {
+    "streetAddress": "An der Maxhütte 1",
+    "locality": "Sulzbach-Rosenberg",
+    "region": "DE234",
+    "postalCode": "92237",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "47ab5300-d643-41ae-bb45-cb74fe97c951",
+   "title": "Rasterelektronenmikroskop",
+   "description": "Das Fraunhofer-Institut für Umwelt-, Sicherheit-, und Energietechnik (UMSICHT), Institutsteil Sulzbach-Rosenberg  benötigt ein Rasterelektronenmikroskop (REM) für die Charakterisierung katalytischer Komponenten und \nStrukturuntersuchung von Kohlenstoff- und Metallpulvern.",
+   "procuringEntity": {
+    "name": "Fraunhofer UMSICHT",
+    "id": "11397"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38511100",
+      "description": "Scanning electron microscopes"
+     },
+     "deliveryAddress": {
+      "region": "DE234",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Tescan GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Tescan GmbH"
+     },
+     "address": {
+      "locality": "Dortmund",
+      "region": "DEA52",
+      "postalCode": "44319",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rasterelektronenmikroskop",
+     "description": "Das Fraunhofer-Institut für Umwelt-, Sicherheit-, und Energietechnik (UMSICHT), Institutsteil Sulzbach-Rosenberg  benötigt ein Rasterelektronenmikroskop (REM) für die Charakterisierung katalytischer Komponenten und \nStrukturuntersuchung von Kohlenstoff- und Metallpulvern."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-06T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 243746.33,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-05T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "4d24b033-53b1-4031-a6ac-681875d3d0d5",
+  "version": "02",
+  "title": "Rasterelektronenmikroskop",
+  "description": "Das Fraunhofer-Institut für Umwelt-, Sicherheit-, und Energietechnik (UMSICHT), Institutsteil Sulzbach-Rosenberg  benötigt ein Rasterelektronenmikroskop (REM) für die Charakterisierung katalytischer Komponenten und \nStrukturuntersuchung von Kohlenstoff- und Metallpulvern.",
+  "procedureType": "open",
+  "nuts": [
+   "DE234"
+  ],
+  "cpv": [
+   "38511100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rasterelektronenmikroskop",
+    "description": "Das Fraunhofer-Institut für Umwelt-, Sicherheit-, und Energietechnik (UMSICHT), Institutsteil Sulzbach-Rosenberg  benötigt ein Rasterelektronenmikroskop (REM) für die Charakterisierung katalytischer Komponenten und \nStrukturuntersuchung von Kohlenstoff- und Metallpulvern.",
+    "cpv": [
+     "38511100"
+    ],
+    "nuts": [
+     "DE234"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

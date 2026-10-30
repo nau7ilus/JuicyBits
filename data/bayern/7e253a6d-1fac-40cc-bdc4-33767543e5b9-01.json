@@ -1,0 +1,324 @@
+{
+ "id": "7e253a6d-1fac-40cc-bdc4-33767543e5b9-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "7e253a6d-1fac-40cc-bdc4-33767543e5b9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7e253a6d-1fac-40cc-bdc4-33767543e5b9",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:7e253a6d-1fac-40cc-bdc4-33767543e5b9-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:7e253a6d-1fac-40cc-bdc4-33767543e5b9-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7e253a6d-1fac-40cc-bdc4-33767543e5b9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "MDAS Shared Mobility (Los 2)",
+  "buyer": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement",
+  "cpv": [
+   "72000000",
+   "72260000",
+   "72263000",
+   "72268000",
+   "63712710",
+   "34970000",
+   "72322000",
+   "72500000",
+   "72265000",
+   "72261000",
+   "72222300",
+   "38221000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7f9f4315-9bc7-4a19-9ed5-550fbe1e5159",
+  "id": "7e253a6d-1fac-40cc-bdc4-33767543e5b9",
+  "date": "2026-10-23T02:08:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID: 09162 000-40",
+     "legalName": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement"
+    },
+    "address": {
+     "streetAddress": "Agnes-Pockels-Bogen 33",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80992",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement",
+   "id": "Leitweg-ID: 09162 000-40",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement"
+   },
+   "address": {
+    "streetAddress": "Agnes-Pockels-Bogen 33",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80992",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7f9f4315-9bc7-4a19-9ed5-550fbe1e5159",
+   "title": "MDAS Shared Mobility (Los 2)",
+   "description": "Auftragsgegenstand ist die Ermöglichung der Nutzung von einer Fachanwendung in Form einer SaaS-Lösung für das Mobilitätsreferat zur Speicherung, Aufbereitung, Auswertung und Darstellung von Daten zur Shared Mobility",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement",
+    "id": "Leitweg-ID: 09162 000-40"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000",
+      "description": "IT services: consulting, software development, Internet and support"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72260000",
+       "description": "Software-related services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72263000",
+       "description": "Software implementation services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72268000",
+       "description": "Software supply services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "63712710",
+       "description": "Traffic monitoring services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34970000",
+       "description": "Traffic-monitoring equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72322000",
+       "description": "Data management services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72500000",
+       "description": "Computer-related services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72265000",
+       "description": "Software configuration services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72261000",
+       "description": "Software support services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72222300",
+       "description": "Information technology services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "38221000",
+       "description": "Geographic information systems (GIS or equivalent)"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "Stadtgebiet München",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 603640,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a0b34dce44-353ec02bc22280e7",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "MDAS Shared Mobility (Los 2)",
+     "description": "Der Auftragsgegenstand beinhaltet folgende Leistungen:\n\na) Lizenzen\n66 Lizenzen für unterschiedliche Rollen (siehe Kapitel 3.1. \"Rollen und Berechtigungskonzept\" der Leistungsbeschreibung) für eine Maximallaufzeit von 96 Monaten (der Auftraggeber kann den Vertrag jedoch mit einer Frist von 3 Monaten bereits und nur zum Ablauf des vierten Vertragsjahres ordentlich kündigen), ab Abnahme des Gesamtsystems durch den Auftraggeber. Die Lizenz beinhaltet den Service und die Pflege.\n\nb) Herbeiführung der Betriebsbereitschaft der Fachanwendung\nDer Auftragnehmer ist für die Herbeiführung der Betriebsbereitschaft verantwortlich. \nDiese umfasst schwerpunktmäßig:\n· Einspielen von historischen und aktuellen Mobilitätsdaten der LHM \n· Bereitstellen von zusätzlichen Daten der Shared Mobility Anbieter, mit welchen der Auftraggeber in einer Vertragsbeziehung steht\n· Inbetriebnahme der Schnittstellen \n· Umsetzung der Anforderungen zu Shared Mobility gemäß Kapitel 3 und 5 der Leistungsbeschreibung\n· Bereitstellung der Fachanwendung, inklusive der Zugänge für die jeweiligen Anwender*innen \n· Erforderliche Anpassungen/Customizing, Konfigurationen und ggf. Erweiterungen sofern nicht in der Standard-Fachanwendung enthalten \n     o Rahmenbedingungen siehe Kapitel 2.2.2 \"Rahmenbedingungen hinsichtlich auftraggeberspezifischen Erweiterungen\" der Leistungsbeschreibung\n     o zur Umsetzung der Anforderungen siehe Kapitel 3 \"Allgemeine Anforderungen Los-Übergreifend\" der Leistungsbeschreibung\n     o zur Umsetzung der Anforderungen zur Shared Mobility siehe Kapitel 5 \"Anforderungen Los 2: Shared Mobility\" der Leistungsbeschreibung\n· Bereitstellung der Fachanwendung gemäß der geforderten Performance \n· Unterstützung der Tests und Fehlerbehebung der Fachanwendung\n· Erforderliche Lizenzen/Zugänge zur Testumgebung vor einer Abnahme \n· Unterstützung der Einführung: Go-live, Early-Life-Support\n· Bereitstellung von Dokumentation \n· Gewährleistung des Supports, sowohl fachlich wie auch technisch\n· Unterstützung durch eine*n Fachspezialist*in \n\t\nc) Betrieb der Fachanwendung\n· Weitere Unterstützungsleistungen auf Abruf von ca. 80 Personenstunden pro Jahr während der gesamten Vertragslaufzeit.\nDazu gehört bspw. zusätzliches Customizing, wie Auftraggeber-spezifische Anpassungen einer Darstellung oder Erweiterung des Datenmodells, Integration weiterer bzw. geänderte Sharing-Anbieter, Umsetzung von Change Requests. Die weiteren Unterstützungsleistungen sind ab Abnahme des Gesamtsystems bis zum Ende der Vertragslaufzeit zur Verfügung zu stellen und müssen stundenweise abrufbar sein.\n· Unterstützung durch eine*n Fachspezialist*in \n· Bereitstellung von Service und Pflege der Fachanwendung (siehe Kapitel 3.5.1 \"Betriebsanforderungen inkl. Wiederherstellung\" und EVB-IT-Cloud-AGB und Anhang \"IT-Infrastruktur, Supportprozesse und SLA für die Vergabe von SaaS-Fachanwendungen\" Kapitel 5 \"Support Prozesse\" und Kapitel 6 \"Service Levels\")\n· Unterstützung der Exit-Strategie \n\nd) Anwender*innen Schulung\nSchulung der Anwender*innen in der Fachanwendung inklusive der Erstellung der erforderlichen Schulungsunterlagen",
+     "value": {
+      "amount": 967368,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 2880
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "7e253a6d-1fac-40cc-bdc4-33767543e5b9",
+  "version": "01",
+  "title": "MDAS Shared Mobility (Los 2)",
+  "description": "Auftragsgegenstand ist die Ermöglichung der Nutzung von einer Fachanwendung in Form einer SaaS-Lösung für das Mobilitätsreferat zur Speicherung, Aufbereitung, Auswertung und Darstellung von Daten zur Shared Mobility",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72000000",
+   "72260000",
+   "72263000",
+   "72268000",
+   "63712710",
+   "34970000",
+   "72322000",
+   "72500000",
+   "72265000",
+   "72261000",
+   "72222300",
+   "38221000"
+  ],
+  "estimatedValue": {
+   "amount": 603640,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "MDAS Shared Mobility (Los 2)",
+    "description": "Der Auftragsgegenstand beinhaltet folgende Leistungen:\n\na) Lizenzen\n66 Lizenzen für unterschiedliche Rollen (siehe Kapitel 3.1. \"Rollen und Berechtigungskonzept\" der Leistungsbeschreibung) für eine Maximallaufzeit von 96 Monaten (der Auftraggeber kann den Vertrag jedoch mit einer Frist von 3 Monaten bereits und nur zum Ablauf des vierten Vertragsjahres ordentlich kündigen), ab Abnahme des Gesamtsystems durch den Auftraggeber. Die Lizenz beinhaltet den Service und die Pflege.\n\nb) Herbeiführung der Betriebsbereitschaft der Fachanwendung\nDer Auftragnehmer ist für die Herbeiführung der Betriebsbereitschaft verantwortlich. \nDiese umfasst schwerpunktmäßig:\n· Einspielen von historischen und aktuellen Mobilitätsdaten der LHM \n· Bereitstellen von zusätzlichen Daten der Shared Mobility Anbieter, mit welchen der Auftraggeber in einer Vertragsbeziehung steht\n· Inbetriebnahme der Schnittstellen \n· Umsetzung der Anforderungen zu Shared Mobility gemäß Kapitel 3 und 5 der Leistungsbeschreibung\n· Bereitstellung der Fachanwendung, inklusive der Zugänge für die jeweiligen Anwender*innen \n· Erforderliche Anpassungen/Customizing, Konfigurationen und ggf. Erweiterungen sofern nicht in der Standard-Fachanwendung enthalten \n     o Rahmenbedingungen siehe Kapitel 2.2.2 \"Rahmenbedingungen hinsichtlich auftraggeberspezifischen Erweiterungen\" der Leistungsbeschreibung\n     o zur Umsetzung der Anforderungen siehe Kapitel 3 \"Allgemeine Anforderungen Los-Übergreifend\" der Leistungsbeschreibung\n     o zur Umsetzung der Anforderungen zur Shared Mobility siehe Kapitel 5 \"Anforderungen Los 2: Shared Mobility\" der Leistungsbeschreibung\n· Bereitstellung der Fachanwendung gemäß der geforderten Performance \n· Unterstützung der Tests und Fehlerbehebung der Fachanwendung\n· Erforderliche Lizenzen/Zugänge zur Testumgebung vor einer Abnahme \n· Unterstützung der Einführung: Go-live, Early-Life-Support\n· Bereitstellung von Dokumentation \n· Gewährleistung des Supports, sowohl fachlich wie auch technisch\n· Unterstützung durch eine*n Fachspezialist*in \n\t\nc) Betrieb der Fachanwendung\n· Weitere Unterstützungsleistungen auf Abruf von ca. 80 Personenstunden pro Jahr während der gesamten Vertragslaufzeit.\nDazu gehört bspw. zusätzliches Customizing, wie Auftraggeber-spezifische Anpassungen einer Darstellung oder Erweiterung des Datenmodells, Integration weiterer bzw. geänderte Sharing-Anbieter, Umsetzung von Change Requests. Die weiteren Unterstützungsleistungen sind ab Abnahme des Gesamtsystems bis zum Ende der Vertragslaufzeit zur Verfügung zu stellen und müssen stundenweise abrufbar sein.\n· Unterstützung durch eine*n Fachspezialist*in \n· Bereitstellung von Service und Pflege der Fachanwendung (siehe Kapitel 3.5.1 \"Betriebsanforderungen inkl. Wiederherstellung\" und EVB-IT-Cloud-AGB und Anhang \"IT-Infrastruktur, Supportprozesse und SLA für die Vergabe von SaaS-Fachanwendungen\" Kapitel 5 \"Support Prozesse\" und Kapitel 6 \"Service Levels\")\n· Unterstützung der Exit-Strategie \n\nd) Anwender*innen Schulung\nSchulung der Anwender*innen in der Fachanwendung inklusive der Erstellung der erforderlichen Schulungsunterlagen",
+    "cpv": [
+     "72000000",
+     "72260000",
+     "72263000",
+     "72268000",
+     "63712710",
+     "34970000",
+     "72322000",
+     "72500000",
+     "72265000",
+     "72261000",
+     "72222300",
+     "38221000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-24T12:00:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 96,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 967368,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Beschreibung zu diesem Eignungskriterium sowie zu allen anderen Eignungskriterien und vorzulegenden Eignungsnachweisen sind vollständig in dem Dokument \"Fragebogen zur Eignungspruefung.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0b34dce44-353ec02bc22280e7\nAlle geforderten Eigenerklärungen, Angaben, Bescheinigungen und sonstige Nachweise sind mit dem Teilnahmeantrag einzureichen. Dasselbe gilt für alle Unterlagen im Rahmen der Eignungsleihe."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Die Beschreibung zu diesem Eignungskriterium sowie zu allen anderen Eignungskriterien und vorzulegenden Eignungsnachweisen sind vollständig in dem Dokument \"Fragebogen zur Eignungspruefung.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0b34dce44-353ec02bc22280e7\nAlle geforderten Eigenerklärungen, Angaben, Bescheinigungen und sonstige Nachweise sind mit dem Teilnahmeantrag einzureichen. Dasselbe gilt für alle Unterlagen im Rahmen der Eignungsleihe."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Beschreibung zu diesem Eignungskriterium sowie zu allen anderen Eignungskriterien und vorzulegenden Eignungsnachweisen sind vollständig in dem Dokument \"Fragebogen zur Eignungspruefung.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0b34dce44-353ec02bc22280e7\nAlle geforderten Eigenerklärungen, Angaben, Bescheinigungen und sonstige Nachweise sind mit dem Teilnahmeantrag einzureichen. Dasselbe gilt für alle Unterlagen im Rahmen der Eignungsleihe."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Die Beschreibung zu diesem Eignungskriterium sowie zu allen anderen Eignungskriterien und vorzulegenden Eignungsnachweisen sind vollständig in dem Dokument \"Fragebogen zur Eignungspruefung.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0b34dce44-353ec02bc22280e7\nAlle geforderten Eigenerklärungen, Angaben, Bescheinigungen und sonstige Nachweise sind mit dem Teilnahmeantrag einzureichen. Dasselbe gilt für alle Unterlagen im Rahmen der Eignungsleihe."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Die Beschreibung zu diesem Eignungskriterium sowie zu allen anderen Eignungskriterien und vorzulegenden Eignungsnachweisen sind vollständig in dem Dokument \"Fragebogen zur Eignungspruefung.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0b34dce44-353ec02bc22280e7\nAlle geforderten Eigenerklärungen, Angaben, Bescheinigungen und sonstige Nachweise sind mit dem Teilnahmeantrag einzureichen. Dasselbe gilt für alle Unterlagen im Rahmen der Eignungsleihe."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Die Beschreibung zu diesem Eignungskriterium sowie zu allen anderen Eignungskriterien und vorzulegenden Eignungsnachweisen sind vollständig in dem Dokument \"Fragebogen zur Eignungspruefung.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0b34dce44-353ec02bc22280e7\nAlle geforderten Eigenerklärungen, Angaben, Bescheinigungen und sonstige Nachweise sind mit dem Teilnahmeantrag einzureichen. Dasselbe gilt für alle Unterlagen im Rahmen der Eignungsleihe."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Der Preis ist nicht das einzige Zuschlagskriterium; alle Kriterien sind nur in den Vergabeunterlagen aufgeführt.",
+      "description": "gemäß Vergabeunterlagen",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle Kriterien sind nur in den Vergabeunterlagen aufgeführt.",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

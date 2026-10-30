@@ -1,0 +1,236 @@
+{
+ "id": "55900aac-2449-41c4-9907-fb3bab5435dd-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "55900aac-2449-41c4-9907-fb3bab5435dd",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=55900aac-2449-41c4-9907-fb3bab5435dd",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:55900aac-2449-41c4-9907-fb3bab5435dd-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:55900aac-2449-41c4-9907-fb3bab5435dd-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/55900aac-2449-41c4-9907-fb3bab5435dd?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Unterhalts-, Grund- und Sonderreinigung Brunnwiese",
+  "buyer": "Landkreis Traunstein",
+  "cpv": [
+   "90911200"
+  ],
+  "nuts": [
+   "DE21M"
+  ],
+  "deadline": "2026-11-20T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-84c41aab-8fab-4a4e-b0b2-c72d00897904",
+  "id": "55900aac-2449-41c4-9907-fb3bab5435dd",
+  "date": "2026-10-21T02:08:55Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Traunstein",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0918900000 0051 75",
+     "legalName": "Landkreis Traunstein"
+    },
+    "address": {
+     "streetAddress": "Papst-Benedikt-XVI.-Platz",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "SG 1.51 Hochbau und Bildung",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:086158440",
+     "legalName": "SG 1.51 Hochbau und Bildung"
+    },
+    "address": {
+     "streetAddress": "Papst-Benedikt-XVI.-Platz",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Traunstein",
+   "id": "0918900000 0051 75",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Traunstein"
+   },
+   "address": {
+    "streetAddress": "Papst-Benedikt-XVI.-Platz",
+    "locality": "Traunstein",
+    "region": "DE21M",
+    "postalCode": "83278",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "84c41aab-8fab-4a4e-b0b2-c72d00897904",
+   "title": "Unterhalts-, Grund- und Sonderreinigung Brunnwiese",
+   "description": "für folgende Gebäude:\nChiemgau-Gymnasium Traunstein\nTurnhalle Chiemgau-Gymnasium Traunstein\nSchule an der Traun Traunstein\nTurnhalle Schule an der Traun Traunstein",
+   "procuringEntity": {
+    "name": "Landkreis Traunstein",
+    "id": "0918900000 0051 75"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "locality": "Traunstein",
+      "region": "DE21M",
+      "postalCode": "83278",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305107",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Unterhalts-, Grund- und Sonderreinigung Brunnwiese",
+     "description": "für folgende Gebäude:\nChiemgau-Gymnasium Traunstein\nTurnhalle Chiemgau-Gymnasium Traunstein\nSchule an der Traun Traunstein\nTurnhalle Schule an der Traun Traunstein",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2029-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "55900aac-2449-41c4-9907-fb3bab5435dd",
+  "version": "01",
+  "title": "Unterhalts-, Grund- und Sonderreinigung Brunnwiese",
+  "description": "für folgende Gebäude:\nChiemgau-Gymnasium Traunstein\nTurnhalle Chiemgau-Gymnasium Traunstein\nSchule an der Traun Traunstein\nTurnhalle Schule an der Traun Traunstein",
+  "procedureType": "open",
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "90911200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Unterhalts-, Grund- und Sonderreinigung Brunnwiese",
+    "description": "für folgende Gebäude:\nChiemgau-Gymnasium Traunstein\nTurnhalle Chiemgau-Gymnasium Traunstein\nSchule an der Traun Traunstein\nTurnhalle Schule an der Traun Traunstein",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": "2026-11-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2029-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Eine Eigenerklärung zum Gesamtumsatz des Unternehmens, sowie zum Umsatz mit Gebäudereinigungsleistungen, jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, ist abzugeben. Der Mindestumsatz im Bereich Unterhaltsreinigung beträgt 250.000 € p. a. netto.(Vordruck 02) Das Nichtvorliegen von Ausschlussgründen gem. §§ 123 und 124 GWB ist mit einer Eigenerklärung nachzuweisen. (Vordruck 03) Der Bieter erklärt, dass er die Verpflichtung zur Zahlung von Steuern und Sozialabgaben, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt. (Vordruck 04)"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Der Bieter benennt mindestens drei Referenzen zu in den letzten drei Jahren erbrachten, mit dem  Ausschreibungsgegenstand nach Art und Volumen (über 100.000 € brutto) vergleichbaren  Leistungen. Die genannten Referenzen müssen eine Dienstleistungsdauer von 2 Jahren aufweisen und das Vertragsverhältnis muss aktuell noch bestehen. Referenzen, die der Bieter im Rahmen einer Tätigkeit als Nachunternehmer für ein anderes Reinigungsunternehmen erbracht hat, werden nicht anerkannt. (Vordruck 05)"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Der Bieter erklärt seine technische Leistungsfähigkeit (Mitarbeiter, Fachkunde) durch Angabe der durchschnittlichen Anzahl des beschäftigten Personals in den Jahren 2024 und 2025 und weitere Angaben zu Fachkräften. (Vordruck 06)"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Der Bieter erklärt, dass er zur Ausführung des zulassungsfreien Handwerkes gem. der Handwerksordnung Anlage B Abschnitt 1 Nr. 33 im Sinne der Leistungsbeschreibung berechtigt ist. Für die entsprechenden Arbeiten besitze der Bieter die hierfür geltenden gewerberechtlichen Voraussetzungen. Ihm ist bewusst, dass er die Leistung im eigenen Betrieb ausführen muss und nur mit Zustimmung des Auftraggebers sie an Nachunternehmer übertragen darf, die entsprechende gewerberechtliche Voraussetzungen erfüllen und die Vorgaben der Vertragsbedingungen zum Einsatz von Nachunternehmen eingehalten werden. (Vordruck 07)"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer bestehenden Betriebshaftpflichtversicherung durch Vorlage der Versicherungspolice (Kopien nicht älter als sechs Monate ausreichend) oder einer Bestätigung des Versicherers (Kopien nicht älter als sechs Monate ausreichend) mit folgenden Mindestdeckungssummen je Schadensfall:\nfür Personenschäden\t          3.000.000 €\nfür Sachschäden\t                  1.000.000 €\nfür Umweltschäden\t             500.000 €\nVermögensschäden\t         1.000.000 €\nfür Schlüsselverlustschäden  250.000 €\nDie vorgenannten Versicherungssummen müssen in einem Versicherungsjahr mindestens zweifach zur Verfügung stehen. Falls der Bewerber die Versicherungen nicht in der verlangten Höhe abgeschlossen hat, reicht ersatzweise die Bestätigung der Versicherung, dass sie im Zuschlagsfall die verlangten Deckungshöhen zusagt (Kopie nicht älter als drei Monate ausreichend)."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen, so muss er diese und den Nachunternehmer in seinem Angebot benennen. (Vordruck 8 und 9)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Darstellung Qualitätssicherung und Mängelbeseitigung",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

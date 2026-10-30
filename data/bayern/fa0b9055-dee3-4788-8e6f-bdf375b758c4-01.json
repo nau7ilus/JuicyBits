@@ -288,6 +288,8 @@
   "noticeId": "fa0b9055-dee3-4788-8e6f-bdf375b758c4",
   "version": "01",
   "title": "E-Busbeschaffung 2028",
+  "description": "15 batterieelektrisch (BEV) betriebene Elektro-Niederflurliniengelenkomnibus „eNG“ (Länge 18 m, 4-türig). Die Fahrzeuge müssen als reine Niederflurfahrzeuge barrierefrei gemäß den geltenden gesetzlichen und normativen Vorgaben ausgeführt sein, hierzu zählen insbesondere ein stufenloser Niederflureinstieg, eine Klapprampe sowie ausgewiesene Rollstuhl- und Kinderwagenstellplätze. Unter allen betrieblichen Einsatzbedingungen ist eine Mindestreichweite von 200 km im Stadtverkehr Augsburgs sicherzustellen. Die Fahrzeuge sind ausschließlich für die Depotladung über CCS-Stecker auszulegen.",
+  "procedureType": "neg-w-call",
   "nuts": [
    "DE271"
   ],
@@ -301,6 +303,7 @@
    {
     "id": "LOT-0001",
     "title": "E-Busbeschaffung 2028",
+    "description": "15 batterieelektrisch (BEV) betriebene Elektro-Niederflurliniengelenkomnibus „eNG“ (Länge 18 m, 4-türig). Die Fahrzeuge müssen als reine Niederflurfahrzeuge barrierefrei gemäß den geltenden gesetzlichen und normativen Vorgaben ausgeführt sein, hierzu zählen insbesondere ein stufenloser Niederflureinstieg, eine Klapprampe sowie ausgewiesene Rollstuhl- und Kinderwagenstellplätze. Unter allen betrieblichen Einsatzbedingungen ist eine Mindestreichweite von 200 km im Stadtverkehr Augsburgs sicherzustellen. Die Fahrzeuge sind ausschließlich für die Depotladung über CCS-Stecker auszulegen.",
     "cpv": [
      "34144910",
      "34121100",
@@ -313,9 +316,31 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "LCC-Kosten-Bewertung",
+      "weight": 55
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Lastenheft (Technik)",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Vertragsbedingungen",
+      "weight": 20
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

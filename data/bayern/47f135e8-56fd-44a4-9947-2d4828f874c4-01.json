@@ -5,14 +5,14 @@
   "noticeId": "47f135e8-56fd-44a4-9947-2d4828f874c4",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=47f135e8-56fd-44a4-9947-2d4828f874c4",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:47f135e8-56fd-44a4-9947-2d4828f874c4-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:47f135e8-56fd-44a4-9947-2d4828f874c4-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/47f135e8-56fd-44a4-9947-2d4828f874c4?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Garderobenanlage",
   "buyer": "Landkreis Neustadt a.d.Waldnaab",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE237"
   ],
-  "deadline": null,
+  "deadline": "2026-11-26T10:30:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -162,5 +162,65 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "47f135e8-56fd-44a4-9947-2d4828f874c4",
+  "version": "01",
+  "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Garderobenanlage",
+  "description": "Der Landkreis Neustadt a.d.Waldnaab beabsichtigt im Rahmen des Neubaus des Hallenbades die Vergabe der Garderobenanlage, Lieferung und Montage von Schränken, Trennwänden, Kabinen und Möbel für ein Hallenbad einschließlich Zubehör\n\nLeitmassen\nGarderobenschränke 245 Stk\nWechselkabinen  14 Stk\nDuschkabinen  6 Stk\nWC Trennwände  6 Stk\nKleinmöbel\n\nDetaillierte Angaben zum Leistungsumfang sind der Leistungsbeschreibung / dem Leistungsverzeichnis sowie den weiteren Vergabeunterlagen zu entnehmen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE237"
+  ],
+  "cpv": [
+   "45421153"
+  ],
+  "estimatedValue": {
+   "amount": 289858.4,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Garderobenanlage",
+    "description": "Der Landkreis Neustadt a.d.Waldnaab beabsichtigt im Rahmen des Neubaus des Hallenbades die Vergabe der Garderobenanlage, Lieferung und Montage von Schränken, Trennwänden, Kabinen und Möbel für ein Hallenbad einschließlich Zubehör\n\nLeitmassen\nGarderobenschränke 245 Stk\nWechselkabinen  14 Stk\nDuschkabinen  6 Stk\nWC Trennwände  6 Stk\nKleinmöbel\n\nDetaillierte Angaben zum Leistungsumfang sind der Leistungsbeschreibung / dem Leistungsverzeichnis sowie den weiteren Vergabeunterlagen zu entnehmen.",
+    "cpv": [
+     "45421153"
+    ],
+    "nuts": [
+     "DE237"
+    ],
+    "deadline": "2026-11-26T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-25+01:00",
+    "plannedEnd": "2027-04-23+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/372b00a7-12dd-4212-8b25-d097ddda8ad7/suitabilitycriteria"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "ie Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B). Soweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten. \n \nSicherheitsleistung für Mängelansprüche.  Die Sicherheit für Mängelansprüche beträgt 3 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
 }

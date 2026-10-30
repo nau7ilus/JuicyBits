@@ -1,0 +1,252 @@
+{
+ "id": "955e953d-1ac5-4a31-a060-5e8d44beadd4-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "955e953d-1ac5-4a31-a060-5e8d44beadd4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=955e953d-1ac5-4a31-a060-5e8d44beadd4",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:955e953d-1ac5-4a31-a060-5e8d44beadd4-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:955e953d-1ac5-4a31-a060-5e8d44beadd4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/955e953d-1ac5-4a31-a060-5e8d44beadd4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Vergabeverfahren Unterhalts- und Grundreinigung für die Liegenschaft des Landratsamt Erlangen-Höchstadt",
+  "buyer": "Landkreis Erlangen-Höchstadt",
+  "cpv": [
+   "90911200"
+  ],
+  "nuts": [
+   "DE252"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-cfe62d88-578c-41d9-b74a-3d831ee3aa76",
+  "id": "955e953d-1ac5-4a31-a060-5e8d44beadd4",
+  "date": "2026-10-16T02:06:07Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Erlangen-Höchstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE336513878",
+     "legalName": "Landkreis Erlangen-Höchstadt"
+    },
+    "address": {
+     "streetAddress": "Nägelsbachstraße 1",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Erlangen-Höchstadt",
+   "id": "DE336513878",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Erlangen-Höchstadt"
+   },
+   "address": {
+    "streetAddress": "Nägelsbachstraße 1",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91052",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "cfe62d88-578c-41d9-b74a-3d831ee3aa76",
+   "title": "Vergabeverfahren Unterhalts- und Grundreinigung für die Liegenschaft des Landratsamt Erlangen-Höchstadt",
+   "description": "Gegenstand des Vergabeverfahrens ist die Erbringung von Unterhalts- und Grundreinigungsleistungen für die Liegenschaft des Landratsamts Erlangen-Höchstadt in Erlangen. Die Leistungen umfassen insbesondere die regelmäßige Unterhaltsreinigung der Büro- und Verwaltungsräume, Besprechungs- und Mehrzweckräume, Sanitärbereiche, Teeküchen und Sozialräume, Warte- und Verkehrsbereiche, Treppenhäuser, Aufzüge, Funktionsräume, Lager- und Archivbereiche, Untersuchungs- und Behandlungsräume, Technik- und Versorgungsräume, Werkstätten sowie der Tiefgarage einschließlich der jeweils vorgesehenen Turnusleistungen. Zum Leistungsumfang gehören ferner die vertragsgemäße Abfallentsorgung innerhalb der Liegenschaft, die Bereitstellung und der Einsatz der erforderlichen Reinigungsmaschinen, Geräte, Reinigungs-, Arbeits- und Hilfsmittel sowie die Durchführung der vorgegebenen Qualitätskontrollen und Dokumentationsleistungen. Grundreinigungen sowie weitere Regie- und Sonderreinigungsleistungen werden bei Bedarf gesondert durch den Auftraggeber beauftragt. Art, Umfang, Reinigungshäufigkeiten, Qualitätsanforderungen und Ausführungsbedingungen ergeben sich im Einzelnen aus den Vergabeunterlagen, insbesondere der Leistungsbeschreibung und der Kalkulationsdatei einschließlich Einzelraumkalkulation und Flächenverzeichnis.",
+   "procuringEntity": {
+    "name": "Landkreis Erlangen-Höchstadt",
+    "id": "DE336513878"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Nägelsbachstraße 1",
+      "locality": "Erlangen",
+      "region": "DE252",
+      "postalCode": "91052",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Restricted",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.subreport.de/E37223712",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-16T02:06:07.481Z",
+     "rationale": "Die Bekanntmachung wird hinsichtlich des Beginns der Auftragsausführung berichtigt. Anstelle des versehentlich angegebenen Vertragsbeginns 01.07.2026 gilt der 01.06.2026. Ursache ist ein redaktionelles Versehen bei Erstellung der Bekanntmachung; die Vergabeunterlagen enthalten durchgängig das zutreffende Datum 01.06.2026 und werden nicht geändert. Die Berichtigung dient allein der Herstellung der Übereinstimmung zwischen Bekanntmachung und Vergabeunterlagen. Die Fristen des Verfahrens bleiben unverändert.",
+     "description": "Die Bekanntmachung wird hinsichtlich des Beginns der Auftragsausführung berichtigt. Anstelle des versehentlich angegebenen Vertragsbeginns 01.07.2026 gilt der 01.06.2026. Ursache ist ein redaktionelles Versehen bei Erstellung der Bekanntmachung; die Vergabeunterlagen enthalten durchgängig das zutreffende Datum 01.06.2026 und werden nicht geändert. Die Berichtigung dient allein der Herstellung der Übereinstimmung zwischen Bekanntmachung und Vergabeunterlagen. Die Fristen des Verfahrens bleiben unverändert.",
+     "amendsReleaseID": "fd07f80f-fa44-4b91-b543-81f2687e84f3-01",
+     "releaseID": "955e953d-1ac5-4a31-a060-5e8d44beadd4-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Vergabeverfahren Unterhalts- und Grundreinigung für die Liegenschaft des Landratsamt Erlangen-Höchstadt",
+     "description": "Gegenstand des Loses ist die Erbringung der Unterhaltsreinigung einschließlich der vorgesehenen Turnusleistungen sowie bedarfsweise zu beauftragender Grund-, Regie- und Sonderreinigungsleistungen für die Liegenschaft des Landratsamts Erlangen-Höchstadt, Nägelsbachstraße 1, 91052 Erlangen.\n\nDie zu reinigende Liegenschaft umfasst zwei Tiefgaragengeschosse, das Erdgeschoss sowie vier Obergeschosse. Die Reinigungsflächen sind entsprechend ihrer Nutzung in unterschiedliche Raumgruppen gegliedert. Zu reinigen sind insbesondere Büro- und Verwaltungsräume, Besprechungs- und Mehrzweckräume, Sanitärbereiche, Teeküchen und Sozialräume, Wartebereiche, Flure, Foyer und Eingangsbereiche, Treppenhäuser, Aufzüge, Funktionsräume, Lager- und Archivbereiche, Untersuchungs- und Behandlungsräume, Tiefgarage und Rampe, Technik- und Versorgungsräume sowie Werkstätten.\n\nDie Leistungen umfassen abhängig von Raumart, Bodenbelag und Nutzung insbesondere die Reinigung und Pflege von Bodenflächen, Oberflächen und Einrichtungsgegenständen, die hygienische bzw. desinfizierende Reinigung hierfür vorgesehener Bereiche, die Entleerung und Reinigung von Abfall- und Wertstoffbehältern einschließlich des innerbetrieblichen Abfalltransports sowie die Durchführung der in den Vergabeunterlagen festgelegten regelmäßigen und turnusmäßigen Reinigungsleistungen.\n\nDer Auftragnehmer stellt die für die Leistungserbringung erforderlichen Reinigungsmaschinen, Geräte, Reinigungs-, Arbeits- und Hilfsmittel einschließlich der erforderlichen Abfallbeutel. Bestandteil der Leistung sind ferner die vorgegebenen Organisations-, Dokumentations- und Qualitätssicherungsmaßnahmen einschließlich des Einsatzes eines elektronischen Qualitätssicherungssystems.\n\nGrundreinigungen, Regieleistungen sowie weitere Sonderreinigungsleistungen werden entsprechend den Regelungen der Vergabeunterlagen bei Bedarf gesondert durch den Auftraggeber beauftragt.\n\nDer konkrete Leistungsumfang, die Flächen und Raumarten, Reinigungshäufigkeiten, Reinigungsverfahren, Qualitätsanforderungen und sonstigen Ausführungsbedingungen ergeben sich aus der Leistungsbeschreibung, der Einzelraumkalkulation bzw. dem Flächenverzeichnis sowie den weiteren Vergabeunterlagen.",
+     "contractPeriod": {
+      "startDate": "2027-06-01T00:00:00+02:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "955e953d-1ac5-4a31-a060-5e8d44beadd4",
+  "version": "01",
+  "title": "Vergabeverfahren Unterhalts- und Grundreinigung für die Liegenschaft des Landratsamt Erlangen-Höchstadt",
+  "description": "Gegenstand des Vergabeverfahrens ist die Erbringung von Unterhalts- und Grundreinigungsleistungen für die Liegenschaft des Landratsamts Erlangen-Höchstadt in Erlangen. Die Leistungen umfassen insbesondere die regelmäßige Unterhaltsreinigung der Büro- und Verwaltungsräume, Besprechungs- und Mehrzweckräume, Sanitärbereiche, Teeküchen und Sozialräume, Warte- und Verkehrsbereiche, Treppenhäuser, Aufzüge, Funktionsräume, Lager- und Archivbereiche, Untersuchungs- und Behandlungsräume, Technik- und Versorgungsräume, Werkstätten sowie der Tiefgarage einschließlich der jeweils vorgesehenen Turnusleistungen. Zum Leistungsumfang gehören ferner die vertragsgemäße Abfallentsorgung innerhalb der Liegenschaft, die Bereitstellung und der Einsatz der erforderlichen Reinigungsmaschinen, Geräte, Reinigungs-, Arbeits- und Hilfsmittel sowie die Durchführung der vorgegebenen Qualitätskontrollen und Dokumentationsleistungen. Grundreinigungen sowie weitere Regie- und Sonderreinigungsleistungen werden bei Bedarf gesondert durch den Auftraggeber beauftragt. Art, Umfang, Reinigungshäufigkeiten, Qualitätsanforderungen und Ausführungsbedingungen ergeben sich im Einzelnen aus den Vergabeunterlagen, insbesondere der Leistungsbeschreibung und der Kalkulationsdatei einschließlich Einzelraumkalkulation und Flächenverzeichnis.",
+  "procedureType": "restricted",
+  "nuts": [
+   "DE252"
+  ],
+  "cpv": [
+   "90911200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Vergabeverfahren Unterhalts- und Grundreinigung für die Liegenschaft des Landratsamt Erlangen-Höchstadt",
+    "description": "Gegenstand des Loses ist die Erbringung der Unterhaltsreinigung einschließlich der vorgesehenen Turnusleistungen sowie bedarfsweise zu beauftragender Grund-, Regie- und Sonderreinigungsleistungen für die Liegenschaft des Landratsamts Erlangen-Höchstadt, Nägelsbachstraße 1, 91052 Erlangen.\n\nDie zu reinigende Liegenschaft umfasst zwei Tiefgaragengeschosse, das Erdgeschoss sowie vier Obergeschosse. Die Reinigungsflächen sind entsprechend ihrer Nutzung in unterschiedliche Raumgruppen gegliedert. Zu reinigen sind insbesondere Büro- und Verwaltungsräume, Besprechungs- und Mehrzweckräume, Sanitärbereiche, Teeküchen und Sozialräume, Wartebereiche, Flure, Foyer und Eingangsbereiche, Treppenhäuser, Aufzüge, Funktionsräume, Lager- und Archivbereiche, Untersuchungs- und Behandlungsräume, Tiefgarage und Rampe, Technik- und Versorgungsräume sowie Werkstätten.\n\nDie Leistungen umfassen abhängig von Raumart, Bodenbelag und Nutzung insbesondere die Reinigung und Pflege von Bodenflächen, Oberflächen und Einrichtungsgegenständen, die hygienische bzw. desinfizierende Reinigung hierfür vorgesehener Bereiche, die Entleerung und Reinigung von Abfall- und Wertstoffbehältern einschließlich des innerbetrieblichen Abfalltransports sowie die Durchführung der in den Vergabeunterlagen festgelegten regelmäßigen und turnusmäßigen Reinigungsleistungen.\n\nDer Auftragnehmer stellt die für die Leistungserbringung erforderlichen Reinigungsmaschinen, Geräte, Reinigungs-, Arbeits- und Hilfsmittel einschließlich der erforderlichen Abfallbeutel. Bestandteil der Leistung sind ferner die vorgegebenen Organisations-, Dokumentations- und Qualitätssicherungsmaßnahmen einschließlich des Einsatzes eines elektronischen Qualitätssicherungssystems.\n\nGrundreinigungen, Regieleistungen sowie weitere Sonderreinigungsleistungen werden entsprechend den Regelungen der Vergabeunterlagen bei Bedarf gesondert durch den Auftraggeber beauftragt.\n\nDer konkrete Leistungsumfang, die Flächen und Raumarten, Reinigungshäufigkeiten, Reinigungsverfahren, Qualitätsanforderungen und sonstigen Ausführungsbedingungen ergeben sich aus der Leistungsbeschreibung, der Einzelraumkalkulation bzw. dem Flächenverzeichnis sowie den weiteren Vergabeunterlagen.",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DE252"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-09-29T10:00:00+02:00",
+    "plannedStart": "2027-06-01+02:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um ein I-Kriterium (Informationskriterien). Im Rahmen des Teilnahmeantrags sind folgende Angaben/Eigenerklärungen abzugeben: Allgemeine Unternehmensangaben und Zugehörigkeiten des Bewerbers."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um ein A-Kriterium (Ausschlusskriterien). Im Rahmen des Teilnahmeantrags sind folgende Angaben/Eigenerklärungen abzugeben: Eigenerklärung zu §§ 123, 124 GWB, ggf. Selbstreinigungsmaßnahmen, Eigenerklärung zu laufenden Verfahren, Eigenerklärung Bezug Russland, Antikorruptionserklärung, Scientology-Schutzerklärung, Erklärung zum Masernschutz."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um ein A-Kriterium (Ausschlusskriterien). Im Rahmen des Teilnahmeantrags sind folgende Angaben/Eigenerklärungen abzugeben: Eintragung in die Handwerksrolle für das zulassungsfreie Gebäudereiniger-Handwerk einschließlich Angabe der erteilenden Aufsichts- und Erlaubnisbehörde (Angabe / Erklärung der Befähigung und Erlaubnis zur Berufsausübung gemäß § 44 VgV)."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um ein A-Kriterium (Ausschlusskriterien). Im Rahmen des Teilnahmeantrags sind folgende Angaben/Eigenerklärungen abzugeben: Angaben zu Umsätzen (Angabe / Erklärung der wirtschaftlichen und finanziellen Leistungsfähigkeit gemäß § 45 VgV), insbesondere Umsatz 2025 im Bereich Reinigungsdienstleistungen, Eigenleistungsanteil 2025, Umsatz 2024 im Bereich Reinigungsdienstleistungen sowie Angaben zum Geschäftsjahr."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um ein A-Kriterium (Ausschlusskriterien). Im Rahmen des Teilnahmeantrags sind folgende Angaben/Eigenerklärungen abzugeben: Angaben zur Betriebshaftpflichtversicherung (Angabe / Erklärung der wirtschaftlichen und finanziellen Leistungsfähigkeit gemäß § 45 VgV). Mindestanforderung an den Versicherungsumfang ist eine Haftpflichtversicherung für den Leistungsbereich der Reinigungsdienstleistungen mit mindestens folgenden Deckungssummen, bei mindestens zweifacher Maximierung je Versicherungsjahr, pro Schadensereignis: 5.000.000,00 Euro für Personenschäden, 2.500.000,00 Euro für Sach- und Vermögensschäden, 1.000.000,00 Euro für Umweltschäden, 500.000,00 Euro für Bearbeitungsschäden sowie 250.000,00 Euro für Schlüssel- und Transponderverlust. Der Bewerber hat zu erklären, dass eine entsprechende Haftpflichtversicherung besteht und während des Leistungszeitraums aufrechterhalten wird oder nach Zuschlagserteilung unverzüglich abgeschlossen und während des Leistungszeitraums aufrechterhalten wird."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um ein A-Kriterium (Ausschlusskriterien). Im Rahmen des Teilnahmeantrags sind folgende Angaben/Eigenerklärungen abzugeben: Angaben zu Mitarbeitenden (Angabe / Erklärung der technischen und beruflichen Leistungsfähigkeit gemäß § 46 VgV), insbesondere Angaben zu den Mitarbeitenden 2025 im Bereich Reinigungsdienstleistungen einschließlich der davon eingesetzten Fachkräfte, Objektleitungen und Reinigungskräfte sowie Angaben zu den Mitarbeitenden 2024 im Bereich Reinigungsdienstleistungen."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um B-Kriterien. Die B-Kriterien (B) werden bewertet. Hierzu werden nachfolgend die jeweils erreichbaren Punkte definiert und entsprechend den Angaben des Bewerbers im Teilnahmeantrag berechnet. Die jeweilige volle Punktzahl wird nur in dem Fall erreicht, wenn sämtliche in den nachfolgenden definierten Anforderungen eines B-Kriteriums erfüllt sind und entsprechende Erklärungen/Erläuterungen im Teilnahmeantrag bestätigt sind. Im Rahmen des Teilnahmeantrags sind folgende Eigenerklärungen abzugeben: Angaben zum Qualitätsmanagementsystem: 0 Punkte: keine Angaben / keines vorhanden, 50 Punkte: eingeführtes und intern überwachtes Sicherungssystem für das Qualitätsmanagement, insbesondere Qualitätssicherung, Reklamations- und Beschwerdemanagement, 100 Punkte: Unternehmen ist nach DIN EN ISO 9001 (oder gleichwertig) zertifiziert. Es können pro Teilnahmeantrag insgesamt maximal 1.000 Punkte erreicht werden. Die vom Bewerber zu erreichende Mindestpunktzahl beträgt 550 Punkte. Erreicht ein Bewerber diese Mindestpunktzahl nicht, so wird sein Teilnahmeantrag ausgeschlossen. Auf Grundlage des Gesamtergebnisses erfolgt eine Rangfolgenbildung. Es werden je Los mindestens 5 Bewerber zur Angebotsabgabe aufgefordert. Liegen mehr als 5 Teilnahmeanträge vor, die alle Mindestanforderungen erfüllen, so wird die Vergabestelle die in der gebildeten Rangfolge fünf Bewerber mit den höchsten Punktewerten zur Abgabe eines Angebotes auffordern. Sofern es mehrere Bewerber auf Platz 5 mit der identischen Punktzahl gibt, werden alle „Fünft-Platzierten“ zur Abgabe eines Angebots aufgefordert."
+     },
+     {
+      "type": "slc-sche-env-cert-indep",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um B-Kriterien. Die B-Kriterien (B) werden bewertet. Hierzu werden nachfolgend die jeweils erreichbaren Punkte definiert und entsprechend den Angaben des Bewerbers im Teilnahmeantrag berechnet. Die jeweilige volle Punktzahl wird nur in dem Fall erreicht, wenn sämtliche in den nachfolgenden definierten Anforderungen eines B-Kriteriums erfüllt sind und entsprechende Erklärungen/Erläuterungen im Teilnahmeantrag bestätigt sind. Im Rahmen des Teilnahmeantrags sind folgende Eigenerklärungen abzugeben: Angaben zum Umweltmanagementsystem: 0 Punkte: keine Angaben / keines vorhanden, 50 Punkte: eingeführtes und intern überwachtes Sicherungssystem für das Umweltmanagement, 100 Punkte: Unternehmen ist nach DIN EN ISO 14001 (oder gleichwertig) zertifiziert. Es können pro Teilnahmeantrag insgesamt maximal 1.000 Punkte erreicht werden. Die vom Bewerber zu erreichende Mindestpunktzahl beträgt 550 Punkte. Erreicht ein Bewerber diese Mindestpunktzahl nicht, so wird sein Teilnahmeantrag ausgeschlossen. Auf Grundlage des Gesamtergebnisses erfolgt eine Rangfolgenbildung. Es werden je Los mindestens 5 Bewerber zur Angebotsabgabe aufgefordert. Liegen mehr als 5 Teilnahmeanträge vor, die alle Mindestanforderungen erfüllen, so wird die Vergabestelle die in der gebildeten Rangfolge fünf Bewerber mit den höchsten Punktewerten zur Abgabe eines Angebotes auffordern. Sofern es mehrere Bewerber auf Platz 5 mit der identischen Punktzahl gibt, werden alle „Fünft-Platzierten“ zur Abgabe eines Angebots aufgefordert."
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um B-Kriterien. Die B-Kriterien (B) werden bewertet. Hierzu werden nachfolgend die jeweils erreichbaren Punkte definiert und entsprechend den Angaben des Bewerbers im Teilnahmeantrag berechnet. Die jeweilige volle Punktzahl wird nur in dem Fall erreicht, wenn sämtliche in den nachfolgenden definierten Anforderungen eines B-Kriteriums erfüllt sind und entsprechende Erklärungen/Erläuterungen im Teilnahmeantrag bestätigt sind. Im Rahmen des Teilnahmeantrags sind folgende Eigenerklärungen abzugeben: Angaben zum Arbeitsschutzmanagementsystem: 0 Punkte: keine Angaben / keines vorhanden, 50 Punkte: eingeführtes und intern überwachtes Sicherungssystem für das Arbeitsschutzmanagement, 100 Punkte: Unternehmen ist nach ISO 45001, OHRIS, SCC, AMS Bau (oder gleichwertig) zertifiziert. Es können pro Teilnahmeantrag insgesamt maximal 1.000 Punkte erreicht werden. Die vom Bewerber zu erreichende Mindestpunktzahl beträgt 550 Punkte. Erreicht ein Bewerber diese Mindestpunktzahl nicht, so wird sein Teilnahmeantrag ausgeschlossen. Auf Grundlage des Gesamtergebnisses erfolgt eine Rangfolgenbildung. Es werden je Los mindestens 5 Bewerber zur Angebotsabgabe aufgefordert. Liegen mehr als 5 Teilnahmeanträge vor, die alle Mindestanforderungen erfüllen, so wird die Vergabestelle die in der gebildeten Rangfolge fünf Bewerber mit den höchsten Punktewerten zur Abgabe eines Angebotes auffordern. Sofern es mehrere Bewerber auf Platz 5 mit der identischen Punktzahl gibt, werden alle „Fünft-Platzierten“ zur Abgabe eines Angebots aufgefordert."
+     },
+     {
+      "type": "slc-abil-staff-tech-ctrl",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um B-Kriterien. Die B-Kriterien (B) werden bewertet. Hierzu werden nachfolgend die jeweils erreichbaren Punkte definiert und entsprechend den Angaben des Bewerbers im Teilnahmeantrag berechnet. Die jeweilige volle Punktzahl wird nur in dem Fall erreicht, wenn sämtliche in den nachfolgenden definierten Anforderungen eines B-Kriteriums erfüllt sind und entsprechende Erklärungen/Erläuterungen im Teilnahmeantrag bestätigt sind. Im Rahmen des Teilnahmeantrags sind folgende Eigenerklärungen abzugeben: Angaben zur technischen Fachkraft, die mit der Qualitätskontrolle beauftragt ist: 0 Punkte: keine Angabe oder Qualifikation, welche nicht dem Gebäudereiniger-Handwerk zuzuordnen ist, 10 Punkte: weist eine Qualifikation im Gebäudereiniger-Handwerk auf, welche nachfolgend nicht aufgelistet ist, 30 Punkte: weist die Qualifikation als Staatlich geprüfte(r) Desinfektor/in oder Fachwirt/in für Reinigungs- und Hygienemanagement auf, 40 Punkte: weist die Qualifikation als Gebäudereiniger-Geselle / Gebäudereiniger-Gesellin (Verordnung über die Berufsausbildung zum/r Gebäudereiniger/in vom 21. April 1999 und der Rahmenplan für den Ausbildungsberuf Gebäudereiniger/in) auf, 50 Punkte: weist die Qualifikation als Gebäudereiniger-Meister / Gebäudereiniger-Meisterin (Verordnung über die Meisterprüfung in den Teilen I und II im Gebäudereiniger-Handwerk vom 17. November 2020) oder Staatlich geprüfte(r) Techniker/in mit der Fachrichtung Reinigungs- und Hygienetechnik auf. Es können pro Teilnahmeantrag insgesamt maximal 1.000 Punkte erreicht werden. Die vom Bewerber zu erreichende Mindestpunktzahl beträgt 550 Punkte. Erreicht ein Bewerber diese Mindestpunktzahl nicht, so wird sein Teilnahmeantrag ausgeschlossen. Auf Grundlage des Gesamtergebnisses erfolgt eine Rangfolgenbildung. Es werden je Los mindestens 5 Bewerber zur Angebotsabgabe aufgefordert. Liegen mehr als 5 Teilnahmeanträge vor, die alle Mindestanforderungen erfüllen, so wird die Vergabestelle die in der gebildeten Rangfolge fünf Bewerber mit den höchsten Punktewerten zur Abgabe eines Angebotes auffordern. Sofern es mehrere Bewerber auf Platz 5 mit der identischen Punktzahl gibt, werden alle „Fünft-Platzierten“ zur Abgabe eines Angebots aufgefordert."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um B-Kriterien. Die B-Kriterien (B) werden bewertet. Hierzu werden nachfolgend die jeweils erreichbaren Punkte definiert und entsprechend den Angaben des Bewerbers im Teilnahmeantrag berechnet. Die jeweilige volle Punktzahl wird nur in dem Fall erreicht, wenn sämtliche in den nachfolgenden definierten Anforderungen eines B-Kriteriums erfüllt sind und entsprechende Erklärungen/Erläuterungen im Teilnahmeantrag bestätigt sind. Im Rahmen des Teilnahmeantrags sind folgende Eigenerklärungen abzugeben: Angaben zu Betriebsleitung, Fach- und Führungskräften: 0 Punkte: keine Angabe oder weniger als zwei qualifizierte Fach- und Führungskräfte, 20 Punkte: für die Auftragsausführung stehen mindestens zwei (2) qualifizierte Fach- und Führungskräfte (z. B. Meister, Gesellen, Fachwirt etc.) zur Verfügung, 35 Punkte: für die Auftragsausführung stehen mindestens drei (3) qualifizierte Fach- und Führungskräfte (z. B. Meister, Gesellen, Fachwirt etc.) zur Verfügung, 50 Punkte: für die Auftragsausführung stehen mindestens vier (4) oder mehr qualifizierte Fach- und Führungskräfte (z. B. Meister, Gesellen, Fachwirt etc.) zur Verfügung. Es können pro Teilnahmeantrag insgesamt maximal 1.000 Punkte erreicht werden. Die vom Bewerber zu erreichende Mindestpunktzahl beträgt 550 Punkte. Erreicht ein Bewerber diese Mindestpunktzahl nicht, so wird sein Teilnahmeantrag ausgeschlossen. Auf Grundlage des Gesamtergebnisses erfolgt eine Rangfolgenbildung. Es werden je Los mindestens 5 Bewerber zur Angebotsabgabe aufgefordert. Liegen mehr als 5 Teilnahmeanträge vor, die alle Mindestanforderungen erfüllen, so wird die Vergabestelle die in der gebildeten Rangfolge fünf Bewerber mit den höchsten Punktewerten zur Abgabe eines Angebotes auffordern. Sofern es mehrere Bewerber auf Platz 5 mit der identischen Punktzahl gibt, werden alle „Fünft-Platzierten“ zur Abgabe eines Angebots aufgefordert."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Beschreibung des Eignungskriteriums: Alle Informationen zu den geforderten Mindest- und Eignungskriterien sind auch im Teilnahmeantrag unter Ziffer 14 (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx, Reiter: 01_aufforderung tnw) zu entnehmen. Der Bewerber hat zum Nachweis der Eignung die im Dokument Teilnahmeantrag (Datei: 01a_lra-erh_unterhaltsreinigung_teilnahmeantrag.xlsx) geforderten Angaben und Eigenerklärungen abzugeben. Bei den nachfolgenden Eignungskriterien handelt es sich um B-Kriterien. Die B-Kriterien (B) werden bewertet. Hierzu werden nachfolgend die jeweils erreichbaren Punkte definiert und entsprechend den Angaben des Bewerbers im Teilnahmeantrag berechnet. Die jeweilige volle Punktzahl wird nur in dem Fall erreicht, wenn sämtliche in den nachfolgenden definierten Anforderungen eines B-Kriteriums erfüllt sind und entsprechende Erklärungen/Erläuterungen im Teilnahmeantrag bestätigt sind.\n\nIm Rahmen des Teilnahmeantrags sind folgende Eigenerklärungen abzugeben: Referenzangaben: Zum Nachweis der Eignung ist mindestens eine Referenz, die alle nachfolgenden Mindestanforderungen kumulativ erfüllt, anzugeben. Diese Mindestreferenz erhält 100 Bewertungspunkte. Bewerber können darüber hinaus bis zu zwei weitere Referenzen angeben. Erfüllen diese jeweils alle nachfolgenden Mindestanforderungen kumulativ, erhält jede Referenz 100 Bewertungspunkte.\n\nMindestanforderungen: a) Der Referenzauftrag umfasste die Reinigungsleistungen der Unterhaltsreinigung, b) der Referenzauftrag umfasste die regelmäßige Unterhaltsreinigung eines Gebäudes mit einer Gesamtgrundfläche von mindestens 12.500 m², c) der Referenzauftrag liegt nicht mehr als 36 Monate zurück (gerechnet vom Zeitpunkt der EU-Bekanntmachung), d) die Leistungserbringung beim Referenzauftrag erfolgt seit mindestens 12 Monaten (gerechnet vom Zeitpunkt der EU-Bekanntmachung).\n\nBewerber können je Referenz zusätzliche Bewertungspunkte erzielen, indem die Referenz neben den vorstehenden Mindestanforderungen folgende zusätzliche Anforderungen erfüllt. Zusätzliche Bewertungspunkte je Referenz: 20 Punkte: Der Referenzauftrag umfasste die Unterhaltsreinigung eines sonstigen Objekts mit überwiegender Büro- oder Dienstleistungsnutzung. 40 Punkte: Der Referenzauftrag umfasste die Unterhaltsreinigung einer Verwaltungseinrichtung ohne allgemeinen Publikumsverkehr (reine Büro-/Dienstgebäudenutzung). 60 Punkte: Der Referenzauftrag umfasste die Unterhaltsreinigung einer Verwaltungs- oder Behördeneinrichtung mit allgemeinem Publikumsverkehr. Zusätzlich 40 Punkte: Die Gesamtgrundfläche des Referenzobjekts weicht um höchstens 40 % von der Gesamtgrundfläche der ausgeschriebenen Liegenschaft von 20.950 m² ab; dies entspricht einer Gesamtgrundfläche von 12.570 m² bis 29.330 m². Je Referenz können damit einschließlich der 100 Bewertungspunkte für die Erfüllung der Mindestanforderungen maximal 200 Bewertungspunkte und für bis zu drei Referenzen maximal 600 Bewertungspunkte erzielt werden.\n\nIm Rahmen der Wertung der Teilnahmeanträge verifiziert der Auftraggeber die durch den Bewerber angegebenen Referenzen sowie insbesondere die wertungsrelevanten Referenzangaben. Nach Artikel 5 Absatz 1e DSGVO ist im Ausschreibungs- und Vergabeverfahren die Verarbeitung personenbezogener Daten zulässig, wenn dafür eine Rechtsgrundlage besteht. Die Rechtsgrundlage besteht in der Verpflichtung des öffentlichen Auftraggebers, die Gesetze und Verordnungen des Vergaberechts zwingend anzuwenden. Auf die Angaben der Referenzabfrage kann insoweit nicht verzichtet werden. Wichtiger Hinweis: Nur Referenzangaben, die vollständig und innerhalb der nachfolgenden Textfelder eingetragen sind, werden in die Wertung des Teilnahmeantrags einbezogen. Unvollständige oder außerhalb dieser Textfelder befindliche Angaben bleiben unberücksichtigt.\n\nEs können pro Teilnahmeantrag insgesamt maximal 1.000 Punkte erreicht werden. Die vom Bewerber zu erreichende Mindestpunktzahl beträgt 550 Punkte. Erreicht ein Bewerber diese Mindestpunktzahl nicht, so wird sein Teilnahmeantrag ausgeschlossen. Auf Grundlage des Gesamtergebnisses erfolgt eine Rangfolgenbildung. Es werden je Los mindestens 5 Bewerber zur Angebotsabgabe aufgefordert. Liegen mehr als 5 Teilnahmeanträge vor, die alle Mindestanforderungen erfüllen, so wird die Vergabestelle die in der gebildeten Rangfolge fünf Bewerber mit den höchsten Punktewerten zur Abgabe eines Angebotes auffordern. Sofern es mehrere Bewerber auf Platz 5 mit der identischen Punktzahl gibt, werden alle „Fünft-Platzierten“ zur Abgabe eines Angebots aufgefordert."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Alle Informationen zu den Zuschlagskriterien sind den Vergabeunterlagen unter I 2.12 (Datei: 03_lra-erh_unterhaltsreinigung_vergabebedingungen) zu entnehmen. Der Preis setzt sich aus den für alle Leistungen kalkulierten Jahressummen zusammen. Diese Gesamtsumme ist in der Kalkulationsdatei in der entsprechenden Zelle (U37) des Tabellenblatts (0_uebersicht) enthalten. Die Wertung der Angebote wird nach der Methode der UfAB 2018 vorgenommen. Es kommt die sogenannte einfache Richtwertmethode zur Anwendung. Im ersten Schritt wird zunächst für jedes Angebot das Verhältnis von Preis und Leistung als Quotient zu einer Kennzahl „Z“ errechnet. Dabei werden die Formelparameter wie folgt definiert: Z = Kennzahl für Preis-Leistungsverhältnis des zu bewertenden Angebots, L = Leistungspunktzahl (Bewertungspunkte) des zu bewertenden Angebotes, P = Preis (in EUR) des zu bewertenden Angebotes. Bei der Ermittlung der Kennzahl wird diese mit 10.000.000 skaliert. Es gewinnt das Angebot mit der höchsten Kennzahl „Z“.",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Alle Informationen zu den Zuschlagskriterien sind den Vergabeunterlagen unter I 2.12 (Datei: 03_lra-erh_unterhaltsreinigung_vergabebedingungen) zu entnehmen. Das Kriterium Leistung unterteilt sich in die nachfolgenden drei Unterkriterien: 300 Punkte für Arbeitseinsatz, 400 Punkte für Leistungswert und 300 Punkte für Ausführungen zur Leistungserbringung.\n\nLeistungs-Unterkriterium Arbeitseinsatz: Der Arbeitseinsatz setzt sich aus den für alle Leistungen kalkulierten produktiven Stunden zusammen. Diese Stunden sind in der Kalkulationsdatei in der entsprechenden Zelle U62 des Tabellenblatts (0_uebersicht) enthalten.\n\nLeistungs-Unterkriterium Leistungswert: Der durchschnittliche m²-Leistungswert ist in der Kalkulationsdatei in der entsprechenden Zelle (U72) des Tabellenblatts (0_uebersicht) enthalten.\n\nLeistungs-Unterkriterium Ausführungen zur Leistungserbringung: Für das Unterkriterium sind konkret auf die Liegenschaft bezogene Ausführungen zur Leistungserbringung zu erarbeiten und darzustellen.\n\nErläuterung für das Leistungs-Unterkriterium Arbeitseinsatz: Der Arbeitseinsatz setzt sich aus den für alle Leistungen kalkulierten produktiven Stunden zusammen. Diese Stunden sind in der Kalkulationsdatei in der entsprechenden Zelle U62 des Tabellenblatts (0_uebersicht) enthalten. Das Angebot mit dem höchsten Arbeitseinsatz erhält die maximalen 300 Punkte. 0 Punkte erhält ein fiktives Angebot mit 50 % des höchsten Arbeitseinsatzes. Alle Angebote mit darunterliegendem Arbeitseinsatz erhalten ebenfalls 0 Punkte. Die Punkteermittlung für dazwischenliegende Arbeitseinsätze erfolgt über eine lineare Interpolation mit bis zu zwei Stellen nach dem Komma.\n\nErläuterung für das Leistungs-Unterkriterium Leistungswert: Der durchschnittliche m²-Leistungswert ist in der Kalkulationsdatei in der entsprechenden Zelle (U72) des Tabellenblatts (0_uebersicht) enthalten. Die Abweichung des durchschnittlichen m²-Leistungswertes der Unterhaltsreinigung wird mit dem Durchschnittswert aller berücksichtigten Angebote ins Verhältnis gesetzt. Der durchschnittliche m²-Leistungswert wird unter Zugrundelegung der jeweiligen Jahresreinigungsfläche pro Raumgruppe und der gesamten Jahresreinigungsfläche ermittelt. Es wird kaufmännisch auf zwei Stellen gerundet. Bei der Ermittlung des Gesamtdurchschnittswertes wird jeweils das Angebot mit dem niedrigsten m²-Leistungswert sowie das Angebot mit dem höchsten m²-Leistungswert nicht berücksichtigt. Die Abweichungen werden wie nachfolgend bepunktet: 400,00 Punkte: Abweichung vom Gesamtdurchschnitt bis zu 1,50 %, 350,00 Punkte: Abweichung vom Gesamtdurchschnitt zwischen 1,51 % und 3,00 %, 300,00 Punkte: Abweichung vom Gesamtdurchschnitt zwischen 3,01 % und 4,50 %, 250,00 Punkte: Abweichung vom Gesamtdurchschnitt zwischen 4,51 % und 6,00 %, 200,00 Punkte: Abweichung vom Gesamtdurchschnitt zwischen 6,01 % und 7,50 %, 150,00 Punkte: Abweichung vom Gesamtdurchschnitt zwischen 7,51 % und 9,00 %, 100,00 Punkte: Abweichung vom Gesamtdurchschnitt zwischen 9,01 % und 10,50 %, 50,00 Punkte: Abweichung vom Gesamtdurchschnitt zwischen 10,51 % und 12,00 % und 0 Punkte: Abweichung vom Gesamtdurchschnitt ab 12,01 %. In den Vergabeunterlagen unter I 2.12 (Datei: 03_lra-erh_unterhaltsreinigung_vergabebedingungen) ist auf den Seiten 7 und 8 ein exemplarisches Berechnungsbeispiel dargestellt.\n\nErläuterung für das Leistungs-Unterkriterium Ausführungen zur Leistungserbringung: Für das Unterkriterium sind konkret auf die Liegenschaft bezogene Ausführungen zur Leistungserbringung zu erarbeiten und darzustellen. Für alle Angaben gilt: Aussagen können nur dann mit Punkten bewertet werden, wenn sie innerhalb der beschriebenen Leistungen und Aufgaben sowie den vertraglichen Vorgaben liegen. Fehlende Angaben oder Angaben außerhalb der beschriebenen Leistungen / Aufgaben sowie den vertraglichen Vorgaben führen zwingend zu 0 Punkten. Grundsätzlich ist die Leistungsbeschreibung als Mindestanforderung im Rahmen der Vertragsausführung zu verstehen. Ergänzt wird die Anforderung mit den Angaben zu den leistungsbezogenen Ausführungen des Auftragnehmers. Die Ausführungen zur Leistungserbringung werden Vertragsbestandteil, so dass der Auftraggeber hierauf einen Anspruch erwirbt.\n\nJede Fragestellung wird anhand von vier Wertungsstufen bewertet: 45 Punkte: Die Fragestellung ist absolut schlüssig, vollständig, praxisgerecht beantwortet und berücksichtigt vollumfänglich die Anforderungen und Objektgegebenheiten. Insgesamt werden die Erwartungen sehr gut erfüllt. 30 Punkte: Die Fragestellung ist nur teilweise schlüssig, vollständig, praxisgerecht beantwortet und berücksichtigt gerade noch die Anforderungen und Objektgegebenheiten. Insgesamt werden die Erwartungen zufriedenstellend erfüllt. 15 Punkte: Die Fragestellung ist nur in geringem Umfang schlüssig, vollständig, praxisgerecht beantwortet und berücksichtigt sehr lückenhaft die Anforderungen und Objektgegebenheiten. Insgesamt werden die Erwartungen mangelhaft erfüllt. 0 Punkte: Die Fragestellung ist nicht schlüssig, vollständig, praxisgerecht beantwortet und berücksichtigt nicht die Anforderungen und Objektgegebenheiten bzw. enthält keine wertbaren Angaben. Insgesamt werden die Erwartungen ungenügend erfüllt.\n\nDie zu bewertenden Fragestellungen umfassen: Implementierung (Vorstellung des Implementierungsteams, Angabe der Implementierungsschritte unter Angabe von zeitlichen Abläufen und Nennung der Dokumentation), zusätzlich 15 Punkte bei Übersendung eines vollständigen Implementierungsplans; Einstellung und Einarbeitung (Vorstellung der Recruiting-Methoden, Ablauf der Personalbeschaffung, Darstellung der Einarbeitung der Reinigungs- und Servicekräfte, insbesondere vor Leistungsbeginn, während der ersten Wochen sowie im fortlaufenden Regelbetrieb), zusätzlich 15 Punkte bei Übersendung eines exemplarischen, später zum Einsatz kommenden Arbeits- und Revierplans entsprechend den Vorgaben aus der Leistungsbeschreibung; Krankheits- und Urlaubsvertretungen, insbesondere Darstellung de",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

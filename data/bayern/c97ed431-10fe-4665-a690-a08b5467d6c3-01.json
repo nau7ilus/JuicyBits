@@ -300,6 +300,8 @@
   "noticeId": "c97ed431-10fe-4665-a690-a08b5467d6c3",
   "version": "01",
   "title": "GLV für FBÜ OB inkl. FaSt - Netz Augsburg - alle Netzbezirke (in 3 Losen)",
+  "description": "Grundlastvertrag BÜW OB+FaSt 2027/2028\nLos 1(1x Nord; Augsburg+Ingolstadt+Donauwörth) \nLos 2 (1xSüd; Buchloe+Kempten); \nLos 3 (1xSüd; Kempten)",
+  "procedureType": "neg-w-call",
   "nuts": [
    "DE271"
   ],
@@ -316,6 +318,7 @@
    {
     "id": "LOT-0001",
     "title": "Grundlastvertrag Los 1(1x Nord; AUG+ING+DON)",
+    "description": "Los1 Augsburg, Ingolstadt, Donauwörth",
     "cpv": [
      "71000000",
      "71247000",
@@ -331,6 +334,7 @@
     "participationDeadline": "2026-11-30T08:00:00+01:00",
     "plannedStart": "2027-03-01+01:00",
     "plannedEnd": "2028-02-29+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -338,11 +342,24 @@
       "type": "slc-sec-supply",
       "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299/suitabilitycriteria"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "100 % Honorar (übertragene + optionale Leistung) Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote ab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte für die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen Wert des niedrigsten Angebotspreises linear interpoliert.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
    },
    {
     "id": "LOT-0002",
     "title": "Los 2 (BUCH/KEM); 2027/2028 (BÜW OB+FaSt)",
+    "description": "Los 2 Buchloe, Kempten",
     "cpv": [
      "71000000",
      "71247000",
@@ -358,6 +375,7 @@
     "participationDeadline": "2026-11-30T08:00:00+01:00",
     "plannedStart": "2027-03-01+01:00",
     "plannedEnd": "2028-02-29+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -365,11 +383,24 @@
       "type": "slc-sec-supply",
       "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299/suitabilitycriteria"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "100 % Honorar (übertragene + optionale Leistung) Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote ab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte für die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen Wert des niedrigsten Angebotspreises linear interpoliert.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
    },
    {
     "id": "LOT-0003",
     "title": "Los 3 (Kempten); 2027/2028 (BÜW OB+FaSt)",
+    "description": "Los 3 Kempten",
     "cpv": [
      "71000000",
      "71247000",
@@ -385,6 +416,7 @@
     "participationDeadline": "2026-11-30T08:00:00+01:00",
     "plannedStart": "2027-03-01+01:00",
     "plannedEnd": "2028-02-29+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -392,7 +424,19 @@
       "type": "slc-sec-supply",
       "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299/suitabilitycriteria"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "100 % Honorar (übertragene + optionale Leistung) Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote ab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte für die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen Wert des niedrigsten Angebotspreises linear interpoliert.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
    }
   ]
  }

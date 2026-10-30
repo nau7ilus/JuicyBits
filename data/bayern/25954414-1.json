@@ -1,0 +1,134 @@
+{
+ "id": "25954414-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954414",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954414",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954414-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954414-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954414?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "MS Anlage Ebene Grau",
+  "buyer": "Staatliches Bauamt Weilheim",
+  "cpv": [
+   "45311000-0"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-03T10:02:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954414",
+  "id": "25954414",
+  "date": "2026-10-21T07:01:29Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Weilheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Staatliches Bauamt Weilheim"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Weilheim",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Weilheim"
+   }
+  },
+  "tender": {
+   "title": "MS Anlage Ebene Grau",
+   "description": "MS Anlage Ebene Grau",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Weilheim"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311000-0"
+     },
+     "deliveryAddress": {
+      "locality": "86899 Landsberg am Lech",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Restricted tender",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304513",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "MS Anlage Ebene Grau",
+     "description": "MS Anlage Ebene Grau"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25954414",
+  "version": "1",
+  "title": "MS Anlage Ebene Grau",
+  "description": "MS Anlage Ebene Grau",
+  "procedureType": "de-restricted-wo-call",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45311000-0"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "MS Anlage Ebene Grau",
+    "description": "MS Anlage Ebene Grau",
+    "cpv": [
+     "45311000-0"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-03T10:02:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

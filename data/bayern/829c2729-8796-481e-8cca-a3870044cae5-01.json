@@ -1,0 +1,186 @@
+{
+ "id": "829c2729-8796-481e-8cca-a3870044cae5-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "829c2729-8796-481e-8cca-a3870044cae5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=829c2729-8796-481e-8cca-a3870044cae5",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:829c2729-8796-481e-8cca-a3870044cae5-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:829c2729-8796-481e-8cca-a3870044cae5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/829c2729-8796-481e-8cca-a3870044cae5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erneuerung der Sturmwarnfeuer am Ammersee",
+  "buyer": "Landratsamt Landsberg am Lech",
+  "cpv": [
+   "38822000",
+   "31521310"
+  ],
+  "nuts": [
+   "DE21E"
+  ],
+  "deadline": "2026-11-16T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-829c2729-8796-481e-8cca-a3870044cae5",
+  "id": "829c2729-8796-481e-8cca-a3870044cae5",
+  "date": "2026-10-16T02:06:13Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landsberg am Lech",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9520",
+     "legalName": "Landratsamt Landsberg am Lech"
+    },
+    "address": {
+     "streetAddress": "Von -Kühlmann-Str. 15",
+     "locality": "Landsberg am Lech",
+     "region": "DE21E",
+     "postalCode": "86899",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "79fa173d-0d61-4bea-b920-b15865cd4ba6",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landsberg am Lech",
+   "id": "9520",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landsberg am Lech"
+   },
+   "address": {
+    "streetAddress": "Von -Kühlmann-Str. 15",
+    "locality": "Landsberg am Lech",
+    "region": "DE21E",
+    "postalCode": "86899",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "829c2729-8796-481e-8cca-a3870044cae5",
+   "title": "Erneuerung der Sturmwarnfeuer am Ammersee",
+   "description": "Gegenstand dieser Auftragsvergabe ist\n• die Demontage der alten Sturmwarnfeuer inkl. deren Steuerung,\n• der Abtransport als auch die fach- und datenschutzgerechte Entsorgung der alten Sturmwarnfeuer inklusive der Steuereinheiten,\n• die Ertüchtigung der Mastanlagen der Sturmwarnfeuer für neue Steuerschränke und Sturmwarnleuchten,\n• die Lieferung und Montage aller 7 neuen Sturmwarnleuchten inklusive deren Steuerschränke und zugehöriger LED-Leuchtmittel,\n• die Implementierung und Konfiguration der Sirenensteuerung über den analogen BOS-Funk und auch über den digitalen TETRA basierenden BOS-Funk,\n• die Implementierung und Konfiguration von 5G-Routern und Web-Kameras je Sturmwarnfeuer,\n• die gesicherte Vernetzung und Anbindung an eine zentrale Leitstelle und die Anbindung eines servergestützten Leitsystems nach einem gemeinsam zu erstellenden Konzept (als gemeinsame Planleistung),\n• die Abnahmetests und die Abnahmen\n• die Kontrahierung und Aufnahme der Regel-Wartungsleistung.",
+   "procuringEntity": {
+    "name": "Landratsamt Landsberg am Lech",
+    "id": "9520"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38822000",
+      "description": "Remote-control siren devices"
+     },
+     "deliveryAddress": {
+      "region": "DE21E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/829c2729-8796-481e-8cca-a3870044cae5",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Erneuerung der Sturmwarnfeuer am Ammersee",
+     "description": "Gegenstand dieser Auftragsvergabe ist\n• die Demontage der alten Sturmwarnfeuer inkl. deren Steuerung,\n• der Abtransport als auch die fach- und datenschutzgerechte Entsorgung der alten Sturmwarnfeuer inklusive der Steuereinheiten,\n• die Ertüchtigung der Mastanlagen der Sturmwarnfeuer für neue Steuerschränke und Sturmwarnleuchten,\n• die Lieferung und Montage aller 7 neuen Sturmwarnfeuer inklusive deren Steuerschränke und zugehöriger LED-Leuchtmittel (8 Leuchtenköpfe),\n• die Implementierung und Konfiguration der Sirenensteuerung über den analogen BOS-Funk und auch über den digitalen TETRA basierenden BOS-Funk,\n• die Implementierung und Konfiguration von 5G-Routern und Web-Kameras je Sturmwarnfeuer,\n• die gesicherte Vernetzung und Anbindung an eine zentrale Leitstelle und die Anbindung eines servergestützten Leitsystems nach einem gemeinsam zu erstellenden Konzept (als gemeinsame Planleistung),\n• die Abnahmetests und die Abnahmen der Leitstellen-Infrastruktur in Verbindung mit den 7 Einzelabnahmen der Sturmwarnfeuer sowie\n• die Kontrahierung und Aufnahme der Regel-Wartungs- und Entstör Leistung auf Basis eines Wartungsvertrags.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2027-05-14T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "829c2729-8796-481e-8cca-a3870044cae5",
+  "version": "01",
+  "title": "Erneuerung der Sturmwarnfeuer am Ammersee",
+  "description": "Gegenstand dieser Auftragsvergabe ist\n• die Demontage der alten Sturmwarnfeuer inkl. deren Steuerung,\n• der Abtransport als auch die fach- und datenschutzgerechte Entsorgung der alten Sturmwarnfeuer inklusive der Steuereinheiten,\n• die Ertüchtigung der Mastanlagen der Sturmwarnfeuer für neue Steuerschränke und Sturmwarnleuchten,\n• die Lieferung und Montage aller 7 neuen Sturmwarnleuchten inklusive deren Steuerschränke und zugehöriger LED-Leuchtmittel,\n• die Implementierung und Konfiguration der Sirenensteuerung über den analogen BOS-Funk und auch über den digitalen TETRA basierenden BOS-Funk,\n• die Implementierung und Konfiguration von 5G-Routern und Web-Kameras je Sturmwarnfeuer,\n• die gesicherte Vernetzung und Anbindung an eine zentrale Leitstelle und die Anbindung eines servergestützten Leitsystems nach einem gemeinsam zu erstellenden Konzept (als gemeinsame Planleistung),\n• die Abnahmetests und die Abnahmen\n• die Kontrahierung und Aufnahme der Regel-Wartungsleistung.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21E"
+  ],
+  "cpv": [
+   "31521310",
+   "38822000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Erneuerung der Sturmwarnfeuer am Ammersee",
+    "description": "Gegenstand dieser Auftragsvergabe ist\n• die Demontage der alten Sturmwarnfeuer inkl. deren Steuerung,\n• der Abtransport als auch die fach- und datenschutzgerechte Entsorgung der alten Sturmwarnfeuer inklusive der Steuereinheiten,\n• die Ertüchtigung der Mastanlagen der Sturmwarnfeuer für neue Steuerschränke und Sturmwarnleuchten,\n• die Lieferung und Montage aller 7 neuen Sturmwarnfeuer inklusive deren Steuerschränke und zugehöriger LED-Leuchtmittel (8 Leuchtenköpfe),\n• die Implementierung und Konfiguration der Sirenensteuerung über den analogen BOS-Funk und auch über den digitalen TETRA basierenden BOS-Funk,\n• die Implementierung und Konfiguration von 5G-Routern und Web-Kameras je Sturmwarnfeuer,\n• die gesicherte Vernetzung und Anbindung an eine zentrale Leitstelle und die Anbindung eines servergestützten Leitsystems nach einem gemeinsam zu erstellenden Konzept (als gemeinsame Planleistung),\n• die Abnahmetests und die Abnahmen der Leitstellen-Infrastruktur in Verbindung mit den 7 Einzelabnahmen der Sturmwarnfeuer sowie\n• die Kontrahierung und Aufnahme der Regel-Wartungs- und Entstör Leistung auf Basis eines Wartungsvertrags.",
+    "cpv": [
+     "38822000"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": "2026-11-16T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2027-05-14+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "• Systemreferenzen, z.B. Implementierung von optischen, bzw. akustischen Signalanlagen,\n• Referenzen über Kundenkreise, z.B. KAT-Schutz-Einheiten, Feuerwehren, Wasserwachten, THW o.ä.,\n• Ggf. Referenzen zur Einsatz- und Praxiserfahrung hinsichtlich Sturmwarnsysteme, und / oder\n• Referenzen zur Qualität (Zertifikate), Compliance und Organisation innerhalb des Leistungserbringers."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

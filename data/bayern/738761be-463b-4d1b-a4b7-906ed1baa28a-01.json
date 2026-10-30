@@ -1,0 +1,232 @@
+{
+ "id": "738761be-463b-4d1b-a4b7-906ed1baa28a-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "738761be-463b-4d1b-a4b7-906ed1baa28a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=738761be-463b-4d1b-a4b7-906ed1baa28a",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:738761be-463b-4d1b-a4b7-906ed1baa28a-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:738761be-463b-4d1b-a4b7-906ed1baa28a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/738761be-463b-4d1b-a4b7-906ed1baa28a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Heizungstechnische Anlagen ATV DIN 18380",
+  "buyer": "Stadt Rosenheim",
+  "cpv": [
+   "45210000",
+   "45232141"
+  ],
+  "nuts": [
+   "DE213"
+  ],
+  "deadline": "2026-11-24T09:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0b077890-6f36-4925-ad4c-2b2166d09d71",
+  "id": "738761be-463b-4d1b-a4b7-906ed1baa28a",
+  "date": "2026-10-23T02:12:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Rosenheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09163000-STARO1-29",
+     "legalName": "Stadt Rosenheim"
+    },
+    "address": {
+     "streetAddress": "Königstraße 24",
+     "locality": "Rosenheim",
+     "region": "DE213",
+     "postalCode": "83022",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Rosenheim",
+   "id": "09163000-STARO1-29",
+   "identifier": {
+    "id": "ORG-0011",
+    "legalName": "Stadt Rosenheim"
+   },
+   "address": {
+    "streetAddress": "Königstraße 24",
+    "locality": "Rosenheim",
+    "region": "DE213",
+    "postalCode": "83022",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0b077890-6f36-4925-ad4c-2b2166d09d71",
+   "title": "Heizungstechnische Anlagen ATV DIN 18380",
+   "description": "Heizungs- und Kühlanlage für den Neubau eines Kinderhauses in Rosenheim. Die Wärme- und Kälteversorgung erfolgt über eine reversible Luft-Wasser-Wärmepumpe zur Außenaufstellung. Im Technikraum wird ein Pufferspeicher mit 1500 Liter Inhalt, sowie ein Heizungs- und Kühlverteiler installiert. Über diesen werden die einzelnen Heiz- und Kühlkreise versorgt. Die Beheizung und Kühlung der Räume erfolgt über eine Fußbodenheizung mit einer Gesamtfläche von rund 1200 m2, verteilt auf EG und OG. Zusätzlich werden zur Temperierung der Technikräume im OG Heizkörper verbaut. In den Lüftungsgeräten werden Heiz- und Kühlregister verbaut, welche ebenfalls über die Wärmepumpe versorgt werden. Zum Leistungsumfang gehören außerdem die dafür erforderlichen Rohrleitungsnetze mit Wärmedämmung, sowie Umwälzpumpen, Regel- und Absperrarmaturen, eine Nachspeiseeinrichtung, Sicherheits- und Druckhaltungseinbauten.",
+   "procuringEntity": {
+    "name": "Stadt Rosenheim",
+    "id": "09163000-STARO1-29"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45210000",
+      "description": "Building construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45232141",
+       "description": "Heating works"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Rosenheim",
+      "region": "DE213",
+      "postalCode": "83024",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304667",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Heizungstechnische Anlagen ATV DIN 18380",
+     "description": "Heizungs- und Kühlanlage für den Neubau eines Kinderhauses in Rosenheim. Die Wärme- und Kälteversorgung erfolgt über eine reversible Luft-Wasser-Wärmepumpe zur Außenaufstellung. Im Technikraum wird ein Pufferspeicher mit 1500 Liter Inhalt, sowie ein Heizungs- und Kühlverteiler installiert. Über diesen werden die einzelnen Heiz- und Kühlkreise versorgt. Die Beheizung und Kühlung der Räume erfolgt über eine Fußbodenheizung mit einer Gesamtfläche von rund 1200 m2, verteilt auf EG und OG. Zusätzlich werden zur Temperierung der Technikräume im OG Heizkörper verbaut. In den Lüftungsgeräten werden Heiz- und Kühlregister verbaut, welche ebenfalls über die Wärmepumpe versorgt werden. Zum Leistungsumfang gehören außerdem die dafür erforderlichen Rohrleitungsnetze mit Wärmedämmung, sowie Umwälzpumpen, Regel- und Absperrarmaturen, eine Nachspeiseeinrichtung, Sicherheits- und Druckhaltungseinbauten.",
+     "contractPeriod": {
+      "startDate": "2027-05-19T00:00:00+02:00",
+      "endDate": "2028-02-25T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "738761be-463b-4d1b-a4b7-906ed1baa28a",
+  "version": "01",
+  "title": "Heizungstechnische Anlagen ATV DIN 18380",
+  "description": "Heizungs- und Kühlanlage für den Neubau eines Kinderhauses in Rosenheim. Die Wärme- und Kälteversorgung erfolgt über eine reversible Luft-Wasser-Wärmepumpe zur Außenaufstellung. Im Technikraum wird ein Pufferspeicher mit 1500 Liter Inhalt, sowie ein Heizungs- und Kühlverteiler installiert. Über diesen werden die einzelnen Heiz- und Kühlkreise versorgt. Die Beheizung und Kühlung der Räume erfolgt über eine Fußbodenheizung mit einer Gesamtfläche von rund 1200 m2, verteilt auf EG und OG. Zusätzlich werden zur Temperierung der Technikräume im OG Heizkörper verbaut. In den Lüftungsgeräten werden Heiz- und Kühlregister verbaut, welche ebenfalls über die Wärmepumpe versorgt werden. Zum Leistungsumfang gehören außerdem die dafür erforderlichen Rohrleitungsnetze mit Wärmedämmung, sowie Umwälzpumpen, Regel- und Absperrarmaturen, eine Nachspeiseeinrichtung, Sicherheits- und Druckhaltungseinbauten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE213"
+  ],
+  "cpv": [
+   "45210000",
+   "45232141"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Heizungstechnische Anlagen ATV DIN 18380",
+    "description": "Heizungs- und Kühlanlage für den Neubau eines Kinderhauses in Rosenheim. Die Wärme- und Kälteversorgung erfolgt über eine reversible Luft-Wasser-Wärmepumpe zur Außenaufstellung. Im Technikraum wird ein Pufferspeicher mit 1500 Liter Inhalt, sowie ein Heizungs- und Kühlverteiler installiert. Über diesen werden die einzelnen Heiz- und Kühlkreise versorgt. Die Beheizung und Kühlung der Räume erfolgt über eine Fußbodenheizung mit einer Gesamtfläche von rund 1200 m2, verteilt auf EG und OG. Zusätzlich werden zur Temperierung der Technikräume im OG Heizkörper verbaut. In den Lüftungsgeräten werden Heiz- und Kühlregister verbaut, welche ebenfalls über die Wärmepumpe versorgt werden. Zum Leistungsumfang gehören außerdem die dafür erforderlichen Rohrleitungsnetze mit Wärmedämmung, sowie Umwälzpumpen, Regel- und Absperrarmaturen, eine Nachspeiseeinrichtung, Sicherheits- und Druckhaltungseinbauten.",
+    "cpv": [
+     "45210000",
+     "45232141"
+    ],
+    "nuts": [
+     "DE213"
+    ],
+    "deadline": "2026-11-24T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-19+02:00",
+    "plannedEnd": "2028-02-25+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Mit dem Angebot sind die entsprechenden Nachweise zu erbringen, entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig, entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE):\nErklärung über die Eintragung des Unternehmens in das Berufs- oder Handelsregister.\n---\nAuf gesondertes Verlangen sind zur Bestätigung der Eigenerklärung innerhalb der von der Vergabestelle gesetzten Frist vorzulegen:\nGewerbeanmeldung, Handelsregisterauszug.\n---\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist dessen jeweilige Nummer im Präqualifikationsverzeichnis oder die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen.\n----\nFür Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Mit dem Angebot sind die entsprechenden Nachweise zu erbringen, entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig, entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE):\nErklärung über die Eintragung des Unternehmens  in die Handwerksrolle bzw. bei der Industrie- und Handelskammer.\n---\nAuf gesondertes Verlangen sind zur Bestätigung der Eigenerklärung innerhalb der von der Vergabestelle gesetzten Frist vorzulegen:  Eintragung in der Handwerksrolle bzw. bei der Industrie- und Handelskammer.\n---\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist dessen jeweilige Nummer im Präqualifikationsverzeichnis oder die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen.\n----\nFür Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Mit dem Angebot sind die entsprechenden Nachweise zu erbringen, entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig, entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE):\nErklärung, dass nachweislich keine schweren Verfehlungen gemäß §§ 123 und 124 GWB begangen wurden, die die Zuverlässigkeit des Unternehmens in Frage stellen.\n---\nAuf gesondertes Verlangen sind zur Bestätigung der Eigenerklärung innerhalb der von der Vergabestelle gesetzten Frist vorzulegen:\n Bescheinigungen über die ordnungsgemäße Entrichtung von Steuern, Abgaben oder Sozialversicherungsbeiträgen in Bezug auf Arbeitnehmer, die aus einem anderen Mitgliedsstaat der Europäischen Union nach Deutschland entsandt werden und deren Einsatz bei der Leistungserbringung geplant ist.\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist dessen jeweilige Nummer im Präqualifikationsverzeichnis oder die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen.\n---\nFür Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Mit dem Angebot sind die entsprechenden Nachweise zu erbringen, entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig, entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE):\n\n1. Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit Bauleistungen und andere Leistungen betroffen sind, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.\n2. Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt, noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet.\n3. Falls zutreffend, Erklärung, dass ein Insolvenzplan rechtskräftig bestätigt wurde.\n4. Erklärung, dass das Unternehmen seine Verpflichtung zur Zahlung von Steuern und Abgaben, sowie der Beiträge zur gesetzlichen Sozialversicherung, soweit es der Pflicht zur Beitragszahlung unterfallen ist, ordnungsgemäß erfüllt hat.\n5. Erklärung, dass das Unternehmen Mitglied der Berufsgenossenschaft ist.\n---\nAuf gesondertes Verlangen sind zur Bestätigung der Eigenerklärung innerhalb der von der Vergabestelle gesetzten Frist vorzulegen:\n1. Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen falls zur Prüfung erforderlich\n2. Falls zutreffend, rechtskräftig bestätigter Insolvenzplan\n3. Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse (soweit das Unternehmen beitragspflichtig ist), Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen (soweit das Finanzamt derartige Bescheinigungen ausstellt), sowie eine Freistellungsbescheinigung nach § 48b EStG oder inhaltlich vergleichbare Bescheinigungen aus dem Niederlassungsstaat des Unternehmens\n4. Qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für das Unternehmen zuständigen Versicherungsträgers, mit Angabe der Lohnsummen oder inhaltlich vergleichbare Bescheinigungen aus dem Niederlassungsstaat des Unternehmens.\n---\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist deren jeweilige Nummer im Präqualifikationsverzeichnis oder die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen.\nNimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der \"Verpflichtungserklärung\" abzugeben (siehe Teilnahmebedingungen).\n---\nFür Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Gefordert wird das Bestehen einer Berufs-/Betriebshaftpflichtversicherung bei einem in einem Mitgliedsstaat der EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen Versicherungsunternehmens für den Zeitraum der Leistungserbringung. \nErforderliche Deckungssummen sind mindestens 3 Mio Euro für Personenschäden und 3 Mio Euro für Sachschäden.\nAuf gesondertes Verlangen sind die entsprechenden Versicherungsnachweise oder eine Bestätigung eines Versicherers (nicht Versicherungsmaklers) über eine entsprechende Versicherbarkeit im Auftragsfall vorzulegen. Bei Bietergemeinschaften muss jedes Mitglied der Bietergemeinschaft einen Nachweis über den Bestand/Abschluss der geforderten Versicherungen sowie deren Mindestdeckungssummen erbringen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Mit dem Angebot sind die entsprechenden Nachweise zu erbringen, entweder durch die, vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis), oder vorläufig, entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE):\nErklärung, dass das Unternehmen in den letzten fünf abgeschlossenen Kalenderjahren Leistungen ausgeführt hat, die mit der zu vergebenden Leistung vergleichbar sind.\n---\nAuf gesondertes Verlangen sind zur Bestätigung der Eigenerklärung innerhalb der von der Vergabestelle gesetzten Frist vorzulegen:\nDrei Referenznachweise mit mindestens folgenden Angaben: Ansprechpartner; Art der ausgeführten Leistung; Auftragssumme; Ausführungszeitraum; stichwortartige Benennung des mit eigenem Personal ausgeführten maßgeblichen Leistungsumfanges einschl. Angabe der ausgeführten Mengen; Zahl der hierfür durchschnittlich eingesetzten Arbeitnehmer; stichwortartige Beschreibung der besonderen technischen und gerätespezifischen Anforderungen bzw. (bei Komplettleistung) Kurz-beschreibung der Baumaßnahme einschließlich eventueller Besonderheiten der Ausführung; Angabe zur Art der Baumaßnahme(Neubau, Umbau, Denkmal); Angabe zur vertraglichen Bindung (Hauptauftragnehmer, ARGE-Partner, Nachunternehmer); ggf. Angabe der Gewerke, die mit eigenem Leitungspersonal koordiniert wurden; Bestätigung des Auftraggebers über die vertragsgemäße Ausführung der Leistung. Angaben in Anlehnung an das Formblatt 444 Referenzbescheinigung des Vergabehandbuch Bayern in der aktuellen Fassung. Der Auftraggeber behält sich vor, ggf. den Referenzgeber zu kontaktieren.\nBei Bietergemeinschaften müssen die Mitglieder gemeinsam die geforderte Anzahl Referenzen erbringen.\n\nDie Anforderung des Nachweises vergleichbarer Referenzen gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte  Bieter. Präqualifizierte Bieter können sich dazu des PQ-Verzeichnisses bedienen, soweit dort Nachweise entsprechend vergleichbarer Referenzen hinterlegt sind. Präqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise vergleichbare Referenzen betreffen und die Hinterlegung ggf. entsprechend anpassen. Alternativ können die Referenzen auch mit dem Angebot übermittelt werden.\n---\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist deren jeweilige Nummer im Präqualifikationsverzeichnis oder die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen.\n---\nFür Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Mit dem Angebot sind die entsprechenden Nachweise zu erbringen, entweder durch die, vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis), oder vorläufig, entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE):\nErklärung, dass dem Unternehmen die für die Ausführung der Leistung erforderlichen Arbeitskräfte zur Verfügung stehen.\n---\nAuf gesondertes Verlangen sind zur Bestätigung der Eigenerklärung innerhalb der von der Vergabestelle gesetzten Frist vorzulegen:\nAngaben über die Zahl der in den letzten drei abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischen Leitungspersonal.\n---\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist deren jeweilige Nummer im Präqualifikationsverzeichnis oder die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen.\n---\nFür Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das alleinige Zuschlagskriterium",
+      "description": "Der Preis ist das alleinige Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§17 VOB/B):\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\nSicherheitsleistung für Mängelansprüche:\nDie Sicherheit für Mängelansprüche beträgt 3 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme).\nErgänzend hierzu erfolgt eine Regelung, die den Auftragnehmer verpflichtet, - über die gesamten von ihm bis zum Zeitpunkt der  Abschlagsrechnungsstellung erbrachten Leistungen -, mindestens eine Abschlagsrechnung zu erstellen. Diese ist spätestens 6 Wochen vor der beabsichtigten Abnahme des Auftragsgegenstandes / der vertragsgegenständlichen Leistung zu stellen.\nDie Stellung mindestens einer Abschlagsrechnung wie vorgenannt ist zwingende Voraussetzung für die Vereinbarung eines Termins zur Abnahme der vertragsgegenständlichen Leistung."
+    }
+   }
+  ]
+ }
+}

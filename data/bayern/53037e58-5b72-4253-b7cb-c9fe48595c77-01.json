@@ -1,0 +1,259 @@
+{
+ "id": "53037e58-5b72-4253-b7cb-c9fe48595c77-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "53037e58-5b72-4253-b7cb-c9fe48595c77",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=53037e58-5b72-4253-b7cb-c9fe48595c77",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:53037e58-5b72-4253-b7cb-c9fe48595c77-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:53037e58-5b72-4253-b7cb-c9fe48595c77-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/53037e58-5b72-4253-b7cb-c9fe48595c77?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Estricharbeiten",
+  "buyer": "Wohnbau Stadt Coburg GmbH",
+  "cpv": [
+   "45262320"
+  ],
+  "nuts": [
+   "DE243"
+  ],
+  "deadline": "2026-11-25T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-deea5776-c7a3-4178-bd91-8be88fd6d650",
+  "id": "53037e58-5b72-4253-b7cb-c9fe48595c77",
+  "date": "2026-10-21T02:12:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Wohnbau Stadt Coburg GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE132459867",
+     "legalName": "Wohnbau Stadt Coburg GmbH"
+    },
+    "address": {
+     "streetAddress": "Mauer 12",
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Stadt Coburg - Beschaffungsamt",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09463000-0001SC1200-50",
+     "legalName": "Stadt Coburg - Beschaffungsamt"
+    },
+    "address": {
+     "streetAddress": "Steingasse 18",
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Stadt Coburg - Beschaffungsamt",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0 9463000-0001SC1200- 50",
+     "legalName": "Stadt Coburg - Beschaffungsamt"
+    },
+    "address": {
+     "streetAddress": "Steingasse 18",
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "09 -0358002- 61",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Wohnbau Stadt Coburg GmbH",
+   "id": "DE132459867",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Wohnbau Stadt Coburg GmbH"
+   },
+   "address": {
+    "streetAddress": "Mauer 12",
+    "locality": "Coburg",
+    "region": "DE243",
+    "postalCode": "96450",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "deea5776-c7a3-4178-bd91-8be88fd6d650",
+   "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Estricharbeiten",
+   "description": "Estricharbeiten",
+   "procuringEntity": {
+    "name": "Wohnbau Stadt Coburg GmbH",
+    "id": "DE132459867"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262320",
+      "description": "Screed works"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Heiligkreuzstraße 24+26",
+      "locality": "Coburg",
+      "region": "DE243",
+      "postalCode": "96450",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.tender24.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a13f978788-5e6604851a082939",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Estricharbeiten",
+     "description": "Die in diesem Leistungsverzeichnis beschriebenen Leistungen umfassen:\n- ca. 1.291m² schwimmenden Heizestrich auf Dämmschicht und Schüttung\n- ca. 153m² Gefällestrich auf Trennlage\n- ca. 1.184m² Trockenestrich auf Dämmschicht",
+     "contractPeriod": {
+      "startDate": "2028-01-17T00:00:00+01:00",
+      "endDate": "2028-10-27T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "53037e58-5b72-4253-b7cb-c9fe48595c77",
+  "version": "01",
+  "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Estricharbeiten",
+  "description": "Estricharbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE243"
+  ],
+  "cpv": [
+   "45262320"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Estricharbeiten",
+    "description": "Die in diesem Leistungsverzeichnis beschriebenen Leistungen umfassen:\n- ca. 1.291m² schwimmenden Heizestrich auf Dämmschicht und Schüttung\n- ca. 153m² Gefällestrich auf Trennlage\n- ca. 1.184m² Trockenestrich auf Dämmschicht",
+    "cpv": [
+     "45262320"
+    ],
+    "nuts": [
+     "DE243"
+    ],
+    "deadline": "2026-11-25T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-17+01:00",
+    "plannedEnd": "2028-10-27+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a13f978788-5e6604851a082939"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a13f978788-5e6604851a082939"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a13f978788-5e6604851a082939"
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a13f978788-5e6604851a082939"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

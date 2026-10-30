@@ -1,0 +1,411 @@
+{
+ "id": "7cf7ccc3-8336-45a3-84d0-51af95e7df2f-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "7cf7ccc3-8336-45a3-84d0-51af95e7df2f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7cf7ccc3-8336-45a3-84d0-51af95e7df2f",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:7cf7ccc3-8336-45a3-84d0-51af95e7df2f-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:7cf7ccc3-8336-45a3-84d0-51af95e7df2f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7cf7ccc3-8336-45a3-84d0-51af95e7df2f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Betrieb des Deutschen Museums Bonn (DM Bonn)",
+  "buyer": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik (AdöR)",
+  "cpv": [
+   "92320000",
+   "92000000",
+   "98341140",
+   "50700000",
+   "92370000",
+   "71315000",
+   "90911200",
+   "92520000",
+   "92521000"
+  ],
+  "nuts": [
+   "DE212",
+   "DEA22"
+  ],
+  "deadline": "2026-11-18T10:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-2509333c-b0dd-4b32-a021-1b1e7004e18e",
+  "id": "7cf7ccc3-8336-45a3-84d0-51af95e7df2f",
+  "date": "2026-10-17T14:22:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik (AdöR)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "143/241/10063",
+     "legalName": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik (AdöR)"
+    },
+    "address": {
+     "streetAddress": "Museumsinsel 1",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern-Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern-Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik (AdöR)",
+   "id": "143/241/10063",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik (AdöR)"
+   },
+   "address": {
+    "streetAddress": "Museumsinsel 1",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80538",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "2509333c-b0dd-4b32-a021-1b1e7004e18e",
+   "title": "Betrieb des Deutschen Museums Bonn (DM Bonn)",
+   "description": "Das DM Bonn sucht Auftragnehmer für den Zeitraum ab 01.01.2027 bis zum 31.12.2030 für folgende Leistungen : \nLos 1:Shop- und Objektleitung in Personalunion, Shop, Kasse und Einlass, Besucherbetreuung \nLos 2: Techniker / Hausmeister\nLos 3: Unterhaltsreinigung",
+   "procuringEntity": {
+    "name": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik (AdöR)",
+    "id": "143/241/10063"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "92320000",
+      "description": "Arts-facility operation services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "92000000",
+       "description": "Recreational, cultural and sporting services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Ahrstraße 45",
+      "locality": "Bonn",
+      "region": "DEA22",
+      "postalCode": "53175",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "98341140",
+      "description": "Caretaker services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "50700000",
+       "description": "Repair and maintenance services of building installations"
+      },
+      {
+       "scheme": "CPV",
+       "id": "92370000",
+       "description": "Sound technician"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71315000",
+       "description": "Building services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Ahrstraße 45",
+      "locality": "Bonn",
+      "region": "DEA22",
+      "postalCode": "53175",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Ahrstraße 45",
+      "locality": "Bonn",
+      "region": "DEA22",
+      "postalCode": "53175",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=897499",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=897499",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=897499",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Betrieb des DM Bonn \nLos 1: Shop- und Objektleitung in Personalunion, Shop, Kasse und Einlass, Besucherbetreuung",
+     "description": "Los 1 umfasst den Betrieb des Besucherservice des Zweigmuseums Bonn sowie des Museumsshops. Dies umfasst die Bereiche Shop, Kasse und Einlass, Besucherbetreuung und Shop- und Objektleitung inkl. dem operationalen Schnittstellenmanagement bzgl. des Hausmeister- und Reinigungsdienstes. Diese Aufgaben sind in der praktischen Ausführung aufgrund der Eigenart der Aufgaben sowie des Eingangsbereichs des Museums nicht voneinander inhaltlich und insbesondere personell separierbar.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Betrieb des DM Bonn\nLos 2: Techniker / Hausmeister",
+     "description": "Los 2 umfasst die Organisation und Abwicklung des Hausmeisterdienstes einschließlich der Gestellung des Hausmeisters. Darunter fällt die Überprüfung des einwandfreien technischen Zustand des Museums mit dem dazugehötigen Mobiliar sowie die handwerkliche Reparatur von Defekten",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Betrieb des DM Bonn\nLos 3 : Unterhaltsreinigung",
+     "description": "Organisation und Abwicklung des Reinigungsdienstes einschließlich Gestellung des Reinigungspersonals. Darunter fällt die einwandfreie Reinigung des Museuma mit 1.800 qm Ausstellungsfläche, 60 qm WC-Anlagen, 90 qm Eingang/Kasse/Shop/Garderobe. Die Leistung ist in der Regel außerhalb der Öffnungszeiten zu erbringen; am Wochenende auch einmal am Tag während der Öffnungsteiten des Museums",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "7cf7ccc3-8336-45a3-84d0-51af95e7df2f",
+  "version": "01",
+  "title": "Betrieb des Deutschen Museums Bonn (DM Bonn)",
+  "description": "Das DM Bonn sucht Auftragnehmer für den Zeitraum ab 01.01.2027 bis zum 31.12.2030 für folgende Leistungen : \nLos 1:Shop- und Objektleitung in Personalunion, Shop, Kasse und Einlass, Besucherbetreuung \nLos 2: Techniker / Hausmeister\nLos 3: Unterhaltsreinigung",
+  "procedureType": "open",
+  "nuts": [
+   "DEA22"
+  ],
+  "cpv": [
+   "92520000",
+   "92521000",
+   "92320000",
+   "92000000",
+   "98341140",
+   "50700000",
+   "92370000",
+   "71315000",
+   "90911200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Betrieb des DM Bonn \nLos 1: Shop- und Objektleitung in Personalunion, Shop, Kasse und Einlass, Besucherbetreuung",
+    "description": "Los 1 umfasst den Betrieb des Besucherservice des Zweigmuseums Bonn sowie des Museumsshops. Dies umfasst die Bereiche Shop, Kasse und Einlass, Besucherbetreuung und Shop- und Objektleitung inkl. dem operationalen Schnittstellenmanagement bzgl. des Hausmeister- und Reinigungsdienstes. Diese Aufgaben sind in der praktischen Ausführung aufgrund der Eigenart der Aufgaben sowie des Eingangsbereichs des Museums nicht voneinander inhaltlich und insbesondere personell separierbar.",
+    "cpv": [
+     "92320000",
+     "92000000"
+    ],
+    "nuts": [
+     "DEA22"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Umsatz des Unternehmens in den letzten drei\nabgeschlossenen Geschäfts-jahren, soweit er Leistungen betrifft, die mit\nder zu vergebenden Leistung ver-gleichbar sind unter Einschluss des\nAnteils bei gemeinsam mit anderen Unter-nehmen ausgeführten Leistungen"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer Berufs- oder Betriebshaftpflichtversicherung\nin bestimmter geeigneter Höhe"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung, aus der die durchschnittliche jährliche\nBeschäftigtenzahl des Unternehmens und die Zahl sei-ner Führungskräfte\nin den letzten drei Jahren ersichtlich sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eintragung in das Berufsregister ihres Sitzes oder Wohnsitzes\nAngabe zur Mitgliedschaft bei der Berufsgenossenschaft"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe zu Insolvenzverfahren und Liquidation\nAngabe, dass nachweislich keine schwere Verfehlung begangen wurde, die\ndie Zuverlässigkeit als Bewerber in Frage stellt\nAngabe zu Bezug zu Russland"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Innerhalb der letzten 10 Jahre min. 5 Jahre Erfahrung in der Betreuung von mindestens zwei der folgenden drei Leistungsbereiche in vergleichbaren Rahmen mit Personalverantwortung:\nBereich 1: Shop\nEigenverantwortlicher Betrieb einer Verkaufsfläche/eines Shops (Sortimentsbetreuung, Warenwirtschaft, Inventur, Kassensysteme) in einer Kultur-, Bildungs-, Freizeit- oder Veranstaltungseinrichtung. \nBereich 2: Kassen-, Einlassdienst\nDurchführung von Kassen- und Einlassdiensten mit Bargeldabwicklung, Tagesabschlüssen, Abrechnung von Eintrittsgeldern und Ticketkontrolle mit hoher Frequenz (mind. 30.000 Besucher/Jahr).\nBereich 3: Besucherbetreuung / Museotainment \nDurchführung von Publikumsbetreuung, Aufsichtsdiensten, Auskunftserteilung, Führungen oder interaktiven Vermittlungskonzepten im Umfeld von Museen, Ausstellungen, Bildungseinrichtungen oder Messen.\nIn zwei der drei Bereiche müssen jeweils 5 Jahre Erfahrung vorliegen. Diese kann jedoch auch parallel in einem Projekt gesammelt werden\nReferenz, die mindestens folgende Informationen enthält:\nAuftraggeber (Ansprechpartner, Telefonnummer/E-Mail für Rückfragen)\nLeistungszeitraum und Auftragsvolumen\nGenaue Angabe, welche der drei Leistungsbereiche (Shop, Kasse/Einlass, Besucherbetreuung) abgedeckt wurden\nBeschreibung der Aufgaben in den abgedeckten Leistungsbereichen\nEingesetzte Personalstärke"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Betrieb des DM Bonn\nLos 2: Techniker / Hausmeister",
+    "description": "Los 2 umfasst die Organisation und Abwicklung des Hausmeisterdienstes einschließlich der Gestellung des Hausmeisters. Darunter fällt die Überprüfung des einwandfreien technischen Zustand des Museums mit dem dazugehötigen Mobiliar sowie die handwerkliche Reparatur von Defekten",
+    "cpv": [
+     "98341140",
+     "50700000",
+     "92370000",
+     "71315000"
+    ],
+    "nuts": [
+     "DEA22"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Umsatz des Unternehmens in den letzten drei\nabgeschlossenen Geschäfts-jahren, soweit er Leistungen betrifft, die mit\nder zu vergebenden Leistung ver-gleichbar sind unter Einschluss des\nAnteils bei gemeinsam mit anderen Unter-nehmen ausgeführten Leistungen"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer Berufs- oder Betriebshaftpflichtversicherung in bestimmter geeigneter Höhe"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl sei-ner Führungskräfte in den letzten drei Jahren ersichtlich sind"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eintragung in das Berufsregister ihres Sitzes oder Wohnsitzes\nAngabe zur Mitgliedschaft bei der Berufsgenossenschaft"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe zu Insolvenzverfahren und Liquidation\nAngabe, dass nachweislich keine schwere Verfehlung begangen wurde, die die Zuverlässigkeit als Bewerber in Frage stellt Angabe zu Bezug zu Russland"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": ".5 Jahre Tätigkeit als Hausmeisterservice (auch als Teilleistung) für Gewerbefläche mit\nmindestens 1.500 qm (Nachweis durch Eigenerklärung)\n• Nachweis eines Referenzobjektes aus den letzten 5 Jahren über eine durchgängige Tätigkeit über\nmindestens 3 Jahre im Bereich Gewerbefläche mit mindestens 1.500 qm"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Betrieb des DM Bonn\nLos 3 : Unterhaltsreinigung",
+    "description": "Organisation und Abwicklung des Reinigungsdienstes einschließlich Gestellung des Reinigungspersonals. Darunter fällt die einwandfreie Reinigung des Museuma mit 1.800 qm Ausstellungsfläche, 60 qm WC-Anlagen, 90 qm Eingang/Kasse/Shop/Garderobe. Die Leistung ist in der Regel außerhalb der Öffnungszeiten zu erbringen; am Wochenende auch einmal am Tag während der Öffnungsteiten des Museums",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DEA22"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Umsatz des Unternehmens in den letzten drei\nabgeschlossenen Geschäfts-jahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unter-nehmen ausgeführten Leistungen"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl sei-ner Führungskräfte in den letzten drei Jahren ersichtlich sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eintragung in das Berufsregister ihres Sitzes oder  Wohnsitzes\nAngabe zur Mitgliedschaft bei der Berufsgenossenschaft"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe zu Insolvenzverfahren und Liquidation\nAngabe, dass nachweislich keine schwere Verfehlung begangen wurde, die die Zuverlässigkeit als Bewerber in Frage stellt\nAngabe zu Bezug zu Russland"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Nachweis von mindestens einem vergleichbaren Referenzprojekten aus den letzten 3 Jahren mit\nfolgenden Mindestanforderungen:\nReinigung von öffentlich zugänglichen Gebäuden mit Publikumsverkehr (z. B. Museen, Ausstellungsflächen, Theater, Bibliotheken oder vergleichbare öffentliche Liegenschaften).\nMindestfläche des Referenzobjekts: mindestens 1.500 m² Reinigungsfläche.\nNachweispflicht: Angaben zu Auftraggeber (inkl. Ansprechpartner/Kontaktdaten für Rückfragen), Leistungszeitraum, Flächengröße und Ausführungsort."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

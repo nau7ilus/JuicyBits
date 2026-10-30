@@ -1,0 +1,227 @@
+{
+ "id": "ad1f6cc3-d98d-4220-987c-3fd334b30002-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "ad1f6cc3-d98d-4220-987c-3fd334b30002",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ad1f6cc3-d98d-4220-987c-3fd334b30002",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:ad1f6cc3-d98d-4220-987c-3fd334b30002-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:ad1f6cc3-d98d-4220-987c-3fd334b30002-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ad1f6cc3-d98d-4220-987c-3fd334b30002?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "Bau GSH 5850 Neumarkt - Regensburg  Km 64,053-2,700 Bauleistung Abschnitt 1",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45234116"
+  ],
+  "nuts": [
+   "DE712",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0ce32a26-b237-4852-b61b-3968b3253341",
+  "id": "ad1f6cc3-d98d-4220-987c-3fd334b30002",
+  "date": "2026-10-20T10:04:06Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "SPITZKE SE",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "4df70146-74f6-4ad3-8df8-a09e842480a7",
+     "legalName": "SPITZKE SE"
+    },
+    "address": {
+     "streetAddress": "Märkische Allee 39/41",
+     "locality": "Großbeeren",
+     "region": "DE40H",
+     "postalCode": "14979",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0ce32a26-b237-4852-b61b-3968b3253341",
+   "title": "Bau GSH 5850 Neumarkt - Regensburg  Km 64,053-2,700 Bauleistung Abschnitt 1",
+   "description": "Bau GSH 5850 Neumarkt - Regensburg Km 64,010-2,700 Bauleistung Abschnitt 1",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234116",
+      "description": "Track construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Bayern",
+      "postalCode": "BY",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2025-04-25T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SPITZKE SE",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "SPITZKE SE"
+     },
+     "address": {
+      "streetAddress": "Märkische Allee 39/41",
+      "locality": "Großbeeren",
+      "region": "DE40H",
+      "postalCode": "14979",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Vergabelos 1 Fachlos  0 - 14",
+     "description": "Vergabelos 1 Fachlos 0 - 14",
+     "contractPeriod": {
+      "startDate": "2025-05-09T00:00:00+02:00",
+      "endDate": "2027-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2025-04-25T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2025-04-24T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "ad1f6cc3-d98d-4220-987c-3fd334b30002",
+  "version": "01",
+  "title": "Bau GSH 5850 Neumarkt - Regensburg  Km 64,053-2,700 Bauleistung Abschnitt 1",
+  "description": "Bau GSH 5850 Neumarkt - Regensburg Km 64,010-2,700 Bauleistung Abschnitt 1",
+  "procedureType": null,
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45234116"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Vergabelos 1 Fachlos  0 - 14",
+    "description": "Vergabelos 1 Fachlos 0 - 14",
+    "cpv": [
+     "45234116"
+    ],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-05-09+02:00",
+    "plannedEnd": "2027-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

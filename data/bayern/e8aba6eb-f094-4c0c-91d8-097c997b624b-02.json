@@ -1,0 +1,233 @@
+{
+ "id": "e8aba6eb-f094-4c0c-91d8-097c997b624b-02",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "e8aba6eb-f094-4c0c-91d8-097c997b624b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e8aba6eb-f094-4c0c-91d8-097c997b624b",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:e8aba6eb-f094-4c0c-91d8-097c997b624b-02.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:e8aba6eb-f094-4c0c-91d8-097c997b624b-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e8aba6eb-f094-4c0c-91d8-097c997b624b?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Generalsanierung histor. Rathaus Forchheim - G30 Lieferung lose Möbel (3.26-6.63.20)",
+  "buyer": "Stadt Forchheim",
+  "cpv": [
+   "39100000"
+  ],
+  "nuts": [
+   "DE248"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-943df8b7-3370-4d33-98b7-8490ce38ca8c",
+  "id": "e8aba6eb-f094-4c0c-91d8-097c997b624b",
+  "date": "2026-10-21T02:10:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Forchheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "11043",
+     "legalName": "Stadt Forchheim"
+    },
+    "address": {
+     "streetAddress": "Birkenfelderstraße 4",
+     "locality": "Forchheim",
+     "region": "DE248",
+     "postalCode": "91301",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09e06e7c-c4c9-4e33-9a49-717da4b4ceb4",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Aura GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE133525855",
+     "legalName": "Aura GmbH"
+    },
+    "address": {
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90461",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Forchheim",
+   "id": "11043",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Forchheim"
+   },
+   "address": {
+    "streetAddress": "Birkenfelderstraße 4",
+    "locality": "Forchheim",
+    "region": "DE248",
+    "postalCode": "91301",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "943df8b7-3370-4d33-98b7-8490ce38ca8c",
+   "title": "Generalsanierung histor. Rathaus Forchheim - G30 Lieferung lose Möbel (3.26-6.63.20)",
+   "description": "G30 Lieferung lose Möbelierung",
+   "procuringEntity": {
+    "name": "Stadt Forchheim",
+    "id": "11043"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39100000",
+      "description": "Furniture"
+     },
+     "deliveryAddress": {
+      "region": "DE248",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Aura GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Aura GmbH"
+     },
+     "address": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90461",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Generalsanierung histor. Rathaus Forchheim - G30 Lieferung lose Möbel (3.26-6.63.20)",
+     "description": "Für die Generalsanierung historisches Rathaus Forchheim werden verschiedene Möbel benötigt.\n \n-\t350 St. Reihenbestuhlung\n-\t70 St. Reihentische\n-\tca. 60 m² Mobile Bühnenelemente mit Treppen, Geländer, etc.\n-\t27 lfm Bühnenvorhang\n-\t40 m² Stellwandsystem mobil und modular\n-\t10 St. Büro-Drehstühle\n-\t6 St. höhenverstellbare Bürotische"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-12T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 207368,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-11T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e8aba6eb-f094-4c0c-91d8-097c997b624b",
+  "version": "02",
+  "title": "Generalsanierung histor. Rathaus Forchheim - G30 Lieferung lose Möbel (3.26-6.63.20)",
+  "description": "G30 Lieferung lose Möbelierung",
+  "procedureType": "open",
+  "nuts": [
+   "DE248"
+  ],
+  "cpv": [
+   "39100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Generalsanierung histor. Rathaus Forchheim - G30 Lieferung lose Möbel (3.26-6.63.20)",
+    "description": "Für die Generalsanierung historisches Rathaus Forchheim werden verschiedene Möbel benötigt.\n \n-\t350 St. Reihenbestuhlung\n-\t70 St. Reihentische\n-\tca. 60 m² Mobile Bühnenelemente mit Treppen, Geländer, etc.\n-\t27 lfm Bühnenvorhang\n-\t40 m² Stellwandsystem mobil und modular\n-\t10 St. Büro-Drehstühle\n-\t6 St. höhenverstellbare Bürotische",
+    "cpv": [
+     "39100000"
+    ],
+    "nuts": [
+     "DE248"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

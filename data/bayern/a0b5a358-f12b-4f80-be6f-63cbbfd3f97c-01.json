@@ -1,0 +1,363 @@
+{
+ "id": "a0b5a358-f12b-4f80-be6f-63cbbfd3f97c-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "a0b5a358-f12b-4f80-be6f-63cbbfd3f97c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a0b5a358-f12b-4f80-be6f-63cbbfd3f97c",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:a0b5a358-f12b-4f80-be6f-63cbbfd3f97c-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:a0b5a358-f12b-4f80-be6f-63cbbfd3f97c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a0b5a358-f12b-4f80-be6f-63cbbfd3f97c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvereinbarung Tank- und Ladekarten - PR1302752-9782-R",
+  "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
+  "cpv": [
+   "63712600"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-23T12:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-900d5d37-2c60-4ea6-9d8b-d8290a45a259",
+  "id": "a0b5a358-f12b-4f80-be6f-63cbbfd3f97c",
+  "date": "2026-10-22T02:10:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 28",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE-129515865",
+     "legalName": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 28",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "900d5d37-2c60-4ea6-9d8b-d8290a45a259",
+   "title": "Rahmenvereinbarung Tank- und Ladekarten - PR1302752-9782-R",
+   "description": "Rahmenvereinbarung Tank- und Ladekarten",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "63712600",
+      "description": "Vehicle refuelling services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80686",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "63712600",
+      "description": "Vehicle refuelling services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80868",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "63712600",
+      "description": "Vehicle refuelling services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80686",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a11c07e194-6a437c977f5d0605",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a11c07e194-6a437c977f5d0605",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a11c07e194-6a437c977f5d0605",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1: Kartenlösung für die Kraftstoffversorgung",
+     "description": "Ziel der Ausschreibung ist die Bereitstellung einer wirtschaftlichen, sicheren und nutzerfreundlichen Lösung für die bundesweite Versorgung der Dienstfahrzeuge der Fraunhofer-Gesellschaft mit Kraftstoffen sowie die Abrechnung weiterer fahrzeugbezogener Leistungen.",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2029-01-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2: Kartenlösung für die Stromversorgung von Fahrzeugen",
+     "description": "Ziel der Ausschreibung ist die Bereitstellung einer wirtschaftlichen, sicheren und nutzerfreundlichen Lösung für die bundesweite Versorgung der Dienstfahrzeuge der Fraunhofer-Gesellschaft mit Ladestrom sowie die Abrechnung weiterer fahrzeugbezogener Leistungen.",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2029-01-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3: Kartenlösung für die Kraftstoff- und Stromversorgung",
+     "description": "Ziel der Ausschreibung ist die Bereitstellung einer wirtschaftlichen, sicheren und nutzerfreundlichen Lösung für die bundesweite Versorgung der Dienstfahrzeuge der Fraunhofer-Gesellschaft mit Kraftstoffen und Ladestrom sowie die Abrechnung weiterer fahrzeugbezogener Leistungen.",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2029-01-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a0b5a358-f12b-4f80-be6f-63cbbfd3f97c",
+  "version": "01",
+  "title": "Rahmenvereinbarung Tank- und Ladekarten - PR1302752-9782-R",
+  "description": "Rahmenvereinbarung Tank- und Ladekarten",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "63712600"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1: Kartenlösung für die Kraftstoffversorgung",
+    "description": "Ziel der Ausschreibung ist die Bereitstellung einer wirtschaftlichen, sicheren und nutzerfreundlichen Lösung für die bundesweite Versorgung der Dienstfahrzeuge der Fraunhofer-Gesellschaft mit Kraftstoffen sowie die Abrechnung weiterer fahrzeugbezogener Leistungen.",
+    "cpv": [
+     "63712600"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2029-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz der letzten 3 Geschäftsjahre\n-\nDieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a11c07e194-6a437c977f5d0605"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Akzeptanz Ladepunkte",
+      "description": "Akzeptanz Ladepunkte",
+      "weight": 40
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2: Kartenlösung für die Stromversorgung von Fahrzeugen",
+    "description": "Ziel der Ausschreibung ist die Bereitstellung einer wirtschaftlichen, sicheren und nutzerfreundlichen Lösung für die bundesweite Versorgung der Dienstfahrzeuge der Fraunhofer-Gesellschaft mit Ladestrom sowie die Abrechnung weiterer fahrzeugbezogener Leistungen.",
+    "cpv": [
+     "63712600"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2029-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz der letzten 3 Geschäftsjahre\n-\nDieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a11c07e194-6a437c977f5d0605"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Akzeptanz Ladepunkte",
+      "description": "Akzeptanz Ladepunkte",
+      "weight": 40
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3: Kartenlösung für die Kraftstoff- und Stromversorgung",
+    "description": "Ziel der Ausschreibung ist die Bereitstellung einer wirtschaftlichen, sicheren und nutzerfreundlichen Lösung für die bundesweite Versorgung der Dienstfahrzeuge der Fraunhofer-Gesellschaft mit Kraftstoffen und Ladestrom sowie die Abrechnung weiterer fahrzeugbezogener Leistungen.",
+    "cpv": [
+     "63712600"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2029-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz der letzten 3 Geschäftsjahre\n-\nDieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a11c07e194-6a437c977f5d0605"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Akzeptanz Ladepunkte",
+      "description": "Akzeptanz Ladepunkte",
+      "weight": 40
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

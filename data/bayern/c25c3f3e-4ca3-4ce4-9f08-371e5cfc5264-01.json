@@ -5,14 +5,14 @@
   "noticeId": "c25c3f3e-4ca3-4ce4-9f08-371e5cfc5264",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c25c3f3e-4ca3-4ce4-9f08-371e5cfc5264",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:c25c3f3e-4ca3-4ce4-9f08-371e5cfc5264-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:c25c3f3e-4ca3-4ce4-9f08-371e5cfc5264-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/c25c3f3e-4ca3-4ce4-9f08-371e5cfc5264?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Landschaftsplanerische Fachbeitraege",
   "buyer": "Staatliches Bauamt Traunstein",
   "cpv": [
@@ -240,5 +240,50 @@
    }
   ]
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "c25c3f3e-4ca3-4ce4-9f08-371e5cfc5264",
+  "version": "01",
+  "title": "Landschaftsplanerische Fachbeitraege",
+  "description": "Erstellung landschaftsplanerischer Fachbeiträge zum Vorentwurf \n- Erstellung eines Landschaftspflegerischen Begleitplans (LBP)\n- Plausibilisierung der bestehenden Biotop- und Nutzungstypenkartierung aus dem Jahr 2022 \n- Erstellung eines Artenschutzbeitrags zur speziellen artenschutzrechtlichen Prüfung \n- Erstellung einer FFH-Vorprüfung für das FFH-Gebiet DE 7741-371 Grünbach und Bucher Moor \n- Erstellung einer FFH-Verträglichkeitsprüfung für die FFH-Gebiete DE 7841-371 Wochenstuben der Wimperfledermaus im Chiemgau und DE 7839-371 Mausohrkolonien im Unterbayerischen Hügelland \n- Erstellung der Aussagen zu Umweltauswirkungen in Unterlage 1 \n- Erstellung der Aussagen zu Umweltauswirkungen gem. § 6 UVPG (UVP-Vorprüfung)\n- Erstellung von Unterlagen zum Waldrecht\n- Erstellung einer Unterlage zur Berücksichtigung des globalen Klimas \n- Anwendung BIM-Methodik und \nErstellung eines Landschaftspflegerischen Begleitplans zum Feststellungsentwurf",
+  "procedureType": "open",
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "71240000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Landschaftsplanerische Fachbeitraege",
+    "description": "Erstellung landschaftsplanerischer Fachbeiträge zum Vorentwurf \n- Erstellung eines Landschaftspflegerischen Begleitplans (LBP)\n- Plausibilisierung der bestehenden Biotop- und Nutzungstypenkartierung aus dem Jahr 2022 \n- Erstellung eines Artenschutzbeitrags zur speziellen artenschutzrechtlichen Prüfung \n- Erstellung einer FFH-Vorprüfung für das FFH-Gebiet DE 7741-371 Grünbach und Bucher Moor \n- Erstellung einer FFH-Verträglichkeitsprüfung für die FFH-Gebiete DE 7841-371 Wochenstuben der Wimperfledermaus im Chiemgau und DE 7839-371 Mausohrkolonien im Unterbayerischen Hügelland \n- Erstellung der Aussagen zu Umweltauswirkungen in Unterlage 1 \n- Erstellung der Aussagen zu Umweltauswirkungen gem. § 6 UVPG (UVP-Vorprüfung)\n- Erstellung von Unterlagen zum Waldrecht\n- Erstellung einer Unterlage zur Berücksichtigung des globalen Klimas \n- Anwendung BIM-Methodik und \nErstellung eines Landschaftspflegerischen Begleitplans zum Feststellungsentwurf",
+    "cpv": [
+     "71240000"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

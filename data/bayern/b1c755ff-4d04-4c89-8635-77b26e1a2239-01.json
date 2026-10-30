@@ -1,0 +1,270 @@
+{
+ "id": "b1c755ff-4d04-4c89-8635-77b26e1a2239-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "b1c755ff-4d04-4c89-8635-77b26e1a2239",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b1c755ff-4d04-4c89-8635-77b26e1a2239",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:b1c755ff-4d04-4c89-8635-77b26e1a2239-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:b1c755ff-4d04-4c89-8635-77b26e1a2239-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b1c755ff-4d04-4c89-8635-77b26e1a2239?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Infrastrukturmaßnahme Dorferneuerung Arnshausen in 97688 Bad Kissingen",
+  "buyer": "Stadt Bad Kissingen",
+  "cpv": [
+   "71240000",
+   "71322200",
+   "71322500",
+   "71311300",
+   "71318100"
+  ],
+  "nuts": [
+   "DE265"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bda7be93-2aa2-4628-a175-98c3d301a26c",
+  "id": "b1c755ff-4d04-4c89-8635-77b26e1a2239",
+  "date": "2026-10-21T02:08:26Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bad Kissingen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09672114-KG0001-55",
+     "legalName": "Stadt Bad Kissingen"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Bad Kissingen",
+     "region": "DE265",
+     "postalCode": "97688",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 6 06",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bad Kissingen",
+   "id": "09672114-KG0001-55",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bad Kissingen"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Bad Kissingen",
+    "region": "DE265",
+    "postalCode": "97688",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bda7be93-2aa2-4628-a175-98c3d301a26c",
+   "title": "Infrastrukturmaßnahme Dorferneuerung Arnshausen in 97688 Bad Kissingen",
+   "description": "Die geplante Maßnahme umfasst eine Erneuerung der Freifläche / Verkehrsfläche inkl. Sanierung der Kanalisation sowie Wasser, Strom, Gas und Telekommunikationsleitungen im Bereich der historischen Ortsmitte von Arnshausen, einem Stadtteil der Stadt Bad Kissingen.  Das Planungsgebiet umfasst den Bereich zwischen der Ortdurchfahrtsstraße \"B286\" und der Straße \"Alter Dorfring\". Der Ortskern mit der historischen Ortsstruktur aus den bestehenden Gassen \"Ratsgasse\", \"Quellengasse\", \"Lindenstraße\" und \"Forellengasse\" erweist sich auf  Grund der engen Ortsbebauung als bautechnisch anspruchsvoll.  Die Stadt Bad Kissingen als Baulastträger für die Kanalisation plant in Zusammenarbeit mit den Stadtwerken Bad Kissingen GmbH die Erneuerung / Sanierung der Kanalisation sowie der Wasser-, Strom- und Gasversorgung im Bereich des Ortskerns.",
+   "procuringEntity": {
+    "name": "Stadt Bad Kissingen",
+    "id": "09672114-KG0001-55"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71240000",
+      "description": "Architectural, engineering and planning services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71322200",
+       "description": "Pipeline-design services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71322500",
+       "description": "Engineering-design services for traffic installations"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71311300",
+       "description": "Infrastructure works consultancy services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71318100",
+       "description": "Artificial and natural lighting engineering services for buildings"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "97688 Bad Kissingen, Stadtteil Arnshausen"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Rathausplatz 1",
+      "locality": "Bad Kissingen",
+      "region": "DE265",
+      "postalCode": "97688",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 283358,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4D4TMW31/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Infrastrukturmaßnahme Dorferneuerung Arnshausen in 97688 Bad Kissingen",
+     "description": "Gegenstand der Beschaffung ist die Vergabe   - der erforderlichen Grundleistungen der Leistungsphasen 4 bis 9 nach Teil 3, Objektplanung, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke), - der örtlichen Bauüberwachung der Ingenieurbauwerke als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI, - der erforderlichen Grundleistungen der Leistungsphasen 4 bis 9 nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen), - der örtlichen Bauüberwachung der Verkehrsanlagen als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 13.1 zu § 47 Absatz 2 HOAI, - der erforderlichen Grundleistungen der Leistungsphasen 5, 8 und 9 nach Teil 4, Abschnitt 2, § 55 HOAI (Leistungsbild Technische Ausrüstung), Anlagengruppe 4 des § 53 HOAI,  - sowie weiterer Besondere Ingenieurleistungen gemäß der Anlage 2 zum Vertrag (Koordinierungsleistungen etc., Beratungsleistungen)  für die Durchführung der Infrastrukturmaßnahme Dorferneuerung Arnshausen in 97688 Bad Kissingen. Die detailliertere Beschreibung der Aufgabenstellung, des Leistungsumfangs und der Vertragsbedingungen ergeben sich aus der Datei B-00, B-02, B-03 und B-04 der Vergabeunterlagen, die unter dem angegebenen Link des Auftraggebers zum Download zur Verfügung gestellt werden. Der Umfang der im Rahmen des Auftrags planerisch und bauüberwachend zu realisierenden Gesamtmaßnahme umfasst im Wesentlichen - den Abbruch der vorhandenen Infrastruktureinrichtungen, - die Herstellung des Leitungsgrabens für das Stromleitungsnetz und für die Kabelanlagen für Straßenbeleuchtung inkl. der Erneuerung des Stromleitungsnetzes einschließlich der Hausanschlüsse (NS-Kabelanlagen und Verteilerschränke, ca. 420 m Kabel) sowie die Erneuerung der Kabelanlagen für die Straßenbeleuchtung (ca. 360 m Kabel) und die Installation der Einrichtungen für die Straßenbeleuchtung, - die Erneuerung des Gasleitungsnetzes einschließlich der meisten Gasanschlussleitungen, teils bis zur Übergabestelle im Keller der Gebäude sowie ggf. die Herstellung von Neuanschlüssen (ca. 400 m Hauptleitungen), - die Erneuerung des Wasserversorgungsnetzes (Leitungen, Knotenpunkte/Schieberkreuze und Hydranten) einschließlich der meisten Wasseranschlussleitungen, teils bis zur Übergabestelle im Keller der Gebäude (ca. 460 m Hauptleitungen), - die überwiegend trassengleiche Erneuerung der Mischwasserkanalisation (ca. 500 m Hauptleitungen) auf Grundlage des vorliegenden Generalentwässerungsplanes einschließlich der Abwasseranschlussleitungen im öffentlichen Raum bis zur Grundstücksgrenze, - die im Wesentlichen bestandsnahe Erneuerung der Fahrbahnen, Gehwege sowie Seitenflächen (ca. 3.550 m2 Verkehrsflächen) und Straßenentwässerungseinrichtungen, - die Sicherstellung der barrierefreien Übergänge und der Kennzeichnung mit taktilen Elementen auf Wegen,  - die Überprüfung und ggf. Realisierung bedarfsweise zusätzlicher Anlagen im Verkehrsraum (z. B. Stellplätze), ausgestattet mit der erforderlichen Technischen Ausrüstung, bestehend aus Anlagengruppe 4: Starkstromanlagen: - Beleuchtungsanlagen für den Straßenverkehr. Nach der Kostenberechnung beläuft sich der Finanzrahmen (Kostengruppe 300 und 400 nach DIN 276-1:2008-12 und DIN 276-4:2009-08) für das Projekt auf Kosten in Höhe von ca. 2,075 Mio. EUR, exkl. Umsatzsteuer. Davon entfallen auf die Kostengruppe (KG) 300 (nach DIN 276) ca. 2,054 Mio. EUR und auf die KG 400 ca. 0,021 Mio. EUR. Der Auftraggeber beabsichtigt zunächst die erforderlichen Grundleistungen der Leistungsphasen 4 bis 6 nach Teil 3, Objektplanung, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) und nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen) sowie die erforderlichen Grundleistungen der Leistungsphase 5 nach Teil 4, Fachplanung, Abschnitt 2, § 55 HOAI (Leistungsbild Technische Ausrüstung) für die Anlagengruppe 4 des § 53 HOAI zu vergeben. Die erforderlichen Grundleistungen der Leistungsphasen 7 bis 9 nach Teil 3, Objektplanung, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) und nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen), die örtliche Bauüberwachung der Ingenieurbauwerke und der Verkehrsanlagen als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI bzw. gemäß Anlage 13.1 zu § 47 Absatz 2 HOAI und die erforderlichen Grundleistungen der Leistungsphasen 8 und 9 nach Teil 4, Fachplanung, Abschnitt 2, § 55 HOAI (Leistungsbild Technische Ausrüstung) für die Anlagengruppe 4 des § 53 HOAI werden optional zu den vereinbarten Vertragsbedingungen durch schriftlichen Einzelauftrag beauftragt. Ein Rechtsanspruch des Auftragnehmers auf diese Beauftragung besteht nicht.",
+     "contractPeriod": {
+      "durationInDays": 780
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b1c755ff-4d04-4c89-8635-77b26e1a2239",
+  "version": "01",
+  "title": "Infrastrukturmaßnahme Dorferneuerung Arnshausen in 97688 Bad Kissingen",
+  "description": "Die geplante Maßnahme umfasst eine Erneuerung der Freifläche / Verkehrsfläche inkl. Sanierung der Kanalisation sowie Wasser, Strom, Gas und Telekommunikationsleitungen im Bereich der historischen Ortsmitte von Arnshausen, einem Stadtteil der Stadt Bad Kissingen.  Das Planungsgebiet umfasst den Bereich zwischen der Ortdurchfahrtsstraße \"B286\" und der Straße \"Alter Dorfring\". Der Ortskern mit der historischen Ortsstruktur aus den bestehenden Gassen \"Ratsgasse\", \"Quellengasse\", \"Lindenstraße\" und \"Forellengasse\" erweist sich auf  Grund der engen Ortsbebauung als bautechnisch anspruchsvoll.  Die Stadt Bad Kissingen als Baulastträger für die Kanalisation plant in Zusammenarbeit mit den Stadtwerken Bad Kissingen GmbH die Erneuerung / Sanierung der Kanalisation sowie der Wasser-, Strom- und Gasversorgung im Bereich des Ortskerns.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "71240000",
+   "71322200",
+   "71322500",
+   "71311300",
+   "71318100"
+  ],
+  "estimatedValue": {
+   "amount": 283358,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Infrastrukturmaßnahme Dorferneuerung Arnshausen in 97688 Bad Kissingen",
+    "description": "Gegenstand der Beschaffung ist die Vergabe   - der erforderlichen Grundleistungen der Leistungsphasen 4 bis 9 nach Teil 3, Objektplanung, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke), - der örtlichen Bauüberwachung der Ingenieurbauwerke als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI, - der erforderlichen Grundleistungen der Leistungsphasen 4 bis 9 nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen), - der örtlichen Bauüberwachung der Verkehrsanlagen als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 13.1 zu § 47 Absatz 2 HOAI, - der erforderlichen Grundleistungen der Leistungsphasen 5, 8 und 9 nach Teil 4, Abschnitt 2, § 55 HOAI (Leistungsbild Technische Ausrüstung), Anlagengruppe 4 des § 53 HOAI,  - sowie weiterer Besondere Ingenieurleistungen gemäß der Anlage 2 zum Vertrag (Koordinierungsleistungen etc., Beratungsleistungen)  für die Durchführung der Infrastrukturmaßnahme Dorferneuerung Arnshausen in 97688 Bad Kissingen. Die detailliertere Beschreibung der Aufgabenstellung, des Leistungsumfangs und der Vertragsbedingungen ergeben sich aus der Datei B-00, B-02, B-03 und B-04 der Vergabeunterlagen, die unter dem angegebenen Link des Auftraggebers zum Download zur Verfügung gestellt werden. Der Umfang der im Rahmen des Auftrags planerisch und bauüberwachend zu realisierenden Gesamtmaßnahme umfasst im Wesentlichen - den Abbruch der vorhandenen Infrastruktureinrichtungen, - die Herstellung des Leitungsgrabens für das Stromleitungsnetz und für die Kabelanlagen für Straßenbeleuchtung inkl. der Erneuerung des Stromleitungsnetzes einschließlich der Hausanschlüsse (NS-Kabelanlagen und Verteilerschränke, ca. 420 m Kabel) sowie die Erneuerung der Kabelanlagen für die Straßenbeleuchtung (ca. 360 m Kabel) und die Installation der Einrichtungen für die Straßenbeleuchtung, - die Erneuerung des Gasleitungsnetzes einschließlich der meisten Gasanschlussleitungen, teils bis zur Übergabestelle im Keller der Gebäude sowie ggf. die Herstellung von Neuanschlüssen (ca. 400 m Hauptleitungen), - die Erneuerung des Wasserversorgungsnetzes (Leitungen, Knotenpunkte/Schieberkreuze und Hydranten) einschließlich der meisten Wasseranschlussleitungen, teils bis zur Übergabestelle im Keller der Gebäude (ca. 460 m Hauptleitungen), - die überwiegend trassengleiche Erneuerung der Mischwasserkanalisation (ca. 500 m Hauptleitungen) auf Grundlage des vorliegenden Generalentwässerungsplanes einschließlich der Abwasseranschlussleitungen im öffentlichen Raum bis zur Grundstücksgrenze, - die im Wesentlichen bestandsnahe Erneuerung der Fahrbahnen, Gehwege sowie Seitenflächen (ca. 3.550 m2 Verkehrsflächen) und Straßenentwässerungseinrichtungen, - die Sicherstellung der barrierefreien Übergänge und der Kennzeichnung mit taktilen Elementen auf Wegen,  - die Überprüfung und ggf. Realisierung bedarfsweise zusätzlicher Anlagen im Verkehrsraum (z. B. Stellplätze), ausgestattet mit der erforderlichen Technischen Ausrüstung, bestehend aus Anlagengruppe 4: Starkstromanlagen: - Beleuchtungsanlagen für den Straßenverkehr. Nach der Kostenberechnung beläuft sich der Finanzrahmen (Kostengruppe 300 und 400 nach DIN 276-1:2008-12 und DIN 276-4:2009-08) für das Projekt auf Kosten in Höhe von ca. 2,075 Mio. EUR, exkl. Umsatzsteuer. Davon entfallen auf die Kostengruppe (KG) 300 (nach DIN 276) ca. 2,054 Mio. EUR und auf die KG 400 ca. 0,021 Mio. EUR. Der Auftraggeber beabsichtigt zunächst die erforderlichen Grundleistungen der Leistungsphasen 4 bis 6 nach Teil 3, Objektplanung, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) und nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen) sowie die erforderlichen Grundleistungen der Leistungsphase 5 nach Teil 4, Fachplanung, Abschnitt 2, § 55 HOAI (Leistungsbild Technische Ausrüstung) für die Anlagengruppe 4 des § 53 HOAI zu vergeben. Die erforderlichen Grundleistungen der Leistungsphasen 7 bis 9 nach Teil 3, Objektplanung, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) und nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen), die örtliche Bauüberwachung der Ingenieurbauwerke und der Verkehrsanlagen als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI bzw. gemäß Anlage 13.1 zu § 47 Absatz 2 HOAI und die erforderlichen Grundleistungen der Leistungsphasen 8 und 9 nach Teil 4, Fachplanung, Abschnitt 2, § 55 HOAI (Leistungsbild Technische Ausrüstung) für die Anlagengruppe 4 des § 53 HOAI werden optional zu den vereinbarten Vertragsbedingungen durch schriftlichen Einzelauftrag beauftragt. Ein Rechtsanspruch des Auftragnehmers auf diese Beauftragung besteht nicht.",
+    "cpv": [
+     "71240000",
+     "71322200",
+     "71322500",
+     "71311300",
+     "71318100"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-19T10:00:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 26,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "A1) Erklärung des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit), dass in den Jahren 2023, 2024 und 2025 sowie (jeweils freiwillige Angabe) 2021 und 2022 wesentliche Leistungen der Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) sowie der örtlichen Bauüberwachung der Ingenieurbauwerke als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI für Ingenieurbauwerke gemäß § 41 Nr. 2 HOAI, hier: Leitungen / Leitungsnetze für Abwasser, von ihm ausgeführt wurden, die in dem Formblatt Datei A-05.4 der Vergabeunterlagen unter Angabe der Auftraggeber (Ansprechpartner, Adresse, Telefon-Nr.) in dem Formblatt Datei A-05.4.1 der Vergabeunterlagen angegeben sind, mit Angabe: - Projektinhalt/-bezeichnung, - ob die Realisierung von Leitungen / eines Leitungsnetzes für Abwasser Projektinhalt war, - ob die Zuordnung des Objektes gem. Gruppe 2 der Objektliste der Anlage 12.2 der HOAI mind. durchschnittlich (Honorarzone III) war, - ob die Realisierung als Ersatzneubau durchgeführt wurde, - ob bei der Maßnahme mindestens ein weiteres Versorgungsmedium (Wasser, Strom, etc.) im Rahmen des Auftrags erneuert oder neu errichtet wurde, - der für das Projekt in den Jahren 2021 bis 2025 bearbeiteten und abgeschlossenen Leistungsphasen nach Teil 3, Objektplanung, Abschnitt 3, § 43 HOAI, - ob für das Projekt in den Jahren 2021 bis 2025 die örtliche Bauüberwachung der Ingenieurbauwerke als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI bearbeitet und abgeschlossen wurde, - Rechnungswert, - Herstellkosten KG 300 n. DIN 276 exkl. Umsatzsteuer der Leitungen / des Leitungsnetzes für Abwasser und ob diese mind. 0,5 Mio. EUR betrugen, - Leistungszeit. Nur falls die Erklärung des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit) abgegeben wurde, dass in den Jahren 2023, 2024 und 2025 sowie (jeweils freiwillige Angabe) 2021 und 2022 wesentliche Leistungen der Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) sowie der örtlichen Bauüberwachung der Ingenieurbauwerke als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI für Ingenieurbauwerke gemäß § 41 Nr. 2 HOAI, hier: Leitungen / Leitungsnetze für Abwasser, von ihm ausgeführt wurden, die in dem Formblatt Datei A-05.4 der Vergabeunterlagen unter Angabe der Auftraggeber (Ansprechpartner, Adresse, Telefon-Nr.) in dem Formblatt Datei A-05.4.1 der Vergabeunterlagen angegeben sind, ist die Eignung des Bewerbers hinsichtlich der technischen und beruflichen Leistungsfähigkeit belegt. Objektive Kriterien für die Auswahl der begrenzten Zahl von Bewerbern: Der Auftraggeber hat die Zahl geeigneter Bewerber, die zur Angebotsabgabe aufgefordert werden, gemäß § 51VgV auf mindestens 3 sowie höchstens 5 Bewerber begrenzt. Die Bewerber haben für ihren Teilnahmeantrag die Bewerbungsbedingungen (Datei A-03 der Vergabeunterlagen) zu beachten und die o. a. Formblätter zu verwenden, die als Vergabeunterlagen zum Download bereitgestellt sind. Bewerber, die nicht wegen des Vorliegens von Ausschlussgründen nach §§ 123 und 124 GWB zwingend auszuschließen sind bzw. deren Teilnahmeantrag nach den Bewerbungsbedingungen auszuschließen ist (s. Vergabeunterlagen), haben ihre Eignung nachgewiesen, wenn zu allen Eignungskriterien die jeweilige Eignung / Mindestanforderung durch den Bewerber mit dem Teilnahmeantrag belegt wurde. Sie werden als geeignete Bewerber bezeichnet.  Erfüllen mehrere geeignete Bewerber als die festgelegte Mindestzahl gleichermaßen die Anforderungen an die nachzuweisende Eignung, erfolgt eine Auswahl unter diesen geeigneten Bewerbern im Sinne eines \"Mehr an Eignung\".  Hierzu werden folgende Auswahlkriterien (A) und deren jeweilige Wichtung (%) verwendet:  - A1) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit) für die Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) von Ingenieurbauwerke gemäß § 41 Nr. 2 HOAI, hier: Leitungen / Leitungsnetze für Abwasser (gemäß zur Verfügung gestellter und einzureichender Formblätter) (45 %),  - A2) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe ...) für die Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) von Ingenieurbauwerken gemäß § 41 Nr. 4 HOAI, hier: Anlagen für die Versorgung mit Gasen (gemäß zur Verfügung gestellter und einzureichender Formblätter) (18 %), - A3) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe ...) für die Objektplanung nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen) von Verkehrsanlagen gemäß § 45 Nr. 1 HOAI, hier: Anlagen des Straßenverkehrs (gemäß zur Verfügung gestellter und einzureichender Formblätter) (37 %). Die Methodik zur Bewertung der Auswahlkriterien ist in der Datei A-06 der Vergabeunterlagen dargestellt. Gemäß diesem Bewertungsmodus werden diese Auswahlkriterien mit maximal 5,00 Bewertungspunkten bewertet und mit ihrem Wertungsgewicht (Wichtung) multipliziert. Es wird bei der Berechnung jeweils auf 2 Nachkommastellen gerundet. Maximal ist eine Gesamtpunktzahl von 5,00 gewichteten Punkten möglich (s. zusammenfassende Darstellung in der Wertungsmatrix). Die aus dieser Bewertung je geeignetem Bewerber resultierende Gesamtpunktzahl nach Gewichtung bestimmt die Rangfolge der geeigneten Bewerber. Die geeigneten Bewerber, die auf Rang 1 bis 3 liegen, werden zur Abgabe eines Erstangebotes aufgefordert werden. Der Auftraggeber behält sich vor, auch den Bewerber, der auf Rang 4 liegt bzw. die Bewerber, die auf Rang 4 und 5 liegen, zu berücksichtigen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "A2) Erklärung des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit), dass in den Jahren 2023, 2024 und 2025 sowie (jeweils freiwillige Angabe) 2021 und 2022 wesentliche Leistungen der Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) sowie der örtlichen Bauüberwachung der Ingenieurbauwerke als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI für Ingenieurbauwerke gemäß § 41 Nr. 4 HOAI, hier: Anlagen für die Versorgung mit Gasen, von ihm ausgeführt wurden, die in dem Formblatt Datei A-05.5 der Vergabeunterlagen unter Angabe der Auftraggeber (Ansprechpartner, Adresse, Telefon-Nr.) in dem Formblatt Datei A-05.5.1 der Vergabeunterlagen angegeben sind, mit Angabe: - Projektinhalt/-bezeichnung, - ob die Realisierung von Anlagen für die Versorgung mit Gasen Projektinhalt war, - ob die Zuordnung des Objektes gem. Gruppe 4 der Objektliste der Anlage 12.2 der HOAI mind. durchschnittlich (Honorarzone III) war - ob die Realisierung als Ersatzneubau durchgeführt wurde, - ob bei der Maßnahme mindestens ein weiteres Versorgungsmedium (Wasser, Strom, etc.) im Rahmen des Auftrags erneuert oder neu errichtet wurde, - der für das Projekt in den Jahren 2021 bis 2025 bearbeiteten und abgeschlossenen Leistungsphasen nach Teil 3, Objektplanung, Abschnitt 3, § 43 HOAI, - ob für das Projekt in den Jahren 2021 bis 2025 die örtliche Bauüberwachung der Ingenieurbauwerke als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI bearbeitet und abgeschlossen wurde, - Rechnungswert, - Herstellkosten KG 300 n. DIN 276 exkl. Umsatzsteuer der Anlage für die Versorgung mit Gasen und ob diese mind. 0,02 Mio. EUR betrugen, - Leistungszeit. Nur falls die Erklärung des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit) abgegeben wurde, dass in den Jahren 2023, 2024 und 2025 sowie (jeweils freiwillige Angabe) 2021 und 2022 wesentliche Leistungen der Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) sowie der örtlichen Bauüberwachung der Ingenieurbauwerke als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 12.1 zu § 43 Absatz 4 HOAI für Ingenieurbauwerke gemäß § 41 Nr. 4 HOAI, hier: Anlagen für die Versorgung mit Gasen, von ihm ausgeführt wurden, die in dem Formblatt Datei A-05.5 der Vergabeunterlagen unter Angabe der Auftraggeber (Ansprechpartner, Adresse, Telefon-Nr.) in dem Formblatt Datei A-05.5.1 der Vergabeunterlagen angegeben sind, ist die Eignung des Bewerbers hinsichtlich der technischen und beruflichen Leistungsfähigkeit belegt. Objektive Kriterien für die Auswahl der begrenzten Zahl von Bewerbern: Der Auftraggeber hat die Zahl geeigneter Bewerber, die zur Angebotsabgabe aufgefordert werden, gemäß § 51VgV auf mindestens 3 sowie höchstens 5 Bewerber begrenzt. Die Bewerber haben für ihren Teilnahmeantrag die Bewerbungsbedingungen (Datei A-03 der Vergabeunterlagen) zu beachten und die o. a. Formblätter zu verwenden, die als Vergabeunterlagen zum Download bereitgestellt sind. Bewerber, die nicht wegen des Vorliegens von Ausschlussgründen nach §§ 123 und 124 GWB zwingend auszuschließen sind bzw. deren Teilnahmeantrag nach den Bewerbungsbedingungen auszuschließen ist (s. Vergabeunterlagen), haben ihre Eignung nachgewiesen, wenn zu allen Eignungskriterien die jeweilige Eignung / Mindestanforderung durch den Bewerber mit dem Teilnahmeantrag belegt wurde. Sie werden als geeignete Bewerber bezeichnet.  Erfüllen mehrere geeignete Bewerber als die festgelegte Mindestzahl gleichermaßen die Anforderungen an die nachzuweisende Eignung, erfolgt eine Auswahl unter diesen geeigneten Bewerbern im Sinne eines \"Mehr an Eignung\".  Hierzu werden folgende Auswahlkriterien (A) und deren jeweilige Wichtung (%) verwendet:  - A1) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit) für die Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) von Ingenieurbauwerke gemäß § 41 Nr. 2 HOAI, hier: Leitungen / Leitungsnetze für Abwasser (gemäß zur Verfügung gestellter und einzureichender Formblätter) (45 %),  - A2) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe ...) für die Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) von Ingenieurbauwerken gemäß § 41 Nr. 4 HOAI, hier: Anlagen für die Versorgung mit Gasen (gemäß zur Verfügung gestellter und einzureichender Formblätter) (18 %), - A3) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe ...) für die Objektplanung nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen) von Verkehrsanlagen gemäß § 45 Nr. 1 HOAI, hier: Anlagen des Straßenverkehrs (gemäß zur Verfügung gestellter und einzureichender Formblätter) (37 %). Die Methodik zur Bewertung der Auswahlkriterien ist in der Datei A-06 der Vergabeunterlagen dargestellt. Gemäß diesem Bewertungsmodus werden diese Auswahlkriterien mit maximal 5,00 Bewertungspunkten bewertet und mit ihrem Wertungsgewicht (Wichtung) multipliziert. Es wird bei der Berechnung jeweils auf 2 Nachkommastellen gerundet. Maximal ist eine Gesamtpunktzahl von 5,00 gewichteten Punkten möglich (s. zusammenfassende Darstellung in der Wertungsmatrix). Die aus dieser Bewertung je geeignetem Bewerber resultierende Gesamtpunktzahl nach Gewichtung bestimmt die Rangfolge der geeigneten Bewerber. Die geeigneten Bewerber, die auf Rang 1 bis 3 liegen, werden zur Abgabe eines Erstangebotes aufgefordert werden. Regelung zur Auswahl von Rang 4 und 5 siehe Eignungskriterium A1)."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "A3) Erklärung des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit), dass in den Jahren 2023, 2024 und 2025 sowie (jeweils freiwillige Angabe) 2021 und 2022 wesentliche Leistungen der Objektplanung nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen) sowie der örtlichen Bauüberwachung der Verkehrsanlagen als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 13.1 zu § 47 Absatz 2 HOAI ) für Verkehrsanlagen gemäß § 45 Nr. 1 HOAI, hier: Anlagen des Straßenverkehrs, von ihm ausgeführt wurden, die in dem Formblatt Datei A-05.6 der Vergabeunterlagen unter Angabe der Auftraggeber (Ansprechpartner, Adresse, Telefon-Nr.) in dem Formblatt Datei A-05.6.1 der Vergabeunterlagen angegeben sind, mit Angabe: - Projektinhalt/-bezeichnung, - ob Realisierung von Anlagen des Straßenverkehrs Projektinhalt war, - ob Zuordnung des Objektes gem. a) der Objektliste der Anlage 13.2 der HOAI - ausgenommen Wege - mindestens durchschnittlich (Honorarzone III) (Kriterium 1) war, - ob die Realisierung als Ersatzneubau durchgeführt wurde, - ob bei der Maßnahme mindestens ein weiteres Versorgungsmedium (Wasser, Strom, etc.) im Rahmen des Auftrags erneuert oder neu errichtet wurde, - der für das Projekt in den Jahren 2021 bis 2025 bearbeiteten und abgeschlossenen Leistungsphasen nach Teil 3, Objektplanung, Abschnitt 4, § 47 HOAI, - ob für das Projekt in den Jahren 2021 bis 2025 die örtliche Bauüberwachung der Verkehrsanlagen als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 13.1 zu § 47 Absatz 2 HOAI bearbeitet und abgeschlossen wurde, - Rechnungswert, - Herstellkosten KG 300 n. DIN 276 exkl. Umsatzsteuer der Anlagen des Straßenverkehrs und ob diese mind. 0,75 Mio. EUR betrugen, - Leistungszeit. Nur falls die Erklärung des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit) abgegeben wurde, dass in den Jahren 2023, 2024 und 2025 sowie (jeweils freiwillige Angabe) 2021 und 2022 wesentliche Leistungen der Objektplanung nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen) sowie der örtlichen Bauüberwachung der Verkehrsanlagen als Besondere Leistung im Rahmen der Leistungsphase 8 gemäß Anlage 13.1 zu § 47 Absatz 2 HOAI ) für Verkehrsanlagen gemäß § 45 Nr. 1 HOAI, hier: Anlagen des Straßenverkehrs, von ihm ausgeführt wurden, die in dem Formblatt Datei A-05.6 der Vergabeunterlagen unter Angabe der Auftraggeber (Ansprechpartner, Adresse, Telefon-Nr.) in dem Formblatt Datei A-05.6.1 der Vergabeunterlagen angegeben sind, ist die Eignung des Bewerbers hinsichtlich der technischen und beruflichen Leistungsfähigkeit belegt. Objektive Kriterien für die Auswahl der begrenzten Zahl von Bewerbern: Der Auftraggeber hat die Zahl geeigneter Bewerber, die zur Angebotsabgabe aufgefordert werden, gemäß § 51VgV auf mindestens 3 sowie höchstens 5 Bewerber begrenzt. Die Bewerber haben für ihren Teilnahmeantrag die Bewerbungsbedingungen (Datei A-03 der Vergabeunterlagen) zu beachten und die o. a. Formblätter zu verwenden, die als Vergabeunterlagen zum Download bereitgestellt sind. Bewerber, die nicht wegen des Vorliegens von Ausschlussgründen nach §§ 123 und 124 GWB zwingend auszuschließen sind bzw. deren Teilnahmeantrag nach den Bewerbungsbedingungen auszuschließen ist (s. Vergabeunterlagen), haben ihre Eignung nachgewiesen, wenn zu allen Eignungskriterien die jeweilige Eignung / Mindestanforderung durch den Bewerber mit dem Teilnahmeantrag belegt wurde. Sie werden als geeignete Bewerber bezeichnet.  Erfüllen mehrere geeignete Bewerber als die festgelegte Mindestzahl gleichermaßen die Anforderungen an die nachzuweisende Eignung, erfolgt eine Auswahl unter diesen geeigneten Bewerbern im Sinne eines \"Mehr an Eignung\".  Hierzu werden folgende Auswahlkriterien (A) und deren jeweilige Wichtung (%) verwendet:  - A1) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit) für die Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) von Ingenieurbauwerke gemäß § 41 Nr. 2 HOAI, hier: Leitungen / Leitungsnetze für Abwasser (gemäß zur Verfügung gestellter und einzureichender Formblätter) (45 %),  - A2) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe ...) für die Objektplanung nach Teil 3, Abschnitt 3, § 43 HOAI (Leistungsbild Ingenieurbauwerke) von Ingenieurbauwerken gemäß § 41 Nr. 4 HOAI, hier: Anlagen für die Versorgung mit Gasen (gemäß zur Verfügung gestellter und einzureichender Formblätter) (18 %), - A3) Liste geeigneter Referenzen des Bewerbers / der Bewerbergemeinschaft / anderen Unternehmens (Eignungsleihe ...) für die Objektplanung nach Teil 3, Abschnitt 4, § 47 HOAI (Leistungsbild Verkehrsanlagen) von Verkehrsanlagen gemäß § 45 Nr. 1 HOAI, hier: Anlagen des Straßenverkehrs (gemäß zur Verfügung gestellter und einzureichender Formblätter) (37 %). Die Methodik zur Bewertung der Auswahlkriterien ist in der Datei A-06 der Vergabeunterlagen dargestellt. Gemäß diesem Bewertungsmodus werden diese Auswahlkriterien mit maximal 5,00 Bewertungspunkten bewertet und mit ihrem Wertungsgewicht (Wichtung) multipliziert. Es wird bei der Berechnung jeweils auf 2 Nachkommastellen gerundet. Maximal ist eine Gesamtpunktzahl von 5,00 gewichteten Punkten möglich (s. zusammenfassende Darstellung in der Wertungsmatrix). Die aus dieser Bewertung je geeignetem Bewerber resultierende Gesamtpunktzahl nach Gewichtung bestimmt die Rangfolge der geeigneten Bewerber. Die geeigneten Bewerber, die auf Rang 1 bis 3 liegen, werden zur Abgabe eines Erstangebotes aufgefordert werden.  Die geeigneten Bewerber, die auf Rang 1 bis 3 liegen, werden zur Abgabe eines Erstangebotes aufgefordert werden. Regelung zur Auswahl von Rang 4 und 5 siehe Eignungskriterium A1)."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "A4) Erklärung des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit), dass in den Jahren 2023, 2024 und 2025 sowie (jeweils freiwillige Angabe) 2021 und 2022 wesentliche Leistungen der Fachplanung nach Teil 4, Abschnitt 2, § 55 HOAI (Leistungsbild Technische Ausrüstung), Anlagengruppe 4 nach § 53 (2) HOAI von ihm ausgeführt wurden, die in dem Formblatt Datei A-05.7 der Vergabeunterlagen unter Angabe der Auftraggeber (Ansprechpartner, Adresse, Telefon-Nr.) in dem Formblatt Datei A-05.7.1 der Vergabeunterlagen angegeben sind, mit Angabe: - Projektinhalt/-bezeichnung, - ob Realisierung von Beleuchtungsanlagen des Straßenverkehrs bzw. sonstigen Beleuchtungsanlagen Projektinhalt war, - der Honorarzonenzuordnung der Grundleistungen der Technischen Ausrüstung der Anlagengruppe 4 gem. Objektliste der Anlage 15.2 der HOAI, - der für das Projekt in den Jahren 2021 bis 2025 bearbeiteten und abgeschlossenen Leistungsphasen nach Teil 4, Abschnitt 2, § 55 HOAI, - Rechnungswert, - Herstellkosten KG 440 und 546 n. DIN 276 exkl. Umsatzsteuer, - Leistungszeit. Nur falls die Erklärung des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit) abgegeben wurde, dass in den Jahren 2023, 2024 und 2025 sowie (jeweils freiwillige Angabe) 2021 und 2022 wesentliche Leistungen der Fachplanung nach Teil 4, Abschnitt 2, § 55 HOAI (Leistungsbild Technische Ausrüstung), Anlagengruppe 4 nach § 53 (2) HOAI von ihm ausgeführt wurden, die in dem Formblatt Datei A-05.7 der Vergabeunterlagen unter Angabe der Auftraggeber (Ansprechpartner, Adresse, Telefon-Nr.) in dem Formblatt Datei A-05.7.1 der Vergabeunterlagen angegeben sind, ist die Eignung des Bewerbers hinsichtlich der technischen und beruflichen Leistungsfähigkeit belegt."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "A5) Erklärung über die durchschnittliche jährliche Beschäftigtenzahl der letzten drei Kalenderjahre (2023, 2024 und 2025) des Bewerbers / Bewerbergemeinschaftsmitglieds / anderen Unternehmens (Eignungsleihe bezgl. technischer und beruflicher Leistungsfähigkeit) bezogen auf die Anzahl Dipl.-Ingenieure, Master oder Bachelor der Fachrichtung Wasserwirtschaft, Bauingenieurwesen oder vergleichbar (jeweils Angabe in Vollzeitstellen). Nur falls mindestens 2 Dipl.-Ingenieure, Master oder Bachelor der Fachrichtung Wasserwirtschaft, Bauingenieurwesen oder vergleichbar als Vollzeitstellen im Durchschnitt der letzten drei Kalenderjahre mit dem Teilnahmeantrag angegeben sind, ist die Eignung des Bewerbers hinsichtlich der technischen und beruflichen Leistungsfähigkeit belegt."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung des Bewerbers / Bewerbergemeinschaftsmitglieds über das Vorliegen einer abgeschlossenen Berufshaftpflichtversicherung über die geforderten Deckungssummen / Schadensfall, die mind. 2x/Jahr in Anspruch genommen werden können, mit Angabe der Web-Adresse, der bescheinigenden Stelle und der genauen Angabe der Dokumente für den Fall, dass die Informationen über den Versicherungsschutz elektronisch abrufbar sind; für den Fall, dass die Informationen über den Versicherungsschutz nicht elektronisch abrufbar sind: Nachweis des Bewerbers / Bewerbergemeinschaftsmitglieds (gescanntes Dokument) einer abgeschlossenen Berufshaftpflichtversicherung über die geforderten Deckungssummen / Schadensfall, die mind. 2x/Jahr in Anspruch genommen werden können, bzw. Bestätigung (gescanntes Dokument) eines Versicherers, dass im Auftragsfall eine Berufshaftpflichtversicherung entsprechend diesen Forderungen zugesagt wird.  Nur falls die  Eigenerklärung des Bewerbers / Bewerbergemeinschaftsmitglieds über das Vorliegen einer abgeschlossenen Berufshaftpflichtversicherung über die geforderten Deckungssummen für Personenschäden mind. 1,5 Mio. EUR/Schadensfall und für Sach- und Vermögensschäden mind. 1,5 Mio. EUR/Schadensfall, die mind. 2x/Jahr in Anspruch genommen werden können, mit Angabe der Web-Adresse, der bescheinigenden Stelle und der genauen Angabe der Dokumente für den Fall, dass die Informationen über den Versicherungsschutz elektronisch abrufbar sind, abgegeben wurde,  bzw. für den Fall, dass die Informationen über den Versicherungsschutz nicht elektronisch abrufbar sind, der Nachweis (gescanntes Dokument) einer abgeschlossenen Berufshaftpflichtversicherung des Bewerbers / Bewerbergemeinschaftsmitglieds mit den Deckungssummen für Personenschäden mind. 1,5 Mio. EUR/Schadensfall und für Sach- und Vermögensschäden mind. 1,5 Mio. EUR/Schadensfall, die mind. 2x/Jahr in Anspruch genommen werden kann, erbracht ist, bzw. die Bestätigung (gescanntes Dokument) eines Versicherers, dass im Auftragsfall eine Berufshaftpflichtversicherung entsprechend diesen Forderungen zugesagt wird, erbracht ist,  ist die Eignung des Bewerbers hinsichtlich der wirtschaftlichen und finanziellen Leistungsfähigkeit belegt."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "A) Leistungsbezogene Zuschlagskriterien",
+      "description": "A1) Erfahrung des/der angebotenen Projektleiters/-in Der Bieter hat seinem Angebot die in den Dateien A-08.1 bis A-08.3 der Vergabeunterlagen enthaltenen Formblätter ausgefüllt für den / die Projektleiter/-in, der  / die für die Projektleitung aller ausgeschriebenen Leistungen angeboten wird, beizufügen. Es erfolgt eine Bewertung der geeigneten persönlichen Referenzen des  / der vom Bieter angebotenen Projektleiters/-in hinsichtlich seiner / ihrer Erfahrung mit ausgeführten Leistungen gemäß der Erläuterung zur Bewertung der Unterkriterien A1.1) bis A.1.3) der Tabelle 2.  A2) Erfahrung des/der angebotenen Bauleiters/-in Der Bieter hat seinem Angebot die in den Dateien A-08.1 bis A-08.3 der Vergabeunterlagen enthaltenen Formblätter ausgefüllt für den / die Bauleiter/-in, der  / die für die Bauleitung aller ausgeschriebenen Leistungen angeboten wird, beizufügen. Es erfolgt eine Bewertung der geeigneten persönlichen Referenzen des  / der vom Bieter angebotenen Bauleiters/-in hinsichtlich seiner / ihrer Erfahrung mit ausgeführten Leistungen gemäß der Erläuterung zur Bewertung der Unterkriterien A1.1) bis A.1.3) der Tabelle 2.  A3) Darstellung des Konzepts der Kostenverfolgung und -verrechnung A4) Darstellung des Konzepts der Steuerung und Koordinierung des Gesamtprojekts  Je Unterkriterium der Zuschlagskriterien sind die zum-Zuge-kommenden Wertungsgewichte und Wertungspunkte in der Datei A-07 der Vergabeunterlagen dargestellt.",
+      "weight": 80
+     },
+     {
+      "type": "price",
+      "name": "B) Preis (Honorar)",
+      "description": "B1) Gesamthonorarangebot inkl. Nebenkosten gemäß Preisblatt des Bieters excl. Umsatzsteuer Das bei der Wertung zu berücksichtigende Angebot (das bedeutet, das Angebot, das nicht wegen der geringen Höhe des angebotenen Preises vom Auftraggeber mangels zufriedenstellender Aufklärung abgelehnt wurde, s. Hinweis) des Bieters mit der geringsten Gesamthonorarwertungs-summe (= min. Preis)   wird als bestes Angebot mit \"sehr gut\", also mit 5 (Bewertungspunkten) x 100 % (Wichtungspunkten) = 5,00 Wertungspunkten bewertet.   Die in der Wertung zu berücksichtigenden Angebote der Bieter mit einer Gesamthonorarwertungs-summe ? des 2-fachen min. Preis (= fiktiver max. Preis)   werden mit der minimalen Punktzahl von 1 (Bewertungspunkt) x 100 % (Wichtungspunkten) = 1,00 Wertungspunkten bewertet.   Die in der Wertung zu berücksichtigenden Angebote der Bieter mit einer Gesamthonorarwertungs-summe (= Px) innerhalb der Spanne > min. Preis und < fiktiver max. Preis werden durch lineare Interpolation wie folgt mit Bewertungspunkten bepunktet  X=5 Bewertungspunkte-4 Bewertungspunkte*((Px-min.Preis))/((fiktiver max.Preis-min.Preis))  und demnach mit der Punktzahl von  X (Bewertungspunkten) x 100 % (Wichtungspunkten) = Y Wertungspunkten bewertet.    Hinweis: Kann der öffentliche Auftraggeber für den Fall, dass der Preis des Gesamthonorarangebots inkl. Nebenkosten eines Bieters im Verhältnis zu der zu erbringenden Leistung ungewöhnlich niedrig erscheint, die geringe Höhe des angebotenen Preises nicht zufriedenstellend aufklären, darf er nach § 60 (3) VgV den Zuschlag auf dieses Angebot ablehnen.",
+      "weight": 20
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

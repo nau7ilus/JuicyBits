@@ -1,0 +1,142 @@
+{
+ "id": "25941152-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25941152",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25941152",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25941152-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25941152-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25941152?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Spitalstraße 7, Elektroarbeiten",
+  "buyer": "zentrale Vergabestelle",
+  "cpv": [
+   "45311200-2",
+   "45311000-0"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25941152",
+  "id": "25941152",
+  "date": "2026-10-17T07:00:57Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "zentrale Vergabestelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "zentrale Vergabestelle"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "zentrale Vergabestelle",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "zentrale Vergabestelle"
+   }
+  },
+  "tender": {
+   "title": "Spitalstraße 7, Elektroarbeiten",
+   "description": "Spitalstraße 7, Elektroarbeiten",
+   "procuringEntity": {
+    "name": "zentrale Vergabestelle"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311200-2"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45311000-0"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "86609 Donauwörth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXVHY4RDYH6JHQBF",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Spitalstraße 7, Elektroarbeiten",
+     "description": "Spitalstraße 7, Elektroarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25941152",
+  "version": "1",
+  "title": "Spitalstraße 7, Elektroarbeiten",
+  "description": "Spitalstraße 7, Elektroarbeiten",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45311200-2",
+   "45311000-0"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Spitalstraße 7, Elektroarbeiten",
+    "description": "Spitalstraße 7, Elektroarbeiten",
+    "cpv": [
+     "45311200-2",
+     "45311000-0"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

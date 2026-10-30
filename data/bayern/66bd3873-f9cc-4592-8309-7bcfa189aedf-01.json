@@ -1,0 +1,238 @@
+{
+ "id": "66bd3873-f9cc-4592-8309-7bcfa189aedf-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "66bd3873-f9cc-4592-8309-7bcfa189aedf",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=66bd3873-f9cc-4592-8309-7bcfa189aedf",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:66bd3873-f9cc-4592-8309-7bcfa189aedf-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:66bd3873-f9cc-4592-8309-7bcfa189aedf-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/66bd3873-f9cc-4592-8309-7bcfa189aedf?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "CNC 5-Achs-Simultan-Fräsmaschine",
+  "buyer": "Landratsamt Eichstätt",
+  "cpv": [
+   "42638000",
+   "42630000",
+   "42600000"
+  ],
+  "nuts": [
+   "DE219"
+  ],
+  "deadline": "2026-10-29T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b74ec3ee-7cb8-434d-be7e-66afa8a61c10",
+  "id": "66bd3873-f9cc-4592-8309-7bcfa189aedf",
+  "date": "2026-10-23T02:12:10Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Eichstätt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09176000 -SG17XXHochbau -15",
+     "legalName": "Landratsamt Eichstätt"
+    },
+    "address": {
+     "streetAddress": "Residenzplatz 1",
+     "locality": "Eichstätt",
+     "region": "DE219",
+     "postalCode": "85072",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Eichstätt",
+   "id": "09176000 -SG17XXHochbau -15",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Eichstätt"
+   },
+   "address": {
+    "streetAddress": "Residenzplatz 1",
+    "locality": "Eichstätt",
+    "region": "DE219",
+    "postalCode": "85072",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b74ec3ee-7cb8-434d-be7e-66afa8a61c10",
+   "title": "CNC 5-Achs-Simultan-Fräsmaschine",
+   "description": "Der Landkreis Eichstätt beschafft für die Staatliche Berufsschule Eichstätt, Burgstraße 22, in 85072 Eichstätt eine neue CNC 5-Achs-Simultan-Fräsmaschine für den Fachbereich Metall als Ersatzbeschaffung.\nFür einen integrierten Fachunterrichtsraum wird diese CNC Fräsmaschine mit entsprechender Software benötigt, die die berufsbezogenen Fachkompetenzen der Schülerinnen und Schüler unter Berücksichtigung der digitalen Transformation fördert.",
+   "procuringEntity": {
+    "name": "Landratsamt Eichstätt",
+    "id": "09176000 -SG17XXHochbau -15"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "42638000",
+      "description": "Metal-working machining centre"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "42630000",
+       "description": "Metal-working machine tools"
+      },
+      {
+       "scheme": "CPV",
+       "id": "42600000",
+       "description": "Machine tools"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Eichstätt",
+      "region": "DE219",
+      "postalCode": "85072",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303771",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "CNC 5-Achs-Simultan-Fräsmaschine",
+     "description": "Der Landkreis Eichstätt beschafft für die Staatliche Berufsschule Eichstätt, Burgstraße 22, in 85072 Eichstätt eine neue CNC 5-Achs-Simultan-Fräsmaschine für den Fachbereich Metall als Ersatzbeschaffung.\nFür einen integrierten Fachunterrichtsraum wird diese CNC Fräsmaschine mit entsprechender Software benötigt, die die berufsbezogenen Fachkompetenzen der Schülerinnen und Schüler unter Berücksichtigung der digitalen Transformation fördert.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2027-04-02T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "66bd3873-f9cc-4592-8309-7bcfa189aedf",
+  "version": "01",
+  "title": "CNC 5-Achs-Simultan-Fräsmaschine",
+  "description": "Der Landkreis Eichstätt beschafft für die Staatliche Berufsschule Eichstätt, Burgstraße 22, in 85072 Eichstätt eine neue CNC 5-Achs-Simultan-Fräsmaschine für den Fachbereich Metall als Ersatzbeschaffung.\nFür einen integrierten Fachunterrichtsraum wird diese CNC Fräsmaschine mit entsprechender Software benötigt, die die berufsbezogenen Fachkompetenzen der Schülerinnen und Schüler unter Berücksichtigung der digitalen Transformation fördert.",
+  "procedureType": "open",
+  "nuts": [
+   "DE219"
+  ],
+  "cpv": [
+   "42638000",
+   "42630000",
+   "42600000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "CNC 5-Achs-Simultan-Fräsmaschine",
+    "description": "Der Landkreis Eichstätt beschafft für die Staatliche Berufsschule Eichstätt, Burgstraße 22, in 85072 Eichstätt eine neue CNC 5-Achs-Simultan-Fräsmaschine für den Fachbereich Metall als Ersatzbeschaffung.\nFür einen integrierten Fachunterrichtsraum wird diese CNC Fräsmaschine mit entsprechender Software benötigt, die die berufsbezogenen Fachkompetenzen der Schülerinnen und Schüler unter Berücksichtigung der digitalen Transformation fördert.",
+    "cpv": [
+     "42638000",
+     "42630000",
+     "42600000"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": "2026-10-29T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2027-04-02+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Vorlage mit dem Angebot:\n1. Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. \nDer Nachweis kann wie folgt erbracht werden: \nDurch Eintragung in das Amtliche Verzeichnis Präqualifizierter Unternehmen (AVPQ) oder vorläufig entweder durch das ausgefüllte Formblatt „Eigenerklärung zur Eignung“ oder eine Einheitliche Europäische Eigenerklärung (EEE) mit dem Angebot nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, sind die im Formblatt „Eigenerklärung zur Eignung“ bzw. der EEE angegebenen Bescheinigungen innerhalb von 6. Kalendertagen nach Aufforderung der Vergabestelle vorzulegen. Für Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen.\n2. Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er den Nachweis auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Vorlage mit dem Angebot:\n1. Eigenerklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet, ebenso für Nachunternehmer.\n2. Angaben/Erklärungen zur Zahlung von Steuern, Abgaben und Beiträgen zur Sozialversicherung.\n3. Eigenerklärung, dass für das Unternehmen keine Ausschlussgründe gemäß § 123 oder § 124 GWB vorliegen.\n4. Eigenerklärung zur Umsetzung von Artikel 5k Absatz 3 der Verordnung (EU) 2022/576 des Rates vom 08. April 2022. \nHinweis zu 4. : Nichtvorliegen eines Russlandsbezugs \nBeschreibung: Öffentliche Aufträge und Konzessionen dürfen nach dem 9. April 2022 nicht an Personen oder Unternehmen vergeben werden, die einen Bezug zu Russland im Sinne von Artikel 5k der Verordnung (EU) Nr. 833/2014 aufweisen. Jeder Bieter muss daher die Erklärung zum Nichtvorliegen eines entsprechenden Russlandbezugs abgeben. \nSollte es sich bei dem Bieter um eine Bietergemeinschaft handeln, so muss die Erklärung für jedes Mitglied der Bietergemeinschaft gesondert abgegeben werden. Dies erfolgt durch gesonderte Eintragung der Mitglieder in die benannten Felder.\n\nVorlage auf gesondertes Verlangen der Vergabestelle innerhalb der gesetzten Frist:\n1. aktuelle Unbedenklichkeitsbescheinigungen von Finanzamt, Sozialversicherung und Krankenkasse.\n\nAllgemeiner Hinweis: Die Eignung für die zu vergebende Leistung ist durch Eintragung in das Amtliche Verzeichnis Präqualifizierter Unternehmen (AVPQ) oder vorläufig entweder durch das ausgefüllte Formblatt „Eigenerklärung zur Eignung“ oder eine Einheitliche Europäische Eigenerklärung (EEE) mit dem Angebot nachzuweisen. Angaben die nicht im AVPQ hinterlegt sind, sind dem AG vorzulegen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, sind die im Formblatt „Eigenerklärung zur Eignung“ bzw. der EEE angegebenen Bescheinigungen innerhalb von 6. Kalendertagen nach Aufforderung der Vergabestelle vorzulegen. Für Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen.\nBieter sowie Mitglieder einer Bietergemeinschaft haben jeweils einzeln folgende Nachweise und Erklärungen mit ihrem Angebot vorzulegen, wobei jedes Mitglied seine Eignung für den Leistungsbereich nachweisen muss, den es übernehmen soll. Kann einer der geforderten Nachweise aus einem berechtigten Grund nicht erbracht werden, so kann der Nachweis durch Vorlage anderer geeigneter Unterlagen erbracht werden. Die Vergabestelle behält sich vor, bei Abgabe des Angebots nicht beigefügte Erklärungen und Nachweise nachzufordern. Werden nachgeforderte Unterlagen jedoch nicht fristgemäß vorgelegt, wird das Angebot ausgeschlossen.\n\nAb einer Auftragssumme von 50.000 Euro (netto) wird der Auftraggeber bei der Registerbehörde im Bundeskar-tellamt abfragen, ob im Wettbewerbsregister Eintragungen zu dem Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, gespeichert sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-no-mgmt",
+      "description": "Vorlage mit dem Angebot:\nErklärung, aus der die Zahl der Führungskräfte des Unternehmens in den letzten 3 Jahren ersichtlich sind."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Aktuell gültiger Nachweis einer Berufs- oder Betriebshaftpflichtversicherung oder Eigenerklärung diese bei Vertragszuschlag mindestens in der geforderten Höhe abzuschließen.\nDer Umfang der Haftpflichtversicherung muss sich mindestens auf:\n— 1 500 000,00 EUR pauschal pro Schadensfall für Personenschäden;\n— 1 500 000,00 EUR pauschal pro Schadensfall Vermögens- oder Sachschäden und sonstigen Schäden;"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens in den letzten 3 Jahren ersichtlich sind."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Vorlage mit dem Angebot:\n1. Erklärung zu bestehenden Eintragungen im Handelsregister\n\nVorlage auf gesondertes Verlangen der Vergabestelle innerhalb der gesetzten Frist:\n2. Handelsregisterauszug.\n\nAllgemeiner Hinweis: Bieter sowie Mitglieder einer Bietergemeinschaft haben jeweils einzeln folgende Nachweise und Erklärungen mit ihrem Angebot vorzulegen, wobei jedes Mitglied seine Eignung für den Leistungsbereich nachweisen muss, den es übernehmen soll. Kann einer der geforderten Nachweise aus einem berechtigten Grund nicht erbracht werden, so kann der Nachweis durch Vorlage anderer geeigneter Unterlagen erbracht werden. Die Vergabestelle behält sich vor, bei Abgabe des Angebots nicht beigefügte Erklärungen und Nachweise nachzufordern. Werden nachgeforderte Unterlagen jedoch nicht fristgemäß vorgelegt, wird das Angebot ausgeschlossen."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Vorlage mit dem Angebot:\n1. Nachweis der Eintragung des Unternehmens in das Berufsregister \n2. aktuelle Bescheinigung der Berufsgenossenschaft über die Bezahlung der Beiträge\n\nAllgemeiner Hinweis: Bieter sowie Mitglieder einer Bietergemeinschaft haben jeweils einzeln folgende Nachweise und Erklärungen mit ihrem Angebot vorzulegen, wobei jedes Mitglied seine Eignung für den Leistungsbereich nachweisen muss, den es übernehmen soll. Kann einer der geforderten Nachweise aus einem berechtigten Grund nicht erbracht werden, so kann der Nachweis durch Vorlage anderer geeigneter Unterlagen erbracht werden. Die Vergabestelle behält sich vor, bei Abgabe des Angebots nicht beigefügte Erklärungen und Nachweise nachzufordern. Werden nachgeforderte Unterlagen jedoch nicht fristgemäß vorgelegt, wird das Angebot ausgeschlossen."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Vorlage mit dem Angebot:\n1. Nachweis der fachlichen Erfahrung durch Auflistung über mindestens drei geeignete und vergleichbare Referenzen über früher ausgeführte Lieferleistungen von CNC Metallbearbeitungsfräsmaschinen  die in den letzten höchstens fünf Jahren erbracht wurden. Folgende Angaben sind erforderlich: Bezeichnung/Art der Leistung, des Auftragswertes, des Liefer- bzw. Erbringungszeitpunktes, des Auftraggebers und des jeweiligen Ansprechpartners.\nAllgemeine Hinweise: \nDie Pflicht zur Vorlage der Unterlagen gem.  1. entfällt für präqualifizierte Unternehmen nur, soweit die im AVPQ Verzeichnis abrufbaren Referenznachweise zur Erfüllung der Mindestanforderungen ausreichend sind. \nErfüllen die im AVPQ Verzeichnis hinterlegten Referenzen nicht den genannten Anforderungen, sind geeignete Referenznachweise mit dem Angebot vorzulegen.\n\nHinweis für alle in der Bekanntmachung genannten Eignungskriterien:\nBescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen. Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er die vor genannten Erklärungen und Unterlagen auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen.\nWeiter müssen alle Bescheinigungen, Zertifikate, etc aktuell und gütig sein."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Kriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

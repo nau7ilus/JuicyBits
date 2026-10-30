@@ -1,0 +1,236 @@
+{
+ "id": "176fcaba-5d89-41bb-9ec1-a3d1e2e3eac2-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "176fcaba-5d89-41bb-9ec1-a3d1e2e3eac2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=176fcaba-5d89-41bb-9ec1-a3d1e2e3eac2",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:176fcaba-5d89-41bb-9ec1-a3d1e2e3eac2-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:176fcaba-5d89-41bb-9ec1-a3d1e2e3eac2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/176fcaba-5d89-41bb-9ec1-a3d1e2e3eac2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Objekt u. Tragwerksplanung für Bauwerke 6, 7, 8 der B299 Ortsumfahrung Weihmichl",
+  "buyer": "Staatliches Bauamt Landshut",
+  "cpv": [
+   "71000000"
+  ],
+  "nuts": [
+   "DE221",
+   "DE227"
+  ],
+  "deadline": "2026-11-18T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a8c23445-aa28-446f-8d08-9e8c59825f67",
+  "id": "176fcaba-5d89-41bb-9ec1-a3d1e2e3eac2",
+  "date": "2026-10-16T02:10:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Landshut",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09099210713",
+     "legalName": "Staatliches Bauamt Landshut"
+    },
+    "address": {
+     "streetAddress": "Innere Regensburger Straße 7-8",
+     "locality": "Landshut",
+     "region": "DE221",
+     "postalCode": "84034",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Landshut",
+   "id": "09099210713",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Landshut"
+   },
+   "address": {
+    "streetAddress": "Innere Regensburger Straße 7-8",
+    "locality": "Landshut",
+    "region": "DE221",
+    "postalCode": "84034",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a8c23445-aa28-446f-8d08-9e8c59825f67",
+   "title": "Objekt u. Tragwerksplanung für Bauwerke 6, 7, 8 der B299 Ortsumfahrung Weihmichl",
+   "description": "Leistungen der Objektplanung Ingenieurbauwerke gemäß § 41 HOAI und Leistungen der \nTragwerksplanung gemäß § 49 HOAI für die Brückenbauwerke 6, 7 und 8 der Maßnahme B299 Ortsumfahrung 84107 Weihmichl. Das Staatliche Bauamt Landshut plant im Zuge der Ortsumfahrung Weihmichl den Neubau mehrerer Brückenbauwerke. In dieser Ausschreibung ist die Planung der Bauwerke 6, 7 und 8 enthalten. Auszuführende Leistungsphasen: 1, 2 ,3, 6 und 8. \nDas Bauwerk 6 überführt die LA 24 über die B 299. Die Bauwerke 7 und 8 überführen die B299 über zwei Wildtierdurchlässe. Die Querschnitte der Straßen sind den beigelegten Plänen zu entnehmen.\nWeitere Informationen sind dem Formblatt VII.14.3 StB Projektbeschreibung und den Bestandsunterlagen zu entnehmen.",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71000000",
+      "description": "Architectural, construction, engineering and inspection services"
+     },
+     "deliveryAddress": {
+      "locality": "Weihmichl",
+      "region": "DE227",
+      "postalCode": "84107",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 320000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304940",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Objekt u. Tragwerksplanung für Bauwerke 6, 7, 8 der B299 Ortsumfahrung Weihmichl",
+     "description": "Leistungen der Objektplanung Ingenieurbauwerke gemäß § 41 HOAI und Leistungen der \nTragwerksplanung gemäß § 49 HOAI für die Brückenbauwerke 6, 7 und 8 der Maßnahme B299 Ortsumfahrung 84107 Weihmichl. Das Staatliche Bauamt Landshut plant im Zuge der Ortsumfahrung Weihmichl den Neubau mehrerer Brückenbauwerke. In dieser Ausschreibung ist die Planung der Bauwerke 6, 7 und 8 enthalten. Auszuführende Leistungsphasen: 1, 2 ,3, 6 und 8. \nDas Bauwerk 6 überführt die LA 24 über die B 299. Die Bauwerke 7 und 8 überführen die B299 über zwei Wildtierdurchlässe. Die Querschnitte der Straßen sind den beigelegten Plänen zu entnehmen.\nWeitere Informationen sind dem Formblatt VII.14.3 StB Projektbeschreibung und den Bestandsunterlagen zu entnehmen.",
+     "value": {
+      "amount": 320000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2028-10-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "176fcaba-5d89-41bb-9ec1-a3d1e2e3eac2",
+  "version": "01",
+  "title": "Objekt u. Tragwerksplanung für Bauwerke 6, 7, 8 der B299 Ortsumfahrung Weihmichl",
+  "description": "Leistungen der Objektplanung Ingenieurbauwerke gemäß § 41 HOAI und Leistungen der \nTragwerksplanung gemäß § 49 HOAI für die Brückenbauwerke 6, 7 und 8 der Maßnahme B299 Ortsumfahrung 84107 Weihmichl. Das Staatliche Bauamt Landshut plant im Zuge der Ortsumfahrung Weihmichl den Neubau mehrerer Brückenbauwerke. In dieser Ausschreibung ist die Planung der Bauwerke 6, 7 und 8 enthalten. Auszuführende Leistungsphasen: 1, 2 ,3, 6 und 8. \nDas Bauwerk 6 überführt die LA 24 über die B 299. Die Bauwerke 7 und 8 überführen die B299 über zwei Wildtierdurchlässe. Die Querschnitte der Straßen sind den beigelegten Plänen zu entnehmen.\nWeitere Informationen sind dem Formblatt VII.14.3 StB Projektbeschreibung und den Bestandsunterlagen zu entnehmen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE227"
+  ],
+  "cpv": [
+   "71000000"
+  ],
+  "estimatedValue": {
+   "amount": 320000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Objekt u. Tragwerksplanung für Bauwerke 6, 7, 8 der B299 Ortsumfahrung Weihmichl",
+    "description": "Leistungen der Objektplanung Ingenieurbauwerke gemäß § 41 HOAI und Leistungen der \nTragwerksplanung gemäß § 49 HOAI für die Brückenbauwerke 6, 7 und 8 der Maßnahme B299 Ortsumfahrung 84107 Weihmichl. Das Staatliche Bauamt Landshut plant im Zuge der Ortsumfahrung Weihmichl den Neubau mehrerer Brückenbauwerke. In dieser Ausschreibung ist die Planung der Bauwerke 6, 7 und 8 enthalten. Auszuführende Leistungsphasen: 1, 2 ,3, 6 und 8. \nDas Bauwerk 6 überführt die LA 24 über die B 299. Die Bauwerke 7 und 8 überführen die B299 über zwei Wildtierdurchlässe. Die Querschnitte der Straßen sind den beigelegten Plänen zu entnehmen.\nWeitere Informationen sind dem Formblatt VII.14.3 StB Projektbeschreibung und den Bestandsunterlagen zu entnehmen.",
+    "cpv": [
+     "71000000"
+    ],
+    "nuts": [
+     "DE227"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2028-10-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 320000,
+     "currency": "EUR"
+    },
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung \n(Formblatt III.106.1) in den Vergabeunterlagen aufgelistet. Hier finden Sie auch den Zeitpunkt, zu dem die Nachweise/Bescheinigungen einzureichen sind.\nNachweis des Studiums des Bauingenieurwesens gem. Art. 62a Abs. 1 Nr. 1 BayBO i.V.m. Art. 62 Abs. 3 BayBO (mindestens dreijährige Berufserfahrung in der Tragwerksplanung und Eintragung in die Liste der Ingenieurekammer Bau).\nIst der Bieter eine juristische Person, ist dieser nur dann teilnahmeberechtigt, wenn durch Erklärung des Bieters nachgewiesen wird, dass der verantwortliche Berufsangehörige, die an die natürliche Person gestellten Anforderungen erfüllt. Bieter oder verantwortliche Berufsangehörige juristischer Personen, die die entsprechende Berufsbezeichnung nach dem Recht eines anderen Mitgliedsstaates der Europäischen Union oder eines Vertragsstaates des Abkommens über den \nEuropäischen Wirtschaftsraum tragen, erfüllen die fachlichen Voraussetzungen dann, \na) wenn sie sich dauerhaft im Bundesgebiet der Bundesrepublik Deutschland niedergelassen haben und berechtigt sind, die deutschen Berufsbezeichnungen nach den einschlägigen deutschen Fachgesetzen aufgrund einer Gleichstellung mit nach der Richtlinie 2005/36/EG (geändert durch die Richtlinie 2013/55/EU) zu tragen oder \nb) wenn sie vorübergehend im Bundesgebiet tätig sind und ihre Dienstleistungserbringung nach Richtlinie 2005/36/EG angezeigt haben."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung \n(Formblatt III.106.1) in den Vergabeunterlagen aufgelistet. Hier finden Sie auch den Zeitpunkt, zu dem die Nachweise/Bescheinigungen einzureichen sind.\nSpezifischer Umsatz des Unternehmens in den letzten 3 Geschäftsjahren."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung \n(Formblatt III.106.1) in den Vergabeunterlagen aufgelistet. Hier finden Sie auch den Zeitpunkt, zu dem die Nachweise/Bescheinigungen einzureichen sind.\nNachweis einer bestehenden Berufshaftpflichtversicherung, deren Deckungssummen mindestens 1.500.000 € für Personenschäden und 1.000.000 € für Sonstige Schäden (Vermögens- und Sachschäden) betragen.\nBei Versicherungsverträgen mit Pauschaldeckungen (also ohne Unterscheidung nach Sach- und Personenschäden) ist eine Erklärung des Versicherungsunternehmens erforderlich, dass beide Schadenskategorien im Auftragsfall nebeneinander mit den geforderten Deckungssummen abgesichert sind."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung \n(Formblatt III.106.1) in den Vergabeunterlagen aufgelistet. Hier finden Sie auch den Zeitpunkt, zu dem die Nachweise/Bescheinigungen einzureichen sind.\nAuflistung von max. 2 Referenzen im Formblatt III.110a mit den geforderten Angaben (gemäß III.106.1 Punkt IV. 1.) über erbrachte Leistungen oder Projekte innerhalb des genannten Zeitraums, die mit der zu vergebenden Leistung vergleichbar sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung \n(Formblatt III.106.1) in den Vergabeunterlagen aufgelistet. Hier finden Sie auch den Zeitpunkt, zu dem die Nachweise/Bescheinigungen einzureichen sind.\nAngabe der durchschnittlichen jährlichen Beschäftigtenzahl (für die Dienstleistung Verantwortliche)  des Unternehmens in den letzten drei Jahren."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung \n(Formblatt III.106.1) in den Vergabeunterlagen aufgelistet. Hier finden Sie auch den Zeitpunkt, zu dem die Nachweise/Bescheinigungen einzureichen sind.\nGeforderte Berufserfahrung des eingesetzen Personals."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Die Qualität ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt: https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304940",
+      "weight": 70
+     },
+     {
+      "type": "price",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt:  https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304940",
+      "weight": 30
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

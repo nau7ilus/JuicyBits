@@ -1,0 +1,248 @@
+{
+ "id": "1047b630-fc01-4122-bc2e-3ccdca7b3b59-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "1047b630-fc01-4122-bc2e-3ccdca7b3b59",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1047b630-fc01-4122-bc2e-3ccdca7b3b59",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:1047b630-fc01-4122-bc2e-3ccdca7b3b59-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:1047b630-fc01-4122-bc2e-3ccdca7b3b59-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1047b630-fc01-4122-bc2e-3ccdca7b3b59?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Donaupark West - Helikopterspielplatz",
+  "buyer": "Landesgartenschau 2028 GmbH",
+  "cpv": [
+   "45112723",
+   "45112720",
+   "45112700",
+   "45236210",
+   "45112710"
+  ],
+  "nuts": [
+   "DE27D"
+  ],
+  "deadline": "2026-11-26T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7c3c884b-451a-46bd-9ed3-64705d2784da",
+  "id": "1047b630-fc01-4122-bc2e-3ccdca7b3b59",
+  "date": "2026-10-27T03:10:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landesgartenschau 2028 GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "451194075",
+     "legalName": "Landesgartenschau 2028 GmbH"
+    },
+    "address": {
+     "streetAddress": "Spitalstraße 7",
+     "locality": "Donauwörth",
+     "region": "DE27D",
+     "postalCode": "86609",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE27D",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landesgartenschau 2028 GmbH",
+   "id": "451194075",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landesgartenschau 2028 GmbH"
+   },
+   "address": {
+    "streetAddress": "Spitalstraße 7",
+    "locality": "Donauwörth",
+    "region": "DE27D",
+    "postalCode": "86609",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7c3c884b-451a-46bd-9ed3-64705d2784da",
+   "title": "Donaupark West - Helikopterspielplatz",
+   "description": "Die Landesgartenschau 2028 ist ein zentrales Stadtentwicklungsprojekt der Stadt Donauwörth mit dem Ziel, die bestehenden Freiräume entlang der Donau und Wörnitz nachhaltig und gestalterisch hochwertig aufzuwerten, zu vernetzen und als öffentliche Räume für alle Generationen zu sichern.  Teil der Landesgartenschau Donauwörth 2028 sind mehrere neue Spiel- und Aufenthaltsbereiche. Im zukünftigen Donaupark entsteht ein identitätsstiftender Themenspielplatz, der sog. \"Helikopterspielplatz\", mit den Schwerpunkten Fliegen - Bewegung - Abenteuer.  Dieser soll Kindern ein vielfältiges, motorisch anregendes und fantasievolles Spielerlebnis ermöglichen und gleichzeitig einen hochwertigen Aufenthaltsraum für Begleitpersonen bieten.  Als ortsansässiges Unternehmen und bedeutender Arbeitgeber prägt Airbus den Standort Donauwörth und ist eng mit der Identität der Stadt verbunden. Daher liegt es nahe, diese besondere Verbindung als Ausgangspunkt für das Grundthema des Spielplatzes zu wählen und die damit verbundene Identifikation im Gestaltungskonzept erlebbar werden zu lassen - ohne dabei eine technische oder gegenständliche Nachbildung von Luftfahrzeugen anzustreben.",
+   "procuringEntity": {
+    "name": "Landesgartenschau 2028 GmbH",
+    "id": "451194075"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112723",
+      "description": "Landscaping work for playgrounds"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45112720",
+       "description": "Landscaping work for sports grounds and recreational areas"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45112700",
+       "description": "Landscaping work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45236210",
+       "description": "Flatwork for children's play area"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45112710",
+       "description": "Landscaping work for green areas"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Donauwörth",
+      "region": "DE27D",
+      "postalCode": "86609",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4D6XM1CZ/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Donaupark West - Helikopterspielplatz",
+     "description": "Gegenstand der Ausschreibung sind ausschließlich die prägenden Spielgeräte des Helikopterspielplatzes. Diese sollen als zusammenhängende Spielgerätefamilie entwickelt werden und folgende Elemente umfassen:  - begehbarer Helikopter als identitätsstiftendes Hauptspielgerät, - Spielturm im Stil eines Towers oder Kontrollturms, - Hangar als Spiel- und Aufenthaltsbereich, - verbindende Flow-Elemente, z. B. zum Balancieren, Klettern und Bewegen.  Die Gesamtfläche des Spielplatzes umfasst rund 1.130 m². Davon entfallen ca. 500 m² auf die eigentliche Spielfläche, rund 135 m² auf eine adaptive Spielwiese sowie etwa 150 m² auf Aufenthaltsflächen. Der Spielplatz ist für mehr als 100 Kinder sowie über 70 Begleitpersonen ausgelegt.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "1047b630-fc01-4122-bc2e-3ccdca7b3b59",
+  "version": "01",
+  "title": "Donaupark West - Helikopterspielplatz",
+  "description": "Die Landesgartenschau 2028 ist ein zentrales Stadtentwicklungsprojekt der Stadt Donauwörth mit dem Ziel, die bestehenden Freiräume entlang der Donau und Wörnitz nachhaltig und gestalterisch hochwertig aufzuwerten, zu vernetzen und als öffentliche Räume für alle Generationen zu sichern.  Teil der Landesgartenschau Donauwörth 2028 sind mehrere neue Spiel- und Aufenthaltsbereiche. Im zukünftigen Donaupark entsteht ein identitätsstiftender Themenspielplatz, der sog. \"Helikopterspielplatz\", mit den Schwerpunkten Fliegen - Bewegung - Abenteuer.  Dieser soll Kindern ein vielfältiges, motorisch anregendes und fantasievolles Spielerlebnis ermöglichen und gleichzeitig einen hochwertigen Aufenthaltsraum für Begleitpersonen bieten.  Als ortsansässiges Unternehmen und bedeutender Arbeitgeber prägt Airbus den Standort Donauwörth und ist eng mit der Identität der Stadt verbunden. Daher liegt es nahe, diese besondere Verbindung als Ausgangspunkt für das Grundthema des Spielplatzes zu wählen und die damit verbundene Identifikation im Gestaltungskonzept erlebbar werden zu lassen - ohne dabei eine technische oder gegenständliche Nachbildung von Luftfahrzeugen anzustreben.",
+  "procedureType": "open",
+  "nuts": [
+   "DE27D"
+  ],
+  "cpv": [
+   "45112723",
+   "45112720",
+   "45112700",
+   "45236210",
+   "45112710"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Donaupark West - Helikopterspielplatz",
+    "description": "Gegenstand der Ausschreibung sind ausschließlich die prägenden Spielgeräte des Helikopterspielplatzes. Diese sollen als zusammenhängende Spielgerätefamilie entwickelt werden und folgende Elemente umfassen:  - begehbarer Helikopter als identitätsstiftendes Hauptspielgerät, - Spielturm im Stil eines Towers oder Kontrollturms, - Hangar als Spiel- und Aufenthaltsbereich, - verbindende Flow-Elemente, z. B. zum Balancieren, Klettern und Bewegen.  Die Gesamtfläche des Spielplatzes umfasst rund 1.130 m². Davon entfallen ca. 500 m² auf die eigentliche Spielfläche, rund 135 m² auf eine adaptive Spielwiese sowie etwa 150 m² auf Aufenthaltsflächen. Der Spielplatz ist für mehr als 100 Kinder sowie über 70 Begleitpersonen ausgelegt.",
+    "cpv": [
+     "45112723",
+     "45112720",
+     "45112700",
+     "45236210",
+     "45112710"
+    ],
+    "nuts": [
+     "DE27D"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Eigenerklärung (s. Formular 124 und Fomular 127): - dass nachweislich keine zwingenden Ausschlussgründe gem. § 123 GWB vorliegen - dass nachweislich keine fakultativen Ausschlussgründe nach § 124 GWB vorliegen - der Bieter seine Verpflichtungen zur Zahlung von Steuern und Abgaben, sowie der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt - eine Eintragung im Berufs- oder Handelsregister (soweit eine Eintragungspflicht besteht) vorliegt, - dass der Bieter bei der Berufsgenossenschaft gemeldet ist - dass der Bieter im Vergabeverfahren keine vorsätzlich unzutreffenden Erklärungen in Bezug auf die Eignung abgegeben hat, - dass eine Eigenerklärung (Formblatt 127) zu Russlandsanktionen durch den Bieter abgegeben wird. - Referenzliste"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Kosten / Wirtschaftlichkeit",
+      "description": "- Einhaltung des vorgegebenen Kostenrahmens      50 Punkte - Verhältnis von Kosten zu Spiel- und Erlebniswert     20 Punkte - Lebenszyklusbetrachtung (Wartung, Ersatzteile, Instandhaltung)   20 Punkte - Plausibilität und Nachvollziehbarkeit der Kalkulation    10 Punkte",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Gestalterisches Konzept / Leitidee",
+      "description": "- Qualität und Eigenständigkeit der Leitidee Fliegen - Bewegung - Freiheit  5 Punkte - räumliche und gestalterische Gesamtwirkung der Spielgerätefamilie  5 Punkte - Integration von Helikopter, Tower, Hangar und Flow-Elementen   5 Punkte - Aufenthaltsqualität und Vielseitigkeit der Spielbereiche    5 Punkte - Erlebnis- und Identitätsstiftung des Gesamtkonzepts    5 Punkte - Selbstverständlichkeit des inklusiven Nutzungskonzepts    5 Punkte - Umsetzung der Airbus-Anmutung gemäß Anlage 04    30 Punkte",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Bau- und Ausführungskonzept",
+      "description": "- konstruktive Klarheit und Realisierbarkeit      5 Punkte - Material- und Konstruktionswahl (Langlebigkeit, Wartung)    5 Punkte - Montage- und Bauablauf       5 Punkte - Sicherheit und Normkonformität       5 Punkte",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Referenzen / Erfahrung",
+      "description": "- realisierte Spielplatz- oder Großspielgeräteprojekte    5 Punkte - thematische oder konzeptionelle Vergleichbarkeit     5 Punkte - Qualität und gestalterischer Anspruch der Referenzprojekte   5 Punkte - Erfahrung mit öffentlichen Auftraggebern      5 Punkte",
+      "weight": 10
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

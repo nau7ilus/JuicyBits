@@ -1,0 +1,231 @@
+{
+ "id": "6ee2f5df-7fa3-4941-8f32-fd8180f4b51e-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "6ee2f5df-7fa3-4941-8f32-fd8180f4b51e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6ee2f5df-7fa3-4941-8f32-fd8180f4b51e",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:6ee2f5df-7fa3-4941-8f32-fd8180f4b51e-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:6ee2f5df-7fa3-4941-8f32-fd8180f4b51e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6ee2f5df-7fa3-4941-8f32-fd8180f4b51e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beprobung kontaminierter Böden 2027 / 2028",
+  "buyer": "REWAG Regensburger Energie- und Wasserversorgung AG & Co KG",
+  "cpv": [
+   "71351500"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": "2026-11-18T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0d54ea29-d4d3-414f-b9fa-20e26484f069",
+  "id": "6ee2f5df-7fa3-4941-8f32-fd8180f4b51e",
+  "date": "2026-10-20T10:05:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "REWAG Regensburger Energie- und Wasserversorgung AG & Co KG",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE133690162",
+     "legalName": "REWAG Regensburger Energie- und Wasserversorgung AG & Co KG"
+    },
+    "address": {
+     "streetAddress": "Greflingerstraße 26",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93055",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:0981531277",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "REWAG Regensburger Energie- und Wasserversorgung AG & Co KG",
+   "id": "DE133690162",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "REWAG Regensburger Energie- und Wasserversorgung AG & Co KG"
+   },
+   "address": {
+    "streetAddress": "Greflingerstraße 26",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93055",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0d54ea29-d4d3-414f-b9fa-20e26484f069",
+   "title": "Beprobung kontaminierter Böden 2027 / 2028",
+   "description": "Für die Durchführung von Tiefbaumaßnahmen der REWAG, der Regensburg Netz, des Tiefbauamtes Regensburg sowie weiterer Auftraggeber fallen regelmäßig Bodenaushubmaterialien und Asphaltaufbruch an, die zu beproben und einer fachgerechten Entsorgung zuzuführen sind. Die Materialien werden auf der Zwischenlagerfläche in der Kremser Straße 12 in Regensburg oder bei entsprechend großen Baufeldern direkt auf der Baustelle in getrennten Haufwerken gelagert. Für Kleinmaßnahmen werden Sammelhaufwerke gebildet. Der Auftrag umfasst die Probenahme und Untersuchung dieser Haufwerke einschließlich gegebenenfalls anfallender Asphaltaufbruchmaterialien auf Baustellen im gesamten Versorgungsgebiet der REWAG. Die Bewirtschaftung der Zwischenlagerflächen erfolgt durch die REWAG in Kooperation mit der Stadt Regensburg. Über neu angelegte oder abgeschlossene Haufwerke wird der Auftragnehmer durch den Auftraggeber informiert. Die Arbeiten werden als Rahmenvertrag mit einer Laufzeit von 01.01.2027 bis 31.12.2028 vergeben.",
+   "procuringEntity": {
+    "name": "REWAG Regensburger Energie- und Wasserversorgung AG & Co KG",
+    "id": "DE133690162"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71351500",
+      "description": "Ground investigation services"
+     },
+     "deliveryLocation": {
+      "description": "Bei Tiefbauarbeiten auf Baustellen der REWAG, des Tiefbauamtes Regensburg oder Dritten im Versorgungsgebiet der REWAG."
+     },
+     "deliveryAddress": {
+      "region": "DE232",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 383000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4DB0MWQX/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Beprobung kontaminierter Böden 2027 / 2028",
+     "description": "Für die Durchführung von Tiefbaumaßnahmen der REWAG, der Regensburg Netz, des Tiefbauamtes Regensburg sowie weiterer Auftraggeber fallen regelmäßig Bodenaushubmaterialien und Asphaltaufbruch an, die zu beproben und einer fachgerechten Entsorgung zuzuführen sind. Die Materialien werden auf der Zwischenlagerfläche in der Kremser Straße 12 in Regensburg oder bei entsprechend großen Baufeldern direkt auf der Baustelle in getrennten Haufwerken gelagert. Für Kleinmaßnahmen werden Sammelhaufwerke gebildet. Der Auftrag umfasst die Probenahme und Untersuchung dieser Haufwerke einschließlich gegebenenfalls anfallender Asphaltaufbruchmaterialien auf Baustellen im gesamten Versorgungsgebiet der REWAG. Die Bewirtschaftung der Zwischenlagerflächen erfolgt durch die REWAG in Kooperation mit der Stadt Regensburg. Über neu angelegte oder abgeschlossene Haufwerke wird der Auftragnehmer durch den Auftraggeber informiert. Die Arbeiten werden als Rahmenvertrag mit einer Laufzeit von 01.01.2027 bis 31.12.2028 vergeben.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6ee2f5df-7fa3-4941-8f32-fd8180f4b51e",
+  "version": "01",
+  "title": "Beprobung kontaminierter Böden 2027 / 2028",
+  "description": "Für die Durchführung von Tiefbaumaßnahmen der REWAG, der Regensburg Netz, des Tiefbauamtes Regensburg sowie weiterer Auftraggeber fallen regelmäßig Bodenaushubmaterialien und Asphaltaufbruch an, die zu beproben und einer fachgerechten Entsorgung zuzuführen sind. Die Materialien werden auf der Zwischenlagerfläche in der Kremser Straße 12 in Regensburg oder bei entsprechend großen Baufeldern direkt auf der Baustelle in getrennten Haufwerken gelagert. Für Kleinmaßnahmen werden Sammelhaufwerke gebildet. Der Auftrag umfasst die Probenahme und Untersuchung dieser Haufwerke einschließlich gegebenenfalls anfallender Asphaltaufbruchmaterialien auf Baustellen im gesamten Versorgungsgebiet der REWAG. Die Bewirtschaftung der Zwischenlagerflächen erfolgt durch die REWAG in Kooperation mit der Stadt Regensburg. Über neu angelegte oder abgeschlossene Haufwerke wird der Auftragnehmer durch den Auftraggeber informiert. Die Arbeiten werden als Rahmenvertrag mit einer Laufzeit von 01.01.2027 bis 31.12.2028 vergeben.",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "71351500"
+  ],
+  "estimatedValue": {
+   "amount": 383000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beprobung kontaminierter Böden 2027 / 2028",
+    "description": "Für die Durchführung von Tiefbaumaßnahmen der REWAG, der Regensburg Netz, des Tiefbauamtes Regensburg sowie weiterer Auftraggeber fallen regelmäßig Bodenaushubmaterialien und Asphaltaufbruch an, die zu beproben und einer fachgerechten Entsorgung zuzuführen sind. Die Materialien werden auf der Zwischenlagerfläche in der Kremser Straße 12 in Regensburg oder bei entsprechend großen Baufeldern direkt auf der Baustelle in getrennten Haufwerken gelagert. Für Kleinmaßnahmen werden Sammelhaufwerke gebildet. Der Auftrag umfasst die Probenahme und Untersuchung dieser Haufwerke einschließlich gegebenenfalls anfallender Asphaltaufbruchmaterialien auf Baustellen im gesamten Versorgungsgebiet der REWAG. Die Bewirtschaftung der Zwischenlagerflächen erfolgt durch die REWAG in Kooperation mit der Stadt Regensburg. Über neu angelegte oder abgeschlossene Haufwerke wird der Auftragnehmer durch den Auftraggeber informiert. Die Arbeiten werden als Rahmenvertrag mit einer Laufzeit von 01.01.2027 bis 31.12.2028 vergeben.",
+    "cpv": [
+     "71351500"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-11-18T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Dieser Nachweis ist zu erbringen durch Eintragung in das Berufs- oder Handelsregister bzw. vergleichbarer Nachweis.  HINWEIS: Die geforderten Existenznachweise dürfen zum Zeitpunkt des Schlusstermins für den Eingang der Angebote nicht älter als sechs Monate sein"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Dieser Nachweis ist zu erbringen durch Eintragung in das Berufs- oder Handelsregister bzw. vergleichbarer Nachweis.  HINWEIS: Die geforderten Existenznachweise dürfen zum Zeitpunkt des Schlusstermins für den Eingang der Angebote nicht älter als sechs Monate sein"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Der Bieter erklärt, dass er eine Haftpflichtversicherung mit einer Deckungssumme von mindestens 5 Mio. EUR für Personen-, Sach- und Vermögensschäden je Versicherungsjahr abgeschlossen hat, die für die gesamte Auftragsausführung gültig ist oder für die gesamte Ausführungszeit des Auftrags abschließen wird. Das Einreichen einer Versicherungsbescheinigung ist NICHT erforderlich. Geforderte Mindeststandards: mindestens die geforderte Deckungssumme"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Angabe des Nettogesamtumsatzes der letzten drei abgeschlossenen Geschäftsjahre."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Es sind zwei fertiggestellte und abgeschlossene Referenzen über vergleichbare Leistungen aus den letzten drei Kalenderjahren (Stichtag Ende Angebotsfrist) mit einem Auftragswert von je mind. 50.000,00 EUR netto nachzuweisen. Zu den Referenzen sind folgende Angaben zu machen: - Kurze Beschreibung des Referenzprojektes und Kenndaten mit Bezug zu vergleichbaren Leistungen, z.B. Verbau von relevanten Großkomponenten, Material- und Personaleinsatz - Name und Adresse des Referenzauftraggebers, sowie Benennung eines Ansprechpartners mit Telefonnummer beim Referenzauftraggeber - Zeitraum der erbrachten Leistungen - Umfang der Leistung in EUR netto Fehlt eine der geforderten Angaben zu einer Referenz, so kann die jeweilige Referenz nicht berücksichtigt werden!"
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Nachweis der Zertifizierung als Entsorgungsfachbetrieb gem. § 56 Kreislaufwirtschaftsgesetz für die gesamte Vertragslaufzeit, bzw. Bestätigung, dass diese im Auftragsfall nachgereicht wird, zu Auftragsbeginn gültig vorliegt und gewährleistet wird, diese während der gesamten Vertragslaufzeit aufrechtzuerhalten."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Netto-Gesamtpreis",
+      "description": "Dieses Kriterium wird bewertet mit max. 80 Punkte Das Angebot mit dem geringsten Netto-Gesamtpreis für die ausgeschriebene Leistung erhält 80 Punkte. Für die preislich nachfolgenden Angebote wird die Punktzahl wie folgt bestimmt:  Punktzahl Bieter XY: (Niedrigster Preis x 80) / Preis Bieter XY",
+      "weight": 80
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätssicherungskonzept",
+      "description": "Vom AN ist ein Konzept vorzulegen, wie eine schnelle Probenahme, Analytik und Einstufung gewährleistet werden kann. Die Ausarbeitung darf den Umfang von drei DIN A4 Seiten nicht überschreiten. Dabei müssen folgende Aspekte zwingend berücksichtigt werden: - Konkrete Angabe von Ausführungsfristen - Aufbau der Organisation des mit der Ausführung des Auftrags betrauten Personals unter Berücksichtigung von Redundanz an allen relevanten Stellen - Darlegung der Einhaltung dieser Zeiten in Teilabläufen (Anzahl und Qualifikation von eingesetzten Mitarbeitern, Verträge mit Laboren, etc.) - Angaben zu eingesetzten Fahrzeugen zur Probenahme - Angaben zu Versand von Laborproben - Angaben zur Kommunikation in der Projektabwicklung  Die Angaben des Konzepts werden Bestandteil der Leitungsbeschreibung und damit der vom Bieter und späteren AN geschuldete Leistung Die Angaben im Konzept des Bieters werden auf Plausibilität geprüft und gewertet. Berücksichtigt wird dabei, ob die vorgegebene Projektausführungszeit und die Qualität mit dem angegebenen Personal und Gerät im Einklang stehen.",
+      "weight": 20
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

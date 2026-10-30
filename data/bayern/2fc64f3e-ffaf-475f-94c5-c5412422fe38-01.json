@@ -1,0 +1,225 @@
+{
+ "id": "2fc64f3e-ffaf-475f-94c5-c5412422fe38-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "2fc64f3e-ffaf-475f-94c5-c5412422fe38",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2fc64f3e-ffaf-475f-94c5-c5412422fe38",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:2fc64f3e-ffaf-475f-94c5-c5412422fe38-01.json",
+  "eformsFile": "notices_2026-10-28_eForms.zip:2fc64f3e-ffaf-475f-94c5-c5412422fe38-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2fc64f3e-ffaf-475f-94c5-c5412422fe38?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+  "buyer": "DB Netz AG (Bukr 16)",
+  "cpv": [
+   "45234100"
+  ],
+  "nuts": [
+   "DE712",
+   "DE26A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ee16df03-0ce6-4b1f-8a19-7a4c38984fe8",
+  "id": "2fc64f3e-ffaf-475f-94c5-c5412422fe38",
+  "date": "2026-10-28T03:22:20Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB Netz AG (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37",
+     "legalName": "DB Netz AG (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Peter Gross Rail GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "908f648e-ba2b-44e1-a30e-4d47c45a820f",
+     "legalName": "Peter Gross Rail GmbH & Co. KG"
+    },
+    "address": {
+     "locality": "St. Ingbert",
+     "region": "DEC05",
+     "postalCode": "66386",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB Netz AG (Bukr 16)",
+   "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB Netz AG (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ee16df03-0ce6-4b1f-8a19-7a4c38984fe8",
+   "title": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+   "description": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+   "procuringEntity": {
+    "name": "DB Netz AG (Bukr 16)",
+    "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Üst Gambach - Bahn-Km 18 bis ca. Bahn-km 37 Strecke 5200",
+      "postalCode": "\"97753\"",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2023-03-15T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Peter Gross Rail GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Peter Gross Rail GmbH & Co. KG"
+     },
+     "address": {
+      "locality": "St. Ingbert",
+      "region": "DEC05",
+      "postalCode": "66386",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+     "description": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+     "contractPeriod": {
+      "startDate": "2023-04-03T00:00:00+02:00",
+      "endDate": "2024-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2023-03-27T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2023-03-26T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "2fc64f3e-ffaf-475f-94c5-c5412422fe38",
+  "version": "01",
+  "title": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+  "description": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+  "procedureType": null,
+  "nuts": [
+   "DE26A"
+  ],
+  "cpv": [
+   "45234100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+    "description": "Üst Gambach - Neubau Kabeltiefbauleistungen",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2023-04-03+02:00",
+    "plannedEnd": "2024-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

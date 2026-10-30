@@ -1,0 +1,274 @@
+{
+ "id": "b2fef60f-2a7c-4662-9346-5c65ce739d52-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "b2fef60f-2a7c-4662-9346-5c65ce739d52",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b2fef60f-2a7c-4662-9346-5c65ce739d52",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:b2fef60f-2a7c-4662-9346-5c65ce739d52-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:b2fef60f-2a7c-4662-9346-5c65ce739d52-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b2fef60f-2a7c-4662-9346-5c65ce739d52?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "79759 Objektplanungs- mit Fachplanungsleistungen, Dienstgebäude Würzburg, Erweiterungsbau",
+  "buyer": "DRV Bund Einkaufsmanagement Bauleistungen",
+  "cpv": [
+   "71200000"
+  ],
+  "nuts": [
+   "DE300",
+   "DE263"
+  ],
+  "deadline": "2026-12-03T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3fae28f5-b2e6-49db-9a52-177e2239fdf7",
+  "id": "b2fef60f-2a7c-4662-9346-5c65ce739d52",
+  "date": "2026-10-23T02:09:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DRV Bund Einkaufsmanagement Bauleistungen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992-80003DRVB2-14",
+     "legalName": "DRV Bund Einkaufsmanagement Bauleistungen"
+    },
+    "address": {
+     "streetAddress": "Ruhrstraße 2",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10704",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabeplattform der Deutschen Rentenversicherung Bund",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "992-80003DRVB2-14",
+     "legalName": "Vergabeplattform der Deutschen Rentenversicherung Bund"
+    },
+    "address": {
+     "streetAddress": "Ruhrstr. 2",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10709",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammer des Bundes",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "entfällt",
+     "legalName": "Bundeskartellamt, Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Deutsche Rentenversicherung Bund",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "992-80003DRVB2-14",
+     "legalName": "Deutsche Rentenversicherung Bund"
+    },
+    "address": {
+     "streetAddress": "Postfach",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10704",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DRV Bund Einkaufsmanagement Bauleistungen",
+   "id": "992-80003DRVB2-14",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "DRV Bund Einkaufsmanagement Bauleistungen"
+   },
+   "address": {
+    "streetAddress": "Ruhrstraße 2",
+    "locality": "Berlin",
+    "region": "DE300",
+    "postalCode": "10704",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3fae28f5-b2e6-49db-9a52-177e2239fdf7",
+   "title": "79759 Objektplanungs- mit Fachplanungsleistungen, Dienstgebäude Würzburg, Erweiterungsbau",
+   "description": "Dienstgebäude Würzburg, Erweiterungsbau\n79759 Objektplanungs- mit Fachplanungsleistungen",
+   "procuringEntity": {
+    "name": "DRV Bund Einkaufsmanagement Bauleistungen",
+    "id": "992-80003DRVB2-14"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "deliveryLocation": {
+      "description": "Erfüllungsort für die Leistungen des Auftragnehmers ist das Dienstgebäude Würzburg, Berner Straße 1 in 97084 Würzburg-Heuchelhof, soweit Leistungen dort zu erbringen sind, im Übrigen der Sitz der Auftraggeberin in 10709 Berlin."
+     },
+     "deliveryAddress": {
+      "streetAddress": "Ruhrstraße 2",
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "10709",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-1a085dad187-45401c99c6dcf0ee&PublicationType=0",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "79759 Objektplanungs- mit Fachplanungsleistungen, Dienstgebäude Würzburg, Erweiterungsbau",
+     "description": "Gegenstand des zu vergebenden Auftrags sind Objekt- und Fachplanungsleistungen nach der Honorarordnung für Architekten und Ingenieure (HOAI) für den zu errichtenden Erweiterungsbau in Würzburg.\n\nDie Vertragsleistung umfasst zunächst die Grundleistungen sowie teilweise Besonderen Leistungen der Leistungsphasen (LP) 1 und 2 nach HOAI für die Leistungsbilder:\n- Objektplanung Gebäude,  Innenräume und Freianlagen\n- Tragwerksplanung\n- Bauphysik\n- Brandschutz.\n\nOptional kann der Auftragnehmer mit folgenden Besonderen Leistungen ganz oder teilweise beauftragt werden:\n- Besondere Leistungen Objektplanung und Innenräume (LP 2)\n- Aufstellen einer funktionalen Leistungsbeschreibung (FLB) auf Grundlage der Ergebnisse der LP 2 der Objektplanung\n- Mitwirkung beim Prüfen und Werten der Angebote der Totalunternehmen\n- Besondere Leistungen Tragwerksplanung Gebäude\n- Besondere Leistungen Brandschutz\n- Besondere Leistungen Baufeldfreimachung.\n\nEs besteht kein Rechtsanspruch auf Übertragung der optionalen Leistungen.\n\nInhalt und Umfang zu den Leistungen ergeben sich im Einzelnen aus dem Vertrag nebst seinen Anlagen.",
+     "contractPeriod": {
+      "startDate": "2027-05-20T00:00:00+02:00",
+      "endDate": "2028-10-18T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b2fef60f-2a7c-4662-9346-5c65ce739d52",
+  "version": "01",
+  "title": "79759 Objektplanungs- mit Fachplanungsleistungen, Dienstgebäude Würzburg, Erweiterungsbau",
+  "description": "Dienstgebäude Würzburg, Erweiterungsbau\n79759 Objektplanungs- mit Fachplanungsleistungen",
+  "procedureType": "open",
+  "nuts": [
+   "DE300",
+   "DE263"
+  ],
+  "cpv": [
+   "71200000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "79759 Objektplanungs- mit Fachplanungsleistungen, Dienstgebäude Würzburg, Erweiterungsbau",
+    "description": "Gegenstand des zu vergebenden Auftrags sind Objekt- und Fachplanungsleistungen nach der Honorarordnung für Architekten und Ingenieure (HOAI) für den zu errichtenden Erweiterungsbau in Würzburg.\n\nDie Vertragsleistung umfasst zunächst die Grundleistungen sowie teilweise Besonderen Leistungen der Leistungsphasen (LP) 1 und 2 nach HOAI für die Leistungsbilder:\n- Objektplanung Gebäude,  Innenräume und Freianlagen\n- Tragwerksplanung\n- Bauphysik\n- Brandschutz.\n\nOptional kann der Auftragnehmer mit folgenden Besonderen Leistungen ganz oder teilweise beauftragt werden:\n- Besondere Leistungen Objektplanung und Innenräume (LP 2)\n- Aufstellen einer funktionalen Leistungsbeschreibung (FLB) auf Grundlage der Ergebnisse der LP 2 der Objektplanung\n- Mitwirkung beim Prüfen und Werten der Angebote der Totalunternehmen\n- Besondere Leistungen Tragwerksplanung Gebäude\n- Besondere Leistungen Brandschutz\n- Besondere Leistungen Baufeldfreimachung.\n\nEs besteht kein Rechtsanspruch auf Übertragung der optionalen Leistungen.\n\nInhalt und Umfang zu den Leistungen ergeben sich im Einzelnen aus dem Vertrag nebst seinen Anlagen.",
+    "cpv": [
+     "71200000"
+    ],
+    "nuts": [
+     "DE300",
+     "DE263"
+    ],
+    "deadline": "2026-12-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-20+02:00",
+    "plannedEnd": "2028-10-18+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Der Bieter hat mit dem Angebot folgende Angaben, Erklärungen und Nachweise vorzulegen:\n\nUnternehmensreferenzen:\nFür die Eignungsprüfung hat der Bieter mit dem Angebot anhand von mindestens 2 Unternehmensreferenzen aus den letzten 10 Jahren seine Erfahrung mit Objektplanungen Hochbau für Neubaumaßnahmen unter Berücksichtigung der nachfolgend benannten Mindeststandards nachzuweisen.\n\nAllgemeine Mindeststandards, die mit jeder Unternehmensreferenz nachgewiesen werden müssen:\n- der Bieter hat für das Referenzobjekt Leistungen gemäß HOAI § 34 - Objektplanung Gebäude mindestens der Leistungsphase (LPH) 2 für ein Hochbauprojekt Neubau erbracht,\n- das Referenzobjekt unterfällt einer der Kategorien/Objekttypen der Objektliste Anlage 10.2 der HOAI ab Honorarzone III,\n- Abschluss der Leistungsphase (LPH) 2 nicht vor dem 01.07.2016,\n- das Referenzobjekt hat eine Bruttogrundfläche (BGF) größer 2.500 m²,\n- Realisierung innerhalb der Europäischen Union (EU) oder der Schweiz.\n\nWeitere Mindeststandards, die ergänzend zu den Allgemeinen Mindeststandards kumuliert über die eingereichten Referenzen nachgewiesen werden müssen:\n- mindestens ein Referenzobjekt beinhaltet die Erstellung der funktionalen\nLeistungsbeschreibung (FLB) durch den Bieter, mindestens für die Beschreibung der Bauausführung der Kostengruppen 200, 300, 600 nach DIN 276,\n- mindestens 1 Referenzobjekt hat eine Bruttogrundfläche (BGF) größer 8.000 m²,\n- mindestens 1 Referenzobjekt beinhaltet die Integration einer der genannten erneuerbaren Energien (Photovoltaik und/oder Solarthermie und/oder Geothermie und/oder Windkraft).\n\nDie Mindeststandards sind im Einzelnen dem Formblatt \"A-5_Anforderung_Angaben_Unternehmensreferenz_OP\" den Vergabeunterlagen zu entnehmen, welches ausgefüllt nebst Referenzbeschreibungen (nach eigenem Format) vorzulegen ist.\n\nSofern die vom Bieter benannten Unternehmensreferenzen die Mindeststandards nicht erfüllen, wird das Angebot ausgeschlossen."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Zugelassen werden nur Bieter, die gemäß Rechtsvorschriften ihres Heimatstaates als Architekt bzw. Ingenieur tätig und zum Führen dieser Berufsbezeichnung berechtigt sind, ggf. ist der Nachweis nach Richtlinie 2005/36/EG über die Anerkennung von Berufsqualifikationen zu führen (§ 75 Abs. 1 und 2 VgV in Verbindung mit § 44 Abs.2 VgV).\n\nJuristische Personen erfüllen die Voraussetzungen zur Erbringung der Leistungen und sind als Auftragnehmer zugelassen, sofern deren satzungsgemäßer Geschäftszweck auf Leistungen der hier gegebenen Art ausgerichtet ist und sie einen verantwortlichen Berufsangehörigen im vorstehenden Sinne benennen (§ 75 Abs. 3 VgV).\nHierüber ist von dem Bieter eine entsprechende Erklärung abzugeben.\n\nDes Weiteren hat der Bieter mit dem Angebot folgende Angaben, Erklärungen und Nachweise vorzulegen:\nAnforderungen an das Personal (Schlüsselposition):\nDie Bieter müssen mit ihren Angeboten die Schlüsselposition \"Projektverantwortliche*r Objektplaner*in\" namentlich benennen und deren/dessen persönliche berufliche Qualifikation, Berufs- und Projekterfahrung (anhand mindestens einer persönlichen Referenz) unter Berücksichtigung der zu Ausbildung, Berufs- und Projekterfahrung aufgestellten Mindeststandards nachweisen. Diese sind im Einzelnen:\n\n- (Fach-) Hochschulabschluss (Dipl.-Ingenieur / Master / Bachelor) in einer Fachrichtung Bauingenieurwesen / Architektur,\n- Berufspraxis im Bereich der Objektplanung von mindestens 8 Jahren nach Erwerb des (Fach-)Hochschulabschlusses, davon mindestens 3 Jahre in Projektverantwortung,\n- Angaben zu mindestens einer persönlichen Referenz über Leistungen als Projektverantwortliche*r der Objektplaner*in für ein Hochbauprojekt Neubau mit mindestens den LPH 1 und 2 aus den letzten 10 Jahren.\n\nZu den persönlichen Referenzen wurden folgende Mindeststandards aufgestellt:\n\nAllgemeine Mindeststandards, die mit jeder persönlichen Referenz nachgewiesen werden müssen:\n- die benannte Person hat für das Referenzobjekt Leistungen gemäß HOAI §34 - Objektplanung Gebäude mindestens der Leistungsphase (LPH) 2 für ein Hochbauprojekt Neubau erbracht,\n- das Referenzobjekt unterfällt einer der Kategorien/Objekttypen der Objektliste Anlage 10.2 der HOAI ab Honorarzone III,\n- Referenzobjekt mit Abschluss der LPH 2 nach HOAI nicht vor dem 01.07.2016,\n- Realisierung innerhalb der Europäischen Union (EU) / der Schweiz.\n\nWeitere Mindeststandards, die ergänzend zu den Allgemeinen Mindeststandards kumuliert über die eingereichten Referenzen nachgewiesen werden müssen:\n- die Leistung wurde durch die benannte Person als Projektverantwortliche*r Objektplaner*in erbracht,\n- der Leistungsumfang bei dem Referenzobjekt umfasste die Erstellung der funktionalen Leistungsbeschreibung (FLB) mindestens für KG 200-300 der DIN 276 durch die benannte Person.\n\nDie Mindeststandards sind im Einzelnen auch dem Formblatt \"A-6_Anforderung_Angaben_Personal_OP\" den Vergabeunterlagen zu entnehmen, welches ausgefüllt nebst Ausbildungsnachweisen,  tabellarischem Lebenslauf, Angaben zu mindestens einer persönlichen Referenz sowie entsprechender aussagefähiger Referenzbeschreibungen (nach eigenem Format) vorzulegen ist.\n\nSofern die vorgelegten Nachweise zur Schlüsselposition die jeweils aufgestellten Mindeststandards hinsichtlich der Ausbildung, Berufs- und Projekterfahrung nicht erfüllen, wird das Angebot ausgeschlossen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Der Bieter hat mit dem Angebot folgende Angaben, Erklärungen und Nachweise vorzulegen:\n\nErklärung über das jährliche Mittel der Beschäftigten in den letzten drei Jahren.\nMindeststandard Beschäftigte:\nDie durchschnittliche Anzahl der Beschäftigten aus der Fachrichtung Architektur / Bauingenieurwesen (Dipl.-Ing. / Master / Bachelor) pro Jahr darf in den letzten drei Jahren die Anzahl von 3 Personen nicht unterschreiten."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Sofern der Bieter zum Nachweis seiner Eignung die Kapazitäten eines anderen Unternehmens in Anspruch nehmen will (Eignungsleihe) bzw. andere Unternehmen als Unterauftragnehmer für die Auftragsausführung einsetzen will, muss er den Namen dieses anderen Unternehmens benennen und angeben, wofür er die Kapazitäten des anderen Unternehmens in Anspruch nehmen will. Die Eignung dieses anderen Unternehmens ist auf gesonderte Anforderung nachzuweisen. Des Weiteren ist eine Verpflichtungserklärung dieses Unternehmens vorzulegen, dass ihm die für den Auftrag erforderlichen Mittel tatsächlich zur Verfügung gestellt werden.\n\nIm Falle einer Bietergemeinschaft oder bei Einbindung eines eignungsleihenden Unternehmens/Unterauftragnehmer sind Angaben, Erklärungen und Nachweise von jedem Mitglied der Bietergemeinschaft oder jedem eignungsleihenden Unternehmen /Unterauftragnehmer in dem Umfang vorzulegen, wie sie für den Bieter vorzulegen wären. Dafür sind - soweit vorgesehen - die vorgegebenen Formblätter zu verwenden."
+     },
+     {
+      "type": "slc-sec-proc",
+      "description": "Der Bieter hat mit dem Angebot folgende Erklärungen zur Auftragsausführung und Übergabe der Arbeitsergebnisse im Auftragsfall vorzulegen:\n\nZusicherung, dass im Auftragsfall die besonderen Anforderungen des Auftraggebers nach Anlage \"V 03 Allgemeine Hinweise und Pflichten zur Auftragsausführung\" eingehalten werden und die dafür erforderliche technische Ausstattung (Geräte, Hard- und Software) zur Verfügung steht.\n\nZusicherung zur Verschwiegenheit während und nach dem Vergabeverfahren sowie im Auftragsfall gemäß den Anforderungen des Auftraggebers nach Anlage \"5 Verschwiegenheitsklausel\"."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Der Bieter hat mit dem Angebot Folgendes vorzulegen:\nErklärung über den Abschluss einer Berufshaftpflichtversicherung bei einem in der EU zugelassenen Versicherungsunternehmen entsprechend den Forderungen des Vertrags für Personenschäden einerseits sowie für Sach- und Vermögensschäden andererseits.\n\nMindeststandards:\nFür Personenschäden müssen die Deckungssummen dieser Versicherung jeweils pro Verstoß mindestens EUR 5 Mio. (2fach maximiert) betragen. Für Sach- und Vermögensschäden müssen die Deckungssummen dieser Versicherung jeweils pro Verstoß ebenfalls mindestens EUR 5 Mio. (2fach maximiert) betragen.\nIm Auftragsfall ist eine Berufshaftpflichtversicherung entsprechend den Forderungen des Vertrags spätestens zwei Wochen nach Vertragsschluss einzureichen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Mit dem Angebot einzureichen:\n- Eigenerklärung zur Umsetzung von Artikel 5k der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 (Russland-Sanktionen)."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Mit dem Angebot einzureichen:\n- Erklärung über den Gesamtumsatz in den letzten drei Geschäftsjahren in dem Tätigkeitsbereich, der mit den ausgeschriebenen Leistungen vergleichbar ist.\n\nMindeststandard:\nDer nachzuweisende Gesamtumsatz der letzten 3 Geschäftsjahre darf kumuliert 3,6 Mio. Euro netto nicht unterschreiten."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Der Bieter hat mit dem Angebot folgende Angaben, Erklärungen und Nachweise vorzulegen:\n\na) Angaben zum Unternehmen (Name, Rechtsform, Anschrift, Telefon, Telefax, E-Mail-Adresse, bevollmächtigter Vertreter, Ansprechpartner).\n\nb) Nachweis der Befähigung und Erlaubnis zur Berufsausübung durch Eintragung in einem Berufs- oder Handelsregister der Bundesrepublik Deutschland bzw. vergleichbarem Register des jeweiligen Landes (§ 44 VgV). Als im Handelsregister nicht eingetragener bzw. ausländischer Bieter ist es gestattet, vergleichbare Eintragungen zu benennen; die Gleichwertigkeit ist auf Verlangen nachzuweisen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualifikation und Erfahrung des mit der Ausführung des Auftrags betrauten Personals",
+      "weight": 40
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Honorarangebot",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

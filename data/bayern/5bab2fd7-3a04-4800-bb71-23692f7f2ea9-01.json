@@ -5,14 +5,14 @@
   "noticeId": "5bab2fd7-3a04-4800-bb71-23692f7f2ea9",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5bab2fd7-3a04-4800-bb71-23692f7f2ea9",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:5bab2fd7-3a04-4800-bb71-23692f7f2ea9-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:5bab2fd7-3a04-4800-bb71-23692f7f2ea9-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/5bab2fd7-3a04-4800-bb71-23692f7f2ea9?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Dienstleister Veranstaltungsausstattungen",
   "buyer": "Bayern Tourismus Marketing GmbH",
   "cpv": [
@@ -22,7 +22,7 @@
   "nuts": [
    "DE212"
   ],
-  "deadline": null,
+  "deadline": "2026-11-30T08:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -145,5 +145,44 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "5bab2fd7-3a04-4800-bb71-23692f7f2ea9",
+  "version": "01",
+  "title": "Dienstleister Veranstaltungsausstattungen",
+  "description": "Herstellung und Lieferung von Printprodukten",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "79950000",
+   "79900000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Dienstleister Veranstaltungsausstattungen",
+    "description": "Für die Vorbereitung und Durchführung im Rahmen von Veranstaltungsausstattung benötigt die BayTM externe Unterstützung.",
+    "cpv": [
+     "79950000",
+     "79900000"
+    ],
+    "nuts": [],
+    "deadline": "2026-11-30T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-23+01:00",
+    "plannedEnd": "2031-01-22+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
 }

@@ -5,24 +5,35 @@
   "noticeId": "9937ee1e-30ec-4519-bd6c-f0837b44d09c",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9937ee1e-30ec-4519-bd6c-f0837b44d09c",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:9937ee1e-30ec-4519-bd6c-f0837b44d09c-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:9937ee1e-30ec-4519-bd6c-f0837b44d09c-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/9937ee1e-30ec-4519-bd6c-f0837b44d09c?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "1707-CM-Umzugsleistungen",
   "buyer": "BWI GmbH",
   "cpv": [
-   "98392000"
+   "98392000",
+   "79613000"
   ],
   "nuts": [
    "DEA22",
    "DEF0C",
    "DE300",
-   "DE212"
+   "DE212",
+   "DE600",
+   "DE501",
+   "DE929",
+   "DE80K",
+   "DE409",
+   "DED51",
+   "DEE0C",
+   "DEG01",
+   "DE111",
+   "DE712"
   ],
   "deadline": null,
   "lots": 3
@@ -459,5 +470,139 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "9937ee1e-30ec-4519-bd6c-f0837b44d09c",
+  "version": "01",
+  "title": "1707-CM-Umzugsleistungen",
+  "description": "Die BWI erwägt einen Rahmenvertrag für die Regionen Nord (Los 1), Ost (Los 2) und Süd (Los 3) mit jeweils 2 Wirtschaftsteilnehmern für Standard-Umzugsleistungen und für die Rückführung heimbasierter Telearbeitsplatz-Ausstattungen an diversen Standorte im Wege eines Offenen Verfahrens nach § 14 Abs. 2 VgV zu vergeben. Der Abruf der Einzelaufträge erfolgt nach einem Kaskadenprinzip. Die Verträge werden mit einer Laufzeit von maximal 4 Jahren abgeschlossen. \nJedes Los umfasst folgende Leistungen: \n1. Die Standard-Umzugsleistungen bestehend aus Umzugsleitungen inkl. folgender Serviceleistungen: Gestellung von fachgerechten Kartonagen und Akten- bzw. Transportwagen, Abbau der IT-Arbeitsplatzkomponenten, Zerlegen von Möbel- und Schreibtischkombinationen, Ab-, Auf- und Umbau sowie Transport von Aktenregalen nach Planungsunterlagen, Fachgerechtes Verpacken von Akten in bedarfsgerechte Behältnisse, Auspacken von Akten und fachmännisches Einbringen in die Aktenregale bzw. sonstige Registraturen, Aufbau der Aktenregale in den Aktenhaltungen, Aufbau demontierter Möbel und Schreibtischkombinationen, Aufbau des IT-Arbeitsplatzes inkl. Verkabelung entsprechend der vom Auftraggeber vorgegebenen Konfiguration. \n2. Verlagerung heimbasierter Telearbeitsplatz-Ausstattungen, mit dem Umfang eines Schreibtisches, Bürostuhls und ggf. ein Rollcontainer und Siteboard. Hierzu zählt auch der Austausch des genannten Mobiliars vor Ort.\n3. Entsorgung und Zwischenlagerung von Mobiliar.",
+  "procedureType": "open",
+  "nuts": [
+   "DEA22",
+   "DEF0C",
+   "DE600",
+   "DE501",
+   "DE929",
+   "DE80K",
+   "DE300",
+   "DE409",
+   "DED51",
+   "DEE0C",
+   "DEG01",
+   "DE212",
+   "DE111",
+   "DE712"
+  ],
+  "cpv": [
+   "98392000",
+   "79613000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Umzugsleistungen Region Nord",
+    "description": "Die Leistung besteht aus der Umzugsleitung inkl. folgender Serviceleistungen: Gestellung von fachgerechten Kartonagen und Akten- bzw. Transportwagen, Abbau der ITArbeitsplatzkomponenten, Zerlegen von Möbel- und Schreibtischkombinationen, Ab-, Auf- und Umbau sowie Transport von Aktenregalen nach Planungsunterlagen, Fachgerechtes Verpacken von Akten in bedarfsgerechte\nBehältnisse, Auspacken von Akten und fachmännisches Einbringen in die Aktenregale bzw. sonstige Registraturen, Aufbau der Aktenregale in den Aktenhaltungen, Aufbau\ndemontierter Möbel und Schreibtischkombinationen, Aufbau des IT-Arbeitsplatzes entsprechend der vom Auftraggeber vorgegebenen Konfiguration.",
+    "cpv": [
+     "98392000"
+    ],
+    "nuts": [
+     "DEF0C",
+     "DE600",
+     "DE501",
+     "DE929",
+     "DE80K"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Siehe Bewerbungsbedingungen",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Umzugsleistungen Region Ost",
+    "description": "Die Leistung besteht aus der Umzugsleitung inkl. folgender Serviceleistungen: Gestellung von fachgerechten Kartonagen und Akten- bzw. Transportwagen, Abbau der ITArbeitsplatzkomponenten, Zerlegen von Möbel- und Schreibtischkombinationen, Ab-, Auf- und Umbau sowie Transport von Aktenregalen nach Planungsunterlagen, Fachgerechtes Verpacken von Akten in bedarfsgerechte\nBehältnisse, Auspacken von Akten und fachmännisches Einbringen in die Aktenregale bzw. sonstige Registraturen, Aufbau der Aktenregale in den Aktenhaltungen, Aufbau\ndemontierter Möbel und Schreibtischkombinationen, Aufbau des IT-Arbeitsplatzes entsprechend der vom Auftraggeber vorgegebenen Konfiguration.",
+    "cpv": [
+     "98392000"
+    ],
+    "nuts": [
+     "DE300",
+     "DE409",
+     "DED51",
+     "DEE0C",
+     "DEG01"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "siehe Bewerbungsbedingungen",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Umzugsleistungen Region Süd",
+    "description": "Die Leistung besteht aus der Umzugsleitung inkl. folgender Serviceleistungen: Gestellung von fachgerechten Kartonagen und Akten- bzw. Transportwagen, Abbau der ITArbeitsplatzkomponenten, Zerlegen von Möbel- und Schreibtischkombinationen, Ab-, Auf- und Umbau sowie Transport von Aktenregalen nach Planungsunterlagen, Fachgerechtes Verpacken von Akten in bedarfsgerechte\nBehältnisse, Auspacken von Akten und fachmännisches Einbringen in die Aktenregale bzw. sonstige Registraturen, Aufbau der Aktenregale in den Aktenhaltungen, Aufbau\ndemontierter Möbel und Schreibtischkombinationen, Aufbau des IT-Arbeitsplatzes entsprechend der vom Auftraggeber vorgegebenen Konfiguration.",
+    "cpv": [
+     "98392000"
+    ],
+    "nuts": [
+     "DE212",
+     "DE111",
+     "DE712"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "siehe Bewerbungsbedingungen",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

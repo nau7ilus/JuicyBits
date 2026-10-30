@@ -191,6 +191,8 @@
   "noticeId": "804d2b65-d7ec-4597-bbc2-f3bf609955aa",
   "version": "01",
   "title": "Gymnasium Füssen - Brandschutztüren BA 1-2",
+  "description": "Brandschutztüren BA 1-2",
+  "procedureType": "open",
   "nuts": [
    "DE27B"
   ],
@@ -203,6 +205,7 @@
    {
     "id": "LOT-0000",
     "title": "Gymnasium Füssen - Brandschutztüren BA 1-2",
+    "description": "- 4 Stk. Alu-Blendrahmenelemente mit Brandschutzanforderung inkl. Ausstattung\n- 6 Stk. Stahl-Mehrzwecktüren mit Brandschutzanforderung inkl. Ausstattung",
     "cpv": [
      "45421131",
      "44221220"
@@ -214,6 +217,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-03-08+01:00",
     "plannedEnd": "2028-02-25+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -237,7 +241,16 @@
       "type": "slc-suit-reg-trade",
       "description": "Erforderliche Angaben über die \"Eigenerklärung zur Eignung für nicht präqualifizierte Unternehmen\" bzw. Nachweis der Präqualifizierung."
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": ".",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

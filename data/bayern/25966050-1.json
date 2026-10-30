@@ -1,0 +1,134 @@
+{
+ "id": "25966050-1",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "25966050",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25966050",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:25966050-1.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:25966050-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25966050?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Softwareentwickler GPM/inubit (m/w/d)",
+  "buyer": "Kassenärztliche Vereinigung Bayerns",
+  "cpv": [
+   "72260000-5"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-09T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25966050",
+  "id": "25966050",
+  "date": "2026-10-24T07:00:13Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Kassenärztliche Vereinigung Bayerns",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Kassenärztliche Vereinigung Bayerns"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Kassenärztliche Vereinigung Bayerns",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Kassenärztliche Vereinigung Bayerns"
+   }
+  },
+  "tender": {
+   "title": "Softwareentwickler GPM/inubit (m/w/d)",
+   "description": "Softwareentwickler GPM/inubit (m/w/d)",
+   "procuringEntity": {
+    "name": "Kassenärztliche Vereinigung Bayerns"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72260000-5"
+     },
+     "deliveryAddress": {
+      "locality": "80687 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXS0YR7DYHKB92UJ",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Softwareentwickler GPM/inubit (m/w/d)",
+     "description": "Softwareentwickler GPM/inubit (m/w/d)"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25966050",
+  "version": "1",
+  "title": "Softwareentwickler GPM/inubit (m/w/d)",
+  "description": "Softwareentwickler GPM/inubit (m/w/d)",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "72260000-5"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Softwareentwickler GPM/inubit (m/w/d)",
+    "description": "Softwareentwickler GPM/inubit (m/w/d)",
+    "cpv": [
+     "72260000-5"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-09T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

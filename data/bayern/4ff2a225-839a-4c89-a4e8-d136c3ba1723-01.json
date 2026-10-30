@@ -219,6 +219,8 @@
   "noticeId": "4ff2a225-839a-4c89-a4e8-d136c3ba1723",
   "version": "01",
   "title": "VE 4.2.118b - Lose Möbel - Ost",
+  "description": "Liefern von Stühlen und Tischen",
+  "procedureType": "open",
   "nuts": [
    "DE211"
   ],
@@ -230,6 +232,7 @@
    {
     "id": "LOT-0001",
     "title": "VE 4.2.118b Lose Möbel - Ost",
+    "description": "Liefern von Stühlen und Tischen",
     "cpv": [
      "45422000"
     ],
@@ -240,9 +243,19 @@
     "participationDeadline": null,
     "plannedStart": "2026-09-28+02:00",
     "plannedEnd": "2026-12-21+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Zuschlagskriterium = Wirtschaftlichkeit",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

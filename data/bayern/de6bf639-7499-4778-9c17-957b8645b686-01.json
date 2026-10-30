@@ -5,14 +5,14 @@
   "noticeId": "de6bf639-7499-4778-9c17-957b8645b686",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=de6bf639-7499-4778-9c17-957b8645b686",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:de6bf639-7499-4778-9c17-957b8645b686-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:de6bf639-7499-4778-9c17-957b8645b686-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/de6bf639-7499-4778-9c17-957b8645b686?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Leistungen zur Oberbauinstandsetzung in Gleisen/Weichen der DB InfraGO AG - 2. Vergabewelle",
   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
   "cpv": [
@@ -36,7 +36,7 @@
    "DE144",
    "DEA11"
   ],
-  "deadline": null,
+  "deadline": "2026-11-23T09:00:00+01:00",
   "lots": 32
  },
  "ocds": {
@@ -1229,5 +1229,1200 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "de6bf639-7499-4778-9c17-957b8645b686",
+  "version": "01",
+  "title": "Leistungen zur Oberbauinstandsetzung in Gleisen/Weichen der DB InfraGO AG - 2. Vergabewelle",
+  "description": "Oberbauinstandsetzung in Gleisen der DB InfraGO AG - Fachlos 1 Kleine Instandsetzung Gleise und Weichen, Fachlos 3 BÜ-Arbeiten, Fachlos 4 Schweiß- und Schleifarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE712",
+   "DE731",
+   "DE501",
+   "DE944",
+   "DE212",
+   "DE232",
+   "DED21",
+   "DEE02",
+   "DEE03",
+   "DE122",
+   "DE111",
+   "DE144",
+   "DEA11"
+  ],
+  "cpv": [
+   "45234100",
+   "45234116",
+   "45234140",
+   "45262680"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Vergabelos 1.2.1, Region Mitte Netz Kassel Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvor-richtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DE731"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Vergabelos 1.2.3, Region Mitte Netz Kassel Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DE731"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Vergabelos 1.2.4, Region Mitte Netz Kassel Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschwei-ßen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungs-ausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DE731"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Vergabelos 2.1.1, Region Nord Netz Bremen Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvor-richtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DE501"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Vergabelos 2.1.3, Region Nord Netz Bremen Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DE501"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0006",
+    "title": "Vergabelos 2.1.4, Region Nord Netz Bremen Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DE501"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0007",
+    "title": "Vergabelos 2.5.1, Region Nord Netz Osnabrück Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DE944"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0008",
+    "title": "Vergabelos 2.5.3, Region Nord Netz Osnabrück Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DE944"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0009",
+    "title": "Vergabelos 2.5.4, Region Nord Netz Osnabrück Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DE944"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0010",
+    "title": "Vergabelos 4.4.1, Region Süd Netz München Süd Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0011",
+    "title": "Vergabelos 4.4.3, Region Süd Netz München Süd Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0012",
+    "title": "Vergabelos 4.4.4, Region Süd Netz München Süd Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0013",
+    "title": "Vergabelos 4.8.1, Region Süd Netz Regensburg Nord Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0014",
+    "title": "Vergabelos 4.8.3, Region Süd Netz Regensburg Nord Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0015",
+    "title": "Vergabelos 4.8.4, Region Süd Netz Regensburg Nord Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0016",
+    "title": "Vergabelos 5.2.1, Region Südost Netz Dresden 2 Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DED21"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0017",
+    "title": "Vergabelos 5.2.3, Region Südost Netz Dresden 2 Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DED21"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0018",
+    "title": "Vergabelos 5.2.4, Region Südost Netz Dresden 2 Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DED21"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0019",
+    "title": "Vergabelos 5.6.1, Region Südost,  Netz Halle 1, Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DEE02"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0020",
+    "title": "Vergabelos 5.6.3, Region Südost, Netz Halle 1, Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DEE02"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0021",
+    "title": "Vergabelos 5.6.4, Region Südost, Netz Halle 1, Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DEE02"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0022",
+    "title": "Vergabelos 5.10.1, Region Südost, Netz Magdeburg 2, Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DEE03"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0023",
+    "title": "Vergabelos 5.10.3, Region Südost, Netz Magdeburg 2, Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DEE03"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0024",
+    "title": "Vergabelos 5.10.4, Region Südost, Netz Magdeburg 2, Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DEE03"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0025",
+    "title": "Vergabelos 6.3.1, Region Südwest, Netz Karlsruhe 3, Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DE122"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0026",
+    "title": "Vergabelos 6.7.3, Region Südwest, Netz Stuttgart 1, Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DE111"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0027",
+    "title": "Vergabelos 6.15.1, Region Südwest, Netz Ulm, Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DE144"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0028",
+    "title": "Vergabelos 6.15.3, Region Südwest, Netz Ulm, Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DE144"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0029",
+    "title": "Vergabelos 6.15.4, Region Südwest, Netz Ulm, Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DE144"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0030",
+    "title": "Vergabelos 7.2.1, Region West, Netz Düsseldorf, Fachlos 1",
+    "description": "Kleine Oberbauinstandsetzung (Instandsetzung Gleise und Weichen). Diese umfasst die Behandlung von Kleineisen, Schwellenwechsel, Spurberichtigung, Stoßlückengleis, Bettungserneuerung, Randwegarbeiten, Schienenwechsel, Schwellenaufbereitung in Gleisen UND Weichen sowie der der Tausch von Weichengroßteile, Spannungsausgleich in Gleisen und Weichen, Begleitarbeiten, Logistik. Gleise Schienenauszugsvorrichtung, Fang Schutzschienen, Weichen Kleineisen.",
+    "cpv": [
+     "45234100",
+     "45234116"
+    ],
+    "nuts": [
+     "DEA11"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0031",
+    "title": "Vergabelos 7.2.3, Region West, Netz Düsseldorf, Fachlos 3",
+    "description": "Kleine Instandsetzung Bahnübergänge. Dies umfasst BÜ-Arbeiten bis 50m² und über 50m², Oberbauarbeiten, Logistik.",
+    "cpv": [
+     "45234140"
+    ],
+    "nuts": [
+     "DEA11"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0032",
+    "title": "Vergabelos 7.2.4, Region West, Netz Düsseldorf, Fachlos 4",
+    "description": "Schweißtechnische Arbeiten. Dies umfasst Auftragsschweißen, Verbindungsschweißen, Schleifarbeiten, Brenn und Trennschnitte, Neutralisationsarbeiten, Spannungsausgleich, Logistik.",
+    "cpv": [
+     "45262680"
+    ],
+    "nuts": [
+     "DEA11"
+    ],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/026ce5d3-755f-4913-94f0-78aed6a68d4b/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
 }

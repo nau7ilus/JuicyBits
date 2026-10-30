@@ -199,6 +199,8 @@
   "noticeId": "5210fec5-d2d8-495e-8c37-f792ca5c30e9",
   "version": "01",
   "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Gebäudeautomation",
+  "description": "Gebäudeautomation",
+  "procedureType": "open",
   "nuts": [
    "DE243"
   ],
@@ -210,6 +212,7 @@
    {
     "id": "LOT-0000",
     "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Gebäudeautomation",
+    "description": "Um- und Neubau Wohngebäude mit Kindertagesstätte \nFeldgeräte 48 Stck, Automatisierungseinrichtungen 2 Stck, Schaltschrank 2 Stck, Automatisierungsmanagement 1 Stck, Kabel ca. 3900 m, Kabelrinne ca. 40 m",
     "cpv": [
      "45315000"
     ],
@@ -220,6 +223,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-10-18+02:00",
     "plannedEnd": "2029-03-09+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -239,7 +243,16 @@
       "type": "slc-stand-to-avg",
       "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a130a563d9-4b20470ed3926e28"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

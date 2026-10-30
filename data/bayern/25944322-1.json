@@ -1,0 +1,125 @@
+{
+ "id": "25944322-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944322",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944322",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944322-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944322-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944322?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Notleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau",
+  "buyer": "Stadt Nürnberg, U-Bahnbauamt",
+  "cpv": [
+   "45112700"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944322",
+  "id": "25944322",
+  "date": "2026-10-17T07:01:54Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg, U-Bahnbauamt",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Nürnberg, U-Bahnbauamt"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg, U-Bahnbauamt",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg, U-Bahnbauamt"
+   }
+  },
+  "tender": {
+   "title": "Notleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau",
+   "description": "Garten- und Landschaftsbau\n\nNotleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg, U-Bahnbauamt"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112700",
+      "description": "Landscaping work"
+     },
+     "deliveryAddress": {
+      "locality": "90471 Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Notleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau",
+     "description": "Garten- und Landschaftsbau\n\nNotleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25944322",
+  "version": "1",
+  "title": "Notleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau",
+  "description": "Garten- und Landschaftsbau\n\nNotleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45112700"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Notleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau",
+    "description": "Garten- und Landschaftsbau\n\nNotleitstelle Kafkastraße, U-Bahn Nürnberg: Vergabepaket 55 - Garten- und Landschaftsbau",
+    "cpv": [
+     "45112700"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

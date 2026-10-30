@@ -5,14 +5,14 @@
   "noticeId": "be86509b-d375-4095-b285-e250cc0e04e8",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=be86509b-d375-4095-b285-e250cc0e04e8",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:be86509b-d375-4095-b285-e250cc0e04e8-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:be86509b-d375-4095-b285-e250cc0e04e8-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/be86509b-d375-4095-b285-e250cc0e04e8?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Objektplanung Ingenieurbauwerke und Fachplanung Tragwerksplanung, Örtliche Bauüberwachung und Verkehrssicherung.",
   "buyer": "Landeshauptstadt München, Baureferat",
   "cpv": [
@@ -237,5 +237,60 @@
    }
   ]
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "be86509b-d375-4095-b285-e250cc0e04e8",
+  "version": "01",
+  "title": "Objektplanung Ingenieurbauwerke und Fachplanung Tragwerksplanung, Örtliche Bauüberwachung und Verkehrssicherung.",
+  "description": "Objektplanung Ingenieurbauwerke gem. Par. 43 HOAI, Lph 1-8, Tragwerksplanung Par. 51 HOAI Lph. 2-6, Verkehrssicherung und Bauüberwachung für die Generalsanierung zweier FußgBruecken am Kusocinskidamm 1. ueber Connollystr BW 40-105 und 2. ueber ZHS Nord Zufahrt BW 40-102",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71000000",
+   "71300000",
+   "71320000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Objektplanung Ingenieurbauwerke und Fachplanung Tragwerksplanung, Örtliche Bauüberwachung und Verkehrssicherung.",
+    "description": "Objektplanung Ingenieurbauwerke gem. Par. 43 HOAI, Lph 1-8, Tragwerksplanung Par. 51 HOAI Lph. 2-6, Verkehrssicherung und Bauüberwachung für die Generalsanierung zweier FußgBruecken am Kusocinskidamm 1. ueber Connollystr BW 40-105 und 2. ueber ZHS Nord Zufahrt BW 40-102",
+    "cpv": [
+     "71000000",
+     "71300000",
+     "71320000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-28+02:00",
+    "plannedEnd": "2027-12-20+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle (Unter)Kriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt.",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Die Qualität ist nicht das einzige Zuschlagskriterium; alle (Unter)Kriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt.",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

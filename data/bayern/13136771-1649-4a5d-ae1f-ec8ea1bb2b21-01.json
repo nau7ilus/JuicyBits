@@ -5,14 +5,14 @@
   "noticeId": "13136771-1649-4a5d-ae1f-ec8ea1bb2b21",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=13136771-1649-4a5d-ae1f-ec8ea1bb2b21",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:13136771-1649-4a5d-ae1f-ec8ea1bb2b21-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:13136771-1649-4a5d-ae1f-ec8ea1bb2b21-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/13136771-1649-4a5d-ae1f-ec8ea1bb2b21?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 3060-001 MSR-Technik",
   "buyer": "Med. Einrichtungen des Bez. Oberpfalz - KU",
   "cpv": [
@@ -187,5 +187,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "13136771-1649-4a5d-ae1f-ec8ea1bb2b21",
+  "version": "01",
+  "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 3060-001 MSR-Technik",
+  "description": "3 St Informationsschwerpunkte\n5 St Schaltschrankfelder\nca. 70 St Feldgeräte\nca. 5.800m Verkabelung mit Verlegesystemen\nca. 225 St Datenpunkte mit Aufschaltung auf bestehende Leitzentrale",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "45315700"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Gewerk 3060-001 MSR-Technik",
+    "description": "3 St Informationsschwerpunkte\n5 St Schaltschrankfelder\nca. 70 St Feldgeräte\nca. 5.800m Verkabelung mit Verlegesystemen\nca. 225 St Datenpunkte mit Aufschaltung auf bestehende Leitzentrale",
+    "cpv": [
+     "45315700"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-06-29+02:00",
+    "plannedEnd": "2027-10-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

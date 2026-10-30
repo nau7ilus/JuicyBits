@@ -1,0 +1,280 @@
+{
+ "id": "8049762b-8f37-461f-ad8d-c99019e93349-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "8049762b-8f37-461f-ad8d-c99019e93349",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8049762b-8f37-461f-ad8d-c99019e93349",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:8049762b-8f37-461f-ad8d-c99019e93349-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:8049762b-8f37-461f-ad8d-c99019e93349-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8049762b-8f37-461f-ad8d-c99019e93349?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau OGTS und Schulmensa – hier:  Sanitärinstallationen",
+  "buyer": "Gemeinde Memmelsdorf",
+  "cpv": [
+   "45210000",
+   "45231112",
+   "45332400"
+  ],
+  "nuts": [
+   "DE245"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-55c71c4f-e304-49be-b300-68655f5d78a3",
+  "id": "8049762b-8f37-461f-ad8d-c99019e93349",
+  "date": "2026-10-20T10:04:28Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Memmelsdorf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09471159",
+     "legalName": "Gemeinde Memmelsdorf"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Memmelsdorf",
+     "region": "DE245",
+     "postalCode": "96117",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE256",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fa.Wilfried Müller Heizung und Sanitär GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 225869586",
+     "legalName": "Fa.Wilfried Müller Heizung und Sanitär GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Steinweg 20",
+     "locality": "Stegaurach OT Unteraurach",
+     "region": "DE245",
+     "postalCode": "96135",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Memmelsdorf",
+   "id": "09471159",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Memmelsdorf"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Memmelsdorf",
+    "region": "DE245",
+    "postalCode": "96117",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "55c71c4f-e304-49be-b300-68655f5d78a3",
+   "title": "Neubau OGTS und Schulmensa – hier:  Sanitärinstallationen",
+   "description": "Die Gemeinde Memmelsdorf erweitert  derzeit die Ferdinand-Dietz-Schule in Memmelsdorf mit dem  Neubau einer OGTS  für die Mittagsbetreuung von ca.300 Kindern. Dafür wurden hier die Leistungen für die Sanitärinstallationen  als LV 05.2 ausgeschrieben.",
+   "procuringEntity": {
+    "name": "Gemeinde Memmelsdorf",
+    "id": "09471159"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45210000",
+      "description": "Building construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45231112",
+       "description": "Installation of pipe system"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45332400",
+       "description": "Sanitary fixture installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Kapellenstraße 36",
+      "locality": "Memmelsdorf",
+      "region": "DE245",
+      "postalCode": "96117",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Fa.Wilfried Müller Heizung und Sanitär GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Fa.Wilfried Müller Heizung und Sanitär GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Steinweg 20",
+      "locality": "Stegaurach OT Unteraurach",
+      "region": "DE245",
+      "postalCode": "96135",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sanitärinstallationen",
+     "description": "Die Gemeinde Memmelsdorf erweitert  derzeit die Ferdinand-Dietz-Schule in Memmelsdorf mit dem  Neubau einer OGTS  für die Mittagsbetreuung von ca.300 Kindern. Dafür wurden hier die Leistungen für die Sanitärinstallationen als LV 05.2 ausgeschrieben.",
+     "contractPeriod": {
+      "startDate": "2026-11-02T00:00:00+01:00",
+      "endDate": "2027-12-04T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "LV 05.2 Sanitärinstallationen",
+    "status": "active",
+    "date": "2026-10-14T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Fa.Wilfried Müller Heizung und Sanitär GmbH & Co. KG",
+      "id": "DE 225869586",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Fa.Wilfried Müller Heizung und Sanitär GmbH & Co. KG"
+      },
+      "address": {
+       "streetAddress": "Steinweg 20",
+       "locality": "Stegaurach OT Unteraurach",
+       "region": "DE245",
+       "postalCode": "96135",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "LV 05.2 Sanitärinstallationen",
+    "status": "active",
+    "value": {
+     "amount": 184603,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-13T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "8049762b-8f37-461f-ad8d-c99019e93349",
+  "version": "01",
+  "title": "Neubau OGTS und Schulmensa – hier:  Sanitärinstallationen",
+  "description": "Die Gemeinde Memmelsdorf erweitert  derzeit die Ferdinand-Dietz-Schule in Memmelsdorf mit dem  Neubau einer OGTS  für die Mittagsbetreuung von ca.300 Kindern. Dafür wurden hier die Leistungen für die Sanitärinstallationen  als LV 05.2 ausgeschrieben.",
+  "procedureType": "open",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "45210000",
+   "45231112",
+   "45332400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sanitärinstallationen",
+    "description": "Die Gemeinde Memmelsdorf erweitert  derzeit die Ferdinand-Dietz-Schule in Memmelsdorf mit dem  Neubau einer OGTS  für die Mittagsbetreuung von ca.300 Kindern. Dafür wurden hier die Leistungen für die Sanitärinstallationen als LV 05.2 ausgeschrieben.",
+    "cpv": [
+     "45210000",
+     "45231112",
+     "45332400"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-02+01:00",
+    "plannedEnd": "2027-12-04+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

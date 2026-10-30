@@ -5,18 +5,20 @@
   "noticeId": "fe3edd0a-492a-4bd7-92c8-d8b0fe939b19",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fe3edd0a-492a-4bd7-92c8-d8b0fe939b19",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:fe3edd0a-492a-4bd7-92c8-d8b0fe939b19-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:fe3edd0a-492a-4bd7-92c8-d8b0fe939b19-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/fe3edd0a-492a-4bd7-92c8-d8b0fe939b19?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "VMWare Speicher inkl. Support",
   "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e. V.",
   "cpv": [
-   "38552000"
+   "38552000",
+   "48822000",
+   "32424000"
   ],
   "nuts": [
    "DE252",
@@ -200,5 +202,58 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "fe3edd0a-492a-4bd7-92c8-d8b0fe939b19",
+  "version": "01",
+  "title": "VMWare Speicher inkl. Support",
+  "description": "Im Zuge einer Hardware-Erneuerung\n(nach End Of Live der jetzigen Hardware) ist ein nachfolge Storage System zu beschaffen. Zum Erhalt der\nAusfallsicherheit sind zwei Systeme als synchroner Spiegel erforderlich.\nDie zwei Systeme sollen in zwei Rechenzentren (RZs), die in einem Gebäude in verschiedenen\nBrandabschnitten liegen, jeweils in einen 19” Rack eingebaut werden. Jedes RZ verfügt zur\nNetzwerkanbindung über zwei 25G Top-of-rack Switche.",
+  "procedureType": "open",
+  "nuts": [
+   "DED21"
+  ],
+  "cpv": [
+   "48822000",
+   "32424000",
+   "38552000"
+  ],
+  "estimatedValue": {
+   "amount": 520000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "VMware Speicher",
+    "description": "Im Zuge einer Hardware-Erneuerung\n(nach End Of Live der jetzigen Hardware) ist ein nachfolge Storage System zu beschaffen. Zum Erhalt der\nAusfallsicherheit sind zwei Systeme als synchroner Spiegel erforderlich.\nDie zwei Systeme sollen in zwei Rechenzentren (RZs), die in einem Gebäude in verschiedenen\nBrandabschnitten liegen, jeweils in einen 19” Rack eingebaut werden. Jedes RZ verfügt zur\nNetzwerkanbindung über zwei 25G Top-of-rack Switche.",
+    "cpv": [
+     "38552000"
+    ],
+    "nuts": [
+     "DED21"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "100%",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

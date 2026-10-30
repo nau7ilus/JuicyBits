@@ -1,0 +1,302 @@
+{
+ "id": "74723007-4c14-414e-a04e-a035e8f01f76-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "74723007-4c14-414e-a04e-a035e8f01f76",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=74723007-4c14-414e-a04e-a035e8f01f76",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:74723007-4c14-414e-a04e-a035e8f01f76-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:74723007-4c14-414e-a04e-a035e8f01f76-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/74723007-4c14-414e-a04e-a035e8f01f76?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Mückenhausen Überlandbusse",
+  "buyer": "Mückenhausen Busunternehmen GmbH",
+  "cpv": [
+   "34144910"
+  ],
+  "nuts": [
+   "DE22A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fe81a384-c4d1-40c5-b1ba-943cf1c9c2b1",
+  "id": "74723007-4c14-414e-a04e-a035e8f01f76",
+  "date": "2026-10-25T14:26:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Mückenhausen Busunternehmen GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE812534964",
+     "legalName": "Mückenhausen Busunternehmen GmbH"
+    },
+    "address": {
+     "streetAddress": "Industriesiedlung 6-8",
+     "locality": "Gangkofen",
+     "region": "DE22A",
+     "postalCode": "84140",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE129523318",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE22A",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Daimler Buses GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE147032272",
+     "legalName": "Daimler Buses GmbH"
+    },
+    "address": {
+     "locality": "Garching bei München",
+     "region": "DE21H",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Mückenhausen Busunternehmen GmbH",
+   "id": "DE812534964",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Mückenhausen Busunternehmen GmbH"
+   },
+   "address": {
+    "streetAddress": "Industriesiedlung 6-8",
+    "locality": "Gangkofen",
+    "region": "DE22A",
+    "postalCode": "84140",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fe81a384-c4d1-40c5-b1ba-943cf1c9c2b1",
+   "title": "Mückenhausen Überlandbusse",
+   "description": "Die Fa. Mückenhausen Busunternehmen GmbH beabsichtigt die Beschaffung von fünf Überlandbussen (Hochboden) mit Elektroantrieb.",
+   "procuringEntity": {
+    "name": "Mückenhausen Busunternehmen GmbH",
+    "id": "DE812534964"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144910",
+      "description": "Electric buses"
+     },
+     "quantity": 5,
+     "unit": {
+      "scheme": "UNCEFACT",
+      "id": "H87"
+     },
+     "deliveryLocation": {
+      "description": "Industriesiedlung 6-8, 84140 Gangkofen"
+     },
+     "deliveryAddress": {
+      "region": "DE22A",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 2500000,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-12T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Daimler Buses GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Daimler Buses GmbH"
+     },
+     "address": {
+      "locality": "Garching bei München",
+      "region": "DE21H",
+      "postalCode": "85748",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Überlandbusse (Hochboden)",
+     "description": "Die Fa. Mückenhausen Busunternehmen GmbH beabsichtigt die Beschaffung von fünf Überlandbussen (Hochboden) mit Elektroantrieb. Die vollständige Beschreibung sowie technische Spezifikationen und die Zuschlagskriterien sowie deren Berechnungsmatrix sind vollumfänglich und ausschließlich den frei abrufbaren Auftragsunterlagen zu entnehmen.",
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-12T00:00:00+02:00",
+    "items": [
+     {
+      "id": 1,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "pass-tran-serv",
+        "description": "Passenger road transport services"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "m3",
+        "description": "Bus (M3)"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles-clean",
+        "description": "Vehicles clean"
+       }
+      ],
+      "quantity": 5
+     },
+     {
+      "id": 2,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "pass-tran-serv",
+        "description": "Passenger road transport services"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "m3",
+        "description": "Bus (M3)"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles-zero-emission",
+        "description": "Vehicles zero emission"
+       }
+      ],
+      "quantity": 5
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 2510000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-11T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "74723007-4c14-414e-a04e-a035e8f01f76",
+  "version": "01",
+  "title": "Mückenhausen Überlandbusse",
+  "description": "Die Fa. Mückenhausen Busunternehmen GmbH beabsichtigt die Beschaffung von fünf Überlandbussen (Hochboden) mit Elektroantrieb.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE22A"
+  ],
+  "cpv": [
+   "34144910"
+  ],
+  "estimatedValue": {
+   "amount": 2500000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Überlandbusse (Hochboden)",
+    "description": "Die Fa. Mückenhausen Busunternehmen GmbH beabsichtigt die Beschaffung von fünf Überlandbussen (Hochboden) mit Elektroantrieb. Die vollständige Beschreibung sowie technische Spezifikationen und die Zuschlagskriterien sowie deren Berechnungsmatrix sind vollumfänglich und ausschließlich den frei abrufbaren Auftragsunterlagen zu entnehmen.",
+    "cpv": [
+     "34144910"
+    ],
+    "nuts": [
+     "DE22A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Die Zuschlagskriterien sind gewichtet. Der Preis entspricht 30%. Alle weiteren Unterkriterien und deren Berechnungsmatrix sind vollumfänglich und ausschließlich den frei abrufbaren Auftragsunterlagen / dem Lastenheft zu entnehmen.",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

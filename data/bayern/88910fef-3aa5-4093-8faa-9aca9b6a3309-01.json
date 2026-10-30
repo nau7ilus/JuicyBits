@@ -1,0 +1,206 @@
+{
+ "id": "88910fef-3aa5-4093-8faa-9aca9b6a3309-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "88910fef-3aa5-4093-8faa-9aca9b6a3309",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=88910fef-3aa5-4093-8faa-9aca9b6a3309",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:88910fef-3aa5-4093-8faa-9aca9b6a3309-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:88910fef-3aa5-4093-8faa-9aca9b6a3309-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/88910fef-3aa5-4093-8faa-9aca9b6a3309?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "34910 Metallbauarbeiten - Schlosser 1",
+  "buyer": "Landkreis Berchtesgadener Land",
+  "cpv": [
+   "45262670"
+  ],
+  "nuts": [
+   "DE215"
+  ],
+  "deadline": "2026-11-20T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-304b8778-040a-47d3-ada4-d27bfffafd0b",
+  "id": "88910fef-3aa5-4093-8faa-9aca9b6a3309",
+  "date": "2026-10-21T02:12:08Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Berchtesgadener Land",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9011727-63",
+     "legalName": "Landkreis Berchtesgadener Land"
+    },
+    "address": {
+     "streetAddress": "Salzburger Str. 64",
+     "locality": "Bad Reichenhall",
+     "region": "DE215",
+     "postalCode": "83435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[E-Mail entfernt]",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80543",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Berchtesgadener Land",
+   "id": "09-9011727-63",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Berchtesgadener Land"
+   },
+   "address": {
+    "streetAddress": "Salzburger Str. 64",
+    "locality": "Bad Reichenhall",
+    "region": "DE215",
+    "postalCode": "83435",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "304b8778-040a-47d3-ada4-d27bfffafd0b",
+   "title": "34910 Metallbauarbeiten - Schlosser 1",
+   "description": "34910 Metallbauarbeiten - Schlosser 1",
+   "procuringEntity": {
+    "name": "Landkreis Berchtesgadener Land",
+    "id": "09-9011727-63"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "deliveryAddress": {
+      "locality": "Freilassing",
+      "region": "DE215",
+      "postalCode": "83395",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304944",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "34910 Metallbauarbeiten - Schlosser 1",
+     "description": "34910 Metallbauarbeiten - Schlosser 1",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2027-10-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "88910fef-3aa5-4093-8faa-9aca9b6a3309",
+  "version": "01",
+  "title": "34910 Metallbauarbeiten - Schlosser 1",
+  "description": "34910 Metallbauarbeiten - Schlosser 1",
+  "procedureType": "open",
+  "nuts": [
+   "DE215"
+  ],
+  "cpv": [
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "34910 Metallbauarbeiten - Schlosser 1",
+    "description": "34910 Metallbauarbeiten - Schlosser 1",
+    "cpv": [
+     "45262670"
+    ],
+    "nuts": [
+     "DE215"
+    ],
+    "deadline": "2026-11-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2027-10-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Auflistung und kurze Beschreibung der Eignungskriterien - siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304944\n\n\nKriterium lautet Korrekt: Eignung zur Berufsausübung Die Eignung ist durch Vorlage der PQNr. oder vorläufig durch die ausgefüllte „Eigenerklärung zur Eignung“ gem. Formblatt 124 oder eine Einheitliche Europäische Eigenerklärung (EEE) mit dem Angebot nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, sind die im Formblatt 124 bzw. der EEE angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. \nDie Anforderungen an die Eignung des Bieters gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise den Nachweisen gem. FB 124 Eigenerklärung zur Eignung entsprechen. Eignungsnachweise können auch mit dem Angebot übermittelt werden.\nBeruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 bzw. der EEE auch für diese anderen Unternehmen auf Verlangen vorzulegen. Für Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen. Verpflichtung zur Angabe auf Aufforderung der Namen und beruflichen Qualifikationen der Personen, die für die Ausführung des Auftrags verantwortlich sind. Das Nichtvorliegen von Ausschlussgründen gem. §§ 123 und 124 GWB i. V. m. § 6e EU VOB/A ist mit einer Eigenerklärung nachzuweisen. Auf Verlangen sind die Nachweise zu den Eigenerklärungen gem. § 16a EU VOB/A binnen 6 Kalendertagen vorzulegen. Diese sind: Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen Referenzbescheinigung für 3 Referenzen Die Zahl der in den letzten 3 abgeschlossenen Geschäftsjahre jahresdurchschnittlich beschäftigten Arbeitskräfte gegliedert nach Lohngruppen mit extra ausgewiesenem Leitungspersonal. Eintragung in das Berufsregister Ihres Geschäftssitzes oder Ihres Wohnortes Angabe zu Insolvenzverfahren und Liquidation. \nVorname, Name und Geburtsdatum aller Geschäftsführer Gewerbeanmeldung, Handelsregisterauszug, Eintrag in der Handwerksrolle oder bei der Industrieund Handelskammer. Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse Freistellungsbescheinigung nach § 48b EStG Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des zuständigen Versicherungsträgers mit Angabe der Lohnsummen. Nachweis einer Berufsoder Betriebshaftpflichtversicherung in bestimmter geeigneter Höhe Von präqualifizierten Bietern sind die selben o. g. Eignungsnachweise innerhalb der o.g. Frist vorzulegen, sofern sie nicht im PQ-Verzeichnis hinterlegt sind. \nFür Bietergemeinschaften gilt § 13 EU Abs. 5 VOB/A: Bietergemeinschaften haben im Angebot jeweils die Mitglieder zu benennen, sowie ein Mitglied als bevollmächtigten Vertreter für den Abschluss und die Durchführung des Vertrages zu bezeichnen. Dieser ist der Ansprechpartner für das Vergabeverfahren bis zur Beendigung des Verfahrens = rechtswirksame Auftragsvergabe. Er ist Ansprechpartner für etwaige Nachprüfungsverfahren und Teilwiederholung von Verfahrensschritten. Davon unberührt ist die Befugnis zur Antragstellung auf ein Nachprüfungsverfahren bei der Vergabekammer. Die Forderung nach einer bestimmten Rechtsform gem. §6 EU Abs. 3 Nr. 2 VOB/A bleibt für den Auftragsfall vorbehalten. Die Erklärung ist von allen Mitgliedern der Gemeinschaft rechtsverbindlich zu\nunterschreiben. Es ist unzulässig als Mitglied einer Bietergemeinschaft und gleichzeitig als einzelner Bieter ein Angebot abzugeben. Bietergemeinschaften von Unternehmen, die in potentiellem Wettbewerb miteinander stehen, müssen auf Verlangen eine kartellrechtliche Unbedenklichkeitsbescheinigung abgeben. Die Zusammensetzung einer Bietergemeinschaft kann im Vergabeverfahren nicht geändert werden (gem. §§ 132 und 133 GWB). Hinweis:\nDie Bewerber müssen die Eintragung in einem Berufs- oder Handelsregister des Staates, in dem sie niedergelassen sind, nachweisen oder auf andere Weise dier erlaubte Berufsausübung nachweisen (§ 6a EU Nr. 1 VOB/A).\nAnwendung dieses Kriteriums: verwendet."
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Auflistung und kurze Beschreibung der Eignungskriterien - siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304944\n\nDas Kriterium lautet korrekt: Wirtschaftliche und finanzielle Leistungsfähigkeit PQ oder Eigenerklärung gemäß FB 124 Nachweis durch Eigenerklärung.\nDie Anforderungen an die Eignung des Bieters gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise den Nachweisen gem. FB 124 Eigenerklärung zur Eignung entsprechen. Eignungsnachweise können auch mit dem Angebot übermittelt werden.\nAuf Verlangen sind die Nachweise zu den Eigenerklärungen gem. § 16a EU VOB/A binnen 6 Kalendertagen vorzulegen. Diese sind: Referenzbescheinigung für 3 Referenzen Die Zahl der in den letzten 3 abgeschlossenen Geschäftsjahre jahresdurchschnittlich beschäftigten Arbeitskräfte gegliedert nach Lohngruppen mit extra ausgewiesenem Leitungspersonal. Eintragung in das Berufsregister Ihres Geschäftssitzes oder Ihres Wohnortes Angabe zu Insolvenzverfahren und Liquidation. \nVorname, Name und Geburtsdatum aller Geschäftsführer Gewerbeanmeldung, Handelsregisterauszug, Eintrag in der Handwerksrolle oder bei der Industrieund Handelskammer. Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse Freistellungsbescheinigung nach § 48b EStG Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des zuständigen Versicherungsträgers mit Angabe der Lohnsummen. Nachweise der entsprechenden Berufshaftpflichtversicherung, § 6a EU Nr. 2 lt. a)VOB/A. Auf Verlangen sind die Nachweise\nbinnen 6 Kalendertagen vorzulegen. \nVon präqualifizierten Bietern sind die selben o. g. Eignungsnachweise innerhalb der o.g. Frist vorzulegen, sofern sie nicht im PQ-Verzeichnis hinterlegt sind.\nAnwendung dieses Kriteriums: verwendet."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Auflistung und kurze Beschreibung der Eignungskriterien - siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304944\n\nKriterium lautet korrekt: Technische und berufliche Leistungsfähigkeit PQ oder Eigenerklärung\ngemäß FB 124 Nachweis durch Eigenerklärung.\nDie Anforderungen an die Eignung des Bieters gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise den Nachweisen gem. FB 124 Eigenerklärung zur Eignung entsprechen. Eignungsnachweise können auch mit dem Angebot übermittelt werden.\n Auf Verlangen sind die Nachweise zu den Eigenerklärungen gem. § 16a EU VOB/A binnen 6 Kalendertagen vorzulegen. Diese sind: Referenzbescheinigung für 3 Referenzen Die Zahl der in den letzten 3 abgeschlossenen Geschäftsjahre jahresdurchschnittlich beschäftigten Arbeitskräfte gegliedert nach Lohngruppen mit extra ausgewiesenem Leitungspersonal. Eintragung in das Berufsregister Ihres Geschäftssitzes oder Ihres Wohnortes Angabe zu Insolvenzverfahren und Liquidation. Vorname, Name und Geburtsdatum aller Geschäftsführer Gewerbeanmeldung, Handelsregisterauszug, Eintrag in der Handwerksrolle oder bei der Industrieund Handelskammer. Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse Freistellungsbescheinigung nach § 48b EStG Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des zuständigen Versicherungsträgers mit Angabe der Lohnsummen. Angabe, welche Teile des Antrags unter Umständen als Unteraufträge vergeben werden sollen, § 6a EU Nr. 3 lt. i) VOB/A. Zum Nachweis der Eignung mithilfe von Kapazitäten anderer Unternehmen (Eignungsleihe gem. § 6d EU Abs. 1 VOB/A sind verpflichtende Zusagen zur Ausführung der Leistung von den betreffenden Unternehmen nachzuweisen, daraus ergibt sich folglich die Verpflichtung jedes Unternehmens zur Erbringung der jeweiligen Leistung. Weiterhin behält sich der Auftraggeber vor, vorzugeben, dass bestimmte Aufgaben vom Bieter (bzw. einem Mitglied der Bietergemeinschaft) selbst ausgeführt werden müssen (§ 6d EU Abs. 4 VOB/A). Die Nachweisführung zur Eignung der Unternehmen, deren Kapazitäten in Anspruch genommen werden, erfolgt dabei auch entsprechend § 6b EU VOB /A.\nVon präqualifizierten Bietern sind die selben o. g. Eignungsnachweise innerhalb der o.g. Frist vorzulegen, sofern sie nicht im PQ-Verzeichnis hinterlegt sind. \n Anwendung dieses Kriteriums: verwendet."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 3 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme).\nEntgegen § 9c Sicherheitsleistungen wird Sicherheitsleistung für die Mängelansprüche verlangt, soweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt."
+    }
+   }
+  ]
+ }
+}

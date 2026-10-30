@@ -5,14 +5,14 @@
   "noticeId": "6f63c027-489e-4600-9c3c-b72b75b8ce69",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6f63c027-489e-4600-9c3c-b72b75b8ce69",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:6f63c027-489e-4600-9c3c-b72b75b8ce69-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:6f63c027-489e-4600-9c3c-b72b75b8ce69-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/6f63c027-489e-4600-9c3c-b72b75b8ce69?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Durchführung von Männerberatung im Landkreis München",
   "buyer": "Landratsamt München - Sachgebiet 1.3.1.2 Zentrale Vergabestelle und Einkauf",
   "cpv": [
@@ -211,5 +211,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "6f63c027-489e-4600-9c3c-b72b75b8ce69",
+  "version": "01",
+  "title": "Durchführung von Männerberatung im Landkreis München",
+  "description": "Die Männerberatung bietet Männern, die körperliche, psychische oder sexuelle Gewalt gegenüber ehemaligen oder aktuellen Beziehungspartnerinnen/ -partnern ausgeübt oder angedroht haben, eine fachlich fundierte Täterberatung an. Außerdem werden in familiengerichtlichen Verfahren nach häuslicher Gewalt im Rahmen des Sonderleitfadens (Münchner Modell) zunächst getrennt geschlechtsspezifische und im positiven Verlauf gemeinsame Elterngespräche in Kooperation mit der Interventionsstelle Landkreis München (ILM) durchgeführt, um einvernehmliche Umgangsregelungen nach Trennung oder Scheidung zu erarbeiten. Darüber hinaus übernimmt die Männerberatung im Bereich der Durchführung von begleiteten Umgängen im Kontext häuslicher Gewalt die Begleitung der Fachkräfte, die diesen Umgang durchführen, sowie den Aufbau und die Koordination eines Pools von Umgangsbegleiter*innen. Des Weiteren ist die Männerberatung für alle Männer eine Clearingstelle für Lebenskrisen und unterschiedliche Problemlagen. Die Beratungen mit den Männern erfolgen in zugewiesenen Räumen des Landratsamtes München auf dem Stadtgebiet München.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "85310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Durchführung von Männerberatung im Landkreis München",
+    "description": "Die Männerberatung bietet Männern, die körperliche, psychische oder sexuelle Gewalt gegenüber ehemaligen oder aktuellen Beziehungspartnerinnen/ -partnern ausgeübt oder angedroht haben, eine fachlich fundierte Täterberatung an. Außerdem werden in familiengerichtlichen Verfahren nach häuslicher Gewalt im Rahmen des Sonderleitfadens (Münchner Modell) zunächst getrennt geschlechtsspezifische und im positiven Verlauf gemeinsame Elterngespräche in Kooperation mit der Interventionsstelle Landkreis München (ILM) durchgeführt, um einvernehmliche Umgangsregelungen nach Trennung oder Scheidung zu erarbeiten. Darüber hinaus übernimmt die Männerberatung im Bereich der Durchführung von begleiteten Umgängen im Kontext häuslicher Gewalt in ausgewählten Einzelfällen die Umgangsbegleitung bzw. die Begleitung der Fachkräfte, die diesen Umgang durchführen. Des Weiteren ist die Männerberatung für alle Männer eine Clearingstelle für Lebenskrisen und unterschiedliche Problemlagen. Die Beratungen mit den Männern erfolgen in zugewiesenen Räumen des Landratsamtes München auf dem Stadtgebiet München.",
+    "cpv": [
+     "85310000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Konzept",
+      "description": "Konzept",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -1,0 +1,197 @@
+{
+ "id": "33a054d0-e79b-4819-b054-f3a0fa4a67c7-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "33a054d0-e79b-4819-b054-f3a0fa4a67c7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=33a054d0-e79b-4819-b054-f3a0fa4a67c7",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:33a054d0-e79b-4819-b054-f3a0fa4a67c7-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:33a054d0-e79b-4819-b054-f3a0fa4a67c7-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/33a054d0-e79b-4819-b054-f3a0fa4a67c7?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "AB31 Neubau Wohnheim Deutschordenstr.",
+  "buyer": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen",
+  "cpv": [
+   "45110000",
+   "45111000"
+  ],
+  "nuts": [
+   "DE277",
+   "DE25C"
+  ],
+  "deadline": "2026-11-19T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e897392a-dd9c-4a0f-83d4-f7ffef44295a",
+  "id": "33a054d0-e79b-4819-b054-f3a0fa4a67c7",
+  "date": "2026-10-22T02:08:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen"
+    },
+    "address": {
+     "streetAddress": "Erzbischof-Stimpfle-Str. 1",
+     "locality": "Dillingen",
+     "region": "DE277",
+     "postalCode": "89407",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken – Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken – Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen",
+   "id": "[Telefon entfernt]",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen"
+   },
+   "address": {
+    "streetAddress": "Erzbischof-Stimpfle-Str. 1",
+    "locality": "Dillingen",
+    "region": "DE277",
+    "postalCode": "89407",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e897392a-dd9c-4a0f-83d4-f7ffef44295a",
+   "title": "AB31 Neubau Wohnheim Deutschordenstr.",
+   "description": "ABSB1133_Absberg Neubau eines Wohnheimes für 24 Menschen mit Behinderung",
+   "procuringEntity": {
+    "name": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen",
+    "id": "[Telefon entfernt]"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45110000",
+      "description": "Building demolition and wrecking work and earthmoving work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Deutschordenstraße 12",
+      "locality": "Absberg",
+      "region": "DE25C",
+      "postalCode": "91720",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331083",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "AB31 Neubau Wohnheim Deutschordenstr.",
+     "description": "ABSB1133_Absberg Neubau eines Wohnheimes für 24 Menschen mit Behinderung",
+     "contractPeriod": {
+      "startDate": "2027-01-18T00:00:00+01:00",
+      "endDate": "2027-03-12T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "33a054d0-e79b-4819-b054-f3a0fa4a67c7",
+  "version": "01",
+  "title": "AB31 Neubau Wohnheim Deutschordenstr.",
+  "description": "ABSB1133_Absberg Neubau eines Wohnheimes für 24 Menschen mit Behinderung",
+  "procedureType": "open",
+  "nuts": [
+   "DE25C"
+  ],
+  "cpv": [
+   "45110000",
+   "45111000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "AB31 Neubau Wohnheim Deutschordenstr.",
+    "description": "ABSB1133_Absberg Neubau eines Wohnheimes für 24 Menschen mit Behinderung",
+    "cpv": [
+     "45110000"
+    ],
+    "nuts": [
+     "DE25C"
+    ],
+    "deadline": "2026-11-19T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-18+01:00",
+    "plannedEnd": "2027-03-12+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331083"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

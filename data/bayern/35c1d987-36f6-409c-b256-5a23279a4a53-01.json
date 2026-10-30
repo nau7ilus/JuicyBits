@@ -1,0 +1,300 @@
+{
+ "id": "35c1d987-36f6-409c-b256-5a23279a4a53-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "35c1d987-36f6-409c-b256-5a23279a4a53",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=35c1d987-36f6-409c-b256-5a23279a4a53",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:35c1d987-36f6-409c-b256-5a23279a4a53-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:35c1d987-36f6-409c-b256-5a23279a4a53-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/35c1d987-36f6-409c-b256-5a23279a4a53?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "KI Wohngeld",
+  "buyer": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement",
+  "cpv": [
+   "72268000",
+   "72261000",
+   "72260000",
+   "72200000",
+   "48000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1aa10659-d39b-444d-abaf-38144b6bf46c",
+  "id": "35c1d987-36f6-409c-b256-5a23279a4a53",
+  "date": "2026-10-22T02:08:53Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID: 09162 000-40",
+     "legalName": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement"
+    },
+    "address": {
+     "streetAddress": "Agnes-Pockels-Bogen 33",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80992",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "forml GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE370028099",
+     "legalName": "forml GmbH"
+    },
+    "address": {
+     "streetAddress": "Rosenbuschstraße 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement",
+   "id": "Leitweg-ID: 09162 000-40",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement"
+   },
+   "address": {
+    "streetAddress": "Agnes-Pockels-Bogen 33",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80992",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1aa10659-d39b-444d-abaf-38144b6bf46c",
+   "title": "KI Wohngeld",
+   "description": "Auftragsgegenstand ist die Beschaffung einer KI-Assistenzsystem-Software für eine teilautomatisierte Bearbeitung von Wohngeldanträgen. Leistungsgegenstände mithin sind die Lizenz für die KI-Assistenzsystem-Software \"wohni\" als SaaS (Cloud), Wartung und Support sowie weitere Dienstleistungen (weitere Unterstützungsleistungen) in Form von ca. 176 Personenstunden pro Jahr für die Integration & kontinuierliche Verbesserung der Software auf Abruf.",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, IT@M-BO4, Vergabemanagement",
+    "id": "Leitweg-ID: 09162 000-40"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72268000",
+      "description": "Software supply services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72261000",
+       "description": "Software support services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72260000",
+       "description": "Software-related services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72200000",
+       "description": "Software programming and consultancy services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "48000000",
+       "description": "Software package and information systems"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "Stadtgebiet München",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 2534000,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "The contract can be provided only by a particular economic operator because of exclusive rights, including intellectual property rights",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "forml GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "forml GmbH"
+     },
+     "address": {
+      "streetAddress": "Rosenbuschstraße 6",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80538",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "KI Wohngeld",
+     "description": "Auftragsgegenstand ist die Beschaffung einer KI-Assistenzsystem-Software für eine teilautomatisierte Bearbeitung von Wohngeldanträgen. Leistungsgegenstände mithin sind die Lizenz für die KI-Assistenzsystem-Software \"wohni\" als SaaS (Cloud), Wartung und Support sowie weitere Dienstleistungen (weitere Unterstützungsleistungen) in Form von ca. 176 Personenstunden pro Jahr für die Integration & kontinuierliche Verbesserung der Software auf Abruf.",
+     "value": {
+      "amount": 2534000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 3600
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-08T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 2534000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-07T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "617325-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "617325-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "35c1d987-36f6-409c-b256-5a23279a4a53",
+  "version": "01",
+  "title": "KI Wohngeld",
+  "description": "Auftragsgegenstand ist die Beschaffung einer KI-Assistenzsystem-Software für eine teilautomatisierte Bearbeitung von Wohngeldanträgen. Leistungsgegenstände mithin sind die Lizenz für die KI-Assistenzsystem-Software \"wohni\" als SaaS (Cloud), Wartung und Support sowie weitere Dienstleistungen (weitere Unterstützungsleistungen) in Form von ca. 176 Personenstunden pro Jahr für die Integration & kontinuierliche Verbesserung der Software auf Abruf.",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72268000",
+   "72261000",
+   "72260000",
+   "72200000",
+   "48000000"
+  ],
+  "estimatedValue": {
+   "amount": 2534000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "KI Wohngeld",
+    "description": "Auftragsgegenstand ist die Beschaffung einer KI-Assistenzsystem-Software für eine teilautomatisierte Bearbeitung von Wohngeldanträgen. Leistungsgegenstände mithin sind die Lizenz für die KI-Assistenzsystem-Software \"wohni\" als SaaS (Cloud), Wartung und Support sowie weitere Dienstleistungen (weitere Unterstützungsleistungen) in Form von ca. 176 Personenstunden pro Jahr für die Integration & kontinuierliche Verbesserung der Software auf Abruf.",
+    "cpv": [
+     "72268000",
+     "72261000",
+     "72260000",
+     "72200000",
+     "48000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 120,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 2534000,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

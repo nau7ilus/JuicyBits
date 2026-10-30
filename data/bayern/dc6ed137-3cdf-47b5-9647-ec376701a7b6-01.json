@@ -1,0 +1,223 @@
+{
+ "id": "dc6ed137-3cdf-47b5-9647-ec376701a7b6-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "dc6ed137-3cdf-47b5-9647-ec376701a7b6",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=dc6ed137-3cdf-47b5-9647-ec376701a7b6",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:dc6ed137-3cdf-47b5-9647-ec376701a7b6-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:dc6ed137-3cdf-47b5-9647-ec376701a7b6-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/dc6ed137-3cdf-47b5-9647-ec376701a7b6?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung von flüssigem Stickstoff (2025)",
+  "buyer": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+  "cpv": [
+   "24111800",
+   "24110000"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ce736731-731e-45fb-a903-52bd4b224a94",
+  "id": "dc6ed137-3cdf-47b5-9647-ec376701a7b6",
+  "date": "2026-10-25T13:58:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811209280",
+     "legalName": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften"
+    },
+    "address": {
+     "streetAddress": "Walther-Meissner-Str. 8",
+     "locality": "Garching",
+     "region": "DE21H",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabestelle Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern - Vergabestelle Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabestelle Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern - Vergabestelle Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+   "id": "DE811209280",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften"
+   },
+   "address": {
+    "streetAddress": "Walther-Meissner-Str. 8",
+    "locality": "Garching",
+    "region": "DE21H",
+    "postalCode": "85748",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ce736731-731e-45fb-a903-52bd4b224a94",
+   "title": "Lieferung von flüssigem Stickstoff (2025)",
+   "description": "Lieferung von flüssigem Stickstoff für den Zeitraum 1.1.2025 - 31.12.2025 Detailangaben sind im Leistungsverzeichnis festgehalten",
+   "procuringEntity": {
+    "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+    "id": "DE811209280"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "24111800",
+      "description": "Liquid nitrogen"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "24110000",
+       "description": "Industrial gases"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Walther-Meissner-Str. 8",
+      "locality": "Garching",
+      "region": "DE21H",
+      "postalCode": "85748",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung von flüssigem Stickstoff (2025)",
+     "description": "Lieferung von flüssigem Stickstoff für den Zeitraum 1.1.2025 - 31.12.2025 Detailangaben sind im Leistungsverzeichnis festgehalten",
+     "contractPeriod": {
+      "startDate": "2025-01-01T00:00:00+01:00",
+      "endDate": "2025-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "pending",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "dc6ed137-3cdf-47b5-9647-ec376701a7b6",
+  "version": "01",
+  "title": "Lieferung von flüssigem Stickstoff (2025)",
+  "description": "Lieferung von flüssigem Stickstoff für den Zeitraum 1.1.2025 - 31.12.2025 Detailangaben sind im Leistungsverzeichnis festgehalten",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "24111800",
+   "24110000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung von flüssigem Stickstoff (2025)",
+    "description": "Lieferung von flüssigem Stickstoff für den Zeitraum 1.1.2025 - 31.12.2025 Detailangaben sind im Leistungsverzeichnis festgehalten",
+    "cpv": [
+     "24111800",
+     "24110000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-01-01+01:00",
+    "plannedEnd": "2025-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 10
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

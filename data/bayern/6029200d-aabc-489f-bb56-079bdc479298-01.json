@@ -1,0 +1,343 @@
+{
+ "id": "6029200d-aabc-489f-bb56-079bdc479298-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "6029200d-aabc-489f-bb56-079bdc479298",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6029200d-aabc-489f-bb56-079bdc479298",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:6029200d-aabc-489f-bb56-079bdc479298-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:6029200d-aabc-489f-bb56-079bdc479298-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6029200d-aabc-489f-bb56-079bdc479298?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "RV Lieferung und Aufstellung von Sozialcontainern inkl. Tiefbau/Medien",
+  "buyer": "Die Autobahn GmbH des Bundes",
+  "cpv": [
+   "44211100",
+   "45231300",
+   "45262210",
+   "45233120"
+  ],
+  "nuts": [
+   "DE300",
+   "DE725",
+   "DEA36",
+   "DEA26",
+   "DEA1F",
+   "DEA12",
+   "DEC04",
+   "DEB3J",
+   "DE71A",
+   "DEB3C",
+   "DE227",
+   "DEB3E",
+   "DE122",
+   "DE11B",
+   "DE145",
+   "DE135",
+   "DE128",
+   "DE40H"
+  ],
+  "deadline": "2026-11-06T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0aa78926-47fe-43ce-bb83-dce38b67058e",
+  "id": "6029200d-aabc-489f-bb56-079bdc479298",
+  "date": "2026-10-23T02:09:03Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Die Autobahn GmbH des Bundes",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-ID DE329214156",
+     "legalName": "Die Autobahn GmbH des Bundes"
+    },
+    "address": {
+     "streetAddress": "Heidestraße 15",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt - Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "N.N.",
+     "legalName": "Bundeskartellamt - Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Die Autobahn GmbH des Bundes",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "USt.-ID DE329214156",
+     "legalName": "Die Autobahn GmbH des Bundes"
+    },
+    "address": {
+     "streetAddress": "Heidestraße 15",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Die Autobahn GmbH des Bundes",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "USt. ID DE329214156",
+     "legalName": "Die Autobahn GmbH des Bundes"
+    },
+    "address": {
+     "streetAddress": "Heidestraße 15",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Die Autobahn GmbH des Bundes",
+   "id": "USt-ID DE329214156",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Die Autobahn GmbH des Bundes"
+   },
+   "address": {
+    "streetAddress": "Heidestraße 15",
+    "locality": "Berlin",
+    "region": "DE300",
+    "postalCode": "10557",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0aa78926-47fe-43ce-bb83-dce38b67058e",
+   "title": "RV Lieferung und Aufstellung von Sozialcontainern inkl. Tiefbau/Medien",
+   "description": "Gegenstand  ist die Lieferung, Aufstellung und betriebsfertige Herstellung von Sozialcontainern einschließlich der gemäß Leistungsverzeichnis erforderlichen Bau-, Tiefbau-, Gründungs- und Medienarbeiten.",
+   "procuringEntity": {
+    "name": "Die Autobahn GmbH des Bundes",
+    "id": "USt-ID DE329214156"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "44211100",
+      "description": "Modular and portable buildings"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45231300",
+       "description": "Construction work for water and sewage pipelines"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45262210",
+       "description": "Foundation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45233120",
+       "description": "Road construction works"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Die Lieferung erfolgt untenstehenden Erfüllungsorte"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Heidestraße 15",
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "10557",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.autobahn.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19f5aed9158-51f9438a1175234e",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-23T02:09:03.783Z",
+     "rationale": "Angebotsfristverlängerung aufgrund von Bieterfragen",
+     "amendsReleaseID": "14e6ece2-1ba0-40de-9dc4-f36434a9aa76-01",
+     "releaseID": "6029200d-aabc-489f-bb56-079bdc479298-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "RV Lieferung und Aufstellung von Sozialcontainern inkl. Tiefbau/Medien",
+     "description": "RV Lieferung und Aufstellung von Sozialcontainern inkl. Tiefbau/Medien\n\nBeschaffung von maximal 60 Sozialcontainer",
+     "contractPeriod": {
+      "startDate": "2026-11-27T00:00:00+01:00",
+      "endDate": "2027-07-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6029200d-aabc-489f-bb56-079bdc479298",
+  "version": "01",
+  "title": "RV Lieferung und Aufstellung von Sozialcontainern inkl. Tiefbau/Medien",
+  "description": "Gegenstand  ist die Lieferung, Aufstellung und betriebsfertige Herstellung von Sozialcontainern einschließlich der gemäß Leistungsverzeichnis erforderlichen Bau-, Tiefbau-, Gründungs- und Medienarbeiten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE300",
+   "DE725",
+   "DEA36",
+   "DEA26",
+   "DEA1F",
+   "DEA12",
+   "DEC04",
+   "DEB3J",
+   "DE71A",
+   "DEB3C",
+   "DE227",
+   "DEB3E",
+   "DE122",
+   "DE11B",
+   "DE145",
+   "DE135",
+   "DE128",
+   "DE40H"
+  ],
+  "cpv": [
+   "44211100",
+   "45231300",
+   "45262210",
+   "45233120"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "RV Lieferung und Aufstellung von Sozialcontainern inkl. Tiefbau/Medien",
+    "description": "RV Lieferung und Aufstellung von Sozialcontainern inkl. Tiefbau/Medien\n\nBeschaffung von maximal 60 Sozialcontainer",
+    "cpv": [
+     "44211100",
+     "45231300",
+     "45262210",
+     "45233120"
+    ],
+    "nuts": [
+     "DE300",
+     "DE725",
+     "DEA36",
+     "DEA26",
+     "DEA1F",
+     "DEA12",
+     "DEC04",
+     "DEB3J",
+     "DE71A",
+     "DEB3C",
+     "DE227",
+     "DEB3E",
+     "DE122",
+     "DE11B",
+     "DE145",
+     "DE135",
+     "DE128",
+     "DE40H"
+    ],
+    "deadline": "2026-11-06T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-27+01:00",
+    "plannedEnd": "2027-07-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Mit dem Angebot einzureichen:\n\nListe der Referenzen des Bewerbers/Bieters der \nletzten 3 Jahre (ab 2023), die Erfahrungen \nbei vergleichbaren Projekten im Bereich: \n\nErrichtung von mobilen \nRaumsystemen \n\nbelegen.\n\nAuflistung folgender Daten im HVA Vordruck Eigenerklärung Eignung IV :\n\n- Bezeichnung der Leistung\n- des Auftragswertes\n- des Liefer- bzw.   Erbringungszeitpunktes \n- (des Auftraggebers)\n- Anzahl der Container\n\n\nEs sind mindestens 3 Referenzprojekte nachzuweisen, die die geforderten \nErfahrungen abdecken."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Mit dem Angebot einzureichen:\n\n- Angabe, welche Teile des Auftrags der Auftragnehmer als Unteraufträge zu vergeben beabsichtigt.\n\nAuf gesondertes Verlangen einzureichen:\n\n- Ergänzung des Verzeichnisses der Nachunternehmerleistungen um die Namen der Nachunternehmen inkl. entsprechender Eignungsnachweise"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Mit dem Angebot einzureichen:\n\nAngabe in \"Eigenerklärung zur Eignung\" Teil IV:\n\nNachweis einer Berufshaftpflichtversicherung\n\nAbgabe einer Eigenerklärung des Bewerbers/Bieters, dass eine entsprechende Versicherung vorhanden ist, bzw. im Auftragsfall abgeschlossen wird und diese während der gesamten Vertragslaufzeit aufrecht erhalten wird. HVA Vordruck Eigenerklärung Eignung III.\n\nVorlage der Versicherungsnachweise zum Vertragsbeginn.\n\nDie Betriebs-/Berufshaftpflichtversicherung hat mindestens die nachstehenden Schäden mit folgenden Mindestversicherungssummen abzudecken:\n\n- Für Personenschäden mindestens 3.000.000 EUR pauschal je Schadensfall einfach maximiert pro Jahr\n\n- Für Sach- und Vermögensschäden mindestens 10.000.000 EUR pauschal je Schadensfall einfach maximiert pro Jahr\n\n \n\nUnternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Mit dem Angebot einzureichen:\n\n2.2\n\nErklärung zu Russlandsanktionen \n\nEntsprechend der Verordnung (EU) 2022/576 dürfen öffentlichen Aufträge und Konzessionen nach dem 9. April 2022 nicht an Personen oder Unternehmen vergeben werden, die einen Bezug zu Russland im Sinne der Vorschrift aufweisen. Dies umfasst sowohl unmittelbar als Bewerber, Bieter oder Auftragnehmer auftretende Personen oder Unternehmen als auch mittelbar, mit mehr als zehn Prozent, gemessen am Auftragswert, beteiligte Unterauftragnehmer, Lieferanten oder Eignungsverleiher. \n(Formblatt: EU Eigenerklärung Art. 5k VO EU)\n\nAbgabe einer Eigenerklärung zu Russlandsanktionen."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Mit dem Angebot einzureichen:\n\nErklärung zu den Mindestumsätzen\n\nAbgabe einer Eigenerklärung des Bewerbers/Bieters im HVA Vordruck Eigenerklärung Eignung III.\n\nAngabe des Gesamtjahresumsatzes und des Jahresumsatzes in dem Tätigkeitsbereich des Auftrages der letzten drei abgeschlossenen Geschäftsjahre (2023, 2024, 2025) .\n\nDer Gesamtjahresumsatz muss im Mittel der drei abgeschlossenen Geschäftsjahre mindestens 6.000.000 EUR netto betragen.\nDer Jahresumsatz im Tätigkeitsbereich muss im Mittel der drei abgeschlossenen Geschäftsjahre mindestens 6.000.000 EUR \nnetto betragen."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Mit dem Angebot einzureichen:\n\nAngaben in \"Eigenerklärung zur Eignung\" Teil II:\nüber die Eintragung in ein Berufsregister\n\nAuf gesondertes Verlangen einzureichen:\n\nVorlage der Gewerbeanmeldung, der Eintragung in die Handwerksrolle oder der Eintragung bei der Industrie- und Handelskammer oder anderweitige sonstige Berufsregisternachweise.\n\nBenannte Nachweise und Erklärungen sind von einer Bietergemeinschaft insgesamt sowie auch von Nachunternehmern für wesentliche Leistungen beizubringen.\n\nPräqualifizierte Unternehmen\n\nUnternehmen, die in den Präqualifizierungsdatenbanken https://amtliches-verzeichnis.ihk.de oder www.pq-verein.de bzw. einer anderen für den öffentlichen Auftraggeber kostenfreien Datenbank innerhalb der EU registriert sind, können dies bei Abgabe eines Teilnahmeantrages bzw. eines Angebotes durch Angabe der Registrierungsnummer und / oder des Zugangscodes angeben. Sofern vom Auftraggeber Nachweise gefordert werden, die nicht in den Präqualifizierungsdatenbanken enthalten sind, sind diese ergänzend einzureichen."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Mit dem Angebot einzureichen:\n\nAngaben in \"Eigenerklärung zur Eignung\" Teil II:\nüber die Eintragung in ein Handelsregister\n\nBei Eintragung in das Handelsregister wird die Vergabestelle einen \nentsprechenden Auszug abrufen und einsehen.\n\nIst der Bieter nicht zur Eintragung in ein Berufs-/Handelsregister verpflichtet oder in ein ausländisches Register eingetragen, wird die Vergabestelle Sie nach Angebotsabgabe auffordern, auf andere Weise die erlaubte Berufsausübung nachzuweisen (z.B. Eintragung in ein Partnerschafts- oder Vereinsregister, Mitgliedschaft in einer  wirtschaftsständischen Vereinigung)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

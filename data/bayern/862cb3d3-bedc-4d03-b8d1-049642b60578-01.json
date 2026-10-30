@@ -225,6 +225,8 @@
   "noticeId": "862cb3d3-bedc-4d03-b8d1-049642b60578",
   "version": "01",
   "title": "Friedhöfe und Teilfriedhöfe Stadt IN",
+  "description": "Reinigung Friedhöfe und Teilfriedhöfe Stadt IN",
+  "procedureType": "open",
   "nuts": [
    "DE211"
   ],
@@ -237,6 +239,7 @@
    {
     "id": "LOT-0000",
     "title": "Friedhöfe und Teilfriedhöfe Stadt IN",
+    "description": "Reinigung Friedhöfe und Teilfriedhöfe Stadt IN",
     "cpv": [
      "90911200",
      "90911300"
@@ -248,9 +251,22 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Zuschlagskriterium ausschließlich Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

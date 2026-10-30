@@ -171,6 +171,8 @@
   "noticeId": "07266e34-7dc7-4e9f-8b24-f3b2ca3d2ba9",
   "version": "01",
   "title": "Laborinformationssystem (LIMS)",
+  "description": "Auftragsgegenstand ist die Beschaffung einer Fachanwendung Laborinformationsmanagementsystem (LIMS), sie unterstützt den Eigenbetrieb Münchner Stadtentwässerung (MSE) bei der digitalen Verwaltung von Laborprozessen, Proben und Analysedaten. Sie dient der sorgfältigen Dokumentation der erhobenen Werte sowie der Einhaltung der gesetzlichen Vorgaben bzw. der Qualitätsstandards. Durch diese Beschaffung wird eine bereits bestehende Softwarelösung ersetzt.",
+  "procedureType": "neg-w-call",
   "nuts": [
    "DE212"
   ],
@@ -188,6 +190,7 @@
    {
     "id": "LOT-0000",
     "title": "Laborinformationssystem (LIMS)",
+    "description": "Der Leistungsumfang des Fachverfahrens LIMS dient der effizienteren Gestaltung der Arbeitsabläufe in den unterschiedlichen Fachbereichen sowie der Erfüllung der gesetzlichen Pflichtaufgaben und umfasst folgende Aufgaben:\n\na) Überlassung von Standardsoftware gegen Einmalvergütung auf Dauer (Verkauf):\nDer Auftragnehmer (AN) überlässt dem Auftraggeber (AG) 20 Concurrent-User-Lizenzen einer webbasierten LIMS-Standardsoftware gegen Einmalvergütung auf Dauer (Verkauf).\nDiese müssen in der Infrastruktur des Auftraggebers betrieben werden können (On-Premises).\nOptional: Zusätzlich können bis zu 10 weitere Concurrent-User-Lizenzen gegen Einmalvergütung auf Dauer (Verkauf) bereitgestellt werden. Ein Anspruch auf Abnahme der zusätzlichen Lizenzen besteht nicht.\n\nb) Customizing, Installation, Produktivsetzung, Early Life Support:\nDie Leistungen zu Customizing, Installation, Produktivsetzung und Early Life-Support werden gemäß den Anforderungen des Auftraggebers, die in den Vergabeunterlagen festgelegt wurden, wie folgt durchgeführt:\n• Produktanpassungen\n• Bereitstellung und Entwicklung der SAP-Schnittstelle\n• Bereitstellung und Entwicklung der Messgeräte-Schnittstelle\n• Installation, Konfiguration und Integration\n\nDie Fachdaten aus dem bisherigen Fachverfahren werden in das neue Fachverfahren LIMS migriert.  \n\nd) Schulung:\nEs sind Schulungen für ungefähr vier fachliche und zwei technische Admins sowie für circa 50 Anwendende inklusive jeweils abgestimmter Schulungsunterlagen geplant.\n\ne) Dokumentation\nDie Dokumentationen umfassen ein Adminhandbuch und ein Handbuch für Anwendende in deutscher Sprache.\n\nf) Pflegeleistungen:\nDie Pflegeleistungen umfassen die Störungsbeseitigung und die Überlassung von verfügbaren Programmständen. Sie beginnt nach Abnahme des Gesamtsystems.\n\ng) Weitere Unterstützungsleistungen:\nDer Auftragnehmer verpflichtet sich die Fachanwendung LIMS zu optimieren, zur besseren Unterstützung der Geschäftsprozesse zu erweitern und an die sich ändernden Bedürfnisse des Auftraggebers anzupassen. Hierfür sind circa 120 Personenstunden pro Jahr für die gesamte Vertragslaufzeit vorgesehen. Die Beauftragung erfolgt durch den Auftraggeber. Bis zum Ablauf der Vertragslaufzeit kann der Abruf der Personenstunden sowohl über - als auch unterschritten werden. Der Abruf der Unterstützungsleistungen kann in einzelnen Jahren entfallen. Ein Anspruch auf Abnahme dieses Stundenkontingents besteht nicht.",
     "cpv": [
      "48000000",
      "72260000",
@@ -201,6 +204,10 @@
     "participationDeadline": "2026-12-01T12:00:00+01:00",
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
     "estimatedValue": {
      "amount": 981440,
      "currency": "EUR"
@@ -235,7 +242,22 @@
       "type": "slc-stand-to-gen",
       "description": "Die Beschreibung zu diesem Eignungskriterium sowie zu allen anderen Eignungskriterien und vorzulegenden Eignungsnachweisen sind vollständig in dem Dokument \"Fragebogen zur Eignungspruefung.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a15e5d4bf8-417bef55bb777073\nAlle geforderten Eigenerklärungen, Angaben, Bescheinigungen und sonstige Nachweise sind mit dem Teilnahmeantrag einzureichen. Dasselbe gilt für alle Unterlagen im Rahmen der Eignungsleihe."
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Der Preis ist nicht das einzige Zuschlagskriterium; alle Kriterien sind nur in den Vergabeunterlagen aufgeführt.",
+      "description": "-gemäß Vergabeunterlagen-",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "-gemäß Vergabeunterlagen-",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

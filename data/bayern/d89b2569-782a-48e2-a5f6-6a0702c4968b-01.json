@@ -5,14 +5,14 @@
   "noticeId": "d89b2569-782a-48e2-a5f6-6a0702c4968b",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d89b2569-782a-48e2-a5f6-6a0702c4968b",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:d89b2569-782a-48e2-a5f6-6a0702c4968b-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:d89b2569-782a-48e2-a5f6-6a0702c4968b-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/d89b2569-782a-48e2-a5f6-6a0702c4968b?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "SV-MSI-261026-002 - Sanierung Olympiastadion München (SOST), Wiedermontage Technik Flutlichtmasten",
   "buyer": "SWM Services GmbH",
   "cpv": [
@@ -26,7 +26,7 @@
   "nuts": [
    "DE212"
   ],
-  "deadline": null,
+  "deadline": "2026-12-01T14:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -168,5 +168,80 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d89b2569-782a-48e2-a5f6-6a0702c4968b",
+  "version": "01",
+  "title": "SV-MSI-261026-002 - Sanierung Olympiastadion München (SOST), Wiedermontage Technik Flutlichtmasten",
+  "description": "Sanierung Olympiastadion München (SOST), Wiedermontage Technik Flutlichtmasten",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45316100",
+   "45311000",
+   "45311200",
+   "45314320",
+   "45315600",
+   "45315700"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "SV-MSI-261026-002 - Sanierung Olympiastadion München (SOST), Wiedermontage Technik Flutlichtmasten",
+    "description": "Im Zuge der Sanierung des Olympiastadions München werden die Flutlichtanlage, die Tribünen-beleuchtung, die Beleuchtungssteuerung und die SAA im Außenbereich erneuert. Hierzu sind 432 instand gesetzte Flutlichtstrahler, neue Verteilerschränke mit Bestandskomponenten sowie SAA-Lautsprecher auf zwei Voll- und zwei Halbmasten zu montieren. Zwischen den Halbmasten, den acht Druckstützen und der Regiekanzel sind die erforderlichen Flutlicht-, Tribünenbeleuchtungs- und SAA-Kabel zu verlegen. Zusätzlich werden auf den Druckstützen eine teilweise als Sicherheitsbeleuchtung ausgeführte Tribünenbeleuchtung und auf der Regiekanzel 15 Flutlichtstrahler mit zwei Verteilerschränken installiert. Die DMX-Steuerung wird auf LWL umgestellt und für Flutlicht- und Tribünenbeleuchtung eingerichtet.\n\n- Montage Flutlichtstrahler auf Flutlichtmasten 432 Stück;\n- Montage Verteilerschränke auf Flutlichtmasten 84 Stück;\n- Montage von Steigleiter an Flutlichtmasten 444 m;\n- Kabel unter Tribünendach von Halbmasten zu den Druckstützen 1.620 m;\n- LED-Duo Strahler für Tribünenbeleuchtung 52 Stück;\n- Netzteile LED-Strahler 104 Stück;\n- DMX-Converter für LED-Duo Strahler 104 Stück;\n- Montage Flutlichtstrahler auf Regiekanzel 15 Stück;\n- Montage Flutlichtstrahler Forumsbeleuchtung auf Vollmasten 9 Stück;\n- Programmierung DMX-Steuerung Flutlichtanlage;\n- Programmierung der DMX-Steuerung Tribünenbeleuchtung;  \n- SAA-Kabel mit Funktionserhalt zu den Halbmasten 900 m;\n- SAA-Kabel mit Funktionserhalt zu den Druckstützen 2.340 m;",
+    "cpv": [
+     "45316100",
+     "45311000",
+     "45311200",
+     "45314320",
+     "45315600",
+     "45315700"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-12-01T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-26+01:00",
+    "plannedEnd": "2028-08-01+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis der Eintragung in einem Berufsregister mittels Kopie der Eintragung im Berufsregister (Handwerksrolle bzw. Industrie- und Handelskammer)."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Kriterium Umsatz bei vergleichbaren Leistungen: Erklärung über den Umsatz des Unternehmens bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen. Die aufgestellte Forderung stellt keine Mindestanforderung im Hinblick auf die Dauer der Geschäftstätigkeit dar;"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Kriterium Personelle Ausstattung: Erklärung über die Zahl der in den letzten 3 abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte des Unternehmens, gegliedert nach Lohngruppen bzw. Qualifikationen mit gesondert ausgewiesenem technischem Leitungspersonal. Die aufgestellte Forderung stellt keine Mindestanforderung im Hinblick auf die Dauer der Geschäftstätigkeit dar;"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "(1) Kriterium Referenzen: Angabe von Referenzen über vergleichbare Leistungen die in den letzten bis zu 5 \nabgeschlossenen Kalenderjahren oder im aktuellen Jahr vor dem Schlusstermin zur Einreichung der Teilnahmeanträge/Angebote ausgeführt und fertiggestellt (= abgenommen) wurden. Hinsichtlich der \nVergleichbarkeit wird auf die Kurzbeschreibung des Auftrags sowie die Vergabeunterlagen \nverwiesen. Die Referenzangaben beziehen sich auf folgende Aspekte:\n\nArt und Umfang der erbrachten Leistungen mit Angaben zur Auftragssumme und zum Ausführungszeitraum;\n\n(2) Kriterium auftragsspezifische Einzelnachweise: Vorlage nachfolgender auftragsspezifischer Angaben,\nErklärungen oder Nachweise (in Kopie)\nMit der Angebotsabgabe muss der Bieter eine Bestätigung einreichen, dass die folgenden Nachweise im Auftragsfall vor Ausführungsbeginn vorgelegt werden können: \n   Bei den Arbeiten muss mindestens 1 Person als erfahrener Industriekletterer und aufsichtsführender Höhenarbeiter Level 3 anwesend sein. Folgende Nachweise sind für diese Person erforderlich:\n     - Zertifikat Höhenarbeiter Level 3 (FiSAT oder IRATA) \n     - Erste-Hilfe-Nachweis\n     - Gültige arbeitsmedizinische Eignung\n     - Rettungskonzept bzw. Benennung des verantwortlichen Level-3-Supervisors\n   Alle weiteren Personen, die für den AN Höhenarbeiten ausführen, müssen Qualifikations- bzw. Schulungsnachweise der Beschäftigten für PSAgA gemäß DGUV Regel 112-198/199 vorweisen können."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Gewichtung 100%",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
 }

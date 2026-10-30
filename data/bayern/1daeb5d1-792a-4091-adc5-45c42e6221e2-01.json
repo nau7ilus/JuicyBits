@@ -1,0 +1,229 @@
+{
+ "id": "1daeb5d1-792a-4091-adc5-45c42e6221e2-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "1daeb5d1-792a-4091-adc5-45c42e6221e2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1daeb5d1-792a-4091-adc5-45c42e6221e2",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:1daeb5d1-792a-4091-adc5-45c42e6221e2-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:1daeb5d1-792a-4091-adc5-45c42e6221e2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1daeb5d1-792a-4091-adc5-45c42e6221e2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lernplattform ILIAS - PR1272158-9753-I",
+  "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
+  "cpv": [
+   "72415000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-830ce0ee-a001-4bcd-bee2-21afc1636b32",
+  "id": "1daeb5d1-792a-4091-adc5-45c42e6221e2",
+  "date": "2026-10-25T11:56:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 28",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE-129515865",
+     "legalName": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 28",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "830ce0ee-a001-4bcd-bee2-21afc1636b32",
+   "title": "Lernplattform ILIAS - PR1272158-9753-I",
+   "description": "Lernplattform ILIAS",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72415000",
+      "description": "World wide web (www) site operation host services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80686",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a167853c84-632057230c1b2d09",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lernplattform ILIAS - PR1272158-9753-I",
+     "description": "1 x Lernplattform ILIAS für den Transferpfad Weiterbildung: Konzeptionelle und technische Weiterentwicklung, Hosting und Support",
+     "contractPeriod": {
+      "startDate": "2026-12-15T00:00:00+01:00",
+      "endDate": "2028-12-14T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "1daeb5d1-792a-4091-adc5-45c42e6221e2",
+  "version": "01",
+  "title": "Lernplattform ILIAS - PR1272158-9753-I",
+  "description": "Lernplattform ILIAS",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72415000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lernplattform ILIAS - PR1272158-9753-I",
+    "description": "1 x Lernplattform ILIAS für den Transferpfad Weiterbildung: Konzeptionelle und technische Weiterentwicklung, Hosting und Support",
+    "cpv": [
+     "72415000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-15+01:00",
+    "plannedEnd": "2028-12-14+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz der letzten 3 Geschäftsjahre\n-\nDieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a167853c84-632057230c1b2d09"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualität des ILIAS-Skins",
+      "description": "Einzureichen sind Screenshots eines bereits realisierten ILIAS-Skins (Version 10) oder alternativ entsprechende Mock-ups der Startseite und des Dashboards aus Nutzersicht sowie eine kurze Erläuterung des Gestaltungskonzepts. Die Bewertung erfolgt anhand der folgenden Kriterien:\n- Einfache und übersichtliche Nutzerführung / Navigation\n- Modernes, reduziertes Design\n- Passend für vielfältige Lerninhalte, die innovativ, anwendungsorientiert und technolo-gieorientiert sind\n- Lernende sind Berufstätige aus Europa\nDie Bewertung erfolgt ausschließlich auf Grundlage der eingereichten Unterlagen.\nDie Detailbeschreibung entnehmen Sie bitte der/den beigefügten Anlage/Anlagen",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": "Qualität des Übergangs- und Betriebskonzepts für die bestehende Lernplattform",
+      "description": "Kurzkonzept (max. 5 Seiten) mit folgenden Inhalten:\n- Nachvollziehbarkeit des Vorgehens zur Übernahme des Betriebs\n- Sicherstellung eines unterbrechungsarmen Übergangs\n- Qualitätssicherung und Testkonzept\n- Vorgehen zur Übernahme, Anpassung oder funktionalen Nachbildung bestehender individueller Erweiterungen (Plugins)\n- Risikobetrachtung und Maßnahmen zur Minimierung von Betriebsunterbrechungen\n- Kommunikations- und Abstimmungskonzept mit dem Fraunhofer-Kernteam\nDie Bewertung erfolgt ausschließlich auf Grundlage der eingereichten Unterlagen.\nDie Detailbeschreibung entnehmen Sie bitte der/den beigefügten Anlage/Anlagen",
+      "weight": 15
+     },
+     {
+      "type": "quality",
+      "name": "Qualität der Referenzen und Erfahrungen im Einsatz KI-gestützter Lernservices",
+      "description": "Nachzuweisen anhand von maximal drei Referenzprojekten. Sofern keine Referenzprojekte vorliegen, können vergleichbare Projekterfahrungen oder Pilotprojekte dargestellt werden.\nBewertet werden die Qualität, Relevanz und Übertragbarkeit der dargestellten Referenzprojekte auf den ausgeschriebenen Leistungsgegenstand.\n\nBewertet werden insbesondere Erfahrungen bei:\n- Integration von KI-Anwendungen in Lernplattformen \n- Integration von Chatbots \n- LLM-Anbindungen \n- RAG-Systemen \n- KI-gestützter Suche \n- Learning Assistants \n- KI-Plugins für ILIAS oder Moodle \n- Schnittstellen zu Azure OpenAI, OpenAI oder vergleichbaren Diensten\n\nZusätzlich ist die Rolle des Bieters innerhalb der Referenzprojekte sowie der jeweilige Leistungsumfang kurz zu erläutern.\nDie Bewertung erfolgt ausschließlich auf Grundlage der eingereichten Unterlagen.\nDie Detailbeschreibung entnehmen Sie bitte der/den beigefügten Anlage/Anlagen",
+      "weight": 20
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Bewertet wird der Gesamtpreis",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

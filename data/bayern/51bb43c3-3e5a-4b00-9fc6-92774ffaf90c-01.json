@@ -1,0 +1,345 @@
+{
+ "id": "51bb43c3-3e5a-4b00-9fc6-92774ffaf90c-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "51bb43c3-3e5a-4b00-9fc6-92774ffaf90c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=51bb43c3-3e5a-4b00-9fc6-92774ffaf90c",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:51bb43c3-3e5a-4b00-9fc6-92774ffaf90c-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:51bb43c3-3e5a-4b00-9fc6-92774ffaf90c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/51bb43c3-3e5a-4b00-9fc6-92774ffaf90c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "RV Möblierung",
+  "buyer": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt",
+  "cpv": [
+   "39000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-19T11:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8f4e18f4-4d75-418f-9ec7-f4d681b8454d",
+  "id": "51bb43c3-3e5a-4b00-9fc6-92774ffaf90c",
+  "date": "2026-10-20T10:02:08Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0627e889-0363-4d87-b619-07462eeca4a9",
+     "legalName": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt"
+    },
+    "address": {
+     "streetAddress": "Max-Planck-Straße 1",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81675",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerischer Landtag Landtagsamt - A III 3",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "91adee3c-dac7-408f-a49c-b9502786e053",
+     "legalName": "Bayerischer Landtag Landtagsamt - A III 3"
+    },
+    "address": {
+     "streetAddress": "Max-Planck-Str. 1",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81675",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt",
+   "id": "0627e889-0363-4d87-b619-07462eeca4a9",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt"
+   },
+   "address": {
+    "streetAddress": "Max-Planck-Straße 1",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81675",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8f4e18f4-4d75-418f-9ec7-f4d681b8454d",
+   "title": "RV Möblierung",
+   "description": "Rahmenvereinbarung für die Erstmöblierung eines neuen Bürogebäudes.\nDer erarbeitete Stellplan sowie das Leistungsverzeichnis bilden die Grundlage für die geplante Möblierung. Im Leistungsverzeichnis wird für jede Position ein Beispielfabrikat vorgeschlagen, \ndas sämtliche Anforderungen wie z.B. Qualität und Kombinierbarkeit mit den \nBestandsmöbeln erfüllt. Die Bieter können aber auch eine andere Möbellinie anbieten, die jedoch jeweils die (nicht produktspezifisch) formulierten Mindestkriterien erfüllen muss. ",
+   "procuringEntity": {
+    "name": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt",
+    "id": "0627e889-0363-4d87-b619-07462eeca4a9"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39000000",
+      "description": "Furniture (incl. office furniture), furnishings, domestic appliances (excl. lighting) and cleaning products"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80538",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39000000",
+      "description": "Furniture (incl. office furniture), furnishings, domestic appliances (excl. lighting) and cleaning products"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80538",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39000000",
+      "description": "Furniture (incl. office furniture), furnishings, domestic appliances (excl. lighting) and cleaning products"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80538",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8969e11b-d5bf-4270-81a6-e8c7cd969d17",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8969e11b-d5bf-4270-81a6-e8c7cd969d17",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8969e11b-d5bf-4270-81a6-e8c7cd969d17",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Möbel",
+     "description": "Los 1 beinhaltet die Lieferung und Montage der Möbel zum Erstbezug frei Verwendungsstelle, sowie Nachlieferungen bei Bedarf (bis 25 % des Mindestauftragsvolumens) innerhalb der Vertragslaufzeit (4 Jahre).",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Akustik-Telefonbox",
+     "description": "1-Personen-Akustik-Telefonbox (geschlossene Einzelkabine)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Schrankbett",
+     "description": "Horizontal öffnendes Wandklappbett zur platzsparenden Möblierung",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "51bb43c3-3e5a-4b00-9fc6-92774ffaf90c",
+  "version": "01",
+  "title": "RV Möblierung",
+  "description": "Rahmenvereinbarung für die Erstmöblierung eines neuen Bürogebäudes.\nDer erarbeitete Stellplan sowie das Leistungsverzeichnis bilden die Grundlage für die geplante Möblierung. Im Leistungsverzeichnis wird für jede Position ein Beispielfabrikat vorgeschlagen, \ndas sämtliche Anforderungen wie z.B. Qualität und Kombinierbarkeit mit den \nBestandsmöbeln erfüllt. Die Bieter können aber auch eine andere Möbellinie anbieten, die jedoch jeweils die (nicht produktspezifisch) formulierten Mindestkriterien erfüllen muss.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "39000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Möbel",
+    "description": "Los 1 beinhaltet die Lieferung und Montage der Möbel zum Erstbezug frei Verwendungsstelle, sowie Nachlieferungen bei Bedarf (bis 25 % des Mindestauftragsvolumens) innerhalb der Vertragslaufzeit (4 Jahre).",
+    "cpv": [
+     "39000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-19T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/8969e11b-d5bf-4270-81a6-e8c7cd969d17/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Akustik-Telefonbox",
+    "description": "1-Personen-Akustik-Telefonbox (geschlossene Einzelkabine)",
+    "cpv": [
+     "39000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-19T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/8969e11b-d5bf-4270-81a6-e8c7cd969d17/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Schrankbett",
+    "description": "Horizontal öffnendes Wandklappbett zur platzsparenden Möblierung",
+    "cpv": [
+     "39000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-19T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/8969e11b-d5bf-4270-81a6-e8c7cd969d17/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

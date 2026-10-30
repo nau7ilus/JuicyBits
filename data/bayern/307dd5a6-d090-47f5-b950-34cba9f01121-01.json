@@ -1,0 +1,219 @@
+{
+ "id": "307dd5a6-d090-47f5-b950-34cba9f01121-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "307dd5a6-d090-47f5-b950-34cba9f01121",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=307dd5a6-d090-47f5-b950-34cba9f01121",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:307dd5a6-d090-47f5-b950-34cba9f01121-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:307dd5a6-d090-47f5-b950-34cba9f01121-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/307dd5a6-d090-47f5-b950-34cba9f01121?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 310 Metallbau,Schlosser",
+  "buyer": "Gemeinde Eching",
+  "cpv": [
+   "45262400",
+   "45262670",
+   "45400000"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": "2026-11-26T09:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-307dd5a6-d090-47f5-b950-34cba9f01121",
+  "id": "307dd5a6-d090-47f5-b950-34cba9f01121",
+  "date": "2026-10-16T02:11:28Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Eching",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "14372",
+     "legalName": "Gemeinde Eching"
+    },
+    "address": {
+     "streetAddress": "Bürgerplatz 1",
+     "locality": "Eching",
+     "region": "DE21B",
+     "postalCode": "85386",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "4899998a-e9c8-412d-a373-ef35a7c29aa7",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Eching",
+   "id": "14372",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Eching"
+   },
+   "address": {
+    "streetAddress": "Bürgerplatz 1",
+    "locality": "Eching",
+    "region": "DE21B",
+    "postalCode": "85386",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "307dd5a6-d090-47f5-b950-34cba9f01121",
+   "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 310 Metallbau,Schlosser",
+   "description": "Neubau einer Kindertagesstätte mit Wohnungen und Tiefgarage in Eching-West",
+   "procuringEntity": {
+    "name": "Gemeinde Eching",
+    "id": "14372"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262400",
+      "description": "Structural steel erection work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45400000",
+       "description": "Building completion work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE21B",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/307dd5a6-d090-47f5-b950-34cba9f01121",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 310 Metallbau,Schlosser",
+     "description": "Treppen mit Stahlwange ca. 60 lfm\nAußentreppe Stahl ca. 3,00 to\nGeländer mit Edelstahlnetzfüllung ca. 550 m2\nHandläufe Stahl ca. 110 lfm\nHandläufe Holz ca. 35 lfm\nSonnenschutz Schiebelemente ca. 150 m2\nGitterroste ca. 35 m2\nGitterroststufen ca. 40 Stück",
+     "contractPeriod": {
+      "durationInDays": 420
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "307dd5a6-d090-47f5-b950-34cba9f01121",
+  "version": "01",
+  "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 310 Metallbau,Schlosser",
+  "description": "Neubau einer Kindertagesstätte mit Wohnungen und Tiefgarage in Eching-West",
+  "procedureType": "open",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "45400000",
+   "45262400",
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 310 Metallbau,Schlosser",
+    "description": "Treppen mit Stahlwange ca. 60 lfm\nAußentreppe Stahl ca. 3,00 to\nGeländer mit Edelstahlnetzfüllung ca. 550 m2\nHandläufe Stahl ca. 110 lfm\nHandläufe Holz ca. 35 lfm\nSonnenschutz Schiebelemente ca. 150 m2\nGitterroste ca. 35 m2\nGitterroststufen ca. 40 Stück",
+    "cpv": [
+     "45262400",
+     "45262670",
+     "45400000"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": "2026-11-26T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 14,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Präqualifizierte Unternehmen müssen ihre Eignung mit Angabe der Präqualifikationsnummer (PQ-Nummer) mit Angebotsabgabe nachweisen. Nicht präqualifizierte Unternehmen müssen Ihre Eignung durch Abgabe einer ausgefüllten & unterzeichneten \"Eigenerklärung zur Eignung\" (Formblatt 124) oder einer \"Einheitlichen Europäischen Eigenerklärung\" (EEE) schriftlich bestätigen. Formblatt 127 Erfordernis mit Erklärung zu Russlandbezug ist mit dem Angebot einzureichen. Auf Verlangen der Vergabestelle sind ergänzende Nachweise und Erklärungen zur Eignung bzw. zum Formblatt 124 entsprechend der aktuell gültigen Fassung der VOB /A vorzulegen: Referenzliste, Zahl der letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer oder sonstige Berufsnachweise, Unbedenklichkeitsbescheinigung der Berufsgenossenschaft.\n(Z.B. Formblatt 124 Eigenerklärung oder EEE Einheitliche Europäische Eignungserklärung oder PQNummer,\nErfordernis der Erklärung zu Russlandbezug, ggf. Referenznachweise sofort oder auf\nVerlangen der Vergabestelle etc.)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Dieser Nachweis ist auf Verlangen der Vergabestelle vorzulegen: Der Auftragnehmer hat für die Dauer des Bauvorhabens eine Haftpflichtversicherung bei einem in der EU zugelassenen Versicherer zu unterhalten mit folgenden Mindestversicherungssummen (Mindestdeckungshöhen): 3.000.000 Euro für Personenschäden je Versicherungsfall, jährlich 2-fach maximiert. 1.500.000 Euro Mio. Euro für sonstige Schäden, je Versicherungsfall jährlich 2-fach maximiert.\n(Z.B. Nachweise und Anforderungen zu Versicherung und geforderte Deckungssummen,\nUmsatznachweise, Firmengröße und Mitarbeiteranzahl, Bonitätsnachweise etc.)"
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Beabsichtigt der Auftragnehmer die Unterauftragsvergabe muss er diese Teile seines Auftrages mit Angebotsabgabe benennen. Die Vergabestelle kann im weiteren Verfahren ergänzende Nachweise gem. §47 VgV zur Eignung des Nachunternehmers fordern.\n(Z.B. Nachweise Berufsbezeichnung, Technische Ausstattung, Angaben zur Auslastung etc.)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "id": "738a2e46-a69e-4e8f-8aa7-d7c00664ae1f-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "738a2e46-a69e-4e8f-8aa7-d7c00664ae1f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=738a2e46-a69e-4e8f-8aa7-d7c00664ae1f",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:738a2e46-a69e-4e8f-8aa7-d7c00664ae1f-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:738a2e46-a69e-4e8f-8aa7-d7c00664ae1f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/738a2e46-a69e-4e8f-8aa7-d7c00664ae1f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Löschgruppenfahrzeug LF 10 und Gerätewagen Logistik GW-L2",
+  "buyer": "Gemeinde Heßdorf",
+  "cpv": [
+   "34144210",
+   "34144213"
+  ],
+  "nuts": [
+   "DE246",
+   "DE257"
+  ],
+  "deadline": "2026-11-24T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-738a2e46-a69e-4e8f-8aa7-d7c00664ae1f",
+  "id": "738a2e46-a69e-4e8f-8aa7-d7c00664ae1f",
+  "date": "2026-10-23T02:08:53Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Heßdorf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9759",
+     "legalName": "Gemeinde Heßdorf"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Speichersdorf",
+     "region": "DE246",
+     "postalCode": "95469",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "00f33c6f-7673-4b83-8c46-d7a2d538840b",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Heßdorf",
+   "id": "9759",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Heßdorf"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Speichersdorf",
+    "region": "DE246",
+    "postalCode": "95469",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "738a2e46-a69e-4e8f-8aa7-d7c00664ae1f",
+   "title": "Löschgruppenfahrzeug LF 10 und Gerätewagen Logistik GW-L2",
+   "description": "Lieferung eines Löschgruppenfahrzeuges LF 10 nach DIN 14530-5 sowie eines Gerätewagens Logistik GW-L2 nach DIN 14555-22",
+   "procuringEntity": {
+    "name": "Gemeinde Heßdorf",
+    "id": "9759"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "region": "DE257",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/738a2e46-a69e-4e8f-8aa7-d7c00664ae1f",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Löschgruppenfahrzeug LF 10 und Gerätewagen Logistik GW-L2",
+     "description": "Lieferung eines Löschgruppenfahrzeuges LF 10 nach DIN 14530-5 und eines Gerätewagens Logistik GW-L2 nach DIN 14555-22 bestehend je aus einem Allrad-Fahrgestell und einem feuerwehrtechnischen Aufbau.",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-08-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "738a2e46-a69e-4e8f-8aa7-d7c00664ae1f",
+  "version": "01",
+  "title": "Löschgruppenfahrzeug LF 10 und Gerätewagen Logistik GW-L2",
+  "description": "Lieferung eines Löschgruppenfahrzeuges LF 10 nach DIN 14530-5 sowie eines Gerätewagens Logistik GW-L2 nach DIN 14555-22",
+  "procedureType": "open",
+  "nuts": [
+   "DE257"
+  ],
+  "cpv": [
+   "34144213",
+   "34144210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Löschgruppenfahrzeug LF 10 und Gerätewagen Logistik GW-L2",
+    "description": "Lieferung eines Löschgruppenfahrzeuges LF 10 nach DIN 14530-5 und eines Gerätewagens Logistik GW-L2 nach DIN 14555-22 bestehend je aus einem Allrad-Fahrgestell und einem feuerwehrtechnischen Aufbau.",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE257"
+    ],
+    "deadline": "2026-11-24T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-08-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Auf Verlangen der Vergabestelle eine Zertifizierung nach ISO 9001."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Auf Verlangen der Vergabestelle eine Referenzliste der in den Jahren 2024 bis 2026 ausgelieferte Löschgruppenfahrzeuge LF 10 und Gerätewagen Logistik GW-L2"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Auf Verlangen der Vergabestelle: Bankauskünfte, Geschäftsbilanzen, Umsatzzahlen, sonstige Unternehmenskennzahlen."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

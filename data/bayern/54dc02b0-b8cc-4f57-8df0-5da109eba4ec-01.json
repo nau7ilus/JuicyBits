@@ -1,0 +1,370 @@
+{
+ "id": "54dc02b0-b8cc-4f57-8df0-5da109eba4ec-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "54dc02b0-b8cc-4f57-8df0-5da109eba4ec",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=54dc02b0-b8cc-4f57-8df0-5da109eba4ec",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:54dc02b0-b8cc-4f57-8df0-5da109eba4ec-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:54dc02b0-b8cc-4f57-8df0-5da109eba4ec-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/54dc02b0-b8cc-4f57-8df0-5da109eba4ec?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lieferung eines Tanklöschfahrzeuges TLF 4000 mit Beladung für die Gemeinde Vogtareuth, Lkr. Rosenheim",
+  "buyer": "Gemeinde Vogtareuth",
+  "cpv": [
+   "34144212",
+   "35110000"
+  ],
+  "nuts": [
+   "DE21K"
+  ],
+  "deadline": "2026-12-10T10:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-62950c24-239d-4783-9134-f315d2fc2eeb",
+  "id": "54dc02b0-b8cc-4f57-8df0-5da109eba4ec",
+  "date": "2026-10-25T07:34:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Vogtareuth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0803890630_Vogtareuth_83569",
+     "legalName": "Gemeinde Vogtareuth"
+    },
+    "address": {
+     "streetAddress": "Rosenheimer Straße 5",
+     "locality": "Vogtareuth",
+     "region": "DE21K",
+     "postalCode": "83569",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "VergSuedbayern80538",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern - Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Vogtareuth",
+   "id": "0803890630_Vogtareuth_83569",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Vogtareuth"
+   },
+   "address": {
+    "streetAddress": "Rosenheimer Straße 5",
+    "locality": "Vogtareuth",
+    "region": "DE21K",
+    "postalCode": "83569",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "62950c24-239d-4783-9134-f315d2fc2eeb",
+   "title": "Lieferung eines Tanklöschfahrzeuges TLF 4000 mit Beladung für die Gemeinde Vogtareuth, Lkr. Rosenheim",
+   "description": "Lieferung eines Tanklöschfahrzeuges TLF 4000 mit Beladung in drei Losen, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-21, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis. ",
+   "procuringEntity": {
+    "name": "Gemeinde Vogtareuth",
+    "id": "0803890630_Vogtareuth_83569"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144212",
+      "description": "Water-tender vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gemeinde Vogtareuth",
+      "locality": "Vogtareuth",
+      "region": "DE21K",
+      "postalCode": "83569",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144212",
+      "description": "Water-tender vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gemeinde Vogtareuth",
+      "locality": "Vogtareuth",
+      "region": "DE21K",
+      "postalCode": "83569",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35110000",
+      "description": "Firefighting, rescue and safety equipment"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gemeinde Vogtareuth",
+      "locality": "Vogtareuth",
+      "region": "DE21K",
+      "postalCode": "83569",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "value": {
+    "amount": 571000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28e466-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28e466-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28e466-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-25T07:34:04.612Z",
+     "rationale": "Berichtigung der Email-Adresse",
+     "description": "Statt [E-Mail entfernt] muss es lauten [E-Mail entfernt]",
+     "amendsReleaseID": "fa55d835-9c1e-455a-9d5c-f0a6f67e5f84-01",
+     "releaseID": "54dc02b0-b8cc-4f57-8df0-5da109eba4ec-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung eines Fahrgestells für ein Tanklöschfahrzeug TLF 4000",
+     "description": "Lieferung eines Fahrgestells für ein Tanklöschfahrzeug TLF 4000, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-21, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis. ",
+     "value": {
+      "amount": 143000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-12-11T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Lieferung eines Aufbaus für ein Tanklöschfahrzeug TLF 4000",
+     "description": "Lieferung eines Aufbaus eines Tanklöschfahrzeuges TLF 4000, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-21, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis. ",
+     "value": {
+      "amount": 378000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-12-11T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Lieferung der Beladung für ein Tanklöschfahrzeug TLF 4000",
+     "description": "Lieferung eder Beladung für ein Tanklöschfahrzeuges TLF 4000 gem. DIN 14530-21, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis. ",
+     "value": {
+      "amount": 50000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-12-11T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "54dc02b0-b8cc-4f57-8df0-5da109eba4ec",
+  "version": "01",
+  "title": "Lieferung eines Tanklöschfahrzeuges TLF 4000 mit Beladung für die Gemeinde Vogtareuth, Lkr. Rosenheim",
+  "description": "Lieferung eines Tanklöschfahrzeuges TLF 4000 mit Beladung in drei Losen, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-21, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21K"
+  ],
+  "cpv": [
+   "34144212",
+   "35110000"
+  ],
+  "estimatedValue": {
+   "amount": 571000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung eines Fahrgestells für ein Tanklöschfahrzeug TLF 4000",
+    "description": "Lieferung eines Fahrgestells für ein Tanklöschfahrzeug TLF 4000, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-21, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144212"
+    ],
+    "nuts": [
+     "DE21K"
+    ],
+    "deadline": "2026-12-10T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-11+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 143000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Lieferung eines Aufbaus für ein Tanklöschfahrzeug TLF 4000",
+    "description": "Lieferung eines Aufbaus eines Tanklöschfahrzeuges TLF 4000, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-21, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144212"
+    ],
+    "nuts": [
+     "DE21K"
+    ],
+    "deadline": "2026-12-10T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-11+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 378000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Lieferung der Beladung für ein Tanklöschfahrzeug TLF 4000",
+    "description": "Lieferung eder Beladung für ein Tanklöschfahrzeuges TLF 4000 gem. DIN 14530-21, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "35110000"
+    ],
+    "nuts": [
+     "DE21K"
+    ],
+    "deadline": "2026-12-10T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-11+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 50000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

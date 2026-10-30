@@ -1,0 +1,279 @@
+{
+ "id": "ff4e7220-a4fe-45e2-a173-732c911daa18-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "ff4e7220-a4fe-45e2-a173-732c911daa18",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ff4e7220-a4fe-45e2-a173-732c911daa18",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:ff4e7220-a4fe-45e2-a173-732c911daa18-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:ff4e7220-a4fe-45e2-a173-732c911daa18-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ff4e7220-a4fe-45e2-a173-732c911daa18?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "099_26B280/26B317_Rahmenvertrag, Glas-/Fensterreinigung_Gebäudereinigung_BwVZ-",
+  "buyer": "Bundeswehr-Dienstleistungszentrum München",
+  "cpv": [
+   "90911000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-18T13:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a96e0fc0-17de-44f7-9e20-ec7af46686db",
+  "id": "ff4e7220-a4fe-45e2-a173-732c911daa18",
+  "date": "2026-10-18T10:08:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundeswehr-Dienstleistungszentrum München",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "991-15054-94",
+     "legalName": "Bundeswehr-Dienstleistungszentrum München"
+    },
+    "address": {
+     "streetAddress": "Dachauer Straße 128",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80637",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": " t: 022894990",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Bundeskanzlerplatz 1",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundeswehr-Dienstleistungszentrum München",
+   "id": "991-15054-94",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundeswehr-Dienstleistungszentrum München"
+   },
+   "address": {
+    "streetAddress": "Dachauer Straße 128",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80637",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a96e0fc0-17de-44f7-9e20-ec7af46686db",
+   "title": "099_26B280/26B317_Rahmenvertrag, Glas-/Fensterreinigung_Gebäudereinigung_BwVZ-",
+   "description": "6003137750-BwDLZ München",
+   "procuringEntity": {
+    "name": "Bundeswehr-Dienstleistungszentrum München",
+    "id": "991-15054-94"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911000",
+      "description": "Accommodation, building and window cleaning services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80637",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911000",
+      "description": "Accommodation, building and window cleaning services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80637",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=899793",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=899793",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 - Glas-/Fensterreinigung Bundeswehr-Verwaltungszentrum",
+     "description": "Glas-/Fensterreinigung in der Liegenschaft, halbjährliche Leistung.",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2031-03-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 - Gebäudereinigung Bundeswehr-Verwaltungszentrum",
+     "description": "Gebäudereinigung in der Liegenschaft",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2031-03-31T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ff4e7220-a4fe-45e2-a173-732c911daa18",
+  "version": "01",
+  "title": "099_26B280/26B317_Rahmenvertrag, Glas-/Fensterreinigung_Gebäudereinigung_BwVZ-",
+  "description": "6003137750-BwDLZ München",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "90911000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 - Glas-/Fensterreinigung Bundeswehr-Verwaltungszentrum",
+    "description": "Glas-/Fensterreinigung in der Liegenschaft, halbjährliche Leistung.",
+    "cpv": [
+     "90911000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-18T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2031-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Siehe Datei A_06_BwDLZ_Eigenerklärung_Leistungsfähigkeit"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Siehe Datei A_06_BwDLZ_Eigenerklärung_Leistungsfähigkeit"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Siehe Datei A_06_BwDLZ_Eigenerklärung_Leistungsfähigkeit"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Einziges Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 - Gebäudereinigung Bundeswehr-Verwaltungszentrum",
+    "description": "Gebäudereinigung in der Liegenschaft",
+    "cpv": [
+     "90911000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-18T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2031-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Siehe Datei A_06_BwDLZ_Eigenerklärung_Leistungsfähigkeit"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Siehe Datei A_06_BwDLZ_Eigenerklärung_Leistungsfähigkeit"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Siehe Datei A_06_BwDLZ_Eigenerklärung_Leistungsfähigkeit"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Einziges Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

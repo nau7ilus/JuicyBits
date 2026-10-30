@@ -1,0 +1,124 @@
+{
+ "id": "25969158-1",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "25969158",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25969158",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:25969158-1.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:25969158-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25969158?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "A_21 - Maler",
+  "buyer": "Landratsamt Landshut Gebäudemanagement",
+  "cpv": [
+   "45442100-8  45442110-1  45442180-2"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-22T10:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25969158",
+  "id": "25969158",
+  "date": "2026-10-24T07:01:43Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landshut Gebäudemanagement",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landratsamt Landshut Gebäudemanagement"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landshut Gebäudemanagement",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landshut Gebäudemanagement"
+   }
+  },
+  "tender": {
+   "title": "A_21 - Maler",
+   "description": "Maler- Lackierarbeiten/Beschichtung",
+   "procuringEntity": {
+    "name": "Landratsamt Landshut Gebäudemanagement"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45442100-8  45442110-1  45442180-2"
+     },
+     "deliveryAddress": {
+      "locality": "84137 Vilsbiburg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "A_21 - Maler",
+     "description": "Maler- Lackierarbeiten/Beschichtung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25969158",
+  "version": "1",
+  "title": "A_21 - Maler",
+  "description": "Maler- Lackierarbeiten/Beschichtung",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45442100-8  45442110-1  45442180-2"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "A_21 - Maler",
+    "description": "Maler- Lackierarbeiten/Beschichtung",
+    "cpv": [
+     "45442100-8  45442110-1  45442180-2"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-22T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

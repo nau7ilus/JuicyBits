@@ -1,0 +1,147 @@
+{
+ "id": "25964594-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25964594",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25964594",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25964594-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25964594-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25964594?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Maurerarbeiten",
+  "buyer": "Gemeinde Ebelsbach",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-03T14:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25964594",
+  "id": "25964594",
+  "date": "2026-10-23T07:01:52Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Ebelsbach",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Ebelsbach"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Ebelsbach",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Ebelsbach"
+   }
+  },
+  "tender": {
+   "title": "Maurerarbeiten",
+   "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinde Ebelsbach"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "97500 Ebelsbach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Maurerarbeiten",
+     "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25964594",
+  "version": "1",
+  "title": "Maurerarbeiten",
+  "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Maurerarbeiten",
+    "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-03T14:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

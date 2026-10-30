@@ -5,14 +5,14 @@
   "noticeId": "63d3ea28-63a3-46dd-9050-4668b5831ff1",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=63d3ea28-63a3-46dd-9050-4668b5831ff1",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:63d3ea28-63a3-46dd-9050-4668b5831ff1-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:63d3ea28-63a3-46dd-9050-4668b5831ff1-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/63d3ea28-63a3-46dd-9050-4668b5831ff1?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Rahmenvertrag über die Untersuchung von PFAS in Wasser für die Jahre 2027-2029, Grund-und Oberflächenwasser",
   "buyer": "Bayerisches Landesamt für Umwelt",
   "cpv": [
@@ -22,7 +22,7 @@
   "nuts": [
    "DE271"
   ],
-  "deadline": null,
+  "deadline": "2026-11-27T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -161,5 +161,57 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "63d3ea28-63a3-46dd-9050-4668b5831ff1",
+  "version": "01",
+  "title": "Rahmenvertrag über die Untersuchung von PFAS in Wasser für die Jahre 2027-2029, Grund-und Oberflächenwasser",
+  "description": "In den Jahren 2027-2029 sollen Grund- und Oberflächenwasserproben (Fließgewässer, Seen) auf ausgewählte per- und polyfluorierten Alkylsubstanzen analysiert werden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "71620000",
+   "90715200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag über die Untersuchung von PFAS in Wasser für die Jahre 2027-2029, Grund-und Oberflächenwasser",
+    "description": "In den Jahren 2027-2029 sollen Grund- und Oberflächenwasserproben (Fließgewässer, Seen) auf ausgewählte per- und polyfluorierten Alkylsubstanzen analysiert werden.",
+    "cpv": [
+     "71620000",
+     "90715200"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-27T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Besteht eine gültige Akkreditierung für die verwendeten Analyseverfahren und haben Sie einen Auszug aus der gültigen Akkreditierungsurkunde als Nachweis hochgeladen?\nhttps://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/8b63e22f-950c-407a-afe3-201176cbc92d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

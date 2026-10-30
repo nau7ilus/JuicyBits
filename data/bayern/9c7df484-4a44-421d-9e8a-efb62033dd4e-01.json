@@ -1,0 +1,202 @@
+{
+ "id": "9c7df484-4a44-421d-9e8a-efb62033dd4e-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "9c7df484-4a44-421d-9e8a-efb62033dd4e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9c7df484-4a44-421d-9e8a-efb62033dd4e",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:9c7df484-4a44-421d-9e8a-efb62033dd4e-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:9c7df484-4a44-421d-9e8a-efb62033dd4e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9c7df484-4a44-421d-9e8a-efb62033dd4e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beratungsdienstleistung im Projekt DZM RISE",
+  "buyer": "Technische Universität München Lehrstuhl für Verkehrstechnik",
+  "cpv": [
+   "79411000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8439465d-0366-457a-9978-e592b9f0107e",
+  "id": "9c7df484-4a44-421d-9e8a-efb62033dd4e",
+  "date": "2026-10-25T14:54:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Technische Universität München Lehrstuhl für Verkehrstechnik",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-1512011-61",
+     "legalName": "Technische Universität München Lehrstuhl für Verkehrstechnik"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Technische Universität München Lehrstuhl für Verkehrstechnik",
+   "id": "09-1512011-61",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Technische Universität München Lehrstuhl für Verkehrstechnik"
+   },
+   "address": {
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8439465d-0366-457a-9978-e592b9f0107e",
+   "title": "Beratungsdienstleistung im Projekt DZM RISE",
+   "description": "Operative Durchführung von Innovations-, Transfer- und Ökosystemanalysen sowie von Challenge- und Innovationsformaten im Arbeitspaket Z5 \"Innovations-, Transfer- und Startup-Ökosystem\" des Verbundvorhabens DZM-MUC RISE.",
+   "procuringEntity": {
+    "name": "Technische Universität München Lehrstuhl für Verkehrstechnik",
+    "id": "09-1512011-61"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79411000",
+      "description": "General management consultancy services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 285000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YK0MW16/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Beratungsdienstleistung im Projekt DZM RISE",
+     "description": "Siehe Vergabeunterlagen.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2029-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "9c7df484-4a44-421d-9e8a-efb62033dd4e",
+  "version": "01",
+  "title": "Beratungsdienstleistung im Projekt DZM RISE",
+  "description": "Operative Durchführung von Innovations-, Transfer- und Ökosystemanalysen sowie von Challenge- und Innovationsformaten im Arbeitspaket Z5 \"Innovations-, Transfer- und Startup-Ökosystem\" des Verbundvorhabens DZM-MUC RISE.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "79411000"
+  ],
+  "estimatedValue": {
+   "amount": 285000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beratungsdienstleistung im Projekt DZM RISE",
+    "description": "Siehe Vergabeunterlagen.",
+    "cpv": [
+     "79411000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Konzept",
+      "description": "Bewertung des Konzeptes.",
+      "weight": 70
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

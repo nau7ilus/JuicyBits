@@ -1,0 +1,239 @@
+{
+ "id": "171242c4-f597-470b-871a-1586c479973b-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "171242c4-f597-470b-871a-1586c479973b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=171242c4-f597-470b-871a-1586c479973b",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:171242c4-f597-470b-871a-1586c479973b-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:171242c4-f597-470b-871a-1586c479973b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/171242c4-f597-470b-871a-1586c479973b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Baumeister - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+  "buyer": "Gemeinde Altenstadt/WN",
+  "cpv": [
+   "45111100",
+   "45110000"
+  ],
+  "nuts": [
+   "DE237"
+  ],
+  "deadline": "2026-10-21T12:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fd104fc7-9d21-4712-9e75-86ddf1d26d6e",
+  "id": "171242c4-f597-470b-871a-1586c479973b",
+  "date": "2026-10-17T14:54:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Altenstadt/WN",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE419620112",
+     "legalName": "Gemeinde Altenstadt/WN"
+    },
+    "address": {
+     "streetAddress": "Hauptstraße 6",
+     "locality": "Altenstadt an der Waldnaab",
+     "region": "DE237",
+     "postalCode": "92665",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Altenstadt/WN",
+   "id": "DE419620112",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Altenstadt/WN"
+   },
+   "address": {
+    "streetAddress": "Hauptstraße 6",
+    "locality": "Altenstadt an der Waldnaab",
+    "region": "DE237",
+    "postalCode": "92665",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fd104fc7-9d21-4712-9e75-86ddf1d26d6e",
+   "title": "Baumeister - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+   "description": "Baumeisterarbeiten bei der ehem. Bleikristallfabrik Beyer & Co. - Bereich Connemara, Baptist-Kraus-Straße 5, 92665 Altenstadt/WN",
+   "procuringEntity": {
+    "name": "Gemeinde Altenstadt/WN",
+    "id": "DE419620112"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45111100",
+      "description": "Demolition work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45110000",
+       "description": "Building demolition and wrecking work and earthmoving work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Baptist-Kraus-Straße 5",
+      "locality": "Altenstadt an der Waldnaab",
+      "region": "DE237",
+      "postalCode": "92665",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y1AMVGR/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-17T14:54:04.853Z",
+     "rationale": "Die Angebotsfrist wurde aufgrund einer Aktualisierung des Leistungsverzeichnisses (Position 1.1 \"Baustelleneinrichtung\") verlängert.",
+     "description": "Die Position 1.1 \"Baustelleneinrichtung\" des Leistungsverzeichnisses war aufgrund einer Bieterfrage zu aktualisieren.  Damit die Bieter die Kalkulation der Position an die Aktualisierung anpassen können, wurde die Angebotsfrist um vier (4) Kalendertage verlängert.   Alte Angebotsfrist:  Freitag, 16. Oktober 2026, 12:00 Uhr  Neue Angebotsfrist:  Mittwoch, 21. Oktober 2026, 12:00 Uhr.",
+     "amendsReleaseID": "17201491-08f9-4cbf-81c8-da7664a819b5-01",
+     "releaseID": "171242c4-f597-470b-871a-1586c479973b-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Baumeister - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+     "description": "Das Vergabeverfahren ist Bestandteil des Sanierungsvorhabens der ehemaligen Bleikristallfabrik Beyer & Co. - Bereich Connemara.  Das Bauvorhaben befindet sich in der Baptist-Kraus-Straße 5 in 92665 Altenstadt a.d. Waldnaab. Für das ehemalige Fabrikgelände wurde ein Gesamtkonzept entwickelt, wonach in einem ersten Schritt der nördliche Bereich zwischen dem Betriebsgelände und der Werksdeponie revitalisiert werden soll.  Für das Sanierungsvorhaben wurde zum Zwecke der Verkürzung der Angebotsfrist gemäß § 12 EU Abs. 1 Nr. 2 VOB/A eine Vorinformation im Amtsblatt der Europäischen Union (TED - Tenders Electronic Daily) unter der Veröffentlichungsnummer 218281-2026 am 30. März 2026 veröffentlicht.  Gegenstand des vorliegenden Vergabeverfahrens sind die in der Vorinformation unter Ziffer 5.1. Los: LOT-0005 bezeichneten Baumeisterarbeiten.  Die ausgeschriebene Leistung umfasst beim Hauptgebäude den Abbruch von statisch relevanten Bauteilen, den Neubau von Wänden, die Öffnung und Ergänzung der Decken und Bestandswände sowie die statische Ertüchtigung des Bestands auf einer Gesamtfläche von 1.250 m².  Die ausgeschriebene Leistung umfasst beim Nebengebäude das Errichten von Fundamenten und der Bodenplatte auf einer Gesamtfläche von ca. 65 m².  Das Vorhaben wird teilweise aus Mitteln der Europäischen Union gefördert. Die Förderung erfolgt im Rahmen des Europäischen Fonds für regionale Entwicklung (EFRE) in der Förderperiode 2021-2027.",
+     "contractPeriod": {
+      "startDate": "2026-11-23T00:00:00+01:00",
+      "endDate": "2027-05-26T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "218281-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "218281-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "171242c4-f597-470b-871a-1586c479973b",
+  "version": "01",
+  "title": "Baumeister - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+  "description": "Baumeisterarbeiten bei der ehem. Bleikristallfabrik Beyer & Co. - Bereich Connemara, Baptist-Kraus-Straße 5, 92665 Altenstadt/WN",
+  "procedureType": "open",
+  "nuts": [
+   "DE237"
+  ],
+  "cpv": [
+   "45111100",
+   "45110000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Baumeister - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+    "description": "Das Vergabeverfahren ist Bestandteil des Sanierungsvorhabens der ehemaligen Bleikristallfabrik Beyer & Co. - Bereich Connemara.  Das Bauvorhaben befindet sich in der Baptist-Kraus-Straße 5 in 92665 Altenstadt a.d. Waldnaab. Für das ehemalige Fabrikgelände wurde ein Gesamtkonzept entwickelt, wonach in einem ersten Schritt der nördliche Bereich zwischen dem Betriebsgelände und der Werksdeponie revitalisiert werden soll.  Für das Sanierungsvorhaben wurde zum Zwecke der Verkürzung der Angebotsfrist gemäß § 12 EU Abs. 1 Nr. 2 VOB/A eine Vorinformation im Amtsblatt der Europäischen Union (TED - Tenders Electronic Daily) unter der Veröffentlichungsnummer 218281-2026 am 30. März 2026 veröffentlicht.  Gegenstand des vorliegenden Vergabeverfahrens sind die in der Vorinformation unter Ziffer 5.1. Los: LOT-0005 bezeichneten Baumeisterarbeiten.  Die ausgeschriebene Leistung umfasst beim Hauptgebäude den Abbruch von statisch relevanten Bauteilen, den Neubau von Wänden, die Öffnung und Ergänzung der Decken und Bestandswände sowie die statische Ertüchtigung des Bestands auf einer Gesamtfläche von 1.250 m².  Die ausgeschriebene Leistung umfasst beim Nebengebäude das Errichten von Fundamenten und der Bodenplatte auf einer Gesamtfläche von ca. 65 m².  Das Vorhaben wird teilweise aus Mitteln der Europäischen Union gefördert. Die Förderung erfolgt im Rahmen des Europäischen Fonds für regionale Entwicklung (EFRE) in der Förderperiode 2021-2027.",
+    "cpv": [
+     "45111100",
+     "45110000"
+    ],
+    "nuts": [
+     "DE237"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-23+01:00",
+    "plannedEnd": "2027-05-26+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Ich erkläre / Wir erklären, dass ich / wir in den letzten fünf (5) Kalenderjahren vergleichbare Leistungen ausgeführt habe/haben.  Falls mein/unser Angebot in die engere Wahl kommt, werde ich /werden wir drei Referenznachweise mit mindestens den nachfolgenden Angaben vorlegen. Hierfür hat der Bieter das Formblatt 444 (Referenzbescheinigung) zu verwenden.  In dem Formblatt 444 (Referenzbescheinigung) sind von dem Bieter, also von dem Referenznehmer folgende Angaben zu machen:  - Firma (Name und vollständige Anschrift) des Bieters oder des vertretungsberechtigten Mitglieds der Bietergemeinschaft oder Benennung der Bietergemeinschaft; - Angaben zum Referenzgeber: Angabe der juristischen Person des Bauherrn / des Auftraggebers; Anschrift sowie der Name des Vertreters und dessen Anschrift (nur erforderlich, falls die Referenzbescheinigung im Auftrag des Bauherrn/Auftraggebers von einem Dritten (z.B. Architekt) erstellt wird; - Bezeichnung des Bauvorhabens; - Ankreuzen zur ausgeführten Leistung, ob es sich hier um eine Einzelleistung (Einzelnes Gewerk/Leistungsbereich) oder um eine Komplettleistung (Gewerkebündelung, z.B. erweiterter Rohbau oder Generalunternehmer) handelt; - Ort der Ausführung (Ort, Straße); - Ausführungszeit: Baubeginn (Monat/Jahr)und Fertigstellung (Monat/Jahr); - Ankreuzen, wie der Referenznehmer vertraglich gebunden war, ob als Hauptauftragnehmer oder ARGE-Partner oder Nachunternehmer (Unterauftragnehmer); - Ankreuzen der Art der Baumaßnahme, ob Neubau oder Umbau oder Denkmal: - Angabe der Leistungsbereiche entsprechend der Anlage 2 der Leitlinie zur Durchführung eines PQ-Verfahrens, auf die sich die Referenz bezieht; hierzu hat der Bieter die Nummer und die Bezeichnung anzugeben; die Anlage 2 der Leitlinie zur Durchführung eines PQ-Verfahrens liegt den Vergabeunterlagen bei; - Angaben des Bieters, wenn es sich bei der ausgeführten Leistung um eine Einzelleistung handelte: Stichwortartige Benennung des im eigenen Betrieb erbrachten maßgeblichen Leistungsumfanges unter Angabe der ausgeführten Mengen (z.B. m³, m², m St, kg, t) oder Angaben des Bieters, wenn es sich bei der ausgeführten Leistung um eine Komplettleistung handelte: Kurzbeschreibung der Baumaßnahme; - Angaben des Bieters, wenn es sich bei der ausgeführten Leistung um eine Einzelleistung handelte: Zahl der hierfür durchschnittlich eingesetzten eigenen Arbeitnehmer; oder Angaben des Bieters, wenn es sich bei der ausgeführten Leistung um eine Komplettleistung handelte: Auflistung der mit eigenem Führungspersonal koordinierten Gewerke; - Angaben des Bieters, wenn es sich bei der ausgeführten Leistung um eine Einzelleistung handelte: Stichwortartige Beschreibung der besonderen technischen und gerätespezifischen Anforderungen; oder Angaben des Bieters, wenn es sich bei der ausgeführten Leistung um eine Komplettleistung handelte: Eventuelle Besonderheiten der Ausführung; - Angaben des Bieters, wenn es sich bei der ausgeführten Leistung um eine Einzelleistung handelte: Auftragswert der vorgenannten Leistungen (netto in Euro) oder Angaben des Bieters, wenn es sich bei der ausgeführten Leistung um eine Komplettleistung handelte: Auftragswert der vorgenannten Maßnahme (netto in Euro); - Erklärung des Referenznehmers, dass seine Angaben richtig sind; sowie Erklärung des Referenznehmers, dass ihm bewusst ist, dass falsche Angaben seine Zuverlässigkeit beeinträchtigen; Angabe zu Ort, Datum, Stempel [freiwillig], Name des Verantwortlichen in Druckbuchstaben.  In dem Formblatt 444 (Referenzbescheinigung) sind von dem Referenzgeber folgende Angaben zu machen (es sind nur hinreichend belegbare Sachverhalte anzugeben):  - Ankreuzen, wenn die Leistungen von dem Referenznehmer auftragsgemäß durchgeführt worden sind; - Ankreuzen, wenn im Ergebnis die Leistungen auftragsgemäß durchgeführt worden sind, folgende Feststellungen während der Abwicklung gemacht wurden; - Ankreuzen, wenn der Auftragnehmer gegen Obliegenheiten und Pflichten gemäß § 4 Abs. 2 VOB/B verstoßen hat; - Ankreuzen, wenn die Einhaltung der Vertragsfristen schriftlich angemahnt wurde; - Ankreuzen, wenn der Auftragnehmer wiederholt zur Mängelbeseitigung während der Bauausführung aufgefordert wurde; - Ankreuzen, wenn dem Auftragnehmer schriftlich Kündigung angedroht wurde; - Ankreuzen, wenn die Abnahme wegen wesentlicher Mängel vorübergehend verweigert wurde; - Ankreuzen, wenn wiederholt zur Vervollständigung der Rechnungsunterlagen aufgefordert wurde; - Ankreuzen, wenn die Schlussrechnung durch den Auftraggeber erstellt werden musste; - Ankreuzen, wenn die Leistungen von dem Referenznehmer nicht auftragsgemäß ausgeführt worden sind; - Ankreuzen, wenn die Leistungen wegen Kündigung nicht fertig gestellt worden; - Angaben zu dem Ansprechpartner bei dem Referenzgeber (Name des Ansprechpartners; Abteilung; Telefon des Ansprechpartners; Fax des Ansprechpartners [sofern vorhanden]; E-Mail-Adresse des Ansprechpartners); - Einwilligung des Referenzgebers.  Nicht präqualifizierte Unternehmen haben für die Erklärung zwingend das Formblatt 124 ausgefüllt mit dem Angebot einzureichen.   Präqualifizierte Unternehmen haben in dem Formblatt 213.H den Namen und die PQ_Nummer anzugeben, wenn der Nachweis über das Präqualifikationsverzeichnis geführt werden soll. Präqualifizierte Unternehmen haben dafür Sorge zu tragen, dass die in dem Präqualifikationsverzeichnis enthaltenen Erklärungen und Nachweise einem aktuellen Stand entsprechen und die Anforderungen dieses Vergabeverfahrens erfüllen. Maßgeblich ist der Zeitpunkt des Ablaufs der Frist zur Abgabe der Angebote (Angebotsfrist) in dem gegenständlichen Vergabeverfahren. Aktualisierte Unterlagen, die auf einen Tag nach dem Ablauf der Angebotsfrist datiert sind, werden bei der Prüfung der Angebote nicht berücksichtigt.   Nicht präqualifizierte Unternehmen können als vorläufigen Nachweis der Eignung für die zu vergebende Leistung mit dem Angebot alternativ eine Einheitliche Europäische Eigenerklärung (EEE) vorlegen."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Angaben des Bieters:  Umsatz des Unternehmens in den letzten drei (3) abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen (Angabe jeweils: Jahr und Euro).  Nicht präqualifizierte Unternehmen haben für die Erklärung zwingend das Formblatt 124 ausgefüllt mit dem Angebot einzureichen.  Präqualifizierte Unternehmen haben in dem Formblatt 213.H den Namen und die PQ_Nummer anzugeben, wenn der Nachweis über das Präqualifikationsverzeichnis geführt werden soll.  Präqualifizierte Unternehmen haben dafür Sorge zu tragen, dass die in dem Präqualifikationsverzeichnis enthaltenen Erklärungen und Nachweise einem aktuellen Stand entsprechen und die Anforderungen dieses Vergabeverfahrens erfüllen. Maßgeblich ist der Zeitpunkt des Ablaufs der Frist zur Abgabe der Angebote (Angebotsfrist) in dem gegenständlichen Vergabeverfahren. Aktualisierte Unterlagen, die auf einen Tag nach dem Ablauf der Angebotsfrist datiert sind, werden bei der Prüfung der Angebote nicht berücksichtigt.  Nicht präqualifizierte Unternehmen können als vorläufigen Nachweis der Eignung für die zu vergebende Leistung mit dem Angebot alternativ eine Einheitliche Europäische Eigenerklärung (EEE) vorlegen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung des Bieters:  Ich/Wir erkläre(n), dass mir/uns die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen. Falls mein/unser Teilnahmeantrag/Angebot in die engere Wahl kommt, werde ich /werden wir die Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit extra ausgewiesenem technischen Leitungspersonal, angeben.  Nicht präqualifizierte Unternehmen haben für die Erklärung zwingend das Formblatt 124 ausgefüllt mit dem Angebot einzureichen.  Präqualifizierte Unternehmen haben in dem Formblatt 213.H den Namen und die PQ_Nummer anzugeben, wenn der Nachweis über das Präqualifikationsverzeichnis geführt werden soll. Präqualifizierte Unternehmen haben dafür Sorge zu tragen, dass die in dem Präqualifikationsverzeichnis enthaltenen Erklärungen und Nachweise einem aktuellen Stand entsprechen und die Anforderungen dieses Vergabeverfahrens erfüllen. Maßgeblich ist der Zeitpunkt des Ablaufs der Frist zur Abgabe der Angebote (Angebotsfrist) in dem gegenständlichen Vergabeverfahren. Aktualisierte Unterlagen, die auf einen Tag nach dem Ablauf der Angebotsfrist datiert sind, werden bei der Prüfung der Angebote nicht berücksichtigt.  Nicht präqualifizierte Unternehmen können als vorläufigen Nachweis der Eignung für die zu vergebende Leistung mit dem Angebot alternativ eine Einheitliche Europäische Eigenerklärung (EEE) vorlegen."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Erklärung des Bieters:  Ich bin / Wir sind - im Handelsregister eingetragen; - für die auszuführenden Leistungen in die Handwerksrolle eingetragen; - bei der Industrie- und Handelskammer eingetragen; - zu keiner Eintragung in die genannten Register verpflichtet. (Zutreffendes angeben).  Falls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde ich/werden wir zur Bestätigung meiner/unserer Erklärung vorlegen:  Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer.  Nicht präqualifizierte Unternehmen haben für die Erklärung zwingend das Formblatt 124 ausgefüllt mit dem Angebot einzureichen.  Präqualifizierte Unternehmen haben in dem Formblatt 213.H den Namen und die PQ_Nummer anzugeben, wenn der Nachweis über das Präqualifikationsverzeichnis geführt werden soll. Präqualifizierte Unternehmen haben dafür Sorge zu tragen, dass die in dem Präqualifikationsverzeichnis enthaltenen Erklärungen und Nachweise einem aktuellen Stand entsprechen und die Anforderungen dieses Vergabeverfahrens erfüllen. Maßgeblich ist der Zeitpunkt des Ablaufs der Frist zur Abgabe der Angebote (Angebotsfrist) in dem gegenständlichen Vergabeverfahren. Aktualisierte Unterlagen, die auf einen Tag nach dem Ablauf der Angebotsfrist datiert sind, werden bei der Prüfung der Angebote nicht berücksichtigt.  Nicht präqualifizierte Unternehmen können als vorläufigen Nachweis der Eignung für die zu vergebende Leistung mit dem Angebot alternativ eine Einheitliche Europäische Eigenerklärung (EEE) vorlegen.  Abschließende Erklärung des Bieters:  Mir/Uns ist bekannt, dass die jeweils genannten Bestätigungen/Nachweise zu den Eigenerklärungen auf gesondertes Verlangen der Vergabestelle innerhalb der gesetzten angemessenen Frist vorgelegt werden müssen und mein/unser Angebot / Teilnahmeantrag ausgeschlossen wird, wenn die Unterlagen nicht vollständig innerhalb dieser Frist vorgelegt werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Gesamtpreis (brutto)",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.  1) Der Bieter hat den Gesamtpreis (brutto) in dem Formblatt 213, dort unter Ziffer 2, anzugeben.   Im Falle von Widersprüchen geht der angegebene Gesamtpreis (brutto) des Leistungsverzeichnisses vor.  Der Bieter hat zur Ermittlung des Preises das Leistungsverzeichnis vorzugsweise im GAEB-Format (.d83;.x83) ausgefüllt mit dem Angebot einzureichen. Daneben kann er das Leistungsverzeichnis im PDF-Format ausgefüllt mit dem Angebot einzureichen. Sollte der Bieter das Leistungsverzeichnis weder im GAEB-Format noch im PDF-Format ausgefüllt mit dem Angebot eingereicht haben, führt dies zwingend zum Ausschluss des Angebots. Eine Nachforderung ist insoweit nicht möglich.  2) Der Preis wird aus der Wertungssumme des Angebotes ermittelt.  Die Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesondere unter Berücksichtigung von Nachlässen, Erstattungsbetrag aus der Lohngleitklausel, Instandhaltungsangeboten.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

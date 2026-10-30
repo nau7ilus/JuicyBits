@@ -1,0 +1,288 @@
+{
+ "id": "ded403eb-8572-48de-839d-487667076296-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "ded403eb-8572-48de-839d-487667076296",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ded403eb-8572-48de-839d-487667076296",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:ded403eb-8572-48de-839d-487667076296-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:ded403eb-8572-48de-839d-487667076296-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ded403eb-8572-48de-839d-487667076296?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Objektplanung Gebäude und Innenräume, Leistungsphasen 3 bis 5, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule",
+  "buyer": "Stadt Bad Wörishofen",
+  "cpv": [
+   "71300000",
+   "71000000",
+   "71240000"
+  ],
+  "nuts": [
+   "DE27C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d7fbbc7f-8345-46e5-8522-4e517127c69e",
+  "id": "ded403eb-8572-48de-839d-487667076296",
+  "date": "2026-10-17T15:14:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bad Wörishofen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129098408",
+     "legalName": "Stadt Bad Wörishofen"
+    },
+    "address": {
+     "streetAddress": "Bürgermeister-Ledermann-Str. 1",
+     "locality": "Bad Wörishofen",
+     "region": "DE27C",
+     "postalCode": "86825",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Beyss Architekten GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE412951524",
+     "legalName": "Beyss Architekten GmbH"
+    },
+    "address": {
+     "streetAddress": "Haydnstraße 36",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53115",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bad Wörishofen",
+   "id": "DE129098408",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bad Wörishofen"
+   },
+   "address": {
+    "streetAddress": "Bürgermeister-Ledermann-Str. 1",
+    "locality": "Bad Wörishofen",
+    "region": "DE27C",
+    "postalCode": "86825",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d7fbbc7f-8345-46e5-8522-4e517127c69e",
+   "title": "Objektplanung Gebäude und Innenräume, Leistungsphasen 3 bis 5, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule",
+   "description": "Objektplanung Gebäude und Innenräume, LPH 3 bis 5, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule",
+   "procuringEntity": {
+    "name": "Stadt Bad Wörishofen",
+    "id": "DE129098408"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71300000",
+      "description": "Engineering services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71000000",
+       "description": "Architectural, construction, engineering and inspection services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71240000",
+       "description": "Architectural, engineering and planning services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Kaufbeurer Str. 12",
+      "locality": "Bad Wörishofen",
+      "region": "DE27C",
+      "postalCode": "86825",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 582782.64,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-02T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Beyss Architekten GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Beyss Architekten GmbH"
+     },
+     "address": {
+      "streetAddress": "Haydnstraße 36",
+      "locality": "Bonn",
+      "region": "DEA22",
+      "postalCode": "53115",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Objektplanung Gebäude und Innenräume, Leistungsphasen 3 bis 5, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule",
+     "description": "Der Auftraggeber beabsichtigt, die Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen umzustrukturieren. Im Zuge der Umstrukturierung soll insbesondere die \"Alte Turnhalle\" abgebrochen und an deren Stelle ein Neubau errichtet werden. Die Umstrukturierung erfolgt in 2 Bauabschnitten, Bauabschnitt 1 (im Folgenden auch \"BA 1\" genannt) und Bauabschnitt 2 (im Folgenden auch \"BA 2\" genannt).   Das Bauvorhaben soll mit Fördermitteln nach Art. 10 BayFAG realisiert werden.  Die Planungsleistungen für das Leistungsbild Objektplanung - Gebäude und Innenräume der Leistungsphasen 1 und 2 gemäß der HOAI wurden bereits erbracht.  Gegenstand dieses Vergabeverfahrens war die Beschaffung von Leistungen der Objektplanung Gebäude und Innenräume nach §§ 33 ff. HOAI für die Leistungsphasen (LPH) 3 bis 5 des Bauabschnitts 1 sowie die Leistungsphase 3 des Bauabschnitts 2 für das Projekt \"Ersatzneubau und Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen\".  Die Leistungen werden stufenweise beauftragt.",
+     "contractPeriod": {
+      "durationInDays": 1080
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "value": {
+     "amount": 568046.97,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 426126.83,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "ded403eb-8572-48de-839d-487667076296",
+  "version": "01",
+  "title": "Objektplanung Gebäude und Innenräume, Leistungsphasen 3 bis 5, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule",
+  "description": "Objektplanung Gebäude und Innenräume, LPH 3 bis 5, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule",
+  "procedureType": "open",
+  "nuts": [
+   "DE27C"
+  ],
+  "cpv": [
+   "71300000",
+   "71000000",
+   "71240000"
+  ],
+  "estimatedValue": {
+   "amount": 582782.64,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Objektplanung Gebäude und Innenräume, Leistungsphasen 3 bis 5, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule",
+    "description": "Der Auftraggeber beabsichtigt, die Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen umzustrukturieren. Im Zuge der Umstrukturierung soll insbesondere die \"Alte Turnhalle\" abgebrochen und an deren Stelle ein Neubau errichtet werden. Die Umstrukturierung erfolgt in 2 Bauabschnitten, Bauabschnitt 1 (im Folgenden auch \"BA 1\" genannt) und Bauabschnitt 2 (im Folgenden auch \"BA 2\" genannt).   Das Bauvorhaben soll mit Fördermitteln nach Art. 10 BayFAG realisiert werden.  Die Planungsleistungen für das Leistungsbild Objektplanung - Gebäude und Innenräume der Leistungsphasen 1 und 2 gemäß der HOAI wurden bereits erbracht.  Gegenstand dieses Vergabeverfahrens war die Beschaffung von Leistungen der Objektplanung Gebäude und Innenräume nach §§ 33 ff. HOAI für die Leistungsphasen (LPH) 3 bis 5 des Bauabschnitts 1 sowie die Leistungsphase 3 des Bauabschnitts 2 für das Projekt \"Ersatzneubau und Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen\".  Die Leistungen werden stufenweise beauftragt.",
+    "cpv": [
+     "71300000",
+     "71000000",
+     "71240000"
+    ],
+    "nuts": [
+     "DE27C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 36,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "1. Persönliche Erfahrung des Projektteams",
+      "description": "Bewertet wurde die Erfahrung des Projektteams bestehend aus:   - einem Projektleiter, und  - einem stellvertretendem Projektleiter  anhand von vergleichbaren persönlichen Referenzprojekten über Dienstleistungen der Objektplanung Gebäude und Innenräume.  Der Bieter hatte für den in dem Vergabeverfahren einzusetzenden Projektleiter und für den in dem Vergabeverfahren einzusetzenden stellvertretenden Projektleiter jeweils mindestens ein (1) persönliches Referenzprojekt mit dem Angebot einzureichen, das die nachfolgenden (Mindest-)Anforderungen jeweils erfüllt.  a) Der Projektleiter musste das für ihn angegebene persönliche Referenzprojekt als Projektleiter geleitet haben.  b) Der stellvertretende Projektleiter musste das für ihn angegebene persönliche Referenzprojekt als Projektleiter oder als stellvertretender Projektleiter geleitet haben.  c) Die (weiteren) Mindestanforderungen (i.) und die Bewertungssystematik (ii.) an das persönliche Referenzprojekt des Projektleiters und des stellvertretenden Projektleiters waren jeweils wie folgt:  (i) Mindestanforderungen an die persönlichen Referenzprojekte des Projektleiters und des stellvertretenden Projektleiters:  - Das persönliche Referenzprojekt musste jeweils die Erbringung von Leistungen der Objektplanung Gebäude und Innenräume nach § 34 Abs. 1 HOAI für mindestens die Leistungsphasen 3 bis 5 für ein Neubau-, Umbau- oder Erweiterungsvorhaben eines Gebäudes umfasst haben.  - das persönliche Referenzprojekt war mindestens der Honorarzone III im Sinne der HOAI zugeordnet;  - Die Leistungsphase 3 durfte nicht vor dem 01.01.2018 begonnen und die Leistungsphase 5 musste spätestens zum Ablauf der Angebotsfrist in dem hier gegenständlichen Vergabeverfahren abgeschlossen worden sein.  Anzugeben war das Anfangs-Datum (TT.MM.JJJJ) der Leistungsphase 3 und das End-Datum (TT.MM.JJJJ) der Leistungsphase 5;  die Datumsangaben war grundsätzlich taggenau im Format TT.MM.JJJJ vorzunehmen. Sofern die Einhaltung der jeweiligen Mindestanforderung auch anhand der Angabe von Monat und Jahr zweifelsfrei festgestellt werden konnte, war sowohl für den Beginn als auch für das Ende der jeweiligen Leistungsphase ausnahmsweise auch die Angabe von Monat und Jahr (MM.JJJJ) ausreichend;  - Angabe der Brutto-Grundfläche (BGF (nach DIN 277)) des persönlichen Referenzprojekts für die von dem Projektleiter als Projektleiter bzw. von dem stellvertretenden Projektleiter als Projektleiter oder als stellvertretender Projektleiter erbrachten Leistungen der Objektplanung Gebäude und Innenräume, mindestens Leistungsphase 3 bis 5, von mindestens 2.000 m²;  - Auftragswert  [vereinnahmte Vergütung - EUR (netto) für die Leistungen der Objektplanung Gebäude und Innenräume, Leistungsphasen 3 bis 5, die der Projektleiter als Projektleiter (bzw. der stellvertretende Projektleiter als Projektleiter oder als stellvertretender Projektleiter) geleitet hat] von mindestens 200.000,- EUR (netto).  Erfüllte nicht mindestens ein (1) persönliches Referenzprojekt des Projektleiters und des stellvertretenden Projektleiters die oben genannten Mindestanforderungen, führte dies zum Ausschluss des Angebots.  Bewertet wurden ausschließlich diejenigen persönlichen Referenzprojekte, die die oben genannten Mindestanforderungen erfüllen.  Der Bieter hatte dabei in Form einer Liste je persönlichem Referenzprojekt Folgendes anzugeben:  - Name des jeweils in dem gegenständlichen Projekt einzusetzenden Projektleiters und stellvertretenden Projektleiters;  - Kurzbeschreibung des von dem Projektleiter und stellvertretendem Projektleiter jeweils persönlich geleiteten persönlichen Referenzprojekts;  der Bieter hatte die früher ausgeführten Leistungen so zu beschreiben, dass die Erfüllung der jeweiligen Mindestanforderungen aus der Beschreibung des Referenzprojekts nachvollziehbar hervorging entsprechend der Anlage 601 \"Erfahrung des Projektteams\".  - Rolle des Projektleiters und des stellvertretenden Projektleiters in dem jeweiligen persönlichen Referenzprojekt;  - Name des Unternehmens, welches die Leistungen der Objektplanung Gebäude und Innenräume des persönlichen Referenzprojekts, die der Projektleiter bzw. der stellvertretende Projektleiter jeweils in der angegebenen Rolle geleitet hat, ausgeführt hat;  - Ausführungen zu den angegebenen Mindestanforderungen an den Inhalt der persönlichen Referenzprojekte entsprechend der Anlage 601 \"Erfahrung des Projektteams\".   (ii.) Die Bewertungssystematik war wie folgt:  Die Bewertungssystematik war sowohl für die persönlichen Referenzprojekte des Projektleiters als auch für die persönlichen Referenzprojekte des stellvertretenden Projektleiters wie folgt:   (1.) Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts: >= 4.000 m² = 5 Punkte; = 2.000 m² = 0 Punkte; < 2.000 m² = Kein geeignetes Referenzprojekt.  Soweit die Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts zwischen 2.000 m² und 4.000 m² lag, wurden die Punkte durch Interpolation vergeben, mathematisch gerundet auf zwei Nachkommastellen.  Beispiel:  Bei einer Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts von 3.000 m² erhält der Bieter 2,50 Punkte.  (2.) Auftragswert (netto) des persönlichen Referenzprojekts:  >= 400.000 EUR (netto) = 5 Punkte; = 200.000 EUR (netto) = 0 Punkte; < 200.000 EUR (netto) = Kein geeignetes Referenzprojekt.  Soweit der Auftragswert (netto) des persönlichen Referenzprojekts zwischen 200.000 EUR (netto) und 400.000 EUR (netto) lag, wurden die Punkte durch Interpolation vergeben, mathematisch gerundet auf zwei Nachkommastellen.  Beispiel: Bei einem Auftragswert des persönlichen Referenzprojekts von 300.000 EUR (netto) erhielt der Bieter 2,50 Punkte.  Die erzielten Punkte für die Brutto-Grundfläche (BGF) (nach DIN 277) (1.) und den Auftragswert (netto) (2.) wurden addiert. Je eingereichtem persönlichem Referenzprojekt konnten maximal 10,00 Punkte (5,00 + 5,00) erzielt werden.  Fortsetzung folgt***.",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "1. Persönliche Erfahrung des Projektteams",
+      "description": "Beginn der Fortsetzung***:  Zu der punktemäßigen Bewertung:  - Der Bieter konnte für die mit dem Angebot eingereichten persönlichen Referenzprojekte des Projektleiters bzw. des stellvertretenden Projektleiters - die jeweils die oben genannten Mindestanforderungen erfüllen - maximal 30 Punkte erzielen; das heißt 60 Punkte zusammengerechnet.  - Der Bieter konnte in dem Zuschlagskriterium \"Persönliche Erfahrung des Projektteams\" maximal 40,00 qualitative Leistungspunkte erzielen.   Zur Ermittlung der qualitativen Leistungspunkte wurden die von dem Bieter insgesamt erzielten Punkte für die persönlichen Referenzprojekte des Projektleiters und des stellvertretenden Projektleiters mit dem Gewichtungsfaktor multipliziert. Das Ergebnis wurde mathematisch gerundet auf zwei Nachkommastellen.  Zur Bewertung hatte der Bieter die gelb markierten Felder in der Anlage 601 \"Erfahrung des Projektteams\" vollständig auszufüllen und als Teil des Angebots ausschließlich in elektronischer Form einzureichen.  Hat die Anlage 601 \"Erfahrung des Projektteams\" gefehlt, führte dies zwingend zum Ausschluss des Angebots. Eine Nachforderung war insoweit nicht möglich.  Je persönlichem Referenzprojekt waren zwei (2) zusätzliche Projektblätter (also maximal zwei (2) einseitig bedruckte DIN-A4-Seiten), die Fotos sowie eine Darstellung des persönlichen Referenzprojektes beinhalten, zu rein informatorischen Zwecken gestattet.  Diese Projektblätter waren jedoch nicht Teil der Bewertung. Bewertet wurden ausschließlich die Angaben des Bieters zu dem persönlichen Referenzprojekt in der Anlage 601 \"Erfahrung des Projektteams\".  Im Falle der Auftragserteilung hat sich der Auftragnehmer verpflichtet, die Leistungen durch den benannten Projektleiter und stellvertretender Projektleiter zu erbringen. Der benannte Projektleiter und der stellvertretende Projektleiter dürfen nur bei Zustimmung durch den Auftraggeber in Textform ausgetauscht werden. Für weitere Einzelheiten wird auf den Vertrag (Anlage 906) verwiesen.  Der Auftraggeber ist berechtigt, seine Zustimmung zu verweigern, wenn der neue Projektleiter oder der neue stellvertretende Projektleiter nicht mindestens genauso erfahren ist wie die zu ersetzende Person. Dies ist der Fall, wenn die Ersatzperson bei einer Bewertung nach den für die jeweilige Funktion geltenden Zuschlagskriterien des Vergabeverfahrens mindestens die gleiche Punktzahl erzielt hätte wie die zu ersetzende Person.  Im Falle des Austauschs muss der neue Projektleiter bzw. der neue stellvertretende Projektleiter mindestens genauso erfahren sein wie die zu ersetzende Person. Der Auftraggeber ist berechtigt, seine Zustimmung zu verweigern, wenn diese Voraussetzung nicht erfüllt ist. Es müssten also mindestens genauso viele Punkte bei der Bewertung der Erfahrung erzielt worden sein, falls diese Person bereits im Rahmen des Vergabeverfahrens (je nach Ersetzung) als Projektleiter oder als stellvertretender Projektleiter angeboten worden wäre.",
+      "weight": 0
+     },
+     {
+      "type": "price",
+      "name": "Kalkulatorischer Angebotspreis (brutto)",
+      "description": "Kalkulatorischer Angebotspreis (brutto) gemäß Anlage 801 \"Leistungs- und Vergütungskatalog\".  Hat die Anlage 801 \"Leistungs- und Vergütungskatalog\" gefehlt, führte dies zwingend zum Ausschluss des Angebots. Eine Nachforderung war insoweit nicht möglich.",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

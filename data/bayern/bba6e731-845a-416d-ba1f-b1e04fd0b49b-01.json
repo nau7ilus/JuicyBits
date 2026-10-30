@@ -5,14 +5,14 @@
   "noticeId": "bba6e731-845a-416d-ba1f-b1e04fd0b49b",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bba6e731-845a-416d-ba1f-b1e04fd0b49b",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:bba6e731-845a-416d-ba1f-b1e04fd0b49b-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:bba6e731-845a-416d-ba1f-b1e04fd0b49b-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/bba6e731-845a-416d-ba1f-b1e04fd0b49b?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Rack-Server inkl. Service",
   "buyer": "Universität der Bundeswehr München",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE21H"
   ],
-  "deadline": null,
+  "deadline": "2026-11-16T13:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -147,5 +147,51 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bba6e731-845a-416d-ba1f-b1e04fd0b49b",
+  "version": "01",
+  "title": "Rack-Server inkl. Service",
+  "description": "Auftragsgegenstand ist die Lieferung von 6 Rack-Servern inkl. Service",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "48820000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rack-Server inkl. Service",
+    "description": "6 Rack-Server\n60 Monate Service",
+    "cpv": [
+     "48820000"
+    ],
+    "nuts": [],
+    "deadline": "2026-11-16T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-14+01:00",
+    "plannedEnd": "2026-12-15+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Jahresumsatz der letzten 3 Jahre + geschätzer Umsatz für dieses Jahr, wenn verfügbar (keine Formerfordernis)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Nur der Preis ist relevant.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

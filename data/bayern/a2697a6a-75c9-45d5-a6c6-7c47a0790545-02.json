@@ -1,0 +1,181 @@
+{
+ "id": "a2697a6a-75c9-45d5-a6c6-7c47a0790545-02",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "a2697a6a-75c9-45d5-a6c6-7c47a0790545",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a2697a6a-75c9-45d5-a6c6-7c47a0790545",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:a2697a6a-75c9-45d5-a6c6-7c47a0790545-02.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:a2697a6a-75c9-45d5-a6c6-7c47a0790545-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a2697a6a-75c9-45d5-a6c6-7c47a0790545?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau Feuerwache Garching - Metallbau 2",
+  "buyer": "Stadt Garching b. München",
+  "cpv": [
+   "45262670"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1d87729d-9598-4382-86a8-63fde650c89e",
+  "id": "a2697a6a-75c9-45d5-a6c6-7c47a0790545",
+  "date": "2026-10-20T10:05:28Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Garching b. München",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9314",
+     "legalName": "Stadt Garching b. München"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 3",
+     "locality": "Garching b. München",
+     "region": "DE21H",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d7e8288a-1c00-4aba-8502-cd99425f6b0b",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Garching b. München",
+   "id": "9314",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Garching b. München"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 3",
+    "locality": "Garching b. München",
+    "region": "DE21H",
+    "postalCode": "85748",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1d87729d-9598-4382-86a8-63fde650c89e",
+   "title": "Neubau Feuerwache Garching - Metallbau 2",
+   "description": "Die Stadt Garching b. München beabsichtigt für die Maßnahme Neubau Feuerwache Garching Metallbau 2 auszuschreiben",
+   "procuringEntity": {
+    "name": "Stadt Garching b. München",
+    "id": "9314"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "deliveryAddress": {
+      "region": "DE21H",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Feuerwache Garching - Metallbau 2",
+     "description": "Metallbau 2:\n\nAllgemeines\nTüren Turm\nRückwand Containerüberdachung\nSchiebetor Müllhaus\nSonstige Einbauten\nDokumentation\nStundenlohnarbeiten"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a2697a6a-75c9-45d5-a6c6-7c47a0790545",
+  "version": "02",
+  "title": "Neubau Feuerwache Garching - Metallbau 2",
+  "description": "Die Stadt Garching b. München beabsichtigt für die Maßnahme Neubau Feuerwache Garching Metallbau 2 auszuschreiben",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Feuerwache Garching - Metallbau 2",
+    "description": "Metallbau 2:\n\nAllgemeines\nTüren Turm\nRückwand Containerüberdachung\nSchiebetor Müllhaus\nSonstige Einbauten\nDokumentation\nStundenlohnarbeiten",
+    "cpv": [
+     "45262670"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

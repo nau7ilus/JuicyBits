@@ -5,14 +5,14 @@
   "noticeId": "25978238",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978238",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978238-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978238-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978238?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Sicherheitstechnische Wartung der Sportgeräte an landkreiseigenen Schulen",
   "buyer": "Landkreis Ebersberg",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-11-25T09:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -92,5 +92,43 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25978238",
+  "version": "1",
+  "title": "Sicherheitstechnische Wartung der Sportgeräte an landkreiseigenen Schulen",
+  "description": "Sonstiges",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "50800000-3"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sicherheitstechnische Wartung der Sportgeräte an landkreiseigenen Schulen",
+    "description": "Sonstiges",
+    "cpv": [
+     "50800000-3"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-25T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

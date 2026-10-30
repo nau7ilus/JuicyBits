@@ -1,0 +1,157 @@
+{
+ "id": "25960046-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25960046",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25960046",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25960046-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25960046-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25960046?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "ZUG / Leit- und Orientierungssystem",
+  "buyer": "LRA Garmisch-Partenkirchen, Olympiastr. 10, 82467 Garmisch-Partenkirchen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.lra-gap.de",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-10T00:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25960046",
+  "id": "25960046",
+  "date": "2026-10-23T07:00:31Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "LRA Garmisch-Partenkirchen, Olympiastr. 10, 82467 Garmisch-Partenkirchen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.lra-gap.de",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "LRA Garmisch-Partenkirchen, Olympiastr. 10, 82467 Garmisch-Partenkirchen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.lra-gap.de"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "LRA Garmisch-Partenkirchen, Olympiastr. 10, 82467 Garmisch-Partenkirchen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.lra-gap.de",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "LRA Garmisch-Partenkirchen, Olympiastr. 10, 82467 Garmisch-Partenkirchen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.lra-gap.de"
+   }
+  },
+  "tender": {
+   "title": "ZUG / Leit- und Orientierungssystem",
+   "description": "ZUG / Leit- und Orientierungssystem",
+   "procuringEntity": {
+    "name": "LRA Garmisch-Partenkirchen, Olympiastr. 10, 82467 Garmisch-Partenkirchen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.lra-gap.de"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "82467 Garmisch-Partenkirchen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/besuJs/BekLanding4Bund?z_param=2026-11-0431187",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "ZUG / Leit- und Orientierungssystem",
+     "description": "ZUG / Leit- und Orientierungssystem"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25960046",
+  "version": "1",
+  "title": "ZUG / Leit- und Orientierungssystem",
+  "description": "ZUG / Leit- und Orientierungssystem",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "ZUG / Leit- und Orientierungssystem",
+    "description": "ZUG / Leit- und Orientierungssystem",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-10T00:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

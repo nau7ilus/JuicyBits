@@ -1,0 +1,211 @@
+{
+ "id": "5369c603-95b7-466d-b4a4-f76bc08d9e52-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "5369c603-95b7-466d-b4a4-f76bc08d9e52",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5369c603-95b7-466d-b4a4-f76bc08d9e52",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:5369c603-95b7-466d-b4a4-f76bc08d9e52-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:5369c603-95b7-466d-b4a4-f76bc08d9e52-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5369c603-95b7-466d-b4a4-f76bc08d9e52?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Einrichtung und Ausstattung einer Elektro-Ausbildungswerkstatt",
+  "buyer": "Überbetriebliches Bildungszentrum in Ostbayern gGmbH",
+  "cpv": [
+   "39180000",
+   "39150000",
+   "39173000"
+  ],
+  "nuts": [
+   "DE237"
+  ],
+  "deadline": "2026-11-24T09:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5369c603-95b7-466d-b4a4-f76bc08d9e52",
+  "id": "5369c603-95b7-466d-b4a4-f76bc08d9e52",
+  "date": "2026-10-24T13:24:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Überbetriebliches Bildungszentrum in Ostbayern gGmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "14201",
+     "legalName": "Überbetriebliches Bildungszentrum in Ostbayern gGmbH"
+    },
+    "address": {
+     "streetAddress": "Paul-Engel-Straße 1",
+     "locality": "Weiherhammer",
+     "region": "DE237",
+     "postalCode": "92729",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "80b396f9-0130-46f7-b18b-9c56d549ed38",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Überbetriebliches Bildungszentrum in Ostbayern gGmbH",
+   "id": "14201",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Überbetriebliches Bildungszentrum in Ostbayern gGmbH"
+   },
+   "address": {
+    "streetAddress": "Paul-Engel-Straße 1",
+    "locality": "Weiherhammer",
+    "region": "DE237",
+    "postalCode": "92729",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5369c603-95b7-466d-b4a4-f76bc08d9e52",
+   "title": "Einrichtung und Ausstattung einer Elektro-Ausbildungswerkstatt",
+   "description": "Einrichtung und Ausstattung einer Elektro-Ausbildungswerkstatt nach selbstorganisierten und digitalisierten Lehr-/Lernkonzept.",
+   "procuringEntity": {
+    "name": "Überbetriebliches Bildungszentrum in Ostbayern gGmbH",
+    "id": "14201"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39180000",
+      "description": "Laboratory furniture"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39150000",
+       "description": "Miscellaneous furniture and equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39173000",
+       "description": "Storage units"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE237",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 120000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/5369c603-95b7-466d-b4a4-f76bc08d9e52",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Einrichtung und Ausstattung einer Elektro-Ausbildungswerkstatt",
+     "description": "Auftraggeber ist das Überbetriebliche Bildungszentrum in Ostbayern (ÜBZO) GmbH. Ziel der Ausschreibung ist die Beschaffung einer Vollausstattung, bezogen auf das Mobiliar, einer Ausbildungswerkstatt für elektrotechnische Berufe. Die Ausschreibung umfasst ein Mobiliar für die Aufbewahrung, bzw. Lagerung von Ausbildungsmaterialien und Arbeitsplätze, für theoretische wie auch für praktische Schulungsinhalte, für Unterrichtende und Teilnehmende. Die Arbeitsplätze sollen dabei für den Theorie- sowie auch für den praktischen Unterricht geeignet und flexibel kombinierbar, bzw. auch individuell anpassbar sein. Zentrales Element der Arbeitsplätze soll dabei eine Vernetzung der Arbeitsplätze untereinander sein. Dem Unterrichtenden soll dadurch die Möglichkeit gegeben werden, bestimmte Funktionen, beispielsweise die Spannungsversorgung oder die Öffnung von Werkzeugschüben, von zentraler Stelle aus für alle Teilnehmenden, Gruppen von Teilnehmenden oder auch individuell für einen einzelnen Teilnehmenden, freizuschalten, oder auch Informationen an den jeweiligen Arbeitsplatz zu senden, oder zu empfangen. Die detaillierten Anforderungen an die Ausstattung der Ausbildungswerkstatt sind den angehängten Unterlagen entnehmbar.",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "5369c603-95b7-466d-b4a4-f76bc08d9e52",
+  "version": "01",
+  "title": "Einrichtung und Ausstattung einer Elektro-Ausbildungswerkstatt",
+  "description": "Einrichtung und Ausstattung einer Elektro-Ausbildungswerkstatt nach selbstorganisierten und digitalisierten Lehr-/Lernkonzept.",
+  "procedureType": "open",
+  "nuts": [
+   "DE237"
+  ],
+  "cpv": [
+   "39180000",
+   "39150000",
+   "39173000"
+  ],
+  "estimatedValue": {
+   "amount": 120000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Einrichtung und Ausstattung einer Elektro-Ausbildungswerkstatt",
+    "description": "Auftraggeber ist das Überbetriebliche Bildungszentrum in Ostbayern (ÜBZO) GmbH. Ziel der Ausschreibung ist die Beschaffung einer Vollausstattung, bezogen auf das Mobiliar, einer Ausbildungswerkstatt für elektrotechnische Berufe. Die Ausschreibung umfasst ein Mobiliar für die Aufbewahrung, bzw. Lagerung von Ausbildungsmaterialien und Arbeitsplätze, für theoretische wie auch für praktische Schulungsinhalte, für Unterrichtende und Teilnehmende. Die Arbeitsplätze sollen dabei für den Theorie- sowie auch für den praktischen Unterricht geeignet und flexibel kombinierbar, bzw. auch individuell anpassbar sein. Zentrales Element der Arbeitsplätze soll dabei eine Vernetzung der Arbeitsplätze untereinander sein. Dem Unterrichtenden soll dadurch die Möglichkeit gegeben werden, bestimmte Funktionen, beispielsweise die Spannungsversorgung oder die Öffnung von Werkzeugschüben, von zentraler Stelle aus für alle Teilnehmenden, Gruppen von Teilnehmenden oder auch individuell für einen einzelnen Teilnehmenden, freizuschalten, oder auch Informationen an den jeweiligen Arbeitsplatz zu senden, oder zu empfangen. Die detaillierten Anforderungen an die Ausstattung der Ausbildungswerkstatt sind den angehängten Unterlagen entnehmbar.",
+    "cpv": [
+     "39180000",
+     "39150000",
+     "39173000"
+    ],
+    "nuts": [
+     "DE237"
+    ],
+    "deadline": "2026-11-24T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Die Bietende muss ein eingetragenes Unternehmen sein."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

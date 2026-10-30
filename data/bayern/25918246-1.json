@@ -1,0 +1,145 @@
+{
+ "id": "25918246-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25918246",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25918246",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25918246-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25918246-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25918246?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag Baumpflege 2027",
+  "buyer": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+  "cpv": [
+   "45112700",
+   "77211500"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-27T09:20:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25918246",
+  "id": "25918246",
+  "date": "2026-10-22T07:01:03Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum"
+   }
+  },
+  "tender": {
+   "title": "Rahmenvertrag Baumpflege 2027",
+   "description": "Baumpflege im Stadtgebiet Nürnberg von Straßenbäumen, Bäumen in Grün- und\nSpielanlagen und Bäumen externer Dienststellen sowie des Liegenschaftsamtes. Im\nZeitraum 2027, mit Option auf Verlängerung bis 2028\n\nRahmenvertrag Baumpflege 2027",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112700",
+      "description": "Landscaping work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "77211500",
+       "description": "Tree-maintenance services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "90489 Stadtgebiet Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/55f6e3e9-3217-4c5c-b67a-f2ee723d43cd",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rahmenvertrag Baumpflege 2027",
+     "description": "Baumpflege im Stadtgebiet Nürnberg von Straßenbäumen, Bäumen in Grün- und\nSpielanlagen und Bäumen externer Dienststellen sowie des Liegenschaftsamtes. Im\nZeitraum 2027, mit Option auf Verlängerung bis 2028\n\nRahmenvertrag Baumpflege 2027"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25918246",
+  "version": "1",
+  "title": "Rahmenvertrag Baumpflege 2027",
+  "description": "Baumpflege im Stadtgebiet Nürnberg von Straßenbäumen, Bäumen in Grün- und\nSpielanlagen und Bäumen externer Dienststellen sowie des Liegenschaftsamtes. Im\nZeitraum 2027, mit Option auf Verlängerung bis 2028\n\nRahmenvertrag Baumpflege 2027",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45112700",
+   "77211500"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvertrag Baumpflege 2027",
+    "description": "Baumpflege im Stadtgebiet Nürnberg von Straßenbäumen, Bäumen in Grün- und\nSpielanlagen und Bäumen externer Dienststellen sowie des Liegenschaftsamtes. Im\nZeitraum 2027, mit Option auf Verlängerung bis 2028\n\nRahmenvertrag Baumpflege 2027",
+    "cpv": [
+     "45112700",
+     "77211500"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-27T09:20:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

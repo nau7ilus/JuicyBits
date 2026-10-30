@@ -1,0 +1,248 @@
+{
+ "id": "b8c500bf-3b19-49f7-9b24-864a111b47aa-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "b8c500bf-3b19-49f7-9b24-864a111b47aa",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b8c500bf-3b19-49f7-9b24-864a111b47aa",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:b8c500bf-3b19-49f7-9b24-864a111b47aa-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:b8c500bf-3b19-49f7-9b24-864a111b47aa-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b8c500bf-3b19-49f7-9b24-864a111b47aa?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "118 KliPrien BA3 - RoMed Klinik Prien am Chiemsee-Erneuerung Funktionsbau - 118-4302 Lüftung BT A",
+  "buyer": "Kliniken der Stadt und des Lkr. Rosenheim GmbH",
+  "cpv": [
+   "45331200",
+   "45331000",
+   "45331210"
+  ],
+  "nuts": [
+   "DE213",
+   "DE21K"
+  ],
+  "deadline": "2026-11-24T10:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b8c500bf-3b19-49f7-9b24-864a111b47aa",
+  "id": "b8c500bf-3b19-49f7-9b24-864a111b47aa",
+  "date": "2026-10-22T02:06:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Kliniken der Stadt und des Lkr. Rosenheim GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2941",
+     "legalName": "Kliniken der Stadt und des Lkr. Rosenheim GmbH"
+    },
+    "address": {
+     "streetAddress": "Pettenkoferstraße 10",
+     "locality": "Rosenheim",
+     "region": "DE213",
+     "postalCode": "83022",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "e64c3d3b-67d3-494f-8873-443cc103d44b",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Kliniken der Stadt und des Lkr. Rosenheim GmbH",
+   "id": "2941",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Kliniken der Stadt und des Lkr. Rosenheim GmbH"
+   },
+   "address": {
+    "streetAddress": "Pettenkoferstraße 10",
+    "locality": "Rosenheim",
+    "region": "DE213",
+    "postalCode": "83022",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b8c500bf-3b19-49f7-9b24-864a111b47aa",
+   "title": "118 KliPrien BA3 - RoMed Klinik Prien am Chiemsee-Erneuerung Funktionsbau - 118-4302 Lüftung BT A",
+   "description": "RoMed Klinik Prien am Chiemsee – Erneuerung Funktionsbau",
+   "procuringEntity": {
+    "name": "Kliniken der Stadt und des Lkr. Rosenheim GmbH",
+    "id": "2941"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331200",
+      "description": "Ventilation and air-conditioning installation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45331000",
+       "description": "Heating, ventilation and air-conditioning installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45331210",
+       "description": "Ventilation installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE21K",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/b8c500bf-3b19-49f7-9b24-864a111b47aa",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "118 KliPrien BA3 - RoMed Klinik Prien am Chiemsee-Erneuerung Funktionsbau - 118-4302 Lüftung BT A",
+     "description": "1 Stck Zu- und Abluiftgerät á 23.000 m³/h\t\t\t\n1 Stck Zu- und Abluiftgerät á 15.000 m³/h\t\t\t\n4.500 m² Luftkanäle und Formstücke verzinkt \t\t\t\n580 m² Luftkanäle und Formstücke Edelstahl\t\t\t\n630 m Luftrohre verzinkt bis DN 250\t\t\t\n1 Stck Fortluft-Kamin DN 1000 - 4,5 m\t\t\t\n1 Stck Fortluft-Kamin DN 1600 - 4,7 m\t\t\t\n46 Stck Variable Volumenstromregler\t\t\t\n160 Stck Drallauslässe bis Größe 600\t\t\t\n27 Stck Filter-Auslässe H13\t\t\t\n115 Stck Brandschutzklappen\t\t\t\n270 m Demontage Luftrohre",
+     "contractPeriod": {
+      "startDate": "2027-03-11T00:00:00+01:00",
+      "endDate": "2028-12-15T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "552527-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "552527-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b8c500bf-3b19-49f7-9b24-864a111b47aa",
+  "version": "01",
+  "title": "118 KliPrien BA3 - RoMed Klinik Prien am Chiemsee-Erneuerung Funktionsbau - 118-4302 Lüftung BT A",
+  "description": "RoMed Klinik Prien am Chiemsee – Erneuerung Funktionsbau",
+  "procedureType": "open",
+  "nuts": [
+   "DE21K"
+  ],
+  "cpv": [
+   "45331000",
+   "45331200",
+   "45331210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "118 KliPrien BA3 - RoMed Klinik Prien am Chiemsee-Erneuerung Funktionsbau - 118-4302 Lüftung BT A",
+    "description": "1 Stck Zu- und Abluiftgerät á 23.000 m³/h\t\t\t\n1 Stck Zu- und Abluiftgerät á 15.000 m³/h\t\t\t\n4.500 m² Luftkanäle und Formstücke verzinkt \t\t\t\n580 m² Luftkanäle und Formstücke Edelstahl\t\t\t\n630 m Luftrohre verzinkt bis DN 250\t\t\t\n1 Stck Fortluft-Kamin DN 1000 - 4,5 m\t\t\t\n1 Stck Fortluft-Kamin DN 1600 - 4,7 m\t\t\t\n46 Stck Variable Volumenstromregler\t\t\t\n160 Stck Drallauslässe bis Größe 600\t\t\t\n27 Stck Filter-Auslässe H13\t\t\t\n115 Stck Brandschutzklappen\t\t\t\n270 m Demontage Luftrohre",
+    "cpv": [
+     "45331200",
+     "45331000",
+     "45331210"
+    ],
+    "nuts": [
+     "DE21K"
+    ],
+    "deadline": "2026-11-24T10:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-11+01:00",
+    "plannedEnd": "2028-12-15+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignung ist durch Vorlage der PQ-Nr. oder durch das ausgefüllte Formblatt 124 (in den Vergabeunterlagen aufgeführt oder unter https://www.stmb.bayern.de/assets/stmi/buw/bauthemen/vergabeundvertragswesen/vhb/z5_vergabe_bauauftraege_formblatt_124_eigenerklaerung.pdf einsehbar) mit dem Angebot nachzuweisen. Nachfolgende Unterlagen sind auf Aufforderung ergänzend zur Vorlage der PQ-Nr. oder des Formblattes 124 einzureichen: 1. Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse 2. Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen 3. Freistellungsbescheinigung nach § 48b EStG 4. Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für das Unternehmen zuständige Versicherungsträgers mit Angabe der Lohnsummen"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Bescheinigung über die Eintragung in das Berufsregister"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Handelsregister und der Handwerksrolle ihres Sitzes oder Wohnsitzes"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer bestehenden Betriebshaftpflichtversicherung in angemessener Höhe"
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "1. Vorlage von Jahresabschlüssen aus den letzten 3 Geschäftsjahren, falls deren Veröffentlichung in dem Land, in dem das Unternehmen ansässig ist, gesetzlich vorgeschrieben ist. 2. Eine Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "3 Referenzen über die Ausführung von Leistungen in den letzten bis zu fünf abgeschlossenen Kalenderjahren, die mit der zu vergebenden Leistung vergleichbar sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angaben über die Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischem Leitungspersonal."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Angabe, welche Teile des Auftrags der Unternehmer unter Umständen als Unteraufträge zu vergeben beabsichtigt werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preiskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,562 @@
+{
+ "id": "e9c32ad5-3a6e-4c75-b59f-c6e1c545851f-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "e9c32ad5-3a6e-4c75-b59f-c6e1c545851f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e9c32ad5-3a6e-4c75-b59f-c6e1c545851f",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:e9c32ad5-3a6e-4c75-b59f-c6e1c545851f-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:e9c32ad5-3a6e-4c75-b59f-c6e1c545851f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e9c32ad5-3a6e-4c75-b59f-c6e1c545851f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Forstbetrieb Bad Brückenau:  Rückung und Lagerung ab GJ27",
+  "buyer": "Bayerische Staatsforsten AöR ",
+  "cpv": [
+   "77230000"
+  ],
+  "nuts": [
+   "DE232",
+   "DE265"
+  ],
+  "deadline": null,
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-650739ca-0f62-450f-a5a4-56d13ed998ec",
+  "id": "e9c32ad5-3a6e-4c75-b59f-c6e1c545851f",
+  "date": "2026-10-21T02:12:21Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerische Staatsforsten AöR ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916",
+     "legalName": "Bayerische Staatsforsten AöR "
+    },
+    "address": {
+     "streetAddress": "Tillystraße 2",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "bada5385-97e8-408b-a297-d300c60d0880",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Forstunternehmen Kohl GbR",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "050d811a-3667-43a5-a15d-6f9a9c146345",
+     "legalName": "Forstunternehmen Kohl GbR"
+    },
+    "address": {
+     "locality": "Riedenberg",
+     "region": "DE265",
+     "postalCode": "97792",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Helmut Bahn",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "651fde1d-1c72-4137-90f1-cde66306becd",
+     "legalName": "Helmut Bahn"
+    },
+    "address": {
+     "locality": "Wittershausen",
+     "region": "DE265",
+     "postalCode": "97723",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Zeier/Kleinhenz GmbH",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "076bfbdd-ec60-446e-b949-d96750798747",
+     "legalName": "Zeier/Kleinhenz GmbH"
+    },
+    "address": {
+     "locality": "Mitgenfeld",
+     "region": "DE265",
+     "postalCode": "97789",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerische Staatsforsten AöR ",
+   "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerische Staatsforsten AöR "
+   },
+   "address": {
+    "streetAddress": "Tillystraße 2",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "650739ca-0f62-450f-a5a4-56d13ed998ec",
+   "title": "Forstbetrieb Bad Brückenau:  Rückung und Lagerung ab GJ27",
+   "description": "Forstbetrieb Bad Brückenau:  Rückung und Lagerung",
+   "procuringEntity": {
+    "name": "Bayerische Staatsforsten AöR ",
+    "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "77230000",
+      "description": "Services incidental to forestry"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Brückenau",
+      "region": "DE265",
+      "postalCode": "97769",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "77230000",
+      "description": "Services incidental to forestry"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Brückenau",
+      "region": "DE265",
+      "postalCode": "97769",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "77230000",
+      "description": "Services incidental to forestry"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Brückenau",
+      "region": "DE265",
+      "postalCode": "97769",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "77230000",
+      "description": "Services incidental to forestry"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Brückenau",
+      "region": "DE265",
+      "postalCode": "97769",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "value": {
+    "amount": 480000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 3,
+   "tenderers": [
+    {
+     "name": "Forstunternehmen Kohl GbR",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Forstunternehmen Kohl GbR"
+     },
+     "address": {
+      "locality": "Riedenberg",
+      "region": "DE265",
+      "postalCode": "97792",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Helmut Bahn",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Helmut Bahn"
+     },
+     "address": {
+      "locality": "Wittershausen",
+      "region": "DE265",
+      "postalCode": "97723",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Zeier/Kleinhenz GmbH",
+     "identifier": {
+      "id": "ORG-0005",
+      "legalName": "Zeier/Kleinhenz GmbH"
+     },
+     "address": {
+      "locality": "Mitgenfeld",
+      "region": "DE265",
+      "postalCode": "97789",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Bad Brückenau I",
+     "description": "Bad Brückenau I",
+     "contractPeriod": {
+      "startDate": "2026-09-01T00:00:00+02:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Bad Brückenau II",
+     "description": "Bad Brückenau II",
+     "contractPeriod": {
+      "startDate": "2026-09-01T00:00:00+02:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Bad Brückenau III",
+     "description": "Bad Brückenau III",
+     "contractPeriod": {
+      "startDate": "2026-09-01T00:00:00+02:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Bad Brückenau IV",
+     "description": "Bad Brückenau IV",
+     "contractPeriod": {
+      "startDate": "2026-09-01T00:00:00+02:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-08-26T00:00:00+02:00",
+    "value": {
+     "amount": 47025,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-08-26T00:00:00+02:00",
+    "value": {
+     "amount": 47325,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-08-26T00:00:00+02:00",
+    "value": {
+     "amount": 48525,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   },
+   {
+    "id": "LOT-0004",
+    "status": "active",
+    "date": "2026-08-26T00:00:00+02:00",
+    "value": {
+     "amount": 60925,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0004"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-08-25T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-08-25T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-08-25T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e9c32ad5-3a6e-4c75-b59f-c6e1c545851f",
+  "version": "01",
+  "title": "Forstbetrieb Bad Brückenau:  Rückung und Lagerung ab GJ27",
+  "description": "Forstbetrieb Bad Brückenau:  Rückung und Lagerung",
+  "procedureType": "open",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "77230000"
+  ],
+  "estimatedValue": {
+   "amount": 480000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Bad Brückenau I",
+    "description": "Bad Brückenau I",
+    "cpv": [
+     "77230000"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-01+02:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Bad Brückenau II",
+    "description": "Bad Brückenau II",
+    "cpv": [
+     "77230000"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-01+02:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Bad Brückenau III",
+    "description": "Bad Brückenau III",
+    "cpv": [
+     "77230000"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-01+02:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Bad Brückenau IV",
+    "description": "Bad Brückenau IV",
+    "cpv": [
+     "77230000"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-01+02:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

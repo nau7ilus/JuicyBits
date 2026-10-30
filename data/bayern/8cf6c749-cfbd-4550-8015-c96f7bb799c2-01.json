@@ -162,6 +162,8 @@
   "noticeId": "8cf6c749-cfbd-4550-8015-c96f7bb799c2",
   "version": "01",
   "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+  "description": "Das IT-Dienstleistungszentrum (IT-DLZ) im Landesamt für Digitalisierung, Breitband und Vermessung ist der zentrale IT-Dienstleister für die öffentliche Verwaltung in Bayern. \nZiel der Ausschreibung ist eine Dienstleistungsunterstützung im Umfang von 100 PT innerhalb eines Jahres mit dreimaliger Verlängerungsoption um jeweils 100 PT/Jahr (1+1+1+1).",
+  "procedureType": "open",
   "nuts": [
    "DE212"
   ],
@@ -173,6 +175,7 @@
    {
     "id": "LOT-0001",
     "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+    "description": "Das IT-Dienstleistungszentrum (IT-DLZ) im Landesamt für Digitalisierung, Breitband und Vermessung ist der zentrale IT-Dienstleister für die öffentliche Verwaltung in Bayern. \nZiel der Ausschreibung ist eine Dienstleistungsunterstützung im Umfang von 100 PT innerhalb eines Jahres mit dreimaliger Verlängerungsoption um jeweils 100 PT/Jahr (1+1+1+1).",
     "cpv": [
      "72000000"
     ],
@@ -183,6 +186,10 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 1,
+     "unit": "YEAR"
+    },
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -194,7 +201,16 @@
       "type": "slc-abil-mgmt-qual",
       "description": "Beschreiben Sie bezogen auf den Vergabegegenstand, wie Sie ein Höchstmaß an Leistungsqualität mit flexibler Handlungsbereitschaft erreichen werden. Gehen Sie dabei insbesondere auf die organisatorischen Möglichkeiten Ihres Unternehmens ein (z.B. Ausfall des für das IT-DLZ vorgesehenen Mitarbeiters)."
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

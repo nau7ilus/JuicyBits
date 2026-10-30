@@ -1,0 +1,266 @@
+{
+ "id": "cf1015e1-91f3-4056-9bc5-2305138b8baa-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "cf1015e1-91f3-4056-9bc5-2305138b8baa",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=cf1015e1-91f3-4056-9bc5-2305138b8baa",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:cf1015e1-91f3-4056-9bc5-2305138b8baa-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:cf1015e1-91f3-4056-9bc5-2305138b8baa-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/cf1015e1-91f3-4056-9bc5-2305138b8baa?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Fassadenarbeiten SFZ Bonbruck",
+  "buyer": "Landratsamt Landshut Kreiseigener Hochbau",
+  "cpv": [
+   "45443000"
+  ],
+  "nuts": [
+   "DE227"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-629a6e54-486c-4a7f-968f-4c9116fb4310",
+  "id": "cf1015e1-91f3-4056-9bc5-2305138b8baa",
+  "date": "2026-10-20T10:02:16Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landshut Kreiseigener Hochbau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09274",
+     "legalName": "Landratsamt Landshut Kreiseigener Hochbau"
+    },
+    "address": {
+     "streetAddress": "Josef-Neumeier-Allee 1\n",
+     "locality": "Essenbach",
+     "region": "DE227",
+     "postalCode": "84051",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern\nVergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern\nVergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Frahammer GmbH & Co.KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0000",
+     "legalName": "Frahammer GmbH & Co.KG"
+    },
+    "address": {
+     "streetAddress": "Laichanger 36",
+     "locality": "Pöttmes",
+     "region": "DE275",
+     "postalCode": "86554 ",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landshut Kreiseigener Hochbau",
+   "id": "09274",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landshut Kreiseigener Hochbau"
+   },
+   "address": {
+    "streetAddress": "Josef-Neumeier-Allee 1\n",
+    "locality": "Essenbach",
+    "region": "DE227",
+    "postalCode": "84051",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "629a6e54-486c-4a7f-968f-4c9116fb4310",
+   "title": "Fassadenarbeiten SFZ Bonbruck",
+   "description": "Fassadenarbeiten SFZ Bonbruck",
+   "procuringEntity": {
+    "name": "Landratsamt Landshut Kreiseigener Hochbau",
+    "id": "09274"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45443000",
+      "description": "Facade work"
+     },
+     "deliveryLocation": {
+      "description": "Details https://plattform.aumass.de/Veroeffentlichung/av281953-eu"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Erdmannsdorfer Straße 13",
+      "locality": "Bonbruck",
+      "region": "DE227",
+      "postalCode": "84155",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-09-18T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Frahammer GmbH & Co.KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Frahammer GmbH & Co.KG"
+     },
+     "address": {
+      "streetAddress": "Laichanger 36",
+      "locality": "Pöttmes",
+      "region": "DE275",
+      "postalCode": "86554 ",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fasssadenarbeiten SFZ Bonbruck",
+     "description": "Fassadenarbeiten SFZ Bonbruck",
+     "contractPeriod": {
+      "startDate": "2026-09-14T00:00:00+02:00",
+      "endDate": "2028-07-28T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-29T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Frahammer GmbH & Co.KG",
+      "id": "0000",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Frahammer GmbH & Co.KG"
+      },
+      "address": {
+       "streetAddress": "Laichanger 36",
+       "locality": "Pöttmes",
+       "region": "DE275",
+       "postalCode": "86554 ",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-28T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "cf1015e1-91f3-4056-9bc5-2305138b8baa",
+  "version": "01",
+  "title": "Fassadenarbeiten SFZ Bonbruck",
+  "description": "Fassadenarbeiten SFZ Bonbruck",
+  "procedureType": "open",
+  "nuts": [
+   "DE227"
+  ],
+  "cpv": [
+   "45443000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fasssadenarbeiten SFZ Bonbruck",
+    "description": "Fassadenarbeiten SFZ Bonbruck",
+    "cpv": [
+     "45443000"
+    ],
+    "nuts": [
+     "DE227"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-14+02:00",
+    "plannedEnd": "2028-07-28+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Details https://plattform.aumass.de/Veroeffentlichung/av281953-eu",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

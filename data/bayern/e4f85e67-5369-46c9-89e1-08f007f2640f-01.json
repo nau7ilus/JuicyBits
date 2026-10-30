@@ -1,0 +1,280 @@
+{
+ "id": "e4f85e67-5369-46c9-89e1-08f007f2640f-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "e4f85e67-5369-46c9-89e1-08f007f2640f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e4f85e67-5369-46c9-89e1-08f007f2640f",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:e4f85e67-5369-46c9-89e1-08f007f2640f-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:e4f85e67-5369-46c9-89e1-08f007f2640f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e4f85e67-5369-46c9-89e1-08f007f2640f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Technische Gebäudeausrüstung HKLS",
+  "buyer": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+  "cpv": [
+   "71321000"
+  ],
+  "nuts": [
+   "DE21L"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d02e5247-73ce-42b3-b1bf-5c52b7cfd989",
+  "id": "e4f85e67-5369-46c9-89e1-08f007f2640f",
+  "date": "2026-10-20T10:05:01Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE252001456",
+     "legalName": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU"
+    },
+    "address": {
+     "streetAddress": "Mitterweg 1",
+     "locality": "Herrsching",
+     "region": "DE21L",
+     "postalCode": "82211",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern – Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern – Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "TGA-Consult GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE369557580",
+     "legalName": "TGA-Consult GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Fraunhoferstraße 9",
+     "locality": "Planegg/Martinsried",
+     "region": "DE21H",
+     "postalCode": "82152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+   "id": "DE252001456",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU"
+   },
+   "address": {
+    "streetAddress": "Mitterweg 1",
+    "locality": "Herrsching",
+    "region": "DE21L",
+    "postalCode": "82211",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d02e5247-73ce-42b3-b1bf-5c52b7cfd989",
+   "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Technische Gebäudeausrüstung HKLS",
+   "description": "Fachplanung Technische Gebäudeausrüstung (Anlagengruppen 1, 2, 3, 7 und 8 nach § 53 HOAI) für den Neubau des Unternehmensstandorts der AWA Ammersee in Herrsching (Verwaltung, Betriebsgebäude, Halle, Wohnen, Tiefgarage).",
+   "procuringEntity": {
+    "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+    "id": "DE252001456"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71321000",
+      "description": "Engineering design services for mechanical and electrical installations for buildings"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Grundstück Fl.Nr. 408/1 Heinestraße",
+      "locality": "Herrsching",
+      "region": "DE21L",
+      "postalCode": "82211",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-04-23T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "TGA-Consult GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "TGA-Consult GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Fraunhoferstraße 9",
+      "locality": "Planegg/Martinsried",
+      "region": "DE21H",
+      "postalCode": "82152",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Technische Gebäudeausrüstung HKLS",
+     "description": "Fachplanung Technische Gebäudeausrüstung (Anlagengruppen 1, 2, 3, 7 und 8 nach § 53 HOAI) für den Neubau des Unternehmensstandorts der AWA Ammersee in Herrsching (Verwaltung, Betriebsgebäude, Halle, Wohnen, Tiefgarage).",
+     "contractPeriod": {
+      "startDate": "2026-04-23T00:00:00+02:00",
+      "endDate": "2033-05-27T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Fachplanung Technische Gebäudeausrüstung HKLS (Anlagengruppen 1, 2, 3, 7 und 8 nach § 53 HOAI) – NBU AWA Ammersee",
+    "status": "active",
+    "date": "2026-04-23T00:00:00+02:00",
+    "value": {
+     "amount": 425295.65,
+     "currency": "EUR"
+    },
+    "suppliers": [
+     {
+      "name": "TGA-Consult GmbH & Co. KG",
+      "id": "DE369557580",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "TGA-Consult GmbH & Co. KG"
+      },
+      "address": {
+       "streetAddress": "Fraunhoferstraße 9",
+       "locality": "Planegg/Martinsried",
+       "region": "DE21H",
+       "postalCode": "82152",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Fachplanung Technische Gebäudeausrüstung HKLS (Anlagengruppen 1, 2, 3, 7 und 8 nach § 53 HOAI) – NBU AWA Ammersee",
+    "status": "active",
+    "value": {
+     "amount": 331891.37,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-04-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e4f85e67-5369-46c9-89e1-08f007f2640f",
+  "version": "01",
+  "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Technische Gebäudeausrüstung HKLS",
+  "description": "Fachplanung Technische Gebäudeausrüstung (Anlagengruppen 1, 2, 3, 7 und 8 nach § 53 HOAI) für den Neubau des Unternehmensstandorts der AWA Ammersee in Herrsching (Verwaltung, Betriebsgebäude, Halle, Wohnen, Tiefgarage).",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21L"
+  ],
+  "cpv": [
+   "71321000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Technische Gebäudeausrüstung HKLS",
+    "description": "Fachplanung Technische Gebäudeausrüstung (Anlagengruppen 1, 2, 3, 7 und 8 nach § 53 HOAI) für den Neubau des Unternehmensstandorts der AWA Ammersee in Herrsching (Verwaltung, Betriebsgebäude, Halle, Wohnen, Tiefgarage).",
+    "cpv": [
+     "71321000"
+    ],
+    "nuts": [
+     "DE21L"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-04-23+02:00",
+    "plannedEnd": "2033-05-27+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualität des eingesetzten Personals",
+      "description": "Qualität des eingesetzten Personals",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Lösungsvorschlag",
+      "description": "Unterkriterien: Projektverständnis 10, Methodisches Vorgehen 15, Technische Grundhaltung 15, Projektorganisation 5, Kostenmanagement 8, Qualitätssicherung 7 Punkte.",
+      "weight": 60
+     },
+     {
+      "type": "price",
+      "name": "Honorarangebot",
+      "description": "Honorarangebot",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "id": "007af362-53aa-4b97-b93b-3b4b33a90524-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "007af362-53aa-4b97-b93b-3b4b33a90524",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=007af362-53aa-4b97-b93b-3b4b33a90524",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:007af362-53aa-4b97-b93b-3b4b33a90524-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:007af362-53aa-4b97-b93b-3b4b33a90524-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/007af362-53aa-4b97-b93b-3b4b33a90524?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "OTH MZH Daemmung",
+  "buyer": "Staatliches Bauamt Amberg-Sulzbach",
+  "cpv": [
+   "45321000"
+  ],
+  "nuts": [
+   "DE231"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-68995fdf-0430-4b0c-bf7f-f2784219b65e",
+  "id": "007af362-53aa-4b97-b93b-3b4b33a90524",
+  "date": "2026-10-16T02:06:24Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Amberg-Sulzbach",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:096213070",
+     "legalName": "Staatliches Bauamt Amberg-Sulzbach"
+    },
+    "address": {
+     "streetAddress": "Archivstraße 1",
+     "locality": "Amberg",
+     "region": "DE231",
+     "postalCode": "92224",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ISO-BASARAN Süd GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE341248722",
+     "legalName": "ISO-BASARAN Süd GmbH"
+    },
+    "address": {
+     "streetAddress": "Georg-Wimmer-Ring 1",
+     "locality": "Zorneding",
+     "region": "DE218",
+     "postalCode": "85604",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Amberg-Sulzbach",
+   "id": "t:096213070",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Amberg-Sulzbach"
+   },
+   "address": {
+    "streetAddress": "Archivstraße 1",
+    "locality": "Amberg",
+    "region": "DE231",
+    "postalCode": "92224",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "68995fdf-0430-4b0c-bf7f-f2784219b65e",
+   "title": "OTH MZH Daemmung",
+   "description": "Ostbayerische Technische Hochschule (OTH) Amberg Brandschutz u. Substanzerhaltung Bestand MNr.: B31HE151010009 Dämmarbeiten ca. 235 m Rohr-Isolierung aus PE-Schaumstoff 9mm ca. 380 m Rohr-Isolierung Mineralwolle mit Blechmantel verzinkt ca. 470 m Rohr-Isolierung Mineralwolle ca. 70 m Rohr-Isolierung flexibler Elastomerschaumstoff mit Blechmantel verzinkt ca. 420 m Rohr-Isolierung flexibler Elastomerschaumstoff ca. 65 m Rohr-Isolierung aus Steinwollschale mit verstärkter Alukaschierung als Kältedämmung ca. 30 m Lüftungsrohrisolierung aus Mineralwolle mit Blechmantel verzinkt ca. 565 m² Lüftungskanalisolierung eckig Mineralwolle mit Blechmantel verzinkt ca. 330 m² Lüftungskanalisolierung eckig Mineralwolle ca. 85 m² Lüftungskanalisolierung eckig flexibler Elastomerschaumstoff ca. 100 St. Brandschutzdurchführungen ca. 750 l Brandschutzmörtel",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Amberg-Sulzbach",
+    "id": "t:096213070"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45321000",
+      "description": "Thermal insulation work"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-07-10T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "ISO-BASARAN Süd GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "ISO-BASARAN Süd GmbH"
+     },
+     "address": {
+      "streetAddress": "Georg-Wimmer-Ring 1",
+      "locality": "Zorneding",
+      "region": "DE218",
+      "postalCode": "85604",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "OTH MZH Daemmung",
+     "description": "Sanierung Mehrzweckhalle der OTH Amberg\nDämmarbeiten",
+     "contractPeriod": {
+      "startDate": "2026-07-28T00:00:00+02:00",
+      "endDate": "2027-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "OTH MZH Daemmung",
+    "status": "active",
+    "date": "2026-07-21T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "ISO-BASARAN Süd GmbH",
+      "id": "DE341248722",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "ISO-BASARAN Süd GmbH"
+      },
+      "address": {
+       "streetAddress": "Georg-Wimmer-Ring 1",
+       "locality": "Zorneding",
+       "region": "DE218",
+       "postalCode": "85604",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "OTH MZH Daemmung",
+    "status": "active",
+    "value": {
+     "amount": 137714.23,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-07-20T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "289188-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "289188-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "007af362-53aa-4b97-b93b-3b4b33a90524",
+  "version": "01",
+  "title": "OTH MZH Daemmung",
+  "description": "Ostbayerische Technische Hochschule (OTH) Amberg Brandschutz u. Substanzerhaltung Bestand MNr.: B31HE151010009 Dämmarbeiten ca. 235 m Rohr-Isolierung aus PE-Schaumstoff 9mm ca. 380 m Rohr-Isolierung Mineralwolle mit Blechmantel verzinkt ca. 470 m Rohr-Isolierung Mineralwolle ca. 70 m Rohr-Isolierung flexibler Elastomerschaumstoff mit Blechmantel verzinkt ca. 420 m Rohr-Isolierung flexibler Elastomerschaumstoff ca. 65 m Rohr-Isolierung aus Steinwollschale mit verstärkter Alukaschierung als Kältedämmung ca. 30 m Lüftungsrohrisolierung aus Mineralwolle mit Blechmantel verzinkt ca. 565 m² Lüftungskanalisolierung eckig Mineralwolle mit Blechmantel verzinkt ca. 330 m² Lüftungskanalisolierung eckig Mineralwolle ca. 85 m² Lüftungskanalisolierung eckig flexibler Elastomerschaumstoff ca. 100 St. Brandschutzdurchführungen ca. 750 l Brandschutzmörtel",
+  "procedureType": "open",
+  "nuts": [
+   "DE231"
+  ],
+  "cpv": [
+   "45321000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "OTH MZH Daemmung",
+    "description": "Sanierung Mehrzweckhalle der OTH Amberg\nDämmarbeiten",
+    "cpv": [
+     "45321000"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-07-28+02:00",
+    "plannedEnd": "2027-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Kriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

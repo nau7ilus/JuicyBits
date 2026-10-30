@@ -5,14 +5,14 @@
   "noticeId": "81a617c7-bccb-42e4-8b20-096c06f82776",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=81a617c7-bccb-42e4-8b20-096c06f82776",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:81a617c7-bccb-42e4-8b20-096c06f82776-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:81a617c7-bccb-42e4-8b20-096c06f82776-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/81a617c7-bccb-42e4-8b20-096c06f82776?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Realschule Eggenfelden BA 5, Innentüren",
   "buyer": "Landkreis Rottal-Inn",
   "cpv": [
@@ -218,5 +218,56 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "81a617c7-bccb-42e4-8b20-096c06f82776",
+  "version": "01",
+  "title": "Realschule Eggenfelden BA 5, Innentüren",
+  "description": "Realschule Eggenfelden, Bauabschnitt 5, Innentüren",
+  "procedureType": "open",
+  "nuts": [
+   "DE22A"
+  ],
+  "cpv": [
+   "45214220",
+   "45262800",
+   "45421111",
+   "45421131"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Realschule Eggenfelden BA 5, Innentüren",
+    "description": "- 17 Stück Stahlzargen mit verglastem Seitenteil und Oberlicht - 8 Stück Stahlzarge mit verglastem Oberlicht - 3 Stück Stahlzarge - 1 Stück T30-Türelement - 1 Stück festverglastes Fensterelement mit Stahlzarge - 29 Stück Holztürblatter - 3 Stück ITS mit Freilauffunktion",
+    "cpv": [
+     "45214220",
+     "45262800",
+     "45421111",
+     "45421131"
+    ],
+    "nuts": [
+     "DE22A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-04-05+02:00",
+    "plannedEnd": "2027-06-26+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis ist das alleinige Zuschlagskriterium.",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

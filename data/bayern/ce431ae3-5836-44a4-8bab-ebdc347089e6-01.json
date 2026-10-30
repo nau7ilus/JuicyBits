@@ -1,0 +1,229 @@
+{
+ "id": "ce431ae3-5836-44a4-8bab-ebdc347089e6-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "ce431ae3-5836-44a4-8bab-ebdc347089e6",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ce431ae3-5836-44a4-8bab-ebdc347089e6",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:ce431ae3-5836-44a4-8bab-ebdc347089e6-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:ce431ae3-5836-44a4-8bab-ebdc347089e6-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ce431ae3-5836-44a4-8bab-ebdc347089e6?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Medizinische Geräte LV.377.7",
+  "buyer": "Klinikum Fürth",
+  "cpv": [
+   "33100000"
+  ],
+  "nuts": [
+   "DE253"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4ce97b19-0d99-47c3-8509-66dddf011456",
+  "id": "ce431ae3-5836-44a4-8bab-ebdc347089e6",
+  "date": "2026-10-22T02:08:07Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Fürth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9563000-2X0R4000000-10",
+     "legalName": "Stadt Fürth"
+    },
+    "address": {
+     "streetAddress": "Hirschenstraße 2",
+     "locality": "Fürth",
+     "region": "DE253",
+     "postalCode": "90762",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "reviewContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Klinikum Fürth",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09563000-KLIFUE-33",
+     "legalName": "Klinikum Fürth"
+    },
+    "address": {
+     "streetAddress": "Jakob-Henle-Straße 1",
+     "locality": "Fürth",
+     "region": "DE253",
+     "postalCode": "90766",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "evaluationBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Fürth",
+   "id": "09563000-KLIFUE-33",
+   "identifier": {
+    "id": "ORG-0003",
+    "legalName": "Klinikum Fürth"
+   },
+   "address": {
+    "streetAddress": "Jakob-Henle-Straße 1",
+    "locality": "Fürth",
+    "region": "DE253",
+    "postalCode": "90766",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4ce97b19-0d99-47c3-8509-66dddf011456",
+   "title": "Medizinische Geräte LV.377.7",
+   "description": "Neubau Klinikgebäude BT 6.1.1 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 108.000 m³, aufgeteilt in 2 unterirdische und 5 oberirdische Geschosse mit Anbindung an die Bestandsmagistrale. Neubau Technikzentrale T2 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 10.605 m³, aufgeteilt in 2 unterirdische und 4 oberirdische Geschosse.\n\nDie ausgeschriebene Leistung umfasst die Lieferung von medizinischen Kleingeräten.",
+   "procuringEntity": {
+    "name": "Klinikum Fürth",
+    "id": "09563000-KLIFUE-33"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "33100000",
+      "description": "Medical equipments"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Jakob-Henle-Str. 1",
+      "locality": "Fürth",
+      "region": "DE253",
+      "postalCode": "90766",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304465",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Medizinische Geräte LV.377.7",
+     "description": "Neubau Klinikgebäude BT 6.1.1 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 108.000 m³, aufgeteilt in 2 unterirdische und 5 oberirdische Geschosse mit Anbindung an die Bestandsmagistrale. Neubau Technikzentrale T2 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 10.605 m³, aufgeteilt in 2 unterirdische und 4 oberirdische Geschosse.\n\nDie ausgeschriebene Leistung umfasst die Lieferung von medizinischen Kleingeräten.",
+     "contractPeriod": {
+      "startDate": "2027-04-05T00:00:00+02:00",
+      "endDate": "2027-05-05T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ce431ae3-5836-44a4-8bab-ebdc347089e6",
+  "version": "01",
+  "title": "Medizinische Geräte LV.377.7",
+  "description": "Neubau Klinikgebäude BT 6.1.1 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 108.000 m³, aufgeteilt in 2 unterirdische und 5 oberirdische Geschosse mit Anbindung an die Bestandsmagistrale. Neubau Technikzentrale T2 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 10.605 m³, aufgeteilt in 2 unterirdische und 4 oberirdische Geschosse.\n\nDie ausgeschriebene Leistung umfasst die Lieferung von medizinischen Kleingeräten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE253"
+  ],
+  "cpv": [
+   "33100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Medizinische Geräte LV.377.7",
+    "description": "Neubau Klinikgebäude BT 6.1.1 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 108.000 m³, aufgeteilt in 2 unterirdische und 5 oberirdische Geschosse mit Anbindung an die Bestandsmagistrale. Neubau Technikzentrale T2 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 10.605 m³, aufgeteilt in 2 unterirdische und 4 oberirdische Geschosse.\n\nDie ausgeschriebene Leistung umfasst die Lieferung von medizinischen Kleingeräten.",
+    "cpv": [
+     "33100000"
+    ],
+    "nuts": [
+     "DE253"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-05+02:00",
+    "plannedEnd": "2027-05-05+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Auflistung und kurze Beschreibung der Eignungskriterien – siehe: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304465\n\nUmsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Auflistung und kurze Beschreibung der Eignungskriterien – siehe: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304465\n\nDie Anforderung des Nachweises vergleichbarer Referenzen gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter können sich dazu des PQVerzeichnisses bedienen, soweit dort Nachweise entsprechend vergleichbarer Referenzen hinterlegt sind. Präqualifizierte Bieter sollten prüfen, ob die im PQVerzeichnis hinterlegten Nachweise vergleichbare Referenzen betreffen und die Hinterlegung ggf. entsprechend anpassen. Alternativ können die Referenzen auch mit dem Angebot übermittelt werden. Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Auflistung und kurze Beschreibung der Eignungskriterien – siehe: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304465\n\n- Angaben zur Verfügbarkeit der für die Ausführung der Leistungen erforderlichen Arbeitskräfte"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Auflistung und kurze Beschreibung der Eignungskriterien – siehe: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304465\n\n- Registereintragungen\n- Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung:\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\nSicherheitsleistung für Mängelansprüche:\nDie Sicherheit für Mängelansprüche beträgt 3 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

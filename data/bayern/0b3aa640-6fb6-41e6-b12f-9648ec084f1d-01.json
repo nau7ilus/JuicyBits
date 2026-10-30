@@ -1,0 +1,253 @@
+{
+ "id": "0b3aa640-6fb6-41e6-b12f-9648ec084f1d-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "0b3aa640-6fb6-41e6-b12f-9648ec084f1d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0b3aa640-6fb6-41e6-b12f-9648ec084f1d",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:0b3aa640-6fb6-41e6-b12f-9648ec084f1d-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:0b3aa640-6fb6-41e6-b12f-9648ec084f1d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0b3aa640-6fb6-41e6-b12f-9648ec084f1d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "buyer": "Stadt Mitterteich",
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "nuts": [
+   "DE23A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0be9552a-0e60-4498-b3b7-50b2095fa396",
+  "id": "0b3aa640-6fb6-41e6-b12f-9648ec084f1d",
+  "date": "2026-10-22T02:10:25Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Mitterteich",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09377141",
+     "legalName": "Stadt Mitterteich"
+    },
+    "address": {
+     "streetAddress": "Kirchplatz 12",
+     "locality": "Mitterteich",
+     "region": "DE23A",
+     "postalCode": "95666",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "GlasfaserPlus GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "HRB 111286",
+     "legalName": "GlasfaserPlus GmbH"
+    },
+    "address": {
+     "locality": "Köln ",
+     "region": "DEA23",
+     "postalCode": "51063",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0981531277",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Mitterteich",
+   "id": "09377141",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Mitterteich"
+   },
+   "address": {
+    "streetAddress": "Kirchplatz 12",
+    "locality": "Mitterteich",
+    "region": "DE23A",
+    "postalCode": "95666",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0be9552a-0e60-4498-b3b7-50b2095fa396",
+   "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+   "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+   "procuringEntity": {
+    "name": "Stadt Mitterteich",
+    "id": "09377141"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Kirchplatz 12",
+      "locality": "Mitterteich",
+      "region": "DE23A",
+      "postalCode": "95666",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "GlasfaserPlus GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "GlasfaserPlus GmbH"
+     },
+     "address": {
+      "locality": "Köln ",
+      "region": "DEA23",
+      "postalCode": "51063",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) - Lückenschlussprogramm Aufruf 2025",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen beträgt 47 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-16T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 694053.4,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-15T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "32",
+  "noticeId": "0b3aa640-6fb6-41e6-b12f-9648ec084f1d",
+  "version": "01",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+  "procedureType": null,
+  "nuts": [
+   "DE23A"
+  ],
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) - Lückenschlussprogramm Aufruf 2025",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen beträgt 47 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE23A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

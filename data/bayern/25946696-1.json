@@ -1,0 +1,124 @@
+{
+ "id": "25946696-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25946696",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25946696",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25946696-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25946696-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25946696?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten",
+  "buyer": "AOK Bayern - Die Gesundheitskasse",
+  "cpv": [
+   "45262300-4"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25946696",
+  "id": "25946696",
+  "date": "2026-10-20T19:02:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AOK Bayern - Die Gesundheitskasse",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "AOK Bayern - Die Gesundheitskasse"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AOK Bayern - Die Gesundheitskasse",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AOK Bayern - Die Gesundheitskasse"
+   }
+  },
+  "tender": {
+   "title": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten",
+   "description": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten",
+   "procuringEntity": {
+    "name": "AOK Bayern - Die Gesundheitskasse"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262300-4"
+     },
+     "deliveryAddress": {
+      "locality": "96450 Coburg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten",
+     "description": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25946696",
+  "version": "1",
+  "title": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten",
+  "description": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45262300-4"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten",
+    "description": "Coburg HGST - Belag TG - VE3081 Betonerhaltungsarbeiten",
+    "cpv": [
+     "45262300-4"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

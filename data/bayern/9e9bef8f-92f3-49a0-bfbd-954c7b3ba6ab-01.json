@@ -1,0 +1,359 @@
+{
+ "id": "9e9bef8f-92f3-49a0-bfbd-954c7b3ba6ab-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "9e9bef8f-92f3-49a0-bfbd-954c7b3ba6ab",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9e9bef8f-92f3-49a0-bfbd-954c7b3ba6ab",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:9e9bef8f-92f3-49a0-bfbd-954c7b3ba6ab-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:9e9bef8f-92f3-49a0-bfbd-954c7b3ba6ab-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9e9bef8f-92f3-49a0-bfbd-954c7b3ba6ab?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "städtische Kindergärten Odilostr., Waldeysenstr., Haslangstr.",
+  "buyer": "Stadt Ingolstadt",
+  "cpv": [
+   "90900000"
+  ],
+  "nuts": [
+   "DE211"
+  ],
+  "deadline": "2026-11-26T10:15:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-231fb584-f2b5-4ef1-a3a8-e95ed0a88145",
+  "id": "9e9bef8f-92f3-49a0-bfbd-954c7b3ba6ab",
+  "date": "2026-10-27T03:12:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Ingolstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9001611-50",
+     "legalName": "Stadt Ingolstadt"
+    },
+    "address": {
+     "streetAddress": "Spitalstr. 3",
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "informationService"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Ingolstadt",
+   "id": "09-9001611-50",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Ingolstadt"
+   },
+   "address": {
+    "streetAddress": "Spitalstr. 3",
+    "locality": "Ingolstadt",
+    "region": "DE211",
+    "postalCode": "85049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "231fb584-f2b5-4ef1-a3a8-e95ed0a88145",
+   "title": "städtische Kindergärten Odilostr., Waldeysenstr., Haslangstr.",
+   "description": "städtische Kindergärten Odilostr., Waldeysenstr., Haslangstr.\n\nFlächen ca.:\nKiTa Odilo                   1.237,35m²\nKiTa Waldeysen         1.237,35m²\nKiTa Regenbogen         640,33m²",
+   "procuringEntity": {
+    "name": "Stadt Ingolstadt",
+    "id": "09-9001611-50"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "locality": "Ingolstadt",
+      "region": "DE211",
+      "postalCode": "85049",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "locality": "Ingolstadt",
+      "region": "DE211",
+      "postalCode": "85049",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "locality": "Ingolstadt",
+      "region": "DE211",
+      "postalCode": "85049",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304672",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304672",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304672",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "KiTa Odilostrasse",
+     "description": "städtischer Kindergarten\n\nFläche ca.:\nKiTa Odilo                   1.237,35m²",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "KiTa Waldeysenstrasse",
+     "description": "städtischer Kindergarten\n\nFläche ca.:\nKiTa Waldeysen         1.237,35m²",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "KiTa Regenbogen Haslangstrasse",
+     "description": "städtischer Kindergarten\n\nFläche ca.:\nKiTa Regenbogen         640,33m²",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "9e9bef8f-92f3-49a0-bfbd-954c7b3ba6ab",
+  "version": "01",
+  "title": "städtische Kindergärten Odilostr., Waldeysenstr., Haslangstr.",
+  "description": "städtische Kindergärten Odilostr., Waldeysenstr., Haslangstr.\n\nFlächen ca.:\nKiTa Odilo                   1.237,35m²\nKiTa Waldeysen         1.237,35m²\nKiTa Regenbogen         640,33m²",
+  "procedureType": "open",
+  "nuts": [
+   "DE211"
+  ],
+  "cpv": [
+   "90900000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "KiTa Odilostrasse",
+    "description": "städtischer Kindergarten\n\nFläche ca.:\nKiTa Odilo                   1.237,35m²",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DE211"
+    ],
+    "deadline": "2026-11-26T10:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen:\nsiehe Vergabeunterlagen, insbesondere:\n- Auszug aus dem Gewerbezentralregister oder entsprechende Bescheinigung des EU-Mitgliedsstaates\n- Vorlage eines Nachweises über das Bestehen einer Betriebshaftpflichtversicherung\n- Erklärung Tariftreue\n.\nDie Fachkunde, Leistungsfähigkeit und Zuverlässigkeit (Eignung) ist durch Eintragung in\ndie Präqualifizierungsdatenbank (Präqualifikationsverzeichnis unter www.pq-verein.de) oder\nEigenerklärung gem. Formblatt 124 (Eigenerklärung zur Eignung) bzw. der Einheitliche Europäische\nEigenerklärung (EEE) nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die\nengere Wahl, sind Nachweise und Bescheinigungen zu den Eigenerklärungen binnen 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 bzw. Einheitliche Europäische Eigenerklärung (EEE) auch für diese anderen Unternehmen auf Verlangen innerhalb der genannten Frist vorzulegen. Präqualifizierte Unternehmen legen nur auf gesondertes Verlangen Referenzbescheinigungen vor.\n.\nDas Formblatt 124 (Dateiname: „L 124 EU_Eigenerklärungen zur Eignung(0416).pdf“) ist erhältlich als bearbeitbares Formblatt unter:\nhttp://vergabe.bayern.de innerhalb der jeweiligen Ausschreibung oder unter:\nhttps://www.stmi.bayern.de/buw/bauthemen/vergabeundvertragswesen/bauauftraege/index.php\n.\nDie Einheitliche Europäische Eigenerklärung (EEE) ist erhältlich unter:\nhttps://ec.europa.eu/growth/tools-databases/espd"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Ergänzende Eignungskriterien Geschäftstätigkeit:\nEs ist mindestens eine zweijährige Geschäftstätigkeit (= zwei volle abgeschlossene Geschäftsjahre) vorzuweisen;\nzusätzlich zur Angabe der Umsätze aus den letzten bis zu drei abgeschlossenen Geschäftsjahren.\n\nZudem siehe Beschreibung der Bedingungen unter Sonstiges sowie Auftragsunterlagen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Ergänzende Eignungskriterien Referenzen:\nEs sind 3 vergleichbare Referenzen aus den letzten drei abgeschlossenen Geschäftsjahren (wie im Formblatt 124LD aufgeführt) vorzulegen, davon:\n-\tzwei Referenzen über die ordnungsgemäße Ausführung vergleichbarer Reinigungsleistungen in öffentlichen oder privaten Bildungs- bzw. Betreuungseinrichtungen (z. B. Kindergarten, Kinderkrippe, Schulen).\n-\tErbringung der Reinigungsleistung je Referenz in einem zusammenhängenden Zeitraum von mindestens einem Jahr.\n\nZudem siehe Beschreibung der Bedingungen unter Sonstiges sowie Auftragsunterlagen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "KiTa Waldeysenstrasse",
+    "description": "städtischer Kindergarten\n\nFläche ca.:\nKiTa Waldeysen         1.237,35m²",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DE211"
+    ],
+    "deadline": "2026-11-26T10:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen:\nsiehe Vergabeunterlagen, insbesondere:\n- Auszug aus dem Gewerbezentralregister oder entsprechende Bescheinigung des EU-Mitgliedsstaates\n- Vorlage eines Nachweises über das Bestehen einer Betriebshaftpflichtversicherung\n- Erklärung Tariftreue\n.\nDie Fachkunde, Leistungsfähigkeit und Zuverlässigkeit (Eignung) ist durch Eintragung in\ndie Präqualifizierungsdatenbank (Präqualifikationsverzeichnis unter www.pq-verein.de) oder\nEigenerklärung gem. Formblatt 124 (Eigenerklärung zur Eignung) bzw. der Einheitliche Europäische\nEigenerklärung (EEE) nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die\nengere Wahl, sind Nachweise und Bescheinigungen zu den Eigenerklärungen binnen 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 bzw. Einheitliche Europäische Eigenerklärung (EEE) auch für diese anderen Unternehmen auf Verlangen innerhalb der genannten Frist vorzulegen. Präqualifizierte Unternehmen legen nur auf gesondertes Verlangen Referenzbescheinigungen vor.\n.\nDas Formblatt 124 (Dateiname: „L 124 EU_Eigenerklärungen zur Eignung(0416).pdf“) ist erhältlich als bearbeitbares Formblatt unter:\nhttp://vergabe.bayern.de innerhalb der jeweiligen Ausschreibung oder unter:\nhttps://www.stmi.bayern.de/buw/bauthemen/vergabeundvertragswesen/bauauftraege/index.php\n.\nDie Einheitliche Europäische Eigenerklärung (EEE) ist erhältlich unter:\nhttps://ec.europa.eu/growth/tools-databases/espd"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Ergänzende Eignungskriterien Geschäftstätigkeit:\nEs ist mindestens eine zweijährige Geschäftstätigkeit (= zwei volle abgeschlossene Geschäftsjahre) vorzuweisen;\nzusätzlich zur Angabe der Umsätze aus den letzten bis zu drei abgeschlossenen Geschäftsjahren.\n\nZudem siehe Beschreibung der Bedingungen unter Sonstiges sowie Auftragsunterlagen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Ergänzende Eignungskriterien Referenzen:\nEs sind 3 vergleichbare Referenzen aus den letzten drei abgeschlossenen Geschäftsjahren (wie im Formblatt 124LD aufgeführt) vorzulegen, davon:\n-\tzwei Referenzen über die ordnungsgemäße Ausführung vergleichbarer Reinigungsleistungen in öffentlichen oder privaten Bildungs- bzw. Betreuungseinrichtungen (z. B. Kindergarten, Kinderkrippe, Schulen).\n-\tErbringung der Reinigungsleistung je Referenz in einem zusammenhängenden Zeitraum von mindestens einem Jahr.\n\nZudem siehe Beschreibung der Bedingungen unter Sonstiges sowie Auftragsunterlagen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "KiTa Regenbogen Haslangstrasse",
+    "description": "städtischer Kindergarten\n\nFläche ca.:\nKiTa Regenbogen         640,33m²",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DE211"
+    ],
+    "deadline": "2026-11-26T10:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen:\nsiehe Vergabeunterlagen, insbesondere:\n- Auszug aus dem Gewerbezentralregister oder entsprechende Bescheinigung des EU-Mitgliedsstaates\n- Vorlage eines Nachweises über das Bestehen einer Betriebshaftpflichtversicherung\n- Erklärung Tariftreue\n.\nDie Fachkunde, Leistungsfähigkeit und Zuverlässigkeit (Eignung) ist durch Eintragung in\ndie Präqualifizierungsdatenbank (Präqualifikationsverzeichnis unter www.pq-verein.de) oder\nEigenerklärung gem. Formblatt 124 (Eigenerklärung zur Eignung) bzw. der Einheitliche Europäische\nEigenerklärung (EEE) nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die\nengere Wahl, sind Nachweise und Bescheinigungen zu den Eigenerklärungen binnen 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 bzw. Einheitliche Europäische Eigenerklärung (EEE) auch für diese anderen Unternehmen auf Verlangen innerhalb der genannten Frist vorzulegen. Präqualifizierte Unternehmen legen nur auf gesondertes Verlangen Referenzbescheinigungen vor.\n.\nDas Formblatt 124 (Dateiname: „L 124 EU_Eigenerklärungen zur Eignung(0416).pdf“) ist erhältlich als bearbeitbares Formblatt unter:\nhttp://vergabe.bayern.de innerhalb der jeweiligen Ausschreibung oder unter:\nhttps://www.stmi.bayern.de/buw/bauthemen/vergabeundvertragswesen/bauauftraege/index.php\n.\nDie Einheitliche Europäische Eigenerklärung (EEE) ist erhältlich unter:\nhttps://ec.europa.eu/growth/tools-databases/espd"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Ergänzende Eignungskriterien Geschäftstätigkeit:\nEs ist mindestens eine zweijährige Geschäftstätigkeit (= zwei volle abgeschlossene Geschäftsjahre) vorzuweisen;\nzusätzlich zur Angabe der Umsätze aus den letzten bis zu drei abgeschlossenen Geschäftsjahren.\n\nZudem siehe Beschreibung der Bedingungen unter Sonstiges sowie Auftragsunterlagen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Ergänzende Eignungskriterien Referenzen:\nEs sind 3 vergleichbare Referenzen aus den letzten drei abgeschlossenen Geschäftsjahren (wie im Formblatt 124LD aufgeführt) vorzulegen, davon:\n-\tzwei Referenzen über die ordnungsgemäße Ausführung vergleichbarer Reinigungsleistungen in öffentlichen oder privaten Bildungs- bzw. Betreuungseinrichtungen (z. B. Kindergarten, Kinderkrippe, Schulen).\n-\tErbringung der Reinigungsleistung je Referenz in einem zusammenhängenden Zeitraum von mindestens einem Jahr.\n\nZudem siehe Beschreibung der Bedingungen unter Sonstiges sowie Auftragsunterlagen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

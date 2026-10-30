@@ -1,0 +1,276 @@
+{
+ "id": "8064b665-f339-418e-819f-25043ee9d9ea-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "8064b665-f339-418e-819f-25043ee9d9ea",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8064b665-f339-418e-819f-25043ee9d9ea",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:8064b665-f339-418e-819f-25043ee9d9ea-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:8064b665-f339-418e-819f-25043ee9d9ea-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8064b665-f339-418e-819f-25043ee9d9ea?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Tragwerksplanung",
+  "buyer": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+  "cpv": [
+   "71327000"
+  ],
+  "nuts": [
+   "DE21L"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-842019a6-e77f-458f-a869-a6221bd59640",
+  "id": "8064b665-f339-418e-819f-25043ee9d9ea",
+  "date": "2026-10-17T16:12:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE252001456",
+     "legalName": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU"
+    },
+    "address": {
+     "streetAddress": "Mitterweg 1",
+     "locality": "Herrsching",
+     "region": "DE21L",
+     "postalCode": "82211",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "GFM Bau- und Umweltingenieure GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "HRB 144840",
+     "legalName": "GFM Bau- und Umweltingenieure GmbH"
+    },
+    "address": {
+     "streetAddress": "Anni-Albers-Straße 7",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80807",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern – Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern – Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+   "id": "DE252001456",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU"
+   },
+   "address": {
+    "streetAddress": "Mitterweg 1",
+    "locality": "Herrsching",
+    "region": "DE21L",
+    "postalCode": "82211",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "842019a6-e77f-458f-a869-a6221bd59640",
+   "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Tragwerksplanung",
+   "description": "Tragwerksplanung nach § 51 HOAI, Leistungsphasen 1 bis 6, für den Neubau des Unternehmensstandortes der AWA Ammersee in Herrsching.",
+   "procuringEntity": {
+    "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+    "id": "DE252001456"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71327000",
+      "description": "Load-bearing structure design services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Heinestraße",
+      "locality": "Herrsching",
+      "region": "DE21L",
+      "postalCode": "82211",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-04-10T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "GFM Bau- und Umweltingenieure GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "GFM Bau- und Umweltingenieure GmbH"
+     },
+     "address": {
+      "streetAddress": "Anni-Albers-Straße 7",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80807",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Tragwerksplanung",
+     "description": "Tragwerksplanung nach § 51 HOAI, Leistungsphasen 1 bis 6, für den Neubau des Unternehmensstandortes der AWA Ammersee in Herrsching.",
+     "contractPeriod": {
+      "startDate": "2026-04-21T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-30T00:00:00+02:00",
+    "value": {
+     "amount": 276513.15,
+     "currency": "EUR"
+    },
+    "suppliers": [
+     {
+      "name": "GFM Bau- und Umweltingenieure GmbH",
+      "id": "HRB 144840",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "GFM Bau- und Umweltingenieure GmbH"
+      },
+      "address": {
+       "streetAddress": "Anni-Albers-Straße 7",
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "80807",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 209873.65,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-29T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "8064b665-f339-418e-819f-25043ee9d9ea",
+  "version": "01",
+  "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Tragwerksplanung",
+  "description": "Tragwerksplanung nach § 51 HOAI, Leistungsphasen 1 bis 6, für den Neubau des Unternehmensstandortes der AWA Ammersee in Herrsching.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21L"
+  ],
+  "cpv": [
+   "71327000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Tragwerksplanung",
+    "description": "Tragwerksplanung nach § 51 HOAI, Leistungsphasen 1 bis 6, für den Neubau des Unternehmensstandortes der AWA Ammersee in Herrsching.",
+    "cpv": [
+     "71327000"
+    ],
+    "nuts": [
+     "DE21L"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-04-21+02:00",
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualität des eingesetzten Personals",
+      "description": "Bewertet werden die berufliche Qualifikation und die Erfahrung der vorgesehenen Projektleitung sowie der vorgesehenen stellvertretenden Projektleitung. Vorzulegen waren je Person der Studien- beziehungsweise Ausbildungsnachweis, ein Lebenslauf sowie zwei Referenzprojektblätter; Referenzprojekte von Nachunternehmern waren nicht zugelassen und es wurden ausschließlich die vier im Angebotsblatt benannten Referenzprojekte gewertet. Bepunktet wurden je Person die berufsbildentsprechende Qualifikation und die Berufserfahrung mit jeweils 0,5 Punkten sowie je Referenzprojekt der ausgeführte Leistungsumfang der Tragwerksplanung nach Leistungsphasen mit bis zu 1 Punkt, ein Projektvolumen der Kostengruppe 300 von mindestens 6.000.000 Euro netto mit 0,5 Punkten und die geforderte Gebäudetypologie mit 0,5 Punkten. Auf die Projektleitung und auf die stellvertretende Projektleitung entfallen jeweils höchstens 5 Punkte, insgesamt höchstens 10 Punkte; dies entspricht der Gewichtung von 10 Prozent.",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Lösungsvorschlag",
+      "description": "Bewertet wird der von den Bietern einzureichende schriftliche Lösungsvorschlag nach Anlage 27. Er gliedert sich in die Bereiche Projektmethodik mit höchstens 45 Punkten, Kostenmanagement mit höchstens 8 Punkten und Qualitätssicherung mit höchstens 7 Punkten. Innerhalb der Projektmethodik werden das Projektverständnis für die statische Aufgabenstellung, die Projektziele und die projektspezifischen Randbedingungen mit höchstens 10 Punkten, das methodische Vorgehen zur Entwicklung eines wirtschaftlichen und robusten Tragwerkskonzepts einschließlich der Abstimmung mit Architektur, Technischer Gebäudeausrüstung und Ausführungsplanung mit höchstens 15 Punkten, die tragwerkstechnische Leitidee als schriftlich dargestellte statische Grundhaltung mit Schwerpunkt Robustheit, Wirtschaftlichkeit, Materialeffizienz und Nachhaltigkeit mit höchstens 15 Punkten und die Projektorganisation mit höchstens 5 Punkten bewertet. Das Kostenmanagement umfasst die Kostenplanung für tragwerksrelevante Bauteile nach DIN 276 mit höchstens 5 Punkten sowie die Kostensteuerung einschließlich Reporting mit höchstens 3 Punkten, die Qualitätssicherung das bürointerne Qualitätsmanagement mit höchstens 3 Punkten, die Koordination und das Schnittstellenmanagement mit höchstens 2 Punkten sowie das Risikomanagement mit höchstens 2 Punkten. Insgesamt sind höchstens 60 Punkte erreichbar; dies entspricht der Gewichtung von 60 Prozent.",
+      "weight": 60
+     },
+     {
+      "type": "price",
+      "name": "Honorarangebot",
+      "description": "Bewertet wird das im Honorarangebotsblatt nach Anlage 28 anzugebende Honorarangebot. Das preisgünstigste Honorarangebot aller Bieter erhält die volle Punktzahl von 30 Punkten, ein doppelt so hohes Angebot erhält 0 Punkte; dazwischen erfolgt eine lineare Punkteverteilung. Gewertet wird das Gesamthonorar aus Grundleistungen einschließlich der angebotenen Zu- oder Abschläge, Nebenkosten und Honorar für zusätzliche Leistungen. Insgesamt sind höchstens 30 Punkte erreichbar; dies entspricht der Gewichtung von 30 Prozent. Den Zuschlag erhält der Bieter mit der höchsten Gesamtpunktzahl; bei Punktgleichheit entscheidet das niedrigere Honorarangebot, danach das Los.",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

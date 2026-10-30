@@ -1,0 +1,150 @@
+{
+ "id": "25973634-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25973634",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25973634",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25973634-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25973634-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25973634?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lieferung und Montage einer Schullehrkueche",
+  "buyer": "Landeshauptstadt Muenchen, Baureferat",
+  "cpv": [
+   "45351000-2",
+   "39314000-6",
+   "39711200-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-25T10:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25973634",
+  "id": "25973634",
+  "date": "2026-10-27T07:00:50Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt Muenchen, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landeshauptstadt Muenchen, Baureferat"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt Muenchen, Baureferat",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt Muenchen, Baureferat"
+   }
+  },
+  "tender": {
+   "title": "Lieferung und Montage einer Schullehrkueche",
+   "description": "Lieferung und Montage einer Schullehrkueche",
+   "procuringEntity": {
+    "name": "Landeshauptstadt Muenchen, Baureferat"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45351000-2"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39314000-6"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39711200-1"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "80686 Muenchen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304863",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lieferung und Montage einer Schullehrkueche",
+     "description": "Lieferung und Montage einer Schullehrkueche"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25973634",
+  "version": "1",
+  "title": "Lieferung und Montage einer Schullehrkueche",
+  "description": "Lieferung und Montage einer Schullehrkueche",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45351000-2",
+   "39314000-6",
+   "39711200-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lieferung und Montage einer Schullehrkueche",
+    "description": "Lieferung und Montage einer Schullehrkueche",
+    "cpv": [
+     "45351000-2",
+     "39314000-6",
+     "39711200-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-25T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

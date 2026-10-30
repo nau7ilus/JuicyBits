@@ -5,14 +5,14 @@
   "noticeId": "05fcd9fe-6eff-464a-9c59-b90af65e81bd",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=05fcd9fe-6eff-464a-9c59-b90af65e81bd",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:05fcd9fe-6eff-464a-9c59-b90af65e81bd-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:05fcd9fe-6eff-464a-9c59-b90af65e81bd-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/05fcd9fe-6eff-464a-9c59-b90af65e81bd?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1192-001 VHF (Fassadenarbeiten)",
   "buyer": "AS Fassaden GmbH",
   "cpv": [
@@ -186,5 +186,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "05fcd9fe-6eff-464a-9c59-b90af65e81bd",
+  "version": "01",
+  "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1192-001 VHF (Fassadenarbeiten)",
+  "description": "Verstellbare Unterkonstruktion  885 ca. m²\nWärmedämmung 180mm ca. 590 m²\nWärmedämmung 140mm ca. 105 m²\nFassadenbekleidung aus Schichtpressstoffplattem ca. 885m²",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "45443000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Gewerk 1192-001 VHF (Fassadenarbeiten)",
+    "description": "Verstellbare Unterkonstruktion  885 ca. m²\nWärmedämmung 180mm ca. 590 m²\nWärmedämmung 140mm ca. 105 m²\nFassadenbekleidung aus Schichtpressstoffplattem ca. 885m²",
+    "cpv": [
+     "45443000"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-14+02:00",
+    "plannedEnd": "2026-12-05+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -5,14 +5,14 @@
   "noticeId": "93edac63-46fd-4158-9b11-ca3b986cb5b3",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=93edac63-46fd-4158-9b11-ca3b986cb5b3",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:93edac63-46fd-4158-9b11-ca3b986cb5b3-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:93edac63-46fd-4158-9b11-ca3b986cb5b3-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/93edac63-46fd-4158-9b11-ca3b986cb5b3?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Mahdarbeiten",
   "buyer": "Staatliches Bauamt Schweinfurt",
   "cpv": [
@@ -234,5 +234,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "93edac63-46fd-4158-9b11-ca3b986cb5b3",
+  "version": "01",
+  "title": "Mahdarbeiten",
+  "description": "B62SMBBS002200 M Artenvielfalt Auswahlflächen Bund\nB62SMLSS002200 M Artenvielfalt Auswahlflächen Land\nAWFs_LKR HAS_2026-2029\nMahdarbeiten an Bundes- und Staatsstrassen im LKR Haßberge incl Mahdgutabtransport\n\nAusmähen von Habitatstrukturen pro Jahr 35.575,00 m2 \nAusmähen von Gehölzen pro Jahr 20.507,00 m2\nMäharbeiten an ebenen Flächen pro Jahr\t592.367,00 m2\nMäharbeiten feuchter Standorte pro Jahr\t4.663,00 m2\nMäharbeiten an geneigten Flächen pro Jahr 88.756,00 m2",
+  "procedureType": "open",
+  "nuts": [
+   "DE267"
+  ],
+  "cpv": [
+   "77310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Mahdarbeiten",
+    "description": "B62SMBBS002200 M Artenvielfalt Auswahlflächen Bund\nB62SMLSS002200 M Artenvielfalt Auswahlflächen Land\nAWFs_LKR HAS_2026-2029\nMahdarbeiten an Bundes- und Staatsstrassen im LKR Haßberge incl Mahdgutabtransport\n\nAusmähen von Habitatstrukturen pro Jahr 35.575,00 m2 \nAusmähen von Gehölzen pro Jahr 20.507,00 m2\nMäharbeiten an ebenen Flächen pro Jahr\t592.367,00 m2\nMäharbeiten feuchter Standorte pro Jahr\t4.663,00 m2\nMäharbeiten an geneigten Flächen pro Jahr 88.756,00 m2",
+    "cpv": [
+     "77310000"
+    ],
+    "nuts": [
+     "DE267"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-12+02:00",
+    "plannedEnd": "2029-12-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

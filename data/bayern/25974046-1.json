@@ -1,0 +1,157 @@
+{
+ "id": "25974046-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25974046",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25974046",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25974046-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25974046-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25974046?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Neubau der Gerberstraße und Wasserleitung",
+  "buyer": "Stadt Mindelheim",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-23T09:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25974046",
+  "id": "25974046",
+  "date": "2026-10-27T07:00:24Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Mindelheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Mindelheim"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Mindelheim",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Mindelheim"
+   }
+  },
+  "tender": {
+   "title": "Neubau der Gerberstraße und Wasserleitung",
+   "description": "Erdbauarbeiten, Verkehrswegebau-, Asphaltarbeiten, Spezialtiefbau, Press- Ramm- und Verbauarbeiten, Tiefbau- und Pflasterbauarbeiten, Tiefbau und Entwässerungskanalarbeiten",
+   "procuringEntity": {
+    "name": "Stadt Mindelheim"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "87719 Mindelheim",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28BD3B",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Neubau der Gerberstraße und Wasserleitung",
+     "description": "Erdbauarbeiten, Verkehrswegebau-, Asphaltarbeiten, Spezialtiefbau, Press- Ramm- und Verbauarbeiten, Tiefbau- und Pflasterbauarbeiten, Tiefbau und Entwässerungskanalarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25974046",
+  "version": "1",
+  "title": "Neubau der Gerberstraße und Wasserleitung",
+  "description": "Erdbauarbeiten, Verkehrswegebau-, Asphaltarbeiten, Spezialtiefbau, Press- Ramm- und Verbauarbeiten, Tiefbau- und Pflasterbauarbeiten, Tiefbau und Entwässerungskanalarbeiten",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Neubau der Gerberstraße und Wasserleitung",
+    "description": "Erdbauarbeiten, Verkehrswegebau-, Asphaltarbeiten, Spezialtiefbau, Press- Ramm- und Verbauarbeiten, Tiefbau- und Pflasterbauarbeiten, Tiefbau und Entwässerungskanalarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-23T09:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

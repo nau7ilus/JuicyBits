@@ -1,0 +1,377 @@
+{
+ "id": "33e223b2-97ce-4348-b4d6-4e07ea594d77-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "33e223b2-97ce-4348-b4d6-4e07ea594d77",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=33e223b2-97ce-4348-b4d6-4e07ea594d77",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:33e223b2-97ce-4348-b4d6-4e07ea594d77-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:33e223b2-97ce-4348-b4d6-4e07ea594d77-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/33e223b2-97ce-4348-b4d6-4e07ea594d77?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "ABBR Baustelleneinrichtung/Elektroinstallation",
+  "buyer": "München Klinik gGmbH",
+  "cpv": [
+   "45113000",
+   "45311000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b29025b5-884c-4e50-bf58-e7a636ec3d94",
+  "id": "33e223b2-97ce-4348-b4d6-4e07ea594d77",
+  "date": "2026-10-21T02:12:40Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "München Klinik gGmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRB 154 102",
+     "legalName": "München Klinik gGmbH"
+    },
+    "address": {
+     "streetAddress": "Thalkirchner Straße 48",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80337",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "tetris Modulbau GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE815855329",
+     "legalName": "tetris Modulbau GmbH"
+    },
+    "address": {
+     "streetAddress": "Zeppelinring 2",
+     "locality": "Mittenwalde",
+     "region": "DE406",
+     "postalCode": "15749",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "B plus L Infra Log GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 815108672",
+     "legalName": "B plus L Infra Log GmbH"
+    },
+    "address": {
+     "streetAddress": "Johann-Esche-Straße 27",
+     "locality": "Limbach-Oberfrohna",
+     "region": "DED45",
+     "postalCode": "09212",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "München Klinik gGmbH",
+   "id": "HRB 154 102",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "München Klinik gGmbH"
+   },
+   "address": {
+    "streetAddress": "Thalkirchner Straße 48",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80337",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b29025b5-884c-4e50-bf58-e7a636ec3d94",
+   "title": "ABBR Baustelleneinrichtung/Elektroinstallation",
+   "description": "München Klinik Harlaching",
+   "procuringEntity": {
+    "name": "München Klinik gGmbH",
+    "id": "HRB 154 102"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45113000",
+      "description": "Siteworks"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Seybothstraße 59 a",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81545",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311000",
+      "description": "Electrical wiring and fitting work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Seybothstraße 59 a",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81545",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "value": {
+    "amount": 262096.39,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "tetris Modulbau GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "tetris Modulbau GmbH"
+     },
+     "address": {
+      "streetAddress": "Zeppelinring 2",
+      "locality": "Mittenwalde",
+      "region": "DE406",
+      "postalCode": "15749",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "B plus L Infra Log GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "B plus L Infra Log GmbH"
+     },
+     "address": {
+      "streetAddress": "Johann-Esche-Straße 27",
+      "locality": "Limbach-Oberfrohna",
+      "region": "DED45",
+      "postalCode": "09212",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Baustelleneinrichtung",
+     "description": "Baustelleneinrichtung bestehend aus Bauzaun, Containern, Baustellen Infrastruktur Los1 Baustelleneinrichtung Los2 Elektroinstallation",
+     "contractPeriod": {
+      "durationInDays": 750
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Elektroinstallation",
+     "description": "Baustelleneinrichtung bestehend aus Bauzaun, Containern, Baustellen Infrastruktur Los1 Baustelleneinrichtung Los2 Elektroinstallation",
+     "contractPeriod": {
+      "durationInDays": 750
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Baustelleneinrichtung Los1",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Baustelleneinrichtung Los1",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Baustelleneinrichtung Los1",
+    "status": "active",
+    "value": {
+     "amount": 116025,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "title": "Elektroinstallation Los2",
+    "status": "active",
+    "value": {
+     "amount": 73751.55,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "33e223b2-97ce-4348-b4d6-4e07ea594d77",
+  "version": "01",
+  "title": "ABBR Baustelleneinrichtung/Elektroinstallation",
+  "description": "München Klinik Harlaching",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45113000",
+   "45311000"
+  ],
+  "estimatedValue": {
+   "amount": 262096.39,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Baustelleneinrichtung",
+    "description": "Baustelleneinrichtung bestehend aus Bauzaun, Containern, Baustellen Infrastruktur Los1 Baustelleneinrichtung Los2 Elektroinstallation",
+    "cpv": [
+     "45113000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 25,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "100",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Elektroinstallation",
+    "description": "Baustelleneinrichtung bestehend aus Bauzaun, Containern, Baustellen Infrastruktur Los1 Baustelleneinrichtung Los2 Elektroinstallation",
+    "cpv": [
+     "45311000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 25,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "100",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

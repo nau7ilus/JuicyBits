@@ -1,0 +1,197 @@
+{
+ "id": "f86ae8e3-27e3-4a5a-8d64-7b1b1de42ae9-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "f86ae8e3-27e3-4a5a-8d64-7b1b1de42ae9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f86ae8e3-27e3-4a5a-8d64-7b1b1de42ae9",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:f86ae8e3-27e3-4a5a-8d64-7b1b1de42ae9-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:f86ae8e3-27e3-4a5a-8d64-7b1b1de42ae9-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f86ae8e3-27e3-4a5a-8d64-7b1b1de42ae9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Abbau von Einzelschutz",
+  "buyer": "Bayerische Staatsforsten AöR ",
+  "cpv": [
+   "77230000"
+  ],
+  "nuts": [
+   "DE232",
+   "DE256"
+  ],
+  "deadline": "2026-11-16T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bdeadadc-5ff5-4a65-8df3-d4abd91376c5",
+  "id": "f86ae8e3-27e3-4a5a-8d64-7b1b1de42ae9",
+  "date": "2026-10-18T05:12:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerische Staatsforsten AöR ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916",
+     "legalName": "Bayerische Staatsforsten AöR "
+    },
+    "address": {
+     "streetAddress": "Tillystraße 2",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "bada5385-97e8-408b-a297-d300c60d0880",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerische Staatsforsten AöR ",
+   "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerische Staatsforsten AöR "
+   },
+   "address": {
+    "streetAddress": "Tillystraße 2",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bdeadadc-5ff5-4a65-8df3-d4abd91376c5",
+   "title": "Abbau von Einzelschutz",
+   "description": "Abbau mit Abtransport und Entsorgung bzw. Bereitstellung zur Wiederverwendung von Einzelschutzmaterial für Forstpflanzen (v.a. Wuchshüllen, teilweise Wuchsgitter, Fegeschutz)",
+   "procuringEntity": {
+    "name": "Bayerische Staatsforsten AöR ",
+    "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "77230000",
+      "description": "Services incidental to forestry"
+     },
+     "deliveryAddress": {
+      "locality": "Rothenburg o.d.T.",
+      "region": "DE256",
+      "postalCode": "91541",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 17670,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/658f1e10-f6e3-4dde-af18-0bee1fcd2104",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Abbau von Einzelschutz",
+     "description": "Abbau mit Abtransport und Entsorgung bzw. Bereitstellung zur Wiederverwendung von Einzelschutzmaterial für Forstpflanzen (v.a. Wuchshüllen, teilweise Wuchsgitter, Fegeschutz)",
+     "contractPeriod": {
+      "startDate": "2026-11-17T00:00:00+01:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "f86ae8e3-27e3-4a5a-8d64-7b1b1de42ae9",
+  "version": "01",
+  "title": "Abbau von Einzelschutz",
+  "description": "Abbau mit Abtransport und Entsorgung bzw. Bereitstellung zur Wiederverwendung von Einzelschutzmaterial für Forstpflanzen (v.a. Wuchshüllen, teilweise Wuchsgitter, Fegeschutz)",
+  "procedureType": "open",
+  "nuts": [
+   "DE256"
+  ],
+  "cpv": [
+   "77230000"
+  ],
+  "estimatedValue": {
+   "amount": 17670,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Abbau von Einzelschutz",
+    "description": "Abbau mit Abtransport und Entsorgung bzw. Bereitstellung zur Wiederverwendung von Einzelschutzmaterial für Forstpflanzen (v.a. Wuchshüllen, teilweise Wuchsgitter, Fegeschutz)",
+    "cpv": [
+     "77230000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": "2026-11-16T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-17+01:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

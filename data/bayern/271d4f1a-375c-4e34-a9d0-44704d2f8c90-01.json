@@ -1,0 +1,200 @@
+{
+ "id": "271d4f1a-375c-4e34-a9d0-44704d2f8c90-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "271d4f1a-375c-4e34-a9d0-44704d2f8c90",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=271d4f1a-375c-4e34-a9d0-44704d2f8c90",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:271d4f1a-375c-4e34-a9d0-44704d2f8c90-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:271d4f1a-375c-4e34-a9d0-44704d2f8c90-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/271d4f1a-375c-4e34-a9d0-44704d2f8c90?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Betonarbeiten, Sichtbeton-Fassadenelemente",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "45443000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T11:10:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d0fa9ca4-ad0a-4b62-8386-14a1423448ec",
+  "id": "271d4f1a-375c-4e34-a9d0-44704d2f8c90",
+  "date": "2026-10-22T02:08:07Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d0fa9ca4-ad0a-4b62-8386-14a1423448ec",
+   "title": "Betonarbeiten, Sichtbeton-Fassadenelemente",
+   "description": "Grund- und Mittelschule Torquato-Tasso-Straße, Neubau;\nVE: Architekturbeton-Fassade, 3. Bauabschnitt\n\n•\tFertigung und Montage Architekturbeton-Fassadenelemente in \nunterschiedlichen Größen und Formen (Gesamtfläche ca. 810 m2) 157 St.\n•\tMontage bauseits beigestellter Architekturbeton-Fassadenelemente in \nunterschiedlichen Größen und Formen (Gesamtfläche ca. 20 m2) 9 St.\n•\tMW-Wärmedämmung in unterschiedlichen Dicken (120 bis 240 mm) 830 m2\n•\tOberflächennachbehandlung (Hydrophobierung / Antigraffitischutz) 830 m2\n•\tDauerelastische Verfugungen 360 m\n•\tFertigung und Montage Edelstahl-Revisionsklappen 20 St.",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45443000",
+      "description": "Facade work"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80807",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303633",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Betonarbeiten, Sichtbeton-Fassadenelemente",
+     "description": "Grund- und Mittelschule Torquato-Tasso-Straße, Neubau;\nVE: Architekturbeton-Fassade, 3. Bauabschnitt\n•\tFertigung und Montage Architekturbeton-Fassadenelemente in \nunterschiedlichen Größen und Formen (Gesamtfläche ca. 810 m2) 157 St.\n•\tMontage bauseits beigestellter Architekturbeton-Fassadenelemente in \nunterschiedlichen Größen und Formen (Gesamtfläche ca. 20 m2) 9 St.\n•\tMW-Wärmedämmung in unterschiedlichen Dicken (120 bis 240 mm) 830 m2\n•\tOberflächennachbehandlung (Hydrophobierung / Antigraffitischutz) 830 m2\n•\tDauerelastische Verfugungen 360 m\n•\tFertigung und Montage Edelstahl-Revisionsklappen 20 St.",
+     "contractPeriod": {
+      "durationInDays": 120
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "271d4f1a-375c-4e34-a9d0-44704d2f8c90",
+  "version": "01",
+  "title": "Betonarbeiten, Sichtbeton-Fassadenelemente",
+  "description": "Grund- und Mittelschule Torquato-Tasso-Straße, Neubau;\nVE: Architekturbeton-Fassade, 3. Bauabschnitt\n\n•\tFertigung und Montage Architekturbeton-Fassadenelemente in \nunterschiedlichen Größen und Formen (Gesamtfläche ca. 810 m2) 157 St.\n•\tMontage bauseits beigestellter Architekturbeton-Fassadenelemente in \nunterschiedlichen Größen und Formen (Gesamtfläche ca. 20 m2) 9 St.\n•\tMW-Wärmedämmung in unterschiedlichen Dicken (120 bis 240 mm) 830 m2\n•\tOberflächennachbehandlung (Hydrophobierung / Antigraffitischutz) 830 m2\n•\tDauerelastische Verfugungen 360 m\n•\tFertigung und Montage Edelstahl-Revisionsklappen 20 St.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45443000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Betonarbeiten, Sichtbeton-Fassadenelemente",
+    "description": "Grund- und Mittelschule Torquato-Tasso-Straße, Neubau;\nVE: Architekturbeton-Fassade, 3. Bauabschnitt\n•\tFertigung und Montage Architekturbeton-Fassadenelemente in \nunterschiedlichen Größen und Formen (Gesamtfläche ca. 810 m2) 157 St.\n•\tMontage bauseits beigestellter Architekturbeton-Fassadenelemente in \nunterschiedlichen Größen und Formen (Gesamtfläche ca. 20 m2) 9 St.\n•\tMW-Wärmedämmung in unterschiedlichen Dicken (120 bis 240 mm) 830 m2\n•\tOberflächennachbehandlung (Hydrophobierung / Antigraffitischutz) 830 m2\n•\tDauerelastische Verfugungen 360 m\n•\tFertigung und Montage Edelstahl-Revisionsklappen 20 St.",
+    "cpv": [
+     "45443000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T11:10:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 4,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Zusätzlich zu den Referenzen sind alle weiteren zu erfüllenden Eignungskriterien (Eignung zur Berufsausübung, wirtschaftliche und finanzielle Leistungsfähigkeit, technische und berufliche Leistungsfähigkeit) sowie die zum Nachweis vorzulegenden Unterlagen in dem Dokument \"Eignung_und_Nichtvorliegen_von_Ausschlussgruenden“ aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303633"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

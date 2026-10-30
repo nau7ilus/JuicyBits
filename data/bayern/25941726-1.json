@@ -1,0 +1,135 @@
+{
+ "id": "25941726-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25941726",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25941726",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25941726-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25941726-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25941726?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen",
+  "buyer": "Die Autobahn GmbH des Bundes - NL West",
+  "cpv": [
+   "45421148"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-04T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25941726",
+  "id": "25941726",
+  "date": "2026-10-17T07:01:07Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Die Autobahn GmbH des Bundes - NL West",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Die Autobahn GmbH des Bundes - NL West"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Die Autobahn GmbH des Bundes - NL West",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Die Autobahn GmbH des Bundes - NL West"
+   }
+  },
+  "tender": {
+   "title": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen",
+   "description": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen\n\nToranlagen",
+   "procuringEntity": {
+    "name": "Die Autobahn GmbH des Bundes - NL West"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421148",
+      "description": "Installation of gates"
+     },
+     "deliveryAddress": {
+      "locality": "AM Dillingen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.autobahn.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-1a12eebadeb-4300d2b7cffbdaad&PublicationType=0",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen",
+     "description": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen\n\nToranlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25941726",
+  "version": "1",
+  "title": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen",
+  "description": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen\n\nToranlagen",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45421148"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen",
+    "description": "Umbau KFZ-Hallen AM Dillingen - Erneuerung Toranlagen\n\nToranlagen",
+    "cpv": [
+     "45421148"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-04T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -180,6 +180,8 @@
   "noticeId": "9c2cc1c7-063c-4d3e-91c6-0799e22165d2",
   "version": "01",
   "title": "Lüftung 70-00482-2180-433 - PR1292964-2180-B",
+  "description": "Lüftung 70-00482-2180-433",
+  "procedureType": "open",
   "nuts": [
    "DE131"
   ],
@@ -192,6 +194,7 @@
    {
     "id": "LOT-0000",
     "title": "Lüftung 70-00482-2180-433",
+    "description": "* Termine zur Durchführung der Hauptleistung auf der Baustelle:\nLeistungsbeginn 14.02.2027; Leistungsende 28.04.2028\n\n* Einzeltermine: \nBaustellenfertigstellung 28.04.2028\nInbetriebnahme-Prozess 28.04.2028-21.11.2028\n\n* Beschreibung der Beschaffung:\n- 1 RLT-Gerät (Teilklima), Zu-/Abluft 13.250 m³/h, Lüftungszentrale UG\n- 1 RLT-Gerät (Vollklima),  Zu-/Abluft 15.000 m³/h, Lüftungszentrale UG  \n- 1 Ex-Abluftventilator 3000 m³/h\n- Kanalnetz ca. 1800 m² Blechkanal/Formteile verzinkt, ca. 1.600 m Wickelfalzrhr verzinkt, ca. 450 m² Edelstahlkanal/Formteile, ca. 100 m Edeltahlrohr, ca. 50 m² PPs-el Kanel / Formteile, ca. 50 m PPs-el. Rohr \n- 2 Lüftungstürme NW 1100 mm\n- 160 Tellerventile, ca. 40 Drallauslässe, ca. 40 Lüftungsgitter\n- ca. 40 runde Brandschutzklappen, ca. 40 eckige Brandschutzklappen\n- ca. 180 Schalldämper \n- ca. 70 Konstantvolumenstromregler, ca. 45 variable Volumenstromregler (verz.)\n- ca. 25 variable Volumenstromregler (PPs-el, Edelstahl)",
     "cpv": [
      "45331210",
      "45331000"
@@ -203,6 +206,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-01-11+01:00",
     "plannedEnd": "2028-11-21+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -246,7 +250,16 @@
       "type": "slc-suit-reg-trade",
       "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Eintragung in das Handelsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

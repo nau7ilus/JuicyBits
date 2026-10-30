@@ -1,0 +1,268 @@
+{
+ "id": "da768b1a-c1ab-4260-9692-72982c5813ba-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "da768b1a-c1ab-4260-9692-72982c5813ba",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=da768b1a-c1ab-4260-9692-72982c5813ba",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:da768b1a-c1ab-4260-9692-72982c5813ba-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:da768b1a-c1ab-4260-9692-72982c5813ba-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/da768b1a-c1ab-4260-9692-72982c5813ba?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "2026-1004973_Flughafen München_Fußgängerunterführung Knoten West Null",
+  "buyer": "Flughafen München GmbH",
+  "cpv": [
+   "45221000",
+   "45111100",
+   "45221211"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fa823946-6fad-48b1-8f7b-f6efe5ca3848",
+  "id": "da768b1a-c1ab-4260-9692-72982c5813ba",
+  "date": "2026-10-22T02:08:10Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Flughafen München GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129352365",
+     "legalName": "Flughafen München GmbH"
+    },
+    "address": {
+     "streetAddress": "Postfach 23 17 55",
+     "locality": "München",
+     "region": "DE21B",
+     "postalCode": "85326",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Josef Rädlinger Ingenieurbau GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE813648645",
+     "legalName": "Josef Rädlinger Ingenieurbau GmbH"
+    },
+    "address": {
+     "streetAddress": "Josef-Rädlinger-Straße 1",
+     "locality": "Windorf",
+     "region": "DE228",
+     "postalCode": "94575",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Flughafen München GmbH",
+   "id": "DE129352365",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Flughafen München GmbH"
+   },
+   "address": {
+    "streetAddress": "Postfach 23 17 55",
+    "locality": "München",
+    "region": "DE21B",
+    "postalCode": "85326",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fa823946-6fad-48b1-8f7b-f6efe5ca3848",
+   "title": "2026-1004973_Flughafen München_Fußgängerunterführung Knoten West Null",
+   "description": "Beim Knoten West Eins am Flughafen München ist der Ersatzneubau einer bestehenden Fußgängerunterführung geplant.",
+   "procuringEntity": {
+    "name": "Flughafen München GmbH",
+    "id": "DE129352365"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45221000",
+      "description": "Construction work for bridges and tunnels, shafts and subways"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45111100",
+       "description": "Demolition work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45221211",
+       "description": "Underpass"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Postfach 23 17 55",
+      "locality": "München",
+      "region": "DE21B",
+      "postalCode": "85326",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-08-06T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Josef Rädlinger Ingenieurbau GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Josef Rädlinger Ingenieurbau GmbH"
+     },
+     "address": {
+      "streetAddress": "Josef-Rädlinger-Straße 1",
+      "locality": "Windorf",
+      "region": "DE228",
+      "postalCode": "94575",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "2026-1004973_Flughafen München_Fußgängerunterführung Knoten West Null",
+     "description": "Die bestehende Fußgängerunterführung aus Stahlbeton beim Knoten West Eins hat die Abmessungen LxBxH von 2,50mx2,50mx35,00m. Die neue Fußgängerunterführung ist in monolithischer Ortbetonbauweis mit den Abmessungen LxBxH i. M. von 36,70mx10,30mx3,20m i.M. zu errichten. Die Bauarbeiten sind in offener Bauweise geplant. Im Zuge der Abbrucharbeiten muss zunächst die bestehende fünfstreifige Straße einschließlich Beleuchtungs- und Schutzeinrichtungen zurückgebaut werden. Im Zuge der Abbruch- und Wiederherstellungsarbeiten sind die bestehenden Kanäle für die Straßenentwässerung zu sichern und teilweise umzuverlegen. Nach Fertigstellung der neuen Unterführung ist die Straße wie im Bestand vorhanden wieder herzustellen.",
+     "contractPeriod": {
+      "startDate": "2026-09-16T00:00:00+02:00",
+      "endDate": "2027-08-25T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Fußgängerunterführung Knoten West Eins",
+    "date": "2026-09-28T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Fußgängerunterführung Knoten West Eins",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-27T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "412017-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "412017-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "da768b1a-c1ab-4260-9692-72982c5813ba",
+  "version": "01",
+  "title": "2026-1004973_Flughafen München_Fußgängerunterführung Knoten West Null",
+  "description": "Beim Knoten West Eins am Flughafen München ist der Ersatzneubau einer bestehenden Fußgängerunterführung geplant.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "45221000",
+   "45111100",
+   "45221211"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "2026-1004973_Flughafen München_Fußgängerunterführung Knoten West Null",
+    "description": "Die bestehende Fußgängerunterführung aus Stahlbeton beim Knoten West Eins hat die Abmessungen LxBxH von 2,50mx2,50mx35,00m. Die neue Fußgängerunterführung ist in monolithischer Ortbetonbauweis mit den Abmessungen LxBxH i. M. von 36,70mx10,30mx3,20m i.M. zu errichten. Die Bauarbeiten sind in offener Bauweise geplant. Im Zuge der Abbrucharbeiten muss zunächst die bestehende fünfstreifige Straße einschließlich Beleuchtungs- und Schutzeinrichtungen zurückgebaut werden. Im Zuge der Abbruch- und Wiederherstellungsarbeiten sind die bestehenden Kanäle für die Straßenentwässerung zu sichern und teilweise umzuverlegen. Nach Fertigstellung der neuen Unterführung ist die Straße wie im Bestand vorhanden wieder herzustellen.",
+    "cpv": [
+     "45221000",
+     "45111100",
+     "45221211"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-16+02:00",
+    "plannedEnd": "2027-08-25+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": null,
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

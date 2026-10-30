@@ -5,14 +5,14 @@
   "noticeId": "0f3c4979-a3b3-424c-8174-0d7f4122731c",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0f3c4979-a3b3-424c-8174-0d7f4122731c",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:0f3c4979-a3b3-424c-8174-0d7f4122731c-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:0f3c4979-a3b3-424c-8174-0d7f4122731c-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/0f3c4979-a3b3-424c-8174-0d7f4122731c?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Lieferung und Montage von Innentüren und Zargen",
   "buyer": "Landkreis Neustadt a.d.Waldnaab",
   "cpv": [
@@ -23,7 +23,7 @@
   "nuts": [
    "DE237"
   ],
-  "deadline": null,
+  "deadline": "2026-11-26T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -176,5 +176,69 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "0f3c4979-a3b3-424c-8174-0d7f4122731c",
+  "version": "01",
+  "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Lieferung und Montage von Innentüren und Zargen",
+  "description": "Der Landkreis Neustadt a.d.Waldnaab beabsichtigt im Rahmen des Neubaus des Hallenbades die Vergabe der Lieferung und Montage von Innentüren und Zargen für ein Hallenbad einschließlich Zubehör.\n\nLeitmassen:\n13 Objektinnentüren \n12 VSG Ganzglastüren\n12 Stahlblechtüren\n\nDetaillierte Angaben zum Leistungsumfang sind der Leistungsbeschreibung / dem Leistungsverzeichnis sowie den weiteren Vergabeunterlagen zu entnehmen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE237"
+  ],
+  "cpv": [
+   "45421131",
+   "45421100",
+   "45421130"
+  ],
+  "estimatedValue": {
+   "amount": 103477,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Lieferung und Montage von Innentüren und Zargen",
+    "description": "Der Landkreis Neustadt a.d.Waldnaab beabsichtigt im Rahmen des Neubaus des Hallenbades die Vergabe der Lieferung und Montage von Innentüren und Zargen für ein Hallenbad einschließlich Zubehör.\n\nLeitmassen:\n13 Objektinnentüren \n12 VSG Ganzglastüren\n12 Stahlblechtüren\n\nDetaillierte Angaben zum Leistungsumfang sind der Leistungsbeschreibung / dem Leistungsverzeichnis sowie den weiteren Vergabeunterlagen zu entnehmen.",
+    "cpv": [
+     "45421131",
+     "45421100",
+     "45421130"
+    ],
+    "nuts": [
+     "DE237"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-25+01:00",
+    "plannedEnd": "2027-03-26+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/16955130-d687-4797-8666-5d071370e6d4/suitabilitycriteria"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
 }

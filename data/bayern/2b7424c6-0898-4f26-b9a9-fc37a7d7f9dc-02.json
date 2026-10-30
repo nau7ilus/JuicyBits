@@ -1,0 +1,262 @@
+{
+ "id": "2b7424c6-0898-4f26-b9a9-fc37a7d7f9dc-02",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "2b7424c6-0898-4f26-b9a9-fc37a7d7f9dc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2b7424c6-0898-4f26-b9a9-fc37a7d7f9dc",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:2b7424c6-0898-4f26-b9a9-fc37a7d7f9dc-02.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:2b7424c6-0898-4f26-b9a9-fc37a7d7f9dc-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2b7424c6-0898-4f26-b9a9-fc37a7d7f9dc?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Austausch/Erneuerung VxRail-Cluster einschl. Backup-Storage einschl. Systemservicevertrag",
+  "buyer": "Markt Großostheim",
+  "cpv": [
+   "30211000"
+  ],
+  "nuts": [
+   "DE264"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a676cd89-0b4f-4247-941f-9caca6b62e3c",
+  "id": "2b7424c6-0898-4f26-b9a9-fc37a7d7f9dc",
+  "date": "2026-10-22T02:09:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Großostheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10519",
+     "legalName": "Markt Großostheim"
+    },
+    "address": {
+     "streetAddress": "Schaafheimer Str. 33",
+     "locality": "Großostheim",
+     "region": "DE264",
+     "postalCode": "63762",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "98fe5404-98fa-41b8-aa6b-0538e587b954",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE264",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "CANCOM GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE128791177",
+     "legalName": "CANCOM GmbH"
+    },
+    "address": {
+     "locality": "Jettingen-Scheppach",
+     "region": "DE278",
+     "postalCode": "89343",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Großostheim",
+   "id": "10519",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Großostheim"
+   },
+   "address": {
+    "streetAddress": "Schaafheimer Str. 33",
+    "locality": "Großostheim",
+    "region": "DE264",
+    "postalCode": "63762",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a676cd89-0b4f-4247-941f-9caca6b62e3c",
+   "title": "Austausch/Erneuerung VxRail-Cluster einschl. Backup-Storage einschl. Systemservicevertrag",
+   "description": "Austausch/Erneuerung VxRail-Cluster/Backup-Komponenten u. Servicevertrag",
+   "procuringEntity": {
+    "name": "Markt Großostheim",
+    "id": "10519"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30211000",
+      "description": "Mainframe computer"
+     },
+     "deliveryAddress": {
+      "region": "DE264",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "CANCOM GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "CANCOM GmbH"
+     },
+     "address": {
+      "locality": "Jettingen-Scheppach",
+      "region": "DE278",
+      "postalCode": "89343",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Austausch/Erneuerung VxRail-Cluster einschl. Backup-Storage einschl. Systemservicevertrag",
+     "description": "Gegenstand des Vergabeverfahrens ist der Austausch des derzeitigen VxRail Clusters und des eingesetzten Backup-Storage, sowie die Migration der bestehenden Servervirtualisierungsumgebung VMWare. Alternativlösungen zu VMWare (bspw. Proxmox) steht der Auftraggeber positiv gegenüber soweit die Kompatibilität der betriebenen und zu migrierenden VM‘s sowie der anschließende Support durch den AN sichergestellt ist. Die Leistung umfasst die Implementation, Inbetriebnahme im Produktivbetrieb sowie anschließender Systemservice über eine Vertragslaufzeit von 60 Monaten. Für den Auftragsgegenstand und Systemservice wird ein EVB-IT-Systemvertrag gem. beigefügtem Muster im Rahmen des Verhandlungsverfahrens vereinbart (AGB des Bieters sind ausgeschlossen).\nDas Vergabeverfahren erfolgt zweistufig über einen vorgeschalteten Teilnahmewettbewerb. Für das anschließende Verhandlungsverfahren werden max. drei Bewerber zugelassen. Im Verhandlungsverfahren erfolgt zunächst eine Konzeptionsphase durch jeden Bieter bei der aus Sicht des Bieters notwendige Informationen erhoben werden. Auf dieser Grundlage ist dann je Bieter ein Erstangebot abzugeben. Die Konzeptionsphase wird den zugelassen Bewerbern vergütet. Der Teilnahmewettbewerb ist daher um ein pauschaliertes Angebot für diese Leistung zu ergänzen.\nWeitere Details zum Leistungsumfang ergeben sich aus der Anlage Projektbeschreibung."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 435851.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "2b7424c6-0898-4f26-b9a9-fc37a7d7f9dc",
+  "version": "02",
+  "title": "Austausch/Erneuerung VxRail-Cluster einschl. Backup-Storage einschl. Systemservicevertrag",
+  "description": "Austausch/Erneuerung VxRail-Cluster/Backup-Komponenten u. Servicevertrag",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE264"
+  ],
+  "cpv": [
+   "30211000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Austausch/Erneuerung VxRail-Cluster einschl. Backup-Storage einschl. Systemservicevertrag",
+    "description": "Gegenstand des Vergabeverfahrens ist der Austausch des derzeitigen VxRail Clusters und des eingesetzten Backup-Storage, sowie die Migration der bestehenden Servervirtualisierungsumgebung VMWare. Alternativlösungen zu VMWare (bspw. Proxmox) steht der Auftraggeber positiv gegenüber soweit die Kompatibilität der betriebenen und zu migrierenden VM‘s sowie der anschließende Support durch den AN sichergestellt ist. Die Leistung umfasst die Implementation, Inbetriebnahme im Produktivbetrieb sowie anschließender Systemservice über eine Vertragslaufzeit von 60 Monaten. Für den Auftragsgegenstand und Systemservice wird ein EVB-IT-Systemvertrag gem. beigefügtem Muster im Rahmen des Verhandlungsverfahrens vereinbart (AGB des Bieters sind ausgeschlossen).\nDas Vergabeverfahren erfolgt zweistufig über einen vorgeschalteten Teilnahmewettbewerb. Für das anschließende Verhandlungsverfahren werden max. drei Bewerber zugelassen. Im Verhandlungsverfahren erfolgt zunächst eine Konzeptionsphase durch jeden Bieter bei der aus Sicht des Bieters notwendige Informationen erhoben werden. Auf dieser Grundlage ist dann je Bieter ein Erstangebot abzugeben. Die Konzeptionsphase wird den zugelassen Bewerbern vergütet. Der Teilnahmewettbewerb ist daher um ein pauschaliertes Angebot für diese Leistung zu ergänzen.\nWeitere Details zum Leistungsumfang ergeben sich aus der Anlage Projektbeschreibung.",
+    "cpv": [
+     "30211000"
+    ],
+    "nuts": [
+     "DE264"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Unternehmensaufstellung",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Referenzen",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Personalqualifikation",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Servicekonzept",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Projektrahmenbedingungen",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Preisindikation",
+      "weight": 15
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

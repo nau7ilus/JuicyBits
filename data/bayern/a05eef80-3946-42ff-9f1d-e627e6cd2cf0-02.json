@@ -1,0 +1,233 @@
+{
+ "id": "a05eef80-3946-42ff-9f1d-e627e6cd2cf0-02",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "a05eef80-3946-42ff-9f1d-e627e6cd2cf0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a05eef80-3946-42ff-9f1d-e627e6cd2cf0",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:a05eef80-3946-42ff-9f1d-e627e6cd2cf0-02.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:a05eef80-3946-42ff-9f1d-e627e6cd2cf0-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a05eef80-3946-42ff-9f1d-e627e6cd2cf0?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Übernahme und Vermarktung von Metallschrott aus dem Gebiet des AWV Isar-Inn",
+  "buyer": "Abfallwirtschaftsverband Isar-Inn",
+  "cpv": [
+   "90500000"
+  ],
+  "nuts": [
+   "DE22A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-deec332b-0b99-421d-b9d4-882a7bef3400",
+  "id": "a05eef80-3946-42ff-9f1d-e627e6cd2cf0",
+  "date": "2026-10-23T02:09:13Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abfallwirtschaftsverband Isar-Inn",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10450",
+     "legalName": "Abfallwirtschaftsverband Isar-Inn"
+    },
+    "address": {
+     "streetAddress": "Karl-Rolle-Straße 43",
+     "locality": "Eggenfelden",
+     "region": "DE22A",
+     "postalCode": "84307",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "aced7559-67f5-422f-8499-c833451e82d4",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "LR Leitl GmbH & Co. Recycling KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE181215597",
+     "legalName": "LR Leitl GmbH & Co. Recycling KG"
+    },
+    "address": {
+     "locality": "Eggenfelden",
+     "region": "DE22A",
+     "postalCode": "84307",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abfallwirtschaftsverband Isar-Inn",
+   "id": "10450",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Abfallwirtschaftsverband Isar-Inn"
+   },
+   "address": {
+    "streetAddress": "Karl-Rolle-Straße 43",
+    "locality": "Eggenfelden",
+    "region": "DE22A",
+    "postalCode": "84307",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "deec332b-0b99-421d-b9d4-882a7bef3400",
+   "title": "Übernahme und Vermarktung von Metallschrott aus dem Gebiet des AWV Isar-Inn",
+   "description": "Übernahme und Vermarktung von Metallschrott aus den Wertstoffsammelstellen im Gebiet des AWV Isar-Inn",
+   "procuringEntity": {
+    "name": "Abfallwirtschaftsverband Isar-Inn",
+    "id": "10450"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "region": "DE22A",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "LR Leitl GmbH & Co. Recycling KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "LR Leitl GmbH & Co. Recycling KG"
+     },
+     "address": {
+      "locality": "Eggenfelden",
+      "region": "DE22A",
+      "postalCode": "84307",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Übernahme und Vermarktung von Metallschrott aus dem Gebiet des AWV Isar-Inn",
+     "description": "• Übernahme von Metallschrott aus den Wertstoffsammelstellen im Gebiet des AWV Isar-Inn\n• Zuführung des Metallschrotts zu einer ordnungsgemäßen Verwertung"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a05eef80-3946-42ff-9f1d-e627e6cd2cf0",
+  "version": "02",
+  "title": "Übernahme und Vermarktung von Metallschrott aus dem Gebiet des AWV Isar-Inn",
+  "description": "Übernahme und Vermarktung von Metallschrott aus den Wertstoffsammelstellen im Gebiet des AWV Isar-Inn",
+  "procedureType": "open",
+  "nuts": [
+   "DE22A"
+  ],
+  "cpv": [
+   "90500000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Übernahme und Vermarktung von Metallschrott aus dem Gebiet des AWV Isar-Inn",
+    "description": "• Übernahme von Metallschrott aus den Wertstoffsammelstellen im Gebiet des AWV Isar-Inn\n• Zuführung des Metallschrotts zu einer ordnungsgemäßen Verwertung",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE22A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Zuschlagskriterium ist die wirtschaftlichste Vergabe bezogen auf die Endkosten beim Auftraggeber.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "id": "91339a0a-624a-40ee-8e46-6ccb22aee3f1-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "91339a0a-624a-40ee-8e46-6ccb22aee3f1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=91339a0a-624a-40ee-8e46-6ccb22aee3f1",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:91339a0a-624a-40ee-8e46-6ccb22aee3f1-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:91339a0a-624a-40ee-8e46-6ccb22aee3f1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/91339a0a-624a-40ee-8e46-6ccb22aee3f1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Bus für Entwicklungs- und Forschungszwecke",
+  "buyer": "Technische Universität München",
+  "cpv": [
+   "34121100"
+  ],
+  "nuts": [
+   "DE212",
+   "DE21H"
+  ],
+  "deadline": "2026-11-20T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3f2708d8-0341-4a4f-88b4-f82c9f0366cb",
+  "id": "91339a0a-624a-40ee-8e46-6ccb22aee3f1",
+  "date": "2026-10-21T02:08:28Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Technische Universität München",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-1512011-61",
+     "legalName": "Technische Universität München"
+    },
+    "address": {
+     "locality": "Garching b. München",
+     "region": "DE212",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Technische Universität München",
+   "id": "09-1512011-61",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Technische Universität München"
+   },
+   "address": {
+    "locality": "Garching b. München",
+    "region": "DE212",
+    "postalCode": "85748",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3f2708d8-0341-4a4f-88b4-f82c9f0366cb",
+   "title": "Bus für Entwicklungs- und Forschungszwecke",
+   "description": "Bus für Entwicklungs- und Forschungszwecke",
+   "procuringEntity": {
+    "name": "Technische Universität München",
+    "id": "09-1512011-61"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34121100",
+      "description": "Public-service buses"
+     },
+     "deliveryAddress": {
+      "locality": "Garching b. München",
+      "region": "DE21H",
+      "postalCode": "85748",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YK0M2D1/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Bus für Entwicklungs- und Forschungszwecke",
+     "description": "siehe Vergabeunterlagen",
+     "contractPeriod": {
+      "durationInDays": 240
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "91339a0a-624a-40ee-8e46-6ccb22aee3f1",
+  "version": "01",
+  "title": "Bus für Entwicklungs- und Forschungszwecke",
+  "description": "Bus für Entwicklungs- und Forschungszwecke",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "34121100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Bus für Entwicklungs- und Forschungszwecke",
+    "description": "siehe Vergabeunterlagen",
+    "cpv": [
+     "34121100"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": "2026-11-20T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 8,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 57
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 43
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

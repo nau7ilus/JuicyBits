@@ -1,0 +1,261 @@
+{
+ "id": "1890c28b-acab-4b2c-a05b-91cbecb1c381-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "1890c28b-acab-4b2c-a05b-91cbecb1c381",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1890c28b-acab-4b2c-a05b-91cbecb1c381",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:1890c28b-acab-4b2c-a05b-91cbecb1c381-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:1890c28b-acab-4b2c-a05b-91cbecb1c381-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1890c28b-acab-4b2c-a05b-91cbecb1c381?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Hanau, Am Hauptbahnhof 1, Baustelleneinrichtung und Baulogistik",
+  "buyer": "Bundesagentur für Arbeit, BA-SH GB9",
+  "cpv": [
+   "45113000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-45a5665b-8c8e-408b-8f14-26ac5f3cd9f8",
+  "id": "1890c28b-acab-4b2c-a05b-91cbecb1c381",
+  "date": "2026-10-27T03:08:07Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit, BA-SH GB9",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992014820190073",
+     "legalName": "Bundesagentur für Arbeit, BA-SH GB9"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Die Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "022894990",
+     "legalName": "Die Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Bundeskanzlerplatz 2-10",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bundesagentur für Arbeit, SB 93 Recht/Vergabe",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "992014820190073",
+     "legalName": "Bundesagentur für Arbeit, SB 93 Recht/Vergabe"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "SCL Sustainable Construction Logistics GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE212221962",
+     "legalName": "SCL Sustainable Construction Logistics GmbH"
+    },
+    "address": {
+     "streetAddress": "Leibnizstraße 13",
+     "locality": "Falkensee",
+     "region": "DE408",
+     "postalCode": "14612",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit, BA-SH GB9",
+   "id": "992014820190073",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit, BA-SH GB9"
+   },
+   "address": {
+    "streetAddress": "Lina-Ammon-Straße 9",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90471",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "45a5665b-8c8e-408b-8f14-26ac5f3cd9f8",
+   "title": "Hanau, Am Hauptbahnhof 1, Baustelleneinrichtung und Baulogistik",
+   "description": "Baustelleneinrichtung und Baulogistik",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit, BA-SH GB9",
+    "id": "992014820190073"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45113000",
+      "description": "Siteworks"
+     },
+     "deliveryLocation": {
+      "description": "Bundesagentur für Arbeit, Am Hauptbahnhof 1, 63450 Hanau, Deutschland"
+     },
+     "deliveryAddress": {
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SCL Sustainable Construction Logistics GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "SCL Sustainable Construction Logistics GmbH"
+     },
+     "address": {
+      "streetAddress": "Leibnizstraße 13",
+      "locality": "Falkensee",
+      "region": "DE408",
+      "postalCode": "14612",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Hanau, Am Hauptbahnhof 1, Baustelleneinrichtung und Baulogistik",
+     "description": "Gegenstand der Ausschreibung sind die Leistungen der Baustelleneinrichtung und Baustellenlogistik für die Errichtung des Neubauprojekts \"Haus rund um das Erwerbsleben (HdE)\" in Hanau. Das Bauvorhaben umfasst zwei Verwaltungsgebäude für die Bundesagentur für Arbeit sowie die IBM Hanau mit einer Gesamt-Bruttogrundfläche von rd. 16.900 qm und einem Gesamt-Bruttorauminhalt von rd. 83.400 cbm.\nDie Leistungen bestehen im Einzelnen aus den folgenden Bestandteilen:\nAllgemeine Baustelleneinrichtung:\n- Bauzaun \n- Baustrom, u. a. bestehend aus Baustromhauptverteilung, Kran-, Container- und Etagenverteilern inkl. Baustromverkabelung\n- Baubeleuchtung, u. a. bestehend aus Außenbeleuchtung, Innenbeleuchtung sowie Sicherheits- und Rettungswegbeschilderung\n- Bauwasserversorgung\n- Bauaufzüge, bestehend aus 2 St. Fassadenaufzügen \n- Containeranlage für Auftraggeber / Objektüberwachung, bestehend aus 2x 7 Container\n- Sanitär- und Sanitätscontainer\n- Mobiltoiletten\nWeitere Baustelleneinrichtung und Dienstleistungen:\n- Baustellenüberwachung, bestehend aus Videoüberwachungssystem\n- Baustellenschließung, u. a. bestehend aus täglichem Baustellenschließdienst\n- Winterbauheizung, u. a. bestehend aus ölbetriebenen mobilen Warmwasser-Heizzentralen, mobilen Warmlufterhitzern sowie Warmwasserverteilsystem\nBaustellenlogistik:\n- Entsorgungslogistik, u. a. bestehend aus Bereitstellung von Sammel- und Entsorgungssystemen sowie Organisation und Betrieb der Entsorgungslogistik\n- Zusatzleistungen wie provisorische Rampen, Absturzsicherung usw.",
+     "contractPeriod": {
+      "startDate": "2026-11-23T00:00:00+01:00",
+      "endDate": "2029-04-13T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-22T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-21T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "448396-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "448396-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "1890c28b-acab-4b2c-a05b-91cbecb1c381",
+  "version": "01",
+  "title": "Hanau, Am Hauptbahnhof 1, Baustelleneinrichtung und Baulogistik",
+  "description": "Baustelleneinrichtung und Baulogistik",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "45113000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Hanau, Am Hauptbahnhof 1, Baustelleneinrichtung und Baulogistik",
+    "description": "Gegenstand der Ausschreibung sind die Leistungen der Baustelleneinrichtung und Baustellenlogistik für die Errichtung des Neubauprojekts \"Haus rund um das Erwerbsleben (HdE)\" in Hanau. Das Bauvorhaben umfasst zwei Verwaltungsgebäude für die Bundesagentur für Arbeit sowie die IBM Hanau mit einer Gesamt-Bruttogrundfläche von rd. 16.900 qm und einem Gesamt-Bruttorauminhalt von rd. 83.400 cbm.\nDie Leistungen bestehen im Einzelnen aus den folgenden Bestandteilen:\nAllgemeine Baustelleneinrichtung:\n- Bauzaun \n- Baustrom, u. a. bestehend aus Baustromhauptverteilung, Kran-, Container- und Etagenverteilern inkl. Baustromverkabelung\n- Baubeleuchtung, u. a. bestehend aus Außenbeleuchtung, Innenbeleuchtung sowie Sicherheits- und Rettungswegbeschilderung\n- Bauwasserversorgung\n- Bauaufzüge, bestehend aus 2 St. Fassadenaufzügen \n- Containeranlage für Auftraggeber / Objektüberwachung, bestehend aus 2x 7 Container\n- Sanitär- und Sanitätscontainer\n- Mobiltoiletten\nWeitere Baustelleneinrichtung und Dienstleistungen:\n- Baustellenüberwachung, bestehend aus Videoüberwachungssystem\n- Baustellenschließung, u. a. bestehend aus täglichem Baustellenschließdienst\n- Winterbauheizung, u. a. bestehend aus ölbetriebenen mobilen Warmwasser-Heizzentralen, mobilen Warmlufterhitzern sowie Warmwasserverteilsystem\nBaustellenlogistik:\n- Entsorgungslogistik, u. a. bestehend aus Bereitstellung von Sammel- und Entsorgungssystemen sowie Organisation und Betrieb der Entsorgungslogistik\n- Zusatzleistungen wie provisorische Rampen, Absturzsicherung usw.",
+    "cpv": [
+     "45113000"
+    ],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-23+01:00",
+    "plannedEnd": "2029-04-13+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das alleinige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

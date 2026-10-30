@@ -5,14 +5,14 @@
   "noticeId": "8fc95335-13fd-4298-9e6c-26bd270585bd",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8fc95335-13fd-4298-9e6c-26bd270585bd",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:8fc95335-13fd-4298-9e6c-26bd270585bd-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:8fc95335-13fd-4298-9e6c-26bd270585bd-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/8fc95335-13fd-4298-9e6c-26bd270585bd?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Holsteiner Straße 2a - Freianlagenplanung",
   "buyer": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
   "cpv": [
@@ -229,5 +229,63 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "8fc95335-13fd-4298-9e6c-26bd270585bd",
+  "version": "01",
+  "title": "Holsteiner Straße 2a - Freianlagenplanung",
+  "description": "Neubau eines Hauses für Kinder auf dem Gelände der Grundschule in der Holsteiner Straße 2a. \nNeubau eines Allwetterplatzes und Wiederherstellung des Pausenhofes nach Hochbaumaßnahme.\n\nPlanungsleistung Freianlagenplanung (Landschaftsarchitektur)",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "71222000",
+   "71400000",
+   "71420000"
+  ],
+  "estimatedValue": {
+   "amount": 280100,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Holsteiner Straße 2a - Freianlagenplanung",
+    "description": "Neubau eines Hauses für Kinder auf dem Gelände der Grundschule in der Holsteiner Straße 2a. \nNeubau eines Allwetterplatzes und Wiederherstellung des Pausenhofes nach Hochbaumaßnahme.\n\nPlanungsleistung Freianlagenplanung (Landschaftsarchitektur)",
+    "cpv": [
+     "71222000",
+     "71400000",
+     "71420000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-01+01:00",
+    "plannedEnd": "2033-10-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist nicht das einzige Zuschlagkriterium, alle Kriterien sind den Vergabeunterlagen zu entnehmen.",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "Leistungsbewertung gemäß Kriterienkatalog\n\nLeistungskriterien - Leistungsbewertung gemäß Kriterienkatalog für Verfahren in Stufe 2:\n\n2 Organisation/ Projektteam (Gesamtgewichtung 20%)\n2.1 Organisation und Bearbeiter, Gewichtung 6,67%\n2.2 Kostensteuerung, Gewichtung 6,67%\n2.3 Bauüberwachung, Präsenz, Gewichtung 6,67%\n\n3 Einschätzung und Aussagen zur Baumaßnahme (Gesamtgewichtung 20%)\n3.1 Herangehensweise an den Projektstart, Gewichtung 5%\n3.2 Einschätzung Terminrahmen, Gewichtung 5%\n3.3 Einschätzung Kostenrahmen, Gewichtung 5%\n3.4 konzeptionelle Herangehensweise, Gewichtung 5%\n\n4 besondere fachliche Qualitäten (Gesamtgewichtung 20%)\n4.1 Erfahrungen alter Baumbestand, Gewichtung 5%\n4.2 Erfahrungen Inklusion, Gewichtung 5%\n4.3 Erfahrungen Niederschlagsmanagement, Gewichtung 5%\n4.4 Arbeitsweise Bauleitung LP8, Gewichtung 5%\n\n5 Wertung der Honorarangebote, ohne Wertung\n6 Nachunternehmereinsatz, ohne Wertung\n7 Nebenangebote, ohne Wertung\n\n8 Projektanalyse / Herangehensweise (Gesamtgewichtung 40%)\n8.1 Herangehensweise, erste Einschätzungen, Gewichtung 10%\n8.2 Gestaltung, Gewichtung 10%\n8.3 Spielflächen Inklusion, Gewichtung 10%\n8.4 Regenwasserrückhaltung / Versickerung, Gewichtung 10%",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -5,14 +5,14 @@
   "noticeId": "25978266",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978266",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978266-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978266-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978266?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "München : Umbaumaßnahme für Unterbringung Referat 4.6 Ausländerrecht und Integration in der Verwaltungsgebäude in der Chiemgaustraße 109/ Pfälzer-Wald-Straße 70 ; 81549 München",
   "buyer": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau",
   "cpv": [
@@ -24,7 +24,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-11-30T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -108,5 +108,49 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25978266",
+  "version": "1",
+  "title": "München : Umbaumaßnahme für Unterbringung Referat 4.6 Ausländerrecht und Integration in der Verwaltungsgebäude in der Chiemgaustraße 109/ Pfälzer-Wald-Straße 70 ; 81549 München",
+  "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "München : Umbaumaßnahme für Unterbringung Referat 4.6 Ausländerrecht und Integration in der Verwaltungsgebäude in der Chiemgaustraße 109/ Pfälzer-Wald-Straße 70 ; 81549 München",
+    "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-30T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

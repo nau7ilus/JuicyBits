@@ -1,0 +1,134 @@
+{
+ "id": "25949580-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25949580",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25949580",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25949580-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25949580-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25949580?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schachtumbau- und Abdichtungsarbeiten an Duekern",
+  "buyer": "Landeshauptstadt Muenchen, Baureferat",
+  "cpv": [
+   "45247110-4"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-16T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25949580",
+  "id": "25949580",
+  "date": "2026-10-20T19:01:33Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt Muenchen, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landeshauptstadt Muenchen, Baureferat"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt Muenchen, Baureferat",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt Muenchen, Baureferat"
+   }
+  },
+  "tender": {
+   "title": "Schachtumbau- und Abdichtungsarbeiten an Duekern",
+   "description": "Schachtumbau- und Abdichtungsarbeiten an Duekern",
+   "procuringEntity": {
+    "name": "Landeshauptstadt Muenchen, Baureferat"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45247110-4"
+     },
+     "deliveryAddress": {
+      "locality": "81671 Muenchen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304159",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schachtumbau- und Abdichtungsarbeiten an Duekern",
+     "description": "Schachtumbau- und Abdichtungsarbeiten an Duekern"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25949580",
+  "version": "1",
+  "title": "Schachtumbau- und Abdichtungsarbeiten an Duekern",
+  "description": "Schachtumbau- und Abdichtungsarbeiten an Duekern",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45247110-4"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schachtumbau- und Abdichtungsarbeiten an Duekern",
+    "description": "Schachtumbau- und Abdichtungsarbeiten an Duekern",
+    "cpv": [
+     "45247110-4"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-16T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

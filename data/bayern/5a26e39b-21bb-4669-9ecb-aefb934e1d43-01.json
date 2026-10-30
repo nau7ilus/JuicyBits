@@ -1,0 +1,244 @@
+{
+ "id": "5a26e39b-21bb-4669-9ecb-aefb934e1d43-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "5a26e39b-21bb-4669-9ecb-aefb934e1d43",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5a26e39b-21bb-4669-9ecb-aefb934e1d43",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:5a26e39b-21bb-4669-9ecb-aefb934e1d43-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:5a26e39b-21bb-4669-9ecb-aefb934e1d43-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5a26e39b-21bb-4669-9ecb-aefb934e1d43?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Umbau ESTW-R (ZSB 2000) ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+  "buyer": "DB RegioNetz Infrastruktur GmbH (Bukr 76)",
+  "cpv": [
+   "34632200"
+  ],
+  "nuts": [
+   "DE712",
+   "DE269"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-45ed8475-1c65-465a-b19e-bbd09b358a44",
+  "id": "5a26e39b-21bb-4669-9ecb-aefb934e1d43",
+  "date": "2026-10-27T03:08:07Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB RegioNetz Infrastruktur GmbH (Bukr 76)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "f9b97d37-924b-40d5-8c92-7485719515e1",
+     "legalName": "DB RegioNetz Infrastruktur GmbH (Bukr 76)"
+    },
+    "address": {
+     "streetAddress": "Europa-Allee 70-76",
+     "locality": "Frankfurt am Main",
+     "region": "DE712",
+     "postalCode": "60486",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Scheidt & Bachmann Signalling - Systems GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "b35d0957-fc7d-44f5-a414-92ddc7ab9346",
+     "legalName": "Scheidt & Bachmann Signalling - Systems GmbH"
+    },
+    "address": {
+     "locality": "Mönchengladbach",
+     "region": "DEA15",
+     "postalCode": "41238",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB RegioNetz Infrastruktur GmbH (Bukr 76)",
+   "id": "f9b97d37-924b-40d5-8c92-7485719515e1",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB RegioNetz Infrastruktur GmbH (Bukr 76)"
+   },
+   "address": {
+    "streetAddress": "Europa-Allee 70-76",
+    "locality": "Frankfurt am Main",
+    "region": "DE712",
+    "postalCode": "60486",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "45ed8475-1c65-465a-b19e-bbd09b358a44",
+   "title": "Umbau ESTW-R (ZSB 2000) ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+   "description": "Umbau ESTW-R ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+   "procuringEntity": {
+    "name": "DB RegioNetz Infrastruktur GmbH (Bukr 76)",
+    "id": "f9b97d37-924b-40d5-8c92-7485719515e1"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34632200",
+      "description": "Electrical signalling equipment for railways"
+     },
+     "deliveryAddress": {
+      "locality": "Miltenberg",
+      "region": "DE269",
+      "postalCode": "63897",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "Contracts whose purpose is not the execution of works, the supply of products and the provision of services",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-23T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Scheidt & Bachmann Signalling - Systems GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Scheidt & Bachmann Signalling - Systems GmbH"
+     },
+     "address": {
+      "locality": "Mönchengladbach",
+      "region": "DEA15",
+      "postalCode": "41238",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Umbau ESTW-R (ZSB 2000) ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+     "description": "Umbau ESTW-R ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+     "contractPeriod": {
+      "startDate": "2026-10-19T00:00:00+02:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-22T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "5a26e39b-21bb-4669-9ecb-aefb934e1d43",
+  "version": "01",
+  "title": "Umbau ESTW-R (ZSB 2000) ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+  "description": "Umbau ESTW-R ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE269"
+  ],
+  "cpv": [
+   "34632200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Umbau ESTW-R (ZSB 2000) ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+    "description": "Umbau ESTW-R ESTW Miltenberg und Bf. Kleinheubach Anpassung Software (PT2)",
+    "cpv": [
+     "34632200"
+    ],
+    "nuts": [
+     "DE269"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-19+02:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

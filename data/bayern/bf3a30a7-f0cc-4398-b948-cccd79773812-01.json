@@ -1,0 +1,329 @@
+{
+ "id": "bf3a30a7-f0cc-4398-b948-cccd79773812-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "bf3a30a7-f0cc-4398-b948-cccd79773812",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bf3a30a7-f0cc-4398-b948-cccd79773812",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:bf3a30a7-f0cc-4398-b948-cccd79773812-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:bf3a30a7-f0cc-4398-b948-cccd79773812-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bf3a30a7-f0cc-4398-b948-cccd79773812?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "TSF-W für die Gemeinde Schlammersdorf, FF Schlammersdorf",
+  "buyer": "Gemeinde Schlammersdorf, VG Kirchenthumbach",
+  "cpv": [
+   "34144210",
+   "35111000"
+  ],
+  "nuts": [
+   "DE237"
+  ],
+  "deadline": "2026-11-17T15:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e8b83a70-8472-463d-83d1-74b448bc2450",
+  "id": "bf3a30a7-f0cc-4398-b948-cccd79773812",
+  "date": "2026-10-18T11:28:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Schlammersdorf, VG Kirchenthumbach",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09374155-Schlammersdorf-06",
+     "legalName": "Gemeinde Schlammersdorf, VG Kirchenthumbach"
+    },
+    "address": {
+     "streetAddress": "Bahnhofstraße  18",
+     "locality": "Kirchenthumbach",
+     "region": "DE237",
+     "postalCode": "91281",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern ",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "VergabeNord",
+     "legalName": "Vergabekammer Nordbayern "
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Schlammersdorf, VG Kirchenthumbach",
+   "id": "09374155-Schlammersdorf-06",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Schlammersdorf, VG Kirchenthumbach"
+   },
+   "address": {
+    "streetAddress": "Bahnhofstraße  18",
+    "locality": "Kirchenthumbach",
+    "region": "DE237",
+    "postalCode": "91281",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e8b83a70-8472-463d-83d1-74b448bc2450",
+   "title": "TSF-W für die Gemeinde Schlammersdorf, FF Schlammersdorf",
+   "description": "Lieferung eines Tragkraftspritzenfahrzeug m.Wasser TSF-W mit Beladung in drei Losen, wobei das Los Fahrgestell und das Los Aufbau miteinander anzubieten sind, gem. DIN 14530-17, DIN EN 1846, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis ",
+   "procuringEntity": {
+    "name": "Gemeinde Schlammersdorf, VG Kirchenthumbach",
+    "id": "09374155-Schlammersdorf-06"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gemeinde Schlammersdorf",
+      "locality": "Kirchenthumbach",
+      "region": "DE237",
+      "postalCode": "91281",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gemeinde Schlammersdorf",
+      "locality": "Kirchenthumbach",
+      "region": "DE237",
+      "postalCode": "91281",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35111000",
+      "description": "Firefighting equipment"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gemeinde Schlammersdorf",
+      "locality": "Kirchenthumbach",
+      "region": "DE237",
+      "postalCode": "91281",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c210-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c210-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c210-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fahrgestell",
+     "description": "Lieferung eines Fahrgestells für ein Tragkraftspritzenfahrzeug m.Wasser TSF-W mit Beladung in drei Losen, wobei das Los Fahrgestell und das Los Aufbau miteinander anzubieten sind, gem. DIN 14530-17, DIN EN 1846, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis ",
+     "contractPeriod": {
+      "startDate": "2027-10-18T00:00:00+02:00",
+      "endDate": "2028-09-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Aufbau",
+     "description": "Lieferung eines Aufbaus für ein Tragkraftspritzenfahrzeug m.Wasser TSF-W mit Beladung in drei Losen, wobei das Los Fahrgestell und das Los Aufbau miteinander anzubieten sind, gem. DIN 14530-17, DIN EN 1846, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis ",
+     "contractPeriod": {
+      "startDate": "2027-10-18T00:00:00+02:00",
+      "endDate": "2028-09-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Beladung",
+     "description": "Lieferung der Beladung für ein Tragkraftspritzenfahrzeug m.Wasser TSF-W mit Beladung i gem. DIN 14530-17, DIN EN 1846, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis ",
+     "contractPeriod": {
+      "startDate": "2027-10-18T00:00:00+02:00",
+      "endDate": "2028-09-30T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bf3a30a7-f0cc-4398-b948-cccd79773812",
+  "version": "01",
+  "title": "TSF-W für die Gemeinde Schlammersdorf, FF Schlammersdorf",
+  "description": "Lieferung eines Tragkraftspritzenfahrzeug m.Wasser TSF-W mit Beladung in drei Losen, wobei das Los Fahrgestell und das Los Aufbau miteinander anzubieten sind, gem. DIN 14530-17, DIN EN 1846, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis",
+  "procedureType": "open",
+  "nuts": [
+   "DE237"
+  ],
+  "cpv": [
+   "34144210",
+   "35111000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fahrgestell",
+    "description": "Lieferung eines Fahrgestells für ein Tragkraftspritzenfahrzeug m.Wasser TSF-W mit Beladung in drei Losen, wobei das Los Fahrgestell und das Los Aufbau miteinander anzubieten sind, gem. DIN 14530-17, DIN EN 1846, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE237"
+    ],
+    "deadline": "2026-11-17T15:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-10-18+02:00",
+    "plannedEnd": "2028-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "technische Beschaffenheit, Funktionalität, Service",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Aufbau",
+    "description": "Lieferung eines Aufbaus für ein Tragkraftspritzenfahrzeug m.Wasser TSF-W mit Beladung in drei Losen, wobei das Los Fahrgestell und das Los Aufbau miteinander anzubieten sind, gem. DIN 14530-17, DIN EN 1846, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE237"
+    ],
+    "deadline": "2026-11-17T15:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-10-18+02:00",
+    "plannedEnd": "2028-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "technische Beschaffenheit, Funktionalität, Service",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Beladung",
+    "description": "Lieferung der Beladung für ein Tragkraftspritzenfahrzeug m.Wasser TSF-W mit Beladung i gem. DIN 14530-17, DIN EN 1846, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis",
+    "cpv": [
+     "35111000"
+    ],
+    "nuts": [
+     "DE237"
+    ],
+    "deadline": "2026-11-17T15:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-10-18+02:00",
+    "plannedEnd": "2028-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

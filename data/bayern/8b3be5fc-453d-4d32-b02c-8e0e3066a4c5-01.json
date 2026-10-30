@@ -1,0 +1,212 @@
+{
+ "id": "8b3be5fc-453d-4d32-b02c-8e0e3066a4c5-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "8b3be5fc-453d-4d32-b02c-8e0e3066a4c5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8b3be5fc-453d-4d32-b02c-8e0e3066a4c5",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:8b3be5fc-453d-4d32-b02c-8e0e3066a4c5-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:8b3be5fc-453d-4d32-b02c-8e0e3066a4c5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8b3be5fc-453d-4d32-b02c-8e0e3066a4c5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "VE 3.24.1 Maler- und Lackierarbeiten BT3",
+  "buyer": "Bezirk Unterfranken - Baureferat",
+  "cpv": [
+   "45442100",
+   "45410000"
+  ],
+  "nuts": [
+   "DE263",
+   "DE26B"
+  ],
+  "deadline": "2026-11-23T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0be3a453-25fa-42a6-94c0-94d7cd79a485",
+  "id": "8b3be5fc-453d-4d32-b02c-8e0e3066a4c5",
+  "date": "2026-10-25T13:14:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bezirk Unterfranken - Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE134187737",
+     "legalName": "Bezirk Unterfranken - Baureferat"
+    },
+    "address": {
+     "streetAddress": "Silcherstr. 5",
+     "locality": "Würzburg",
+     "region": "DE263",
+     "postalCode": "97074",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Vergabekammer Nordbayern, Regierung Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bezirk Unterfranken - Baureferat",
+   "id": "DE134187737",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bezirk Unterfranken - Baureferat"
+   },
+   "address": {
+    "streetAddress": "Silcherstr. 5",
+    "locality": "Würzburg",
+    "region": "DE263",
+    "postalCode": "97074",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0be3a453-25fa-42a6-94c0-94d7cd79a485",
+   "title": "VE 3.24.1 Maler- und Lackierarbeiten BT3",
+   "description": "Maler- und Lackierarbeiten BT3 für die Erweiterung der Forensik am BKH Schloss Werneck. Geplant ist ein Erweiterungsbau mit ca. 3.011 m² NF nach DIN13080 mit 2 Stationen für je 24 Patieneten, davon 1 Halbstation als hochgesicherter Bereich.",
+   "procuringEntity": {
+    "name": "Bezirk Unterfranken - Baureferat",
+    "id": "DE134187737"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45442100",
+      "description": "Painting work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45410000",
+       "description": "Plastering work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Balthasar-Neumann-Platz 1",
+      "locality": "Werneck",
+      "region": "DE26B",
+      "postalCode": "97440",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331303",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Maler- und Lackierarbeiten BT 3",
+     "description": "Bautakt 3 - Sicherheitszentrale und Verwaltung",
+     "contractPeriod": {
+      "startDate": "2027-03-15T00:00:00+01:00",
+      "endDate": "2028-11-11T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "8b3be5fc-453d-4d32-b02c-8e0e3066a4c5",
+  "version": "01",
+  "title": "VE 3.24.1 Maler- und Lackierarbeiten BT3",
+  "description": "Maler- und Lackierarbeiten BT3 für die Erweiterung der Forensik am BKH Schloss Werneck. Geplant ist ein Erweiterungsbau mit ca. 3.011 m² NF nach DIN13080 mit 2 Stationen für je 24 Patieneten, davon 1 Halbstation als hochgesicherter Bereich.",
+  "procedureType": "open",
+  "nuts": [
+   "DE26B"
+  ],
+  "cpv": [
+   "45442100",
+   "45410000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Maler- und Lackierarbeiten BT 3",
+    "description": "Bautakt 3 - Sicherheitszentrale und Verwaltung",
+    "cpv": [
+     "45442100",
+     "45410000"
+    ],
+    "nuts": [
+     "DE26B"
+    ],
+    "deadline": "2026-11-23T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-15+01:00",
+    "plannedEnd": "2028-11-11+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331303 - Die Eignung für die zu vergebende Leistung ist durch Eintragung in die Liste des Vereins für Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig entweder durch die ausgefüllte „Eigenerklärung zur Eignung“ gem. Formblatt 124 oder eine Einheitliche Europäische Eigenerklärung (EEE) mit dem Angebot nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, sind die im Formblatt 124 bzw. der EEE angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 bzw. der EEE auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331303 - Die Eignung für die zu vergebende Leistung ist durch Eintragung in die Liste des Vereins für Präqualifikation von Bauunternehmen e. V.(Präqualifikationsverzeichnis) oder vorläufig entweder durch die ausgefüllte „Eigenerklärung zur Eignung“ gem. Formblatt 124 oder eine Einheitliche Europäische Eigenerklärung (EEE) mit dem Angebot nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, sind die im Formblatt 124 bzw. der EEE angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 bzw. der EEE auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331303 - Technische und berufliche Leistungsfähigkeit: Die Eignung für die zu vergebende Leistung ist durch Eintragung in die Liste des Vereins für Präqualifikation von Bauunternehmen e. V.(Präqualifikationsverzeichnis) oder vorläufig entweder durch die ausgefüllte „Eigenerklärung zur Eignung“ gem. Formblatt 124 oder eine Einheitliche Europäische Eigenerklärung (EEE) mit dem Angebot nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, sind die im Formblatt 124 bzw. der EEE angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 bzw. der EEE auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Für die Leistung wird der Zuschlag auf Basis des niedrigsten technischen Angebotspreis unter Einhaltung der in den Auftragsunterlagen genannten Mindestqualitätsanforderungen vergeben.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

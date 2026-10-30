@@ -1,0 +1,149 @@
+{
+ "id": "25944556-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944556",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944556",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944556-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944556-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944556?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+  "buyer": "Gemeinde Schmidgaden",
+  "cpv": [
+   "45231100-6",
+   "45232000-2",
+   "45351000-2"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-17T14:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944556",
+  "id": "25944556",
+  "date": "2026-10-17T07:01:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Schmidgaden",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Schmidgaden"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Schmidgaden",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Schmidgaden"
+   }
+  },
+  "tender": {
+   "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+   "description": "Gas- Wasser- und Entwässerungsanlagen, Tiefbau und Entwässerungskanalarbeiten, Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+   "procuringEntity": {
+    "name": "Gemeinde Schmidgaden"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45231100-6"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45232000-2"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45351000-2"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "92546 Schmidgaden",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28C1E6-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+     "description": "Gas- Wasser- und Entwässerungsanlagen, Tiefbau und Entwässerungskanalarbeiten, Elektroinstallation, Nieder- und Mittelspannungsanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25944556",
+  "version": "1",
+  "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+  "description": "Gas- Wasser- und Entwässerungsanlagen, Tiefbau und Entwässerungskanalarbeiten, Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45231100-6",
+   "45232000-2",
+   "45351000-2"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+    "description": "Gas- Wasser- und Entwässerungsanlagen, Tiefbau und Entwässerungskanalarbeiten, Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+    "cpv": [
+     "45231100-6",
+     "45232000-2",
+     "45351000-2"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T14:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

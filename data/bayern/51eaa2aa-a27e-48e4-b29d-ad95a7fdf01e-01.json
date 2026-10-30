@@ -1,0 +1,274 @@
+{
+ "id": "51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "J+K Holzinnentüren 70-00001-2880-58 - PR1290390-2880-B",
+  "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+  "cpv": [
+   "45421131",
+   "45422000",
+   "44221200"
+  ],
+  "nuts": [
+   "DE212",
+   "DEB32"
+  ],
+  "deadline": "2026-10-27T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-49d1d34c-b66c-4079-ae62-7d5c38b977fc",
+  "id": "51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e",
+  "date": "2026-10-18T12:48:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+   "id": "DE129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "49d1d34c-b66c-4079-ae62-7d5c38b977fc",
+   "title": "J+K Holzinnentüren 70-00001-2880-58 - PR1290390-2880-B",
+   "description": "J+K Holzinnentüren 70-00001-2880-58",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+    "id": "DE129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421131",
+      "description": "Installation of doors"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45422000",
+       "description": "Carpentry installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44221200",
+       "description": "Doors"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Kaiserslautern",
+      "region": "DEB32",
+      "postalCode": "67663",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a09ff0201a-5ae0a30c85f4514e",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-18T12:48:04.668Z",
+     "rationale": "Verschiebung des Submissionstermins um eine Woche auf den 27.10.2026.\nEbenso entsprechende Verschiebung der weiteren Verfahrenstermine um eine Woche.",
+     "amendsReleaseID": "fcd29cc5-5683-4216-98b9-bce47074c29b-01",
+     "releaseID": "51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "J+K Holzinnentüren 70-00001-2880-58",
+     "description": "* Termine zur Durchführung der Hauptleistung auf der Baustelle:\nLeistungsbeginn 02.04.2027; Leistungsende 12.07.2027\n\n* Beschreibung der Beschaffung:\nErweiterungsbau Fraunhofer ITWM Haus J+K, Fraunhofer Platz 1, 67663 Kaiserslautern\nHolz-Innentüren:\n\n- ca. 127 St 1-flg. Holzinnentüren mit Holzblockzarge T0 mit feststehendem Seitenteil\n- ca. 21 St 1-flg. Holzinnentüren mit Umfassungszarge T0 \n- ca. 14 St. 2-flg. Holzinnentüren mit Holzblockzarge T0\n- ca. 12 St. OTS für 1-flg. Türen\n- ca. 132 St. Bodentürpuffer\n- ca. 30 St. Wandtürpuffer",
+     "contractPeriod": {
+      "startDate": "2027-01-08T00:00:00+01:00",
+      "endDate": "2027-07-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "51eaa2aa-a27e-48e4-b29d-ad95a7fdf01e",
+  "version": "01",
+  "title": "J+K Holzinnentüren 70-00001-2880-58 - PR1290390-2880-B",
+  "description": "J+K Holzinnentüren 70-00001-2880-58",
+  "procedureType": "open",
+  "nuts": [
+   "DEB32"
+  ],
+  "cpv": [
+   "45421131",
+   "45422000",
+   "44221200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "J+K Holzinnentüren 70-00001-2880-58",
+    "description": "* Termine zur Durchführung der Hauptleistung auf der Baustelle:\nLeistungsbeginn 02.04.2027; Leistungsende 12.07.2027\n\n* Beschreibung der Beschaffung:\nErweiterungsbau Fraunhofer ITWM Haus J+K, Fraunhofer Platz 1, 67663 Kaiserslautern\nHolz-Innentüren:\n\n- ca. 127 St 1-flg. Holzinnentüren mit Holzblockzarge T0 mit feststehendem Seitenteil\n- ca. 21 St 1-flg. Holzinnentüren mit Umfassungszarge T0 \n- ca. 14 St. 2-flg. Holzinnentüren mit Holzblockzarge T0\n- ca. 12 St. OTS für 1-flg. Türen\n- ca. 132 St. Bodentürpuffer\n- ca. 30 St. Wandtürpuffer",
+    "cpv": [
+     "45421131",
+     "45422000",
+     "44221200"
+    ],
+    "nuts": [
+     "DEB32"
+    ],
+    "deadline": "2026-10-27T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-08+01:00",
+    "plannedEnd": "2027-07-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an und geben zusätzlich mit dem Angebot eine Eigenerklärung zu 3 Referenzen über vergleichbare Leistungen aus den letzten 5 Jahren unter Verwendung des Formblatts 444 (nur die Seiten 1 und 2) jeweils mit Angaben zum Leistungsgegenstand, Leistungsanteil, zur Zahl der eigenen eingesetzten Arbeitnehmer, zu etwaigen besonderen technischen oder gerätespezifischen Anforderungen/Besonderheiten der Ausführung, zum Auftragswert ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft).\nNicht präqualifizierte Unternehmen geben mit dem Angebot folgende Eigenerklärung ab:\n- Eigenerklärung zu 3 Referenzen über vergleichbare Leistungen aus den letzten 5 Jahren unter Verwendung des Formblatts 444 (nur die Seiten 1 und 2) jeweils mit Angaben zum Leistungsgegenstand, Leistungsanteil, zur Zahl der eigenen eingesetzten Arbeitnehmer, zu etwaigen besonderen technischen oder gerätespezifischen Anforderungen/Besonderheiten der Ausführung, zum Auftragswert (für Bieter, Mitglieder einer Bietergemeinschaft). \n- Eigenerklärung im Formblatt 124, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen (für Bieter, Mitglieder einer Bietergemeinschaft). Auftragsspezifische Einzelnachweise (von präqualifizierten und nicht präqualifizierten Unternehmen vorzulegen): Mit dem Angebot sind die Teile des Auftrags, die als Unteraufträge an andere Unternehmen vergeben werden sollen, zu benennen (Formblatt 233). Möglicherweise geforderte Mindeststandards: Es müssen drei Referenzprojekte über vergleichbare Leistungen in den letzten 5 Jahren ausgeführt worden sein."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Siehe Referenzen zu bestimmten Arbeiten sowie Eintragung in ein relevantes Berufsregister"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Zahl der in den letzten drei abgeschlossenen Kalenderjahren durchschnittlich beschäftigten Arbeitskräfte geglieder nach Lohngruppen mit extra ausgewiesenem Leitungspersonal ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-no-mgmt",
+      "description": "Siehe Durchschnittliche jährliche Belegschaft"
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Nimmt der Bieter/Bewerber in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der 'Verpflichtungserklärung' (Formblatt 236) abzugeben."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer entsprechenden Berufshaftpflichtversicherung gem. § 6a VOB/A (für EU-Verfahren)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das mit dem Angebot aubzugebende Formblatt 124 eine Eigenerklärung zum Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren, so weit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab (für Bieter, Mitglieder einer Bietergemeinschaft). Nimmt der Bieter/Bewerber in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der 'Verpflichtungserklärung' (Formblatt 236) abzugeben."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das mit dem Angebot abzugebende Formblatt 124 eine Eigenerklärung zum Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren, so weit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab (für Bieter, Mitglieder einer Bietergemeinschaft)."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Eintragung in das Berufsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Eintragung in das Handelsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

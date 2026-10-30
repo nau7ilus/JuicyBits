@@ -5,14 +5,14 @@
   "noticeId": "48769eb6-f6a5-40fe-855e-76aa0f4a381c",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=48769eb6-f6a5-40fe-855e-76aa0f4a381c",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:48769eb6-f6a5-40fe-855e-76aa0f4a381c-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:48769eb6-f6a5-40fe-855e-76aa0f4a381c-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/48769eb6-f6a5-40fe-855e-76aa0f4a381c?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Hausverwaltung - kaufmännische und technische Verwaltung (Mietverwaltung im kommunalen Eigentum)",
   "buyer": "Große Kreisstadt Fürstenfeldbruck",
   "cpv": [
@@ -198,5 +198,56 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "48769eb6-f6a5-40fe-855e-76aa0f4a381c",
+  "version": "01",
+  "title": "Hausverwaltung - kaufmännische und technische Verwaltung (Mietverwaltung im kommunalen Eigentum)",
+  "description": "Hausverwaltung für:\n14 Abrechnungseinheiten\n11 Standorte im Stadtgebiet\n91 Wohneinheiten gesamt\n28 Gewerbe- / Sondereinheiten\n10.887 m² Wohn- / Nutzfläche\n3 denkmalgeschützte Objekte\n\nGrundleistungen:\n– Kaufmännische Verwaltung\n– Technische Verwaltung\n– Infrastrukturelle Steuerung Dritter\n– Objektbegehungen mind. 2×/Jahr je Einheit\n\nBesondere Leistungen:\n– Maßnahmen über 2.000 € brutto\n– Sanierungen / Investitionen ab 25.000 €\n– Gerichtliche Verfahren über die Koordination hinaus\n– Nur nach vorheriger schriftlicher Zustimmung / Beauftragung",
+  "procedureType": "open",
+  "nuts": [
+   "DE21C"
+  ],
+  "cpv": [
+   "70330000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Hausverwaltung - kaufmännische und technische Verwaltung (Mietverwaltung im kommunalen Eigentum)",
+    "description": "Hausverwaltung für:\n14 Abrechnungseinheiten\n11 Standorte im Stadtgebiet\n91 Wohneinheiten gesamt\n28 Gewerbe- / Sondereinheiten\n10.887 m² Wohn- / Nutzfläche\n3 denkmalgeschützte Objekte\n\nGrundleistungen:\n– Kaufmännische Verwaltung\n– Technische Verwaltung\n– Infrastrukturelle Steuerung Dritter\n– Objektbegehungen mind. 2×/Jahr je Einheit\n\nBesondere Leistungen:\n– Maßnahmen über 2.000 € brutto\n– Sanierungen / Investitionen ab 25.000 €\n– Gerichtliche Verfahren über die Koordination hinaus\n– Nur nach vorheriger schriftlicher Zustimmung / Beauftragung",
+    "cpv": [
+     "70330000"
+    ],
+    "nuts": [
+     "DE21C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://ffb.healyhudson.biz/evergabe.bieter/api/supplier/external/subproject/e6b52512-104b-4eaf-a44a-fa3bb3911a86/awardcriteria",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

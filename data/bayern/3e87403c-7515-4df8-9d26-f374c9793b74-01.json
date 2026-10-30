@@ -1,0 +1,277 @@
+{
+ "id": "3e87403c-7515-4df8-9d26-f374c9793b74-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "3e87403c-7515-4df8-9d26-f374c9793b74",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3e87403c-7515-4df8-9d26-f374c9793b74",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:3e87403c-7515-4df8-9d26-f374c9793b74-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:3e87403c-7515-4df8-9d26-f374c9793b74-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3e87403c-7515-4df8-9d26-f374c9793b74?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau Landesfinanzschule Bayern, Außenstelle Dinkelsbühl - Schreiner Festeinbauten",
+  "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+  "cpv": [
+   "39100000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE256"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d2449551-64b6-4944-a9aa-b0cbf5ad3b48",
+  "id": "3e87403c-7515-4df8-9d26-f374c9793b74",
+  "date": "2026-10-20T10:04:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+     "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstraße 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Steuern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "955f3ee5-ba27-4dcc-9164-0b25df5b3370",
+     "legalName": "Bayerisches Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "PRENZEL GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "154086b4-e23b-41af-a90a-487a97232964",
+     "legalName": "PRENZEL GmbH"
+    },
+    "address": {
+     "locality": "Murrhardt",
+     "region": "DE116",
+     "postalCode": "71540",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+   "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+   },
+   "address": {
+    "streetAddress": "Sophienstraße 6",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d2449551-64b6-4944-a9aa-b0cbf5ad3b48",
+   "title": "Neubau Landesfinanzschule Bayern, Außenstelle Dinkelsbühl - Schreiner Festeinbauten",
+   "description": "Für den Neubau der Außenstelle der Landesfinanzschule Bayern in Dinkelsbühl wird die Möblierung inkl. Einbau für die Gästezimmer der neuen Außenstelle vergeben.\nDer Montagebeginn ist ab dem 01.12.2026 vorgesehen. \n",
+   "procuringEntity": {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39100000",
+      "description": "Furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Dinkelsbühl",
+      "region": "DE256",
+      "postalCode": "91550",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-05T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "PRENZEL GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "PRENZEL GmbH"
+     },
+     "address": {
+      "locality": "Murrhardt",
+      "region": "DE116",
+      "postalCode": "71540",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Landesfinanzschule Bayern, Außenstelle Dinkelsbühl - Schreiner Festeinbauten",
+     "description": "Für den Neubau der Außenstelle der Landesfinanzschule Bayern in Dinkelsbühl wird die Möblierung inkl. Einbau für die Gästezimmer der neuen Außenstelle vergeben.\nDer Montagebeginn ist ab dem 01.12.2026 vorgesehen. \n",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2027-04-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "PRENZEL GmbH",
+      "id": "154086b4-e23b-41af-a90a-487a97232964",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "PRENZEL GmbH"
+      },
+      "address": {
+       "locality": "Murrhardt",
+       "region": "DE116",
+       "postalCode": "71540",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3e87403c-7515-4df8-9d26-f374c9793b74",
+  "version": "01",
+  "title": "Neubau Landesfinanzschule Bayern, Außenstelle Dinkelsbühl - Schreiner Festeinbauten",
+  "description": "Für den Neubau der Außenstelle der Landesfinanzschule Bayern in Dinkelsbühl wird die Möblierung inkl. Einbau für die Gästezimmer der neuen Außenstelle vergeben.\nDer Montagebeginn ist ab dem 01.12.2026 vorgesehen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE256"
+  ],
+  "cpv": [
+   "39100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Landesfinanzschule Bayern, Außenstelle Dinkelsbühl - Schreiner Festeinbauten",
+    "description": "Für den Neubau der Außenstelle der Landesfinanzschule Bayern in Dinkelsbühl wird die Möblierung inkl. Einbau für die Gästezimmer der neuen Außenstelle vergeben.\nDer Montagebeginn ist ab dem 01.12.2026 vorgesehen.",
+    "cpv": [
+     "39100000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2027-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

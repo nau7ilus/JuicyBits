@@ -5,12 +5,12 @@
   "noticeId": "1b0cccfd-c48f-4224-8378-f0dce948d383",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1b0cccfd-c48f-4224-8378-f0dce948d383",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:1b0cccfd-c48f-4224-8378-f0dce948d383-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:1b0cccfd-c48f-4224-8378-f0dce948d383-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/1b0cccfd-c48f-4224-8378-f0dce948d383?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "2. S-Bahn-Stammstrecke München, NeM 23 Geschwindigkeitserhöhung Abschnitt Johanneskirchen - Flughafen, Planung (VE324)",
   "buyer": "DB Netz AG (Bukr 16)",
   "cpv": [
@@ -186,5 +186,43 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "1b0cccfd-c48f-4224-8378-f0dce948d383",
+  "version": "01",
+  "title": "2. S-Bahn-Stammstrecke München, NeM 23 Geschwindigkeitserhöhung Abschnitt Johanneskirchen - Flughafen, Planung (VE324)",
+  "description": "Die Geschwindigkeitserhöhung München-Johanneskirchen - München-Flughafen ist Bestandteil der Maßnahmen im Außenbereich der 2. S-Bahn-Stammstrecke, damit das Fahrplankonzept realisiert werden kann.\nIm Rahmen des Projekts der Netzergänzenden Maßnahme 23 (NeM 23) soll die Streckengeschwindigkeit von 120 auf 140 km/h erhöht werden. Weiterhin ist zu untersuchen, welche Mehrkosten eine Erhöhung des Streckenstandards auf 160 km/h verursacht. \nAufgrund von Spurplananpassungen und Geschwindigkeitserhöhung sind Anpassungen an den Oberleitungsanlagen und an den sicherungstechnischen Anlagen notwendig.  \nGegenstand dieser Vergabe ist die Erstellung der erforderlichen Planung der Leistungsphasen 1 bis 4 und optional 6,7 für die Verkehrsanlagen einschl. technische Ausstattung (LST, OLA, EEA) für die Strecke vom Bf München-Johanneskirchen ca. km 28,0 Strecke 5560 bis Einfahrsignal Bf München Flughafen ca. km 29,5 Strecke 5556.",
+  "procedureType": null,
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71240000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "2. S-Bahn-Stammstrecke München, NeM 23 Geschwindigkeitserhöhung Abschnitt Johanneskirchen - Flughafen, Planung (VE324)",
+    "description": "Die Geschwindigkeitserhöhung München-Johanneskirchen - München-Flughafen ist Bestandteil der Maßnahmen im Außenbereich der 2. S-Bahn-Stammstrecke, damit das Fahrplankonzept realisiert werden kann.\nIm Rahmen des Projekts der Netzergänzenden Maßnahme 23 (NeM 23) soll die Streckengeschwindigkeit von 120 auf 140 km/h erhöht werden. Weiterhin ist zu untersuchen, welche Mehrkosten eine Erhöhung des Streckenstandards auf 160 km/h verursacht. \nAufgrund von Spurplananpassungen und Geschwindigkeitserhöhung sind Anpassungen an den Oberleitungsanlagen und an den sicherungstechnischen Anlagen notwendig.  \nGegenstand dieser Vergabe ist die Erstellung der erforderlichen Planung der Leistungsphasen 1 bis 4 und optional 6,7 für die Verkehrsanlagen einschl. technische Ausstattung (LST, OLA, EEA) für die Strecke vom Bf München-Johanneskirchen ca. km 28,0 Strecke 5560 bis Einfahrsignal Bf München Flughafen ca. km 29,5 Strecke 5556.",
+    "cpv": [
+     "71240000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2019-04-08+02:00",
+    "plannedEnd": "2022-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -5,14 +5,14 @@
   "noticeId": "0e451577-8bca-45c6-85a5-ef963f9546f6",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0e451577-8bca-45c6-85a5-ef963f9546f6",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:0e451577-8bca-45c6-85a5-ef963f9546f6-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:0e451577-8bca-45c6-85a5-ef963f9546f6-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/0e451577-8bca-45c6-85a5-ef963f9546f6?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Architektenleistungen der LPH 1-9, in 4 Stufen zu vergeben",
   "buyer": "Landratsamt Miesbach - Vergabestelle-",
   "cpv": [
@@ -211,5 +211,56 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "0e451577-8bca-45c6-85a5-ef963f9546f6",
+  "version": "01",
+  "title": "Architektenleistungen der LPH 1-9, in 4 Stufen zu vergeben",
+  "description": "Sanierung von zwei denkmalgeschützten Bürogebäuden LRA-MB, Haus B und C sowie des Bürogebäudes Haus D in unterschiedlichen, versetzen\nBauabschnitten, mithin unterschiedlichen Planungsphasen (1. Planungsphase, 1. BA: 07. Sep 2026-31.01.2027 und 2. Planungsphase, 2. BA:\n01.06.2027-01.04.2028).\nIn einem ersten Bauabschnitt sollen zwei denkmalgeschützte, dreigeschossige Bürogebäude mit eingeschossigem Zwischenbau sowie in einem\nzweiten Bauabschnitt ein weiteres Bürogebäude saniert werden.\nObjektdaten:\nBauabschnitt 1 – Haus B und C\nBruttogrundfläche: ca. 746 qm (Gebäude ohne befestigte Flächen im Außenbereich)\nHaupt-Nutzfläche: EG-OG-DG 1.261 qm\nGesamtfläche: UG-EG-OG-DG 2.193 qm\nBauabschnitt 2 – Haus D\nBruttogrundfläche: ca. 733 qm\nHaupt-Nutzfläche: EG-OG 1.448 qm\nGesamtfläche: UG-EG-OG 1.905 qm (DG nicht ausgebaut)\nDie Gebäude sollen eine Neuausrichtung als moderne, digitale Verwaltung sowie die Notwendigkeit einer Sanierung durch zeitbedingte Abnutzung\numgesetzt werden.\nDie Arbeiten umfasst lediglich den Innenausbau, Sanierungen im Fassaden- und Außenbereich wurden im Vorfeld vollständig abgeschlossen.\nRaumkonzepte und Raumbelegungen sowie eine Kostenschätzung liegen vor. Die Planung für den ersten Bauabschnitt soll Mitte 2026 beginnen,\ndie Bauausführung erfolgt 2027/2028.\nDie Planung für den zweiten Bauabschnitt ist ab Ende 2027 geplant, die Bauausführung 2028/29.\nGemäß einer Grobkostenschätzung wurde für Haus B und C Gesamtbaukosten von 3,1 Mio € brutto., für Haus D 2,3 Mio.€ ermittelt.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21F"
+  ],
+  "cpv": [
+   "71200000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Architektenleistungen für Sanierungsmaßnahmen von Bürogebäuden",
+    "description": "In einem ersten Bauabschnitt sollen zwei denkmalgeschützte, dreigeschossige Bürogebäude mit eingeschossigem Zwischenbau sowie in einem\nzweiten Bauabschnitt ein weiteres Bürogebäude saniert werden. Planungszeiträume: 1. BA: 7. Sep 2026- 31.01.2027 und Haus D, 2. BA: 01.06.27-\n01.04.2028\nObjektdaten:\nBauabschnitt 1 – Haus B und C\nBruttogrundfläche: ca. 746 qm (Gebäude ohne befestigte Flächen im Außenbereich)\nHaupt-Nutzfläche: EG-OG-DG 1.261 qm\nGesamtfläche: UG-EG-OG-DG 2.193 qm\nBauabschnitt 2 – Haus D\nBruttogrundfläche: ca. 733 qm\nHaupt-Nutzfläche: EG-OG 1.448 qm\nGesamtfläche: UG-EG-OG 1.905 qm (DG nicht ausgebaut)\nDie Gebäude sollen eine Neuausrichtung als moderne, digitale Verwaltung sowie die Notwendigkeit einer Sanierung durch zeitbedingte Abnutzung\numgesetzt werden.\nDie Arbeiten umfasst lediglich den Innenausbau, Sanierungen im Fassaden- und Außenbereich wurden im Vorfeld vollständig abgeschlossen.\nBeauftragung in 4 Schritten und Leistungsphasen.",
+    "cpv": [
+     "71200000"
+    ],
+    "nuts": [
+     "DE21F"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-22+02:00",
+    "plannedEnd": "2027-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Konzept wird zu 60% gewertet:\nAngebot zu ausgeschriebenen Planungsleistungen nebst Darstellung einzelner Aspekte zum Vorgehen.",
+      "weight": 210
+     },
+     {
+      "type": "price",
+      "name": null,
+      "description": "Zu 40% wird das Honorarblatt gewertet.",
+      "weight": 174
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

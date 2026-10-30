@@ -5,14 +5,14 @@
   "noticeId": "3a5070c7-9a55-4bc0-a3c2-cff4132c3a62",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3a5070c7-9a55-4bc0-a3c2-cff4132c3a62",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:3a5070c7-9a55-4bc0-a3c2-cff4132c3a62-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:3a5070c7-9a55-4bc0-a3c2-cff4132c3a62-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/3a5070c7-9a55-4bc0-a3c2-cff4132c3a62?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Nürnberg, Regensburger Straße 104 - 106, 430-Lüftungsanlagen",
   "buyer": "Bundesagentur für Arbeit, SB93 Recht/Vergabe",
   "cpv": [
@@ -216,5 +216,46 @@
    }
   ]
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3a5070c7-9a55-4bc0-a3c2-cff4132c3a62",
+  "version": "01",
+  "title": "Nürnberg, Regensburger Straße 104 - 106, 430-Lüftungsanlagen",
+  "description": "Lüftungsanlagen",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "45331210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Nürnberg, Regensburger Straße 104 - 106, 430-Lüftungsanlagen",
+    "description": "- ca. 220 m Demontage von Rohrleitungen inkl. Wärmedämmung mit Blechmantel und Armaturen DN 15 - 65 \n- ca. 340 m Demontage von Rohrleitungen inkl. Wärmedämmung aus synthetischen Kautschuks mit Blechmantel und Armaturen DN 15 - 100\n- 1x Demontage Zuluftgerät 6.500 m³/h ca. 1700 kg\n- 1x Demontage Abluftgerät 6.500 m³/h ca. 550 kg\n- 1x Demontage Außenluftgerät 5.000 m³/h ca. 1500 kg\n- 2x Demontage Außenluftgerät 5.000 m³/h ca. 1500 kg\n- 2x Demontage Fortluftgerät 5.000 m³/h ca. 550 kg\n- 2x Demontage Umluftgerät 45.000 m³/h ca. 2000 kg\n- ca. 1000 m² Demontage von Lüftungskanälen inkl. Einbauten, Kantenlängen bis 1000mm\n- ca. 650 m² Demontage von Lüftungskanälen inkl. Einbauten, Kantenlängen bis 2500mm\n- ca. 250 m Demontage von Wickelfalzrohr bis DN 250 inkl. Einbauten\n- ca. 100 m Demontage von Wickelfalzrohr bis DN 500 inkl. Einbauten\n- ca. 50 m Demontage von Wickelfalzrohr bis DN 710 inkl. Einbauten\n- ca. 30 St Demontage von Brandschutzklappen, Kantenlängen von 500 - 1500\n- ca. 6 St Demontage von Brandschutzklappen rund, D 350 - 650\n- ca. 6 St Demontage von Brandschutzklappen rund, D 350 - 650\n- ca. 100 m² Demontage von Promat-Verkleidung\n- ca. 6000 m Demontage von Elektroverkabelung 3- bis 5-adrig, Adernquerschnitt bis 4mm²",
+    "cpv": [
+     "45331210"
+    ],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-09+01:00",
+    "plannedEnd": "2027-01-22+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das alleinige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

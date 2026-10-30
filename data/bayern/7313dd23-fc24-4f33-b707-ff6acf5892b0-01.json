@@ -1,0 +1,220 @@
+{
+ "id": "7313dd23-fc24-4f33-b707-ff6acf5892b0-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "7313dd23-fc24-4f33-b707-ff6acf5892b0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7313dd23-fc24-4f33-b707-ff6acf5892b0",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:7313dd23-fc24-4f33-b707-ff6acf5892b0-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:7313dd23-fc24-4f33-b707-ff6acf5892b0-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7313dd23-fc24-4f33-b707-ff6acf5892b0?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "DiBA DL 2027",
+  "buyer": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+  "cpv": [
+   "72000000"
+  ],
+  "nuts": [
+   "DE254",
+   "DEZZZ"
+  ],
+  "deadline": "2026-11-04T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5d068380-5ded-44ef-a8bc-82e709398206",
+  "id": "7313dd23-fc24-4f33-b707-ff6acf5892b0",
+  "date": "2026-10-23T02:08:55Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5d068380-5ded-44ef-a8bc-82e709398206",
+   "title": "DiBA DL 2027",
+   "description": "Dienstleistungsrahmenvertrag; Volumen ca. 9.600 PT; Vertragslaufzeit vier Jahre (inkl. Kündigungsoption)",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000",
+      "description": "IT services: consulting, software development, Internet and support"
+     },
+     "deliveryAddress": {
+      "locality": "Bundesweit",
+      "region": "DEZZZ",
+      "postalCode": "00000",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=892437",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-23T02:08:55.752Z",
+     "rationale": "Verlängerung der Angebotsfrist auf den 04.11.2026 - 14:00 Uhr.\nVerlängerung der Bindefrist auf 124 Tage.",
+     "amendsReleaseID": "bab475c1-ccdb-4e66-b2e2-8e59e48cdf37-01",
+     "releaseID": "7313dd23-fc24-4f33-b707-ff6acf5892b0-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "DiBA DL 2027",
+     "description": "Die Bundesagentur für Arbeit (BA) ist gemäß § 12a Gesetz zur Gleichstellung von Menschen mit Behinderungen (Behindertengleichstellungsgesetz - BGG) zur Barrierefreiheit ihrer digitalen Angebote und Informationen verpflichtet. Diese gesetzliche Verpflichtung erstreckt sich auf alle IT-Anwendungen (u. a. Internet, Intranet), aber auch auf digitale Dokumente wie PDF-Dokumente sowie im Zuge der elektronischen Aktenführung (§ 2 BITV 2.0).\nUm dies zu überprüfen und sicherzustellen lässt das Usability Accessibility Center (UAC) für bereits eingesetzte IT-Anwendungen, neu zu beschaffende oder entwickelnde IT-Anwendungen externe Begutachtungen durchführen. Weiterhin werden die Einheiten und Bereiche bei der Behebung von identifizierten Barrierefreiheitsproblemen sowie auch bei der Entwicklung der Integration von Barrierefreiheit in den Software-Entwicklungsprozess von Anfang an (Shift-Left) begleitet und unterstützt.\n\nBeschaffungsgegenstand ist ein Kontingent von Dienstleistungsunterstützung für die BA, insbesondere des Usability Accessibility Centers (UAC) für die in der Leistungsbeschreibung beschriebenen Leistungen.\nZiel dieser Ausschreibung ist der Abschluss einer Rahmenvereinbarung mit den drei wirtschaftlichsten Bietern. Die Rahmenvereinbarung umfasst dabei das gesamte geforderte Leistungsspektrum. Es handelt sich um eine Rahmenvereinbarung über die Werkleistungen zum (agilen) Festpreis bzw. Dienstleistungen zum Festpreis sowie über Abrufe von Prüfleistungen zu einem Festpreis.\n\nWeitere Informationen entnehmen Sie bitte der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "7313dd23-fc24-4f33-b707-ff6acf5892b0",
+  "version": "01",
+  "title": "DiBA DL 2027",
+  "description": "Dienstleistungsrahmenvertrag; Volumen ca. 9.600 PT; Vertragslaufzeit vier Jahre (inkl. Kündigungsoption)",
+  "procedureType": "open",
+  "nuts": [
+   "DEZZZ"
+  ],
+  "cpv": [
+   "72000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "DiBA DL 2027",
+    "description": "Die Bundesagentur für Arbeit (BA) ist gemäß § 12a Gesetz zur Gleichstellung von Menschen mit Behinderungen (Behindertengleichstellungsgesetz - BGG) zur Barrierefreiheit ihrer digitalen Angebote und Informationen verpflichtet. Diese gesetzliche Verpflichtung erstreckt sich auf alle IT-Anwendungen (u. a. Internet, Intranet), aber auch auf digitale Dokumente wie PDF-Dokumente sowie im Zuge der elektronischen Aktenführung (§ 2 BITV 2.0).\nUm dies zu überprüfen und sicherzustellen lässt das Usability Accessibility Center (UAC) für bereits eingesetzte IT-Anwendungen, neu zu beschaffende oder entwickelnde IT-Anwendungen externe Begutachtungen durchführen. Weiterhin werden die Einheiten und Bereiche bei der Behebung von identifizierten Barrierefreiheitsproblemen sowie auch bei der Entwicklung der Integration von Barrierefreiheit in den Software-Entwicklungsprozess von Anfang an (Shift-Left) begleitet und unterstützt.\n\nBeschaffungsgegenstand ist ein Kontingent von Dienstleistungsunterstützung für die BA, insbesondere des Usability Accessibility Centers (UAC) für die in der Leistungsbeschreibung beschriebenen Leistungen.\nZiel dieser Ausschreibung ist der Abschluss einer Rahmenvereinbarung mit den drei wirtschaftlichsten Bietern. Die Rahmenvereinbarung umfasst dabei das gesamte geforderte Leistungsspektrum. Es handelt sich um eine Rahmenvereinbarung über die Werkleistungen zum (agilen) Festpreis bzw. Dienstleistungen zum Festpreis sowie über Abrufe von Prüfleistungen zu einem Festpreis.\n\nWeitere Informationen entnehmen Sie bitte der Leistungsbeschreibung.",
+    "cpv": [
+     "72000000"
+    ],
+    "nuts": [
+     "DEZZZ"
+    ],
+    "deadline": "2026-11-04T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "- Bestätigung über das Vorliegen der technischen und beruflichen Leistungsfähigkeit und über die Sicherstellung in diesem Beschaffungsverfahren durch die nachfolgenden Anforderungen /Angaben /Unterlagen; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung; Kriterium A 1.1.1.2).\n\n- Vorhandensein ausreichender Berufserfahrung; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung; Kriterien B 1.1.1.5 - B 1.1.1.7) sowie durch Vorlage und Nachweis von drei geeigneten Referenzen (Anlage E.2 Eignungsanforderungen).\nErwartet werden drei mit dem Ausschreibungsgegenstand vergleichbare Referenzprojekte. Die Mindestanforderung der Referenzen an den Leistungszeitraum /-dauer innerhalb der letzten drei Jahre (bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens auf der e-Vergabe-Plattform des Bundes) muss erfüllt sein. Erwartet werden Projekte mit einer Laufzeit von mindestens zwölf Monaten.\nDie Referenzen müssen sich auf den Ausschreibungsgegenstand beziehen. Die Nennung eines Dienstleistungsrahmenvertrages als Referenz an sich ist nicht ausreichend, sondern die in dem Dienstleistungsvertrag erbrachten Leistungen müssen beschrieben werden.\nBei den geforderten drei Referenzen darf maximal eine Referenz der Bundesagentur für Arbeit angegeben werden.\n\nMindestanforderungen und Mindestangaben:\n Laufzeit: (>= 12 Monate)\n Aktualität: Die Mindestanforderung an den Leistungszeitraum /-dauer innerhalb der letzten drei Jahre (bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens auf der e-Vergabe-Plattform des Bundes) muss erfüllt sein.\n Volumen: (>= 200 T€)\n Vergleichbarkeit der technischen und fachlichen Umgebung:\no Eigenen Verantwortungsbereich\no Zu Referez 1 (Kriterium B 1.1.1.5): Mindestens 50% der erbrachten Leistungen als Prüfleistungen Barrierefreiheit gemäß BITV 2.0 (gemäß LB)\no Zu Referez 2 (Kriterium B 1.1.1.6): Mindestens 50% der erbrachten Leistungen als Entwicklungsbegleitung Barrierefreiheit gemäß BITV 2.0 (gemäß LB)\no Zu Referez 3 (Kriterium B 1.1.1.7): Prüfleistungen Barrierefreiheit UND/ODER Entwicklungsbegleitung Barrierefreiheit gemäß BITV 2.0 (gemäß LB)\nJe Referenz werden die nachfolgenden zwei Themenblöcke abgefragt:\n1. Rahmenbedingungen und Inhalte der Referenz mit Nennung der entsprechenden Skills.\n2. Technische und fachliche Umgebung der Referenz. (vgl. Anlage E.2 Eignungsanforderungen)\n\nMaximal können 3.000 Eignungspunkte erreicht werden. Es müssen insgesamt mindestens 2.000 Eignungspunkte in allen Bewertungskriterien (B-Kriterien) erreicht werden (vgl. Anlage E.3 Bewertungsmatrix Eignung sowie Fragebogen zur Eignungsprüfung).\nDas Unterschreiten der geforderten Mindestpunktzahl an Eignungspunkten führt ebenso zum Ausschluss wie die Nichterfüllung von Ausschlusskriterien (A-Kriterien)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "- Bestätigung über das Vorliegen der technischen und beruflichen Leistungsfähigkeit und über die Sicherstellung in diesem Beschaffungsverfahren durch die nachfolgenden Anforderungen /Angaben /Unterlagen; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung; Kriterium A 1.1.1.2).\n\n- Angabe der durchschnittlichen Gesamtanzahl der Mitarbeiter/innen in den letzten drei Jahren (2023, 2024 und 2025); nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit sowie durch Angabe (Fragebogen zur Eignungsprüfung; Kriterium B 1.1.1.4 sowie Anlage E.2).\nBei Bietergemeinschaften und Generalunternehmen / Subunternehmen werden die Mitarbeiterzahlen addiert. Bitte beachten Sie, dass die Mitarbeiterzahlen getrennt auszuweisen sind, sofern diese im Zuge der Eignungsleihe einbezogen werden sollen. Ebenso verhält es sich mit den Mitarbeiterzahlen der Unternehmen der Bietergemeinschaft oder des Generalunternehmers bzw. der geplanten Subunternehmer. Aus den angegebenen Mitarbeiterzahlen wird der Durchschnitt gebildet und entsprechend bepunktet.\nIn diesem Kriterium B 1.1.1.4 ist mindestens 1 Wertungspunkt (ungewichtet) zu erreichen. Das Erreichen von 0 Punkten in diesem Kriterium führt zum Ausschluss des Angebotes.\n\nZudem können maximal 3.000 Eignungspunkte erreicht werden. Es müssen insgesamt mindestens 2.000 Eignungspunkte in allen Bewertungskriterien (B-Kriterien) erreicht werden (vgl. Anlage E.3 Bewertungsmatrix Eignung sowie Fragebogen zur Eignungsprüfung).\nDas Unterschreiten der geforderten Mindestpunktzahl an Eignungspunkten führt ebenso zum Ausschluss wie die Nichterfüllung von Ausschlusskriterien (A-Kriterien)."
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "- Bestätigung über das Vorliegen der wirtschaftlichen und finanziellen Leistungsfähigkeit und über die Sicherstellung in diesem Beschaffungsverfahren durch die nachfolgenden Anforderungen /Angaben /Unterlagen; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung; Kriterium A 1.1.1.1).\n\n- Angabe der Höhe des Netto-Jahresumsatzes in den letzten drei Jahren (2023, 2024 und 2025) im Bereich des Ausschreibungsgegenstandes; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit sowie durch Angabe (Fragebogen zur Eignungsprüfung; Kriterium B 1.1.1.3 sowie Anlage E.2).\nBei Bietergemeinschaften und Generalunternehmen / Subunternehmen werden die Umsätze addiert. Bitte beachten Sie, dass die Umsätze getrennt auszuweisen sind, sofern diese im Zuge der Eignungsleihe einbezogen werden sollen. Ebenso verhält es sich mit den Umsätzen der Unternehmen der Bietergemeinschaft oder des Generalunternehmers bzw. der geplanten Subunternehmer. Aus den angegebenen Jahresumsatzzahlen wird der Durchschnitt gebildet und entsprechend bepunktet.\nIn diesem Kriterium B 1.1.1.3 ist mindestens 1 Wertungspunkt (ungewichtet) zu erreichen. Das Erreichen von 0 Punkten in diesem Kriterium führt zum Ausschluss des Angebotes.\n\nZudem können maximal 3.000 Eignungspunkte erreicht werden. Es müssen insgesamt mindestens 2.000 Eignungspunkte in allen Bewertungskriterien (B-Kriterien) erreicht werden (vgl. Anlage E.3 Bewertungsmatrix Eignung sowie Fragebogen zur Eignungsprüfung).\nDas Unterschreiten der geforderten Mindestpunktzahl an Eignungspunkten führt ebenso zum Ausschluss wie die Nichterfüllung von Ausschlusskriterien (A-Kriterien)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "UfAB-Wertung (einfache Richtwertmethode)",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "UfAB-Wertung (einfache Richtwertmethode)",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

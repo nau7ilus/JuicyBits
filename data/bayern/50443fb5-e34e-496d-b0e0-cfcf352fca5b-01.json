@@ -1,0 +1,241 @@
+{
+ "id": "50443fb5-e34e-496d-b0e0-cfcf352fca5b-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "50443fb5-e34e-496d-b0e0-cfcf352fca5b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=50443fb5-e34e-496d-b0e0-cfcf352fca5b",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:50443fb5-e34e-496d-b0e0-cfcf352fca5b-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:50443fb5-e34e-496d-b0e0-cfcf352fca5b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/50443fb5-e34e-496d-b0e0-cfcf352fca5b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Smart City Bamberg 2026 - MoMM-App II",
+  "buyer": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag von Smart City",
+  "cpv": [
+   "72212000",
+   "72212771",
+   "72243000"
+  ],
+  "nuts": [
+   "DE241"
+  ],
+  "deadline": "2026-11-23T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-50443fb5-e34e-496d-b0e0-cfcf352fca5b",
+  "id": "50443fb5-e34e-496d-b0e0-cfcf352fca5b",
+  "date": "2026-10-25T10:52:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag von Smart City",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "3441",
+     "legalName": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag von Smart City"
+    },
+    "address": {
+     "streetAddress": "Untere Sandstraße 34",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "afea8a16-e87d-45d2-bf3a-2baa9c1de197",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag von Smart City",
+   "id": "3441",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag von Smart City"
+   },
+   "address": {
+    "streetAddress": "Untere Sandstraße 34",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "50443fb5-e34e-496d-b0e0-cfcf352fca5b",
+   "title": "Smart City Bamberg 2026 - MoMM-App II",
+   "description": "MoMM-App II",
+   "procuringEntity": {
+    "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag von Smart City",
+    "id": "3441"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72212000",
+      "description": "Programming services of application software"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72212771",
+       "description": "General utility software development services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72243000",
+       "description": "Programming services"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE241",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/50443fb5-e34e-496d-b0e0-cfcf352fca5b",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Smart City Bamberg 2026 - MoMM-App II",
+     "description": "Ziel dieser Ausschreibung ist mit den vorhandenen Fördermitteln des Programmes „Modellprojekte Smart Cities“ des Bundesministeriums für Wohnen, Stadtentwicklung und Bauen die Beauftragung der Konzeption, Entwicklung, Bereitstellung und des Betriebs einer neuen, in sich geschlossenen mobilen Anwendung (im Folgenden „MoMM-App“), die die Funktionalitäten der barrierefreien Parkplatzsuche/-navigation und des barrierefreien Mobilitäts-Routings in einer einheitlichen Benutzeroberfläche zusammenführt. Bestehende kommunale Insellösungen sollen dadurch mittelfristig abgelöst bzw. konsolidiert und den Nutzenden ein durchgängiges, konsistentes digitales Erlebnis geboten werden.",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "50443fb5-e34e-496d-b0e0-cfcf352fca5b",
+  "version": "01",
+  "title": "Smart City Bamberg 2026 - MoMM-App II",
+  "description": "MoMM-App II",
+  "procedureType": "open",
+  "nuts": [
+   "DE241"
+  ],
+  "cpv": [
+   "72212000",
+   "72212771",
+   "72243000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Smart City Bamberg 2026 - MoMM-App II",
+    "description": "Ziel dieser Ausschreibung ist mit den vorhandenen Fördermitteln des Programmes „Modellprojekte Smart Cities“ des Bundesministeriums für Wohnen, Stadtentwicklung und Bauen die Beauftragung der Konzeption, Entwicklung, Bereitstellung und des Betriebs einer neuen, in sich geschlossenen mobilen Anwendung (im Folgenden „MoMM-App“), die die Funktionalitäten der barrierefreien Parkplatzsuche/-navigation und des barrierefreien Mobilitäts-Routings in einer einheitlichen Benutzeroberfläche zusammenführt. Bestehende kommunale Insellösungen sollen dadurch mittelfristig abgelöst bzw. konsolidiert und den Nutzenden ein durchgängiges, konsistentes digitales Erlebnis geboten werden.",
+    "cpv": [
+     "72212000",
+     "72212771",
+     "72243000"
+    ],
+    "nuts": [
+     "DE241"
+    ],
+    "deadline": "2026-11-23T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Die Eignung ist für die zu vergebende Leistung durch Eintragung in die Liste des Vereins für Präqualifizierung von Bauunternehmen e.V. oder vorläufig durch die ausgefüllte Eigenerklärung zur Eignung gem. FB 124 oder durch die Einheitliche Europäische Eigenerklärung (EEE) nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl sind die im FB 124 oder der EEE genannten Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter auf die Fähigkeiten anderer Bieter zur Erfüllung des Auftrags, so ist die jeweilige Nummer im Präqualifikationsverzeichnis oder die Erklärung nach FB 124 oder EEE auch für diese Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in deutscher Sprache beizufügen. Das FB 124 liegt den Ausschreibungsunterlagen bei. Die EEE kann über den Link (www.evergabe-online.info/e-Vergabe/DE/5 Service/EEE/node_EEE.html) online ausgefüllt werden."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Mindestens 2 Referenzen, die eine OpenSource-Entwicklung zusammen mit einem Auftraggeber und den Bieter als Auftragnehmer aufzeigen. (Eigene OpenSource-Entwicklungen und Beiträge zu OpenSource-Repositories können hier nicht angegeben werden). Es muss hier kein direkter Bezug zum Thema gegeben sein, doch können Referenzen mit Bezug auch im Qualitäts-Kriterium „Referenzen“ genutzt werden. Dabei werden nur Referenzen von abgeschlossenen Projekten innerhalb der letzten 4 Jahre anerkannt. Nutzen Sie für die Einreichung der Referenzen bitte das anhängige Formular „Referenzformular.docx“."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Referenzen (Softwareentwicklungsprojekte aus dem Bereich Routing, Anbindung von Sensordaten oder App-Entwicklung) Mindestens 2 Referenzen + 1 Referenz in Zusammenarbeit mit einem öffentlichen Auftraggeber nach §§ 98 f. GWB."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Betriebs- und Berufshaftpflichtversicherung: Der Bieter verfügt über eine Betriebs- und Berufshaftpflichtversicherung mit einer Mindestdeckungssumme von 1.000.000 € für Personenschäden und 500.000 € für Sach- und Vermögensschäden (inkl. Datenschutzverletzungen), zweifach maximiert pro Versicherungsjahr. Der Nachweis kann durch eine Eigenerklärung mit Verpflichtung zum Abschluss im Zuschlagsfall erfolgen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Software-Grobkonzept",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Qualifikation und Erfahrung der Mitarbeiter",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Zeitplan Konzept",
+      "weight": 15
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 25
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

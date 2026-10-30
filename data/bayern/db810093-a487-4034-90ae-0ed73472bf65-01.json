@@ -1,0 +1,725 @@
+{
+ "id": "db810093-a487-4034-90ae-0ed73472bf65-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "db810093-a487-4034-90ae-0ed73472bf65",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=db810093-a487-4034-90ae-0ed73472bf65",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:db810093-a487-4034-90ae-0ed73472bf65-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:db810093-a487-4034-90ae-0ed73472bf65-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/db810093-a487-4034-90ae-0ed73472bf65?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "ZRF Region Ingolstadt: Beschaffung von Ausstattungsleistungen für die ILS Ingolstadt",
+  "buyer": "Zweckverband für Rettungsdienst und Feuerwehralarmierung Region Ingolstadt",
+  "cpv": [
+   "39134000",
+   "39130000",
+   "32424000",
+   "30210000",
+   "51610000",
+   "32571000",
+   "35710000",
+   "42965000",
+   "50334400",
+   "50312610"
+  ],
+  "nuts": [
+   "DE211",
+   "DE219"
+  ],
+  "deadline": "2026-11-20T13:00:00+01:00",
+  "lots": 5
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-24a9ef3e-f22d-4e6d-9e92-64e1e6aec5eb",
+  "id": "db810093-a487-4034-90ae-0ed73472bf65",
+  "date": "2026-10-21T02:12:32Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband für Rettungsdienst und Feuerwehralarmierung Region Ingolstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "n/a",
+     "legalName": "Zweckverband für Rettungsdienst und Feuerwehralarmierung Region Ingolstadt"
+    },
+    "address": {
+     "streetAddress": "Auf der Schanz 30",
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "n-a",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweckverband für Rettungsdienst und Feuerwehralarmierung Region Ingolstadt",
+   "id": "n/a",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Zweckverband für Rettungsdienst und Feuerwehralarmierung Region Ingolstadt"
+   },
+   "address": {
+    "streetAddress": "Auf der Schanz 30",
+    "locality": "Ingolstadt",
+    "region": "DE211",
+    "postalCode": "85049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "24a9ef3e-f22d-4e6d-9e92-64e1e6aec5eb",
+   "title": "ZRF Region Ingolstadt: Beschaffung von Ausstattungsleistungen für die ILS Ingolstadt",
+   "description": "Der Zweckverband für Rettungsdienst und Feuerwehralarmierung Region Ingolstadt (im Weiteren auch: ZRF) beabsichtigt die Beschaffung von Informations- und Kommunikationstechnik sowie Leitstellenmöblierung, sämtlich samt zugehöriger Leistungen i.S.e. Herstellung der Betriebsbereitschaft (= geschuldeter Erfolg), für die von ihm betriebene Integrierte Leitstelle (ILS) Ingolstadt in Ingolstadt.\nDie Leistung wird in fünf (5) Fachlosen beschafft:\n   \nLos 1: Leitstellenmöblierung\nLos 2: aktive Netzwerkkomponenten\nLos 3: Server\nLos 4: Clients\nLos 5: Kommunikationssystem\nEine ausführliche Darstellung des Leistungsgegenstandes findet sich je Los in den betreffenden Vertragsunterlagen i.S.v. § 29 Abs. 1 S. 2 Nr. 3 VgV (vgl. Nrn. 5.3 bis 5.15 der Bewerbungsbedingungen).",
+   "procuringEntity": {
+    "name": "Zweckverband für Rettungsdienst und Feuerwehralarmierung Region Ingolstadt",
+    "id": "n/a"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39134000",
+      "description": "Computer furniture"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39130000",
+       "description": "Office furniture"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen, insbes. Werkvertrag."
+     },
+     "deliveryAddress": {
+      "locality": "Wettstetten",
+      "region": "DE219",
+      "postalCode": "85139",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32424000",
+      "description": "Network infrastructure"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "30210000",
+       "description": "Data-processing machines (hardware)"
+      },
+      {
+       "scheme": "CPV",
+       "id": "51610000",
+       "description": "Installation services of computers and information-processing equipment"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen, insbes. EVB-IT Systemvertrag."
+     },
+     "deliveryAddress": {
+      "locality": "Wettstetten",
+      "region": "DE219",
+      "postalCode": "85139",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30210000",
+      "description": "Data-processing machines (hardware)"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "51610000",
+       "description": "Installation services of computers and information-processing equipment"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen, insbes. EVB-IT Systemvertrag."
+     },
+     "deliveryAddress": {
+      "locality": "Wettstetten",
+      "region": "DE219",
+      "postalCode": "85139",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30210000",
+      "description": "Data-processing machines (hardware)"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "51610000",
+       "description": "Installation services of computers and information-processing equipment"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen, insbes. EVB-IT Systemvertrag."
+     },
+     "deliveryAddress": {
+      "locality": "Wettstetten",
+      "region": "DE219",
+      "postalCode": "85139",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32571000",
+      "description": "Communications infrastructure"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "35710000",
+       "description": "Command, control, communication and computer systems"
+      },
+      {
+       "scheme": "CPV",
+       "id": "42965000",
+       "description": "Information-processing equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "50334400",
+       "description": "Communications system maintenance services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen, insbes. EVB-IT Systemvertrag."
+     },
+     "deliveryAddress": {
+      "locality": "Wettstetten",
+      "region": "DE219",
+      "postalCode": "85139",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a158bc70de-6f0c65b19f551bb7&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a158bc70de-6f0c65b19f551bb7&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a158bc70de-6f0c65b19f551bb7&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a158bc70de-6f0c65b19f551bb7&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a158bc70de-6f0c65b19f551bb7&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Leitstellenmöblierung",
+     "description": "Beschaffung von Leitstellenmöblierung",
+     "contractPeriod": {
+      "durationInDays": 1
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "aktive Netzwerkkomponenten",
+     "description": "Beschaffung der aktiven Netzwerkkomponenten für die ILS.",
+     "contractPeriod": {
+      "durationInDays": 1800
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Server",
+     "description": "Beschaffung der Server für die ILS",
+     "contractPeriod": {
+      "durationInDays": 1800
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Clients",
+     "description": "Beschaffung von Clients für die ILS.",
+     "contractPeriod": {
+      "durationInDays": 1800
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Kommunikationssystem",
+     "description": "Beschaffung des Kommunikationssystems für die ILS",
+     "contractPeriod": {
+      "durationInDays": 1800
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 5,
+    "maximumLotsAwardedPerSupplier": 5
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "db810093-a487-4034-90ae-0ed73472bf65",
+  "version": "01",
+  "title": "ZRF Region Ingolstadt: Beschaffung von Ausstattungsleistungen für die ILS Ingolstadt",
+  "description": "Der Zweckverband für Rettungsdienst und Feuerwehralarmierung Region Ingolstadt (im Weiteren auch: ZRF) beabsichtigt die Beschaffung von Informations- und Kommunikationstechnik sowie Leitstellenmöblierung, sämtlich samt zugehöriger Leistungen i.S.e. Herstellung der Betriebsbereitschaft (= geschuldeter Erfolg), für die von ihm betriebene Integrierte Leitstelle (ILS) Ingolstadt in Ingolstadt.\nDie Leistung wird in fünf (5) Fachlosen beschafft:\n   \nLos 1: Leitstellenmöblierung\nLos 2: aktive Netzwerkkomponenten\nLos 3: Server\nLos 4: Clients\nLos 5: Kommunikationssystem\nEine ausführliche Darstellung des Leistungsgegenstandes findet sich je Los in den betreffenden Vertragsunterlagen i.S.v. § 29 Abs. 1 S. 2 Nr. 3 VgV (vgl. Nrn. 5.3 bis 5.15 der Bewerbungsbedingungen).",
+  "procedureType": "open",
+  "nuts": [
+   "DE219"
+  ],
+  "cpv": [
+   "30210000",
+   "39134000",
+   "51610000",
+   "50312610",
+   "39130000",
+   "32424000",
+   "32571000",
+   "35710000",
+   "42965000",
+   "50334400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Leitstellenmöblierung",
+    "description": "Beschaffung von Leitstellenmöblierung",
+    "cpv": [
+     "39134000",
+     "39130000"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": "2026-11-20T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 1,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Service-Autorisierung\n[ für Los 1 - 5]\nBestätigen Sie, dass Sie von den Herstellern der für die Leistungserbringung angebotenen bzw. eingesetzten Produkte autorisiert sind, Serviceleistungen (Pflege & Wartung) zu erbringen?"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Beschreibung weiterer Maßnahmen zur Qualitätssicherung:\n[ für Los 2 - 5 ]\nBestätigen und beschreiben Sie, dass und wie Ihr Unternehmen die Anforderungen nach ISO 27001 auf der Basis von BSI IT-Grundschutz erfüllt und dies auch während der Vertragslaufzeit aufrechterhalten wird.\n  \nSollte zum Zeitpunkt der Angebotsabgabe noch kein vollständiger Nachweis über die Umsetzung des BSI IT-Grundschutzes vorliegen, ist die Bereitschaft diesbzgl. zu erklären und spätestens nach Zuschlagserteilung durch eine akkreditierte Stelle zu erbringen. Der Auftraggeber behält sich die Nachforderung entsprechender Nachweise ausdrücklich vor.\n  \nHinweis:\nAuf eine Beschreibung der Prozesse und Maßnahmen kann verzichtet werden, wenn der Bieter eine aktuell gültige Zertifizierung gem. ISO 27001 auf der Basis von BSI IT-Grundschutz einreicht.\n  \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n(Ausschlusskriterium)\n\nHINWEIS:\nFür die konkrete Leistungserbringung - insbesondere den Fernwartungszugang - wird aufgrund Vorgaben dritter Stellen eine Zertifizierung des Auftragnehmers nach ISO 27001 auf der Basis von BSI IT-Grundschutz vonnöten sein."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Zertifizierter Experte für Informationssicherheit und Stellvertreter:\n[ für Los 2 - 5 ]\nBitte benennen Sie einen (1) nach ISO 27001 zertifizierten Experten (m/w/d) für Informationssicherheit und dessen Stellvertretung (entsprechend zertifiziert), die im Falle der Z-schlagserteilung im Zuge der Leistungserbringung Ihrerseits eingesetzt werden.\nInkl. Angabe der Art der Zertifizierung.\n   \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n======\nAngabe der vorgesehenen Techniker:\n[ für Los 2 - 5 ]\nBitte geben Sie die für die Leistungserbringung vorgesehenen Techniker und deren Qualifikation bezogen auf die von Ihnen angebotenen Systemkomponenten an.\n  \nDie Qualifikationen der Techniker sind detailliert zu beschreiben und sollten folgende Informationen enthalten:\n• Fachrichtung: Geben Sie an, in welchem Fachgebiet der Techniker spezialisiert ist (z.B. IT-Sicherheit, Netzwerktechnik, Betriebssystemadministration).\n• Ausbildung und Zertifikate: Beschreiben Sie die absolvierte Ausbildung, einschlägige Abschlüsse sowie relevante Zertifizierungen.\n• Berufserfahrung: Geben Sie an, wie viele Jahre Erfahrung der Techniker in den je-weiligen Bereichen hat und bei welchen Projekten diese Erfahrungen gesammelt wurden.\n• Spezialisierung auf Systemkomponenten: Erklären Sie, wie die Qualifikationen des Technikers auf die angebotenen Systemkomponenten abgestimmt sind und welche spezifischen Fähigkeiten für die Leistungserbringung entscheidend sind."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Nachweis eines zertifizierten Qualitätsmanagementsystems :\n[ für Los 2 - 5 ]\nDer Bieter hat den Nachweis einer gültigen Zertifizierung nach DIN EN ISO 9001 für sein Unternehmen zu erbringen.\n  \nHinweis: Der öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an."
+     },
+     {
+      "type": "slc-sec-inf",
+      "description": "Informationssicherheitsmanagement-Zertifizierung:\n[ für Los 2 - 5 ]\nBestätigen Sie, dass Ihr Unternehmen gemäß ISO 27001 zertifiziert ist und diese Zertifizierung auch während der Vertragslaufzeit aufrechterhalten wird.\nHinweis: \nDer öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an.\nKann der Bieter aus Gründen, die er nicht zu vertreten hat, die betreffenden Bescheinigungen nicht innerhalb der Angebotsfrist einholen, so erkennt der Auftraggeber auch andere Unterlagen über gleichwertige Qualitätssicherungssysteme an, sofern der Bieter nachweist, dass die vorgeschlagenen Qualitätssicherungsmaßnahmen den geforderten Qualitätssicherungsnormen entsprechen.\nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor."
+     },
+     {
+      "type": "slc-sec-proc",
+      "description": "Bereitschaft zur Sicherheitsüberprüfung:\n[ für Los 1 - 5 ]\nBestätigen Sie, dass die von Ihnen zur Leistungserbringung eingesetzten Mitarbeiter sich auf Anforderung des Auftraggebers hin einer einfachen Sicherheitsüberprüfung nach Art. 9 Abs. 1 Nr. 9 BaySÜG unterziehen werden?\nBeachte: Sofern der Auftraggeber die Sicherheitsüberprüfung verlangt, können nicht beanstandungsfrei überprüfte Mitarbeiter des Auftragnehmers zur Leistungserbringung nicht eingesetzt werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Haftpflichtversicherung:\n[ für Los 1 - 5 ]\nBestätigung des Vorliegens einer gültigen Betriebshaftpflichtversicherung mit folgenden De-ckungssummen:\n• 1 Mio. Euro für Sachschäden, \n• 0,5 Mio. Euro für Vermögensschäden und \n• 1 Mio. für Personenschäden"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärungen gem. Abschnitt 4.2 der Bewerbungsbedingungen: \n[ für Los 1 - 5 ]\nFormell und inhaltlich beanstandungsfreie Eigenerklärungen gemäß Ziff. 4.2 der Bewer-bungsbedingungen, insbes. zu Ausschlussgründen und in Sachen \"Russland-Sanktionen\".\n======\nAufrechterhaltung der Eignung:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie Ihre Eignung entsprechend Ihren Angaben über die Vertragslaufzeit aufrechterhalten werden?\n======\nKeine Interessenkollision:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie keinerlei Interessen haben, die mit dem angestrebten Vertragsabschluss im Widerspruch stehen und dieses zum Nachteil des Auftraggebers beeinflussen könnten?"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Jahresumsatz bezogen auf den Auftragsgegenstand:\nDarstellung der Jahresumsätze der letzten drei (3) abgeschlossenen Geschäftsjahre, soweit es Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind. Es sind die Netto-Umsätze pro Geschäftsjahr anzugeben. \nDer Netto-Jahres-Umsatz muss im Durchschnitt in diesem Zeitraum mindestens \nLos 1: 400.000 Euro netto \nLos 2: 500.000 Euro netto \nLos 3: 2.000.000 Euro netto \nLos 4: 720.000 Euro netto \nLos 5: 1.000.000 Euro netto \n  \npro Geschäftsjahr im entsprechenden Geschäftsbereich entsprechen (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "Leistung (Erweiterte Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Wertungspreis (Erweiterte Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "aktive Netzwerkkomponenten",
+    "description": "Beschaffung der aktiven Netzwerkkomponenten für die ILS.",
+    "cpv": [
+     "32424000",
+     "30210000",
+     "51610000"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": "2026-11-20T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Service-Autorisierung\n[ für Los 1 - 5]\nBestätigen Sie, dass Sie von den Herstellern der für die Leistungserbringung angebotenen bzw. eingesetzten Produkte autorisiert sind, Serviceleistungen (Pflege & Wartung) zu erbringen?"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Beschreibung weiterer Maßnahmen zur Qualitätssicherung:\n[ für Los 2 - 5 ]\nBestätigen und beschreiben Sie, dass und wie Ihr Unternehmen die Anforderungen nach ISO 27001 auf der Basis von BSI IT-Grundschutz erfüllt und dies auch während der Vertragslaufzeit aufrechterhalten wird.\n  \nSollte zum Zeitpunkt der Angebotsabgabe noch kein vollständiger Nachweis über die Umsetzung des BSI IT-Grundschutzes vorliegen, ist die Bereitschaft diesbzgl. zu erklären und spätestens nach Zuschlagserteilung durch eine akkreditierte Stelle zu erbringen. Der Auftraggeber behält sich die Nachforderung entsprechender Nachweise ausdrücklich vor.\n  \nHinweis:\nAuf eine Beschreibung der Prozesse und Maßnahmen kann verzichtet werden, wenn der Bieter eine aktuell gültige Zertifizierung gem. ISO 27001 auf der Basis von BSI IT-Grundschutz einreicht.\n  \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n(Ausschlusskriterium)\n\nHINWEIS:\nFür die konkrete Leistungserbringung - insbesondere den Fernwartungszugang - wird aufgrund Vorgaben dritter Stellen eine Zertifizierung des Auftragnehmers nach ISO 27001 auf der Basis von BSI IT-Grundschutz vonnöten sein."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Zertifizierter Experte für Informationssicherheit und Stellvertreter:\n[ für Los 2 - 5 ]\nBitte benennen Sie einen (1) nach ISO 27001 zertifizierten Experten (m/w/d) für Informationssicherheit und dessen Stellvertretung (entsprechend zertifiziert), die im Falle der Z-schlagserteilung im Zuge der Leistungserbringung Ihrerseits eingesetzt werden.\nInkl. Angabe der Art der Zertifizierung.\n   \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n======\nAngabe der vorgesehenen Techniker:\n[ für Los 2 - 5 ]\nBitte geben Sie die für die Leistungserbringung vorgesehenen Techniker und deren Qualifikation bezogen auf die von Ihnen angebotenen Systemkomponenten an.\n  \nDie Qualifikationen der Techniker sind detailliert zu beschreiben und sollten folgende Informationen enthalten:\n• Fachrichtung: Geben Sie an, in welchem Fachgebiet der Techniker spezialisiert ist (z.B. IT-Sicherheit, Netzwerktechnik, Betriebssystemadministration).\n• Ausbildung und Zertifikate: Beschreiben Sie die absolvierte Ausbildung, einschlägige Abschlüsse sowie relevante Zertifizierungen.\n• Berufserfahrung: Geben Sie an, wie viele Jahre Erfahrung der Techniker in den je-weiligen Bereichen hat und bei welchen Projekten diese Erfahrungen gesammelt wurden.\n• Spezialisierung auf Systemkomponenten: Erklären Sie, wie die Qualifikationen des Technikers auf die angebotenen Systemkomponenten abgestimmt sind und welche spezifischen Fähigkeiten für die Leistungserbringung entscheidend sind."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Nachweis eines zertifizierten Qualitätsmanagementsystems :\n[ für Los 2 - 5 ]\nDer Bieter hat den Nachweis einer gültigen Zertifizierung nach DIN EN ISO 9001 für sein Unternehmen zu erbringen.\n  \nHinweis: Der öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an."
+     },
+     {
+      "type": "slc-sec-inf",
+      "description": "Informationssicherheitsmanagement-Zertifizierung:\n[ für Los 2 - 5 ]\nBestätigen Sie, dass Ihr Unternehmen gemäß ISO 27001 zertifiziert ist und diese Zertifizierung auch während der Vertragslaufzeit aufrechterhalten wird.\nHinweis: \nDer öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an.\nKann der Bieter aus Gründen, die er nicht zu vertreten hat, die betreffenden Bescheinigungen nicht innerhalb der Angebotsfrist einholen, so erkennt der Auftraggeber auch andere Unterlagen über gleichwertige Qualitätssicherungssysteme an, sofern der Bieter nachweist, dass die vorgeschlagenen Qualitätssicherungsmaßnahmen den geforderten Qualitätssicherungsnormen entsprechen.\nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor."
+     },
+     {
+      "type": "slc-sec-proc",
+      "description": "Bereitschaft zur Sicherheitsüberprüfung:\n[ für Los 1 - 5 ]\nBestätigen Sie, dass die von Ihnen zur Leistungserbringung eingesetzten Mitarbeiter sich auf Anforderung des Auftraggebers hin einer einfachen Sicherheitsüberprüfung nach Art. 9 Abs. 1 Nr. 9 BaySÜG unterziehen werden?\nBeachte: Sofern der Auftraggeber die Sicherheitsüberprüfung verlangt, können nicht beanstandungsfrei überprüfte Mitarbeiter des Auftragnehmers zur Leistungserbringung nicht eingesetzt werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Haftpflichtversicherung:\n[ für Los 1 - 5 ]\nBestätigung des Vorliegens einer gültigen Betriebshaftpflichtversicherung mit folgenden De-ckungssummen:\n• 1 Mio. Euro für Sachschäden, \n• 0,5 Mio. Euro für Vermögensschäden und \n• 1 Mio. für Personenschäden"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärungen gem. Abschnitt 4.2 der Bewerbungsbedingungen: \n[ für Los 1 - 5 ]\nFormell und inhaltlich beanstandungsfreie Eigenerklärungen gemäß Ziff. 4.2 der Bewer-bungsbedingungen, insbes. zu Ausschlussgründen und in Sachen \"Russland-Sanktionen\".\n======\nAufrechterhaltung der Eignung:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie Ihre Eignung entsprechend Ihren Angaben über die Vertragslaufzeit aufrechterhalten werden?\n======\nKeine Interessenkollision:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie keinerlei Interessen haben, die mit dem angestrebten Vertragsabschluss im Widerspruch stehen und dieses zum Nachteil des Auftraggebers beeinflussen könnten?"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Jahresumsatz bezogen auf den Auftragsgegenstand:\nDarstellung der Jahresumsätze der letzten drei (3) abgeschlossenen Geschäftsjahre, soweit es Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind. Es sind die Netto-Umsätze pro Geschäftsjahr anzugeben. \nDer Netto-Jahres-Umsatz muss im Durchschnitt in diesem Zeitraum mindestens \nLos 1: 400.000 Euro netto \nLos 2: 500.000 Euro netto \nLos 3: 2.000.000 Euro netto \nLos 4: 720.000 Euro netto \nLos 5: 1.000.000 Euro netto \n  \npro Geschäftsjahr im entsprechenden Geschäftsbereich entsprechen (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Kosten",
+      "description": "Kosten über die Vertragslaufzeit",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Server",
+    "description": "Beschaffung der Server für die ILS",
+    "cpv": [
+     "30210000",
+     "51610000"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": "2026-11-20T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Service-Autorisierung\n[ für Los 1 - 5]\nBestätigen Sie, dass Sie von den Herstellern der für die Leistungserbringung angebotenen bzw. eingesetzten Produkte autorisiert sind, Serviceleistungen (Pflege & Wartung) zu erbringen?"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Beschreibung weiterer Maßnahmen zur Qualitätssicherung:\n[ für Los 2 - 5 ]\nBestätigen und beschreiben Sie, dass und wie Ihr Unternehmen die Anforderungen nach ISO 27001 auf der Basis von BSI IT-Grundschutz erfüllt und dies auch während der Vertragslaufzeit aufrechterhalten wird.\n  \nSollte zum Zeitpunkt der Angebotsabgabe noch kein vollständiger Nachweis über die Umsetzung des BSI IT-Grundschutzes vorliegen, ist die Bereitschaft diesbzgl. zu erklären und spätestens nach Zuschlagserteilung durch eine akkreditierte Stelle zu erbringen. Der Auftraggeber behält sich die Nachforderung entsprechender Nachweise ausdrücklich vor.\n  \nHinweis:\nAuf eine Beschreibung der Prozesse und Maßnahmen kann verzichtet werden, wenn der Bieter eine aktuell gültige Zertifizierung gem. ISO 27001 auf der Basis von BSI IT-Grundschutz einreicht.\n  \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n(Ausschlusskriterium)\n\nHINWEIS:\nFür die konkrete Leistungserbringung - insbesondere den Fernwartungszugang - wird aufgrund Vorgaben dritter Stellen eine Zertifizierung des Auftragnehmers nach ISO 27001 auf der Basis von BSI IT-Grundschutz vonnöten sein."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Zertifizierter Experte für Informationssicherheit und Stellvertreter:\n[ für Los 2 - 5 ]\nBitte benennen Sie einen (1) nach ISO 27001 zertifizierten Experten (m/w/d) für Informationssicherheit und dessen Stellvertretung (entsprechend zertifiziert), die im Falle der Z-schlagserteilung im Zuge der Leistungserbringung Ihrerseits eingesetzt werden.\nInkl. Angabe der Art der Zertifizierung.\n   \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n======\nAngabe der vorgesehenen Techniker:\n[ für Los 2 - 5 ]\nBitte geben Sie die für die Leistungserbringung vorgesehenen Techniker und deren Qualifikation bezogen auf die von Ihnen angebotenen Systemkomponenten an.\n  \nDie Qualifikationen der Techniker sind detailliert zu beschreiben und sollten folgende Informationen enthalten:\n• Fachrichtung: Geben Sie an, in welchem Fachgebiet der Techniker spezialisiert ist (z.B. IT-Sicherheit, Netzwerktechnik, Betriebssystemadministration).\n• Ausbildung und Zertifikate: Beschreiben Sie die absolvierte Ausbildung, einschlägige Abschlüsse sowie relevante Zertifizierungen.\n• Berufserfahrung: Geben Sie an, wie viele Jahre Erfahrung der Techniker in den je-weiligen Bereichen hat und bei welchen Projekten diese Erfahrungen gesammelt wurden.\n• Spezialisierung auf Systemkomponenten: Erklären Sie, wie die Qualifikationen des Technikers auf die angebotenen Systemkomponenten abgestimmt sind und welche spezifischen Fähigkeiten für die Leistungserbringung entscheidend sind."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Nachweis eines zertifizierten Qualitätsmanagementsystems :\n[ für Los 2 - 5 ]\nDer Bieter hat den Nachweis einer gültigen Zertifizierung nach DIN EN ISO 9001 für sein Unternehmen zu erbringen.\n  \nHinweis: Der öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an."
+     },
+     {
+      "type": "slc-sec-inf",
+      "description": "Informationssicherheitsmanagement-Zertifizierung:\n[ für Los 2 - 5 ]\nBestätigen Sie, dass Ihr Unternehmen gemäß ISO 27001 zertifiziert ist und diese Zertifizierung auch während der Vertragslaufzeit aufrechterhalten wird.\nHinweis: \nDer öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an.\nKann der Bieter aus Gründen, die er nicht zu vertreten hat, die betreffenden Bescheinigungen nicht innerhalb der Angebotsfrist einholen, so erkennt der Auftraggeber auch andere Unterlagen über gleichwertige Qualitätssicherungssysteme an, sofern der Bieter nachweist, dass die vorgeschlagenen Qualitätssicherungsmaßnahmen den geforderten Qualitätssicherungsnormen entsprechen.\nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor."
+     },
+     {
+      "type": "slc-sec-proc",
+      "description": "Bereitschaft zur Sicherheitsüberprüfung:\n[ für Los 1 - 5 ]\nBestätigen Sie, dass die von Ihnen zur Leistungserbringung eingesetzten Mitarbeiter sich auf Anforderung des Auftraggebers hin einer einfachen Sicherheitsüberprüfung nach Art. 9 Abs. 1 Nr. 9 BaySÜG unterziehen werden?\nBeachte: Sofern der Auftraggeber die Sicherheitsüberprüfung verlangt, können nicht beanstandungsfrei überprüfte Mitarbeiter des Auftragnehmers zur Leistungserbringung nicht eingesetzt werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Haftpflichtversicherung:\n[ für Los 1 - 5 ]\nBestätigung des Vorliegens einer gültigen Betriebshaftpflichtversicherung mit folgenden De-ckungssummen:\n• 1 Mio. Euro für Sachschäden, \n• 0,5 Mio. Euro für Vermögensschäden und \n• 1 Mio. für Personenschäden"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärungen gem. Abschnitt 4.2 der Bewerbungsbedingungen: \n[ für Los 1 - 5 ]\nFormell und inhaltlich beanstandungsfreie Eigenerklärungen gemäß Ziff. 4.2 der Bewer-bungsbedingungen, insbes. zu Ausschlussgründen und in Sachen \"Russland-Sanktionen\".\n======\nAufrechterhaltung der Eignung:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie Ihre Eignung entsprechend Ihren Angaben über die Vertragslaufzeit aufrechterhalten werden?\n======\nKeine Interessenkollision:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie keinerlei Interessen haben, die mit dem angestrebten Vertragsabschluss im Widerspruch stehen und dieses zum Nachteil des Auftraggebers beeinflussen könnten?"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Jahresumsatz bezogen auf den Auftragsgegenstand:\nDarstellung der Jahresumsätze der letzten drei (3) abgeschlossenen Geschäftsjahre, soweit es Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind. Es sind die Netto-Umsätze pro Geschäftsjahr anzugeben. \nDer Netto-Jahres-Umsatz muss im Durchschnitt in diesem Zeitraum mindestens \nLos 1: 400.000 Euro netto \nLos 2: 500.000 Euro netto \nLos 3: 2.000.000 Euro netto \nLos 4: 720.000 Euro netto \nLos 5: 1.000.000 Euro netto \n  \npro Geschäftsjahr im entsprechenden Geschäftsbereich entsprechen (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Kosten",
+      "description": "Kosten über die Vertragslaufzeit",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Clients",
+    "description": "Beschaffung von Clients für die ILS.",
+    "cpv": [
+     "30210000",
+     "51610000"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": "2026-11-20T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Service-Autorisierung\n[ für Los 1 - 5]\nBestätigen Sie, dass Sie von den Herstellern der für die Leistungserbringung angebotenen bzw. eingesetzten Produkte autorisiert sind, Serviceleistungen (Pflege & Wartung) zu erbringen?"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Beschreibung weiterer Maßnahmen zur Qualitätssicherung:\n[ für Los 2 - 5 ]\nBestätigen und beschreiben Sie, dass und wie Ihr Unternehmen die Anforderungen nach ISO 27001 auf der Basis von BSI IT-Grundschutz erfüllt und dies auch während der Vertragslaufzeit aufrechterhalten wird.\n  \nSollte zum Zeitpunkt der Angebotsabgabe noch kein vollständiger Nachweis über die Umsetzung des BSI IT-Grundschutzes vorliegen, ist die Bereitschaft diesbzgl. zu erklären und spätestens nach Zuschlagserteilung durch eine akkreditierte Stelle zu erbringen. Der Auftraggeber behält sich die Nachforderung entsprechender Nachweise ausdrücklich vor.\n  \nHinweis:\nAuf eine Beschreibung der Prozesse und Maßnahmen kann verzichtet werden, wenn der Bieter eine aktuell gültige Zertifizierung gem. ISO 27001 auf der Basis von BSI IT-Grundschutz einreicht.\n  \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n(Ausschlusskriterium)\n\nHINWEIS:\nFür die konkrete Leistungserbringung - insbesondere den Fernwartungszugang - wird aufgrund Vorgaben dritter Stellen eine Zertifizierung des Auftragnehmers nach ISO 27001 auf der Basis von BSI IT-Grundschutz vonnöten sein."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Zertifizierter Experte für Informationssicherheit und Stellvertreter:\n[ für Los 2 - 5 ]\nBitte benennen Sie einen (1) nach ISO 27001 zertifizierten Experten (m/w/d) für Informationssicherheit und dessen Stellvertretung (entsprechend zertifiziert), die im Falle der Z-schlagserteilung im Zuge der Leistungserbringung Ihrerseits eingesetzt werden.\nInkl. Angabe der Art der Zertifizierung.\n   \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n======\nAngabe der vorgesehenen Techniker:\n[ für Los 2 - 5 ]\nBitte geben Sie die für die Leistungserbringung vorgesehenen Techniker und deren Qualifikation bezogen auf die von Ihnen angebotenen Systemkomponenten an.\n  \nDie Qualifikationen der Techniker sind detailliert zu beschreiben und sollten folgende Informationen enthalten:\n• Fachrichtung: Geben Sie an, in welchem Fachgebiet der Techniker spezialisiert ist (z.B. IT-Sicherheit, Netzwerktechnik, Betriebssystemadministration).\n• Ausbildung und Zertifikate: Beschreiben Sie die absolvierte Ausbildung, einschlägige Abschlüsse sowie relevante Zertifizierungen.\n• Berufserfahrung: Geben Sie an, wie viele Jahre Erfahrung der Techniker in den je-weiligen Bereichen hat und bei welchen Projekten diese Erfahrungen gesammelt wurden.\n• Spezialisierung auf Systemkomponenten: Erklären Sie, wie die Qualifikationen des Technikers auf die angebotenen Systemkomponenten abgestimmt sind und welche spezifischen Fähigkeiten für die Leistungserbringung entscheidend sind."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Nachweis eines zertifizierten Qualitätsmanagementsystems :\n[ für Los 2 - 5 ]\nDer Bieter hat den Nachweis einer gültigen Zertifizierung nach DIN EN ISO 9001 für sein Unternehmen zu erbringen.\n  \nHinweis: Der öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an."
+     },
+     {
+      "type": "slc-sec-inf",
+      "description": "Informationssicherheitsmanagement-Zertifizierung:\n[ für Los 2 - 5 ]\nBestätigen Sie, dass Ihr Unternehmen gemäß ISO 27001 zertifiziert ist und diese Zertifizierung auch während der Vertragslaufzeit aufrechterhalten wird.\nHinweis: \nDer öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an.\nKann der Bieter aus Gründen, die er nicht zu vertreten hat, die betreffenden Bescheinigungen nicht innerhalb der Angebotsfrist einholen, so erkennt der Auftraggeber auch andere Unterlagen über gleichwertige Qualitätssicherungssysteme an, sofern der Bieter nachweist, dass die vorgeschlagenen Qualitätssicherungsmaßnahmen den geforderten Qualitätssicherungsnormen entsprechen.\nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor."
+     },
+     {
+      "type": "slc-sec-proc",
+      "description": "Bereitschaft zur Sicherheitsüberprüfung:\n[ für Los 1 - 5 ]\nBestätigen Sie, dass die von Ihnen zur Leistungserbringung eingesetzten Mitarbeiter sich auf Anforderung des Auftraggebers hin einer einfachen Sicherheitsüberprüfung nach Art. 9 Abs. 1 Nr. 9 BaySÜG unterziehen werden?\nBeachte: Sofern der Auftraggeber die Sicherheitsüberprüfung verlangt, können nicht beanstandungsfrei überprüfte Mitarbeiter des Auftragnehmers zur Leistungserbringung nicht eingesetzt werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Haftpflichtversicherung:\n[ für Los 1 - 5 ]\nBestätigung des Vorliegens einer gültigen Betriebshaftpflichtversicherung mit folgenden De-ckungssummen:\n• 1 Mio. Euro für Sachschäden, \n• 0,5 Mio. Euro für Vermögensschäden und \n• 1 Mio. für Personenschäden"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärungen gem. Abschnitt 4.2 der Bewerbungsbedingungen: \n[ für Los 1 - 5 ]\nFormell und inhaltlich beanstandungsfreie Eigenerklärungen gemäß Ziff. 4.2 der Bewer-bungsbedingungen, insbes. zu Ausschlussgründen und in Sachen \"Russland-Sanktionen\".\n======\nAufrechterhaltung der Eignung:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie Ihre Eignung entsprechend Ihren Angaben über die Vertragslaufzeit aufrechterhalten werden?\n======\nKeine Interessenkollision:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie keinerlei Interessen haben, die mit dem angestrebten Vertragsabschluss im Widerspruch stehen und dieses zum Nachteil des Auftraggebers beeinflussen könnten?"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Jahresumsatz bezogen auf den Auftragsgegenstand:\nDarstellung der Jahresumsätze der letzten drei (3) abgeschlossenen Geschäftsjahre, soweit es Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind. Es sind die Netto-Umsätze pro Geschäftsjahr anzugeben. \nDer Netto-Jahres-Umsatz muss im Durchschnitt in diesem Zeitraum mindestens \nLos 1: 400.000 Euro netto \nLos 2: 500.000 Euro netto \nLos 3: 2.000.000 Euro netto \nLos 4: 720.000 Euro netto \nLos 5: 1.000.000 Euro netto \n  \npro Geschäftsjahr im entsprechenden Geschäftsbereich entsprechen (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Kosten",
+      "description": "Kosten über die Vertragslaufzeit",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Kommunikationssystem",
+    "description": "Beschaffung des Kommunikationssystems für die ILS",
+    "cpv": [
+     "32571000",
+     "35710000",
+     "42965000",
+     "50334400"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": "2026-11-20T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Service-Autorisierung\n[ für Los 1 - 5]\nBestätigen Sie, dass Sie von den Herstellern der für die Leistungserbringung angebotenen bzw. eingesetzten Produkte autorisiert sind, Serviceleistungen (Pflege & Wartung) zu erbringen?"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Beschreibung weiterer Maßnahmen zur Qualitätssicherung:\n[ für Los 2 - 5 ]\nBestätigen und beschreiben Sie, dass und wie Ihr Unternehmen die Anforderungen nach ISO 27001 auf der Basis von BSI IT-Grundschutz erfüllt und dies auch während der Vertragslaufzeit aufrechterhalten wird.\n  \nSollte zum Zeitpunkt der Angebotsabgabe noch kein vollständiger Nachweis über die Umsetzung des BSI IT-Grundschutzes vorliegen, ist die Bereitschaft diesbzgl. zu erklären und spätestens nach Zuschlagserteilung durch eine akkreditierte Stelle zu erbringen. Der Auftraggeber behält sich die Nachforderung entsprechender Nachweise ausdrücklich vor.\n  \nHinweis:\nAuf eine Beschreibung der Prozesse und Maßnahmen kann verzichtet werden, wenn der Bieter eine aktuell gültige Zertifizierung gem. ISO 27001 auf der Basis von BSI IT-Grundschutz einreicht.\n  \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n(Ausschlusskriterium)\n\nHINWEIS:\nFür die konkrete Leistungserbringung - insbesondere den Fernwartungszugang - wird aufgrund Vorgaben dritter Stellen eine Zertifizierung des Auftragnehmers nach ISO 27001 auf der Basis von BSI IT-Grundschutz vonnöten sein."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Zertifizierter Experte für Informationssicherheit und Stellvertreter:\n[ für Los 2 - 5 ]\nBitte benennen Sie einen (1) nach ISO 27001 zertifizierten Experten (m/w/d) für Informationssicherheit und dessen Stellvertretung (entsprechend zertifiziert), die im Falle der Z-schlagserteilung im Zuge der Leistungserbringung Ihrerseits eingesetzt werden.\nInkl. Angabe der Art der Zertifizierung.\n   \nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor.\n======\nAngabe der vorgesehenen Techniker:\n[ für Los 2 - 5 ]\nBitte geben Sie die für die Leistungserbringung vorgesehenen Techniker und deren Qualifikation bezogen auf die von Ihnen angebotenen Systemkomponenten an.\n  \nDie Qualifikationen der Techniker sind detailliert zu beschreiben und sollten folgende Informationen enthalten:\n• Fachrichtung: Geben Sie an, in welchem Fachgebiet der Techniker spezialisiert ist (z.B. IT-Sicherheit, Netzwerktechnik, Betriebssystemadministration).\n• Ausbildung und Zertifikate: Beschreiben Sie die absolvierte Ausbildung, einschlägige Abschlüsse sowie relevante Zertifizierungen.\n• Berufserfahrung: Geben Sie an, wie viele Jahre Erfahrung der Techniker in den je-weiligen Bereichen hat und bei welchen Projekten diese Erfahrungen gesammelt wurden.\n• Spezialisierung auf Systemkomponenten: Erklären Sie, wie die Qualifikationen des Technikers auf die angebotenen Systemkomponenten abgestimmt sind und welche spezifischen Fähigkeiten für die Leistungserbringung entscheidend sind."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Nachweis eines zertifizierten Qualitätsmanagementsystems :\n[ für Los 2 - 5 ]\nDer Bieter hat den Nachweis einer gültigen Zertifizierung nach DIN EN ISO 9001 für sein Unternehmen zu erbringen.\n  \nHinweis: Der öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an."
+     },
+     {
+      "type": "slc-sec-inf",
+      "description": "Informationssicherheitsmanagement-Zertifizierung:\n[ für Los 2 - 5 ]\nBestätigen Sie, dass Ihr Unternehmen gemäß ISO 27001 zertifiziert ist und diese Zertifizierung auch während der Vertragslaufzeit aufrechterhalten wird.\nHinweis: \nDer öffentliche Auftraggeber erkennt auch gleichwertige Bescheinigungen von akkreditierten Stellen aus anderen Staaten an.\nKann der Bieter aus Gründen, die er nicht zu vertreten hat, die betreffenden Bescheinigungen nicht innerhalb der Angebotsfrist einholen, so erkennt der Auftraggeber auch andere Unterlagen über gleichwertige Qualitätssicherungssysteme an, sofern der Bieter nachweist, dass die vorgeschlagenen Qualitätssicherungsmaßnahmen den geforderten Qualitätssicherungsnormen entsprechen.\nDer Auftraggeber behält sich die Nachforderung entsprechender Nachweise im Verfahren ausdrücklich vor."
+     },
+     {
+      "type": "slc-sec-proc",
+      "description": "Bereitschaft zur Sicherheitsüberprüfung:\n[ für Los 1 - 5 ]\nBestätigen Sie, dass die von Ihnen zur Leistungserbringung eingesetzten Mitarbeiter sich auf Anforderung des Auftraggebers hin einer einfachen Sicherheitsüberprüfung nach Art. 9 Abs. 1 Nr. 9 BaySÜG unterziehen werden?\nBeachte: Sofern der Auftraggeber die Sicherheitsüberprüfung verlangt, können nicht beanstandungsfrei überprüfte Mitarbeiter des Auftragnehmers zur Leistungserbringung nicht eingesetzt werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Haftpflichtversicherung:\n[ für Los 1 - 5 ]\nBestätigung des Vorliegens einer gültigen Betriebshaftpflichtversicherung mit folgenden De-ckungssummen:\n• 1 Mio. Euro für Sachschäden, \n• 0,5 Mio. Euro für Vermögensschäden und \n• 1 Mio. für Personenschäden"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärungen gem. Abschnitt 4.2 der Bewerbungsbedingungen: \n[ für Los 1 - 5 ]\nFormell und inhaltlich beanstandungsfreie Eigenerklärungen gemäß Ziff. 4.2 der Bewer-bungsbedingungen, insbes. zu Ausschlussgründen und in Sachen \"Russland-Sanktionen\".\n======\nAufrechterhaltung der Eignung:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie Ihre Eignung entsprechend Ihren Angaben über die Vertragslaufzeit aufrechterhalten werden?\n======\nKeine Interessenkollision:\n[ für Lose 1 - 5]\nBestätigen Sie, dass Sie keinerlei Interessen haben, die mit dem angestrebten Vertragsabschluss im Widerspruch stehen und dieses zum Nachteil des Auftraggebers beeinflussen könnten?"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Jahresumsatz bezogen auf den Auftragsgegenstand:\nDarstellung der Jahresumsätze der letzten drei (3) abgeschlossenen Geschäftsjahre, soweit es Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind. Es sind die Netto-Umsätze pro Geschäftsjahr anzugeben. \nDer Netto-Jahres-Umsatz muss im Durchschnitt in diesem Zeitraum mindestens \nLos 1: 400.000 Euro netto \nLos 2: 500.000 Euro netto \nLos 3: 2.000.000 Euro netto \nLos 4: 720.000 Euro netto \nLos 5: 1.000.000 Euro netto \n  \npro Geschäftsjahr im entsprechenden Geschäftsbereich entsprechen (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Kosten",
+      "description": "Kosten über die Vertragslaufzeit",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

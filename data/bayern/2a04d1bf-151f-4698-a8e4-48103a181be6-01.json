@@ -1,0 +1,472 @@
+{
+ "id": "2a04d1bf-151f-4698-a8e4-48103a181be6-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "2a04d1bf-151f-4698-a8e4-48103a181be6",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2a04d1bf-151f-4698-a8e4-48103a181be6",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:2a04d1bf-151f-4698-a8e4-48103a181be6-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:2a04d1bf-151f-4698-a8e4-48103a181be6-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2a04d1bf-151f-4698-a8e4-48103a181be6?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Feuerwehrfahrzeug HLF20",
+  "buyer": "Stadt Arnstein",
+  "cpv": [
+   "34144210"
+  ],
+  "nuts": [
+   "DE26A"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6678dc1c-0007-43a4-815d-dfd23e6c1a4a",
+  "id": "2a04d1bf-151f-4698-a8e4-48103a181be6",
+  "date": "2026-10-27T03:08:15Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Arnstein",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE132115286",
+     "legalName": "Stadt Arnstein"
+    },
+    "address": {
+     "streetAddress": "Marktstr. 37",
+     "locality": "Arnstein",
+     "region": "DE26A",
+     "postalCode": "97450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "HENSE Fahrzeugbau GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09306-90750",
+     "legalName": "HENSE Fahrzeugbau GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Daimlerstraße 2",
+     "locality": "Waldbrunn",
+     "region": "DE26C",
+     "postalCode": "97295",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Arnstein",
+   "id": "DE132115286",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Arnstein"
+   },
+   "address": {
+    "streetAddress": "Marktstr. 37",
+    "locality": "Arnstein",
+    "region": "DE26A",
+    "postalCode": "97450",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6678dc1c-0007-43a4-815d-dfd23e6c1a4a",
+   "title": "Feuerwehrfahrzeug HLF20",
+   "description": " Handelsübliches Allradfahrgestell mit Serienkabine, geeignet zum Aufbau eines „Löschgruppenfahrzeuges HLF 20“, nach DIN 14530-27:2011-11, (neueste z. Z. produzierte Modellreihe), entsprechend EN 1846 (Gewichtsklasse M, Kategorie 2), Ausstattung nach Serienausstattung des Fahrgestellherstellers, einschließlich aller erforderlicher Modifikationen nach Vorschriften „Bundesrepublik Deutschland“, „STVZO“, „FZV“ und „Feuerwehr“.",
+   "procuringEntity": {
+    "name": "Stadt Arnstein",
+    "id": "DE132115286"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Arnstein",
+      "region": "DE26A",
+      "postalCode": "97450",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Arnstein",
+      "region": "DE26A",
+      "postalCode": "97450",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Arnstein",
+      "region": "DE26A",
+      "postalCode": "97450",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-07-06T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "HENSE Fahrzeugbau GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "HENSE Fahrzeugbau GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Daimlerstraße 2",
+      "locality": "Waldbrunn",
+      "region": "DE26C",
+      "postalCode": "97295",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Fahrzeug, Fahrgestell",
+     "description": "Handelsübliches Allradfahrgestell mit Serienkabine, geeignet zum Aufbau eines „Löschgruppenfahrzeuges HLF 20“, nach DIN 14530-27:2011-11,\n(neueste z. Z. produzierte Modellreihe), entsprechend EN 1846 (Gewichtsklasse M, Kategorie 2), Ausstattung nach Serienausstattung des Fahrgestellherstellers, einschließlich aller erforderlicher Modifikationen nach Vorschriften „Bundesrepublik Deutschland“, „STVZO“, „FZV“ und „Feuerwehr“.",
+     "contractPeriod": {
+      "startDate": "2026-06-01T00:00:00+02:00",
+      "endDate": "2029-03-01T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    },
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0002",
+     "title": "Feuerwehrtechnischer Auf- und Ausbau",
+     "description": "Aufbau bzw. Ausbau mit allen Lagerungen für ein Löschgruppenfahrzeug HLF 20 nach DIN EN 1846-2 und DIN 14530-27 Tabelle und für die gesamte in dieser Leistungsbeschreibung genannte standortspezifischen Beladung. Serienausführung des Aufbauherstellers soweit in dieser Leistungsbeschreibung nicht anders gefordert.",
+     "contractPeriod": {
+      "startDate": "2026-06-01T00:00:00+02:00",
+      "endDate": "2029-03-01T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    },
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0003",
+     "title": "Feuerwehrtechnische Beladung",
+     "description": "Siehe Leistungsbeschreibung",
+     "contractPeriod": {
+      "startDate": "2026-06-01T00:00:00+02:00",
+      "endDate": "2029-03-01T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-07-07T00:00:00+02:00",
+    "items": [
+     {
+      "id": 1,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "oth-serv-contr",
+        "description": "Other service contract"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "n3",
+        "description": "N3"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles",
+        "description": "Vehicles"
+       }
+      ],
+      "quantity": 1
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-07-07T00:00:00+02:00",
+    "items": [
+     {
+      "id": 1,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "oth-serv-contr",
+        "description": "Other service contract"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "n3",
+        "description": "N3"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles",
+        "description": "Vehicles"
+       }
+      ],
+      "quantity": 1
+     }
+    ],
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-07-07T00:00:00+02:00",
+    "items": [
+     {
+      "id": 1,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "oth-serv-contr",
+        "description": "Other service contract"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "n3",
+        "description": "N3"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles",
+        "description": "Vehicles"
+       }
+      ],
+      "quantity": 1
+     }
+    ],
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 156357.2,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-07-06T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "2a04d1bf-151f-4698-a8e4-48103a181be6",
+  "version": "01",
+  "title": "Feuerwehrfahrzeug HLF20",
+  "description": "Handelsübliches Allradfahrgestell mit Serienkabine, geeignet zum Aufbau eines „Löschgruppenfahrzeuges HLF 20“, nach DIN 14530-27:2011-11, (neueste z. Z. produzierte Modellreihe), entsprechend EN 1846 (Gewichtsklasse M, Kategorie 2), Ausstattung nach Serienausstattung des Fahrgestellherstellers, einschließlich aller erforderlicher Modifikationen nach Vorschriften „Bundesrepublik Deutschland“, „STVZO“, „FZV“ und „Feuerwehr“.",
+  "procedureType": "open",
+  "nuts": [
+   "DE26A"
+  ],
+  "cpv": [
+   "34144210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fahrzeug, Fahrgestell",
+    "description": "Handelsübliches Allradfahrgestell mit Serienkabine, geeignet zum Aufbau eines „Löschgruppenfahrzeuges HLF 20“, nach DIN 14530-27:2011-11,\n(neueste z. Z. produzierte Modellreihe), entsprechend EN 1846 (Gewichtsklasse M, Kategorie 2), Ausstattung nach Serienausstattung des Fahrgestellherstellers, einschließlich aller erforderlicher Modifikationen nach Vorschriften „Bundesrepublik Deutschland“, „STVZO“, „FZV“ und „Feuerwehr“.",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE26A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-06-01+02:00",
+    "plannedEnd": "2029-03-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Qualität",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Feuerwehrtechnischer Auf- und Ausbau",
+    "description": "Aufbau bzw. Ausbau mit allen Lagerungen für ein Löschgruppenfahrzeug HLF 20 nach DIN EN 1846-2 und DIN 14530-27 Tabelle und für die gesamte in dieser Leistungsbeschreibung genannte standortspezifischen Beladung. Serienausführung des Aufbauherstellers soweit in dieser Leistungsbeschreibung nicht anders gefordert.",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE26A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-06-01+02:00",
+    "plannedEnd": "2029-03-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Qualität",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Feuerwehrtechnische Beladung",
+    "description": "Siehe Leistungsbeschreibung",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE26A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-06-01+02:00",
+    "plannedEnd": "2029-03-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Qualität",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

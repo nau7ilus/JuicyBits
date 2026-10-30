@@ -1,0 +1,218 @@
+{
+ "id": "3e129b10-1b95-4507-8ebb-4512cc9f7ea2-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "3e129b10-1b95-4507-8ebb-4512cc9f7ea2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3e129b10-1b95-4507-8ebb-4512cc9f7ea2",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:3e129b10-1b95-4507-8ebb-4512cc9f7ea2-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:3e129b10-1b95-4507-8ebb-4512cc9f7ea2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3e129b10-1b95-4507-8ebb-4512cc9f7ea2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "01.1 Abbrucharbeiten BA2",
+  "buyer": "Stadt Bayreuth Hochbauamt",
+  "cpv": [
+   "45111100"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": "2026-11-12T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1af47e95-b06f-4d26-ac68-373a44d7f5de",
+  "id": "3e129b10-1b95-4507-8ebb-4512cc9f7ea2",
+  "date": "2026-10-20T10:04:12Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bayreuth Hochbauamt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "253ba530-244f-4c56-b4db-2a170f5a9b03",
+     "legalName": "Stadt Bayreuth Hochbauamt"
+    },
+    "address": {
+     "streetAddress": "Luitpoldplatz 13",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95444",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "b3913d13-54cd-458b-a365-292a4a1e7874",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Bayreuth",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "247f80b7-ef05-4b99-810d-497374678602",
+     "legalName": "Stadt Bayreuth"
+    },
+    "address": {
+     "streetAddress": "Wilhelm-Pitz-Str. 1",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95448",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bayreuth Hochbauamt",
+   "id": "253ba530-244f-4c56-b4db-2a170f5a9b03",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bayreuth Hochbauamt"
+   },
+   "address": {
+    "streetAddress": "Luitpoldplatz 13",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95444",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1af47e95-b06f-4d26-ac68-373a44d7f5de",
+   "title": "01.1 Abbrucharbeiten BA2",
+   "description": "Für das Bauvorhaben Generalsanierung Graserschule werden für den zweiten Bauabschnitt Abbrucharbeiten benötigt.",
+   "procuringEntity": {
+    "name": "Stadt Bayreuth Hochbauamt",
+    "id": "253ba530-244f-4c56-b4db-2a170f5a9b03"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45111100",
+      "description": "Demolition work"
+     },
+     "deliveryAddress": {
+      "locality": "Bayreuth",
+      "region": "DE242",
+      "postalCode": "95444",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 430143,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/2392404e-dc45-4ce3-af41-cb7521907978",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "01.1 Abbrucharbeiten BA2",
+     "description": "Für das Bauvorhaben Generalsanierung Graserschule werden für den zweiten Bauabschnitt Abbrucharbeiten benötigt.",
+     "contractPeriod": {
+      "startDate": "2027-01-25T00:00:00+01:00",
+      "endDate": "2027-07-02T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "3e129b10-1b95-4507-8ebb-4512cc9f7ea2",
+  "version": "01",
+  "title": "01.1 Abbrucharbeiten BA2",
+  "description": "Für das Bauvorhaben Generalsanierung Graserschule werden für den zweiten Bauabschnitt Abbrucharbeiten benötigt.",
+  "procedureType": "open",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "45111100"
+  ],
+  "estimatedValue": {
+   "amount": 430143,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "01.1 Abbrucharbeiten BA2",
+    "description": "Für das Bauvorhaben Generalsanierung Graserschule werden für den zweiten Bauabschnitt Abbrucharbeiten benötigt.",
+    "cpv": [
+     "45111100"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": "2026-11-12T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-25+01:00",
+    "plannedEnd": "2027-07-02+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/fd9136e9-9b09-4c4d-b13f-f0207e72fa98/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

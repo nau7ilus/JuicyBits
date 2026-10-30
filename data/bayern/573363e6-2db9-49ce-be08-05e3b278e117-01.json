@@ -173,6 +173,8 @@
   "noticeId": "573363e6-2db9-49ce-be08-05e3b278e117",
   "version": "01",
   "title": "Schreinerarbeiten WC-Trennwände",
+  "description": "22 m² WC-Trennwandanlage\n10 m² WC-Trennwandanlage\n14 m² WC-Trennwandanlage \n8 m² WC-Trennwandanlage\n4 St Schamwände",
+  "procedureType": "open",
   "nuts": [
    "DE231"
   ],
@@ -186,6 +188,7 @@
    {
     "id": "LOT-0000",
     "title": "Schreinerarbeiten WC-Trennwände",
+    "description": "22 m² WC-Trennwandanlage\n10 m² WC-Trennwandanlage\n14 m² WC-Trennwandanlage \n8 m² WC-Trennwandanlage\n4 St Schamwände",
     "cpv": [
      "45420000",
      "45421000",
@@ -198,6 +201,10 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 74,
+     "unit": "DAY"
+    },
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -221,7 +228,16 @@
       "type": "slc-stand-other",
       "description": "Diese Unterlagen sind auf Verlangen der Vergabestelle vorzulegen:\n\n- Freistellungsbescheinigung Finanzamt\n- Unbedenklichkeitserklärung Berufsgenossenschaft\n- Unbedenklichkeitserklärung Krankenkasse\n- Nachweis Haftpflichtversicherung\n- Auszug Handelsregister\n- Eintragung Handwerkskammer / Bestätigung Eintrag in die HW-Rolle\n- Bescheinigung in Steuersachen\n- SOKA Bescheinigung (bei PQ hinfällig)"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis als einziges Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

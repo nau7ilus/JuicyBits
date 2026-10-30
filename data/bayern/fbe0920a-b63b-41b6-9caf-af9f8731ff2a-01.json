@@ -1,0 +1,205 @@
+{
+ "id": "fbe0920a-b63b-41b6-9caf-af9f8731ff2a-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "fbe0920a-b63b-41b6-9caf-af9f8731ff2a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fbe0920a-b63b-41b6-9caf-af9f8731ff2a",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:fbe0920a-b63b-41b6-9caf-af9f8731ff2a-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:fbe0920a-b63b-41b6-9caf-af9f8731ff2a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fbe0920a-b63b-41b6-9caf-af9f8731ff2a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "HLS 215110-096100-411 BA II",
+  "buyer": "Landkreis Passau",
+  "cpv": [
+   "45000000",
+   "45262800"
+  ],
+  "nuts": [
+   "DE222",
+   "DE228"
+  ],
+  "deadline": "2026-11-12T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fd87d4fe-c578-44de-ab3d-a995a35cd941",
+  "id": "fbe0920a-b63b-41b6-9caf-af9f8731ff2a",
+  "date": "2026-10-23T02:09:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Passau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "092750000000",
+     "legalName": "Landkreis Passau"
+    },
+    "address": {
+     "streetAddress": "Domplatz 11",
+     "locality": "Passau",
+     "region": "DE222",
+     "postalCode": "94032",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0000",
+     "legalName": "Vergabekammer Südbayern der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Passau",
+   "id": "092750000000",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Passau"
+   },
+   "address": {
+    "streetAddress": "Domplatz 11",
+    "locality": "Passau",
+    "region": "DE222",
+    "postalCode": "94032",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fd87d4fe-c578-44de-ab3d-a995a35cd941",
+   "title": "HLS 215110-096100-411 BA II",
+   "description": "Durchführung von HLS-Arbeiten im Rahmen der Sanierung des BA II an der Staatl. Realschule Hauzenberg",
+   "procuringEntity": {
+    "name": "Landkreis Passau",
+    "id": "092750000000"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262800",
+       "description": "Building extension work"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Staatliche Realschule Hauzenberg"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Eckmühlstraße 20",
+      "locality": "Hauzenberg",
+      "region": "DE228",
+      "postalCode": "94051",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331277",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "215110-096100, HLS-411 BA II",
+     "description": "Durchführung von HLS-Arbeiten im Rahmen der Sanierung des BA II an der Staatl. Realschule Hauzenberg",
+     "contractPeriod": {
+      "startDate": "2027-02-22T00:00:00+01:00",
+      "endDate": "2027-07-09T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "fbe0920a-b63b-41b6-9caf-af9f8731ff2a",
+  "version": "01",
+  "title": "HLS 215110-096100-411 BA II",
+  "description": "Durchführung von HLS-Arbeiten im Rahmen der Sanierung des BA II an der Staatl. Realschule Hauzenberg",
+  "procedureType": "open",
+  "nuts": [
+   "DE228"
+  ],
+  "cpv": [
+   "45000000",
+   "45262800"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "215110-096100, HLS-411 BA II",
+    "description": "Durchführung von HLS-Arbeiten im Rahmen der Sanierung des BA II an der Staatl. Realschule Hauzenberg",
+    "cpv": [
+     "45000000",
+     "45262800"
+    ],
+    "nuts": [
+     "DE228"
+    ],
+    "deadline": "2026-11-12T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-22+01:00",
+    "plannedEnd": "2027-07-09+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331277"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

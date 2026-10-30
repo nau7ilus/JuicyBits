@@ -247,6 +247,8 @@
   "noticeId": "21ecf27b-f5e6-4798-92c8-5cf740f6044c",
   "version": "01",
   "title": "Gebäudereinigung",
+  "description": "Unterhaltsreinigung , Industriegebäude ,Glasreinigung , Industrieanlagenreinigung , Service Schmutzfangmatten für die Abfallverwertung Augsburg",
+  "procedureType": "open",
   "nuts": [
    "DE271"
   ],
@@ -260,6 +262,7 @@
    {
     "id": "LOT-0001",
     "title": "Unterhaltsreinigung",
+    "description": "Unterhaltsreinigung Verwaltungsgebäude",
     "cpv": [
      "90911200"
     ],
@@ -270,6 +273,7 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -289,11 +293,27 @@
       "type": "slc-stand-ins",
       "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 48
+     },
+     {
+      "type": "quality",
+      "name": "Jährliche Planstunden und Konzepte",
+      "description": "Jährliche Planstunden und Konzepte",
+      "weight": 52
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0002",
     "title": "Unterhaltsreinigung",
+    "description": "Unterhaltsreinigung Industriegebäude",
     "cpv": [
      "90911200"
     ],
@@ -304,6 +324,7 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -323,11 +344,27 @@
       "type": "slc-stand-ins",
       "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 48
+     },
+     {
+      "type": "quality",
+      "name": "Jährliche Planstunden und Konzepte",
+      "description": "Jährliche Planstunden und Konzepte",
+      "weight": 52
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0003",
     "title": "Glasreinigung",
+    "description": "Glasreinigung",
     "cpv": [
      "90911300"
     ],
@@ -338,6 +375,7 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -357,11 +395,27 @@
       "type": "slc-stand-ins",
       "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 65
+     },
+     {
+      "type": "quality",
+      "name": "Konzept",
+      "description": "Qualität Konzept",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0004",
     "title": "Industrieanlagenreinigung",
+    "description": "Industrieanlagenreinigung",
     "cpv": [
      "90911200"
     ],
@@ -372,6 +426,7 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -391,11 +446,27 @@
       "type": "slc-stand-ins",
       "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Jährliche Planstunden und Konzepte",
+      "description": "Jährliche Planstunden und Konzepte",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0005",
     "title": "Schmutzfangmattenservice",
+    "description": "Schmutzfangmattenservice",
     "cpv": [
      "98312000"
     ],
@@ -406,6 +477,7 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -425,7 +497,16 @@
       "type": "slc-stand-ins",
       "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

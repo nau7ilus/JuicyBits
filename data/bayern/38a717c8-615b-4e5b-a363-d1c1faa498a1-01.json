@@ -1,0 +1,224 @@
+{
+ "id": "38a717c8-615b-4e5b-a363-d1c1faa498a1-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "38a717c8-615b-4e5b-a363-d1c1faa498a1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=38a717c8-615b-4e5b-a363-d1c1faa498a1",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:38a717c8-615b-4e5b-a363-d1c1faa498a1-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:38a717c8-615b-4e5b-a363-d1c1faa498a1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/38a717c8-615b-4e5b-a363-d1c1faa498a1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "SV-MSI-261021-003 - Tram Münchner Norden, Bauüberwachung Entsorgung und Beprobung Brücke 2027",
+  "buyer": "Stadtwerke München GmbH",
+  "cpv": [
+   "71521000",
+   "71319000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-23T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f17e102f-5d80-4fb2-8d97-b9ea889d50bf",
+  "id": "38a717c8-615b-4e5b-a363-d1c1faa498a1",
+  "date": "2026-10-23T02:12:28Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke München GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE812500229",
+     "legalName": "Stadtwerke München GmbH"
+    },
+    "address": {
+     "streetAddress": "Emmy-Noether-Straße 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80992",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern\nVergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern\nVergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximiliansstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke München GmbH",
+   "id": "DE812500229",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Stadtwerke München GmbH"
+   },
+   "address": {
+    "streetAddress": "Emmy-Noether-Straße 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80992",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f17e102f-5d80-4fb2-8d97-b9ea889d50bf",
+   "title": "SV-MSI-261021-003 - Tram Münchner Norden, Bauüberwachung Entsorgung und Beprobung Brücke 2027",
+   "description": "Tram Münchner Norden, Bauüberwachung Entsorgung und Beprobung Brücke 2027",
+   "procuringEntity": {
+    "name": "Stadtwerke München GmbH",
+    "id": "DE812500229"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71319000",
+       "description": "Expert witness services"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.swm.de/einkauf/bekanntmachungen",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "SV-MSI-261021-003 - Tram Münchner Norden, Bauüberwachung Entsorgung und Beprobung Brücke 2027",
+     "description": "Die ausgeschriebene Leistung umfasst die fachgutachterliche Begleitung von Aushubarbeiten, vor allem im Bezug auf Haufwerksbildungen, sowie die fachgerechten Beprobung, Analytik und Auswertung für die Brückenbauarbeiten in der Jahresscheibe 2027 für das Projekt Tram Münchner Norden. Es ist von folgenden Mengen auszugehen: ca. 50 Untersuchungen nach Verfüll-Leitfaden, ca. 35 Untersuchungen nach DepV.",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-02-28T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "38a717c8-615b-4e5b-a363-d1c1faa498a1",
+  "version": "01",
+  "title": "SV-MSI-261021-003 - Tram Münchner Norden, Bauüberwachung Entsorgung und Beprobung Brücke 2027",
+  "description": "Tram Münchner Norden, Bauüberwachung Entsorgung und Beprobung Brücke 2027",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71521000",
+   "71319000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "SV-MSI-261021-003 - Tram Münchner Norden, Bauüberwachung Entsorgung und Beprobung Brücke 2027",
+    "description": "Die ausgeschriebene Leistung umfasst die fachgutachterliche Begleitung von Aushubarbeiten, vor allem im Bezug auf Haufwerksbildungen, sowie die fachgerechten Beprobung, Analytik und Auswertung für die Brückenbauarbeiten in der Jahresscheibe 2027 für das Projekt Tram Münchner Norden. Es ist von folgenden Mengen auszugehen: ca. 50 Untersuchungen nach Verfüll-Leitfaden, ca. 35 Untersuchungen nach DepV.",
+    "cpv": [
+     "71521000",
+     "71319000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Angaben zur wirtschaftlichen Verknüpfung mit anderen Unternehmen hinsichtlich des Grundsatzes der Trennung von Planung und Bauausführung;"
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Nachweis der Berechtigung zur Führung der Berufsbezeichnung: Zugelassen ist jeder, der nach den Gesetzen der Länder berechtigt ist, die Berufsbezeichnung Ingenieur oder\nBeratender Ingenieur zu tragen oder nach der EG-Richtlinie über eine allgemeine Regelung zur Anerkennung der Hochschuldiplome in der Bundesrepublik Deutschland als „Beratender Ingenieur“ oder „Ingenieur“ tätig zu werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer Berufshaftpflichtversicherung für Personenschäden sowie für Sonstige Schäden; die\njeweiligen Deckungssummen sind den Vergabeunterlagen zu entnehmen; ersatzweise kann eine Bestätigung\nder Versicherung vorgelegt werden, dass die Deckungssumme im Auftragsfall auf die angegebenen Summen\nangepasst werden können;"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Kriterium Umsatz: Erklärung über den Gesamtumsatz sowie den Umsatz in dem vergleichbaren\nTätigkeitsbereich des Auftrags jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre. Die aufgestellte Forderung stellt keine Mindestanforderung im Hinblick auf die Dauer der Geschäftstätigkeit dar;"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Kriterium Personelle Ausstattung: Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des\nUnternehmens und die Zahl seiner Führungskräfte in den letzten drei abgeschlossenen Kalenderjahren ersichtlich ist. Die aufgestellte Forderung stellt keine Mindestanforderung im Hinblick auf die Dauer der Geschäftstätigkeit dar;"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "(1) Kriterium Referenzen: Angabe von Referenzen über vergleichbare Leistungen die in den letzten bis zu 5\nabgeschlossenen Kalenderjahren oder im aktuellen Jahr vom dem Schlusstermin für die Einreichung der\nTeilnahmewettberbe/Angebote ausgeführt und fertiggestellt (= in Betrieb genommen) wurden. Hinsichtlich\nder Vergleichbarkeit wird auf die Kurzbeschreibung des Auftrags sowie die Vergabeunterlagen\nverwiesen. Die Referenzangaben beziehen sich auf folgende Aspekte:\nBeprobung von mindestens 5.000 m³ Boden innerhalb eines Projekts\n(2) Kriterium auftragsspezifische Einzelnachweise: Vorlage nachfolgender auftragsspezifischer Angaben,\nErklärungen oder Nachweise (in Kopie)\n- Sachkundenachweis für die Probenahme fester Abfälle nach LAGA PN98 für den eingesetzten Probenehmer\n- Nachweis Akkreditierung des Labors nach DIN EN ISO/IEC 17025 (§18 BBodSchG) für das untersuchende Labor"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Gewichtung: 100 %",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

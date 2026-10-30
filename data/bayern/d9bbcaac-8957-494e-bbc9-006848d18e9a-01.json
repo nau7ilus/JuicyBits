@@ -1,0 +1,312 @@
+{
+ "id": "d9bbcaac-8957-494e-bbc9-006848d18e9a-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "d9bbcaac-8957-494e-bbc9-006848d18e9a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d9bbcaac-8957-494e-bbc9-006848d18e9a",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:d9bbcaac-8957-494e-bbc9-006848d18e9a-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:d9bbcaac-8957-494e-bbc9-006848d18e9a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d9bbcaac-8957-494e-bbc9-006848d18e9a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Trockenbauarbeiten",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "45421146",
+   "45262670",
+   "45450000",
+   "45000000",
+   "45324000",
+   "45223210"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-99731c0b-28ac-4b23-9a65-a1a225fc6e7a",
+  "id": "d9bbcaac-8957-494e-bbc9-006848d18e9a",
+  "date": "2026-10-16T02:11:03Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Planotec Innenausbau GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 152941718",
+     "legalName": "Planotec Innenausbau GmbH"
+    },
+    "address": {
+     "streetAddress": "Sägmeister 3",
+     "locality": "Tüßling",
+     "region": "DE214",
+     "postalCode": "84577",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "99731c0b-28ac-4b23-9a65-a1a225fc6e7a",
+   "title": "Trockenbauarbeiten",
+   "description": "Die Landeshauptstadt München realisiert die Errichtung eines Neubaus für eine siebenzügige Grundschule mit Dreifach-Sporthalle und einer Tiefgarage im Obergiesing-Fasangarten, \nan der Weißenseestraße und Traunsteiner Straße;\nGewerk: Trockenbauarbeiten, Abhangdecken Fluchtbalkone",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421146",
+      "description": "Installation of suspended ceilings"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45450000",
+       "description": "Other building completion work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45000000",
+       "description": "Construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45324000",
+       "description": "Plasterboard works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45223210",
+       "description": "Structural steelworks"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81539",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Planotec Innenausbau GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Planotec Innenausbau GmbH"
+     },
+     "address": {
+      "streetAddress": "Sägmeister 3",
+      "locality": "Tüßling",
+      "region": "DE214",
+      "postalCode": "84577",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Trockenbauarbeiten",
+     "description": "Die Landeshauptstadt München realisiert die Errichtung eines Neubaus für eine siebenzügige Grundschule mit Dreifach-Sporthalle und einer Tiefgarage im Obergiesing-Fasangarten, \nan der Weißenseestraße und Traunsteiner Straße;\nGewerk: Trockenbauarbeiten, Abhangdecken Fluchtbalkone",
+     "contractPeriod": {
+      "startDate": "2026-11-23T00:00:00+01:00",
+      "endDate": "2027-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Trockenbauarbeiten",
+    "status": "active",
+    "date": "2026-10-12T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Planotec Innenausbau GmbH",
+      "id": "DE 152941718",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Planotec Innenausbau GmbH"
+      },
+      "address": {
+       "streetAddress": "Sägmeister 3",
+       "locality": "Tüßling",
+       "region": "DE214",
+       "postalCode": "84577",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Trockenbauarbeiten",
+    "status": "active",
+    "value": {
+     "amount": 431012.6,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-11T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "553563-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "553563-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "d9bbcaac-8957-494e-bbc9-006848d18e9a",
+  "version": "01",
+  "title": "Trockenbauarbeiten",
+  "description": "Die Landeshauptstadt München realisiert die Errichtung eines Neubaus für eine siebenzügige Grundschule mit Dreifach-Sporthalle und einer Tiefgarage im Obergiesing-Fasangarten, \nan der Weißenseestraße und Traunsteiner Straße;\nGewerk: Trockenbauarbeiten, Abhangdecken Fluchtbalkone",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45421146",
+   "45262670",
+   "45450000",
+   "45000000",
+   "45324000",
+   "45223210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Trockenbauarbeiten",
+    "description": "Die Landeshauptstadt München realisiert die Errichtung eines Neubaus für eine siebenzügige Grundschule mit Dreifach-Sporthalle und einer Tiefgarage im Obergiesing-Fasangarten, \nan der Weißenseestraße und Traunsteiner Straße;\nGewerk: Trockenbauarbeiten, Abhangdecken Fluchtbalkone",
+    "cpv": [
+     "45421146",
+     "45262670",
+     "45450000",
+     "45000000",
+     "45324000",
+     "45223210"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-23+01:00",
+    "plannedEnd": "2027-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

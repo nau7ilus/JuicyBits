@@ -1,0 +1,359 @@
+{
+ "id": "b5d015f3-0197-4eb4-bdd8-6ab98a53478a-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "b5d015f3-0197-4eb4-bdd8-6ab98a53478a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b5d015f3-0197-4eb4-bdd8-6ab98a53478a",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:b5d015f3-0197-4eb4-bdd8-6ab98a53478a-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:b5d015f3-0197-4eb4-bdd8-6ab98a53478a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b5d015f3-0197-4eb4-bdd8-6ab98a53478a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF20 mit Beladung für die Stadt Abensberg, Lkr. Kelheim",
+  "buyer": "Stadt Abensberg",
+  "cpv": [
+   "34144213",
+   "35110000"
+  ],
+  "nuts": [
+   "DE226"
+  ],
+  "deadline": "2027-01-20T10:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-85d894b9-93fd-4b4a-b07c-4c695f54ebea",
+  "id": "b5d015f3-0197-4eb4-bdd8-6ab98a53478a",
+  "date": "2026-10-22T02:08:07Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Abensberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "273111-001-02",
+     "legalName": "Stadt Abensberg"
+    },
+    "address": {
+     "streetAddress": "Stadtplatz 1",
+     "locality": "Abensberg",
+     "region": "DE226",
+     "postalCode": "93326",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "VergSuedbayern80538",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Abensberg",
+   "id": "273111-001-02",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Abensberg"
+   },
+   "address": {
+    "streetAddress": "Stadtplatz 1",
+    "locality": "Abensberg",
+    "region": "DE226",
+    "postalCode": "93326",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "85d894b9-93fd-4b4a-b07c-4c695f54ebea",
+   "title": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF20 mit Beladung für die Stadt Abensberg, Lkr. Kelheim",
+   "description": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF20 mit Beladung in drei Losen, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN14530-27, DIN EN 1846-1 bis-3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis ",
+   "procuringEntity": {
+    "name": "Stadt Abensberg",
+    "id": "273111-001-02"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Stadtplatz 1",
+      "locality": "Abensberg",
+      "region": "DE226",
+      "postalCode": "93326",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Stadtplatz 1",
+      "locality": "Abensberg",
+      "region": "DE226",
+      "postalCode": "93326",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35110000",
+      "description": "Firefighting, rescue and safety equipment"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Stadtplatz 1",
+      "locality": "Abensberg",
+      "region": "DE226",
+      "postalCode": "93326",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "value": {
+    "amount": 588500,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c7db-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c7db-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c7db-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung eines Fahrgestells für ein Hilfeleistungslöschgruppenfahrzeug HLF20 ",
+     "description": "Lieferung eines Fahrgestells für ein Hilfeleistungslöschgruppenfahrzeuges HLF20, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN14530-27, DIN EN 1846-1 bis-3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis ",
+     "value": {
+      "amount": 134500,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-21T00:00:00+01:00",
+      "endDate": "2029-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Lieferung eines Aufbaus für ein Hilfeleistungslöschgruppenfahrzeug HLF20 ",
+     "description": "Lieferung eines Aufbaus für ein Hilfeleistungslöschgruppenfahrzeuges HLF20, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN14530-27, DIN EN 1846-1 bis-3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis ",
+     "value": {
+      "amount": 382500,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-21T00:00:00+01:00",
+      "endDate": "2029-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Lieferung der Beladung für ein Hilfeleistungslöschgruppenfahrzeug HLF20 ",
+     "description": "Lieferung der Beladung für ein Hilfeleistungslöschgruppenfahrzeuges HLF20 gem. DIN14530-27, DIN EN 1846-1 bis-3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis ",
+     "value": {
+      "amount": 71500,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-21T00:00:00+01:00",
+      "endDate": "2029-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b5d015f3-0197-4eb4-bdd8-6ab98a53478a",
+  "version": "01",
+  "title": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF20 mit Beladung für die Stadt Abensberg, Lkr. Kelheim",
+  "description": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF20 mit Beladung in drei Losen, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN14530-27, DIN EN 1846-1 bis-3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis",
+  "procedureType": "open",
+  "nuts": [
+   "DE226"
+  ],
+  "cpv": [
+   "34144213",
+   "35110000"
+  ],
+  "estimatedValue": {
+   "amount": 588500,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung eines Fahrgestells für ein Hilfeleistungslöschgruppenfahrzeug HLF20",
+    "description": "Lieferung eines Fahrgestells für ein Hilfeleistungslöschgruppenfahrzeuges HLF20, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN14530-27, DIN EN 1846-1 bis-3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis",
+    "cpv": [
+     "34144213"
+    ],
+    "nuts": [
+     "DE226"
+    ],
+    "deadline": "2027-01-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-21+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 134500,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Lieferung eines Aufbaus für ein Hilfeleistungslöschgruppenfahrzeug HLF20",
+    "description": "Lieferung eines Aufbaus für ein Hilfeleistungslöschgruppenfahrzeuges HLF20, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN14530-27, DIN EN 1846-1 bis-3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis",
+    "cpv": [
+     "34144213"
+    ],
+    "nuts": [
+     "DE226"
+    ],
+    "deadline": "2027-01-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-21+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 382500,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 80
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 20
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Lieferung der Beladung für ein Hilfeleistungslöschgruppenfahrzeug HLF20",
+    "description": "Lieferung der Beladung für ein Hilfeleistungslöschgruppenfahrzeuges HLF20 gem. DIN14530-27, DIN EN 1846-1 bis-3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis",
+    "cpv": [
+     "35110000"
+    ],
+    "nuts": [
+     "DE226"
+    ],
+    "deadline": "2027-01-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-21+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 71500,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

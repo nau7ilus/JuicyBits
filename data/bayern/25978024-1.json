@@ -5,14 +5,14 @@
   "noticeId": "25978024",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978024",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978024-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978024-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978024?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Rahmenvereinbarung über die Beschaffung eines mobilen Hochwasserschutzsystems",
   "buyer": "Stadt Landshut",
   "cpv": [
@@ -97,5 +97,47 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25978024",
+  "version": "1",
+  "title": "Rahmenvereinbarung über die Beschaffung eines mobilen Hochwasserschutzsystems",
+  "description": "Rahmenvereinbarung über die Beschaffung eines mobilen Hochwasserschutzsystems für die Stadt Landshut\n\nRahmenvereinbarung über die Beschaffung eines mobilen Hochwasserschutzsystems",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "34928300",
+   "45246400",
+   "35000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvereinbarung über die Beschaffung eines mobilen Hochwasserschutzsystems",
+    "description": "Rahmenvereinbarung über die Beschaffung eines mobilen Hochwasserschutzsystems für die Stadt Landshut\n\nRahmenvereinbarung über die Beschaffung eines mobilen Hochwasserschutzsystems",
+    "cpv": [
+     "34928300",
+     "45246400",
+     "35000000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

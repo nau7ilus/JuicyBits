@@ -5,14 +5,14 @@
   "noticeId": "c5dff5d8-2ff2-41a6-9925-ea626bec1978",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c5dff5d8-2ff2-41a6-9925-ea626bec1978",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:c5dff5d8-2ff2-41a6-9925-ea626bec1978-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:c5dff5d8-2ff2-41a6-9925-ea626bec1978-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/c5dff5d8-2ff2-41a6-9925-ea626bec1978?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Ravensburg, Schützenstraße 69, 440-Sonstige Elektrische Anlagen",
   "buyer": "Bundesagentur für Arbeit, SB 93 Recht/Vergabe",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE254"
   ],
-  "deadline": null,
+  "deadline": "2026-11-27T08:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -158,5 +158,46 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c5dff5d8-2ff2-41a6-9925-ea626bec1978",
+  "version": "01",
+  "title": "Ravensburg, Schützenstraße 69, 440-Sonstige Elektrische Anlagen",
+  "description": "Elektrische Anlagen, Brandmeldeanlage",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "45317000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Ravensburg, Schützenstraße 69, 440-Sonstige Elektrische Anlagen",
+    "description": "Das Bauvorhaben befindet sich in der Schützenstraße 69, 88212 Ravensburg. Es handelt sich um einen Standort der Agentur für Arbeit. Das U-Förmig aufgebaute Gebäude befindet sich im Industriegebiet in Ravensburg. \n\nDie Ausführung der Leistungen erfolgt in nicht zusammenhängenden Teilabschnitten und unter Aufrechterhaltung des Nutzerbetriebs in den nicht betroffenen Bereichen des Gebäudes. \n\nGegenstand dieser Ausschreibung:\n\n-Eine Brandmeldezentrale inkl. Brandschutzgehäuse\n-Ca. 490 automatische Melder\n-Ca. 60 nichtautomatische Melder\n-Div. Brandfallsteuerungen\n-Erstellung der Laufkarten\n-Erledigung der zugehörigen Formalitäten mit der Brandschutzdienststelle",
+    "cpv": [
+     "45317000"
+    ],
+    "nuts": [],
+    "deadline": "2026-11-27T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2029-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das alleinige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

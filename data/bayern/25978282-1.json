@@ -5,14 +5,14 @@
   "noticeId": "25978282",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978282",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978282-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978282-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978282?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Technische Außenanlagen - Grundschule Egling INTERIMSMASSNAHME",
   "buyer": "Gemeinde Egling",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-11-18T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -91,5 +91,43 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25978282",
+  "version": "1",
+  "title": "Technische Außenanlagen - Grundschule Egling INTERIMSMASSNAHME",
+  "description": "Tiefbau und Entwässerungskanalarbeiten",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45232411-6  45232450-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Technische Außenanlagen - Grundschule Egling INTERIMSMASSNAHME",
+    "description": "Tiefbau und Entwässerungskanalarbeiten",
+    "cpv": [
+     "45232411-6  45232450-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

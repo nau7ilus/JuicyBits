@@ -1,0 +1,195 @@
+{
+ "id": "01a1588d-e7f9-4a33-8326-52d96db931a5-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "01a1588d-e7f9-4a33-8326-52d96db931a5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=01a1588d-e7f9-4a33-8326-52d96db931a5",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:01a1588d-e7f9-4a33-8326-52d96db931a5-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:01a1588d-e7f9-4a33-8326-52d96db931a5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/01a1588d-e7f9-4a33-8326-52d96db931a5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung von drei emissionsarmen Stadtbussen",
+  "buyer": "WBV GmbH & Co. KG",
+  "cpv": [
+   "34121400"
+  ],
+  "nuts": [
+   "DE233"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-01a15881-7576-405c-a53e-381c483b3a93",
+  "id": "01a1588d-e7f9-4a33-8326-52d96db931a5",
+  "date": "2026-10-21T02:08:53Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "WBV GmbH & Co. KG",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRA 3075",
+     "legalName": "WBV GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Oskar-von-Miller-Straße 14",
+     "locality": "Weiden",
+     "region": "DE233",
+     "postalCode": "92637",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "WBV GmbH & Co. KG",
+   "id": "HRA 3075",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "WBV GmbH & Co. KG"
+   },
+   "address": {
+    "streetAddress": "Oskar-von-Miller-Straße 14",
+    "locality": "Weiden",
+    "region": "DE233",
+    "postalCode": "92637",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "01a15881-7576-405c-a53e-381c483b3a93",
+   "title": "Beschaffung von drei emissionsarmen Stadtbussen",
+   "description": "Beschaffung von drei emissionsarmen Stadtbussen",
+   "procuringEntity": {
+    "name": "WBV GmbH & Co. KG",
+    "id": "HRA 3075"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34121400",
+      "description": "Low-floor buses"
+     },
+     "quantity": 3,
+     "deliveryAddress": {
+      "streetAddress": "Oskar-von-Miller-Straße 14",
+      "locality": "Weiden",
+      "region": "DE233",
+      "postalCode": "92637",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.de/unterlagen/01a15881-7576-405c-a53e-381c483b3a93/zustellweg-auswaehlen",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Beschaffung von drei emissionsarmen Stadtbussen",
+     "description": "Beschafft werden drei fabrikneue Niederflur-Linienbusse der Klasse I mit einer Länge von 12,00 bis 12,50 m für den Linienverkehr nach § 42 PBefG. Die Fahrzeuge werden mit Verbrennungsmotor der Abgasnorm Euro VI Stufe E geliefert und ausschließlich mit paraffinischem Kraftstoff HVO 100 nach EN 15940 betrieben. Die technischen Anforderungen ergeben sich abschließend aus Anlage 1 (Lastenheft).",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2027-11-30T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "01a1588d-e7f9-4a33-8326-52d96db931a5",
+  "version": "01",
+  "title": "Beschaffung von drei emissionsarmen Stadtbussen",
+  "description": "Beschaffung von drei emissionsarmen Stadtbussen",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE233"
+  ],
+  "cpv": [
+   "34121400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung von drei emissionsarmen Stadtbussen",
+    "description": "Beschafft werden drei fabrikneue Niederflur-Linienbusse der Klasse I mit einer Länge von 12,00 bis 12,50 m für den Linienverkehr nach § 42 PBefG. Die Fahrzeuge werden mit Verbrennungsmotor der Abgasnorm Euro VI Stufe E geliefert und ausschließlich mit paraffinischem Kraftstoff HVO 100 nach EN 15940 betrieben. Die technischen Anforderungen ergeben sich abschließend aus Anlage 1 (Lastenheft).",
+    "cpv": [
+     "34121400"
+    ],
+    "nuts": [
+     "DE233"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-20T12:00:00+01:00",
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2027-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

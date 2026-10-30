@@ -1,0 +1,241 @@
+{
+ "id": "a7d2cae4-ee12-44bc-977d-036f1ce9edaa-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "a7d2cae4-ee12-44bc-977d-036f1ce9edaa",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a7d2cae4-ee12-44bc-977d-036f1ce9edaa",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:a7d2cae4-ee12-44bc-977d-036f1ce9edaa-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:a7d2cae4-ee12-44bc-977d-036f1ce9edaa-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a7d2cae4-ee12-44bc-977d-036f1ce9edaa?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Sachverständigenleistung RLT und Löschanlagen 70-00251-2260-P - PR1295167-2260-B",
+  "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - B12 - Einkauf Bau",
+  "cpv": [
+   "71310000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE122"
+  ],
+  "deadline": "2026-11-06T10:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4ecc8a71-ac8e-4d00-aecd-315a168f123e",
+  "id": "a7d2cae4-ee12-44bc-977d-036f1ce9edaa",
+  "date": "2026-10-16T02:06:26Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - B12 - Einkauf Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - B12 - Einkauf Bau"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - B12 - Einkauf Bau",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - B12 - Einkauf Bau"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4ecc8a71-ac8e-4d00-aecd-315a168f123e",
+   "title": "Sachverständigenleistung RLT und Löschanlagen 70-00251-2260-P - PR1295167-2260-B",
+   "description": "Sachverständigenleistung RLT und Löschanlagen",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - B12 - Einkauf Bau",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71310000",
+      "description": "Consultative engineering and construction services"
+     },
+     "deliveryAddress": {
+      "locality": "Karlsruhe",
+      "region": "DE122",
+      "postalCode": "76131",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a0aaf579e4-1ede66e6565f521c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-16T02:06:26.246Z",
+     "rationale": "Bieterfrage muss noch geklärt werden, Submission zu knapp.",
+     "amendsReleaseID": "ee12f756-0856-4fa5-82ec-9cab8604a290-01",
+     "releaseID": "a7d2cae4-ee12-44bc-977d-036f1ce9edaa-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Sachverständigenleistung RLT und Löschanlagen 70-00251-2260-P - PR1295167-2260-B",
+     "description": "Durchführung von Prüfsachverständigenleistungen der  für das Fraunhofer ISI+IOSB Karlsruhe - Forschungscampus Karlsruhe (Foca KA), Gesamtkosten KG 200-700 (ohne Erstausstattung) max. 57.255.387 netto (ohne Mehrwertssteuer).\nDie Umsetzung des Vorhabens erfolgt im ZBau-Verfahren inkl. Erstellung einer Antrags- und Bauunterlage sowie Wahrnehmung eines Konzeptgespräches mit den Zuwendungsgebern.\n\nHonorarangebot nach beiliegendem Preisblatt basierend auf der Aufgaben- / Leistungsbeschreibung",
+     "contractPeriod": {
+      "startDate": "2027-01-11T00:00:00+01:00",
+      "endDate": "2029-12-21T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a7d2cae4-ee12-44bc-977d-036f1ce9edaa",
+  "version": "01",
+  "title": "Sachverständigenleistung RLT und Löschanlagen 70-00251-2260-P - PR1295167-2260-B",
+  "description": "Sachverständigenleistung RLT und Löschanlagen",
+  "procedureType": "open",
+  "nuts": [
+   "DE122"
+  ],
+  "cpv": [
+   "71310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sachverständigenleistung RLT und Löschanlagen 70-00251-2260-P - PR1295167-2260-B",
+    "description": "Durchführung von Prüfsachverständigenleistungen der  für das Fraunhofer ISI+IOSB Karlsruhe - Forschungscampus Karlsruhe (Foca KA), Gesamtkosten KG 200-700 (ohne Erstausstattung) max. 57.255.387 netto (ohne Mehrwertssteuer).\nDie Umsetzung des Vorhabens erfolgt im ZBau-Verfahren inkl. Erstellung einer Antrags- und Bauunterlage sowie Wahrnehmung eines Konzeptgespräches mit den Zuwendungsgebern.\n\nHonorarangebot nach beiliegendem Preisblatt basierend auf der Aufgaben- / Leistungsbeschreibung",
+    "cpv": [
+     "71310000"
+    ],
+    "nuts": [
+     "DE122"
+    ],
+    "deadline": "2026-11-06T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-11+01:00",
+    "plannedEnd": "2029-12-21+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Referenzen gem. § 46 Abs. 3 Nr. 1 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen - auch hinsichtlich Nachweise - sind in den Auftragsunterlagen als Angebotsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Baurechtlich anerkannte/r Prüfsachverständige/r"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Durchschnittliche jährliche Beschäftigtenzahl gem. § 46 Abs. 3 Nr. 8 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen - auch hinsichtlich Nachweise - sind in den Auftragsunterlagen als Angebotsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "- Unterauftragnehmer § 36 Abs. 1 in Verbindung mit § 47 Abs. 1 VgV\n- Bewerber- / Bietergemeinschaften § 43 Abs. 2 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen - auch hinsichtlich Nachweise - sind in den Auftragsunterlagen als Angebotsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Berufshaftpflichtversicherung gem. § 45 Abs. 1 Nr. 3 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen - auch hinsichtlich Nachweise - sind in den Auftragsunterlagen als Angebotsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Mindestjahresumsatz gem. § 45 Abs. 1 Nr. 1 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen - auch hinsichtlich Nachweise - sind in den Auftragsunterlagen als Angebotsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Honorarangebot",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

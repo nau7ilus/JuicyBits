@@ -38,23 +38,37 @@ export function ocdsCpv(release){
 function locationNuts(project){return list(project?.RealizedLocation).map(l=>text(l.Address?.CountrySubentityCode))}
 function projectCpv(project){return [project?.MainCommodityClassification,...list(project?.AdditionalCommodityClassification)].map(c=>text(c?.ItemClassificationCode))}
 function amount(project){const a=project?.RequestedTenderTotal?.EstimatedOverallContractAmount;return a?{amount:Number(text(a)),currency:a['@currencyID']??null}:null}
+const extensions=node=>list(node?.UBLExtensions?.UBLExtension).map(u=>u.ExtensionContent?.EformsExtension).filter(Boolean);
+function awardCriteria(terms){
+ return list(terms?.AwardingTerms?.AwardingCriterion).flatMap(a=>list(a.SubordinateAwardingCriterion)).map(c=>{
+  const weight=extensions(c).flatMap(e=>list(e.AwardCriterionParameter)).find(p=>p.ParameterCode?.['@listName']==='number-weight');
+  return {type:text(c.AwardingCriterionTypeCode),name:text(c.Name),description:text(c.Description),weight:weight?Number(text(weight.ParameterNumeric)):null};
+ });
+}
+function guarantee(terms){
+ const g=list(terms?.RequiredFinancialGuarantee);if(!g.length)return null;
+ return {required:g.some(x=>text(x.GuaranteeTypeCode)==='true'),description:g.map(x=>text(x.Description)).filter(Boolean).join('\n')||null};
+}
+function duration(project){const d=project?.PlannedPeriod?.DurationMeasure;return d?{value:Number(text(d)),unit:d['@unitCode']??null}:null}
 // Only fields listed here leave the XML. Organisations and contacts are never copied.
 export function parseEforms(source){
  const doc=xml.parse(source);
  const type=Object.keys(doc).find(k=>!k.startsWith('?'));const root=doc[type];
  const lots=list(root.ProcurementProjectLot).map(lot=>{
   const project=lot.ProcurementProject,process=lot.TenderingProcess;
-  const criteria=list(lot.TenderingTerms?.UBLExtensions?.UBLExtension).flatMap(u=>list(u.ExtensionContent?.EformsExtension?.SelectionCriteria));
+  const criteria=extensions(lot.TenderingTerms).flatMap(e=>list(e.SelectionCriteria));
   const sme=text(project?.SMESuitableIndicator);
-  return {id:text(lot.ID),title:text(project?.Name),cpv:uniq(projectCpv(project)),nuts:uniq(locationNuts(project)),
+  return {id:text(lot.ID),title:text(project?.Name),description:text(project?.Description),cpv:uniq(projectCpv(project)),nuts:uniq(locationNuts(project)),
    deadline:joinDateTime(process?.TenderSubmissionDeadlinePeriod?.EndDate,process?.TenderSubmissionDeadlinePeriod?.EndTime),
    participationDeadline:joinDateTime(process?.ParticipationRequestReceptionPeriod?.EndDate,process?.ParticipationRequestReceptionPeriod?.EndTime),
-   plannedStart:joinDateTime(project?.PlannedPeriod?.StartDate),plannedEnd:joinDateTime(project?.PlannedPeriod?.EndDate),
+   plannedStart:joinDateTime(project?.PlannedPeriod?.StartDate),plannedEnd:joinDateTime(project?.PlannedPeriod?.EndDate),duration:duration(project),
    estimatedValue:amount(project),smeSuitable:sme===null?null:sme==='true',
-   selectionCriteria:criteria.map(c=>({type:text(c.TendererRequirementTypeCode),description:text(c.Description)})).filter(c=>c.description)};
+   selectionCriteria:criteria.map(c=>({type:text(c.TendererRequirementTypeCode),description:text(c.Description)})).filter(c=>c.description),
+   awardCriteria:awardCriteria(lot.TenderingTerms),guarantee:guarantee(lot.TenderingTerms)};
  });
  return {noticeType:type,noticeSubType:text(root.UBLExtensions?.UBLExtension?.ExtensionContent?.EformsExtension?.NoticeSubType?.SubTypeCode),
-  noticeId:text(root.ID),version:text(root.VersionID),title:text(root.ProcurementProject?.Name),
+  noticeId:text(root.ID),version:text(root.VersionID),title:text(root.ProcurementProject?.Name),description:text(root.ProcurementProject?.Description),
+  procedureType:text(root.TenderingProcess?.ProcedureCode),
   nuts:uniq([...locationNuts(root.ProcurementProject),...lots.flatMap(l=>l.nuts)]),cpv:uniq([...projectCpv(root.ProcurementProject),...lots.flatMap(l=>l.cpv)]),
   estimatedValue:amount(root.ProcurementProject),lots};
 }

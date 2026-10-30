@@ -1,0 +1,124 @@
+{
+ "id": "25945920-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25945920",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25945920",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25945920-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25945920-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25945920?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "GPU-Server",
+  "buyer": "Deutsches Zentrum für Luft- und Raumfahrt e.V.",
+  "cpv": [
+   "72000000-5"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25945920",
+  "id": "25945920",
+  "date": "2026-10-21T19:00:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Deutsches Zentrum für Luft- und Raumfahrt e.V.",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Deutsches Zentrum für Luft- und Raumfahrt e.V."
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Deutsches Zentrum für Luft- und Raumfahrt e.V.",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Deutsches Zentrum für Luft- und Raumfahrt e.V."
+   }
+  },
+  "tender": {
+   "title": "GPU-Server",
+   "description": "Vergabestelle: Deutsches Zentrum für Luft- und Raumfahrt e.V., Linder Höhe, 51147 Köln\nVergabeverfahren: § 8 Abs. 4 Punkt 17UVgO i.V.m. §12 UVgO\nName des beauftragten Unternehmens:Sysgen GmbH, Am Hallacker 48,28327 Bremen\nTitel:GPU Server\n\nGPU Server",
+   "procuringEntity": {
+    "name": "Deutsches Zentrum für Luft- und Raumfahrt e.V."
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000-5"
+     },
+     "deliveryAddress": {
+      "locality": "Wessling",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "GPU-Server",
+     "description": "Vergabestelle: Deutsches Zentrum für Luft- und Raumfahrt e.V., Linder Höhe, 51147 Köln\nVergabeverfahren: § 8 Abs. 4 Punkt 17UVgO i.V.m. §12 UVgO\nName des beauftragten Unternehmens:Sysgen GmbH, Am Hallacker 48,28327 Bremen\nTitel:GPU Server\n\nGPU Server"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25945920",
+  "version": "1",
+  "title": "GPU-Server",
+  "description": "Vergabestelle: Deutsches Zentrum für Luft- und Raumfahrt e.V., Linder Höhe, 51147 Köln\nVergabeverfahren: § 8 Abs. 4 Punkt 17UVgO i.V.m. §12 UVgO\nName des beauftragten Unternehmens:Sysgen GmbH, Am Hallacker 48,28327 Bremen\nTitel:GPU Server\n\nGPU Server",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "72000000-5"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "GPU-Server",
+    "description": "Vergabestelle: Deutsches Zentrum für Luft- und Raumfahrt e.V., Linder Höhe, 51147 Köln\nVergabeverfahren: § 8 Abs. 4 Punkt 17UVgO i.V.m. §12 UVgO\nName des beauftragten Unternehmens:Sysgen GmbH, Am Hallacker 48,28327 Bremen\nTitel:GPU Server\n\nGPU Server",
+    "cpv": [
+     "72000000-5"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

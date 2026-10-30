@@ -151,6 +151,8 @@
   "noticeId": "6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a",
   "version": "07",
   "title": "Helpdesk-Service",
+  "description": "Der Vertragsgegenstand umfasst die Bereitstellung von Serviceleistungen zum Betrieb des Helpdesk beim Auftraggeber am Standort München für die Dauer von 48 Monaten (Grundlaufzeit). Die Leistungen des Helpdesk bestehen im Wesentlichen aus dem 1st-Level Support, der Nutzung und Pflege des Knowledge Managements, dem Auftraggeber-spezifischen Servicecall-Management sowie weiterer Helpdesk-spezifischer Aufgaben aus dem IT-Bereich für über 2.800 Anwender.",
+  "procedureType": "open",
   "nuts": [
    "DE212"
   ],
@@ -163,6 +165,7 @@
    {
     "id": "LOT-0000",
     "title": "Helpdesk-Service",
+    "description": "Der Vertragsgegenstand umfasst die Bereitstellung von Serviceleistungen zum Betrieb des Helpdesk beim Auftraggeber am Standort München für die Dauer von 48 Monaten (Grundlaufzeit). Die Leistungen des Helpdesk bestehen im Wesentlichen aus dem 1st-Level Support, der Nutzung und Pflege des Knowledge Managements, dem Auftraggeber-spezifischen Servicecall-Management sowie weiterer Helpdesk-spezifischer Aufgaben aus dem IT-Bereich für über 2.800 Anwender.",
     "cpv": [
      "72253000",
      "72253100"
@@ -174,6 +177,10 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -189,7 +196,9 @@
       "type": "slc-abil-staff-yrly-avg-mp",
       "description": "Technische und berufliche Leistungsfähigkeit - Gefordert wird eine Eigenerklärung über die durchschnittliche jährliche Beschäftigtenanzahl des Bieters im Tätigkeitsbereich des Auftrages (Betreiben eines Helpdesk) oder vergleichbarer Leistungen (z.B. reiner 1st Level-Support) in den letzten drei Kalenderjahren. Sollte die durchschnittliche Zahl der Beschäftigten, welche im Tätigkeitsbereich des Auftrags tätig gewesen sind, nicht genau ermittelt werden können, ist jeweils eine durchschnittliche Zahl der Beschäftigten anzugeben, die mindestens in dem betreffenden Kalenderjahr in allen der vorgenannten Bereiche tätig gewesen sind. Der Wert ist dann entsprechend zu kennzeichnen.\nDas Eignungskriterium ist erfüllt, wenn der Bieter in den letzten drei Kalenderjahren im Durchschnitt mindestens über 10 Beschäftigte verfügte, die im Tätigkeitsbereich des Auftrages oder für vergleichbare Leistungen eingesetzt wurden.\nDie Eigenerklärung erfolgt durch Angabe auf dem Formblatt „Eigenerklärung & Angebotsschreiben“. Dieses Formblatt muss der Bieter bei der Angebotsabgabe einreichen."
      }
-    ]
+    ],
+    "awardCriteria": [],
+    "guarantee": null
    }
   ]
  }

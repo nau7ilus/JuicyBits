@@ -1,0 +1,1844 @@
+{
+  "note": "13 real OCDS releases (Bavaria, open on 2026-10-30), contact data removed. _eforms holds deadline and value from the eForms export, joined by notice id.",
+  "source": "https://oeffentlichevergabe.de/api/notice-exports?pubDay=YYYY-MM-DD&format=ocds.zip, CC0",
+  "releases": [
+    {
+      "ocid": "ocds-mnwr74-03f2fda2-3378-40a4-893a-c0d974f5542b",
+      "id": "0fd7c030-c974-4644-afea-fb56801f40af",
+      "date": "2026-10-29T03:22:26Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Große Kreisstadt Donauwörth",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "09779131-00000000-60",
+            "legalName": "Große Kreisstadt Donauwörth"
+          },
+          "address": {
+            "streetAddress": "Rathausgasse 1",
+            "locality": "Donauwörth",
+            "region": "DE27D",
+            "postalCode": "86609",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "processContactPoint",
+            "submissionReceiptBody"
+          ]
+        },
+        {
+          "name": "Vergabekammer Südbayern",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "DE 811335517",
+            "legalName": "Vergabekammer Südbayern"
+          },
+          "address": {
+            "streetAddress": "Maximilianstraße 39",
+            "locality": "München",
+            "region": "DE27D",
+            "postalCode": "80538",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Große Kreisstadt Donauwörth",
+        "id": "09779131-00000000-60",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "Große Kreisstadt Donauwörth"
+        },
+        "address": {
+          "streetAddress": "Rathausgasse 1",
+          "locality": "Donauwörth",
+          "region": "DE27D",
+          "postalCode": "86609",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "03f2fda2-3378-40a4-893a-c0d974f5542b",
+        "title": "Neubau Kindergarten Schneegarten Donauwörth, Heizung",
+        "description": "Bei dem Bauvorhaben handelt es sich um einen Neubau einer Kita in 86609 Donauwörth. Die Kita besteht aus vier Ge\nschossen und wird Hybridbauweise erstellt. Der Keller wird für die Technikbereiche und Personalräume genutzt. Das\nErdgeschoss beinhaltet hauptsächlich Gemeinschaftsräume und eine Küche. Im 1. und 2. Obergeschoss werden die\nGruppenräume entstehen. Das 2. Obergeschoss besitzt ein Satteldach mit geringer Dachneigung, der nicht überbaute\nTeil des 1. Obergeschosses ist ein überdachte Dachterrasse mit Barfußpfad.\nDas Gebäude wird nach Fertigstellung folgende Räume enthalten:\n7x Kindergartengruppe + Nebenräume + Sanitärräume\n3x Krippengruppe + Schlafräume + Sanitärräume\nMehrzweckraum und Essensraum\nBüros, Aufenthaltsraum Personal, WCs, Lager-/Putz-/Hauswirtschaftsräume, eine Küche sowie Flure.",
+        "procuringEntity": {
+          "name": "Große Kreisstadt Donauwörth",
+          "id": "09779131-00000000-60"
+        },
+        "items": [
+          {
+            "id": "LOT-0001",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45331100",
+              "description": "Central-heating installation work"
+            },
+            "deliveryAddress": {
+              "locality": "Donauwörth",
+              "region": "DE27D",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0001"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "works",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.dtvp.de/Satellite/notice/CXVHY4RDYH0LGQT6/documents",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0001"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0001",
+            "title": "Neubau Kindergarten Schneegarten Donauwörth, Heizung",
+            "description": "Heizung",
+            "contractPeriod": {
+              "startDate": "2027-07-01T00:00:00+02:00",
+              "endDate": "2028-05-21T00:00:00+02:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-30T10:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-bceb352c-b160-4566-a429-85d62baad8cf",
+      "id": "10cd8262-c44c-4505-82b7-39db65ceaea1",
+      "date": "2026-10-29T03:20:10Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Schulverband Thannhausen",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "entfällt",
+            "legalName": "Schulverband Thannhausen"
+          },
+          "address": {
+            "streetAddress": "Edmund-Zimmermann-Straße 3",
+            "locality": "Thannhausen",
+            "region": "DE278",
+            "postalCode": "86470",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "submissionReceiptBody"
+          ]
+        },
+        {
+          "name": "Vergabekammer Südbayern",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "09-0318006-60",
+            "legalName": "Vergabekammer Südbayern"
+          },
+          "address": {
+            "streetAddress": "Maximilianstraße 39",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80438",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewContactPoint",
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Schulverband Thannhausen",
+        "id": "entfällt",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "Schulverband Thannhausen"
+        },
+        "address": {
+          "streetAddress": "Edmund-Zimmermann-Straße 3",
+          "locality": "Thannhausen",
+          "region": "DE278",
+          "postalCode": "86470",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "bceb352c-b160-4566-a429-85d62baad8cf",
+        "title": "Fliesenarbeiten",
+        "description": "- Liefern und Montieren von ca. 925m² Bodenfliesen inkl. Vorab-Reinigung im Format\n60x60 als Feinsteinzeug\n- Liefern und Montieren von ca. 755m² Wandfliesen inkl. Vorab-Reinigung im Format\n6,2cm x 25cm, montiert mit Kreuzfuge\n- Liefern und Montieren von Tritt- und Setzstufen aus Feinsteinzeug auf\nca. 50 Treppenstufen inkl. Ausgleichsspachtelung\n- 750lfdm. Verfugungsarbeiten",
+        "procuringEntity": {
+          "name": "Schulverband Thannhausen",
+          "id": "entfällt"
+        },
+        "items": [
+          {
+            "id": "LOT-0001",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45431000",
+              "description": "Tiling work"
+            },
+            "additionalClassifications": [
+              {
+                "scheme": "CPV",
+                "id": "45421144",
+                "description": "Installation work of awnings"
+              }
+            ],
+            "deliveryAddress": {
+              "locality": "Thannhausen",
+              "region": "DE278",
+              "postalCode": "86470",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0001"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "works",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://plattform.aumass.de/Veroeffentlichung/av28f151-eu",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0001"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0001",
+            "title": "Fliesenarbeiten",
+            "description": "- Liefern und Montieren von ca. 925m² Bodenfliesen inkl. Vorab-Reinigung im Format\n60x60 als Feinsteinzeug\n- Liefern und Montieren von ca. 755m² Wandfliesen inkl. Vorab-Reinigung im Format\n6,2cm x 25cm, montiert mit Kreuzfuge\n- Liefern und Montieren von Tritt- und Setzstufen aus Feinsteinzeug auf\nca. 50 Treppenstufen inkl. Ausgleichsspachtelung\n- 750lfdm. Verfugungsarbeiten",
+            "contractPeriod": {
+              "startDate": "2027-09-06T00:00:00+02:00",
+              "endDate": "2027-11-05T00:00:00+01:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-30T09:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-3be9561b-3199-4b7d-8029-817679cbdc2c",
+      "id": "144cb0f8-0fc0-43ee-8c58-1c72a17d7de6",
+      "date": "2026-10-29T03:26:09Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "fb197f94-7578-4673-8a57-4642ae120532",
+            "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+          },
+          "address": {
+            "streetAddress": "Adam-Riese-Straße 11-13",
+            "locality": "Frankfurt Main",
+            "region": "DE712",
+            "postalCode": "60327",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "processContactPoint"
+          ]
+        },
+        {
+          "name": "Vergabekammer des Bundes",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+            "legalName": "Vergabekammer des Bundes"
+          },
+          "address": {
+            "streetAddress": "Kaiser-Friedrich-Straße 16",
+            "locality": "Bonn",
+            "region": "DEA22",
+            "postalCode": "53113",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewContactPoint",
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+        "id": "fb197f94-7578-4673-8a57-4642ae120532",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+        },
+        "address": {
+          "streetAddress": "Adam-Riese-Straße 11-13",
+          "locality": "Frankfurt Main",
+          "region": "DE712",
+          "postalCode": "60327",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "3be9561b-3199-4b7d-8029-817679cbdc2c",
+        "title": "GMT 2027 Paket 8 - 3 Lose Region Südwest u. Süd",
+        "description": "GMT 2027 Paket 8\n1 Los der Region SW + 2 Lose der Region Süd\n\nLos 1 - Region Südwest\n- Str. 4250 Offenburg - Singen (Hohentwiel)\n- Str. 4650 Rottweil   - Villingen (Schwarzw)\nGE Bf. St Georgen, Gl. 303\nGE/PSS Bf Villingen, Gl. 2, 5, 7b, 11\nGE/PSS St. Georgen - Villingen\nBR/PSS Schwenningen - Villingen\nErneuerung DL Str. 4250 km 85,173\n- ca. 2.550 m Gleiserneuerung konventionell\n- ca. 2.550 m vollst. Bettungserneuerung konventionell\n- ca. 430 m PLV konventionell\n- ca. 3.200 m Gleiserneuerung maschinell\n- ca. 3.900 m Bettungsreinigung maschinell\n- ca. 2.750 m PLV maschinell\n- ca. 1.500 m Erstellung Bahngraben\n- ca. 830 m Erstellung Tiefenentwässerung\n- ca. 2.200 m TE spülen\n- Neubau von 2 Prellböcken\n- Erneuerung von 3 Bahnübergängen\nincl. Zusammenhangsarbeiten, Logistik, Baustelleneinrichtung, Sicherungs- und bauaffine Dienstleistungen\n*\nLos 2 - Region Süd\n- Str. 5300 Augsburg - Nördlingen\nGE Gablingen-Meitingen\nkm 11,797 - km 19,917\nca. 7.200 m Gleiserneuerung maschinell\nca. 7.200 m Bettungsreinigung maschinell\nca. 770 m Gleiserneuerung konventionell\nca. 770 m vollständige Bettungserneuerung konventionell\nca. 420 m Planumsschutzschicht konventionell\nca. 6.700 m Randwegerstellung\nErstellung Prellbock\nIncl. Sicherungs- und bauaffine Dienstleistungen, Zusammenhangsarbeiten, Logistik\n*\nLos 3 - Region Süd\n- Str. 5560 FFB Steinw. - Mü-Waldtrudering\nGE München Nord Rbf - Bf München-Freimann\nkm 18,723 - km 20,022\nkm 21,172 - km 23,498\nGE Bf München-Freimann - München Nord Rbf\nkm 23,530 - km 21,727\nkm 19,822 - km 18,862\n*\nca. 6.500 m Gleiserneuerung maschinell\nca. 6.100 m Bettungsreinigung maschinell\nca. 365 m vollst. Bettungserneuerung maschinell\nca. 410 m Gleiserneuerung konventionell\nca. 410 m vollst.  Bettungserneuerung konventionell\n2 St. Weichenrückbau + Lückenschluss\nca. 6.800 m Randwegerstellung\nincl. Sicherungs- und bauaffine Dienstleistungen, Logistik und\nZusammenhangsarbeiten\n\n\n\n\n\n",
+        "procuringEntity": {
+          "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+          "id": "fb197f94-7578-4673-8a57-4642ae120532"
+        },
+        "items": [
+          {
+            "id": "LOT-0001",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45234116",
+              "description": "Track construction works"
+            },
+            "deliveryAddress": {
+              "locality": "Villingen",
+              "region": "DE136",
+              "postalCode": "78048",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0001"
+          },
+          {
+            "id": "LOT-0002",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45234116",
+              "description": "Track construction works"
+            },
+            "deliveryAddress": {
+              "locality": "Gablingen",
+              "region": "DE276",
+              "postalCode": "86456",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0002"
+          },
+          {
+            "id": "LOT-0003",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45234116",
+              "description": "Track construction works"
+            },
+            "deliveryAddress": {
+              "locality": "München-Freimann",
+              "region": "DE212",
+              "postalCode": "80939",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0003"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "works",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/6d08a98f-4adc-4f24-b09a-815127d4d3f4",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0001"
+            ]
+          },
+          {
+            "id": "DOC-0002",
+            "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/6d08a98f-4adc-4f24-b09a-815127d4d3f4",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0002"
+            ]
+          },
+          {
+            "id": "DOC-0003",
+            "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/6d08a98f-4adc-4f24-b09a-815127d4d3f4",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0003"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0001",
+            "title": "Los 1 Str. 4250 / 4650 GE/BR/PSS Schwenningen - Villingen",
+            "description": "Los 1 \nStr. 4250 Offenburg - Singen (Hohentwiel)\nStr. 4650 Rottweil   - Villingen (Schwarzw)\nStr. 4250 / 4650 GE/BR/PSS Schwenningen - Villingen\nGE Bf. St Georgen, Gl. 303\nGE/PSS Bf Villingen, Gl. 2, 5, 7b, 11\nGE/PSS St. Georgen - Villingen\nBR/PSS Schwenningen - Villingen\nErneuerung DL Str. 4250 km 85,173\n- ca. 2.550 m Gleiserneuerung konventionell\n- ca. 2.550 m vollst. Bettungserneuerung konventionell\n- ca. 430 m PLV konventionell\n- ca. 3.200 m Gleiserneuerung maschinell\n- ca. 3.900 m Bettungsreinigung maschinell\n- ca. 2.750 m PLV maschinell\n- ca. 1.500 m Erstellung Bahngraben\n- ca. 830 m Erstellung Tiefenentwässerung\n- ca. 2.200 m TE spülen\n- Neubau von 2 Prellböcken\n- Erneuerung von 3 Bahnübergängen\nincl. Zusammenhangsarbeiten, Logistik, Baustelleneinrichtung, Sicherungs- und bauaffine Dienstleistungen\n//\ngem. Bauvertrag: \nBeginn der Ausführung auf der Baustelle: 03.05.2027 \nFertigstellung der vertraglichen Leistung: 31.07.2028\n//\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem\nPräqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein.\nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und\nzum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen\nVertragsbedingungen zu entnehmen.\ngeforderte Präqualifikationen - Los 1:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h\nWeichen - Strecken II; Mischverkehr 121 - 160 km/h\nSicherungsleistungen: Verzeichnis III\n\n\n\n",
+            "contractPeriod": {
+              "startDate": "2027-03-22T00:00:00+01:00",
+              "endDate": "2028-07-31T00:00:00+02:00"
+            }
+          },
+          {
+            "id": "LOT-0002",
+            "title": "Los 2 Str. 5300 GE/PSS Gablingen - Meitingen",
+            "description": "Str. 5300 Augsburg - Nördlingen\nGE/PSS Gablingen-Meitingen\nkm 11,797 - km 19,917\nca. 7.200 m Gleiserneuerung maschinell\nca. 7.200 m Bettungsreinigung maschinell\nca. 770 m Gleiserneuerung konventionell\nca. 770 m vollständige Bettungserneuerung konventionell\nca. 420 m Planumsschutzschicht konventionell\nca. 6.700 m Randwegerstellung\nErstellung Prellbock\nIncl. Sicherungs- und bauaffine Dienstleistungen, Zusammenhangsarbeiten, Logistik\n//\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 12.07.2027\nFertigstellung der vertraglichen Leistung: 31.01.2028\n//\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem\nPräqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein.\nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und\nzum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen\nVertragsbedingungen zu entnehmen.\ngeforderte Präqualifikationen - Los 2:\nOberbau konventionell-Schotter:\nGleise, Strecken I; HGV / Schnellverkehr > 160 km/h\nSicherungsleistungen: Verzeichnis II",
+            "contractPeriod": {
+              "startDate": "2027-03-22T00:00:00+01:00",
+              "endDate": "2028-07-31T00:00:00+02:00"
+            }
+          },
+          {
+            "id": "LOT-0003",
+            "title": "Los 3 Str. 5560 GE/BR Rbf München Nord - Bf München-Freimann",
+            "description": "Str. 5560 FFB Steinw. - Mü-Waldtrudering\nGE/BR Rbf München Nord - Bf München-Freimann\nkm 18,723 - km 20,022\nkm 21,172 - km 23,498\nGE Bf München-Freimann - München Nord Rbf\nkm 23,530 - km 21,727\nkm 19,822 - km 18,862\nca. 6.500 m Gleiserneuerung maschinell\nca. 6.100 m Bettungsreinigung maschinell\nca. 365 m vollst. Bettungserneuerung maschinell\nca. 410 m Gleiserneuerung konventionell\nca. 410 m vollst.  Bettungserneuerung konventionell\n2 St. Weichenrückbau + Lückenschluss\nca. 6.800 m Randwegerstellung\nincl. Sicherungs- und bauaffine Dienstleistungen, Logistik und\nZusammenhangsarbeiten\n//\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 11.07.2027\nFertigstellung der vertraglichen Leistung: 01.08.2027\n//\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem\nPräqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein.\nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und\nzum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen\nVertragsbedingungen zu entnehmen.\ngeforderte Präqualifikationen - Los 3:\nOberbau konventionell-Schotter:\nGleise, Strecken III; Regionalverkehr 50 - 120 km/h\nSicherungsleistungen: Verzeichnis II\n\n",
+            "contractPeriod": {
+              "startDate": "2027-03-22T00:00:00+01:00",
+              "endDate": "2028-07-31T00:00:00+02:00"
+            }
+          }
+        ],
+        "lotDetails": {
+          "maximumLotsBidPerSupplier": 3,
+          "maximumLotsAwardedPerSupplier": 3
+        }
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-12-16T11:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-28f755a5-1710-405f-9dbb-039c6cc8fbcc",
+      "id": "17341227-5891-4451-880e-2edfea94e120",
+      "date": "2026-10-29T03:22:25Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Schulverband Margetshöchheim",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "09679715-SV0000001-51",
+            "legalName": "Schulverband Margetshöchheim"
+          },
+          "address": {
+            "streetAddress": "Mainstraße 15",
+            "locality": "Margetshöchheim",
+            "region": "DE26C",
+            "postalCode": "97276",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer"
+          ]
+        },
+        {
+          "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "09-0358002-61",
+            "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+          },
+          "address": {
+            "streetAddress": "Promenade 27",
+            "locality": "Ansbach",
+            "region": "DE251",
+            "postalCode": "91522",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewBody"
+          ]
+        },
+        {
+          "name": "VOB-Stelle Regierung von Unterfranken",
+          "id": "ORG-0003",
+          "identifier": {
+            "id": "Kein Angabe",
+            "legalName": "VOB-Stelle Regierung von Unterfranken"
+          },
+          "address": {
+            "streetAddress": "Peterplatz 9",
+            "locality": "Würzburg",
+            "region": "DE263",
+            "postalCode": "97070",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "mediationBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Schulverband Margetshöchheim",
+        "id": "09679715-SV0000001-51",
+        "identifier": {
+          "id": "ORG-0000",
+          "legalName": "Schulverband Margetshöchheim"
+        },
+        "address": {
+          "streetAddress": "Mainstraße 15",
+          "locality": "Margetshöchheim",
+          "region": "DE26C",
+          "postalCode": "97276",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "28f755a5-1710-405f-9dbb-039c6cc8fbcc",
+        "title": "164 Schreinerarbeiten Einbaumöbel 4.BA",
+        "description": "Schreinerarbeiten - Einbaumöbel für den 4. Bauabschnitt im Zuge der Generalsanierung der Grund- und Mittelschule Margetshöchheim, incl. Turnhalle",
+        "procuringEntity": {
+          "name": "Schulverband Margetshöchheim",
+          "id": "09679715-SV0000001-51"
+        },
+        "items": [
+          {
+            "id": "LOT-0000",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45421153",
+              "description": "Installation of built-in furniture"
+            },
+            "additionalClassifications": [
+              {
+                "scheme": "CPV",
+                "id": "45214200",
+                "description": "Construction work for school buildings"
+              },
+              {
+                "scheme": "CPV",
+                "id": "45421000",
+                "description": "Joinery work"
+              },
+              {
+                "scheme": "CPV",
+                "id": "45420000",
+                "description": "Joinery and carpentry installation work"
+              }
+            ],
+            "deliveryAddress": {
+              "streetAddress": "Friedenstraße 1",
+              "locality": "Margetshöchheim",
+              "region": "DE26C",
+              "postalCode": "97276",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0000"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "works",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331427",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0000"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0000",
+            "title": "164 Schreinerarbeiten Einbaumöbel 4.BA",
+            "description": "ca. 9 Stück Einbauschränke  --  ca. 7 Stück Waschtischrückwände",
+            "contractPeriod": {
+              "startDate": "2027-02-01T00:00:00+01:00",
+              "endDate": "2027-05-22T00:00:00+02:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-12-08T09:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-21aeac78-4cbc-4e30-88da-41d4af6db099",
+      "id": "1b4b563a-a3f6-4aaa-947c-69a50f7e9565",
+      "date": "2026-10-29T03:22:25Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "DE129521719",
+            "legalName": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH"
+          },
+          "address": {
+            "streetAddress": "Bavariafilmplatz 3",
+            "locality": "Grünwald",
+            "region": "DE21H",
+            "postalCode": "82031",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "processContactPoint",
+            "submissionReceiptBody"
+          ]
+        },
+        {
+          "name": "Vergabekammer Südbayern",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "09-0318006-60",
+            "legalName": "Vergabekammer Südbayern"
+          },
+          "address": {
+            "streetAddress": "Maximilianstraße 39",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80538",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH",
+        "id": "DE129521719",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH"
+        },
+        "address": {
+          "streetAddress": "Bavariafilmplatz 3",
+          "locality": "Grünwald",
+          "region": "DE21H",
+          "postalCode": "82031",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "21aeac78-4cbc-4e30-88da-41d4af6db099",
+        "title": "Weiterentwicklung AIS.chat",
+        "description": "Der Auftragnehmer soll die bestehende Softwarelösung AIS.chat auf Basis eines Dienstleistungsvertrags bis Ende 2028 weiterentwickeln, betreiben und pflegen. Die Plattform ermöglicht Lehrkräften sowie Schülerinnen und Schülern die datenschutzkonforme Nutzung generativer KI-Modelle.",
+        "procuringEntity": {
+          "name": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH",
+          "id": "DE129521719"
+        },
+        "items": [
+          {
+            "id": "LOT-0001",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72200000",
+              "description": "Software programming and consultancy services"
+            },
+            "deliveryAddress": {
+              "streetAddress": "Bavariafilmplatz 3",
+              "locality": "Grünwald",
+              "region": "DE21H",
+              "postalCode": "82031",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0001"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "services",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.dtvp.de/Satellite/notice/CXP4YTSM1ZU/documents",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0001"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0001",
+            "title": "Weiterentwicklung AIS.chat",
+            "description": "Im Wege der Gesamtvergabe ist eine Teamzusammensetzung mit namentlich benannten Mitarbeitern anzubieten:   5 VZÄ Fullstack-Software-EntwicklerInnen; wahlweise auf fünf oder sechs Personen aufgeteilt:   zwei EntwicklerInnen mit dem Schwerpunkt DevOps;   drei, optional vier EntwicklerInnen mit dem Schwerpunkt KI & Bildung;   0,5 VZÄ UX/UI-DesignerIn für Softwareentwicklung und Betrieb.   Die Position der Product-Ownerin wird vom AG besetzt.   Weitere Informationen können Sie insbesondere der Anlage 1 - Anforderungsbeschreibung_Weiterentwicklung-AIS.chat entnehmen.",
+            "contractPeriod": {
+              "startDate": "2027-01-04T00:00:00+01:00",
+              "endDate": "2028-12-31T00:00:00+01:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-30T23:59:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-b7a5ee62-8eb1-42ec-b862-133b3cd4a924",
+      "id": "1bee3ca7-8dd7-41a7-b6c6-fbc354fceabd",
+      "date": "2026-10-29T03:22:09Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Gemeinde Fridolfing",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "09189118-100005375-38",
+            "legalName": "Gemeinde Fridolfing"
+          },
+          "address": {
+            "streetAddress": "Hadrianstraße 28",
+            "locality": "Fridolfing",
+            "region": "DE21M",
+            "postalCode": "83413",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "reviewContactPoint"
+          ]
+        },
+        {
+          "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "t:08921762411",
+            "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+          },
+          "address": {
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80534",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Gemeinde Fridolfing",
+        "id": "09189118-100005375-38",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "Gemeinde Fridolfing"
+        },
+        "address": {
+          "streetAddress": "Hadrianstraße 28",
+          "locality": "Fridolfing",
+          "region": "DE21M",
+          "postalCode": "83413",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "b7a5ee62-8eb1-42ec-b862-133b3cd4a924",
+        "title": "Innentüren",
+        "description": "21 Stk Holzinnentüren mit Holzumfassungszargen\n30 Holzrahmenelemente Fichte\nInkl. verschiedenen Obentürschließer",
+        "procuringEntity": {
+          "name": "Gemeinde Fridolfing",
+          "id": "09189118-100005375-38"
+        },
+        "items": [
+          {
+            "id": "LOT-0000",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45421130",
+              "description": "Installation of doors and windows"
+            },
+            "deliveryAddress": {
+              "locality": "Fridolfing",
+              "region": "DE21M",
+              "postalCode": "83413",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0000"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "works",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305025",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0000"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0000",
+            "title": "Innentüren",
+            "description": "21 Stk Holzinnentüren mit Holzumfassungszargen\n30 Holzrahmenelemente Fichte\nInkl. verschiedenen Obentürschließer",
+            "contractPeriod": {
+              "startDate": "2027-08-18T00:00:00+02:00",
+              "endDate": "2027-09-13T00:00:00+02:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-27T10:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-3a2c90dc-7237-4b9b-978d-ca1f589928ee",
+      "id": "21ecf27b-f5e6-4798-92c8-5cf740f6044c",
+      "date": "2026-10-29T03:22:30Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "AVA Abfallverwertung Augsburg Kommunalunternehmen",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "Berichtseinheit-ID 00009000",
+            "legalName": "AVA Abfallverwertung Augsburg Kommunalunternehmen"
+          },
+          "address": {
+            "streetAddress": "Am Mittleren Moos 60",
+            "locality": "Augsburg",
+            "region": "DE271",
+            "postalCode": "86167",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer"
+          ]
+        },
+        {
+          "name": "Vergabekammer Südbayern",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "DE811335517",
+            "legalName": "Vergabekammer Südbayern"
+          },
+          "address": {
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80534",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewContactPoint",
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "AVA Abfallverwertung Augsburg Kommunalunternehmen",
+        "id": "Berichtseinheit-ID 00009000",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "AVA Abfallverwertung Augsburg Kommunalunternehmen"
+        },
+        "address": {
+          "streetAddress": "Am Mittleren Moos 60",
+          "locality": "Augsburg",
+          "region": "DE271",
+          "postalCode": "86167",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "3a2c90dc-7237-4b9b-978d-ca1f589928ee",
+        "title": "Gebäudereinigung",
+        "description": "Unterhaltsreinigung , Industriegebäude ,Glasreinigung , Industrieanlagenreinigung , Service Schmutzfangmatten für die Abfallverwertung Augsburg",
+        "procuringEntity": {
+          "name": "AVA Abfallverwertung Augsburg Kommunalunternehmen",
+          "id": "Berichtseinheit-ID 00009000"
+        },
+        "items": [
+          {
+            "id": "LOT-0001",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90911200",
+              "description": "Building-cleaning services"
+            },
+            "deliveryAddress": {
+              "region": "DE271",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0001"
+          },
+          {
+            "id": "LOT-0002",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90911200",
+              "description": "Building-cleaning services"
+            },
+            "deliveryAddress": {
+              "region": "DE271",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0002"
+          },
+          {
+            "id": "LOT-0003",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90911300",
+              "description": "Window-cleaning services"
+            },
+            "deliveryAddress": {
+              "region": "DE271",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0003"
+          },
+          {
+            "id": "LOT-0004",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90911200",
+              "description": "Building-cleaning services"
+            },
+            "deliveryAddress": {
+              "region": "DE271",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0004"
+          },
+          {
+            "id": "LOT-0005",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98312000",
+              "description": "Textile-cleaning services"
+            },
+            "deliveryAddress": {
+              "region": "DE271",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0005"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "services",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.subreport.de/E31634954",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0001"
+            ]
+          },
+          {
+            "id": "DOC-0002",
+            "url": "https://www.subreport.de/E31634954",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0002"
+            ]
+          },
+          {
+            "id": "DOC-0003",
+            "url": "https://www.subreport.de/E31634954",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0003"
+            ]
+          },
+          {
+            "id": "DOC-0004",
+            "url": "https://www.subreport.de/E31634954",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0004"
+            ]
+          },
+          {
+            "id": "DOC-0005",
+            "url": "https://www.subreport.de/E31634954",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0005"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0001",
+            "title": "Unterhaltsreinigung",
+            "description": "Unterhaltsreinigung Verwaltungsgebäude"
+          },
+          {
+            "id": "LOT-0002",
+            "title": "Unterhaltsreinigung",
+            "description": "Unterhaltsreinigung Industriegebäude"
+          },
+          {
+            "id": "LOT-0003",
+            "title": "Glasreinigung",
+            "description": "Glasreinigung"
+          },
+          {
+            "id": "LOT-0004",
+            "title": "Industrieanlagenreinigung",
+            "description": "Industrieanlagenreinigung"
+          },
+          {
+            "id": "LOT-0005",
+            "title": "Schmutzfangmattenservice",
+            "description": "Schmutzfangmattenservice"
+          }
+        ],
+        "lotDetails": {
+          "maximumLotsBidPerSupplier": 5
+        }
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-02T12:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-b5dbd632-9e1a-4351-81ce-36e2ed4a2be0",
+      "id": "2300b9e7-9ace-4922-bd4b-4c73c130a56a",
+      "date": "2026-10-29T03:22:11Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "t:09113507199",
+            "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+          },
+          "address": {
+            "streetAddress": "Bohlenplatz 18",
+            "locality": "Erlangen",
+            "region": "DE252",
+            "postalCode": "91054",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "processContactPoint",
+            "reviewContactPoint",
+            "evaluationBody",
+            "submissionReceiptBody"
+          ]
+        },
+        {
+          "name": "Vergabekammer",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "09-0358002-61",
+            "legalName": "Vergabekammer"
+          },
+          "address": {
+            "streetAddress": "Promenade 27",
+            "locality": "Ansbach",
+            "region": "DE251",
+            "postalCode": "91522",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewBody"
+          ]
+        },
+        {
+          "name": "Staatliches Bauamt Erlangen-Nürnberg",
+          "id": "ORG-0003",
+          "identifier": {
+            "id": "09-0995209-19",
+            "legalName": "Staatliches Bauamt Erlangen-Nürnberg"
+          },
+          "address": {
+            "streetAddress": "Bohlenplatz 18",
+            "locality": "Erlangen",
+            "region": "DE252",
+            "postalCode": "91054",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "procurementServiceProvider"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+        "id": "t:09113507199",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+        },
+        "address": {
+          "streetAddress": "Bohlenplatz 18",
+          "locality": "Erlangen",
+          "region": "DE252",
+          "postalCode": "91054",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "b5dbd632-9e1a-4351-81ce-36e2ed4a2be0",
+        "title": "Stahlbauarbeiten",
+        "description": "Anzubieten sind die Stahl- und Metallbauarbeiten für 2 nebeneinanderliegende Gebäude.\nDiese beinhalten unter anderem:\n- ca. 170 m² Gitterrostebenen in Technikschächten\n- ca. 500 m Stahl- und Glasgeländer mit Handläufen\n- 3 St. Vordächer als bekleidete Stahlkonstruktionen\n- 76 St. Stahlblechtüren\n- 3 St. Stahltreppenanlagen\n- 1 St. Tribünenkonstruktion aus Stahl in einem Vortragssaal",
+        "procuringEntity": {
+          "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+          "id": "t:09113507199"
+        },
+        "items": [
+          {
+            "id": "LOT-0000",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45262670",
+              "description": "Metalworking"
+            },
+            "deliveryAddress": {
+              "locality": "Nürnberg",
+              "region": "DE254",
+              "postalCode": "90461",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0000"
+          }
+        ],
+        "value": {
+          "amount": 1143141.18,
+          "currency": "EUR"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "works",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302475",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0000"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0000",
+            "title": "Stahlbauarbeiten",
+            "description": "Anzubieten sind die Stahl- und Metallbauarbeiten für 2 nebeneinanderliegende Gebäude.\nDiese beinhalten unter anderem:\n- ca. 170 m² Gitterrostebenen in Technikschächten\n- ca. 500 m Stahl- und Glasgeländer mit Handläufen\n- 3 St. Vordächer als bekleidete Stahlkonstruktionen\n- 76 St. Stahlblechtüren\n- 3 St. Stahltreppenanlagen\n- 1 St. Tribünenkonstruktion aus Stahl in einem Vortragssaal",
+            "value": {
+              "amount": 1143141.18,
+              "currency": "EUR"
+            },
+            "contractPeriod": {
+              "startDate": "2027-02-04T00:00:00+01:00",
+              "endDate": "2028-10-27T00:00:00+02:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-12-01T09:06:00+01:00",
+        "estimatedValueEur": 1143141.18
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-80fd6119-22b8-489f-a860-8b9ea1d79064",
+      "id": "6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a",
+      "date": "2026-10-29T03:20:13Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "9910308320",
+            "legalName": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes"
+          },
+          "address": {
+            "streetAddress": "Zweibrückenstraße 12",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80331",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "processContactPoint"
+          ]
+        },
+        {
+          "name": "Vergabekammer des Bundes beim Kartellamt",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "022894990",
+            "legalName": "Vergabekammer des Bundes beim Kartellamt"
+          },
+          "address": {
+            "locality": "Bonn",
+            "region": "DEA22",
+            "postalCode": "53123",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewContactPoint",
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes",
+        "id": "9910308320",
+        "identifier": {
+          "id": "ORG-0000",
+          "legalName": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes"
+        },
+        "address": {
+          "streetAddress": "Zweibrückenstraße 12",
+          "locality": "München",
+          "region": "DE212",
+          "postalCode": "80331",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "80fd6119-22b8-489f-a860-8b9ea1d79064",
+        "title": "Helpdesk-Service",
+        "description": "Der Vertragsgegenstand umfasst die Bereitstellung von Serviceleistungen zum Betrieb des Helpdesk beim Auftraggeber am Standort München für die Dauer von 48 Monaten (Grundlaufzeit). Die Leistungen des Helpdesk bestehen im Wesentlichen aus dem 1st-Level Support, der Nutzung und Pflege des Knowledge Managements, dem Auftraggeber-spezifischen Servicecall-Management sowie weiterer Helpdesk-spezifischer Aufgaben aus dem IT-Bereich für über 2.800 Anwender.",
+        "procuringEntity": {
+          "name": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes",
+          "id": "9910308320"
+        },
+        "items": [
+          {
+            "id": "LOT-0000",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72253000",
+              "description": "Helpdesk and support services"
+            },
+            "additionalClassifications": [
+              {
+                "scheme": "CPV",
+                "id": "72253100",
+                "description": "Helpdesk services"
+              }
+            ],
+            "deliveryAddress": {
+              "locality": "München",
+              "region": "DE212",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0000"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "services",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.evergabe-online.de/tenderdetails.html?id=884939",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0000"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0000",
+            "title": "Helpdesk-Service",
+            "description": "Der Vertragsgegenstand umfasst die Bereitstellung von Serviceleistungen zum Betrieb des Helpdesk beim Auftraggeber am Standort München für die Dauer von 48 Monaten (Grundlaufzeit). Die Leistungen des Helpdesk bestehen im Wesentlichen aus dem 1st-Level Support, der Nutzung und Pflege des Knowledge Managements, dem Auftraggeber-spezifischen Servicecall-Management sowie weiterer Helpdesk-spezifischer Aufgaben aus dem IT-Bereich für über 2.800 Anwender.",
+            "contractPeriod": {
+              "durationInDays": 1440
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-30T09:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-3cc60a1f-9842-47a8-9301-18abd444fa06",
+      "id": "8cf6c749-cfbd-4550-8015-c96f7bb799c2",
+      "date": "2026-10-29T03:26:08Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+            "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+          },
+          "address": {
+            "streetAddress": "Sophienstraße 6",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80333",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer"
+          ]
+        },
+        {
+          "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+            "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+          },
+          "address": {
+            "streetAddress": "Maximilianstr. 39",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80539",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewContactPoint",
+            "reviewBody"
+          ]
+        },
+        {
+          "name": "Bayerisches Landesamt für Steuern",
+          "id": "ORG-0003",
+          "identifier": {
+            "id": "955f3ee5-ba27-4dcc-9164-0b25df5b3370",
+            "legalName": "Bayerisches Landesamt für Steuern"
+          },
+          "address": {
+            "streetAddress": "Sophienstr. 6",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80333",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "processContactPoint"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+        "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+        },
+        "address": {
+          "streetAddress": "Sophienstraße 6",
+          "locality": "München",
+          "region": "DE212",
+          "postalCode": "80333",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "3cc60a1f-9842-47a8-9301-18abd444fa06",
+        "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+        "description": "Das IT-Dienstleistungszentrum (IT-DLZ) im Landesamt für Digitalisierung, Breitband und Vermessung ist der zentrale IT-Dienstleister für die öffentliche Verwaltung in Bayern. \nZiel der Ausschreibung ist eine Dienstleistungsunterstützung im Umfang von 100 PT innerhalb eines Jahres mit dreimaliger Verlängerungsoption um jeweils 100 PT/Jahr (1+1+1+1). \n\n",
+        "procuringEntity": {
+          "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+          "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120"
+        },
+        "items": [
+          {
+            "id": "LOT-0001",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72000000",
+              "description": "IT services: consulting, software development, Internet and support"
+            },
+            "deliveryAddress": {
+              "locality": "München ",
+              "region": "DE212",
+              "postalCode": "81541",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0001"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "services",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/22a1df15-bd33-44f4-a2ee-8df1fcea6406",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0001"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0001",
+            "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+            "description": "Das IT-Dienstleistungszentrum (IT-DLZ) im Landesamt für Digitalisierung, Breitband und Vermessung ist der zentrale IT-Dienstleister für die öffentliche Verwaltung in Bayern. \nZiel der Ausschreibung ist eine Dienstleistungsunterstützung im Umfang von 100 PT innerhalb eines Jahres mit dreimaliger Verlängerungsoption um jeweils 100 PT/Jahr (1+1+1+1). \n\n",
+            "contractPeriod": {
+              "durationInDays": 365
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-16T11:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-87bcba4d-ce07-4805-a93d-9dbd29219eac",
+      "id": "a686b99c-d0ba-4e9e-9394-91b61c42bd2f",
+      "date": "2026-10-29T03:22:39Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Landeshauptstadt München, Baureferat",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "09162000-ZRE1000000-09",
+            "legalName": "Landeshauptstadt München, Baureferat"
+          },
+          "address": {
+            "streetAddress": "Friedensstraße 40",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "81671",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "processContactPoint",
+            "evaluationBody",
+            "submissionReceiptBody"
+          ]
+        },
+        {
+          "name": "Vergabekammer Südbayern",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "09-0358002-61",
+            "legalName": "Vergabekammer Südbayern"
+          },
+          "address": {
+            "streetAddress": "Maximilianstraße 39",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80538",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Landeshauptstadt München, Baureferat",
+        "id": "09162000-ZRE1000000-09",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "Landeshauptstadt München, Baureferat"
+        },
+        "address": {
+          "streetAddress": "Friedensstraße 40",
+          "locality": "München",
+          "region": "DE212",
+          "postalCode": "81671",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "87bcba4d-ce07-4805-a93d-9dbd29219eac",
+        "title": "Objektplanung",
+        "description": "Objektplanungsleistung gem. § 34 HOAI, LPH 1 - 9, Instandsetzung der denkmalgeschützten Fenster und der Fassade in der Grundschule Flurstraße und der Adalbert-Stifter-Realschule in der Flurstraße 4, 81675 München,  Stadtbezirk 5 Haidhausen. Die Sanierung erfolgt im laufenden Schulbetrieb. Die Bauabläufe sind zu koordinieren. Abstimmung des Instandsetzungskonzepts und der Planung mit der unteren Denkmalschutzbehörde.",
+        "procuringEntity": {
+          "name": "Landeshauptstadt München, Baureferat",
+          "id": "09162000-ZRE1000000-09"
+        },
+        "items": [
+          {
+            "id": "LOT-0000",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71240000",
+              "description": "Architectural, engineering and planning services"
+            },
+            "deliveryAddress": {
+              "locality": "München",
+              "region": "DE212",
+              "postalCode": "81675",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0000"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "services",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/300435",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0000"
+            ]
+          }
+        ],
+        "amendments": [
+          {
+            "date": "2026-10-29T03:22:39.946Z",
+            "rationale": "Verschiebung des Submissionstermines",
+            "description": "Verschiebung des Submissionstermines",
+            "amendsReleaseID": "ec00b10c-b71f-4448-9e5c-7be733754a98-01",
+            "releaseID": "a686b99c-d0ba-4e9e-9394-91b61c42bd2f-01"
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0000",
+            "title": "Objektplanung",
+            "description": "Bestandssituation\nDas 1905 erbaute viergeschossige Schulgebäude befindet sich mitten im Wohngebiet des Stadtbezirks Haidhausen-Au. Es ist als Gruppenbau in historisierendem Jugendstil errichtet worden und steht unter Denkmalschutz. Neben der Grundschulschule ist hier auch eine Realschule untergebracht. Auf dem Schulgelände befinden sich moderne Sportanlagen mit Schwimmhalle, Mehrzwecksporthalle, Sportplatz und einem parkähnlichen Freigelände.\nIn den Jahren 1969 bis 1972 wurde das Schulgebäude renoviert, die dekorativen Elemente des Jugendstils blieben erhalten.\nFerner wurde im Zeitraum von 1996 bis 2007 bei den wesentlichen Kastenfenstern durch Isolierverglasung der inneren Ebene die Wärmedämmung verbessert.\n\nBauaufgabe\nDie Fenster des Schulgebäudes sollen nun unter Beachtung des Denkmalschutzes instandgesetzt werden.\nDer Zustand der Fenster ist dem beiliegenden Bericht zu entnehmen.\nIm Rahmen dieser Maßnahme sollen auch alle Fassaden des Schulgebäudes einen neuen Anstrich erhalten. Schadhafte Stellen in der Fassade werden ebenfalls behoben.\n\nDie vorgesehene Fensterinstandsetzung und die Fassadenarbeiten sollen ab Mai 2027 ausgeführt werden.\nDie Maßnahme ist nicht nur in den Schulferien, sondern auch während des laufenden Betriebs durchzuführen.\nDer Bauablauf ist Teil der Bauaufgabe und Planungsleistung des Architekten (LPH 1-9, gem. § 34 der HOAI).\n\nDurchführung der Maßnahme\nDie Maßnahme ist mit dem Auftraggeber und der Schulleitung terminlich genau abzustimmen und in entsprechende Abschnitte einzuteilen. Hier ist es beispielsweise möglich, jeweils die Fenster von ca. 2 Räumen gleichzeitig instand zu setzen und die Räume entsprechend wählen. Denkbar ist auf Grund der zahlreichen unterschiedlich großen Fenstertypen auch die Durchführung der Instandsetzung nach Fenstertyp.",
+            "contractPeriod": {
+              "startDate": "2026-12-01T00:00:00+01:00",
+              "endDate": "2028-09-30T00:00:00+02:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-12T11:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-799ffa05-4600-4aee-b8bb-74536a4238db",
+      "id": "aec66637-dbd1-4709-884b-1d38110d4ce7",
+      "date": "2026-10-29T03:22:06Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "75319f29-bfdb-4a73-8360-cb1c29695799",
+            "legalName": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum"
+          },
+          "address": {
+            "streetAddress": "Sulzbacher Str. 2-6",
+            "locality": "Nürnberg",
+            "region": "DE254",
+            "postalCode": "90489",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer"
+          ]
+        },
+        {
+          "name": "Vergabeprüfstelle Regierung von Mittelfranken (VOB-Stelle)",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "bbbd26c1-f970-4ab8-aa94-05eecf818e73",
+            "legalName": "Vergabeprüfstelle Regierung von Mittelfranken (VOB-Stelle)"
+          },
+          "address": {
+            "streetAddress": "Promenade 27",
+            "locality": "Ansbach",
+            "region": "DE251",
+            "postalCode": "91522",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewContactPoint",
+            "reviewBody"
+          ]
+        },
+        {
+          "name": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN",
+          "id": "ORG-0003",
+          "identifier": {
+            "id": "42c9c6cf-cf68-4f0a-863c-fd6e52b1ce0d",
+            "legalName": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN"
+          },
+          "address": {
+            "streetAddress": "Bauhof 9",
+            "locality": "Nürnberg",
+            "region": "DE254",
+            "postalCode": "90402",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "processContactPoint"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+        "id": "75319f29-bfdb-4a73-8360-cb1c29695799",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum"
+        },
+        "address": {
+          "streetAddress": "Sulzbacher Str. 2-6",
+          "locality": "Nürnberg",
+          "region": "DE254",
+          "postalCode": "90489",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "799ffa05-4600-4aee-b8bb-74536a4238db",
+        "title": "Umgestaltung Obstmarkt \nArchäologische Baubegleitung",
+        "description": "Bauvorbereitende und baubegleitende archäologische Untersuchungen für die Baumaßnahmen zur Umgestaltung des Obstmarktes auf einer Fläche von ca. 12.000m². Die Maßnahme umfasst die Erneuerung der Trag- und Deckschichten, Baumpflanzungen, die Anlage eines Brunnens mit unterirdischer Brunnenkammer, den Bau von Rigolen, Filterschächten, Ver- und Entsorgungsleitungen mit einer Eingriffstiefe von bis zu 3m.",
+        "procuringEntity": {
+          "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+          "id": "75319f29-bfdb-4a73-8360-cb1c29695799"
+        },
+        "items": [
+          {
+            "id": "LOT-0001",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71351914",
+              "description": "Archaeological services"
+            },
+            "deliveryAddress": {
+              "locality": "Nürnberg",
+              "region": "DE254",
+              "postalCode": "90403",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0001"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "services",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/3d858898-82a3-4a45-b98d-34d7eac8f974",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0001"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0001",
+            "title": "Umgestaltung Obstmarkt \nArchäologische Baubegleitung",
+            "description": "Bauvorbereitende und baubegleitende archäologische Untersuchungen für die Baumaßnahmen zur Umgestaltung des Obstmarktes auf einer Fläche von ca. 12.000m². Die Maßnahme umfasst die Erneuerung der Trag- und Deckschichten, Baumpflanzungen, die Anlage eines Brunnens mit unterirdischer Brunnenkammer, den Bau von Rigolen, Filterschächten, Ver- und Entsorgungsleitungen mit einer Eingriffstiefe von bis zu 3m.",
+            "contractPeriod": {
+              "startDate": "2027-02-01T00:00:00+01:00",
+              "endDate": "2029-12-31T00:00:00+01:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-11-18T23:59:00+01:00",
+        "estimatedValueEur": null
+      }
+    },
+    {
+      "ocid": "ocds-mnwr74-b45be229-994d-46d7-a9c8-5a30a15a1023",
+      "id": "b45be229-994d-46d7-a9c8-5a30a15a1023",
+      "date": "2026-10-29T03:20:08Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "name": "Landkreis Straubing-Bogen",
+          "id": "ORG-0001",
+          "identifier": {
+            "id": "2818",
+            "legalName": "Landkreis Straubing-Bogen"
+          },
+          "address": {
+            "streetAddress": "Leutnerstraße 15",
+            "locality": "Straubing",
+            "region": "DE223",
+            "postalCode": "94315",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "buyer",
+            "processContactPoint"
+          ]
+        },
+        {
+          "name": "Vergabekammer Südbayern - Regierung von Oberbayern",
+          "id": "ORG-0002",
+          "identifier": {
+            "id": "9e5e8fb2-9a72-4357-aba4-395c011146c2",
+            "legalName": "Vergabekammer Südbayern - Regierung von Oberbayern"
+          },
+          "address": {
+            "streetAddress": "Maximilianstraße 39",
+            "locality": "München",
+            "region": "DE212",
+            "postalCode": "80538",
+            "countryName": "DEU"
+          },
+          "roles": [
+            "reviewBody"
+          ]
+        }
+      ],
+      "buyer": {
+        "name": "Landkreis Straubing-Bogen",
+        "id": "2818",
+        "identifier": {
+          "id": "ORG-0001",
+          "legalName": "Landkreis Straubing-Bogen"
+        },
+        "address": {
+          "streetAddress": "Leutnerstraße 15",
+          "locality": "Straubing",
+          "region": "DE223",
+          "postalCode": "94315",
+          "countryName": "DEU"
+        }
+      },
+      "tender": {
+        "id": "b45be229-994d-46d7-a9c8-5a30a15a1023",
+        "title": "Schulzentrum Bogen - Lieferung von Wärme",
+        "description": "Wärmelieferung für das Biomasseheizwerk Schulzentrum Bogen - Betrieb, Wartung, Instandhaltung und Wärmelieferung für das Biomasseheizwerk Schulzentrum Bogen",
+        "procuringEntity": {
+          "name": "Landkreis Straubing-Bogen",
+          "id": "2818"
+        },
+        "items": [
+          {
+            "id": "LOT-0001",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71314000",
+              "description": "Energy and related services"
+            },
+            "deliveryAddress": {
+              "region": "DE22B",
+              "countryName": "DEU"
+            },
+            "relatedLot": "LOT-0001"
+          }
+        ],
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open",
+        "mainProcurementCategory": "services",
+        "numberOfTenderers": 0,
+        "documents": [
+          {
+            "id": "DOC-0001",
+            "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/b45be229-994d-46d7-a9c8-5a30a15a1023",
+            "language": "DEU",
+            "relatedLots": [
+              "LOT-0001"
+            ]
+          }
+        ],
+        "lots": [
+          {
+            "id": "LOT-0001",
+            "title": "Schulzentrum Bogen - Lieferung von Wärme",
+            "description": "Wärmelieferung für das Biomasseheizwerk Schulzentrum Bogen - Betrieb, Wartung, Instandhaltung und Wärmelieferung für das Biomasseheizwerk Schulzentrum Bogen",
+            "contractPeriod": {
+              "startDate": "2027-09-15T00:00:00+02:00",
+              "endDate": "2047-09-14T00:00:00+02:00"
+            }
+          }
+        ]
+      },
+      "language": "DEU",
+      "_eforms": {
+        "deadline": "2026-12-02T11:00:00+01:00",
+        "estimatedValueEur": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+ "id": "9753dd1a-913a-46a4-8493-87226855cfe9-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "9753dd1a-913a-46a4-8493-87226855cfe9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9753dd1a-913a-46a4-8493-87226855cfe9",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:9753dd1a-913a-46a4-8493-87226855cfe9-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:9753dd1a-913a-46a4-8493-87226855cfe9-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9753dd1a-913a-46a4-8493-87226855cfe9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "BÜB OB/KIB inkl. Abfallmanagement + ltd. Bauüberwacher der Gesamtmaßnahme und SÜ",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71521000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE277"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c038e127-8aeb-4984-8993-7603119ad04d",
+  "id": "9753dd1a-913a-46a4-8493-87226855cfe9",
+  "date": "2026-10-27T03:10:26Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c038e127-8aeb-4984-8993-7603119ad04d",
+   "title": "BÜB OB/KIB inkl. Abfallmanagement + ltd. Bauüberwacher der Gesamtmaßnahme und SÜ",
+   "description": "BÜW-Leistungen für \"BÜ-Rückbau mit EÜ-Neubau Grüner Weg\" bei Höchstädt a. d. Donau",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Höchstädt an der Donau",
+      "region": "DE277",
+      "postalCode": "89420",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/c3a707cd-3c81-4617-9918-85f8493eab17",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "BÜB OB/KIB inkl. Abfallmanagement + ltd. Bauüberwacher der Gesamtmaßnahme und SÜ",
+     "description": "BÜW-Leistungen für \"BÜ-Rückbau mit EÜ-Neubau Grüner Weg\" bei Höchstädt a. d. Donau",
+     "contractPeriod": {
+      "startDate": "2027-04-19T00:00:00+02:00",
+      "endDate": "2029-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "9753dd1a-913a-46a4-8493-87226855cfe9",
+  "version": "01",
+  "title": "BÜB OB/KIB inkl. Abfallmanagement + ltd. Bauüberwacher der Gesamtmaßnahme und SÜ",
+  "description": "BÜW-Leistungen für \"BÜ-Rückbau mit EÜ-Neubau Grüner Weg\" bei Höchstädt a. d. Donau",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE277"
+  ],
+  "cpv": [
+   "71521000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "BÜB OB/KIB inkl. Abfallmanagement + ltd. Bauüberwacher der Gesamtmaßnahme und SÜ",
+    "description": "BÜW-Leistungen für \"BÜ-Rückbau mit EÜ-Neubau Grüner Weg\" bei Höchstädt a. d. Donau",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE277"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-12-03T08:00:00+01:00",
+    "plannedStart": "2027-04-19+02:00",
+    "plannedEnd": "2029-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/c3a707cd-3c81-4617-9918-85f8493eab17/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

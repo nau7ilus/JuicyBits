@@ -5,14 +5,14 @@
   "noticeId": "25978088",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978088",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978088-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978088-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978088?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Umbau Altstellwerk mech., Möttingen, Strecke 5300 für Erneuerung BÜ Mühle km 62,181 (Hp/Fü)",
   "buyer": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
   "cpv": [
@@ -22,7 +22,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-11-30T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -101,5 +101,45 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25978088",
+  "version": "1",
+  "title": "Umbau Altstellwerk mech., Möttingen, Strecke 5300 für Erneuerung BÜ Mühle km 62,181 (Hp/Fü)",
+  "description": "Umbau Altstellwerk mech., Möttingen, Strecke 5300 für Erneuerung BÜ Mühle km 62,181 (Hp/Fü)\n\nUmbau Altstellwerk mech., Möttingen, Strecke 5300 für Erneuerung BÜ Mühle km 62,181 (Hp/Fü)",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45453100",
+   "45262700"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Umbau Altstellwerk mech., Möttingen, Strecke 5300 für Erneuerung BÜ Mühle km 62,181 (Hp/Fü)",
+    "description": "Umbau Altstellwerk mech., Möttingen, Strecke 5300 für Erneuerung BÜ Mühle km 62,181 (Hp/Fü)\n\nUmbau Altstellwerk mech., Möttingen, Strecke 5300 für Erneuerung BÜ Mühle km 62,181 (Hp/Fü)",
+    "cpv": [
+     "45453100",
+     "45262700"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-30T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

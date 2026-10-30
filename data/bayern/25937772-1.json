@@ -1,0 +1,135 @@
+{
+ "id": "25937772-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25937772",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25937772",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25937772-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25937772-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25937772?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Grabenarbeiten Sperlingweg",
+  "buyer": "Gemeinde Moormerland",
+  "cpv": [
+   "45240000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-02T11:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25937772",
+  "id": "25937772",
+  "date": "2026-10-16T07:00:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Moormerland",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Moormerland"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Moormerland",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Moormerland"
+   }
+  },
+  "tender": {
+   "title": "Grabenarbeiten Sperlingweg",
+   "description": "Grabenunterhaltung und Befestigung der beidseitigen Grabenböschungen Sperlingweg mit 2000 Rundpfählen  (Schreitbagger erforderlich)\n\nGrabenunterhaltung; Grabenbefestigung; Gewässer",
+   "procuringEntity": {
+    "name": "Gemeinde Moormerland"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45240000",
+      "description": "Construction work for water projects"
+     },
+     "deliveryAddress": {
+      "locality": "Sperlingweg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsches-ausschreibungsblatt.de/VN/S-MMLD-2026-0035",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Grabenarbeiten Sperlingweg",
+     "description": "Grabenunterhaltung und Befestigung der beidseitigen Grabenböschungen Sperlingweg mit 2000 Rundpfählen  (Schreitbagger erforderlich)\n\nGrabenunterhaltung; Grabenbefestigung; Gewässer"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25937772",
+  "version": "1",
+  "title": "Grabenarbeiten Sperlingweg",
+  "description": "Grabenunterhaltung und Befestigung der beidseitigen Grabenböschungen Sperlingweg mit 2000 Rundpfählen  (Schreitbagger erforderlich)\n\nGrabenunterhaltung; Grabenbefestigung; Gewässer",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45240000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Grabenarbeiten Sperlingweg",
+    "description": "Grabenunterhaltung und Befestigung der beidseitigen Grabenböschungen Sperlingweg mit 2000 Rundpfählen  (Schreitbagger erforderlich)\n\nGrabenunterhaltung; Grabenbefestigung; Gewässer",
+    "cpv": [
+     "45240000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-02T11:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "source": "T5 (B3), 30.10.2026; scores are T5 reference values from before the T6 point scheme",
+  "now": "2026-10-30T18:00:00+01:00",
+  "cases": [
+    {
+      "profile": "p1-alpendach",
+      "notice": "72f0fc03-56ca-4ed8-b29e-26220d14ef16",
+      "title": "Systemdach und Spenglerarbeiten, Bernau",
+      "expected": "go",
+      "score": 88
+    },
+    {
+      "profile": "p1-alpendach",
+      "notice": "88322e15-389f-48e1-9f81-518637a95728",
+      "title": "Dachabdichtungsarbeiten, Staatliches Bauamt Erlangen-Nürnberg",
+      "expected": "nogo",
+      "score": 25
+    },
+    {
+      "profile": "p1-alpendach",
+      "notice": "2300b9e7-9ace-4922-bd4b-4c73c130a56a",
+      "title": "Stahlbauarbeiten (CPV-Falle 4526)",
+      "expected": "nogo",
+      "score": 10
+    },
+    {
+      "profile": "p2-isarglanz",
+      "notice": "685bcdc6-479d-4286-8d5e-4948fdcaf750",
+      "title": "Reinigung Stadtbücherei/VHS Ingolstadt",
+      "expected": "go",
+      "score": 91
+    },
+    {
+      "profile": "p2-isarglanz",
+      "notice": "21ecf27b-f5e6-4798-92c8-5cf740f6044c",
+      "title": "Gebäudereinigung AVA Augsburg (Frist 3 Tage)",
+      "expected": "nogo",
+      "score": 18
+    },
+    {
+      "profile": "p3-isarcode",
+      "notice": "8cf6c749-cfbd-4550-8015-c96f7bb799c2",
+      "title": "Softwareentwicklung Landtagsverwaltung (100 PT)",
+      "expected": "go",
+      "score": 90
+    },
+    {
+      "profile": "p3-isarcode",
+      "notice": "1b4b563a-a3f6-4aaa-947c-69a50f7e9565",
+      "title": "Weiterentwicklung AIS.chat (5,5 VZÄ)",
+      "expected": "nogo",
+      "score": 22
+    },
+    {
+      "profile": "p3-isarcode",
+      "notice": "6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a",
+      "title": "Helpdesk-Service DPMA (2.800 Anwender)",
+      "expected": "nogo",
+      "score": 15
+    }
+  ]
+}

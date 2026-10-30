@@ -1,0 +1,251 @@
+{
+ "id": "20e7dda8-9820-4708-a47b-04ad814b897b-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "20e7dda8-9820-4708-a47b-04ad814b897b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=20e7dda8-9820-4708-a47b-04ad814b897b",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:20e7dda8-9820-4708-a47b-04ad814b897b-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:20e7dda8-9820-4708-a47b-04ad814b897b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/20e7dda8-9820-4708-a47b-04ad814b897b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Vermessungstechnische Straßenbefahrung 2027",
+  "buyer": "Kommunalreferat, Recht und Verwaltung, Zentrale Dienste, Submissionsbüro",
+  "cpv": [
+   "71350000",
+   "71355100",
+   "72316000",
+   "72319000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d7368c8b-0875-4419-bbe4-f86f2b8167cf",
+  "id": "20e7dda8-9820-4708-a47b-04ad814b897b",
+  "date": "2026-10-22T02:10:24Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Kommunalreferat, Recht und Verwaltung, Zentrale Dienste, Submissionsbüro",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE 1000000-09",
+     "legalName": "Kommunalreferat, Recht und Verwaltung, Zentrale Dienste, Submissionsbüro"
+    },
+    "address": {
+     "streetAddress": "Denisstr. 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80335",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Kommunalreferat, Recht und Verwaltung, Zentrale Dienste, Submissionsbüro",
+   "id": "09162000-ZRE 1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Kommunalreferat, Recht und Verwaltung, Zentrale Dienste, Submissionsbüro"
+   },
+   "address": {
+    "streetAddress": "Denisstr. 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80335",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d7368c8b-0875-4419-bbe4-f86f2b8167cf",
+   "title": "Vermessungstechnische Straßenbefahrung 2027",
+   "description": "Gegenstand dieses Vertrags ist der Erwerb hochaufgelöster, nahtlos aneinandergrenzender und georeferenzierter 360° Panoramabilder sowie einer 3D-Punktwolke durch LiDAR, die durch die Befahrung der Straßen und Wege von München für das gesamte Befahrungsgebiet zu erstellen sind. Darüber hinaus ist ein durch die Auftraggeberin optional abrufbarer Teil der zu erbringenden Leistung die Erfassung der Art und Lage von:  \n-\tVerkehrsschilder\n-\tFahrbahnmarkierungen\n-\tParkplätze\n-\tBaumstandorte\n-\tStraßenmobiliar\n-\tTaktile Leitsysteme\n-\tSeilhängeleuchten\n-\tStatische Schallschutzbauwerke\n-\tQuerungsstellen für den Fußverkehr \n-\tUngesicherte Querungsstellen für den Fußverkehr sowie die\n-\tZustandserfassung- und Bewertung des Straßennetzes\n\nDas Hosting der Daten erfolgt durch den Auftragnehmer. Er stellt eine Webanwendung zur Nutzung der Daten im Browser und eine Schnittstelle oder ein Plug-In zur Nutzung in VertiGIS Studio Web, im GeoPortal München (basierend auf Masterportal), in ESRI ArcGIS Pro sowie in Smallworld GIS, Q-GIS und SAMO LIDS Explorer / SAMO LIDS Browser bereit.\n\nEbenso Teil des Vertrages ist das Hosting und die Visualisierung eines Teils der bereits vorhandenen Straßenbefahrungsdaten. Diese liegen als Bilder mit Tiefeninformation sowie Vektordaten wie Verkehrszeichen, Fahrbahnmarkierungen, Parkplätze und Baumstandorte vor. Diese Daten liegen in der Schnittstelle 2 bzw. 3 des Befahrungsdienstleisters iNovitas AG bei der Auftraggeberin vor. Diese Befahrungen deckten jeweils ein Straßen- und Wegenetz von ca. 3.500 km (2019/20) bzw. ca. 3.900 km (2023/24) ab, was einem Speichervolumen von ca. 30 TB für beide Befahrungen entspricht.",
+   "procuringEntity": {
+    "name": "Kommunalreferat, Recht und Verwaltung, Zentrale Dienste, Submissionsbüro",
+    "id": "09162000-ZRE 1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71350000",
+      "description": "Engineering-related scientific and technical services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71355100",
+       "description": "Photogrammetry services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72316000",
+       "description": "Data analysis services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72319000",
+       "description": "Data supply services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80335",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19f88cd76ab-33ebe3c7f6e355a6",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Vermessungstechnische Straßenbefahrung 2027",
+     "description": "Gegenstand dieses Vertrags ist der Erwerb hochaufgelöster, nahtlos aneinandergrenzender und georeferenzierter 360° Panoramabilder sowie einer 3D-Punktwolke durch LiDAR, die durch die Befahrung der Straßen und Wege von München für das gesamte Befahrungsgebiet zu erstellen sind. Darüber hinaus ist ein durch die Auftraggeberin optional abrufbarer Teil der zu erbringenden Leistung die Erfassung der Art und Lage von:  \n-    Verkehrsschilder\n-    Fahrbahnmarkierungen\n-    Parkplätze\n-    Baumstandorte\n-    Straßenmobiliar\n-    Taktile Leitsysteme\n-    Seilhängeleuchten\n-    Statische Schallschutzbauwerke\n-    Querungsstellen für den Fußverkehr \n-    Ungesicherte Querungsstellen für den Fußverkehr sowie die\n-    Zustandserfassung- und Bewertung des Straßennetzes\n\nDas Hosting der Daten erfolgt durch den Auftragnehmer. Er stellt eine Webanwendung zur Nutzung der Daten im Browser und eine Schnittstelle oder ein Plug-In zur Nutzung in VertiGIS Studio Web, im GeoPortal München (basierend auf Masterportal), in ESRI ArcGIS Pro sowie in Smallworld GIS, Q-GIS und SAMO LIDS Explorer / SAMO LIDS Browser bereit.\n\nEbenso Teil des Vertrages ist das Hosting und die Visualisierung eines Teils der bereits vorhandenen Straßenbefahrungsdaten. Diese liegen als Bilder mit Tiefeninformation sowie Vektordaten wie Verkehrszeichen, Fahrbahnmarkierungen, Parkplätze und Baumstandorte vor. Diese Daten liegen in der Schnittstelle 2 bzw. 3 des Befahrungsdienstleisters iNovitas AG bei der Auftraggeberin vor. Diese Befahrungen deckten jeweils ein Straßen- und Wegenetz von ca. 3.500 km (2019/20) bzw. ca. 3.900 km (2023/24) ab, was einem Speichervolumen von ca. 30 TB für beide Befahrungen entspricht.",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2031-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "20e7dda8-9820-4708-a47b-04ad814b897b",
+  "version": "01",
+  "title": "Vermessungstechnische Straßenbefahrung 2027",
+  "description": "Gegenstand dieses Vertrags ist der Erwerb hochaufgelöster, nahtlos aneinandergrenzender und georeferenzierter 360° Panoramabilder sowie einer 3D-Punktwolke durch LiDAR, die durch die Befahrung der Straßen und Wege von München für das gesamte Befahrungsgebiet zu erstellen sind. Darüber hinaus ist ein durch die Auftraggeberin optional abrufbarer Teil der zu erbringenden Leistung die Erfassung der Art und Lage von:  \n-\tVerkehrsschilder\n-\tFahrbahnmarkierungen\n-\tParkplätze\n-\tBaumstandorte\n-\tStraßenmobiliar\n-\tTaktile Leitsysteme\n-\tSeilhängeleuchten\n-\tStatische Schallschutzbauwerke\n-\tQuerungsstellen für den Fußverkehr \n-\tUngesicherte Querungsstellen für den Fußverkehr sowie die\n-\tZustandserfassung- und Bewertung des Straßennetzes\n\nDas Hosting der Daten erfolgt durch den Auftragnehmer. Er stellt eine Webanwendung zur Nutzung der Daten im Browser und eine Schnittstelle oder ein Plug-In zur Nutzung in VertiGIS Studio Web, im GeoPortal München (basierend auf Masterportal), in ESRI ArcGIS Pro sowie in Smallworld GIS, Q-GIS und SAMO LIDS Explorer / SAMO LIDS Browser bereit.\n\nEbenso Teil des Vertrages ist das Hosting und die Visualisierung eines Teils der bereits vorhandenen Straßenbefahrungsdaten. Diese liegen als Bilder mit Tiefeninformation sowie Vektordaten wie Verkehrszeichen, Fahrbahnmarkierungen, Parkplätze und Baumstandorte vor. Diese Daten liegen in der Schnittstelle 2 bzw. 3 des Befahrungsdienstleisters iNovitas AG bei der Auftraggeberin vor. Diese Befahrungen deckten jeweils ein Straßen- und Wegenetz von ca. 3.500 km (2019/20) bzw. ca. 3.900 km (2023/24) ab, was einem Speichervolumen von ca. 30 TB für beide Befahrungen entspricht.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71350000",
+   "71355100",
+   "72316000",
+   "72319000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Vermessungstechnische Straßenbefahrung 2027",
+    "description": "Gegenstand dieses Vertrags ist der Erwerb hochaufgelöster, nahtlos aneinandergrenzender und georeferenzierter 360° Panoramabilder sowie einer 3D-Punktwolke durch LiDAR, die durch die Befahrung der Straßen und Wege von München für das gesamte Befahrungsgebiet zu erstellen sind. Darüber hinaus ist ein durch die Auftraggeberin optional abrufbarer Teil der zu erbringenden Leistung die Erfassung der Art und Lage von:  \n-    Verkehrsschilder\n-    Fahrbahnmarkierungen\n-    Parkplätze\n-    Baumstandorte\n-    Straßenmobiliar\n-    Taktile Leitsysteme\n-    Seilhängeleuchten\n-    Statische Schallschutzbauwerke\n-    Querungsstellen für den Fußverkehr \n-    Ungesicherte Querungsstellen für den Fußverkehr sowie die\n-    Zustandserfassung- und Bewertung des Straßennetzes\n\nDas Hosting der Daten erfolgt durch den Auftragnehmer. Er stellt eine Webanwendung zur Nutzung der Daten im Browser und eine Schnittstelle oder ein Plug-In zur Nutzung in VertiGIS Studio Web, im GeoPortal München (basierend auf Masterportal), in ESRI ArcGIS Pro sowie in Smallworld GIS, Q-GIS und SAMO LIDS Explorer / SAMO LIDS Browser bereit.\n\nEbenso Teil des Vertrages ist das Hosting und die Visualisierung eines Teils der bereits vorhandenen Straßenbefahrungsdaten. Diese liegen als Bilder mit Tiefeninformation sowie Vektordaten wie Verkehrszeichen, Fahrbahnmarkierungen, Parkplätze und Baumstandorte vor. Diese Daten liegen in der Schnittstelle 2 bzw. 3 des Befahrungsdienstleisters iNovitas AG bei der Auftraggeberin vor. Diese Befahrungen deckten jeweils ein Straßen- und Wegenetz von ca. 3.500 km (2019/20) bzw. ca. 3.900 km (2023/24) ab, was einem Speichervolumen von ca. 30 TB für beide Befahrungen entspricht.",
+    "cpv": [
+     "71350000",
+     "71355100",
+     "72316000",
+     "72319000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Einzureichen sind (bei Bietergemeinschaften von allen Mitgliedern): \n \na) Mit dem Angebot: Referenzen (Eigenerklärungen) in Form einer Liste über die in den letzten 3 Jahren erbrachten wesentlichen Leistungen mit Angabe des Werts, des Erbringungszeitpunkts sowie des öffentlichen oder privaten Empfängers (einschließlich Kontaktdaten der dortigen Ansprechperson), aus denen anhand der Angaben zum konkreten Leistungsgegenstand [insbesondere auch Angabe von Projektstart und -ende (jeweils Monat/Jahr), Projektumfang (ungefähre Länge des zu erfassenden Netzes, zu erfassende Infrastruktur), Beschreibung der zugrundeliegenden Regelwerke / Richtlinien] hervorgeht, dass sie Leistungen zum Gegenstand haben, die mit den Leistungen des vorliegend ausgeschriebenen Auftrags vergleichbar sind und die nachstehend unter b) benannten Mindestanforderungen erfüllen. Angegeben werden können auch entsprechende Referenzen über zeitlich davor erbrachte wesentliche Leistungen, sofern diese ab dem Kalenderjahr 2019 oder später erbracht worden sind. Im Falle einer Bietergemeinschaft genügt es, wenn die Mindestanforderungen durch die Bietergemeinschaft insgesamt erfüllt werden. Dies gilt entsprechend, wenn der Bieter beabsichtigt, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen. \n\nb) Mindestanforderungen: Es müssen mindestens drei Referenzen (Eigenerklärungen) mit unter anderem folgenden auftragsgegenständlichen Leistungen vorgelegt werden: \n\naa) Ergebnis der verifizierenden Teststellung als technische Leistungsfähigkeit im Zuge der Angebotslegung, siehe Ergänzung zur Aufforderung zur Angebotsabgabe. Dabei müssen die folgenden Parameter eingehalten werden: \n  \n- Bilder der Prüfschilder: \n\n•        Im Abstand von 8 m muss die Pixelgröße am Objekt kleiner oder gleich 5 mm sein \n•        Im Abstand von 8 m muss das eindeutig erkennbare Balkenpaar eine Breite von kleiner oder gleich 20 mm haben \n•        Im Abstand von 8 m (räumlicher Vektor zwischen dem Aufnahmezentrum eines Bildes und dem Zentrum eines Schildes) muss die Lesbarkeit der Texte (retroreflektierende Oberfläche) mit Schrifthöhe 4 cm und Schriftbreite 5 mm gegeben sein \n  \n-3D-Information (Punktwolke): \n  \nDie im Folgenden beschriebenen Kennwerte müssen für die jeweiligen Prüfschilder innerhalb der gegebenen Grenzwerte liegen. Maximal zwei der Grenzwerte dürfen um höchstens 20% überschritten (Streuung, Punktabstand) bzw. unterschritten (Punktdichte) werden.\n•        Bei einmaligem Vorbeibewegen in 8 m Entfernung darf die Streuung der Messdaten an einer Ebene ±1 cm nicht überschreiten \n•        Bei einmaligem Vorbeibewegen in 8 m Entfernung muss die Punktdichte mindestens 1000 Punkte/m² betragen \n•        Bei einmaligem Vorbeibewegen in 8 m Entfernung darf der Punktabstand der Messpunkte am Objekt maximal 3,1 cm betragen \n•        Bei einmaligem Vorbeibewegen in 4 m Entfernung (orthogonal aufgestellte Schilder) darf die Streuung der Messdaten ( ) an einer Ebene ±1 cm nicht überschreiten \n•        Bei einmaligem Vorbeibewegen in 4 m Entfernung muss die Punktdichte an den orthogonal aufgestellten Schildern mindestens 500 Punkte/m² betragen \n  \nbb) Visuelle Auswertung des Zustands der Straßenoberfläche anhand von Bildern gemäß den Empfehlungen für das Erhaltungsmanagement von Innerortsstraßen (E EMI Ausgabe 2012 oder 2025) und Anwendung der Empfehlungen für das Erhaltungsmanagement von Innerortsstraßen (E EMI Ausgabe 2012 oder 2025) vom Referenzauftraggeber vorgegeben.\n \ncc) Mindestens drei der angeforderten Schnittstellen/PlugIns [VertiGIS Studio Web, GeoPortal München (basierend auf Masterportal), ESRI ArcGIS Pro, Smallworld GIS, Q-GIS und SAMO LIDS Explorer / SAMO LIDS Browser] sind (nicht notwendigerweise im Rahmen desselben Referenzauftrags) bereits betriebsbereit an den jeweiligen Referenzauftraggeber übergeben worden. \n\ndd) Die Mindestanforderungen gemäß vorstehend bb) einerseits und cc) andererseits müssen nicht notwendigerweise in derselben Referenz erfüllt sein. Nicht als Mindestanforderung, sondern als Orientierungsgröße wird bei der Betrachtung der Vergleichbarkeit zugrunde gelegt, dass im Rahmen des jeweiligen Referenzauftrages mindestens ca. 1.500 km Straßen- und Wegenetz bearbeitet worden sind. \n\nc) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die hierfür vorgesehenen Leistungen/Kapazitäten in seinem Angebot benennen. Der Bieter hat auf gesondertes Verlangen des Beschaffers zu dem von ihm bestimmten Zeitpunkt nachzuweisen, dass ihm die erforderlichen Kapazitäten der anderen Unternehmen zur Verfügung stehen, beispielsweise durch eine entsprechende Verpflichtungserklärung dieser Unternehmen (empfohlen wird, für die entsprechenden Erklärungen die hierfür vorgesehenen Formblätter zu verwenden, die den Vergabeunterlagen beigefügt sind), und die unter a) und b) genannten Unterlagen auch für diese Unternehmen einzureichen. \n\nd) Für in ausländischer Sprache abgefasste Nachweise ist eine Übersetzung ins Deutsche beizufügen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Einzureichen sind (bei Bietergemeinschaften von allen Mitgliedern): \n\na) Mit dem Angebot: Angabe der durchschnittlichen jährlichen Beschäftigtenanzahl und die Zahl der Führungskräfte, jeweils in den letzten 3 Jahren. \n\nb) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die hierfür vorgesehenen Leistungen/Kapazitäten in seinem Angebot benennen. Der Bieter hat auf gesondertes Verlangen des Beschaffers zu dem von ihm bestimmten Zeitpunkt nachzuweisen, dass ihm die erforderlichen Kapazitäten der anderen Unternehmen zur Verfügung stehen, beispielsweise durch eine entsprechende Verpflichtungserklärung dieser Unternehmen, und die unter a) genannten Unterlagen auch für diese Unternehmen einzureichen.\n \nc) Empfohlen wird, für die entsprechenden Erklärungen die hierfür vorgesehenen Formblätter zu verwenden, die den Vergabeunterlagen beigefügt sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-no-mgmt",
+      "description": "Wie vorstehende Beschreibung unter \"Durchschnittliche jährliche Belegschaft\"."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Kapazitäten anderer Unternehmen (Unteraufträge und Eignungsleihe): \n\na) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die hierfür vorgesehenen Leistungen/Kapazitäten in seinem Angebot benennen. Der Bieter hat auf gesondertes Verlangen des Beschaffers zu dem von ihm bestimmten Zeitpunkt nachzuweisen, dass ihm die erforderlichen Kapazitäten der anderen Unternehmen zur Verfügung stehen, beispielsweise durch eine entsprechende Verpflichtungserklärung dieser Unternehmen, und dass diese Unternehmen geeignet sind. \n\nb) Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam mit dem Bieter für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der Verpflichtungserklärung abzugeben. \n\nc) Empfohlen wird, für die entsprechenden Erklärungen die hierfür vorgesehenen Formblätter zu verwenden, die den Vergabeunterlagen beigefügt sind."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Einzureichen sind (bei Bietergemeinschaften von allen Mitgliedern): \n\na) Mit dem Angebot: Bescheinigung über eine bestehende Betriebshaftpflichtversicherung mit Angaben zur Deckungssumme nach den nachstehend benannten Mindestanforderungen. Alternativ kann eine Bestätigung eines Versicherers über eine entsprechende Versicherbarkeit im Auftragsfall oder eine Eigenerklärung abgegeben werden, dass im Auftragsfall unverzüglich eine entsprechende Betriebshaftpflichtversicherung für den Auftrag abgeschlossen wird. Mindestanforderungen: Deckungssummen über mindestens aa) EUR 3.000.000 für Personenschäden und bb) entweder (aaa) EUR 1.000.000 für sonstige Schäden oder alternativ (bbb) EUR 1.000.000 für Sachschäden und EUR 1.000.000 für Vermögensschäden. Die Maximierung der Ersatzleistung pro Versicherungsjahr muss jeweils mindestens das Zweifache der Deckungssumme betragen. Bei Bietergemeinschaften ist der Nachweis der Haftpflichtversicherung für jedes Mitglied getrennt zu führen. Alternativ kann ein Nachweis oder eine Eigenerklärung der Bietergemeinschaftsmitglieder eingereicht werden, dass im Falle einer Auftragsvergabe eine Versicherung in der vorgegebenen Deckungshöhe besteht, die die gesamtschuldnerische Haftung aller Mitglieder der Bewerbergemeinschaft abdeckt. -- \n\nb) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die hierfür vorgesehenen Leistungen/Kapazitäten in seinem Angebot benennen. Der Bieter hat auf gesondertes Verlangen des Beschaffers zu dem von ihm bestimmten Zeitpunkt nachzuweisen, dass ihm die erforderlichen Kapazitäten der anderen Unternehmen zur Verfügung stehen, beispielsweise durch eine entsprechende Verpflichtungserklärung dieser Unternehmen, und die unter a) genannten Unterlagen auch für diese Unternehmen einzureichen; alternativ kann der Bieter den Nachweis einreichen, dass die Haftung für das andere Unternehmen von der Betriebshaftpflichtversicherung mitumfasst ist, oder eine entsprechende Eigenerklärung über eine entsprechende Versicherbarkeit im Auftragsfall. \n\nc) Nimmt der Bieter in Hinblick auf das vorliegende Kriterium oder andere Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam mit dem Bieter für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der Verpflichtungserklärung abzugeben. \n\nd) Empfohlen wird, für die entsprechenden Erklärungen die hierfür vorgesehenen Formblätter zu verwenden, die den Vergabeunterlagen beigefügt sind. \n\ne) Für in ausländischer Sprache abgefasste Nachweise ist eine Übersetzung ins Deutsche beizufügen."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Einzureichen ist (bei Bietergemeinschaften von allen Mitgliedern): \n\na) Mit dem Angebot: Eigenerklärung über den Gesamtumsatz für jedes der letzten 3 Geschäftsjahre, für die durch Jahresabschluss oder eine vergleichbare Feststellung abgeschlossene Geschäftszahlen vorliegen und soweit in den jeweiligen Jahren ein Umsatz erzielt worden ist, unter Einschluss des Anteils von zusammen mit anderen Unternehmen erbrachten Leistungen. \n\nb) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die hierfür vorgesehenen Leistungen/Kapazitäten in seinem Angebot benennen. Der Bieter hat auf gesondertes Verlangen des Beschaffers zu dem von ihm bestimmten Zeitpunkt nachzuweisen, dass ihm die erforderlichen Kapazitäten der anderen Unternehmen zur Verfügung stehen, beispielsweise durch eine entsprechende Verpflichtungserklärung dieser Unternehmen, und dass diese Unternehmen geeignet sind. \n\nc) Nimmt der Bieter im Hinblick auf das vorliegende Kriterium oder andere Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam mit dem Bieter für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der Verpflichtungserklärung abzugeben. \n\nd) Empfohlen wird, für die entsprechenden Erklärungen die hierfür vorgesehenen Formblätter zu verwenden, die den Vergabeunterlagen beigefügt sind."
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Einzureichen ist (bei Bietergemeinschaften von allen Mitgliedern):\n \na) Mit dem Angebot: Eigenerklärung über den Umsatz hinsichtlich der Leistungen in dem Tätigkeitsbereich, dem der vorliegend ausgeschriebene Auftrag zuzuordnen ist, für jedes der letzten 3 Geschäftsjahre, für die durch Jahresabschluss oder eine vergleichbare Feststellung abgeschlossene Geschäftszahlen vorliegen und soweit in den jeweiligen Jahren ein Umsatz erzielt worden ist, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen erbrachten Leistungen. \n\nb) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die hierfür vorgesehenen Leistungen/Kapazitäten in seinem Angebot benennen. Der Bieter hat auf gesondertes Verlangen des Beschaffers zu dem von ihm bestimmten Zeitpunkt nachzuweisen, dass ihm die erforderlichen Kapazitäten der anderen Unternehmen zur Verfügung stehen, beispielsweise durch eine entsprechende Verpflichtungserklärung dieser Unternehmen, und die unter a) genannten Unterlagen auch für diese Unternehmen einzureichen. \n\nc) Nimmt der Bieter im Hinblick auf das vorliegende Kriterium oder andere Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam mit dem Bieter für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der Verpflichtungserklärung abzugeben. \n\nd) Empfohlen wird, für die entsprechenden Erklärungen die hierfür vorgesehenen Formblätter zu verwenden, die den Vergabeunterlagen beigefügt sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Einzureichen ist (bei Bietergemeinschaften von allen Mitgliedern):\n \na) Mit dem Angebot: Nachweis oder Erklärung (Eigenerklärung), dass der Bieter nach den Rechtsvorschriften des Staates, in dem er niedergelassen ist, in einem Berufsregister dieses Staates eingetragen ist, oder Nachweis der erlaubten Berufsausübung auf andere Weise (§ 44 VgV). \n\nb) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die unter a) genannten Unterlagen auf gesonderte Anforderung des Beschaffers innerhalb der von diesem bestimmten Frist auch für diese Unternehmen einzureichen. \n\nc) Für in ausländischer Sprache abgefasste Nachweise ist eine Übersetzung ins Deutsche beizufügen."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Einzureichen ist (bei Bietergemeinschaften von allen Mitgliedern): \n\na) Mit dem Angebot: (Eigenerklärung) oder Nachweis, dass der Bieter nach den Rechtsvorschriften des Staates, in dem er niedergelassen ist, in einem Handelsregister dieses Staates eingetragen ist, oder Nachweis der erlaubten Berufsausübung auf andere Weise (§ 44 VgV). \nb) Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrages im Hinblick auf die erforderliche wirtschaftliche, finanzielle, technische oder berufliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so muss er die unter a) genannten Unterlagen auf gesonderte Anforderung des Beschaffers innerhalb der von diesem bestimmten Frist auch für diese Unternehmen einzureichen. \n\nc) Für in ausländischer Sprache abgefasste Nachweise ist eine Übersetzung ins Deutsche beizufügen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Niedrigster Preis (Angebotssumme)",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

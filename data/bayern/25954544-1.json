@@ -1,0 +1,153 @@
+{
+ "id": "25954544-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954544",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954544",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954544-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954544-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954544?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Gardinen und Vorhänge - Hföd Hof",
+  "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+  "cpv": [
+   "39515000",
+   "39515200",
+   "44115810"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-12T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954544",
+  "id": "25954544",
+  "date": "2026-10-21T07:01:13Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+   }
+  },
+  "tender": {
+   "title": "Gardinen und Vorhänge - Hföd Hof",
+   "description": "Die Hochschule für den öffentlichen Dienst (HföD, Fachbereich Allgemeine Innere Verwaltung) benötigt Vorhänge für die Ausstattung ihrer Gebäude.\n\nGardinen und Vorhänge - Hföd Hof",
+   "procuringEntity": {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39515000",
+      "description": "Curtains, drapes, valances and textile blinds"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39515200",
+       "description": "Drapes"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44115810",
+       "description": "Curtain rails and hangings"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "95028 Hof",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/96de3db7-e5b1-427c-a27e-b7207546fee7",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Gardinen und Vorhänge - Hföd Hof",
+     "description": "Die Hochschule für den öffentlichen Dienst (HföD, Fachbereich Allgemeine Innere Verwaltung) benötigt Vorhänge für die Ausstattung ihrer Gebäude.\n\nGardinen und Vorhänge - Hföd Hof"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25954544",
+  "version": "1",
+  "title": "Gardinen und Vorhänge - Hföd Hof",
+  "description": "Die Hochschule für den öffentlichen Dienst (HföD, Fachbereich Allgemeine Innere Verwaltung) benötigt Vorhänge für die Ausstattung ihrer Gebäude.\n\nGardinen und Vorhänge - Hföd Hof",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "39515000",
+   "39515200",
+   "44115810"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Gardinen und Vorhänge - Hföd Hof",
+    "description": "Die Hochschule für den öffentlichen Dienst (HföD, Fachbereich Allgemeine Innere Verwaltung) benötigt Vorhänge für die Ausstattung ihrer Gebäude.\n\nGardinen und Vorhänge - Hföd Hof",
+    "cpv": [
+     "39515000",
+     "39515200",
+     "44115810"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-12T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "id": "4a17f8a4-1a66-4f53-9ff2-20daafadd963-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "4a17f8a4-1a66-4f53-9ff2-20daafadd963",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4a17f8a4-1a66-4f53-9ff2-20daafadd963",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:4a17f8a4-1a66-4f53-9ff2-20daafadd963-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:4a17f8a4-1a66-4f53-9ff2-20daafadd963-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4a17f8a4-1a66-4f53-9ff2-20daafadd963?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erweiterung Grundschule Brunnthal",
+  "buyer": "HB Gemeinde Brunnthal",
+  "cpv": [
+   "45421100",
+   "45421130"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-12988893-c9e2-4ebb-bfb1-7e7a6b66b49e",
+  "id": "4a17f8a4-1a66-4f53-9ff2-20daafadd963",
+  "date": "2026-10-17T14:20:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "HB Gemeinde Brunnthal",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0810289035",
+     "legalName": "HB Gemeinde Brunnthal"
+    },
+    "address": {
+     "streetAddress": "Münchner Straße 5",
+     "locality": "Brunnthal",
+     "region": "DE21H",
+     "postalCode": "85649",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "HB Gemeinde Brunnthal",
+   "id": "0810289035",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "HB Gemeinde Brunnthal"
+   },
+   "address": {
+    "streetAddress": "Münchner Straße 5",
+    "locality": "Brunnthal",
+    "region": "DE21H",
+    "postalCode": "85649",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "12988893-c9e2-4ebb-bfb1-7e7a6b66b49e",
+   "title": "Erweiterung Grundschule Brunnthal",
+   "description": "Planungs- und Revisionsunterlagen; Muster; Glas- und Fassadenstatik; Fachunternehmererklärung; Fachbauleitererklärung und Bauüberwachung; Arbeiten im Kontext mit dem Bestandsgebäuden, 38Stk. Einfachfenster oder Fenstertüren als Holz-Alu Konstruktion; Außenfensterbänke Strangpressprofil Alu; Fensterbank-Gleitabschluss für Sichtfassade Alu; Innenfensterbänke sowie Leibungs- und Sturzbretter aus Holz 3-Schichtplatte in Fichte als Wohnsichtqualität.",
+   "procuringEntity": {
+    "name": "HB Gemeinde Brunnthal",
+    "id": "0810289035"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421100",
+      "description": "Installation of doors and windows and related components"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421130",
+       "description": "Installation of doors and windows"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Schulstraße 2",
+      "locality": "Brunnthal",
+      "region": "DE21H",
+      "postalCode": "85649",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28aed8-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fenster und Fenstertüren",
+     "description": "Planungs- und Revisionsunterlagen; Muster; Glas- und Fassadenstatik; Fachunternehmererklärung; Fachbauleitererklärung und Bauüberwachung; Arbeiten im Kontext mit dem Bestandsgebäuden, 38Stk. Einfachfenster oder Fenstertüren als Holz-Alu Konstruktion; Außenfensterbänke Strangpressprofil Alu; Fensterbank-Gleitabschluss für Sichtfassade Alu; Innenfensterbänke sowie Leibungs- und Sturzbretter aus Holz 3-Schichtplatte in Fichte als Wohnsichtqualität.",
+     "contractPeriod": {
+      "startDate": "2027-03-22T00:00:00+01:00",
+      "endDate": "2028-04-16T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "4a17f8a4-1a66-4f53-9ff2-20daafadd963",
+  "version": "01",
+  "title": "Erweiterung Grundschule Brunnthal",
+  "description": "Planungs- und Revisionsunterlagen; Muster; Glas- und Fassadenstatik; Fachunternehmererklärung; Fachbauleitererklärung und Bauüberwachung; Arbeiten im Kontext mit dem Bestandsgebäuden, 38Stk. Einfachfenster oder Fenstertüren als Holz-Alu Konstruktion; Außenfensterbänke Strangpressprofil Alu; Fensterbank-Gleitabschluss für Sichtfassade Alu; Innenfensterbänke sowie Leibungs- und Sturzbretter aus Holz 3-Schichtplatte in Fichte als Wohnsichtqualität.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "45421100",
+   "45421130"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fenster und Fenstertüren",
+    "description": "Planungs- und Revisionsunterlagen; Muster; Glas- und Fassadenstatik; Fachunternehmererklärung; Fachbauleitererklärung und Bauüberwachung; Arbeiten im Kontext mit dem Bestandsgebäuden, 38Stk. Einfachfenster oder Fenstertüren als Holz-Alu Konstruktion; Außenfensterbänke Strangpressprofil Alu; Fensterbank-Gleitabschluss für Sichtfassade Alu; Innenfensterbänke sowie Leibungs- und Sturzbretter aus Holz 3-Schichtplatte in Fichte als Wohnsichtqualität.",
+    "cpv": [
+     "45421100",
+     "45421130"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-22+01:00",
+    "plannedEnd": "2028-04-16+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Eignung zur Berufsausübung: Befähigung zur Berufsausübung einschließlich Auflagen hinsichtlich der Eintragung in einem Berufs- oder Handelsregister.\n\n• Angabe zur Mitgliedschaft bei der Berufsgenossenschaft: Die Bieter, deren Angebote in die engere Wahl kommen, haben auf gesondertes Verlangen eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, eine Unbedenklichkeitsbescheinigung des Finanzamts sowie eine Freistellungsbescheinigung nach § 48 EStG vorzulegen.\n• Angaben zu Eintragungen im Berufs- oder Handelsregister des Sitzes oder Wohnsitzes des Unternehmens (nicht älter als 3 Monate). Die Bieter, deren Angebote in die engere Wahl kommen, haben auf gesondertes Verlangen eine Gewerbeanmeldung, einen nicht als 3 Monate älterer Auszug aus dem Gewerbezentralregister und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer bzw. sowie einen Berufs-/Handelsregisterauszug vorzulegen.\n• Angaben, zu Insolvenzverfahren und Liquidation: Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet. Alternativ Erklärung, dass ein Insolvenzplan rechtskräftig bestätigt wurde, welcher auf Verlangen vorgelegt wird.\n• Die Eigenerklärung über das Nichtvorliegen von Ausschlussgründen wird durch den Namen des Verantwortlichen in Druckbuchstaben im Angebot mit abgegeben. Sofern eine Bietergemeinschaft gebildet werden soll, muss die Eigenerklärung über die Eintragung im Handelsregister/in der Handwerksrolle oder Auszug aus dem Berufsregister, sofern eine Eintragspflicht besteht, von jedem Mitglied eingereicht werden. Bei Einsatz von Unterauftragnehmer (Nachunternehmen) sind auf gesondertes Verlangen die Eigenerklärungen auch für diese abzugeben. Sind die Unterauftragnehmer(Nachunternehmen) präqualifiziert, reicht die Angabe der PQ-Nummer, unter der diese in der Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) geführt werden."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Wirtschaftliche und finanzielle Leistungsfähigkeit: Auflistung und kurze Beschreibung der Eignungskriterien: Als Eigenerklärung vorzulegen:\n\n• Erklärung über den Gesamtumsatz (netto) des Bieters in den letzten 3 abgeschlossenen Geschäftsjahren, Bauleistungen und andere Leistungen betreffend, die mit der zu vergebenden Leistung vergleichbar sind. \n• Nachweis der Versicherung über eine Berufshaftpflichtversicherungsdeckung bzw. eine schriftliche Erklärung des Versicherers zur Erhöhung der Berufshaftpflichtversicherung im Auftragsfall muss den Angebotsunterlagen beiliegen. Sofern Bietergemeinschaften gebildet werden sollen, sind die oben aufgeführten Angaben und Formalitäten von jedem Mitglied zu erbringen. Bei Unterauftragnehmern (Nachunternehmen) sind die Eigenerklärungen auch für diese abzugeben. Sind die Unterauftragnehmer(Nachunternehmen) präqualifiziert, reicht die Angabe der PQ-Nummer, unter der diese in der Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) geführt werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistungen gemäß Besonderen Vertragsbedingungen"
+    }
+   }
+  ]
+ }
+}

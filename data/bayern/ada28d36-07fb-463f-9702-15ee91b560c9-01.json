@@ -5,14 +5,14 @@
   "noticeId": "ada28d36-07fb-463f-9702-15ee91b560c9",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ada28d36-07fb-463f-9702-15ee91b560c9",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:ada28d36-07fb-463f-9702-15ee91b560c9-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:ada28d36-07fb-463f-9702-15ee91b560c9-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/ada28d36-07fb-463f-9702-15ee91b560c9?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Pfosten-Riegel-Fassade",
   "buyer": "Wohnbau Stadt Coburg GmbH",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE243"
   ],
-  "deadline": null,
+  "deadline": "2026-11-27T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -192,5 +192,67 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ada28d36-07fb-463f-9702-15ee91b560c9",
+  "version": "01",
+  "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Pfosten-Riegel-Fassade",
+  "description": "Pfosten-Riegel-Fassade",
+  "procedureType": "open",
+  "nuts": [
+   "DE243"
+  ],
+  "cpv": [
+   "45443000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Pfosten-Riegel-Fassade",
+    "description": "Die in diesem Leistungsverzeichnis beschriebenen Leistungen umfassen:\n- ca. 650 m² Pfosten-Riegel-Fassade",
+    "cpv": [
+     "45443000"
+    ],
+    "nuts": [
+     "DE243"
+    ],
+    "deadline": "2026-11-27T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-03+01:00",
+    "plannedEnd": "2028-03-14+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a15d2f1376-21debec5404b039f"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a15d2f1376-21debec5404b039f"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a15d2f1376-21debec5404b039f"
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a15d2f1376-21debec5404b039f"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

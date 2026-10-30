@@ -1,0 +1,251 @@
+{
+ "id": "601d95ff-df7f-4bd7-b2ca-91c5c690546c-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "601d95ff-df7f-4bd7-b2ca-91c5c690546c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=601d95ff-df7f-4bd7-b2ca-91c5c690546c",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:601d95ff-df7f-4bd7-b2ca-91c5c690546c-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:601d95ff-df7f-4bd7-b2ca-91c5c690546c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/601d95ff-df7f-4bd7-b2ca-91c5c690546c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "6141-14 Umbau und Erweiterung Bürgersaal in Geisenhausen, Gewerk 2418-310- Estricharbeiten",
+  "buyer": "Markt Geisenhausen",
+  "cpv": [
+   "45262320",
+   "45262321"
+  ],
+  "nuts": [
+   "DE227"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-293b0dac-4c08-4abb-ab84-57df91fa1338",
+  "id": "601d95ff-df7f-4bd7-b2ca-91c5c690546c",
+  "date": "2026-10-16T02:11:26Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Geisenhausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-Identifikationsnummer: DE 128 969 312",
+     "legalName": "Markt Geisenhausen"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 6",
+     "locality": "Geisenhausen",
+     "region": "DE227",
+     "postalCode": "84144",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierungsbezirk Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierungsbezirk Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "N3Bau GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE363816194",
+     "legalName": "N3Bau GmbH"
+    },
+    "address": {
+     "streetAddress": "Schletterstraße 88",
+     "locality": "Nalbach",
+     "region": "DEC04",
+     "postalCode": "66809",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Geisenhausen",
+   "id": "USt-Identifikationsnummer: DE 128 969 312",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Markt Geisenhausen"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 6",
+    "locality": "Geisenhausen",
+    "region": "DE227",
+    "postalCode": "84144",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "293b0dac-4c08-4abb-ab84-57df91fa1338",
+   "title": "6141-14 Umbau und Erweiterung Bürgersaal in Geisenhausen, Gewerk 2418-310- Estricharbeiten",
+   "description": "Trocken- und Innenausbauarbeiten bestehend aus:\n- Ca. 1300m² Calciumsalfatestrich \n- Ca. 180m² Zement-Heizestrich",
+   "procuringEntity": {
+    "name": "Markt Geisenhausen",
+    "id": "USt-Identifikationsnummer: DE 128 969 312"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262320",
+      "description": "Screed works"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262321",
+       "description": "Floor-screed works"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Marktplatz 6",
+      "locality": "Geisenhausen",
+      "region": "DE227",
+      "postalCode": "84144",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "N3Bau GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "N3Bau GmbH"
+     },
+     "address": {
+      "streetAddress": "Schletterstraße 88",
+      "locality": "Nalbach",
+      "region": "DEC04",
+      "postalCode": "66809",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Estricharbeiten",
+     "description": "Trocken- und Innenausbauarbeiten bestehend aus:\n- Ca. 1300m² Calciumsalfatestrich \n- Ca. 180m² Zement-Heizestrich",
+     "contractPeriod": {
+      "startDate": "2026-11-12T00:00:00+01:00",
+      "endDate": "2027-02-27T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-05T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 31220,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-04T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "601d95ff-df7f-4bd7-b2ca-91c5c690546c",
+  "version": "01",
+  "title": "6141-14 Umbau und Erweiterung Bürgersaal in Geisenhausen, Gewerk 2418-310- Estricharbeiten",
+  "description": "Trocken- und Innenausbauarbeiten bestehend aus:\n- Ca. 1300m² Calciumsalfatestrich \n- Ca. 180m² Zement-Heizestrich",
+  "procedureType": "open",
+  "nuts": [
+   "DE227"
+  ],
+  "cpv": [
+   "45262320",
+   "45262321"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Estricharbeiten",
+    "description": "Trocken- und Innenausbauarbeiten bestehend aus:\n- Ca. 1300m² Calciumsalfatestrich \n- Ca. 180m² Zement-Heizestrich",
+    "cpv": [
+     "45262320",
+     "45262321"
+    ],
+    "nuts": [
+     "DE227"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-12+01:00",
+    "plannedEnd": "2027-02-27+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

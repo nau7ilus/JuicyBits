@@ -1,0 +1,724 @@
+{
+ "id": "448644df-be0e-4fd7-9c5b-f3de5165127b-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "448644df-be0e-4fd7-9c5b-f3de5165127b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=448644df-be0e-4fd7-9c5b-f3de5165127b",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:448644df-be0e-4fd7-9c5b-f3de5165127b-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:448644df-be0e-4fd7-9c5b-f3de5165127b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/448644df-be0e-4fd7-9c5b-f3de5165127b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Leasing von Dienstfahrzeugen für die Regierung von Oberbayern",
+  "buyer": "Regierung von Oberbayern",
+  "cpv": [
+   "34100000",
+   "34110000",
+   "34111000",
+   "34111100",
+   "34115000",
+   "34115200"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-03T10:00:00+01:00",
+  "lots": 8
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-43b11691-ac0b-49ab-8745-71557a7398e7",
+  "id": "448644df-be0e-4fd7-9c5b-f3de5165127b",
+  "date": "2026-10-18T07:48:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "663ae97e-c321-415e-bcad-626518f051ed",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "1a86dfa1-e75a-4748-8724-5f436cb4ba9d",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Regierung von Oberbayern",
+   "id": "663ae97e-c321-415e-bcad-626518f051ed",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Regierung von Oberbayern"
+   },
+   "address": {
+    "streetAddress": "Maximilianstr. 39",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80538",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "43b11691-ac0b-49ab-8745-71557a7398e7",
+   "title": "Leasing von Dienstfahrzeugen für die Regierung von Oberbayern",
+   "description": "Leasing (Lose 1-8) von Fahrzeugen (Verbrenner, Hybrid und Elektro) in 8 Losen mit unterschiedlichen Fahrzeugkategorien.",
+   "procuringEntity": {
+    "name": "Regierung von Oberbayern",
+    "id": "663ae97e-c321-415e-bcad-626518f051ed"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "34110000",
+       "description": "Passenger cars"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34111000",
+       "description": "Estate and saloon cars"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "99999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "99999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "99999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "99999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "34110000",
+       "description": "Passenger cars"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34111000",
+       "description": "Estate and saloon cars"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34111100",
+       "description": "Estate cars"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "99999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "34110000",
+       "description": "Passenger cars"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34111000",
+       "description": "Estate and saloon cars"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34111100",
+       "description": "Estate cars"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "99999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0006"
+    },
+    {
+     "id": "LOT-0007",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "34110000",
+       "description": "Passenger cars"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "99999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0007"
+    },
+    {
+     "id": "LOT-0008",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "34115000",
+       "description": "Other passenger cars"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34115200",
+       "description": "Motor vehicles for the transport of fewer than 10 persons"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "99999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0008"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8fc6fa29-f7ff-4ec1-bfa8-9e50eb93b475",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8fc6fa29-f7ff-4ec1-bfa8-9e50eb93b475",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8fc6fa29-f7ff-4ec1-bfa8-9e50eb93b475",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8fc6fa29-f7ff-4ec1-bfa8-9e50eb93b475",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8fc6fa29-f7ff-4ec1-bfa8-9e50eb93b475",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    },
+    {
+     "id": "DOC-0006",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8fc6fa29-f7ff-4ec1-bfa8-9e50eb93b475",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0006"
+     ]
+    },
+    {
+     "id": "DOC-0007",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8fc6fa29-f7ff-4ec1-bfa8-9e50eb93b475",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0007"
+     ]
+    },
+    {
+     "id": "DOC-0008",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8fc6fa29-f7ff-4ec1-bfa8-9e50eb93b475",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0008"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Leasing Kompaktfahrzeugklasse zu Juni 2027",
+     "description": "12 Fahrzeuge, Antriebskonzept reiner Verbrenner, Mild-Hybrid oder Vollhybrid"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Leasing Kompaktfahrzeugklasse zu September 2027",
+     "description": "14 Fahrzeuge, Antriebskonzept reiner Verbrenner, Mild-Hybrid oder Vollhybrid"
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Leasing Kompaktfahrzeugklasse zu Oktober 2027",
+     "description": "17 Fahrzeuge, Antriebskonzept reiner Verbrenner, Mild-Hybrid oder Vollhybrid"
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Leasing Kompaktfahrzeugklasse Kombi Plug-In-Hybrid",
+     "description": "4 Fahrzeuge, Ausführung Plug-In-Hybrid"
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Leasing Kompaktfahrzeugklasse Plug-In-Hybrid",
+     "description": "14 Fahrzeuge, Plug-In-Hybrid"
+    },
+    {
+     "id": "LOT-0006",
+     "title": "Leasing Kompaktfahrzeugklasse Elektro",
+     "description": "zwei Fahrzeuge, Ausführung Kombi, Antriebsart rein elektrisch"
+    },
+    {
+     "id": "LOT-0007",
+     "title": "Leasing SUV-Klasse Plug-In-Hybrid",
+     "description": "10 Fahrzeuge, Antriebsvariante Plug-In-Hybrid"
+    },
+    {
+     "id": "LOT-0008",
+     "title": "Leasing Utility Fahrzeug/Hochdachkombi Elektro",
+     "description": "ein Fahrzeug, Antriebsvariante rein elektrisch"
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 8,
+    "maximumLotsAwardedPerSupplier": 8
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "448644df-be0e-4fd7-9c5b-f3de5165127b",
+  "version": "01",
+  "title": "Leasing von Dienstfahrzeugen für die Regierung von Oberbayern",
+  "description": "Leasing (Lose 1-8) von Fahrzeugen (Verbrenner, Hybrid und Elektro) in 8 Losen mit unterschiedlichen Fahrzeugkategorien.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "34100000",
+   "34110000",
+   "34111000",
+   "34111100",
+   "34115000",
+   "34115200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Leasing Kompaktfahrzeugklasse zu Juni 2027",
+    "description": "12 Fahrzeuge, Antriebskonzept reiner Verbrenner, Mild-Hybrid oder Vollhybrid",
+    "cpv": [
+     "34100000",
+     "34110000",
+     "34111000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/3761c36c-12a3-4d15-bb6e-8d7e71f28f6d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Leasing Kompaktfahrzeugklasse zu September 2027",
+    "description": "14 Fahrzeuge, Antriebskonzept reiner Verbrenner, Mild-Hybrid oder Vollhybrid",
+    "cpv": [
+     "34100000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/3761c36c-12a3-4d15-bb6e-8d7e71f28f6d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Leasing Kompaktfahrzeugklasse zu Oktober 2027",
+    "description": "17 Fahrzeuge, Antriebskonzept reiner Verbrenner, Mild-Hybrid oder Vollhybrid",
+    "cpv": [
+     "34100000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/3761c36c-12a3-4d15-bb6e-8d7e71f28f6d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Leasing Kompaktfahrzeugklasse Kombi Plug-In-Hybrid",
+    "description": "4 Fahrzeuge, Ausführung Plug-In-Hybrid",
+    "cpv": [
+     "34100000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/3761c36c-12a3-4d15-bb6e-8d7e71f28f6d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Leasing Kompaktfahrzeugklasse Plug-In-Hybrid",
+    "description": "14 Fahrzeuge, Plug-In-Hybrid",
+    "cpv": [
+     "34100000",
+     "34110000",
+     "34111000",
+     "34111100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/3761c36c-12a3-4d15-bb6e-8d7e71f28f6d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0006",
+    "title": "Leasing Kompaktfahrzeugklasse Elektro",
+    "description": "zwei Fahrzeuge, Ausführung Kombi, Antriebsart rein elektrisch",
+    "cpv": [
+     "34100000",
+     "34110000",
+     "34111000",
+     "34111100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/3761c36c-12a3-4d15-bb6e-8d7e71f28f6d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0007",
+    "title": "Leasing SUV-Klasse Plug-In-Hybrid",
+    "description": "10 Fahrzeuge, Antriebsvariante Plug-In-Hybrid",
+    "cpv": [
+     "34100000",
+     "34110000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/3761c36c-12a3-4d15-bb6e-8d7e71f28f6d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0008",
+    "title": "Leasing Utility Fahrzeug/Hochdachkombi Elektro",
+    "description": "ein Fahrzeug, Antriebsvariante rein elektrisch",
+    "cpv": [
+     "34100000",
+     "34115000",
+     "34115200"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-03T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/3761c36c-12a3-4d15-bb6e-8d7e71f28f6d/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

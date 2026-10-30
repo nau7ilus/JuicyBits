@@ -1,0 +1,516 @@
+{
+ "id": "88733bf1-7c9a-4202-9e4f-886427e229dc-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "88733bf1-7c9a-4202-9e4f-886427e229dc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=88733bf1-7c9a-4202-9e4f-886427e229dc",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:88733bf1-7c9a-4202-9e4f-886427e229dc-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:88733bf1-7c9a-4202-9e4f-886427e229dc-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/88733bf1-7c9a-4202-9e4f-886427e229dc?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schulmobiliar für Neubau Grundschule Nürnberg-Eibach",
+  "buyer": "Stadt Nürnberg - Zentrale Dienste",
+  "cpv": [
+   "39160000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-23T23:59:00+01:00",
+  "lots": 6
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c1622867-4132-4e8a-b0ec-630b7fa16620",
+  "id": "88733bf1-7c9a-4202-9e4f-886427e229dc",
+  "date": "2026-10-23T02:08:58Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg - Zentrale Dienste",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "371db3d0-6d09-473b-9b49-7f540709d97f",
+     "legalName": "Stadt Nürnberg - Zentrale Dienste"
+    },
+    "address": {
+     "streetAddress": "Winklerstr. 33",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90403",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "855daf8c-fe9f-4b20-b84c-8e495602d628",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Nürnberg - Zentrale Dienste (ZD/3)",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "a9852b42-30a1-45ec-9d1c-d4e0b900bb2e",
+     "legalName": "Stadt Nürnberg - Zentrale Dienste (ZD/3)"
+    },
+    "address": {
+     "streetAddress": "Winklerstr. 33",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90403",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg - Zentrale Dienste",
+   "id": "371db3d0-6d09-473b-9b49-7f540709d97f",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg - Zentrale Dienste"
+   },
+   "address": {
+    "streetAddress": "Winklerstr. 33",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90403",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c1622867-4132-4e8a-b0ec-630b7fa16620",
+   "title": "Schulmobiliar für Neubau Grundschule Nürnberg-Eibach",
+   "description": "Schulmobiliar für Neubau Grundschule Nürnberg-Eibach",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg - Zentrale Dienste",
+    "id": "371db3d0-6d09-473b-9b49-7f540709d97f"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90451",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90451",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90451",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90451",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90451",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90451",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0006"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    },
+    {
+     "id": "DOC-0006",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0006"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Whiteboards",
+     "description": "Whiteboards"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "(Schüler-)Tische",
+     "description": "(Schüler-)Tische"
+    },
+    {
+     "id": "LOT-0003",
+     "title": "(Schüler-)stühle",
+     "description": "(Schüler-)stühle"
+    },
+    {
+     "id": "LOT-0004",
+     "title": "(Halb-)Schränke ",
+     "description": "(Halb-)Schränke "
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Tische Lehrerarbeitsplatz",
+     "description": "Tische Lehrerarbeitsplatz"
+    },
+    {
+     "id": "LOT-0006",
+     "title": "Lounge Möbel\nAlle Polstermöbel müssen schwer entflammbar sein",
+     "description": "Lounge Möbel"
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 6,
+    "maximumLotsAwardedPerSupplier": 6
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "88733bf1-7c9a-4202-9e4f-886427e229dc",
+  "version": "01",
+  "title": "Schulmobiliar für Neubau Grundschule Nürnberg-Eibach",
+  "description": "Schulmobiliar für Neubau Grundschule Nürnberg-Eibach",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "39160000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Whiteboards",
+    "description": "Whiteboards",
+    "cpv": [
+     "39160000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67/suitabilitycriteria\n\nKopie des Nachweises (nicht älter als 12 Monate, bezogen auf die Angebotsabgabefrist) Ihres Eintrags in das Handelsregister bzw. des Eintrags in das Verzeichnis der zulassungsfreien Handwerksgewerbe oder eine Kopie des Nachweises über die Eintragung in das Berufs- und/oder Handelsregister nach Maßgabe der Rechtsvorschriften des Staates der Europäischen Union, in dem das Unternehmen niedergelassen ist.\n\nEigenerklärung, dass die in § 123 GWB genannten Ausschlussgründe nicht zutreffen (rechtskräftige Verurteilung oder rechtskräftige Festsetzung einer Geldbuße bezüglich der aufgeführten Tatbestände; ggf. Nachweis zur Heilung nach § 125 GWB).\n\nEigenerklärung, dass die in § 124 GWB genannten Ausschlussgründe nicht zutreffen (ggf. Nachweis zur Heilung nach § 125 GWB).\n\nErklärung, dass der Bieter eine marktübliche Berufshaftpflichtversicherung oder Betriebshaftpflichtversicherung spätestens zum Ausführungsbeginn abgeschlossen haben wird und auch während der gesamten Vertragslaufzeit aufrechterhält. Marktüblich ist ein Versicherungsschutz mit folgenden Mindestumfang, der mit der Erklärung bestätigt wird:\n\nMindestumfang:\nSachschäden 3.500.000 EUR;\nPersonenschäden 2.500.000 EUR;\n\nRussland-Erklärung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "(Schüler-)Tische",
+    "description": "(Schüler-)Tische",
+    "cpv": [
+     "39160000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67/suitabilitycriteria\n\nKopie des Nachweises (nicht älter als 12 Monate, bezogen auf die Angebotsabgabefrist) Ihres Eintrags in das Handelsregister bzw. des Eintrags in das Verzeichnis der zulassungsfreien Handwerksgewerbe oder eine Kopie des Nachweises über die Eintragung in das Berufs- und/oder Handelsregister nach Maßgabe der Rechtsvorschriften des Staates der Europäischen Union, in dem das Unternehmen niedergelassen ist.\n\nEigenerklärung, dass die in § 123 GWB genannten Ausschlussgründe nicht zutreffen (rechtskräftige Verurteilung oder rechtskräftige Festsetzung einer Geldbuße bezüglich der aufgeführten Tatbestände; ggf. Nachweis zur Heilung nach § 125 GWB).\n\nEigenerklärung, dass die in § 124 GWB genannten Ausschlussgründe nicht zutreffen (ggf. Nachweis zur Heilung nach § 125 GWB).\n\nErklärung, dass der Bieter eine marktübliche Berufshaftpflichtversicherung oder Betriebshaftpflichtversicherung spätestens zum Ausführungsbeginn abgeschlossen haben wird und auch während der gesamten Vertragslaufzeit aufrechterhält. Marktüblich ist ein Versicherungsschutz mit folgenden Mindestumfang, der mit der Erklärung bestätigt wird:\n\nMindestumfang:\nSachschäden 3.500.000 EUR;\nPersonenschäden 2.500.000 EUR;\n\nRussland-Erklärung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "(Schüler-)stühle",
+    "description": "(Schüler-)stühle",
+    "cpv": [
+     "39160000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67/suitabilitycriteria\n\nKopie des Nachweises (nicht älter als 12 Monate, bezogen auf die Angebotsabgabefrist) Ihres Eintrags in das Handelsregister bzw. des Eintrags in das Verzeichnis der zulassungsfreien Handwerksgewerbe oder eine Kopie des Nachweises über die Eintragung in das Berufs- und/oder Handelsregister nach Maßgabe der Rechtsvorschriften des Staates der Europäischen Union, in dem das Unternehmen niedergelassen ist.\n\nEigenerklärung, dass die in § 123 GWB genannten Ausschlussgründe nicht zutreffen (rechtskräftige Verurteilung oder rechtskräftige Festsetzung einer Geldbuße bezüglich der aufgeführten Tatbestände; ggf. Nachweis zur Heilung nach § 125 GWB).\n\nEigenerklärung, dass die in § 124 GWB genannten Ausschlussgründe nicht zutreffen (ggf. Nachweis zur Heilung nach § 125 GWB).\n\nErklärung, dass der Bieter eine marktübliche Berufshaftpflichtversicherung oder Betriebshaftpflichtversicherung spätestens zum Ausführungsbeginn abgeschlossen haben wird und auch während der gesamten Vertragslaufzeit aufrechterhält. Marktüblich ist ein Versicherungsschutz mit folgenden Mindestumfang, der mit der Erklärung bestätigt wird:\n\nMindestumfang:\nSachschäden 3.500.000 EUR;\nPersonenschäden 2.500.000 EUR;\n\nRussland-Erklärung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "(Halb-)Schränke",
+    "description": "(Halb-)Schränke",
+    "cpv": [
+     "39160000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67/suitabilitycriteria\n\nKopie des Nachweises (nicht älter als 12 Monate, bezogen auf die Angebotsabgabefrist) Ihres Eintrags in das Handelsregister bzw. des Eintrags in das Verzeichnis der zulassungsfreien Handwerksgewerbe oder eine Kopie des Nachweises über die Eintragung in das Berufs- und/oder Handelsregister nach Maßgabe der Rechtsvorschriften des Staates der Europäischen Union, in dem das Unternehmen niedergelassen ist.\n\nEigenerklärung, dass die in § 123 GWB genannten Ausschlussgründe nicht zutreffen (rechtskräftige Verurteilung oder rechtskräftige Festsetzung einer Geldbuße bezüglich der aufgeführten Tatbestände; ggf. Nachweis zur Heilung nach § 125 GWB).\n\nEigenerklärung, dass die in § 124 GWB genannten Ausschlussgründe nicht zutreffen (ggf. Nachweis zur Heilung nach § 125 GWB).\n\nErklärung, dass der Bieter eine marktübliche Berufshaftpflichtversicherung oder Betriebshaftpflichtversicherung spätestens zum Ausführungsbeginn abgeschlossen haben wird und auch während der gesamten Vertragslaufzeit aufrechterhält. Marktüblich ist ein Versicherungsschutz mit folgenden Mindestumfang, der mit der Erklärung bestätigt wird:\n\nMindestumfang:\nSachschäden 3.500.000 EUR;\nPersonenschäden 2.500.000 EUR;\n\nRussland-Erklärung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Tische Lehrerarbeitsplatz",
+    "description": "Tische Lehrerarbeitsplatz",
+    "cpv": [
+     "39160000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67/suitabilitycriteria\n\nKopie des Nachweises (nicht älter als 12 Monate, bezogen auf die Angebotsabgabefrist) Ihres Eintrags in das Handelsregister bzw. des Eintrags in das Verzeichnis der zulassungsfreien Handwerksgewerbe oder eine Kopie des Nachweises über die Eintragung in das Berufs- und/oder Handelsregister nach Maßgabe der Rechtsvorschriften des Staates der Europäischen Union, in dem das Unternehmen niedergelassen ist.\n\nEigenerklärung, dass die in § 123 GWB genannten Ausschlussgründe nicht zutreffen (rechtskräftige Verurteilung oder rechtskräftige Festsetzung einer Geldbuße bezüglich der aufgeführten Tatbestände; ggf. Nachweis zur Heilung nach § 125 GWB).\n\nEigenerklärung, dass die in § 124 GWB genannten Ausschlussgründe nicht zutreffen (ggf. Nachweis zur Heilung nach § 125 GWB).\n\nErklärung, dass der Bieter eine marktübliche Berufshaftpflichtversicherung oder Betriebshaftpflichtversicherung spätestens zum Ausführungsbeginn abgeschlossen haben wird und auch während der gesamten Vertragslaufzeit aufrechterhält. Marktüblich ist ein Versicherungsschutz mit folgenden Mindestumfang, der mit der Erklärung bestätigt wird:\n\nMindestumfang:\nSachschäden 3.500.000 EUR;\nPersonenschäden 2.500.000 EUR;\n\nRussland-Erklärung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0006",
+    "title": "Lounge Möbel\nAlle Polstermöbel müssen schwer entflammbar sein",
+    "description": "Lounge Möbel",
+    "cpv": [
+     "39160000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/f0093ab9-6154-47b7-9f61-d124b86fdf67/suitabilitycriteria\n\nKopie des Nachweises (nicht älter als 12 Monate, bezogen auf die Angebotsabgabefrist) Ihres Eintrags in das Handelsregister bzw. des Eintrags in das Verzeichnis der zulassungsfreien Handwerksgewerbe oder eine Kopie des Nachweises über die Eintragung in das Berufs- und/oder Handelsregister nach Maßgabe der Rechtsvorschriften des Staates der Europäischen Union, in dem das Unternehmen niedergelassen ist.\n\nEigenerklärung, dass die in § 123 GWB genannten Ausschlussgründe nicht zutreffen (rechtskräftige Verurteilung oder rechtskräftige Festsetzung einer Geldbuße bezüglich der aufgeführten Tatbestände; ggf. Nachweis zur Heilung nach § 125 GWB).\n\nEigenerklärung, dass die in § 124 GWB genannten Ausschlussgründe nicht zutreffen (ggf. Nachweis zur Heilung nach § 125 GWB).\n\nErklärung, dass der Bieter eine marktübliche Berufshaftpflichtversicherung oder Betriebshaftpflichtversicherung spätestens zum Ausführungsbeginn abgeschlossen haben wird und auch während der gesamten Vertragslaufzeit aufrechterhält. Marktüblich ist ein Versicherungsschutz mit folgenden Mindestumfang, der mit der Erklärung bestätigt wird:\n\nMindestumfang:\nSachschäden 3.500.000 EUR;\nPersonenschäden 2.500.000 EUR;\n\nRussland-Erklärung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

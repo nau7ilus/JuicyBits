@@ -5,14 +5,14 @@
   "noticeId": "521802c7-2a8e-452b-bd5a-127f4cbef8c2",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=521802c7-2a8e-452b-bd5a-127f4cbef8c2",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:521802c7-2a8e-452b-bd5a-127f4cbef8c2-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:521802c7-2a8e-452b-bd5a-127f4cbef8c2-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/521802c7-2a8e-452b-bd5a-127f4cbef8c2?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Dienstleistung bzw. Beratung im Bereich Datenschutz und Compliance",
   "buyer": "Max-Planck-Institut für Psychiatrie",
   "cpv": [
@@ -254,5 +254,108 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "521802c7-2a8e-452b-bd5a-127f4cbef8c2",
+  "version": "01",
+  "title": "Dienstleistung bzw. Beratung im Bereich Datenschutz und Compliance",
+  "description": "Es ist beabsichtigt, einen Marktteilnehmer mit der Aufgabe des Datenschutzkoordinators bzw. als Berater für Compliance Themen zu betrauen.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "79417000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Datenschutzkoordinator",
+    "description": "Ziel ist die rechtskonforme, transparente und risikoorientierte Verarbeitung personenbezogener Daten sowie die nachhaltige Einbindung des Datenschutzes in die Organisations-strukturen des Institutes und die Strukturen des Integrierten Managements sowie die Stärkung der MPI-eigenen Datenschutzkoordination.",
+    "cpv": [
+     "79417000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 72,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Projektleitung/Stellvertretung",
+      "description": "gem. Dokument E 1, Gewichtung in Prozent der Leistungspunktzahl",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": "Fachkonzept",
+      "description": "gem. Dokument E1, Gewichtung in Prozent der Leistungspunktzahl",
+      "weight": 75
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "gem. Wirtschaftlichkeitskennzahl wie in Dokument E1 beschrieben",
+      "weight": 0
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Complianceberatung",
+    "description": "Ziel ist die Entwicklung und Adaption einer adäquaten Compliance-Organisation sowie Implementierung und Adaption entsprechender Strukturen. Außerdem die Schaffung bzw. Überarbeitung interner Richtlinien, mit der Zielsetzung, die Patientenversorgung rechtlich abzusichern, straf- und bußgeldbewehrte Regelungen einzuhalten, deren Missachtung zur persönlichen Haftung der verantwortlich handelnden Personen und letztlich zur Schädi-gung des Unternehmens führen kann. \nDes Weiteren die nachhaltige Einbindung des Compliancemanagements in die Organisati-onsstrukturen des Institutes und die Strukturen des Integrierten Managements.",
+    "cpv": [
+     "79417000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 72,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Projektleitung/Stellvertretung",
+      "description": "gem. Dokument E 1, Gewichtung in Prozent der Leistungspunktzahl",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": "Fachkonzept",
+      "description": "gem. Dokument E 1, Gewichtung in Prozent der Leistungspunktzahl",
+      "weight": 75
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "gem. Wirtschaftlichkeitskennzahl wie in Dokument E1 beschrieben",
+      "weight": 0
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

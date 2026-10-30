@@ -1,0 +1,228 @@
+{
+ "id": "a32eca35-a53e-4922-8b73-0daadfbf0240-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "a32eca35-a53e-4922-8b73-0daadfbf0240",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a32eca35-a53e-4922-8b73-0daadfbf0240",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:a32eca35-a53e-4922-8b73-0daadfbf0240-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:a32eca35-a53e-4922-8b73-0daadfbf0240-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a32eca35-a53e-4922-8b73-0daadfbf0240?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Entwässerung BA1",
+  "buyer": "Landratsamt Landshut Kreiseigener Hochbau",
+  "cpv": [
+   "45232400",
+   "45232450",
+   "45231100",
+   "45233222"
+  ],
+  "nuts": [
+   "DE227"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bf307ccb-5716-4cee-9066-0fa5c8770479",
+  "id": "a32eca35-a53e-4922-8b73-0daadfbf0240",
+  "date": "2026-10-22T02:08:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landshut Kreiseigener Hochbau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09274",
+     "legalName": "Landratsamt Landshut Kreiseigener Hochbau"
+    },
+    "address": {
+     "streetAddress": "Josef-Neumeier-Allee 1",
+     "locality": "Essenbach",
+     "region": "DE227",
+     "postalCode": "84051",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern\nVergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern\nVergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstrasse 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landshut Kreiseigener Hochbau",
+   "id": "09274",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landshut Kreiseigener Hochbau"
+   },
+   "address": {
+    "streetAddress": "Josef-Neumeier-Allee 1",
+    "locality": "Essenbach",
+    "region": "DE227",
+    "postalCode": "84051",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bf307ccb-5716-4cee-9066-0fa5c8770479",
+   "title": "Entwässerung BA1",
+   "description": "Die ausgeschriebenen Leistungen umfassen den Neubau von Schmutz- und Regenwasserkanälen sowie den Neubau von Versickerungseinrichtungen im Zuge des Neubaus der Realschule Vilsbiburg.\n\nHauptmengen Erdarbeiten/Oberflächen\n-\t1800 m³ Grabenaushub\n-\t820 m³ Baugrubenaushub\n-\t20 m² Asphaltaufbruch/-wiederherstellung\n\nHauptmengen Schmutzwasser\n-\t30 m Anschlussleitungen DN100 bis DN150 (PP)\n-\t180 m Sammelleitung DN 200 (PP)\n-\t8 St Schächte DN1000 (Stb)\n\nHauptmengen Regenwasser\n-\t34 St Regenstandrohre aus Guss\n-\t330 m Anschlussleitungen DN125 bis DN150 (PP)\n-\t300 m Sammelleitung DN250 bis DN400 (PP)\n-\t7 St Schächte DN1000 (Stb)\n-\t1 St Schacht DN600 (PP)\n\nHauptmengen Versickerungsanlage\n-\tFüllkörperrigole aus Kunststoffelementen mit den Maßen 10 x 16 x 2m\n-\t2 Stück Absetzschächte DN1500 mit Tauchwand, T bis 5,0 m\n\nSonstiges\nTV-Inspektion und Dichtheitsprüfung durch Fachfirma\n",
+   "procuringEntity": {
+    "name": "Landratsamt Landshut Kreiseigener Hochbau",
+    "id": "09274"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232400",
+      "description": "Sewer construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45232450",
+       "description": "Drainage construction works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45231100",
+       "description": "General construction work for pipelines"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45233222",
+       "description": "Paving and asphalting works"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Amselstraße 6",
+      "locality": "Vilsbiburg",
+      "region": "DE227",
+      "postalCode": "84137",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c20e-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Entwässerung BA1",
+     "description": "Die ausgeschriebenen Leistungen umfassen den Neubau von Schmutz- und Regenwasserkanälen sowie den Neubau von Versickerungseinrichtungen im Zuge des Neubaus der Realschule Vilsbiburg.\n\nHauptmengen Erdarbeiten/Oberflächen\n-\t1800 m³ Grabenaushub\n-\t820 m³ Baugrubenaushub\n-\t20 m² Asphaltaufbruch/-wiederherstellung\n\nHauptmengen Schmutzwasser\n-\t30 m Anschlussleitungen DN100 bis DN150 (PP)\n-\t180 m Sammelleitung DN 200 (PP)\n-\t8 St Schächte DN1000 (Stb)\n\nHauptmengen Regenwasser\n-\t34 St Regenstandrohre aus Guss\n-\t330 m Anschlussleitungen DN125 bis DN150 (PP)\n-\t300 m Sammelleitung DN250 bis DN400 (PP)\n-\t7 St Schächte DN1000 (Stb)\n-\t1 St Schacht DN600 (PP)\n\nHauptmengen Versickerungsanlage\n-\tFüllkörperrigole aus Kunststoffelementen mit den Maßen 10 x 16 x 2m\n-\t2 Stück Absetzschächte DN1500 mit Tauchwand, T bis 5,0 m\n\nSonstiges\nTV-Inspektion und Dichtheitsprüfung durch Fachfirma\n",
+     "contractPeriod": {
+      "startDate": "2027-04-27T00:00:00+02:00",
+      "endDate": "2027-06-25T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a32eca35-a53e-4922-8b73-0daadfbf0240",
+  "version": "01",
+  "title": "Entwässerung BA1",
+  "description": "Die ausgeschriebenen Leistungen umfassen den Neubau von Schmutz- und Regenwasserkanälen sowie den Neubau von Versickerungseinrichtungen im Zuge des Neubaus der Realschule Vilsbiburg.\n\nHauptmengen Erdarbeiten/Oberflächen\n-\t1800 m³ Grabenaushub\n-\t820 m³ Baugrubenaushub\n-\t20 m² Asphaltaufbruch/-wiederherstellung\n\nHauptmengen Schmutzwasser\n-\t30 m Anschlussleitungen DN100 bis DN150 (PP)\n-\t180 m Sammelleitung DN 200 (PP)\n-\t8 St Schächte DN1000 (Stb)\n\nHauptmengen Regenwasser\n-\t34 St Regenstandrohre aus Guss\n-\t330 m Anschlussleitungen DN125 bis DN150 (PP)\n-\t300 m Sammelleitung DN250 bis DN400 (PP)\n-\t7 St Schächte DN1000 (Stb)\n-\t1 St Schacht DN600 (PP)\n\nHauptmengen Versickerungsanlage\n-\tFüllkörperrigole aus Kunststoffelementen mit den Maßen 10 x 16 x 2m\n-\t2 Stück Absetzschächte DN1500 mit Tauchwand, T bis 5,0 m\n\nSonstiges\nTV-Inspektion und Dichtheitsprüfung durch Fachfirma",
+  "procedureType": "open",
+  "nuts": [
+   "DE227"
+  ],
+  "cpv": [
+   "45232400",
+   "45232450",
+   "45231100",
+   "45233222"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Entwässerung BA1",
+    "description": "Die ausgeschriebenen Leistungen umfassen den Neubau von Schmutz- und Regenwasserkanälen sowie den Neubau von Versickerungseinrichtungen im Zuge des Neubaus der Realschule Vilsbiburg.\n\nHauptmengen Erdarbeiten/Oberflächen\n-\t1800 m³ Grabenaushub\n-\t820 m³ Baugrubenaushub\n-\t20 m² Asphaltaufbruch/-wiederherstellung\n\nHauptmengen Schmutzwasser\n-\t30 m Anschlussleitungen DN100 bis DN150 (PP)\n-\t180 m Sammelleitung DN 200 (PP)\n-\t8 St Schächte DN1000 (Stb)\n\nHauptmengen Regenwasser\n-\t34 St Regenstandrohre aus Guss\n-\t330 m Anschlussleitungen DN125 bis DN150 (PP)\n-\t300 m Sammelleitung DN250 bis DN400 (PP)\n-\t7 St Schächte DN1000 (Stb)\n-\t1 St Schacht DN600 (PP)\n\nHauptmengen Versickerungsanlage\n-\tFüllkörperrigole aus Kunststoffelementen mit den Maßen 10 x 16 x 2m\n-\t2 Stück Absetzschächte DN1500 mit Tauchwand, T bis 5,0 m\n\nSonstiges\nTV-Inspektion und Dichtheitsprüfung durch Fachfirma",
+    "cpv": [
+     "45232400",
+     "45232450",
+     "45231100",
+     "45233222"
+    ],
+    "nuts": [
+     "DE227"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-27+02:00",
+    "plannedEnd": "2027-06-25+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "• Eigenerklärung über den Umsatz (netto) des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre im Tätigkeitsbereich der beschriebenen Leistung unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen. Sofern das Unternehmen noch keine drei Geschäftsjahre am Markt tätig ist, beschränkt sich die Verpflichtung zur Angabe einer Erklärung über den Umsatz auf den Zeitraum der bestehenden Geschäftstätigkeit. \nDer Jahresumsatz muss in den letzten drei Geschäftsjahren mindestens 950.000,00 Euro netto pro Geschäftsjahr betragen (Mindestanforderung). Wird die Mindestanforderung nicht erfüllt, hat dies den Angebotsausschluss zur Folge.\n\n• Die Eigenerklärung über das Nichtvorliegen von Ausschlussgründen wird durch den Namen des Verantwortlichen in Druckbuchstaben im Angebot mit abgegeben.\n\n• Angaben, ob ein Insolvenzverfahren und Liquidation: Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet. Alternativ Erklärung, dass ein Insolvenzplan rechtskräftig bestätigt wurde, welcher auf Verlangen vorgelegt wird.\n\n• Nachweis der Versicherung über eine Berufshaftpflichtversicherungsdeckung bzw. eine schriftliche Erklärung des Versicherers zur Erhöhung der Berufshaftpflichtversicherung im Auftragsfall muss den Bewerbungsunterlagen beiliegen. Die Höhe der Versicherungssumme ergibt sich wie folgt: bei einem Auftragswert bis einschließlich 3 Mio. € eine Deckungssumme für Personenschäden von 2 Mio. € , für sonstige Schäden 2 Mio. € ; bei einem Auftragswert ab 3 Mio. bis einschließlich 10 Mio. € eine Deckungssumme für Personenschäden von 3 Mio. € , für sonstige Schäden 3 Mio. €.\n\nSofern Bietergemeinschaften gebildet werden sollen, sind die oben aufgeführten Angaben und Formalitäten von jedem Mitglied zu erbringen. Die Bieter, deren Angebote in die engere Wahl kommen, haben auf gesondertes Verlangen eine Bestätigung eines vereidigten Wirtschaftsprüfers/Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen vorzulegen. Bei Einsatz von eignungsverleihenden Unterauftragnehmern (Nachunternehmen) sind die Eigenerklärungen auch für diese abzugeben. Sind die Unterauftragnehmer (Nachunternehmen) präqualifiziert, reicht die Angabe der Nummer, unter der diese in der Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) geführt werden."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "• Angaben über die Ausführung von Leistungen in den letzten bis zu fünf abgeschlossenen Kalenderjahren, die mit der zu vergebenden Leistung vergleichbar sind, wobei für die wichtigsten Bauleistungen Bescheinigungen über die ordnungsgemäße Ausführung und das Ergebnis bei Angebotsabgabe beizufügen sind. Die Bieter, deren Angebote in die engere Wahl kommen, haben auf gesondertes Verlangen für die weiteren Referenzleistungen Bescheinigungen über die ordnungsgemäße Ausführung und das Ergebnis in Anlehnung an das den Vergabeunterlagenbeiliegende Muster vorzulegen. Jede der auf gesondertes Verlangen vorzulegenden Referenzleistungen (mindestens drei Stück)muss den Mindestauftragswert von 200.000,00 EUR ohne Umsatzsteuer übersteigen. Bei Einsatz von Unterauftragnehmer (Nachunternehmen)sind die Eigenerklärungen auch für diese abzugeben. Sind die Unterauftragnehmer (Nachunternehmen) präqualifiziert, reicht die Angabe der Nummer, unter der diese in der Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) geführt werden.\n\n• Angaben über die technischen Fachkräfte, sowie die technischen Stellen, welche dem Bieter zum Erbringen der angebotenen Leistung zu Verfügung stehen; insbesondere die mit der Qualitätskontrolle beauftragten, sowie die zur Errichtung des Bauwerks."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Für den Auftrag kommen nur Bieter in Betracht, die bereits Leistungen mit Erfolg ausgeführt haben, die mit der zu vergebenen Leistung vergleichbar sind. Mit dem Angebot ist für die Beurteilung der Eignung vorzulegen:\n\n• Angabe zur Mitgliedschaft bei der Berufsgenossenschaft: Die Bieter, deren Angebote in die engere Wahl kommen, haben auf gesondertes Verlangen eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, eine Unbedenklichkeitsbescheinigung des Finanzamts sowie eine Freistellungsbescheinigung nach § 48 EStG vorzulegen. Die Bieter, deren Angebote in die engere Wahl kommen, haben auf gesondertes Verlangen eine Gewerbeanmeldung, einen nicht als 3 Monate älterer Auszug aus dem Gewerbezentralregister sowie einen Berufs-/Handelsregisterauszug vorzulegen.\n\n• Angaben zur Zahlung von Steuern, Abgaben und Beiträgen zur Sozialversicherung: Erklärung, dass der Bieter seiner Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt hat.\n\n• Angabe, dass nachweislich keine schwere Verfehlung begangen wurde, die die Zuverlässigkeit als Bewerber in Frage stellt, z. B. wirksames Berufsverbot (§ 70 StGB), wirksames vorläufiges Berufsverbot (§ 132a StPO), wirksame Gewerbeuntersagung (§ 35 GewO), rechtskräftiges Urteilinnerhalb der letzten 2 Jahre gegen den Bieter oder Mitarbeiter mit Leitungsaufgaben wegen Mitgliedschaft in einer kriminellen Vereinigung(§129StGB), Geldwäsche (§ 261 StGB), Bestechung (§ 334 StGB), Vorteilsgewährung (§ 333 StGB), Diebstahl (§ 242 StGB),Unterschlagung (§ 246StGB),Erpressung (§ 253 StGB), Betrug (§ 263StGB), Subventionsbetrug (§264 StGB), Kreditbetrug (§ 265b StGB), Untreue (§ 266 StGB),Urkundenfälschung(§267 StGB), Fälschung technischer Aufzeichnungen (§ 268 StGB), Delikte im Zusammenhange mit Insolvenzverfahren(§ 283ff . StGB),wettbewerbsbeschränkende Absprachen bei Ausschreibungen (§ 298 StGB), Bestechung im geschäftlichen Verkehr (§ 299 StGB),Brandstiftung (§306 StGB), Baugefährdung (§ 319 StGB), Gewässer-und Bodenverunreinigung (§§ 324, 324a StGB), unerlaubter Umgang mit gefährlichen Abfällen (§326 StGB), die mit Freiheitsstrafe von mehr als 3 Monaten oder Geldstrafe von mehr als 90 Tagessätzen geahndet wurde. Erklärung, dass der Bieter in den letzten 2 Jahren nicht aufgrund eines Verstoßes gegen Vorschriften, der zu DE Standardformular 02 –Auftragsbekanntmachung 7 /17 einem Eintrag im Gewerbezentralregisterauszug geführt hat, mit einer Freiheitsstrafe von mehr als drei Monaten oder einer Geldstrafe von mehr als 90 Tagessätzen oder einer Geldbuße von mehr als 2 500 EUR belegt worden ist. Ab einer Auftragssumme von 30 000 EUR wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Gewerbezentralregister gem. § 150aGewO beim Bundesamt für Justiz anfordern.\n\n• Eintragung im Berufs- oder Handelsregister des Sitzes oder Wohnsitzes des Unternehmens. \n\nSofern eine Bietergemeinschaft gebildet werden soll, muss die Eigenerklärung über die Eintragung im Handelsregister/in der Handwerksrolle oder Auszug aus dem Berufsregister, sofern eine Eintragspflicht besteht, von jedem Mitglied eingereicht werden. Bei Einsatz von Unterauftragnehmer(Nachunternehmen) sind die Eigenerklärungen auch für diese abzugeben. Sind die Unterauftragnehmer (Nachunternehmen) präqualifiziert, reicht die Angabe der Nummer, unter der diese in der Liste des Vereins für die Präqualifikation von Bauunternehmen e. V.(Präqualifikationsverzeichnis)geführt werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

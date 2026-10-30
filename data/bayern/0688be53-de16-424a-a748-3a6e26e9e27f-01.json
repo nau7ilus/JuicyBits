@@ -217,6 +217,8 @@
   "noticeId": "0688be53-de16-424a-a748-3a6e26e9e27f",
   "version": "01",
   "title": "26DE Objektplanung Gebaeude",
+  "description": "KBM ADBV Energetische Sanierung",
+  "procedureType": "open",
   "nuts": [
    "DE24D"
   ],
@@ -228,6 +230,7 @@
    {
     "id": "LOT-0000",
     "title": "26DE Objektplanung Gebaeude",
+    "description": "KBM ADBV Energetische Sanierung",
     "cpv": [
      "71200000"
     ],
@@ -238,9 +241,25 @@
     "participationDeadline": null,
     "plannedStart": "2026-10-27+01:00",
     "plannedEnd": "2028-09-30+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "gem. Zuschlagskriterien",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "gem. Zuschlagskriterien",
+      "weight": null
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

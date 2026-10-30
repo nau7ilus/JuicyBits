@@ -1,0 +1,156 @@
+{
+ "id": "25954884-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954884",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954884",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954884-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954884-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954884?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schreinerarbeiten/Möbel",
+  "buyer": "Gemeinde Unsleben",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-26T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954884",
+  "id": "25954884",
+  "date": "2026-10-21T07:01:02Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Unsleben",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Unsleben"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Unsleben",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Unsleben"
+   }
+  },
+  "tender": {
+   "title": "Schreinerarbeiten/Möbel",
+   "description": "Schreiner-, Tischlerarbeiten/ Ausbau, Möblierung, Ausstattung",
+   "procuringEntity": {
+    "name": "Gemeinde Unsleben"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "97618 Unsleben",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28C7DD-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schreinerarbeiten/Möbel",
+     "description": "Schreiner-, Tischlerarbeiten/ Ausbau, Möblierung, Ausstattung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25954884",
+  "version": "1",
+  "title": "Schreinerarbeiten/Möbel",
+  "description": "Schreiner-, Tischlerarbeiten/ Ausbau, Möblierung, Ausstattung",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schreinerarbeiten/Möbel",
+    "description": "Schreiner-, Tischlerarbeiten/ Ausbau, Möblierung, Ausstattung",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-26T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "id": "2a395b5a-c804-4954-9a4e-d65b2a8bcf87-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "2a395b5a-c804-4954-9a4e-d65b2a8bcf87",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2a395b5a-c804-4954-9a4e-d65b2a8bcf87",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:2a395b5a-c804-4954-9a4e-d65b2a8bcf87-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:2a395b5a-c804-4954-9a4e-d65b2a8bcf87-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2a395b5a-c804-4954-9a4e-d65b2a8bcf87?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "NKJP_334_Fensterelemente",
+  "buyer": "Bezirk Oberfranken, -namens und im Auftrag der Gesundheitseinrichtungen des Bezirks Oberfranken (GeBO)",
+  "cpv": [
+   "45443000",
+   "45262670",
+   "45421130"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": "2026-11-02T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-05b2b40a-e4f0-476c-ba71-76c4d194e735",
+  "id": "2a395b5a-c804-4954-9a4e-d65b2a8bcf87",
+  "date": "2026-10-22T02:08:52Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bezirk Oberfranken, -namens und im Auftrag der Gesundheitseinrichtungen des Bezirks Oberfranken (GeBO)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE275674178",
+     "legalName": "Bezirk Oberfranken, -namens und im Auftrag der Gesundheitseinrichtungen des Bezirks Oberfranken (GeBO)"
+    },
+    "address": {
+     "streetAddress": "Cottenbacher Str. 23",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95445",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811 335 517",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bezirk Oberfranken, -namens und im Auftrag der Gesundheitseinrichtungen des Bezirks Oberfranken (GeBO)",
+   "id": "DE275674178",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bezirk Oberfranken, -namens und im Auftrag der Gesundheitseinrichtungen des Bezirks Oberfranken (GeBO)"
+   },
+   "address": {
+    "streetAddress": "Cottenbacher Str. 23",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95445",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "05b2b40a-e4f0-476c-ba71-76c4d194e735",
+   "title": "NKJP_334_Fensterelemente",
+   "description": "Lieferung und Montage von Aluminium Fensterelementen und Pfosten/Riegelfassaden",
+   "procuringEntity": {
+    "name": "Bezirk Oberfranken, -namens und im Auftrag der Gesundheitseinrichtungen des Bezirks Oberfranken (GeBO)",
+    "id": "DE275674178"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45443000",
+      "description": "Facade work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421130",
+       "description": "Installation of doors and windows"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Nordring 2",
+      "locality": "Bayreuth",
+      "region": "DE242",
+      "postalCode": "95445",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a065b00a68-1f30cf3fe76c17b0&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "NKJP_334_Fensterelemente",
+     "description": "Planung, Herstellung und Montage von:\n- ca. 176 Stck. Fenster mit Laibungsverkleidung aus Aluminium, teilweise Festverglasung mit Öffnungsflügel und absturzsicherndem Lochblech an der Außenfassade.\n- ca. 15 Stck. Aluminiumtüren, teilweise mit Glas and Außenfassade oder in P+R-Fassade\n- ca. 1000 m2 Pfosten-Riegel Fassade mit Türen, Öffnungsflügeln und abstursicherndem Lochblech.\n- Sonnenschutzarbeiten an P+R-Fassade und Fensterelementen \n- ca. 400 m2 Alu-Fassadenverkleidung vertikal+horizontal inkl. Unterkonstruktion im Eingangsbereich und auf Dach",
+     "contractPeriod": {
+      "startDate": "2027-03-22T00:00:00+01:00",
+      "endDate": "2028-05-12T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "2a395b5a-c804-4954-9a4e-d65b2a8bcf87",
+  "version": "01",
+  "title": "NKJP_334_Fensterelemente",
+  "description": "Lieferung und Montage von Aluminium Fensterelementen und Pfosten/Riegelfassaden",
+  "procedureType": "open",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "45443000",
+   "45262670",
+   "45421130"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "NKJP_334_Fensterelemente",
+    "description": "Planung, Herstellung und Montage von:\n- ca. 176 Stck. Fenster mit Laibungsverkleidung aus Aluminium, teilweise Festverglasung mit Öffnungsflügel und absturzsicherndem Lochblech an der Außenfassade.\n- ca. 15 Stck. Aluminiumtüren, teilweise mit Glas and Außenfassade oder in P+R-Fassade\n- ca. 1000 m2 Pfosten-Riegel Fassade mit Türen, Öffnungsflügeln und abstursicherndem Lochblech.\n- Sonnenschutzarbeiten an P+R-Fassade und Fensterelementen \n- ca. 400 m2 Alu-Fassadenverkleidung vertikal+horizontal inkl. Unterkonstruktion im Eingangsbereich und auf Dach",
+    "cpv": [
+     "45443000",
+     "45262670",
+     "45421130"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": "2026-11-02T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-22+01:00",
+    "plannedEnd": "2028-05-12+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Angaben zu Leistungen (drei Referenzen), die mit\nder\nzu vergebenden Leistung vergleichbar sind. Die\nAnforderung des Nachweises vergleichbarer\nReferenzen gemäß FB 124 Eigenerklärung zur\nEignung gilt auch für präqualifizierte Bieter.\nPräqualifizierte Bieter können sich dazu des\nPQVerzeichnisses bedienen, soweit dort Nachweise\nentsprechend vergleichbarer Referenzen hinterlegt\nsind. Präqualifizierte Bieter sollten prüfen, ob die im\nPQ-Verzeichnis hinterlegten Nachweise\nvergleichbare\nReferenzen betreffen und die Hinterlegung ggf.\nentsprechend anpassen. Alternativ können die\nReferenzen auch mit dem Angebot übermittelt\nwerden. Nimmt der Bieter in Hinblick auf die Kriterien\nfür die wirtschaftliche und finanzielle\nLeistungsfähigkeit im Rahmen einer Eignungsleihe\ndie Kapazitäten anderer Unternehmen in Anspruch,\nmüssen diese gemeinsam für die Auftragsausführung\nhaften; die Haftungserklärung ist gleichzeitig mit der\n\"Verpflichtungserklärung\" abzugeben (siehe\nTeilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "- Angaben zur Verfügbarkeit der für die Ausführung\nder Leistungen erforderlichen Arbeitskräfte"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "- Umsatz des Unternehmens in den letzten drei\nabgeschlossenen Geschäftsjahren, soweit er\nBauleistungen und andere Leistungen betrifft, die mit\nder zu vergebenden Leistung vergleichbar sind unter\nEinschluss des Anteils bei gemeinsam mit anderen\nUnternehmen ausgeführten Leistungen. - Nimmt der\nBieter in Hinblick auf die Kriterien für die\nwirtschaftliche und finanzielle Leistungsfähigkeit im\nRahmen einer Eignungsleihe die Kapazitäten anderer\nUnternehmen in Anspruch, müssen diese\ngemeinsam\nfür die Auftragsausführung haften; die\nHaftungserklärung ist gleichzeitig mit der\n\"Verpflichtungserklärung\" abzugeben (siehe\nTeilnahmebedingungen)."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "- Registereintragungen - Angabe zur Mitgliedschaft\nbei der Berufsgenossenschaft"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

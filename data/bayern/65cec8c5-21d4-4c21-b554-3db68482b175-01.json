@@ -1,0 +1,816 @@
+{
+ "id": "65cec8c5-21d4-4c21-b554-3db68482b175-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "65cec8c5-21d4-4c21-b554-3db68482b175",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=65cec8c5-21d4-4c21-b554-3db68482b175",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:65cec8c5-21d4-4c21-b554-3db68482b175-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:65cec8c5-21d4-4c21-b554-3db68482b175-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/65cec8c5-21d4-4c21-b554-3db68482b175?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45234100",
+   "44321000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE231"
+  ],
+  "deadline": "2026-11-03T09:30:00+01:00",
+  "lots": 10
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5f35f3e2-55ca-4c55-b654-446fe087dd31",
+  "id": "65cec8c5-21d4-4c21-b554-3db68482b175",
+  "date": "2026-10-16T02:11:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5f35f3e2-55ca-4c55-b654-446fe087dd31",
+   "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung",
+   "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0006"
+    },
+    {
+     "id": "LOT-0007",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0007"
+    },
+    {
+     "id": "LOT-0008",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0008"
+    },
+    {
+     "id": "LOT-0009",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0009"
+    },
+    {
+     "id": "LOT-0010",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0010"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    },
+    {
+     "id": "DOC-0006",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0006"
+     ]
+    },
+    {
+     "id": "DOC-0007",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0007"
+     ]
+    },
+    {
+     "id": "DOC-0008",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0008"
+     ]
+    },
+    {
+     "id": "DOC-0009",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0009"
+     ]
+    },
+    {
+     "id": "DOC-0010",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fd1c8113-2427-4911-8203-f5294fd47505",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0010"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 1",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 2",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 3",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.\n",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 4",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 5",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0006",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 6",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0007",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 7",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0008",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 8",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0009",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 9",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.\n",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0010",
+     "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 10",
+     "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.\n",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 10,
+    "maximumLotsAwardedPerSupplier": 10
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "65cec8c5-21d4-4c21-b554-3db68482b175",
+  "version": "01",
+  "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung",
+  "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+  "procedureType": "open",
+  "nuts": [
+   "DE231"
+  ],
+  "cpv": [
+   "45234100",
+   "44321000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 1",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 2",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0003",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 3",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0004",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 4",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0005",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 5",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0006",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 6",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0007",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 7",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0008",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 8",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0009",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 9",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   },
+   {
+    "id": "LOT-0010",
+    "title": "ESTW 5904 Sulzbach-Rosenberg-Hütte - Freihöls, VE 1, KTB, Kabelverlegung - Los 10",
+    "description": "Erneuerung der Stellwerkstechnik in den Bahnhöfen Sulzbach-Rosenberg-Hütte, Luitpoldhütte, Amberg, Hiltersdorf und Freihöls auf der Strecke 5904 Nürnberg - Irrenlohe. Das Vergabepaket umfasst sämtliche Leistungen des Kabeltiefbaus einschließlich der Herstellung von drei Brückenkonsolen, der Ausführung von Signalgründungen sowie der Verlegung der erforderlichen Kabelanlagen zur Anbindung der neuen Stellwerkstechnik.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-03T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "„Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung.“"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

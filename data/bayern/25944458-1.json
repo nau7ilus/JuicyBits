@@ -1,0 +1,157 @@
+{
+ "id": "25944458-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944458",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944458",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944458-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944458-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944458?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Entsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech",
+  "buyer": "Stadt Landsberg am Lech",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-02T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944458",
+  "id": "25944458",
+  "date": "2026-10-17T07:00:54Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Landsberg am Lech",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Landsberg am Lech"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Landsberg am Lech",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Landsberg am Lech"
+   }
+  },
+  "tender": {
+   "title": "Entsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech",
+   "description": "Entsorgung Aushubmaterial\n\nEntsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech",
+   "procuringEntity": {
+    "name": "Stadt Landsberg am Lech"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "86899 Landsberg am Lech",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/f3f84707-7308-4ee7-9d90-d1e842c44849",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Entsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech",
+     "description": "Entsorgung Aushubmaterial\n\nEntsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25944458",
+  "version": "1",
+  "title": "Entsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech",
+  "description": "Entsorgung Aushubmaterial\n\nEntsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Entsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech",
+    "description": "Entsorgung Aushubmaterial\n\nEntsorgung Aushubmaterial Zwischenlagerfläche Stadt Landsberg am Lech",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-02T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

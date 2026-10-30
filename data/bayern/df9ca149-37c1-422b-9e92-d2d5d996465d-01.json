@@ -1,0 +1,321 @@
+{
+ "id": "df9ca149-37c1-422b-9e92-d2d5d996465d-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "df9ca149-37c1-422b-9e92-d2d5d996465d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=df9ca149-37c1-422b-9e92-d2d5d996465d",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:df9ca149-37c1-422b-9e92-d2d5d996465d-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:df9ca149-37c1-422b-9e92-d2d5d996465d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/df9ca149-37c1-422b-9e92-d2d5d996465d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Unterhalts- sowie Glas- und Rahmenreinigung für das Finanzamt Lichtenfels",
+  "buyer": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -",
+  "cpv": [
+   "90911200",
+   "90911300"
+  ],
+  "nuts": [
+   "DE212",
+   "DE24C"
+  ],
+  "deadline": "2026-11-25T10:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1305bb19-ef96-4d55-9307-4a9f7714279a",
+  "id": "df9ca149-37c1-422b-9e92-d2d5d996465d",
+  "date": "2026-10-16T02:11:00Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "d0f6c417-ee7a-494f-953c-5cbb2c8217fa",
+     "legalName": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Steuern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "955f3ee5-ba27-4dcc-9164-0b25df5b3370",
+     "legalName": "Bayerisches Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -",
+   "id": "d0f6c417-ee7a-494f-953c-5cbb2c8217fa",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -"
+   },
+   "address": {
+    "streetAddress": "Sophienstr. 6",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1305bb19-ef96-4d55-9307-4a9f7714279a",
+   "title": "Unterhalts- sowie Glas- und Rahmenreinigung für das Finanzamt Lichtenfels",
+   "description": "Unterhalts- sowie Glas- und Rahmenreinigung für das Finanzamt Lichtenfels",
+   "procuringEntity": {
+    "name": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -",
+    "id": "d0f6c417-ee7a-494f-953c-5cbb2c8217fa"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "locality": "Lichtenfels",
+      "region": "DE24C",
+      "postalCode": "96215",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911300",
+      "description": "Window-cleaning services"
+     },
+     "deliveryAddress": {
+      "locality": "Lichtenfels",
+      "region": "DE24C",
+      "postalCode": "96215",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f0411ab7-3176-4abd-bbcd-beb9919620fc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f0411ab7-3176-4abd-bbcd-beb9919620fc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Unterhaltsreinigung",
+     "description": "Unterhaltsreinigung FA Lichtenfels",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2033-03-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Glas- und Rahmenreinigung ",
+     "description": "Glas- und Rahmenreinigung FA Lichtenfels",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2033-03-31T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "df9ca149-37c1-422b-9e92-d2d5d996465d",
+  "version": "01",
+  "title": "Unterhalts- sowie Glas- und Rahmenreinigung für das Finanzamt Lichtenfels",
+  "description": "Unterhalts- sowie Glas- und Rahmenreinigung für das Finanzamt Lichtenfels",
+  "procedureType": "open",
+  "nuts": [
+   "DE24C"
+  ],
+  "cpv": [
+   "90911200",
+   "90911300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Unterhaltsreinigung",
+    "description": "Unterhaltsreinigung FA Lichtenfels",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DE24C"
+    ],
+    "deadline": "2026-11-25T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2033-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Angabe des durchschnittlichen Jahresumsatzes bezogen auf die letzten drei Geschäftsjahre in der eVergabe ---- https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f0411ab7-3176-4abd-bbcd-beb9919620fc/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angabe der Beschäftigungszahlen der letzten drei abgeschlossenen Geschäftsjahre ---- https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f0411ab7-3176-4abd-bbcd-beb9919620fc/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Angabe von drei vergleichbaren Referenzen im Bereich der Unterhaltsreinigung. Als vergleichbar gelten u.a. Büro- und Verwaltungsgebäude, Schulen oder Kindergärten. Mindestanforderung: Bei zwei der drei Referenzen muss im Bereich der Unterhaltsreinigung eine Grundfläche in Höhe von mindestens 2.400 qm oder eine Jahresreinigungsfläche von mindestens 235.000 qm zugrunde liegen. Unabhängig davon muss eine der drei angegebenen Referenzen bei einem öffentlichen Auftraggeber im Bereich der Gebäudeinnenreinigung durchgeführt werden. Um die Vergleichbarkeit der Referenzen zu gewährleisten, ist der Anteil der Fläche, der auf den Verwaltungsbereich entfällt, maßgeblich für die Erfüllung der Mindestanforderungen. Fehlende bzw. unvollständige Angaben führen grundsätzlich zum Ausschluss aus dem Vergabeverfahren. ---- https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f0411ab7-3176-4abd-bbcd-beb9919620fc/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-mgmt-supply",
+      "description": "Eigenerklärung russische Unternehmen: Der Bieter gehört nicht zu den in Artikel 5k) Absatz 1 der Verordnung (EU) Nr. 833/2014 in der Fassung des Artikels 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 08.04.2022 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, genannten Personen oder Unternehmen, die einen Bezug zu Russland im Sinn der Vorschrift aufweisen."
+     },
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "Scientology-Schutzerklärung: Der Bieter versichert, dass er gegenwärtig sowie während der gesamten Vertragsdauer die Technologie von L. Ron Hubbard nicht anwendet, lehrt oder in sonstiger Weise verbreitet, er keine Kurse oder Seminare nach dieser Technologie besucht und Beschäftigte oder sonst zur Erfüllung des Vertrags eingesetzte Personen keine Kurse oder Seminare nach dieser Technologie besuchen lässt. Des Weiteren versichert er, dass nach seiner Kenntnis keine der zur Erfüllung des Vertrags eingesetzten Personen die Technologie von L. Ron Hubbard anwendet, lehrt oder in sonstiger Weise verbreitet oder Kurse oder Seminare nach dieser Technologie besucht. Zudem verpflichtet sich der Bieter, solche zur Erfüllung des Vertrags eingesetzte Personen von der weiteren Durchführung des Vertrags unverzüglich auszuschließen, die während der Vertragsdauer die Technologie von L. Ron Hubbard anwenden, lehren, in sonstiger Weise verbreiten oder Kurse oder Seminare nach dieser Technologie besuchen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Glas- und Rahmenreinigung",
+    "description": "Glas- und Rahmenreinigung FA Lichtenfels",
+    "cpv": [
+     "90911300"
+    ],
+    "nuts": [
+     "DE24C"
+    ],
+    "deadline": "2026-11-25T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2033-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Angabe des durchschnittlichen Jahresumsatzes bezogen auf die letzten drei Geschäftsjahre in der eVergabe ---- https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f0411ab7-3176-4abd-bbcd-beb9919620fc/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angabe der Beschäftigungszahlen der letzten drei abgeschlossenen Geschäftsjahre ---- https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f0411ab7-3176-4abd-bbcd-beb9919620fc/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Angabe von drei vergleichbaren Referenzen im Bereich Glasreinigung von Verwaltungsgebäuden oder gleichartigen Gebäudekomplexen. Fehlende bzw. unvollständige Angaben führen grundsätzlich zum Ausschluss aus dem Vergabeverfahren. ---- https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f0411ab7-3176-4abd-bbcd-beb9919620fc/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-mgmt-supply",
+      "description": "Eigenerklärung russische Unternehmen: Der Bieter gehört nicht zu den in Artikel 5k) Absatz 1 der Verordnung (EU) Nr. 833/2014 in der Fassung des Artikels 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 08.04.2022 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, genannten Personen oder Unternehmen, die einen Bezug zu Russland im Sinn der Vorschrift aufweisen."
+     },
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "Scientology-Schutzerklärung: Der Bieter versichert, dass er gegenwärtig sowie während der gesamten Vertragsdauer die Technologie von L. Ron Hubbard nicht anwendet, lehrt oder in sonstiger Weise verbreitet, er keine Kurse oder Seminare nach dieser Technologie besucht und Beschäftigte oder sonst zur Erfüllung des Vertrags eingesetzte Personen keine Kurse oder Seminare nach dieser Technologie besuchen lässt. Des Weiteren versichert er, dass nach seiner Kenntnis keine der zur Erfüllung des Vertrags eingesetzten Personen die Technologie von L. Ron Hubbard anwendet, lehrt oder in sonstiger Weise verbreitet oder Kurse oder Seminare nach dieser Technologie besucht. Zudem verpflichtet sich der Bieter, solche zur Erfüllung des Vertrags eingesetzte Personen von der weiteren Durchführung des Vertrags unverzüglich auszuschließen, die während der Vertragsdauer die Technologie von L. Ron Hubbard anwenden, lehren, in sonstiger Weise verbreiten oder Kurse oder Seminare nach dieser Technologie besuchen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

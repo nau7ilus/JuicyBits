@@ -1,0 +1,207 @@
+{
+ "id": "84670652-c120-424b-99be-27d478c1d5ee-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "84670652-c120-424b-99be-27d478c1d5ee",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=84670652-c120-424b-99be-27d478c1d5ee",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:84670652-c120-424b-99be-27d478c1d5ee-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:84670652-c120-424b-99be-27d478c1d5ee-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/84670652-c120-424b-99be-27d478c1d5ee?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "IBM Lizenzen für EntireX und webMethods",
+  "buyer": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -",
+  "cpv": [
+   "48000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-02T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-362e2bf5-03a0-46b0-acca-40f46471d1d0",
+  "id": "84670652-c120-424b-99be-27d478c1d5ee",
+  "date": "2026-10-23T02:12:24Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "d0f6c417-ee7a-494f-953c-5cbb2c8217fa",
+     "legalName": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Steuern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "955f3ee5-ba27-4dcc-9164-0b25df5b3370",
+     "legalName": "Bayerisches Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -",
+   "id": "d0f6c417-ee7a-494f-953c-5cbb2c8217fa",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -"
+   },
+   "address": {
+    "streetAddress": "Sophienstr. 6",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "362e2bf5-03a0-46b0-acca-40f46471d1d0",
+   "title": "IBM Lizenzen für EntireX und webMethods",
+   "description": "Gegenstand der Ausschreibung ist die Verlängerung von IBM Lizenzen von Entire X und webMethods",
+   "procuringEntity": {
+    "name": "Freistaat Bayern vertreten durch das Bayerische Landesamt für Steuern - Zentrale Vergabestelle -",
+    "id": "d0f6c417-ee7a-494f-953c-5cbb2c8217fa"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48000000",
+      "description": "Software package and information systems"
+     },
+     "deliveryAddress": {
+      "locality": "München ",
+      "region": "DE212",
+      "postalCode": "80333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/b9092947-0973-47bd-8c26-9b6e4253bc8b",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Entire X und webMethods Lizenzen ",
+     "description": "Beschaffung von IBM-Lizenzen für EntireX und webMethods"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "84670652-c120-424b-99be-27d478c1d5ee",
+  "version": "01",
+  "title": "IBM Lizenzen für EntireX und webMethods",
+  "description": "Gegenstand der Ausschreibung ist die Verlängerung von IBM Lizenzen von Entire X und webMethods",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Entire X und webMethods Lizenzen",
+    "description": "Beschaffung von IBM-Lizenzen für EntireX und webMethods",
+    "cpv": [
+     "48000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-02T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-supply",
+      "description": "Anlage russische Unternehmen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

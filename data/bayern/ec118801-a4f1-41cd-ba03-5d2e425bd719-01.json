@@ -5,14 +5,14 @@
   "noticeId": "ec118801-a4f1-41cd-ba03-5d2e425bd719",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ec118801-a4f1-41cd-ba03-5d2e425bd719",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:ec118801-a4f1-41cd-ba03-5d2e425bd719-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:ec118801-a4f1-41cd-ba03-5d2e425bd719-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/ec118801-a4f1-41cd-ba03-5d2e425bd719?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "A349.01 Schlosserarbeiten",
   "buyer": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE21G"
   ],
-  "deadline": null,
+  "deadline": "2026-12-01T14:15:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -141,5 +141,55 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ec118801-a4f1-41cd-ba03-5d2e425bd719",
+  "version": "01",
+  "title": "A349.01 Schlosserarbeiten",
+  "description": "Stahlinnengeländer  und Holzhandläufe für 5 Treppenhäuser\nHochwasserschutz für Außentüren, Fenster und Garagentore",
+  "procedureType": "open",
+  "nuts": [
+   "DE21G"
+  ],
+  "cpv": [
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "A349.01 Schlosserarbeiten",
+    "description": "Stahlinnengeländer  und Holzhandläufe für 5 Treppenhäuser\nHochwasserschutz für Außentüren, Fenster und Garagentore",
+    "cpv": [
+     "45262670"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-12-01T14:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-22+01:00",
+    "plannedEnd": "2028-02-29+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Formblatt 124 (Eigenerklärung zur Eignung)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preisgewichtung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

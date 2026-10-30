@@ -1,0 +1,249 @@
+{
+ "id": "d7affc4f-be85-450b-b7a0-96e164040614-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "d7affc4f-be85-450b-b7a0-96e164040614",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d7affc4f-be85-450b-b7a0-96e164040614",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:d7affc4f-be85-450b-b7a0-96e164040614-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:d7affc4f-be85-450b-b7a0-96e164040614-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d7affc4f-be85-450b-b7a0-96e164040614?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Gymnasium Füssen - Brandschutztüren BA 1-2",
+  "buyer": "Landkreis Ostallgäu",
+  "cpv": [
+   "45421131",
+   "44221220"
+  ],
+  "nuts": [
+   "DE27B"
+  ],
+  "deadline": "2026-11-09T10:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7ffb301f-619f-4542-b576-23b71acab9b4",
+  "id": "d7affc4f-be85-450b-b7a0-96e164040614",
+  "date": "2026-10-23T02:09:08Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Ostallgäu",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "00001550",
+     "legalName": "Landkreis Ostallgäu"
+    },
+    "address": {
+     "streetAddress": "Schwabenstraße 11",
+     "locality": "Marktoberdorf",
+     "region": "DE27B",
+     "postalCode": "87616",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Landkreis Ostallgäu",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "00001550",
+     "legalName": "Landkreis Ostallgäu"
+    },
+    "address": {
+     "streetAddress": "Schwabenstraße 11",
+     "locality": "Marktoberdorf",
+     "region": "DE27B",
+     "postalCode": "87616",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Ostallgäu",
+   "id": "00001550",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landkreis Ostallgäu"
+   },
+   "address": {
+    "streetAddress": "Schwabenstraße 11",
+    "locality": "Marktoberdorf",
+    "region": "DE27B",
+    "postalCode": "87616",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7ffb301f-619f-4542-b576-23b71acab9b4",
+   "title": "Gymnasium Füssen - Brandschutztüren BA 1-2",
+   "description": "Brandschutztüren BA 1-2",
+   "procuringEntity": {
+    "name": "Landkreis Ostallgäu",
+    "id": "00001550"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421131",
+      "description": "Installation of doors"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "44221220",
+       "description": "Fire doors"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Dr.-Enzinger-Straße 5",
+      "locality": "Füssen",
+      "region": "DE27B",
+      "postalCode": "87629",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a1540be666-31f08ccb1b3b68f&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Gymnasium Füssen - Brandschutztüren BA 1-2",
+     "description": "- 4 Stk. Alu-Blendrahmenelemente mit Brandschutzanforderung inkl. Ausstattung\n- 6 Stk. Stahl-Mehrzwecktüren mit Brandschutzanforderung inkl. Ausstattung",
+     "contractPeriod": {
+      "startDate": "2027-03-08T00:00:00+01:00",
+      "endDate": "2028-02-25T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "130406-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "130406-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d7affc4f-be85-450b-b7a0-96e164040614",
+  "version": "01",
+  "title": "Gymnasium Füssen - Brandschutztüren BA 1-2",
+  "description": "Brandschutztüren BA 1-2",
+  "procedureType": "open",
+  "nuts": [
+   "DE27B"
+  ],
+  "cpv": [
+   "45421131",
+   "44221220"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Gymnasium Füssen - Brandschutztüren BA 1-2",
+    "description": "- 4 Stk. Alu-Blendrahmenelemente mit Brandschutzanforderung inkl. Ausstattung\n- 6 Stk. Stahl-Mehrzwecktüren mit Brandschutzanforderung inkl. Ausstattung",
+    "cpv": [
+     "45421131",
+     "44221220"
+    ],
+    "nuts": [
+     "DE27B"
+    ],
+    "deadline": "2026-11-09T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-08+01:00",
+    "plannedEnd": "2028-02-25+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erforderliche Angaben über die \"Eigenerklärung zur Eignung für nicht präqualifizierte Unternehmen\" bzw. Nachweis der Präqualifizierung."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Erforderliche Angaben über die \"Eigenerklärung zur Eignung für nicht präqualifizierte Unternehmen\" bzw. Nachweis der Präqualifizierung."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Erforderliche Angaben über die \"Eigenerklärung zur Eignung für nicht präqualifizierte Unternehmen\" bzw. Nachweis der Präqualifizierung."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Erforderliche Angaben über die \"Eigenerklärung zur Eignung für nicht präqualifizierte Unternehmen\" bzw. Nachweis der Präqualifizierung."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Erforderliche Angaben über die \"Eigenerklärung zur Eignung für nicht präqualifizierte Unternehmen\" bzw. Nachweis der Präqualifizierung."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": ".",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "id": "45ab1eb5-e79b-40a4-b1c5-a7789bf3d52f-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "45ab1eb5-e79b-40a4-b1c5-a7789bf3d52f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=45ab1eb5-e79b-40a4-b1c5-a7789bf3d52f",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:45ab1eb5-e79b-40a4-b1c5-a7789bf3d52f-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:45ab1eb5-e79b-40a4-b1c5-a7789bf3d52f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/45ab1eb5-e79b-40a4-b1c5-a7789bf3d52f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "Bodenbelagsarbeiten 70-00010-2460-315 ",
+  "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+  "cpv": [
+   "45432130"
+  ],
+  "nuts": [
+   "DE212",
+   "DE911"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-66b82694-663c-43cf-936e-c1368aae0cff",
+  "id": "45ab1eb5-e79b-40a4-b1c5-a7789bf3d52f",
+  "date": "2026-10-16T02:06:21Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Heinz Lohmar Bodenbeläge und Verlegeservice GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE115448842",
+     "legalName": "Heinz Lohmar Bodenbeläge und Verlegeservice GmbH"
+    },
+    "address": {
+     "streetAddress": "Böcklerstraße 7",
+     "locality": "Hameln",
+     "region": "DE923",
+     "postalCode": "31789",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+   "id": "DE129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "66b82694-663c-43cf-936e-c1368aae0cff",
+   "title": "Bodenbelagsarbeiten 70-00010-2460-315 ",
+   "description": "Bodenbelagsarbeiten 70-00010-2460-315\n",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "DE129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45432130",
+      "description": "Floor-covering work"
+     },
+     "deliveryAddress": {
+      "locality": "Braunschweig",
+      "region": "DE911",
+      "postalCode": "38108",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Heinz Lohmar Bodenbeläge und Verlegeservice GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Heinz Lohmar Bodenbeläge und Verlegeservice GmbH"
+     },
+     "address": {
+      "streetAddress": "Böcklerstraße 7",
+      "locality": "Hameln",
+      "region": "DE923",
+      "postalCode": "31789",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Bodenbelagsarbeiten 70-00010-2460-315 ",
+     "description": "\"* Termine zur Durchführung der Hauptleistung auf der Baustelle:\nLeistungsbeginn 07.11.2025; Leistungsende 19.12.2025\n\n* Beschreibung der Beschaffung:\nBodenbelagarbeiten - Teppichfliesen und Sockelleisten, bestehend aus: \n\nTeppichfliesen niedrigflorig - ca. 800 m2\nTeppichfliesen hochflorig - ca. 80 m2\n\nHPL-Sockelleisten - ca. 850 m\nScheuerleiste Kunststoff - ca. 600 m\n\"",
+     "contractPeriod": {
+      "startDate": "2025-10-31T00:00:00+01:00",
+      "endDate": "2025-12-19T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "date": "2025-10-27T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 46835.2,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2025-10-26T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "38",
+  "noticeId": "45ab1eb5-e79b-40a4-b1c5-a7789bf3d52f",
+  "version": "01",
+  "title": "Bodenbelagsarbeiten 70-00010-2460-315",
+  "description": "Bodenbelagsarbeiten 70-00010-2460-315",
+  "procedureType": null,
+  "nuts": [
+   "DE911"
+  ],
+  "cpv": [
+   "45432130"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Bodenbelagsarbeiten 70-00010-2460-315",
+    "description": "\"* Termine zur Durchführung der Hauptleistung auf der Baustelle:\nLeistungsbeginn 07.11.2025; Leistungsende 19.12.2025\n\n* Beschreibung der Beschaffung:\nBodenbelagarbeiten - Teppichfliesen und Sockelleisten, bestehend aus: \n\nTeppichfliesen niedrigflorig - ca. 800 m2\nTeppichfliesen hochflorig - ca. 80 m2\n\nHPL-Sockelleisten - ca. 850 m\nScheuerleiste Kunststoff - ca. 600 m\n\"",
+    "cpv": [
+     "45432130"
+    ],
+    "nuts": [
+     "DE911"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-10-31+01:00",
+    "plannedEnd": "2025-12-19+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

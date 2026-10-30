@@ -1,0 +1,135 @@
+{
+ "id": "25935452-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25935452",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25935452",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25935452-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25935452-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25935452?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lineare Labornetzteile (EMFT-05.4)",
+  "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
+  "cpv": [
+   "31156000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-10T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25935452",
+  "id": "25935452",
+  "date": "2026-10-16T07:01:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+   }
+  },
+  "tender": {
+   "title": "Lineare Labornetzteile (EMFT-05.4)",
+   "description": "Lineare Labornetzteile (EMFT-05.4)\n\nLineare Labornetzteile (EMFT-05.4)",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "31156000",
+      "description": "Interruptible power supplies"
+     },
+     "deliveryAddress": {
+      "locality": "Fraunhofer EMFT\nHansastraße 27d\n80686 München\nDeutschland",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-1a139c73c1d-59ee80fdf45b515&PublicationType=0",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lineare Labornetzteile (EMFT-05.4)",
+     "description": "Lineare Labornetzteile (EMFT-05.4)\n\nLineare Labornetzteile (EMFT-05.4)"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25935452",
+  "version": "1",
+  "title": "Lineare Labornetzteile (EMFT-05.4)",
+  "description": "Lineare Labornetzteile (EMFT-05.4)\n\nLineare Labornetzteile (EMFT-05.4)",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "31156000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lineare Labornetzteile (EMFT-05.4)",
+    "description": "Lineare Labornetzteile (EMFT-05.4)\n\nLineare Labornetzteile (EMFT-05.4)",
+    "cpv": [
+     "31156000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-10T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

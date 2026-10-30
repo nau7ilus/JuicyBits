@@ -1,0 +1,214 @@
+{
+ "id": "eac871b9-8272-4e4f-8a86-76659ae5c235-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "eac871b9-8272-4e4f-8a86-76659ae5c235",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=eac871b9-8272-4e4f-8a86-76659ae5c235",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:eac871b9-8272-4e4f-8a86-76659ae5c235-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:eac871b9-8272-4e4f-8a86-76659ae5c235-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/eac871b9-8272-4e4f-8a86-76659ae5c235?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "26DE Restauratorische Fachbauleitung",
+  "buyer": "Staatliches Bauamt Bayreuth",
+  "cpv": [
+   "71300000"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-24a318fc-2f7b-4012-80b8-0a05ff8873d3",
+  "id": "eac871b9-8272-4e4f-8a86-76659ae5c235",
+  "date": "2026-10-22T02:06:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Bayreuth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Tel.-Nr.: [Telefon entfernt]",
+     "legalName": "Staatliches Bauamt Bayreuth"
+    },
+    "address": {
+     "streetAddress": "Wilhelminenstraße 2",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95444",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern- Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID: DE 811 335 517",
+     "legalName": "Vergabekammer Nordbayern- Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Bayreuth",
+   "id": "Tel.-Nr.: [Telefon entfernt]",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Bayreuth"
+   },
+   "address": {
+    "streetAddress": "Wilhelminenstraße 2",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95444",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "24a318fc-2f7b-4012-80b8-0a05ff8873d3",
+   "title": "26DE Restauratorische Fachbauleitung",
+   "description": "FA Bayreuth -Teilsanierung Gebaudehülle Altes Schloss",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71300000",
+      "description": "Engineering services"
+     },
+     "deliveryAddress": {
+      "locality": "Bayreuth",
+      "region": "DE242",
+      "postalCode": "95444",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304641",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "26DE Restauratorische Fachbauleitung",
+     "description": "FA Bayreuth -Teilsanierung Gebaudehülle Altes Schloss",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2032-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "eac871b9-8272-4e4f-8a86-76659ae5c235",
+  "version": "01",
+  "title": "26DE Restauratorische Fachbauleitung",
+  "description": "FA Bayreuth -Teilsanierung Gebaudehülle Altes Schloss",
+  "procedureType": "open",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "71300000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "26DE Restauratorische Fachbauleitung",
+    "description": "FA Bayreuth -Teilsanierung Gebaudehülle Altes Schloss",
+    "cpv": [
+     "71300000"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2032-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise \nBescheinigungen sind in der Eigenerklärung (Formblatt \nIII.106.1) in den Vergabeunterlagen aufgelistet.  Hier \nfinden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind. \n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304641\n\nIst der Bieter eine juristische Person, ist dieser nur dann \nteilnahmeberechtigt, wenn durch Erklärung des Bieters \nnachgewiesen wird, dass der verantwortliche \nBerufsangehörige, die an die natürliche Person gestellten \nAnforderungen erfüllt. Bieter oder verantwortliche \nBerufsangehörige juristischer Personen, die die \nentsprechende Berufsbezeichnung nach dem Recht eines \nanderen Mitgliedsstaates der Europäischen Union oder \neines Vertragsstaates des Abkommens über den \nEuropäischen Wirtschaftsraum tragen, erfüllen die \nfachlichen Voraussetzungen dann, \na) wenn sie sich dauerhaft im Bundesgebiet der \nBundesrepublik Deutschland niedergelassen haben und \nberechtigt sind, die deutschen Berufsbezeichnungen \nnach den einschlägigen deutschen Fachgesetzen \naufgrund einer Gleichstellung mit nach der Richtlinie \n2005/36/EG (geändert durch die Richtlinie 2013/55/EU) zu \ntragen oder \nb) wenn sie vorübergehend im Bundesgebiet tätig sind \nund ihre Dienstleistungserbringung nach Richtlinie \n2005/36/EG angezeigt haben."
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Die Eignungskriterien und die geforderten Nachweise \nBescheinigungen sind in der Eigenerklärung (Formblatt \nIII.106.1) in den Vergabeunterlagen aufgelistet.  Hier \nfinden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind. \n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304641"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien und die geforderten Nachweise \nBescheinigungen sind in der Eigenerklärung (Formblatt \nIII.106.1) in den Vergabeunterlagen aufgelistet.  Hier \nfinden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind. \n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304641"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Eignungskriterien und die geforderten Nachweise \nBescheinigungen sind in der Eigenerklärung (Formblatt \nIII.106.1) in den Vergabeunterlagen aufgelistet.  Hier \nfinden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind. \n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304641"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Die Qualität ist nicht das einzige Zuschlagskriterium; alle \nKriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt: \nhttps://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304641",
+      "weight": null
+     },
+     {
+      "type": "price",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle \nKriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt:\nhttps://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304641",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Als Sicherheit für die Vertragserfüllung, insbesondere \ndie vertragsgemäße Ausführung der \nLeistung einschließlich der Abrechnung, \nMängelansprüche und Schadensersatz, \nVertragsstrafen, Rückzahlung von Überzahlungen, \nAnsprüche auf vertragsgemäße Erbringung von \ngeänderten und zusätzlichen Leistungen und Ansprüche \nbei Nichtabführung von Beiträgen an die \nSozialversicherungsträger, behält der Auftraggeber \nvon jeder Zahlung jeweils 5 v.H. bis zu einer Höhe von 5  \nv.H. des tatsächlichen Gesamthonorars ein. Der \nAuftragnehmer kann stattdessen auch eine \nBankbürgschaft stellen. Die Bankbürgschaft ist als \nselbstschuldnerische Bürgschaft eines in der \nEuropäischen Gemeinschaft zugelassenen Kreditinstituts \noder Kreditversicherers unter Ausschluss der \nHinterlegung und unter Verzicht auf die Einrede der \nVorausklage, zudem ohne Befristung, auszustellen. \nEinbehalte bzw. Sicherheiten nach Satz 1 und 2 für \nLeistungen des Auftragnehmers aus den Leistungsstufen \n1 - 4 sind spätestens nach erfolgter Teilabnahme dieser \nLeistungen nach § 9 Nummer 9.1 Abs. 2, 1. oder 2. \nVariante, auszuzahlen bzw. zurückzugeben, soweit der \nAuftraggeber nicht zu diesem Zeitpunkt bereits \nAnsprüche in Bezug auf diese Leistungen geltend \ngemacht hat."
+    }
+   }
+  ]
+ }
+}

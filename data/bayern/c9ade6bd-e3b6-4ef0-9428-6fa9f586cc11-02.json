@@ -1,0 +1,233 @@
+{
+ "id": "c9ade6bd-e3b6-4ef0-9428-6fa9f586cc11-02",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "c9ade6bd-e3b6-4ef0-9428-6fa9f586cc11",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c9ade6bd-e3b6-4ef0-9428-6fa9f586cc11",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:c9ade6bd-e3b6-4ef0-9428-6fa9f586cc11-02.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:c9ade6bd-e3b6-4ef0-9428-6fa9f586cc11-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c9ade6bd-e3b6-4ef0-9428-6fa9f586cc11?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Sanierung Schulzentrum BA 4_Metallbau - Fassade BA4",
+  "buyer": "Stadt Eggenfelden",
+  "cpv": [
+   "45262670"
+  ],
+  "nuts": [
+   "DE22A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-705c0b94-8794-4422-a106-20573acaa0f1",
+  "id": "c9ade6bd-e3b6-4ef0-9428-6fa9f586cc11",
+  "date": "2026-10-20T10:02:21Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Eggenfelden",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "7020",
+     "legalName": "Stadt Eggenfelden"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Eggenfelden",
+     "region": "DE22A",
+     "postalCode": "84307",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "a1822fd0-3fa2-47f1-9c02-e983930d0fd4",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximiliansstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Grünleitner Metallbau",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE246115328",
+     "legalName": "Grünleitner Metallbau"
+    },
+    "address": {
+     "locality": "Ering-Münchham",
+     "region": "DE22A",
+     "postalCode": "94140",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Eggenfelden",
+   "id": "7020",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Eggenfelden"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Eggenfelden",
+    "region": "DE22A",
+    "postalCode": "84307",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "705c0b94-8794-4422-a106-20573acaa0f1",
+   "title": "Sanierung Schulzentrum BA 4_Metallbau - Fassade BA4",
+   "description": "BA 4 umfasst die Sanierung des Mittelschultrakts, Verwaltung Grund- und Mittelschule sowie Grundschulbereich OG",
+   "procuringEntity": {
+    "name": "Stadt Eggenfelden",
+    "id": "7020"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "deliveryAddress": {
+      "region": "DE22A",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Grünleitner Metallbau",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Grünleitner Metallbau"
+     },
+     "address": {
+      "locality": "Ering-Münchham",
+      "region": "DE22A",
+      "postalCode": "94140",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sanierung Schulzentrum BA 4_Metallbau - Fassade BA4",
+     "description": "BA4 umfasst die Sanierung des Mittelschultrakts, Verwaltung, Grund- und Mittelschule sowie Grundschulbereich OG. \n\nWesentliche Leistungen sind:\n-\tRückbau bestehende Aluminiumfenster – und Türen ca. 1.580m²\n-\tLieferung und Montage Aluminiumfenster ca. 1.320m² (56 ver-schiedene Fenstertypen)\n-\tLieferung und Montage Alu-Pfosten-Riegel-System ca. 190m²\n-\tLieferung und Montage Außentüren ca. 70m²\n-\tZugehörige Alu-Fensterbänke"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-02T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 876199.58,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-01T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "c9ade6bd-e3b6-4ef0-9428-6fa9f586cc11",
+  "version": "02",
+  "title": "Sanierung Schulzentrum BA 4_Metallbau - Fassade BA4",
+  "description": "BA 4 umfasst die Sanierung des Mittelschultrakts, Verwaltung Grund- und Mittelschule sowie Grundschulbereich OG",
+  "procedureType": "open",
+  "nuts": [
+   "DE22A"
+  ],
+  "cpv": [
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sanierung Schulzentrum BA 4_Metallbau - Fassade BA4",
+    "description": "BA4 umfasst die Sanierung des Mittelschultrakts, Verwaltung, Grund- und Mittelschule sowie Grundschulbereich OG. \n\nWesentliche Leistungen sind:\n-\tRückbau bestehende Aluminiumfenster – und Türen ca. 1.580m²\n-\tLieferung und Montage Aluminiumfenster ca. 1.320m² (56 ver-schiedene Fenstertypen)\n-\tLieferung und Montage Alu-Pfosten-Riegel-System ca. 190m²\n-\tLieferung und Montage Außentüren ca. 70m²\n-\tZugehörige Alu-Fensterbänke",
+    "cpv": [
+     "45262670"
+    ],
+    "nuts": [
+     "DE22A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

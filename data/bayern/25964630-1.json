@@ -1,0 +1,133 @@
+{
+ "id": "25964630-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25964630",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25964630",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25964630-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25964630-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25964630?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schließanlage",
+  "buyer": "Klinikum Main-Spessart",
+  "cpv": [
+   "45421131-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-18T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25964630",
+  "id": "25964630",
+  "date": "2026-10-23T07:00:46Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Main-Spessart",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Klinikum Main-Spessart"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Main-Spessart",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Main-Spessart"
+   }
+  },
+  "tender": {
+   "title": "Schließanlage",
+   "description": "Innentüren/Zargen, Schlosser, Stahlbauarbeiten",
+   "procuringEntity": {
+    "name": "Klinikum Main-Spessart"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421131-1"
+     },
+     "deliveryAddress": {
+      "locality": "97816 Lohr am Main",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28C958-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schließanlage",
+     "description": "Innentüren/Zargen, Schlosser, Stahlbauarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25964630",
+  "version": "1",
+  "title": "Schließanlage",
+  "description": "Innentüren/Zargen, Schlosser, Stahlbauarbeiten",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45421131-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schließanlage",
+    "description": "Innentüren/Zargen, Schlosser, Stahlbauarbeiten",
+    "cpv": [
+     "45421131-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

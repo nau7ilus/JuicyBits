@@ -5,14 +5,14 @@
   "noticeId": "79d8849a-81af-4d94-a3dd-c6adbb900d37",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=79d8849a-81af-4d94-a3dd-c6adbb900d37",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:79d8849a-81af-4d94-a3dd-c6adbb900d37-02.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:79d8849a-81af-4d94-a3dd-c6adbb900d37-02.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/79d8849a-81af-4d94-a3dd-c6adbb900d37?format=ocds&noticeVersion=02"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Sanierung Kläranlage Schwabmünchen: Spezialtiefbau, Erdarbeiten und vorgezogene Maßnahmen",
   "buyer": "Stadt Schwabmünchen",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE276"
   ],
-  "deadline": null,
+  "deadline": "2026-11-24T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -145,5 +145,65 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "79d8849a-81af-4d94-a3dd-c6adbb900d37",
+  "version": "02",
+  "title": "Sanierung Kläranlage Schwabmünchen: Spezialtiefbau, Erdarbeiten und vorgezogene Maßnahmen",
+  "description": "Vorgezogene Maßnahmen: Neubau eines Grundwasserbrunnens zur Betriebswasserversorgung und Verlegung eines provisorischen Ablaufsammlers DN 700. Sicherung von Teilflächen sowie Herstellung von Baustelleneinrichtungsflächen und Baustraßen. Erstellung von rückverankerten Spundwänden in mehreren Abschnitten. Abschnittsweiser Aushub der Baugruben mit Einrichtung und Betrieb von Wasserhaltungsmaßnahmen. Transportleistungen und Ablagerung auf externer Bereitstellungsfläche.",
+  "procedureType": "open",
+  "nuts": [
+   "DE276"
+  ],
+  "cpv": [
+   "45252100"
+  ],
+  "estimatedValue": {
+   "amount": 2909360,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sanierung Kläranlage Schwabmünchen: Spezialtiefbau, Erdarbeiten und vorgezogene Maßnahmen",
+    "description": "Vorgezogene Maßnahmen: Neubau eines Grundwasserbrunnens zur Betriebswasserversorgung und Verlegung eines provisorischen Ablaufsammlers DN 700. Sicherung von Teilflächen sowie Herstellung von Baustelleneinrichtungsflächen und Baustraßen. Erstellung von rückverankerten Spundwänden in mehreren Abschnitten. Abschnittsweiser Aushub der Baugruben mit Einrichtung und Betrieb von Wasserhaltungsmaßnahmen. Transportleistungen und Ablagerung auf externer Bereitstellungsfläche.",
+    "cpv": [
+     "45252100"
+    ],
+    "nuts": [
+     "DE276"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 2444840,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "vergleichbare Spezialtiefbauarbeiten (Spundwandarbeiten >3.000 m²)"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Mitarbeiterzahlen für die letzten 3 Jahre vorlegen"
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Geräteliste Grossgeräte vorlegen"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

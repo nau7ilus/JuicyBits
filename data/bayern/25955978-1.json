@@ -1,0 +1,157 @@
+{
+ "id": "25955978-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25955978",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25955978",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25955978-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25955978-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25955978?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)",
+  "buyer": "Abwasserverband Saale",
+  "cpv": [
+   "42123400-1",
+   "42120000-6",
+   "45252100-9",
+   "45252130-8"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-17T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25955978",
+  "id": "25955978",
+  "date": "2026-10-22T07:00:52Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abwasserverband Saale",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Abwasserverband Saale"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abwasserverband Saale",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Abwasserverband Saale"
+   }
+  },
+  "tender": {
+   "title": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)",
+   "description": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)",
+   "procuringEntity": {
+    "name": "Abwasserverband Saale"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "42123400-1"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "42120000-6"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45252100-9"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45252130-8"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "95028 Hof",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YU6M167",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)",
+     "description": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25955978",
+  "version": "1",
+  "title": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)",
+  "description": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "42123400-1",
+   "42120000-6",
+   "45252100-9",
+   "45252130-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)",
+    "description": "AV Saale - VKA Hof, Gebläse - Fachlos M1 (Maschinentechnik)",
+    "cpv": [
+     "42123400-1",
+     "42120000-6",
+     "45252100-9",
+     "45252130-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

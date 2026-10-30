@@ -1,0 +1,262 @@
+{
+ "id": "a5f7e6f4-2313-4a0a-a02b-afe692da90a1-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "a5f7e6f4-2313-4a0a-a02b-afe692da90a1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a5f7e6f4-2313-4a0a-a02b-afe692da90a1",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:a5f7e6f4-2313-4a0a-a02b-afe692da90a1-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:a5f7e6f4-2313-4a0a-a02b-afe692da90a1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a5f7e6f4-2313-4a0a-a02b-afe692da90a1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Elektroinstallation_mahe",
+  "buyer": "Münchner Wohnen GmbH",
+  "cpv": [
+   "45000000",
+   "45311200"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-dffef61c-eac2-4472-a5ac-8b91d8612d43",
+  "id": "a5f7e6f4-2313-4a0a-a02b-afe692da90a1",
+  "date": "2026-10-25T08:12:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schlichtungsstelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:008921762411",
+     "legalName": "Schlichtungsstelle"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   },
+   {
+    "name": "Münchner Wohnen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:0898776620",
+     "legalName": "Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Dienstleister Münchner Wohnen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "t:00898776620",
+     "legalName": "Dienstleister Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Münchner Wohnen GmbH",
+   "id": "t:0898776620",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Münchner Wohnen GmbH"
+   },
+   "address": {
+    "streetAddress": "Gustav-Heinemann- Ring 111",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "dffef61c-eac2-4472-a5ac-8b91d8612d43",
+   "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Elektroinstallation_mahe",
+   "description": "RV- Handwerkerportal Elektroinstallation",
+   "procuringEntity": {
+    "name": "Münchner Wohnen GmbH",
+    "id": "t:0898776620"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45311200",
+       "description": "Electrical fitting work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81739",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304677",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Elektroinstallation_mahe",
+     "description": "RV- Handwerkerportal Elektroinstallation.\nAuf Grundlage unserer Auswertungen der letzten 4 Jahre, beträgt das maximale Gesamtauf- tragsvolumen 12.000 Aufträge/Jahr. Dieses Volumen beinhalte sowohl Reparaturen und Wohnungssanierung.",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2031-01-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a5f7e6f4-2313-4a0a-a02b-afe692da90a1",
+  "version": "01",
+  "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Elektroinstallation_mahe",
+  "description": "RV- Handwerkerportal Elektroinstallation",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45000000",
+   "45311200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Elektroinstallation_mahe",
+    "description": "RV- Handwerkerportal Elektroinstallation.\nAuf Grundlage unserer Auswertungen der letzten 4 Jahre, beträgt das maximale Gesamtauf- tragsvolumen 12.000 Aufträge/Jahr. Dieses Volumen beinhalte sowohl Reparaturen und Wohnungssanierung.",
+    "cpv": [
+     "45000000",
+     "45311200"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2031-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignung ist durch Eintragung in die Liste des Vereins für Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) oder durch folgende Eigenerklärungen und auf gesondertes Verlangen durch folgende Nachweise gemäß Formblatt 124 (Eigenerklärung zur Eignung) nachzuweisen – bei Bietergemeinschaften für jedes Mitglied; für eignungsverleihende Unternehmen und Unterauftragnehmer erst auf gesondertes Verlangen innerhalb der gesetzten Frist:\n\nFür die ausgeschriebenen Leistungen präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen) Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben über das mit dem Angebot abzugebende Formblatt 124 eine Eigenerklärung zum Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab (für Bieter, Mitglieder einer Bietergemeinschaft,) Nimmt der Bieter/Bewerber in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ (Formblatt 236) abzugeben"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Beschreibung des Auswahlkriteriums: Unternehmen, die für die ausgeschriebenen Leistungen präqualifiziert sind, führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen) Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Eintragung in das Berufs- oder Handelsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)"
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Für die Erbringung der Leistung sind jeweils mindestens ein deutschsprachiger\nPolier/Facharbeiter (Sprachlevel  mind. B1 gemäß dem Gemeinsamen Europäischen Referenzrahmen für Sprachen (GER)) und mindestens 2 Facharbeiter zur Verfügung zu stellen\nSiehe Vergabeunterlagen unter \"Eignungskriterien\""
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Technische Leistungsfähigkeit (IT-Anforderung)\nDer Abruf der Leistungen erfolgt über unser Handerkerportal (HWP). Das HWP ist eine Web-Basiertes Computerprogramm zur Beauftragung und Abrechnung von Leistungen.\nUm mit diesem System arbeiten zu können sind nachfolgend aufgeführte System-voraussetzungen notwendig. Die jeweiligen Vertragspartner erhalten vom AG eine Schulung in Bezug auf die Handhabung des HWPs.\nSystemvoraussetzung:\n\tSystemvoraussetzung:\n-\tComputer (Mac/PC) mit aktuellem Betriebssystem zur Installation des Google Chrom Browser\n-\tInternetanschluss"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "1.1 mindesten eine Referenz in Bezug auf die Ausführung und Reparaturen und\nWohnungsrenovierungen in bewohnten Wohnungen, insbesondere Erfahrungen mit\nder eigenverantwortlichen Koordination von Arbeiten mit Mietnutzern\nI.2 mindestens eine Referenz in Bezug auf Erfahrung mit der Ausführung von\nReparaturen und Wohnungsrenovierungen für Wohnungs- und Immobilienunternehmen\nmit einem Bestand über 2.000 Wohneinheiten.\nEs werden nur Referenzen gewertet die jünger als 4 Jahre sind.\n\nSiehe Vergabeunterlagen unter \"Eignungskriterien\""
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "II.3 Reaktionsfähigkeit\nUm auf Havarien und daraus resultierenden Notmaßnahmen in unseren Wohnungen\nbzw. Gebäuden kurzfristig reagieren zu können, ist zu gewährleisten, dass an\nWerktagen zwischen 7:00 Uhr und 17:00 Uhr der Schaden innerhalb von max. 3\nStunden nach Meldung zur Schadensbehebung bzw. Minimierung aufgesucht wird."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "100 % Gesamtpreis des Angebots",
+      "description": "Es können nur maximal 10 Bieter als Rahmenvertragspartner bezuschlagt werden. Erfüllen mehrere Bieter gleichermaßen die Anforderungen und die objektive Auswahl (Preis, identischer Nachlass) erfolgt die Auswahl unter den verbleibenden Bietern durch ein transparentes Losverfahren.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

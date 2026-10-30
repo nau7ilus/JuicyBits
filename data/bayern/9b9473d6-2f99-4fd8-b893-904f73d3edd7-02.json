@@ -190,6 +190,8 @@
   "noticeId": "9b9473d6-2f99-4fd8-b893-904f73d3edd7",
   "version": "02",
   "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV103 Baumeisterarbeiten",
+  "description": "Baumeisterarbeiten",
+  "procedureType": "open",
   "nuts": [
    "DE21K"
   ],
@@ -201,6 +203,7 @@
    {
     "id": "LOT-0001",
     "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV103 Baumeisterarbeiten",
+    "description": "Baumeisterarbeiten",
     "cpv": [
      "45210000"
     ],
@@ -211,9 +214,19 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

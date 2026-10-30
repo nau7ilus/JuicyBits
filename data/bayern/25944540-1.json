@@ -1,0 +1,124 @@
+{
+ "id": "25944540-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944540",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944540",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944540-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944540-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944540?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Beschaffung Mehrzweckgeräteträger 2026",
+  "buyer": "Stadt Schrobenhausen",
+  "cpv": [
+   "34114000-9"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-02T10:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944540",
+  "id": "25944540",
+  "date": "2026-10-17T07:01:55Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Schrobenhausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Schrobenhausen"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Schrobenhausen",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Schrobenhausen"
+   }
+  },
+  "tender": {
+   "title": "Beschaffung Mehrzweckgeräteträger 2026",
+   "description": "Beschaffung Mehrzweckgeräteträger 2026",
+   "procuringEntity": {
+    "name": "Stadt Schrobenhausen"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34114000-9"
+     },
+     "deliveryAddress": {
+      "locality": "86529 Schrobenhausen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Beschaffung Mehrzweckgeräteträger 2026",
+     "description": "Beschaffung Mehrzweckgeräteträger 2026"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25944540",
+  "version": "1",
+  "title": "Beschaffung Mehrzweckgeräteträger 2026",
+  "description": "Beschaffung Mehrzweckgeräteträger 2026",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "34114000-9"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Beschaffung Mehrzweckgeräteträger 2026",
+    "description": "Beschaffung Mehrzweckgeräteträger 2026",
+    "cpv": [
+     "34114000-9"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-02T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

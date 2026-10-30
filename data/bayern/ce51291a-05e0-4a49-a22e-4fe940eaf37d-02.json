@@ -1,0 +1,233 @@
+{
+ "id": "ce51291a-05e0-4a49-a22e-4fe940eaf37d-02",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "ce51291a-05e0-4a49-a22e-4fe940eaf37d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ce51291a-05e0-4a49-a22e-4fe940eaf37d",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:ce51291a-05e0-4a49-a22e-4fe940eaf37d-02.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:ce51291a-05e0-4a49-a22e-4fe940eaf37d-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ce51291a-05e0-4a49-a22e-4fe940eaf37d?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau Kindertagesstätte in der Rotbuchenstraße, Neumarkt i.d.OPf. - Innentüren",
+  "buyer": "Stadt Neumarkt i.d.OPf.",
+  "cpv": [
+   "45421131"
+  ],
+  "nuts": [
+   "DE236"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7bea1096-778c-487e-a3c3-0cb1e1961096",
+  "id": "ce51291a-05e0-4a49-a22e-4fe940eaf37d",
+  "date": "2026-10-18T08:44:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Neumarkt i.d.OPf.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2623",
+     "legalName": "Stadt Neumarkt i.d.OPf."
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Neumarkt i.d.OPf.",
+     "region": "DE236",
+     "postalCode": "92318",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "8ba5fa12-9dee-4595-99b2-c9ba1df4de7f",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Holzverarbeitung Knitl",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE131749732",
+     "legalName": "Holzverarbeitung Knitl"
+    },
+    "address": {
+     "locality": "Beilngries",
+     "region": "DE219",
+     "postalCode": "92339",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Neumarkt i.d.OPf.",
+   "id": "2623",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Neumarkt i.d.OPf."
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Neumarkt i.d.OPf.",
+    "region": "DE236",
+    "postalCode": "92318",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7bea1096-778c-487e-a3c3-0cb1e1961096",
+   "title": "Neubau Kindertagesstätte in der Rotbuchenstraße, Neumarkt i.d.OPf. - Innentüren",
+   "description": "Innentüren",
+   "procuringEntity": {
+    "name": "Stadt Neumarkt i.d.OPf.",
+    "id": "2623"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421131",
+      "description": "Installation of doors"
+     },
+     "deliveryAddress": {
+      "region": "DE236",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Holzverarbeitung Knitl",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Holzverarbeitung Knitl"
+     },
+     "address": {
+      "locality": "Beilngries",
+      "region": "DE219",
+      "postalCode": "92339",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Kindertagesstätte in der Rotbuchenstraße, Neumarkt i.d.OPf. - Innentüren",
+     "description": "Neubau eines zweigeschossigen Gebäudes, längs orientierte entlang der Rotbuchenstraße. Das Gebäude der Kindertagesstätte beherbergt im Erdgeschoss 4 Kinderkrippengruppen und im Obergeschoss 3 Kindergartengruppen. Leistungsumfang ist die Fertigung und der Einbau von Innentüren aus Holzwerkstoffen / Holz mit Fingerschutz."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 110191,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-14T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "ce51291a-05e0-4a49-a22e-4fe940eaf37d",
+  "version": "02",
+  "title": "Neubau Kindertagesstätte in der Rotbuchenstraße, Neumarkt i.d.OPf. - Innentüren",
+  "description": "Innentüren",
+  "procedureType": "open",
+  "nuts": [
+   "DE236"
+  ],
+  "cpv": [
+   "45421131"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Kindertagesstätte in der Rotbuchenstraße, Neumarkt i.d.OPf. - Innentüren",
+    "description": "Neubau eines zweigeschossigen Gebäudes, längs orientierte entlang der Rotbuchenstraße. Das Gebäude der Kindertagesstätte beherbergt im Erdgeschoss 4 Kinderkrippengruppen und im Obergeschoss 3 Kindergartengruppen. Leistungsumfang ist die Fertigung und der Einbau von Innentüren aus Holzwerkstoffen / Holz mit Fingerschutz.",
+    "cpv": [
+     "45421131"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis wird aus der Wertungssumme des Angebotes ermittelt. \nDie Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesondere unter Berücksichtigung von Nachlässen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

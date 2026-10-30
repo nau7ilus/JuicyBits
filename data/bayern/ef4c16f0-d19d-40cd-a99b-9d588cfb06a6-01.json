@@ -195,6 +195,8 @@
   "noticeId": "ef4c16f0-d19d-40cd-a99b-9d588cfb06a6",
   "version": "01",
   "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+  "procedureType": null,
   "nuts": [
    "DE27D"
   ],
@@ -207,6 +209,7 @@
    {
     "id": "LOT-0001",
     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) - Lückenschlussprogramm Aufruf 2025",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen beträgt 193 Adressen.",
     "cpv": [
      "64210000"
     ],
@@ -217,9 +220,34 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

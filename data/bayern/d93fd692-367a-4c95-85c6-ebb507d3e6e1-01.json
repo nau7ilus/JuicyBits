@@ -1,0 +1,249 @@
+{
+ "id": "d93fd692-367a-4c95-85c6-ebb507d3e6e1-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "d93fd692-367a-4c95-85c6-ebb507d3e6e1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d93fd692-367a-4c95-85c6-ebb507d3e6e1",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:d93fd692-367a-4c95-85c6-ebb507d3e6e1-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:d93fd692-367a-4c95-85c6-ebb507d3e6e1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d93fd692-367a-4c95-85c6-ebb507d3e6e1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Straßenbahnlinie Frauenland/Hubland - Vorabmaßnahme",
+  "buyer": "Würzburger Straßenbahn GmbH",
+  "cpv": [
+   "45231300",
+   "45231221",
+   "45232411",
+   "45233120"
+  ],
+  "nuts": [
+   "DE263"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-21db6ee6-f18a-4371-b74f-e5195822c893",
+  "id": "d93fd692-367a-4c95-85c6-ebb507d3e6e1",
+  "date": "2026-10-25T14:04:03Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Würzburger Straßenbahn GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0931361282",
+     "legalName": "Würzburger Straßenbahn GmbH"
+    },
+    "address": {
+     "streetAddress": "Haugerring 5",
+     "locality": "Würzburg",
+     "region": "DE263",
+     "postalCode": "97070",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0981 53-1277",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522 ",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Würzburger Straßenbahn GmbH",
+   "id": "0931361282",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Würzburger Straßenbahn GmbH"
+   },
+   "address": {
+    "streetAddress": "Haugerring 5",
+    "locality": "Würzburg",
+    "region": "DE263",
+    "postalCode": "97070",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "21db6ee6-f18a-4371-b74f-e5195822c893",
+   "title": "Straßenbahnlinie Frauenland/Hubland - Vorabmaßnahme",
+   "description": "Kanal- und Spartenverlegung im Frauenland - Abschnitt 1",
+   "procuringEntity": {
+    "name": "Würzburger Straßenbahn GmbH",
+    "id": "0931361282"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45231300",
+      "description": "Construction work for water and sewage pipelines"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45231221",
+       "description": "Gas supply mains construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45232411",
+       "description": "Foul-water piping construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45233120",
+       "description": "Road construction works"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "n.n."
+     },
+     "deliveryAddress": {
+      "streetAddress": "Haugerring 5",
+      "locality": "Würzburg",
+      "region": "DE263",
+      "postalCode": "97070",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284b32-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Straßenbahnlinie Frauenland/Hubland - Vorabmaßnahme",
+     "description": "Kanal- und Spartenverlegung im Frauenland - Abschnitt 1",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2027-11-12T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "d93fd692-367a-4c95-85c6-ebb507d3e6e1",
+  "version": "01",
+  "title": "Straßenbahnlinie Frauenland/Hubland - Vorabmaßnahme",
+  "description": "Kanal- und Spartenverlegung im Frauenland - Abschnitt 1",
+  "procedureType": "open",
+  "nuts": [
+   "DE263"
+  ],
+  "cpv": [
+   "45231300",
+   "45231221",
+   "45232411",
+   "45233120"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Straßenbahnlinie Frauenland/Hubland - Vorabmaßnahme",
+    "description": "Kanal- und Spartenverlegung im Frauenland - Abschnitt 1",
+    "cpv": [
+     "45231300",
+     "45231221",
+     "45232411",
+     "45233120"
+    ],
+    "nuts": [
+     "DE263"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2027-11-12+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Eigenerklärung über den Umsatz (netto) in den Jahren 2025, 2024 und 2023 im Bereich der zu vergebenden Leistungen und den Gesamtumsatz. Eintragung in Anlage 124.  Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist \ngleichzeitig mit der „Verpflichtungserklärung“ (Formblatt 236) abzugeben."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Bieter geben über das mit dem Angebot abzugebende Formblatt 124 eine Eigenerklärung über \ndie Eintragung in das Berufs- oder Handelsregister ab (gilt für Bieter, Mitglieder \neiner Bietergemeinschaft) ab."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung über die durchschnittlichen Anzahl der Mitarbeitenden in den Jahren 2025, 2024 und 2023. Eintragung in Anlage 124."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Jeder Bieter und jedes Mitglied einer Bietergemeinschaft müssen mit dem Angebot die nachfolgend aufgelisteten Eigenerklärungen zu Referenzen abgeben. Hierzu wird die Anlage 100, zur Verfügung gestellt.\nFür alle nachfolgend genannten Referenzen muss in der Anlage 100 ein Ansprechpartner des Referenzgebers für Rückfragen angegeben werden. Zudem muss dem Angebot für jede Referenz eine aussagekräftige Kurzbeschreibung beigefügt werden.\n\nHinweis für Bewerbergemeinschaften und Bieter mit Nachunternehmern:\nDie Referenzanforderungen müssen von dem Unternehmen/Büro nachgewiesen werden, das im Falle der Zuschlagserteilung den betreffenden Bereich übernehmen soll. \nDas Gütezeichen Güteschutz Kanalbau AK 2 gemäß RAL-GZ 961 muss vorhanden sein. Ein zum Güteschutz Kanalbau äquivalenter Nachweis wird ebenfalls anerkannt. Eine Fremdüberwachung sowie die Vorlage eines unternehmensbezogenen Einzelnachweises werden ebenfalls anerkannt.\n\nEs müssen mindestens 3 Baureferenzen innerhalb der letzten fünf Jahre (Zeitraum ab dem 01.11.2021 bis zum Ende der Angebotsfrist dieses Verfahrens) über erbrachte und abgeschlossene Arbeiten nachgewiesen werden. Die Referenzprojekte müssen in den wesentlichen Teilleistungen mit der hiesigen Ausschreibung vergleichbar sein. Dies erfordert den Nachweis von:\n•\tKanalbauarbeiten im offenen Graben inklusive des erforderlichen Erdaushubs und Grabenverbaus,\n•\tdem Bau oder der Sanierung von Druckrohrleitungen (z. B. Gas-, Wasser- oder Fernwärmeleitungen),\n•\tder Wiederherstellung von Straßenoberflächen (Asphalt- und/oder Pflasterdecken) nach Leitungszonen- oder Kanalgrabenbau sowie\n•\tder Ausführung unter erschwerten Bedingungen (z. B. unter Aufrechterhaltung des fließenden Verkehrs, im innerstädtischen Bereich oder bei beengten Platzverhältnissen).\nDie geforderten Teilleistungen müssen nicht alle in einem einzigen Referenzprojekt vereint sein, sondern können aufgeteilt auf die verschiedenen eingereichten Referenzprojekte nachgewiesen werden."
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Der Bieter muss erklären, dass er zur Ausführung der in dieser Ausschreibung beschrieben Leistung mindestens 4 Kolonnen zur Verfügung hat.  Eine Kolonne setzt sich aus mindestens zwei Baufachwerker zusammen. Dies ist in Anlage 100 einzutragen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung über das Bestehen einer Berufs- bzw. Betriebshaftpflichtversicherung mit einer Deckungssumme von mindestens 3 Mio. € für Personenschäden und mindestens 3 Mio. € für Sach- und Vermögensschäden, jeweils zweifach maximiert pro Jahr, oder Eigenerklärung, dass im Falle der Zuschlagserteilung eine Berufs- bzw. Betriebshaftpflichtversicherung mit einer Deckungssumme von mindestens 3 Mio. € für Personenschäden und mindestens 3 Mio. € für Sach- und Vermögensschäden, jeweils zweifach maximiert pro Jahr, vor Zuschlagserteilung abgeschlossen wird."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Einziges Zuschlagskriterium ist der Preis.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Vertragserfüllungsbürgschaft in Höhe von 5%.\nMängelgewährleistungsbürgschaft in Höhe von 3%."
+    }
+   }
+  ]
+ }
+}

@@ -175,6 +175,8 @@
   "noticeId": "3448b7da-8c13-45fe-a2e1-461a544fb9d5",
   "version": "01",
   "title": "MS und Trafoanlage",
+  "description": "Zwei Mittelspannungsanlagen AV und SV sowie \ninsgesammt 8 Transformatoren (6x1600 kVA und 2x2000 kVA) für eine Energiezentrale. \nDazu gehören auch die Ausbauten der Räume mit Trassen und Doppelboden/Gitterrost.",
+  "procedureType": "open",
   "nuts": [
    "DE254"
   ],
@@ -189,6 +191,7 @@
    {
     "id": "LOT-0000",
     "title": "MS und Trafoanlage",
+    "description": "Zwei Mittelspannungsanlagen AV und SV sowie \ninsgesammt 8 Transformatoren (6x1600 kVA und 2x2000 kVA) für eine Energiezentrale. \nDazu gehören auch die Ausbauten der Räume mit Trassen und Doppelboden/Gitterrost.",
     "cpv": [
      "45315500"
     ],
@@ -199,6 +202,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-03-01+01:00",
     "plannedEnd": "2029-07-06+02:00",
+    "duration": null,
     "estimatedValue": {
      "amount": 1551779.08,
      "currency": "EUR"
@@ -221,7 +225,19 @@
       "type": "slc-suit-reg-prof",
       "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=302546\n\n- Registereintragungen\n- Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2% Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
    }
   ]
  }

@@ -1,0 +1,256 @@
+{
+ "id": "64155fcf-af54-4d12-8c38-ffc7b967b24f-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "64155fcf-af54-4d12-8c38-ffc7b967b24f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=64155fcf-af54-4d12-8c38-ffc7b967b24f",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:64155fcf-af54-4d12-8c38-ffc7b967b24f-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:64155fcf-af54-4d12-8c38-ffc7b967b24f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/64155fcf-af54-4d12-8c38-ffc7b967b24f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Dachabdichtungsarbeiten",
+  "buyer": "Caritas-Diakonie Schulträger gGmbH",
+  "cpv": [
+   "45261410"
+  ],
+  "nuts": [
+   "DE241",
+   "DE245"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f4b51f98-8d6d-445c-8b03-582894775c8f",
+  "id": "64155fcf-af54-4d12-8c38-ffc7b967b24f",
+  "date": "2026-10-16T02:10:52Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Joseph-Stiftung",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRA9587",
+     "legalName": "Joseph-Stiftung"
+    },
+    "address": {
+     "streetAddress": "Hans-Birkmayr-Str. 65",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96050",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Anbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Caritas-Diakonie Schulträger gGmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB9423",
+     "legalName": "Caritas-Diakonie Schulträger gGmbH"
+    },
+    "address": {
+     "streetAddress": "Hainstr. 59",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "W. Müller Bedachungen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "HR-Nr.: 7558",
+     "legalName": "W. Müller Bedachungen GmbH"
+    },
+    "address": {
+     "streetAddress": "Am Sachsenring 3",
+     "locality": "Oberlungwitz",
+     "region": "DED45",
+     "postalCode": "09353",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Caritas-Diakonie Schulträger gGmbH",
+   "id": "HRB9423",
+   "identifier": {
+    "id": "ORG-0003",
+    "legalName": "Caritas-Diakonie Schulträger gGmbH"
+   },
+   "address": {
+    "streetAddress": "Hainstr. 59",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f4b51f98-8d6d-445c-8b03-582894775c8f",
+   "title": "Dachabdichtungsarbeiten",
+   "description": "Ca. 1150m² Dachaufbau aus Dampfsperre, PIR-Gefälledämmung, FPO-Kunststoff-AbdichtungCa. 8 Stück Dachentwässerungspunkte mit Attika-Gullys und FallrohrenCa. 25m² Balkonabdichtung mit EntwässerungCa. 1150m² Extensivbegrünung, PV-Unterkonstruktion in Teilflächen1 Stück Absturzsicherung überfahrbahres SeilsystemCa. 1200m² Abdichtung Bodenplatte gegen Bodenfeuchte",
+   "procuringEntity": {
+    "name": "Caritas-Diakonie Schulträger gGmbH",
+    "id": "HRB9423"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45261410",
+      "description": "Roof insulation work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Emil-Kemmer-Straße",
+      "locality": "Hallstadt",
+      "region": "DE245",
+      "postalCode": "96103",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "W. Müller Bedachungen GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "W. Müller Bedachungen GmbH"
+     },
+     "address": {
+      "streetAddress": "Am Sachsenring 3",
+      "locality": "Oberlungwitz",
+      "region": "DED45",
+      "postalCode": "09353",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Dachabdichtung",
+     "description": "Ca. 1150m² Dachaufbau aus Dampfsperre, PIR-Gefälledämmung, FPO-Kunststoff-AbdichtungCa. 8 Stück Dachentwässerungspunkte mit Attika-Gullys und FallrohrenCa. 25m² Balkonabdichtung mit EntwässerungCa. 1150m² Extensivbegrünung, PV-Unterkonstruktion in Teilflächen1 Stück Absturzsicherung überfahrbahres SeilsystemCa. 1200m² Abdichtung Bodenplatte gegen Bodenfeuchte"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 499907,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "64155fcf-af54-4d12-8c38-ffc7b967b24f",
+  "version": "01",
+  "title": "Dachabdichtungsarbeiten",
+  "description": "Ca. 1150m² Dachaufbau aus Dampfsperre, PIR-Gefälledämmung, FPO-Kunststoff-AbdichtungCa. 8 Stück Dachentwässerungspunkte mit Attika-Gullys und FallrohrenCa. 25m² Balkonabdichtung mit EntwässerungCa. 1150m² Extensivbegrünung, PV-Unterkonstruktion in Teilflächen1 Stück Absturzsicherung überfahrbahres SeilsystemCa. 1200m² Abdichtung Bodenplatte gegen Bodenfeuchte",
+  "procedureType": "open",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "45261410"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Dachabdichtung",
+    "description": "Ca. 1150m² Dachaufbau aus Dampfsperre, PIR-Gefälledämmung, FPO-Kunststoff-AbdichtungCa. 8 Stück Dachentwässerungspunkte mit Attika-Gullys und FallrohrenCa. 25m² Balkonabdichtung mit EntwässerungCa. 1150m² Extensivbegrünung, PV-Unterkonstruktion in Teilflächen1 Stück Absturzsicherung überfahrbahres SeilsystemCa. 1200m² Abdichtung Bodenplatte gegen Bodenfeuchte",
+    "cpv": [
+     "45261410"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

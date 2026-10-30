@@ -1,0 +1,280 @@
+{
+ "id": "a6f6c0f6-f347-4e4c-a674-c3c75a62707d-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "a6f6c0f6-f347-4e4c-a674-c3c75a62707d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a6f6c0f6-f347-4e4c-a674-c3c75a62707d",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:a6f6c0f6-f347-4e4c-a674-c3c75a62707d-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:a6f6c0f6-f347-4e4c-a674-c3c75a62707d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a6f6c0f6-f347-4e4c-a674-c3c75a62707d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Fachplanung Monitoring",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "71000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6a1ee98f-646a-46e6-b461-c5de94e62ad4",
+  "id": "a6f6c0f6-f347-4e4c-a674-c3c75a62707d",
+  "date": "2026-10-18T06:58:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "funder",
+     "payer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "MKP GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE150103917",
+     "legalName": "MKP GmbH"
+    },
+    "address": {
+     "streetAddress": "Zum Hospitalgraben 2",
+     "locality": "Weimar",
+     "region": "DEG05",
+     "postalCode": "99425",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6a1ee98f-646a-46e6-b461-c5de94e62ad4",
+   "title": "Fachplanung Monitoring",
+   "description": "Beabsichtigung der Vergabe von Leistungen:\nLandeshauptstadt München\nMonitoring Lipowskyrücke\n- Nachrechnung des Brückenbauwerks\n- Erstellung Monitoringkonzept\n- Vorbereitung der und Mitwirkung bei der Vergabe der Ausführungsplanung und Umsetzung des Monitorings\n- Begleitung der Ausführungsplanung\n- Begleitung der Installation, der Inbetriebnahme und des Betriebs des Monitorings\n- Bewertung der Messergebnisse",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71000000",
+      "description": "Architectural, construction, engineering and inspection services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80339",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-08T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "MKP GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "MKP GmbH"
+     },
+     "address": {
+      "streetAddress": "Zum Hospitalgraben 2",
+      "locality": "Weimar",
+      "region": "DEG05",
+      "postalCode": "99425",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fachplanung Monitoring",
+     "description": "Gegenstand dieses Vergabeverfahrens sind Fachplanungsleistungen für das \nMonitoring der Straßenbrücke BW 40/12 Lipowskybrücke in München. Die Lipowskybrücke \nüberführt die Radlkoferstraße über die Gleisanlagen der Deutschen Bahn, welche den \nMünchner Hauptbahnhof mit dem Ostbahnhof verbinden. Das Bauwerk wurde in den Jahren \n1963/1964 als einfeldrige Spannbeton Plattenbrücke errichtet und mit längs- und \nquervorgespannten Spanngliedern aus Sigma Oval Spannstahl ausgeführt. Aufgrund der \nVerwendung von spannungsrisskorrosionsgefährdetem Spannstahl älterer Generationen \nsowie eines in Teilen rechnerisch nicht ausreichend nachgewiesenen Ankündigungsverhaltens \nist das Bauwerk trotz insgesamt guten baulichen Zustands als gefährdet einzustufen. \nSpannstahlbrüche können ohne sichtbare äußere Anzeichen auftreten und stellen ein besonderes Risiko für den weiteren Bauwerksbetrieb dar. Ein Ersatzneubau des Bauwerks ist \nvorgesehen, der Zeitpunkt der Realisierung ist derzeit jedoch noch nicht festgelegt. Zur \nSicherstellung des sicheren Weiterbetriebs bis zum Ersatzneubau ist die Einführung eines \nqualifizierten, bauwerksspezifischen Monitoringsystems vorgesehen. Ziel des Monitorings ist \ninsbesondere die frühzeitige Detektion und Lokalisierung möglicher Spannstahlbrüche sowie \ndie kontinuierliche Bewertung des strukturellen Zustands des Bauwerks. Die gewonnenen \nMessdaten dienen als Grundlage für belastbare ingenieurtechnische Entscheidungen im \nRahmen der Bauwerksbewirtschaftung und tragen zur Gewährleistung der Bauwerkssicherheit \nbei. Gegenstand der Beschaffung ist die Leistung eines Fachplaners Monitoring in Anlehnung \nan das DBV Merkblatt Brückenmonitoring. Der Fachplaner übernimmt die fachliche \nKonzeption, Planung und Begleitung der Monitoringmaßnahmen über die gesamte Laufzeit \ndes Monitorings hinweg. Darüber hinaus wirkt er bei der Vorbereitung und fachlichen \nBegleitung des Vergabeverfahrens zur Beauftragung eines spezialisierten Dienstleisters für \nBauwerksmessungen mit und unterstützt den Auftraggeber während der Umsetzung und des \nBetriebs des Monitorings. Der Leistungsumfang umfasst insbesondere: - die Nachrechnung \nund ingenieurtechnische Bewertung des Brückenbauwerks, - die Erstellung eines \nMonitoringkonzepts einschließlich Festlegung geeigneter Messgrößen, Messstellen und \nGrenzwerte, - die Vorbereitung und fachliche Mitwirkung bei der Vergabe der \nAusführungsplanung und Umsetzung des Monitorings, - die Begleitung der \nAusführungsplanung des Messsystems, - die Begleitung der Installation, Inbetriebnahme und \ndes Betriebs des Monitorings, - sowie die fortlaufende Auswertung und Bewertung der \nMessergebnisse. Im Rahmen des Monitorings sind mindestens ein Schallemissionsmonitoring \nsowie ein davon unabhängiges weiteres Monitoringsystem (z. B. faseroptisch) vorzusehen. \nErgänzend ist eine Videoüberwachung des Bauwerks einzuplanen. Die Monitoring , \nInstallations- und Betriebskonzepte sind unter Berücksichtigung der besonderen \nRandbedingungen des Bauwerks zu entwickeln. Hierzu zählen insbesondere die Lage des \nBauwerks über DB Gleisanlagen, betriebliche Anforderungen der Deutschen Bahn sowie die \nNutzung vorhandener Sperrpausencontainer. Die Beauftragung erfolgt stufenweise. Der \nAuftragnehmer ist im Falle der Beauftragung verpflichtet, sämtliche Leistungsstufen zu \nübernehmen. Ein Anspruch auf Beauftragung aller Leistungsstufen besteht nicht. Die \nVergütung erfolgt stufenweise gemäß dem jeweils beauftragten Leistungsumfang. Die \nausgeschriebenen Leistungen gliedern sich wie folgt: Leistungsstufe 1 - Phase 1: Definition \nder Fragestellung und Überprüfung der Machbarkeit - Phase 2: Erstellung Monitoringkonzept \nund Fachplanung des Monitorings Leistungsstufe 2 - Phase 3: Begleitung der \nAusführungsplanung des Messsystems - Phase 4: Begleitung der Installation und \nInbetriebnahme Leistungsstufe 3 - Phase 5: Begleitung des Betriebs und der \nDatenverarbeitung - Phase 6: Bewertung der Ergebnisse",
+     "contractPeriod": {
+      "startDate": "2026-09-15T00:00:00+02:00",
+      "endDate": "2032-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Fachplanung Monitoring",
+    "status": "active",
+    "date": "2026-10-08T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "MKP GmbH",
+      "id": "DE150103917",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "MKP GmbH"
+      },
+      "address": {
+       "streetAddress": "Zum Hospitalgraben 2",
+       "locality": "Weimar",
+       "region": "DEG05",
+       "postalCode": "99425",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Fachplanung Monitoring",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-07T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "373884-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "373884-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a6f6c0f6-f347-4e4c-a674-c3c75a62707d",
+  "version": "01",
+  "title": "Fachplanung Monitoring",
+  "description": "Beabsichtigung der Vergabe von Leistungen:\nLandeshauptstadt München\nMonitoring Lipowskyrücke\n- Nachrechnung des Brückenbauwerks\n- Erstellung Monitoringkonzept\n- Vorbereitung der und Mitwirkung bei der Vergabe der Ausführungsplanung und Umsetzung des Monitorings\n- Begleitung der Ausführungsplanung\n- Begleitung der Installation, der Inbetriebnahme und des Betriebs des Monitorings\n- Bewertung der Messergebnisse",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fachplanung Monitoring",
+    "description": "Gegenstand dieses Vergabeverfahrens sind Fachplanungsleistungen für das \nMonitoring der Straßenbrücke BW 40/12 Lipowskybrücke in München. Die Lipowskybrücke \nüberführt die Radlkoferstraße über die Gleisanlagen der Deutschen Bahn, welche den \nMünchner Hauptbahnhof mit dem Ostbahnhof verbinden. Das Bauwerk wurde in den Jahren \n1963/1964 als einfeldrige Spannbeton Plattenbrücke errichtet und mit längs- und \nquervorgespannten Spanngliedern aus Sigma Oval Spannstahl ausgeführt. Aufgrund der \nVerwendung von spannungsrisskorrosionsgefährdetem Spannstahl älterer Generationen \nsowie eines in Teilen rechnerisch nicht ausreichend nachgewiesenen Ankündigungsverhaltens \nist das Bauwerk trotz insgesamt guten baulichen Zustands als gefährdet einzustufen. \nSpannstahlbrüche können ohne sichtbare äußere Anzeichen auftreten und stellen ein besonderes Risiko für den weiteren Bauwerksbetrieb dar. Ein Ersatzneubau des Bauwerks ist \nvorgesehen, der Zeitpunkt der Realisierung ist derzeit jedoch noch nicht festgelegt. Zur \nSicherstellung des sicheren Weiterbetriebs bis zum Ersatzneubau ist die Einführung eines \nqualifizierten, bauwerksspezifischen Monitoringsystems vorgesehen. Ziel des Monitorings ist \ninsbesondere die frühzeitige Detektion und Lokalisierung möglicher Spannstahlbrüche sowie \ndie kontinuierliche Bewertung des strukturellen Zustands des Bauwerks. Die gewonnenen \nMessdaten dienen als Grundlage für belastbare ingenieurtechnische Entscheidungen im \nRahmen der Bauwerksbewirtschaftung und tragen zur Gewährleistung der Bauwerkssicherheit \nbei. Gegenstand der Beschaffung ist die Leistung eines Fachplaners Monitoring in Anlehnung \nan das DBV Merkblatt Brückenmonitoring. Der Fachplaner übernimmt die fachliche \nKonzeption, Planung und Begleitung der Monitoringmaßnahmen über die gesamte Laufzeit \ndes Monitorings hinweg. Darüber hinaus wirkt er bei der Vorbereitung und fachlichen \nBegleitung des Vergabeverfahrens zur Beauftragung eines spezialisierten Dienstleisters für \nBauwerksmessungen mit und unterstützt den Auftraggeber während der Umsetzung und des \nBetriebs des Monitorings. Der Leistungsumfang umfasst insbesondere: - die Nachrechnung \nund ingenieurtechnische Bewertung des Brückenbauwerks, - die Erstellung eines \nMonitoringkonzepts einschließlich Festlegung geeigneter Messgrößen, Messstellen und \nGrenzwerte, - die Vorbereitung und fachliche Mitwirkung bei der Vergabe der \nAusführungsplanung und Umsetzung des Monitorings, - die Begleitung der \nAusführungsplanung des Messsystems, - die Begleitung der Installation, Inbetriebnahme und \ndes Betriebs des Monitorings, - sowie die fortlaufende Auswertung und Bewertung der \nMessergebnisse. Im Rahmen des Monitorings sind mindestens ein Schallemissionsmonitoring \nsowie ein davon unabhängiges weiteres Monitoringsystem (z. B. faseroptisch) vorzusehen. \nErgänzend ist eine Videoüberwachung des Bauwerks einzuplanen. Die Monitoring , \nInstallations- und Betriebskonzepte sind unter Berücksichtigung der besonderen \nRandbedingungen des Bauwerks zu entwickeln. Hierzu zählen insbesondere die Lage des \nBauwerks über DB Gleisanlagen, betriebliche Anforderungen der Deutschen Bahn sowie die \nNutzung vorhandener Sperrpausencontainer. Die Beauftragung erfolgt stufenweise. Der \nAuftragnehmer ist im Falle der Beauftragung verpflichtet, sämtliche Leistungsstufen zu \nübernehmen. Ein Anspruch auf Beauftragung aller Leistungsstufen besteht nicht. Die \nVergütung erfolgt stufenweise gemäß dem jeweils beauftragten Leistungsumfang. Die \nausgeschriebenen Leistungen gliedern sich wie folgt: Leistungsstufe 1 - Phase 1: Definition \nder Fragestellung und Überprüfung der Machbarkeit - Phase 2: Erstellung Monitoringkonzept \nund Fachplanung des Monitorings Leistungsstufe 2 - Phase 3: Begleitung der \nAusführungsplanung des Messsystems - Phase 4: Begleitung der Installation und \nInbetriebnahme Leistungsstufe 3 - Phase 5: Begleitung des Betriebs und der \nDatenverarbeitung - Phase 6: Bewertung der Ergebnisse",
+    "cpv": [
+     "71000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-15+02:00",
+    "plannedEnd": "2032-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle (Unter-)Kriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt.",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Die Qualität  ist nicht das einzige Zuschlagskriterium; alle (Unter-)Kriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt.",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

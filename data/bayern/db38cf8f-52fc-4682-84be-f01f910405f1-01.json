@@ -1,0 +1,304 @@
+{
+ "id": "db38cf8f-52fc-4682-84be-f01f910405f1-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "db38cf8f-52fc-4682-84be-f01f910405f1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=db38cf8f-52fc-4682-84be-f01f910405f1",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:db38cf8f-52fc-4682-84be-f01f910405f1-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:db38cf8f-52fc-4682-84be-f01f910405f1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/db38cf8f-52fc-4682-84be-f01f910405f1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvereinbarung Kauf, Lieferung und De-/Montage von Haushaltsgeräten (Weißware) für Energiesparmaßnahmen ",
+  "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+  "cpv": [
+   "39710000",
+   "39711100",
+   "39713200",
+   "39713100"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-23T23:59:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d5fdf754-a779-4ec0-81ee-590a2b1ba34e",
+  "id": "db38cf8f-52fc-4682-84be-f01f910405f1",
+  "date": "2026-10-22T02:08:57Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3"
+    },
+    "address": {
+     "streetAddress": "Balanstraße 59",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81541",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+   "id": "Leitweg-ID 09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3"
+   },
+   "address": {
+    "streetAddress": "Balanstraße 59",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81541",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d5fdf754-a779-4ec0-81ee-590a2b1ba34e",
+   "title": "Rahmenvereinbarung Kauf, Lieferung und De-/Montage von Haushaltsgeräten (Weißware) für Energiesparmaßnahmen ",
+   "description": "Rahmenvereinbarung über den Kauf, Lieferung und De-/Montage von Haushaltsgeräten (Weißware) für Energiesparmaßnahmen",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+    "id": "Leitweg-ID 09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39710000",
+      "description": "Electrical domestic appliances"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39711100",
+       "description": "Refrigerators and freezers"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81541",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39710000",
+      "description": "Electrical domestic appliances"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39713200",
+       "description": "Clothes-washing and drying machines"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39713100",
+       "description": "Dishwashing machines"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81541",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a03d25b2e5-2688270508210fa",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a03d25b2e5-2688270508210fa",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Kühl- und Kühl-/Gefriergeräte",
+     "description": "Kauf und Lieferung von Kühl- und Kühl-/Gefriergeräte, inkl. Demontage, Montage und Entsorgung",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Waschmaschinen und Geschirrspülmaschinen",
+     "description": "Kauf und Lieferung von Waschmaschinen und Geschirrspülmaschinen, inkl. Demontage, Montage und Entsorgung",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "db38cf8f-52fc-4682-84be-f01f910405f1",
+  "version": "01",
+  "title": "Rahmenvereinbarung Kauf, Lieferung und De-/Montage von Haushaltsgeräten (Weißware) für Energiesparmaßnahmen",
+  "description": "Rahmenvereinbarung über den Kauf, Lieferung und De-/Montage von Haushaltsgeräten (Weißware) für Energiesparmaßnahmen",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "39710000",
+   "39711100",
+   "39713200",
+   "39713100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Kühl- und Kühl-/Gefriergeräte",
+    "description": "Kauf und Lieferung von Kühl- und Kühl-/Gefriergeräte, inkl. Demontage, Montage und Entsorgung",
+    "cpv": [
+     "39710000",
+     "39711100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 2 erbrachte\nvergleichbare Leistungen pro LOS vorweisen.\nAls vergleichbare Leistung gilt in vorliegendem Fall:\nLOS 1:\nLieferung von mind. 20 Kühl- und Kühl-/Gefriergeräten (verschiedene Ausführungen zulässig) an einen Auftraggeber innerhalb eines Jahres\nLOS 2:\nLieferung von mind. 15 Waschmaschinen und Geschirrspülmaschinen (verschiedene Ausführungen zulässig) an einen Auftraggeber innerhalb eines Jahres\n\nReferenzen dürfen nachfolgend nur angegeben werden, wenn\n- sie nicht älter als drei Jahre sind\nund\n- die Leistung bereits vollständig abgeschlossen wurde oder\neiner Vertragslaufzeit von über einem Jahr, mindestens ein\nLeistungszeitraum von einem Jahr bereits abgeschlossen\nwurde."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Während der Ausführungszeit des Auftrags besteht für das\nUnternehmen eine Berufs- oder Betriebshaftpflichtversicherung\nmit mindestens folgenden Deckungssummen:\nPersonenschäden: 1.000.000 Euro\nSachschäden: 1.000.000 Euro\nVermögensschäden: 1.000.000 Euro"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz in den letzten 3 abgeschlossenen\nGeschäftsjahren muss für die einzelnen Lose mindestens\nfolgende Werte betragen:\nLOS 1: 750.000,00 € Euro/netto\nLOS 2: 500.000,00 Euro/netto"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Zuschlagskriterium ist der Preis (100%), wobei alle Anforderungen gemäß der Vergabeunterlagen erfüllt sein müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Waschmaschinen und Geschirrspülmaschinen",
+    "description": "Kauf und Lieferung von Waschmaschinen und Geschirrspülmaschinen, inkl. Demontage, Montage und Entsorgung",
+    "cpv": [
+     "39710000",
+     "39713200",
+     "39713100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 2 erbrachte\nvergleichbare Leistungen pro LOS vorweisen.\nAls vergleichbare Leistung gilt in vorliegendem Fall:\nLOS 1:\nLieferung von mind. 20 Kühl- und Kühl-/Gefriergeräten (verschiedene Ausführungen zulässig) an einen Auftraggeber innerhalb eines Jahres\nLOS 2:\nLieferung von mind. 15 Waschmaschinen und Geschirrspülmaschinen (verschiedene Ausführungen zulässig) an einen Auftraggeber innerhalb eines Jahres\n\nReferenzen dürfen nachfolgend nur angegeben werden, wenn\n- sie nicht älter als drei Jahre sind\nund\n- die Leistung bereits vollständig abgeschlossen wurde oder\neiner Vertragslaufzeit von über einem Jahr, mindestens ein\nLeistungszeitraum von einem Jahr bereits abgeschlossen\nwurde."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Während der Ausführungszeit des Auftrags besteht für das\nUnternehmen eine Berufs- oder Betriebshaftpflichtversicherung\nmit mindestens folgenden Deckungssummen:\nPersonenschäden: 1.000.000 Euro\nSachschäden: 1.000.000 Euro\nVermögensschäden: 1.000.000 Euro"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz in den letzten 3 abgeschlossenen\nGeschäftsjahren muss für die einzelnen Lose mindestens\nfolgende Werte betragen:\nLOS 1: 750.000,00 € Euro/netto\nLOS 2: 500.000,00 Euro/netto"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Zuschlagskriterium ist der Preis (100%), wobei alle Anforderungen gemäß der Vergabeunterlagen erfüllt sein müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

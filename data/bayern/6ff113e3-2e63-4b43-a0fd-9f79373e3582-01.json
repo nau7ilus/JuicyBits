@@ -1,0 +1,288 @@
+{
+ "id": "6ff113e3-2e63-4b43-a0fd-9f79373e3582-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "6ff113e3-2e63-4b43-a0fd-9f79373e3582",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6ff113e3-2e63-4b43-a0fd-9f79373e3582",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:6ff113e3-2e63-4b43-a0fd-9f79373e3582-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:6ff113e3-2e63-4b43-a0fd-9f79373e3582-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6ff113e3-2e63-4b43-a0fd-9f79373e3582?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Coburg - Amt 20 -  Energieversorgung - Gas ab 2027",
+  "buyer": "Stadt Coburg",
+  "cpv": [
+   "09123000",
+   "65210000"
+  ],
+  "nuts": [
+   "DE243"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0cfe7755-458c-4506-9b5a-ce99b4922f1c",
+  "id": "6ff113e3-2e63-4b43-a0fd-9f79373e3582",
+  "date": "2026-10-25T10:14:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Coburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09463000-0001SC3250-50",
+     "legalName": "Stadt Coburg"
+    },
+    "address": {
+     "streetAddress": "Steingasse 18",
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0358002- 61",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "SÜC Energie und H2O GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 197190842",
+     "legalName": "SÜC Energie und H2O GmbH"
+    },
+    "address": {
+     "streetAddress": "Bamberger Str. 2-6",
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Coburg",
+   "id": "09463000-0001SC3250-50",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Stadt Coburg"
+   },
+   "address": {
+    "streetAddress": "Steingasse 18",
+    "locality": "Coburg",
+    "region": "DE243",
+    "postalCode": "96450",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0cfe7755-458c-4506-9b5a-ce99b4922f1c",
+   "title": "Coburg - Amt 20 -  Energieversorgung - Gas ab 2027",
+   "description": "Energieversorgung Gas ab 2027",
+   "procuringEntity": {
+    "name": "Stadt Coburg",
+    "id": "09463000-0001SC3250-50"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "65210000",
+       "description": "Gas distribution"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Markt 1",
+      "locality": "Coburg",
+      "region": "DE243",
+      "postalCode": "96450",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Restricted",
+   "procurementMethodRationale": "Da die Auftragnehmer ihre Tranchen für die kommenden Jahre bereits jetzt beschaffen müssen, ist eine dringende Durchführung des Ausschreibungsverfahrens notwendig.",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SÜC Energie und H2O GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "SÜC Energie und H2O GmbH"
+     },
+     "address": {
+      "streetAddress": "Bamberger Str. 2-6",
+      "locality": "Coburg",
+      "region": "DE243",
+      "postalCode": "96450",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Coburg - Amt 20 -  Energieversorgung - Gas ab 2027",
+     "description": "Lieferung von Erdgas für Liegenschaften der Stadt Coburg. Gegenstand der Vergabe ist die Erdgaslieferung an alle Gasabnahmestellen des Auftraggebers,\ndie im Verzeichnis der Abnahmestellen (Anlage 4) aufgelistet sind. Das\nGesamtliefervolumen beträgt im Lieferjahr 2027 ca. 8,22 Mio.\nkWh. Die Ausschreibung der Gaslieferung an die in der\nLeistungsbeschreibung aufgeführten Abnahmestellen erfolgt für\nden Zeitraum vom 01.01.2027 bis zum 31.12.2028. Dem Auftraggeber ist eine einseitige Option zur zweimaligen Verlängerung des Gasliefer-Rahmenvertrages um jeweils 1 Jahr einzuräumen.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "139582-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "139582-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "6ff113e3-2e63-4b43-a0fd-9f79373e3582",
+  "version": "01",
+  "title": "Coburg - Amt 20 -  Energieversorgung - Gas ab 2027",
+  "description": "Energieversorgung Gas ab 2027",
+  "procedureType": "restricted",
+  "nuts": [
+   "DE243"
+  ],
+  "cpv": [
+   "09123000",
+   "65210000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Coburg - Amt 20 -  Energieversorgung - Gas ab 2027",
+    "description": "Lieferung von Erdgas für Liegenschaften der Stadt Coburg. Gegenstand der Vergabe ist die Erdgaslieferung an alle Gasabnahmestellen des Auftraggebers,\ndie im Verzeichnis der Abnahmestellen (Anlage 4) aufgelistet sind. Das\nGesamtliefervolumen beträgt im Lieferjahr 2027 ca. 8,22 Mio.\nkWh. Die Ausschreibung der Gaslieferung an die in der\nLeistungsbeschreibung aufgeführten Abnahmestellen erfolgt für\nden Zeitraum vom 01.01.2027 bis zum 31.12.2028. Dem Auftraggeber ist eine einseitige Option zur zweimaligen Verlängerung des Gasliefer-Rahmenvertrages um jeweils 1 Jahr einzuräumen.",
+    "cpv": [
+     "09123000",
+     "65210000"
+    ],
+    "nuts": [
+     "DE243"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Versorgungssicherheit",
+      "description": "Konzept mit lieferantenseitigen beeinflussbaren Aspekten",
+      "weight": 15
+     },
+     {
+      "type": "quality",
+      "name": "Transformationspfad",
+      "description": "Dem Angebot ist ein Transformationspfad beizufügen.",
+      "weight": 15
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Angebotspreis",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

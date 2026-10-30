@@ -5,14 +5,14 @@
   "noticeId": "10e74830-b3f3-4244-9ce4-784b2699b0f9",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=10e74830-b3f3-4244-9ce4-784b2699b0f9",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:10e74830-b3f3-4244-9ce4-784b2699b0f9-02.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:10e74830-b3f3-4244-9ce4-784b2699b0f9-02.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/10e74830-b3f3-4244-9ce4-784b2699b0f9?format=ocds&noticeVersion=02"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Transport von Haushaltsabfällen aus privaten Herkunftsbereichen",
   "buyer": "Landratsamt Garmisch-Partenkirchen - Abfallwirtschaft -",
   "cpv": [
@@ -184,5 +184,56 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "10e74830-b3f3-4244-9ce4-784b2699b0f9",
+  "version": "02",
+  "title": "Transport von Haushaltsabfällen aus privaten Herkunftsbereichen",
+  "description": "Transport des Restmülls aus privaten Haushalten zur Müllverwertungsanlage",
+  "procedureType": "open",
+  "nuts": [
+   "DE21D"
+  ],
+  "cpv": [
+   "90512000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Transport von Haushaltsabfällen aus privaten Herkunftsbereichen",
+    "description": "Bereitstellung von Containermulden und Transport der Mulden nach Ingolstadt zur Müllverwertungsanlage. Detaillierte Informationen zum Auftrag sind dem Leistungsverzeichnis zu entnehmen.",
+    "cpv": [
+     "90512000"
+    ],
+    "nuts": [
+     "DE21D"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Das Kriterium klimaneutrale Abfuhr wird mit 10 Punkten bewertet. Zur Bewertung des Kriteriums klimaneutrale Abfuhr wird ein Angebot mit der Erklärung, mindestens 30 % der durchzuführenden Transporte mit Fahrzeugen durchzuführen, welche über eine klimaneutrale Antriebstechnik verfügen, mit 10 Punkten bewertet. Ein Angebot mit der Erklärung mindestens 20 jedoch weniger als 30 % der Transporte mit einer entsprechenden Fahrzeugtechnik durchzuführen, wird mit 5 Punkten bewertet. Ein Ange-bot mit der Erklärung, mindestens 10 jedoch weniger als 20 % der Transporte mit einer entsprechenden \nFahrzeugtechnik durchzuführen, wird mit 2,5 Punkten bewertet. Weniger als 10 % wird mit 0 Punkten bewertet. Als Fahrzeuge mit klimaneutraler Antriebstechnik im Sinne des zustande kommenden Vertrags sind Fahr-zeuge zu verstehen, die ausschließlich mit CO2-neutralen alternativen Kraftstoffen aus Strom, Wasserstoff, Erdgas, synthetischen Kraftstoffen, Biokraftstoff und flüssig Gas betrieben werden.",
+      "weight": 10
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Das Kriterium Preis wird mit 90 Punkten bewertet. Das Angebot mit dem niedrigsten Gesamtpreis pro Jahr zur Wertung (inkl. USt.) erhält 90 Punkte. Die \nErmittlung der Punktzahl (mathematisch gerundet auf zwei Dezimalstellen) der übrigen Angebote erfolgt \numgekehrt proportional und prozentual zum Preisunterschied.",
+      "weight": 90
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

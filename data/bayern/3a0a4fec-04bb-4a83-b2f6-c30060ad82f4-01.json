@@ -1,0 +1,259 @@
+{
+ "id": "3a0a4fec-04bb-4a83-b2f6-c30060ad82f4-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "3a0a4fec-04bb-4a83-b2f6-c30060ad82f4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3a0a4fec-04bb-4a83-b2f6-c30060ad82f4",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:3a0a4fec-04bb-4a83-b2f6-c30060ad82f4-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:3a0a4fec-04bb-4a83-b2f6-c30060ad82f4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3a0a4fec-04bb-4a83-b2f6-c30060ad82f4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Fliesen- und Plattenarbeiten",
+  "buyer": "Stadt Bogen",
+  "cpv": [
+   "45431000",
+   "45320000",
+   "45261420"
+  ],
+  "nuts": [
+   "DE22B"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ed43e9e9-9eaa-4bdb-b797-d3c0ef955071",
+  "id": "3a0a4fec-04bb-4a83-b2f6-c30060ad82f4",
+  "date": "2026-10-18T06:40:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bogen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09278118-STADTBOGEN-29",
+     "legalName": "Stadt Bogen"
+    },
+    "address": {
+     "streetAddress": "Stadtplatz 56",
+     "locality": "Bogen",
+     "region": "DE22B",
+     "postalCode": "94327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80358",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fliesen Hofmeier GmbH & CO. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 162 295 758",
+     "legalName": "Fliesen Hofmeier GmbH & CO. KG"
+    },
+    "address": {
+     "streetAddress": "Lärchenstraße 7a",
+     "locality": "Lorenzen",
+     "region": "DE238",
+     "postalCode": "93138",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bogen",
+   "id": "09278118-STADTBOGEN-29",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bogen"
+   },
+   "address": {
+    "streetAddress": "Stadtplatz 56",
+    "locality": "Bogen",
+    "region": "DE22B",
+    "postalCode": "94327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ed43e9e9-9eaa-4bdb-b797-d3c0ef955071",
+   "title": "Fliesen- und Plattenarbeiten",
+   "description": "Neubau einer 5-zügigen Grundschule mit einer Zwei-Feld-Sporthalle und Sportflächen im Außenbereich.Die Gesamtabmessung des Vorhabens beträgt ca. 48,00 x 129,50 m.Das Vorhaben ist in 3 zweigeschossige Gebäudeteile gegliedert.Bauteil 1 - BT 1: ZweifachsporthalleBauteil 2 - BT 2: Haupteingang, Lernhaus - Verwaltungs- u. Pädagogen-Bereich, Kernlernbereich Jgs 3 + 4Bauteil 3 - BT 3: Lernhaus - Fachräume, Kernlernbereich Jgs 1 + 2Die Gebäude werden über 2 Zwischenbauten verbunden.Grobmassen / Beschreibung:702m² Abdichtung1.722m² Bodenfliesen850 m² Wandfliesen",
+   "procuringEntity": {
+    "name": "Stadt Bogen",
+    "id": "09278118-STADTBOGEN-29"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45431000",
+      "description": "Tiling work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45320000",
+       "description": "Insulation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45261420",
+       "description": "Waterproofing work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Schulstraße 2",
+      "locality": "Bogen",
+      "region": "DE22B",
+      "postalCode": "94327",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Fliesen Hofmeier GmbH & CO. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Fliesen Hofmeier GmbH & CO. KG"
+     },
+     "address": {
+      "streetAddress": "Lärchenstraße 7a",
+      "locality": "Lorenzen",
+      "region": "DE238",
+      "postalCode": "93138",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fliesen- und Plattenarbeiten",
+     "description": "Neubau einer 5-zügigen Grundschule mit einer Zwei-Feld-Sporthalle und Sportflächen im Außenbereich.Die Gesamtabmessung des Vorhabens beträgt ca. 48,00 x 129,50 m.Das Vorhaben ist in 3 zweigeschossige Gebäudeteile gegliedert.Bauteil 1 - BT 1: ZweifachsporthalleBauteil 2 - BT 2: Haupteingang, Lernhaus - Verwaltungs- u. Pädagogen-Bereich, Kernlernbereich Jgs 3 + 4Bauteil 3 - BT 3: Lernhaus - Fachräume, Kernlernbereich Jgs 1 + 2Die Gebäude werden über 2 Zwischenbauten verbunden.Grobmassen / Beschreibung:702m² Abdichtung1.722m² Bodenfliesen850 m² Wandfliesen",
+     "contractPeriod": {
+      "startDate": "2026-10-06T00:00:00+02:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-09T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 356536,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3a0a4fec-04bb-4a83-b2f6-c30060ad82f4",
+  "version": "01",
+  "title": "Fliesen- und Plattenarbeiten",
+  "description": "Neubau einer 5-zügigen Grundschule mit einer Zwei-Feld-Sporthalle und Sportflächen im Außenbereich.Die Gesamtabmessung des Vorhabens beträgt ca. 48,00 x 129,50 m.Das Vorhaben ist in 3 zweigeschossige Gebäudeteile gegliedert.Bauteil 1 - BT 1: ZweifachsporthalleBauteil 2 - BT 2: Haupteingang, Lernhaus - Verwaltungs- u. Pädagogen-Bereich, Kernlernbereich Jgs 3 + 4Bauteil 3 - BT 3: Lernhaus - Fachräume, Kernlernbereich Jgs 1 + 2Die Gebäude werden über 2 Zwischenbauten verbunden.Grobmassen / Beschreibung:702m² Abdichtung1.722m² Bodenfliesen850 m² Wandfliesen",
+  "procedureType": "open",
+  "nuts": [
+   "DE22B"
+  ],
+  "cpv": [
+   "45431000",
+   "45320000",
+   "45261420"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fliesen- und Plattenarbeiten",
+    "description": "Neubau einer 5-zügigen Grundschule mit einer Zwei-Feld-Sporthalle und Sportflächen im Außenbereich.Die Gesamtabmessung des Vorhabens beträgt ca. 48,00 x 129,50 m.Das Vorhaben ist in 3 zweigeschossige Gebäudeteile gegliedert.Bauteil 1 - BT 1: ZweifachsporthalleBauteil 2 - BT 2: Haupteingang, Lernhaus - Verwaltungs- u. Pädagogen-Bereich, Kernlernbereich Jgs 3 + 4Bauteil 3 - BT 3: Lernhaus - Fachräume, Kernlernbereich Jgs 1 + 2Die Gebäude werden über 2 Zwischenbauten verbunden.Grobmassen / Beschreibung:702m² Abdichtung1.722m² Bodenfliesen850 m² Wandfliesen",
+    "cpv": [
+     "45431000",
+     "45320000",
+     "45261420"
+    ],
+    "nuts": [
+     "DE22B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-06+02:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

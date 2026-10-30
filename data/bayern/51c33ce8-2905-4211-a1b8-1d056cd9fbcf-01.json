@@ -1,0 +1,271 @@
+{
+ "id": "51c33ce8-2905-4211-a1b8-1d056cd9fbcf-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "51c33ce8-2905-4211-a1b8-1d056cd9fbcf",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=51c33ce8-2905-4211-a1b8-1d056cd9fbcf",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:51c33ce8-2905-4211-a1b8-1d056cd9fbcf-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:51c33ce8-2905-4211-a1b8-1d056cd9fbcf-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/51c33ce8-2905-4211-a1b8-1d056cd9fbcf?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Module lightwave component analyzer (ENAS-14.3) - PR1224803-3340-P",
+  "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
+  "cpv": [
+   "38400000"
+  ],
+  "nuts": [
+   "DE212",
+   "DED41"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-45660678-0495-4eb7-a443-a4ba869d2715",
+  "id": "51c33ce8-2905-4211-a1b8-1d056cd9fbcf",
+  "date": "2026-10-23T02:08:38Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE-129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Keysight Technologies",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE26672786",
+     "legalName": "Keysight Technologies"
+    },
+    "address": {
+     "streetAddress": "Herrenberger Str. 130",
+     "locality": "Böblingen",
+     "region": "DE112",
+     "postalCode": "71034",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "45660678-0495-4eb7-a443-a4ba869d2715",
+   "title": "Module lightwave component analyzer (ENAS-14.3) - PR1224803-3340-P",
+   "description": "Module lightwave component analyzer (ENAS-14.3)",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38400000",
+      "description": "Instruments for checking physical characteristics"
+     },
+     "deliveryAddress": {
+      "locality": "Chemnitz",
+      "region": "DED41",
+      "postalCode": "09126",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Keysight Technologies",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Keysight Technologies"
+     },
+     "address": {
+      "streetAddress": "Herrenberger Str. 130",
+      "locality": "Böblingen",
+      "region": "DE112",
+      "postalCode": "71034",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Module lightwave component analyzer (ENAS-14.3) - PR1224803-3340-P",
+     "description": "1 Stück Module lightwave component analyzer (ENAS-14.3)\n\nMesssystem für die Charakterisierung elektrooptischer Komponenten mittels elektro-optischem S-Parameter Test (Lightwave Component Analyzer). Mit dem System sollen Laser, Modulatoren, Detektoren,und integrierte Receiver charakterisiert und getestet werden können. Wichtig ist dabei eine hohe Wiederholbarkeit der Messungen ohne zwischenzeitliche Rekalibrierung.\nWichtig sind vor allem folgende Eigenschaften des Messsystems:\n- Messmöglichkeiten: Elektrisch/Optisch, O/E, E/E und O/O\n- Netzwerkanalysator mit 2 Ports, Frequenzbereich bis mindestens 40 GHz\n- Laserwellenlänge 1550 nm und Integrationsmöglichkeit einer externen Laserquelle\n\nOptionen:\n1.6    Analysator für optische Komponenten/Optischer Netzwerkanalysator    automatische Kalibrierung des VNA    optional als Ersatz für Pos. 1.5",
+     "contractPeriod": {
+      "durationInDays": 270
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-22T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-21T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "51c33ce8-2905-4211-a1b8-1d056cd9fbcf",
+  "version": "01",
+  "title": null,
+  "description": null,
+  "procedureType": "open",
+  "nuts": [
+   "DED41"
+  ],
+  "cpv": [
+   "38400000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": null,
+    "description": null,
+    "cpv": [
+     "38400000"
+    ],
+    "nuts": [
+     "DED41"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 9,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": null,
+      "weight": 55
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": null,
+      "weight": 10
+     },
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": 35
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

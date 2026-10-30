@@ -1,0 +1,280 @@
+{
+ "id": "59858687-0df4-41a0-8883-33dfc3651925-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "59858687-0df4-41a0-8883-33dfc3651925",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=59858687-0df4-41a0-8883-33dfc3651925",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:59858687-0df4-41a0-8883-33dfc3651925-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:59858687-0df4-41a0-8883-33dfc3651925-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/59858687-0df4-41a0-8883-33dfc3651925?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau OGTS und Schulmensa – hier:  Heizungsinstallationen",
+  "buyer": "Gemeinde Memmelsdorf",
+  "cpv": [
+   "45210000",
+   "45231112",
+   "45331000"
+  ],
+  "nuts": [
+   "DE245"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-59b54782-d69c-4084-b7ae-4063db24f6e9",
+  "id": "59858687-0df4-41a0-8883-33dfc3651925",
+  "date": "2026-10-20T10:04:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Memmelsdorf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09471159",
+     "legalName": "Gemeinde Memmelsdorf"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Memmelsdorf",
+     "region": "DE245",
+     "postalCode": "96117",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE256",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bechert Haustechnik GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 249437889",
+     "legalName": "Bechert Haustechnik GmbH"
+    },
+    "address": {
+     "streetAddress": "Rudolf-Diesel-Straße 10",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97424",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Memmelsdorf",
+   "id": "09471159",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Memmelsdorf"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Memmelsdorf",
+    "region": "DE245",
+    "postalCode": "96117",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "59b54782-d69c-4084-b7ae-4063db24f6e9",
+   "title": "Neubau OGTS und Schulmensa – hier:  Heizungsinstallationen",
+   "description": "Die Gemeinde Memmelsdorf erweitert  derzeit die Ferdinand-Dietz-Schule in Memmelsdorf mit dem  Neubau einer OGTS  für die Mittagsbetreuung von ca.300 Kindern. Dafür wurden hier die Leistungen für die Heizungsinstallationen  als LV 05.3 ausgeschrieben.",
+   "procuringEntity": {
+    "name": "Gemeinde Memmelsdorf",
+    "id": "09471159"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45210000",
+      "description": "Building construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45231112",
+       "description": "Installation of pipe system"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45331000",
+       "description": "Heating, ventilation and air-conditioning installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Kapellenstraße 36",
+      "locality": "Memmelsdorf",
+      "region": "DE245",
+      "postalCode": "96117",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Bechert Haustechnik GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Bechert Haustechnik GmbH"
+     },
+     "address": {
+      "streetAddress": "Rudolf-Diesel-Straße 10",
+      "locality": "Schweinfurt",
+      "region": "DE262",
+      "postalCode": "97424",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Heizungsinstallationen",
+     "description": "Die Gemeinde Memmelsdorf erweitert  derzeit die Ferdinand-Dietz-Schule in Memmelsdorf mit dem  Neubau einer OGTS  für die Mittagsbetreuung von ca.300 Kindern. Dafür wurden hier die Leistungen für die Heizungsinstallationen als LV 05.3 ausgeschrieben.",
+     "contractPeriod": {
+      "startDate": "2026-11-02T00:00:00+01:00",
+      "endDate": "2027-12-04T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "LV 05.3 Heizungsinstallationen",
+    "status": "active",
+    "date": "2026-10-14T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Bechert Haustechnik GmbH",
+      "id": "DE 249437889",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Bechert Haustechnik GmbH"
+      },
+      "address": {
+       "streetAddress": "Rudolf-Diesel-Straße 10",
+       "locality": "Schweinfurt",
+       "region": "DE262",
+       "postalCode": "97424",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "LV 05.3 Heizungsinstallationen",
+    "status": "active",
+    "value": {
+     "amount": 339571,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-13T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "59858687-0df4-41a0-8883-33dfc3651925",
+  "version": "01",
+  "title": "Neubau OGTS und Schulmensa – hier:  Heizungsinstallationen",
+  "description": "Die Gemeinde Memmelsdorf erweitert  derzeit die Ferdinand-Dietz-Schule in Memmelsdorf mit dem  Neubau einer OGTS  für die Mittagsbetreuung von ca.300 Kindern. Dafür wurden hier die Leistungen für die Heizungsinstallationen  als LV 05.3 ausgeschrieben.",
+  "procedureType": "open",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "45210000",
+   "45231112",
+   "45331000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Heizungsinstallationen",
+    "description": "Die Gemeinde Memmelsdorf erweitert  derzeit die Ferdinand-Dietz-Schule in Memmelsdorf mit dem  Neubau einer OGTS  für die Mittagsbetreuung von ca.300 Kindern. Dafür wurden hier die Leistungen für die Heizungsinstallationen als LV 05.3 ausgeschrieben.",
+    "cpv": [
+     "45210000",
+     "45231112",
+     "45331000"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-02+01:00",
+    "plannedEnd": "2027-12-04+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "id": "ea3a9622-15ec-49f2-b77e-ec3b44dcc7f6-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "ea3a9622-15ec-49f2-b77e-ec3b44dcc7f6",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ea3a9622-15ec-49f2-b77e-ec3b44dcc7f6",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:ea3a9622-15ec-49f2-b77e-ec3b44dcc7f6-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:ea3a9622-15ec-49f2-b77e-ec3b44dcc7f6-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ea3a9622-15ec-49f2-b77e-ec3b44dcc7f6?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "kommunales Klimaschutznetzwerk",
+  "buyer": "Landkreis Schwandorf",
+  "cpv": [
+   "71314300"
+  ],
+  "nuts": [
+   "DE239"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-54c42368-1fbf-4121-ac7b-0f2c49a915f5",
+  "id": "ea3a9622-15ec-49f2-b77e-ec3b44dcc7f6",
+  "date": "2026-10-20T10:04:34Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Schwandorf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09376000-00014-24",
+     "legalName": "Landkreis Schwandorf"
+    },
+    "address": {
+     "streetAddress": "Landratsamt Schwandorf, Wackersdorfer Straße 80",
+     "locality": "Schwandorf",
+     "region": "DE239",
+     "postalCode": "92421",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811 335 517",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Landratsamt Schwandorf",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09376000-00014-24",
+     "legalName": "Landratsamt Schwandorf"
+    },
+    "address": {
+     "streetAddress": "Wackersdorfer Str. 80",
+     "locality": "Schwandorf",
+     "region": "DE239",
+     "postalCode": "92421",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   },
+   {
+    "name": "Institut für Energietechnik IfE GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 269 005 069",
+     "legalName": "Institut für Energietechnik IfE GmbH"
+    },
+    "address": {
+     "locality": "Amberg",
+     "region": "DE231",
+     "postalCode": "92224",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Schwandorf",
+   "id": "09376000-00014-24",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Schwandorf"
+   },
+   "address": {
+    "streetAddress": "Landratsamt Schwandorf, Wackersdorfer Straße 80",
+    "locality": "Schwandorf",
+    "region": "DE239",
+    "postalCode": "92421",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "54c42368-1fbf-4121-ac7b-0f2c49a915f5",
+   "title": "kommunales Klimaschutznetzwerk",
+   "description": "Betreuung und Beratung eines kommunalen Klimaschutznetzwerkes bestehend aus 10 Gebietskörperschaften in Bayern",
+   "procuringEntity": {
+    "name": "Landkreis Schwandorf",
+    "id": "09376000-00014-24"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71314300",
+      "description": "Energy-efficiency consultancy services"
+     },
+     "deliveryAddress": {
+      "region": "DE239",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Institut für Energietechnik IfE GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Institut für Energietechnik IfE GmbH"
+     },
+     "address": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "kommunales Klimaschutznetzwerk",
+     "description": "Betreuung und Beratung eines kommunalen Klimaschutznetzwerkes bestehend aus 10 Gebietskörperschaften in Bayern"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-01T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 440895,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-30T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "ea3a9622-15ec-49f2-b77e-ec3b44dcc7f6",
+  "version": "01",
+  "title": "kommunales Klimaschutznetzwerk",
+  "description": "Betreuung und Beratung eines kommunalen Klimaschutznetzwerkes bestehend aus 10 Gebietskörperschaften in Bayern",
+  "procedureType": "open",
+  "nuts": [
+   "DE239"
+  ],
+  "cpv": [
+   "71314300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "kommunales Klimaschutznetzwerk",
+    "description": "Betreuung und Beratung eines kommunalen Klimaschutznetzwerkes bestehend aus 10 Gebietskörperschaften in Bayern",
+    "cpv": [
+     "71314300"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Bewertung des Kostenplans",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "- Kurzkonzept- Projektteam- Kenntnisse der regionalen Strukturen",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "25949584-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25949584",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25949584",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25949584-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25949584-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25949584?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Waermedaemmung an Lueftungskanal",
+  "buyer": "Staatliches Bauamt Weilheim",
+  "cpv": [
+   "45321000-3"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-19T10:01:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25949584",
+  "id": "25949584",
+  "date": "2026-10-20T19:01:34Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Weilheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Staatliches Bauamt Weilheim"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Weilheim",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Weilheim"
+   }
+  },
+  "tender": {
+   "title": "Waermedaemmung an Lueftungskanal",
+   "description": "Waermedaemmung an Lueftungskanal",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Weilheim"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45321000-3"
+     },
+     "deliveryAddress": {
+      "locality": "86899 Landsberg am Lech",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Restricted tender",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304765",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Waermedaemmung an Lueftungskanal",
+     "description": "Waermedaemmung an Lueftungskanal"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25949584",
+  "version": "1",
+  "title": "Waermedaemmung an Lueftungskanal",
+  "description": "Waermedaemmung an Lueftungskanal",
+  "procedureType": "de-restricted-wo-call",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45321000-3"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Waermedaemmung an Lueftungskanal",
+    "description": "Waermedaemmung an Lueftungskanal",
+    "cpv": [
+     "45321000-3"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-19T10:01:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

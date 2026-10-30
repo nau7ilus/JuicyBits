@@ -1,0 +1,211 @@
+{
+ "id": "c8b1a6dc-16aa-464d-904e-7973ea1e251c-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "c8b1a6dc-16aa-464d-904e-7973ea1e251c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c8b1a6dc-16aa-464d-904e-7973ea1e251c",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:c8b1a6dc-16aa-464d-904e-7973ea1e251c-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:c8b1a6dc-16aa-464d-904e-7973ea1e251c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c8b1a6dc-16aa-464d-904e-7973ea1e251c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "GGSD wg. Schulneubau in Coburg - Innenputzarbeiten",
+  "buyer": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH",
+  "cpv": [
+   "45410000",
+   "45400000"
+  ],
+  "nuts": [
+   "DE254",
+   "DE243"
+  ],
+  "deadline": "2026-11-23T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-56d2d83a-06d3-4d0c-8e1a-419abb285d7c",
+  "id": "c8b1a6dc-16aa-464d-904e-7973ea1e251c",
+  "date": "2026-10-21T02:08:54Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE223237142",
+     "legalName": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH"
+    },
+    "address": {
+     "streetAddress": "Roritzerstr. 7",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:0981531277",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH",
+   "id": "DE223237142",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH"
+   },
+   "address": {
+    "streetAddress": "Roritzerstr. 7",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "56d2d83a-06d3-4d0c-8e1a-419abb285d7c",
+   "title": "GGSD wg. Schulneubau in Coburg - Innenputzarbeiten",
+   "description": "Innenputzarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH",
+    "id": "DE223237142"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45410000",
+      "description": "Plastering work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45400000",
+       "description": "Building completion work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE243",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YLVMW1R/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "GGSD wg. Schulneubau in Coburg - Innenputzarbeiten",
+     "description": "Innenputzarbeiten"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c8b1a6dc-16aa-464d-904e-7973ea1e251c",
+  "version": "01",
+  "title": "GGSD wg. Schulneubau in Coburg - Innenputzarbeiten",
+  "description": "Innenputzarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE243"
+  ],
+  "cpv": [
+   "45410000",
+   "45400000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "GGSD wg. Schulneubau in Coburg - Innenputzarbeiten",
+    "description": "Innenputzarbeiten",
+    "cpv": [
+     "45410000",
+     "45400000"
+    ],
+    "nuts": [
+     "DE243"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. (Nachweis: Eigenerklärung)"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Angaben zu Leistungen innerhalb der letzten fünf Kalenderjahre, die mit der zu vergebendenLeistung vergleichbar sind. Nachweis: Eigenerklärung (drei Referenzen einer vergleichbaren Leistung.)"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen. Nachweis: Eigenerklärung (Angabe der Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte)"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Registereintragungen Nachweis: Eigenerklärung, auf Nachfrage Urkunde (Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer.)"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Angabe zur Mitgliedschaft bei der Berufsgenossenschaft Nachweis: Eigenerklärung, auf Nachfrage Urkunde (qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des zuständigen Versicherungsträgers mit Angabe der Lohnsummen.)"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

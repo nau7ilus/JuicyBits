@@ -1,0 +1,226 @@
+{
+ "id": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:6eddecb8-eee0-46f4-a703-0b5ba59cf2b7-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:6eddecb8-eee0-46f4-a703-0b5ba59cf2b7-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6eddecb8-eee0-46f4-a703-0b5ba59cf2b7?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Planung, Lieferung u. Inbetriebnahme eines Hochdruckhomogenisator für den BioCampus MultiPilot (BMP)",
+  "buyer": "Zweckverband Hafen Straubing-Sand",
+  "cpv": [
+   "42900000"
+  ],
+  "nuts": [
+   "DE223"
+  ],
+  "deadline": "2026-11-29T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
+  "id": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
+  "date": "2026-10-25T11:30:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband Hafen Straubing-Sand",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9356",
+     "legalName": "Zweckverband Hafen Straubing-Sand"
+    },
+    "address": {
+     "streetAddress": "Europaring 4",
+     "locality": "Straubing",
+     "region": "DE223",
+     "postalCode": "94315",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von NiederbayernVergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "a04b69cd-26cb-4832-9d78-f7e0834742f0",
+     "legalName": "Regierung von NiederbayernVergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE224",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweckverband Hafen Straubing-Sand",
+   "id": "9356",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zweckverband Hafen Straubing-Sand"
+   },
+   "address": {
+    "streetAddress": "Europaring 4",
+    "locality": "Straubing",
+    "region": "DE223",
+    "postalCode": "94315",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
+   "title": "Planung, Lieferung u. Inbetriebnahme eines Hochdruckhomogenisator für den BioCampus MultiPilot (BMP)",
+   "description": "Gegenstand der Vergabe ist die Lieferung, Aufstellung, Inbetriebnahme, Abnahme und Einweisung eines Hochdruckhomogenisators zum Aufschluss fermentativ hergestellter Produkte.\nDie Anlage muss einen kontinuierlichen Produktdurchsatz von mindestens 1.000 L/h bei gleichzeitig 1.200 bar Homogenisierdruck erreichen. Der Leistungsumfang umfasst insbesondere die technische Detailplanung, die erforderliche MSR- und Automatisierung, Fertigung, Werksprüfung, Lieferung, Montage, Inbetriebnahme, Leistungsnachweis und Dokumentation.\n\nDetaillierte technische und prozessbezogene Unterlagen werden interessierten Unternehmen nach Abgabe einer Verschwiegenheitserklärung über die Vergabeplattform zugänglich gemacht.",
+   "procuringEntity": {
+    "name": "Zweckverband Hafen Straubing-Sand",
+    "id": "9356"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "42900000",
+      "description": "Miscellaneous general and special-purpose machinery"
+     },
+     "deliveryAddress": {
+      "region": "DE223",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 300000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Planung, Lieferung u. Inbetriebnahme eines Hochdruckhomogenisator für den BioCampus MultiPilot (BMP)",
+     "description": "Gegenstand der Vergabe ist die Fertigung, Werksprüfung, Lieferung, Aufstellung, Inbetriebnahme, Abnahme und Einweisung eines industriellen Hochdruckhomogenisators.\n\nDie Anlage muss einen kontinuierlichen Produktdurchsatz von mindestens 1.000 L/h bei gleichzeitig 1.200 bar Homogenisierdruck erreichen. Sie dient insbesondere zum Zellaufschluss fermentativ hergestellter Produkte. Relevante Fermentergrößen sind 200L bis 10m³ Arbeitsvolumen.\n\nDer Leistungsumfang umfasst die technische Detailplanung einschließlich Erstellung eines 3D-Modells, die Abstimmung der mechanischen, medienseitigen und automatisierungstechnischen Schnittstellen, die Erstellung der erforderlichen MSR- und Automatisierungsunterlagen, Fertigung, Werksprüfung, Lieferung, Montage, Inbetriebnahme, Leistungsnachweis, Schulung des Bedienpersonals sowie die Übergabe einer vollständigen As-built-Dokumentation.\n\nDie Anlage ist für einen sicheren, zuverlässigen und wartungsfreundlichen Dauerbetrieb auszulegen. Sie muss über geeignete Druck-, Durchsatz- und Temperaturmessungen, Sicherheitsfunktionen sowie Schnittstellen zur Einbindung in eine übergeordnete Anlagensteuerung verfügen.\n\nOptional können über die Mindestanforderung hinaus weitere Komponenten angeboten werden: Schallschutzeinhausung, Produktwärmetauscher zur Anbindung an ein Kaltwassernetz, Pumpstation zur Medienförderung, mobile Skid-Ausführung sowie höherwertige Werkstoffe für produktberührte Komponenten.\n\nDetaillierte technische, prozessbezogene und standortspezifische Unterlagen werden interessierten Unternehmen nach Abgabe einer Geheimhaltungsvereinbarung über die Nachrichtenfunktion der Vergabeplattform zugänglich gemacht.",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
+  "version": "01",
+  "title": "Planung, Lieferung u. Inbetriebnahme eines Hochdruckhomogenisator für den BioCampus MultiPilot (BMP)",
+  "description": "Gegenstand der Vergabe ist die Lieferung, Aufstellung, Inbetriebnahme, Abnahme und Einweisung eines Hochdruckhomogenisators zum Aufschluss fermentativ hergestellter Produkte.\nDie Anlage muss einen kontinuierlichen Produktdurchsatz von mindestens 1.000 L/h bei gleichzeitig 1.200 bar Homogenisierdruck erreichen. Der Leistungsumfang umfasst insbesondere die technische Detailplanung, die erforderliche MSR- und Automatisierung, Fertigung, Werksprüfung, Lieferung, Montage, Inbetriebnahme, Leistungsnachweis und Dokumentation.\n\nDetaillierte technische und prozessbezogene Unterlagen werden interessierten Unternehmen nach Abgabe einer Verschwiegenheitserklärung über die Vergabeplattform zugänglich gemacht.",
+  "procedureType": "open",
+  "nuts": [
+   "DE223"
+  ],
+  "cpv": [
+   "42900000"
+  ],
+  "estimatedValue": {
+   "amount": 300000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Planung, Lieferung u. Inbetriebnahme eines Hochdruckhomogenisator für den BioCampus MultiPilot (BMP)",
+    "description": "Gegenstand der Vergabe ist die Fertigung, Werksprüfung, Lieferung, Aufstellung, Inbetriebnahme, Abnahme und Einweisung eines industriellen Hochdruckhomogenisators.\n\nDie Anlage muss einen kontinuierlichen Produktdurchsatz von mindestens 1.000 L/h bei gleichzeitig 1.200 bar Homogenisierdruck erreichen. Sie dient insbesondere zum Zellaufschluss fermentativ hergestellter Produkte. Relevante Fermentergrößen sind 200L bis 10m³ Arbeitsvolumen.\n\nDer Leistungsumfang umfasst die technische Detailplanung einschließlich Erstellung eines 3D-Modells, die Abstimmung der mechanischen, medienseitigen und automatisierungstechnischen Schnittstellen, die Erstellung der erforderlichen MSR- und Automatisierungsunterlagen, Fertigung, Werksprüfung, Lieferung, Montage, Inbetriebnahme, Leistungsnachweis, Schulung des Bedienpersonals sowie die Übergabe einer vollständigen As-built-Dokumentation.\n\nDie Anlage ist für einen sicheren, zuverlässigen und wartungsfreundlichen Dauerbetrieb auszulegen. Sie muss über geeignete Druck-, Durchsatz- und Temperaturmessungen, Sicherheitsfunktionen sowie Schnittstellen zur Einbindung in eine übergeordnete Anlagensteuerung verfügen.\n\nOptional können über die Mindestanforderung hinaus weitere Komponenten angeboten werden: Schallschutzeinhausung, Produktwärmetauscher zur Anbindung an ein Kaltwassernetz, Pumpstation zur Medienförderung, mobile Skid-Ausführung sowie höherwertige Werkstoffe für produktberührte Komponenten.\n\nDetaillierte technische, prozessbezogene und standortspezifische Unterlagen werden interessierten Unternehmen nach Abgabe einer Geheimhaltungsvereinbarung über die Nachrichtenfunktion der Vergabeplattform zugänglich gemacht.",
+    "cpv": [
+     "42900000"
+    ],
+    "nuts": [
+     "DE223"
+    ],
+    "deadline": "2026-11-29T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Eigenerklärung über das Vorliegen von zwei Referenzen über die Erbringung von Planungs-, \nLiefer-, Montage- und Dienstleistungen eines Hochdruckhomogenisators in den letzten fünf Jahren (Abnahme der Leistungen frühestens am 1. Januar 2021; bei Referenzen der aktuell laufenden Projekte, bei denen zum Zeitpunkt der Referenzabgabe mindestens der Montagebeginn erfolgt ist, ist das Quartal und Jahr der voraussichtlichen Abnahme der Leistungen anzugeben). Bei Bieterge-meinschaften besteht die Anforderung nur für mindestens ein Mitglied der Bietergemeinschaft.\n\nEs werden nur Referenzprojekte gewertet, die:\n•\tinhaltlich mit der ausgeschriebenen Leistung vergleichbar sind mit mindestens 700 L/h Durchsatz und mindestens 1.000 bar Betriebsdruck\n•\tabgeschlossen oder weit überwiegend abgeschlossen sind,\n•\tvom Bieter selbst verantwortlich geplant, geliefert, errichtet oder in vergleichbarer Weise wesentlich erbracht wurden."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Eigenerklärung über den Jahresumsatz in den vergangenen drei abgeschlossenen Geschäftsjahren. Hierbei gilt folgende Mindestanforderung: Der durchschnittliche Gesamtumsatz der vergangenen drei abgeschlossenen Geschäftsjahre muss mindestens 2.000.000 EUR Netto betragen. Bei Bietergemeinschaften ist hier der Umsatz in Summe über alle Mitglieder der Bietergemeinschaft relevant."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung, dass spätestens zum Leistungsbeginn eine Haftpflichtversicherung mit einer Deckungssumme in Höhe von mind. 5 Mio. € für Personenschäden und 10 Mio € Sachschäden sowie Vermögensschäden geschlossen wird. Bei Bietergemeinschaften besteht die Anforderung nur für mindestens ein Mitglied der Bietergemeinschaft."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Technische Qualität und Funktionalität",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Konzept Kundenbetreuung",
+      "weight": 15
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Lieferzeit",
+      "weight": 15
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Angebotspreis",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,312 @@
+{
+ "id": "5aac8958-be2d-4738-80c0-65d566ac7d1f-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "5aac8958-be2d-4738-80c0-65d566ac7d1f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5aac8958-be2d-4738-80c0-65d566ac7d1f",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:5aac8958-be2d-4738-80c0-65d566ac7d1f-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:5aac8958-be2d-4738-80c0-65d566ac7d1f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5aac8958-be2d-4738-80c0-65d566ac7d1f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Neubau GU Meindlstraße - rit",
+  "buyer": "Münchner Wohnen GmbH",
+  "cpv": [
+   "45000000",
+   "45210000",
+   "45211300"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8745d0fb-93ac-4e85-8be3-be582c12cded",
+  "id": "5aac8958-be2d-4738-80c0-65d566ac7d1f",
+  "date": "2026-10-21T02:08:35Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schlichtungsstelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:008921762411",
+     "legalName": "Schlichtungsstelle"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   },
+   {
+    "name": "Münchner Wohnen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:0898776620",
+     "legalName": "Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Dienstleister Münchner Wohnen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "t:00898776620",
+     "legalName": "Dienstleister Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Münchner Wohnen GmbH",
+   "id": "t:0898776620",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Münchner Wohnen GmbH"
+   },
+   "address": {
+    "streetAddress": "Gustav-Heinemann- Ring 111",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8745d0fb-93ac-4e85-8be3-be582c12cded",
+   "title": "Neubau GU Meindlstraße - rit",
+   "description": "Einsatzform - Generalunternehmer\n\nNeubau einer Senioren-/Mehrgenerationenwohnanlage mit\nTiefgarage durch GU in der Meindlstraße 14a, 81373 München. Mit vorgeschaltetem TNW.",
+   "procuringEntity": {
+    "name": "Münchner Wohnen GmbH",
+    "id": "t:0898776620"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45210000",
+       "description": "Building construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45211300",
+       "description": "Houses construction work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Meindlstr. 14a",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81373",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302126",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Neubau GU Meindlstraße - rit",
+     "description": "Die Münchner Wohnen plant in der Meindlstraße 14a in München-Sendling den Neubau einer Senioren- und Mehrgenerationenwohnanlage mit insgesamt 68 Wohnungen. Ergänzend sind ein Alten- und Service-Zentrum (ASZ), ein Gemeinschaftsraum sowie eine Tiefgarage mit 27 PKW-Stellplätzen vorgesehen.\nDas Bauvorhaben wird in Holz- bzw. Holz-Hybridbauweise realisiert.\nDie Vergabe erfolgt als Generalunternehmerleistung einschließlich der erforderlichen Planungsleistungen.\n\nDie Auswahl der Bewerber der 1. Stufe erfolgt nach den in der Bekanntmachung und im Bewerbungsbogen (Bwb) mit Anlagen (Referenzen) festgelegten Eignungs- und Auswahlkriterien.\nBei der Punktewertung werden ausschließlich Bewerber berücksichtigt, die die festgelegten Eignungskriterien und sämtliche Mindestanforderungen erfüllen.\nDie Bewertung der Auswahlkriterien erfolgt unter Berücksichtigung der festgelegten Gewichtung und Punktewertung der Einzelkriterien.\nDie Wertung schließt mit der Bildung einer Rangfolge ab. Die Bewerber mit der höchsten Punktzahl werden zur 2. Stufe und zur Abgabe eines Erstangebotes aufgefordert.\nBei ausreichend eingegangenen und geeigneten Teilnahmeanträgen werden min. 3 und max. 5 Bewerber aufgefordert, die nach der Punktewertung die höchsten Punktzahlen erreicht haben.\nBewerber mit weniger als 30 Punkten werden in der Rangfolge nicht berücksichtigt.\nBei Punktgleichheit erhält der Bewerber mit der höheren Punktzahl im Auswahlkriterium „Referenzen“ den Vorrang. Führt dies nicht zu einem eindeutigen Auswahlergebnis, entscheidet das Los.\n\nZuschlagskriterien / Wertungsmatrix zur Angebotsauswertung\nDie Wertung der angebotenen Generalunternehmerleistung erfolgt nach dem\nPreis-Leistungs-Verhältnis.\nDie qualitativen Zuschlagskriterien (A) werden mit insgesamt 20 % berücksichtigt. Die Bewertung erfolgt anhand der Kriterien Personaleinsatz und Projektorganisation, Konstruktionssystem und bauliche Umsetzung, Bauablaufplan sowie Baustelleneinrichtung und Logistik.\nDie Preisbewertung (B) fließt mit insgesamt 80 % in die Gesamtwertung ein und setzt sich aus dem Angebotspreis für die ausgeschriebenen Leistungen sowie den Wartungskosten im Gewährleistungszeitraum zusammen.\nBeide Anteile ergeben gemeinsam eine Gesamtpunktzahl von maximal 100 Punkten.\nDie Bewertung der qualitativen Zuschlagskriterien A.1 bis A.4 erfolgt auf Grundlage des vom Bieter eingereichten Umsetzungskonzepts und der darin geforderten Unterlagen.",
+     "contractPeriod": {
+      "durationInDays": 750
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "5aac8958-be2d-4738-80c0-65d566ac7d1f",
+  "version": "01",
+  "title": "Neubau GU Meindlstraße - rit",
+  "description": "Einsatzform - Generalunternehmer\n\nNeubau einer Senioren-/Mehrgenerationenwohnanlage mit\nTiefgarage durch GU in der Meindlstraße 14a, 81373 München. Mit vorgeschaltetem TNW.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45000000",
+   "45210000",
+   "45211300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Neubau GU Meindlstraße - rit",
+    "description": "Die Münchner Wohnen plant in der Meindlstraße 14a in München-Sendling den Neubau einer Senioren- und Mehrgenerationenwohnanlage mit insgesamt 68 Wohnungen. Ergänzend sind ein Alten- und Service-Zentrum (ASZ), ein Gemeinschaftsraum sowie eine Tiefgarage mit 27 PKW-Stellplätzen vorgesehen.\nDas Bauvorhaben wird in Holz- bzw. Holz-Hybridbauweise realisiert.\nDie Vergabe erfolgt als Generalunternehmerleistung einschließlich der erforderlichen Planungsleistungen.\n\nDie Auswahl der Bewerber der 1. Stufe erfolgt nach den in der Bekanntmachung und im Bewerbungsbogen (Bwb) mit Anlagen (Referenzen) festgelegten Eignungs- und Auswahlkriterien.\nBei der Punktewertung werden ausschließlich Bewerber berücksichtigt, die die festgelegten Eignungskriterien und sämtliche Mindestanforderungen erfüllen.\nDie Bewertung der Auswahlkriterien erfolgt unter Berücksichtigung der festgelegten Gewichtung und Punktewertung der Einzelkriterien.\nDie Wertung schließt mit der Bildung einer Rangfolge ab. Die Bewerber mit der höchsten Punktzahl werden zur 2. Stufe und zur Abgabe eines Erstangebotes aufgefordert.\nBei ausreichend eingegangenen und geeigneten Teilnahmeanträgen werden min. 3 und max. 5 Bewerber aufgefordert, die nach der Punktewertung die höchsten Punktzahlen erreicht haben.\nBewerber mit weniger als 30 Punkten werden in der Rangfolge nicht berücksichtigt.\nBei Punktgleichheit erhält der Bewerber mit der höheren Punktzahl im Auswahlkriterium „Referenzen“ den Vorrang. Führt dies nicht zu einem eindeutigen Auswahlergebnis, entscheidet das Los.\n\nZuschlagskriterien / Wertungsmatrix zur Angebotsauswertung\nDie Wertung der angebotenen Generalunternehmerleistung erfolgt nach dem\nPreis-Leistungs-Verhältnis.\nDie qualitativen Zuschlagskriterien (A) werden mit insgesamt 20 % berücksichtigt. Die Bewertung erfolgt anhand der Kriterien Personaleinsatz und Projektorganisation, Konstruktionssystem und bauliche Umsetzung, Bauablaufplan sowie Baustelleneinrichtung und Logistik.\nDie Preisbewertung (B) fließt mit insgesamt 80 % in die Gesamtwertung ein und setzt sich aus dem Angebotspreis für die ausgeschriebenen Leistungen sowie den Wartungskosten im Gewährleistungszeitraum zusammen.\nBeide Anteile ergeben gemeinsam eine Gesamtpunktzahl von maximal 100 Punkten.\nDie Bewertung der qualitativen Zuschlagskriterien A.1 bis A.4 erfolgt auf Grundlage des vom Bieter eingereichten Umsetzungskonzepts und der darin geforderten Unterlagen.",
+    "cpv": [
+     "45000000",
+     "45210000",
+     "45211300"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-23T09:30:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 25,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Ist das Unternehmen in den einschlägigen Berufs oder Handelsregistern seines Niederlassungsmitgliedstaates eingetragen. Falls ja, bitte Berufs oder Handelsregister mit Eintragungsort und -nummer angeben. Die Angaben sind im Bewerberbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Ist der Besitz einer bestimmten Berechtigung oder die Mitgliedschaft in einer bestimmten Organisation erforderlich, um die betreffende Leistung im Niederlassungsstaat des Unternehmens erbringen zu können. Bitte geben Sie an, welche Mitgliedschaft verlangt wird und ob diese Voraussetzung erfüllt wird. Die Angaben sind im Bewerberbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Angaben zum Gesamtumsatz des Unternehmens in den letzten drei Geschäftsjahren:\n\nMindestanforderung:\nDer durchschnittliche Gesamtumsatz der letzten drei Geschäftsjahre muss mindestens 12.000.000 EUR brutto betragen.\n\nSoweit für das Geschäftsjahr 2025 noch keine endgültigen Umsatzzahlen vorliegen, können vorläufige Angaben gemacht werden.\n\nWird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bewerberbogen und ggf. zusätzlichen Anlagen anzugeben"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Das Unternehmen hat drei Referenzen über vergleichbare, bereits ausgeführte General- und Totalunternehmerleistungen (GU/TU-Leistungen) vorzulegen.\n\nMindestanforderung:\nMindestanforderungen an jede Referenz:\n\n– Neubau\n– Wohnungsbau min 40 WE\n– Holz- oder Holz-Hybridbauweise\n– Ausführung als GU/TU-Leistung\n– Die Abnahme durch den Auftraggeber muss innerhalb der letzten \n– sieben abgeschlossenen Kalenderjahre erfolgt sein.\n\nDie Erfüllung der Mindestanforderungen muss aus der jeweiligen Referenzbeschreibung eindeutig hervorgehen.\n\nDas Unternehmen hat folgende wesentliche Leistungen der genannten \nArt (GU/TU-Leistungen) in dem angegebenen Zeitraum erbracht:\n\nIm Detail muss die Beschreibung der Referenz \nfolgende Angaben enthalten:\n\n1.0 Beschreibung des Projekts (Planung und Ausführung)\n    1.1 Projektbezeichnung\n    1.2 Ort des Projekts\n    1.3 Art des Projekts\n2.0 Beschreibung der ausgeführten Leistungen\n3.0 Gebäudekenndaten\n4.0 Auftragssumme\n5.0 Angaben zum Erbringungszeitpunkt\n6.0 Angaben zum Auftraggeber / Angaben für Referenzauskunft\n\nErgänzend zum Referenzblatt ist für jede Referenz eine kurze Projektdarstellung als Anlage beizufügen. Die Darstellung darf je Referenz maximal vier \nDIN-A4-Seiten umfassen.\n\nDies gilt auch für Bietergemeinschaften; auch bei Bietergemeinschaften werden insgesamt maximal drei Referenzen gewertet.\n\nDie Angaben zu den drei Referenzen sind vollständig in dem hierfür vorgesehenen Referenzblatt zu machen und zusammen mit dem Bewerberbogen einzureichen. Die Erfüllung der Mindestanforderungen muss aus der jeweiligen Referenzbeschreibung eindeutig hervorgehen. Werden mehr als drei Referenzen eingereicht, werden ausschließlich die drei aktuellsten Referenzen gewertet. Maßgeblich ist das Datum der Abnahme durch den Auftraggeber. Eine Überprüfung der Referenzen durch die Vergabestelle bleibt vorbehalten. Falsche Angaben können zum Ausschluss führen. Wird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bewerberbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Durchschnittliche jährliche Beschäftigtenzahl einschließlich Führungskräfte in den letzten drei Geschäftsjahren entsprechend Ziffer 4.2.1 des Bewerberbogens. Es sind ausschließlich eigene Mitarbeiter des Unternehmens anzugeben. Mitarbeiter von Nachunternehmern sind nicht zu berücksichtigen. Die Angaben sind im Bewerberbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Durchschnittliche jährliche Beschäftigtenzahl in den letzten drei Geschäftsjahren entsprechend Ziffer 4.2.1 des Bewerberbogens für Architekten, Dipl.-Ing. und Techniker für Planung,\nAusführung und Überwachung.\n\nMindestanforderung:\nIn den letzten drei Geschäftsjahren müssen durchschnittlich mindestens \n5 eigene Mitarbeiter der vorgenannten Qualifikationen beschäftigt worden sein.\n\nEs sind ausschließlich eigene Mitarbeiter des Unternehmens anzugeben. Mitarbeiter von Nachunternehmern sind nicht zu berücksichtigen.\n\nEntsprechende Nachweise sind auf Verlangen der Vergabestelle vorzulegen.\n\nWird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bewerberbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Durchschnittliche jährliche Beschäftigtenzahl in den letzten drei Geschäftsjahren entsprechend Ziffer 4.2.1 des Bewerberbogens für  gewerblich beschäftigte Mitarbeiter hinsichtlich der Bauausführung.\n\nEs sind nur Mitarbeiter zu berücksichtigen, die nicht bereits unter Ziffer 4.3.4 angegeben wurden.\n\nMindestanforderungen:\nIn den letzten drei Geschäftsjahren müssen durchschnittlich mindestens \n20 eigene gewerblich beschäftigte Mitarbeiter hinsichtlich der Bauausführung beschäftigt worden sein.\n\nEs sind ausschließlich eigene Mitarbeiter des Unternehmens anzugeben. Mitarbeiter von Nachunternehmern sind nicht zu berücksichtigen.\n\nEntsprechende Nachweise sind auf Verlangen der Vergabestelle vorzulegen.\n\nWird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bewerberbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Die Auswahl der Bewerber der 1. Stufe erfolgt nach den in der Bekanntmachung und im Bewerbungsbogen (Bwb) mit Anlagen (Referenzen) festgelegten Eignungs- und Auswahlkriterien.\nBei der Punktewertung werden ausschließlich Bewerber berücksichtigt, die die festgelegten Eignungskriterien und sämtliche Mindestanforderungen erfüllen.\nDie Bewertung der Auswahlkriterien erfolgt unter Berücksichtigung der nachfolgend festgelegten Gewichtung und Punktewertung der Einzelkriterien.\nDie Wertung schließt mit der Bildung einer Rangfolge ab. Die Bewerber mit der höchsten Punktzahl werden zur 2. Stufe und zur Abgabe eines Erstangebotes aufgefordert.\nBei ausreichend eingegangenen und geeigneten Teilnahmeanträgen werden min. 3 und max. 5 Bewerber aufgefordert, die nach der Punktewertung die höchsten Punktzahlen erreicht haben.\nBewerber mit weniger als 30 Punkten werden in der Rangfolge nicht berücksichtigt.\nBei Punktgleichheit erhält der Bewerber mit der höheren Punktzahl im Auswahlkriterium „Referenzen“ den Vorrang. Führt dies nicht zu einem eindeutigen Auswahlergebnis, entscheidet das Los.\n\n1.2 Durchschnittlicher Gesamtumsatz in den letzten drei Geschäftsjahren (gem. 4.2.1 Bewerberbogen)\nab 12.000.000 € - 22.000.000 € = 1 Punkt\nab 22.000.001 € - 32.000.000 € = 2 Punkte\nab 32.000.001 € - 42.000.000 € = 3 Punkte\nab 42.000.001 € - 52.000.000 € = 4 Punkte\nab 52.000.001 € = 5 Punkte"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Auswahl der Bewerber der 1. Stufe erfolgt nach den in der Bekanntmachung und im Bewerbungsbogen (Bwb) mit Anlagen (Referenzen) festgelegten Eignungs- und Auswahlkriterien.\nBei der Punktewertung werden ausschließlich Bewerber berücksichtigt, die die festgelegten Eignungskriterien und sämtliche Mindestanforderungen erfüllen.\nDie Bewertung der Auswahlkriterien erfolgt unter Berücksichtigung der nachfolgend festgelegten Gewichtung und Punktewertung der Einzelkriterien.\nDie Wertung schließt mit der Bildung einer Rangfolge ab. Die Bewerber mit der höchsten Punktzahl werden zur 2. Stufe und zur Abgabe eines Erstangebotes aufgefordert.\nBei ausreichend eingegangenen und geeigneten Teilnahmeanträgen werden min. 3 und max. 5 Bewerber aufgefordert, die nach der Punktewertung die höchsten Punktzahlen erreicht haben.\nBewerber mit weniger als 30 Punkten werden in der Rangfolge nicht berücksichtigt.\nBei Punktgleichheit erhält der Bewerber mit der höheren Punktzahl im Auswahlkriterium „Referenzen“ den Vorrang. Führt dies nicht zu einem eindeutigen Auswahlergebnis, entscheidet das Los.\n\n2.1 Mindestanforderung – Anzahl Mitarbeitende – Planung (gem. 4.3.4 Bewerberbogen)\n\nab 5 Mitarbeitende = 1 Punkt\nab 10 Mitarbeitende = 2 Punkte\nab 15 Mitarbeitende = 3 Punkte\nab 20 Mitarbeitende = 4 Punkte\nab 25 Mitarbeitende = 5 Punkte\n\n\n2.2 Mindestanforderung – Anzahl Mitarbeitende – Bauausführung (gem. 4.3.5 Bewerberbogen)\n\nab 20 Mitarbeitende = 1 Punkt\nab 30 Mitarbeitende = 2 Punkte\nab 40 Mitarbeitende = 3 Punkte\nab 50 Mitarbeitende = 4 Punkte\nab 60 Mitarbeitende = 5 Punkte"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Auswahl der Bewerber der 1. Stufe erfolgt nach den in der Bekanntmachung und im Bewerbungsbogen (Bwb) mit Anlagen (Referenzen) festgelegten Eignungs- und Auswahlkriterien.\nBei der Punktewertung werden ausschließlich Bewerber berücksichtigt, die die festgelegten Eignungskriterien und sämtliche Mindestanforderungen erfüllen.\nDie Bewertung der Auswahlkriterien erfolgt unter Berücksichtigung der nachfolgend festgelegten Gewichtung und Punktewertung der Einzelkriterien.\nDie Wertung schließt mit der Bildung einer Rangfolge ab. Die Bewerber mit der höchsten Punktzahl werden zur 2. Stufe und zur Abgabe eines Erstangebotes aufgefordert.\nBei ausreichend eingegangenen und geeigneten Teilnahmeanträgen werden min. 3 und max. 5 Bewerber aufgefordert, die nach der Punktewertung die höchsten Punktzahlen erreicht haben.\nBewerber mit weniger als 30 Punkten werden in der Rangfolge nicht berücksichtigt.\nBei Punktgleichheit erhält der Bewerber mit der höheren Punktzahl im Auswahlkriterium „Referenzen“ den Vorrang. Führt dies nicht zu einem eindeutigen Auswahlergebnis, entscheidet das Los.\n\nEs werden maximal drei Referenzen gewertet. Je Referenz können maximal 20 Punkte,\ninsgesamt somit maximal 60 Punkte, erreicht werden.\nWerden mehr als drei Referenzen eingereicht, werden ausschließlich die drei aktuellsten Referenzen gewertet. Maßgeblich ist das Datum der Abnahme durch den Auftraggeber.\nEine Überprüfung der Referenzen durch die Vergabestelle bleibt vorbehalten. Falsche Angaben können zum Ausschluss führen.\n\nAufgabenstellung der GU/TU- Referenzprojekts\nWohnungsbau mit mehr als 40 WE = 2 Punkte\ngeförderter Wohnungsbau = 2 Punkte\nWohnen inkl. Gewerbe; Kita oder vergleichbar = 2 Punkte\nSerielle Planung und Fertigung (Bäder; Fassade …) = 2 Punkte\n\nLeistungsumfang der GU-/TU- Referenzprojekts\nAusführungsplanung und Detailplanung = 1 Punkt\nAusführungsplanung und Detailplanung TGA = 1 Punkt\nRohbauarbeiten = 1 Punkt\nHolzbauarbeiten = 2 Punkte\nAusbauarbeiten = 1 Punkt\nFreianlagen = 1 Punkt\nWartung nach Übergabe an AG = 1 Punkt\n\nGebäudekenndaten – Bruttogrundfläche des GU/TU-Referenzprojekts\n\nbis 4.000 m² = 1 Punkt\nbis 6.000 m² = 2 Punkte\nbis 8.000 m² = 3 Punkte\nmehr als 8.000 m² = 4 Punkte"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "B.1 Angebotspreis",
+      "description": "Die Preisbewertung (B) fließt mit insgesamt 80 % in die Gesamtwertung ein und setzt sich aus dem Angebotspreis für die ausgeschriebenen Leistungen sowie den Wartungskosten im Gewährleistungszeitraum zusammen.\n\nBei der Wertung des Zuschlagskriteriums Preis (B) werden der Angebotspreis B.1 und die Wartungskosten im Gewährleistungszeitraum B.2 getrennt bewertet. Die jeweils erreichten Punkte werden anschließend zur Gesamtpunktzahl des Zuschlagskriteriums Preis (B) addiert.\nBei der Wertung des Kriteriums Preis (B) erfolgt die Punktevergabe wie folgt:\n\nB.1 Angebotspreis\nDas wertbare Angebot mit dem niedrigsten Angebotspreis erhält die für B.1 vorgesehene maximale Punktzahl.\nDie Bewertung der übrigen wertbaren Angebote erfolgt im Verhältnis zum niedrigsten wertbaren Angebotspreis nach folgender Formel:\nPunktzahl B.1 = maximale Punktzahl B.1 × (niedrigster wertbarer Angebotspreis / wertbarer Angebotspreis des Bieters)\nDie errechnete Punktzahl wird auf zwei Nachkommastellen gerundet.\n\nB.2 Wartungskosten im Gewährleistungszeitraum\nDas wertbare Angebot mit den niedrigsten Wartungskosten erhält die für B.2 vorgesehene maximale Punktzahl.\nDie Bewertung der übrigen wertbaren Angebote erfolgt im Verhältnis zu den niedrigsten wertbaren Wartungskosten nach folgender Formel:\nPunktzahl B.2 = maximale Punktzahl B.2 × (niedrigste wertbare Wartungskosten / wertbare Wartungskosten des Bieters\nDie errechnete Punktzahl wird auf zwei Nachkommastellen gerundet.\n\nDie unter B.1 und B.2 erreichten Punkte werden addiert. Die Summe bildet die für das Zuschlagskriterium Preis (B) erreichte Gesamtpunktzahl.",
+      "weight": 80
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Die qualitativen Zuschlagskriterien (A) werden mit insgesamt 20 % berücksichtigt. Die Bewertung erfolgt anhand der Kriterien Personaleinsatz und Projektorganisation, Konstruktionssystem und bauliche Umsetzung, Bauablaufplan sowie Baustelleneinrichtung und Logistik.\n\nA.1 Personaleinsatz und Projektorganisation\nDie nachfolgenden Aspekte A.1 werden gemeinsam bewertet. Es können max. 5 Punkte erreicht werden.\n\nPersonaleinsatzkonzept\nGewertet werden die Qualität und Schlüssigkeit des vorgesehenen Personaleinsatzkonzepts im Hinblick auf einen störungsfreien Projektablauf.\nDabei werden insbesondere folgende Aspekte berücksichtigt:\n- Stellvertretungsprinzip\n- Kompetenz und Erfahrung der Projektleitung sowie des Projektteams in den - Bereichen Planung, Ausschreibung und Bauleitung\n\nProjektorganisation / Qualitätssicherung\nGewertet wird die dargestellte Projektorganisation und Qualitätssicherung\nin Planung und Bau.\nHierbei werden insbesondere die Organisation und Einbindung der zuständigen Fachplanungen bzw. Fachbauleitungen für HLS, ELT und Außenanlagen berücksichtigt\n\nBewertung der qualitativen Zuschlagskriterien (A)\nDie Bewertung der qualitativen Zuschlagskriterien A.1 bis A.4 erfolgt anhand der jeweils bekanntgemachten Unterkriterien, Anforderungen und Bewertungsaspekte.\nErgänzend erfolgt eine vergleichende Wertung der eingereichten Umsetzungskonzepte. Hierbei werden die Konzepte der Bieter zueinander in Beziehung gesetzt, um qualitative Stärken, Schwächen, Unterschiede und Plausibilitäten nachvollziehbar zu erfassen und den jeweiligen Erfüllungsgrad sachgerecht festzulegen.\nDie vergleichende Wertung dient ausschließlich der Einordnung innerhalb der bekanntgemachten Unterkriterien und Bewertungsmaßstäbe. Eine Bewertung außerhalb der bekanntgemachten Unterkriterien erfolgt nicht.\nAus dem Vergleich der Konzepte folgt insbesondere nicht, dass das im Vergleich beste Konzept automatisch den höchsten Erfüllungsgrad erhält. Maßgeblich ist, in welchem Umfang das jeweilige Umsetzungskonzept die gestellten Anforderungen erfüllt.\nJedes Zuschlagskriterium A.1 bis A.4 wird unter gemeinsamer Berücksichtigung der jeweils aufgeführten Bewertungsaspekte auf einer Skala von 0 bis 5 Punkten bewertet.\nDie Punkte werden wie folgt vergeben:\n\nErläuterung Punktewertung Wertung A.1 - A.4\n5 Punkte – 100 % – sehr gut:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden vollständig, detailliert, nachvollziehbar und in allen relevanten Punkten überzeugend dargestellt. Die Darstellung lässt eine sehr gute Leistungsqualität erwarten und weist keine wesentlichen Mängel auf.\n4 Punkte – 80 % – gut:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden weitgehend vollständig, detailliert und nachvollziehbar dargestellt. Die Darstellung überzeugt im Wesentlichen und lässt eine gute Leistungsqualität erwarten. Es bestehen lediglich geringfügige Defizite oder vereinzelte Schwächen.\n3 Punkte – 60 % – befriedigend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden im Wesentlichen nachvollziehbar dargestellt. Die Darstellung weist jedoch einzelne Defizite hinsichtlich Vollständigkeit, Detaillierungsgrad, Plausibilität oder Nachvollziehbarkeit auf und lässt eine durchschnittliche Leistungsqualität erwarten.\n2 Punkte – 40 % – ausreichend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nur teilweise überzeugend dargestellt. Es bestehen mehrere Defizite hinsichtlich Vollständigkeit, Detaillierungsgrad, Plausibilität oder Nachvollziehbarkeit.\n1 Punkt – 20 % – mangelhaft:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nur in Grundzügen dargestellt. Die Darstellung weist erhebliche Defizite auf und überzeugt nur in geringem Umfang.\n0 Punkte – 0 % – ungenügend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nicht bzw. nicht verwertbar dargestellt. Wesentliche Angaben fehlen oder die Darstellung lässt keine sachgerechte Beurteilung des Unterkriteriums zu.\n\nDie unter A.1 bis A.4 erreichten Punkte werden addiert. Die Summe bildet die für das Zuschlagskriterium Qualität (A) erreichte Gesamtpunktzahl.",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Die qualitativen Zuschlagskriterien (A) werden mit insgesamt 20 % berücksichtigt. Die Bewertung erfolgt anhand der Kriterien Personaleinsatz und Projektorganisation, Konstruktionssystem und bauliche Umsetzung, Bauablaufplan sowie Baustelleneinrichtung und Logistik.\n\nA.2 Konstruktionssystem und bauliche Umsetzung\nDie nachfolgenden Aspekte A.2 werden gemeinsam bewertet. Es können max. 5 Punkte erreicht werden\n\nKonstruktionssystem und Bauweise\nGewertet werden die Qualität und Schlüssigkeit des dargestellten Konstruktionssystems unter Berücksichtigung der Gegebenheiten und Besonderheiten des konkreten Bauvorhabens.\n\nVorfertigung und konstruktive Schnittstellen\nGewertet werden der vorgesehene Vorfertigungsgrad,\ndie dargestellten vorgefertigten Bauteile sowie die schlüssige Lösung der wesentlichen konstruktiven Schnittstellen, insbesondere zwischen Rohbau, Holzbau, Fassade und technischem Ausbau.\n\nBewertung der qualitativen Zuschlagskriterien (A)\nDie Bewertung der qualitativen Zuschlagskriterien A.1 bis A.4 erfolgt anhand der jeweils bekanntgemachten Unterkriterien, Anforderungen und Bewertungsaspekte.\nErgänzend erfolgt eine vergleichende Wertung der eingereichten Umsetzungskonzepte. Hierbei werden die Konzepte der Bieter zueinander in Beziehung gesetzt, um qualitative Stärken, Schwächen, Unterschiede und Plausibilitäten nachvollziehbar zu erfassen und den jeweiligen Erfüllungsgrad sachgerecht festzulegen.\nDie vergleichende Wertung dient ausschließlich der Einordnung innerhalb der bekanntgemachten Unterkriterien und Bewertungsmaßstäbe. Eine Bewertung außerhalb der bekanntgemachten Unterkriterien erfolgt nicht.\nAus dem Vergleich der Konzepte folgt insbesondere nicht, dass das im Vergleich beste Konzept automatisch den höchsten Erfüllungsgrad erhält. Maßgeblich ist, in welchem Umfang das jeweilige Umsetzungskonzept die gestellten Anforderungen erfüllt.\nJedes Zuschlagskriterium A.1 bis A.4 wird unter gemeinsamer Berücksichtigung der jeweils aufgeführten Bewertungsaspekte auf einer Skala von 0 bis 5 Punkten bewertet.\nDie Punkte werden wie folgt vergeben:\n\nErläuterung Punktewertung Wertung A.1 - A.4\n5 Punkte – 100 % – sehr gut:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden vollständig, detailliert, nachvollziehbar und in allen relevanten Punkten überzeugend dargestellt. Die Darstellung lässt eine sehr gute Leistungsqualität erwarten und weist keine wesentlichen Mängel auf.\n4 Punkte – 80 % – gut:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden weitgehend vollständig, detailliert und nachvollziehbar dargestellt. Die Darstellung überzeugt im Wesentlichen und lässt eine gute Leistungsqualität erwarten. Es bestehen lediglich geringfügige Defizite oder vereinzelte Schwächen.\n3 Punkte – 60 % – befriedigend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden im Wesentlichen nachvollziehbar dargestellt. Die Darstellung weist jedoch einzelne Defizite hinsichtlich Vollständigkeit, Detaillierungsgrad, Plausibilität oder Nachvollziehbarkeit auf und lässt eine durchschnittliche Leistungsqualität erwarten.\n2 Punkte – 40 % – ausreichend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nur teilweise überzeugend dargestellt. Es bestehen mehrere Defizite hinsichtlich Vollständigkeit, Detaillierungsgrad, Plausibilität oder Nachvollziehbarkeit.\n1 Punkt – 20 % – mangelhaft:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nur in Grundzügen dargestellt. Die Darstellung weist erhebliche Defizite auf und überzeugt nur in geringem Umfang.\n0 Punkte – 0 % – ungenügend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nicht bzw. nicht verwertbar dargestellt. Wesentliche Angaben fehlen oder die Darstellung lässt keine sachgerechte Beurteilung des Unterkriteriums zu.\n\nDie unter A.1 bis A.4 erreichten Punkte werden addiert. Die Summe bildet die für das Zuschlagskriterium Qualität (A) erreichte Gesamtpunktzahl.",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Die qualitativen Zuschlagskriterien (A) werden mit insgesamt 20 % berücksichtigt. Die Bewertung erfolgt anhand der Kriterien Personaleinsatz und Projektorganisation, Konstruktionssystem und bauliche Umsetzung, Bauablaufplan sowie Baustelleneinrichtung und Logistik.\n\nA.3 Bauablaufplan\nDie nachfolgenden Aspekte A.3 werden gemeinsam bewertet. Es können max. 5 Punkte erreicht werden\n\nVollständigkeit und Detaillierungsgrad\nGewertet werden die Vollständigkeit, Übersichtlichkeit und der Detaillierungsgrad des vorgelegten Rahmenterminplans.\nDabei werden insbesondere die vollständige Darstellung der geforderten Meilensteine sowie die nachvollziehbare zeitliche Abfolge der Planungs- und Bauleistungen berücksichtigt.\n\nPlausibilität und Abhängigkeiten\nGewertet werden die Plausibilität des dargestellten Bauablaufs sowie die nachvollziehbare Darstellung der zeitlichen und organisatorischen Abhängigkeiten\nder einzelnen Planungs- und Bauleistungen untereinander.\n\nTerminsicherheit und Optimierung\nGewertet werden die Einhaltung und schlüssige Umsetzung der vorgegebenen Vertragstermine sowie die dargestellten Maßnahmen zur Terminsicherung.\nDarüber hinaus werden nachvollziehbar dargestellte Parallelisierungen, Synergieeffekte und sonstige Optimierungen des Bauablaufs berücksichtigt.\n\n\nBewertung der qualitativen Zuschlagskriterien (A)\nDie Bewertung der qualitativen Zuschlagskriterien A.1 bis A.4 erfolgt anhand der jeweils bekanntgemachten Unterkriterien, Anforderungen und Bewertungsaspekte.\nErgänzend erfolgt eine vergleichende Wertung der eingereichten Umsetzungskonzepte. Hierbei werden die Konzepte der Bieter zueinander in Beziehung gesetzt, um qualitative Stärken, Schwächen, Unterschiede und Plausibilitäten nachvollziehbar zu erfassen und den jeweiligen Erfüllungsgrad sachgerecht festzulegen.\nDie vergleichende Wertung dient ausschließlich der Einordnung innerhalb der bekanntgemachten Unterkriterien und Bewertungsmaßstäbe. Eine Bewertung außerhalb der bekanntgemachten Unterkriterien erfolgt nicht.\nAus dem Vergleich der Konzepte folgt insbesondere nicht, dass das im Vergleich beste Konzept automatisch den höchsten Erfüllungsgrad erhält. Maßgeblich ist, in welchem Umfang das jeweilige Umsetzungskonzept die gestellten Anforderungen erfüllt.\nJedes Zuschlagskriterium A.1 bis A.4 wird unter gemeinsamer Berücksichtigung der jeweils aufgeführten Bewertungsaspekte auf einer Skala von 0 bis 5 Punkten bewertet.\nDie Punkte werden wie folgt vergeben:\n\nErläuterung Punktewertung Wertung A.1 - A.4\n5 Punkte – 100 % – sehr gut:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden vollständig, detailliert, nachvollziehbar und in allen relevanten Punkten überzeugend dargestellt. Die Darstellung lässt eine sehr gute Leistungsqualität erwarten und weist keine wesentlichen Mängel auf.\n4 Punkte – 80 % – gut:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden weitgehend vollständig, detailliert und nachvollziehbar dargestellt. Die Darstellung überzeugt im Wesentlichen und lässt eine gute Leistungsqualität erwarten. Es bestehen lediglich geringfügige Defizite oder vereinzelte Schwächen.\n3 Punkte – 60 % – befriedigend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden im Wesentlichen nachvollziehbar dargestellt. Die Darstellung weist jedoch einzelne Defizite hinsichtlich Vollständigkeit, Detaillierungsgrad, Plausibilität oder Nachvollziehbarkeit auf und lässt eine durchschnittliche Leistungsqualität erwarten.\n2 Punkte – 40 % – ausreichend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nur teilweise überzeugend dargestellt. Es bestehen mehrere Defizite hinsichtlich Vollständigkeit, Detaillierungsgrad, Plausibilität oder Nachvollziehbarkeit.\n1 Punkt – 20 % – mangelhaft:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nur in Grundzügen dargestellt. Die Darstellung weist erhebliche Defizite auf und überzeugt nur in geringem Umfang.\n0 Punkte – 0 % – ungenügend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nicht bzw. nicht verwertbar dargestellt. Wesentliche Angaben fehlen oder die Darstellung lässt keine sachgerechte Beurteilung des Unterkriteriums zu.\n\nDie unter A.1 bis A.4 erreichten Punkte werden addiert. Die Summe bildet die für das Zuschlagskriterium Qualität (A) erreichte Gesamtpunktzahl.",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Die qualitativen Zuschlagskriterien (A) werden mit insgesamt 20 % berücksichtigt. Die Bewertung erfolgt anhand der Kriterien Personaleinsatz und Projektorganisation, Konstruktionssystem und bauliche Umsetzung, Bauablaufplan sowie Baustelleneinrichtung und Logistik.\n\nA.4 Baustelleneinrichtung und Logistik\nDie nachfolgenden Aspekte A.4 werden gemeinsam bewertet. Es können max. 5 Punkte erreicht werden\n\nBaustelleneinrichtung und Flächenmanagement\nGewertet werden die Vollständigkeit, Plausibilität und Umsetzbarkeit des dargestellten Baustelleneinrichtungsplans.\nDabei werden insbesondere die Organisation der Baustelleneinrichtung, die Flächennutzung, Zu- und Abfahrtswege, Kranstandorte, Baustellensicherung sowie die phasenbezogene Anpassung der Baustelleneinrichtung berücksichtigt.\n\nBaustellenlogistik und Bauphasen\nGewertet werden die Plausibilität und Umsetzbarkeit des dargestellten Logistikkonzepts sowie die Organisation der wesentlichen Bauphasen und deren bauteilbezogenen Überschneidungen.\nDabei sind das der FLB beiliegende Konzept sowie die sich daraus ergebenden Anforderungen und Rahmenbedingungen zu berücksichtigen.\n\nVerkehrssicherheit und besondere örtliche Rahmenbedingungen\nGewertet werden die dargestellten Maßnahmen zur sicheren Abwicklung des Baustellen- und Lieferverkehrs sowie zum Schutz der Verkehrsteilnehmer.\nBesondere Berücksichtigung finden die Sicherung der\nZu- und Abfahrten und der angrenzenden Verkehrsflächen, die Schutzbedürftigkeit von Kindern aufgrund der angrenzenden Kita und Schule, mögliche Konflikte mit Fußgängern und Radverkehr sowie die aus der Fahrradstraße resultierenden Anforderungen.\n\n\nBewertung der qualitativen Zuschlagskriterien (A)\nDie Bewertung der qualitativen Zuschlagskriterien A.1 bis A.4 erfolgt anhand der jeweils bekanntgemachten Unterkriterien, Anforderungen und Bewertungsaspekte.\nErgänzend erfolgt eine vergleichende Wertung der eingereichten Umsetzungskonzepte. Hierbei werden die Konzepte der Bieter zueinander in Beziehung gesetzt, um qualitative Stärken, Schwächen, Unterschiede und Plausibilitäten nachvollziehbar zu erfassen und den jeweiligen Erfüllungsgrad sachgerecht festzulegen.\nDie vergleichende Wertung dient ausschließlich der Einordnung innerhalb der bekanntgemachten Unterkriterien und Bewertungsmaßstäbe. Eine Bewertung außerhalb der bekanntgemachten Unterkriterien erfolgt nicht.\nAus dem Vergleich der Konzepte folgt insbesondere nicht, dass das im Vergleich beste Konzept automatisch den höchsten Erfüllungsgrad erhält. Maßgeblich ist, in welchem Umfang das jeweilige Umsetzungskonzept die gestellten Anforderungen erfüllt.\nJedes Zuschlagskriterium A.1 bis A.4 wird unter gemeinsamer Berücksichtigung der jeweils aufgeführten Bewertungsaspekte auf einer Skala von 0 bis 5 Punkten bewertet.\nDie Punkte werden wie folgt vergeben:\n\nErläuterung Punktewertung Wertung A.1 - A.4\n5 Punkte – 100 % – sehr gut:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden vollständig, detailliert, nachvollziehbar und in allen relevanten Punkten überzeugend dargestellt. Die Darstellung lässt eine sehr gute Leistungsqualität erwarten und weist keine wesentlichen Mängel auf.\n4 Punkte – 80 % – gut:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden weitgehend vollständig, detailliert und nachvollziehbar dargestellt. Die Darstellung überzeugt im Wesentlichen und lässt eine gute Leistungsqualität erwarten. Es bestehen lediglich geringfügige Defizite oder vereinzelte Schwächen.\n3 Punkte – 60 % – befriedigend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden im Wesentlichen nachvollziehbar dargestellt. Die Darstellung weist jedoch einzelne Defizite hinsichtlich Vollständigkeit, Detaillierungsgrad, Plausibilität oder Nachvollziehbarkeit auf und lässt eine durchschnittliche Leistungsqualität erwarten.\n2 Punkte – 40 % – ausreichend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nur teilweise überzeugend dargestellt. Es bestehen mehrere Defizite hinsichtlich Vollständigkeit, Detaillierungsgrad, Plausibilität oder Nachvollziehbarkeit.\n1 Punkt – 20 % – mangelhaft:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nur in Grundzügen dargestellt. Die Darstellung weist erhebliche Defizite auf und überzeugt nur in geringem Umfang.\n0 Punkte – 0 % – ungenügend:\nDie für das jeweilige Unterkriterium maßgeblichen Anforderungen wurden nicht bzw. nicht verwertbar dargestellt. Wesentliche Angaben fehlen oder die Darstellung lässt keine sachgerechte Beurteilung des Unterkriteriums zu.\n\nDie unter A.1 bis A.4 erreichten Punkte werden addiert. Die Summe bildet die für das Zuschlagskriterium Qualität (A) erreichte Gesamtpunktzahl.",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

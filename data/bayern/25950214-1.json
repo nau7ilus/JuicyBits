@@ -1,0 +1,124 @@
+{
+ "id": "25950214-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25950214",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25950214",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25950214-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25950214-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25950214?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "523-23-501 Teilrückbau Kunststoffbahn",
+  "buyer": "Stadt Cham - Hochbau 2",
+  "cpv": [
+   "45112720-8"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-24T10:15:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25950214",
+  "id": "25950214",
+  "date": "2026-10-20T19:02:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Cham - Hochbau 2",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Cham - Hochbau 2"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Cham - Hochbau 2",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Cham - Hochbau 2"
+   }
+  },
+  "tender": {
+   "title": "523-23-501 Teilrückbau Kunststoffbahn",
+   "description": "Garten- Landschaftsbauanlagen",
+   "procuringEntity": {
+    "name": "Stadt Cham - Hochbau 2"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112720-8"
+     },
+     "deliveryAddress": {
+      "locality": "93413 Cham",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "523-23-501 Teilrückbau Kunststoffbahn",
+     "description": "Garten- Landschaftsbauanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25950214",
+  "version": "1",
+  "title": "523-23-501 Teilrückbau Kunststoffbahn",
+  "description": "Garten- Landschaftsbauanlagen",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45112720-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "523-23-501 Teilrückbau Kunststoffbahn",
+    "description": "Garten- Landschaftsbauanlagen",
+    "cpv": [
+     "45112720-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-24T10:15:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

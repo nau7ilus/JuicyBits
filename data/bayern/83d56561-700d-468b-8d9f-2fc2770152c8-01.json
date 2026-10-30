@@ -1,0 +1,238 @@
+{
+ "id": "83d56561-700d-468b-8d9f-2fc2770152c8-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "83d56561-700d-468b-8d9f-2fc2770152c8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=83d56561-700d-468b-8d9f-2fc2770152c8",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:83d56561-700d-468b-8d9f-2fc2770152c8-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:83d56561-700d-468b-8d9f-2fc2770152c8-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/83d56561-700d-468b-8d9f-2fc2770152c8?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Innentüren SFZ Bonbruck",
+  "buyer": "Landratsamt Landshut Kreiseigener Hochbau",
+  "cpv": [
+   "45421100",
+   "45421111",
+   "45421110",
+   "45421130",
+   "45421131"
+  ],
+  "nuts": [
+   "DE227"
+  ],
+  "deadline": "2026-11-23T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1a26c7c4-5666-4276-bfd9-afec9baa0b43",
+  "id": "83d56561-700d-468b-8d9f-2fc2770152c8",
+  "date": "2026-10-24T13:14:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landshut Kreiseigener Hochbau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09274",
+     "legalName": "Landratsamt Landshut Kreiseigener Hochbau"
+    },
+    "address": {
+     "streetAddress": "Josef-Neumeier-Allee 1\n",
+     "locality": "Essenbach",
+     "region": "DE227",
+     "postalCode": "84051",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern\nVergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern\nVergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landshut Kreiseigener Hochbau",
+   "id": "09274",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landshut Kreiseigener Hochbau"
+   },
+   "address": {
+    "streetAddress": "Josef-Neumeier-Allee 1\n",
+    "locality": "Essenbach",
+    "region": "DE227",
+    "postalCode": "84051",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1a26c7c4-5666-4276-bfd9-afec9baa0b43",
+   "title": "Innentüren SFZ Bonbruck",
+   "description": "Innentüren SFZ Bonbruck",
+   "procuringEntity": {
+    "name": "Landratsamt Landshut Kreiseigener Hochbau",
+    "id": "09274"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421100",
+      "description": "Installation of doors and windows and related components"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421111",
+       "description": "Installation of door frames"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421110",
+       "description": "Installation of door and window frames"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421130",
+       "description": "Installation of doors and windows"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421131",
+       "description": "Installation of doors"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Details: https://plattform.aumass.de/Veroeffentlichung/av28c7e8-eu"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Erdmannsdorfer Straße 13",
+      "locality": "Bonbruck",
+      "region": "DE227",
+      "postalCode": "84155",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c7e8-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Innentüren SFZ Bonbruck",
+     "description": "Innentüren SFZ Bonbruck",
+     "contractPeriod": {
+      "startDate": "2027-03-08T00:00:00+01:00",
+      "endDate": "2027-06-04T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "83d56561-700d-468b-8d9f-2fc2770152c8",
+  "version": "01",
+  "title": "Innentüren SFZ Bonbruck",
+  "description": "Innentüren SFZ Bonbruck",
+  "procedureType": "open",
+  "nuts": [
+   "DE227"
+  ],
+  "cpv": [
+   "45421110",
+   "45421111",
+   "45421100",
+   "45421130",
+   "45421131"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Innentüren SFZ Bonbruck",
+    "description": "Innentüren SFZ Bonbruck",
+    "cpv": [
+     "45421100",
+     "45421111",
+     "45421110",
+     "45421130",
+     "45421131"
+    ],
+    "nuts": [
+     "DE227"
+    ],
+    "deadline": "2026-11-23T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-08+01:00",
+    "plannedEnd": "2027-06-04+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Details und weitere Eignungskriterien: https://plattform.aumass.de/Veroeffentlichung/av28c7e8-eu"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Details und weitere Eignungskriterien: https://plattform.aumass.de/Veroeffentlichung/av28c7e8-eu"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Details: https://plattform.aumass.de/Veroeffentlichung/av28c7e8-eu",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

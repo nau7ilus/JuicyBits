@@ -5,14 +5,14 @@
   "noticeId": "e29e0215-3382-4fc6-b83f-72e60e7bf05b",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e29e0215-3382-4fc6-b83f-72e60e7bf05b",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:e29e0215-3382-4fc6-b83f-72e60e7bf05b-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:e29e0215-3382-4fc6-b83f-72e60e7bf05b-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/e29e0215-3382-4fc6-b83f-72e60e7bf05b?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Firmenfitness für Bedienstete",
   "buyer": "Verwaltungsgemeinschaft Buchloe",
   "cpv": [
@@ -247,5 +247,56 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e29e0215-3382-4fc6-b83f-72e60e7bf05b",
+  "version": "01",
+  "title": "Firmenfitness für Bedienstete",
+  "description": "Die Verwaltungsgemeinschaft Buchloe, die Stadt Buchloe sowie der Schulverband Mittelschule Buchloe möchten ihren Beschäftigten unabhängig ihres Einsatz- oder Arbeitsortes ein Firmenfitnessprogramm für die Themengebiete \"Bewegung, Entspannung und Ernährung\" bereitstellen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE27B"
+  ],
+  "cpv": [
+   "92620000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Firmenfitness für Bedienstete",
+    "description": "Die Verwaltungsgemeinschaft Buchloe, die Stadt Buchloe sowie der Schulverband Mittelschule Buchloe möchten ihren Beschäftigten unabhängig ihres Einsatz- oder Arbeitsortes ein Firmenfitnessprogramm für die Themengebiete \"Bewegung, Entspannung und Ernährung\" bereitstellen.",
+    "cpv": [
+     "92620000"
+    ],
+    "nuts": [
+     "DE27B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Qualität gemäß Bewertungsmatrix",
+      "description": "Qualität gemäß Bewertungsmatrix",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

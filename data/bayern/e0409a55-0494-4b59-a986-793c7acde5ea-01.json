@@ -1,0 +1,311 @@
+{
+ "id": "e0409a55-0494-4b59-a986-793c7acde5ea-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "e0409a55-0494-4b59-a986-793c7acde5ea",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e0409a55-0494-4b59-a986-793c7acde5ea",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:e0409a55-0494-4b59-a986-793c7acde5ea-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:e0409a55-0494-4b59-a986-793c7acde5ea-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e0409a55-0494-4b59-a986-793c7acde5ea?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Artmeier Überlandbus",
+  "buyer": "Artmeier Bus GmbH & Co. KG",
+  "cpv": [
+   "34144910"
+  ],
+  "nuts": [
+   "DE22A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8dd58d0b-d427-455b-bb25-c424c8671828",
+  "id": "e0409a55-0494-4b59-a986-793c7acde5ea",
+  "date": "2026-10-25T14:14:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Artmeier Bus GmbH & Co. KG",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE236393248",
+     "legalName": "Artmeier Bus GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Industriesiedlung 6-8",
+     "locality": "Gangkofen",
+     "region": "DE22A",
+     "postalCode": "84140",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE129523318",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Daimler Buses GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE147032272",
+     "legalName": "Daimler Buses GmbH"
+    },
+    "address": {
+     "locality": "Garching bei München",
+     "region": "DE21H",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Artmeier Bus GmbH & Co. KG",
+   "id": "DE236393248",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Artmeier Bus GmbH & Co. KG"
+   },
+   "address": {
+    "streetAddress": "Industriesiedlung 6-8",
+    "locality": "Gangkofen",
+    "region": "DE22A",
+    "postalCode": "84140",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8dd58d0b-d427-455b-bb25-c424c8671828",
+   "title": "Artmeier Überlandbus",
+   "description": "Die Fa. Artmeier Bus GmbH & Co. KG beabsichtigt die Beschaffung von einem Überlandbus (Hochboden) mit Elektroantrieb. Die vollständige Beschreibung sowie technische Spezifikationen und die Zuschlagskriterien sowie deren Berechnungsmatrix sind vollumfänglich und ausschließlich den frei abrufbaren Auftragsunterlagen zu entnehmen.",
+   "procuringEntity": {
+    "name": "Artmeier Bus GmbH & Co. KG",
+    "id": "DE236393248"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144910",
+      "description": "Electric buses"
+     },
+     "quantity": 1,
+     "unit": {
+      "scheme": "UNCEFACT",
+      "id": "H87"
+     },
+     "deliveryLocation": {
+      "description": "Industriesiedlung 6-8, 84140 Gangkofen"
+     },
+     "deliveryAddress": {
+      "region": "DE22A",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 500000,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-12T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Daimler Buses GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Daimler Buses GmbH"
+     },
+     "address": {
+      "locality": "Garching bei München",
+      "region": "DE21H",
+      "postalCode": "85748",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Lieferung eines Überlandbusses mit Elektroantrieb.",
+     "description": "Die Fa. Artmeier Bus GmbH & Co. KG beabsichtigt die Beschaffung von einem Überlandbus (Hochboden) mit Elektroantrieb. Die vollständige Beschreibung sowie technische Spezifikationen und die Zuschlagskriterien sowie deren Berechnungsmatrix sind vollumfänglich und ausschließlich den frei abrufbaren Auftragsunterlagen zu entnehmen.",
+     "value": {
+      "amount": 500000,
+      "currency": "EUR"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-12T00:00:00+02:00",
+    "items": [
+     {
+      "id": 1,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "pass-tran-serv",
+        "description": "Passenger road transport services"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "m3",
+        "description": "Bus (M3)"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles-clean",
+        "description": "Vehicles clean"
+       }
+      ],
+      "quantity": 1
+     },
+     {
+      "id": 2,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "pass-tran-serv",
+        "description": "Passenger road transport services"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "m3",
+        "description": "Bus (M3)"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles-zero-emission",
+        "description": "Vehicles zero emission"
+       }
+      ],
+      "quantity": 1
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 502000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-11T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e0409a55-0494-4b59-a986-793c7acde5ea",
+  "version": "01",
+  "title": "Artmeier Überlandbus",
+  "description": "Die Fa. Artmeier Bus GmbH & Co. KG beabsichtigt die Beschaffung von einem Überlandbus (Hochboden) mit Elektroantrieb. Die vollständige Beschreibung sowie technische Spezifikationen und die Zuschlagskriterien sowie deren Berechnungsmatrix sind vollumfänglich und ausschließlich den frei abrufbaren Auftragsunterlagen zu entnehmen.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE22A"
+  ],
+  "cpv": [
+   "34144910"
+  ],
+  "estimatedValue": {
+   "amount": 500000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung eines Überlandbusses mit Elektroantrieb.",
+    "description": "Die Fa. Artmeier Bus GmbH & Co. KG beabsichtigt die Beschaffung von einem Überlandbus (Hochboden) mit Elektroantrieb. Die vollständige Beschreibung sowie technische Spezifikationen und die Zuschlagskriterien sowie deren Berechnungsmatrix sind vollumfänglich und ausschließlich den frei abrufbaren Auftragsunterlagen zu entnehmen.",
+    "cpv": [
+     "34144910"
+    ],
+    "nuts": [
+     "DE22A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": {
+     "amount": 500000,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Die Zuschlagskriterien sind gewichtet. Der Preis entspricht 30%. Alle weiteren Unterkriterien und deren Berechnungsmatrix sind vollumfänglich und ausschließlich den frei abrufbaren Auftragsunterlagen / dem Lastenheft zu entnehmen.",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

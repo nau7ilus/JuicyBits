@@ -1,0 +1,192 @@
+{
+ "id": "36069f80-227f-4552-b185-58ab413af9f3-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "36069f80-227f-4552-b185-58ab413af9f3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=36069f80-227f-4552-b185-58ab413af9f3",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:36069f80-227f-4552-b185-58ab413af9f3-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:36069f80-227f-4552-b185-58ab413af9f3-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/36069f80-227f-4552-b185-58ab413af9f3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ensemble Alte Bleiche",
+  "buyer": "Markt Altenstadt",
+  "cpv": [
+   "45000000",
+   "31625200"
+  ],
+  "nuts": [
+   "DE279"
+  ],
+  "deadline": "2026-11-26T08:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-98db557e-38ab-41ca-97f9-115ae1b9475f",
+  "id": "36069f80-227f-4552-b185-58ab413af9f3",
+  "date": "2026-10-27T03:08:18Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Altenstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "08337-72153",
+     "legalName": "Markt Altenstadt"
+    },
+    "address": {
+     "streetAddress": "Hindenburgstraße 1",
+     "locality": "Altenstadt",
+     "region": "DE279",
+     "postalCode": "89281",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Regierung von Schwaben",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0821-32701",
+     "legalName": "Vergabekammer Regierung von Schwaben"
+    },
+    "address": {
+     "streetAddress": "Fronhof 10",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Altenstadt",
+   "id": "08337-72153",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Altenstadt"
+   },
+   "address": {
+    "streetAddress": "Hindenburgstraße 1",
+    "locality": "Altenstadt",
+    "region": "DE279",
+    "postalCode": "89281",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "98db557e-38ab-41ca-97f9-115ae1b9475f",
+   "title": "Ensemble Alte Bleiche",
+   "description": "Mit dem Projekt Umbau und Sanierung „Alte Bleiche“ im Ortskern von Markt Altenstadt, wird ein ortsbildprägendes Ensemble im Bereich einer unter Denkmalschutz stehenden historischen Siedlungsstruktur erhalten und denkmalgerecht saniert.\nEs besteht aus der als Einzeldenkmal eingeordneten „Neuen Bleiche“, dem benachbarten „Erlanger Haus“ mit Nebengebäude und den umgebenden Freianlagen. Für die neue, der Öffentlichkeit zugänglich gemachten Nutzung des Ensembles u.A. mit Bürgersaal, Jugendzentrum und Räumen für Vereine, werden die Gebäude unter Wahrung eines respektvollen Umgangs mit der denkmalwerten Substanz instandgesetzt, energetisch saniert und für eine moderne Nutzung umstrukturiert. ",
+   "procuringEntity": {
+    "name": "Markt Altenstadt",
+    "id": "08337-72153"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "31625200",
+       "description": "Fire-alarm systems"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Memminger Straße 20+22",
+      "locality": "Altenstadt",
+      "region": "DE279",
+      "postalCode": "89281",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28a1c4-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Brandmelde-/Fernmeldeanlage",
+     "description": "Gegenstand dieser Leistungsbeschreibung ist eine Brandwarnanlage welche in der „Neuen Bleiche“ errichtet werden soll. Diese umfasst ca. 38 Melder, eine zentrale Informationsstelle angelehnt an ein FIZ sowie Koppler zu Lüftungsgeräten.\nDie zu überwachende Fläche beträgt ca.600m²\n",
+     "contractPeriod": {
+      "startDate": "2027-07-01T00:00:00+02:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "36069f80-227f-4552-b185-58ab413af9f3",
+  "version": "01",
+  "title": "Ensemble Alte Bleiche",
+  "description": "Mit dem Projekt Umbau und Sanierung „Alte Bleiche“ im Ortskern von Markt Altenstadt, wird ein ortsbildprägendes Ensemble im Bereich einer unter Denkmalschutz stehenden historischen Siedlungsstruktur erhalten und denkmalgerecht saniert.\nEs besteht aus der als Einzeldenkmal eingeordneten „Neuen Bleiche“, dem benachbarten „Erlanger Haus“ mit Nebengebäude und den umgebenden Freianlagen. Für die neue, der Öffentlichkeit zugänglich gemachten Nutzung des Ensembles u.A. mit Bürgersaal, Jugendzentrum und Räumen für Vereine, werden die Gebäude unter Wahrung eines respektvollen Umgangs mit der denkmalwerten Substanz instandgesetzt, energetisch saniert und für eine moderne Nutzung umstrukturiert.",
+  "procedureType": "open",
+  "nuts": [
+   "DE279"
+  ],
+  "cpv": [
+   "45000000",
+   "31625200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Brandmelde-/Fernmeldeanlage",
+    "description": "Gegenstand dieser Leistungsbeschreibung ist eine Brandwarnanlage welche in der „Neuen Bleiche“ errichtet werden soll. Diese umfasst ca. 38 Melder, eine zentrale Informationsstelle angelehnt an ein FIZ sowie Koppler zu Lüftungsgeräten.\nDie zu überwachende Fläche beträgt ca.600m²",
+    "cpv": [
+     "45000000",
+     "31625200"
+    ],
+    "nuts": [
+     "DE279"
+    ],
+    "deadline": "2026-11-26T08:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-07-01+02:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "id": "7b31c594-4f2e-4597-8d2d-b8edacd454d5-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "7b31c594-4f2e-4597-8d2d-b8edacd454d5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7b31c594-4f2e-4597-8d2d-b8edacd454d5",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:7b31c594-4f2e-4597-8d2d-b8edacd454d5-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:7b31c594-4f2e-4597-8d2d-b8edacd454d5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7b31c594-4f2e-4597-8d2d-b8edacd454d5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ersatzneubau 110kV Kabel von UW21 nach UW800",
+  "buyer": "Stadtwerke Augsburg Holding GmbH, Bau-Einkauf",
+  "cpv": [
+   "71320000"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-11-26T07:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-abc7134b-9f58-45d9-b7ad-d32a987a667d",
+  "id": "7b31c594-4f2e-4597-8d2d-b8edacd454d5",
+  "date": "2026-10-25T13:50:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke Augsburg Holding GmbH, Bau-Einkauf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 00002395",
+     "legalName": "Stadtwerke Augsburg Holding GmbH, Bau-Einkauf"
+    },
+    "address": {
+     "streetAddress": "Hoher Weg 1",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern,\nMaximilianstraße 39, 80538 München",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern,\nMaximilianstraße 39, 80538 München"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke Augsburg Holding GmbH, Bau-Einkauf",
+   "id": "Berichtseinheit-ID 00002395",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadtwerke Augsburg Holding GmbH, Bau-Einkauf"
+   },
+   "address": {
+    "streetAddress": "Hoher Weg 1",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86152",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "abc7134b-9f58-45d9-b7ad-d32a987a667d",
+   "title": "Ersatzneubau 110kV Kabel von UW21 nach UW800",
+   "description": "Gemäß AU-Unterlagen \n\nAusschreibungsgegenstand / Leistungsbeschreibung:\nDie vorhandene 110kV-Kabelstrecke (Gasaußendruckkabel) zwischen den Um-spannwerken 21 und 800 in Augsburg ist gegen eine neuwertige 110kV-Kabelstrecke (Kunststoffkabel) auszutauschen.\n\nTermine und Fristen\nLeistungsstufe 1\t\tFertigstellung bis 28.04.2027\nLeistungsstufe 2\t\tFertigstellung bis 30.06.2027\nSpätestens im Zuge der Leistungsstufe 2 wird ein Terminplan erstellt. Daran orientie-ren sich die Ausführungsfristen der Leistungsstufe 3.",
+   "procuringEntity": {
+    "name": "Stadtwerke Augsburg Holding GmbH, Bau-Einkauf",
+    "id": "Berichtseinheit-ID 00002395"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71320000",
+      "description": "Engineering design services"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.subreport.de/E97576592",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Angebot: PVE 01 Planungsleistungen & örtliche Bauüberwachung",
+     "description": "Gemäß AU-Unterlagen:\n\nAusschreibungsgegenstand / Leistungsbeschreibung:\nDie vorhandene 110kV-Kabelstrecke (Gasaußendruckkabel) zwischen den Um-spannwerken 21 und 800 in Augsburg ist gegen eine neuwertige 110kV-Kabelstrecke (Kunststoffkabel) auszutauschen.\n\nTermine und Fristen\nLeistungsstufe 1\t\tFertigstellung bis 28.04.2027\nLeistungsstufe 2\t\tFertigstellung bis 30.06.2027\nSpätestens im Zuge der Leistungsstufe 2 wird ein Terminplan erstellt. Daran orientie-ren sich die Ausführungsfristen der Leistungsstufe 3."
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "7b31c594-4f2e-4597-8d2d-b8edacd454d5",
+  "version": "01",
+  "title": "Ersatzneubau 110kV Kabel von UW21 nach UW800",
+  "description": "Gemäß AU-Unterlagen \n\nAusschreibungsgegenstand / Leistungsbeschreibung:\nDie vorhandene 110kV-Kabelstrecke (Gasaußendruckkabel) zwischen den Um-spannwerken 21 und 800 in Augsburg ist gegen eine neuwertige 110kV-Kabelstrecke (Kunststoffkabel) auszutauschen.\n\nTermine und Fristen\nLeistungsstufe 1\t\tFertigstellung bis 28.04.2027\nLeistungsstufe 2\t\tFertigstellung bis 30.06.2027\nSpätestens im Zuge der Leistungsstufe 2 wird ein Terminplan erstellt. Daran orientie-ren sich die Ausführungsfristen der Leistungsstufe 3.",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "71320000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Angebot: PVE 01 Planungsleistungen & örtliche Bauüberwachung",
+    "description": "Gemäß AU-Unterlagen:\n\nAusschreibungsgegenstand / Leistungsbeschreibung:\nDie vorhandene 110kV-Kabelstrecke (Gasaußendruckkabel) zwischen den Um-spannwerken 21 und 800 in Augsburg ist gegen eine neuwertige 110kV-Kabelstrecke (Kunststoffkabel) auszutauschen.\n\nTermine und Fristen\nLeistungsstufe 1\t\tFertigstellung bis 28.04.2027\nLeistungsstufe 2\t\tFertigstellung bis 30.06.2027\nSpätestens im Zuge der Leistungsstufe 2 wird ein Terminplan erstellt. Daran orientie-ren sich die Ausführungsfristen der Leistungsstufe 3.",
+    "cpv": [
+     "71320000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-26T07:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \nEignung zur Berufsausübung (Mindestanforderung)\nNachweis Eintrag in ein Berufs- oder Handelsregister (Ingenieurunternehmen, Architekturbüro, Elektroplanungsbüro oder vergleichbare technische Planungsorganisation) nicht älter als 6 Monate.\n\nDie Erfüllung der Mindestanforderungen ist eine zwingende Voraussetzung. \nDer Bewerber/die Bietergemeinschaft/der Bieter, die diese Anforderung nicht erfüllen, werden von der Teilnahme am Vergabeverfahren ausgeschlossen.\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \nBetriebshaftpflichtversicherung (Mindestanforderung)\nBestätigung Betriebshaftpflichtversicherung, dass zum Zeitpunkt der Angebotsabgabe eine ungekündigte Betriebshaftpflichtversicherung verfügt.\n\nDer Bewerber/die Bietergemeinschaft/der Bieter hat mit Beginn seiner Tätigkeiten und Leistungen für das Projekt das Bestehen einer Betriebshaftpflichtversicherung mit mindestens den folgenden Deckungssummen nachzuweisen und bis zum Abschluss des Projektes aufrecht zu erhalten:\n\n3.000.000 € für Personenschäden \n2.000.000 € für sonstige Schäden\n\nDie Erfüllung der Mindestanforderungen ist eine zwingende Voraussetzung. \nDer Bewerber/die Bietergemeinschaft/der Bieter, die diese Anforderung nicht erfüllen, werden von der Teilnahme am Vergabeverfahren ausgeschlossen\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \nUmsätze (Mindestanforderung)\nMit dem Angebot hat der Bewerber/der Bieter zum Nachweis des geforderten Mindest-Jahresumsatzes aus Projekten vergleichbarer Leistungen eine ausgefüllte Jahresumsatzerklärung vorzulegen. Diese Erklärung muss einen Netto-Jahresumsatz 720.000, - € als Durchschnittswert aus den letzten 5 (fünf) abgeschlossenen Geschäftsjahren nachweisen. \nBei Bewerbergemeinschaften genügt zum Nachweis des Mindest-Jahresumsatzes, wenn die Addition der nachgewiesenen Jahresumsätze der Mitglieder der Bewerbergemeinschaft den geforderten Jahresumsatz als Durchschnittswert aus den letzten den letzten 5 (fünf) abgeschlossenen\nGeschäftsjahren erreicht. \nMaßgeblich für die Bewertung ist die Tätigkeit in den letzten abgeschlossenen Geschäftsjahren 5 (fünf) Jahren in Projekten vergleichbarer Leistungen. \nHat der Bewerber/die Bietergemeinschaft/der Bieter noch keine 5 (fünf) abgeschlossenen Geschäftsjahren tätig, kann er/sie im weiteren Verfahren nicht berücksichtigt werden.\n\nDie Erfüllung der Mindestanforderungen ist eine zwingende Voraussetzung. Der Bewerber/die Bietergemeinschaft/der Bieter, die diese Anforderung nicht erfüllen, werden von der Teilnahme am Vergabeverfahren ausgeschlossen.\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise  / Anl. 1.5 Gesamtliste Referenzen (Mindestanforderung) \nAngaben zu Leistungen (min 3 (drei Referenzen) in den letzten 5 (fünf) abgeschlossenen Geschäftsjahren, die mit der zu vergebenden Leistung vergleichbar sind. \nEs werden nur 3 (drei) Referenzen gewertet.  Sollten mehr Referenzen benannt werden, so erfolgt nur eine Wertung des erstgenannten (nach Reihenfolge).\n\nAls nicht vergleichbar gelten Referenzen, bei welchen die jeweilige Auftragssumme der genannten Referenzen kleiner als 100.000,- € (netto) ist und die erbrachten Leistungen im außerstädtischen Bereich stattgefunden haben.\n\nDie Erfüllung der Mindestanforderungen ist eine zwingende Voraussetzung. Der Bewerber/die Bietergemeinschaft/der Bieter, die diese Anforderung nicht erfüllen, werden von der Teilnahme am Vergabeverfahren ausgeschlossen.\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \nAngaben zu Arbeitskräften (Mindestanforderung)\n\nDer Bewerber/die Bietergemeinschaft/der Bieter muss nachweisen, dass er im Zeitraum der Leistungsausführung mindestens 2 (zwei) festangestellte/r Mitarbeiter/in(nen) mit den o.g Anforderungen verfügt, die die oben genannte Leistung ausführen können. \nEine jederzeit mögliche Vertretung für den Ausführungszeitraum ist zu gewährleisten.\n\n\nDie Erfüllung der Mindestanforderungen ist eine zwingende Voraussetzung. Der Bewerber/die Bietergemeinschaft/der Bieter, die diese Anforderung nicht erfüllen, werden von der Teilnahme am Vergabeverfahren ausgeschlossen.\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen:  Anl. 1.1 Eignungsnachweise \nAngabe zu Insolvenzverfahren und Liquidation\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \nZertifizierungen (informativ)\nQualitätsmanagement gemäß ISO 9001 oder Vergleichbares        \n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \nZertifizierungen (informativ)\nQualitätsmanagement gemäß ISO 14001 oder Vergleichbares          \n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \nZertifizierungen (informativ)\nEnergiemanagementsystem (EMS) gemäß ISO 50001 oder Vergleichbares                                                     \n                                             \nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise \nErklärung zur Vermeidung des Erwerbs von Produkten aus ausbeuterischer Kinderarbeit (Mindestanforderung)\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen (falls relevant)\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise / Anl. 1.6 Erklärung der Bieter-Arbeitsgemeinschaft\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen (falls relevant)\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise / Anl. 1.7 Eignungsrelevante Unternehmen\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) Die Anlage vollständig ausfüllen und mit dem Angebot einreichen (falls relevant)\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise / Anl. 1.8 Verpflichtungserklärung Eignungsleihe\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise / Anl. 1.9 Angaben\nzum Projektleiter (Mindestanforderung)\n\nEs ist ein (1) Projektleiter mit mindestens 5 (fünf) Jahren Berufserfahrung zu \nbenennen, dessen Eignung mit 3 (drei) Referenzen aus den letzten 5 (fünf) abge-schlossenen Geschäftsjahren aus unterschiedlichen Projekten vergleichbarer Leistungen im Bereich der Planung von Tief- und Kabel- bzw. Rohrleitungs-baumaßnahmen nachzuweisen ist. \nAls nicht vergleichbar gelten Referenzen, bei welchen die jeweilige Auftragssumme der genannten Referenzen kleiner als 80.000 T€ (netto) ist.\n\nEs wird nur ein (1) Projektleiter gewertet. \nSollten mehrere Projektleiter benannt werden, wird ausschließlich der in der Reihenfolge zuerst genannte Projektleiter gewertet.\n\nSollten mehr Referenzen benannt werden als vorgesehen, werden ausschließlich die zuerst genannten Referenzen gewertet.      \n\nDie Erfüllung der Mindestanforderungen ist eine zwingende Voraussetzung. Der Bewerber/die Bietergemeinschaft/der Bieter, die diese Anforderung nicht erfüllen, werden von der Teilnahme am Vergabeverfahren ausgeschlossen.\n\nAnwendung dieses Kriteriums: Verwendet"
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tAnl. 1 - kaufm. Unterlagen: Anl. 1.1 Eignungsnachweise / Anl. 1.10 Angaben zum stellvertretenden Projektleiter (Mindestanforderung)\n\nEs ist ein (1) stellvertretender Projektleiter mit mindestens 3 (drei) Jahren Berufserfahrung zu benennen, dessen Eignung mit 3 (drei) Referenzen aus den letzten 5 (fünf) abgeschlossenen Geschäftsjahren aus unterschiedlichen Projekten vergleichbarer Leistungen im Bereich der Planung von Tief- und Kabel- bzw. Rohrleitungs-baumaßnahmen nachzuweisen ist. \nAls nicht vergleichbar gelten Referenzen, bei welchen die jeweilige Auftragssumme der genannten Referenzen kleiner als 80.000 T€ (netto) ist.\n\nEs wird nur ein (1) stellvertretender Projektleiter gewertet. \nSollten mehrere stellvertretende Projektleiter benannt werden, wird ausschließlich der in der Reihenfolge zuerst genannte stellvertretende Projektleiter gewertet.\n\nSollten mehr Referenzen benannt werden als vorgesehen, werden ausschließlich die zuerst genannten Referenzen gewertet.      \n\nDie Erfüllung der Mindestanforderungen ist eine zwingende Voraussetzung. Der Bewerber/die Bietergemeinschaft/der Bieter, die diese Anforderung nicht erfüllen, werden von der Teilnahme am Vergabeverfahren ausgeschlossen.\n\nAnwendung dieses Kriteriums: Verwendet"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\nAnl. 4 – Vertrag: Anl. 4.0_Ing.Vertrag Ersatzneubau 110kV Kabel von UW21 nach UW800\nEs ist auch möglich, den unterschriebenen Ingenieurvertrag zu einem späteren\nZeitpunkt nachzureichen.  In diesem Fall benötigen wir die Bestätigung, dass der\nVertrag (Ausschlusskriterium) ohne Änderungen vom Bieter unterschrieben wird.\n\nÄnderungen und Ergänzungen sind nicht erlaubt und führen zwangsläufig zum\nAusschluss des Angebotes.\n\nBeschreibung: Auschlusskriterium\n\nAnwendung dieses Kriteriums: Verwendet",
+      "weight": null
+     },
+     {
+      "type": "price",
+      "name": null,
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen.\n\n-\tPVE 01 Planungsleistungen & örtliche Bauüberwachung\n   Angebotsaufklärung\n-\tAnl. 3 – Leistung: Anl. 3.5 Angebotsblatt\n\nÄnderungen und Ergänzungen sind nicht erlaubt und führen zwangsläufig zum\nAusschluss des Angebotes.\n\nGewichtung: 100% \n\nErzielen nach Abschluss der Angebotswertung mehrere Bieter für den Zuschlag relevante, vollständig gleichwertige Ergebnisse, behält sich der Auftraggeber vor, den Zuschlag unter diesen Bietern durch ein Losverfahren zu erteilen. Das Losverfahren wird unter Wahrung der Grundsätze der Transparenz und Gleichbehandlung durchgeführt und dokumentiert. Die betroffenen Bieter werden rechtzeitig informiert.\n\nStufenweise Beauftragung:\nDie einzelnen Leistungsstufen werden stufenweise beauftragt. Ob und in welchem Umfang diese Leistungen beauftragt werden, entscheidet der Auftraggeber nach \neigenem Bedarf.\nDer Auftragnehmer hat keinen Anspruch darauf, dass die optionalen Leistungen ganz oder teilweise abgerufen werden. Die Vergütungspflicht entsteht ausschließlich für Leistungen, die der Auftraggeber ausdrücklich beauftragt hat und die der \nAuftragnehmer vertragsgemäß erbringt.\n\nAnwendung dieses Kriteriums: Verwendet",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Siehe geforderte Unterlagen (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“). Die Anlage vollständig ausfüllen und mit dem Angebot einreichen\n\n-\tAnl. 5 - Zusatzvereinbarung Vertrag: Anl. 5.0 Zusatzvereinbarung Vertrag\n-\tAnl. 5 - Zusatzvereinbarung Vertrag: Anl. 5.1 Verzeichnis der Nachunternehmerleistungen \n-\tAnl. 5 - Zusatzvereinbarung Vertrag: Anl. 5.2 Verpflichtungserklärung_v2.00.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Der AG ist berechtigt, von jeder Abschlagsrechnung 5 % der geprüften Netto-Abrechnungssumme einzubehalten. Der Einbehalt dient als Sicherheit für die Erfüllungsansprüche des AG einschließlich etwaiger Ansprüche wegen Schadensersatz oder auf Rückforderung wegen Überzahlung einschließlich Zinsen. Die Auszahlung des Einbehalts erfolgt nach Abnahme der Leistung mit der Schlusszahlung.\n\n-\tAnl. 5 - Zusatzvereinbarung Vertrag: Anl. 5.0 Zusatzvereinbarung Vertrag"
+    }
+   }
+  ]
+ }
+}

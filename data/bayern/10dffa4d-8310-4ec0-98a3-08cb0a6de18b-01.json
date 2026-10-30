@@ -1,0 +1,216 @@
+{
+ "id": "10dffa4d-8310-4ec0-98a3-08cb0a6de18b-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "10dffa4d-8310-4ec0-98a3-08cb0a6de18b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=10dffa4d-8310-4ec0-98a3-08cb0a6de18b",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:10dffa4d-8310-4ec0-98a3-08cb0a6de18b-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:10dffa4d-8310-4ec0-98a3-08cb0a6de18b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/10dffa4d-8310-4ec0-98a3-08cb0a6de18b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Energetische Sanierung Konradin-Grundschule und Erweiterung um 4 Klassenräume, Barbarossastraße 29 - 31, 87600 Kaufbeuren",
+  "buyer": "Stadt Kaufbeuren",
+  "cpv": [
+   "45330000",
+   "45331210"
+  ],
+  "nuts": [
+   "DE272"
+  ],
+  "deadline": "2026-11-10T09:50:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-48c7e982-64c4-41ba-9a65-22315641c6ec",
+  "id": "10dffa4d-8310-4ec0-98a3-08cb0a6de18b",
+  "date": "2026-10-16T00:00:00+02:00",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Kaufbeuren",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9007626-47",
+     "legalName": "Stadt Kaufbeuren"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Max-Straße 1",
+     "locality": "Kaufbeuren",
+     "region": "DE272",
+     "postalCode": "87600",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Kaufbeuren",
+   "id": "09-9007626-47",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Kaufbeuren"
+   },
+   "address": {
+    "streetAddress": "Kaiser-Max-Straße 1",
+    "locality": "Kaufbeuren",
+    "region": "DE272",
+    "postalCode": "87600",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "48c7e982-64c4-41ba-9a65-22315641c6ec",
+   "title": "Energetische Sanierung Konradin-Grundschule und Erweiterung um 4 Klassenräume, Barbarossastraße 29 - 31, 87600 Kaufbeuren",
+   "description": "Das Grundstück liegt in einem Wohngebiet im nördlichen Stadtgebiet von Kaufbeuren. In unmittelbarer Nähe befindet sich eine Realschule die mit einem Sportplatz westlich an das Baugrundstück angrenzt. Südlich grenzt das Grundstück an eine Kirche, ansonsten liegen Erschließungsstraßen direkt an den Grenzen des Grundstücks. Über eine Baustraße ist die Baustelle von der Marktgrafenstraße aus direkt zugänglich.\n\nNach erfolgter Fertigstellung des Neubaus im ersten Bauabschnitt umfasst der 2. Bauabschnitt die energetische Sanierung des Bestandgebäudes. Die Arbeiten an verschiedenen Bauteilen umfassen vor allem die Überarbeitung der Außenhüllflächen und eine Sanierung der Klassenräume im Innenbereich. Zudem wird die Haustechnik überarbeitet, da die Heizung auf regenerative Energieträger umgestellt wird und im Zusammenspiel mit der angrenzenden Turnhalle komplett erneuert wird sowie die Klassenräume mit einer technischen Lüftung ausgestattet werden. Zum Abschluss der Arbeiten wird der Innenhofbereich wieder als Pausenhof gestaltet und die provisorischen Zufahrten rückgebaut.",
+   "procuringEntity": {
+    "name": "Stadt Kaufbeuren",
+    "id": "09-9007626-47"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45330000",
+      "description": "Plumbing and sanitary works"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45331210",
+       "description": "Ventilation installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Barbarossastraße 29 - 31",
+      "locality": "Kaufbeuren",
+      "region": "DE272",
+      "postalCode": "87600",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304093",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lüftung BA 2 - 2027",
+     "description": "6 x dezentrale Lüftung Klassenzimmer\nKanalnetz und Zubehör\nDämmung\nInbetriebnahme, Servicearbeiten, Dokumentation",
+     "contractPeriod": {
+      "startDate": "2027-05-31T00:00:00+02:00",
+      "endDate": "2027-09-10T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "152511-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "152511-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "10dffa4d-8310-4ec0-98a3-08cb0a6de18b",
+  "version": "01",
+  "title": "Energetische Sanierung Konradin-Grundschule und Erweiterung um 4 Klassenräume, Barbarossastraße 29 - 31, 87600 Kaufbeuren",
+  "description": "Das Grundstück liegt in einem Wohngebiet im nördlichen Stadtgebiet von Kaufbeuren. In unmittelbarer Nähe befindet sich eine Realschule die mit einem Sportplatz westlich an das Baugrundstück angrenzt. Südlich grenzt das Grundstück an eine Kirche, ansonsten liegen Erschließungsstraßen direkt an den Grenzen des Grundstücks. Über eine Baustraße ist die Baustelle von der Marktgrafenstraße aus direkt zugänglich.\n\nNach erfolgter Fertigstellung des Neubaus im ersten Bauabschnitt umfasst der 2. Bauabschnitt die energetische Sanierung des Bestandgebäudes. Die Arbeiten an verschiedenen Bauteilen umfassen vor allem die Überarbeitung der Außenhüllflächen und eine Sanierung der Klassenräume im Innenbereich. Zudem wird die Haustechnik überarbeitet, da die Heizung auf regenerative Energieträger umgestellt wird und im Zusammenspiel mit der angrenzenden Turnhalle komplett erneuert wird sowie die Klassenräume mit einer technischen Lüftung ausgestattet werden. Zum Abschluss der Arbeiten wird der Innenhofbereich wieder als Pausenhof gestaltet und die provisorischen Zufahrten rückgebaut.",
+  "procedureType": "open",
+  "nuts": [
+   "DE272"
+  ],
+  "cpv": [
+   "45330000",
+   "45331210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lüftung BA 2 - 2027",
+    "description": "6 x dezentrale Lüftung Klassenzimmer\nKanalnetz und Zubehör\nDämmung\nInbetriebnahme, Servicearbeiten, Dokumentation",
+    "cpv": [
+     "45330000",
+     "45331210"
+    ],
+    "nuts": [
+     "DE272"
+    ],
+    "deadline": "2026-11-10T09:50:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-31+02:00",
+    "plannedEnd": "2027-09-10+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Befähigung zur Berufsausübung einschließlich Auflagen hinsichtlich der Eintragung in einem Berufs- oder Handelsregister, Wirtschaftliche und finanzielle Leistungsfähigkeit, Technische und berufliche Leistungsfähigkeit. Ausgefülltes Formblatt 124 „Eigenerklärung zur Eignung“ bzw. Einheitlichen Europäische Eigenerklärung (EEE) mit folgenden Angaben/ Nachweisen:\n- Nachweis Eintragung ins Berufs-/Gewerbe-oder Handelsregister des Wohnsitzes,\n- Nachweis Sozialversicherung / Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, \n- Nachweis Mitgliedschaft und Unbedenklichkeitsbescheinigung der Berufsgenossenschaft,\n- FB 2493 / L 2493 / VI.17 (Erklärung Masernschutzgesetz),\n- FB 127 / L 127 / III.27 (Erklärung Bezug Russland)\n- Umsatz der letzten 3 abgeschlossenen Geschäftsjahre mit Angabe Eigenleistung in %, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen, \n- Angabe zu Insolvenzverfahren und Liquidation, \n- Bescheinigung in Steuersachen und aktuelle Freistellungsbescheinigung des Finanzamts,\n- Nachweis Berufs- oder Betriebshaftpflichtversicherung (Personenschäden mind. 3.000.000,00 €,     Sach- und Vermögensschäden mind. 1.000.000,00 €),\n- mind. 3 vergleichbare Referenzen (vergleichbarer Größe und Leistungsumfang) der letzten 5 abgeschlossenen Kalenderjahre gemäß FB 444-Referenzbescheinigung,\n- Anzahl Mitarbeiter der letzten 3 abgeschlossenen Geschäftsjahre,\n- Bietertextergänzungen,\n- Produktdatenblätter, Skizzen, Zertifikate, Herstellernachweise,\nbzw. entsprechende Bescheinigungen des EU-Mitgliedstaates.\nBescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen.\nBei Bietergemeinschaften oder Einsatz von Nachunternehmen sind die Eigenerklärungen (siehe die o. g. Angaben/Nachweise) auch für diese abzugeben. \nDie Nachweise und Bescheinigungen zu den Eigenerklärungen sind binnen 6 Kalendertagen nach Aufforderung vorzulegen (sowohl vom Bieter, den Unternehmen einer Bietergemeinschaft, wie auch von Nachunternehmern).\nDie o. g. Eignungsanforderungen können über den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) nachgewiesen werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

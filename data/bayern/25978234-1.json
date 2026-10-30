@@ -5,14 +5,14 @@
   "noticeId": "25978234",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978234",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978234-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978234-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978234?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Rahmenvereinbarung über die Lieferung von Kopier-/Druckpapier, Kuvertierhüllen und Versandtaschen für das Landratsamt Mühldorf a. Inn und die Schulen in Trägerschaft des Landkreises Mühldorf a. Inn. Voraussichtliche Laufzeit der Rahmenvereinbarung 01.01.2027 - 31.12.2029",
   "buyer": "Landratsamt Mühldorf am Inn - FB 15 Liegenschaften und Schulen",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-11-26T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -91,5 +91,43 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25978234",
+  "version": "1",
+  "title": "Rahmenvereinbarung über die Lieferung von Kopier-/Druckpapier, Kuvertierhüllen und Versandtaschen für das Landratsamt Mühldorf a. Inn und die Schulen in Trägerschaft des Landkreises Mühldorf a. Inn. Voraussichtliche Laufzeit der Rahmenvereinbarung 01.01.2027 - 31.12.2029",
+  "description": "Rahmenvereinbarung über die Lieferung von Kopier-/Druckpapier, Kuvertierhüllen und Versandtaschen für das Landratsamt Mühldorf a. Inn und die Schulen in Trägerschaft des Landkreises Mühldorf a. Inn. Voraussichtliche Laufzeit der Rahmenvereinbarung 01.01.2027 - 31.12.2029",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "30197642-8 30197643-5 30199000-0 30197630-1 30197620-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvereinbarung über die Lieferung von Kopier-/Druckpapier, Kuvertierhüllen und Versandtaschen für das Landratsamt Mühldorf a. Inn und die Schulen in Trägerschaft des Landkreises Mühldorf a. Inn. Voraussichtliche Laufzeit der Rahmenvereinbarung 01.01.2027 - 31.12.2029",
+    "description": "Rahmenvereinbarung über die Lieferung von Kopier-/Druckpapier, Kuvertierhüllen und Versandtaschen für das Landratsamt Mühldorf a. Inn und die Schulen in Trägerschaft des Landkreises Mühldorf a. Inn. Voraussichtliche Laufzeit der Rahmenvereinbarung 01.01.2027 - 31.12.2029",
+    "cpv": [
+     "30197642-8 30197643-5 30199000-0 30197630-1 30197620-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

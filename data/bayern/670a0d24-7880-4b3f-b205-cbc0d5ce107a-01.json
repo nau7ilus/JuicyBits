@@ -5,14 +5,14 @@
   "noticeId": "670a0d24-7880-4b3f-b205-cbc0d5ce107a",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=670a0d24-7880-4b3f-b205-cbc0d5ce107a",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:670a0d24-7880-4b3f-b205-cbc0d5ce107a-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:670a0d24-7880-4b3f-b205-cbc0d5ce107a-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/670a0d24-7880-4b3f-b205-cbc0d5ce107a?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "A355.01 Fliesenarbeiten",
   "buyer": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE21G"
   ],
-  "deadline": null,
+  "deadline": "2026-12-01T14:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -141,5 +141,55 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "670a0d24-7880-4b3f-b205-cbc0d5ce107a",
+  "version": "01",
+  "title": "A355.01 Fliesenarbeiten",
+  "description": "Abdichtungsarbeiten Boden Wände bis W3i ca. 2600m²\nFliesenarbeiten Boden ca. 2400m²\nFliesenarbeiten Wand ca. 1800m² \nTreppenhäuser 5 Stk",
+  "procedureType": "open",
+  "nuts": [
+   "DE21G"
+  ],
+  "cpv": [
+   "45431000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "A355.01 Fliesenarbeiten",
+    "description": "Abdichtungsarbeiten Boden Wände bis W3i ca. 2600m²\nFliesenarbeiten Boden ca. 2400m²\nFliesenarbeiten Wand ca. 1800m² \nTreppenhäuser 5 Stk",
+    "cpv": [
+     "45431000"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-12-01T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-07-19+02:00",
+    "plannedEnd": "2028-03-20+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Formblatt 124 (Eigenerklärung zur Eignung)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preisgewichtung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

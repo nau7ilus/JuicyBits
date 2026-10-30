@@ -1,0 +1,281 @@
+{
+ "id": "270b2041-f47c-493f-9382-53924cf8c3d4-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "270b2041-f47c-493f-9382-53924cf8c3d4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=270b2041-f47c-493f-9382-53924cf8c3d4",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:270b2041-f47c-493f-9382-53924cf8c3d4-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:270b2041-f47c-493f-9382-53924cf8c3d4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/270b2041-f47c-493f-9382-53924cf8c3d4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule Augsburg",
+  "buyer": "Stadt Augsburg",
+  "cpv": [
+   "39160000",
+   "39131100",
+   "39122200",
+   "39113200"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-11-26T10:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f9ecca2e-fcde-4546-a57a-b017703787a5",
+  "id": "270b2041-f47c-493f-9382-53924cf8c3d4",
+  "date": "2026-10-27T03:08:15Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Augsburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9007618-71",
+     "legalName": "Stadt Augsburg"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86150",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilanstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80438",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Augsburg",
+   "id": "09-9007618-71",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Augsburg"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86150",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f9ecca2e-fcde-4546-a57a-b017703787a5",
+   "title": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule Augsburg",
+   "description": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule in Augsburg. Es wurden folgende zwei Fachlose gebildet:\nFachlos 1: Tische, Stühle\nFachlos 2: Umkleidebänke, Schränke, Regale, sowie Polstermöbel",
+   "procuringEntity": {
+    "name": "Stadt Augsburg",
+    "id": "09-9007618-71"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39131100",
+       "description": "Archive shelving"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39122200",
+       "description": "Bookcases"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86179",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86179",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305175",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305175",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Tische und Stühle",
+     "description": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule in Augsburg. Es wurden folgende zwei Fachlose gebildet:\nFachlos 1: Tische, Stühle\nFachlos 2: Umkleidebänke, Schränke, Regale, sowie Polstermöbel",
+     "contractPeriod": {
+      "startDate": "2026-12-21T00:00:00+01:00",
+      "endDate": "2027-04-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Umkleidebänke und Schränke und Regale sowie Polstermöbel",
+     "description": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule in Augsburg. Es wurden folgende zwei Fachlose gebildet:\nFachlos 1: Tische, Stühle\nFachlos 2: Umkleidebänke, Schränke, Regale, sowie Polstermöbel",
+     "contractPeriod": {
+      "startDate": "2026-12-21T00:00:00+01:00",
+      "endDate": "2027-04-30T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "270b2041-f47c-493f-9382-53924cf8c3d4",
+  "version": "01",
+  "title": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule Augsburg",
+  "description": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule in Augsburg. Es wurden folgende zwei Fachlose gebildet:\nFachlos 1: Tische, Stühle\nFachlos 2: Umkleidebänke, Schränke, Regale, sowie Polstermöbel",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "39160000",
+   "39131100",
+   "39122200",
+   "39113200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Tische und Stühle",
+    "description": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule in Augsburg. Es wurden folgende zwei Fachlose gebildet:\nFachlos 1: Tische, Stühle\nFachlos 2: Umkleidebänke, Schränke, Regale, sowie Polstermöbel",
+    "cpv": [
+     "39160000",
+     "39131100",
+     "39122200"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-21+01:00",
+    "plannedEnd": "2027-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=305175"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Umkleidebänke und Schränke und Regale sowie Polstermöbel",
+    "description": "Beschaffung von Schulmobiliar für die Johann-Strauß-Grundschule in Augsburg. Es wurden folgende zwei Fachlose gebildet:\nFachlos 1: Tische, Stühle\nFachlos 2: Umkleidebänke, Schränke, Regale, sowie Polstermöbel",
+    "cpv": [
+     "39160000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-21+01:00",
+    "plannedEnd": "2027-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=305175"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

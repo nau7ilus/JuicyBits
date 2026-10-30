@@ -216,6 +216,8 @@
   "noticeId": "fb14919e-9194-4350-b2ac-e4b901620bf4",
   "version": "01",
   "title": "Wartungs- und Servicevertrag  GLT/MSR - PR1170121-2800-I",
+  "description": "Wartung und Inspektion GLT/MSR , Ferneinwahl und Bereitschaftsdienst für Fraunhofer Zentrale, 80686 München",
+  "procedureType": "open",
   "nuts": [
    "DE212"
   ],
@@ -227,6 +229,7 @@
    {
     "id": "LOT-0000",
     "title": "Wartungs- und Servicevertrag  GLT/MSR - PR1170121-2800-I",
+    "description": "Wartung und Inspektion GLT/MSR , Ferneinwahl und Bereitschaftsdienst für Fraunhofer Zentrale, 80686 München",
     "cpv": [
      "50700000"
     ],
@@ -237,9 +240,25 @@
     "participationDeadline": null,
     "plannedStart": "2027-01-01+01:00",
     "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Konzepte",
+      "description": "Wartung und QM Konzept",
+      "weight": 65
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

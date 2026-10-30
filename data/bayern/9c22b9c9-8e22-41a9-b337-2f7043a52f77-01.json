@@ -1,0 +1,272 @@
+{
+ "id": "9c22b9c9-8e22-41a9-b337-2f7043a52f77-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "9c22b9c9-8e22-41a9-b337-2f7043a52f77",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9c22b9c9-8e22-41a9-b337-2f7043a52f77",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:9c22b9c9-8e22-41a9-b337-2f7043a52f77-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:9c22b9c9-8e22-41a9-b337-2f7043a52f77-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9c22b9c9-8e22-41a9-b337-2f7043a52f77?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Commercial and Corporate Law 2026-2028",
+  "buyer": "EIT Health e.V.",
+  "cpv": [
+   "79100000",
+   "79111000",
+   "79140000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1149f6fa-50d5-48be-80df-9048e1ea7c37",
+  "id": "9c22b9c9-8e22-41a9-b337-2f7043a52f77",
+  "date": "2026-10-22T02:08:57Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "EIT Health e.V.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE308993820",
+     "legalName": "EIT Health e.V."
+    },
+    "address": {
+     "streetAddress": "Mies-van-der-Rohe-Straße 1C",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80807",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Forvis Mazars Rechtsanwaltsgesellschaft mbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE813670660",
+     "legalName": "Forvis Mazars Rechtsanwaltsgesellschaft mbH"
+    },
+    "address": {
+     "streetAddress": "Alt-Moabit 2",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "EIT Health e.V.",
+   "id": "DE308993820",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "EIT Health e.V."
+   },
+   "address": {
+    "streetAddress": "Mies-van-der-Rohe-Straße 1C",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80807",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1149f6fa-50d5-48be-80df-9048e1ea7c37",
+   "title": "Commercial and Corporate Law 2026-2028",
+   "description": "This Request for Proposal (RFP) seeks to engage qualified legal contractors to meet the dynamic legal needs of EIT Health's activities. With a focus on healthcare innovation, EIT Health works extensively with European health innovations, including and not limited to hospitals, academics, start-ups and SMEs, providing them with financial and non-financial support to commercialize their solutions. As a result, the legal landscape surrounding commercial activities, including option agreements, equity investments, intellectual property management, compliance, governance, human resources, etc., require specialized legal expertise. In addition, the legal framework must account for the cross-border nature of EIT Health's operations, as the organization operates across different EU regions.",
+   "procuringEntity": {
+    "name": "EIT Health e.V.",
+    "id": "DE308993820"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79100000",
+      "description": "Legal services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "79111000",
+       "description": "Legal advisory services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "79140000",
+       "description": "Legal advisory and information services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Refer to procurement documents."
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 380500,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-08-13T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Forvis Mazars Rechtsanwaltsgesellschaft mbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Forvis Mazars Rechtsanwaltsgesellschaft mbH"
+     },
+     "address": {
+      "streetAddress": "Alt-Moabit 2",
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "10557",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Commercial and Corporate Law 2026-2028",
+     "description": "Refer to procurement documents.",
+     "contractPeriod": {
+      "durationInDays": 900
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "2026 EITH FA COMM & CORP LAW",
+    "status": "active",
+    "date": "2026-10-21T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "2026 EITH FA COMM & CORP LAW",
+    "status": "active",
+    "value": {
+     "amount": 380500,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-20T22:00:00.000Z"
+   }
+  ],
+  "language": "ENG"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "9c22b9c9-8e22-41a9-b337-2f7043a52f77",
+  "version": "01",
+  "title": "Commercial and Corporate Law 2026-2028",
+  "description": "This Request for Proposal (RFP) seeks to engage qualified legal contractors to meet the dynamic legal needs of EIT Health's activities. With a focus on healthcare innovation, EIT Health works extensively with European health innovations, including and not limited to hospitals, academics, start-ups and SMEs, providing them with financial and non-financial support to commercialize their solutions. As a result, the legal landscape surrounding commercial activities, including option agreements, equity investments, intellectual property management, compliance, governance, human resources, etc., require specialized legal expertise. In addition, the legal framework must account for the cross-border nature of EIT Health's operations, as the organization operates across different EU regions.",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "79100000",
+   "79111000",
+   "79140000"
+  ],
+  "estimatedValue": {
+   "amount": 380500,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Commercial and Corporate Law 2026-2028",
+    "description": "Refer to procurement documents.",
+    "cpv": [
+     "79100000",
+     "79111000",
+     "79140000"
+    ],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 30,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Technical Evaluation",
+      "description": "Refer to procurement documents.",
+      "weight": 60
+     },
+     {
+      "type": "price",
+      "name": "Financial Evaluation",
+      "description": "Refer to procurement documents.",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

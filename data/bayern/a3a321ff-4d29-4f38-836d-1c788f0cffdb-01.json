@@ -1,0 +1,320 @@
+{
+ "id": "a3a321ff-4d29-4f38-836d-1c788f0cffdb-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "a3a321ff-4d29-4f38-836d-1c788f0cffdb",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a3a321ff-4d29-4f38-836d-1c788f0cffdb",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:a3a321ff-4d29-4f38-836d-1c788f0cffdb-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:a3a321ff-4d29-4f38-836d-1c788f0cffdb-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a3a321ff-4d29-4f38-836d-1c788f0cffdb?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "REZ Bayern_45ind AA Passau",
+  "buyer": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+  "cpv": [
+   "80400000"
+  ],
+  "nuts": [
+   "DE254",
+   "DE228",
+   "DE225",
+   "DEZZZ"
+  ],
+  "deadline": "2026-11-26T11:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-eee3acad-cade-459f-8316-ead801a443b4",
+  "id": "a3a321ff-4d29-4f38-836d-1c788f0cffdb",
+  "date": "2026-10-27T03:10:09Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 100/104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 100/104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "eee3acad-cade-459f-8316-ead801a443b4",
+   "title": "REZ Bayern_45ind AA Passau",
+   "description": "Konzeption und Durchführung einer individuellen Maßnahme nach § 45 Absatz 1 Satz 1 Sozialgesetzbuch Drittes Buch (SGB III) beziehungsweise § 16 Absatz 1 Satz 1 Sozialgesetzbuch Zweites Buch (SGB II) in Verbindung mit § 45 Absatz 1 Satz 1 SGB III für ca. 165 Teilnehmende im Bezirk der Agenturen für Arbeit Bayern",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "80400000",
+      "description": "Adult and other education services"
+     },
+     "deliveryAddress": {
+      "locality": "Vilshofen",
+      "region": "DE228",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "80400000",
+      "description": "Adult and other education services"
+     },
+     "deliveryAddress": {
+      "locality": "Pocking",
+      "region": "DE228",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "80400000",
+      "description": "Adult and other education services"
+     },
+     "deliveryAddress": {
+      "locality": "Freyung",
+      "region": "DE225",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=901980",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=901980",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=901980",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "701-26-45ind-10296",
+     "description": "REZ Bayern_45ind AA Passau",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-03-24T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "701-26-45ind-10296",
+     "description": "REZ Bayern_45ind AA Passau",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-03-24T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "701-26-45ind-10296",
+     "description": "REZ Bayern_45ind AA Passau",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-03-24T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "20",
+  "noticeId": "a3a321ff-4d29-4f38-836d-1c788f0cffdb",
+  "version": "01",
+  "title": "REZ Bayern_45ind AA Passau",
+  "description": "Konzeption und Durchführung einer individuellen Maßnahme nach § 45 Absatz 1 Satz 1 Sozialgesetzbuch Drittes Buch (SGB III) beziehungsweise § 16 Absatz 1 Satz 1 Sozialgesetzbuch Zweites Buch (SGB II) in Verbindung mit § 45 Absatz 1 Satz 1 SGB III für ca. 165 Teilnehmende im Bezirk der Agenturen für Arbeit Bayern",
+  "procedureType": "open",
+  "nuts": [
+   "DEZZZ",
+   "DE228",
+   "DE225"
+  ],
+  "cpv": [
+   "80400000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "701-26-45ind-10296",
+    "description": "REZ Bayern_45ind AA Passau",
+    "cpv": [
+     "80400000"
+    ],
+    "nuts": [
+     "DE228"
+    ],
+    "deadline": "2026-11-26T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-03-24+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "D.3.pdf (Erklärung zu Referenzleistungen) \nAngabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. \nNachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.\nD.2.pdf (Unternehmensangaben und Eigenerklärungen)\nAbschnitt V\nAngabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt."
+     },
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "D.2.pdf (Unternehmensangaben und Eigenerklärungen)\nAbschnitt II\nII.12: Zusicherung des Bieters/des bevollmächtigten Mitglieds der BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV und 16k V SGB II). \nVerpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß § 5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls\nspätestens zum Maßnahmebeginn verfügen werden.\nAbschnitt IV\nBestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "701-26-45ind-10296",
+    "description": "REZ Bayern_45ind AA Passau",
+    "cpv": [
+     "80400000"
+    ],
+    "nuts": [
+     "DE228"
+    ],
+    "deadline": "2026-11-26T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-03-24+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "D.3.pdf (Erklärung zu Referenzleistungen) \nAngabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. \nNachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.\nD.2.pdf (Unternehmensangaben und Eigenerklärungen)\nAbschnitt V\nAngabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt."
+     },
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "D.2.pdf (Unternehmensangaben und Eigenerklärungen)\nAbschnitt II\nII.12: Zusicherung des Bieters/des bevollmächtigten Mitglieds der BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV und 16k V SGB II). \nVerpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß § 5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls\nspätestens zum Maßnahmebeginn verfügen werden.\nAbschnitt IV\nBestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "701-26-45ind-10296",
+    "description": "REZ Bayern_45ind AA Passau",
+    "cpv": [
+     "80400000"
+    ],
+    "nuts": [
+     "DE225"
+    ],
+    "deadline": "2026-11-26T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-03-24+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "D.3.pdf (Erklärung zu Referenzleistungen) \nAngabe geeigneter Referenzen über ausgeführte Aufträge des Bieters, von Mitgliedern der BG und/oder Unterauftragnehmern. \nNachweis erbracht, wenn die zu vergebende Leistung oder eine vergleichbare Leistung (Beispiele in A.3 der Allgemeinen Hinweise) innerhalb der letzten 3 Jahre (berechnet vom Tag, an dem die Angebotsfrist endet) ausgeführt wurde. Aufstellung der Referenzleistungen in Form einer Liste mit Angabe des Auftragnehmers, der erbrachten Leistung, von Durchführungszeit und -ort, Teilnehmerkapazitäten, des Auftraggebers mit Kontaktperson inkl. Telefonnr.\nD.2.pdf (Unternehmensangaben und Eigenerklärungen)\nAbschnitt V\nAngabe der Teile des Auftrags mit Absicht der Unterbeauftragung/Eignungsleihe und Benennung der bereits feststehenden Unterauftragnehmer; Verpflichtungserklärung, dass die vorgesehenen Unternehmen dem Bieter/der BG gegenüber gleichlautende schriftliche Erklärungen nach dem Abschnitt II (mit Ausnahme der Erklärungen in II.7 und II.12) und -soweit notwendig- nach dem Abschnitt III dieser Datei abgeben. Verpflichtung im Rahmen der Eignungsleihe, eine Kapazitätsbestätigung des sich verpflichtenden Unternehmens einzuholen; Erklärung, dass die vorstehenden Erklärungen vorliegen und kein für eine Unterbeauftragung/Eignungsleihe vorgesehenes Unternehmen darin das Vorliegen von Ausschlussgründen bejaht hat. Falls nicht, verlangt die Vergabestelle die Übersendung der abgegebenen Erklärungen, wenn das Angebot in die engere Wahl kommt."
+     },
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "D.2.pdf (Unternehmensangaben und Eigenerklärungen)\nAbschnitt II\nII.12: Zusicherung des Bieters/des bevollmächtigten Mitglieds der BG, dass eine gemäß §§ 176 I, 178 SGB III erforderliche Trägerzulassung für sie fachbereichsbezogen vorliegt. Die Regelungen zur Zulassung gelten nicht für die originär im SGB II geregelten Leistungen, soweit dies nicht anders bestimmt wurde (§ 16h IV und 16k V SGB II). \nVerpflichtung, auf Anforderung der Vergabestelle eine Kopie des entsprechenden Zertifikats nebst aktueller Anlage gemäß § 5 VI AZAV vorzulegen. Außerdem ist zu erklären, dass sie über eine ortsbezogene Trägerzulassung erforderlichenfalls\nspätestens zum Maßnahmebeginn verfügen werden.\nAbschnitt IV\nBestätigung durch jedes weitere Mitglied der Bietergemeinschaft (BG), dass die Erklärungen entsprechend den Abschnitten II, III (soweit notwendig) und V sowie die sonstigen von ihm verlangten Erklärungen in den anderen Dateien zur Angebotsabgabe (inkl. der hier aufgelisteten) jeweils abgegeben werden."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

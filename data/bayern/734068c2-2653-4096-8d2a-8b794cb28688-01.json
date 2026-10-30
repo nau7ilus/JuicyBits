@@ -1,0 +1,365 @@
+{
+ "id": "734068c2-2653-4096-8d2a-8b794cb28688-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "734068c2-2653-4096-8d2a-8b794cb28688",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=734068c2-2653-4096-8d2a-8b794cb28688",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:734068c2-2653-4096-8d2a-8b794cb28688-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:734068c2-2653-4096-8d2a-8b794cb28688-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/734068c2-2653-4096-8d2a-8b794cb28688?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF 10 mit Beladung für die Gemeinde Reichertsheim, Lkr. Mühldorf am Inn",
+  "buyer": "Gemeinde Reichertsheim",
+  "cpv": [
+   "34144213",
+   "35110000"
+  ],
+  "nuts": [
+   "DE21G"
+  ],
+  "deadline": "2026-11-19T10:30:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5e001c37-a233-48fc-b69c-9f7be610d6cd",
+  "id": "734068c2-2653-4096-8d2a-8b794cb28688",
+  "date": "2026-10-16T02:08:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Reichertsheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09183140-84437REICHERTSHEIM3043-02",
+     "legalName": "Gemeinde Reichertsheim"
+    },
+    "address": {
+     "streetAddress": "Bräustraße 11",
+     "locality": "Reichertsheim",
+     "region": "DE21G",
+     "postalCode": "84437",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "VergSuedbayern80538",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE21G",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Reichertsheim",
+   "id": "09183140-84437REICHERTSHEIM3043-02",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Reichertsheim"
+   },
+   "address": {
+    "streetAddress": "Bräustraße 11",
+    "locality": "Reichertsheim",
+    "region": "DE21G",
+    "postalCode": "84437",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5e001c37-a233-48fc-b69c-9f7be610d6cd",
+   "title": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF 10 mit Beladung für die Gemeinde Reichertsheim, Lkr. Mühldorf am Inn",
+   "description": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF 10 mit Beladung in drei Losen, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-26, DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 in der aktuellsten Fassung und dem Leistungsverzeichnis. ",
+   "procuringEntity": {
+    "name": "Gemeinde Reichertsheim",
+    "id": "09183140-84437REICHERTSHEIM3043-02"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Bräustraße 11",
+      "locality": "Reichertsheim",
+      "region": "DE21G",
+      "postalCode": "84437",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Bräustraße 11",
+      "locality": "Reichertsheim",
+      "region": "DE21G",
+      "postalCode": "84437",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35110000",
+      "description": "Firefighting, rescue and safety equipment"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Bräustraße 11",
+      "locality": "Reichertsheim",
+      "region": "DE21G",
+      "postalCode": "84437",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "value": {
+    "amount": 521000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28bd50-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28bd50-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28bd50-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung eines Fahrgestells für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10",
+     "description": "Lieferung eines Fahrgestells für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-26, DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 in der aktuellsten Fassung und dem Leistungsverzeichnis. ",
+     "value": {
+      "amount": 126000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Lieferung eines Aufbaus für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10",
+     "description": "Lieferung eines Aufbaus für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-26, DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 in der aktuellsten Fassung und dem Leistungsverzeichnis. ",
+     "value": {
+      "amount": 345000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Lieferung der Beladung für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10",
+     "description": "Lieferung der Beladung für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10 gem. DIN 14530-26, DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 in der aktuellsten Fassung und dem Leistungsverzeichnis. ",
+     "value": {
+      "amount": 50000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "734068c2-2653-4096-8d2a-8b794cb28688",
+  "version": "01",
+  "title": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF 10 mit Beladung für die Gemeinde Reichertsheim, Lkr. Mühldorf am Inn",
+  "description": "Lieferung eines Hilfeleistungslöschgruppenfahrzeuges HLF 10 mit Beladung in drei Losen, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-26, DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 in der aktuellsten Fassung und dem Leistungsverzeichnis.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21G"
+  ],
+  "cpv": [
+   "34144213",
+   "35110000"
+  ],
+  "estimatedValue": {
+   "amount": 521000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung eines Fahrgestells für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10",
+    "description": "Lieferung eines Fahrgestells für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-26, DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 in der aktuellsten Fassung und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144213"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-11-19T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 126000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Lieferung eines Aufbaus für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10",
+    "description": "Lieferung eines Aufbaus für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-26, DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 in der aktuellsten Fassung und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144213"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-11-19T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 345000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Lieferung der Beladung für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10",
+    "description": "Lieferung der Beladung für ein Hilfeleistungslöschgruppenfahrzeuges HLF 10 gem. DIN 14530-26, DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 in der aktuellsten Fassung und dem Leistungsverzeichnis.",
+    "cpv": [
+     "35110000"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-11-19T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 50000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

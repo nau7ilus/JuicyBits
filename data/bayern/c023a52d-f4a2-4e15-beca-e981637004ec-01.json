@@ -199,6 +199,8 @@
   "noticeId": "c023a52d-f4a2-4e15-beca-e981637004ec",
   "version": "01",
   "title": "VE 1310 Trockenbau",
+  "description": "ca. 195 qm Innentrennwände\nca. 335 qm Vorsatzschalen\nca. 230 qm Abhangdecken\nca. 2.340 qm Akustikdecken\nca. 250 qm Rasterdecken\nca. 150 qm Trockenestrich und Schüttung",
+  "procedureType": "open",
   "nuts": [
    "DE21N"
   ],
@@ -213,6 +215,7 @@
    {
     "id": "LOT-0000",
     "title": "VE 1310 Trockenbau",
+    "description": "ca. 195 qm Innentrennwände\nca. 335 qm Vorsatzschalen\nca. 230 qm Abhangdecken\nca. 2.340 qm Akustikdecken\nca. 250 qm Rasterdecken\nca. 150 qm Trockenestrich und Schüttung",
     "cpv": [
      "45000000",
      "45324000",
@@ -226,6 +229,10 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 63,
+     "unit": "DAY"
+    },
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -241,7 +248,12 @@
       "type": "slc-abil-ref-work",
       "description": "Nicht präqualifizierte Unternehmen geben mit dem Angebot folgende Eigenerklärungen ab: \n- 3 Referenzen aus den letzten 5 Jahren unter Verwendung des Formblatts 444 (nur die Seiten 1 und 2) jeweils mit Angaben zum Leistungsgegenstand, Leistungsanteil, zur Zahl der eigenen eingesetzten Arbeitnehmer, zu etwaigen besonderen technischen oder gerätespezifischen Anforderungen/Besonderheiten der Ausführung und zum Auftragswert vor (gilt für Bieter, Mitglieder einer Bietergemeinschaft).\n- über die für die Ausführung der Leistungen erforderlichen Arbeitskräfte stehen zur Verfügung (über Formblatt 124)\nPräqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e. V.  und geben hierzu die PQ-Nummer an und legen mit dem Angebot eine Eigenerklärung zu 3 Referenzen über vergleichbare Leistungen aus den letzten 5 Jahren unter Verwendung des Formblatts 444 (nur die Seiten 1 und 2) jeweils mit Angaben zum Leistungsgegenstand, Leistungsanteil, zur Zahl der eigenen eingesetzten Arbeitnehmer, zu etwaigen besonderen technischen oder gerätespezifischen Anforderungen/Besonderheiten der Ausführung und zum Auftragswert vor (gilt für Bieter, Mitglieder einer Bietergemeinschaft).\nAuftragsspezifische Einzelnachweise (von präqualifizierten und nicht präqualifizierten Unternehmen vorzulegen): Mit dem Angebot sind die Teile des Auftrags, die als Unteraufträge an andere Unternehmen vergeben werden sollen, zu benennen (Formblatt 235)."
      }
-    ]
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": true,
+     "description": "Mängelansprüchebürgschaft 2%\nVertragserfüllungsbürgschaft 5%"
+    }
    }
   ]
  }

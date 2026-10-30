@@ -1,0 +1,482 @@
+{
+ "id": "a8c625de-bf23-47aa-bfe9-0eeb5b14db69-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "a8c625de-bf23-47aa-bfe9-0eeb5b14db69",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a8c625de-bf23-47aa-bfe9-0eeb5b14db69",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:a8c625de-bf23-47aa-bfe9-0eeb5b14db69-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:a8c625de-bf23-47aa-bfe9-0eeb5b14db69-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a8c625de-bf23-47aa-bfe9-0eeb5b14db69?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvereinbarung IT-Arbeitsplatzgeräte",
+  "buyer": "Bayerisches Landeskriminalamt",
+  "cpv": [
+   "30213000",
+   "30213100",
+   "30231310",
+   "30230000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-10-26T12:00:00+02:00",
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-625116fd-45b3-41ff-b90e-07d719515d36",
+  "id": "a8c625de-bf23-47aa-bfe9-0eeb5b14db69",
+  "date": "2026-10-20T10:04:41Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerisches Landeskriminalamt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2699",
+     "legalName": "Bayerisches Landeskriminalamt"
+    },
+    "address": {
+     "streetAddress": "Maillingerstraße 15",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80636",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "32bb4b46-03b3-4170-a8ed-71b68c03f4da",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerisches Landeskriminalamt",
+   "id": "2699",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerisches Landeskriminalamt"
+   },
+   "address": {
+    "streetAddress": "Maillingerstraße 15",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80636",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "625116fd-45b3-41ff-b90e-07d719515d36",
+   "title": "Rahmenvereinbarung IT-Arbeitsplatzgeräte",
+   "description": "Der Freistaat Bayern, vertreten durch das Bayerische Staatsministerium des Inneren, für Sport und Integration (StMI), dieses vertreten durch das Bayerische Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Vergabe von IT-Arbeitsplatzsystemen in vier Losen. Gegenstand dieses Vergabeverfahren ist der Abschluss einer Rahmenvereinbarung je Los mit einer Laufzeit von 24 Monaten mit 12 Monaten Verlängerungsoption über IT-Arbeitsplatzsysteme sowie Supportleistungen und optionaler Komponenten.",
+   "procuringEntity": {
+    "name": "Bayerisches Landeskriminalamt",
+    "id": "2699"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30213000",
+      "description": "Personal computers"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30213100",
+      "description": "Portable computers"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30213100",
+      "description": "Portable computers"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30231310",
+      "description": "Flat panel displays"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/625116fd-45b3-41ff-b90e-07d719515d36",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/625116fd-45b3-41ff-b90e-07d719515d36",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/625116fd-45b3-41ff-b90e-07d719515d36",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/625116fd-45b3-41ff-b90e-07d719515d36",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 PC",
+     "description": "Der Freistaat Bayern vertreten durch das Bayer. Staatsministerium des Innern, für Sport und Integration, dieses vertreten durch das Bayer. Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Ausschreibung von IT-Arbeitsplatzgeräten, aufgeteilt in einzelne Lose.\nGegenstand dieses Loses ist die Ausschreibung von PCs sowie optionaler Komponenten gemäß der Bewertungsmatrix für die Bayerische Polizei:\nLos 1 PC beinhaltet die Lieferung von folgenden Gerätetypen: \nStandard-PCs, Mini-PCs sowie Hochleistung-PCs (wie Standard-PC, nur leistungsfähiger)\nDie Abnahmemengen sind in der Rahmenvereinbarung spezifiziert.",
+     "value": {
+      "amount": 14328540,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 Notebook",
+     "description": "Der Freistaat Bayern vertreten durch das Bayer. Staatsministerium des Innern, für Sport und Integration, dieses vertreten durch das Bayer. Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Ausschreibung von IT-Arbeitsplatzgeräten, aufgeteilt in einzelne Lose.\nGegenstand dieses Loses ist die Ausschreibung von Notebooks sowie optionaler Komponenten gemäß der Bewertungsmatrix für die bayerische Polizei:\n•\tLos 2 Notebook beinhaltet die Lieferung von folgenden Gerätetypen: \n„Notebook klein“, sowie „Notebook groß“\nDie Abnahmemengen sind in der Rahmenvereinbarung spezifiziert.",
+     "value": {
+      "amount": 39076515,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3 Convertible",
+     "description": "Der Freistaat Bayern vertreten durch das Bayer. Staatsministerium des Innern, für Sport und Integration, dieses vertreten durch das Bayer. Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Ausschreibung von IT-Arbeitsplatzgeräten, aufgeteilt in einzelne Lose.\nGegenstand dieses Loses ist die Ausschreibung von Convertibles sowie optionaler Komponenten (USB-C Dock, Stift/Stylus)  gemäß der Bewertungsmatrix (Anlage 2.3.1.)  für die bayerische Polizei:\nLos 3 Convertible beinhaltet die Lieferung von folgenden Gerätetypen: \n„Convertible 2-1 Tablet PC“\nDie Abnahmemengen sind in der Rahmenvereinbarung (Anlage 1.3.)  spezifiziert.",
+     "value": {
+      "amount": 984230,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Los 4 Monitore",
+     "description": "Der Freistaat Bayern vertreten durch das Bayer. Staatsministerium des Innern, für Sport und Integration, dieses vertreten durch das Bayer. Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Ausschreibung von IT-Arbeitsplatzgeräten, aufgeteilt in einzelne Lose.\nGegenstand dieses Loses ist die Ausschreibung von Monitoren gemäß der Bewertungsmatrix (Anlage 2.4.1.) für die bayerische Polizei:\nLos 4 Monitor beinhaltet die Lieferung von folgenden Gerätetypen: \n„Monitor 24 Zoll“ und „Monitor 27 Zoll“\nDie Abnahmemengen sind in der Rahmenvereinbarung (Anlage 1.4.) spezifiziert.",
+     "value": {
+      "amount": 6458140,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 4,
+    "maximumLotsAwardedPerSupplier": 4
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a8c625de-bf23-47aa-bfe9-0eeb5b14db69",
+  "version": "01",
+  "title": "Rahmenvereinbarung IT-Arbeitsplatzgeräte",
+  "description": "Der Freistaat Bayern, vertreten durch das Bayerische Staatsministerium des Inneren, für Sport und Integration (StMI), dieses vertreten durch das Bayerische Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Vergabe von IT-Arbeitsplatzsystemen in vier Losen. Gegenstand dieses Vergabeverfahren ist der Abschluss einer Rahmenvereinbarung je Los mit einer Laufzeit von 24 Monaten mit 12 Monaten Verlängerungsoption über IT-Arbeitsplatzsysteme sowie Supportleistungen und optionaler Komponenten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "30230000",
+   "30213000",
+   "30213100",
+   "30231310"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 PC",
+    "description": "Der Freistaat Bayern vertreten durch das Bayer. Staatsministerium des Innern, für Sport und Integration, dieses vertreten durch das Bayer. Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Ausschreibung von IT-Arbeitsplatzgeräten, aufgeteilt in einzelne Lose.\nGegenstand dieses Loses ist die Ausschreibung von PCs sowie optionaler Komponenten gemäß der Bewertungsmatrix für die Bayerische Polizei:\nLos 1 PC beinhaltet die Lieferung von folgenden Gerätetypen: \nStandard-PCs, Mini-PCs sowie Hochleistung-PCs (wie Standard-PC, nur leistungsfähiger)\nDie Abnahmemengen sind in der Rahmenvereinbarung spezifiziert.",
+    "cpv": [
+     "30213000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-26T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 14328540,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Es wird erklärt, dass eine aktuell gültige Betriebshaftpflichtversicherung oder eine vergleichbare marktübliche Versicherung mit einer Haftpflichtdeckungshöhe von zwei (2) Millionen Euro für Personen- und Sachschäden insgesamt und mindestens eins (1) Million Euro je Schadensfall und Versicherungsjahr besteht."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Bezogen auf die drei (3) letzten abgeschlossenen Geschäftsjahre wird gem. § 45 Abs. 1 Nr. 1 VgV ein durchschnittlicher Mindestjahresumsatz von mindestens 40.000.000 Euro zwingend gefordert (Mindestanforderung)."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Darstellung von mindestens 3 Referenzen innerhalb der letzten drei (3) Jahre (Stichtag: Ablauf der Angebotsfrist) über die erfolgreiche Lieferung von IT-Arbeitsplatzausstattung mit On-Site Support Konzept über mind. 36 Monate (PCs, Laptops, Tablets, Monitore – jeweils und/oder) mit einer Abnahmemenge von mindestens 3000 Stück (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Bewertungspunkte gem. Bewertungsmatrix Los 1 - PC",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 Notebook",
+    "description": "Der Freistaat Bayern vertreten durch das Bayer. Staatsministerium des Innern, für Sport und Integration, dieses vertreten durch das Bayer. Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Ausschreibung von IT-Arbeitsplatzgeräten, aufgeteilt in einzelne Lose.\nGegenstand dieses Loses ist die Ausschreibung von Notebooks sowie optionaler Komponenten gemäß der Bewertungsmatrix für die bayerische Polizei:\n•\tLos 2 Notebook beinhaltet die Lieferung von folgenden Gerätetypen: \n„Notebook klein“, sowie „Notebook groß“\nDie Abnahmemengen sind in der Rahmenvereinbarung spezifiziert.",
+    "cpv": [
+     "30213100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-26T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 39076515,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Es wird erklärt, dass eine aktuell gültige Betriebshaftpflichtversicherung oder eine vergleichbare marktübliche Versicherung mit einer Haftpflichtdeckungshöhe von zwei (2) Millionen Euro für Personen- und Sachschäden insgesamt und mindestens eins (1) Million Euro je Schadensfall und Versicherungsjahr besteht."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Bezogen auf die drei (3) letzten abgeschlossenen Geschäftsjahre wird gem. § 45 Abs. 1 Nr. 1 VgV ein durchschnittlicher Mindestjahresumsatz von mindestens 40.000.000 Euro zwingend gefordert (Mindestanforderung)."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Darstellung von mindestens 3 Referenzen innerhalb der letzten drei (3) Jahre (Stichtag: Ablauf der Angebotsfrist) über die erfolgreiche Lieferung von IT-Arbeitsplatzausstattung mit On-Site Support Konzept über mind. 36 Monate (PCs, Laptops, Tablets, Monitore – jeweils und/oder) mit einer Abnahmemenge von mindestens 3000 Stück (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Bewertungspunkte gem. Bewertungsmatrix Los 2 - Notebooks",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3 Convertible",
+    "description": "Der Freistaat Bayern vertreten durch das Bayer. Staatsministerium des Innern, für Sport und Integration, dieses vertreten durch das Bayer. Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Ausschreibung von IT-Arbeitsplatzgeräten, aufgeteilt in einzelne Lose.\nGegenstand dieses Loses ist die Ausschreibung von Convertibles sowie optionaler Komponenten (USB-C Dock, Stift/Stylus)  gemäß der Bewertungsmatrix (Anlage 2.3.1.)  für die bayerische Polizei:\nLos 3 Convertible beinhaltet die Lieferung von folgenden Gerätetypen: \n„Convertible 2-1 Tablet PC“\nDie Abnahmemengen sind in der Rahmenvereinbarung (Anlage 1.3.)  spezifiziert.",
+    "cpv": [
+     "30213100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-26T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 984230,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Es wird erklärt, dass eine aktuell gültige Betriebshaftpflichtversicherung oder eine vergleichbare marktübliche Versicherung mit einer Haftpflichtdeckungshöhe von zwei (2) Millionen Euro für Personen- und Sachschäden insgesamt und mindestens eins (1) Million Euro je Schadensfall und Versicherungsjahr besteht."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Bezogen auf die drei (3) letzten abgeschlossenen Geschäftsjahre wird gem. § 45 Abs. 1 Nr. 1 VgV ein durchschnittlicher Mindestjahresumsatz von mindestens 40.000.000 Euro zwingend gefordert (Mindestanforderung)."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Darstellung von mindestens 3 Referenzen innerhalb der letzten drei (3) Jahre (Stichtag: Ablauf der Angebotsfrist) über die erfolgreiche Lieferung von IT-Arbeitsplatzausstattung mit On-Site Support Konzept über mind. 36 Monate (PCs, Laptops, Tablets, Monitore – jeweils und/oder) mit einer Abnahmemenge von mindestens 3000 Stück (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Bewertungspunkte gem. Bewertungsmatrix Los 3 - Convertibles",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Los 4 Monitore",
+    "description": "Der Freistaat Bayern vertreten durch das Bayer. Staatsministerium des Innern, für Sport und Integration, dieses vertreten durch das Bayer. Landeskriminalamt, beabsichtigt im Rahmen einer IT-Beschaffungsmaßnahme die Ausschreibung von IT-Arbeitsplatzgeräten, aufgeteilt in einzelne Lose.\nGegenstand dieses Loses ist die Ausschreibung von Monitoren gemäß der Bewertungsmatrix (Anlage 2.4.1.) für die bayerische Polizei:\nLos 4 Monitor beinhaltet die Lieferung von folgenden Gerätetypen: \n„Monitor 24 Zoll“ und „Monitor 27 Zoll“\nDie Abnahmemengen sind in der Rahmenvereinbarung (Anlage 1.4.) spezifiziert.",
+    "cpv": [
+     "30231310"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-26T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 6458140,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Es wird erklärt, dass eine aktuell gültige Betriebshaftpflichtversicherung oder eine vergleichbare marktübliche Versicherung mit einer Haftpflichtdeckungshöhe von zwei (2) Millionen Euro für Personen- und Sachschäden insgesamt und mindestens eins (1) Million Euro je Schadensfall und Versicherungsjahr besteht."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Bezogen auf die drei (3) letzten abgeschlossenen Geschäftsjahre wird gem. § 45 Abs. 1 Nr. 1 VgV ein durchschnittlicher Mindestjahresumsatz von mindestens 40.000.000 Euro zwingend gefordert (Mindestanforderung)."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Darstellung von mindestens 3 Referenzen innerhalb der letzten drei (3) Jahre (Stichtag: Ablauf der Angebotsfrist) über die erfolgreiche Lieferung von IT-Arbeitsplatzausstattung mit On-Site Support Konzept über mind. 36 Monate (PCs, Laptops, Tablets, Monitore – jeweils und/oder) mit einer Abnahmemenge von mindestens 3000 Stück (Mindestanforderung)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Bewertungspunkte gem. Bewertungsmatrix Los 4 - Monitore",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

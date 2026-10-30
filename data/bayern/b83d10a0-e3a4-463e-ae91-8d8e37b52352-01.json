@@ -175,6 +175,8 @@
   "noticeId": "b83d10a0-e3a4-463e-ae91-8d8e37b52352",
   "version": "01",
   "title": "Metallbauarbeiten Fassade",
+  "description": "Anzubieten sind Metallbauarbeiten für 2 nebeneinanderliegende Gebäude. Diese beinhalten unter anderem: \n- ca. 340 m Oberflächenentwässerungsrinnen als Fassadenrinnen\n- 3 St. Lamellenfenster\n- ca. 30 St. Metall-Wetterschutzgitter für Fassadenöffnungen\n- 5 St. Metallaußentüren aus Aluminium\n- ca. 25 m² Oberlichtsystem als Dachfenster mit RWA-Öffnungen",
+  "procedureType": "open",
   "nuts": [
    "DE254"
   ],
@@ -189,6 +191,7 @@
    {
     "id": "LOT-0000",
     "title": "Metallbauarbeiten Fassade",
+    "description": "Anzubieten sind Metallbauarbeiten für 2 nebeneinanderliegende Gebäude. Diese beinhalten unter anderem: \n- ca. 340 m Oberflächenentwässerungsrinnen als Fassadenrinnen\n- 3 St. Lamellenfenster\n- ca. 30 St. Metall-Wetterschutzgitter für Fassadenöffnungen\n- 5 St. Metallaußentüren aus Aluminium\n- ca. 25 m² Oberlichtsystem als Dachfenster mit RWA-Öffnungen",
     "cpv": [
      "45262670"
     ],
@@ -199,6 +202,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-25+01:00",
     "plannedEnd": "2028-10-13+02:00",
+    "duration": null,
     "estimatedValue": {
      "amount": 288484.87,
      "currency": "EUR"
@@ -221,7 +225,19 @@
       "type": "slc-suit-reg-prof",
       "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=302606\n\n- Registereintragungen\n- Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2% Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
    }
   ]
  }

@@ -1,0 +1,260 @@
+{
+ "id": "475bbb7f-0696-4745-964f-ccbe11ac292f-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "475bbb7f-0696-4745-964f-ccbe11ac292f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=475bbb7f-0696-4745-964f-ccbe11ac292f",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:475bbb7f-0696-4745-964f-ccbe11ac292f-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:475bbb7f-0696-4745-964f-ccbe11ac292f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/475bbb7f-0696-4745-964f-ccbe11ac292f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Am Pferdemarkt 23-26, SÖR Neubau Betriebszentrale, Schließanlage",
+  "buyer": "Stadt Nürnberg Hochbauamt SöR",
+  "cpv": [
+   "45421160"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-17f779f3-9882-465c-93c2-282d0e94ace5",
+  "id": "475bbb7f-0696-4745-964f-ccbe11ac292f",
+  "date": "2026-10-22T02:10:40Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg Hochbauamt SöR",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "c401a6a2-5015-4229-b0a7-0304ff817955",
+     "legalName": "Stadt Nürnberg Hochbauamt SöR"
+    },
+    "address": {
+     "streetAddress": "Sulzbacher Str. 2-6",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90489",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "855daf8c-fe9f-4b20-b84c-8e495602d628",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "42c9c6cf-cf68-4f0a-863c-fd6e52b1ce0d",
+     "legalName": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN"
+    },
+    "address": {
+     "streetAddress": "Bauhof 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90402",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Ammon Beschläge-Handels GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "2ec545ea-c746-475c-9930-b41c02f3ed9a",
+     "legalName": "Ammon Beschläge-Handels GmbH"
+    },
+    "address": {
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90439",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg Hochbauamt SöR",
+   "id": "c401a6a2-5015-4229-b0a7-0304ff817955",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg Hochbauamt SöR"
+   },
+   "address": {
+    "streetAddress": "Sulzbacher Str. 2-6",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90489",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "17f779f3-9882-465c-93c2-282d0e94ace5",
+   "title": "Am Pferdemarkt 23-26, SÖR Neubau Betriebszentrale, Schließanlage",
+   "description": "Schließplan, ca. 267 St. Doppelzylinder, ca. 68 St. Blindzylinder, ca. 150 St. Zylinderverlängerung, ca. 45 St. Generalschlüssel, ca. 850 St. Einzelschlüssel, ca. 18 St. Gruppenschließung\n",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg Hochbauamt SöR",
+    "id": "c401a6a2-5015-4229-b0a7-0304ff817955"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421160",
+      "description": "Ironmongery work"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90439",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-09-15T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Ammon Beschläge-Handels GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Ammon Beschläge-Handels GmbH"
+     },
+     "address": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90439",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Am Pferdemarkt 23-26, SÖR Neubau Betriebszentrale, Schließanlage",
+     "description": "Schließplan, ca. 267 St. Doppelzylinder, ca. 68 St. Blindzylinder, ca. 150 St. Zylinderverlängerung, ca. 45 St. Generalschlüssel, ca. 850 St. Einzelschlüssel, ca. 18 St. Gruppenschließung\n",
+     "contractPeriod": {
+      "startDate": "2026-10-12T00:00:00+02:00",
+      "endDate": "2027-04-16T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-08T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 23320,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-07T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "475bbb7f-0696-4745-964f-ccbe11ac292f",
+  "version": "01",
+  "title": "Am Pferdemarkt 23-26, SÖR Neubau Betriebszentrale, Schließanlage",
+  "description": "Schließplan, ca. 267 St. Doppelzylinder, ca. 68 St. Blindzylinder, ca. 150 St. Zylinderverlängerung, ca. 45 St. Generalschlüssel, ca. 850 St. Einzelschlüssel, ca. 18 St. Gruppenschließung",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45421160"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Am Pferdemarkt 23-26, SÖR Neubau Betriebszentrale, Schließanlage",
+    "description": "Schließplan, ca. 267 St. Doppelzylinder, ca. 68 St. Blindzylinder, ca. 150 St. Zylinderverlängerung, ca. 45 St. Generalschlüssel, ca. 850 St. Einzelschlüssel, ca. 18 St. Gruppenschließung",
+    "cpv": [
+     "45421160"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-12+02:00",
+    "plannedEnd": "2027-04-16+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

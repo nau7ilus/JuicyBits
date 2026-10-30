@@ -1,0 +1,277 @@
+{
+ "id": "d2b9124c-cfe7-4bec-9fbb-9637943e4754-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "d2b9124c-cfe7-4bec-9fbb-9637943e4754",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d2b9124c-cfe7-4bec-9fbb-9637943e4754",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:d2b9124c-cfe7-4bec-9fbb-9637943e4754-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:d2b9124c-cfe7-4bec-9fbb-9637943e4754-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d2b9124c-cfe7-4bec-9fbb-9637943e4754?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Fachplanung Technische Gebäudeausrüstung Elektro (Anlagengruppen 4, 5 und 6)",
+  "buyer": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+  "cpv": [
+   "71321000"
+  ],
+  "nuts": [
+   "DE21L"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ff103fd4-3223-43ea-8799-282b3102b59a",
+  "id": "d2b9124c-cfe7-4bec-9fbb-9637943e4754",
+  "date": "2026-10-17T16:12:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE252001456",
+     "legalName": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU"
+    },
+    "address": {
+     "streetAddress": "Mitterweg 1",
+     "locality": "Herrsching",
+     "region": "DE21L",
+     "postalCode": "82211",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "TEAM FÜR TECHNIK GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE197112783",
+     "legalName": "TEAM FÜR TECHNIK GmbH"
+    },
+    "address": {
+     "streetAddress": "Zielstattstraße 11",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81379",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern – Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern – Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+   "id": "DE252001456",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU"
+   },
+   "address": {
+    "streetAddress": "Mitterweg 1",
+    "locality": "Herrsching",
+    "region": "DE21L",
+    "postalCode": "82211",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ff103fd4-3223-43ea-8799-282b3102b59a",
+   "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Fachplanung Technische Gebäudeausrüstung Elektro (Anlagengruppen 4, 5 und 6)",
+   "description": "Fachplanung Technische Gebäudeausrüstung der Anlagengruppen 4, 5 und 6 (Starkstromanlagen, Fernmelde- und informationstechnische Anlagen, Förderanlagen), Leistungsphasen 1 bis 9 nach § 55 HOAI, für den Neubau des Unternehmensstandortes der AWA Ammersee in Herrsching.",
+   "procuringEntity": {
+    "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+    "id": "DE252001456"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71321000",
+      "description": "Engineering design services for mechanical and electrical installations for buildings"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Heinestraße",
+      "locality": "Herrsching",
+      "region": "DE21L",
+      "postalCode": "82211",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-04-09T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "TEAM FÜR TECHNIK GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "TEAM FÜR TECHNIK GmbH"
+     },
+     "address": {
+      "streetAddress": "Zielstattstraße 11",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81379",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Fachplanung Technische Gebäudeausrüstung Elektro (Anlagengruppen 4, 5 und 6)",
+     "description": "Fachplanung Technische Gebäudeausrüstung der Anlagengruppen 4, 5 und 6 (Starkstromanlagen, Fernmelde- und informationstechnische Anlagen, Förderanlagen), Leistungsphasen 1 bis 9 nach § 55 HOAI, für den Neubau des Unternehmensstandortes der AWA Ammersee in Herrsching.",
+     "contractPeriod": {
+      "startDate": "2026-04-20T00:00:00+02:00",
+      "endDate": "2029-07-03T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-30T00:00:00+02:00",
+    "value": {
+     "amount": 278244.64,
+     "currency": "EUR"
+    },
+    "suppliers": [
+     {
+      "name": "TEAM FÜR TECHNIK GmbH",
+      "id": "DE197112783",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "TEAM FÜR TECHNIK GmbH"
+      },
+      "address": {
+       "streetAddress": "Zielstattstraße 11",
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "81379",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 262075.75,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-29T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "d2b9124c-cfe7-4bec-9fbb-9637943e4754",
+  "version": "01",
+  "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Fachplanung Technische Gebäudeausrüstung Elektro (Anlagengruppen 4, 5 und 6)",
+  "description": "Fachplanung Technische Gebäudeausrüstung der Anlagengruppen 4, 5 und 6 (Starkstromanlagen, Fernmelde- und informationstechnische Anlagen, Förderanlagen), Leistungsphasen 1 bis 9 nach § 55 HOAI, für den Neubau des Unternehmensstandortes der AWA Ammersee in Herrsching.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21L"
+  ],
+  "cpv": [
+   "71321000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "NBU – Neubau Unternehmensstandort AWA Ammersee – Fachplanung Technische Gebäudeausrüstung Elektro (Anlagengruppen 4, 5 und 6)",
+    "description": "Fachplanung Technische Gebäudeausrüstung der Anlagengruppen 4, 5 und 6 (Starkstromanlagen, Fernmelde- und informationstechnische Anlagen, Förderanlagen), Leistungsphasen 1 bis 9 nach § 55 HOAI, für den Neubau des Unternehmensstandortes der AWA Ammersee in Herrsching.",
+    "cpv": [
+     "71321000"
+    ],
+    "nuts": [
+     "DE21L"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-04-20+02:00",
+    "plannedEnd": "2029-07-03+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualität des eingesetzten Personals",
+      "description": "Bewertet werden die berufliche Qualifikation und die Erfahrung der vorgesehenen Projektleitung sowie der vorgesehenen stellvertretenden Projektleitung. Vorzulegen waren je Person der Studien- beziehungsweise Ausbildungsnachweis, ein Lebenslauf sowie zwei Referenzprojektblätter; Referenzprojekte von Nachunternehmern waren nicht zugelassen und es wurden ausschließlich die vier im Angebotsblatt benannten Referenzprojekte gewertet. Bepunktet wurden je Person die berufsbildentsprechende Qualifikation, die Berufserfahrung sowie je Referenzprojekt insbesondere der ausgeführte Leistungsumfang nach Leistungsphasen, das Projektvolumen und die Gebäudetypologie. Auf die Projektleitung und auf die stellvertretende Projektleitung entfallen jeweils höchstens 5 Punkte, insgesamt höchstens 10 Punkte; dies entspricht der Gewichtung von 10 Prozent.",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Lösungsansatz",
+      "description": "Bewertet wird der von den Bietern einzureichende schriftliche Lösungsansatz nach Anlage 27. Er gliedert sich in die Bereiche Projektmethodik mit höchstens 45 Punkten, Kostenmanagement mit höchstens 8 Punkten und Qualitätssicherung mit höchstens 7 Punkten. Innerhalb der Projektmethodik werden das Projektverständnis für die elektrotechnische Aufgabenstellung, die Projektziele und Rahmenbedingungen mit höchstens 10 Punkten, das methodische Vorgehen im internen Planungsprozess einschließlich der Abstimmung mit den übrigen TGA-Gewerken und der Architektur sowie der Sicherstellung von Ausführbarkeit und Baufreiheit mit höchstens 15 Punkten, die technische Grundhaltung als schriftlich dargestellte technische Leitidee mit Schwerpunkt Energieeffizienz, Nachhaltigkeit, Wirtschaftlichkeit, Betriebssicherheit und Wartungsfreundlichkeit mit höchstens 15 Punkten und die Projektorganisation mit höchstens 5 Punkten bewertet. Das Kostenmanagement umfasst die Kostenplanung nach DIN 276 sowie die Kostensteuerung einschließlich Reporting, die Qualitätssicherung das bürointerne Qualitätsmanagement, die Koordination und das Schnittstellenmanagement sowie das Risikomanagement. Insgesamt sind höchstens 60 Punkte erreichbar; dies entspricht der Gewichtung von 60 Prozent.",
+      "weight": 60
+     },
+     {
+      "type": "price",
+      "name": "Honorarangebot",
+      "description": "Bewertet wird das im Honorarangebotsblatt nach Anlage 28 anzugebende Honorarangebot. Das preisgünstigste Honorarangebot aller Bieter erhält die volle Punktzahl von 30 Punkten, ein doppelt so hohes Angebot erhält 0 Punkte; dazwischen erfolgt eine lineare Punkteverteilung. Gewertet wird das Gesamthonorar aus Grundleistungen einschließlich der angebotenen Zu- oder Abschläge, Nebenkosten und Honorar für zusätzliche Leistungen. Insgesamt sind höchstens 30 Punkte erreichbar; dies entspricht der Gewichtung von 30 Prozent. Den Zuschlag erhält der Bieter mit der höchsten Gesamtpunktzahl; bei Punktgleichheit entscheidet das niedrigere Honorarangebot, danach das Los.",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

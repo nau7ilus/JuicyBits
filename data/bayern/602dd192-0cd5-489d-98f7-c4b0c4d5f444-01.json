@@ -5,14 +5,14 @@
   "noticeId": "602dd192-0cd5-489d-98f7-c4b0c4d5f444",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=602dd192-0cd5-489d-98f7-c4b0c4d5f444",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:602dd192-0cd5-489d-98f7-c4b0c4d5f444-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:602dd192-0cd5-489d-98f7-c4b0c4d5f444-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/602dd192-0cd5-489d-98f7-c4b0c4d5f444?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Rahmenvereinbarung für Instandsetzungsleistungen an Telekommunikation Freileitungen",
   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
   "cpv": [
@@ -23,7 +23,7 @@
    "DE712",
    "DE212"
   ],
-  "deadline": null,
+  "deadline": "2026-11-06T10:00:00+01:00",
   "lots": 4
  },
  "ocds": {
@@ -292,5 +292,171 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "602dd192-0cd5-489d-98f7-c4b0c4d5f444",
+  "version": "01",
+  "title": "Rahmenvereinbarung für Instandsetzungsleistungen an Telekommunikation Freileitungen",
+  "description": "Rahmenvereinbarung für\nInstandsetzungsleistungen an\nTelekommunikation Freileitungen\nmax. 200.000,00 EUR pro Einzelabruf\n\nDie InfraGO AG, Geschäftsbereich Fahrweg und die DB RegioNetz Infrastruktur GmbH beabsichtigen stellvertretend für verschiedene Gesellschaften der Deutschen Bahn AG einen Rahmenvertrag für Instandsetzungsleistungen an Telekommunikation Freileitungen auszuschreiben.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45234100",
+   "45232210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 Raumlos Region Mitte - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen",
+    "description": "Raumlos Region Mitte - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen\nEntstörung sowie für den anstehenden Rückbau bestehender Freileitungsanlagen.\nHierzu zähen auszugsweise folgende Leistungen:\nAus- und Einbau von Masten m. verschiedenen Höhen inkl. die Lieferung, Mastbinde liefern\nund montieren, Liefern und einbauen von Maststreben, Ausrichten von Masten, Anker\nanbringen, Luftkabel abbauen, aufbringen und regulieren, Beseitigen von Aufwuchs und\nFreischneidearbeiten im Mastbereich, Inspektion von Masten mit Resistograph,\nDokumentation von Mastlinien, Blitzschutz/Erdung, Kabellieferungen, Kabelgraben in\nHandschachtung, Muffengruben herstellen, Ankerklotz einbauen, Stundenlohnarbeiten",
+    "cpv": [
+     "45232210",
+     "45234100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-06T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2033-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Bitte beachten Sie dazu die Abschnitte 2.1 und 2.1.4 dieser Bekanntmachung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 Raumlos Region Süd - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen",
+    "description": "Raumlos Region Süd - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen\nEntstörung sowie für den anstehenden Rückbau bestehender Freileitungsanlagen.\nHierzu zähen auszugsweise folgende Leistungen:\nAus- und Einbau von Masten m. verschiedenen Höhen inkl. die Lieferung, Mastbinde liefern\nund montieren, Liefern und einbauen von Maststreben, Ausrichten von Masten, Anker\nanbringen, Luftkabel abbauen, aufbringen und regulieren, Beseitigen von Aufwuchs und\nFreischneidearbeiten im Mastbereich, Inspektion von Masten mit Resistograph,\nDokumentation von Mastlinien, Blitzschutz/Erdung, Kabellieferungen, Kabelgraben in\nHandschachtung, Muffengruben herstellen, Ankerklotz einbauen, Stundenlohnarbeiten",
+    "cpv": [
+     "45232210",
+     "45234100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-06T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2033-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Bitte beachten Sie dazu die Abschnitte 2.1 und 2.1.4 dieser Bekanntmachung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3 Raumlos Region Südwest - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen",
+    "description": "Raumlos Region Südwest - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen\nEntstörung sowie für den anstehenden Rückbau bestehender Freileitungsanlagen.\nHierzu zähen auszugsweise folgende Leistungen:\nAus- und Einbau von Masten m. verschiedenen Höhen inkl. die Lieferung, Mastbinde liefern\nund montieren, Liefern und einbauen von Maststreben, Ausrichten von Masten, Anker\nanbringen, Luftkabel abbauen, aufbringen und regulieren, Beseitigen von Aufwuchs und\nFreischneidearbeiten im Mastbereich, Inspektion von Masten mit Resistograph,\nDokumentation von Mastlinien, Blitzschutz/Erdung, Kabellieferungen, Kabelgraben in\nHandschachtung, Muffengruben herstellen, Ankerklotz einbauen, Stundenlohnarbeiten",
+    "cpv": [
+     "45232210",
+     "45234100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-06T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2033-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Bitte beachten Sie dazu die Abschnitte 2.1 und 2.1.4 dieser Bekanntmachung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Los 4 Raumlos Region West - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen",
+    "description": "Raumlos Region West - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen\nEntstörung sowie für den anstehenden Rückbau bestehender Freileitungsanlagen.\nHierzu zähen auszugsweise folgende Leistungen:\nAus- und Einbau von Masten m. verschiedenen Höhen inkl. die Lieferung, Mastbinde liefern\nund montieren, Liefern und einbauen von Maststreben, Ausrichten von Masten, Anker\nanbringen, Luftkabel abbauen, aufbringen und regulieren, Beseitigen von Aufwuchs und\nFreischneidearbeiten im Mastbereich, Inspektion von Masten mit Resistograph,\nDokumentation von Mastlinien, Blitzschutz/Erdung, Kabellieferungen, Kabelgraben in\nHandschachtung, Muffengruben herstellen, Ankerklotz einbauen, Stundenlohnarbeiten",
+    "cpv": [
+     "45232210",
+     "45234100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-06T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2033-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Bitte beachten Sie dazu die Abschnitte 2.1 und 2.1.4 dieser Bekanntmachung"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
 }

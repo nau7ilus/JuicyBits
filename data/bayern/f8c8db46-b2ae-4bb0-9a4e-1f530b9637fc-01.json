@@ -1,0 +1,291 @@
+{
+ "id": "f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Neubau KiTa Marxheim - Gewerk Möbelierung",
+  "buyer": "Gemeinde Marxheim",
+  "cpv": [
+   "45214100",
+   "39100000",
+   "39160000",
+   "45400000",
+   "39161000",
+   "45421153"
+  ],
+  "nuts": [
+   "DE27D"
+  ],
+  "deadline": "2026-11-05T14:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc",
+  "id": "f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc",
+  "date": "2026-10-18T06:36:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Marxheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9529",
+     "legalName": "Gemeinde Marxheim"
+    },
+    "address": {
+     "streetAddress": "Pfalzstraße 2",
+     "locality": "Marxheim",
+     "region": "DE27D",
+     "postalCode": "86688",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "471c7791-945b-4bf7-a5eb-25925ca0dcfb",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Marxheim",
+   "id": "9529",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Marxheim"
+   },
+   "address": {
+    "streetAddress": "Pfalzstraße 2",
+    "locality": "Marxheim",
+    "region": "DE27D",
+    "postalCode": "86688",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc",
+   "title": "Neubau KiTa Marxheim - Gewerk Möbelierung",
+   "description": "Neubau KiTa Marxheim - Möbelierung",
+   "procuringEntity": {
+    "name": "Gemeinde Marxheim",
+    "id": "9529"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45214100",
+      "description": "Construction work for kindergarten buildings"
+     },
+     "deliveryAddress": {
+      "region": "DE27D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45214100",
+      "description": "Construction work for kindergarten buildings"
+     },
+     "deliveryAddress": {
+      "region": "DE27D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "value": {
+    "amount": 7300000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 Möblierung",
+     "description": "Siehe LV",
+     "contractPeriod": {
+      "durationInDays": 60
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 Möblierung Garderoben und Küchenzeilen",
+     "description": "siehe LV",
+     "contractPeriod": {
+      "durationInDays": 60
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "f8c8db46-b2ae-4bb0-9a4e-1f530b9637fc",
+  "version": "01",
+  "title": "Neubau KiTa Marxheim - Gewerk Möbelierung",
+  "description": "Neubau KiTa Marxheim - Möbelierung",
+  "procedureType": "open",
+  "nuts": [
+   "DE27D"
+  ],
+  "cpv": [
+   "45214100",
+   "39100000",
+   "39160000",
+   "45400000",
+   "39161000",
+   "45421153"
+  ],
+  "estimatedValue": {
+   "amount": 7300000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 Möblierung",
+    "description": "Siehe LV",
+    "cpv": [
+     "45214100"
+    ],
+    "nuts": [
+     "DE27D"
+    ],
+    "deadline": "2026-11-05T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Der Nachweis der\nwirtschaftlichen und finanziellen\nLeistungsfähigkeit umfasst eine Erklärung über\nden Umsatz des Unternehmens jeweils bezogen\nauf die letzten drei abgeschlossenen\nGeschäftsjahre, soweit er Bauleistungen betrifft,\ndie mit der zu vergebenden Leistung vergleichbar\nsind, unter Einschluss des Anteils bei gemeinsam\nmit anderen Unternehmen ausgeführten\nAufträgen. Entsprechend der Verordnung (EU) 2022/576 dürfen öffentlichen Aufträge und\nKonzessionen nach dem 9. April 2022 nicht an\nPersonen oder Unternehmen vergeben werden, die\neinen Bezug zu Russland im Sinne der Vorschrift\naufweisen. Dies umfasst sowohl unmittelbar als\nBewerber, Bieter oder Auftragnehmer auftretende\nPersonen oder Unternehmen als auch mittelbar,\nmit mehr als zehn Prozent, gemessen am\nAuftragswert, beteiligte Unterauftragnehmer,\nLieferanten oder Eignungsverleiher. Es wird vom\nBieter daher die Erklärung verlangt, dass er\nentsprechend den Vorgaben der Verordnung (EU)\n2022/576 keinen Bezug zu Russland aufweist.\nDarüber hinaus werden vom Bieter folgende\nErklärungen bzw. Nachweise für das\nNichtvorliegen von Ausschlussgründen gemäß § 6e\nEU VOB/A verlangt: - Erklärung, dass das\nUnternehmen nicht zahlungsunfähig ist, bzw. ob\nein Insolvenzverfahren über das Vermögen des\nUnternehmens oder ein vergleichbares Verfahren\nbeantragt oder eröffnet worden ist, die Eröffnung\neines solchen Verfahrens mangels Masse\nabgelehnt worden ist, sich das Unternehmen im\nVerfahren der Liquidation befindet. - Erklärung,\ndass das Unternehmen seinen Verpflichtungen zur\nZahlung von Steuern, Abgaben und Beiträgen zur\nSozialversicherung nachgekommen ist. Falls das\nAngebot in die engere Wahl kommt, ist eine\nUnbedenklichkeitsbescheinigung der tariflichen\nSozialkasse bzw. der zuständigen Krankenkasse\nvorzulegen. - Erklärung, dass für das\nUnternehmen keine schwere Verfehlung gem. § 6a\nAbs. 2 Nr. 7 VOB/A vorliegt. Ab einer\nAuftragssumme von 30.000 Euro wird der\nAuftraggeber für den Bieter, der den Zuschlag\nerhalten soll, eine Auskunft aus dem bundesweiten\nWettbewerbsregister anfordern - Vorlage der\nFreistellungsbescheinigung nach §48 b\nEinkommenssteuergesetz"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Der Nachweis der technischen\nund beruflichen Leistungsfähigkeit umfasst: -\nErklärung, dass in den letzten bis zu fünf\nabgeschlossenen Kalenderjahren Leistungen\nausgeführt wurden, die mit der zu vergebenden\nLeistung vergleichbar sind. Falls das Angebot in\ndie engere Wahl kommt, ist für drei Referenzen je eine Referenzbescheinigung vorzulegen. -\nErklärung, dass die für die Ausführung der\nLeistungen erforderlichen Arbeitskräfte zur\nVerfügung stehen. Falls das Angebot in die engere\nWahl kommt, sind Angaben über die Zahl der in\nden letzten drei abgeschlossenen Kalenderjahren\njahresdurchschnittlich beschäftigten Arbeitskräfte,\ngegliedert nach Lohngruppen mit gesondert\nausgewiesenem technischen Leitungspersonal\nvorzulegen. - Angabe, welche Teile des Auftrags\nder Unternehmer unter Umständen an andere\nUnternehmen als Unteraufträge zu vergeben\nbeabsichtigt"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Der Nachweis der Befähigung zur\nBerufsausübung umfasst die Eintragung in das\nBerufs- oder Handelsregister oder die\nHandwerksrolle des Sitzes oder Wohnsitzes.\nNachweisführung zu Eignung und dem Fehlen von\nAusschlussgründen: Die Eignung kann durch\nEintragung in die Liste des Vereins für\nPräqualifikation von Bauunternehmen e.V.\n(Präqualifikationsverzeichnis) nachgewiesen oder\ndurch Eigenerklärung vorläufig nachgewiesen\nwerden. Gelangt das Angebot eines nicht präqualifizierten Unternehmens in die engere\nWahl, sind die in den Eignungskriterien genannten\nBescheinigungen nach Aufforderung innerhalb von\n6 Kalendertagen vorzulegen. Gelangt das Angebot\neines präqualifizierten Unternehmens in die\nengere Wahl, hat das Unternehmen zusätzlich die\nin den Eignungskriterien beschriebenen, konkret\nauftragsbezogenen Bescheinigungen zum Umsatz\nund zu den Referenzen nach Aufforderung\ninnerhalb von 6 Kalendertagen vorzulegen, soweit\ndie Prüfung der Vergabestelle ergibt, dass die im\nPräqualifikationsverzeichnis hinterlegten\nUnterlagen die beschriebenen Anforderungen\nquantitativ nicht oder nicht ausreichend belegen.\nDurch ausländische Unternehmen sind\ngleichwertige Bescheinigungen vorzulegen. Stützt\nsich ein Bewerber/Bieter zum Nachweis seiner\nEignung auf andere Unternehmen, ist die jeweilige\nNummer im Präqualifikationsverzeichnis oder sind\ndie Eigenerklärungen und Bescheinigungen auch\nfür diese anderen Unternehmen auf Verlangen\ninnerhalb von 6 Kalendertagen vorzulegen.\nWerden die Kapazitäten anderer Unternehmen\ngemäß § 6d EU Abs. 1 VOB/A in Anspruch\ngenommen, so muss gemäß § 6d EU Abs. 3 VOB/A\ndie Nachweisprüfung auch für diese Unternehmen\nerfolgen. Gemäß § 6d EU Abs. 1 Satz 5 VOB/A hat\nder Bieter die Möglichkeit, andere Unternehmen,\nderen Kapazitäten der Bieter in Anspruch\ngenommen hat, einmal zu ersetzen, wenn dieses\nUnternehmen einschlägige Eignungsanforderung\nnicht erfüllt oder bei diesem Ausschlussgründe\ngemäß § 6e EU Abs. 1 bis 5 VOB/A vorliegen. Auf\nVerlangen ist die Unbedenklichkeitsbescheinigung\nder Berufsgenossenschaft vorzulegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 Möblierung Garderoben und Küchenzeilen",
+    "description": "siehe LV",
+    "cpv": [
+     "45214100"
+    ],
+    "nuts": [
+     "DE27D"
+    ],
+    "deadline": "2026-11-05T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Der Nachweis der\nwirtschaftlichen und finanziellen\nLeistungsfähigkeit umfasst eine Erklärung über\nden Umsatz des Unternehmens jeweils bezogen\nauf die letzten drei abgeschlossenen\nGeschäftsjahre, soweit er Bauleistungen betrifft,\ndie mit der zu vergebenden Leistung vergleichbar\nsind, unter Einschluss des Anteils bei gemeinsam\nmit anderen Unternehmen ausgeführten\nAufträgen. Entsprechend der Verordnung (EU) 2022/576 dürfen öffentlichen Aufträge und\nKonzessionen nach dem 9. April 2022 nicht an\nPersonen oder Unternehmen vergeben werden, die\neinen Bezug zu Russland im Sinne der Vorschrift\naufweisen. Dies umfasst sowohl unmittelbar als\nBewerber, Bieter oder Auftragnehmer auftretende\nPersonen oder Unternehmen als auch mittelbar,\nmit mehr als zehn Prozent, gemessen am\nAuftragswert, beteiligte Unterauftragnehmer,\nLieferanten oder Eignungsverleiher. Es wird vom\nBieter daher die Erklärung verlangt, dass er\nentsprechend den Vorgaben der Verordnung (EU)\n2022/576 keinen Bezug zu Russland aufweist.\nDarüber hinaus werden vom Bieter folgende\nErklärungen bzw. Nachweise für das\nNichtvorliegen von Ausschlussgründen gemäß § 6e\nEU VOB/A verlangt: - Erklärung, dass das\nUnternehmen nicht zahlungsunfähig ist, bzw. ob\nein Insolvenzverfahren über das Vermögen des\nUnternehmens oder ein vergleichbares Verfahren\nbeantragt oder eröffnet worden ist, die Eröffnung\neines solchen Verfahrens mangels Masse\nabgelehnt worden ist, sich das Unternehmen im\nVerfahren der Liquidation befindet. - Erklärung,\ndass das Unternehmen seinen Verpflichtungen zur\nZahlung von Steuern, Abgaben und Beiträgen zur\nSozialversicherung nachgekommen ist. Falls das\nAngebot in die engere Wahl kommt, ist eine\nUnbedenklichkeitsbescheinigung der tariflichen\nSozialkasse bzw. der zuständigen Krankenkasse\nvorzulegen. - Erklärung, dass für das\nUnternehmen keine schwere Verfehlung gem. § 6a\nAbs. 2 Nr. 7 VOB/A vorliegt. Ab einer\nAuftragssumme von 30.000 Euro wird der\nAuftraggeber für den Bieter, der den Zuschlag\nerhalten soll, eine Auskunft aus dem bundesweiten\nWettbewerbsregister anfordern - Vorlage der\nFreistellungsbescheinigung nach §48 b\nEinkommenssteuergesetz"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Der Nachweis der technischen\nund beruflichen Leistungsfähigkeit umfasst: -\nErklärung, dass in den letzten bis zu fünf\nabgeschlossenen Kalenderjahren Leistungen\nausgeführt wurden, die mit der zu vergebenden\nLeistung vergleichbar sind. Falls das Angebot in\ndie engere Wahl kommt, ist für drei Referenzen je eine Referenzbescheinigung vorzulegen. -\nErklärung, dass die für die Ausführung der\nLeistungen erforderlichen Arbeitskräfte zur\nVerfügung stehen. Falls das Angebot in die engere\nWahl kommt, sind Angaben über die Zahl der in\nden letzten drei abgeschlossenen Kalenderjahren\njahresdurchschnittlich beschäftigten Arbeitskräfte,\ngegliedert nach Lohngruppen mit gesondert\nausgewiesenem technischen Leitungspersonal\nvorzulegen. - Angabe, welche Teile des Auftrags\nder Unternehmer unter Umständen an andere\nUnternehmen als Unteraufträge zu vergeben\nbeabsichtigt"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Der Nachweis der Befähigung zur\nBerufsausübung umfasst die Eintragung in das\nBerufs- oder Handelsregister oder die\nHandwerksrolle des Sitzes oder Wohnsitzes.\nNachweisführung zu Eignung und dem Fehlen von\nAusschlussgründen: Die Eignung kann durch\nEintragung in die Liste des Vereins für\nPräqualifikation von Bauunternehmen e.V.\n(Präqualifikationsverzeichnis) nachgewiesen oder\ndurch Eigenerklärung vorläufig nachgewiesen\nwerden. Gelangt das Angebot eines nicht präqualifizierten Unternehmens in die engere\nWahl, sind die in den Eignungskriterien genannten\nBescheinigungen nach Aufforderung innerhalb von\n6 Kalendertagen vorzulegen. Gelangt das Angebot\neines präqualifizierten Unternehmens in die\nengere Wahl, hat das Unternehmen zusätzlich die\nin den Eignungskriterien beschriebenen, konkret\nauftragsbezogenen Bescheinigungen zum Umsatz\nund zu den Referenzen nach Aufforderung\ninnerhalb von 6 Kalendertagen vorzulegen, soweit\ndie Prüfung der Vergabestelle ergibt, dass die im\nPräqualifikationsverzeichnis hinterlegten\nUnterlagen die beschriebenen Anforderungen\nquantitativ nicht oder nicht ausreichend belegen.\nDurch ausländische Unternehmen sind\ngleichwertige Bescheinigungen vorzulegen. Stützt\nsich ein Bewerber/Bieter zum Nachweis seiner\nEignung auf andere Unternehmen, ist die jeweilige\nNummer im Präqualifikationsverzeichnis oder sind\ndie Eigenerklärungen und Bescheinigungen auch\nfür diese anderen Unternehmen auf Verlangen\ninnerhalb von 6 Kalendertagen vorzulegen.\nWerden die Kapazitäten anderer Unternehmen\ngemäß § 6d EU Abs. 1 VOB/A in Anspruch\ngenommen, so muss gemäß § 6d EU Abs. 3 VOB/A\ndie Nachweisprüfung auch für diese Unternehmen\nerfolgen. Gemäß § 6d EU Abs. 1 Satz 5 VOB/A hat\nder Bieter die Möglichkeit, andere Unternehmen,\nderen Kapazitäten der Bieter in Anspruch\ngenommen hat, einmal zu ersetzen, wenn dieses\nUnternehmen einschlägige Eignungsanforderung\nnicht erfüllt oder bei diesem Ausschlussgründe\ngemäß § 6e EU Abs. 1 bis 5 VOB/A vorliegen. Auf\nVerlangen ist die Unbedenklichkeitsbescheinigung\nder Berufsgenossenschaft vorzulegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

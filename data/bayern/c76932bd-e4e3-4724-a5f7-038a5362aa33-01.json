@@ -1,0 +1,260 @@
+{
+ "id": "c76932bd-e4e3-4724-a5f7-038a5362aa33-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "c76932bd-e4e3-4724-a5f7-038a5362aa33",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c76932bd-e4e3-4724-a5f7-038a5362aa33",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:c76932bd-e4e3-4724-a5f7-038a5362aa33-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:c76932bd-e4e3-4724-a5f7-038a5362aa33-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c76932bd-e4e3-4724-a5f7-038a5362aa33?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Durchführung von Räum- und Streueinsätzen im Winterdienst in Holzkirchen für sechs bzw. sieben Winterperioden",
+  "buyer": "Landratsamt Miesbach - Vergabestelle-",
+  "cpv": [
+   "90620000"
+  ],
+  "nuts": [
+   "DE21F"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-172a2790-fed3-4e49-bca1-7ab131682cf1",
+  "id": "c76932bd-e4e3-4724-a5f7-038a5362aa33",
+  "date": "2026-10-27T03:12:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Miesbach - Vergabestelle-",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "091820000000LKRMB57",
+     "legalName": "Landratsamt Miesbach - Vergabestelle-"
+    },
+    "address": {
+     "streetAddress": "Rosenheimer Str. 1-3",
+     "locality": "Miesbach",
+     "region": "DE21F",
+     "postalCode": "83714",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Transporte Hafeneder GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "ORG-0003",
+     "legalName": "Transporte Hafeneder GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Industriestraße 13",
+     "locality": "Holzkirchen",
+     "region": "DE21F",
+     "postalCode": "83607",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Miesbach - Vergabestelle-",
+   "id": "091820000000LKRMB57",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Miesbach - Vergabestelle-"
+   },
+   "address": {
+    "streetAddress": "Rosenheimer Str. 1-3",
+    "locality": "Miesbach",
+    "region": "DE21F",
+    "postalCode": "83714",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "172a2790-fed3-4e49-bca1-7ab131682cf1",
+   "title": "Durchführung von Räum- und Streueinsätzen im Winterdienst in Holzkirchen für sechs bzw. sieben Winterperioden",
+   "description": "Gegenstand des Auftrags sind Durchführung von Räum- und Streueinsätzen im Winterdienst vom 01.10.2026 bis 30.04.2032 auf der Strecke Holzkirchen. Die Bereitstellung von einem Fahrzeug mit Fahrpersonal, einem mindestens 4 m³ Streuer mit FS-Einrichtung (Feuchtsalz) und Schneepflug sind zwingend. \nDie Räum- und Streustrecke muss selbstständig kontrolliert werden. Der AG behält sich vor, dass er bei längerer Schönwetterperiode die Strecke selbst betreut. Dies würde dem AN frühzeitig mitgeteilt werden. \n",
+   "procuringEntity": {
+    "name": "Landratsamt Miesbach - Vergabestelle-",
+    "id": "091820000000LKRMB57"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90620000",
+      "description": "Snow-clearing services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gemeindegebiet Holzkirchen",
+      "locality": "Holzkirchen",
+      "region": "DE21F",
+      "postalCode": "83607",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Transporte Hafeneder GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Transporte Hafeneder GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Industriestraße 13",
+      "locality": "Holzkirchen",
+      "region": "DE21F",
+      "postalCode": "83607",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Durchführung von Räum- und Streueinsätzen im Winterdienst in Holzkirchen für sechs bzw. sieben Winterperioden",
+     "description": "Gegenstand des Auftrags sind Durchführung von Räum- und Streueinsätzen im Winterdienst vom 01.10.2026 bis 30.04.2032 auf der Strecke Holzkirchen. Die Bereitstellung von einem Fahrzeug mit Fahrpersonal, einem mindestens 4 m³ Streuer mit FS-Einrichtung (Feuchtsalz) und Schneepflug sind zwingend. \nDie Räum- und Streustrecke muss selbstständig kontrolliert werden. Der AG behält sich vor, dass er bei längerer Schönwetterperiode die Strecke selbst betreut. Dies würde dem AN frühzeitig mitgeteilt werden. \n",
+     "contractPeriod": {
+      "startDate": "2026-10-01T00:00:00+02:00",
+      "endDate": "2032-04-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-08-19T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Transporte Hafeneder GmbH & Co. KG",
+      "id": "ORG-0003",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Transporte Hafeneder GmbH & Co. KG"
+      },
+      "address": {
+       "streetAddress": "Industriestraße 13",
+       "locality": "Holzkirchen",
+       "region": "DE21F",
+       "postalCode": "83607",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-08-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "c76932bd-e4e3-4724-a5f7-038a5362aa33",
+  "version": "01",
+  "title": "Durchführung von Räum- und Streueinsätzen im Winterdienst in Holzkirchen für sechs bzw. sieben Winterperioden",
+  "description": "Gegenstand des Auftrags sind Durchführung von Räum- und Streueinsätzen im Winterdienst vom 01.10.2026 bis 30.04.2032 auf der Strecke Holzkirchen. Die Bereitstellung von einem Fahrzeug mit Fahrpersonal, einem mindestens 4 m³ Streuer mit FS-Einrichtung (Feuchtsalz) und Schneepflug sind zwingend. \nDie Räum- und Streustrecke muss selbstständig kontrolliert werden. Der AG behält sich vor, dass er bei längerer Schönwetterperiode die Strecke selbst betreut. Dies würde dem AN frühzeitig mitgeteilt werden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21F"
+  ],
+  "cpv": [
+   "90620000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Durchführung von Räum- und Streueinsätzen im Winterdienst in Holzkirchen für sechs bzw. sieben Winterperioden",
+    "description": "Gegenstand des Auftrags sind Durchführung von Räum- und Streueinsätzen im Winterdienst vom 01.10.2026 bis 30.04.2032 auf der Strecke Holzkirchen. Die Bereitstellung von einem Fahrzeug mit Fahrpersonal, einem mindestens 4 m³ Streuer mit FS-Einrichtung (Feuchtsalz) und Schneepflug sind zwingend. \nDie Räum- und Streustrecke muss selbstständig kontrolliert werden. Der AG behält sich vor, dass er bei längerer Schönwetterperiode die Strecke selbst betreut. Dies würde dem AN frühzeitig mitgeteilt werden.",
+    "cpv": [
+     "90620000"
+    ],
+    "nuts": [
+     "DE21F"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-01+02:00",
+    "plannedEnd": "2032-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Die Wirtschaftlichkeit des Preises entscheidet.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

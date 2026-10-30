@@ -153,6 +153,8 @@
   "noticeId": "a7a5665c-d797-4db9-bf02-b2fb5b89ee55",
   "version": "01",
   "title": "DLR Standort Oberpfaffenhofen: Neubau Betriebsrestaurant und Konferenzzentrum (BRK), Metallbauarbeiten (Metallfassaden) (26-0326_B)",
+  "description": "Der Neubau für das Betriebsrestaurant und Konferenzzentrum befindet sich in der Mitte des DLR Standorts in Oberpfaffenhofen. Essen – Konferieren – Vernetzen. Die wesentlichen Funktionen werden in einer Raumcollage auf der X-, Y- und Z-Achse arrangiert. Küche/ Speisenausgabe, die beiden Restaurants, der große Konferenzsaal sowie die Besprechungsräume werden als Bausteine mit variierender Raumhöhe auf unterschiedlichen Ebenen angeordnet.",
+  "procedureType": "open",
   "nuts": [
    "DE21L"
   ],
@@ -167,6 +169,7 @@
    {
     "id": "LOT-0000",
     "title": "DLR Standort Oberpfaffenhofen: Neubau Betriebsrestaurant und Konferenzzentrum (BRK), Metallbauarbeiten (Metallfassaden) (26-0326_B)",
+    "description": "Systemdecke:\n- Einsteg-Endlos-Rasterdecke, Aluminium, einschl. UK ca. 970 m2\n\nMetallbekleidungen, akustik:\n- Akustikwandbekleidung Konferenzsaal, aus gelochten Metallkassetten, einschl. UK ca. 300 m2\n\nMetallbekleidungen:\n- Blechbekleidung Trockensteigleitung, öffenbar ca. 16 St.\n- Blechbekleidung Entnahmekästen, öffenbar ca. 12 St.\n- Blechbekleidung Feuerlöschernische, öffenbar ca. 14 St.\n- Blechbekleidung A-la-Carte-Restaurant, Kantblech, teilw. gelocht ca. 45 m2\n\nSonstiges:\n- Vorhangschienen, Aluminium ca. 40 m\n\nAusführungszeitraum: voraussichtlich Januar 2027 - Juni 2027",
     "cpv": [
      "45262670"
     ],
@@ -177,6 +180,10 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 6,
+     "unit": "MONTH"
+    },
     "estimatedValue": {
      "amount": 361130.5,
      "currency": "EUR"
@@ -207,7 +214,16 @@
       "type": "slc-abil-ref-work",
       "description": "- Erklärung, dass das bietende Unternehmen in den letzten fünf abgeschlossenen Kalenderjahren vergleichbare Leistungen insbesondere im Bereich Metallbauarbeiten (Metallbekleidungen) ausgeführt hat. Nachweis durch Vorlage von 3 projektbezogenen Referenzen mit Angaben Projektbezeichnung, Auftraggeber (Kontaktdaten) Ausführungszeitraum, Auftragssumme, Projektgegenstand.\n\nAlle Erklärungen zur technischen und beruflichen Leistungsfähigkeit können, wenn nicht anders gefordert, vorläufig auch über das Formular Eignungserklärung abgegeben werden, das den Vergabeunterlagen beigefügt ist. Die entsprechende Erbringung der Einzelnachweise durch das bietende Unternehmen erfolgt auf gesondertes Verlangen. Sind die im PQ-Verzeichnis hinterlegten Unterlagen (z. B. Referenzen) für den konkreten Auftrag nicht geeignet, müssen entsprechend geeignete Unterlagen als Einzelnachweise mit dem Angebot vorgelegt werden. Andernfalls muss das Angebot ausgeschlossen werden."
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "100 % Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

@@ -1,0 +1,202 @@
+{
+ "id": "6532b792-ee97-41c9-8ed1-f4f62fe928bc-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "6532b792-ee97-41c9-8ed1-f4f62fe928bc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6532b792-ee97-41c9-8ed1-f4f62fe928bc",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:6532b792-ee97-41c9-8ed1-f4f62fe928bc-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:6532b792-ee97-41c9-8ed1-f4f62fe928bc-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6532b792-ee97-41c9-8ed1-f4f62fe928bc?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Sicherheitsdienstleistungen Penzberg",
+  "buyer": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen",
+  "cpv": [
+   "79700000"
+  ],
+  "nuts": [
+   "DE21N"
+  ],
+  "deadline": "2026-11-02T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-91c73da9-ed78-42f1-b4ff-f8d58bcfecbf",
+  "id": "6532b792-ee97-41c9-8ed1-f4f62fe928bc",
+  "date": "2026-10-27T03:10:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2026_SG34_06",
+     "legalName": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen"
+    },
+    "address": {
+     "streetAddress": "Pütrichstraße  10a",
+     "locality": "Weilheim i. OB",
+     "region": "DE21N",
+     "postalCode": "82362",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "2026_SG34_06",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen",
+   "id": "2026_SG34_06",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen"
+   },
+   "address": {
+    "streetAddress": "Pütrichstraße  10a",
+    "locality": "Weilheim i. OB",
+    "region": "DE21N",
+    "postalCode": "82362",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "91c73da9-ed78-42f1-b4ff-f8d58bcfecbf",
+   "title": "Sicherheitsdienstleistungen Penzberg",
+   "description": "Sicherheitsdienstleistungen für die Bewachung einer dezentralen Unterkunft in Penzberg",
+   "procuringEntity": {
+    "name": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen",
+    "id": "2026_SG34_06"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79700000",
+      "description": "Investigation and security services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Nonnenwald 14 und 16",
+      "locality": "Penzberg",
+      "region": "DE21N",
+      "postalCode": "82377",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284b22-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sicherheitsdienstleistungen Penzberg",
+     "description": "Sicherheitsdienstleistungen für die Bewachung einer dezentralen Unterkunft in Penzberg",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2027-08-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6532b792-ee97-41c9-8ed1-f4f62fe928bc",
+  "version": "01",
+  "title": "Sicherheitsdienstleistungen Penzberg",
+  "description": "Sicherheitsdienstleistungen für die Bewachung einer dezentralen Unterkunft in Penzberg",
+  "procedureType": "open",
+  "nuts": [
+   "DE21N"
+  ],
+  "cpv": [
+   "79700000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sicherheitsdienstleistungen Penzberg",
+    "description": "Sicherheitsdienstleistungen für die Bewachung einer dezentralen Unterkunft in Penzberg",
+    "cpv": [
+     "79700000"
+    ],
+    "nuts": [
+     "DE21N"
+    ],
+    "deadline": "2026-11-02T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2027-08-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Eignung der Berufsausübung\nEinreichen eines Organisationskonzepts\nAngabe über Eintragung in das Berufsregister\nBeschreibung: Falls mein(e)/unser(e) Bewerbung/Angebot in die engere Wahl kommt, werde(n) ich/wir zur Bestätigung meiner/unserer Erklärung\nauf gesondertes Verlangen vorlegen: Gewerbeanmeldung, Berufs-/Handelsregisterauszug, Eintragung in der Handwerksrolle oder bei der Industrie-\nund Handelskammer oder anderweitige sonstige Nachweise Bei Zweifeln an der Eignung der vorgesehen Nachunternehmen/anderen\nUnternehmen vom präqualifizierten Unternehmen können die oben genannten Nachweise gefordert und einer Prüfung unterzogen werden. Bei\nder Prüfung der Eignung nicht präqualifizierter Unternehmen sind auch die Bescheinigungen der Nachunternehmen/anderer Unternehmen zu\nprüfen, für deren Leistungen die Vorlage einer Eigenerklärung verlangt wurde.\n\nTechnische und berufliche Leistungsfähigkeit\nBezeichnung: Referenzen\nBeschreibung: Drei Referenzen für eine Behörde/staatliche Stelle innerhalb der letzten drei Jahre.\n\nWirtschaftliche und finanzielle Leistungsfähigkeit\nBezeichnung:\n- Jahresumsätze der letzten drei Jahre\n- Nachweis einer Berufs- oder Betriebshaftpflichtversicherung\n- Erklärung, über die durchschnittliche jährliche Beschäftigtenzahl und die Zahl der Führungskräfte in den letzten drei Jahren\n\nBeschreibung:\n- Jahresumsätze der drei Jahre 2022, 2023 und 2024\n- Nachweis einer Berufs- oder Betriebshaftpflichtversicherung in bestimmter geeigneter Höhe mit mindestens folgenden Deckungssummen je Schadensereignis:\n•\tPersonenschäden: 3.000.000,00 Euro\n•\tSachschäden: 1.500.000,00 Euro\n•\tSchlüsselverluste: 50.000,00 Euro\n•\tAbhandenkommen bewachter Sachen 250.000,00 Euro\n•\treine Vermögensschäden 12.500,00 Euro\n- Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl und die Zahl der Führungskräfte in den letzten drei Jahre ersichtlich sind.\nDie Eignung der präqualifizierten Unternehmen wird anhand der in der Liste des Vereins über die Präqualifikation hinterlegten Erklärungen und\nNachweise geprüft. die Eignungsprüfung der nicht präqualifizierten Unternehmen erfolgt (zunächst) anhand der abgegebenen Eigenerklärungen.\nGelangen Angebote von nicht präqualifizierten Unternehmen in die engere Wahl, sind die im Formblatt 124 \"Eigenerklärung zur Eignung\" bzw. in\nder Einheitlichen Europäischen Eigenerklärung bezeichneten Bescheinigungen zur Bestätigung der Eigenerklärungen auf Anforderung durch die\nVergabestelle vorzulegen.\nBei Zweifeln an der Eignung der vorgesehen Nachunternehmen/anderen Unternehmen vom präqualifizierten Unternehmen können die oben\ngenannten Nachweise gefordert und einer Prüfung unterzogen werden. Bei der Prüfung der Eignung nicht präqualifizierter Unternehmen sind auch\ndie Bescheinigungen der Nachunternehmen/anderer Unternehmen zu prüfen, für deren Leistungen die Vorlage einer Eigenerklärung verlangt\nwurde.\n\nSonstige Nachweise:\n•\tGültige Unbedenklichkeitsbescheinigungen (sofern kein Gültigkeitsdatum vermerkt ist, darf die Bescheinigung nicht älter als 6 Monate sein) von:\n        o\tKrankenkasse mit Mehrzahl der versicherten Beschäftigten\n        o\tBerufsgenossenschaft.\n•\tErlaubnis nach § 34 a\n•\tGewerbeanmeldung\n•\tFührungszeugnis für die einzusetzenden Kräfte\n•\tVerschwiegenheitserklärungen der einzusetzenden Kräfte\n•\tMitarbeiterbescheinigung\n•\tZertifizierung DIN 77200-2 oder gleichwertig\n•\tDIN EN ISO 9001, mindestens mit Stand 2015\n\nVor-Ort-Termin:\nZur optimierten Angebotserstellung haben alle Bieter einen Vor-Ort-Termin in der betreffenden dezentralen Unterkunft wahrzunehmen. Diese Termine finden in der Zeit vom 05.10.2026 bis 07.10.2026 statt und dürfen nur in Begleitung des Auftraggebers durchgeführt werden. Die Beantragung eines Vor-Ort-Termins kann ausschließlich per E-Mail an [E-Mail entfernt] erfolgen. An diesem Besichtigungstermin können maximal drei Personen seitens des Bieters teilnehmen.\n\nDer Termin ist zwingend wahrzunehmen.\nEine Nichtteilnahme führt zum Ausschluss des Bieters am Vergabeverfahren."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Die Zuschlagserteilung erfolgt in einem gemischtwirtschaftlichen Verfahren. Die Zuschlagskriterien sind der Preis zu 40 % und einer\nLeistungsbewertung zu 60 % gemäß der Leistungsbeschreibung. Der Preis wird aus der Wertungssumme des Angebotes ermittelt. Die\nWertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesondere unter Berücksichtigung von Nachlässen. Das\nAngebot mit dem niedrigsten Preis erhält 400 Punkte. Die übrigen Angebote erhalten Punkte gemäß folgender Berechnungsformel: (Geringster\nPreis / eigener Preis) x 400.\nDie Leistung des Bieters wird anhand von Leistungspunkten ermittelt. Es können maximal 600 Leistungspunkte erreicht werden. Die Bieter erhalten Punkte gemäß der Bewertung des Organisationskonzepts.\nInsgesamt können maximal 1000 Punkte erreicht werden.",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Die Zuschlagserteilung erfolgt in einem gemischtwirtschaftlichen Verfahren. Die Zuschlagskriterien sind der Preis zu 40 % und einer\nLeistungsbewertung zu 60 % gemäß der Leistungsbeschreibung. Der Preis wird aus der Wertungssumme des Angebotes ermittelt. Die\nWertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesondere unter Berücksichtigung von Nachlässen. Das\nAngebot mit dem niedrigsten Preis erhält 400 Punkte. Die übrigen Angebote erhalten Punkte gemäß folgender Berechnungsformel: (Geringster\nPreis / eigener Preis) x 400.\nDie Leistung des Bieters wird anhand von Leistungspunkten ermittelt. Es können maximal 600 Leistungspunkte erreicht werden. Die Bieter erhalten Punkte gemäß der Bewertung des Organisationskonzepts.\nInsgesamt können maximal 1000 Punkte erreicht werden.",
+      "weight": 600
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

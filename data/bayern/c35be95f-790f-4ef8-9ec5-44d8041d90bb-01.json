@@ -1,0 +1,239 @@
+{
+ "id": "c35be95f-790f-4ef8-9ec5-44d8041d90bb-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "c35be95f-790f-4ef8-9ec5-44d8041d90bb",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c35be95f-790f-4ef8-9ec5-44d8041d90bb",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:c35be95f-790f-4ef8-9ec5-44d8041d90bb-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:c35be95f-790f-4ef8-9ec5-44d8041d90bb-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c35be95f-790f-4ef8-9ec5-44d8041d90bb?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Freianlagen",
+  "buyer": "VGem  Mauern",
+  "cpv": [
+   "45112700"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": "2026-11-19T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1027a65f-f779-4ad3-8ce6-4faa30e46489",
+  "id": "c35be95f-790f-4ef8-9ec5-44d8041d90bb",
+  "date": "2026-10-20T10:05:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "VGem  Mauern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "087648928",
+     "legalName": "VGem  Mauern"
+    },
+    "additionalIdentifiers": [
+     {
+      "id": "09178125-85408-27",
+      "legalName": "VGem  Mauern"
+     }
+    ],
+    "address": {
+     "streetAddress": "Schloßplatz 2",
+     "locality": "Mauern",
+     "region": "DE21B",
+     "postalCode": "85419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammern Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammern Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "VGem  Mauern",
+   "id": "087648928",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "VGem  Mauern"
+   },
+   "address": {
+    "streetAddress": "Schloßplatz 2",
+    "locality": "Mauern",
+    "region": "DE21B",
+    "postalCode": "85419",
+    "countryName": "DEU"
+   },
+   "additionalIdentifiers": [
+    {
+     "id": "09178125-85408-27",
+     "legalName": "VGem  Mauern"
+    }
+   ]
+  },
+  "tender": {
+   "id": "1027a65f-f779-4ad3-8ce6-4faa30e46489",
+   "title": "Freianlagen",
+   "description": "100-GA-1 / Neubau Grundschule mit KleinsporthalleHerstellung der Freiflächen, inkl. Erdarbeiten, Geländeanpassungen, Entwässerung, Sport- und Bewegungsflächen, Zaun, Treppenanlagen, Begrünung mit 36 Bäumen und mehrstämmigen Gehölzen, Heckenpflanzen, Schulgarten mit Kräutern und Beerensträuchern.",
+   "procuringEntity": {
+    "name": "VGem  Mauern",
+    "id": "087648928",
+    "additionalIdentifiers": [
+     {
+      "id": "09178125-85408-27",
+      "legalName": "VGem  Mauern"
+     }
+    ]
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112700",
+      "description": "Landscaping work"
+     },
+     "deliveryAddress": {
+      "locality": "Gammelsdorf",
+      "region": "DE21B",
+      "postalCode": "85408",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 698203,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331152",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Freianlagen",
+     "description": "100-GA-1 / Neubau Grundschule mit KleinsporthalleHerstellung der Freiflächen, inkl. Erdarbeiten, Geländeanpassungen, Entwässerung, Sport- und Bewegungsflächen, Zaun, Treppenanlagen, Begrünung mit 36 Bäumen und mehrstämmigen Gehölzen, Heckenpflanzen, Schulgarten mit Kräutern und Beerensträuchern.",
+     "value": {
+      "amount": 698203,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-04-05T00:00:00+02:00",
+      "endDate": "2027-11-26T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c35be95f-790f-4ef8-9ec5-44d8041d90bb",
+  "version": "01",
+  "title": "Freianlagen",
+  "description": "100-GA-1 / Neubau Grundschule mit KleinsporthalleHerstellung der Freiflächen, inkl. Erdarbeiten, Geländeanpassungen, Entwässerung, Sport- und Bewegungsflächen, Zaun, Treppenanlagen, Begrünung mit 36 Bäumen und mehrstämmigen Gehölzen, Heckenpflanzen, Schulgarten mit Kräutern und Beerensträuchern.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "45112700"
+  ],
+  "estimatedValue": {
+   "amount": 698203,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Freianlagen",
+    "description": "100-GA-1 / Neubau Grundschule mit KleinsporthalleHerstellung der Freiflächen, inkl. Erdarbeiten, Geländeanpassungen, Entwässerung, Sport- und Bewegungsflächen, Zaun, Treppenanlagen, Begrünung mit 36 Bäumen und mehrstämmigen Gehölzen, Heckenpflanzen, Schulgarten mit Kräutern und Beerensträuchern.",
+    "cpv": [
+     "45112700"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": "2026-11-19T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-05+02:00",
+    "plannedEnd": "2027-11-26+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 698203,
+     "currency": "EUR"
+    },
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331152 - Auflistung und kurze Beschreibung der Eignungskriterien – siehe:  - Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. - Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331152 - Auflistung und kurze Beschreibung der Eignungskriterien – siehe:  Die Anforderung des Nachweises vergleichbarer Referenzen gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter können sich dazu des PQ-Verzeichnisses bedienen, soweit dort Nachweise entsprechend vergleichbarer Referenzen hinterlegt sind. Präqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise vergleichbare Referenzen betreffen und die Hinterlegung ggf. entsprechend anpassen. Alternativ können die Referenzen auch mit dem Angebot übermittelt werden.   Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331152 - Auflistung und kurze Beschreibung der Eignungskriterien – siehe:  - Angaben zur Verfügbarkeit der für die Ausführung der Leistungen erforderlichen Arbeitskräfte"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331152 - Auflistung und kurze Beschreibung der Eignungskriterien – siehe:  - Registereintragungen - Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B) Soweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.  Sicherheitsleistung für Mängelansprüche  Die Sicherheit für Mängelansprüche beträgt 2% Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

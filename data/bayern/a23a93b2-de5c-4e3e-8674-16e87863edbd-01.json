@@ -1,0 +1,248 @@
+{
+ "id": "a23a93b2-de5c-4e3e-8674-16e87863edbd-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "a23a93b2-de5c-4e3e-8674-16e87863edbd",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a23a93b2-de5c-4e3e-8674-16e87863edbd",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:a23a93b2-de5c-4e3e-8674-16e87863edbd-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:a23a93b2-de5c-4e3e-8674-16e87863edbd-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a23a93b2-de5c-4e3e-8674-16e87863edbd?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Dachabdichtungs- und Klempnerarbeiten",
+  "buyer": "Deutsche Rentenversicherung Nordbayern",
+  "cpv": [
+   "45261410",
+   "45261300"
+  ],
+  "nuts": [
+   "DE242",
+   "DE265"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f50ea476-010c-4a98-9681-3a3ec94b4cfe",
+  "id": "a23a93b2-de5c-4e3e-8674-16e87863edbd",
+  "date": "2026-10-27T03:08:13Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Deutsche Rentenversicherung Nordbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 132 367 382",
+     "legalName": "Deutsche Rentenversicherung Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Wittelsbacherring 11",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95444",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloß)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Wiedamann GmbH & Co. KG Bedachungen und Spenglerei",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE298866503",
+     "legalName": "Wiedamann GmbH & Co. KG Bedachungen und Spenglerei"
+    },
+    "address": {
+     "streetAddress": "Baptist-Hoffmann-Straße 32",
+     "locality": "Bad Kissingen",
+     "region": "DE265",
+     "postalCode": "97688",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Deutsche Rentenversicherung Nordbayern",
+   "id": "DE 132 367 382",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Deutsche Rentenversicherung Nordbayern"
+   },
+   "address": {
+    "streetAddress": "Wittelsbacherring 11",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95444",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f50ea476-010c-4a98-9681-3a3ec94b4cfe",
+   "title": "Dachabdichtungs- und Klempnerarbeiten",
+   "description": "Dachabdichtungs- und Klempnerarbeiten",
+   "procuringEntity": {
+    "name": "Deutsche Rentenversicherung Nordbayern",
+    "id": "DE 132 367 382"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45261410",
+      "description": "Roof insulation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45261300",
+       "description": "Flashing and guttering work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Frankenklinik, Menzelstraße 5-7",
+      "locality": "Bad Kissingen",
+      "region": "DE265",
+      "postalCode": "97688",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Wiedamann GmbH & Co. KG Bedachungen und Spenglerei",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Wiedamann GmbH & Co. KG Bedachungen und Spenglerei"
+     },
+     "address": {
+      "streetAddress": "Baptist-Hoffmann-Straße 32",
+      "locality": "Bad Kissingen",
+      "region": "DE265",
+      "postalCode": "97688",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Dachabdichtungs- und Klempnerarbeiten",
+     "description": "Die Frankenklinik der Deutschen Rentenversicherung Nordbayern befindet sich in der Menzelstraße 5-7 in 97688 Bad Kissingen. Im Haupthaus des Klinikkomplexes werden auf Grund einer räumlichen Umstrukturierung sowie von vorhergehenden und bereits abgeschlossenen Umbaumaßnahmen das erste, zweite und dritte Obergeschoss für einen Umbau und eine Modernisierung frei. Im Rahmen dieser Umbaumaßnahme sollen Intensivpflege- und rollstuhlgerechte Patientenzimmer sowie mehrere Arzt-, Schwestern- und Verwaltungsräume entstehen. In diesem Zuge werden im zweiten und dritten Obergeschoss des Zwischentrakts zwischen Altbau und Bettenhaus neben der Treppe analog zum ersten Obergeschoss die Schwesterndiensträume in je ein rollstuhlgerechtes Patientenzimmer umgebaut. \n\nVereinzelt werden Räume durch Abbrechen der jeweiligen Trennwände zusammengefasst oder durch das Errichten von neuen Trennwänden neue Raumeinheiten geschaffen.",
+     "contractPeriod": {
+      "startDate": "2026-10-15T00:00:00+02:00",
+      "endDate": "2026-11-13T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a23a93b2-de5c-4e3e-8674-16e87863edbd",
+  "version": "01",
+  "title": "Dachabdichtungs- und Klempnerarbeiten",
+  "description": "Dachabdichtungs- und Klempnerarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "45261410",
+   "45261300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Dachabdichtungs- und Klempnerarbeiten",
+    "description": "Die Frankenklinik der Deutschen Rentenversicherung Nordbayern befindet sich in der Menzelstraße 5-7 in 97688 Bad Kissingen. Im Haupthaus des Klinikkomplexes werden auf Grund einer räumlichen Umstrukturierung sowie von vorhergehenden und bereits abgeschlossenen Umbaumaßnahmen das erste, zweite und dritte Obergeschoss für einen Umbau und eine Modernisierung frei. Im Rahmen dieser Umbaumaßnahme sollen Intensivpflege- und rollstuhlgerechte Patientenzimmer sowie mehrere Arzt-, Schwestern- und Verwaltungsräume entstehen. In diesem Zuge werden im zweiten und dritten Obergeschoss des Zwischentrakts zwischen Altbau und Bettenhaus neben der Treppe analog zum ersten Obergeschoss die Schwesterndiensträume in je ein rollstuhlgerechtes Patientenzimmer umgebaut. \n\nVereinzelt werden Räume durch Abbrechen der jeweiligen Trennwände zusammengefasst oder durch das Errichten von neuen Trennwänden neue Raumeinheiten geschaffen.",
+    "cpv": [
+     "45261410",
+     "45261300"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-15+02:00",
+    "plannedEnd": "2026-11-13+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preisbildung aus Wertungssumme des Angebots unter\nBerücksichtigung von Nachlässen, Erstattungsbeträgen aus der\nLohngleitklausel und Instandhaltungsangeboten",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "id": "25937952-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25937952",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25937952",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25937952-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25937952-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25937952?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "HeHo 18-22, Teilaustausch der Aufzugsanlagen",
+  "buyer": "Vermögens- und Hochbauverwaltung Baden-Württemberg",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-10T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25937952",
+  "id": "25937952",
+  "date": "2026-10-16T07:01:32Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vermögens- und Hochbauverwaltung Baden-Württemberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Vermögens- und Hochbauverwaltung Baden-Württemberg"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Vermögens- und Hochbauverwaltung Baden-Württemberg",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Vermögens- und Hochbauverwaltung Baden-Württemberg"
+   }
+  },
+  "tender": {
+   "title": "HeHo 18-22, Teilaustausch der Aufzugsanlagen",
+   "description": "HeHo 18-22, Teilaustausch der Aufzugsanlagen\n\nHeHo 18-22, Teilaustausch der Aufzugsanlagen",
+   "procuringEntity": {
+    "name": "Vermögens- und Hochbauverwaltung Baden-Württemberg"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "89081 Ulm",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bund.vergabe24.de/?hash=16018d60149d2527841f96fc34947144",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "HeHo 18-22, Teilaustausch der Aufzugsanlagen",
+     "description": "HeHo 18-22, Teilaustausch der Aufzugsanlagen\n\nHeHo 18-22, Teilaustausch der Aufzugsanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25937952",
+  "version": "1",
+  "title": "HeHo 18-22, Teilaustausch der Aufzugsanlagen",
+  "description": "HeHo 18-22, Teilaustausch der Aufzugsanlagen\n\nHeHo 18-22, Teilaustausch der Aufzugsanlagen",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "HeHo 18-22, Teilaustausch der Aufzugsanlagen",
+    "description": "HeHo 18-22, Teilaustausch der Aufzugsanlagen\n\nHeHo 18-22, Teilaustausch der Aufzugsanlagen",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-10T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

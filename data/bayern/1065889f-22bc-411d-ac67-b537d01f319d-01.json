@@ -5,14 +5,14 @@
   "noticeId": "1065889f-22bc-411d-ac67-b537d01f319d",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1065889f-22bc-411d-ac67-b537d01f319d",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:1065889f-22bc-411d-ac67-b537d01f319d-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:1065889f-22bc-411d-ac67-b537d01f319d-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/1065889f-22bc-411d-ac67-b537d01f319d?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Metallbauarbeiten Tueren TO2",
   "buyer": "Staatliches Bauamt Schweinfurt",
   "cpv": [
@@ -242,5 +242,52 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "1065889f-22bc-411d-ac67-b537d01f319d",
+  "version": "01",
+  "title": "Metallbauarbeiten Tueren TO2",
+  "description": "B62HE402040016 HAB_SaaleckKa, Neubau WiGeb 1800/BetrGeb\n1 St Werkplanung Metallbauarbeiten Türen\n4 St Aussentürel. Drehflügeltür 1-flg. B 1.250 - 1370 mm H 2.450 mm Alu RC2\n3 St Aussentürel. Drehflügeltür 2-flg. B 2.350 mm H 2.450 mm Alu Lüftungselemente Anlehnung RC2\n67,50 m Abdichtung Anschlussfuge außen elast. Dichtstoff PUR B bis 10mm\n67,50 m Abdichtung Anschlussfuge innen Dichtstoff Acrylatdispersion B bis 10mm",
+  "procedureType": "open",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "45421100",
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Metallbauarbeiten Tueren TO2",
+    "description": "B62HE402040016 HAB_SaaleckKa, Neubau WiGeb 1800/BetrGeb\n1 St Werkplanung Metallbauarbeiten Türen\n4 St Aussentürel. Drehflügeltür 1-flg. B 1.250 - 1370 mm H 2.450 mm Alu RC2\n3 St Aussentürel. Drehflügeltür 2-flg. B 2.350 mm H 2.450 mm Alu Lüftungselemente Anlehnung RC2\n67,50 m Abdichtung Anschlussfuge außen elast. Dichtstoff PUR B bis 10mm\n67,50 m Abdichtung Anschlussfuge innen Dichtstoff Acrylatdispersion B bis 10mm",
+    "cpv": [
+     "45421100",
+     "45262670"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-05+02:00",
+    "plannedEnd": "2027-02-12+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

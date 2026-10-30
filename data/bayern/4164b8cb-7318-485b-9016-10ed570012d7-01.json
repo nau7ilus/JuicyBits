@@ -184,6 +184,8 @@
   "noticeId": "4164b8cb-7318-485b-9016-10ed570012d7",
   "version": "01",
   "title": "008 Malerarbeiten",
+  "description": "Farbbeschichtung von Wänden, Türen und Decken",
+  "procedureType": "open",
   "nuts": [
    "DE24D"
   ],
@@ -196,6 +198,7 @@
    {
     "id": "LOT-0000",
     "title": "008 Malerarbeiten",
+    "description": "Farbbeschichtung von Wänden, Türen und Decken",
     "cpv": [
      "45000000",
      "45442100"
@@ -207,6 +210,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-08-02+02:00",
     "plannedEnd": "2027-09-24+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -214,7 +218,16 @@
       "type": "slc-stand-other",
       "description": "Eignung zur Berufsausübung,\ntechnische und berufliche Leistungsfähigkeit sowie \nwirtschaftliche und finanzielle Leistungsfähigkeit"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Angebotspreis mit einer Gewichtung von 100%",
+      "weight": null
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

@@ -1,0 +1,135 @@
+{
+ "id": "25971458-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25971458",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25971458",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25971458-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25971458-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25971458?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Needle Hydrophone (EMFT-07.3)",
+  "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
+  "cpv": [
+   "38292000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-06T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25971458",
+  "id": "25971458",
+  "date": "2026-10-27T07:00:37Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+   }
+  },
+  "tender": {
+   "title": "Needle Hydrophone (EMFT-07.3)",
+   "description": "Needle Hydrophone (EMFT-07.3)\n\nNeedle Hydrophone (EMFT-07.3)",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38292000",
+      "description": "Hydrographic instruments"
+     },
+     "deliveryAddress": {
+      "locality": "Fraunhofer EMFT\nHansastraße 27d\n80686 München\nDeutschland",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-1a0a9a09120-48f32296ba231652&PublicationType=0",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Needle Hydrophone (EMFT-07.3)",
+     "description": "Needle Hydrophone (EMFT-07.3)\n\nNeedle Hydrophone (EMFT-07.3)"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25971458",
+  "version": "1",
+  "title": "Needle Hydrophone (EMFT-07.3)",
+  "description": "Needle Hydrophone (EMFT-07.3)\n\nNeedle Hydrophone (EMFT-07.3)",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "38292000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Needle Hydrophone (EMFT-07.3)",
+    "description": "Needle Hydrophone (EMFT-07.3)\n\nNeedle Hydrophone (EMFT-07.3)",
+    "cpv": [
+     "38292000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-06T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

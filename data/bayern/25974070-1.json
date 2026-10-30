@@ -1,0 +1,133 @@
+{
+ "id": "25974070-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25974070",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25974070",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25974070-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25974070-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25974070?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Kreisstraße LA 34, Gebersdorf - Piegendorf - Deckensanierung",
+  "buyer": "Landratsamt Landshut Gebäudemanagement",
+  "cpv": [
+   "45233222-1 45233222-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-19T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25974070",
+  "id": "25974070",
+  "date": "2026-10-27T07:00:26Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landshut Gebäudemanagement",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landratsamt Landshut Gebäudemanagement"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landshut Gebäudemanagement",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landshut Gebäudemanagement"
+   }
+  },
+  "tender": {
+   "title": "Kreisstraße LA 34, Gebersdorf - Piegendorf - Deckensanierung",
+   "description": "Tiefbau- und Pflasterbauarbeiten, Verkehrswegebau-, Asphaltarbeiten",
+   "procuringEntity": {
+    "name": "Landratsamt Landshut Gebäudemanagement"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45233222-1 45233222-1"
+     },
+     "deliveryAddress": {
+      "locality": "84051 Essenbach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28E4A9-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Kreisstraße LA 34, Gebersdorf - Piegendorf - Deckensanierung",
+     "description": "Tiefbau- und Pflasterbauarbeiten, Verkehrswegebau-, Asphaltarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25974070",
+  "version": "1",
+  "title": "Kreisstraße LA 34, Gebersdorf - Piegendorf - Deckensanierung",
+  "description": "Tiefbau- und Pflasterbauarbeiten, Verkehrswegebau-, Asphaltarbeiten",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45233222-1 45233222-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Kreisstraße LA 34, Gebersdorf - Piegendorf - Deckensanierung",
+    "description": "Tiefbau- und Pflasterbauarbeiten, Verkehrswegebau-, Asphaltarbeiten",
+    "cpv": [
+     "45233222-1 45233222-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-19T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

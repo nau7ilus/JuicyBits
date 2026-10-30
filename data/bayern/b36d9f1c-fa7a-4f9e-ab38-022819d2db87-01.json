@@ -5,12 +5,12 @@
   "noticeId": "b36d9f1c-fa7a-4f9e-ab38-022819d2db87",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b36d9f1c-fa7a-4f9e-ab38-022819d2db87",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:b36d9f1c-fa7a-4f9e-ab38-022819d2db87-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:b36d9f1c-fa7a-4f9e-ab38-022819d2db87-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/b36d9f1c-fa7a-4f9e-ab38-022819d2db87?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "16FEI21629 - Vorserienprojekt Digitales Stellwerk (VSP DSTW) Mertingen-Meitingen, Betriebsfertige Errichtung des DSTW,\nDSTW Innen- & Außenanlage.",
   "buyer": "DB Netz AG",
   "cpv": [
@@ -174,5 +174,43 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "b36d9f1c-fa7a-4f9e-ab38-022819d2db87",
+  "version": "01",
+  "title": "16FEI21629 - Vorserienprojekt Digitales Stellwerk (VSP DSTW) Mertingen-Meitingen, Betriebsfertige Errichtung des DSTW,\nDSTW Innen- & Außenanlage.",
+  "description": "Vorserienprojekt Digitales Stellwerk (VSP DSTW) Mertingen-Meitingen, Betriebsfertige Errichtung des DSTW,\nDSTW Innen- & Außenanlage.",
+  "procedureType": null,
+  "nuts": [
+   "DE933"
+  ],
+  "cpv": [
+   "34632200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "16FEI21629 - Vorserienprojekt Digitales Stellwerk (VSP DSTW) Mertingen-Meitingen, Betriebsfertige Errichtung des DSTW,\nDSTW Innen- & Außenanlage.",
+    "description": "Vorserienprojekt Digitales Stellwerk (VSP DSTW) Mertingen-Meitingen, Betriebsfertige Errichtung des DSTW,\nDSTW Innen- & Außenanlage.",
+    "cpv": [
+     "34632200"
+    ],
+    "nuts": [
+     "DE933"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

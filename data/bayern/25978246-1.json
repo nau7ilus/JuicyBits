@@ -5,14 +5,14 @@
   "noticeId": "25978246",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978246",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978246-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978246-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978246?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Schließanlage",
   "buyer": "Markt Bad Hindelang",
   "cpv": [
@@ -24,7 +24,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-10-12T10:45:00+02:00",
   "lots": 1
  },
  "ocds": {
@@ -99,5 +99,49 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25978246",
+  "version": "1",
+  "title": "Schließanlage",
+  "description": "Schliessanlagen, Beschläge",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schließanlage",
+    "description": "Schliessanlagen, Beschläge",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-12T10:45:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

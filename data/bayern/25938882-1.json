@@ -1,0 +1,143 @@
+{
+ "id": "25938882-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25938882",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25938882",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25938882-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25938882-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25938882?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung eines Röntgendetektors für Computertomographie",
+  "buyer": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern",
+  "cpv": [
+   "33111000",
+   "38580000",
+   "38540000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25938882",
+  "id": "25938882",
+  "date": "2026-10-16T07:01:45Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern"
+   }
+  },
+  "tender": {
+   "title": "Lieferung eines Röntgendetektors für Computertomographie",
+   "description": "Lieferung eines Röntgendetektors für Computertomographie\n\nLieferung eines Röntgendetektors für Computertomographie",
+   "procuringEntity": {
+    "name": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "33111000",
+      "description": "X-ray devices"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "38580000",
+       "description": "Non-medical equipment based on the use of radiations"
+      },
+      {
+       "scheme": "CPV",
+       "id": "38540000",
+       "description": "Machines and apparatus for testing and measuring"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "94447 Plattling",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lieferung eines Röntgendetektors für Computertomographie",
+     "description": "Lieferung eines Röntgendetektors für Computertomographie\n\nLieferung eines Röntgendetektors für Computertomographie"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25938882",
+  "version": "1",
+  "title": "Lieferung eines Röntgendetektors für Computertomographie",
+  "description": "Lieferung eines Röntgendetektors für Computertomographie\n\nLieferung eines Röntgendetektors für Computertomographie",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "33111000",
+   "38580000",
+   "38540000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lieferung eines Röntgendetektors für Computertomographie",
+    "description": "Lieferung eines Röntgendetektors für Computertomographie\n\nLieferung eines Röntgendetektors für Computertomographie",
+    "cpv": [
+     "33111000",
+     "38580000",
+     "38540000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

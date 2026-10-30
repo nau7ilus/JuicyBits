@@ -1,0 +1,207 @@
+{
+ "id": "1fe8e0a2-ba06-4782-9a52-6bf1b34641ce-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "1fe8e0a2-ba06-4782-9a52-6bf1b34641ce",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1fe8e0a2-ba06-4782-9a52-6bf1b34641ce",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:1fe8e0a2-ba06-4782-9a52-6bf1b34641ce-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:1fe8e0a2-ba06-4782-9a52-6bf1b34641ce-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1fe8e0a2-ba06-4782-9a52-6bf1b34641ce?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "NGN, Lose Möblierung- Neues Gymnasium Nürnberg",
+  "buyer": "WBG KOMMUNAL GmbH  ",
+  "cpv": [
+   "39160000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-12-08T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c6cbd5c5-b0a3-45a9-8a27-8128a3e05d40",
+  "id": "1fe8e0a2-ba06-4782-9a52-6bf1b34641ce",
+  "date": "2026-10-20T10:04:36Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "WBG KOMMUNAL GmbH  ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "3920b6b9-0117-41b6-a1e2-245f8c546198",
+     "legalName": "WBG KOMMUNAL GmbH  "
+    },
+    "address": {
+     "streetAddress": "Beuthener Str. 41",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "855daf8c-fe9f-4b20-b84c-8e495602d628",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "WBG KOMMUNAL GmbH  ",
+   "id": "3920b6b9-0117-41b6-a1e2-245f8c546198",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "WBG KOMMUNAL GmbH  "
+   },
+   "address": {
+    "streetAddress": "Beuthener Str. 41",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90471",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c6cbd5c5-b0a3-45a9-8a27-8128a3e05d40",
+   "title": "NGN, Lose Möblierung- Neues Gymnasium Nürnberg",
+   "description": "Bauabschnitt 1, Lieferung 2027:\n- Schülerstühle ca. 436 St\n- Schülertische ca. 420 St\n- Lehrerstühle ca. 34 St\n- Vierbeinstühle ca. 181 St \n- Lehrertische höhenverstellbar ca. 37 St\n- Fünfecktische ca. 16 St\n- sonstige Tische ca. 18 St\n- Garderobenbänke ca. 48 St\n- Aufbewahrungsmodule ca. 42 St\n- Schränke ca. 45 St\n- Mobile Bühne \n- Einrichtung Erste-Hilfe-Raum\n\nBauabschnitt 1, Lieferung 2029:\n- Schülerstühle ca. 116 St\n- Schülertische ca. 40 St\n- Lehrerstühle ca. 2 St\n- Vierbeinstühle ca. 4 St\n- Lehrertische höhenverstellbar ca. 7 St\n- Fünfecktische ca. 32 St\n- EDV-Tische ca. 44 St\n- Aufbewahrungsmodule ca. 9 St\n- Schränke ca. 7 St\n- Sofas ca. 7 St\n- Loungetische ca. 6 St\n\nBauabschnitt 2, Lieferung 2029 (nur Klassenzimmer):\n- Schülerstühle ca. 748 St\n- Schülertische ca. 748 St\n- Lehrerstühle ca. 26 St\n- Lehrertische höhenverstellbar ca. 52 St",
+   "procuringEntity": {
+    "name": "WBG KOMMUNAL GmbH  ",
+    "id": "3920b6b9-0117-41b6-a1e2-245f8c546198"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90478",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8b87735a-c774-4a5d-afc2-490b0fba74ba",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "NGN, Lose Möblierung- Neues Gymnasium Nürnberg",
+     "description": "Bauabschnitt 1, Lieferung 2027:\n- Schülerstühle ca. 436 St\n- Schülertische ca. 420 St\n- Lehrerstühle ca. 34 St\n- Vierbeinstühle ca. 181 St \n- Lehrertische höhenverstellbar ca. 37 St\n- Fünfecktische ca. 16 St\n- sonstige Tische ca. 18 St\n- Garderobenbänke ca. 48 St\n- Aufbewahrungsmodule ca. 42 St\n- Schränke ca. 45 St\n- Mobile Bühne \n- Einrichtung Erste-Hilfe-Raum\n\nBauabschnitt 1, Lieferung 2029:\n- Schülerstühle ca. 116 St\n- Schülertische ca. 40 St\n- Lehrerstühle ca. 2 St\n- Vierbeinstühle ca. 4 St\n- Lehrertische höhenverstellbar ca. 7 St\n- Fünfecktische ca. 32 St\n- EDV-Tische ca. 44 St\n- Aufbewahrungsmodule ca. 9 St\n- Schränke ca. 7 St\n- Sofas ca. 7 St\n- Loungetische ca. 6 St\n\nBauabschnitt 2, Lieferung 2029 (nur Klassenzimmer):\n- Schülerstühle ca. 748 St\n- Schülertische ca. 748 St\n- Lehrerstühle ca. 26 St\n- Lehrertische höhenverstellbar ca. 52 St",
+     "contractPeriod": {
+      "startDate": "2027-02-15T00:00:00+01:00",
+      "endDate": "2029-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "1fe8e0a2-ba06-4782-9a52-6bf1b34641ce",
+  "version": "01",
+  "title": "NGN, Lose Möblierung- Neues Gymnasium Nürnberg",
+  "description": "Bauabschnitt 1, Lieferung 2027:\n- Schülerstühle ca. 436 St\n- Schülertische ca. 420 St\n- Lehrerstühle ca. 34 St\n- Vierbeinstühle ca. 181 St \n- Lehrertische höhenverstellbar ca. 37 St\n- Fünfecktische ca. 16 St\n- sonstige Tische ca. 18 St\n- Garderobenbänke ca. 48 St\n- Aufbewahrungsmodule ca. 42 St\n- Schränke ca. 45 St\n- Mobile Bühne \n- Einrichtung Erste-Hilfe-Raum\n\nBauabschnitt 1, Lieferung 2029:\n- Schülerstühle ca. 116 St\n- Schülertische ca. 40 St\n- Lehrerstühle ca. 2 St\n- Vierbeinstühle ca. 4 St\n- Lehrertische höhenverstellbar ca. 7 St\n- Fünfecktische ca. 32 St\n- EDV-Tische ca. 44 St\n- Aufbewahrungsmodule ca. 9 St\n- Schränke ca. 7 St\n- Sofas ca. 7 St\n- Loungetische ca. 6 St\n\nBauabschnitt 2, Lieferung 2029 (nur Klassenzimmer):\n- Schülerstühle ca. 748 St\n- Schülertische ca. 748 St\n- Lehrerstühle ca. 26 St\n- Lehrertische höhenverstellbar ca. 52 St",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "39160000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "NGN, Lose Möblierung- Neues Gymnasium Nürnberg",
+    "description": "Bauabschnitt 1, Lieferung 2027:\n- Schülerstühle ca. 436 St\n- Schülertische ca. 420 St\n- Lehrerstühle ca. 34 St\n- Vierbeinstühle ca. 181 St \n- Lehrertische höhenverstellbar ca. 37 St\n- Fünfecktische ca. 16 St\n- sonstige Tische ca. 18 St\n- Garderobenbänke ca. 48 St\n- Aufbewahrungsmodule ca. 42 St\n- Schränke ca. 45 St\n- Mobile Bühne \n- Einrichtung Erste-Hilfe-Raum\n\nBauabschnitt 1, Lieferung 2029:\n- Schülerstühle ca. 116 St\n- Schülertische ca. 40 St\n- Lehrerstühle ca. 2 St\n- Vierbeinstühle ca. 4 St\n- Lehrertische höhenverstellbar ca. 7 St\n- Fünfecktische ca. 32 St\n- EDV-Tische ca. 44 St\n- Aufbewahrungsmodule ca. 9 St\n- Schränke ca. 7 St\n- Sofas ca. 7 St\n- Loungetische ca. 6 St\n\nBauabschnitt 2, Lieferung 2029 (nur Klassenzimmer):\n- Schülerstühle ca. 748 St\n- Schülertische ca. 748 St\n- Lehrerstühle ca. 26 St\n- Lehrertische höhenverstellbar ca. 52 St",
+    "cpv": [
+     "39160000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-12-08T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-15+01:00",
+    "plannedEnd": "2029-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "1. Eigenerklärung, dass die gewerberechtlichen Voraussetzungen für die Ausführung der angebotenen Leistung erfüllt sind 2. Eigenerklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet. 3. Eigenerklärung Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung (Kranken-, Renten- und Arbeitslosenversicherung) einschließlich der Unfallversicherung 4. Verpflichtungserklärung des Eignungsgebers im Falle einer Eignungsleihe zur Bereitstellung eben dieser Leistungen."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Der Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit umfassteine Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Bauleistungen betrifft,die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss desAnteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen. Entsprechend der Verordnung (EU) 2022/576  dürfen öffentlichen Aufträge und Konzessionen nach dem 9. April 2022 nicht an Personen oder Unternehmen vergeben werden, die einen Bezug zu Russland im Sinne der Vorschrift aufweisen. Dies umfasst sowohl unmittelbar als Bewerber, Bieter oder Auftragnehmer auftretende Personen oder Unternehmen als auch mittelbar, mit mehr als zehn Prozent, gemessen am Auftragswert, beteiligte Unterauftragnehmer, Lieferanten oder Eignungsverleiher. Es wird vom Bieter daher die Erklärung verlangt, dass er entsprechend den Vorgaben der Verordnung (EU) 2022/576 keinen Bezug zu Russland aufweist. \nAb einer Auftragssumme von 30.000 Euro wird der Auftraggeber für den Bieter, der den Zuschlag erhalten soll, eine Auskunft aus dem bundesweiten Wettbewerbsregister anfordern."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Aktuelle Kopie des Nachweises (nicht älter als 12 Monate, bezogen auf die Angebotsfrist) des Eintrags in das Handelsregister bzw. des Eintrags in das Verzeichnis der zulassungsfreien Handwerksgewerbe oder eine Kopie des Nachweises über die Eintragung in das Berufs- und/oder Handelsregister nach Maßgabe der Rechtsvorschriften des Staates der Europäischen Union, in dem das Unternehmen niedergelassen ist."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "siehe Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

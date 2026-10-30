@@ -1,0 +1,228 @@
+{
+ "id": "aa246223-61c2-4ec7-8254-736c26ff10c5-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "aa246223-61c2-4ec7-8254-736c26ff10c5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=aa246223-61c2-4ec7-8254-736c26ff10c5",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:aa246223-61c2-4ec7-8254-736c26ff10c5-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:aa246223-61c2-4ec7-8254-736c26ff10c5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/aa246223-61c2-4ec7-8254-736c26ff10c5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Putzarbeiten Innen",
+  "buyer": "Staatl. Bauamt München 1",
+  "cpv": [
+   "45410000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-12-01T08:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5535e6f8-66e0-495d-9b6d-179fa13152bf",
+  "id": "aa246223-61c2-4ec7-8254-736c26ff10c5",
+  "date": "2026-10-20T00:00:00+02:00",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatl. Bauamt München 1",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0991307-85",
+     "legalName": "Staatl. Bauamt München 1"
+    },
+    "address": {
+     "streetAddress": "Peter-Auzinger-Str. 10",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81547",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatl. Bauamt München 1, Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "04989212320",
+     "legalName": "Staatl. Bauamt München 1, Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Peter-Auzinger-Str. 10",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81547",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatl. Bauamt München 1",
+   "id": "09-0991307-85",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatl. Bauamt München 1"
+   },
+   "address": {
+    "streetAddress": "Peter-Auzinger-Str. 10",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81547",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5535e6f8-66e0-495d-9b6d-179fa13152bf",
+   "title": "Putzarbeiten Innen",
+   "description": "B13HE052890009\nStMUK,GS,Dienstgeb.Salvatorstr.-2.BA\n\nLeistungen Arbeiten im Bestand, mit folgenden Teilleistungen:\n\nSchutzabdeckungen, Fenster, Türen, etc.\t \tca. 540 m²\nPutzabbruch in Kleinflächen\t\tca. 200 m²\nEntfernung Farbschichten\t\tca. 500 m²\nVerfüllen Wandschlitz\t\tca. 1350 m\nDämmputz Außenwand\t\tca. 1900 m²\nInnenputz Wände\t\tca. 3000 m²\nBrandschutzputz Decke\t\tca. 3900 m²\n\nBauen im Bestand mit beengten Platzverhältnissen.",
+   "procuringEntity": {
+    "name": "Staatl. Bauamt München 1",
+    "id": "09-0991307-85"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45410000",
+      "description": "Plastering work"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304476",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Putzarbeiten Innen",
+     "description": "Leistungen Arbeiten im Bestand, mit folgenden Teilleistungen:\n\nSchutzabdeckungen, Fenster, Türen, etc.\t \tca. 540 m²\nPutzabbruch in Kleinflächen\t\tca. 200 m²\nEntfernung Farbschichten\t\tca. 500 m²\nVerfüllen Wandschlitz\t\tca. 1350 m\nDämmputz Außenwand\t\tca. 1900 m²\nInnenputz Wände\t\tca. 3000 m²\nBrandschutzputz Decke\t\tca. 3900 m²\n\nBauen im Bestand mit beengten Platzverhältnissen.",
+     "contractPeriod": {
+      "startDate": "2027-02-22T00:00:00+01:00",
+      "endDate": "2028-03-13T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "aa246223-61c2-4ec7-8254-736c26ff10c5",
+  "version": "01",
+  "title": "Putzarbeiten Innen",
+  "description": "B13HE052890009\nStMUK,GS,Dienstgeb.Salvatorstr.-2.BA\n\nLeistungen Arbeiten im Bestand, mit folgenden Teilleistungen:\n\nSchutzabdeckungen, Fenster, Türen, etc.\t \tca. 540 m²\nPutzabbruch in Kleinflächen\t\tca. 200 m²\nEntfernung Farbschichten\t\tca. 500 m²\nVerfüllen Wandschlitz\t\tca. 1350 m\nDämmputz Außenwand\t\tca. 1900 m²\nInnenputz Wände\t\tca. 3000 m²\nBrandschutzputz Decke\t\tca. 3900 m²\n\nBauen im Bestand mit beengten Platzverhältnissen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45410000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Putzarbeiten Innen",
+    "description": "Leistungen Arbeiten im Bestand, mit folgenden Teilleistungen:\n\nSchutzabdeckungen, Fenster, Türen, etc.\t \tca. 540 m²\nPutzabbruch in Kleinflächen\t\tca. 200 m²\nEntfernung Farbschichten\t\tca. 500 m²\nVerfüllen Wandschlitz\t\tca. 1350 m\nDämmputz Außenwand\t\tca. 1900 m²\nInnenputz Wände\t\tca. 3000 m²\nBrandschutzputz Decke\t\tca. 3900 m²\n\nBauen im Bestand mit beengten Platzverhältnissen.",
+    "cpv": [
+     "45410000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-12-01T08:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-22+01:00",
+    "plannedEnd": "2028-03-13+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

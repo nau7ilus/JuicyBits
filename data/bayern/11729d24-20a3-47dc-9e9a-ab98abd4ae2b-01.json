@@ -1,0 +1,239 @@
+{
+ "id": "11729d24-20a3-47dc-9e9a-ab98abd4ae2b-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "11729d24-20a3-47dc-9e9a-ab98abd4ae2b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=11729d24-20a3-47dc-9e9a-ab98abd4ae2b",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:11729d24-20a3-47dc-9e9a-ab98abd4ae2b-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:11729d24-20a3-47dc-9e9a-ab98abd4ae2b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/11729d24-20a3-47dc-9e9a-ab98abd4ae2b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "DFG-GZ: EXC 3113_1_ 2 (A 197) Biomolekular-Interaktionssystem",
+  "buyer": "Deutsche Forschungsgemeinschaft e.V.",
+  "cpv": [
+   "38434500"
+  ],
+  "nuts": [
+   "DEA22",
+   "DE263"
+  ],
+  "deadline": "2026-11-20T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-faf5055f-47bc-44bf-9a34-ef90cb85f553",
+  "id": "11729d24-20a3-47dc-9e9a-ab98abd4ae2b",
+  "date": "2026-10-25T08:08:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Deutsche Forschungsgemeinschaft e.V.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992-80037-39",
+     "legalName": "Deutsche Forschungsgemeinschaft e.V."
+    },
+    "address": {
+     "streetAddress": "Kennedyallee 40",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53175",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Deutsche Forschungsgemeinschaft e.V.",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "992-80037-39",
+     "legalName": "Deutsche Forschungsgemeinschaft e.V."
+    },
+    "address": {
+     "streetAddress": "Kennedyallee 40",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53175",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "98137_10002403",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemombler Straße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "98137_10002404",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemombler Straße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Deutsche Forschungsgemeinschaft e.V.",
+   "id": "992-80037-39",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Deutsche Forschungsgemeinschaft e.V."
+   },
+   "address": {
+    "streetAddress": "Kennedyallee 40",
+    "locality": "Bonn",
+    "region": "DEA22",
+    "postalCode": "53175",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "faf5055f-47bc-44bf-9a34-ef90cb85f553",
+   "title": "DFG-GZ: EXC 3113_1_ 2 (A 197) Biomolekular-Interaktionssystem",
+   "description": "Lieferung eines Biomolekular-Interaktionssystems für die Universität Würzburg gemäß beigefügter Leistungsbeschreibung",
+   "procuringEntity": {
+    "name": "Deutsche Forschungsgemeinschaft e.V.",
+    "id": "992-80037-39"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38434500",
+      "description": "Biochemical analysers"
+     },
+     "deliveryLocation": {
+      "description": "Würzburg"
+     },
+     "deliveryAddress": {
+      "region": "DE263",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.dfg.e-va.eu?tid=11c40aa3e166fed2a3a7378412a62f3f",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "DFG-GZ: EXC 3113_1_ 2 (A 197) Biomolekular-Interaktionssystem",
+     "description": "Lieferung eines Biomolekular-Interaktionssystems für die Universität Würzburg gemäß beigefügter Leistungsbeschreibung"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "11729d24-20a3-47dc-9e9a-ab98abd4ae2b",
+  "version": "01",
+  "title": "DFG-GZ: EXC 3113_1_ 2 (A 197) Biomolekular-Interaktionssystem",
+  "description": "Lieferung eines Biomolekular-Interaktionssystems für die Universität Würzburg gemäß beigefügter Leistungsbeschreibung",
+  "procedureType": "open",
+  "nuts": [
+   "DE263"
+  ],
+  "cpv": [
+   "38434500"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "DFG-GZ: EXC 3113_1_ 2 (A 197) Biomolekular-Interaktionssystem",
+    "description": "Lieferung eines Biomolekular-Interaktionssystems für die Universität Würzburg gemäß beigefügter Leistungsbeschreibung",
+    "cpv": [
+     "38434500"
+    ],
+    "nuts": [
+     "DE263"
+    ],
+    "deadline": "2026-11-20T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärungen gemäß Unternehmerbogen"
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Benennung mindestens einer erfolgreichen Installation von Geräten vergleichbarer Leistungsklasse innerhalb der letzten 3 Jahre. Die Referenzen sind unter Angabe des Wertes, des Erbringungszeitpunktes sowie des Empfängers einzureichen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Technischer Wert",
+      "description": "Technischer Wert",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 50
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

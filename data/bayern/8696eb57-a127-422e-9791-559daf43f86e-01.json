@@ -1,0 +1,227 @@
+{
+ "id": "8696eb57-a127-422e-9791-559daf43f86e-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "8696eb57-a127-422e-9791-559daf43f86e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8696eb57-a127-422e-9791-559daf43f86e",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:8696eb57-a127-422e-9791-559daf43f86e-01.json",
+  "eformsFile": "notices_2026-10-28_eForms.zip:8696eb57-a127-422e-9791-559daf43f86e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8696eb57-a127-422e-9791-559daf43f86e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "34632000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE253"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4c338e04-93bc-49e7-8a5e-9bb1c2e88e7f",
+  "id": "8696eb57-a127-422e-9791-559daf43f86e",
+  "date": "2026-10-28T03:26:07Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Siemens Mobility GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "8395fccb-f614-43c9-bb74-73e40da20821",
+     "legalName": "Siemens Mobility GmbH"
+    },
+    "address": {
+     "streetAddress": "Otto-Hahn-Ring 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4c338e04-93bc-49e7-8a5e-9bb1c2e88e7f",
+   "title": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+   "description": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34632000",
+      "description": "Railways traffic-control equipment"
+     },
+     "deliveryAddress": {
+      "locality": "Bayern",
+      "postalCode": "BY",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2025-03-03T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Siemens Mobility GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Siemens Mobility GmbH"
+     },
+     "address": {
+      "streetAddress": "Otto-Hahn-Ring 6",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81739",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+     "description": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+     "contractPeriod": {
+      "startDate": "2025-03-19T00:00:00+01:00",
+      "endDate": "2026-01-09T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2025-03-03T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2025-03-02T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "8696eb57-a127-422e-9791-559daf43f86e",
+  "version": "01",
+  "title": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+  "description": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+  "procedureType": null,
+  "nuts": [
+   "DE253"
+  ],
+  "cpv": [
+   "34632000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+    "description": "RSTW Fürth SpDrS60 Kabelmontage im Stw",
+    "cpv": [
+     "34632000"
+    ],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-03-19+01:00",
+    "plannedEnd": "2026-01-09+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

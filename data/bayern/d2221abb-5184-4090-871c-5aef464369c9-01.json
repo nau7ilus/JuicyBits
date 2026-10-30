@@ -1,0 +1,208 @@
+{
+ "id": "d2221abb-5184-4090-871c-5aef464369c9-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "d2221abb-5184-4090-871c-5aef464369c9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d2221abb-5184-4090-871c-5aef464369c9",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:d2221abb-5184-4090-871c-5aef464369c9-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:d2221abb-5184-4090-871c-5aef464369c9-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d2221abb-5184-4090-871c-5aef464369c9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Managed Service E-AKTE 2027",
+  "buyer": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+  "cpv": [
+   "72000000"
+  ],
+  "nuts": [
+   "DE254",
+   "DEZZZ"
+  ],
+  "deadline": "2026-11-26T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-630aeb8d-c7a5-461a-b305-982138197675",
+  "id": "d2221abb-5184-4090-871c-5aef464369c9",
+  "date": "2026-10-27T03:10:15Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "630aeb8d-c7a5-461a-b305-982138197675",
+   "title": "Managed Service E-AKTE 2027",
+   "description": "Managed Service Leistungen zur Pflege und Unterstützung des Basisdienstes E-AKTE, sowie vorl. Transition und opt. abschließende Transition / Exitmanagement, DL-Kontingent (32.000 PS)",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000",
+      "description": "IT services: consulting, software development, Internet and support"
+     },
+     "deliveryAddress": {
+      "locality": "bundesweit",
+      "region": "DEZZZ",
+      "postalCode": "00000",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=901954",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Managed Service E-AKTE 2027",
+     "description": "Beschaffungsgegenstand ist ein Managed Service zur Bereitstellung des Systems E-AKTE als produktionsreifer Liefergegenstand und aller dafür notwendigen fachlichen und technischen Entwicklungsarbeiten hinsichtlich gesetzlicher und standardisierter Anforderungen, Qualitätssicherung und Pflege der E-AKTE der Bundesagentur für Arbeit sowie Schnittstellenkommunikation und die Anbindung weiterer Verfahren und Projekte an den Basisdienst. Dazu gehört die Durchführung der Anwendungsentwicklung E-AKTE inkl. Analyse des Anwendungsdesigns bei Änderungen an der Oberfläche sowie Beurteilung der Auswirkungen auf die Konfiguration und Infrastruktur.\n\nDas IT-Systemhaus der BA verantwortet die IT-Betriebsführung und übernimmt diese. Dies schließt die Bereitstellung der dafür notwendigen IT-Infrastruktur mit ein. Beim ersten Einsatz wie auch bei einem Wechsel des eingesetzten Personals ist zu berücksichtigen, dass eine erweiterte Sicherheitsüberprüfung (Ü2) nach § 9 SÜG für den (in der BA) neuen Dienstleister durchzuführen ist.\n\nDie ersten Abrufe erfolgen voraussichtlich umgehend nach Zuschlagserteilung. Leistungen, welche innerhalb der Vertragslaufzeit abgerufen werden, sind auch nach Vertragsende zu erbringen. Für sie gelten dieselben Vertragsbedingungen.\n\n-Vorlaufende Transition (Werkleistung):\nDie vorlaufende Transition umfasst sämtliche Tätigkeiten des Auftragnehmers von der Einarbeitung bis zur verantworteten Übernahme des Managed Service der E-AKTE.\nDer Leistungszeitraum dieser Leistung beträgt bis zu drei Kalendermonate und endet mit der fachlichen Abnahme der Leistung. Der Beginn der vorlaufenden Transition erfolgt voraussichtlich in Abstimmung zwischen BA und Auftragnehmer direkt nach Zuschlagserteilung. Sofern der Vorauftragnehmer erneut den Zuschlag erhalten sollte, beginnt der Leistungszeitraum ab Zuschlag mit den Leistungen des Managed Service.\n\n-Ergänzendes DL-Kontingent, optional: \nZusätzlich besteht für die BA die Möglichkeit, ein ergänzendes, optionales\nDienstleistungskontingent abzurufen, um bei den in der Anlage 4 zur Leistungs- beschreibung dargestellten Skills bei beispielsweiser operativer Notwendigkeit eine vorübergehende Personalverstärkung zu erhalten. Die geschätzte Abrufmenge über den maximal möglichen Leistungszeitraum hinweg beträgt 4.000 Personentage (PT). Dies entspricht 32.000 Personenstunden (PS).\n\n-Exit-Management:\nDie Leistungen des Exitmanagements, die optional während der Vertragslaufzeit abgerufen werden, sind erst nach dem Abschluss des Managed Service zu den vertraglichen Bedingungen, zu erbringen (siehe Leistungsbeschreibung Kapitel 7.3).\n\n-Abschließende Transition (optional):\nDie BA geht davon aus, dass die konkrete Durchführung der abschließenden Transition (Einarbeitung eines neuen Leistungserbringers) ca. 2 Monate dauert. Die abschließende Transition endet zeitgleich mit der Leistungserbringung.\n\nWeitere Informationen erhalten Sie in der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d2221abb-5184-4090-871c-5aef464369c9",
+  "version": "01",
+  "title": "Managed Service E-AKTE 2027",
+  "description": "Managed Service Leistungen zur Pflege und Unterstützung des Basisdienstes E-AKTE, sowie vorl. Transition und opt. abschließende Transition / Exitmanagement, DL-Kontingent (32.000 PS)",
+  "procedureType": "open",
+  "nuts": [
+   "DEZZZ"
+  ],
+  "cpv": [
+   "72000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Managed Service E-AKTE 2027",
+    "description": "Beschaffungsgegenstand ist ein Managed Service zur Bereitstellung des Systems E-AKTE als produktionsreifer Liefergegenstand und aller dafür notwendigen fachlichen und technischen Entwicklungsarbeiten hinsichtlich gesetzlicher und standardisierter Anforderungen, Qualitätssicherung und Pflege der E-AKTE der Bundesagentur für Arbeit sowie Schnittstellenkommunikation und die Anbindung weiterer Verfahren und Projekte an den Basisdienst. Dazu gehört die Durchführung der Anwendungsentwicklung E-AKTE inkl. Analyse des Anwendungsdesigns bei Änderungen an der Oberfläche sowie Beurteilung der Auswirkungen auf die Konfiguration und Infrastruktur.\n\nDas IT-Systemhaus der BA verantwortet die IT-Betriebsführung und übernimmt diese. Dies schließt die Bereitstellung der dafür notwendigen IT-Infrastruktur mit ein. Beim ersten Einsatz wie auch bei einem Wechsel des eingesetzten Personals ist zu berücksichtigen, dass eine erweiterte Sicherheitsüberprüfung (Ü2) nach § 9 SÜG für den (in der BA) neuen Dienstleister durchzuführen ist.\n\nDie ersten Abrufe erfolgen voraussichtlich umgehend nach Zuschlagserteilung. Leistungen, welche innerhalb der Vertragslaufzeit abgerufen werden, sind auch nach Vertragsende zu erbringen. Für sie gelten dieselben Vertragsbedingungen.\n\n-Vorlaufende Transition (Werkleistung):\nDie vorlaufende Transition umfasst sämtliche Tätigkeiten des Auftragnehmers von der Einarbeitung bis zur verantworteten Übernahme des Managed Service der E-AKTE.\nDer Leistungszeitraum dieser Leistung beträgt bis zu drei Kalendermonate und endet mit der fachlichen Abnahme der Leistung. Der Beginn der vorlaufenden Transition erfolgt voraussichtlich in Abstimmung zwischen BA und Auftragnehmer direkt nach Zuschlagserteilung. Sofern der Vorauftragnehmer erneut den Zuschlag erhalten sollte, beginnt der Leistungszeitraum ab Zuschlag mit den Leistungen des Managed Service.\n\n-Ergänzendes DL-Kontingent, optional: \nZusätzlich besteht für die BA die Möglichkeit, ein ergänzendes, optionales\nDienstleistungskontingent abzurufen, um bei den in der Anlage 4 zur Leistungs- beschreibung dargestellten Skills bei beispielsweiser operativer Notwendigkeit eine vorübergehende Personalverstärkung zu erhalten. Die geschätzte Abrufmenge über den maximal möglichen Leistungszeitraum hinweg beträgt 4.000 Personentage (PT). Dies entspricht 32.000 Personenstunden (PS).\n\n-Exit-Management:\nDie Leistungen des Exitmanagements, die optional während der Vertragslaufzeit abgerufen werden, sind erst nach dem Abschluss des Managed Service zu den vertraglichen Bedingungen, zu erbringen (siehe Leistungsbeschreibung Kapitel 7.3).\n\n-Abschließende Transition (optional):\nDie BA geht davon aus, dass die konkrete Durchführung der abschließenden Transition (Einarbeitung eines neuen Leistungserbringers) ca. 2 Monate dauert. Die abschließende Transition endet zeitgleich mit der Leistungserbringung.\n\nWeitere Informationen erhalten Sie in der Leistungsbeschreibung.",
+    "cpv": [
+     "72000000"
+    ],
+    "nuts": [
+     "DEZZZ"
+    ],
+    "deadline": "2026-11-26T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "§ 46 VgV - technische und berufliche Leistungsfähigkeit:\n\n-Vorhandensein ausreichender Berufserfahrung; nachgewiesen durch Vorlage zweier Unternehmensreferenzen in Form einer Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Vordruck D.5) sowie Nachweis zur Eignung mittels zweier Unternehmensreferenzen (Eignungsanforderungen E.2; Kriterien B2 und B3 sowie Fragebogen zur Eignungsprüfung; Kriterien B.1.1.1.2 und B.1.1.1.3)\n\nMindeststandard:\nBei den Referenzen muss es sich um eine zum Ausschreibungsgegenstand vergleichbare Tätigkeit handeln. Das geforderte Leistungsspektrum umfasst dabei mindestens:\n-Bearbeitung von Demands\n-Testmanagement\n-Durchführung von Deployments / Pflege\n\nDie Laufzeit der beiden Referenzen muss mindestens 12 Zeitmonate betragen. Beide Referenzen dürfen nicht länger als 3 Kalenderjahre vor dem Tag der Veröffentlichung dieses Verfahrens absolviert worden sein.\nDas Gesamtvolumen muss mindestens 3 Mio. € (netto) oder höher sein.\n\nMindestanforderungen für die fachliche Eignung hinsichtlich der wirtschaftlichen und finanziellen sowie der technischen und beruflichen Leistungsfähigkeit: Es müssen mindestens 1600 Eignungspunkte insgesamt erreicht werden."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "§ 45 VgV - wirtschaftliche und finanzielle Leistungsfähigkeit:\n\n- Angabe des Netto-Jahresumsatzes  in den letzten drei Jahren (2023 bis 2025) in dem Tätigkeitsbereich des Ausschreibungsgegenstandes; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Vordruck D.4) sowie Nachweis zur Eignung mittels Angabe (Fragebogen zur Eignungsprüfung; Kriterium B1.1.1.1 / Eignungsanforderungen E.2; Kriterium B1)\n\nBei Bietergemeinschaften und Generalunternehmen/ Subunternehmen werden die Umsätze addiert. Bitte beachten Sie, dass die Umsätze getrennt auszuweisen sind, sofern diese im Zuge der Eignungsleihe einbezogen\nwerden sollen. Ebenso verhält es sich mit den Umsätzen der Unternehmen der Bietergemeinschaft oder des Generalunternehmers bzw. der geplanten Subunternehmer. Aus den angegebenen Jahresumsatzzahlen wird der\nDurchschnitt gebildet und entsprechend bepunktet."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung",
+      "description": "einfache UfAB-Richtwertmethode",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "einfache Richtwertmethode",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

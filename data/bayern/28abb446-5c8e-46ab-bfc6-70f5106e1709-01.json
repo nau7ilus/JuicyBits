@@ -1,0 +1,396 @@
+{
+ "id": "28abb446-5c8e-46ab-bfc6-70f5106e1709-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "28abb446-5c8e-46ab-bfc6-70f5106e1709",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=28abb446-5c8e-46ab-bfc6-70f5106e1709",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:28abb446-5c8e-46ab-bfc6-70f5106e1709-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:28abb446-5c8e-46ab-bfc6-70f5106e1709-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/28abb446-5c8e-46ab-bfc6-70f5106e1709?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag NetApp",
+  "buyer": "Zweites Deutsches Fernsehen",
+  "cpv": [
+   "30200000",
+   "48000000"
+  ],
+  "nuts": [
+   "DEB35",
+   "DE712",
+   "DE212",
+   "DED51",
+   "DE600",
+   "DE501",
+   "DE300",
+   "DEA23"
+  ],
+  "deadline": "2026-10-27T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d3c0f09f-a29c-4007-a052-92857b9c2d13",
+  "id": "28abb446-5c8e-46ab-bfc6-70f5106e1709",
+  "date": "2026-10-20T10:05:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweites Deutsches Fernsehen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 149 065 327",
+     "legalName": "Zweites Deutsches Fernsehen"
+    },
+    "address": {
+     "streetAddress": "ZDF-Straße 1",
+     "locality": "Mainz",
+     "region": "DEB35",
+     "postalCode": "55127",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "leadBuyer",
+     "procuringEntity",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "ARD-Sternpunkt",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 114 106 635",
+     "legalName": "ARD-Sternpunkt"
+    },
+    "address": {
+     "streetAddress": "c/o Hessischer Rundfunk",
+     "locality": "Frankfurt",
+     "region": "DE712",
+     "postalCode": "60320",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Bayerischer Rundfunk",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 129 523 494",
+     "legalName": "Bayerischer Rundfunk"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80335",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Hessischer Rundfunk",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 114110440",
+     "legalName": "Hessischer Rundfunk"
+    },
+    "address": {
+     "locality": "Frankfurt",
+     "region": "DE712",
+     "postalCode": "60320",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Mitteldeutscher Rundfunk",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "DE141510836",
+     "legalName": "Mitteldeutscher Rundfunk"
+    },
+    "address": {
+     "locality": "Leipzig",
+     "region": "DED51",
+     "postalCode": "04360",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Norddeutscher Rundfunk",
+    "id": "ORG-0006",
+    "identifier": {
+     "id": "DE 1185 09 776",
+     "legalName": "Norddeutscher Rundfunk"
+    },
+    "address": {
+     "locality": "Hamburg",
+     "region": "DE600",
+     "postalCode": "20149",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Radio Bremen",
+    "id": "ORG-0007",
+    "identifier": {
+     "id": "DE 114 397 654",
+     "legalName": "Radio Bremen"
+    },
+    "address": {
+     "locality": "Bremen",
+     "region": "DE501",
+     "postalCode": "28195",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "IVZ im RBB",
+    "id": "ORG-0008",
+    "identifier": {
+     "id": "DE 22 88 47 705",
+     "legalName": "IVZ im RBB"
+    },
+    "address": {
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "14057",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Westdeutscher Rundfunk",
+    "id": "ORG-0009",
+    "identifier": {
+     "id": "DE 122 79 0169",
+     "legalName": "Westdeutscher Rundfunk"
+    },
+    "address": {
+     "locality": "Köln",
+     "region": "DEA23",
+     "postalCode": "50667",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Ministerium für Wirtschaft, Verkehr, Landwirtschaft und Weinbau",
+    "id": "ORG-0010",
+    "identifier": {
+     "id": "07-0001801100000-05",
+     "legalName": "Ministerium für Wirtschaft, Verkehr, Landwirtschaft und Weinbau"
+    },
+    "address": {
+     "streetAddress": "Stiftsstraße 9",
+     "locality": "Mainz",
+     "region": "DEB35",
+     "postalCode": "55116",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweites Deutsches Fernsehen",
+   "id": "DE 149 065 327",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zweites Deutsches Fernsehen"
+   },
+   "address": {
+    "streetAddress": "ZDF-Straße 1",
+    "locality": "Mainz",
+    "region": "DEB35",
+    "postalCode": "55127",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d3c0f09f-a29c-4007-a052-92857b9c2d13",
+   "title": "Rahmenvertrag NetApp",
+   "description": "Die Auftraggeber beabsichtigen den Abschluss eines Rahmenvertrages für die Lieferung von NetApp Hardware-, Softwarekomponenten, Professional Services und Wartung durch NetApp, sowie optional unterstützender Dienstleistungen im NetApp Umfeld durch den Anbieter selbst.",
+   "procuringEntity": {
+    "name": "Zweites Deutsches Fernsehen",
+    "id": "DE 149 065 327"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30200000",
+      "description": "Computer equipment and supplies"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "48000000",
+       "description": "Software package and information systems"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Alle weiteren Erfüllungsorte sind den Vergabeunterlagen zu entnehmen. Weitere Erfüllungsorte in Deutschland können während der Vertragslaufzeit ergänzt werden."
+     },
+     "deliveryAddress": {
+      "streetAddress": "ZDF-Straße 1",
+      "locality": "Mainz",
+      "region": "DEB35",
+      "postalCode": "55127",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXVHYMUDYD9A33DX/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-20T10:05:19.363Z",
+     "description": "Fristverlängerung",
+     "amendsReleaseID": "a8db5596-91ea-4728-b1b6-346ad9bf0410-01",
+     "releaseID": "28abb446-5c8e-46ab-bfc6-70f5106e1709-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag NetApp",
+     "description": "Siehe Beschaffungsvorhaben",
+     "contractPeriod": {
+      "durationInDays": 1080
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "28abb446-5c8e-46ab-bfc6-70f5106e1709",
+  "version": "01",
+  "title": "Rahmenvertrag NetApp",
+  "description": "Die Auftraggeber beabsichtigen den Abschluss eines Rahmenvertrages für die Lieferung von NetApp Hardware-, Softwarekomponenten, Professional Services und Wartung durch NetApp, sowie optional unterstützender Dienstleistungen im NetApp Umfeld durch den Anbieter selbst.",
+  "procedureType": "open",
+  "nuts": [
+   "DEB35"
+  ],
+  "cpv": [
+   "30200000",
+   "48000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag NetApp",
+    "description": "Siehe Beschaffungsvorhaben",
+    "cpv": [
+     "30200000",
+     "48000000"
+    ],
+    "nuts": [
+     "DEB35"
+    ],
+    "deadline": "2026-10-27T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 36,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis über die Eintragung in ein Berufs- oder Handelsregister (Mit dem Angebot; Keine oder anderweitige Formerfordernis): Nachweis über die Eintragung in einem Berufs- oder Handelsregister (z.B. Handelsregisterauszug) oder sonstige Bescheinigung oder Erklärung i.S. von Anhang XI der Richtlinie 2014/24/EU, wenn dies nach den Rechtsvorschriften des jeweiligen Niederlassungs- bzw. Herkunftsstaates Voraussetzung für die erlaubte Berufsausübung ist. \nDer Nachweis darf nicht älter als 6 Monate vor Veröffentlichung der EU-Bekanntmachung/Aufforderung zur Angebotsabgabe sein"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung Sanktionsliste Russland (Mit dem Angebot; Mittels Eigenerklärung): \"Eigenerklärung, dass kein Verstoß gegen das 5. EU-Sanktionspakets - Artikel 5k der Verordnung (EU) 2022/576 (https://eur-lex.europa.eu/...) des Rates vom 8. April 2022 zur Änderung der Verordnung (EU) Nr. 833/2014 über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren - vorliegt und nicht mehr als 10% des Auftragswertes auf betroffene Unternehmen entfallen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Bonitätsnachweis (Mit dem Angebot; Mittels Eigenerklärung): Bonitätsbescheinigung* einer Hausbank (nicht älter als 6 Monate)"
+     },
+     {
+      "type": "slc-sec-proc",
+      "description": "Beschreibung der technisch-organisatorischen Maßnahmen gem. DS-GVO (Mit dem Angebot; Keine oder anderweitige Formerfordernis): Die Beschreibung kann unter Verwendung der veröffentlichten Tabelle erfolgen oder formlos als pdf."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Erklärung zum Nichtvorliegen von Ausschlussgründen und Maßnahmen zur Selbstreinigung gemäß § 42 Abs. 1 VgV i.V.m. §§ 123 - 125 GWB (Mit dem Angebot; Keine oder anderweitige Formerfordernis): Formular \"Erklaerung_Nichtvorliegen_Ausschlussgruende\""
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Eignungsnachweise (Mit dem Angebot; Keine oder anderweitige Formerfordernis): Der Bieter legt entsprechende Nachweise/Zertifikate, die die Erfüllung der Eignungskriterien belegen vor."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Nichtvorliegen von Ausschlussgründen - Erklärung zum Nichtvorliegen von Ausschlussgründen und Maßnahmen zur Selbstreinigung gemäß § 42 Abs. 1 VgV i.V.m. §§ 123 - 125 GWB\nFormular \"Erklaerung_Nichtvorliegen_Ausschlussgruende\""
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Abschluss einer Betriebshaftpflichtversicherung - Eigenerklärung des Bewerbers/des Mitglieds der Bewerbergemeinschaft, dass er dem Auftraggeber unaufgefordert innerhalb einer Frist von 7 Werktagen nachdem der Zuschlag an ihn erteilt wurde schriftlich den Nachweis einer Betriebshaftpflichtversicherung eines in der Europäischen Union zugelassenen Versicherers vorlegen wird.\nVersicherungsschutz:\n1. in Höhe von mindestens 10 Mio. EUR pro Schadensfall für schuldhaft verursachte Peronen- und Sachschäden besteht oder bis zum Projektstart abgeschlossen wird (keine Haftungsbeschränkung siehe Vergabe- und Vertragsunterlagen).\n2. in Höhe von mindestens 1 Mio. EUR pro Schadensfall für schuldhaft verursachte Vermögensschäden besteht oder bis zum Projektstart abgeschlossen wird (keine Haftungsbeschränkung siehe Vergabe- und Vertragsunterlagen).\n3. dass die Dauer des Versicherungsschutzes für die Vertragslaufzeit aufrecht erhalten wird.\n4. dass die sonstigen Bedingungen des Versicherungsschutzes den allgemeinen Bedingungen innerhalb des Großkunden- und Konzerngeschäfts der in der Europäischen Union zugelassenen Versicherer entsprechen."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Zertifizierungen / Partnerstatus - NetApp Partnerstatus Prestige\nNetapp Solution Competencies\nNetapp Services Certified\nNCDA-Zertifizierung\nNCIE-Zertifizierung\nsiehe Dokument ZDF-121-OV-26-008_Eignung"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Eintragung in das Handelsregister - Eintragung in einem Berufs- oder Handelsregister (z.B. Handelsregisterauszug) oder sonstige Bescheinigung oder Erklärung i.S. von Anhang XI der Richtlinie 2014/24/EU, wenn dies nach den Rechtsvorschriften des jeweiligen Niederlassungs- bzw. Herkunftsstaates Voraussetzung für die erlaubte Berufsausübung ist."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

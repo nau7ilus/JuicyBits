@@ -1,0 +1,581 @@
+{
+ "id": "abf1dda3-df01-44e2-b7e0-6d79aaa82195-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "abf1dda3-df01-44e2-b7e0-6d79aaa82195",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=abf1dda3-df01-44e2-b7e0-6d79aaa82195",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:abf1dda3-df01-44e2-b7e0-6d79aaa82195-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:abf1dda3-df01-44e2-b7e0-6d79aaa82195-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/abf1dda3-df01-44e2-b7e0-6d79aaa82195?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Bauüberwachung, ESTW-A Wernberg, Strecke 5860, Bf Wernberg",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71521000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE239"
+  ],
+  "deadline": null,
+  "lots": 6
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1420b238-2b98-45ac-b51a-71f631187015",
+  "id": "abf1dda3-df01-44e2-b7e0-6d79aaa82195",
+  "date": "2026-10-25T07:50:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "DB Engineering & Consulting GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "a91e16be-2254-4eae-8566-af3d9b6f5d9b",
+     "legalName": "DB Engineering & Consulting GmbH"
+    },
+    "address": {
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10829",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1420b238-2b98-45ac-b51a-71f631187015",
+   "title": "Bauüberwachung, ESTW-A Wernberg, Strecke 5860, Bf Wernberg",
+   "description": "Das Projekt \"ESTW-A Wernberg\" befindet sich auf der Strecke 5860 im Netz Regensburg. Das Projekt umfasst den Bau eines neuen Modulgebäudes inkl. dazugehöriger LST Maßnahmen, eine EÜ Erneuerung (km 70,223), 3 Stützwände (343m Gesamtlänge), eine FÜ Erneuerung (km 69,531) inkl. einem neuen Mittelbahnsteig, die Erneuerung von 4 BÜs sowie umfangreiche Oberbaumaßnahmen.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Wernberg-Köblitz",
+      "region": "DE239",
+      "postalCode": "92533",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Wernberg-Köblitz",
+      "region": "DE239",
+      "postalCode": "92533",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Wernberg-Köblitz",
+      "region": "DE239",
+      "postalCode": "92533",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Wernberg-Köblitz",
+      "region": "DE239",
+      "postalCode": "92533",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Wernberg-Köblitz",
+      "region": "DE239",
+      "postalCode": "92533",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Wernberg-Köblitz",
+      "region": "DE239",
+      "postalCode": "92533",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0006"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-12T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "DB Engineering & Consulting GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "DB Engineering & Consulting GmbH"
+     },
+     "address": {
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "10829",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Bauüberwachung Oberbau / KIB",
+     "description": "Leistungsbilder: \n\n1.1. Grundleistungen Bauvertragliche fachtechnische BÜW\n1.2 eisenbahnbetriebliche Leistungen und Sicherungsüberwachung\n1.3 bauaufsichtliche Leistungen nach VV BAU bzw. VV BAU-STE des EBA\n1.4 Leistungen nach BaustellV",
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Bauüberwachung LST",
+     "description": "Leistungsbilder: \n\n1.1. Grundleistungen Bauvertragliche fachtechnische BÜW\n1.2 eisenbahnbetriebliche Leistungen und Sicherungsüberwachung\n1.3 bauaufsichtliche Leistungen nach VV BAU bzw. VV BAU-STE des EBA\n",
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Bauüberwachung 50 Hz",
+     "description": "Leistungsbilder: \n\n1.1. Grundleistungen Bauvertragliche fachtechnische BÜW\n1.2 eisenbahnbetriebliche Leistungen und Sicherungsüberwachung\n1.3 bauaufsichtliche Leistungen nach VV BAU bzw. VV BAU-STE des EBA",
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Umweltfachliche Bauüberwachung",
+     "description": "Leistungsbilder: \n\n1.11. umweltfachliche BÜW",
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Geotechnische Bauüberwachung",
+     "description": "Leistungsbilder: \n\n1.13. Geotechnische BÜW",
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0006",
+     "title": "Bauüberwachung Abfallmanagement",
+     "description": "Leistungsbilder: \n\n1.7. Abfallmanagement",
+     "contractPeriod": {
+      "startDate": "2026-11-20T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   },
+   {
+    "id": "LOT-0004",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0004"
+    ]
+   },
+   {
+    "id": "LOT-0005",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0005"
+    ]
+   },
+   {
+    "id": "LOT-0006",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0006"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "abf1dda3-df01-44e2-b7e0-6d79aaa82195",
+  "version": "01",
+  "title": "Bauüberwachung, ESTW-A Wernberg, Strecke 5860, Bf Wernberg",
+  "description": "Das Projekt \"ESTW-A Wernberg\" befindet sich auf der Strecke 5860 im Netz Regensburg. Das Projekt umfasst den Bau eines neuen Modulgebäudes inkl. dazugehöriger LST Maßnahmen, eine EÜ Erneuerung (km 70,223), 3 Stützwände (343m Gesamtlänge), eine FÜ Erneuerung (km 69,531) inkl. einem neuen Mittelbahnsteig, die Erneuerung von 4 BÜs sowie umfangreiche Oberbaumaßnahmen.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE239"
+  ],
+  "cpv": [
+   "71521000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Bauüberwachung Oberbau / KIB",
+    "description": "Leistungsbilder: \n\n1.1. Grundleistungen Bauvertragliche fachtechnische BÜW\n1.2 eisenbahnbetriebliche Leistungen und Sicherungsüberwachung\n1.3 bauaufsichtliche Leistungen nach VV BAU bzw. VV BAU-STE des EBA\n1.4 Leistungen nach BaustellV",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 80
+     },
+     {
+      "type": "quality",
+      "name": "Belegungsfaktor",
+      "description": "Belegungsfaktor, Belegungsfaktor f = Summe MM / Monate (Einsatzzeit)\nDer Belegungsfaktor wird wie folgt ermittelt: \nDie \"Wertungssumme (Spalte J)\" entspricht der kalkulierten Gesamtsumme der MM der Kategorien \"A+Q\" und wird aus der Anlage 3.0 des Ingenieurvertrages ermittelt. Die Zuordnung der Personale zu den Kategorien erfolgt gemäß Anlage 2.0 \"Personaleinsatzliste\". Im Rahmen der Berechnung werden die Mannmonate der Kategorie \"Q\" nur mit maximal 30 Prozent der Gesamtsumme \"A+Q\" berücksichtigt.\nDie Monate „Einsatzzeit\" sind der für den Belegungsfaktor relevante Zeitabschnitt und ergeben sich aus den Baupha-sen BAU-AN inkl. Vor- und Nacharbeiten BÜW (x). Bei Aufgliederung der Baumaßnahme in mehrere Projekte oder Teilprojekte wird die Einsatzzeit (Monat) jeweils nur 1-fach gezählt.\nDer Belegungsfaktor ergibt sich als Quotient aus der ermittelten „Wertungssumme“ und der Monate Einsatzzeit.\nBei diesem Wertungskriterium erhält das Angebot mit dem höchsten Belegungsfaktor 5 Punkte, alle weiteren Angebo-te werden im prozentualen Verhältnis zum höchsten Belegungsfaktor bewertet. Entsprechende Erklärungen/ Nach-weise zu den gekennzeichneten Kriterien sind mit der Angebotsabgabe vorzulegen.",
+      "weight": 20
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Bauüberwachung LST",
+    "description": "Leistungsbilder: \n\n1.1. Grundleistungen Bauvertragliche fachtechnische BÜW\n1.2 eisenbahnbetriebliche Leistungen und Sicherungsüberwachung\n1.3 bauaufsichtliche Leistungen nach VV BAU bzw. VV BAU-STE des EBA",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 80
+     },
+     {
+      "type": "quality",
+      "name": "Belegungsfaktor",
+      "description": "Belegungsfaktor, Belegungsfaktor f = Summe MM / Monate (Einsatzzeit)\nDer Belegungsfaktor wird wie folgt ermittelt: \nDie \"Wertungssumme (Spalte J)\" entspricht der kalkulierten Gesamtsumme der MM der Kategorien \"A+Q\" und wird aus der Anlage 3.0 des Ingenieurvertrages ermittelt. Die Zuordnung der Personale zu den Kategorien erfolgt gemäß Anlage 2.0 \"Personaleinsatzliste\". Im Rahmen der Berechnung werden die Mannmonate der Kategorie \"Q\" nur mit maximal 30 Prozent der Gesamtsumme \"A+Q\" berücksichtigt.\nDie Monate „Einsatzzeit\" sind der für den Belegungsfaktor relevante Zeitabschnitt und ergeben sich aus den Baupha-sen BAU-AN inkl. Vor- und Nacharbeiten BÜW (x). Bei Aufgliederung der Baumaßnahme in mehrere Projekte oder Teilprojekte wird die Einsatzzeit (Monat) jeweils nur 1-fach gezählt.\nDer Belegungsfaktor ergibt sich als Quotient aus der ermittelten „Wertungssumme“ und der Monate Einsatzzeit.\nBei diesem Wertungskriterium erhält das Angebot mit dem höchsten Belegungsfaktor 5 Punkte, alle weiteren Angebo-te werden im prozentualen Verhältnis zum höchsten Belegungsfaktor bewertet. Entsprechende Erklärungen/ Nach-weise zu den gekennzeichneten Kriterien sind mit der Angebotsabgabe vorzulegen.",
+      "weight": 20
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Bauüberwachung 50 Hz",
+    "description": "Leistungsbilder: \n\n1.1. Grundleistungen Bauvertragliche fachtechnische BÜW\n1.2 eisenbahnbetriebliche Leistungen und Sicherungsüberwachung\n1.3 bauaufsichtliche Leistungen nach VV BAU bzw. VV BAU-STE des EBA",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 80
+     },
+     {
+      "type": "quality",
+      "name": "Belegungsfaktor",
+      "description": "Belegungsfaktor, Belegungsfaktor f = Summe MM / Monate (Einsatzzeit)\nDer Belegungsfaktor wird wie folgt ermittelt: \nDie \"Wertungssumme (Spalte J)\" entspricht der kalkulierten Gesamtsumme der MM der Kategorien \"A+Q\" und wird aus der Anlage 3.0 des Ingenieurvertrages ermittelt. Die Zuordnung der Personale zu den Kategorien erfolgt gemäß Anlage 2.0 \"Personaleinsatzliste\". Im Rahmen der Berechnung werden die Mannmonate der Kategorie \"Q\" nur mit maximal 30 Prozent der Gesamtsumme \"A+Q\" berücksichtigt.\nDie Monate „Einsatzzeit\" sind der für den Belegungsfaktor relevante Zeitabschnitt und ergeben sich aus den Baupha-sen BAU-AN inkl. Vor- und Nacharbeiten BÜW (x). Bei Aufgliederung der Baumaßnahme in mehrere Projekte oder Teilprojekte wird die Einsatzzeit (Monat) jeweils nur 1-fach gezählt.\nDer Belegungsfaktor ergibt sich als Quotient aus der ermittelten „Wertungssumme“ und der Monate Einsatzzeit.\nBei diesem Wertungskriterium erhält das Angebot mit dem höchsten Belegungsfaktor 5 Punkte, alle weiteren Angebo-te werden im prozentualen Verhältnis zum höchsten Belegungsfaktor bewertet. Entsprechende Erklärungen/ Nach-weise zu den gekennzeichneten Kriterien sind mit der Angebotsabgabe vorzulegen.",
+      "weight": 20
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Umweltfachliche Bauüberwachung",
+    "description": "Leistungsbilder: \n\n1.11. umweltfachliche BÜW",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis: Das Angebot mit dem niedrigsten Gesamthonorar gem. Vertrag §9 und der Anlage 3 ff. in Verbindung mit der Anlage 0.2 Zuschlagsschreiben erhält den Zuschlag.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Geotechnische Bauüberwachung",
+    "description": "Leistungsbilder: \n\n1.13. Geotechnische BÜW",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis: Das Angebot mit dem niedrigsten Gesamthonorar gem. Vertrag §9 und der Anlage 3 ff. in Verbindung mit der Anlage 0.2 Zuschlagsschreiben erhält den Zuschlag.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0006",
+    "title": "Bauüberwachung Abfallmanagement",
+    "description": "Leistungsbilder: \n\n1.7. Abfallmanagement",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-20+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis: Das Angebot mit dem niedrigsten Gesamthonorar gem. Vertrag §9 und der Anlage 3 ff. in Verbindung mit der Anlage 0.2 Zuschlagsschreiben erhält den Zuschlag.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

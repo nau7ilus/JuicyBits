@@ -1,0 +1,135 @@
+{
+ "id": "25969000-1",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "25969000",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25969000",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:25969000-1.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:25969000-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25969000?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "367/368 LF BTZ2 Ausstattung Bau",
+  "buyer": "Handwerkskammer für Mittelfranken",
+  "cpv": [
+   "43800000",
+   "42000000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25969000",
+  "id": "25969000",
+  "date": "2026-10-24T07:01:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Handwerkskammer für Mittelfranken",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Handwerkskammer für Mittelfranken"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Handwerkskammer für Mittelfranken",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Handwerkskammer für Mittelfranken"
+   }
+  },
+  "tender": {
+   "title": "367/368 LF BTZ2 Ausstattung Bau",
+   "description": "Das Projekt umfasst folgende Ausstattung:\nFilteranlagen \nKlebebank\nGleichlaufmischer\nSteinsäge\nSchnürgerüst\nHubwagen\n\n367/368 LF BTZ2 Ausstattung Bau",
+   "procuringEntity": {
+    "name": "Handwerkskammer für Mittelfranken"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "43800000",
+      "description": "Workshop equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "42000000",
+       "description": "Industrial machinery"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "90411 Sieboldstraße 9, 90411 Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "367/368 LF BTZ2 Ausstattung Bau",
+     "description": "Das Projekt umfasst folgende Ausstattung:\nFilteranlagen \nKlebebank\nGleichlaufmischer\nSteinsäge\nSchnürgerüst\nHubwagen\n\n367/368 LF BTZ2 Ausstattung Bau"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25969000",
+  "version": "1",
+  "title": "367/368 LF BTZ2 Ausstattung Bau",
+  "description": "Das Projekt umfasst folgende Ausstattung:\nFilteranlagen \nKlebebank\nGleichlaufmischer\nSteinsäge\nSchnürgerüst\nHubwagen\n\n367/368 LF BTZ2 Ausstattung Bau",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "43800000",
+   "42000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "367/368 LF BTZ2 Ausstattung Bau",
+    "description": "Das Projekt umfasst folgende Ausstattung:\nFilteranlagen \nKlebebank\nGleichlaufmischer\nSteinsäge\nSchnürgerüst\nHubwagen\n\n367/368 LF BTZ2 Ausstattung Bau",
+    "cpv": [
+     "43800000",
+     "42000000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "db84fcee-6d7b-40ee-a7b5-14017d59170b",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=db84fcee-6d7b-40ee-a7b5-14017d59170b",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:db84fcee-6d7b-40ee-a7b5-14017d59170b-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:db84fcee-6d7b-40ee-a7b5-14017d59170b-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/db84fcee-6d7b-40ee-a7b5-14017d59170b?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Bodenbelagsarbeiten",
   "buyer": "Deutsche Rentenversicherung Nordbayern, 40/7205 Bauangelegenheiten",
   "cpv": [
@@ -225,5 +225,54 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "db84fcee-6d7b-40ee-a7b5-14017d59170b",
+  "version": "01",
+  "title": "Bodenbelagsarbeiten",
+  "description": "Bodenbelagsarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "45432130",
+   "45432100",
+   "45432110"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Bodenbelagsarbeiten",
+    "description": "Im Haupthaus des Klinikkomplexes werden auf Grund einer räumlichen Umstrukturierung sowie von vorhergehenden und bereits abgeschlossenen Umbaumaßnahmen das erste, zweite und dritte Obergeschoss für einen Umbau und eine Modernisierung frei.\nIm Rahmen dieser Umbaumaßnahme sollen Intensivpflege- und rollstuhlgerechte Patientenzimmer sowie mehrere Arzt-, Schwestern- und Verwaltungsräume entstehen.\n\nDie einzelnen Bauabschnitte des Haupthauses werden zunächst auf Rohbauzustand rückgebaut. Die Umbaumaßnahmen erstrecken sich hauptsächlich auf den Innenbereich der einzelnen Räume und auf das Verbreitern und Erhöhen der Türöffnungen, Herstellen von neuen und Schließen von bestehenden Öffnungen in Beton- und Holzbalkendecken. Die Bodenbeläge werden in den 1. - 2.- und 3. Obergeschossen des Haupthauses verlegt.\nIn den Zimmern wird PVC-Belag verlegt.\nIn Fluren und Besprechungsräumen wird textiler Polvlies-Bodenbelag verlegt.\nIm Treppenhaus (Südflügen) wird der Teppichbelag ausgetauscht.",
+    "cpv": [
+     "45432130",
+     "45432100",
+     "45432110"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-09+01:00",
+    "plannedEnd": "2027-02-05+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preisbildung aus Wertungssumme des Angebots unter Berücksichtigung von Nachlässen, Erstattungsbeträgen aus der Lohngleitklausel und Instandhaltungsangeboten",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

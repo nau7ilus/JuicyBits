@@ -5,14 +5,14 @@
   "noticeId": "880335ea-1062-4ef5-9f58-0d3ec03b9868",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=880335ea-1062-4ef5-9f58-0d3ec03b9868",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:880335ea-1062-4ef5-9f58-0d3ec03b9868-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:880335ea-1062-4ef5-9f58-0d3ec03b9868-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/880335ea-1062-4ef5-9f58-0d3ec03b9868?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "SV-JWA-261026-004 - Modernisierung U-Bahnhof Odeonsplatz, Planung Baulogistik",
   "buyer": "Stadtwerke München GmbH",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE212"
   ],
-  "deadline": null,
+  "deadline": "2026-11-30T12:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -137,5 +137,78 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "880335ea-1062-4ef5-9f58-0d3ec03b9868",
+  "version": "01",
+  "title": "SV-JWA-261026-004 - Modernisierung U-Bahnhof Odeonsplatz, Planung Baulogistik",
+  "description": "Modernisierung U-Bahnhof Odeonsplatz, Planung Baulogistik",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71320000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "SV-JWA-261026-004 - Modernisierung U-Bahnhof Odeonsplatz, Planung Baulogistik",
+    "description": "Auftragsgegenstand sind Leistungen zur Erstellung der Baulogistikplanung, sowie die baubegleitenden Baulogistikplanung mit stufenweiser Beauftragung für die Modernisierung des Kreuzungsbahnhofs am Odeonsplatz. Die Baumaßnahmen werden großteils im laufenden Betrieb durch mehrere Gewerke stattfinden. Planung und Ausführung erfolgen mit Hilfe des Building Information Modelling (BIM) und unter Berücksichtigung der üblichen Taxonomie und Nachhaltigkeitsaspekte.",
+    "cpv": [
+     "71320000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-30T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2034-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Angaben zur wirtschaftlichen Verknüpfung mit anderen Unternehmen hinsichtlich des Grundsatzes der Trennung von Planung und Bauausführung;"
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Nachweis der Berechtigung zur Führung der Berufsbezeichnung: Zugelassen ist jeder, der nach den Gesetzen der Länder berechtigt ist, die Berufsbezeichnung Ingenieur oder Beratender Ingenieur zu tragen oder nach der EG-Richtlinie über eine allgemeine Regelung zur Anerkennung der Hochschuldiplome in der Bundesrepublik Deutschland als „Beratender Ingenieur“ oder „Ingenieur“ tätig zu werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer Berufshaftpflichtversicherung für Personenschäden sowie für Sonstige Schäden; die jeweiligen Deckungssummen sind den Vergabeunterlagen zu entnehmen; ersatzweise kann eine Bestätigung der Versicherung vorgelegt werden, dass die Deckungssumme im Auftragsfall auf die angegebenen Summen angepasst werden können;"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "riterium Umsatz: Erklärung über den Gesamtumsatz sowie den Umsatz in dem vergleichbaren Tätigkeitsbereich des Auftrags jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre. Die aufgestellte Forderung stellt keine Mindestanforderung im Hinblick auf die Dauer der Geschäftstätigkeit dar;"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Kriterium Personelle Ausstattung: Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei abgeschlossenen Kalenderjahren ersichtlich ist. Die aufgestellte Forderung stellt keine Mindestanforderung im Hinblick auf die Dauer der Geschäftstätigkeit dar;"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Kriterium Referenzen: Angabe von Referenzen über vergleichbare Leistungen die in den letzten bis zu 8 abgeschlossenen Kalenderjahren ausgeführt und fertiggestellt (= in Betrieb genommen) wurden. Hinsichtlich der Vergleichbarkeit wird auf die Kurzbeschreibung des Auftrags sowie die Vergabeunterlagen verwiesen. Die Referenzangaben beziehen sich auf folgende Aspekte:\nArt des Referenzobjekts mit Angaben zur Art der Maßnahme (z.B. Neubau, Umbau/Sanierung, Denkmal), zur vertraglichen Bindung, zum Ausführungsort, zu dessen Funktion und Nutzung, zu wesentlichen Planungskennwerten, zu wesentlichen Leistungskennwerten der technischen Anlagen, zu Baukosten (netto) nach Kostengruppen KG 300 bis 400. \nMindestens 1 eingereichte Referenz muss der Funktion „Infrastruktur/Verkehrsaufwerke“ entsprechen.\nBesondere Anforderungen und Rahmenbedingungen bei der Leistungserbringung aus einer Bauausführung unter laufendem Betrieb und unter Funktionserhalt, einer Bauausführung mit anteiliger schienengebundener Baulogistik. Erfahrung bei der Planung und Beantragung von Baustellenflächen und Verkehrsphasen in innerstädtischen Bereichen. Beantragung und Erwirkung verkehrsrechtlicher Anordnungen bei lokalen Behörden, sowie Erfahrung bei der Erstellung von Markierungsplänen als Grundlage der Einrichtung von Umleitungen.\nUmfang der erbrachten Leistungen mit Angaben zu bearbeiteten Leistungsbereichen,  zu abgerechneter Honorarsumme (netto); zu erbrachten Leistungen\nLeistungszeitraum mit Angaben zur Dauer der Planungsphase (Lph 3 bis 7), Dauer der Bauausführung (Lph 8), Datum der Inbetriebnahme"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Gewichtung: 100 %",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
 }

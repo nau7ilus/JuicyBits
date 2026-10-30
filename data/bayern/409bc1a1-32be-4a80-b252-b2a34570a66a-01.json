@@ -1,0 +1,205 @@
+{
+ "id": "409bc1a1-32be-4a80-b252-b2a34570a66a-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "409bc1a1-32be-4a80-b252-b2a34570a66a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=409bc1a1-32be-4a80-b252-b2a34570a66a",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:409bc1a1-32be-4a80-b252-b2a34570a66a-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:409bc1a1-32be-4a80-b252-b2a34570a66a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/409bc1a1-32be-4a80-b252-b2a34570a66a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott",
+  "buyer": "Landkreis Günzburg",
+  "cpv": [
+   "90510000",
+   "90514000"
+  ],
+  "nuts": [
+   "DE278"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-409bc1a1-32be-4a80-b252-b2a34570a66a",
+  "id": "409bc1a1-32be-4a80-b252-b2a34570a66a",
+  "date": "2026-10-23T02:08:35Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Günzburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8228",
+     "legalName": "Landkreis Günzburg"
+    },
+    "address": {
+     "streetAddress": "An der Kapuzinermauer 1",
+     "locality": "Günzburg",
+     "region": "DE278",
+     "postalCode": "89312",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "30462a08-3a75-4b0c-bbf6-778861aa8e7d",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Günzburg",
+   "id": "8228",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Günzburg"
+   },
+   "address": {
+    "streetAddress": "An der Kapuzinermauer 1",
+    "locality": "Günzburg",
+    "region": "DE278",
+    "postalCode": "89312",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "409bc1a1-32be-4a80-b252-b2a34570a66a",
+   "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott",
+   "description": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott im Landkreis Günzburg",
+   "procuringEntity": {
+    "name": "Landkreis Günzburg",
+    "id": "8228"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "region": "DE278",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/409bc1a1-32be-4a80-b252-b2a34570a66a",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott",
+     "description": "Der Landkreis Günzburg beabsichtigt einen Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott im Landkreis Günzburg zu vergeben;\n\nVertragslaufzeit 4 Jahre; 01.01.2027 - 31.12.2030\n\nIm Rahmen der Leistungserbringung sind vom Auftragnehmer folgende Teilleistungen zu erbringen:\n- Containergestellung zur Erfassung von Sperrschrott an den Wertstoffhöfen\n- Gestellung von fahrbaren Containertreppen als Aufstiegshilfen\n- Abfuhr der Container zur Erfassung von Sperrschrott und Transport zu eigens gewählten Verwertungs- und/oder Entsorgungsanlagen\n- ordnungsgemäße Verwertung von Sperrschrott\n\nAlle weiteren Informationen und Rahmenbedingungen sind den Vergabeunterlagen, insbesondere dem Leistungsverzeichnis zu entnehmen.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "409bc1a1-32be-4a80-b252-b2a34570a66a",
+  "version": "01",
+  "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott",
+  "description": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott im Landkreis Günzburg",
+  "procedureType": "open",
+  "nuts": [
+   "DE278"
+  ],
+  "cpv": [
+   "90510000",
+   "90514000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott",
+    "description": "Der Landkreis Günzburg beabsichtigt einen Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Sperrschrott im Landkreis Günzburg zu vergeben;\n\nVertragslaufzeit 4 Jahre; 01.01.2027 - 31.12.2030\n\nIm Rahmen der Leistungserbringung sind vom Auftragnehmer folgende Teilleistungen zu erbringen:\n- Containergestellung zur Erfassung von Sperrschrott an den Wertstoffhöfen\n- Gestellung von fahrbaren Containertreppen als Aufstiegshilfen\n- Abfuhr der Container zur Erfassung von Sperrschrott und Transport zu eigens gewählten Verwertungs- und/oder Entsorgungsanlagen\n- ordnungsgemäße Verwertung von Sperrschrott\n\nAlle weiteren Informationen und Rahmenbedingungen sind den Vergabeunterlagen, insbesondere dem Leistungsverzeichnis zu entnehmen.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DE278"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Im Rahmen der Eigenerklärung wird mindestens eine, mit der zu vergebenden Leistung hinsichtlich der Leistungsart und des Auftragswertes vergleichbare Referenz aus den letzten drei Geschäftsjahren gefordert."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Im Rahmen der Eigenerklärung wird der Abschluss einer Berufs- und Betriebshaftpflichtversicherung vor Leistungsbeginn mit folgenden Mindestsummen gefordert:\n\n- für Personenschäden in Höhe von mindestens 2,5 Mio. EUR\n- für sonstige Schäden (Sach- und Vermögensschäden) in Höhe von mindestens 1,0 Mio. EUR"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eigenerklärung, dass eine Eintragung im Berufs- oder Handelsregister, sowie bei der Berufsgenossenschaft (soweit hierzu eine Eintragungspflicht besteht) vorliegt"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Eigenerklärung, dass eine Eintragung im Berufs- oder Handelsregister, sowie bei der Berufsgenossenschaft (soweit hierzu eine Eintragungspflicht besteht) vorliegt"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

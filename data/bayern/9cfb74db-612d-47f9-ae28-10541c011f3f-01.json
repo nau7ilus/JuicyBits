@@ -5,14 +5,14 @@
   "noticeId": "9cfb74db-612d-47f9-ae28-10541c011f3f",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9cfb74db-612d-47f9-ae28-10541c011f3f",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:9cfb74db-612d-47f9-ae28-10541c011f3f-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:9cfb74db-612d-47f9-ae28-10541c011f3f-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/9cfb74db-612d-47f9-ae28-10541c011f3f?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Erweiterung der Berufsschule München Land mit Neubau einer Sporthalle und Wohnungen - VE309 - Trockenbauarbeiten",
   "buyer": "Landratsamt München - Zentrale Vergabestelle und Einkauf",
   "cpv": [
@@ -225,5 +225,57 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "9cfb74db-612d-47f9-ae28-10541c011f3f",
+  "version": "01",
+  "title": "Erweiterung der Berufsschule München Land mit Neubau einer Sporthalle und Wohnungen - VE309 - Trockenbauarbeiten",
+  "description": "Inhalt der Ausschreibung sind Trockenbauwände und Trockenbaudecken mit folgenden Hauptmassen:\nTrockenbauwände, Einfachständerwerk: ca. 4.1620m2\nTrockenbauinstallationswände: ca. 91m2\nTrockenbauvorsatzschalen, selbsttragend: ca. 1.540m2\nTrockenbaudecken (GK, gelocht und ungelocht): ca. 5.869m2\nTrockenbau-Baffeldecke: Baffel BxH 30x300mm, Baffellänge insgesamt: 3.596m",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45324000",
+   "45421146",
+   "44112310"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Erweiterung der Berufsschule München Land mit Neubau einer Sporthalle und Wohnungen - VE309 - Trockenbauarbeiten",
+    "description": "Inhalt der Ausschreibung sind Trockenbauwände und Trockenbaudecken mit folgenden Hauptmassen:\nTrockenbauwände, Einfachständerwerk: ca. 4.1620m2\nTrockenbauinstallationswände: ca. 91m2\nTrockenbauvorsatzschalen, selbsttragend: ca. 1.540m2\nTrockenbaudecken (GK, gelocht und ungelocht): ca. 5.869m2\nTrockenbau-Baffeldecke: Baffel BxH 30x300mm, Baffellänge insgesamt: 3.596m",
+    "cpv": [
+     "45324000",
+     "45421146",
+     "44112310"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 255,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

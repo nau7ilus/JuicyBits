@@ -1,0 +1,205 @@
+{
+ "id": "3da502e0-0d9f-4b12-8c95-8462a6b8e70e-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "3da502e0-0d9f-4b12-8c95-8462a6b8e70e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3da502e0-0d9f-4b12-8c95-8462a6b8e70e",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:3da502e0-0d9f-4b12-8c95-8462a6b8e70e-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:3da502e0-0d9f-4b12-8c95-8462a6b8e70e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3da502e0-0d9f-4b12-8c95-8462a6b8e70e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Heizungsarbeiten",
+  "buyer": "Caritas-Diakonie Schulträger gGmbH",
+  "cpv": [
+   "45331000"
+  ],
+  "nuts": [
+   "DE241",
+   "DE245"
+  ],
+  "deadline": "2026-11-26T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c3341919-9099-4d05-9d04-07239307888f",
+  "id": "3da502e0-0d9f-4b12-8c95-8462a6b8e70e",
+  "date": "2026-10-18T09:42:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Joseph-Stiftung",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRA9587",
+     "legalName": "Joseph-Stiftung"
+    },
+    "address": {
+     "streetAddress": "Hans-Birkmayr-Str. 65",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96050",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Anbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Caritas-Diakonie Schulträger gGmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB9423",
+     "legalName": "Caritas-Diakonie Schulträger gGmbH"
+    },
+    "address": {
+     "streetAddress": "Hainstr. 59",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Caritas-Diakonie Schulträger gGmbH",
+   "id": "HRB9423",
+   "identifier": {
+    "id": "ORG-0003",
+    "legalName": "Caritas-Diakonie Schulträger gGmbH"
+   },
+   "address": {
+    "streetAddress": "Hainstr. 59",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c3341919-9099-4d05-9d04-07239307888f",
+   "title": "Heizungsarbeiten",
+   "description": "Ausführungsgrundlage ist die VOB/C ATV DIN 18299 \"Allgemeine Regelungen für Bauleistungen jeder Art\",ATV DIN 18380 \"Heizanlagen und zentrale Wassererwärmungsanlagen\" ATV DIN 18421 \"Dämmarbeiten an technischen Anlagen\" und die ATV DIN 18386 \"Gebäudeautomation\" sowie DIN 4102 Brandverhalten von Baustoffen und Bauteilen, DIN 4109 Schallschutz im Hochbau, und die Allgemein anerkannten Regeln der Technik.Anschluss an eine bauseitige Fernwärmestation 140 kW3 Heizkreise für Heizung2 Kältekreise mit Plattenwärmetauscher als Sytemtrenner1 Kältemaschine 70 kW1000 m Edelstahlleitung2100 m²21 Fußbodenheizungsverteiler3 Heizkörper",
+   "procuringEntity": {
+    "name": "Caritas-Diakonie Schulträger gGmbH",
+    "id": "HRB9423"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331000",
+      "description": "Heating, ventilation and air-conditioning installation work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Emil-Kemmer-Straße",
+      "locality": "Hallstadt",
+      "region": "DE245",
+      "postalCode": "96103",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=330937",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Heizungsarbeiten",
+     "description": "Ausführungsgrundlage ist die VOB/C ATV DIN 18299 \"Allgemeine Regelungen für Bauleistungen jeder Art\",ATV DIN 18380 \"Heizanlagen und zentrale Wassererwärmungsanlagen\" ATV DIN 18421 \"Dämmarbeiten an technischen Anlagen\" und die ATV DIN 18386 \"Gebäudeautomation\" sowie DIN 4102 Brandverhalten von Baustoffen und Bauteilen, DIN 4109 Schallschutz im Hochbau, und die Allgemein anerkannten Regeln der Technik.Anschluss an eine bauseitige Fernwärmestation 140 kW3 Heizkreise für Heizung2 Kältekreise mit Plattenwärmetauscher als Sytemtrenner1 Kältemaschine 70 kW1000 m Edelstahlleitung2100 m²21 Fußbodenheizungsverteiler3 Heizkörper",
+     "contractPeriod": {
+      "startDate": "2027-03-15T00:00:00+01:00",
+      "endDate": "2028-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "3da502e0-0d9f-4b12-8c95-8462a6b8e70e",
+  "version": "01",
+  "title": "Heizungsarbeiten",
+  "description": "Ausführungsgrundlage ist die VOB/C ATV DIN 18299 \"Allgemeine Regelungen für Bauleistungen jeder Art\",ATV DIN 18380 \"Heizanlagen und zentrale Wassererwärmungsanlagen\" ATV DIN 18421 \"Dämmarbeiten an technischen Anlagen\" und die ATV DIN 18386 \"Gebäudeautomation\" sowie DIN 4102 Brandverhalten von Baustoffen und Bauteilen, DIN 4109 Schallschutz im Hochbau, und die Allgemein anerkannten Regeln der Technik.Anschluss an eine bauseitige Fernwärmestation 140 kW3 Heizkreise für Heizung2 Kältekreise mit Plattenwärmetauscher als Sytemtrenner1 Kältemaschine 70 kW1000 m Edelstahlleitung2100 m²21 Fußbodenheizungsverteiler3 Heizkörper",
+  "procedureType": "open",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "45331000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Heizungsarbeiten",
+    "description": "Ausführungsgrundlage ist die VOB/C ATV DIN 18299 \"Allgemeine Regelungen für Bauleistungen jeder Art\",ATV DIN 18380 \"Heizanlagen und zentrale Wassererwärmungsanlagen\" ATV DIN 18421 \"Dämmarbeiten an technischen Anlagen\" und die ATV DIN 18386 \"Gebäudeautomation\" sowie DIN 4102 Brandverhalten von Baustoffen und Bauteilen, DIN 4109 Schallschutz im Hochbau, und die Allgemein anerkannten Regeln der Technik.Anschluss an eine bauseitige Fernwärmestation 140 kW3 Heizkreise für Heizung2 Kältekreise mit Plattenwärmetauscher als Sytemtrenner1 Kältemaschine 70 kW1000 m Edelstahlleitung2100 m²21 Fußbodenheizungsverteiler3 Heizkörper",
+    "cpv": [
+     "45331000"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": "2026-11-26T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-15+01:00",
+    "plannedEnd": "2028-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=330937"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

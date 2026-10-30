@@ -1,0 +1,264 @@
+{
+ "id": "c51b01e8-5491-4ff7-ae68-e72df83370a6-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "c51b01e8-5491-4ff7-ae68-e72df83370a6",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c51b01e8-5491-4ff7-ae68-e72df83370a6",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:c51b01e8-5491-4ff7-ae68-e72df83370a6-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:c51b01e8-5491-4ff7-ae68-e72df83370a6-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c51b01e8-5491-4ff7-ae68-e72df83370a6?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "62-2026-769-EN zu 24 E 008 Wärmeversorgungsanlage DIN 18380",
+  "buyer": "Stadt Regensburg",
+  "cpv": [
+   "45331100"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-cb51737d-e2af-43b0-af0c-f6696bbc4fd8",
+  "id": "c51b01e8-5491-4ff7-ae68-e72df83370a6",
+  "date": "2026-10-27T03:08:22Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Regensburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9003625-22",
+     "legalName": "Stadt Regensburg"
+    },
+    "address": {
+     "streetAddress": "D.-Martin-Luther-Str. 3",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0630053-66",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Regensburg - Vergabeamt",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-9003625-22",
+     "legalName": "Stadt Regensburg - Vergabeamt"
+    },
+    "address": {
+     "streetAddress": "D.-Martin-Luther-Str. 3",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Peter & Götz GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE186166433",
+     "legalName": "Peter & Götz GmbH"
+    },
+    "address": {
+     "streetAddress": "Am Kuffholz 8",
+     "locality": "Hainsacker",
+     "region": "DE238",
+     "postalCode": "93138",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Regensburg",
+   "id": "09-9003625-22",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Regensburg"
+   },
+   "address": {
+    "streetAddress": "D.-Martin-Luther-Str. 3",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "cb51737d-e2af-43b0-af0c-f6696bbc4fd8",
+   "title": "62-2026-769-EN zu 24 E 008 Wärmeversorgungsanlage DIN 18380",
+   "description": "Errichtung einer Heizzentrale inkl. Verteiler, einer Frischwasserstation und drei Pufferspeichern. \nDas Wärmeverteilnetz erstreckt sich auf \nca. 2.600 m Mehrschichtverbundrohr DN 12, \nca. 1.000 m Edelstahlrohr 15-42 mm gepresst, sowie\nca. 100 m schwarzes Rohr geschweißt. \nDie Wärmeerzeugung der kompletten Konradschule umfasst jeweils einen Pellet- und Gaskessel.",
+   "procuringEntity": {
+    "name": "Stadt Regensburg",
+    "id": "09-9003625-22"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331100",
+      "description": "Central-heating installation work"
+     },
+     "deliveryAddress": {
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93057",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2024-03-04T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Peter & Götz GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Peter & Götz GmbH"
+     },
+     "address": {
+      "streetAddress": "Am Kuffholz 8",
+      "locality": "Hainsacker",
+      "region": "DE238",
+      "postalCode": "93138",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "62-2026-769-EN zu 24 E 008 Wärmeversorgungsanlage DIN 18380",
+     "description": "Errichtung einer Heizzentrale inkl. Verteiler, einer Frischwasserstation und drei Pufferspeichern. \nDas Wärmeverteilnetz erstreckt sich auf \nca. 2.600 m Mehrschichtverbundrohr DN 12, \nca. 1.000 m Edelstahlrohr 15-42 mm gepresst, sowie\nca. 100 m schwarzes Rohr geschweißt. \nDie Wärmeerzeugung der kompletten Konradschule umfasst jeweils einen Pellet- und Gaskessel.",
+     "contractPeriod": {
+      "startDate": "2024-04-05T00:00:00+02:00",
+      "endDate": "2025-01-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Wärmeversorgungsanlage DIN 18380",
+    "date": "2024-03-14T00:00:00+01:00",
+    "suppliers": [
+     {
+      "name": "Peter & Götz GmbH",
+      "id": "DE186166433",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Peter & Götz GmbH"
+      },
+      "address": {
+       "streetAddress": "Am Kuffholz 8",
+       "locality": "Hainsacker",
+       "region": "DE238",
+       "postalCode": "93138",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Wärmeversorgungsanlage DIN 18380",
+    "value": {
+     "amount": 459592.15,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2024-03-13T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "38",
+  "noticeId": "c51b01e8-5491-4ff7-ae68-e72df83370a6",
+  "version": "01",
+  "title": "62-2026-769-EN zu 24 E 008 Wärmeversorgungsanlage DIN 18380",
+  "description": "Errichtung einer Heizzentrale inkl. Verteiler, einer Frischwasserstation und drei Pufferspeichern. \nDas Wärmeverteilnetz erstreckt sich auf \nca. 2.600 m Mehrschichtverbundrohr DN 12, \nca. 1.000 m Edelstahlrohr 15-42 mm gepresst, sowie\nca. 100 m schwarzes Rohr geschweißt. \nDie Wärmeerzeugung der kompletten Konradschule umfasst jeweils einen Pellet- und Gaskessel.",
+  "procedureType": null,
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "45331100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "62-2026-769-EN zu 24 E 008 Wärmeversorgungsanlage DIN 18380",
+    "description": "Errichtung einer Heizzentrale inkl. Verteiler, einer Frischwasserstation und drei Pufferspeichern. \nDas Wärmeverteilnetz erstreckt sich auf \nca. 2.600 m Mehrschichtverbundrohr DN 12, \nca. 1.000 m Edelstahlrohr 15-42 mm gepresst, sowie\nca. 100 m schwarzes Rohr geschweißt. \nDie Wärmeerzeugung der kompletten Konradschule umfasst jeweils einen Pellet- und Gaskessel.",
+    "cpv": [
+     "45331100"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2024-04-05+02:00",
+    "plannedEnd": "2025-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

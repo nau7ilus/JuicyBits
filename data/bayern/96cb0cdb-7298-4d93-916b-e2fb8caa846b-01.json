@@ -1,0 +1,256 @@
+{
+ "id": "96cb0cdb-7298-4d93-916b-e2fb8caa846b-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "96cb0cdb-7298-4d93-916b-e2fb8caa846b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=96cb0cdb-7298-4d93-916b-e2fb8caa846b",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:96cb0cdb-7298-4d93-916b-e2fb8caa846b-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:96cb0cdb-7298-4d93-916b-e2fb8caa846b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/96cb0cdb-7298-4d93-916b-e2fb8caa846b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "PL VP0050 Kampfmittelbaubegleitung",
+  "buyer": "VAG Verkehrs-Aktiengesellschaft",
+  "cpv": [
+   "45111200",
+   "90523100"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-23T13:10:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-96cb0cdb-7298-4d93-916b-e2fb8caa846b",
+  "id": "96cb0cdb-7298-4d93-916b-e2fb8caa846b",
+  "date": "2026-10-21T02:08:28Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "VAG Verkehrs-Aktiengesellschaft",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "6850",
+     "legalName": "VAG Verkehrs-Aktiengesellschaft"
+    },
+    "address": {
+     "streetAddress": "Am Plärrer 43",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90429",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "653afc75-c417-45c7-b23c-39ec3c56c904",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "VAG Verkehrs-Aktiengesellschaft",
+   "id": "6850",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "VAG Verkehrs-Aktiengesellschaft"
+   },
+   "address": {
+    "streetAddress": "Am Plärrer 43",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90429",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "96cb0cdb-7298-4d93-916b-e2fb8caa846b",
+   "title": "PL VP0050 Kampfmittelbaubegleitung",
+   "description": "PL Umgestaltung Plärrer, Nürnberg - Vergabepaket 0050 Kampfmittelbaubegleitung",
+   "procuringEntity": {
+    "name": "VAG Verkehrs-Aktiengesellschaft",
+    "id": "6850"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45111200",
+      "description": "Site preparation and clearance work"
+     },
+     "deliveryAddress": {
+      "region": "DE254",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/96cb0cdb-7298-4d93-916b-e2fb8caa846b",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "PL VP0050 Kampfmittelbaubegleitung",
+     "description": "Die Ausschreibung umfasst insbesondere die Durchführung der kampfmitteltechnischen Baubegleitung der Aushubarbeiten durch eine Munitionsfachkraft (Baggeraufsicht), teilweise Freimessung durch Kampfmittelsondierung sowie vorbereitende und dokumentarische Arbeiten\nbeim Projekt Umgestaltung Plärer in Nürnberg.",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2031-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "96cb0cdb-7298-4d93-916b-e2fb8caa846b",
+  "version": "01",
+  "title": "PL VP0050 Kampfmittelbaubegleitung",
+  "description": "PL Umgestaltung Plärrer, Nürnberg - Vergabepaket 0050 Kampfmittelbaubegleitung",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45111200",
+   "90523100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "PL VP0050 Kampfmittelbaubegleitung",
+    "description": "Die Ausschreibung umfasst insbesondere die Durchführung der kampfmitteltechnischen Baubegleitung der Aushubarbeiten durch eine Munitionsfachkraft (Baggeraufsicht), teilweise Freimessung durch Kampfmittelsondierung sowie vorbereitende und dokumentarische Arbeiten\nbeim Projekt Umgestaltung Plärer in Nürnberg.",
+    "cpv": [
+     "45111200"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T13:10:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Gesellschaftsform mit Eigentumsverhältnissen."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Kopie der Anmeldungs- bzw. Eintragungsbescheinigung ins Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschriften des Herkunftslandes, anderenfalls vergleichbarer Nachweis für die Existenz und den Gegenstand des Unternehmens des Bewerbers. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Unbedenklichkeitsbescheinigung der Berufsgenossenschaft (nicht älter als 12 Monate)\n(Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass keine Eintragung im Wettbewerbsregisterregister vorliegt. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Kopie der Versicherungspolice(n) mit einer Deckungssumme i. H. v. 1,0 Mio. Euro (nicht älter als 12 Monate) oder Vorlage einer Bescheinigung der Versicherung, dass diese bereit ist, im Auftragsfall eine Versicherung mit den entsprechenden Deckungssummen mit dem Bieter abzuschließen. (Gewichtung 5 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung: Anerkennung deutschen Rechts im Vertragsfall. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung: Bestätigung von deutschsprachigen Schlüsselpersonal. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass keine Ausschlussgründe nach § 123 und 124 GWB vorliegen (Muss-Kriterium)"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Umsatzangaben der letzten drei abgeschlossenen Geschäftsjahre bezogen auf Tätigkeiten im ausgeschriebenen Aufgabengebiet, (Gewichtung 5 %)"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Anzahl der fest angestellten Mitarbeiter im Mittel der letzten 3 Geschäftsjahre mit Angabe der entsprechenden Qualifikationen. (Gewichtung 4 %)"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Eigenauskunft (z. B. Creditreform, Bankauskunft, etc.). (Gewichtung 5 %)"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Eigenerklärung, dass sich das Unternehmen nicht in Liquidation befindet. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass Ihr Unternehmen seine Verpflichtung zur Zahlung der Steuern und Abgaben nach den Rechtsvorschriften des Landes des Sektorenauftraggebers erfüllt hat (Gewichtung 2 %),"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Eigenerklärung, dass keine Eröffnung oder beantragte Eröffnung eines Insolvenzverfahrens oder einer vergleichbaren gesetzlich geregelten Verfahrens über das Vermögen des Unternehmens oder Ablehnung vorliegt (Gewichtung 2 %),"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Zwei mit der ausgeschriebene Leistung vergleichbare Referenzen mit Bauausführung 2023 bis 2026. (Gewichtung zweimal 30 % = 60 %), Wertung jeweils im Vergleich zur ausgeschriebenen Leistung für eine Referenz: 30 % voll vergleichbar, 0 % überhaupt nicht vergleichbar, Zwischenwerte werden interpoliert.\nDie Referenzen sollen folgende Angaben enthalten:\nAuftraggeber mit Ansprechpartner und Telefonnummer, Art der ausgeführten Leistung, Auftragssumme, Ausführungszeitraum, Kurzbeschreibung des im eigenen Betrieb erbrachten maßgeblichen Leistungsumfangs mit Angabe von dabei ausgeführten wesentlichen Mengenkennzahlen, Zahl der dabei durchschnittlichen eingesetzten Arbeitskräfte."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Bescheinigung über mind. 2 RSA – Fachleute (Gewichtung 5 %).\n\nEin Verweis auf Präqualifikationsportale (z.B. PQ-Bau) ist möglich, sofern die geforderten Unterlagen dorthinterlegt sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

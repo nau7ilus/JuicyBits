@@ -1,0 +1,124 @@
+{
+ "id": "25950166-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25950166",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25950166",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25950166-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25950166-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25950166?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung einer mobilen Bühne als Anhänger",
+  "buyer": "Markt Wartenberg",
+  "cpv": [
+   "34223000-6 34223300-9 34223330-8"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-03-02T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25950166",
+  "id": "25950166",
+  "date": "2026-10-20T19:01:46Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Wartenberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Markt Wartenberg"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Wartenberg",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Wartenberg"
+   }
+  },
+  "tender": {
+   "title": "Lieferung einer mobilen Bühne als Anhänger",
+   "description": "Lieferung einer mobilen Bühne als Anhänger",
+   "procuringEntity": {
+    "name": "Markt Wartenberg"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34223000-6 34223300-9 34223330-8"
+     },
+     "deliveryAddress": {
+      "locality": "85456 Wartenberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lieferung einer mobilen Bühne als Anhänger",
+     "description": "Lieferung einer mobilen Bühne als Anhänger"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25950166",
+  "version": "1",
+  "title": "Lieferung einer mobilen Bühne als Anhänger",
+  "description": "Lieferung einer mobilen Bühne als Anhänger",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "34223000-6 34223300-9 34223330-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lieferung einer mobilen Bühne als Anhänger",
+    "description": "Lieferung einer mobilen Bühne als Anhänger",
+    "cpv": [
+     "34223000-6 34223300-9 34223330-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-03-02T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

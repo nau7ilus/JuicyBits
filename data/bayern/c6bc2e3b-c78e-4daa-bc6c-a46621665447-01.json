@@ -213,6 +213,8 @@
   "noticeId": "c6bc2e3b-c78e-4daa-bc6c-a46621665447",
   "version": "01",
   "title": "Winterdienst AM Sulzberg",
+  "description": "Die ausgeschriebenen Leistungen umfasst den Winterdienst (Räumen u. Streuen) im Streckenbereich der Autobahnmeisterei Sulzberg.",
+  "procedureType": "open",
   "nuts": [
    "DE27E"
   ],
@@ -225,6 +227,7 @@
    {
     "id": "LOT-0001",
     "title": "Los 1",
+    "description": "Streckenbereich Autobahnmeisterei Sulzberg Gesamt",
     "cpv": [
      "90500000"
     ],
@@ -235,13 +238,24 @@
     "participationDeadline": null,
     "plannedStart": "2026-11-01+01:00",
     "plannedEnd": "2028-04-30+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0002",
     "title": "Los 2",
+    "description": "Streckenbereich Autobahnmeisterei Sulzberg Schwerpunkt B 12",
     "cpv": [
      "90500000"
     ],
@@ -252,9 +266,19 @@
     "participationDeadline": null,
     "plannedStart": "2026-11-01+01:00",
     "plannedEnd": "2028-04-30+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

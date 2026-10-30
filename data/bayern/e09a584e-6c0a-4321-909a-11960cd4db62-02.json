@@ -1,0 +1,233 @@
+{
+ "id": "e09a584e-6c0a-4321-909a-11960cd4db62-02",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "e09a584e-6c0a-4321-909a-11960cd4db62",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e09a584e-6c0a-4321-909a-11960cd4db62",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:e09a584e-6c0a-4321-909a-11960cd4db62-02.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:e09a584e-6c0a-4321-909a-11960cd4db62-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e09a584e-6c0a-4321-909a-11960cd4db62?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Klinikum Nürnberg Nord – Haus 47 Sanitär- und Heizungssanierung / Heizung und Sanitär BA3 + BA4",
+  "buyer": "Klinikum Nürnberg",
+  "cpv": [
+   "45331000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c92836f9-bf7b-4b02-a40c-ad1c54420042",
+  "id": "e09a584e-6c0a-4321-909a-11960cd4db62",
+  "date": "2026-10-16T02:08:11Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8783",
+     "legalName": "Klinikum Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "2080253c-2e98-43d2-95f5-af72274b1dc0",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Sanitär Union GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE133537464",
+     "legalName": "Sanitär Union GmbH"
+    },
+    "address": {
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90431",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Nürnberg",
+   "id": "8783",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c92836f9-bf7b-4b02-a40c-ad1c54420042",
+   "title": "Klinikum Nürnberg Nord – Haus 47 Sanitär- und Heizungssanierung / Heizung und Sanitär BA3 + BA4",
+   "description": "Die Heizungs- und Sanitärsanierung erfolgt in mehreren Bauabschnitten während dem laufenden Betrieb. Hierzu werden die Räume der zu sanierenden Bauabschnitte je nach Anforderung entweder komplett oder abschnittsweise geräumt. Im nicht genutzten Dachgeschoss wurde bereits im Bauabschnitt 1 eine neue Heizungszentrale mit Anschluss an die Fernwärme errichtet. Im gesamten Gebäude wird ein neues Pumpen-Warmwasser-Verteilnetz installiert und die bestehenden Heizkörper erneuert. Die im Gebäude verteilten Sanitärkerne und Teeküchen werden saniert und das Kalt- und Abwassernetz erneuert.",
+   "procuringEntity": {
+    "name": "Klinikum Nürnberg",
+    "id": "8783"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331000",
+      "description": "Heating, ventilation and air-conditioning installation work"
+     },
+     "deliveryAddress": {
+      "region": "DE254",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Sanitär Union GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Sanitär Union GmbH"
+     },
+     "address": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90431",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Klinikum Nürnberg Nord – Haus 47 Sanitär- und Heizungssanierung / Heizung und Sanitär BA3 + BA4",
+     "description": "Die Heizungs- und Sanitärsanierung erfolgt in mehreren Bauabschnitten während dem laufenden Betrieb. Hierzu werden die Räume der zu sanierenden Bauabschnitte je nach Anforderung entweder komplett oder abschnittsweise geräumt. Im nicht genutzten Dachgeschoss wurde bereits im Bauabschnitt 1 eine neue Heizungszentrale mit Anschluss an die Fernwärme errichtet. Im gesamten Gebäude wird ein neues Pumpen-Warmwasser-Verteilnetz installiert und die bestehenden Heizkörper erneuert. Die im Gebäude verteilten Sanitärkerne und Teeküchen werden saniert und das Kalt- und Abwassernetz erneuert.\n\nSanitär:\n-\tca. 360 m Abwasserrohr aus Guss und Kunststoff mit Formteilen, DN50- DN100\n-\tca. 520 m Trinkwasserleitung aus Edelstahl mit Pressformteilen und Armaturen, DN15 – DN100\n-\tca. 75 St. Sanitärobjekte wie z.B. Waschtische, WCs und dgl. mit Hygienezubehör \n-\tDemontagen von ca. 140 m Abwasserrohr ohne Dämmung, DN50 - DN150\n-\tDemontagen von ca. 510 m Wasserleitung mit Dämmung aus kurzfaserigen Mineralfasern, DN15 – DN100\n-\tDemontage von ca. 130 St. Sanitärobjekten mit Zubehör\n\n\nHeizung:\n-\tca. 1.200 m unlegiertes Stahlrohr, gepresst, DN15 – DN65\n-\tca. 2070 m Edelstahlrohr, gepresst, DN15 – DN32\n-\tca. 320 St. Heizkörper\n-\tDemontagen von ca. 240 m Stahlrohr schwarz mit Dämmung aus künstlichen Mineralfasern, DN15 – DN200\n-\tDemontagen von ca. 310 St. Heizkörpern"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-24T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-23T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e09a584e-6c0a-4321-909a-11960cd4db62",
+  "version": "02",
+  "title": "Klinikum Nürnberg Nord – Haus 47 Sanitär- und Heizungssanierung / Heizung und Sanitär BA3 + BA4",
+  "description": "Die Heizungs- und Sanitärsanierung erfolgt in mehreren Bauabschnitten während dem laufenden Betrieb. Hierzu werden die Räume der zu sanierenden Bauabschnitte je nach Anforderung entweder komplett oder abschnittsweise geräumt. Im nicht genutzten Dachgeschoss wurde bereits im Bauabschnitt 1 eine neue Heizungszentrale mit Anschluss an die Fernwärme errichtet. Im gesamten Gebäude wird ein neues Pumpen-Warmwasser-Verteilnetz installiert und die bestehenden Heizkörper erneuert. Die im Gebäude verteilten Sanitärkerne und Teeküchen werden saniert und das Kalt- und Abwassernetz erneuert.",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45331000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Klinikum Nürnberg Nord – Haus 47 Sanitär- und Heizungssanierung / Heizung und Sanitär BA3 + BA4",
+    "description": "Die Heizungs- und Sanitärsanierung erfolgt in mehreren Bauabschnitten während dem laufenden Betrieb. Hierzu werden die Räume der zu sanierenden Bauabschnitte je nach Anforderung entweder komplett oder abschnittsweise geräumt. Im nicht genutzten Dachgeschoss wurde bereits im Bauabschnitt 1 eine neue Heizungszentrale mit Anschluss an die Fernwärme errichtet. Im gesamten Gebäude wird ein neues Pumpen-Warmwasser-Verteilnetz installiert und die bestehenden Heizkörper erneuert. Die im Gebäude verteilten Sanitärkerne und Teeküchen werden saniert und das Kalt- und Abwassernetz erneuert.\n\nSanitär:\n-\tca. 360 m Abwasserrohr aus Guss und Kunststoff mit Formteilen, DN50- DN100\n-\tca. 520 m Trinkwasserleitung aus Edelstahl mit Pressformteilen und Armaturen, DN15 – DN100\n-\tca. 75 St. Sanitärobjekte wie z.B. Waschtische, WCs und dgl. mit Hygienezubehör \n-\tDemontagen von ca. 140 m Abwasserrohr ohne Dämmung, DN50 - DN150\n-\tDemontagen von ca. 510 m Wasserleitung mit Dämmung aus kurzfaserigen Mineralfasern, DN15 – DN100\n-\tDemontage von ca. 130 St. Sanitärobjekten mit Zubehör\n\n\nHeizung:\n-\tca. 1.200 m unlegiertes Stahlrohr, gepresst, DN15 – DN65\n-\tca. 2070 m Edelstahlrohr, gepresst, DN15 – DN32\n-\tca. 320 St. Heizkörper\n-\tDemontagen von ca. 240 m Stahlrohr schwarz mit Dämmung aus künstlichen Mineralfasern, DN15 – DN200\n-\tDemontagen von ca. 310 St. Heizkörpern",
+    "cpv": [
+     "45331000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preiskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

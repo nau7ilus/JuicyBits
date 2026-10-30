@@ -1,0 +1,134 @@
+{
+ "id": "25938612-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25938612",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25938612",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25938612-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25938612-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25938612?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "RW Kanalinspektion",
+  "buyer": "Staatliches Bauamt Nuernberg",
+  "cpv": [
+   "90491000-5"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-05T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25938612",
+  "id": "25938612",
+  "date": "2026-10-16T07:01:37Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Nuernberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Staatliches Bauamt Nuernberg"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Nuernberg",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Nuernberg"
+   }
+  },
+  "tender": {
+   "title": "RW Kanalinspektion",
+   "description": "RW Kanalinspektion",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Nuernberg"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90491000-5"
+     },
+     "deliveryAddress": {
+      "locality": "91154 Roth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304689",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "RW Kanalinspektion",
+     "description": "RW Kanalinspektion"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25938612",
+  "version": "1",
+  "title": "RW Kanalinspektion",
+  "description": "RW Kanalinspektion",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "90491000-5"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "RW Kanalinspektion",
+    "description": "RW Kanalinspektion",
+    "cpv": [
+     "90491000-5"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-05T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

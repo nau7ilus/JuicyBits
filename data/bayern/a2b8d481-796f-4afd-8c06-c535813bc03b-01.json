@@ -1,0 +1,273 @@
+{
+ "id": "a2b8d481-796f-4afd-8c06-c535813bc03b-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "a2b8d481-796f-4afd-8c06-c535813bc03b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a2b8d481-796f-4afd-8c06-c535813bc03b",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:a2b8d481-796f-4afd-8c06-c535813bc03b-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:a2b8d481-796f-4afd-8c06-c535813bc03b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a2b8d481-796f-4afd-8c06-c535813bc03b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Kunstrasenplatz- Neubau Henneberg-Grundschule",
+  "buyer": "Stadt Bad Kissingen",
+  "cpv": [
+   "45000000",
+   "45112700",
+   "45221250",
+   "45212200",
+   "45212220",
+   "45212221",
+   "45212290",
+   "45112500",
+   "45112720"
+  ],
+  "nuts": [
+   "DE265"
+  ],
+  "deadline": "2026-11-23T10:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c7fd95f3-db0e-4f6c-aa2f-0c8e874e684f",
+  "id": "a2b8d481-796f-4afd-8c06-c535813bc03b",
+  "date": "2026-10-22T02:08:38Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bad Kissingen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09672114-KG0001-55",
+     "legalName": "Stadt Bad Kissingen"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Bad Kissingen",
+     "region": "DE265",
+     "postalCode": "97688",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 6 06",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bad Kissingen",
+   "id": "09672114-KG0001-55",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bad Kissingen"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Bad Kissingen",
+    "region": "DE265",
+    "postalCode": "97688",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c7fd95f3-db0e-4f6c-aa2f-0c8e874e684f",
+   "title": "Kunstrasenplatz- Neubau Henneberg-Grundschule",
+   "description": "Bei dem geplanten Bauvorhaben handelt es sich um den Ersatzneubau einer vierzügigen Grundschule mit Sporthalle und Ganztagsbetreuung. Auf dem Grundstück ist eine umfangreiche Geländeregulierung bzw. Geländeauffüllung erforderlich. Der Baukörper ist überwiegend eingeschossig konzipiert und passt sich dem natürlichen Geländeverlauf an. Einzelne Bereiche, wie etwa die Pausenhalle, sind zweigeschossig ausgeführt. Das geplante Gebäude erstreckt sich über eine Länge von 190 Metern.",
+   "procuringEntity": {
+    "name": "Stadt Bad Kissingen",
+    "id": "09672114-KG0001-55"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45112700",
+       "description": "Landscaping work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45221250",
+       "description": "Underground work other than tunnels, shafts and subways"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45212200",
+       "description": "Construction work for sports facilities"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45212220",
+       "description": "Multi-purpose sports facilities construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45212221",
+       "description": "Construction work in connection with structures for sports ground"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45212290",
+       "description": "Repair and maintenance work in connection with sports facilities"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45112500",
+       "description": "Earthmoving work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45112720",
+       "description": "Landscaping work for sports grounds and recreational areas"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Die Große Kreisstadt Bad Kissingen liegt im Bundesland Bayern, Regie-rungsbezirk Unterfranken, Landkreis Bad Kissingen."
+     },
+     "deliveryAddress": {
+      "streetAddress": "Seestraße 30",
+      "locality": "Bad Kissingen",
+      "region": "DE265",
+      "postalCode": "97688",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4D4TM166/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Kunstrasenplatz- Neubau Henneberg-Grundschule",
+     "description": "Im Rahmen des Bauprojekts, das nach den Kriterien der Gebäudezertifizierung DGNB Silber sowie des Qualitätssiegels Nachhaltiges Gebäude (QNG) realisiert wird, wird ein Fachunternehmen für die Ausführung der sanitärtechnischen Installationen gesucht. Die Leistung umfasst die Trink- und Abwasserinstallation in mehreren Teilabschnitten entsprechend dem Baufortschritt und der Bauteilstruktur.  Leistungsbeschreibung (Kurzfassung):  Die ausgeschriebene Leistung beinhaltet im Wesentlichen: ca. 800m Abwasserleitung DN50 bis DN160 aus PP hochschallgedämmt, Steckmuffenverbindung ca. 1.600m Trinkwasserleitung DN12 bis DN50 aus Edelstahl 1.4401, Pressverbindung ca. 160 St. sanitäre Einrichtungsgegenstände 1 St. Enthärtungsanlage DN40 1 St. Sicherheitstrennstation DN40 1 St. Hebeanlage Doppelpumpenanlage fäkalienhaltig 1 St. Fettabscheider  Die Montage erfolgt baubegleitend in Teilabschnitten, abgestimmt auf den Bauablaufplan und die jeweiligen Gewerke. Die Ausführung ist unter besonderer Berücksichtigung der Anforderungen an Nachhaltigkeit, Ressourcenschonung und Hygiene gemäß DGNB-/QNG-Kriterien vorzunehmen.  Geforderter Nachweis: Die mit der Bauleitung vorgesehene Person muss über einen gültigen Schulungsnachweis gemäß VDI 6023, Kategorie A verfügen.  Hinweis: Der Nachweis dient dem Beleg der fachlichen Eignung im Bereich der hygienegerechten Planung, Ausführung, Betrieb und Instandhaltung von Trinkwasserinstallationen gemäß VDI-Richtlinie 6023. Die Kategorie A richtet sich an Personen mit leitender Funktion, insbesondere Bauleiter und verantwortliche Fachkräfte.  Art des Nachweises: Kopie des Schulungszertifikats oder Teilnahmebescheinigung einer anerkannten Schulung gemäß VDI 6023, Kategorie A (nicht älter als 5 Jahre bei fehlender Nachschulung).  Zeitpunkt der Einreichung: Der Nachweis ist mit Angebotsabgabe vorzulegen. Ausschluss bei Nichtvorlage: Die fehlende Vorlage dieses Nachweises führt zum Ausschluss des Angebots gemäß § 57 Abs. 1 Nr. 2 VgV (Nichtvorliegen eines geforderten Nachweises der Eignung).",
+     "contractPeriod": {
+      "startDate": "2026-02-23T00:00:00+01:00",
+      "endDate": "2027-12-09T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a2b8d481-796f-4afd-8c06-c535813bc03b",
+  "version": "01",
+  "title": "Kunstrasenplatz- Neubau Henneberg-Grundschule",
+  "description": "Bei dem geplanten Bauvorhaben handelt es sich um den Ersatzneubau einer vierzügigen Grundschule mit Sporthalle und Ganztagsbetreuung. Auf dem Grundstück ist eine umfangreiche Geländeregulierung bzw. Geländeauffüllung erforderlich. Der Baukörper ist überwiegend eingeschossig konzipiert und passt sich dem natürlichen Geländeverlauf an. Einzelne Bereiche, wie etwa die Pausenhalle, sind zweigeschossig ausgeführt. Das geplante Gebäude erstreckt sich über eine Länge von 190 Metern.",
+  "procedureType": "open",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "45000000",
+   "45112700",
+   "45221250",
+   "45212200",
+   "45212220",
+   "45212221",
+   "45212290",
+   "45112500",
+   "45112720"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Kunstrasenplatz- Neubau Henneberg-Grundschule",
+    "description": "Im Rahmen des Bauprojekts, das nach den Kriterien der Gebäudezertifizierung DGNB Silber sowie des Qualitätssiegels Nachhaltiges Gebäude (QNG) realisiert wird, wird ein Fachunternehmen für die Ausführung der sanitärtechnischen Installationen gesucht. Die Leistung umfasst die Trink- und Abwasserinstallation in mehreren Teilabschnitten entsprechend dem Baufortschritt und der Bauteilstruktur.  Leistungsbeschreibung (Kurzfassung):  Die ausgeschriebene Leistung beinhaltet im Wesentlichen: ca. 800m Abwasserleitung DN50 bis DN160 aus PP hochschallgedämmt, Steckmuffenverbindung ca. 1.600m Trinkwasserleitung DN12 bis DN50 aus Edelstahl 1.4401, Pressverbindung ca. 160 St. sanitäre Einrichtungsgegenstände 1 St. Enthärtungsanlage DN40 1 St. Sicherheitstrennstation DN40 1 St. Hebeanlage Doppelpumpenanlage fäkalienhaltig 1 St. Fettabscheider  Die Montage erfolgt baubegleitend in Teilabschnitten, abgestimmt auf den Bauablaufplan und die jeweiligen Gewerke. Die Ausführung ist unter besonderer Berücksichtigung der Anforderungen an Nachhaltigkeit, Ressourcenschonung und Hygiene gemäß DGNB-/QNG-Kriterien vorzunehmen.  Geforderter Nachweis: Die mit der Bauleitung vorgesehene Person muss über einen gültigen Schulungsnachweis gemäß VDI 6023, Kategorie A verfügen.  Hinweis: Der Nachweis dient dem Beleg der fachlichen Eignung im Bereich der hygienegerechten Planung, Ausführung, Betrieb und Instandhaltung von Trinkwasserinstallationen gemäß VDI-Richtlinie 6023. Die Kategorie A richtet sich an Personen mit leitender Funktion, insbesondere Bauleiter und verantwortliche Fachkräfte.  Art des Nachweises: Kopie des Schulungszertifikats oder Teilnahmebescheinigung einer anerkannten Schulung gemäß VDI 6023, Kategorie A (nicht älter als 5 Jahre bei fehlender Nachschulung).  Zeitpunkt der Einreichung: Der Nachweis ist mit Angebotsabgabe vorzulegen. Ausschluss bei Nichtvorlage: Die fehlende Vorlage dieses Nachweises führt zum Ausschluss des Angebots gemäß § 57 Abs. 1 Nr. 2 VgV (Nichtvorliegen eines geforderten Nachweises der Eignung).",
+    "cpv": [
+     "45000000",
+     "45112700",
+     "45221250",
+     "45212200",
+     "45212220",
+     "45212221",
+     "45212290",
+     "45112500",
+     "45112720"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": "2026-11-23T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-02-23+01:00",
+    "plannedEnd": "2027-12-09+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Vergleichbare Referenzen:  Zum Nachweis der beruflichen und technischen Leistungsfähigkeit müssen alle Bieter mindestens drei Referenzleistungen in den letzten bis zu fünf abgeschlossenen Kalenderjahren erbracht haben, die mit der zu vergebenden Leistung vergleichbar sind.  Nachweise in einer anderen Sprache sind entsprechend der deutschen Übersetzung beizufügen.  Der Nachweis kann wie folgt geführt werden: 1. durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis). Die Eintragung in ein gleichwertiges Verzeichnis anderer Mitgliedstaaten ist als Nachweis ebenso zugelassen.  2.durch Eigenerklärung auf dem Vordruck 124 (Eigenerklärung zur Eignung). Falls das Angebot in die engere Wahl kommt, ist der Nachweis auf entsprechende Anforderung der Auftraggeberin durch entsprechende Bescheinigungen der zuständigen Stellen zu bestätigen, und zwar durch mindestens folgenden Angaben: Ansprechpartner; Art der ausgeführten Leistung; Auftragssumme; Ausführungszeitraum; stichwortartige Benennung des mit eigenem Personal ausgeführten maßgeblichen Leistungsumfanges einschl. Angabe der aus geführten Mengen; Zahl der hierfür durchschnittlich eingesetzten Arbeitnehmer; stichwortartige Beschreibung der besonderen technischen und gerätespezifischen Anforderungen bzw. (bei Komplettleistung) Kurzbeschreibung der Baumaßnahme einschließlich eventueller Besonderheiten der Ausführung; Angabe zur Art der Baumaßnahme (Neubau, Umbau, Denkmal); Angabe zur vertraglichen Bindung (Hauptauftragnehmer, ARGEPartner, Nachunternehmer); ggf. Angabe der Gewerke, die mit eigenem Leitungspersonal koordiniert wurden; Bestätigung des Auftraggebers über die vertragsgemäße Ausführung der Leistung. Angaben in Anlehnung an das Formblatt 444 Referenzbescheinigung.  Siehe hierfür https://www.stmb.bayern.de/assets/stmi/buw/bauthemen/vergabeundvertragswesen/vhb/z5_vergabe_bauauf traege_formblatt_444_referenz.docx"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eintragung Handelsregister Zum Nachweis der Befähigung und Erlaubnis zur Berufsausübung müssen alle Bieter die Eintragung in das Berufs- oder Handelsregister oder der Handwerksrolle ihres Sitzes oder Wohnsitzes nachweisen. Die Eintragung in ein gleichwertiges Verzeichnis anderer Mitgliedstaaten ist als Nachweis ebenso zugelassen.  Der Nachweis kann wie folgt geführt werden: 1. durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis). Die Eintragung in ein gleichwertiges Verzeichnis anderer Mitgliedstaaten ist als Nachweis ebenso zugelassen.  2.durch Eigenerklärung auf dem Vordruck 124 (Eigenerklärung zur Eignung). Falls das Angebot in die engere Wahl kommt, ist der Nachweis auf entsprechende Anforderung der Auftraggeberin durch entsprechende Bescheinigungen der zuständigen Stellen zu bestätigen.  3. Der öffentliche Auftraggeber akzeptiert als vorläufigen Nachweis auch eine Einheitliche Europäische Eigenerklärung (EEE).  Nachweise in einer anderen Sprache sind entsprechend der deutschen Übersetzung beizufügen."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Allgemeiner Jahresumsatz  Umsatz des Unternehmens: Zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit müssen alle Bieter eine Erklärung über den Umsatz ihres Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre abgeben, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen.  Der Nachweis kann wie folgt geführt werden: 1. durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis). Die Eintragung in ein gleichwertiges Verzeichnis anderer Mitgliedstaaten ist als Nachweis ebenso zugelassen.  2.Durch Eigenerklärung auf dem Vordruck 124 (Eigenerklärung zur Eignung).  3. Der öffentliche Auftraggeber akzeptiert als vorläufigen Nachweis auch eine Einheitliche Europäische Eigenerklärung (EEE)."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Fachliche Eignung / Berufliche Qualifikation der Bauleitung  Geforderter Nachweis: Die mit der Bauleitung vorgesehene Person muss über einen gültigen Schulungsnachweis gemäß VDI 6023, Kategorie A verfügen.  Hinweis: Der Nachweis dient dem Beleg der fachlichen Eignung im Bereich der hygienegerechten Planung, Ausführung, Betrieb und Instandhaltung von Trinkwasserinstallationen gemäß VDI-Richtlinie 6023. Die Kategorie A richtet sich an Personen mit leitender Funktion, insbesondere Bauleiter und verantwortliche Fachkräfte.  Art des Nachweises: Kopie des Schulungszertifikats oder Teilnahmebescheinigung einer anerkannten Schulung gemäß VDI 6023, Kategorie A (nicht älter als 5 Jahre bei fehlender Nachschulung).  Zeitpunkt der Einreichung: Der Nachweis ist mit Angebotsabgabe vorzulegen.  Ausschluss bei Nichtvorlage: Die fehlende Vorlage dieses Nachweises führt zum Ausschluss des Angebots gemäß § 57 Abs. 1 Nr. 2 VgV (Nichtvorliegen eines geforderten Nachweises der Eignung)."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

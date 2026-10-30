@@ -1,0 +1,124 @@
+{
+ "id": "25971070-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25971070",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25971070",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25971070-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25971070-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25971070?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau",
+  "buyer": "Landratsamt Dachau",
+  "cpv": [
+   "85147000-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25971070",
+  "id": "25971070",
+  "date": "2026-10-27T07:01:01Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Dachau",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landratsamt Dachau"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Dachau",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Dachau"
+   }
+  },
+  "tender": {
+   "title": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau",
+   "description": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau",
+   "procuringEntity": {
+    "name": "Landratsamt Dachau"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "85147000-1"
+     },
+     "deliveryAddress": {
+      "locality": "85221 Dachau",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau",
+     "description": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25971070",
+  "version": "1",
+  "title": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau",
+  "description": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "85147000-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau",
+    "description": "Arbeitsmedizinische und sicherheitstechnische Betreuung der Beschäftigten im Landratsamt Dachau",
+    "cpv": [
+     "85147000-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "4cdf2298-0008-4850-a4ef-3525651c0476",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4cdf2298-0008-4850-a4ef-3525651c0476",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:4cdf2298-0008-4850-a4ef-3525651c0476-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:4cdf2298-0008-4850-a4ef-3525651c0476-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/4cdf2298-0008-4850-a4ef-3525651c0476?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Erweiterung der Berufsschule München Land mit Neubau einer Sporthalle und Wohnungen - VE306 Dachdeckungs- und Dachabdichtungsarbeiten",
   "buyer": "Landratsamt München - Zentrale Vergabestelle und Einkauf",
   "cpv": [
@@ -237,5 +237,61 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "4cdf2298-0008-4850-a4ef-3525651c0476",
+  "version": "01",
+  "title": "Erweiterung der Berufsschule München Land mit Neubau einer Sporthalle und Wohnungen - VE306 Dachdeckungs- und Dachabdichtungsarbeiten",
+  "description": "Dachdeckungs- und Dachabdichtungsarbeiten: \n- System-Metalldach, 6 Grad,\n-System-Metalldach, 2 Grad,\n-Flachdächer, begrünt, partiell mit Terrassen,\n-Flachdach über UG,\n-Loggien,\n-Rankgerüste.\nmit den Hauptmassen:\nSystemblechdächer, 6 Grad, Kaltdach: ca. 2.971m2\nSystemblechdächer, 6 Grad, Warmdach: ca. 712m2\nSystemblechdächer, 2 Grad, Warmdach: ca. 194m2\nFlachdächer, begrünt, partiell mit Terrassen: ca. 339m2\nFlachdach über UG: ca. 91m2\nLoggien Flachdach: ca. 18m2\nStahl-Rankgerüst mit 10 Stahlschwertern im Attikabereich: \n2x 8m breit sowie 2x 14,5m hoch, vor den bauseitigen Fassaden",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45261410",
+   "44112400",
+   "45261213",
+   "45261300",
+   "45112713"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Erweiterung der Berufsschule München Land mit Neubau einer Sporthalle und Wohnungen - VE306 - Dachabdeckungs- und Dachabdichtungsarbeiten",
+    "description": "Dachdeckungs- und Dachabdichtungsarbeiten:\n-\tSystem-Metalldach, 6 Grad,\n-\tSystem-Metalldach, 2 Grad,\n-\tFlachdächer, begrünt, partiell mit Terrassen,\n-\tFlachdach über UG,\n-\tLoggien,\n-\tRankgerüste.\nHauptmassen:\nSystemblechdächer, 6 Grad, Kaltdach: ca. 2.971m2\nSystemblechdächer, 6 Grad, Warmdach: ca. 712m2\nSystemblechdächer, 2 Grad, Warmdach: ca. 194m2\nFlachdächer, begrünt, partiell mit Terrassen: ca. 339m2\nFlachdach über UG: ca. 91m2\nLoggien Flachdach: ca. 18m2\nStahl-Rankgerüst mit 10 Stahlschwertern im Attikabereich: \n2x 8m breit sowie 2x 14,5m hoch, vor den bauseitigen Fassaden",
+    "cpv": [
+     "45261410",
+     "44112400",
+     "45261213",
+     "45261300",
+     "45112713"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 197,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

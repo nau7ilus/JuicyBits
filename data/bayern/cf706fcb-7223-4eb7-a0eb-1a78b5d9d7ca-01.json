@@ -5,14 +5,14 @@
   "noticeId": "cf706fcb-7223-4eb7-a0eb-1a78b5d9d7ca",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=cf706fcb-7223-4eb7-a0eb-1a78b5d9d7ca",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:cf706fcb-7223-4eb7-a0eb-1a78b5d9d7ca-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:cf706fcb-7223-4eb7-a0eb-1a78b5d9d7ca-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/cf706fcb-7223-4eb7-a0eb-1a78b5d9d7ca?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Rahmenvertrag über die Untersuchung von Grund- und Oberflächenwasserproben auf eine Vielzahl von Pflanzenschutzmittelwirkstoffen und PSM-Metaboliten",
   "buyer": "Bayerisches Landesamt für Umwelt",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE271"
   ],
-  "deadline": null,
+  "deadline": "2026-11-27T10:00:00+01:00",
   "lots": 2
  },
  "ocds": {
@@ -193,5 +193,88 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "cf706fcb-7223-4eb7-a0eb-1a78b5d9d7ca",
+  "version": "01",
+  "title": "Rahmenvertrag über die Untersuchung von Grund- und Oberflächenwasserproben auf eine Vielzahl von Pflanzenschutzmittelwirkstoffen und PSM-Metaboliten",
+  "description": "Gemäß Handbuch technische Gewässeraufsicht sind jedes Jahr eine definierte Anzahl von Messstellen Grund- bzw. Oberflächenwasser auf Rückstände von Pflanzenschutzmittelwirkstoffen und Metaboliten zu untersuchen.\nDie Untersuchungen dienen sowohl der Erfüllung gesetzlicher Monitoringerfordernisse als auch der langfristigen Umweltbeobachtung. \nDie Leistung ist in zwei Lose aufgeteilt, Los 1: \"Gruppe PSM-A“ und Los 2: \"Gruppe PSM-B“.",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "90715200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1: Gruppe PSM-A",
+    "description": "Bestimmung von Pflanzenschutzmittelwirkstoffen (PSM) und PSM-Metaboliten gemäß der Parameterlisten für die „Gruppe PSM-A“ in Wasserproben (Grundwasser, Fließgewässer und Seen).",
+    "cpv": [
+     "90715200"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-27T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-25+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Der Bieter weist die Eignung durch eine gültige Akkreditierung im Hinblick auf den durchzuführenden Untersuchungen nach.\n\nhttps://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/272088f1-1f33-4ddf-8fd5-7f67f86b69ac/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2: Gruppe PSM-B",
+    "description": "Bestimmung von Pflanzenschutzmittelwirkstoffen (PSM) und PSM-Metaboliten gemäß der Parameterlisten für die „Gruppe PSM-B“ in Wasserproben (Grundwasser, Fließgewässer und Seen).",
+    "cpv": [
+     "90715200"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-27T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-25+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Der Bieter weist die Eignung durch eine gültige Akkreditierung im Hinblick auf den durchzuführenden Untersuchungen nach.\n\nhttps://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/272088f1-1f33-4ddf-8fd5-7f67f86b69ac/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

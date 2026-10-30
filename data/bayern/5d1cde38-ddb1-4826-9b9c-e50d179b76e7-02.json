@@ -1,0 +1,236 @@
+{
+ "id": "5d1cde38-ddb1-4826-9b9c-e50d179b76e7-02",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "5d1cde38-ddb1-4826-9b9c-e50d179b76e7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5d1cde38-ddb1-4826-9b9c-e50d179b76e7",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:5d1cde38-ddb1-4826-9b9c-e50d179b76e7-02.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:5d1cde38-ddb1-4826-9b9c-e50d179b76e7-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5d1cde38-ddb1-4826-9b9c-e50d179b76e7?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Waldbrunn \"Umbau und Sanierung des Klosterhofs'' - Trockenestrich",
+  "buyer": "BayernGrund GmbH",
+  "cpv": [
+   "45262320",
+   "45262670"
+  ],
+  "nuts": [
+   "DE212",
+   "DE26C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a609d0c5-ced6-4802-82aa-4ff331b52a0f",
+  "id": "5d1cde38-ddb1-4826-9b9c-e50d179b76e7",
+  "date": "2026-10-21T02:10:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "BayernGrund GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10961",
+     "legalName": "BayernGrund GmbH"
+    },
+    "address": {
+     "streetAddress": "Giesinger Bahnhofplatz 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - nicht zuständig, weil BayernGrund ein privater AG ist. Eingabe aus technischen Gründen notwendig",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "69ec50e6-9ac2-4fd3-bad9-34b6234f6e0f",
+     "legalName": "Regierung von Oberbayern - nicht zuständig, weil BayernGrund ein privater AG ist. Eingabe aus technischen Gründen notwendig"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Angela Strauchmann Michel Generalübernehmer für Ausbau- und Montagearbeiten rund ums Haus",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 233120298",
+     "legalName": "Angela Strauchmann Michel Generalübernehmer für Ausbau- und Montagearbeiten rund ums Haus"
+    },
+    "address": {
+     "locality": "Worms",
+     "region": "DEB39",
+     "postalCode": "67550",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "BayernGrund GmbH",
+   "id": "10961",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "BayernGrund GmbH"
+   },
+   "address": {
+    "streetAddress": "Giesinger Bahnhofplatz 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81539",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a609d0c5-ced6-4802-82aa-4ff331b52a0f",
+   "title": "Waldbrunn \"Umbau und Sanierung des Klosterhofs'' - Trockenestrich",
+   "description": "Trockenestricharbeiten mit FBH für den Umbau und die Sanierung des Klosterhofs in Waldbrunn",
+   "procuringEntity": {
+    "name": "BayernGrund GmbH",
+    "id": "10961"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262320",
+      "description": "Screed works"
+     },
+     "deliveryAddress": {
+      "region": "DE26C",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Angela Strauchmann Michel Generalübernehmer für Ausbau- und Montagearbeiten rund ums Haus",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Angela Strauchmann Michel Generalübernehmer für Ausbau- und Montagearbeiten rund ums Haus"
+     },
+     "address": {
+      "locality": "Worms",
+      "region": "DEB39",
+      "postalCode": "67550",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Waldbrunn \"Umbau und Sanierung des Klosterhofs'' - Trockenestrich",
+     "description": "Die nachfolgend beschriebenen Arbeiten umfassen folgende Estricharbeiten:\n\nDie nachfolgend beschriebenen Arbeiten umfassen den Einbau eines\nTrockenestrichsystems auf Holzweichfaserdämmung und Schüttung,\ninkl. des Einbaus der Fußbodenheizleitungen. Die erforderlichen Heizkreisverteilerkästen mit Zubehör werden vom Heizungsinstallateur\neingebaut.\nEine Heizlastberechnung sowie Auslegung der Abstände der zu verlegenden\nFußbodenheizleitungen wurde bereits durchgeführt und liegt der\nAusschreibung bei.\n\nArbeiten im ehemaligen Wohnhaus:\n1. Obergeschoss (neue Mittagsbetreuung):\nEinbau von Trockenestrich mit Fußbodenheizleitungen auf bestehende\nmassive Kappendecke\n\n2. Obergeschoss (neue Mittagsbetreuung):\nEinbau von Trockenestrich mit Fußbodenheizleitungen auf Holzschalung der\nneuen Holzbalkendecke\nArbeiten in ehemaliger Scheune:\n\nErdgeschoss (Wabe):\nTeilfläche Trockenestrich mit Fußbodenheizleitungen auf Betondecke\ndes erhöht liegenden Gewölbekellers\n\n2. Obergeschoss (neue Bücherei):\nEinbau von Trockenestrich mit Fußbodenheizleitungen auf bestehende\nHolzbalkendecke mit neuer oberseitiger Holzschalung. Die Holzdecke verläuft aufgrund der alten Deckenbalken nicht ebenmäßig. Die Ebenheit ist durch eine Ausgleichsschüttung herzustellen. Die Montage ist mit allen dazu notwendigen Anschlusselementen und Verbindungsmitteln zu kalkulieren, auch wenn diese nicht vollständig und nur pauschal genannt wurden.\n\nDer Auftragnehmer hat den Untergrund und die baulichen Voraussetzungen\neigenverantwortlich zu prüfen. Bestehen Bedenken gegen die im Leistungsverzeichnis aufgeführten Arbeitsschritte und Vorgaben, so sind diese unverzüglich schriftlich\nmitzuteilen. (siehe VOB, Teil B)."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-06T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 94960.13,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-05T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "5d1cde38-ddb1-4826-9b9c-e50d179b76e7",
+  "version": "02",
+  "title": "Waldbrunn \"Umbau und Sanierung des Klosterhofs'' - Trockenestrich",
+  "description": "Trockenestricharbeiten mit FBH für den Umbau und die Sanierung des Klosterhofs in Waldbrunn",
+  "procedureType": "open",
+  "nuts": [
+   "DE26C"
+  ],
+  "cpv": [
+   "45262670",
+   "45262320"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Waldbrunn \"Umbau und Sanierung des Klosterhofs'' - Trockenestrich",
+    "description": "Die nachfolgend beschriebenen Arbeiten umfassen folgende Estricharbeiten:\n\nDie nachfolgend beschriebenen Arbeiten umfassen den Einbau eines\nTrockenestrichsystems auf Holzweichfaserdämmung und Schüttung,\ninkl. des Einbaus der Fußbodenheizleitungen. Die erforderlichen Heizkreisverteilerkästen mit Zubehör werden vom Heizungsinstallateur\neingebaut.\nEine Heizlastberechnung sowie Auslegung der Abstände der zu verlegenden\nFußbodenheizleitungen wurde bereits durchgeführt und liegt der\nAusschreibung bei.\n\nArbeiten im ehemaligen Wohnhaus:\n1. Obergeschoss (neue Mittagsbetreuung):\nEinbau von Trockenestrich mit Fußbodenheizleitungen auf bestehende\nmassive Kappendecke\n\n2. Obergeschoss (neue Mittagsbetreuung):\nEinbau von Trockenestrich mit Fußbodenheizleitungen auf Holzschalung der\nneuen Holzbalkendecke\nArbeiten in ehemaliger Scheune:\n\nErdgeschoss (Wabe):\nTeilfläche Trockenestrich mit Fußbodenheizleitungen auf Betondecke\ndes erhöht liegenden Gewölbekellers\n\n2. Obergeschoss (neue Bücherei):\nEinbau von Trockenestrich mit Fußbodenheizleitungen auf bestehende\nHolzbalkendecke mit neuer oberseitiger Holzschalung. Die Holzdecke verläuft aufgrund der alten Deckenbalken nicht ebenmäßig. Die Ebenheit ist durch eine Ausgleichsschüttung herzustellen. Die Montage ist mit allen dazu notwendigen Anschlusselementen und Verbindungsmitteln zu kalkulieren, auch wenn diese nicht vollständig und nur pauschal genannt wurden.\n\nDer Auftragnehmer hat den Untergrund und die baulichen Voraussetzungen\neigenverantwortlich zu prüfen. Bestehen Bedenken gegen die im Leistungsverzeichnis aufgeführten Arbeitsschritte und Vorgaben, so sind diese unverzüglich schriftlich\nmitzuteilen. (siehe VOB, Teil B).",
+    "cpv": [
+     "45262320"
+    ],
+    "nuts": [
+     "DE26C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

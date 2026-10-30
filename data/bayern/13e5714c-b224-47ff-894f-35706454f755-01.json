@@ -1,0 +1,230 @@
+{
+ "id": "13e5714c-b224-47ff-894f-35706454f755-01",
+ "source": {
+  "pubDay": "2026-10-26",
+  "noticeId": "13e5714c-b224-47ff-894f-35706454f755",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=13e5714c-b224-47ff-894f-35706454f755",
+  "ocdsFile": "notices_2026-10-26_OCDS.zip:13e5714c-b224-47ff-894f-35706454f755-01.json",
+  "eformsFile": "notices_2026-10-26_eForms.zip:13e5714c-b224-47ff-894f-35706454f755-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/13e5714c-b224-47ff-894f-35706454f755?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Temporary staffing for software testing personnel",
+  "buyer": "TSCNET Services GmbH",
+  "cpv": [
+   "79620000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-06T11:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fe742235-5598-4b4f-b162-6121e76cddd5",
+  "id": "13e5714c-b224-47ff-894f-35706454f755",
+  "date": "2026-10-26T13:42:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "TSCNET Services GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "14499",
+     "legalName": "TSCNET Services GmbH"
+    },
+    "address": {
+     "streetAddress": "Weihenstephaner Str. 9",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81673",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Public Procurement Review Body Southern Bavaria (Vergabekammer Südbayern) at the Government of Upper Bavaria",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "3bd4c9e3-b494-4712-872a-81707463b72d",
+     "legalName": "Public Procurement Review Body Southern Bavaria (Vergabekammer Südbayern) at the Government of Upper Bavaria"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "Munich",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "TSCNET Services GmbH",
+   "id": "14499",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "TSCNET Services GmbH"
+   },
+   "address": {
+    "streetAddress": "Weihenstephaner Str. 9",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81673",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fe742235-5598-4b4f-b162-6121e76cddd5",
+   "title": "Temporary staffing for software testing personnel",
+   "description": "The public procurement process pertains to the provision of specialized personnel for software testing. The following roles are currently defined: Manual Tester and Test Automation Specialist.",
+   "procuringEntity": {
+    "name": "TSCNET Services GmbH",
+    "id": "14499"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79620000",
+      "description": "Supply services of personnel including temporary staff"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/fe742235-5598-4b4f-b162-6121e76cddd5",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Temporary staffing for software testing personnel",
+     "description": "The public procurement procedure concerns individual resource support for software testing. The currently identified profiles are Manual Tester and Test Automation Specialist.",
+     "contractPeriod": {
+      "durationInDays": 1080
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "13e5714c-b224-47ff-894f-35706454f755",
+  "version": "01",
+  "title": "Temporary staffing for software testing personnel",
+  "description": "The public procurement process pertains to the provision of specialized personnel for software testing. The following roles are currently defined: Manual Tester and Test Automation Specialist.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "79620000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Temporary staffing for software testing personnel",
+    "description": "The public procurement procedure concerns individual resource support for software testing. The currently identified profiles are Manual Tester and Test Automation Specialist.",
+    "cpv": [
+     "79620000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-06T11:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 36,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Bidding consortiums are permitted. A consortium must identify all members, appoint an authorized representative, declare joint and several liability, and specify the services to be performed by each consortium member. The consortium must use the form \"Bidding Consortium\" (Annex 1 to the Letter of Tender)."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Tenderers may rely on the capacities of other undertakings to demonstrate economic and financial standing or technical and professional ability. The tenderer must identify the undertaking concerned and provide evidence that the relevant resources will be available during contract performance. The form \"Reliance on the Capacities of Other Undertakings\" (Annex 2 to the Letter of Tender) must be used."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "The tenderer must hold a valid authorisation to provide temporary agency work in accordance with § 1 AÜG or, where applicable, an equivalent authorisation or registration under the national law of its country of establishment. In addition, proof of registration in a professional or commercial register of the country of establishment must be provided. The tenderer must use the form \"Qualification and Permission to Practice a Profession\" (Annex 3 to the Letter of Tender)."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "The tenderer must provide information on its specific annual net turnover in the field of supplying temporary workers for IT or digital projects for each of the last three completed financial years. Furthermore, the tenderer must demonstrate professional or business liability insurance meeting the minimum insurance coverage requirements specified in the procurement documents. The tenderer must use the form \"Economic and Financial Capacity\" (Annex 4 to the Letter of Tender)."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "The tenderer must complete the form \"Reasons for Exclusion and Self-cleaning Measures\" (Annex 6 to the Letter of Tender) and declare that none of the exclusion grounds under §§ 123 and 124 GWB or related procurement legislation apply. Where applicable, self-cleaning measures must be described and documented."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "The tenderer must declare compliance with Article 5k of Council Regulation (EU) No 833/2014, as amended by Regulation (EU) 2022/576, regarding restrictive measures in relation to Russia. The tenderer must use the form \"Self-declaration to the Sanctions Regulation\" (Annex 7 to the Letter of Tender)."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Tenderers must complete and submit the form \"Business Partner Screening Questionnaire\" (Annex 9 to the Letter of Tender), as this questionnaire forms part of the integrity and compliance assessment of business partners."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "For the section\"Relevant Educational and Professional Qualifications\", tenderers must complete and submit the form Annex 5_to LoT_Technical and Professional Ability. The form requires information on personnel capacity, sample CVs demonstrating relevant education, professional qualifications, certifications, skills and experience, as well as company references evidencing the tenderer's technical and professional ability."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "of which: \n- Improving Performance Quality (10%)\n-  Contingency and     \nReplacement Concept (15%)\n- Quality Assurance Concept for \nCandidate Selection (15%)",
+      "weight": 40
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Price",
+      "weight": 60
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

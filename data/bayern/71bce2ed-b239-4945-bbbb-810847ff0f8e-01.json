@@ -1,0 +1,255 @@
+{
+ "id": "71bce2ed-b239-4945-bbbb-810847ff0f8e-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "71bce2ed-b239-4945-bbbb-810847ff0f8e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=71bce2ed-b239-4945-bbbb-810847ff0f8e",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:71bce2ed-b239-4945-bbbb-810847ff0f8e-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:71bce2ed-b239-4945-bbbb-810847ff0f8e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/71bce2ed-b239-4945-bbbb-810847ff0f8e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Vergabe Rüstwagen",
+  "buyer": "Stadt Ansbach",
+  "cpv": [
+   "34144210"
+  ],
+  "nuts": [
+   "DE251"
+  ],
+  "deadline": "2026-11-25T10:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d45c5741-e773-4da3-85e3-dfe2305fce17",
+  "id": "71bce2ed-b239-4945-bbbb-810847ff0f8e",
+  "date": "2026-10-22T02:10:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Ansbach",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0981 51-0",
+     "legalName": "Stadt Ansbach"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Ansbach",
+   "id": "0981 51-0",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Ansbach"
+   },
+   "address": {
+    "locality": "Ansbach",
+    "region": "DE251",
+    "postalCode": "91522",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d45c5741-e773-4da3-85e3-dfe2305fce17",
+   "title": "Vergabe Rüstwagen",
+   "description": "Lieferung eines neuen Rüstwagens nach DIN 1455-3-2025-11; Los 1: Fahrgestell; Los 2: Feuerwehrtechnischer Aufbau.",
+   "procuringEntity": {
+    "name": "Stadt Ansbach",
+    "id": "0981 51-0"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Eyber Straße 18",
+      "locality": "Ansbach",
+      "region": "DE251",
+      "postalCode": "91522",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Eyber Straße 18",
+      "locality": "Ansbach",
+      "region": "DE251",
+      "postalCode": "91522",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4D5GMWTA/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4D5GMWTA/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1: Fahrgestell",
+     "description": "Los 1: Fahrgestell."
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2: Feuerwehrtechnischer Aufbau",
+     "description": "Los 2: Feuerwehrtechnischer Aufbau."
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "71bce2ed-b239-4945-bbbb-810847ff0f8e",
+  "version": "01",
+  "title": "Vergabe Rüstwagen",
+  "description": "Lieferung eines neuen Rüstwagens nach DIN 1455-3-2025-11; Los 1: Fahrgestell; Los 2: Feuerwehrtechnischer Aufbau.",
+  "procedureType": "open",
+  "nuts": [
+   "DE251"
+  ],
+  "cpv": [
+   "34144210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1: Fahrgestell",
+    "description": "Los 1: Fahrgestell.",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE251"
+    ],
+    "deadline": "2026-11-25T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Eigenerklärung zu geeigneten Referenzen (eine Mindestreferenz) über früher ausgeführte Lieferaufträge, untergliedert nach a) Name des Auftraggebers, b) Leistungsjahr, c) Leistung, und d) Leistungserbringer. Die Mindestreferenz (Referenz 1) ist erbracht, wenn die genannten Mindestanforderungen erfüllt sind; andernfalls erfolgt der Ausschluss. D.h. die Mindestreferenz (Referenz 1) muss a) mindestens den Namen des Auftraggebers nachweisen,   b) mindestens das Jahr 2026 oder 2025 oder 2024 oder 2023 oder 2022 nachweisen,   c) mindestens die Leistung \"Lieferung von mindestens einem rüstwagenaufbaugeeigneten Frontlenkerfahrgestell mit einer zulässigen Gesamtmasse von maximal 16.000 kg und mindestens einer Motorleistung von 230 kW\" nachweisen, und   d) mindestens auf den Bieter, die Bietergemeinschaft oder anderen Leistungserbringer, z.B. Unterauftragnehmer, Eignungsverleiher, bezogen sein.  Die Referenzen 2 bis 5 können, müssen aber nicht von dem Bieter erbracht we-den."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung darüber, dass mindestens eine Betriebs-Haftpflichtversicherung besteht oder mindestens im Auftragsfall zeitnah abgeschlossen wird."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2: Feuerwehrtechnischer Aufbau",
+    "description": "Los 2: Feuerwehrtechnischer Aufbau.",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE251"
+    ],
+    "deadline": "2026-11-25T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Eigenerklärung zu geeigneten Referenzen (eine Mindestreferenz) über früher ausgeführte Lieferaufträge, untergliedert nach a) Name des Auftraggebers, b) Leistungsjahr, c) Leistung, und d) Leistungserbringer. Die Mindestreferenz (Referenz 1) ist erbracht, wenn die genannten Mindestanforderungen erfüllt sind; andernfalls erfolgt der Ausschluss. D.h. die Mindestreferenz (Referenz 1) muss a) mindestens den Namen des Auftraggebers nachweisen,   b) mindestens das Jahr 2026 oder 2025 oder 2024 oder 2023 oder 2022 nachweisen,   c) mindestens die Leistung \"Lieferung von mindestens einem Feuerwehraufbau für einen Rüstwagen (Geräteraum, Gerätelagerung und Halterungen) mit hydraulischer Zugeinrichtung\" nachweisen, und   d) mindestens auf den Bieter, die Bietergemeinschaft oder anderen Leistungserbringer, z.B. Unterauftragnehmer, Eignungsverleiher, bezogen sein.  Die Referenzen 2 bis 5 können, müssen aber nicht von dem Bieter erbracht werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung darüber, dass mindestens eine Betriebs-Haftpflichtversicherung besteht oder mindestens im Auftragsfall zeitnah abgeschlossen wird."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

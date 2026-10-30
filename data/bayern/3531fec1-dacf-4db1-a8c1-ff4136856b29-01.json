@@ -1,0 +1,342 @@
+{
+ "id": "3531fec1-dacf-4db1-a8c1-ff4136856b29-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "3531fec1-dacf-4db1-a8c1-ff4136856b29",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3531fec1-dacf-4db1-a8c1-ff4136856b29",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:3531fec1-dacf-4db1-a8c1-ff4136856b29-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:3531fec1-dacf-4db1-a8c1-ff4136856b29-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3531fec1-dacf-4db1-a8c1-ff4136856b29?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Stadt Haar: IT-Services",
+  "buyer": "Stadt Haar",
+  "cpv": [
+   "72000000",
+   "72250000",
+   "50300000"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c89b1735-8a7d-4c8d-b0c8-a83f3c1ddb3d",
+  "id": "3531fec1-dacf-4db1-a8c1-ff4136856b29",
+  "date": "2026-10-17T16:40:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Haar",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "n/a",
+     "legalName": "Stadt Haar"
+    },
+    "address": {
+     "streetAddress": "Bahnhofstr. 7",
+     "locality": "Haar",
+     "region": "DE21H",
+     "postalCode": "85540",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "n-a",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "SPIE Information & Communication Services GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "n_a",
+     "legalName": "SPIE Information & Communication Services GmbH"
+    },
+    "address": {
+     "streetAddress": "Druckereistraße 4",
+     "locality": "Leipzig",
+     "region": "DED51",
+     "postalCode": "04159",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Haar",
+   "id": "n/a",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Stadt Haar"
+   },
+   "address": {
+    "streetAddress": "Bahnhofstr. 7",
+    "locality": "Haar",
+    "region": "DE21H",
+    "postalCode": "85540",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c89b1735-8a7d-4c8d-b0c8-a83f3c1ddb3d",
+   "title": "Stadt Haar: IT-Services",
+   "description": "Die Stadt Haar (Los 1) und der Zweckverband Staatliche weiterführende Schulen in Haar (Los 2) beabsichtigen jeweils die Beschaffung von IT-Serviceleistungen (kurz: IT-Services) für die IT-Infrastruktur ihrer jeweiligen Schulen, deren Sachaufwandsträger sie jeweils sind, in Haar.\n   \nEine ausführliche Darstellung des jeweiligen Leistungsgegenstandes findet sich in den Dokumenten \n5.3 Leistungsbeschreibung_IT-Services_Los-1 mit Übersicht_Hardware-Software_Los-1\n5.4 Leistungsbeschreibung_IT-Services_Los-2 mit Übersicht_Hardware-Software_Los-2\n5.5 Leistungsverzeichnis_IT-Services_Los-1\n5.6 Leistungsverzeichnis_IT-Services_Los-2\n5.7 Preisblatt_IT-Services_Los-1\n5.8 Preisblatt_IT-Services_Los-2\n5.9 EVB-IT_Servicevertrag_Los-## inkl. EVB-IT Service-AGB 1.0",
+   "procuringEntity": {
+    "name": "Stadt Haar",
+    "id": "n/a"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000",
+      "description": "IT services: consulting, software development, Internet and support"
+     },
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen."
+     },
+     "deliveryAddress": {
+      "locality": "Haar",
+      "region": "DE21H",
+      "postalCode": "85540",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000",
+      "description": "IT services: consulting, software development, Internet and support"
+     },
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen."
+     },
+     "deliveryAddress": {
+      "locality": "Haar",
+      "region": "DE21H",
+      "postalCode": "85540",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SPIE Information & Communication Services GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "SPIE Information & Communication Services GmbH"
+     },
+     "address": {
+      "streetAddress": "Druckereistraße 4",
+      "locality": "Leipzig",
+      "region": "DED51",
+      "postalCode": "04159",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Stadt Haar",
+     "description": "Die Stadt Haar (Los 1) beabsichtigt die Beschaffung von IT-Serviceleistungen (kurz: IT-Services) für die IT-Infrastruktur ihrer Schulen, deren Sachaufwandsträger sie ist, in Haar.\n   \nEine ausführliche Darstellung des Leistungsgegenstandes findet sich in den Dokumenten \n5.3 Leistungsbeschreibung_IT-Services_Los-1 mit 5.3.1_Übersicht_Hardware-Software_Los-1\n5.5 Leistungsverzeichnis_IT-Services_Los-1\n5.7 Preisblatt_IT-Services_Los-1\n5.9 EVB-IT_Servicevertrag_Los-## inkl. EVB-IT Service-AGB 1.0",
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Zweckverband Staatliche weiterführende Schulen in Haar",
+     "description": "Der Zweckverband Staatliche weiterführende Schulen in Haar (Los 2) beabsichtigt die Beschaffung von IT-Serviceleistungen (kurz: IT-Services) für die IT-Infrastruktur seiner Schulen, deren Sachaufwandsträger er ist,, in Haar.\n   \nEine ausführliche Darstellung des jeweiligen Leistungsgegenstandes findet sich in den Dokumenten \n5.4 Leistungsbeschreibung_IT-Services_Los-2 mit 5.4.1_Übersicht_Hardware-Software_Los-2\n5.6 Leistungsverzeichnis_IT-Services_Los-2\n5.8 Preisblatt_IT-Services_Los-2\n5.9 EVB-IT_Servicevertrag_Los-## inkl. EVB-IT Service-AGB 1.0",
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-14T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-14T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3531fec1-dacf-4db1-a8c1-ff4136856b29",
+  "version": "01",
+  "title": "Stadt Haar: IT-Services",
+  "description": "Die Stadt Haar (Los 1) und der Zweckverband Staatliche weiterführende Schulen in Haar (Los 2) beabsichtigen jeweils die Beschaffung von IT-Serviceleistungen (kurz: IT-Services) für die IT-Infrastruktur ihrer jeweiligen Schulen, deren Sachaufwandsträger sie jeweils sind, in Haar.\n   \nEine ausführliche Darstellung des jeweiligen Leistungsgegenstandes findet sich in den Dokumenten \n5.3 Leistungsbeschreibung_IT-Services_Los-1 mit Übersicht_Hardware-Software_Los-1\n5.4 Leistungsbeschreibung_IT-Services_Los-2 mit Übersicht_Hardware-Software_Los-2\n5.5 Leistungsverzeichnis_IT-Services_Los-1\n5.6 Leistungsverzeichnis_IT-Services_Los-2\n5.7 Preisblatt_IT-Services_Los-1\n5.8 Preisblatt_IT-Services_Los-2\n5.9 EVB-IT_Servicevertrag_Los-## inkl. EVB-IT Service-AGB 1.0",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "72000000",
+   "72250000",
+   "50300000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Stadt Haar",
+    "description": "Die Stadt Haar (Los 1) beabsichtigt die Beschaffung von IT-Serviceleistungen (kurz: IT-Services) für die IT-Infrastruktur ihrer Schulen, deren Sachaufwandsträger sie ist, in Haar.\n   \nEine ausführliche Darstellung des Leistungsgegenstandes findet sich in den Dokumenten \n5.3 Leistungsbeschreibung_IT-Services_Los-1 mit 5.3.1_Übersicht_Hardware-Software_Los-1\n5.5 Leistungsverzeichnis_IT-Services_Los-1\n5.7 Preisblatt_IT-Services_Los-1\n5.9 EVB-IT_Servicevertrag_Los-## inkl. EVB-IT Service-AGB 1.0",
+    "cpv": [
+     "72000000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "Leistung (Einfache Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis (Einfache Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Zweckverband Staatliche weiterführende Schulen in Haar",
+    "description": "Der Zweckverband Staatliche weiterführende Schulen in Haar (Los 2) beabsichtigt die Beschaffung von IT-Serviceleistungen (kurz: IT-Services) für die IT-Infrastruktur seiner Schulen, deren Sachaufwandsträger er ist,, in Haar.\n   \nEine ausführliche Darstellung des jeweiligen Leistungsgegenstandes findet sich in den Dokumenten \n5.4 Leistungsbeschreibung_IT-Services_Los-2 mit 5.4.1_Übersicht_Hardware-Software_Los-2\n5.6 Leistungsverzeichnis_IT-Services_Los-2\n5.8 Preisblatt_IT-Services_Los-2\n5.9 EVB-IT_Servicevertrag_Los-## inkl. EVB-IT Service-AGB 1.0",
+    "cpv": [
+     "72000000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "Leistung (Einfache RIchtwertmethode nach UfAB 2018)",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis (Einfache Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

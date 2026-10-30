@@ -163,6 +163,8 @@
   "noticeId": "b6c62363-cf47-4d9a-bae3-02713e22ccb1",
   "version": "01",
   "title": "Single Photon Detection System - PR1289404-2660-W",
+  "description": "Single Photon Detection System",
+  "procedureType": "open",
   "nuts": [
    "DEG03"
   ],
@@ -174,6 +176,7 @@
    {
     "id": "LOT-0000",
     "title": "Single Photon Detection System - PR1289404-2660-W",
+    "description": "1pc. Single Photon Detection System",
     "cpv": [
      "38000000"
     ],
@@ -184,6 +187,10 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 8,
+     "unit": "MONTH"
+    },
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -191,7 +198,22 @@
       "type": "slc-stand-ratio",
       "description": "Sales of the last 3 financial years\n-\nThis criterion is NOT the only eligibility criterion.The full eligibility criteria can be found here:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a17732e99d-113cc6fd2ea5038b"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Technical Details",
+      "description": ".",
+      "weight": 65
+     },
+     {
+      "type": "price",
+      "name": "Price",
+      "description": ".",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

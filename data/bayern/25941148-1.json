@@ -1,0 +1,134 @@
+{
+ "id": "25941148-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25941148",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25941148",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25941148-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25941148-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25941148?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+  "buyer": "Gemeinde Altenstadt a.d. Waldnaab",
+  "cpv": [
+   "42416100-6"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-09T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25941148",
+  "id": "25941148",
+  "date": "2026-10-17T07:00:22Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Altenstadt a.d. Waldnaab",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Altenstadt a.d. Waldnaab"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Altenstadt a.d. Waldnaab",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Altenstadt a.d. Waldnaab"
+   }
+  },
+  "tender": {
+   "title": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+   "description": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer &amp; Co.",
+   "procuringEntity": {
+    "name": "Gemeinde Altenstadt a.d. Waldnaab"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "42416100-6"
+     },
+     "deliveryAddress": {
+      "locality": "92665 Altenstadt an der Waldnaab",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y1AMWQ5",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+     "description": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer &amp; Co."
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25941148",
+  "version": "1",
+  "title": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+  "description": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer &amp; Co.",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "42416100-6"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer & Co.",
+    "description": "Aufzuganlage - Sanierung der ehem. Bleikristallfabrik Beyer &amp; Co.",
+    "cpv": [
+     "42416100-6"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-09T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

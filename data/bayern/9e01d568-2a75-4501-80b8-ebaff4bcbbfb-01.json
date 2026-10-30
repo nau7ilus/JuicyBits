@@ -1,0 +1,399 @@
+{
+ "id": "9e01d568-2a75-4501-80b8-ebaff4bcbbfb-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "9e01d568-2a75-4501-80b8-ebaff4bcbbfb",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9e01d568-2a75-4501-80b8-ebaff4bcbbfb",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:9e01d568-2a75-4501-80b8-ebaff4bcbbfb-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:9e01d568-2a75-4501-80b8-ebaff4bcbbfb-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9e01d568-2a75-4501-80b8-ebaff4bcbbfb?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+  "buyer": "Stadtwerke Passau GmbH",
+  "cpv": [
+   "09130000"
+  ],
+  "nuts": [
+   "DE222"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3d7811d0-b1a9-40e0-a601-7328d02dcaea",
+  "id": "9e01d568-2a75-4501-80b8-ebaff4bcbbfb",
+  "date": "2026-10-22T02:10:10Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke Passau GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE812538465",
+     "legalName": "Stadtwerke Passau GmbH"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 29",
+     "locality": "Passau",
+     "region": "DE222",
+     "postalCode": "94036",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke Passau GmbH",
+   "id": "DE812538465",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadtwerke Passau GmbH"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 29",
+    "locality": "Passau",
+    "region": "DE222",
+    "postalCode": "94036",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3d7811d0-b1a9-40e0-a601-7328d02dcaea",
+   "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+   "description": "Im Omnibusbetriebshof der Stadtwerke Passau GmbH, Mühlweg 28, 94036 Passau befindet sich die betriebliche Tankstelle. Die Kraftstoffe werden in unterirdischen Tanks mit Fassungsvermögen von 200.000 Liter für Diesel, 50.000 Liter für Super und 50.000 Liter für HVO 100 gelagert. Die Stadtwerke Passau GmbH beabsichtigt den Abschluss von Rahmenverträgen über die Belieferung mit Dieselkraftstoff (Los 1), Super-Kraftstoff E5 (Los 2) und HVO 100 (Los 3). Angebote können für ein oder mehrere Lose abgegeben werden. \n",
+   "procuringEntity": {
+    "name": "Stadtwerke Passau GmbH",
+    "id": "DE812538465"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09130000",
+      "description": "Petroleum and distillates"
+     },
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94036",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09130000",
+      "description": "Petroleum and distillates"
+     },
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94036",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09130000",
+      "description": "Petroleum and distillates"
+     },
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94036",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av286bb3-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av286bb3-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av286bb3-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+     "description": "Lieferung von Dieselkraftstoff nach DIN EN 590",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-01-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+     "description": "Lieferung von Ottokraftstoff Super E5 nach DIN EN 228",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-01-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+     "description": "Lieferung von HVO100 nach DIN EN 15940",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-01-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "9e01d568-2a75-4501-80b8-ebaff4bcbbfb",
+  "version": "01",
+  "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+  "description": "Im Omnibusbetriebshof der Stadtwerke Passau GmbH, Mühlweg 28, 94036 Passau befindet sich die betriebliche Tankstelle. Die Kraftstoffe werden in unterirdischen Tanks mit Fassungsvermögen von 200.000 Liter für Diesel, 50.000 Liter für Super und 50.000 Liter für HVO 100 gelagert. Die Stadtwerke Passau GmbH beabsichtigt den Abschluss von Rahmenverträgen über die Belieferung mit Dieselkraftstoff (Los 1), Super-Kraftstoff E5 (Los 2) und HVO 100 (Los 3). Angebote können für ein oder mehrere Lose abgegeben werden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE222"
+  ],
+  "cpv": [
+   "09130000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+    "description": "Lieferung von Dieselkraftstoff nach DIN EN 590",
+    "cpv": [
+     "09130000"
+    ],
+    "nuts": [
+     "DE222"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Angabe des Bieters bzw. jedes Mitglieds der Bietergemeinschaft, dass er/es nicht zu einer Eintragung in einem Berufs- oder Handelsregister verpflichtet ist ODER er darin eingetragen ist, unter Angabe der Nummer und dem Register."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "(1) Der Auftragnehmer haftet für alle Schäden, die dem Auftraggeber und/oder einem Dritten im Zusammenhang mit der Lieferleistung entstehen. Der Auftragnehmer kann sich nicht im Sinne des § 831 BGB darauf berufen, dass er bei der Auswahl seiner Verrichtungsgehilfen und bei deren Überwachung die im Verkehr übliche Sorgfalt beachtet habe.\n(2) Der Auftragnehmer stellt den Auftraggeber von allen Ansprüchen, die Dritte im Zusammenhang mit der Ausführung der Arbeiten gegen ihn geltend machen, frei.\n(3) Der Auftragnehmer schließt eine Betriebshaftpflichtversicherung für alle Leistungen mit einer Deckungssumme von 5 Millionen Euro für Personen-, Sach- und Vermögensschäden ab und legt den entsprechenden Beleg vor."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Auf Verlangen der Vergabestelle bzw. des Auftraggebers werden unverzüglich\n•\tdie Namen und Adressen der Unternehmen benannt, auf deren Fähigkeiten sich im Auftragsfall bedient wird, soweit in dieser Erklärung ohne Klarnamen ausgeführt, \n•\tdie Verpflichtungserklärung(en) für Unterauftragnehmer/Dritte, auf deren Eignung sich  berufen wird, auf der Vorlage des Formblatts Verpflichtungserklärung Unterauftragnehmer/Dritte dazu vorlegen, dass die erforderlichen Mittel dieser Unternehmen zur Verfügung stehen (auf Anforderung auf einem Formular des Auftraggebers), ungeachtet des rechtlichen Charakters und zwischen diesen Unternehmen bestehenden Verbindungen.\n\nZur Ausführung der im Angebot enthaltenen Leistungen benenne ich/benennen wir im Folgenden die Namen und Anschriften der Unterauftragnehmer sowie detailliert und ausführlich Art und Umfang der durch Unterauftragnehmer auszuführenden \nTeilleistungen. Soweit der jeweilige Unterauftragnehmer im Zeitpunkt des Teilnahmewettbewerbs noch nicht feststeht, wird die Art und der Umfang der Teilleistungen, für die sich der Bewerber/die Bewerbergemeinschaft auf Kenntnisse, Fähigkeiten, Ressourcen o. a. Mittel Dritter beruft benannt."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Scientology-Schutzerklärung, Eigenerklärung zur Umsetzung von Artikel 5k Abs. 1 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022. Angabe der Normen, nach denen der Bieter insbesondere bezüglich Sicherheit, Gesundheits- und Umweltschutz zertifiziert ist (z. B. ISO 9001, ISO 14001, ISO 45001, Zertifizierung für HVO 100). Auf Anforderung des Auftraggebers legt der Bieter (bzw. das Mitglied der Bietergemeinschaft) innerhalb der vom Auftraggeber vorgegebenen Frist das entsprechende Zertifikat vor. Der Auftraggeber hat auch das Recht, diesen Status auf Online-Plattformen abzufragen \nBestätigung der ADR-Zulassung und Angabe der Berufsgenossenschaft."
+     },
+     {
+      "type": "slc-sec-inf",
+      "description": "Eigenerklärung zur Vertraulichkeit."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angabe zur Anzahl der jahresdurchschnittlichen Beschäftigten, die im Unternehmen des Bieters beschäftigt sind, jeweils in den letzten drei Geschäftsjahren 2023, 2024 und 2025."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Angabe des allgemeinen Umsatzes in Euro, jeweils für die letzten drei Geschäftsjahre 2023, 2024 und 2025."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Angabe von mindestens drei Referenzen aus den letzten drei Jahren vor dem Datum der Bekanntmachung, die mit der zu vergebenden Leistung vergleichbar nach der Art der Aufgabenstellung sowie Umfang und Komplexität vergleichbar sind und die erfolgreich, also ohne wesentliche Beanstandungen, durchgeführt wurden. Erfolgreich durchgeführt ist eine Referenz nur, wenn die Lieferungen ohne wesentliche Beanstandungen erbracht wurden. \nVergleichbar mit dem ausgeschriebenen Auftragsgegenstand sind Referenzen, wenn sie die Belieferung gewerblicher oder öffentlicher Abnehmer (z. B. Verkehrsunternehmen, Fuhrparkbetreiber, Kommunen, Stadtwerke, Speditionen) mit Kraftstoffen um-fasst und fristgerecht beim Referenzauftraggeber erfolgt sind, also innerhalb der mit dem Referenzauftraggeber vereinbarten Lieferfristen und ohne wiederholte oder erhebliche Lieferverzögerungen oder Lieferausfälle.\n\nVerfügt der Bieter über mehrere Niederlassungen, so muss sich die Referenz auf die Niederlassung beziehen, die den Auftrag ausführen soll. \nDer Bieter erklärt sich durch Angabe der Referenzen mit einer Nachfrage des Auftraggebers bei den jeweiligen Referenzauftraggebern ohne seine gesonderte Zustimmung einverstanden. Die Angabe eines Ansprechpartners bereits im Angebot ist jedoch nicht zwingend erforderlich. Die Referenzen sind auf Anforderung durch eine Bescheinigung des Referenzauftraggebers zu belegen, die Vorlage einer Bescheinigung anstelle des vollständig ausgefüllten Formulars genügt jedoch nicht. \n\nFalls der Bieter keine eigenen Referenzen, sondern Referenzen anderer Unternehmen nennt, muss er unter „Bemerkungen“ erläutern, warum er sich auf die Referenz berufen kann. Dies gilt auch für Referenzen von Konzernunternehmen/Unternehmen, mit denen der Bieter gesellschaftsrechtlich verbunden ist. Fehlen solche Ausführungen oder sind diese nicht nachvollziehbar, kann die Referenz nicht berücksichtigt werden.\n\nZu jeder Referenz Angabe Referenzauftraggeber, Zeitpunkt/Zeitraum der Leistungserbringung, Auftragnehmer des Referenzauftrages, Art und Umfang der Leistungen, Angaben zur Vergleichbarkeit, Ansprechpartner beim Referenzauftraggeber mit Telefon-Nr. und E-Mail. \nDie Mindestanforderungen zum Referenzauftrag: Referenzauftrag betrifft die Belieferung eines gewerblichen oder öffentlichen Abnehmers (z. B. Verkehrsunternehmen, Fuhrparkbetreiber, Kommune, Stadtwerk, Spedition) mit Kraftstoffen. Die Lieferungen wurden fristgerecht erbracht, d. h. innerhalb der mit dem Referenzauftraggeber vereinbarten Lieferfristen und ohne wiederholte oder erhebliche Lieferverzögerungen oder Lieferausfälle."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+    "description": "Lieferung von Ottokraftstoff Super E5 nach DIN EN 228",
+    "cpv": [
+     "09130000"
+    ],
+    "nuts": [
+     "DE222"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Angabe des Bieters bzw. jedes Mitglieds der Bietergemeinschaft, dass er/es nicht zu einer Eintragung in einem Berufs- oder Handelsregister verpflichtet ist ODER er darin eingetragen ist, unter Angabe der Nummer und dem Register."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "(1) Der Auftragnehmer haftet für alle Schäden, die dem Auftraggeber und/oder einem Dritten im Zusammenhang mit der Lieferleistung entstehen. Der Auftragnehmer kann sich nicht im Sinne des § 831 BGB darauf berufen, dass er bei der Auswahl seiner Verrichtungsgehilfen und bei deren Überwachung die im Verkehr übliche Sorgfalt beachtet habe.\n(2) Der Auftragnehmer stellt den Auftraggeber von allen Ansprüchen, die Dritte im Zusammenhang mit der Ausführung der Arbeiten gegen ihn geltend machen, frei.\n(3) Der Auftragnehmer schließt eine Betriebshaftpflichtversicherung für alle Leistungen mit einer Deckungssumme von 5 Millionen Euro für Personen-, Sach- und Vermögensschäden ab und legt den entsprechenden Beleg vor."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Auf Verlangen der Vergabestelle bzw. des Auftraggebers werden unverzüglich\n•\tdie Namen und Adressen der Unternehmen benannt, auf deren Fähigkeiten sich im Auftragsfall bedient wird, soweit in dieser Erklärung ohne Klarnamen ausgeführt, \n•\tdie Verpflichtungserklärung(en) für Unterauftragnehmer/Dritte, auf deren Eignung sich  berufen wird, auf der Vorlage des Formblatts Verpflichtungserklärung Unterauftragnehmer/Dritte dazu vorlegen, dass die erforderlichen Mittel dieser Unternehmen zur Verfügung stehen (auf Anforderung auf einem Formular des Auftraggebers), ungeachtet des rechtlichen Charakters und zwischen diesen Unternehmen bestehenden Verbindungen.\n\nZur Ausführung der im Angebot enthaltenen Leistungen benenne ich/benennen wir im Folgenden die Namen und Anschriften der Unterauftragnehmer sowie detailliert und ausführlich Art und Umfang der durch Unterauftragnehmer auszuführenden \nTeilleistungen. Soweit der jeweilige Unterauftragnehmer im Zeitpunkt des Teilnahmewettbewerbs noch nicht feststeht, wird die Art und der Umfang der Teilleistungen, für die sich der Bewerber/die Bewerbergemeinschaft auf Kenntnisse, Fähigkeiten, Ressourcen o. a. Mittel Dritter beruft benannt."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Scientology-Schutzerklärung, Eigenerklärung zur Umsetzung von Artikel 5k Abs. 1 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022. Angabe der Normen, nach denen der Bieter insbesondere bezüglich Sicherheit, Gesundheits- und Umweltschutz zertifiziert ist (z. B. ISO 9001, ISO 14001, ISO 45001, Zertifizierung für HVO 100). Auf Anforderung des Auftraggebers legt der Bieter (bzw. das Mitglied der Bietergemeinschaft) innerhalb der vom Auftraggeber vorgegebenen Frist das entsprechende Zertifikat vor. Der Auftraggeber hat auch das Recht, diesen Status auf Online-Plattformen abzufragen \nBestätigung der ADR-Zulassung und Angabe der Berufsgenossenschaft."
+     },
+     {
+      "type": "slc-sec-inf",
+      "description": "Eigenerklärung zur Vertraulichkeit."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angabe zur Anzahl der jahresdurchschnittlichen Beschäftigten, die im Unternehmen des Bieters beschäftigt sind, jeweils in den letzten drei Geschäftsjahren 2023, 2024 und 2025."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Angabe des allgemeinen Umsatzes in Euro, jeweils für die letzten drei Geschäftsjahre 2023, 2024 und 2025."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Angabe von mindestens drei Referenzen aus den letzten drei Jahren vor dem Datum der Bekanntmachung, die mit der zu vergebenden Leistung vergleichbar nach der Art der Aufgabenstellung sowie Umfang und Komplexität vergleichbar sind und die erfolgreich, also ohne wesentliche Beanstandungen, durchgeführt wurden. Erfolgreich durchgeführt ist eine Referenz nur, wenn die Lieferungen ohne wesentliche Beanstandungen erbracht wurden. \nVergleichbar mit dem ausgeschriebenen Auftragsgegenstand sind Referenzen, wenn sie die Belieferung gewerblicher oder öffentlicher Abnehmer (z. B. Verkehrsunternehmen, Fuhrparkbetreiber, Kommunen, Stadtwerke, Speditionen) mit Kraftstoffen um-fasst und fristgerecht beim Referenzauftraggeber erfolgt sind, also innerhalb der mit dem Referenzauftraggeber vereinbarten Lieferfristen und ohne wiederholte oder erhebliche Lieferverzögerungen oder Lieferausfälle.\n\nVerfügt der Bieter über mehrere Niederlassungen, so muss sich die Referenz auf die Niederlassung beziehen, die den Auftrag ausführen soll. \nDer Bieter erklärt sich durch Angabe der Referenzen mit einer Nachfrage des Auftraggebers bei den jeweiligen Referenzauftraggebern ohne seine gesonderte Zustimmung einverstanden. Die Angabe eines Ansprechpartners bereits im Angebot ist jedoch nicht zwingend erforderlich. Die Referenzen sind auf Anforderung durch eine Bescheinigung des Referenzauftraggebers zu belegen, die Vorlage einer Bescheinigung anstelle des vollständig ausgefüllten Formulars genügt jedoch nicht. \n\nFalls der Bieter keine eigenen Referenzen, sondern Referenzen anderer Unternehmen nennt, muss er unter „Bemerkungen“ erläutern, warum er sich auf die Referenz berufen kann. Dies gilt auch für Referenzen von Konzernunternehmen/Unternehmen, mit denen der Bieter gesellschaftsrechtlich verbunden ist. Fehlen solche Ausführungen oder sind diese nicht nachvollziehbar, kann die Referenz nicht berücksichtigt werden.\n\nZu jeder Referenz Angabe Referenzauftraggeber, Zeitpunkt/Zeitraum der Leistungserbringung, Auftragnehmer des Referenzauftrages, Art und Umfang der Leistungen, Angaben zur Vergleichbarkeit, Ansprechpartner beim Referenzauftraggeber mit Telefon-Nr. und E-Mail. \nDie Mindestanforderungen zum Referenzauftrag: Referenzauftrag betrifft die Belieferung eines gewerblichen oder öffentlichen Abnehmers (z. B. Verkehrsunternehmen, Fuhrparkbetreiber, Kommune, Stadtwerk, Spedition) mit Kraftstoffen. Die Lieferungen wurden fristgerecht erbracht, d. h. innerhalb der mit dem Referenzauftraggeber vereinbarten Lieferfristen und ohne wiederholte oder erhebliche Lieferverzögerungen oder Lieferausfälle."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Beschaffung von Kraftstoffen für die Stadtwerke Passau GmbH",
+    "description": "Lieferung von HVO100 nach DIN EN 15940",
+    "cpv": [
+     "09130000"
+    ],
+    "nuts": [
+     "DE222"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Angabe des Bieters bzw. jedes Mitglieds der Bietergemeinschaft, dass er/es nicht zu einer Eintragung in einem Berufs- oder Handelsregister verpflichtet ist ODER er darin eingetragen ist, unter Angabe der Nummer und dem Register."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "(1) Der Auftragnehmer haftet für alle Schäden, die dem Auftraggeber und/oder einem Dritten im Zusammenhang mit der Lieferleistung entstehen. Der Auftragnehmer kann sich nicht im Sinne des § 831 BGB darauf berufen, dass er bei der Auswahl seiner Verrichtungsgehilfen und bei deren Überwachung die im Verkehr übliche Sorgfalt beachtet habe.\n(2) Der Auftragnehmer stellt den Auftraggeber von allen Ansprüchen, die Dritte im Zusammenhang mit der Ausführung der Arbeiten gegen ihn geltend machen, frei.\n(3) Der Auftragnehmer schließt eine Betriebshaftpflichtversicherung für alle Leistungen mit einer Deckungssumme von 5 Millionen Euro für Personen-, Sach- und Vermögensschäden ab und legt den entsprechenden Beleg vor."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Auf Verlangen der Vergabestelle bzw. des Auftraggebers werden unverzüglich\n•\tdie Namen und Adressen der Unternehmen benannt, auf deren Fähigkeiten sich im Auftragsfall bedient wird, soweit in dieser Erklärung ohne Klarnamen ausgeführt, \n•\tdie Verpflichtungserklärung(en) für Unterauftragnehmer/Dritte, auf deren Eignung sich  berufen wird, auf der Vorlage des Formblatts Verpflichtungserklärung Unterauftragnehmer/Dritte dazu vorlegen, dass die erforderlichen Mittel dieser Unternehmen zur Verfügung stehen (auf Anforderung auf einem Formular des Auftraggebers), ungeachtet des rechtlichen Charakters und zwischen diesen Unternehmen bestehenden Verbindungen.\n\nZur Ausführung der im Angebot enthaltenen Leistungen benenne ich/benennen wir im Folgenden die Namen und Anschriften der Unterauftragnehmer sowie detailliert und ausführlich Art und Umfang der durch Unterauftragnehmer auszuführenden \nTeilleistungen. Soweit der jeweilige Unterauftragnehmer im Zeitpunkt des Teilnahmewettbewerbs noch nicht feststeht, wird die Art und der Umfang der Teilleistungen, für die sich der Bewerber/die Bewerbergemeinschaft auf Kenntnisse, Fähigkeiten, Ressourcen o. a. Mittel Dritter beruft benannt."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Scientology-Schutzerklärung, Eigenerklärung zur Umsetzung von Artikel 5k Abs. 1 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022. Angabe der Normen, nach denen der Bieter insbesondere bezüglich Sicherheit, Gesundheits- und Umweltschutz zertifiziert ist (z. B. ISO 9001, ISO 14001, ISO 45001, Zertifizierung für HVO 100). Auf Anforderung des Auftraggebers legt der Bieter (bzw. das Mitglied der Bietergemeinschaft) innerhalb der vom Auftraggeber vorgegebenen Frist das entsprechende Zertifikat vor. Der Auftraggeber hat auch das Recht, diesen Status auf Online-Plattformen abzufragen \nBestätigung der ADR-Zulassung und Angabe der Berufsgenossenschaft."
+     },
+     {
+      "type": "slc-sec-inf",
+      "description": "Eigenerklärung zur Vertraulichkeit."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angabe zur Anzahl der jahresdurchschnittlichen Beschäftigten, die im Unternehmen des Bieters beschäftigt sind, jeweils in den letzten drei Geschäftsjahren 2023, 2024 und 2025."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Angabe des allgemeinen Umsatzes in Euro, jeweils für die letzten drei Geschäftsjahre 2023, 2024 und 2025."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Angabe von mindestens drei Referenzen aus den letzten drei Jahren vor dem Datum der Bekanntmachung, die mit der zu vergebenden Leistung vergleichbar nach der Art der Aufgabenstellung sowie Umfang und Komplexität vergleichbar sind und die erfolgreich, also ohne wesentliche Beanstandungen, durchgeführt wurden. Erfolgreich durchgeführt ist eine Referenz nur, wenn die Lieferungen ohne wesentliche Beanstandungen erbracht wurden. \nVergleichbar mit dem ausgeschriebenen Auftragsgegenstand sind Referenzen, wenn sie die Belieferung gewerblicher oder öffentlicher Abnehmer (z. B. Verkehrsunternehmen, Fuhrparkbetreiber, Kommunen, Stadtwerke, Speditionen) mit Kraftstoffen um-fasst und fristgerecht beim Referenzauftraggeber erfolgt sind, also innerhalb der mit dem Referenzauftraggeber vereinbarten Lieferfristen und ohne wiederholte oder erhebliche Lieferverzögerungen oder Lieferausfälle.\n\nVerfügt der Bieter über mehrere Niederlassungen, so muss sich die Referenz auf die Niederlassung beziehen, die den Auftrag ausführen soll. \nDer Bieter erklärt sich durch Angabe der Referenzen mit einer Nachfrage des Auftraggebers bei den jeweiligen Referenzauftraggebern ohne seine gesonderte Zustimmung einverstanden. Die Angabe eines Ansprechpartners bereits im Angebot ist jedoch nicht zwingend erforderlich. Die Referenzen sind auf Anforderung durch eine Bescheinigung des Referenzauftraggebers zu belegen, die Vorlage einer Bescheinigung anstelle des vollständig ausgefüllten Formulars genügt jedoch nicht. \n\nFalls der Bieter keine eigenen Referenzen, sondern Referenzen anderer Unternehmen nennt, muss er unter „Bemerkungen“ erläutern, warum er sich auf die Referenz berufen kann. Dies gilt auch für Referenzen von Konzernunternehmen/Unternehmen, mit denen der Bieter gesellschaftsrechtlich verbunden ist. Fehlen solche Ausführungen oder sind diese nicht nachvollziehbar, kann die Referenz nicht berücksichtigt werden.\n\nZu jeder Referenz Angabe Referenzauftraggeber, Zeitpunkt/Zeitraum der Leistungserbringung, Auftragnehmer des Referenzauftrages, Art und Umfang der Leistungen, Angaben zur Vergleichbarkeit, Ansprechpartner beim Referenzauftraggeber mit Telefon-Nr. und E-Mail. \nDie Mindestanforderungen zum Referenzauftrag: Referenzauftrag betrifft die Belieferung eines gewerblichen oder öffentlichen Abnehmers (z. B. Verkehrsunternehmen, Fuhrparkbetreiber, Kommune, Stadtwerk, Spedition) mit Kraftstoffen. Die Lieferungen wurden fristgerecht erbracht, d. h. innerhalb der mit dem Referenzauftraggeber vereinbarten Lieferfristen und ohne wiederholte oder erhebliche Lieferverzögerungen oder Lieferausfälle."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

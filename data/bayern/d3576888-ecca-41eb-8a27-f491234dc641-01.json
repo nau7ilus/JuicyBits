@@ -1,0 +1,353 @@
+{
+ "id": "d3576888-ecca-41eb-8a27-f491234dc641-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "d3576888-ecca-41eb-8a27-f491234dc641",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d3576888-ecca-41eb-8a27-f491234dc641",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:d3576888-ecca-41eb-8a27-f491234dc641-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:d3576888-ecca-41eb-8a27-f491234dc641-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d3576888-ecca-41eb-8a27-f491234dc641?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Ersatzbau LRA Miesbach, hier: Lose Möblierung Restleistungen",
+  "buyer": "Landratsamt Miesbach - Vergabestelle-",
+  "cpv": [
+   "39130000"
+  ],
+  "nuts": [
+   "DE21F"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-356cc5c3-5894-4835-843c-b3865844f0aa",
+  "id": "d3576888-ecca-41eb-8a27-f491234dc641",
+  "date": "2026-10-27T03:12:16Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Miesbach - Vergabestelle-",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "091820000000LKRMB57",
+     "legalName": "Landratsamt Miesbach - Vergabestelle-"
+    },
+    "address": {
+     "streetAddress": "Rosenheimer Str. 1",
+     "locality": "Miesbach",
+     "region": "DE21F",
+     "postalCode": "83714",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "raumweltenheiss GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "ORG-0003",
+     "legalName": "raumweltenheiss GmbH"
+    },
+    "address": {
+     "streetAddress": "Ammerthalstraße 27",
+     "locality": "Kirchheim",
+     "region": "DE21H",
+     "postalCode": "85551",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "S+W BüroRaumKultur GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "ORG-0004",
+     "legalName": "S+W BüroRaumKultur GmbH"
+    },
+    "address": {
+     "streetAddress": "Balanstraße 71a",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81541",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Miesbach - Vergabestelle-",
+   "id": "091820000000LKRMB57",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Miesbach - Vergabestelle-"
+   },
+   "address": {
+    "streetAddress": "Rosenheimer Str. 1",
+    "locality": "Miesbach",
+    "region": "DE21F",
+    "postalCode": "83714",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "356cc5c3-5894-4835-843c-b3865844f0aa",
+   "title": "Ersatzbau LRA Miesbach, hier: Lose Möblierung Restleistungen",
+   "description": "Lieferung, Vertragen, Montieren und Aufstellen nach Plan von Innen- und Außenmöbeln sowie Wandabsorbern:\nWhiteboards: ca. 17 Stck\nGarderobensysteme: ca. 3 Stck\nSpindanlagen: ca. 3 Stck\nMetallschränke: ca. 6 Stck\nFachbodenregale: ca. 2 Stck\n\n",
+   "procuringEntity": {
+    "name": "Landratsamt Miesbach - Vergabestelle-",
+    "id": "091820000000LKRMB57"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39130000",
+      "description": "Office furniture"
+     },
+     "deliveryAddress": {
+      "region": "DE21F",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39130000",
+      "description": "Office furniture"
+     },
+     "deliveryAddress": {
+      "region": "DE21F",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "No suitable tenders, requests to participate, or applications were received in response to a previous notice",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "raumweltenheiss GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "raumweltenheiss GmbH"
+     },
+     "address": {
+      "streetAddress": "Ammerthalstraße 27",
+      "locality": "Kirchheim",
+      "region": "DE21H",
+      "postalCode": "85551",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "S+W BüroRaumKultur GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "S+W BüroRaumKultur GmbH"
+     },
+     "address": {
+      "streetAddress": "Balanstraße 71a",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81541",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Ersatzbau LRA Miesbach, hier: Lose Möblierung Restleistungen",
+     "description": "Los 1:\nSpindanlagen: ca. 3 Stck\nMetallschränke: ca. 6 Stck\nFachbodenregale: ca. 2 Stck\n\n",
+     "contractPeriod": {
+      "startDate": "2026-05-27T00:00:00+02:00",
+      "endDate": "2026-07-18T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Ersatzbau LRA Miesbach, hier: Lose Möblierung Restleistungen",
+     "description": "Los 2: \nWhiteboards: ca. 17 Stck\nGarderobensysteme: ca. 3 Stck\n\n\n",
+     "contractPeriod": {
+      "startDate": "2026-05-27T00:00:00+02:00",
+      "endDate": "2026-07-18T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-06-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-06-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-06-14T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-06-14T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "d3576888-ecca-41eb-8a27-f491234dc641",
+  "version": "01",
+  "title": "Ersatzbau LRA Miesbach, hier: Lose Möblierung Restleistungen",
+  "description": "Lieferung, Vertragen, Montieren und Aufstellen nach Plan von Innen- und Außenmöbeln sowie Wandabsorbern:\nWhiteboards: ca. 17 Stck\nGarderobensysteme: ca. 3 Stck\nSpindanlagen: ca. 3 Stck\nMetallschränke: ca. 6 Stck\nFachbodenregale: ca. 2 Stck",
+  "procedureType": "us-neg-wo-call",
+  "nuts": [
+   "DE21F"
+  ],
+  "cpv": [
+   "39130000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Ersatzbau LRA Miesbach, hier: Lose Möblierung Restleistungen",
+    "description": "Los 1:\nSpindanlagen: ca. 3 Stck\nMetallschränke: ca. 6 Stck\nFachbodenregale: ca. 2 Stck",
+    "cpv": [
+     "39130000"
+    ],
+    "nuts": [
+     "DE21F"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-05-27+02:00",
+    "plannedEnd": "2026-07-18+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Die Wirtschaftlichkeit des Preises entscheidet.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Ersatzbau LRA Miesbach, hier: Lose Möblierung Restleistungen",
+    "description": "Los 2: \nWhiteboards: ca. 17 Stck\nGarderobensysteme: ca. 3 Stck",
+    "cpv": [
+     "39130000"
+    ],
+    "nuts": [
+     "DE21F"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-05-27+02:00",
+    "plannedEnd": "2026-07-18+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Die Wirtschaftlichkeit des Preises entscheidet.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

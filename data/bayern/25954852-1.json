@@ -1,0 +1,124 @@
+{
+ "id": "25954852-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954852",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954852",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954852-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954852-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954852?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Deckenbauarbeiten MB 18",
+  "buyer": "Landkreis Miesbach",
+  "cpv": [
+   "45233251-3  45233140-2  45233120-6"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-08-26T10:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954852",
+  "id": "25954852",
+  "date": "2026-10-21T07:01:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Miesbach",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landkreis Miesbach"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Miesbach",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Miesbach"
+   }
+  },
+  "tender": {
+   "title": "Deckenbauarbeiten MB 18",
+   "description": "Verkehrswegebau-, Asphaltarbeiten, Tiefbau- und Pflasterbauarbeiten",
+   "procuringEntity": {
+    "name": "Landkreis Miesbach"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45233251-3  45233140-2  45233120-6"
+     },
+     "deliveryAddress": {
+      "locality": "83714 Miesbach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Deckenbauarbeiten MB 18",
+     "description": "Verkehrswegebau-, Asphaltarbeiten, Tiefbau- und Pflasterbauarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25954852",
+  "version": "1",
+  "title": "Deckenbauarbeiten MB 18",
+  "description": "Verkehrswegebau-, Asphaltarbeiten, Tiefbau- und Pflasterbauarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45233251-3  45233140-2  45233120-6"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Deckenbauarbeiten MB 18",
+    "description": "Verkehrswegebau-, Asphaltarbeiten, Tiefbau- und Pflasterbauarbeiten",
+    "cpv": [
+     "45233251-3  45233140-2  45233120-6"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-08-26T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

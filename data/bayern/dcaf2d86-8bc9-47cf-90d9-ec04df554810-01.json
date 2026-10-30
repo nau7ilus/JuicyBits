@@ -1,0 +1,216 @@
+{
+ "id": "dcaf2d86-8bc9-47cf-90d9-ec04df554810-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "dcaf2d86-8bc9-47cf-90d9-ec04df554810",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=dcaf2d86-8bc9-47cf-90d9-ec04df554810",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:dcaf2d86-8bc9-47cf-90d9-ec04df554810-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:dcaf2d86-8bc9-47cf-90d9-ec04df554810-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/dcaf2d86-8bc9-47cf-90d9-ec04df554810?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Auswertung VDM",
+  "buyer": "Landesbaudirektion Bayern",
+  "cpv": [
+   "71000000"
+  ],
+  "nuts": [
+   "DE267",
+   "DE212"
+  ],
+  "deadline": "2026-11-20T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8af73dad-ef07-4977-b623-bf28a97c589a",
+  "id": "dcaf2d86-8bc9-47cf-90d9-ec04df554810",
+  "date": "2026-10-23T02:09:00Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landesbaudirektion Bayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0990002-23",
+     "legalName": "Landesbaudirektion Bayern"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 30",
+     "locality": "Ebern",
+     "region": "DE267",
+     "postalCode": "96106",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern - Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern - Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landesbaudirektion Bayern",
+   "id": "09-0990002-23",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landesbaudirektion Bayern"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 30",
+    "locality": "Ebern",
+    "region": "DE267",
+    "postalCode": "96106",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8af73dad-ef07-4977-b623-bf28a97c589a",
+   "title": "Auswertung VDM",
+   "description": "Auswertung Verkehrsdatenmanagement - Verkehrsmonitoring:\nIm Zeitraum 2027 bis 2031 sollen die Verkehrsdaten des bayerischen Verkehrsdatenmanagements kontinuierlich geprüft, ausgewertet und aufbereitet werden. Hierzu übernimmt der Auftragnehmer monatlich die Rohdaten der automatischen Dauerzählstellen, führt Plausibilitäts- und Qualitätsprüfungen durch und berücksichtigt bekannte längerfristige Ausfälle. Auf Basis der Daten werden typische Ganglinien und Zählstellengruppen abgeleitet sowie Verkehrsmengen, Jahresganglinien und Geschwindigkeitsdaten aufbereitet. Die Ergebnisse sind für den Auftraggeber und die Bundesanstalt für Straßenwesen (BASt) bereitzustellen. Ergänzend werden monatliche Verfügbarkeits-, Monats-, Tages- und Stundenauswertungen sowie jährliche Gesamtauswertungen erstellt. Die Bearbeitung umfasst 2027 zunächst 182 und ab 2028 voraussichtlich 208 Dauerzählstellen.\nIm Rahmen des Verkehrsmonitorings sind jährlich die Daten von rund 2.000 Zählstellen auf Plausibilität zu prüfen und durch eine ergänzende Kontrolle der Dauerzählstellendaten abzusichern. Zudem werden Hochrechnungsfaktoren für temporäre und manuelle Zählungen (TM/MZ) ermittelt, die erhobenen Verkehrsdaten hochgerechnet und die Verkehrswerte von rund 7.300 Zählstellen jährlich fortgeschrieben. Weiterhin sind Ergebnistabellen für die Straßenverkehrszählung zu erstellen sowie längengewichtete DTV-Mittelwerte und die Jahresfahrleistung zu berechnen. Sämtliche Ergebnisse sind entsprechend den fachlichen Vorgaben strukturiert, nachvollziehbar und termingerecht aufzubereiten.",
+   "procuringEntity": {
+    "name": "Landesbaudirektion Bayern",
+    "id": "09-0990002-23"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71000000",
+      "description": "Architectural, construction, engineering and inspection services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80797",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/301445",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Auswertung VDM",
+     "description": "Auswertung Verkehrsdatenmanagement - Verkehrsmonitoring:\nIm Zeitraum 2027 bis 2031 sollen die Verkehrsdaten des bayerischen Verkehrsdatenmanagements kontinuierlich geprüft, ausgewertet und aufbereitet werden. Hierzu übernimmt der Auftragnehmer monatlich die Rohdaten der automatischen Dauerzählstellen, führt Plausibilitäts- und Qualitätsprüfungen durch und berücksichtigt bekannte längerfristige Ausfälle. Auf Basis der Daten werden typische Ganglinien und Zählstellengruppen abgeleitet sowie Verkehrsmengen, Jahresganglinien und Geschwindigkeitsdaten aufbereitet. Die Ergebnisse sind für den Auftraggeber und die Bundesanstalt für Straßenwesen (BASt) bereitzustellen. Ergänzend werden monatliche Verfügbarkeits-, Monats-, Tages- und Stundenauswertungen sowie jährliche Gesamtauswertungen erstellt. Die Bearbeitung umfasst 2027 zunächst 182 und ab 2028 voraussichtlich 208 Dauerzählstellen.\nIm Rahmen des Verkehrsmonitorings sind jährlich die Daten von rund 2.000 Zählstellen auf Plausibilität zu prüfen und durch eine ergänzende Kontrolle der Dauerzählstellendaten abzusichern. Zudem werden Hochrechnungsfaktoren für temporäre und manuelle Zählungen (TM/MZ) ermittelt, die erhobenen Verkehrsdaten hochgerechnet und die Verkehrswerte von rund 7.300 Zählstellen jährlich fortgeschrieben. Weiterhin sind Ergebnistabellen für die Straßenverkehrszählung zu erstellen sowie längengewichtete DTV-Mittelwerte und die Jahresfahrleistung zu berechnen. Sämtliche Ergebnisse sind entsprechend den fachlichen Vorgaben strukturiert, nachvollziehbar und termingerecht aufzubereiten.",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2032-05-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "dcaf2d86-8bc9-47cf-90d9-ec04df554810",
+  "version": "01",
+  "title": "Auswertung VDM",
+  "description": "Auswertung Verkehrsdatenmanagement - Verkehrsmonitoring:\nIm Zeitraum 2027 bis 2031 sollen die Verkehrsdaten des bayerischen Verkehrsdatenmanagements kontinuierlich geprüft, ausgewertet und aufbereitet werden. Hierzu übernimmt der Auftragnehmer monatlich die Rohdaten der automatischen Dauerzählstellen, führt Plausibilitäts- und Qualitätsprüfungen durch und berücksichtigt bekannte längerfristige Ausfälle. Auf Basis der Daten werden typische Ganglinien und Zählstellengruppen abgeleitet sowie Verkehrsmengen, Jahresganglinien und Geschwindigkeitsdaten aufbereitet. Die Ergebnisse sind für den Auftraggeber und die Bundesanstalt für Straßenwesen (BASt) bereitzustellen. Ergänzend werden monatliche Verfügbarkeits-, Monats-, Tages- und Stundenauswertungen sowie jährliche Gesamtauswertungen erstellt. Die Bearbeitung umfasst 2027 zunächst 182 und ab 2028 voraussichtlich 208 Dauerzählstellen.\nIm Rahmen des Verkehrsmonitorings sind jährlich die Daten von rund 2.000 Zählstellen auf Plausibilität zu prüfen und durch eine ergänzende Kontrolle der Dauerzählstellendaten abzusichern. Zudem werden Hochrechnungsfaktoren für temporäre und manuelle Zählungen (TM/MZ) ermittelt, die erhobenen Verkehrsdaten hochgerechnet und die Verkehrswerte von rund 7.300 Zählstellen jährlich fortgeschrieben. Weiterhin sind Ergebnistabellen für die Straßenverkehrszählung zu erstellen sowie längengewichtete DTV-Mittelwerte und die Jahresfahrleistung zu berechnen. Sämtliche Ergebnisse sind entsprechend den fachlichen Vorgaben strukturiert, nachvollziehbar und termingerecht aufzubereiten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Auswertung VDM",
+    "description": "Auswertung Verkehrsdatenmanagement - Verkehrsmonitoring:\nIm Zeitraum 2027 bis 2031 sollen die Verkehrsdaten des bayerischen Verkehrsdatenmanagements kontinuierlich geprüft, ausgewertet und aufbereitet werden. Hierzu übernimmt der Auftragnehmer monatlich die Rohdaten der automatischen Dauerzählstellen, führt Plausibilitäts- und Qualitätsprüfungen durch und berücksichtigt bekannte längerfristige Ausfälle. Auf Basis der Daten werden typische Ganglinien und Zählstellengruppen abgeleitet sowie Verkehrsmengen, Jahresganglinien und Geschwindigkeitsdaten aufbereitet. Die Ergebnisse sind für den Auftraggeber und die Bundesanstalt für Straßenwesen (BASt) bereitzustellen. Ergänzend werden monatliche Verfügbarkeits-, Monats-, Tages- und Stundenauswertungen sowie jährliche Gesamtauswertungen erstellt. Die Bearbeitung umfasst 2027 zunächst 182 und ab 2028 voraussichtlich 208 Dauerzählstellen.\nIm Rahmen des Verkehrsmonitorings sind jährlich die Daten von rund 2.000 Zählstellen auf Plausibilität zu prüfen und durch eine ergänzende Kontrolle der Dauerzählstellendaten abzusichern. Zudem werden Hochrechnungsfaktoren für temporäre und manuelle Zählungen (TM/MZ) ermittelt, die erhobenen Verkehrsdaten hochgerechnet und die Verkehrswerte von rund 7.300 Zählstellen jährlich fortgeschrieben. Weiterhin sind Ergebnistabellen für die Straßenverkehrszählung zu erstellen sowie längengewichtete DTV-Mittelwerte und die Jahresfahrleistung zu berechnen. Sämtliche Ergebnisse sind entsprechend den fachlichen Vorgaben strukturiert, nachvollziehbar und termingerecht aufzubereiten.",
+    "cpv": [
+     "71000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2032-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 124 / L1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=301445"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 124 / L 1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 124 / L 1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 211, L 124 / L 1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 211, L 124 / L 1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

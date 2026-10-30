@@ -212,6 +212,8 @@
   "noticeId": "95bb81f0-466e-4af2-aa43-bcf153e77b4d",
   "version": "01",
   "title": "Teilanmeldungen zu Patenten im Bereich der  Audiokodierung - PR1294219 - 2440 - I",
+  "description": "Teilanmeldungen zu Patenten im Bereich der Audiokodierung",
+  "procedureType": "neg-wo-call",
   "nuts": [
    "DE212"
   ],
@@ -223,6 +225,7 @@
    {
     "id": "LOT-0000",
     "title": "Teilanmeldungen zu Patenten im Bereich der  Audiokodierung - PR1294219 - 2440 - I",
+    "description": "Teilanmeldungen zu Patenten im Bereich der Audiokodierung",
     "cpv": [
      "79120000"
     ],
@@ -233,9 +236,19 @@
     "participationDeadline": null,
     "plannedStart": "2026-10-27+01:00",
     "plannedEnd": "2027-04-30+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Bewertet wird der Gesamtpreis.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

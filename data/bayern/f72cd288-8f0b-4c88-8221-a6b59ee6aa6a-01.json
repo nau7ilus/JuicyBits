@@ -5,14 +5,14 @@
   "noticeId": "f72cd288-8f0b-4c88-8221-a6b59ee6aa6a",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f72cd288-8f0b-4c88-8221-a6b59ee6aa6a",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:f72cd288-8f0b-4c88-8221-a6b59ee6aa6a-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:f72cd288-8f0b-4c88-8221-a6b59ee6aa6a-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/f72cd288-8f0b-4c88-8221-a6b59ee6aa6a?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1229-001 Innenfensterbänke",
   "buyer": "Med. Einrichtungen des Bez. Oberpfalz - KU",
   "cpv": [
@@ -185,5 +185,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "f72cd288-8f0b-4c88-8221-a6b59ee6aa6a",
+  "version": "01",
+  "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1229-001 Innenfensterbänke",
+  "description": "Fensterbänke MDF mit HPL Beschichtung 3320x200mm: 6 Stück\nFensterbänke MDF mit HPL Beschichtung 2020x200mm: 6 Stück\nFensterbänke MDF mit HPL Beschichtung 690x200mm: 21 Stück\nFensterbänke MDF mit HPL Beschichtung 6500x200mm: 11 Stück\nFensterbänke MDF mit HPL Beschichtung 1110x200mm: 15 Stück\nFensterbänke MDF mit HPL Beschichtung 1140x200mm: 24 Stück",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "45422000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Gewerk 1229-001 Innenfensterbänke",
+    "description": "Fensterbänke MDF mit HPL Beschichtung 3320x200mm: 6 Stück\nFensterbänke MDF mit HPL Beschichtung 2020x200mm: 6 Stück\nFensterbänke MDF mit HPL Beschichtung 690x200mm: 21 Stück\nFensterbänke MDF mit HPL Beschichtung 6500x200mm: 11 Stück\nFensterbänke MDF mit HPL Beschichtung 1110x200mm: 15 Stück\nFensterbänke MDF mit HPL Beschichtung 1140x200mm: 24 Stück",
+    "cpv": [
+     "45422000"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-07+01:00",
+    "plannedEnd": "2026-12-19+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

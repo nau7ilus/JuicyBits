@@ -5,21 +5,22 @@
   "noticeId": "a23733b0-6f22-480d-b6fa-4331e1216efa",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a23733b0-6f22-480d-b6fa-4331e1216efa",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:a23733b0-6f22-480d-b6fa-4331e1216efa-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:a23733b0-6f22-480d-b6fa-4331e1216efa-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/a23733b0-6f22-480d-b6fa-4331e1216efa?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Rahmenvereinbarung über Wäschereinigung für die Münchner Stadtentwässerung",
   "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
   "cpv": [
    "98310000"
   ],
   "nuts": [
-   "DE212"
+   "DE212",
+   "DE21B"
   ],
   "deadline": null,
   "lots": 1
@@ -188,5 +189,58 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a23733b0-6f22-480d-b6fa-4331e1216efa",
+  "version": "01",
+  "title": "Rahmenvereinbarung über Wäschereinigung für die Münchner Stadtentwässerung",
+  "description": "Rahmenvereinbarung über Wäscherreinigung für die Münchner Stadtentwässerung",
+  "procedureType": "open",
+  "nuts": [
+   "DE212",
+   "DE21B"
+  ],
+  "cpv": [
+   "98310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvereinbarung über Wäschereinigung für die Münchner Stadtentwässerung",
+    "description": "Die Landeshauptstadt München - Münchener Stadtentwässerung benötigt die zuverlässige Wäschereinigung von Arbeits- und Warnschutzkleidung sowie von Haushaltstextilien.\n\nGegenstand der Rahmenvereinbarung sind Textildienstleistungen, bestehend aus der Reinigung und Pflege von Eigenwäsche (Arbeits-, Berufs- und Warnschutzkleidung) sowie der Gestellung, Reinigung und Pflege von Mietwäsche (Flachwäsche). Die Leistungen umfassen insbesondere die Abholung, die fachgerechte Reinigung bzw. Wäschepflege, gegebenenfalls Trocknen, Bügeln, Imprägnieren und Ausbessern sowie die schrank- und gebrauchsfertige Wiederanlieferung. Bei der Mietwäsche umfasst die Leistung zusätzlich die Bereitstellung der Textilien.\n\nLeistungsgruppe 1: Reinigung und Pflege von Eigenwäsche (Arbeits-, Berufs- und Warnschutzkleidung)\nUmfasst insbesondere:\n• Abholung der Arbeits-, Berufs- und Warnschutzkleidung bei den jeweiligen Dienststellen, \n• fachgerechtes Waschen bzw. Reinigen entsprechend den Herstellerangaben und den geltenden Normen, \n• Trocknen, gegebenenfalls Bügeln, Imprägnieren sowie Ausbessern und kleinere Reparaturen, \n• schrank- und gebrauchsfertige Rücklieferung an die jeweiligen Dienststellen. \n\nLeistungsgruppe 2: Gestellung, Reinigung und Pflege von Mietwäsche (Flachwäsche)\nUmfasst insbesondere:\n• Bereitstellung (Miete) von Duschtüchern und Geschirrtüchern, \n• Abholung der gebrauchten Flachwäsche, \n• fachgerechtes Waschen und Pflegen, \n• schrank- und gebrauchsfertige Wiederanlieferung der Mietwäsche.",
+    "cpv": [
+     "98310000"
+    ],
+    "nuts": [
+     "DE212",
+     "DE21B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-01+01:00",
+    "plannedEnd": "2028-10-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Nachhaltigkeit",
+      "description": "Unterkriterien: - Bezug Ökostrom bzw. eigenproduzierter Strom aus erneuerbaren Energiequellen & Umweltfreundliche Wasch-, Reinigungsmittel und weitere Hilfsmittel & Einsatz lokal emissionsfreier Antriebssysteme",
+      "weight": 40
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

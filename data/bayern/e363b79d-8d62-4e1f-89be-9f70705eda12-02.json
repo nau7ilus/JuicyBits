@@ -1,0 +1,485 @@
+{
+ "id": "e363b79d-8d62-4e1f-89be-9f70705eda12-02",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "e363b79d-8d62-4e1f-89be-9f70705eda12",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e363b79d-8d62-4e1f-89be-9f70705eda12",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:e363b79d-8d62-4e1f-89be-9f70705eda12-02.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:e363b79d-8d62-4e1f-89be-9f70705eda12-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e363b79d-8d62-4e1f-89be-9f70705eda12?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung eines Rüstwagens RW nach DIN 14555-3",
+  "buyer": "Landratsamt Miltenberg",
+  "cpv": [
+   "34144210",
+   "35111000"
+  ],
+  "nuts": [
+   "DE269"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-85f1d976-3567-4c86-8739-eaedcf73f63a",
+  "id": "e363b79d-8d62-4e1f-89be-9f70705eda12",
+  "date": "2026-10-22T02:09:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Miltenberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "13754",
+     "legalName": "Landratsamt Miltenberg"
+    },
+    "address": {
+     "streetAddress": "Brückenstraße 2",
+     "locality": "Miltenberg",
+     "region": "DE269",
+     "postalCode": "63897",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "5ae766df-5cdc-43ac-a629-4c724bb02187",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Rosenbauer Deutschland GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE811968670",
+     "legalName": "Rosenbauer Deutschland GmbH"
+    },
+    "address": {
+     "locality": "Luckenwalde",
+     "region": "DE40H",
+     "postalCode": "14943",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Albert Mahr Feuerwehrbedarf GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 134166284",
+     "legalName": "Albert Mahr Feuerwehrbedarf GmbH"
+    },
+    "address": {
+     "locality": "Würzburg",
+     "region": "DE263",
+     "postalCode": "97082",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Heavy Rescue Germany (FWnetz GmbH)",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "DE25821 8570",
+     "legalName": "Heavy Rescue Germany (FWnetz GmbH)"
+    },
+    "address": {
+     "locality": "Haar",
+     "region": "DE21H",
+     "postalCode": "85540",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Miltenberg",
+   "id": "13754",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Miltenberg"
+   },
+   "address": {
+    "streetAddress": "Brückenstraße 2",
+    "locality": "Miltenberg",
+    "region": "DE269",
+    "postalCode": "63897",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "85f1d976-3567-4c86-8739-eaedcf73f63a",
+   "title": "Lieferung eines Rüstwagens RW nach DIN 14555-3",
+   "description": "Lieferung eines Rüstwagens RW nach DIN 14555-3",
+   "procuringEntity": {
+    "name": "Landratsamt Miltenberg",
+    "id": "13754"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "region": "DE269",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35111000",
+      "description": "Firefighting equipment"
+     },
+     "deliveryAddress": {
+      "region": "DE269",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35111000",
+      "description": "Firefighting equipment"
+     },
+     "deliveryAddress": {
+      "region": "DE269",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 3,
+   "tenderers": [
+    {
+     "name": "Rosenbauer Deutschland GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Rosenbauer Deutschland GmbH"
+     },
+     "address": {
+      "locality": "Luckenwalde",
+      "region": "DE40H",
+      "postalCode": "14943",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Albert Mahr Feuerwehrbedarf GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Albert Mahr Feuerwehrbedarf GmbH"
+     },
+     "address": {
+      "locality": "Würzburg",
+      "region": "DE263",
+      "postalCode": "97082",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Heavy Rescue Germany (FWnetz GmbH)",
+     "identifier": {
+      "id": "ORG-0005",
+      "legalName": "Heavy Rescue Germany (FWnetz GmbH)"
+     },
+     "address": {
+      "locality": "Haar",
+      "region": "DE21H",
+      "postalCode": "85540",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rüstwagen",
+     "description": "Lieferung eines Rüstwagens RW nach DIN 14555-3"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "feuerwehrtechnische Beladung",
+     "description": "feuerwehrtechnische Beladung"
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Abstütz- und Hebesysteme",
+     "description": "Abstütz- und Hebesysteme"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 491953,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 167670,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "value": {
+     "amount": 150207.96,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e363b79d-8d62-4e1f-89be-9f70705eda12",
+  "version": "02",
+  "title": "Lieferung eines Rüstwagens RW nach DIN 14555-3",
+  "description": "Lieferung eines Rüstwagens RW nach DIN 14555-3",
+  "procedureType": "open",
+  "nuts": [
+   "DE269"
+  ],
+  "cpv": [
+   "34144210",
+   "35111000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rüstwagen",
+    "description": "Lieferung eines Rüstwagens RW nach DIN 14555-3",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE269"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Kundendienst",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Lieferzeit",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Erfüllungsgrad der technischen Leistungsbeschreibung/Gewichtsbilanz",
+      "weight": 40
+     },
+     {
+      "type": "cost",
+      "name": "Kostenkriterium",
+      "description": "Preis",
+      "weight": 40
+     },
+     {
+      "type": "cost",
+      "name": "Kostenkriterium",
+      "description": "Folgekosten",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "feuerwehrtechnische Beladung",
+    "description": "feuerwehrtechnische Beladung",
+    "cpv": [
+     "35111000"
+    ],
+    "nuts": [
+     "DE269"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Abstütz- und Hebesysteme",
+    "description": "Abstütz- und Hebesysteme",
+    "cpv": [
+     "35111000"
+    ],
+    "nuts": [
+     "DE269"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

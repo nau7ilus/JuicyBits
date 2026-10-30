@@ -1,0 +1,228 @@
+{
+ "id": "a88b398d-99b9-4a9b-8bb4-460086b4b108-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "a88b398d-99b9-4a9b-8bb4-460086b4b108",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a88b398d-99b9-4a9b-8bb4-460086b4b108",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:a88b398d-99b9-4a9b-8bb4-460086b4b108-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:a88b398d-99b9-4a9b-8bb4-460086b4b108-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a88b398d-99b9-4a9b-8bb4-460086b4b108?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Restaurierungsarbeiten Teil 1, Innenräume, Aussegnungshalle und Krypta",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "45454100",
+   "45410000",
+   "45442100"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T09:50:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a42cd705-4b52-4dcf-be4c-f2e97faebcc0",
+  "id": "a88b398d-99b9-4a9b-8bb4-460086b4b108",
+  "date": "2026-10-25T09:40:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a42cd705-4b52-4dcf-be4c-f2e97faebcc0",
+   "title": "Restaurierungsarbeiten Teil 1, Innenräume, Aussegnungshalle und Krypta",
+   "description": "Generalinstandsetzung des Westfriedhofs, \nBaldustr. 28, 80637 München, \n10. Stadtbezirk, FlNr. 1209/0, Gemarkung Moosach,\nTeil 1 - Hauptanlage  (Aussegnungshalle + Krypta)\nGewerk: Restaurierungsarbeiten",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45454100",
+      "description": "Restoration work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45410000",
+       "description": "Plastering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45442100",
+       "description": "Painting work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80637",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/299797",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Restaurierungsarbeiten Teil 1, Innenräume, Aussegnungshalle und Krypta",
+     "description": "Baustelleneinrichtung\t99 KW\t\nDiverse Schutzmaßnahmen\nÜberprüfen und Kartieren Bestand Schäden\t ca. 3.500 m2\nRestaurierung / Konservierung historischer Putze und Stuckaturen:\n- Festigung struktureller Schädigungen\tca. 450 m2\n - Behandlung von salzbelasteten und salzgeschädigten Bereichen\tca. 15 m2\n - Putzrückbau von geschädigten historischen Putzen\tca. 300 m2\n - Putz- und Stuckergänzungen in Angleichung an den Bestand, \n   auch auf Teil-, Klein- und Kleinstflächen\tca. 350 m2\n - Angleichung der Oberflächenstruktur an die Bestandsoberflächen\tca. 180 m2\nRestaurierung / Konservierung historischer Wandmalereioberflächen:\t\t\n - Reinigungsmethodik (trocken / feucht)\tca. 3.100 m2\n - Entfernung / Reduzierung von Malschichtüberarbeitungen\tca. 210 m2\n - Festigung strukturell geschädigter und ablösender Malschichten\tca. 320 m2\n - Malschichtergänzung als Retusche (Lasur-, Punkt- und Strichretusche)\tca. 290 m2\n - Angleichung der Oberflächenwirkung hinsichtlich Glanzgrad und Tiefenlicht\tca. 120 m2\nRekonstruktion / Neufassung historischer Raumfassungen nach Befund:\t\t\n - Entwurf\tca. 5 m2\n - Historische und neuzeitliche Anstrichsysteme\tca. 380 m2\n - Groß- und kleinflächige Malereiergänzungen\tca. 110 m2\n - Besondere historische Gestaltungstechniken (Stuccolustro mit Intarsien, \n   mehrschlägige Schablonierungen, Marmorierung, Maserierung, Linierung)\tca. 80 m2\nGrob- und Feinreinigung, Wände\tca. 2.100 qm\nBestandsanstrich anschleifen\tca. 2.100 qm\nLeimfarbbeschichtungen entfernen (Heißdampf)\tca. 250 qm\nBestandsanstrich entfernen\tca. 250 qm\nBestandsputz abschlagen, flächig + Fensterleibungen\tca. 60 qm\nSanierputz, Wände\tca. 45 qm\nKalkputz, Decke\tca. 130 qm\nWärmedämmputzsystem, Wand- und Fensterleibungen\tca. 170 qm\nAnstrich im Sol-Silikat-System, Putz, Wände\tca. 2.100 qm\nAnstrich im Sol-Silikat-System, Putz, Decken\tca. 550 qm\nAnstrich im Sol-Silikat-System, TB, Wände\tca. 170 qm\nAnstrich im Sol-Silikat-System, TB, Decken\tca. 60 qm\nArbeitsproben + Musterflächen\t\tpsch\nUntersuchungen\t\tpsch\nArbeitsdokumentationen (schriftlich, fotografisch, graphisch)\t\tpsch\nStundenlohnarbeiten",
+     "contractPeriod": {
+      "durationInDays": 930
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a88b398d-99b9-4a9b-8bb4-460086b4b108",
+  "version": "01",
+  "title": "Restaurierungsarbeiten Teil 1, Innenräume, Aussegnungshalle und Krypta",
+  "description": "Generalinstandsetzung des Westfriedhofs, \nBaldustr. 28, 80637 München, \n10. Stadtbezirk, FlNr. 1209/0, Gemarkung Moosach,\nTeil 1 - Hauptanlage  (Aussegnungshalle + Krypta)\nGewerk: Restaurierungsarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45454100",
+   "45442100",
+   "45410000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Restaurierungsarbeiten Teil 1, Innenräume, Aussegnungshalle und Krypta",
+    "description": "Baustelleneinrichtung\t99 KW\t\nDiverse Schutzmaßnahmen\nÜberprüfen und Kartieren Bestand Schäden\t ca. 3.500 m2\nRestaurierung / Konservierung historischer Putze und Stuckaturen:\n- Festigung struktureller Schädigungen\tca. 450 m2\n - Behandlung von salzbelasteten und salzgeschädigten Bereichen\tca. 15 m2\n - Putzrückbau von geschädigten historischen Putzen\tca. 300 m2\n - Putz- und Stuckergänzungen in Angleichung an den Bestand, \n   auch auf Teil-, Klein- und Kleinstflächen\tca. 350 m2\n - Angleichung der Oberflächenstruktur an die Bestandsoberflächen\tca. 180 m2\nRestaurierung / Konservierung historischer Wandmalereioberflächen:\t\t\n - Reinigungsmethodik (trocken / feucht)\tca. 3.100 m2\n - Entfernung / Reduzierung von Malschichtüberarbeitungen\tca. 210 m2\n - Festigung strukturell geschädigter und ablösender Malschichten\tca. 320 m2\n - Malschichtergänzung als Retusche (Lasur-, Punkt- und Strichretusche)\tca. 290 m2\n - Angleichung der Oberflächenwirkung hinsichtlich Glanzgrad und Tiefenlicht\tca. 120 m2\nRekonstruktion / Neufassung historischer Raumfassungen nach Befund:\t\t\n - Entwurf\tca. 5 m2\n - Historische und neuzeitliche Anstrichsysteme\tca. 380 m2\n - Groß- und kleinflächige Malereiergänzungen\tca. 110 m2\n - Besondere historische Gestaltungstechniken (Stuccolustro mit Intarsien, \n   mehrschlägige Schablonierungen, Marmorierung, Maserierung, Linierung)\tca. 80 m2\nGrob- und Feinreinigung, Wände\tca. 2.100 qm\nBestandsanstrich anschleifen\tca. 2.100 qm\nLeimfarbbeschichtungen entfernen (Heißdampf)\tca. 250 qm\nBestandsanstrich entfernen\tca. 250 qm\nBestandsputz abschlagen, flächig + Fensterleibungen\tca. 60 qm\nSanierputz, Wände\tca. 45 qm\nKalkputz, Decke\tca. 130 qm\nWärmedämmputzsystem, Wand- und Fensterleibungen\tca. 170 qm\nAnstrich im Sol-Silikat-System, Putz, Wände\tca. 2.100 qm\nAnstrich im Sol-Silikat-System, Putz, Decken\tca. 550 qm\nAnstrich im Sol-Silikat-System, TB, Wände\tca. 170 qm\nAnstrich im Sol-Silikat-System, TB, Decken\tca. 60 qm\nArbeitsproben + Musterflächen\t\tpsch\nUntersuchungen\t\tpsch\nArbeitsdokumentationen (schriftlich, fotografisch, graphisch)\t\tpsch\nStundenlohnarbeiten",
+    "cpv": [
+     "45454100",
+     "45410000",
+     "45442100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T09:50:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 31,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Zusätzlich zu den Referenzen sind alle weiteren zu erfüllenden Eignungskriterien (Eignung zur Berufsausübung, wirtschaftliche und finanzielle Leistungsfähigkeit, technische und berufliche Leistungsfähigkeit) sowie die zum Nachweis vorzulegenden Unterlagen in dem Dokument \"Eignung_und_Nichtvorliegen_von_Ausschlussgruenden“ aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=299797"
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Zusätzlich zu der geforderten Mindestanzahl des Personals sind alle weiteren zu erfüllenden Eignungskriterien (Eignung zur Berufsausübung, wirtschaftliche und finanzielle Leistungsfähigkeit, technische und berufliche Leistungsfähigkeit) sowie die zum Nachweis vorzulegenden Unterlagen in dem Dokument \"Eignung_und_Nichtvorliegen_von_Ausschlussgruenden“ aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=299797"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "siehe Vergabeunterlagen, Formblatt 227.",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen (Formblatt 227) aufgeführt.",
+      "weight": 55
+     },
+     {
+      "type": "quality",
+      "name": "siehe Vergabeunterlagen, Formblatt 227.",
+      "description": "Qualität ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen (Formblatt 227) aufgeführt. \nhttps://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/299797",
+      "weight": 45
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n--\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

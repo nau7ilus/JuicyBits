@@ -1,0 +1,135 @@
+{
+ "id": "25961254-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25961254",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25961254",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25961254-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25961254-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25961254?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "A7/A96 Sanierung und Reparatur Entwässerungsleitungen",
+  "buyer": "Die Autobahn GmbH des Bundes - NL Südbayern",
+  "cpv": [
+   "45232450"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-04T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25961254",
+  "id": "25961254",
+  "date": "2026-10-23T07:01:27Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Die Autobahn GmbH des Bundes - NL Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Die Autobahn GmbH des Bundes - NL Südbayern"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Die Autobahn GmbH des Bundes - NL Südbayern",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Die Autobahn GmbH des Bundes - NL Südbayern"
+   }
+  },
+  "tender": {
+   "title": "A7/A96 Sanierung und Reparatur Entwässerungsleitungen",
+   "description": "Sanierung und Reparatur Entwässerungsleitungen der Bauwerke entlang A7 & A96\n\nA7 A96 Sanierung und Reparatur Entwässerungsleitung",
+   "procuringEntity": {
+    "name": "Die Autobahn GmbH des Bundes - NL Südbayern"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232450",
+      "description": "Drainage construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Kempten 87439",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.autobahn.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-1a158b16e1c-62e834a37f341a2&PublicationType=0",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "A7/A96 Sanierung und Reparatur Entwässerungsleitungen",
+     "description": "Sanierung und Reparatur Entwässerungsleitungen der Bauwerke entlang A7 & A96\n\nA7 A96 Sanierung und Reparatur Entwässerungsleitung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25961254",
+  "version": "1",
+  "title": "A7/A96 Sanierung und Reparatur Entwässerungsleitungen",
+  "description": "Sanierung und Reparatur Entwässerungsleitungen der Bauwerke entlang A7 & A96\n\nA7 A96 Sanierung und Reparatur Entwässerungsleitung",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45232450"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "A7/A96 Sanierung und Reparatur Entwässerungsleitungen",
+    "description": "Sanierung und Reparatur Entwässerungsleitungen der Bauwerke entlang A7 & A96\n\nA7 A96 Sanierung und Reparatur Entwässerungsleitung",
+    "cpv": [
+     "45232450"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-04T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

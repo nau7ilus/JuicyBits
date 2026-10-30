@@ -195,6 +195,8 @@
   "noticeId": "5ee44fb2-fdae-486f-8d61-6d127475c774",
   "version": "01",
   "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 13.11.2020.",
+  "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 31.03.2023 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+  "procedureType": null,
   "nuts": [
    "DE27D"
   ],
@@ -207,6 +209,7 @@
    {
     "id": "LOT-0001",
     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 31.03.2023 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adresse beträgt  292 Adressen.",
     "cpv": [
      "64210000"
     ],
@@ -217,9 +220,28 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 10
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

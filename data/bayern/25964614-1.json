@@ -1,0 +1,147 @@
+{
+ "id": "25964614-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25964614",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25964614",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25964614-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25964614-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25964614?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Bau eines Regenrückhalteteichs",
+  "buyer": "Gemeinde Thanstein",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-28T14:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25964614",
+  "id": "25964614",
+  "date": "2026-10-23T07:01:53Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Thanstein",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Thanstein"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Thanstein",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Thanstein"
+   }
+  },
+  "tender": {
+   "title": "Bau eines Regenrückhalteteichs",
+   "description": "Erdbauarbeiten, Tiefbau und Entwässerungskanalarbeiten, Tiefbau- und Pflasterbauarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinde Thanstein"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "92554 Thanstein",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Bau eines Regenrückhalteteichs",
+     "description": "Erdbauarbeiten, Tiefbau und Entwässerungskanalarbeiten, Tiefbau- und Pflasterbauarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25964614",
+  "version": "1",
+  "title": "Bau eines Regenrückhalteteichs",
+  "description": "Erdbauarbeiten, Tiefbau und Entwässerungskanalarbeiten, Tiefbau- und Pflasterbauarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Bau eines Regenrückhalteteichs",
+    "description": "Erdbauarbeiten, Tiefbau und Entwässerungskanalarbeiten, Tiefbau- und Pflasterbauarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-28T14:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "id": "c1dfb76a-2316-471a-9dee-9747a1c700a4-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "c1dfb76a-2316-471a-9dee-9747a1c700a4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c1dfb76a-2316-471a-9dee-9747a1c700a4",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:c1dfb76a-2316-471a-9dee-9747a1c700a4-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:c1dfb76a-2316-471a-9dee-9747a1c700a4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c1dfb76a-2316-471a-9dee-9747a1c700a4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 401 Heizung",
+  "buyer": "Gemeinde Eching",
+  "cpv": [
+   "45330000",
+   "45331000",
+   "45331100"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": "2026-11-26T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c1dfb76a-2316-471a-9dee-9747a1c700a4",
+  "id": "c1dfb76a-2316-471a-9dee-9747a1c700a4",
+  "date": "2026-10-16T02:11:28Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Eching",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "14372",
+     "legalName": "Gemeinde Eching"
+    },
+    "address": {
+     "streetAddress": "Bürgerplatz 1",
+     "locality": "Eching",
+     "region": "DE21B",
+     "postalCode": "85386",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "352121c6-7984-4eae-adf5-f48bb857d596",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Eching",
+   "id": "14372",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Eching"
+   },
+   "address": {
+    "streetAddress": "Bürgerplatz 1",
+    "locality": "Eching",
+    "region": "DE21B",
+    "postalCode": "85386",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c1dfb76a-2316-471a-9dee-9747a1c700a4",
+   "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 401 Heizung",
+   "description": "Neubau einer Kindertagesstätte mit Wohnungen und Tiefgarage in Eching-West",
+   "procuringEntity": {
+    "name": "Gemeinde Eching",
+    "id": "14372"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45330000",
+      "description": "Plumbing and sanitary works"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45331000",
+       "description": "Heating, ventilation and air-conditioning installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45331100",
+       "description": "Central-heating installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE21B",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/c1dfb76a-2316-471a-9dee-9747a1c700a4",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 401 Heizung",
+     "description": "1 Stk.    Wasser-Wasser-Wärmepumpe ca. 100 kW\n2 Stk.    Pufferspeicher 1500l\n1 Stk.    Heizungsverteiler \n8 Stk.    Hocheffizienzpumpen\nca. 1250 m          Heizungsrohr aus nichtrostendem Cr-Ni-TI Stahl \nca. 2500 m²        Fußbodenheizung\n\nWartungslaufzeit: 4 Jahre",
+     "contractPeriod": {
+      "durationInDays": 630
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c1dfb76a-2316-471a-9dee-9747a1c700a4",
+  "version": "01",
+  "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 401 Heizung",
+  "description": "Neubau einer Kindertagesstätte mit Wohnungen und Tiefgarage in Eching-West",
+  "procedureType": "open",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "45331100",
+   "45330000",
+   "45331000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 401 Heizung",
+    "description": "1 Stk.    Wasser-Wasser-Wärmepumpe ca. 100 kW\n2 Stk.    Pufferspeicher 1500l\n1 Stk.    Heizungsverteiler \n8 Stk.    Hocheffizienzpumpen\nca. 1250 m          Heizungsrohr aus nichtrostendem Cr-Ni-TI Stahl \nca. 2500 m²        Fußbodenheizung\n\nWartungslaufzeit: 4 Jahre",
+    "cpv": [
+     "45330000",
+     "45331000",
+     "45331100"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 21,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Präqualifizierte Unternehmen müssen ihre Eignung mit Angabe der Präqualifikationsnummer (PQ-Nummer) mit Angebotsabgabe nachweisen. Nicht präqualifizierte Unternehmen müssen Ihre Eignung durch Abgabe einer ausgefüllten & unterzeichneten \"Eigenerklärung zur Eignung\" (Formblatt 124) oder einer \"Einheitlichen Europäischen Eigenerklärung\" (EEE) schriftlich bestätigen. Formblatt 127 Erfordernis mit Erklärung zu Russlandbezug ist mit dem Angebot einzureichen. Auf Verlangen der Vergabestelle sind ergänzende Nachweise und Erklärungen zur Eignung bzw. zum Formblatt 124 entsprechend der aktuell gültigen Fassung der VOB /A vorzulegen: Referenzliste, Zahl der letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer oder sonstige Berufsnachweise, Unbedenklichkeitsbescheinigung der Berufsgenossenschaft.\n(Z.B. Formblatt 124 Eigenerklärung oder EEE Einheitliche Europäische Eignungserklärung oder PQNummer,\nErfordernis der Erklärung zu Russlandbezug, ggf. Referenznachweise sofort oder auf\nVerlangen der Vergabestelle etc.)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Dieser Nachweis ist auf Verlangen der Vergabestelle vorzulegen: Der Auftragnehmer hat für die Dauer des Bauvorhabens eine Haftpflichtversicherung bei einem in der EU zugelassenen Versicherer zu unterhalten mit folgenden Mindestversicherungssummen (Mindestdeckungshöhen): 3.000.000 Euro für Personenschäden je Versicherungsfall, jährlich 2-fach maximiert. 1.500.000 Euro Mio. Euro für sonstige Schäden, je Versicherungsfall jährlich 2-fach maximiert.\n(Z.B. Nachweise und Anforderungen zu Versicherung und geforderte Deckungssummen,\nUmsatznachweise, Firmengröße und Mitarbeiteranzahl, Bonitätsnachweise etc.)"
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Beabsichtigt der Auftragnehmer die Unterauftragsvergabe muss er diese Teile seines Auftrages mit Angebotsabgabe benennen. Die Vergabestelle kann im weiteren Verfahren ergänzende Nachweise gem. §47 VgV zur Eignung des Nachunternehmers fordern.\n(Z.B. Nachweise Berufsbezeichnung, Technische Ausstattung, Angaben zur Auslastung etc.)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

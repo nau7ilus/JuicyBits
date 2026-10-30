@@ -1,0 +1,254 @@
+{
+ "id": "0547c09e-b37e-45dd-9b64-14b37e0b68ab-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "0547c09e-b37e-45dd-9b64-14b37e0b68ab",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0547c09e-b37e-45dd-9b64-14b37e0b68ab",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:0547c09e-b37e-45dd-9b64-14b37e0b68ab-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:0547c09e-b37e-45dd-9b64-14b37e0b68ab-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0547c09e-b37e-45dd-9b64-14b37e0b68ab?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Blockchainanalysetool (Chainalysis)",
+  "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+  "cpv": [
+   "48000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-56c722ac-67de-498c-8396-489cdddfdff5",
+  "id": "0547c09e-b37e-45dd-9b64-14b37e0b68ab",
+  "date": "2026-10-25T06:00:07Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+     "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstraße 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Steuern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "955f3ee5-ba27-4dcc-9164-0b25df5b3370",
+     "legalName": "Bayerisches Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Chainalysis",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "3f8722b1-bfb6-4c11-aa5b-fb8da0cc9958",
+     "legalName": "Chainalysis"
+    },
+    "address": {
+     "locality": "New York",
+     "postalCode": "10011",
+     "countryName": "USA"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+   "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+   },
+   "address": {
+    "streetAddress": "Sophienstraße 6",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "56c722ac-67de-498c-8396-489cdddfdff5",
+   "title": "Blockchainanalysetool (Chainalysis)",
+   "description": "5 Lizenzen Chainalysis Reactor Platinum - Funktionsumfang: Reactor – Platinum, Reactor Demixing und Wallet Scan - Support Level: Platinum-Public in deutscher Sprache - Lizenzlaufzeit: 3 Jahre rückwirkend ab 15.10.2026 -- zusätzlich optional abrufbar für den Auftraggeber: Preis für eine weitere Lizenz - API-Abfragekontigent von insgesamt 6 Mio. Abfragen - 50 Lizenzen Chainalysis-Rapid inkl. Support in deutscher Sprache \n",
+   "procuringEntity": {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48000000",
+      "description": "Software package and information systems"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "The contract can be provided only by a particular economic operator because of an absence of competition for technical reasons",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-20T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Chainalysis",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Chainalysis"
+     },
+     "address": {
+      "locality": "New York",
+      "postalCode": "10011",
+      "countryName": "USA"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Blockchainanalysetool (Chainalysis)",
+     "description": "5 Lizenzen Chainalysis Reactor Platinum - Funktionsumfang: Reactor – Platinum, Reactor Demixing und Wallet Scan - Support Level: Platinum-Public in deutscher Sprache - Lizenzlaufzeit: 3 Jahre rückwirkend ab 15.10.2026 -- zusätzlich optional abrufbar für den Auftraggeber: Preis für eine weitere Lizenz - API-Abfragekontigent von insgesamt 6 Mio. Abfragen - 50 Lizenzen Chainalysis-Rapid inkl. Support in deutscher Sprache \n"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "0547c09e-b37e-45dd-9b64-14b37e0b68ab",
+  "version": "01",
+  "title": "Blockchainanalysetool (Chainalysis)",
+  "description": "5 Lizenzen Chainalysis Reactor Platinum - Funktionsumfang: Reactor – Platinum, Reactor Demixing und Wallet Scan - Support Level: Platinum-Public in deutscher Sprache - Lizenzlaufzeit: 3 Jahre rückwirkend ab 15.10.2026 -- zusätzlich optional abrufbar für den Auftraggeber: Preis für eine weitere Lizenz - API-Abfragekontigent von insgesamt 6 Mio. Abfragen - 50 Lizenzen Chainalysis-Rapid inkl. Support in deutscher Sprache",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Blockchainanalysetool (Chainalysis)",
+    "description": "5 Lizenzen Chainalysis Reactor Platinum - Funktionsumfang: Reactor – Platinum, Reactor Demixing und Wallet Scan - Support Level: Platinum-Public in deutscher Sprache - Lizenzlaufzeit: 3 Jahre rückwirkend ab 15.10.2026 -- zusätzlich optional abrufbar für den Auftraggeber: Preis für eine weitere Lizenz - API-Abfragekontigent von insgesamt 6 Mio. Abfragen - 50 Lizenzen Chainalysis-Rapid inkl. Support in deutscher Sprache",
+    "cpv": [
+     "48000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

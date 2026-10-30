@@ -1,0 +1,223 @@
+{
+ "id": "ca49839a-e948-431d-befc-8c318f4a6328-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "ca49839a-e948-431d-befc-8c318f4a6328",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ca49839a-e948-431d-befc-8c318f4a6328",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:ca49839a-e948-431d-befc-8c318f4a6328-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:ca49839a-e948-431d-befc-8c318f4a6328-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ca49839a-e948-431d-befc-8c318f4a6328?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung von Rohrleitungen aus Stahl",
+  "buyer": "Wasserwirtschaftsamt Deggendorf",
+  "cpv": [
+   "44163000"
+  ],
+  "nuts": [
+   "DE224"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d3eab9d1-d712-4d70-99e7-96bf404faedd",
+  "id": "ca49839a-e948-431d-befc-8c318f4a6328",
+  "date": "2026-10-16T02:10:14Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Wasserwirtschaftsamt Deggendorf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-1277706-17",
+     "legalName": "Wasserwirtschaftsamt Deggendorf"
+    },
+    "address": {
+     "streetAddress": "Detterstraße 20",
+     "locality": "Deggendorf",
+     "region": "DE224",
+     "postalCode": "94469",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Wasserwirtschaftsamt Deggendorf",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t099125040",
+     "legalName": "Wasserwirtschaftsamt Deggendorf"
+    },
+    "address": {
+     "streetAddress": "Detterstraße 20",
+     "locality": "Deggendorf",
+     "region": "DE224",
+     "postalCode": "94469",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Wasserwirtschaftsamt Deggendorf",
+   "id": "09-1277706-17",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Wasserwirtschaftsamt Deggendorf"
+   },
+   "address": {
+    "streetAddress": "Detterstraße 20",
+    "locality": "Deggendorf",
+    "region": "DE224",
+    "postalCode": "94469",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d3eab9d1-d712-4d70-99e7-96bf404faedd",
+   "title": "Lieferung von Rohrleitungen aus Stahl",
+   "description": "Das Wasserwirtschaftsamt Deggendorf benötigt für den Betrieb einer Containerpumpe auf Hakenabrollgestell am Gelände des Schöpfwerks Deggendorf Rohrleitungen, sowie entsprechende Formstücke (Rohrbögen, T-Stücke und Blindflansche).",
+   "procuringEntity": {
+    "name": "Wasserwirtschaftsamt Deggendorf",
+    "id": "09-1277706-17"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "44163000",
+      "description": "Pipes and fittings"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "44163000",
+       "description": "Pipes and fittings"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Deggendorf",
+      "region": "DE224",
+      "postalCode": "94469",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lieferung von Rohrleitungen aus Stahl",
+     "description": "Rohrleitungen gerade DN800 (Gesamtlänge: ca. 97,5 m);\nRohrleitungen gerade DN900 (Gesamtlänge: ca. 28 m);\nRohrbögen, Blindflansche und T-Stücke DN800 / DN900; \nZubehör / Sonstiges.",
+     "contractPeriod": {
+      "startDate": "2026-10-27T00:00:00+01:00",
+      "endDate": "2026-12-09T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "676846-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "676846-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "ca49839a-e948-431d-befc-8c318f4a6328",
+  "version": "01",
+  "title": "Lieferung von Rohrleitungen aus Stahl",
+  "description": "Das Wasserwirtschaftsamt Deggendorf benötigt für den Betrieb einer Containerpumpe auf Hakenabrollgestell am Gelände des Schöpfwerks Deggendorf Rohrleitungen, sowie entsprechende Formstücke (Rohrbögen, T-Stücke und Blindflansche).",
+  "procedureType": "open",
+  "nuts": [
+   "DE224"
+  ],
+  "cpv": [
+   "44163000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lieferung von Rohrleitungen aus Stahl",
+    "description": "Rohrleitungen gerade DN800 (Gesamtlänge: ca. 97,5 m);\nRohrleitungen gerade DN900 (Gesamtlänge: ca. 28 m);\nRohrbögen, Blindflansche und T-Stücke DN800 / DN900; \nZubehör / Sonstiges.",
+    "cpv": [
+     "44163000"
+    ],
+    "nuts": [
+     "DE224"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-27+01:00",
+    "plannedEnd": "2026-12-09+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

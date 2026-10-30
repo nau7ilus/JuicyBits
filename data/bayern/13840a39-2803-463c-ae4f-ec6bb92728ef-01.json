@@ -5,14 +5,14 @@
   "noticeId": "13840a39-2803-463c-ae4f-ec6bb92728ef",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=13840a39-2803-463c-ae4f-ec6bb92728ef",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:13840a39-2803-463c-ae4f-ec6bb92728ef-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:13840a39-2803-463c-ae4f-ec6bb92728ef-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/13840a39-2803-463c-ae4f-ec6bb92728ef?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "LV 611.2 Einrichtung Möblierung",
   "buyer": "Landratsamt Fürstenfeldbruck ",
   "cpv": [
@@ -249,5 +249,60 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "13840a39-2803-463c-ae4f-ec6bb92728ef",
+  "version": "01",
+  "title": "LV 611.2 Einrichtung Möblierung",
+  "description": "162 Stk.            Schülerstühle Sitz-Lehnenschale \n51 Stk.               Computertische zweisitzig\n94 Stk.              Mehrzwecktische zweisitzig\n3 Stk.                Höhenverstellbare Tische ca. 70x70cm\n15 Stk.              Tisch rund, teilw. höhenverstellbar\n51 Stk.               Schränke zweiflügelig \n9 Stk.                Garderobenschränke\n8 Stk.                Bücherregal Holz doppelseitig\n11 Stk.              Bücherregal Holz einseitig\n1 Stk.                Konferenztisch oval für bis zu 10 Personen\n130 St.              Freischwingstühle\n13 St.               Postfachschränke \n10 St.               Bankelemente gebogen mit Lehne\n16 St.               Bürodrehstühle",
+  "procedureType": "open",
+  "nuts": [
+   "DE21C"
+  ],
+  "cpv": [
+   "39100000",
+   "39120000",
+   "39130000",
+   "39134000",
+   "39153100",
+   "39160000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "LV 611.2 Einrichtung Möblierung",
+    "description": "162 Stk.            Schülerstühle Sitz-Lehnenschale \n51 Stk.               Computertische zweisitzig\n94 Stk.              Mehrzwecktische zweisitzig\n3 Stk.                Höhenverstellbare Tische ca. 70x70cm\n15 Stk.              Tisch rund, teilw. höhenverstellbar\n51 Stk.               Schränke zweiflügelig \n9 Stk.                Garderobenschränke\n8 Stk.                Bücherregal Holz doppelseitig\n11 Stk.              Bücherregal Holz einseitig\n1 Stk.                Konferenztisch oval für bis zu 10 Personen\n130 St.              Freischwingstühle\n13 St.               Postfachschränke  \n10 St.               Bankelemente gebogen mit Lehne\n16 St.               Bürodrehstühle",
+    "cpv": [
+     "39100000",
+     "39120000",
+     "39130000",
+     "39134000",
+     "39153100",
+     "39160000"
+    ],
+    "nuts": [
+     "DE21C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-07+01:00",
+    "plannedEnd": "2026-12-11+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

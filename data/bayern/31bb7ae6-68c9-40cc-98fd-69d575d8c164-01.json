@@ -1,0 +1,275 @@
+{
+ "id": "31bb7ae6-68c9-40cc-98fd-69d575d8c164-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "31bb7ae6-68c9-40cc-98fd-69d575d8c164",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=31bb7ae6-68c9-40cc-98fd-69d575d8c164",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:31bb7ae6-68c9-40cc-98fd-69d575d8c164-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:31bb7ae6-68c9-40cc-98fd-69d575d8c164-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/31bb7ae6-68c9-40cc-98fd-69d575d8c164?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "MSR-Technik",
+  "buyer": "Landkreis Traunstein",
+  "cpv": [
+   "45330000",
+   "45315700",
+   "45315100"
+  ],
+  "nuts": [
+   "DE21M"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ef8580aa-0004-444d-9a6b-d99f478c1921",
+  "id": "31bb7ae6-68c9-40cc-98fd-69d575d8c164",
+  "date": "2026-10-17T13:06:04Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Traunstein",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0918900000 0051 75",
+     "legalName": "Landkreis Traunstein"
+    },
+    "address": {
+     "streetAddress": "Papst-Benedikt-XVI.-Platz",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "SG G.51 - Hochbau",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0918900000 0051 75",
+     "legalName": "SG G.51 - Hochbau"
+    },
+    "address": {
+     "streetAddress": "Papst-Benedikt-XVI.-Platz",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Lambda GmbH & Co. KG",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE814806728",
+     "legalName": "Lambda GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Am Pfaffenkogel 10",
+     "locality": "Bischofswiesen",
+     "region": "DE215",
+     "postalCode": "83483",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Traunstein",
+   "id": "0918900000 0051 75",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Traunstein"
+   },
+   "address": {
+    "streetAddress": "Papst-Benedikt-XVI.-Platz",
+    "locality": "Traunstein",
+    "region": "DE21M",
+    "postalCode": "83278",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ef8580aa-0004-444d-9a6b-d99f478c1921",
+   "title": "MSR-Technik",
+   "description": "Regelung der Heizungsanlagen mit 2 Technikzentralen und 11 Heizkreisen mit 14 Einspritzschaltungen \nWeiter müssen 15 Lüftungsanlagen gesteuert werden. \nDie Regelung teilt sich auf mit 3-4 Unterverteilern",
+   "procuringEntity": {
+    "name": "Landkreis Traunstein",
+    "id": "0918900000 0051 75"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45330000",
+      "description": "Plumbing and sanitary works"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45315700",
+       "description": "Switching station installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45315100",
+       "description": "Electrical engineering installation works"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Trostberg",
+      "region": "DE21M",
+      "postalCode": "83308",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Lambda GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Lambda GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Am Pfaffenkogel 10",
+      "locality": "Bischofswiesen",
+      "region": "DE215",
+      "postalCode": "83483",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "MSR-Technik",
+     "description": "Regelung der Heizungsanlagen mit 2 Technikzentralen und 11 Heizkreisen mit 14 Einspritzschaltungen \nWeiter müssen 15 Lüftungsanlagen gesteuert werden. \nDie Regelung teilt sich auf mit 3-4 Unterverteilern"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "MSR-Technik",
+    "date": "2026-10-15T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Lambda GmbH & Co. KG",
+      "id": "DE814806728",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Lambda GmbH & Co. KG"
+      },
+      "address": {
+       "streetAddress": "Am Pfaffenkogel 10",
+       "locality": "Bischofswiesen",
+       "region": "DE215",
+       "postalCode": "83483",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "MSR-Technik",
+    "value": {
+     "amount": 5397.16,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-14T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "38",
+  "noticeId": "31bb7ae6-68c9-40cc-98fd-69d575d8c164",
+  "version": "01",
+  "title": "MSR-Technik",
+  "description": "Regelung der Heizungsanlagen mit 2 Technikzentralen und 11 Heizkreisen mit 14 Einspritzschaltungen \nWeiter müssen 15 Lüftungsanlagen gesteuert werden. \nDie Regelung teilt sich auf mit 3-4 Unterverteilern",
+  "procedureType": null,
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "45330000",
+   "45315700",
+   "45315100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "MSR-Technik",
+    "description": "Regelung der Heizungsanlagen mit 2 Technikzentralen und 11 Heizkreisen mit 14 Einspritzschaltungen \nWeiter müssen 15 Lüftungsanlagen gesteuert werden. \nDie Regelung teilt sich auf mit 3-4 Unterverteilern",
+    "cpv": [
+     "45330000",
+     "45315700",
+     "45315100"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

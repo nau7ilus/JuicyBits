@@ -5,12 +5,12 @@
   "noticeId": "afc22cb2-726f-41a6-8284-98e900353490",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=afc22cb2-726f-41a6-8284-98e900353490",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:afc22cb2-726f-41a6-8284-98e900353490-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:afc22cb2-726f-41a6-8284-98e900353490-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/afc22cb2-726f-41a6-8284-98e900353490?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "ABS 38, PA03, Umweltplanung PFA 3.1+3.2",
   "buyer": "DB Netz AG (Bukr 16)",
   "cpv": [
@@ -186,5 +186,43 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "afc22cb2-726f-41a6-8284-98e900353490",
+  "version": "01",
+  "title": "ABS 38, PA03, Umweltplanung PFA 3.1+3.2",
+  "description": "ABS 38, PA03, Umweltplanung PFA 3.1+3.2",
+  "procedureType": null,
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "90712000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "PFA 3.2",
+    "description": "PFA 3.2",
+    "cpv": [
+     "90712000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2021-10-15+02:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

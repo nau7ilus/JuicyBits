@@ -1,0 +1,205 @@
+{
+ "id": "79a30cf9-10b7-4915-b537-050fa9467d20-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "79a30cf9-10b7-4915-b537-050fa9467d20",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=79a30cf9-10b7-4915-b537-050fa9467d20",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:79a30cf9-10b7-4915-b537-050fa9467d20-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:79a30cf9-10b7-4915-b537-050fa9467d20-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/79a30cf9-10b7-4915-b537-050fa9467d20?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schulzentrum Landsberg-Neubau eines Klassentrakts als Erweiterungsbau des bestehenden Gymnasiums",
+  "buyer": "Landratsamt Landsberg am Lech",
+  "cpv": [
+   "45112000",
+   "45223220"
+  ],
+  "nuts": [
+   "DE21E"
+  ],
+  "deadline": "2026-12-16T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-79a30cf9-10b7-4915-b537-050fa9467d20",
+  "id": "79a30cf9-10b7-4915-b537-050fa9467d20",
+  "date": "2026-10-21T02:12:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landsberg am Lech",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9520",
+     "legalName": "Landratsamt Landsberg am Lech"
+    },
+    "address": {
+     "streetAddress": "Von -Kühlmann-Str. 15",
+     "locality": "Landsberg am Lech",
+     "region": "DE21E",
+     "postalCode": "86899",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "aaa69f83-029a-4d0c-aa3c-cf1358b4f2ef",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landsberg am Lech",
+   "id": "9520",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landsberg am Lech"
+   },
+   "address": {
+    "streetAddress": "Von -Kühlmann-Str. 15",
+    "locality": "Landsberg am Lech",
+    "region": "DE21E",
+    "postalCode": "86899",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "79a30cf9-10b7-4915-b537-050fa9467d20",
+   "title": "Schulzentrum Landsberg-Neubau eines Klassentrakts als Erweiterungsbau des bestehenden Gymnasiums",
+   "description": "Rohbauarbeiten inklusiv Erdarbeiten",
+   "procuringEntity": {
+    "name": "Landratsamt Landsberg am Lech",
+    "id": "9520"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112000",
+      "description": "Excavating and earthmoving work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45223220",
+       "description": "Structural shell work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE21E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/79a30cf9-10b7-4915-b537-050fa9467d20",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Schulzentrum Landsberg-Neubau eines Klassentrakts als Erweiterungsbau des bestehenden Gymnasiums",
+     "description": "Das Bauvorhaben liegt im Westen der Stadt Landsberg an der Platanenstrasse .\nDas bestehende Schulzentrum besteht aus zwei Schulformen: einer\nRealschule und einem Gymnasium. Das Schulzentrum\nbefindet sich in der Trägerschaft des Landkreises Landsberg am Lech und hat\nderzeit ca. 1800 Schüler.\nIm ersten Bauabschnitt wird östlich des Gymnasiums ein Neubau angeordnet und\nbildet zusammen mit dem Bestandsgebäude und der Turnhalle einen neuen\nbegrünten Innenhof.\nDie Anbindung an das Bestandsgebäude wird durch einen erdgeschossigen\nVerbindungsbau hergestellt.\nDer Neubau erhält erdgeschossig eine Sitzstufenanlage. Darüber entsteht ein\nbis zum Dach offener Raum.\nIn den oberen Geschossen entstehen die naturwissenschaftlichen Bereiche des\nGymnasiums.\nDie Erweiterung wird als Stahlbetonskelettbau hergestellt.\nDie vorgehängten Balkone dienen als Fluchtwege sowie als ein ins Freie erweiterter\nUnterrichtsbereich.\nDie Erweiterung erhält eine vorgehängte, hinterlüftete Fassade mit einer\nHolzverschalung.\nAußenabmessungen Erweiterungsbau 1. Bauabschnitt ca. 41 x 30 m\nGeschosse: E+2 und Teilunterkellerung\nGebäudehöhe: Dachdecke über 2.OG ca. +12,50 m ab OK Gelände\nÜberbaute Grundfläche: BGF ca. 1.355 m²\nBruttogrundfläche der Erweiterung beträgt ca. 4160 m²",
+     "contractPeriod": {
+      "startDate": "2027-04-12T00:00:00+02:00",
+      "endDate": "2028-06-12T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "79a30cf9-10b7-4915-b537-050fa9467d20",
+  "version": "01",
+  "title": "Schulzentrum Landsberg-Neubau eines Klassentrakts als Erweiterungsbau des bestehenden Gymnasiums",
+  "description": "Rohbauarbeiten inklusiv Erdarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE21E"
+  ],
+  "cpv": [
+   "45223220",
+   "45112000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Schulzentrum Landsberg-Neubau eines Klassentrakts als Erweiterungsbau des bestehenden Gymnasiums",
+    "description": "Das Bauvorhaben liegt im Westen der Stadt Landsberg an der Platanenstrasse .\nDas bestehende Schulzentrum besteht aus zwei Schulformen: einer\nRealschule und einem Gymnasium. Das Schulzentrum\nbefindet sich in der Trägerschaft des Landkreises Landsberg am Lech und hat\nderzeit ca. 1800 Schüler.\nIm ersten Bauabschnitt wird östlich des Gymnasiums ein Neubau angeordnet und\nbildet zusammen mit dem Bestandsgebäude und der Turnhalle einen neuen\nbegrünten Innenhof.\nDie Anbindung an das Bestandsgebäude wird durch einen erdgeschossigen\nVerbindungsbau hergestellt.\nDer Neubau erhält erdgeschossig eine Sitzstufenanlage. Darüber entsteht ein\nbis zum Dach offener Raum.\nIn den oberen Geschossen entstehen die naturwissenschaftlichen Bereiche des\nGymnasiums.\nDie Erweiterung wird als Stahlbetonskelettbau hergestellt.\nDie vorgehängten Balkone dienen als Fluchtwege sowie als ein ins Freie erweiterter\nUnterrichtsbereich.\nDie Erweiterung erhält eine vorgehängte, hinterlüftete Fassade mit einer\nHolzverschalung.\nAußenabmessungen Erweiterungsbau 1. Bauabschnitt ca. 41 x 30 m\nGeschosse: E+2 und Teilunterkellerung\nGebäudehöhe: Dachdecke über 2.OG ca. +12,50 m ab OK Gelände\nÜberbaute Grundfläche: BGF ca. 1.355 m²\nBruttogrundfläche der Erweiterung beträgt ca. 4160 m²",
+    "cpv": [
+     "45112000",
+     "45223220"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": "2026-12-16T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-12+02:00",
+    "plannedEnd": "2028-06-12+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Für den Auftrag kommen nur Bieter in Betracht, die bereits Leistungen mit Erfolg ausgeführt haben, die mit der zu vergebenen Leistung vergleichbar sind. Mit dem Angebot ist für die Beurteilung der Eignung vorzulegen: Nachweis der Fachkunde, Leistungsfähigkeit, Zuverlässigkeit"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eine Eigenerklärung darüber, dass keine Ausschlussgründe nach §§ 123 und 124 GWB vorliegen. Für die Angabe ist das „Formblatt Eignung“ zu verwenden. Vor Zuschlagserteilung können die entsprechenden Bestätigungen angefordert werden. Eine Eigenerklärung zur Umsetzung des Zuschlags- und Erfüllungsverbots für öffentliche Aufträge im Zusammenhang mit russischen Staatsangehörigen, Organisationen und Einrichtungen gem. Art. 5k der Verordnung EU 2022/576 - Selfdeclaration – (EU) Nr. 833-2014. Hierfür ist das Formblatt „Eigenerklärung Bezug zu Russland“ zu verwenden. Sofern sich Bietergemeinschaften beteiligen, ist zusätzlich eine Bietergemeinschaftserklärung mit dem Angebot vorzulegen. Bei Beteiligung einer Bietergemeinschaft ist von allen Mitgliedern der Bietergemeinschaft eine unterschriebene Erklärung über die gesamtschuldnerische Haftung im Auftragsfall unter Benennung eines bevollmächtigten Vertreters einzureichen. Die bisher genannten Darstellungen sind in diesem Fall von jedem Mitglied der Bietergemeinschaft vorzulegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "günstigster Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

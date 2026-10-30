@@ -1,0 +1,198 @@
+{
+ "id": "a23990f9-bfe4-4a4a-812e-43692e49652c-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "a23990f9-bfe4-4a4a-812e-43692e49652c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a23990f9-bfe4-4a4a-812e-43692e49652c",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:a23990f9-bfe4-4a4a-812e-43692e49652c-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:a23990f9-bfe4-4a4a-812e-43692e49652c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a23990f9-bfe4-4a4a-812e-43692e49652c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Neubau Verkehrsstation Regensburg-Walhallastraße, Strecke 5860, KM 4,3",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+  "cpv": [
+   "45210000"
+  ],
+  "nuts": [
+   "DE300",
+   "DE232"
+  ],
+  "deadline": "2026-11-18T11:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fe95ab71-d57d-430a-a3df-b194c9f1130b",
+  "id": "a23990f9-bfe4-4a4a-812e-43692e49652c",
+  "date": "2026-10-16T02:06:35Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)"
+    },
+    "address": {
+     "streetAddress": "Europaplatz 1",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+   "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)"
+   },
+   "address": {
+    "streetAddress": "Europaplatz 1",
+    "locality": "Berlin",
+    "region": "DE300",
+    "postalCode": "10557",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fe95ab71-d57d-430a-a3df-b194c9f1130b",
+   "title": "Neubau Verkehrsstation Regensburg-Walhallastraße, Strecke 5860, KM 4,3",
+   "description": "Neubau und Modernisierung der Verkehrsstation Regensburg-Walhallastraße. Im Rahmen der Maßnahme werden die bestehenden Bahnsteiganlagen und Bestandsgebäude zurückgebaut sowie zwei neue, barrierefreie Bahnsteige mit Personenunterführung, Rampen, Treppenanlagen, Wetterschutzeinrichtungen, Beleuchtung, Fahrgastinformationssystemen und technischer Infrastruktur errichtet. Ziel ist die Schaffung einer modernen, barrierefreien und zukunftsfähigen Verkehrsstation unter Aufrechterhaltung des Bahnbetriebs",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+    "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45210000",
+      "description": "Building construction work"
+     },
+     "deliveryAddress": {
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93059",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/85f9be90-e6a4-4f4f-bae7-ad3e351fb8c7",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Verkehrsstation Regensburg-Walhallastraße, Strecke 5860, KM 4,3",
+     "description": "Neubau und Modernisierung der Verkehrsstation Regensburg-Walhallastraße. Im Rahmen der Maßnahme werden die bestehenden Bahnsteiganlagen und Bestandsgebäude zurückgebaut sowie zwei neue, barrierefreie Bahnsteige mit Personenunterführung, Rampen, Treppenanlagen, Wetterschutzeinrichtungen, Beleuchtung, Fahrgastinformationssystemen und technischer Infrastruktur errichtet. Ziel ist die Schaffung einer modernen, barrierefreien und zukunftsfähigen Verkehrsstation unter Aufrechterhaltung des Bahnbetriebs",
+     "contractPeriod": {
+      "startDate": "2027-02-24T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "a23990f9-bfe4-4a4a-812e-43692e49652c",
+  "version": "01",
+  "title": "Neubau Verkehrsstation Regensburg-Walhallastraße, Strecke 5860, KM 4,3",
+  "description": "Neubau und Modernisierung der Verkehrsstation Regensburg-Walhallastraße. Im Rahmen der Maßnahme werden die bestehenden Bahnsteiganlagen und Bestandsgebäude zurückgebaut sowie zwei neue, barrierefreie Bahnsteige mit Personenunterführung, Rampen, Treppenanlagen, Wetterschutzeinrichtungen, Beleuchtung, Fahrgastinformationssystemen und technischer Infrastruktur errichtet. Ziel ist die Schaffung einer modernen, barrierefreien und zukunftsfähigen Verkehrsstation unter Aufrechterhaltung des Bahnbetriebs",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "45210000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Verkehrsstation Regensburg-Walhallastraße, Strecke 5860, KM 4,3",
+    "description": "Neubau und Modernisierung der Verkehrsstation Regensburg-Walhallastraße. Im Rahmen der Maßnahme werden die bestehenden Bahnsteiganlagen und Bestandsgebäude zurückgebaut sowie zwei neue, barrierefreie Bahnsteige mit Personenunterführung, Rampen, Treppenanlagen, Wetterschutzeinrichtungen, Beleuchtung, Fahrgastinformationssystemen und technischer Infrastruktur errichtet. Ziel ist die Schaffung einer modernen, barrierefreien und zukunftsfähigen Verkehrsstation unter Aufrechterhaltung des Bahnbetriebs",
+    "cpv": [
+     "45210000"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-11-18T11:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-24+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

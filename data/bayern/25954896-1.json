@@ -1,0 +1,133 @@
+{
+ "id": "25954896-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954896",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954896",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954896-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954896-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954896?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schreinerarbeiten - Fenster, Außentüren, Sonnenschutz",
+  "buyer": "Stadt Buchloe",
+  "cpv": [
+   "45421130-4 45212190-4"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-17T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954896",
+  "id": "25954896",
+  "date": "2026-10-21T07:00:56Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Buchloe",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Buchloe"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Buchloe",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Buchloe"
+   }
+  },
+  "tender": {
+   "title": "Schreinerarbeiten - Fenster, Außentüren, Sonnenschutz",
+   "description": "Fenster- Fassadenbau Holz und Holzaluminium, Rolladen, Sonnenschutz, Verdunkelung, Markisen",
+   "procuringEntity": {
+    "name": "Stadt Buchloe"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421130-4 45212190-4"
+     },
+     "deliveryAddress": {
+      "locality": "86807 Buchloe",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28C941-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schreinerarbeiten - Fenster, Außentüren, Sonnenschutz",
+     "description": "Fenster- Fassadenbau Holz und Holzaluminium, Rolladen, Sonnenschutz, Verdunkelung, Markisen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25954896",
+  "version": "1",
+  "title": "Schreinerarbeiten - Fenster, Außentüren, Sonnenschutz",
+  "description": "Fenster- Fassadenbau Holz und Holzaluminium, Rolladen, Sonnenschutz, Verdunkelung, Markisen",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45421130-4 45212190-4"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schreinerarbeiten - Fenster, Außentüren, Sonnenschutz",
+    "description": "Fenster- Fassadenbau Holz und Holzaluminium, Rolladen, Sonnenschutz, Verdunkelung, Markisen",
+    "cpv": [
+     "45421130-4 45212190-4"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

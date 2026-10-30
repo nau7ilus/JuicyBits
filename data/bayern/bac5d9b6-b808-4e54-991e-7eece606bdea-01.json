@@ -1,0 +1,237 @@
+{
+ "id": "bac5d9b6-b808-4e54-991e-7eece606bdea-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "bac5d9b6-b808-4e54-991e-7eece606bdea",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bac5d9b6-b808-4e54-991e-7eece606bdea",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:bac5d9b6-b808-4e54-991e-7eece606bdea-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:bac5d9b6-b808-4e54-991e-7eece606bdea-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bac5d9b6-b808-4e54-991e-7eece606bdea?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erweiterung Grundschule Langenzenn – Fachplanung Tragwerksplanung",
+  "buyer": "Stadt Langenzenn",
+  "cpv": [
+   "71327000",
+   "71310000",
+   "71340000",
+   "71328000"
+  ],
+  "nuts": [
+   "DE258",
+   "DE259"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0b9cbc8d-0cfe-42b2-ac0f-9e715f26182e",
+  "id": "bac5d9b6-b808-4e54-991e-7eece606bdea",
+  "date": "2026-10-25T15:40:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Langenzenn",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09573120",
+     "legalName": "Stadt Langenzenn"
+    },
+    "address": {
+     "streetAddress": "Friedrich-Ebert-Str. 7",
+     "locality": "Langenzenn",
+     "region": "DE258",
+     "postalCode": "90579",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE259",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Langenzenn",
+   "id": "09573120",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Langenzenn"
+   },
+   "address": {
+    "streetAddress": "Friedrich-Ebert-Str. 7",
+    "locality": "Langenzenn",
+    "region": "DE258",
+    "postalCode": "90579",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0b9cbc8d-0cfe-42b2-ac0f-9e715f26182e",
+   "title": "Erweiterung Grundschule Langenzenn – Fachplanung Tragwerksplanung",
+   "description": "Die Stadt Langenzenn plant die Erweiterung und Sanierung in geringem Umfang ihrer Grundschule. Mit dieser Maßnahme kann der Unterrichtsbereich neu strukturiert und für den Ganztagesbereich erweitert werden (BRI ca. 1.900 m³, BGF ca. 690 m²). Die Grundschule besteht aus den 4 Bauteilen A/B/C-Süd/C-Nord.Die Planungsleistungen beschränken sich auf den Anbau an den Bauteil C-Süd. Dort soll ein Verbindungsbau im EG abgebrochen und mit einem Anbau über drei Geschosse (UG/EG/OG) wieder neu erstellt werden. Im UG werden die vorhandene Mensa und ein Aufenthaltsraum saniert und im Anbau eine Mensaküche geschaffen und der Mensaraum erweitert. Im EG und auch im OG sollen je ein neuer Verbindungsgang, ein neues Klassenzimmer, ein Marktplatz für offenen Unterricht und ein Garderobenraum entstehen. Grundlage der Tragwerksplanung und Abrechnung ist HOAI § 50 Abs. 1.Fachplanung Tragwerksplanung:Die Leistungen zur Tragwerksplanung umfassen die Begleitung des Abbruchs und statische Fachplanung für den Anbau nach HOAI § 50 Abs. 1. Das beiliegende Konzept bildet dabei noch keine Lösung dar. Diese ist mit den fachlich Beteiligten insgesamt abzustimmen.Gegenstand der Vergabe sind die Leistungen nach HOAI Teil 4 Abschnitt 1, Tragwerksplanung, Leistungsphasen 1 bis 6 und als besondere die ingenieurtechnische Begleitung innerhalb der Leistungsphase 8.",
+   "procuringEntity": {
+    "name": "Stadt Langenzenn",
+    "id": "09573120"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71327000",
+      "description": "Load-bearing structure design services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71310000",
+       "description": "Consultative engineering and construction services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71340000",
+       "description": "Integrated engineering services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Langenzenn",
+      "region": "DE259",
+      "postalCode": "90579",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331253",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Erweiterung Grundschule Langenzenn – Fachplanung Tragwerksplanung",
+     "description": "Die Stadt Langenzenn plant die Erweiterung und Sanierung in geringem Umfang ihrer Grundschule. Mit dieser Maßnahme kann der Unterrichtsbereich neu strukturiert und für den Ganztagesbereich erweitert werden (BRI ca. 1.900 m³, BGF ca. 690 m²). Die Grundschule besteht aus den 4 Bauteilen A/B/C-Süd/C-Nord.Die Planungsleistungen beschränken sich auf den Anbau an den Bauteil C-Süd. Dort soll ein Verbindungsbau im EG abgebrochen und mit einem Anbau über drei Geschosse (UG/EG/OG) wieder neu erstellt werden. Im UG werden die vorhandene Mensa und ein Aufenthaltsraum saniert und im Anbau eine Mensaküche geschaffen und der Mensaraum erweitert. Im EG und auch im OG sollen je ein neuer Verbindungsgang, ein neues Klassenzimmer, ein Marktplatz für offenen Unterricht und ein Garderobenraum entstehen. Grundlage der Tragwerksplanung und Abrechnung ist HOAI § 50 Abs. 1.Fachplanung Tragwerksplanung:Die Leistungen zur Tragwerksplanung umfassen die Begleitung des Abbruchs und statische Fachplanung für den Anbau nach HOAI § 50 Abs. 1. Das beiliegende Konzept bildet dabei noch keine Lösung dar. Diese ist mit den fachlich Beteiligten insgesamt abzustimmen.Gegenstand der Vergabe sind die Leistungen nach HOAI Teil 4 Abschnitt 1, Tragwerksplanung, Leistungsphasen 1 bis 6 und als besondere die ingenieurtechnische Begleitung innerhalb der Leistungsphase 8.",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bac5d9b6-b808-4e54-991e-7eece606bdea",
+  "version": "01",
+  "title": "Erweiterung Grundschule Langenzenn – Fachplanung Tragwerksplanung",
+  "description": "Die Stadt Langenzenn plant die Erweiterung und Sanierung in geringem Umfang ihrer Grundschule. Mit dieser Maßnahme kann der Unterrichtsbereich neu strukturiert und für den Ganztagesbereich erweitert werden (BRI ca. 1.900 m³, BGF ca. 690 m²). Die Grundschule besteht aus den 4 Bauteilen A/B/C-Süd/C-Nord.Die Planungsleistungen beschränken sich auf den Anbau an den Bauteil C-Süd. Dort soll ein Verbindungsbau im EG abgebrochen und mit einem Anbau über drei Geschosse (UG/EG/OG) wieder neu erstellt werden. Im UG werden die vorhandene Mensa und ein Aufenthaltsraum saniert und im Anbau eine Mensaküche geschaffen und der Mensaraum erweitert. Im EG und auch im OG sollen je ein neuer Verbindungsgang, ein neues Klassenzimmer, ein Marktplatz für offenen Unterricht und ein Garderobenraum entstehen. Grundlage der Tragwerksplanung und Abrechnung ist HOAI § 50 Abs. 1.Fachplanung Tragwerksplanung:Die Leistungen zur Tragwerksplanung umfassen die Begleitung des Abbruchs und statische Fachplanung für den Anbau nach HOAI § 50 Abs. 1. Das beiliegende Konzept bildet dabei noch keine Lösung dar. Diese ist mit den fachlich Beteiligten insgesamt abzustimmen.Gegenstand der Vergabe sind die Leistungen nach HOAI Teil 4 Abschnitt 1, Tragwerksplanung, Leistungsphasen 1 bis 6 und als besondere die ingenieurtechnische Begleitung innerhalb der Leistungsphase 8.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE259"
+  ],
+  "cpv": [
+   "71327000",
+   "71328000",
+   "71340000",
+   "71310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Erweiterung Grundschule Langenzenn – Fachplanung Tragwerksplanung",
+    "description": "Die Stadt Langenzenn plant die Erweiterung und Sanierung in geringem Umfang ihrer Grundschule. Mit dieser Maßnahme kann der Unterrichtsbereich neu strukturiert und für den Ganztagesbereich erweitert werden (BRI ca. 1.900 m³, BGF ca. 690 m²). Die Grundschule besteht aus den 4 Bauteilen A/B/C-Süd/C-Nord.Die Planungsleistungen beschränken sich auf den Anbau an den Bauteil C-Süd. Dort soll ein Verbindungsbau im EG abgebrochen und mit einem Anbau über drei Geschosse (UG/EG/OG) wieder neu erstellt werden. Im UG werden die vorhandene Mensa und ein Aufenthaltsraum saniert und im Anbau eine Mensaküche geschaffen und der Mensaraum erweitert. Im EG und auch im OG sollen je ein neuer Verbindungsgang, ein neues Klassenzimmer, ein Marktplatz für offenen Unterricht und ein Garderobenraum entstehen. Grundlage der Tragwerksplanung und Abrechnung ist HOAI § 50 Abs. 1.Fachplanung Tragwerksplanung:Die Leistungen zur Tragwerksplanung umfassen die Begleitung des Abbruchs und statische Fachplanung für den Anbau nach HOAI § 50 Abs. 1. Das beiliegende Konzept bildet dabei noch keine Lösung dar. Diese ist mit den fachlich Beteiligten insgesamt abzustimmen.Gegenstand der Vergabe sind die Leistungen nach HOAI Teil 4 Abschnitt 1, Tragwerksplanung, Leistungsphasen 1 bis 6 und als besondere die ingenieurtechnische Begleitung innerhalb der Leistungsphase 8.",
+    "cpv": [
+     "71327000",
+     "71310000",
+     "71340000"
+    ],
+    "nuts": [
+     "DE259"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-23T10:00:00+01:00",
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2029-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Gefordert werden Nachweise und Angaben u. a. nach VgV und GWB,insbesondere nach § 45 VgV. Details sind dem Bewerbungsbogen unter Ziffer 7) zu entnehmen. Eigenerklärung über den Gesamtumsatz des Unternehmens der letzten 3 Geschäftsjahre und für entsprechende Dienstleistungen: Umsatz (netto) im Durchschnitt der letzten 3 abgeschlossenen Geschäftsjahre für das Leistungsbild der zu vergebenden Leistung.Die Höhe des Umsatzes wird nicht bepunktet; bei berechtigten Zweifeln an der finanziellenund wirtschaftlichen Leistungsfähigkeit kann dies jedoch zum Ausschluss führen BeiBewerbergemeinschaften ist die Eigenerklärung von jedem Mitglied derBewerbergemeinschaft einzeln anzugeben."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Berufshaftpflichtversicherung des Auftragnehmers/der ARGE über 3 000 000,00 EUR für Personenschäden und 1 500 000,00 EUR für sonstige Schäden bei einem, in einem Mitgliedsstaat der EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen Versicherungsunternehmens. 2-facher Schaden jährlich abgesichert. Die Deckung für das Objekt muss über die Vertragslaufzeituneingeschränkt erhalten bleiben. Die geforderte Sicherheit kann auch durch eine Erklärungdes Versicherungsunternehmens nachgewiesen werden, mit der diese den Abschluss dergeforderten Haftpflichtleistungen und Deckungsnachweise im Auftragsfall zusichert. Bei Versicherungsverträgen mit Pauschaldeckungen (also ohne Unterscheidung nach Sach- und Personenschäden) ist eine Erklärung des Versicherungsunternehmens erforderlich, dassbeide Schadenskategorien im Auftragsfall parallel zueinander mit den geforderten Deckungssummen abgesichert sind. Anmerkung: Im Ramen des öffentlichen Teilnahmewettbewerbes werden nur nachfolgende Erklärungen/Angaben im Bewerberbogen unter Ziffer 7 (ja/nein) gefordert. Die eigentlichen Nachweise sind mit dem Angebot einzureichen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Details sind dem Bewerbungsbogen unter Ziffer 8.3 und ff. zu entnehmen. Hier exemplarisch für Teil I des Bewerberbogens (8.3.1): Referenzen gemäß Referenzformblatt (dabei ist das vom Auslober zur Verfügung gestellte Referenzformblatt zwingend zu verwenden). Es werden nur 3 Referenzen gewertet, bei denen mindestens 4 vom Bewerber erbrachte Leistungsphasen im Zeitraum 01.01.2019 bis zum Ablauf der Frist für den Eingang der Bewerbungen (Teilnahmeanträge) erbracht wurden. Bei mindestens einer dieser Referenzen müssen die Leistungsphasen 1 bis 6 erbracht worden sein. Alternativ bei mindestens einer Referenz die Leistungsphasen 1 bis 4 und bei einer weiteren Referenz die Leistungsphasen 5 bis 6 (Ausschlusskriterium).  Teil II des Bewerberbogens (8.3.2): Vergleichbar sind grds. nur umfassende Planungsleistungen der Tragwerkskplanung bei einem vergleichbaren Schwierigkeitsgrad der Honorarzone III oder höher, einer Bausumme von mind. 2 Mill. € (brutto), bei denen durch den Bewerber mindestens 4 Leistungsphasen erbracht wurden, entsprechen. Für Referenzen nach 8.3.2 gibt es keine Ausschlussgründe. Referenzen mit folgenden Angaben:- Objektbeschreibung- Gesamtkosten und Kenndaten- Terminentwicklung und Gründe für Abweichungen- Vertragsverhältnis- Leistungsphasen und Leistungszeitraum- Honorarangaben- Daten zum Auftraggeber Insgesamt können mit den Referenzen 10 Punkte erzielt werden, die sich wie folgt aufteilen:1 Referenz = 3 Punkte, 2 Referenzen = 5 Punkte, 3 Referenzen = 7 PunkteNachweis der Termineinhaltung durch Eintragung der geforderten Kennzahlen zur Termineinhaltung in den Referenzformblättern (max. 3,0 P., d. h. maximal 1,0 Punkte je eingereichter Referenz)Präsentation von 2 Referenzen, die besonders vergleichbar sind, in der Summe ebenfalls mit 10 Punkten bewertet: 1.Neubau, Umbau, Sanierung oder Erweiterung eines Sonderbaus oder mind. Gebäudeklasse 4 mit einem vergleichbaren Maßnahmenumfang 4 Punkte: Referenz mit Darstellung der Komplexität und der Vergleichbarkeit des Bauvorhabens, 1 Punkt: Nachweis der Termineinhaltung durch Eintragung der geforderten Kennzahlen zur Terminentwicklung in den Referenzformblättern 2.Anbau an einen Sonderbau oder an ein Gebäude mind. Gebäudeklasse 4 mit einem vergleichbaren Maßnahmenumfang (max. 5 P):4 Punkte: Referenz mit Darstellung der Komplexität und der Vergleichbarkeit des Bauvorhabens, 1 Punkt: Nachweis der Termineinhaltung durch Eintragung der geforderten Kennzahlen zur Terminentwicklung in den Referenzformblättern Zum Nachweis der beruflichen Leistungsfähigkeit sind zur Erlangung der Höchstpunktzahl 3 mit der Leistung vergleichbare Referenzen, sowie zusätzlich 2 besonders vergleichbare Referenzen vorzulegen"
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Gefordert werden Nachweise und Angaben u. a. nach VgV und GWB,insbesondere nach §44 VgV. Details sind dem Bewerbungsbogen unter Ziffer 6) zu entnehmen. Der Nachweis der erlaubten Berufszulassung des Inhabers/der Inhaberin oder der Führungskräfte des Unternehmens oder der Projektleitung ist durch Vorlage der Berufszulassung (Kopie Kammereintragung oder Bescheinigungen über die Erlaubnis zur Berufsausübung, z.B. Dipl.-Ing. Univ./TU/TH/FH, Master, Bachelor odervergleichbare Berufszulassung) zu führen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Das jährliche Mittel der in den letzten 3 abgeschlossenen GeschäftsjahrenBeschäftigten getrennt nach sonstigen Beschäftigten und Ingenieuren, Architekten, ohneFührungskräfte. Details sind dem Bewerbungsbogen unter Ziffer 8) des jeweiligen Fachbereiches (Teil I bis V) zu entnehmen. Hier exemplarisch für Teil I des Bewerberbogens: Geforderte Mindestanzahl an Bauingenieuren: 1 (Ausschlusskriterium) Anzahl der Mitarbeiter: 2 Punkte: ab 2 MA, 4 Punkte: ab 3 MA, 6 Punkte: ab 4 MA, 8 Punkte: ab 5 MA, 10 Punkte: ab 6 MA. Darstellung der Bürostruktur anhand eines Organigramms 5 Punkte Angaben zur Funktion, einschl. Berufserfahrung und Ausbildungsstand der Mitarbeiter des Büros 5 Punkte"
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Ist die Vergabe eine Teilleistung an einen Nachunternehmer vorgesehen, so ist der Anteil in Bezug auf die Gesamtleistung anzugeben und eines der folgenden Formblätter als Anlage mit einzureichen:- „Verpflichtungserklärung_andere_Unternehmen“ oder- „Verzeichnis_andere_Unternehmen“ Siehe hierzu Ziffer 4. des Bewerberbogens."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist nicht das einzige Kriterium. Alle Kriterien sind in den Vergabeunterlagen aufgeführt",
+      "description": "Der Preis ist nicht das einzige Kriterium. Alle Kriterien sind in den Vergabeunterlagen aufgeführt",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

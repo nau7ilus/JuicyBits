@@ -1,0 +1,200 @@
+{
+ "id": "239f917a-5053-4d1d-a67f-1abb8b8f89a2-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "239f917a-5053-4d1d-a67f-1abb8b8f89a2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=239f917a-5053-4d1d-a67f-1abb8b8f89a2",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:239f917a-5053-4d1d-a67f-1abb8b8f89a2-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:239f917a-5053-4d1d-a67f-1abb8b8f89a2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/239f917a-5053-4d1d-a67f-1abb8b8f89a2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ensemble Alte Bleiche",
+  "buyer": "Markt Altenstadt",
+  "cpv": [
+   "45000000",
+   "31216100",
+   "45312310"
+  ],
+  "nuts": [
+   "DE279"
+  ],
+  "deadline": "2026-11-26T08:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a6b5ae7b-84ea-4cba-af31-114253b4603b",
+  "id": "239f917a-5053-4d1d-a67f-1abb8b8f89a2",
+  "date": "2026-10-27T03:08:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Altenstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "08337-72153",
+     "legalName": "Markt Altenstadt"
+    },
+    "address": {
+     "streetAddress": "Hindenburgstraße 1",
+     "locality": "Altenstadt",
+     "region": "DE279",
+     "postalCode": "89281",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Regierung von Schwaben",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0821-32701",
+     "legalName": "Vergabekammer Regierung von Schwaben"
+    },
+    "address": {
+     "streetAddress": "Fronhof 10",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Altenstadt",
+   "id": "08337-72153",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Altenstadt"
+   },
+   "address": {
+    "streetAddress": "Hindenburgstraße 1",
+    "locality": "Altenstadt",
+    "region": "DE279",
+    "postalCode": "89281",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a6b5ae7b-84ea-4cba-af31-114253b4603b",
+   "title": "Ensemble Alte Bleiche",
+   "description": "Mit dem Projekt Umbau und Sanierung „Alte Bleiche“ im Ortskern von Markt Altenstadt, wird ein ortsbildprägendes Ensemble im Bereich einer unter Denkmalschutz stehenden historischen Siedlungsstruktur erhalten und denkmalgerecht saniert.\nEs besteht aus der als Einzeldenkmal eingeordneten „Neuen Bleiche“, dem benachbarten „Erlanger Haus“ mit Nebengebäude und den umgebenden Freianlagen. Für die neue, der Öffentlichkeit zugänglich gemachten Nutzung des Ensembles u.A. mit Bürgersaal, Jugendzentrum und Räumen für Vereine, werden die Gebäude unter Wahrung eines respektvollen Umgangs mit der denkmalwerten Substanz instandgesetzt, energetisch saniert und für eine moderne Nutzung umstrukturiert. ",
+   "procuringEntity": {
+    "name": "Markt Altenstadt",
+    "id": "08337-72153"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "31216100",
+       "description": "Lightning-protection equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45312310",
+       "description": "Lightning-protection works"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Memminger Straße 20+22",
+      "locality": "Altenstadt",
+      "region": "DE279",
+      "postalCode": "89281",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28a1c1-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Blitzschutzanlagen",
+     "description": "Gegenstand dieser Leistungsbeschreibung ist die Erstellung einer Blitzschutzanlage an der „Neuen Bleiche“ sowie am „Erlanger Haus“ und dem Techniknebengebäude.\nDie Fundamenterder werden jeweils im Untergeschoss der Bestandgebäude erstellt. \nFür beide Gebäude wird zudem ein Ringerder mit ca.190m Gesamtlänge erstellt welcher die Verbindung zwischen 18 Staberdern (9m) darstellt.\nDie Gebäude werden mit Fangeinrichtungen ausgestattet, hierfür werden ca. 300m Aluminiumdraht Rd 8 verwendet.\nDie zu schützende Dachfläche beträgt:\nCa. 250m² auf der „Neuen Bleiche“\nCa. 160m² auf dem „Erlanger Haus“",
+     "contractPeriod": {
+      "startDate": "2027-05-01T00:00:00+02:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "239f917a-5053-4d1d-a67f-1abb8b8f89a2",
+  "version": "01",
+  "title": "Ensemble Alte Bleiche",
+  "description": "Mit dem Projekt Umbau und Sanierung „Alte Bleiche“ im Ortskern von Markt Altenstadt, wird ein ortsbildprägendes Ensemble im Bereich einer unter Denkmalschutz stehenden historischen Siedlungsstruktur erhalten und denkmalgerecht saniert.\nEs besteht aus der als Einzeldenkmal eingeordneten „Neuen Bleiche“, dem benachbarten „Erlanger Haus“ mit Nebengebäude und den umgebenden Freianlagen. Für die neue, der Öffentlichkeit zugänglich gemachten Nutzung des Ensembles u.A. mit Bürgersaal, Jugendzentrum und Räumen für Vereine, werden die Gebäude unter Wahrung eines respektvollen Umgangs mit der denkmalwerten Substanz instandgesetzt, energetisch saniert und für eine moderne Nutzung umstrukturiert.",
+  "procedureType": "open",
+  "nuts": [
+   "DE279"
+  ],
+  "cpv": [
+   "45000000",
+   "31216100",
+   "45312310"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Blitzschutzanlagen",
+    "description": "Gegenstand dieser Leistungsbeschreibung ist die Erstellung einer Blitzschutzanlage an der „Neuen Bleiche“ sowie am „Erlanger Haus“ und dem Techniknebengebäude.\nDie Fundamenterder werden jeweils im Untergeschoss der Bestandgebäude erstellt. \nFür beide Gebäude wird zudem ein Ringerder mit ca.190m Gesamtlänge erstellt welcher die Verbindung zwischen 18 Staberdern (9m) darstellt.\nDie Gebäude werden mit Fangeinrichtungen ausgestattet, hierfür werden ca. 300m Aluminiumdraht Rd 8 verwendet.\nDie zu schützende Dachfläche beträgt:\nCa. 250m² auf der „Neuen Bleiche“\nCa. 160m² auf dem „Erlanger Haus“",
+    "cpv": [
+     "45000000",
+     "31216100",
+     "45312310"
+    ],
+    "nuts": [
+     "DE279"
+    ],
+    "deadline": "2026-11-26T08:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-01+02:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

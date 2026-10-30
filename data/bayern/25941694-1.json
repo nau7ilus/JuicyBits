@@ -1,0 +1,157 @@
+{
+ "id": "25941694-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25941694",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25941694",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25941694-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25941694-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25941694?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erneuerung Tankdatenerfassungssystem",
+  "buyer": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-18T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25941694",
+  "id": "25941694",
+  "date": "2026-10-17T07:01:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7"
+   }
+  },
+  "tender": {
+   "title": "Erneuerung Tankdatenerfassungssystem",
+   "description": "Erneuerung von Tankdatenerfassungssystem\n\nErneuerung Tankdatenerfassungssystem",
+   "procuringEntity": {
+    "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-1a110cda41d-ab7b10e0f41849&PublicationType=0",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Erneuerung Tankdatenerfassungssystem",
+     "description": "Erneuerung von Tankdatenerfassungssystem\n\nErneuerung Tankdatenerfassungssystem"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25941694",
+  "version": "1",
+  "title": "Erneuerung Tankdatenerfassungssystem",
+  "description": "Erneuerung von Tankdatenerfassungssystem\n\nErneuerung Tankdatenerfassungssystem",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Erneuerung Tankdatenerfassungssystem",
+    "description": "Erneuerung von Tankdatenerfassungssystem\n\nErneuerung Tankdatenerfassungssystem",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "25978230",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978230",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978230-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978230-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978230?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Dachdeckungs- und Dachabdichtungsarbeiten",
   "buyer": "Stadt Wunsiedel",
   "cpv": [
@@ -24,7 +24,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-09-17T09:00:00+02:00",
   "lots": 1
  },
  "ocds": {
@@ -99,5 +99,49 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25978230",
+  "version": "1",
+  "title": "Dachdeckungs- und Dachabdichtungsarbeiten",
+  "description": "Dachdeckungsarbeiten, Dachabdichtungsarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Dachdeckungs- und Dachabdichtungsarbeiten",
+    "description": "Dachdeckungsarbeiten, Dachabdichtungsarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-17T09:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

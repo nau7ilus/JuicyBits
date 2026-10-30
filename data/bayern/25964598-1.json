@@ -1,0 +1,124 @@
+{
+ "id": "25964598-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25964598",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25964598",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25964598-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25964598-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25964598?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Zimmerer- und Stahlbauarbeiten",
+  "buyer": "Gemeinde Ebelsbach",
+  "cpv": [
+   "45422000-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-03T15:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25964598",
+  "id": "25964598",
+  "date": "2026-10-23T07:01:51Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Ebelsbach",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Ebelsbach"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Ebelsbach",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Ebelsbach"
+   }
+  },
+  "tender": {
+   "title": "Zimmerer- und Stahlbauarbeiten",
+   "description": "Zimmerer- und Holzbauarbeiten, Schlosser, Stahlbauarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinde Ebelsbach"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45422000-1"
+     },
+     "deliveryAddress": {
+      "locality": "97500 Ebelsbach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Zimmerer- und Stahlbauarbeiten",
+     "description": "Zimmerer- und Holzbauarbeiten, Schlosser, Stahlbauarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25964598",
+  "version": "1",
+  "title": "Zimmerer- und Stahlbauarbeiten",
+  "description": "Zimmerer- und Holzbauarbeiten, Schlosser, Stahlbauarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45422000-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Zimmerer- und Stahlbauarbeiten",
+    "description": "Zimmerer- und Holzbauarbeiten, Schlosser, Stahlbauarbeiten",
+    "cpv": [
+     "45422000-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-03T15:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

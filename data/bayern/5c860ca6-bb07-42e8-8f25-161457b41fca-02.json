@@ -1,0 +1,233 @@
+{
+ "id": "5c860ca6-bb07-42e8-8f25-161457b41fca-02",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "5c860ca6-bb07-42e8-8f25-161457b41fca",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5c860ca6-bb07-42e8-8f25-161457b41fca",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:5c860ca6-bb07-42e8-8f25-161457b41fca-02.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:5c860ca6-bb07-42e8-8f25-161457b41fca-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5c860ca6-bb07-42e8-8f25-161457b41fca?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3250 Malerarbeiten",
+  "buyer": "Markt Garmisch-Partenkirchen",
+  "cpv": [
+   "45442100"
+  ],
+  "nuts": [
+   "DE21D"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a0ad43da-c783-49f0-92c0-7d5a934b73c1",
+  "id": "5c860ca6-bb07-42e8-8f25-161457b41fca",
+  "date": "2026-10-22T02:09:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Garmisch-Partenkirchen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2564",
+     "legalName": "Markt Garmisch-Partenkirchen"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Garmisch Partenkirchen",
+     "region": "DE21D",
+     "postalCode": "82467",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "29a26a88-4c32-4740-9f4c-28c47aa13eb9",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Hirsch GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 129374626",
+     "legalName": "Hirsch GmbH"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81379",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Garmisch-Partenkirchen",
+   "id": "2564",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Garmisch-Partenkirchen"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Garmisch Partenkirchen",
+    "region": "DE21D",
+    "postalCode": "82467",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a0ad43da-c783-49f0-92c0-7d5a934b73c1",
+   "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3250 Malerarbeiten",
+   "description": "Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)",
+   "procuringEntity": {
+    "name": "Markt Garmisch-Partenkirchen",
+    "id": "2564"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45442100",
+      "description": "Painting work"
+     },
+     "deliveryAddress": {
+      "region": "DE21D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Hirsch GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Hirsch GmbH"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81379",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3250 Malerarbeiten",
+     "description": "1.835 m2 Innenwandanstrich\t\t\t\n375 m2 Deckenanstrich\t\t\t\n2.900 m2 Hydrophobierung Stahlbeton\t\t\t\n880 m2 Bodenbeschichtung, R10\t\t\t\n150 m2 Lackierung Stahlstabgeränder"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-28T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 65576.55,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-27T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "5c860ca6-bb07-42e8-8f25-161457b41fca",
+  "version": "02",
+  "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3250 Malerarbeiten",
+  "description": "Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)",
+  "procedureType": "open",
+  "nuts": [
+   "DE21D"
+  ],
+  "cpv": [
+   "45442100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3250 Malerarbeiten",
+    "description": "1.835 m2 Innenwandanstrich\t\t\t\n375 m2 Deckenanstrich\t\t\t\n2.900 m2 Hydrophobierung Stahlbeton\t\t\t\n880 m2 Bodenbeschichtung, R10\t\t\t\n150 m2 Lackierung Stahlstabgeränder",
+    "cpv": [
+     "45442100"
+    ],
+    "nuts": [
+     "DE21D"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preiskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

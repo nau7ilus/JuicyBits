@@ -1,0 +1,209 @@
+{
+ "id": "01a162ec-de9f-4657-b78d-1b8c54f86446-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "01a162ec-de9f-4657-b78d-1b8c54f86446",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=01a162ec-de9f-4657-b78d-1b8c54f86446",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:01a162ec-de9f-4657-b78d-1b8c54f86446-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:01a162ec-de9f-4657-b78d-1b8c54f86446-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/01a162ec-de9f-4657-b78d-1b8c54f86446?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Klärschlammentsorgung für das Klärwerk Bayreuth",
+  "buyer": "Stadt Bayreuth/Abwasserbetrieb",
+  "cpv": [
+   "90513900"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": "2026-12-04T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-019fd1d2-93ab-4244-91f8-b9791995270e",
+  "id": "01a162ec-de9f-4657-b78d-1b8c54f86446",
+  "date": "2026-10-25T07:56:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bayreuth/Abwasserbetrieb",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-ID. DE132367500",
+     "legalName": "Stadt Bayreuth/Abwasserbetrieb"
+    },
+    "address": {
+     "streetAddress": "Luitpoldplatz 13",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95444",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bayreuth/Abwasserbetrieb",
+   "id": "USt-ID. DE132367500",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bayreuth/Abwasserbetrieb"
+   },
+   "address": {
+    "streetAddress": "Luitpoldplatz 13",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95444",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "019fd1d2-93ab-4244-91f8-b9791995270e",
+   "title": "Klärschlammentsorgung für das Klärwerk Bayreuth",
+   "description": "Klärschlammentsorgung für das Klärwerk Bayreuth",
+   "procuringEntity": {
+    "name": "Stadt Bayreuth/Abwasserbetrieb",
+    "id": "USt-ID. DE132367500"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90513900",
+      "description": "Sludge disposal services"
+     },
+     "quantity": 4000,
+     "unit": {
+      "scheme": "UNCEFACT",
+      "id": "TNE"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Drossenfelder Straße 2",
+      "locality": "Bayreuth",
+      "region": "DE242",
+      "postalCode": "95445",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.de/unterlagen/019fd1d2-93ab-4244-91f8-b9791995270e/zustellweg-auswaehlen",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-25T07:56:04.652Z",
+     "rationale": "Klarstellung der Verlängerungsregelung (automatische Verlängerung mit Nichtverlängerungsrecht des Auftraggebers; Vorverlegung der Kündigungstermine auf den 31.03. des Jahres vor Beginn des jeweiligen Verlängerungszeitraums); Präzisierung der Eignungskriterien und Eignungsnachweise in der Bekanntmachung; Verlängerung der Angebotsfrist und der Bindefrist.",
+     "amendsReleaseID": "019fd1d9-02bd-4c31-ac32-cd53d6aa7c19-01",
+     "releaseID": "01a162ec-de9f-4657-b78d-1b8c54f86446-01"
+    },
+    {
+     "date": "2026-10-25T07:56:04.652Z",
+     "rationale": "Klarstellung der Verlängerungsregelung (automatische Verlängerung mit Nichtverlängerungsrecht des Auftraggebers; Vorverlegung der Kündigungstermine auf den 31.03. des Jahres vor Beginn des jeweiligen Verlängerungszeitraums); Präzisierung der Eignungskriterien und Eignungsnachweise in der Bekanntmachung; Verlängerung der Angebotsfrist und der Bindefrist.",
+     "amendsReleaseID": "019fd1d9-02bd-4c31-ac32-cd53d6aa7c19-01",
+     "releaseID": "01a162ec-de9f-4657-b78d-1b8c54f86446-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Entsorgung von Klärschlamm aus dem Klärwerk Bayreuth",
+     "description": "Gegenstand der zu erbringenden Leistungen sind die Abholung, der Transport, die thermische Verwertung ohne Phosphorrückgewinnung, die thermische Vorbehandlung sowie die Phosphorrückgewinnung von bzw. aus Klärschlamm des Klärwerks Bayreuth.",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "01a162ec-de9f-4657-b78d-1b8c54f86446",
+  "version": "01",
+  "title": "Klärschlammentsorgung für das Klärwerk Bayreuth",
+  "description": "Klärschlammentsorgung für das Klärwerk Bayreuth",
+  "procedureType": "open",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "90513900"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Entsorgung von Klärschlamm aus dem Klärwerk Bayreuth",
+    "description": "Gegenstand der zu erbringenden Leistungen sind die Abholung, der Transport, die thermische Verwertung ohne Phosphorrückgewinnung, die thermische Vorbehandlung sowie die Phosphorrückgewinnung von bzw. aus Klärschlamm des Klärwerks Bayreuth.",
+    "cpv": [
+     "90513900"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": "2026-12-04T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Die Vergabe der Leistung erfolgt auf das Angebot mit dem niedrigsten Wertungspreis.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

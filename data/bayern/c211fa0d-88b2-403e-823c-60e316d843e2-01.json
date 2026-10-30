@@ -1,0 +1,227 @@
+{
+ "id": "c211fa0d-88b2-403e-823c-60e316d843e2-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "c211fa0d-88b2-403e-823c-60e316d843e2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c211fa0d-88b2-403e-823c-60e316d843e2",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:c211fa0d-88b2-403e-823c-60e316d843e2-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:c211fa0d-88b2-403e-823c-60e316d843e2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c211fa0d-88b2-403e-823c-60e316d843e2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "KLM 2026",
+  "buyer": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+  "cpv": [
+   "72000000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-09T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6f72b122-fdb1-473b-9916-3a7e9199c9cc",
+  "id": "c211fa0d-88b2-403e-823c-60e316d843e2",
+  "date": "2026-10-27T03:10:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6f72b122-fdb1-473b-9916-3a7e9199c9cc",
+   "title": "KLM 2026",
+   "description": "Bereitstellung einer SaaS-Lösung mit optionalen zusätzlichen Leistungen (Freitextbestellung, Bedarfstool, eRechnung), Betrieb des Gesamtsystems, Betriebsservice, optionale Dienstleistungsunterstützung (733 PT)",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000",
+      "description": "IT services: consulting, software development, Internet and support"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90478",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=896348",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-27T03:10:11.213Z",
+     "rationale": "Verlängerung der Angebotsfrist",
+     "amendsReleaseID": "6770a9fc-8f9d-4fa2-9d8a-fb90f1cfe325-01",
+     "releaseID": "c211fa0d-88b2-403e-823c-60e316d843e2-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "KLM 2026",
+     "description": "Während des Leistungszeitraums sind folgende Leistungen vom AN zu erbringen:\n\nNicht-optional:\n- zeitlich befristeter Zugang zur SaaS-Lösung über ein webbasiertes Portal oder Client\n inkl. Betrieb/Betriebsservices und fachlicher Support auf Basis von 300 Lieferanten -\n\n- Bereitstellung/Anpassung der SaaS-Lösung \nZur Darstellung der fachlichen Anforderungen und Prozesse muss die SaaS-Lösung folgende Funktionalitäten abbilden:\n• Katalogmanagement für Lieferanten\n• Katalogmanagement für die BA\n• Suchfunktion und Multilieferantenkatalog inklusive Produktkonfigurator Light\n• Dokumentaustausch am Lieferantenmarktplatz (Transaktionsplattform) für\n- Bestellungen\n- Lieferbestätigungen (Lieferavis)\n\nNachfolgende Leistungen sind durch den AN in den hier genannten Phasen ab Zuschlagserteilung zu erbringen:\n• Erstellungs-/Anpassungsphase\n• Testphase\n• Integrationsphase\n• Abnahmephase\n• Regelbetriebsphase\n\nEin verbindlicher Terminplan wird zwischen BA und AN unverzüglich nach Zuschlagserteilung schriftlich vereinbart.\n\nOptional:\n-  Betrieb & Betriebsservice inkl. fachlicher Support je 50 weitere Lieferanten\n-  Betrieb & Betriebsservice inkl. fachlicher Support für Produktkonfigurator \n-  Betrieb & Betriebsservice inkl. fachlicher Support für eRechnung auf Basis 300 Lieferanten\n- Betrieb & Betriebsservice inkl. fachlicher Support eRechnung je 50 weitere Lieferanten\n- Dienstleistungskontingent\n\nWeitere Informationen entnehmen Sie bitte der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 3570
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c211fa0d-88b2-403e-823c-60e316d843e2",
+  "version": "01",
+  "title": "KLM 2026",
+  "description": "Bereitstellung einer SaaS-Lösung mit optionalen zusätzlichen Leistungen (Freitextbestellung, Bedarfstool, eRechnung), Betrieb des Gesamtsystems, Betriebsservice, optionale Dienstleistungsunterstützung (733 PT)",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "72000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "KLM 2026",
+    "description": "Während des Leistungszeitraums sind folgende Leistungen vom AN zu erbringen:\n\nNicht-optional:\n- zeitlich befristeter Zugang zur SaaS-Lösung über ein webbasiertes Portal oder Client\n inkl. Betrieb/Betriebsservices und fachlicher Support auf Basis von 300 Lieferanten -\n\n- Bereitstellung/Anpassung der SaaS-Lösung \nZur Darstellung der fachlichen Anforderungen und Prozesse muss die SaaS-Lösung folgende Funktionalitäten abbilden:\n• Katalogmanagement für Lieferanten\n• Katalogmanagement für die BA\n• Suchfunktion und Multilieferantenkatalog inklusive Produktkonfigurator Light\n• Dokumentaustausch am Lieferantenmarktplatz (Transaktionsplattform) für\n- Bestellungen\n- Lieferbestätigungen (Lieferavis)\n\nNachfolgende Leistungen sind durch den AN in den hier genannten Phasen ab Zuschlagserteilung zu erbringen:\n• Erstellungs-/Anpassungsphase\n• Testphase\n• Integrationsphase\n• Abnahmephase\n• Regelbetriebsphase\n\nEin verbindlicher Terminplan wird zwischen BA und AN unverzüglich nach Zuschlagserteilung schriftlich vereinbart.\n\nOptional:\n-  Betrieb & Betriebsservice inkl. fachlicher Support je 50 weitere Lieferanten\n-  Betrieb & Betriebsservice inkl. fachlicher Support für Produktkonfigurator \n-  Betrieb & Betriebsservice inkl. fachlicher Support für eRechnung auf Basis 300 Lieferanten\n- Betrieb & Betriebsservice inkl. fachlicher Support eRechnung je 50 weitere Lieferanten\n- Dienstleistungskontingent\n\nWeitere Informationen entnehmen Sie bitte der Leistungsbeschreibung.",
+    "cpv": [
+     "72000000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-09T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 119,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-env",
+      "description": "Bestätigung über das Vorliegen der technischen und beruflichen Leistungsfähigkeit und über die Sicherstellung in diesem Beschaffungsverfahren durch die nachfolgenden Anforderungen /Angaben /Unterlagen; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung; Kriterium A 1.1.1.5).\n\nBitte bestätigen Sie, dass Sie ein Umwelt- oder Energiemanagementsystem einsetzen und dieses durch eine Zertifizierung nachgewiesen werden kann (z. B. EMAS, ISO-14051). (Fragebogen zur Eignungsprüfung; Kriterium A1.1.1.5)"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Bestätigung über das Vorliegen der technischen und beruflichen Leistungsfähigkeit und über die Sicherstellung in diesem Beschaffungsverfahren durch die nachfolgenden Anforderungen /Angaben /Unterlagen; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung; Kriterium A 1.1.1.6).\n\nBitte bestätigen Sie, dass Sie über ein Sicherheitskonzept und ein Informationssicherheits-Managementsystem (ISMS) einschließlich eines Notfall-Managements gemäß ISO 27001 verfügen.. (Fragebogen zur Eignungsprüfung; Kriterium A1.1.1.6)"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorhandensein ausreichender Berufserfahrung; nachgewiesen\ndurch Eigenerklärung zur technischen und beruflichen\nLeistungsfähigkeit (Fragebogen zur Eignungsprüfung: Kriterium A1.1.1.2) sowie durch Eigenerklärung und Vorlage von zwei geeigneten Referenzen (B1.1.1.7 und B1.1.1.8 Fragebogen zur Eignungsprüfung sowie Anlage E.2). \nErwartet werden zwei mit dem Ausschreibungsgegenstand vergleichbare Referenzprojekte. Referenzen von Bietergemeinschaften und Generalunternehmen/Subunternehmen/Eignungsleihe werden ebenfalls berücksichtigt.\n\nDie Referenzen müssen die u.s. Mindestanforderung an den Leistungszeitraum /-dauer innerhalb der letzten zwei Jahre (bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens auf der e-Vergabe-Plattform des Bundes) erfüllen.\n\nErwartet werden Projekte mit einer Laufzeit von mindestens zwölf Monaten. Das Ende der genannten Referenz darf nicht länger als 24 Zeitmonate zurückliegen. Die Referenz muss noch nicht beendet sein, jedoch bereits mindestens seit 12 Zeitmonaten, gerechnet ab dem Veröffentlichungsdatum dieses Vergabeverfahrens, laufen.\n\nMindestanforderungen und Mindestangaben:\n* Laufzeit (>= 12 Monate)\n* Aktualität (<= 2 Jahre)\n* Volumen (>= 300 T€)\n* Vergleichbarkeit der technischen und fachlichen Umgebung:\n- mind. Werkleistung Customizing und Implementierung einer SaaS-Lösung, Dienstleistung Betrieb und Betriebsservice\n\nZusatzleistungen: \n* Vergleichbarkeit der technischen und fachlichen Umgebung:\n- Umfeld für den Multilieferantenkatalog\n- Umfeld für die Transaktionsplattform\n\nEs soll Bezug auf die Bereitstellung einer marktüblichen Standardsoftware, das Customizing inkl. der funktionsfähigen Implementierung, Unterstützung bei der Integration dieser Software in die IT-Umgebung des Kunden sowie die Weiterentwicklung und Betriebsservice in den Folgejahren genommen werden.\n\nDie Referenzen müssen sich auf den Ausschreibungsgegenstand beziehen. Referenzen im Rahmen eines reinen Dienstleistungsvertrages, eines Dienstleistungsrahmenvertrages werden nicht gewertet. \n\nBei den geforderten zwei Referenzen darf maximal eine Referenz der Bundesagentur für Arbeit angegeben werden.\n\nHINWEIS: Bei der Eignung müssen über alle Kriterien hinweg insgesamt 1.300 von maximal 2.000 erreichbaren Eignungskriterien erreicht werden, sonst führt dies zum Ausschluss wegen unzureichender Eignung."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Bestätigung über das Vorliegen der technischen und beruflichen Leistungsfähigkeit und über die Sicherstellung in diesem Beschaffungsverfahren durch die nachfolgenden Anforderungen /Angaben /Unterlagen; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung; Kriterium A 1.1.1.2).\n\nBitte geben Sie die durchschnittliche Gesamtanzahl der Mitarbeitenden in den letzten drei Jahren (2023, 2024 und 2025) an. Bei Bietergemeinschaften und Generalunternehmen/ Subunternehmen werden die Mitarbeitendenzahlen addiert. (Fragebogen zur Eignungsprüfung; Kriterium B1.1.1.4)\n\nBitte beachten Sie, dass die Zahlen der Mitarbeitenden getrennt auszuweisen sind, sofern diese im Zuge der Eignungsleihe einbezogen werden sollen. Ebenso verhält es sich mit den Zahlen der Mitarbeitenden der Unternehmen der Bietergemeinschaft oder des Generalunternehmens bzw. der geplanten Subunternehmens.\n\nHINWEIS: Bei der Eignung müssen über alle Kriterien hinweg insgesamt 1.300 von maximal 2.000 erreichbaren Eignungskriterien erreicht werden, sonst führt dies zum Ausschluss wegen unzureichender Eignung."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Bestätigung über das Vorliegen der wirtschaftlichen und finanziellen Leistungsfähigkeit und über die Sicherstellung in diesem Beschaffungsverfahren durch die nachfolgenden Anforderungen /Angaben /Unterlagen; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung; Kriterium A 1.1.1.1).\n\nBitte geben Sie die Höhe des Netto-Jahresumsatzes in den letzten drei Jahren (2023, 2024 und 2025) im Bereich des Ausschreibungsgegenstandes nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen\nLeistungsfähigkeit sowie durch Angabe (Fragebogen zur Eignungsprüfung; Kriterium B 1.1.1.3). an. Bei Bietergemeinschaften und Generalunternehmen/Subunternehmen werden die Umsätze addiert.\n \nBitte beachten Sie, dass die Umsätze getrennt auszuweisen sind, sofern diese im Zuge der Eignungsleihe einbezogen werden sollen. Ebenso verhält es sich mit den Umsätzen der Unternehmen der Bietergemeinschaft oder des Generalunternehmers bzw. der geplanten Subunternehmer.\n\nHINWEIS: Bei der Eignung müssen über alle Kriterien hinweg insgesamt 1.300 von maximal 2.000 erreichbaren Eignungskriterien erreicht werden, sonst führt dies zum Ausschluss wegen unzureichender Eignung."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "erweiterte Richtwertmethode; Schwankungsbereich 10%; Entscheidungskriterium Gesamtleistungspunktzahl",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "erweiterte Richtwertmethode",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

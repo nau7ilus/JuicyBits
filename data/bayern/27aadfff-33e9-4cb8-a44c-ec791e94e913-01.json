@@ -1,0 +1,239 @@
+{
+ "id": "27aadfff-33e9-4cb8-a44c-ec791e94e913-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "27aadfff-33e9-4cb8-a44c-ec791e94e913",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=27aadfff-33e9-4cb8-a44c-ec791e94e913",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:27aadfff-33e9-4cb8-a44c-ec791e94e913-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:27aadfff-33e9-4cb8-a44c-ec791e94e913-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/27aadfff-33e9-4cb8-a44c-ec791e94e913?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "DFG-GZ: EXC 2145/2 TP 01 (A 217) Lieferung eines \"Spinning-Disk-Mikroskops\"",
+  "buyer": "Deutsche Forschungsgemeinschaft e.V.",
+  "cpv": [
+   "38510000"
+  ],
+  "nuts": [
+   "DEA22",
+   "DE212"
+  ],
+  "deadline": "2026-11-19T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d8346895-0322-4cc8-a773-5af8e3ccd6f3",
+  "id": "27aadfff-33e9-4cb8-a44c-ec791e94e913",
+  "date": "2026-10-22T02:06:09Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Deutsche Forschungsgemeinschaft e.V.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992-80037-39",
+     "legalName": "Deutsche Forschungsgemeinschaft e.V."
+    },
+    "address": {
+     "streetAddress": "Kennedyallee 40",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53175",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Deutsche Forschungsgemeinschaft e.V.",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "992-80037-39",
+     "legalName": "Deutsche Forschungsgemeinschaft e.V."
+    },
+    "address": {
+     "streetAddress": "Kennedyallee 40",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53175",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "98137_10002352",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemombler Straße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "98137_10002355",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemombler Straße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Deutsche Forschungsgemeinschaft e.V.",
+   "id": "992-80037-39",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Deutsche Forschungsgemeinschaft e.V."
+   },
+   "address": {
+    "streetAddress": "Kennedyallee 40",
+    "locality": "Bonn",
+    "region": "DEA22",
+    "postalCode": "53175",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d8346895-0322-4cc8-a773-5af8e3ccd6f3",
+   "title": "DFG-GZ: EXC 2145/2 TP 01 (A 217) Lieferung eines \"Spinning-Disk-Mikroskops\"",
+   "description": "Lieferung eines \"Spinning-Disk-Mikroskops\" gemäß beigefügter Leistungsbeschreibung für die Technische Universität München/ TUM School of Medicine and Health, Institut für die Zellbiologie des Nervensystems",
+   "procuringEntity": {
+    "name": "Deutsche Forschungsgemeinschaft e.V.",
+    "id": "992-80037-39"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38510000",
+      "description": "Microscopes"
+     },
+     "deliveryLocation": {
+      "description": "München"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.dfg.de?tid=fa5065bed5e76608b1e4d9329212d287",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "DFG-GZ: EXC 2145/2 TP 01 (A 217) Lieferung eines \"Spinning-Disk-Mikroskops\"",
+     "description": "Lieferung eines \"Spinning-Disk-Mikroskops\" gemäß beigefügter Leistungsbeschreibung für die Technische Universität München/ TUM School of Medicine and Health, Institut für die Zellbiologie des Nervensystems"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "27aadfff-33e9-4cb8-a44c-ec791e94e913",
+  "version": "01",
+  "title": "DFG-GZ: EXC 2145/2 TP 01 (A 217) Lieferung eines \"Spinning-Disk-Mikroskops\"",
+  "description": "Lieferung eines \"Spinning-Disk-Mikroskops\" gemäß beigefügter Leistungsbeschreibung für die Technische Universität München/ TUM School of Medicine and Health, Institut für die Zellbiologie des Nervensystems",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "38510000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "DFG-GZ: EXC 2145/2 TP 01 (A 217) Lieferung eines \"Spinning-Disk-Mikroskops\"",
+    "description": "Lieferung eines \"Spinning-Disk-Mikroskops\" gemäß beigefügter Leistungsbeschreibung für die Technische Universität München/ TUM School of Medicine and Health, Institut für die Zellbiologie des Nervensystems",
+    "cpv": [
+     "38510000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-19T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Nachweis der Eignung im Rahmen der im Unternehmerbogen gemachten Auskünfte"
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Benennung über mindestens eine erfolgreiche Installation von Geräten vergleichbarer Leistungsklasse innerhalb der letzten 3 Jahre. Die Referenzen sind unter Angabe des Wertes, des Erbringungszeitpunktes sowie des Empfängers einzureichen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Technischer Wert",
+      "description": "Technischer Wert",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 50
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

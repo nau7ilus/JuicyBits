@@ -1,0 +1,202 @@
+{
+ "id": "a0d13b0c-d3ba-439b-9d53-3c88493f9e11-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "a0d13b0c-d3ba-439b-9d53-3c88493f9e11",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a0d13b0c-d3ba-439b-9d53-3c88493f9e11",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:a0d13b0c-d3ba-439b-9d53-3c88493f9e11-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:a0d13b0c-d3ba-439b-9d53-3c88493f9e11-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a0d13b0c-d3ba-439b-9d53-3c88493f9e11?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "eGPU Lieferung von batterie-elektrischen Bodenstromgeräten",
+  "buyer": "ALLgate GmbH",
+  "cpv": [
+   "31400000",
+   "34960000"
+  ],
+  "nuts": [
+   "DE27C",
+   "DE274"
+  ],
+  "deadline": "2026-11-06T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a0d13b0c-d3ba-439b-9d53-3c88493f9e11",
+  "id": "a0d13b0c-d3ba-439b-9d53-3c88493f9e11",
+  "date": "2026-10-22T02:06:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "ALLgate GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10825",
+     "legalName": "ALLgate GmbH"
+    },
+    "address": {
+     "streetAddress": "Am Flughafen 35",
+     "locality": "Memmingerberg",
+     "region": "DE27C",
+     "postalCode": "87766",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Landes Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "017e31e5-8339-4dd1-a079-dbd584705469",
+     "legalName": "Vergabekammer des Landes Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "ALLgate GmbH",
+   "id": "10825",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "ALLgate GmbH"
+   },
+   "address": {
+    "streetAddress": "Am Flughafen 35",
+    "locality": "Memmingerberg",
+    "region": "DE27C",
+    "postalCode": "87766",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a0d13b0c-d3ba-439b-9d53-3c88493f9e11",
+   "title": "eGPU Lieferung von batterie-elektrischen Bodenstromgeräten",
+   "description": "Leistungsgegenstand ist die Lieferung von 2 batterie-elektrischen Bodenstromgeräten. Die technischen Produktanforderungen sind im Einzelnen im Anhang 1 (Anhang 1, Anforderungserfüllungsmatrix) geregelt und müssen gemäß den dort hinterlegten Angaben des Auftragnehmers vollumfänglich erfüllt werden. Der Abruf der Geräte erfolgt mit Zuschlagserteilung, der zu schließende Vertrag endet nach Lieferung der letzten Teilmenge.",
+   "procuringEntity": {
+    "name": "ALLgate GmbH",
+    "id": "10825"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "31400000",
+      "description": "Accumulators, primary cells and primary batteries"
+     },
+     "deliveryAddress": {
+      "region": "DE274",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "procurementMethodRationale": "Dringlichkeit der Beschaffung: Die Lieferleistung ist für die termingerechte Umsetzung des Projektes zwingend erforderlich.",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/a0d13b0c-d3ba-439b-9d53-3c88493f9e11",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "eGPU Lieferung von batterie-elektrischen Bodenstromgeräten",
+     "description": "Leistungsgegenstand ist die Lieferung von 2 batterie-elektrischen Bodenstromgeräten. Die technischen Produktanforderungen sind im Einzelnen im Anhang 1 (Anhang 1, Anforderungserfüllungsmatrix) geregelt und müssen gemäß den dort hinterlegten Angaben des Auftragnehmers vollumfänglich erfüllt werden. Der Abruf der Geräte erfolgt mit Zuschlagserteilung, der zu schließende Vertrag endet nach Lieferung der letzten Teilmenge.",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "a0d13b0c-d3ba-439b-9d53-3c88493f9e11",
+  "version": "01",
+  "title": "eGPU Lieferung von batterie-elektrischen Bodenstromgeräten",
+  "description": "Leistungsgegenstand ist die Lieferung von 2 batterie-elektrischen Bodenstromgeräten. Die technischen Produktanforderungen sind im Einzelnen im Anhang 1 (Anhang 1, Anforderungserfüllungsmatrix) geregelt und müssen gemäß den dort hinterlegten Angaben des Auftragnehmers vollumfänglich erfüllt werden. Der Abruf der Geräte erfolgt mit Zuschlagserteilung, der zu schließende Vertrag endet nach Lieferung der letzten Teilmenge.",
+  "procedureType": "open",
+  "nuts": [
+   "DE274"
+  ],
+  "cpv": [
+   "31400000",
+   "34960000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "eGPU Lieferung von batterie-elektrischen Bodenstromgeräten",
+    "description": "Leistungsgegenstand ist die Lieferung von 2 batterie-elektrischen Bodenstromgeräten. Die technischen Produktanforderungen sind im Einzelnen im Anhang 1 (Anhang 1, Anforderungserfüllungsmatrix) geregelt und müssen gemäß den dort hinterlegten Angaben des Auftragnehmers vollumfänglich erfüllt werden. Der Abruf der Geräte erfolgt mit Zuschlagserteilung, der zu schließende Vertrag endet nach Lieferung der letzten Teilmenge.",
+    "cpv": [
+     "31400000"
+    ],
+    "nuts": [
+     "DE274"
+    ],
+    "deadline": "2026-11-06T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Eignungskriterien gemäß Auftragsunterlagen"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Befähigung zur Berufsausübung einschließlich Auflagen hinsichtlich der Eintragung in einem Berufs- oder Handelsregister Auflistung und kurze Beschreibung der Bedingungen Allgemeine Informationen zu den Ziffern BT-67 und BT-747/BT-750: Die geforderten Unterlagen (Eigenerklärungen, Angaben, Bescheinigungen und sonstige Nachweise) zum Nachweis des Nichtvorliegens von Ausschlussgründen gemäß den §§ 123 und 124 GWB (Ziffer BT-67), der wirtschaftlichen und finanziellen Leistungsfähigkeit (Ziffer BT-747/ BT-750) und der technischen und beruflichen Leistungsfähigkeit (Ziffer BT-747/BT-750) sind in dem Dokument \"Angebot und Eignungserklärung\", welches unter der Adresse http://www.deutsche-evergabe. de elektronisch zur Verfügung gestellt wird, aufgeführt. Die informatorischen Vergabeunterlagen werden ebenfalls unter der Adresse http://www.deutsche-evergabe.de elektronisch zur Verfügung gestellt. Änderungen und Ergänzungen bleiben vorbehalten. Zur Abgabe der nach den Ziffern BT-67 und BT-747/BT-750 geforderten Eigenerklärungen sollen die Formblätter, welche im \"Angebot und Eignungserklärung\" enthalten sind, verwendet werden. Das Nichtvorliegen von Ausschlussgründen gemäß den §§ 123 und 124 GWB ist gemäß den Ausführungen des Dokumentes \"Angebot und Eignungserklärung\" zu belegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Bezüglich der geforderten Sicherheiten wird auf den Vertrag § 9 verwiesen."
+    }
+   }
+  ]
+ }
+}

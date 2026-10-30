@@ -1,0 +1,205 @@
+{
+ "id": "150b00a7-17f7-456f-9185-f107f851e4c8-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "150b00a7-17f7-456f-9185-f107f851e4c8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=150b00a7-17f7-456f-9185-f107f851e4c8",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:150b00a7-17f7-456f-9185-f107f851e4c8-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:150b00a7-17f7-456f-9185-f107f851e4c8-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/150b00a7-17f7-456f-9185-f107f851e4c8?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lüftungsarbeiten",
+  "buyer": "Caritas-Diakonie Schulträger gGmbH",
+  "cpv": [
+   "45331000"
+  ],
+  "nuts": [
+   "DE241",
+   "DE245"
+  ],
+  "deadline": "2026-11-26T13:50:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-85e2e3d8-83d1-48b1-a0ed-a2ffb97f61ef",
+  "id": "150b00a7-17f7-456f-9185-f107f851e4c8",
+  "date": "2026-10-18T09:44:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Joseph-Stiftung",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRA9587",
+     "legalName": "Joseph-Stiftung"
+    },
+    "address": {
+     "streetAddress": "Hans-Birkmayr-Str. 65",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96050",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Anbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Caritas-Diakonie Schulträger gGmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB9423",
+     "legalName": "Caritas-Diakonie Schulträger gGmbH"
+    },
+    "address": {
+     "streetAddress": "Hainstr. 59",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Caritas-Diakonie Schulträger gGmbH",
+   "id": "HRB9423",
+   "identifier": {
+    "id": "ORG-0003",
+    "legalName": "Caritas-Diakonie Schulträger gGmbH"
+   },
+   "address": {
+    "streetAddress": "Hainstr. 59",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "85e2e3d8-83d1-48b1-a0ed-a2ffb97f61ef",
+   "title": "Lüftungsarbeiten",
+   "description": "Raumlufttechnische AnlagenAusführungsgrundlage ist die VOB/C, ATV DIN 18299 \"Allgemeine Regelungen für Bauleistungen jeder Art\",ATV DIN 18379 \"Raumlufttechnische Anlagen\", ATV DIN 18421 \"Dämmarbeiten an technischen Anlagen\"und die ATV DIN 18386 \"Gebäudeautomation\"sowie DIN 4102 Brandverhalten von Baustoffen und Bauteilen, DIN 4109 Schallschutz im Hochbau,und die Allgemein anerkannten Regeln der Technik.1 Zu- und Abluft-Lüftungsgerät (12.000m³/h) mit Wärmerückgewinnung700 m² Rechteckkanal, verzinkt130 m Rundrohr bis DN 200, verzinkt370 m² Rechteckkanal mit schwarzer Farbe400 m Rundrohr bis DN 200 mit schwarzer Farbe19 Brandschutzklappen rund und rechteckig30 variable Volumenstromregler71 konstante Volumenstromregler48 eckige Schalldämpfer48 runde Schalldämpfer168 Luftein- und Auslässe",
+   "procuringEntity": {
+    "name": "Caritas-Diakonie Schulträger gGmbH",
+    "id": "HRB9423"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331000",
+      "description": "Heating, ventilation and air-conditioning installation work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Emil-Kemmer-Straße",
+      "locality": "Hallstadt",
+      "region": "DE245",
+      "postalCode": "96103",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331033",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lüftungsarbeiten",
+     "description": "Raumlufttechnische AnlagenAusführungsgrundlage ist die VOB/C, ATV DIN 18299 \"Allgemeine Regelungen für Bauleistungen jeder Art\",ATV DIN 18379 \"Raumlufttechnische Anlagen\", ATV DIN 18421 \"Dämmarbeiten an technischen Anlagen\"und die ATV DIN 18386 \"Gebäudeautomation\"sowie DIN 4102 Brandverhalten von Baustoffen und Bauteilen, DIN 4109 Schallschutz im Hochbau,und die Allgemein anerkannten Regeln der Technik.1 Zu- und Abluft-Lüftungsgerät (12.000m³/h) mit Wärmerückgewinnung700 m² Rechteckkanal, verzinkt130 m Rundrohr bis DN 200, verzinkt370 m² Rechteckkanal mit schwarzer Farbe400 m Rundrohr bis DN 200 mit schwarzer Farbe19 Brandschutzklappen rund und rechteckig30 variable Volumenstromregler71 konstante Volumenstromregler48 eckige Schalldämpfer48 runde Schalldämpfer168 Luftein- und Auslässe",
+     "contractPeriod": {
+      "startDate": "2027-03-15T00:00:00+01:00",
+      "endDate": "2028-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "150b00a7-17f7-456f-9185-f107f851e4c8",
+  "version": "01",
+  "title": "Lüftungsarbeiten",
+  "description": "Raumlufttechnische AnlagenAusführungsgrundlage ist die VOB/C, ATV DIN 18299 \"Allgemeine Regelungen für Bauleistungen jeder Art\",ATV DIN 18379 \"Raumlufttechnische Anlagen\", ATV DIN 18421 \"Dämmarbeiten an technischen Anlagen\"und die ATV DIN 18386 \"Gebäudeautomation\"sowie DIN 4102 Brandverhalten von Baustoffen und Bauteilen, DIN 4109 Schallschutz im Hochbau,und die Allgemein anerkannten Regeln der Technik.1 Zu- und Abluft-Lüftungsgerät (12.000m³/h) mit Wärmerückgewinnung700 m² Rechteckkanal, verzinkt130 m Rundrohr bis DN 200, verzinkt370 m² Rechteckkanal mit schwarzer Farbe400 m Rundrohr bis DN 200 mit schwarzer Farbe19 Brandschutzklappen rund und rechteckig30 variable Volumenstromregler71 konstante Volumenstromregler48 eckige Schalldämpfer48 runde Schalldämpfer168 Luftein- und Auslässe",
+  "procedureType": "open",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "45331000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lüftungsarbeiten",
+    "description": "Raumlufttechnische AnlagenAusführungsgrundlage ist die VOB/C, ATV DIN 18299 \"Allgemeine Regelungen für Bauleistungen jeder Art\",ATV DIN 18379 \"Raumlufttechnische Anlagen\", ATV DIN 18421 \"Dämmarbeiten an technischen Anlagen\"und die ATV DIN 18386 \"Gebäudeautomation\"sowie DIN 4102 Brandverhalten von Baustoffen und Bauteilen, DIN 4109 Schallschutz im Hochbau,und die Allgemein anerkannten Regeln der Technik.1 Zu- und Abluft-Lüftungsgerät (12.000m³/h) mit Wärmerückgewinnung700 m² Rechteckkanal, verzinkt130 m Rundrohr bis DN 200, verzinkt370 m² Rechteckkanal mit schwarzer Farbe400 m Rundrohr bis DN 200 mit schwarzer Farbe19 Brandschutzklappen rund und rechteckig30 variable Volumenstromregler71 konstante Volumenstromregler48 eckige Schalldämpfer48 runde Schalldämpfer168 Luftein- und Auslässe",
+    "cpv": [
+     "45331000"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": "2026-11-26T13:50:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-15+01:00",
+    "plannedEnd": "2028-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331033"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

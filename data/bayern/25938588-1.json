@@ -1,0 +1,134 @@
+{
+ "id": "25938588-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25938588",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25938588",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25938588-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25938588-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25938588?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm",
+  "buyer": "Stadt Neu-Ulm",
+  "cpv": [
+   "45233120-6"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-05T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25938588",
+  "id": "25938588",
+  "date": "2026-10-16T07:01:35Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Neu-Ulm",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Neu-Ulm"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Neu-Ulm",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Neu-Ulm"
+   }
+  },
+  "tender": {
+   "title": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm",
+   "description": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm",
+   "procuringEntity": {
+    "name": "Stadt Neu-Ulm"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45233120-6"
+     },
+     "deliveryAddress": {
+      "locality": "89231 Neu-Ulm",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304973",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm",
+     "description": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25938588",
+  "version": "1",
+  "title": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm",
+  "description": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45233120-6"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm",
+    "description": "Strassenbauarbeiten in der Curd-Juergens-Strasse in Neu-Ulm",
+    "cpv": [
+     "45233120-6"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-05T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "bef29b07-f9f8-43eb-b724-3ac98199ac84",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bef29b07-f9f8-43eb-b724-3ac98199ac84",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:bef29b07-f9f8-43eb-b724-3ac98199ac84-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:bef29b07-f9f8-43eb-b724-3ac98199ac84-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/bef29b07-f9f8-43eb-b724-3ac98199ac84?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Erdgasausschreibung Stadt Burgkunstadt 2027/2028/2029",
   "buyer": "Stadt Burgkunstadt, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
   "cpv": [
@@ -214,5 +214,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "bef29b07-f9f8-43eb-b724-3ac98199ac84",
+  "version": "01",
+  "title": "Erdgasausschreibung Stadt Burgkunstadt 2027/2028/2029",
+  "description": "Lieferung von Erdgas für die Abnahmestellen der Stadt Burgkunstadt:\nLiefermenge: 1.145.000 kWh/a;\nLieferzeitraum: 01.01.2027 - 01.01.2030",
+  "procedureType": "open",
+  "nuts": [
+   "DE24C"
+  ],
+  "cpv": [
+   "09123000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los Stadt Burgkunstadt",
+    "description": "Lieferung von Erdgas für die Abnahmestellen der Stadt Burgkunstadt:\nLiefermenge: 1.145.000 kWh/a;\nLieferzeitraum: 01.01.2027 - 01.01.2030",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE24C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -1,0 +1,383 @@
+{
+ "id": "49331324-f1e0-4ec5-9713-cbc3fd54cec8-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "49331324-f1e0-4ec5-9713-cbc3fd54cec8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=49331324-f1e0-4ec5-9713-cbc3fd54cec8",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:49331324-f1e0-4ec5-9713-cbc3fd54cec8-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:49331324-f1e0-4ec5-9713-cbc3fd54cec8-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/49331324-f1e0-4ec5-9713-cbc3fd54cec8?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Kauf von drei Rüstwägen mit feuerwehrtechnischer Beladung",
+  "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+  "cpv": [
+   "34144210",
+   "34144200"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-20T23:59:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-556c5fe2-dac3-4e9f-a5f5-f92d159100eb",
+  "id": "49331324-f1e0-4ec5-9713-cbc3fd54cec8",
+  "date": "2026-10-20T10:04:22Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3"
+    },
+    "address": {
+     "streetAddress": "Balanstraße 59",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81541",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+   "id": "Leitweg-ID 09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3"
+   },
+   "address": {
+    "streetAddress": "Balanstraße 59",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81541",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "556c5fe2-dac3-4e9f-a5f5-f92d159100eb",
+   "title": "Kauf von drei Rüstwägen mit feuerwehrtechnischer Beladung",
+   "description": "Kauf von drei Rüstwägen mit feuerwehrtechnischer Beladung",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+    "id": "Leitweg-ID 09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Landeshauptstadt München, An der Hauptfeuerwache , 80331 München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Landeshauptstadt München, An der Hauptfeuerwache , 80331 München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Landeshauptstadt München, An der Hauptfeuerwache , 80331 München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19f835ce486-37487aad59a911f9",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19f835ce486-37487aad59a911f9",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19f835ce486-37487aad59a911f9",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19f835ce486-37487aad59a911f9",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19f835ce486-37487aad59a911f9",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0006",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-19f835ce486-37487aad59a911f9",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Kauf von drei LKW-Fahrgestellen (4x4, zGM 18t )",
+     "description": "drei fabrikneue LKW Fahrgestelle 4x4, zGM 18t",
+     "contractPeriod": {
+      "durationInDays": 210
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Kauf von drei Auf-und Ausbauten zum Rüstwagen",
+     "description": "Rüstwagenaufbau mit feuerwehrtechnischer Beladung",
+     "contractPeriod": {
+      "durationInDays": 1200
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Kauf von feuerwehrtechnischer Beladung für drei Rüstwägen",
+     "description": "Kauf von feuerwehrtechnischer Beladung für drei Rüstwägen",
+     "contractPeriod": {
+      "durationInDays": 180
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "49331324-f1e0-4ec5-9713-cbc3fd54cec8",
+  "version": "01",
+  "title": "Kauf von drei Rüstwägen mit feuerwehrtechnischer Beladung",
+  "description": "Kauf von drei Rüstwägen mit feuerwehrtechnischer Beladung",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "34144200",
+   "34144210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Kauf von drei LKW-Fahrgestellen (4x4, zGM 18t )",
+    "description": "drei fabrikneue LKW Fahrgestelle 4x4, zGM 18t",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 7,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 1 erbrachte\nvergleichbare Leistungen vorweisen. Als vergleichbare Leistung gilt in vorliegendem Fall: Los\n1: Als Referenz wird die Lieferung von einem Fahrgestell eines zum angebotenen Fahrzeug vergleichbaren Fabrikats / Typs (vergleichbare Gewichtsklasse / vergleichbare Antriebsart) anerkannt. \nLos 2: Als Referenz wird die Lieferung von einem Aufbau eines zum angebotenen Aufbau vergleichbaren Fabrikats /Typs anerkannt.\nLos 3: Als Referenz wird die Lieferung einer Beladung eines Rüstwagens\ngleichen bzw. vergleichbaren Beladeumfangs anerkannt. Referenzen dürfen nachfolgend nur angegeben werden, wenn - sie nicht älter als drei Jahre sind und - die Leistung bereits vollständig abgeschlossen wurde oder einer Vertragslaufzeit von über einem Jahr, mindestens\nein Leistungszeitraum von einem Jahr bereits abgeschlossen wurde. -"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Während der Ausführungszeit des Auftrags besteht eine Berufs- oder Betriebshaftpflichtversicherung mit mindestens folgenden Deckungssummen:\nPersonenschäden: mind. 1.000.000 € Sachschäden: mind. 1.000.000 € Vermögensschäden:\nmind. 1.000.000 €"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz des Bewerbers/Bieters in den letzten 3 abgeschlossenen Geschäftsjahren muss für die einzelnen Lose mindestens folgende Werte\nbetragen: Los 1: 750.000 Euro Los 2: 1.500.000 Euro Los 3 : 1.500.000 Euro Soll der Zuschlag für mehrere, gleichzeitig auszuführende Lose an einen Bewerber /Bieter erteilt werden, so müssen die Umsatzzahlen des Bewerbers/Bieters in den letzten 2 abgeschlossenen Geschäftsjahren mindestens der Summe der geforderten Mindestumsätze aus den\nbetreffenden Losen entsprechen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Zuschlag wird auf das wirtschaftlichste aller wertbaren Angebote erteilt. Ausschlaggebend ist ausschließlich der Preis, wobei alle Anforderungen der Leistungsbeschreibung erfüllt werden müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Kauf von drei Auf-und Ausbauten zum Rüstwagen",
+    "description": "Rüstwagenaufbau mit feuerwehrtechnischer Beladung",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 40,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 1 erbrachte\nvergleichbare Leistungen vorweisen. Als vergleichbare Leistung gilt in vorliegendem Fall: Los\n1: Als Referenz wird die Lieferung von einem Fahrgestell eines zum angebotenen Fahrzeug vergleichbaren Fabrikats / Typs (vergleichbare Gewichtsklasse / vergleichbare Antriebsart) anerkannt. \nLos 2: Als Referenz wird die Lieferung von einem Aufbau eines zum angebotenen Aufbau vergleichbaren Fabrikats /Typs anerkannt.\nLos 3: Als Referenz wird die Lieferung einer Beladung eines Rüstwagens\ngleichen bzw. vergleichbaren Beladeumfangs anerkannt. Referenzen dürfen nachfolgend nur angegeben werden, wenn - sie nicht älter als drei Jahre sind und - die Leistung bereits vollständig abgeschlossen wurde oder einer Vertragslaufzeit von über einem Jahr, mindestens\nein Leistungszeitraum von einem Jahr bereits abgeschlossen wurde. -"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Während der Ausführungszeit des Auftrags besteht eine Berufs- oder Betriebshaftpflichtversicherung mit mindestens folgenden Deckungssummen:\nPersonenschäden: mind. 1.000.000 € Sachschäden: mind. 1.000.000 € Vermögensschäden:\nmind. 1.000.000 €"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz des Bewerbers/Bieters in den letzten 3 abgeschlossenen Geschäftsjahren muss für die einzelnen Lose mindestens folgende Werte\nbetragen: Los 1: 750.000 Euro Los 2: 1.500.000 Euro Los 3 : 1.500.000 Euro Soll der Zuschlag für mehrere, gleichzeitig auszuführende Lose an einen Bewerber /Bieter erteilt werden, so müssen die Umsatzzahlen des Bewerbers/Bieters in den letzten 2 abgeschlossenen Geschäftsjahren mindestens der Summe der geforderten Mindestumsätze aus den\nbetreffenden Losen entsprechen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Zuschlag wird auf das wirtschaftlichste aller wertbaren Angebote erteilt. Ausschlaggebend ist ausschließlich der Preis, wobei alle Anforderungen der Leistungsbeschreibung erfüllt werden müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Kauf von feuerwehrtechnischer Beladung für drei Rüstwägen",
+    "description": "Kauf von feuerwehrtechnischer Beladung für drei Rüstwägen",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 6,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 1 erbrachte\nvergleichbare Leistungen vorweisen. Als vergleichbare Leistung gilt in vorliegendem Fall: Los\n1: Als Referenz wird die Lieferung von einem Fahrgestell eines zum angebotenen Fahrzeug vergleichbaren Fabrikats / Typs (vergleichbare Gewichtsklasse / vergleichbare Antriebsart) anerkannt. \nLos 2: Als Referenz wird die Lieferung von einem Aufbau eines zum angebotenen Aufbau vergleichbaren Fabrikats /Typs anerkannt.\nLos 3: Als Referenz wird die Lieferung einer Beladung eines Rüstwagens\ngleichen bzw. vergleichbaren Beladeumfangs anerkannt. Referenzen dürfen nachfolgend nur angegeben werden, wenn - sie nicht älter als drei Jahre sind und - die Leistung bereits vollständig abgeschlossen wurde oder einer Vertragslaufzeit von über einem Jahr, mindestens\nein Leistungszeitraum von einem Jahr bereits abgeschlossen wurde. -"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Während der Ausführungszeit des Auftrags besteht eine Berufs- oder Betriebshaftpflichtversicherung mit mindestens folgenden Deckungssummen:\nPersonenschäden: mind. 1.000.000 € Sachschäden: mind. 1.000.000 € Vermögensschäden:\nmind. 1.000.000 €"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz des Bewerbers/Bieters in den letzten 3 abgeschlossenen Geschäftsjahren muss für die einzelnen Lose mindestens folgende Werte\nbetragen: Los 1: 750.000 Euro Los 2: 1.500.000 Euro Los 3 : 1.500.000 Euro Soll der Zuschlag für mehrere, gleichzeitig auszuführende Lose an einen Bewerber /Bieter erteilt werden, so müssen die Umsatzzahlen des Bewerbers/Bieters in den letzten 2 abgeschlossenen Geschäftsjahren mindestens der Summe der geforderten Mindestumsätze aus den\nbetreffenden Losen entsprechen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Zuschlag wird auf das wirtschaftlichste aller wertbaren Angebote erteilt. Ausschlaggebend ist ausschließlich der Preis, wobei alle Anforderungen der Leistungsbeschreibung erfüllt werden müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

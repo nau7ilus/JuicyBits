@@ -5,23 +5,24 @@
   "noticeId": "4fa0cbc7-8de2-4c7e-8fbc-9c19a14759c3",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4fa0cbc7-8de2-4c7e-8fbc-9c19a14759c3",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:4fa0cbc7-8de2-4c7e-8fbc-9c19a14759c3-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:4fa0cbc7-8de2-4c7e-8fbc-9c19a14759c3-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/4fa0cbc7-8de2-4c7e-8fbc-9c19a14759c3?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "PL 0060 Immissionsschutz",
   "buyer": "VAG Verkehrs-Aktiengesellschaft",
   "cpv": [
-   "71313000"
+   "71313000",
+   "71313450"
   ],
   "nuts": [
    "DE254"
   ],
-  "deadline": null,
+  "deadline": "2026-12-01T13:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -137,5 +138,95 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "4fa0cbc7-8de2-4c7e-8fbc-9c19a14759c3",
+  "version": "01",
+  "title": "PL 0060 Immissionsschutz",
+  "description": "PL Umgestaltung Plärrer, Nürnberg; Vergabepaket 0060 Immissionsschutz",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "71313450",
+   "71313000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "PL 0060 Immissionsschutz",
+    "description": "Das Projekt „Umgestaltung Plärrer Nürnberg“ umfasst die Erneuerung\nund Änderung der Betriebsanlagen der Straßenbahn im Bereich des\nVerkehrsknotens Plärrer. Diese Ausschreibung ist Bestandteil eines\nübergeordneten Gesamtvorhabens zur funktionalen und gestalterischen\nNeuordnung des Plärrers. Ziel ist insbesondere die Erneuerung\nverschlissener Straßenbahninfrastruktur, die Verbesserung der\nBetriebsabläufe, die Schaffung barrierefreier Haltestellen sowie die\nAufwertung des Stadtraums mit höherer Aufenthaltsqualität insbesondere\ndurch Baumpflanzungen.\n\nDieses Vergabepaket umfasst im wesentlichen:\n\n-\tFortschreibung des Schallgutachtens (AVV Baulärm)  für die Jahre 2027 bis 2031\n-\tBaustellenbegehungen inkl. Dokumentation\n-\tKontrolle der korrekten Umsetzung der Auflagen aus dem Plafe-Bescheid\n-\tStichprobenartige Lufschallmessungen\n-\tMitwirken zur Lösung von Beschwerden als Ansprechpartner auch Betroffenen \n        gegenüber",
+    "cpv": [
+     "71313000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-12-01T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-11+01:00",
+    "plannedEnd": "2031-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Gesellschaftsform mit Eigentumsverhältnissen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass keine Eintragung im Wettbewerbsregister vorliegt. (Gewichtung 4 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung: Anerkennung deutschen Rechts im Vertragsfall. (Gewichtung 3 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung: Bestätigung von deutschsprachigen Schlüsselpersonal. (Gewichtung 3 %)"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Umsatzangaben der letzten drei abgeschlossenen Geschäftsjahre bezogen auf Tätigkeiten im ausgeschriebenen Aufgabengebiet, (Gewichtung 7 %)"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Eigenauskunft (z. B. Creditreform, Bankauskunft, etc.). (Gewichtung 10 %)"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Eigenerklärung, dass sich das Unternehmen nicht in Liquidation befindet. (Gewichtung 3 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass Ihr Unternehmen seine Verpflichtung zur Zahlung der Steuern und Abgaben nach den Rechtsvorschriften des Landes des Sektorenauftraggebers erfüllt hat (Gewichtung 3 %),"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Eigenerklärung, dass keine Eröffnung oder beantragte Eröffnung eines Insolvenzverfahrens oder einer vergleichbaren gesetzlich geregelten Verfahrens über das Vermögen des Unternehmens oder Ablehnung vorliegt (Gewichtung 3 %),"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Zwei mit der ausgeschriebenen Leistung vergleichbare Referenzen mit Ausführung 2023 bis 2026. (Gewichtung zweimal 32 % = 64 %), Wertung jeweils im Vergleich zur ausgeschriebenen Leistung für eine Referenz: 32 % voll vergleichbar, 0 % überhaupt nicht vergleichbar.\nDie Referenzen sollen folgende Angaben enthalten:\nAuftraggeber mit Ansprechpartner und Telefonnummer, Art der ausgeführten Leistung, Auftragssumme, Ausführungszeitraum, Kurzbeschreibung des im eigenen Betrieb erbrachten maßgeblichen Leistungsumfangs mit Angabe von dabei ausgeführten wesentlichen Mengenkennzahlen, Zahl der dabei durchschnittlichen eingesetzten Arbeitskräfte.\nAusländische Bieter haben gleichwertige Nachweise des Herkunftslandes vorzulegen. Bei Dokumenten, die nicht in deutscher Sprache verfasst sind, ist eine beglaubigte Übersetzung ins Deutsche beizufügen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
 }

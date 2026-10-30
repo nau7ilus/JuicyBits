@@ -1,0 +1,225 @@
+{
+ "id": "59ca09e7-6eb0-4aae-964b-89632d1bdc5e-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "59ca09e7-6eb0-4aae-964b-89632d1bdc5e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=59ca09e7-6eb0-4aae-964b-89632d1bdc5e",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:59ca09e7-6eb0-4aae-964b-89632d1bdc5e-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:59ca09e7-6eb0-4aae-964b-89632d1bdc5e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/59ca09e7-6eb0-4aae-964b-89632d1bdc5e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "497 - Generalsanierung, Teilabbruch, Teilneubau GMS Kümmersbruck - 1209 Tischler/Innentüren",
+  "buyer": "Gemeinde Kümmersbruck",
+  "cpv": [
+   "45421000",
+   "45421131"
+  ],
+  "nuts": [
+   "DE234"
+  ],
+  "deadline": "2026-11-13T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-59ca09e7-6eb0-4aae-964b-89632d1bdc5e",
+  "id": "59ca09e7-6eb0-4aae-964b-89632d1bdc5e",
+  "date": "2026-10-16T02:06:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Kümmersbruck",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "11295",
+     "legalName": "Gemeinde Kümmersbruck"
+    },
+    "address": {
+     "streetAddress": "Schulstr. 37",
+     "locality": "Kümmersbruck",
+     "region": "DE234",
+     "postalCode": "92245",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "cdbf911a-5c19-4bf8-ae7b-babfbf3da9f7",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE234",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Kümmersbruck",
+   "id": "11295",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Kümmersbruck"
+   },
+   "address": {
+    "streetAddress": "Schulstr. 37",
+    "locality": "Kümmersbruck",
+    "region": "DE234",
+    "postalCode": "92245",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "59ca09e7-6eb0-4aae-964b-89632d1bdc5e",
+   "title": "497 - Generalsanierung, Teilabbruch, Teilneubau GMS Kümmersbruck - 1209 Tischler/Innentüren",
+   "description": "1209 Tischler/Innentüren",
+   "procuringEntity": {
+    "name": "Gemeinde Kümmersbruck",
+    "id": "11295"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421000",
+      "description": "Joinery work"
+     },
+     "deliveryAddress": {
+      "region": "DE234",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/59ca09e7-6eb0-4aae-964b-89632d1bdc5e",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "497 - Generalsanierung, Teilabbruch, Teilneubau GMS Kümmersbruck - 1209 Tischler/Innentüren",
+     "description": "Liefern und montieren von Holzinnentüren einschl. Stahlblechtüren",
+     "contractPeriod": {
+      "startDate": "2027-06-14T00:00:00+02:00",
+      "endDate": "2027-07-16T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "59ca09e7-6eb0-4aae-964b-89632d1bdc5e",
+  "version": "01",
+  "title": "497 - Generalsanierung, Teilabbruch, Teilneubau GMS Kümmersbruck - 1209 Tischler/Innentüren",
+  "description": "1209 Tischler/Innentüren",
+  "procedureType": "open",
+  "nuts": [
+   "DE234"
+  ],
+  "cpv": [
+   "45421000",
+   "45421131"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "497 - Generalsanierung, Teilabbruch, Teilneubau GMS Kümmersbruck - 1209 Tischler/Innentüren",
+    "description": "Liefern und montieren von Holzinnentüren einschl. Stahlblechtüren",
+    "cpv": [
+     "45421000"
+    ],
+    "nuts": [
+     "DE234"
+    ],
+    "deadline": "2026-11-13T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-06-14+02:00",
+    "plannedEnd": "2027-07-16+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, \nsoweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter \nEinschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Angaben zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind. \nIch erkläre / Wir erklären, dass ich / wir in den letzten fünf Kalenderjahren bzw. dem in der Auftragsbekanntmachung \nangegebenen Zeitraum, vergleichbare Leistungen ausgeführt habe/haben. Falls mein/unser Teilnahmeantrag/Angebot in die engere Wahl kommt, werde ich /werden wir drei Referenznachweise vorlegen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Ich/Wir erkläre(n), dass mir/uns die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen. Falls mein/unser Teilnahmeantrag/Angebot in die engere Wahl kommt, werde ich /werden wir die Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit extra ausgewiesenem technischen Leitungspersonal, angeben."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Falls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde ich/werden wir zur Bestätigung meiner/unserer Erklärung vorlegen: Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Falls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde \nich/werden wir zur Bestätigung meiner/unserer Erklärung vorlegen: Gewerbeanmeldung, Handelsregisterauszug und \nEintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe zu Insolvenzverfahren und Liquidation."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe, dass nachweislich keine schwere Verfehlung begangen wurde, die die \nZuverlässigkeit als Bewerber oder Bieter in Frage stellt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Ich erkläre/wir erklären, dass ich/wir meine/unsere Verpflichtung zur Zahlung von \nSteuern und Abgaben sowie der Beiträge zur Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, \nordnungsgemäß erfüllt habe/haben. Falls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde \nich/werden wir eine Unbe-denklichkeitsbescheinigung der tariflichen Sozialkasse, eine Unbedenklichkeitsbescheinigung \ndes Finanzamtes bzw. Bescheinigung in Steuersachen sowie eine Freistellungsbescheinigung nach § 48b EStG \nvorlegen."
+     },
+     {
+      "type": "slc-sec-supply",
+      "description": "Ich bin/Wir sind Mitglied der Berufsgenossenschaft. Falls mein/unser \nAngebot/Teilnahmeantrag in die engere Wahl kommt, werde ich/werden wir eine qualifizierte \nUnbedenklichkeitsbescheinigung der Berufsgenossenschaft des für mich zuständigen Versicherungsträgers mit Angabe \nder Lohnsummen vorlegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "id": "ea38eb11-9e7d-4663-8a90-16d3b1afc461-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "ea38eb11-9e7d-4663-8a90-16d3b1afc461",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ea38eb11-9e7d-4663-8a90-16d3b1afc461",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:ea38eb11-9e7d-4663-8a90-16d3b1afc461-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:ea38eb11-9e7d-4663-8a90-16d3b1afc461-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ea38eb11-9e7d-4663-8a90-16d3b1afc461?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Motorstraße_Lüftung_DFr",
+  "buyer": "Münchner Wohnen GmbH",
+  "cpv": [
+   "45315000",
+   "45331000",
+   "45000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-16T09:45:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-cdc6b017-d181-40de-aa4c-95d2658c9569",
+  "id": "ea38eb11-9e7d-4663-8a90-16d3b1afc461",
+  "date": "2026-10-16T02:10:10Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schlichtungsstelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:008921762411",
+     "legalName": "Schlichtungsstelle"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   },
+   {
+    "name": "Münchner Wohnen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:0898776620",
+     "legalName": "Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Dienstleister Münchner Wohnen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "t:00898776620",
+     "legalName": "Dienstleister Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Münchner Wohnen GmbH",
+   "id": "t:0898776620",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Münchner Wohnen GmbH"
+   },
+   "address": {
+    "streetAddress": "Gustav-Heinemann- Ring 111",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "cdc6b017-d181-40de-aa4c-95d2658c9569",
+   "title": "Motorstraße_Lüftung_DFr",
+   "description": "25 Wohungen in 2 stöckigem Haus für Kinder, Wohnungen Lüftungsanlagen DIN 18017 in Wohnungen mit ALD, Lüftung mit WRG im HFK",
+   "procuringEntity": {
+    "name": "Münchner Wohnen GmbH",
+    "id": "t:0898776620"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45315000",
+      "description": "Electrical installation work of heating and other electrical building-equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45331000",
+       "description": "Heating, ventilation and air-conditioning installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45000000",
+       "description": "Construction work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Motorstraße/Hamburger Straße",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80807",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304481",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Motorstraße_Lüftung_DFr",
+     "description": "25 Wohungen in 2 stöckigem Haus für Kinder, Wohnungen Lüftungsanlagen DIN 18017 in Wohnungen mit ALD, Lüftung mit WRG im HFK\n\nDer Beginn der Ausführung erfolgt zwischen dem 01.12.2026 und dem 30.01.2027. Der genaue\nAusführungsbeginn (Gesamtausführungsbeginn) wird dem Auftragnehmer durch den Auftraggeber in Textform mitgeteilt, wobei zwischen dem Zugang dieser Mitteilung und dem mitgeteilten\nAusführungsbeginn mindestens zwölf Werktage liegen.\nDer Auftragnehmer hat den Beginn der Ausführung dem Auftraggeber schriftlich im Voraus\nanzuzeigen.",
+     "contractPeriod": {
+      "durationInDays": 220
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ea38eb11-9e7d-4663-8a90-16d3b1afc461",
+  "version": "01",
+  "title": "Motorstraße_Lüftung_DFr",
+  "description": "25 Wohungen in 2 stöckigem Haus für Kinder, Wohnungen Lüftungsanlagen DIN 18017 in Wohnungen mit ALD, Lüftung mit WRG im HFK",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45315000",
+   "45331000",
+   "45000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Motorstraße_Lüftung_DFr",
+    "description": "25 Wohungen in 2 stöckigem Haus für Kinder, Wohnungen Lüftungsanlagen DIN 18017 in Wohnungen mit ALD, Lüftung mit WRG im HFK\n\nDer Beginn der Ausführung erfolgt zwischen dem 01.12.2026 und dem 30.01.2027. Der genaue\nAusführungsbeginn (Gesamtausführungsbeginn) wird dem Auftragnehmer durch den Auftraggeber in Textform mitgeteilt, wobei zwischen dem Zugang dieser Mitteilung und dem mitgeteilten\nAusführungsbeginn mindestens zwölf Werktage liegen.\nDer Auftragnehmer hat den Beginn der Ausführung dem Auftraggeber schriftlich im Voraus\nanzuzeigen.",
+    "cpv": [
+     "45315000",
+     "45331000",
+     "45000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-16T09:45:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 220,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Unternehmen, die für die ausgeschriebenen Leistungen präqualifiziert sind, führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen) Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Eintragung in das Berufs- oder Handelsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignung ist durch Eintragung in die Liste des Vereins für Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) oder durch folgende Eigenerklärungen und auf gesondertes Verlangen durch folgende Nachweise gemäß Formblatt 124 (Eigenerklärung zur Eignung) nachzuweisen – bei Bietergemeinschaften für jedes Mitglied; für eignungsverleihende Unternehmen und Unterauftragnehmer erst auf gesondertes Verlangen innerhalb der gesetzten Frist:\n\nFür die ausgeschriebenen Leistungen präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen) Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben über das mit dem Angebot abzugebende Formblatt 124 eine Eigenerklärung zum Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab (für Bieter, Mitglieder einer Bietergemeinschaft,) Nimmt der Bieter/Bewerber in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ (Formblatt 236) abzugeben"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Für die ausgeschriebenen Leistungen präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an. Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben mit dem Angebot folgende Eigenerklärungen ab: - Eigenerklärung im Formblatt 124 zur Ausführung vergleichbarer Leistungen in den letzten fünf Kalenderjahren (gilt für Bieter, Mitglieder einer Bietergemeinschaft). Auf Anforderung Vorlage von drei Referenznachweisen (Angaben in Anlehnung an das Formblatt 444 Referenzbescheinigung) mit mindestens folgenden Angaben: Ansprechpartner; Art der ausgeführten Leistung; Auftragssumme; Ausführungszeitraum; Kurzbeschreibung der Baumaßnahme einschließlich eventueller Besonderheiten der Ausführung; Angabe zur vertraglichen Bindung (Hauptauftragnehmer, ARGE-Partner, Nachunternehmer); Bestätigung des Auftraggebers über die vertragsgemäße Ausführung der Leistung. - Eigenerklärung im Formblatt 124, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen (für Bieter, Mitglieder einer Bietergemeinschaft). Auftragsspezifische Einzelnachweise (von präqualifizierten und nicht präqualifizierten Unternehmen vorzulegen): Mit dem Angebot sind die Teile des Auftrags, die als Unteraufträge an andere Unternehmen vergeben werden sollen, zu benennen (Formblatt 235)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "100 % Gesamtpreis des Angebots",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

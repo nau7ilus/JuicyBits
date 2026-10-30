@@ -5,14 +5,14 @@
   "noticeId": "665a2011-86c3-419a-aae8-5578a76eafce",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=665a2011-86c3-419a-aae8-5578a76eafce",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:665a2011-86c3-419a-aae8-5578a76eafce-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:665a2011-86c3-419a-aae8-5578a76eafce-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/665a2011-86c3-419a-aae8-5578a76eafce?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Reinigung PWC-Anlagen AM Kist BAB A3",
   "buyer": "Die Autobahn GmbH des Bundes - NL Nordbayern",
   "cpv": [
@@ -246,5 +246,52 @@
    }
   ]
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "665a2011-86c3-419a-aae8-5578a76eafce",
+  "version": "01",
+  "title": "Reinigung PWC-Anlagen AM Kist BAB A3",
+  "description": "Reinigung von 4 unbewirtschafteten Rastanlagen (Parkplatz mit WC) im Zuständigkeitsbereich der Autobahnmeisterei Kist entlang der Bundesautobahn A3",
+  "procedureType": "open",
+  "nuts": [
+   "DE26C"
+  ],
+  "cpv": [
+   "90911200",
+   "90900000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Reinigung PWC-Anlagen AM Kist BAB A3",
+    "description": "Abfallbeseitigung auf den Rastplätzen und den Tank- und Rastanlagen, sowie die Abfallentsorgung (Verwertung, Beseitigung) entlang der unter BAB-Betriebsstrecken im Bereich der Autobahn GmbH des Bundes, vertreten durch die Niederlassung Nordbayern, Außenstelle Würzburg.\n\nLieferung und Vorhaltung von Behältern unterschiedlicher Ausführungen für verschiedene Abfallarten sowie die Übernahme, den Transport und die fachgerechte Entsorgung dieser Abfälle aus dem Gehöft der Autobahnmeisterei, sowie \nRastplätze und der Strecke, einschließlich der dazugehörigen Nachweisverfahren",
+    "cpv": [
+     "90911200",
+     "90900000"
+    ],
+    "nuts": [
+     "DE26C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

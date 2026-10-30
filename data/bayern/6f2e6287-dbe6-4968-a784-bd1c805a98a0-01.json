@@ -1,0 +1,243 @@
+{
+ "id": "6f2e6287-dbe6-4968-a784-bd1c805a98a0-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "6f2e6287-dbe6-4968-a784-bd1c805a98a0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6f2e6287-dbe6-4968-a784-bd1c805a98a0",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:6f2e6287-dbe6-4968-a784-bd1c805a98a0-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:6f2e6287-dbe6-4968-a784-bd1c805a98a0-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6f2e6287-dbe6-4968-a784-bd1c805a98a0?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Nürnberg Hbf Sprinkleranlage Planung",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+  "cpv": [
+   "71240000"
+  ],
+  "nuts": [
+   "DE300",
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-34e94821-a504-4d29-b7dc-d7fd6172e2cd",
+  "id": "6f2e6287-dbe6-4968-a784-bd1c805a98a0",
+  "date": "2026-10-16T02:10:35Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)"
+    },
+    "address": {
+     "streetAddress": "Europaplatz 1",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "BIEGE Nürnberg Hbf c/o SSF Ingenieure AG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "e16ff3a4-90f6-4ff4-9bf8-948b2fb1564d",
+     "legalName": "BIEGE Nürnberg Hbf c/o SSF Ingenieure AG"
+    },
+    "address": {
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+   "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)"
+   },
+   "address": {
+    "streetAddress": "Europaplatz 1",
+    "locality": "Berlin",
+    "region": "DE300",
+    "postalCode": "10557",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "34e94821-a504-4d29-b7dc-d7fd6172e2cd",
+   "title": "Nürnberg Hbf Sprinkleranlage Planung",
+   "description": "Nürnberg Hbf Sprinkleranlage Planung",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+    "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71240000",
+      "description": "Architectural, engineering and planning services"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-05-12T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "BIEGE Nürnberg Hbf c/o SSF Ingenieure AG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "BIEGE Nürnberg Hbf c/o SSF Ingenieure AG"
+     },
+     "address": {
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "10435",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Nürnberg Hbf Sprinkleranlage Planung",
+     "description": "Nürnberg Hbf Sprinkleranlage Planung",
+     "contractPeriod": {
+      "startDate": "2026-05-29T00:00:00+02:00",
+      "endDate": "2026-10-15T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-05-27T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-05-26T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "6f2e6287-dbe6-4968-a784-bd1c805a98a0",
+  "version": "01",
+  "title": "Nürnberg Hbf Sprinkleranlage Planung",
+  "description": "Nürnberg Hbf Sprinkleranlage Planung",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "71240000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Nürnberg Hbf Sprinkleranlage Planung",
+    "description": "Nürnberg Hbf Sprinkleranlage Planung",
+    "cpv": [
+     "71240000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-05-29+02:00",
+    "plannedEnd": "2026-10-15+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis, 100%",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

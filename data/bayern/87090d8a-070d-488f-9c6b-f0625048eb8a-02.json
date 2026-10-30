@@ -1,0 +1,181 @@
+{
+ "id": "87090d8a-070d-488f-9c6b-f0625048eb8a-02",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "87090d8a-070d-488f-9c6b-f0625048eb8a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=87090d8a-070d-488f-9c6b-f0625048eb8a",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:87090d8a-070d-488f-9c6b-f0625048eb8a-02.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:87090d8a-070d-488f-9c6b-f0625048eb8a-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/87090d8a-070d-488f-9c6b-f0625048eb8a?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau Kinderklinikum /EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Kippcontainer",
+  "buyer": "Klinikum Nürnberg",
+  "cpv": [
+   "44610000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a8652a51-b077-45af-a3ec-927dd7d5078d",
+  "id": "87090d8a-070d-488f-9c6b-f0625048eb8a",
+  "date": "2026-10-23T02:10:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8783",
+     "legalName": "Klinikum Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c8f7a9e8-f25e-44ee-98e1-5651a966631d",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Nürnberg",
+   "id": "8783",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a8652a51-b077-45af-a3ec-927dd7d5078d",
+   "title": "Neubau Kinderklinikum /EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Kippcontainer",
+   "description": "Kippcontainer",
+   "procuringEntity": {
+    "name": "Klinikum Nürnberg",
+    "id": "8783"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "44610000",
+      "description": "Tanks, reservoirs, containers and pressure vessels"
+     },
+     "deliveryAddress": {
+      "region": "DE254",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Kinderklinikum /EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Kippcontainer",
+     "description": "Liefern und Aufstellen von 3 St. Kippcontainern"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "87090d8a-070d-488f-9c6b-f0625048eb8a",
+  "version": "02",
+  "title": "Neubau Kinderklinikum /EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Kippcontainer",
+  "description": "Kippcontainer",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "44610000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Kinderklinikum /EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Kippcontainer",
+    "description": "Liefern und Aufstellen von 3 St. Kippcontainern",
+    "cpv": [
+     "44610000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

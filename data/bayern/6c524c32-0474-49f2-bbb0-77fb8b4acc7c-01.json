@@ -1,0 +1,208 @@
+{
+ "id": "6c524c32-0474-49f2-bbb0-77fb8b4acc7c-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "6c524c32-0474-49f2-bbb0-77fb8b4acc7c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6c524c32-0474-49f2-bbb0-77fb8b4acc7c",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:6c524c32-0474-49f2-bbb0-77fb8b4acc7c-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:6c524c32-0474-49f2-bbb0-77fb8b4acc7c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6c524c32-0474-49f2-bbb0-77fb8b4acc7c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "GGSD wg. Lieferleistung technischer Geräte",
+  "buyer": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH",
+  "cpv": [
+   "30213200"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-23T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-90d58219-32cd-45d8-bf85-d7a33fb0e8f5",
+  "id": "6c524c32-0474-49f2-bbb0-77fb8b4acc7c",
+  "date": "2026-10-23T02:09:01Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE223237142",
+     "legalName": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH"
+    },
+    "address": {
+     "streetAddress": "Roritzerstr. 7",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:0981531277",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH",
+   "id": "DE223237142",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH"
+   },
+   "address": {
+    "streetAddress": "Roritzerstr. 7",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "90d58219-32cd-45d8-bf85-d7a33fb0e8f5",
+   "title": "GGSD wg. Lieferleistung technischer Geräte",
+   "description": "Lieferleistung von Tablets mit Stift und Tastatur",
+   "procuringEntity": {
+    "name": "Gemeinnützige Gesellschaft für soziale Dienste -DAA- mbH",
+    "id": "DE223237142"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30213200",
+      "description": "Tablet computer"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Roritzerstraße 7",
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90419",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YLVM1HS/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-23T02:09:01.940Z",
+     "rationale": "Der Erfüllungsort wurde korrigiert. Erfüllungsort ist die Roritzerstraße 7 in Nürnberg.",
+     "description": "Der Erfüllungsort wurde korrigiert. Erfüllungsort ist die Roritzerstraße 7 in Nürnberg.",
+     "amendsReleaseID": "179b5890-50f4-4d1c-b02f-af575e337b0b-01",
+     "releaseID": "6c524c32-0474-49f2-bbb0-77fb8b4acc7c-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "GGSD wg. Lieferleistung technischer Geräte",
+     "description": "siehe Leistungsverzeichnis"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6c524c32-0474-49f2-bbb0-77fb8b4acc7c",
+  "version": "01",
+  "title": "GGSD wg. Lieferleistung technischer Geräte",
+  "description": "Lieferleistung von Tablets mit Stift und Tastatur",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "30213200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "GGSD wg. Lieferleistung technischer Geräte",
+    "description": "siehe Leistungsverzeichnis",
+    "cpv": [
+     "30213200"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen.  Nachweis: Eigenerklärung  Mindestumsatz: 50.000,00 EUR"
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Die Bewerber müssen ihre Erfahrung mit den jeweiligen Lieferleistung 3 Referenzen vergleichbarer Projekte nachweisen. (Vertragsschluss nicht vor 2016!)"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Berufs-/Betriebshaftpflichtversicherung über 0,5 Mio EUR für Personenschäden und für Vermögensschäden. Nachweis einer gültigen Berufshaftpflichtversicherung (nicht älter als 6 Monate zum Einreichungstermin) bei einem in der EU zugelassenen Haftpflichtversicherer. Soweit die vorhandene Deckungssumme nicht ausreicht: Vorlage einer  Verpflichtungserklärung des Bewerbers, dass im Auftragsfall auf eigene  Kosten die Deckungssumme auf die vorgegebenen Beträge erhöht wird.  Bei Bietergemeinschaften muss sich der Versicherungsschutz in voller Höhe auf alle Mitglieder erstrecken. Der Nachweis zur Haftpflichtversicherung ist bei Bietergemeinschaften für jedes Mitglied in voller Höhe getrennt zu führen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich sind.   Mindestanforderungen: 1 Beschäftigter 1 Führungskraft"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

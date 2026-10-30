@@ -1,0 +1,204 @@
+{
+ "id": "eb49fcba-ef8d-4597-bbaa-0fc355ddb1b0-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "eb49fcba-ef8d-4597-bbaa-0fc355ddb1b0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=eb49fcba-ef8d-4597-bbaa-0fc355ddb1b0",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:eb49fcba-ef8d-4597-bbaa-0fc355ddb1b0-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:eb49fcba-ef8d-4597-bbaa-0fc355ddb1b0-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/eb49fcba-ef8d-4597-bbaa-0fc355ddb1b0?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "2 IBM Power11 Server für SAP S/HANA",
+  "buyer": "Bayerische Versorgungskammer",
+  "cpv": [
+   "48820000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-16T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7a3425f1-8b09-4e2f-9732-3d7409a642f2",
+  "id": "eb49fcba-ef8d-4597-bbaa-0fc355ddb1b0",
+  "date": "2026-10-18T04:32:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerische Versorgungskammer",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE240986226",
+     "legalName": "Bayerische Versorgungskammer"
+    },
+    "address": {
+     "streetAddress": "Arabellastraße 33",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81925",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerische Versorgungskammer",
+   "id": "DE240986226",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerische Versorgungskammer"
+   },
+   "address": {
+    "streetAddress": "Arabellastraße 33",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81925",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7a3425f1-8b09-4e2f-9732-3d7409a642f2",
+   "title": "2 IBM Power11 Server für SAP S/HANA",
+   "description": "Zur Erweiterung der bestehenden Systemlandschaft sollen 2 zusätzliche redundante IMB-Power11-Systeme für den Betrieb von SAP-S/HANA beschafft und eingesetzt werden.",
+   "procuringEntity": {
+    "name": "Bayerische Versorgungskammer",
+    "id": "DE240986226"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48820000",
+      "description": "Servers"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Arabellastr. 33",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81825",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y4KMWU3/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "2 IBM Power11 Server für SAP S/HANA",
+     "description": "Zur Erweiterung der bestehenden Systemlandschaft sollen 2 zusätzliche redundante IMB-Power11-Systeme für den Betrieb von SAP-S/HANA beschafft und eingesetzt werden.",
+     "contractPeriod": {
+      "durationInDays": 1825
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "eb49fcba-ef8d-4597-bbaa-0fc355ddb1b0",
+  "version": "01",
+  "title": "2 IBM Power11 Server für SAP S/HANA",
+  "description": "Zur Erweiterung der bestehenden Systemlandschaft sollen 2 zusätzliche redundante IMB-Power11-Systeme für den Betrieb von SAP-S/HANA beschafft und eingesetzt werden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48820000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "2 IBM Power11 Server für SAP S/HANA",
+    "description": "Zur Erweiterung der bestehenden Systemlandschaft sollen 2 zusätzliche redundante IMB-Power11-Systeme für den Betrieb von SAP-S/HANA beschafft und eingesetzt werden.",
+    "cpv": [
+     "48820000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-16T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 5,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Der Auftragnehmer weist eine Versicherung nach, die im Rahmen und Umfang einer marktüblichen deutschen Berufshaft- und Betriebshaftpflichtversicherung oder einer vergleichbaren Versicherung aus einem Mitgliedsstaat der EU entspricht."
+     },
+     {
+      "type": "slc-sche-env-cert-indep",
+      "description": "Ein ISMS muss gängigen Standards unterliegen.  Beispiele sind ISO/IEC 27001, BSI IT-Grundschutz, NIST 800-53. Der gültige Nachweis muss dem Auftraggeber in geeigneter Form mit dem Anforderungskatalog zur Verfügung gestellt wer-den."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Gesamtpreis",
+      "description": "Gesamtpreis aus 2 IBM Power11 Servern inkl. Herstellersupport mit einer Laufzeit von 5 Jahren",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

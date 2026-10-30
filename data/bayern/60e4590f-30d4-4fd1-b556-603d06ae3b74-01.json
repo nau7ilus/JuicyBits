@@ -216,6 +216,8 @@
   "noticeId": "60e4590f-30d4-4fd1-b556-603d06ae3b74",
   "version": "01",
   "title": "Big-Data-Analytics-Cluster - PR1133117-9940",
+  "description": "Big-Data-Analytics-Cluster",
+  "procedureType": "open",
   "nuts": [
    "DE122"
   ],
@@ -227,6 +229,7 @@
    {
     "id": "LOT-0000",
     "title": "Big-Data-Analytics-Cluster - PR1133117-9940",
+    "description": "Bereitstellung, Installation, Integration, Dokumentation und Inbetriebnahme von drei durch den Auftraggeber für vier Jahre nutzbaren GPU-beschleunigten Rechenknoten.\n\n4 Jahre Support",
     "cpv": [
      "30211300"
     ],
@@ -237,9 +240,31 @@
     "participationDeadline": null,
     "plannedStart": "2026-09-01+02:00",
     "plannedEnd": "2030-08-31+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Konzept",
+      "description": "Betreuungskonzept",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Lieferzeit",
+      "description": "Lieferzeit",
+      "weight": 35
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Gesamtpreis (Bereitstellung, Betrieb und Wartung)",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

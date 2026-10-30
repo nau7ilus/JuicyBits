@@ -154,6 +154,8 @@
   "noticeId": "b7054592-8a19-4cf4-bd2c-a1dbb904cdd7",
   "version": "01",
   "title": "NKJP_392_Gerüstbauarbeiten",
+  "description": "Ausführung von Gerüstbauarbeiten",
+  "procedureType": "open",
   "nuts": [
    "DE242"
   ],
@@ -166,6 +168,7 @@
    {
     "id": "LOT-0000",
     "title": "NKJP_392_Gerüstbauarbeiten",
+    "description": "Planung, Lieferung und Aufstellung von Fassadengerüsten zur Montage von Fenstern und hinterlüfteter Vorhangfassade ca. 6500m2, 2 Zahnstangenaufzüge, 9 Treppentürme, 7 Absetzplattformen",
     "cpv": [
      "45262100",
      "45262120"
@@ -177,6 +180,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-09+01:00",
     "plannedEnd": "2028-06-12+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -196,7 +200,16 @@
       "type": "slc-suit-reg-prof",
       "description": "- Registereintragungen - Angabe zur Mitgliedschaft\nbei der Berufsgenossenschaft"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

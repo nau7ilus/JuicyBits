@@ -1,0 +1,341 @@
+{
+ "id": "e744cec0-9179-4c3a-80c0-ee2a408f0f59-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "e744cec0-9179-4c3a-80c0-ee2a408f0f59",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e744cec0-9179-4c3a-80c0-ee2a408f0f59",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:e744cec0-9179-4c3a-80c0-ee2a408f0f59-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:e744cec0-9179-4c3a-80c0-ee2a408f0f59-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e744cec0-9179-4c3a-80c0-ee2a408f0f59?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Fenster- und Außentürarbeiten- rit",
+  "buyer": "Münchner Wohnen GmbH",
+  "cpv": [
+   "45000000",
+   "45421132",
+   "45421130",
+   "45421112",
+   "45421110",
+   "45421131"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fcb10f16-a24c-45a1-857c-5970912c85f0",
+  "id": "e744cec0-9179-4c3a-80c0-ee2a408f0f59",
+  "date": "2026-10-22T02:08:52Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schlichtungsstelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:008921762411",
+     "legalName": "Schlichtungsstelle"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   },
+   {
+    "name": "Münchner Wohnen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:0898776620",
+     "legalName": "Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Dienstleister Münchner Wohnen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "t:00898776620",
+     "legalName": "Dienstleister Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Franz-Vilsmeier-GmbH-&-Co.-KG",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "DE344124622",
+     "legalName": "Franz-Vilsmeier-GmbH-&-Co.-KG"
+    },
+    "address": {
+     "streetAddress": "Pirsting 5 / Postfach 1223",
+     "locality": "Eggenfelden",
+     "region": "DE22A",
+     "postalCode": "84307",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Münchner Wohnen GmbH",
+   "id": "t:0898776620",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Münchner Wohnen GmbH"
+   },
+   "address": {
+    "streetAddress": "Gustav-Heinemann- Ring 111",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fcb10f16-a24c-45a1-857c-5970912c85f0",
+   "title": "Fenster- und Außentürarbeiten- rit",
+   "description": "Fenster- und Außentürarbeiten für den Neubau an der Mars- und Klarastraße",
+   "procuringEntity": {
+    "name": "Münchner Wohnen GmbH",
+    "id": "t:0898776620"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421132",
+       "description": "Installation of windows"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421130",
+       "description": "Installation of doors and windows"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421112",
+       "description": "Installation of window frames"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421110",
+       "description": "Installation of door and window frames"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421131",
+       "description": "Installation of doors"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80335",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Franz-Vilsmeier-GmbH-&-Co.-KG",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Franz-Vilsmeier-GmbH-&-Co.-KG"
+     },
+     "address": {
+      "streetAddress": "Pirsting 5 / Postfach 1223",
+      "locality": "Eggenfelden",
+      "region": "DE22A",
+      "postalCode": "84307",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fenster- und Außentürarbeiten- rit",
+     "description": "Fenster- und Außentürarbeiten für den Neubau an der Mars- und Klarastraße",
+     "contractPeriod": {
+      "durationInDays": 268
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Fenster- und Außentürarbeiten- rit",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Franz-Vilsmeier-GmbH-&-Co.-KG",
+      "id": "DE344124622",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Franz-Vilsmeier-GmbH-&-Co.-KG"
+      },
+      "address": {
+       "streetAddress": "Pirsting 5 / Postfach 1223",
+       "locality": "Eggenfelden",
+       "region": "DE22A",
+       "postalCode": "84307",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Fenster- und Außentürarbeiten- rit",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e744cec0-9179-4c3a-80c0-ee2a408f0f59",
+  "version": "01",
+  "title": "Fenster- und Außentürarbeiten- rit",
+  "description": "Fenster- und Außentürarbeiten für den Neubau an der Mars- und Klarastraße",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45000000",
+   "45421132",
+   "45421130",
+   "45421112",
+   "45421110",
+   "45421131"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fenster- und Außentürarbeiten- rit",
+    "description": "Fenster- und Außentürarbeiten für den Neubau an der Mars- und Klarastraße",
+    "cpv": [
+     "45000000",
+     "45421132",
+     "45421130",
+     "45421112",
+     "45421110",
+     "45421131"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 268,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "100 % Gesamtpreis des Angebots",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

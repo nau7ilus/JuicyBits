@@ -1,0 +1,135 @@
+{
+ "id": "25959218-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25959218",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25959218",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25959218-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25959218-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25959218?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Rahmenvereinbarung Digitales Schließsystem",
+  "buyer": "Freistaat Bayern, vertreten durch die Universität Bayreuth",
+  "cpv": [
+   "44521120",
+   "45421100"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25959218",
+  "id": "25959218",
+  "date": "2026-10-22T07:01:51Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch die Universität Bayreuth",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Freistaat Bayern, vertreten durch die Universität Bayreuth"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch die Universität Bayreuth",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch die Universität Bayreuth"
+   }
+  },
+  "tender": {
+   "title": "Rahmenvereinbarung Digitales Schließsystem",
+   "description": "Die Universität Bayreuth beabsichtigt eine Rahmenvereinbarung über die in der Leistungsbeschreibung bezeichneten Bauleistungen für ein Digitales Schließsystem abzuschließen.\n\nRahmenvereinbarung Digitales Schließsystem",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch die Universität Bayreuth"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "44521120",
+      "description": "Electronic security lock"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421100",
+       "description": "Installation of doors and windows and related components"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "95447 Bayreuth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rahmenvereinbarung Digitales Schließsystem",
+     "description": "Die Universität Bayreuth beabsichtigt eine Rahmenvereinbarung über die in der Leistungsbeschreibung bezeichneten Bauleistungen für ein Digitales Schließsystem abzuschließen.\n\nRahmenvereinbarung Digitales Schließsystem"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25959218",
+  "version": "1",
+  "title": "Rahmenvereinbarung Digitales Schließsystem",
+  "description": "Die Universität Bayreuth beabsichtigt eine Rahmenvereinbarung über die in der Leistungsbeschreibung bezeichneten Bauleistungen für ein Digitales Schließsystem abzuschließen.\n\nRahmenvereinbarung Digitales Schließsystem",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "44521120",
+   "45421100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvereinbarung Digitales Schließsystem",
+    "description": "Die Universität Bayreuth beabsichtigt eine Rahmenvereinbarung über die in der Leistungsbeschreibung bezeichneten Bauleistungen für ein Digitales Schließsystem abzuschließen.\n\nRahmenvereinbarung Digitales Schließsystem",
+    "cpv": [
+     "44521120",
+     "45421100"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

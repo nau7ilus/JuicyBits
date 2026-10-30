@@ -1,0 +1,251 @@
+{
+ "id": "afb55346-e75c-432c-a119-8e1a9c7768f4-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "afb55346-e75c-432c-a119-8e1a9c7768f4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=afb55346-e75c-432c-a119-8e1a9c7768f4",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:afb55346-e75c-432c-a119-8e1a9c7768f4-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:afb55346-e75c-432c-a119-8e1a9c7768f4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/afb55346-e75c-432c-a119-8e1a9c7768f4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Fachplanung ELT",
+  "buyer": "Staatliches Bauamt Traunstein",
+  "cpv": [
+   "71334000"
+  ],
+  "nuts": [
+   "DE21M"
+  ],
+  "deadline": "2026-11-26T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fd796516-7796-40ba-aa62-9089a5ac0ac9",
+  "id": "afb55346-e75c-432c-a119-8e1a9c7768f4",
+  "date": "2026-10-27T03:12:15Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Traunstein",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0991604-67",
+     "legalName": "Staatliches Bauamt Traunstein"
+    },
+    "address": {
+     "streetAddress": "Rosenheimer Straße 7",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "evaluationBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Traunstein - Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:086157411",
+     "legalName": "Staatliches Bauamt Traunstein - Vergabestelle"
+    },
+    "address": {
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint",
+     "reviewContactPoint",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Traunstein",
+   "id": "09-0991604-67",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Traunstein"
+   },
+   "address": {
+    "streetAddress": "Rosenheimer Straße 7",
+    "locality": "Traunstein",
+    "region": "DE21M",
+    "postalCode": "83278",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fd796516-7796-40ba-aa62-9089a5ac0ac9",
+   "title": "Fachplanung ELT",
+   "description": "Maßnahmennummer: B16H E050020004\nMaßnahmenbezeichnung: LSH MQ Neubau und Sanierung Laborgebäude\nArt und Umfang der Leistung:\n- Fachplanung Elektrotechnik\n- HOAI Lesitungen\n- Leitungsphasen 2-9 Neues Labor (Neubau)\n- Leistungsphasen 2-8 Altes Labor (Sanierung)\n- Leistungsphase 2-9 Trafoumverlegung (vorab nur bis LPH2, nach Variantenvergleich Entscheidung über weitere Beauftragung bis Leistungsphase 9)",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Traunstein",
+    "id": "09-0991604-67"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71334000",
+      "description": "Mechanical and electrical engineering services"
+     },
+     "deliveryAddress": {
+      "locality": "Marquartstein",
+      "region": "DE21M",
+      "postalCode": "83250",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 504201.68,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304772",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-27T03:12:15.696Z",
+     "rationale": "Das Formblatt III.106.1 wurde geändert. Eine Mindestanforderung wurde reduziert.",
+     "description": "Das Formblatt III.106.1 wurde geändert. Eine Mindestanforderung wurde reduziert.",
+     "amendsReleaseID": "ac02096b-4702-4b87-9127-3c684babb800-01",
+     "releaseID": "afb55346-e75c-432c-a119-8e1a9c7768f4-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fachplanung ELT",
+     "description": "- Neubau und Sanierung Laborgebäaude\n- FBT-HOAI Leistungen\n- Leitungsphasen 2-9 Neues Labor (Neubau)\n- Leistungsphasen 2-8 Altes Labor (Sanierung)\n- Leistungsphase 2-9 Trafoumverlegung (vorab nur bis LPH2, nach Variantenvergleich Entscheidung über weitere Beauftragung bis Leistungsphase 9)",
+     "value": {
+      "amount": 504201.68,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2033-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "afb55346-e75c-432c-a119-8e1a9c7768f4",
+  "version": "01",
+  "title": "Fachplanung ELT",
+  "description": "Maßnahmennummer: B16H E050020004\nMaßnahmenbezeichnung: LSH MQ Neubau und Sanierung Laborgebäude\nArt und Umfang der Leistung:\n- Fachplanung Elektrotechnik\n- HOAI Lesitungen\n- Leitungsphasen 2-9 Neues Labor (Neubau)\n- Leistungsphasen 2-8 Altes Labor (Sanierung)\n- Leistungsphase 2-9 Trafoumverlegung (vorab nur bis LPH2, nach Variantenvergleich Entscheidung über weitere Beauftragung bis Leistungsphase 9)",
+  "procedureType": "open",
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "71334000"
+  ],
+  "estimatedValue": {
+   "amount": 504201.68,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fachplanung ELT",
+    "description": "- Neubau und Sanierung Laborgebäaude\n- FBT-HOAI Leistungen\n- Leitungsphasen 2-9 Neues Labor (Neubau)\n- Leistungsphasen 2-8 Altes Labor (Sanierung)\n- Leistungsphase 2-9 Trafoumverlegung (vorab nur bis LPH2, nach Variantenvergleich Entscheidung über weitere Beauftragung bis Leistungsphase 9)",
+    "cpv": [
+     "71334000"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2033-09-30+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 504201.68,
+     "currency": "EUR"
+    },
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise \nBescheinigungen sind in der Eigenerklärung (Formblatt \nIII.106.1) in den Vergabeunterlagen aufgelistet.  Hier \nfinden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind.\nIst der Bieter eine juristische Person, ist dieser nur dann \nteilnahmeberechtigt, wenn durch Erklärung des Bieters \nnachgewiesen wird, dass der verantwortliche \nBerufsangehörige, die an die natürliche Person gestellten \nAnforderungen erfüllt. Bieter oder verantwortliche \nBerufsangehörige juristischer Personen, die die \nentsprechende Berufsbezeichnung nach dem Recht eines \nanderen Mitgliedsstaates der Europäischen Union oder \neines Vertragsstaates des Abkommens über den \nEuropäischen Wirtschaftsraum tragen, erfüllen die \nfachlichen Voraussetzungen dann, \na) wenn sie sich dauerhaft im Bundesgebiet der \nBundesrepublik Deutschland niedergelassen haben und \nberechtigt sind, die deutschen Berufsbezeichnungen \nnach den einschlägigen deutschen Fachgesetzen \naufgrund einer Gleichstellung mit nach der Richtlinie \n2005/36/EG (geändert durch die Richtlinie 2013/55/EU) zu \ntragen oder \nb) wenn sie vorübergehend im Bundesgebiet tätig sind \nund ihre Dienstleistungserbringung nach Richtlinie \n2005/36/EG angezeigt haben."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung (Formblatt III.106.1) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien und die geforderten Nachweise \nBescheinigungen sind in der Eigenerklärung (Formblatt \nIII. 106.1) in den Vergabeunterlagen aufgelistet.  Hier \nfinden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind. \nBei Versicherungsverträgen mit Pauschaldeckungen (also \nohne Unterscheidung nach Sach- und Personenschäden) \nist eine Erklärung des Versicherungsunternehmens \nerforderlich, dass beide Schadenskategorien im \nAuftragsfall nebeneinander mit den geforderten \nDeckungssummen abgesichert sind."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Eignungskriterien und die geforderten Nachweise \nBescheinigungen sind in der Eigenerklärung (Formblatt \nIII. 106.1) in den Vergabeunterlagen aufgelistet.  Hier \nfinden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Als Sicherheit für die Vertragserfüllung, insbesondere \ndie vertragsgemäße Ausführung der \nLeistung einschließlich der Abrechnung, \nMängelansprüche und Schadensersatz, \nVertragsstrafen, Rückzahlung von Überzahlungen, \nAnsprüche auf vertragsgemäße Erbringung von \ngeänderten und zusätzlichen Leistungen und Ansprüche \nbei Nichtabführung von Beiträgen an die \nSozialversicherungsträger, behält der Auftraggeber \nvon jeder Zahlung jeweils 5 v.H. bis zu einer Höhe von 5  \nv.H. des tatsächlichen Gesamthonorars ein. Der \nAuftragnehmer kann stattdessen auch eine \nBankbürgschaft stellen. Die Bankbürgschaft ist als \nselbstschuldnerische Bürgschaft eines in der \nEuropäischen Gemeinschaft zugelassenen Kreditinstituts \noder Kreditversicherers unter Ausschluss der \nHinterlegung und unter Verzicht auf die Einrede der \nVorausklage, zudem ohne Befristung, auszustellen. \nEinbehalte bzw. Sicherheiten nach Satz 1 und 2 für \nLeistungen des Auftragnehmers aus den Leistungsstufen \n1 - 4 sind spätestens nach erfolgter Teilabnahme dieser \nLeistungen nach § 9 Nummer 9.1 Abs. 2, 1. oder 2. \nVariante, auszuzahlen bzw. zurückzugeben, soweit der \nAuftraggeber nicht zu diesem Zeitpunkt bereits \nAnsprüche in Bezug auf diese Leistungen geltend \ngemacht hat."
+    }
+   }
+  ]
+ }
+}

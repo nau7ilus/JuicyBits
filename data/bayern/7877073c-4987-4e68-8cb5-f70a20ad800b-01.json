@@ -1,0 +1,243 @@
+{
+ "id": "7877073c-4987-4e68-8cb5-f70a20ad800b-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "7877073c-4987-4e68-8cb5-f70a20ad800b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7877073c-4987-4e68-8cb5-f70a20ad800b",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:7877073c-4987-4e68-8cb5-f70a20ad800b-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:7877073c-4987-4e68-8cb5-f70a20ad800b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7877073c-4987-4e68-8cb5-f70a20ad800b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Malerarbeiten",
+  "buyer": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+  "cpv": [
+   "45442100"
+  ],
+  "nuts": [
+   "DE252",
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a527be42-2630-43f9-815d-511af98a7346",
+  "id": "7877073c-4987-4e68-8cb5-f70a20ad800b",
+  "date": "2026-10-25T10:26:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09113507199",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "SR Malereiunternehmen GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE228054499",
+     "legalName": "SR Malereiunternehmen GmbH"
+    },
+    "address": {
+     "streetAddress": "Hauptsmoorstr. 37",
+     "locality": "Strullendorf",
+     "region": "DE245",
+     "postalCode": "96129",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+   "id": "t:09113507199",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+   },
+   "address": {
+    "streetAddress": "Bohlenplatz 18",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91054",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a527be42-2630-43f9-815d-511af98a7346",
+   "title": "Malerarbeiten",
+   "description": "Im Rahmen dieser Leistungsbeschreibung sind folgende, in Abstimmung und Abhängigkeit zu anderen vor Ort tätigen Baufirmen, teilweise zeitlich gestaffelte Maler- und Lackierarbeiten an den Gebäuden D1, E und D3 vorgesehen (ca.-Angaben):\n575 m² Beschichtungen entfernen\n1.650 m² Kalkspachtel innen\n3.000 m² Überholungsbeschichtung innen\n1.310 m² Überholungsbeschichtungen außen\n3.960 m² Erstbeschicxhtungen innen\n320 m² Erstbeschichtungen außen\n340 m² Bodenbeschichtungen innen\n120 m² Beschichtung Holz-Fenster",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45442100",
+      "description": "Painting work"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90480",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-08-17T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SR Malereiunternehmen GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "SR Malereiunternehmen GmbH"
+     },
+     "address": {
+      "streetAddress": "Hauptsmoorstr. 37",
+      "locality": "Strullendorf",
+      "region": "DE245",
+      "postalCode": "96129",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Malerarbeiten",
+     "description": "Im Rahmen dieser Leistungsbeschreibung sind folgende, in Abstimmung und Abhängigkeit zu anderen vor Ort tätigen Baufirmen, teilweise zeitlich gestaffelte Maler- und Lackierarbeiten an den Gebäuden D1, E und D3 vorgesehen (ca.-Angaben):\n575 m² Beschichtungen entfernen\n1.650 m² Kalkspachtel innen\n3.000 m² Überholungsbeschichtung innen\n1.310 m² Überholungsbeschichtungen außen\n3.960 m² Erstbeschicxhtungen innen\n320 m² Erstbeschichtungen außen\n340 m² Bodenbeschichtungen innen\n120 m² Beschichtung Holz-Fenster",
+     "contractPeriod": {
+      "startDate": "2026-09-14T00:00:00+02:00",
+      "endDate": "2027-06-25T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Malerarbeiten",
+    "status": "active",
+    "date": "2026-08-17T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "SR Malereiunternehmen GmbH",
+      "id": "DE228054499",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "SR Malereiunternehmen GmbH"
+      },
+      "address": {
+       "streetAddress": "Hauptsmoorstr. 37",
+       "locality": "Strullendorf",
+       "region": "DE245",
+       "postalCode": "96129",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Malerarbeiten",
+    "status": "active",
+    "value": {
+     "amount": 104691,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-08-16T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "7877073c-4987-4e68-8cb5-f70a20ad800b",
+  "version": "01",
+  "title": "Malerarbeiten",
+  "description": "Im Rahmen dieser Leistungsbeschreibung sind folgende, in Abstimmung und Abhängigkeit zu anderen vor Ort tätigen Baufirmen, teilweise zeitlich gestaffelte Maler- und Lackierarbeiten an den Gebäuden D1, E und D3 vorgesehen (ca.-Angaben):\n575 m² Beschichtungen entfernen\n1.650 m² Kalkspachtel innen\n3.000 m² Überholungsbeschichtung innen\n1.310 m² Überholungsbeschichtungen außen\n3.960 m² Erstbeschicxhtungen innen\n320 m² Erstbeschichtungen außen\n340 m² Bodenbeschichtungen innen\n120 m² Beschichtung Holz-Fenster",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45442100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Malerarbeiten",
+    "description": "Im Rahmen dieser Leistungsbeschreibung sind folgende, in Abstimmung und Abhängigkeit zu anderen vor Ort tätigen Baufirmen, teilweise zeitlich gestaffelte Maler- und Lackierarbeiten an den Gebäuden D1, E und D3 vorgesehen (ca.-Angaben):\n575 m² Beschichtungen entfernen\n1.650 m² Kalkspachtel innen\n3.000 m² Überholungsbeschichtung innen\n1.310 m² Überholungsbeschichtungen außen\n3.960 m² Erstbeschicxhtungen innen\n320 m² Erstbeschichtungen außen\n340 m² Bodenbeschichtungen innen\n120 m² Beschichtung Holz-Fenster",
+    "cpv": [
+     "45442100"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-14+02:00",
+    "plannedEnd": "2027-06-25+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

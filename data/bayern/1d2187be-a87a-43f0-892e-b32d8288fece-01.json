@@ -1,0 +1,204 @@
+{
+ "id": "1d2187be-a87a-43f0-892e-b32d8288fece-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "1d2187be-a87a-43f0-892e-b32d8288fece",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1d2187be-a87a-43f0-892e-b32d8288fece",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:1d2187be-a87a-43f0-892e-b32d8288fece-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:1d2187be-a87a-43f0-892e-b32d8288fece-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1d2187be-a87a-43f0-892e-b32d8288fece?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Elektroarbeiten",
+  "buyer": "Caritas-Diakonie Schulträger gGmbH",
+  "cpv": [
+   "45311000"
+  ],
+  "nuts": [
+   "DE241",
+   "DE245"
+  ],
+  "deadline": "2026-11-26T14:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8c40de42-0da7-4a8f-aa7c-552fdddfad63",
+  "id": "1d2187be-a87a-43f0-892e-b32d8288fece",
+  "date": "2026-10-18T08:42:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Joseph-Stiftung",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRA9587",
+     "legalName": "Joseph-Stiftung"
+    },
+    "address": {
+     "streetAddress": "Hans-Birkmayr-Str. 65",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96050",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Anbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Caritas-Diakonie Schulträger gGmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB9423",
+     "legalName": "Caritas-Diakonie Schulträger gGmbH"
+    },
+    "address": {
+     "streetAddress": "Hainstr. 59",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Caritas-Diakonie Schulträger gGmbH",
+   "id": "HRB9423",
+   "identifier": {
+    "id": "ORG-0003",
+    "legalName": "Caritas-Diakonie Schulträger gGmbH"
+   },
+   "address": {
+    "streetAddress": "Hainstr. 59",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8c40de42-0da7-4a8f-aa7c-552fdddfad63",
+   "title": "Elektroarbeiten",
+   "description": "Seitenzahl LV komplett mit Vorbemerkungen: ca. 200 Mengen1StHauptverteilung4StStand-UnterverteilungenCa.300StEIB-TeilnehmerCa.1500mVerlegesysteme (Kanäle, Kabelrinnen, Rohre)Ca.21000mStarkstromleitungen allg.Ca.20000mSchwachstromleitungen allg.Ca.1000StInstallationsgeräte (Schalter, Steckdosen, etc..)Ca.250St. LeuchtenCa.70St. Sicherheitsleuchten/Rettungszeichenleuchten6St.Notlichtsysteme4St.Server/-Netzwerkschränke",
+   "procuringEntity": {
+    "name": "Caritas-Diakonie Schulträger gGmbH",
+    "id": "HRB9423"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311000",
+      "description": "Electrical wiring and fitting work"
+     },
+     "deliveryAddress": {
+      "locality": "Hallstadt",
+      "region": "DE245",
+      "postalCode": "96103",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331037",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Elektroarbeiten",
+     "description": "Seitenzahl LV komplett mit Vorbemerkungen: ca. 200 Mengen1StHauptverteilung4StStand-UnterverteilungenCa.300StEIB-TeilnehmerCa.1500mVerlegesysteme (Kanäle, Kabelrinnen, Rohre)Ca.21000mStarkstromleitungen allg.Ca.20000mSchwachstromleitungen allg.Ca.1000StInstallationsgeräte (Schalter, Steckdosen, etc..)Ca.250St. LeuchtenCa.70St. Sicherheitsleuchten/Rettungszeichenleuchten6St.Notlichtsysteme4St.Server/-Netzwerkschränke",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "1d2187be-a87a-43f0-892e-b32d8288fece",
+  "version": "01",
+  "title": "Elektroarbeiten",
+  "description": "Seitenzahl LV komplett mit Vorbemerkungen: ca. 200 Mengen1StHauptverteilung4StStand-UnterverteilungenCa.300StEIB-TeilnehmerCa.1500mVerlegesysteme (Kanäle, Kabelrinnen, Rohre)Ca.21000mStarkstromleitungen allg.Ca.20000mSchwachstromleitungen allg.Ca.1000StInstallationsgeräte (Schalter, Steckdosen, etc..)Ca.250St. LeuchtenCa.70St. Sicherheitsleuchten/Rettungszeichenleuchten6St.Notlichtsysteme4St.Server/-Netzwerkschränke",
+  "procedureType": "open",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "45311000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Elektroarbeiten",
+    "description": "Seitenzahl LV komplett mit Vorbemerkungen: ca. 200 Mengen1StHauptverteilung4StStand-UnterverteilungenCa.300StEIB-TeilnehmerCa.1500mVerlegesysteme (Kanäle, Kabelrinnen, Rohre)Ca.21000mStarkstromleitungen allg.Ca.20000mSchwachstromleitungen allg.Ca.1000StInstallationsgeräte (Schalter, Steckdosen, etc..)Ca.250St. LeuchtenCa.70St. Sicherheitsleuchten/Rettungszeichenleuchten6St.Notlichtsysteme4St.Server/-Netzwerkschränke",
+    "cpv": [
+     "45311000"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": "2026-11-26T14:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331037"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

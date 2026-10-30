@@ -1,0 +1,218 @@
+{
+ "id": "3df57a0b-d2b9-44cb-a5fc-507d360770e4-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "3df57a0b-d2b9-44cb-a5fc-507d360770e4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3df57a0b-d2b9-44cb-a5fc-507d360770e4",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:3df57a0b-d2b9-44cb-a5fc-507d360770e4-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:3df57a0b-d2b9-44cb-a5fc-507d360770e4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3df57a0b-d2b9-44cb-a5fc-507d360770e4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Integriertes 10-Qubit-Experimentiersystem",
+  "buyer": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+  "cpv": [
+   "38552000"
+  ],
+  "nuts": [
+   "DE252"
+  ],
+  "deadline": "2026-11-02T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0d5a1994-0dc5-44c6-beed-e6e7e44cd652",
+  "id": "3df57a0b-d2b9-44cb-a5fc-507d360770e4",
+  "date": "2026-10-18T10:16:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "a5ac48e0-7d24-40b2-afb5-584ce4684561",
+     "legalName": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Staudtstr. 7/B2",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91058",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "b46b483c-f9d4-48a5-a92d-7d9e778ebb2d",
+     "legalName": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Staudtstr. 7/B2",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91058",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+   "id": "a5ac48e0-7d24-40b2-afb5-584ce4684561",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Staudtstr. 7/B2",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91058",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0d5a1994-0dc5-44c6-beed-e6e7e44cd652",
+   "title": "Integriertes 10-Qubit-Experimentiersystem",
+   "description": "Gesucht wird ein Experimentiersystem für 10 miteinander gekoppelte supraleitende Qubits, die im Labor des Kunden in einen Tieftemperaturkryostaten eingebaut werden. Das gesuchte Gesamtsystem beinhaltet den Qubit-Chip, das Sample-Package für den Chip im Kryostaten, und eine auf den Chip maßgeschneiderte Kontrollektronik bei Raumtemperatur, die sämtliche notwendigen Komponenten enthält, die für Experimente gemäß dem \"state of the art\" erforderlich sind und in einem Rack integriert sind. ",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+    "id": "a5ac48e0-7d24-40b2-afb5-584ce4684561"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38552000",
+      "description": "Electronic meters"
+     },
+     "deliveryAddress": {
+      "locality": "Erlangen",
+      "region": "DE252",
+      "postalCode": "91058",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "procurementMethodRationale": "Das zu beschaffende 10-Qubit-Experimentiersystem wird im Rahmen eines Beschleunigerprojekts des Munich Quantum Valley (MQV) beschafft. Neben wissenschaftlichen Fragestellungen ist es Ziel dieses Beschleunigerprojekts, die experimentelle Infrastruktur am Lehrstuhl für Experimentalphysik derart zu ertüchtigen, dass das Labor zum Start der nächsten Projektphase des MQV direkt mit den dafür geplanten Forschungsarbeiten beginnen kann und keine Wartezeiten durch Upgrades der Labore entstehen. Da die nächste Phase des MQV nach derzeitigem Stand für Anfang 2027 terminiert ist, ist eine Verkürzung des Vergabeverfahrens erforderlich.",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/50e08667-ccef-4ce4-9e68-44f7f0c58707",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Integriertes 10-Qubit-Experimentiersystem",
+     "description": "Gesucht wird ein Experimentiersystem für 10 miteinander gekoppelte supraleitende Qubits, die im Labor des Kunden in einen Tieftemperaturkryostaten eingebaut werden. Das gesuchte Gesamtsystem beinhaltet den Qubit-Chip, das Sample-Package für den Chip im Kryostaten, und eine auf den Chip maßgeschneiderte Kontrollektronik bei Raumtemperatur, die sämtliche notwendigen Komponenten enthält, die für Experimente gemäß dem \"state of the art\" erforderlich sind und in einem Rack integriert sind. ",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2027-06-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "3df57a0b-d2b9-44cb-a5fc-507d360770e4",
+  "version": "01",
+  "title": "Integriertes 10-Qubit-Experimentiersystem",
+  "description": "Gesucht wird ein Experimentiersystem für 10 miteinander gekoppelte supraleitende Qubits, die im Labor des Kunden in einen Tieftemperaturkryostaten eingebaut werden. Das gesuchte Gesamtsystem beinhaltet den Qubit-Chip, das Sample-Package für den Chip im Kryostaten, und eine auf den Chip maßgeschneiderte Kontrollektronik bei Raumtemperatur, die sämtliche notwendigen Komponenten enthält, die für Experimente gemäß dem \"state of the art\" erforderlich sind und in einem Rack integriert sind.",
+  "procedureType": "open",
+  "nuts": [
+   "DE252"
+  ],
+  "cpv": [
+   "38552000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Integriertes 10-Qubit-Experimentiersystem",
+    "description": "Gesucht wird ein Experimentiersystem für 10 miteinander gekoppelte supraleitende Qubits, die im Labor des Kunden in einen Tieftemperaturkryostaten eingebaut werden. Das gesuchte Gesamtsystem beinhaltet den Qubit-Chip, das Sample-Package für den Chip im Kryostaten, und eine auf den Chip maßgeschneiderte Kontrollektronik bei Raumtemperatur, die sämtliche notwendigen Komponenten enthält, die für Experimente gemäß dem \"state of the art\" erforderlich sind und in einem Rack integriert sind.",
+    "cpv": [
+     "38552000"
+    ],
+    "nuts": [
+     "DE252"
+    ],
+    "deadline": "2026-11-02T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2027-06-01+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/50e08667-ccef-4ce4-9e68-44f7f0c58707/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/50e08667-ccef-4ce4-9e68-44f7f0c58707/awardcriteria",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "id": "b211d964-a181-4247-83dc-bd04dda054a0-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "b211d964-a181-4247-83dc-bd04dda054a0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b211d964-a181-4247-83dc-bd04dda054a0",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:b211d964-a181-4247-83dc-bd04dda054a0-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:b211d964-a181-4247-83dc-bd04dda054a0-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b211d964-a181-4247-83dc-bd04dda054a0?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Automatisiertes Multi-Platten-Lebendzell-Imaging-System",
+  "buyer": "Technische Universität München",
+  "cpv": [
+   "38510000",
+   "38515200"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-16T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-55399f9e-2d20-44e9-bd54-ab6ad7b28f12",
+  "id": "b211d964-a181-4247-83dc-bd04dda054a0",
+  "date": "2026-10-16T02:08:07Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Technische Universität München",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-1512011-61",
+     "legalName": "Technische Universität München"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Technische Universität München",
+   "id": "09-1512011-61",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Technische Universität München"
+   },
+   "address": {
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "55399f9e-2d20-44e9-bd54-ab6ad7b28f12",
+   "title": "Automatisiertes Multi-Platten-Lebendzell-Imaging-System",
+   "description": "Lieferung, Installation und Inbetriebnahme eines automatisierten Multi-Platten-Lebendzell-Imaging-Systems mit konfokaler und Weitfeld-Bildgebung sowie kontrollierter Inkubation.",
+   "procuringEntity": {
+    "name": "Technische Universität München",
+    "id": "09-1512011-61"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38510000",
+      "description": "Microscopes"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "38515200",
+       "description": "Fluorescent microscopes"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80802",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YK0M27H/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Automatisiertes Multi-Platten-Lebendzell-Imaging-System",
+     "description": "Beschafft wird eine gemeinsam genutzte Plattform für zelluläre und translationale Langzeitexperimente mit nukleinsäurebasierten Interventionen. Das System muss mindestens vier Mikrotiterplatten unbeaufsichtigt kultivieren (37 °C, 5 % CO2, Feuchte), automatisch transportieren und wiederholt im Spinning-Disk-Konfokal- und Weitfeld-Fluoreszenzmodus sowie markierungsfrei im Hellfeld abbilden. Zum Lieferumfang gehören Objektive von 4× bis 60× Wasserimmersion, ein reproduzierbarer Autofokus, eine Injektoreinheit für zeitgesteuerte Substanzzugabe sowie Software zur automatisierten Bildverarbeitung und quantitativen Analyse. Die Finanzierung erfolgt aus öffentlichen Forschungsmitteln.",
+     "contractPeriod": {
+      "durationInDays": 56
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b211d964-a181-4247-83dc-bd04dda054a0",
+  "version": "01",
+  "title": "Automatisiertes Multi-Platten-Lebendzell-Imaging-System",
+  "description": "Lieferung, Installation und Inbetriebnahme eines automatisierten Multi-Platten-Lebendzell-Imaging-Systems mit konfokaler und Weitfeld-Bildgebung sowie kontrollierter Inkubation.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "38510000",
+   "38515200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Automatisiertes Multi-Platten-Lebendzell-Imaging-System",
+    "description": "Beschafft wird eine gemeinsam genutzte Plattform für zelluläre und translationale Langzeitexperimente mit nukleinsäurebasierten Interventionen. Das System muss mindestens vier Mikrotiterplatten unbeaufsichtigt kultivieren (37 °C, 5 % CO2, Feuchte), automatisch transportieren und wiederholt im Spinning-Disk-Konfokal- und Weitfeld-Fluoreszenzmodus sowie markierungsfrei im Hellfeld abbilden. Zum Lieferumfang gehören Objektive von 4× bis 60× Wasserimmersion, ein reproduzierbarer Autofokus, eine Injektoreinheit für zeitgesteuerte Substanzzugabe sowie Software zur automatisierten Bildverarbeitung und quantitativen Analyse. Die Finanzierung erfolgt aus öffentlichen Forschungsmitteln.",
+    "cpv": [
+     "38510000",
+     "38515200"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-16T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 8,
+     "unit": "WEEK"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Eigenerklärung über den Gesamtumsatz des Bieters, jeweils der letzten drei (3) abgeschlossenen Geschäftsjahre, jeweils in EUR netto.  Bei Bietergemeinschaften sind die jeweiligen Gesamtumsätze der Mitglieder pro Geschäftsjahr zu addieren und die Summe ist je Geschäftsjahr unter Gesamtumsatz anzugeben."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Eigenerklärungen über mindestens zwei vergleichbare Referenzen des Bieters aus den letzten 3 abgeschlossenen Geschäftsjahren, jeweils mit Angabe der Leistung, des Leistungszeitraums, des Auftragswerts und des Auftraggebers (mit Ansprechpartner und Telefonnr.).  Maßstab für Vergleichbarkeit:   Vorliegen der Mindestanforderungen (M1 - M13), Leistungsbeschreibung (3_Leistungsbeschreibung)"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

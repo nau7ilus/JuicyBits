@@ -1,0 +1,124 @@
+{
+ "id": "25959468-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25959468",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25959468",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25959468-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25959468-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25959468?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Kehrmaschine",
+  "buyer": "Gemeinde Gräfelfing",
+  "cpv": [
+   "16700000-2 34100000-8"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-24T09:30:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25959468",
+  "id": "25959468",
+  "date": "2026-10-22T07:01:46Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Gräfelfing",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Gräfelfing"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Gräfelfing",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Gräfelfing"
+   }
+  },
+  "tender": {
+   "title": "Kehrmaschine",
+   "description": "Kehrmaschine",
+   "procuringEntity": {
+    "name": "Gemeinde Gräfelfing"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "16700000-2 34100000-8"
+     },
+     "deliveryAddress": {
+      "locality": "82166 Gräfelfing",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Kehrmaschine",
+     "description": "Kehrmaschine"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25959468",
+  "version": "1",
+  "title": "Kehrmaschine",
+  "description": "Kehrmaschine",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "16700000-2 34100000-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Kehrmaschine",
+    "description": "Kehrmaschine",
+    "cpv": [
+     "16700000-2 34100000-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-24T09:30:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

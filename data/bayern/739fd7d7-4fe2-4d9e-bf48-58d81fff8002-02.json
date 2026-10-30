@@ -1,0 +1,233 @@
+{
+ "id": "739fd7d7-4fe2-4d9e-bf48-58d81fff8002-02",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "739fd7d7-4fe2-4d9e-bf48-58d81fff8002",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=739fd7d7-4fe2-4d9e-bf48-58d81fff8002",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:739fd7d7-4fe2-4d9e-bf48-58d81fff8002-02.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:739fd7d7-4fe2-4d9e-bf48-58d81fff8002-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/739fd7d7-4fe2-4d9e-bf48-58d81fff8002?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "264_2 KIZBA2 - kbo Kinderzentrum München - 3210-01 Fassade",
+  "buyer": "kbo-Kinderzentrum München gemeinnützige GmbH",
+  "cpv": [
+   "45443000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f725f830-4de0-43f3-801b-365f79019c6f",
+  "id": "739fd7d7-4fe2-4d9e-bf48-58d81fff8002",
+  "date": "2026-10-25T12:58:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "kbo-Kinderzentrum München gemeinnützige GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10262",
+     "legalName": "kbo-Kinderzentrum München gemeinnützige GmbH"
+    },
+    "address": {
+     "streetAddress": "Heiglhofstraße 69",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81377",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "170e0cde-9fd8-40d5-a3d9-aeb58d337a35",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "S+T Fassadem GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE291482884",
+     "legalName": "S+T Fassadem GmbH"
+    },
+    "address": {
+     "locality": "Owingen",
+     "region": "DE147",
+     "postalCode": "88696",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "kbo-Kinderzentrum München gemeinnützige GmbH",
+   "id": "10262",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "kbo-Kinderzentrum München gemeinnützige GmbH"
+   },
+   "address": {
+    "streetAddress": "Heiglhofstraße 69",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81377",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f725f830-4de0-43f3-801b-365f79019c6f",
+   "title": "264_2 KIZBA2 - kbo Kinderzentrum München - 3210-01 Fassade",
+   "description": "kbo Kinderzentrum München - Erweiterung, Neustrukturierung, Integration, Behandlungseinheit f. Kinder u. Jugendpsychiatrie",
+   "procuringEntity": {
+    "name": "kbo-Kinderzentrum München gemeinnützige GmbH",
+    "id": "10262"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45443000",
+      "description": "Facade work"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "S+T Fassadem GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "S+T Fassadem GmbH"
+     },
+     "address": {
+      "locality": "Owingen",
+      "region": "DE147",
+      "postalCode": "88696",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "264_2 KIZBA2 - kbo Kinderzentrum München - 3210-01 Fassade",
+     "description": "2200\tm²\tWärmedämmung  für eine vorgehängte hinterlüftete Fassade, MW,  200mm\t\t\t\n2200\tm²\tAluminium-Unterkonstruktion für eine vorgehängte hinterlüftete Fassadenbekleidung\t\t\t\n1200\tm²\tFassadenbekleidung aus Holzelementen\t\t\t\n1000\tm²\tFassadenbekleidung aus Glasfaserbetonelementen\t\t\t\n3300\tm\tAluminiumlochblech, z.T.gekantet, Zuschnitte\t\t\t\n2500\tm\tAluminiumbleche eloxiert, mehrfach.gekantet, z.T. mehrteilig, verschiedene Zuschnitte\t\t\t\n400\tm\tSockelbleche, mehrfach.gekantet, verschiedene Zuschnitte\t\t\t\n285\tm²\tWetterschutzfassade"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-08-17T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1499315.85,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-08-16T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "739fd7d7-4fe2-4d9e-bf48-58d81fff8002",
+  "version": "02",
+  "title": "264_2 KIZBA2 - kbo Kinderzentrum München - 3210-01 Fassade",
+  "description": "kbo Kinderzentrum München - Erweiterung, Neustrukturierung, Integration, Behandlungseinheit f. Kinder u. Jugendpsychiatrie",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45443000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "264_2 KIZBA2 - kbo Kinderzentrum München - 3210-01 Fassade",
+    "description": "2200\tm²\tWärmedämmung  für eine vorgehängte hinterlüftete Fassade, MW,  200mm\t\t\t\n2200\tm²\tAluminium-Unterkonstruktion für eine vorgehängte hinterlüftete Fassadenbekleidung\t\t\t\n1200\tm²\tFassadenbekleidung aus Holzelementen\t\t\t\n1000\tm²\tFassadenbekleidung aus Glasfaserbetonelementen\t\t\t\n3300\tm\tAluminiumlochblech, z.T.gekantet, Zuschnitte\t\t\t\n2500\tm\tAluminiumbleche eloxiert, mehrfach.gekantet, z.T. mehrteilig, verschiedene Zuschnitte\t\t\t\n400\tm\tSockelbleche, mehrfach.gekantet, verschiedene Zuschnitte\t\t\t\n285\tm²\tWetterschutzfassade",
+    "cpv": [
+     "45443000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": ".",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

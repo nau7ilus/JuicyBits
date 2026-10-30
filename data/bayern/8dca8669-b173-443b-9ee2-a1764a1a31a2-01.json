@@ -1,0 +1,366 @@
+{
+ "id": "8dca8669-b173-443b-9ee2-a1764a1a31a2-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "8dca8669-b173-443b-9ee2-a1764a1a31a2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8dca8669-b173-443b-9ee2-a1764a1a31a2",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:8dca8669-b173-443b-9ee2-a1764a1a31a2-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:8dca8669-b173-443b-9ee2-a1764a1a31a2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8dca8669-b173-443b-9ee2-a1764a1a31a2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen",
+  "buyer": "Gemeinde Oy-Mittelberg",
+  "cpv": [
+   "34144213",
+   "35110000",
+   "34139000",
+   "34144210",
+   "35111200",
+   "44482100"
+  ],
+  "nuts": [
+   "DE27E"
+  ],
+  "deadline": "2026-11-30T11:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a9cdcc4d-c06a-4118-975b-3fc304ec89c4",
+  "id": "8dca8669-b173-443b-9ee2-a1764a1a31a2",
+  "date": "2026-10-18T10:42:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Oy-Mittelberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09780128-RATHAUSOY1596-46",
+     "legalName": "Gemeinde Oy-Mittelberg"
+    },
+    "address": {
+     "streetAddress": "Hauptstr. 12",
+     "locality": "Oy-Mittelberg",
+     "region": "DE27E",
+     "postalCode": "87466",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Landesbaudirektion Bayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0991703-61",
+     "legalName": "Landesbaudirektion Bayern"
+    },
+    "address": {
+     "streetAddress": "Sophienstraße 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "8033",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Oy-Mittelberg",
+   "id": "09780128-RATHAUSOY1596-46",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Oy-Mittelberg"
+   },
+   "address": {
+    "streetAddress": "Hauptstr. 12",
+    "locality": "Oy-Mittelberg",
+    "region": "DE27E",
+    "postalCode": "87466",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a9cdcc4d-c06a-4118-975b-3fc304ec89c4",
+   "title": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen",
+   "description": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen (Fahrgestell, Fahrzeugaufbau und Beladung)",
+   "procuringEntity": {
+    "name": "Gemeinde Oy-Mittelberg",
+    "id": "09780128-RATHAUSOY1596-46"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "35110000",
+       "description": "Firefighting, rescue and safety equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34139000",
+       "description": "Chassis"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE27E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "35110000",
+       "description": "Firefighting, rescue and safety equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE27E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35110000",
+      "description": "Firefighting, rescue and safety equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "35111200",
+       "description": "Firefighting materials"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34144210",
+       "description": "Firefighting vehicles"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44482100",
+       "description": "Fire hoses"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE27E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331105",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331105",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331105",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "LOS 1 - Fahrgestell",
+     "description": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen, LOS 1 - Fahrgestell",
+     "contractPeriod": {
+      "durationInDays": 300
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "LOS 2 - Fahrzeugaufbau",
+     "description": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen, LOS 2 - Fahrzeugaufbau",
+     "contractPeriod": {
+      "durationInDays": 425
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "LOS 3 - Beladung",
+     "description": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen, LOS 3 - Beladung",
+     "contractPeriod": {
+      "durationInDays": 365
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "8dca8669-b173-443b-9ee2-a1764a1a31a2",
+  "version": "01",
+  "title": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen",
+  "description": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen (Fahrgestell, Fahrzeugaufbau und Beladung)",
+  "procedureType": "open",
+  "nuts": [
+   "DE27E"
+  ],
+  "cpv": [
+   "34144213",
+   "35110000",
+   "34139000",
+   "34144210",
+   "35111200",
+   "44482100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "LOS 1 - Fahrgestell",
+    "description": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen, LOS 1 - Fahrgestell",
+    "cpv": [
+     "34144213",
+     "35110000",
+     "34139000"
+    ],
+    "nuts": [
+     "DE27E"
+    ],
+    "deadline": "2026-11-30T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 300,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "LOS 2 - Fahrzeugaufbau",
+    "description": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen, LOS 2 - Fahrzeugaufbau",
+    "cpv": [
+     "34144210",
+     "35110000"
+    ],
+    "nuts": [
+     "DE27E"
+    ],
+    "deadline": "2026-11-30T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 425,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "LOS 3 - Beladung",
+    "description": "Beschaffung eines Tragkraftspritzenfahrzeug Logistik für die Feuerwehr Maria Rain in drei Losen, LOS 3 - Beladung",
+    "cpv": [
+     "35110000",
+     "35111200",
+     "34144210",
+     "44482100"
+    ],
+    "nuts": [
+     "DE27E"
+    ],
+    "deadline": "2026-11-30T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 365,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

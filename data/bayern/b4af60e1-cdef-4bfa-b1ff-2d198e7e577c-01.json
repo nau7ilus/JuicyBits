@@ -1,0 +1,328 @@
+{
+ "id": "b4af60e1-cdef-4bfa-b1ff-2d198e7e577c-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "b4af60e1-cdef-4bfa-b1ff-2d198e7e577c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b4af60e1-cdef-4bfa-b1ff-2d198e7e577c",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:b4af60e1-cdef-4bfa-b1ff-2d198e7e577c-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:b4af60e1-cdef-4bfa-b1ff-2d198e7e577c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b4af60e1-cdef-4bfa-b1ff-2d198e7e577c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Gebäudereinigung Wackersberger Str. 61",
+  "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+  "cpv": [
+   "90911200",
+   "90911300"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-12-01T23:59:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-812eb593-0949-4d77-8326-57649168f945",
+  "id": "b4af60e1-cdef-4bfa-b1ff-2d198e7e577c",
+  "date": "2026-10-22T02:08:56Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1"
+    },
+    "address": {
+     "streetAddress": "Balanstraße 59",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81541",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "Ust-ID DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+   "id": "Leitweg-ID 09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1"
+   },
+   "address": {
+    "streetAddress": "Balanstraße 59",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81541",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "812eb593-0949-4d77-8326-57649168f945",
+   "title": "Gebäudereinigung Wackersberger Str. 61",
+   "description": "Gebäudereinigung Wackersberger Str. 61 und weitere Objekte",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+    "id": "Leitweg-ID 09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Wackersberger Str. 61",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81371",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911300",
+      "description": "Window-cleaning services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Wackersberger Str. 61",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81371",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a0d7d93bd7-54fffedfb48d7321",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a0d7d93bd7-54fffedfb48d7321",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Unterhaltsreinigung und Grundreinigung",
+     "description": "Unterhaltreinigung in folgenden städtischen Objekten:\nObjekt A: Wackersberger Str. 61; Dante-Gymnasium\nObjekt B: Wackersberger Str. 59; Klenze-Gymnasium\nObjekt C: Wackersberger Str. 59 + 61; Mensa Klenze- und Dante-Gymnasium\nObjekt D: Implerstr. 69; Tageskindertreff\nObjekt E: Demleitnerstr. 2; Bezirkssportanlage\nD-81371 München\n\nReinigungsfläche Boden: ca. 25.100 m²",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2031-02-28T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Glasreinigung",
+     "description": "Glasreinigung in folgenden städtischen Objekten:\nObjekt A: Wackersberger Str. 61; Dante-Gymnasium\nObjekt B: Wackersberger Str. 59; Klenze-Gymnasium\nObjekt C: Wackersberger Str. 59 + 61; Mensa Klenze- und Dante-Gymnasium\nObjekt D: Implerstr. 69; Tageskindertreff\nObjekt E: Demleitnerstr. 2; Bezirkssportanlage\nD-81371 München\n\nReinigungsfläche Glas: ca. 6.950 m²",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2031-02-28T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b4af60e1-cdef-4bfa-b1ff-2d198e7e577c",
+  "version": "01",
+  "title": "Gebäudereinigung Wackersberger Str. 61",
+  "description": "Gebäudereinigung Wackersberger Str. 61 und weitere Objekte",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "90911200",
+   "90911300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Unterhaltsreinigung und Grundreinigung",
+    "description": "Unterhaltreinigung in folgenden städtischen Objekten:\nObjekt A: Wackersberger Str. 61; Dante-Gymnasium\nObjekt B: Wackersberger Str. 59; Klenze-Gymnasium\nObjekt C: Wackersberger Str. 59 + 61; Mensa Klenze- und Dante-Gymnasium\nObjekt D: Implerstr. 69; Tageskindertreff\nObjekt E: Demleitnerstr. 2; Bezirkssportanlage\nD-81371 München\n\nReinigungsfläche Boden: ca. 25.100 m²",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2031-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Verweildauer UHR im Objekt A",
+      "description": "Stunden UHR im Objekt A",
+      "weight": 16
+     },
+     {
+      "type": "quality",
+      "name": "Verweildauer UHR im Objekt B",
+      "description": "Stunden UHR im Objekt B",
+      "weight": 24
+     },
+     {
+      "type": "quality",
+      "name": "Verweildauer UHR im Objekt C",
+      "description": "Stunden UHR im Objekt C",
+      "weight": 2
+     },
+     {
+      "type": "quality",
+      "name": "Verweildauer UHR im Objekt D",
+      "description": "Stunden UHR im Objekt D",
+      "weight": 1
+     },
+     {
+      "type": "quality",
+      "name": "Verweildauer UHR im Objekt E",
+      "description": "Stunden UHR im Objekt E",
+      "weight": 2
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 55
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Glasreinigung",
+    "description": "Glasreinigung in folgenden städtischen Objekten:\nObjekt A: Wackersberger Str. 61; Dante-Gymnasium\nObjekt B: Wackersberger Str. 59; Klenze-Gymnasium\nObjekt C: Wackersberger Str. 59 + 61; Mensa Klenze- und Dante-Gymnasium\nObjekt D: Implerstr. 69; Tageskindertreff\nObjekt E: Demleitnerstr. 2; Bezirkssportanlage\nD-81371 München\n\nReinigungsfläche Glas: ca. 6.950 m²",
+    "cpv": [
+     "90911300"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2031-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\n\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-1a0d7d93bd7-54fffedfb48d7321"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

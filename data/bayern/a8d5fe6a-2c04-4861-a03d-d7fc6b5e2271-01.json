@@ -5,14 +5,14 @@
   "noticeId": "a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "SV-KWE-261023-002 - TW - Batteriespeicher Zengermoos - Errichtung Batteriespeicher Zengermoos",
   "buyer": "Stadtwerke München GmbH",
   "cpv": [
@@ -144,5 +144,77 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271",
+  "version": "01",
+  "title": "SV-KWE-261023-002 - TW - Batteriespeicher Zengermoos - Errichtung Batteriespeicher Zengermoos",
+  "description": "TW - Batteriespeicher Zengermoos - Errichtung Batteriespeicher Zengermoos",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45311000",
+   "31430000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "SV-KWE-261023-002 - TW - Batteriespeicher Zengermoos - Errichtung Batteriespeicher Zengermoos",
+    "description": "Gegenstand dieser Ausschreibung ist die schlüsselfertige Planung, Lieferung, Errichtung, Integration, Inbetriebsetzung und Dokumentation von zwei netzgekoppelten Batteriespeichersystemen (BESS-Anlage) an 2 bestehenden Photovoltaikanlagen (PV-Anlagen) des Auftraggebers. \nDie Batteriespeicher werden als Grünstromspeicher (Co-Location) mit den vorhandenen PV-Anlagen errichtet. Eine Beladung der Batteriespeicher aus dem öffentlichen Netz ist im Grundausbau nicht vorgesehen. Die Schaffung einer zukünftigen Erweiterungsmöglichkeit für netzbildende Funktionen nach aktuellen FNN-Hinweise bzw. “Graustromspeicher-Betrieb” soll jedoch gegeben sein.\nDie Batteriespeicher sind elektrisch in die bestehenden PV-Anlagen zu integrieren und gemeinsam mit diesen über die bestehenden Netzanschlusspunkte am Umspannwerk des Netzbetreibers Bayernwerk zu betreiben.\nDie bestehenden PV-Anlagen einschließlich Netzanschluss, Mittelspannungsinfrastruktur, Parkregelung, EZA-Regler, Fernwirktechnik, Anlagenzertifizierung sind weiter zu verwenden und durch den Auftragnehmer entsprechend zu erweitern.\nDer Auftragnehmer schuldet einen vollständig funktionsfähigen, betriebsbereiten und zertifizierungsfähigen Gesamtanlagenzustand (PV+BESS-Anlage) einschließlich sämtlicher hierfür erforderlicher technischer, planerischer und administrativer Leistungen.\nNach der vollständigen Errichtung und Abnahme der BESS-Anlage wird der AN die Vollwartung (Servicetätigkeiten zur Wartung, Inspektionen, Entstörung bzw. Instandsetzung und Ersatzteilmanagement inkl. Garantien) für die BESS-Anlage durchführen.",
+    "cpv": [
+     "45311000",
+     "31430000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-26T10:00:00+01:00",
+    "plannedStart": "2027-07-01+02:00",
+    "plannedEnd": "2028-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "- Nachweis über eine Eintragung in das Berufs- oder Handelsregister des Sitzes oder Wohnsitzes des Unternehmens."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "- Erklärung des Unternehmens, dass die gewerberechtlichen Voraussetzungen für die Ausführung der ausgeschriebenen Leistung erfüllt sind.\n- Erklärung des Unternehmens, dass die gesetzliche Verpflichtung zur Zahlung der Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt ist.\n- Erklärung des Unternehmens, ob das Unternehmen Mitglied bei der Berufsgenossenschaft ist und die Verpflichtung zur Zahlung der Beiträge an die Berufsgenossenschaft/gesetzliche Unfallversicherung ordnungsgemäß erfüllt ist.\n- Erklärung des Unternehmens, dass über dessen Vermögen kein Insolvenzverfahren oder vergleichbar gesetzliches Verfahren eröffnet oder die Eröffnung beantragt oder der Antrag mangels Masse abgelehnt worden ist.\n- Erklärung des Unternehmens, dass sich das Unternehmen nicht in Liquidation befindet."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "- Gesamtumsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "- Umsatzanteile des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Referenzen über die abgeschlossene (= fertiggestellte) Ausführung von Leistungen, die mit der zu vergebenden Leistung vergleichbar sind und deren Fertigstellungszeitpunkt (= Abnahme) im aktuellen Jahr, vor dem Zeitpunkt der Bekanntmachung, oder in den letzten drei vorhergehenden Kalenderjahren liegt. Zu den Referenzen sind folgende Angaben erforderlich: Auftraggeber, Ansprechpartner des AG mit Telefonnummer und E-Mail-Adresse, Ort der Ausführung, Vertragsverhältnis, Beschreibung mit Art und Umfang der erbrachten Leistung, Ausführungszeitraum und Auftragswert (netto) pro Jahr. Es können maximal 5 geeignete Referenzen näher beschrieben werden.\nSpezielle Anforderungen an die Referenzen:\nMindestens eine abgeschlossene (=abgenommene) BESS-Anlage in den letzten 3 Jahren als EPC-Leistung (schlüsselfertige Anlage) mit einer Leistung von mindestens 5 MW und einer Kapazität von mindestens 10 MWh.\nMindestens eine Referenz zur Vollwartung von BESS-Anlagen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Personelle Ausstattung: Zahl der im Unternehmen in den letzten drei abgeschlossenen Geschäftsjahren jahres-durchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Qualifikationen (Ausbildung, Fachrichtung) mit extra ausgewiesenem technischen Leitungspersonal"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Auftragsspezifische Erklärungen und Nachweise: \n- EPC-Leistung: Angabe von Leistung & Kapazität sowie des Netzbetreibers bei den genannten Referenzen. Hersteller/Komponententyp sowie dazugehörige Datenblätter der Hauptkomponenten (BESS-Container, SPS, Trafostation und EMS) der genannten Referenzen.\nNachweis über Qualitätsmanagement (Factory Audit, unabhängige Begutachtung sowie unabhängige Begutachtung Factory Acceptance Test) bei mindestens einer genannten Referenz.\n\n- Vollwartung: Garantiebedingungen zur Anlagenverfügbarkeit & Round Trip Efficency der Referenz.\n     \n- Nennung und Nachweis für den Fall der Eignungsleihe durch die Kapazitäten anderer Unternehmen"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": true,
+     "description": "gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
 }

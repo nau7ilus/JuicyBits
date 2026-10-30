@@ -1,0 +1,210 @@
+{
+ "id": "e78b8865-4f30-4723-9f60-79ca6f851019-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "e78b8865-4f30-4723-9f60-79ca6f851019",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e78b8865-4f30-4723-9f60-79ca6f851019",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:e78b8865-4f30-4723-9f60-79ca6f851019-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:e78b8865-4f30-4723-9f60-79ca6f851019-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e78b8865-4f30-4723-9f60-79ca6f851019?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Landschaftsbauarbeiten BA2.2 Wirtschaftshof",
+  "buyer": "Berufsförderungswerk München gemeinnützige GmbH",
+  "cpv": [
+   "45112700"
+  ],
+  "nuts": [
+   "DE218"
+  ],
+  "deadline": "2026-10-28T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-77e04d42-cf55-4263-b983-c527fdc5d130",
+  "id": "e78b8865-4f30-4723-9f60-79ca6f851019",
+  "date": "2026-10-21T02:08:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Berufsförderungswerk München gemeinnützige GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE131169960",
+     "legalName": "Berufsförderungswerk München gemeinnützige GmbH"
+    },
+    "address": {
+     "streetAddress": "Moosacher Str. 31",
+     "locality": "Kirchseeon",
+     "region": "DE218",
+     "postalCode": "85614",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Berufsförderungswerk München gemeinnützige GmbH",
+   "id": "DE131169960",
+   "identifier": {
+    "id": "ORG-0013",
+    "legalName": "Berufsförderungswerk München gemeinnützige GmbH"
+   },
+   "address": {
+    "streetAddress": "Moosacher Str. 31",
+    "locality": "Kirchseeon",
+    "region": "DE218",
+    "postalCode": "85614",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "77e04d42-cf55-4263-b983-c527fdc5d130",
+   "title": "Landschaftsbauarbeiten BA2.2 Wirtschaftshof",
+   "description": "Leitungsgräben: ca. 500m\nEntwässerungsrinnen: ca. 180m\nBeton-Leistenstein: ca. 90m\nMauerwinkel 55/40: 25 St.\nBetonsteinpflaster: ca. 100m2\nBetontragschicht (in Teilbereich als Dichtfläche): ca. 500m2\nAsphalttragschicht: ca. 2.800m2\nSolitärgehölze pflanzen: 25St.\nBodendecker- und Staudenpflanzung: ca. 500m2\nAusstattungsgegenstände einbauen: ca. 10St.\nBeton-Sitzmauer einbauen: ca. 12m (in Teilabschnitten)",
+   "procuringEntity": {
+    "name": "Berufsförderungswerk München gemeinnützige GmbH",
+    "id": "DE131169960"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112700",
+      "description": "Landscaping work"
+     },
+     "deliveryAddress": {
+      "locality": "Kirchseeon",
+      "region": "DE218",
+      "postalCode": "85614",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/3/tenderId/157598",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-21T02:08:17.441Z",
+     "rationale": "Terminänderungen",
+     "description": "Anpassung Ausführungsfristen, Ergänzung vertragliche Zwischenfrist, Verlängerung Abgabefrist und Anpassung Ausführungsfristen",
+     "amendsReleaseID": "41ac9a24-8b8e-4826-8028-1c65c41900b3-01",
+     "releaseID": "e78b8865-4f30-4723-9f60-79ca6f851019-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Landschaftsbauarbeiten BA2.2 Wirtschaftshof",
+     "description": "Leitungsgräben: ca. 500m\nEntwässerungsrinnen: ca. 180m\nBeton-Leistenstein: ca. 90m\nMauerwinkel 55/40: 25 St.\nBetonsteinpflaster: ca. 100m2\nBetontragschicht (in Teilbereich als Dichtfläche): ca. 500m2\nAsphalttragschicht: ca. 2.800m2\nSolitärgehölze pflanzen: 25St.\nBodendecker- und Staudenpflanzung: ca. 500m2\nAusstattungsgegenstände einbauen: ca. 10St.\nBeton-Sitzmauer einbauen: ca. 12m (in Teilabschnitten)",
+     "contractPeriod": {
+      "durationInDays": 139
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "e78b8865-4f30-4723-9f60-79ca6f851019",
+  "version": "01",
+  "title": "Landschaftsbauarbeiten BA2.2 Wirtschaftshof",
+  "description": "Leitungsgräben: ca. 500m\nEntwässerungsrinnen: ca. 180m\nBeton-Leistenstein: ca. 90m\nMauerwinkel 55/40: 25 St.\nBetonsteinpflaster: ca. 100m2\nBetontragschicht (in Teilbereich als Dichtfläche): ca. 500m2\nAsphalttragschicht: ca. 2.800m2\nSolitärgehölze pflanzen: 25St.\nBodendecker- und Staudenpflanzung: ca. 500m2\nAusstattungsgegenstände einbauen: ca. 10St.\nBeton-Sitzmauer einbauen: ca. 12m (in Teilabschnitten)",
+  "procedureType": "open",
+  "nuts": [
+   "DE218"
+  ],
+  "cpv": [
+   "45112700"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Landschaftsbauarbeiten BA2.2 Wirtschaftshof",
+    "description": "Leitungsgräben: ca. 500m\nEntwässerungsrinnen: ca. 180m\nBeton-Leistenstein: ca. 90m\nMauerwinkel 55/40: 25 St.\nBetonsteinpflaster: ca. 100m2\nBetontragschicht (in Teilbereich als Dichtfläche): ca. 500m2\nAsphalttragschicht: ca. 2.800m2\nSolitärgehölze pflanzen: 25St.\nBodendecker- und Staudenpflanzung: ca. 500m2\nAusstattungsgegenstände einbauen: ca. 10St.\nBeton-Sitzmauer einbauen: ca. 12m (in Teilabschnitten)",
+    "cpv": [
+     "45112700"
+    ],
+    "nuts": [
+     "DE218"
+    ],
+    "deadline": "2026-10-28T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 139,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "a) Erklärung über die Eintragung des Unternehmens in das Berufs- oder Handelsregister oder in die Handwerksrolle des Unternehmens- oder Wohnsitzes;\nb) Erklärung, dass nachweislich keine schweren Verfehlungen begangen wurden, die die Zuverlässigkeit des Unternehmens in Frage stellen.\nMit dem Angebot ist der Nachweis zu erbringen entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE).\nc) Erklärung, dass das Unternehmen nicht unter die EU-Sanktionen gegen Russland laut Verordnung (EU) 2022/576 d fällt.\n\nAuf Verlangen des Auftraggebers sind zur Bestätigung der Eigenerklärung innerhalb von 6 Kalendertagen vorzulegen:\na) Gewerbeanmeldung, Handelsregisterauszug, Eintragung in der Handwerksrolle bzw. bei der Industrie- und Handelskammer.\nAb einer Auftragssumme von 30 000 EUR wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister beim Bundeskartellamt anfordern.\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "a) Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten 3 abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen;\nb) Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet;\nc) Falls zutreffend, Erklärung, dass ein Insolvenzplan rechtskräftig bestätigt wurde;\nd) Erklärung, dass das Unternehmen seine Verpflichtung zur Zahlung von Steuern und Abgaben so wieder Beiträge zur gesetzlichen Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt hat;\ne) Erklärung, dass das Unternehmen Mitglied der Berufsgenossenschaft ist.\nMit dem Angebot sind die Nachweise zu erbringen entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE).\n\nAuf Verlangen des Auftraggebers sind zur Bestätigung der Eigenerklärungen innerhalb von 6 Kalendertagen vorzulegen:\na) Bestätigung eines vereidigten Wirtschaftsprüfers/ Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen;\nb) Falls zutreffend, rechtskräftig bestätigter Insolvenzplan;\nc) Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse (soweit das Unternehmen beitragspflichtig ist), Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen (soweit das Finanzamt derartige Bescheinigungen ausstellt) sowie eine Freistellungsbescheinigung nach § 48b EStG;\nd) Qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für das Unternehmen zuständigen Versicherungsträgers mit Angabe der Lohnsummen.\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "a) Erklärung, dass das Unternehmen in den letzten bis zu 5 abgeschlossenen Kalenderjahren Leistungen ausgeführt hat, die mit der zu vergebenden Leistung nach Art und Umfang vergleichbar sind;\nb) Erklärung, dass dem Unternehmen die für die Ausführung der Leistung erforderlichen Arbeitskräfte zur Verfügung stehen.\nMit dem Angebot sind die Nachweise zu erbringen entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE).\n\nAuf Verlangen des Auftraggebers sind zur Bestätigung der Eigenerklärungen innerhalb von 6 Kalendertagen vorzulegen:\na) mind. 3 Referenzen über die Ausführung von Leistungen in den letzten bis zu 5 abgeschlossenen Kalenderjahren, die mit der zu vergebenden Leistung nach Art und Umfang vergleichbar sind, wobei für die wichtigsten Bauleistungen Bescheinigungen über die ordnungsgemäße Ausführung und das Ergebnis beizufügen sind;\nb) Angaben über die Zahl der in den letzten 3 abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischen Leitungspersonal.\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

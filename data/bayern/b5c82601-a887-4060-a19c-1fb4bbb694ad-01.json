@@ -5,14 +5,14 @@
   "noticeId": "b5c82601-a887-4060-a19c-1fb4bbb694ad",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b5c82601-a887-4060-a19c-1fb4bbb694ad",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:b5c82601-a887-4060-a19c-1fb4bbb694ad-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:b5c82601-a887-4060-a19c-1fb4bbb694ad-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/b5c82601-a887-4060-a19c-1fb4bbb694ad?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Dienstleiter für IT-Support 1st Level - PR1250264-9940",
   "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE212"
   ],
-  "deadline": null,
+  "deadline": "2026-11-02T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -157,5 +157,48 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b5c82601-a887-4060-a19c-1fb4bbb694ad",
+  "version": "01",
+  "title": "Dienstleiter für IT-Support 1st Level - PR1250264-9940",
+  "description": "Dienstleiter für IT-Support 1st Level",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72253000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Dienstleiter für IT-Support 1st Level - PR1250264-9940",
+    "description": "Vertragslaufzeit 01.04.2027 - 31.03.2029 mit der Option auf Verlängerung um zweimal 12 Monate. Maximale Gesamtlaufzeit 48 Monate.\nEinarbeitungsmonat 01.03.2027 - 31.03.2027.\n\nOption Verlängerung Jahr 3 vom 01.04.2029 - 31.03.2030.\nOption Verlängerung Jahr 4 vom 01.04.2023 - 31.03.2031\nOption Erweiterung Einsatzort",
+    "cpv": [
+     "72253000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-02T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2029-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz der letzten 3 Geschäftsjahre\n-\nDieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a0d2b1cc3e-419dc8faf076d028"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

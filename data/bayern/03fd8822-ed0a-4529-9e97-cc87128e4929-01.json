@@ -1,0 +1,275 @@
+{
+ "id": "03fd8822-ed0a-4529-9e97-cc87128e4929-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "03fd8822-ed0a-4529-9e97-cc87128e4929",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=03fd8822-ed0a-4529-9e97-cc87128e4929",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:03fd8822-ed0a-4529-9e97-cc87128e4929-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:03fd8822-ed0a-4529-9e97-cc87128e4929-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/03fd8822-ed0a-4529-9e97-cc87128e4929?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau Kindertagesstätte Hergensweiler - Trockenestrich",
+  "buyer": "Gemeinde Hergensweiler",
+  "cpv": [
+   "45262320",
+   "45262321"
+  ],
+  "nuts": [
+   "DE27A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b7d2f160-593f-42fa-abbd-4ba88ae3b1ad",
+  "id": "03fd8822-ed0a-4529-9e97-cc87128e4929",
+  "date": "2026-10-16T02:10:49Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Hergensweiler",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09776115-HGW01-50",
+     "legalName": "Gemeinde Hergensweiler"
+    },
+    "address": {
+     "streetAddress": "Friedhofweg 7",
+     "locality": "Hergensweiler",
+     "region": "DE27A",
+     "postalCode": "88138",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "89-2176-0",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schröder Estrich- und Isolierbau GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "260904",
+     "legalName": "Schröder Estrich- und Isolierbau GmbH"
+    },
+    "address": {
+     "streetAddress": "Krehenberg 14",
+     "locality": "Friedrichshafen",
+     "region": "DE147",
+     "postalCode": "88048",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Hergensweiler",
+   "id": "09776115-HGW01-50",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Hergensweiler"
+   },
+   "address": {
+    "streetAddress": "Friedhofweg 7",
+    "locality": "Hergensweiler",
+    "region": "DE27A",
+    "postalCode": "88138",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b7d2f160-593f-42fa-abbd-4ba88ae3b1ad",
+   "title": "Neubau Kindertagesstätte Hergensweiler - Trockenestrich",
+   "description": "Die Gemeinde Hergensweiler beabsichtigt den Neubau der Kindertagesstätte St. Ambrosius für rund 130 Kinder auf einem Grundstück im Zentrum von Hergensweiler. Der Neubau soll zweigeschossig in Holzbauweise erstellt werden. Das bestehende Gebäude wurde bereits komplett rückgebaut.\nZu vergeben sind die Leistungen rund um den Trockenestrich.\nVoraussichtlicher Ausführungszeitraum: 19.07.2027 - 03.09.2027\n\nDie einzelnen Ausführungszeiträume können auch dem Bauzeitenplan entnommen werden.",
+   "procuringEntity": {
+    "name": "Gemeinde Hergensweiler",
+    "id": "09776115-HGW01-50"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262320",
+      "description": "Screed works"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262321",
+       "description": "Floor-screed works"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Friedhofweg 4",
+      "locality": "Hergensweiler",
+      "region": "DE27A",
+      "postalCode": "88138",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-09-17T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Schröder Estrich- und Isolierbau GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Schröder Estrich- und Isolierbau GmbH"
+     },
+     "address": {
+      "streetAddress": "Krehenberg 14",
+      "locality": "Friedrichshafen",
+      "region": "DE147",
+      "postalCode": "88048",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Trockenestrich",
+     "description": "Abdichtung EG, Trockenestrich EG und OG",
+     "contractPeriod": {
+      "startDate": "2027-07-19T00:00:00+02:00",
+      "endDate": "2027-09-03T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-30T00:00:00+02:00",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "suppliers": [
+     {
+      "name": "Schröder Estrich- und Isolierbau GmbH",
+      "id": "260904",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Schröder Estrich- und Isolierbau GmbH"
+      },
+      "address": {
+       "streetAddress": "Krehenberg 14",
+       "locality": "Friedrichshafen",
+       "region": "DE147",
+       "postalCode": "88048",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-29T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "03fd8822-ed0a-4529-9e97-cc87128e4929",
+  "version": "01",
+  "title": "Neubau Kindertagesstätte Hergensweiler - Trockenestrich",
+  "description": "Die Gemeinde Hergensweiler beabsichtigt den Neubau der Kindertagesstätte St. Ambrosius für rund 130 Kinder auf einem Grundstück im Zentrum von Hergensweiler. Der Neubau soll zweigeschossig in Holzbauweise erstellt werden. Das bestehende Gebäude wurde bereits komplett rückgebaut.\nZu vergeben sind die Leistungen rund um den Trockenestrich.\nVoraussichtlicher Ausführungszeitraum: 19.07.2027 - 03.09.2027\n\nDie einzelnen Ausführungszeiträume können auch dem Bauzeitenplan entnommen werden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE27A"
+  ],
+  "cpv": [
+   "45262320",
+   "45262321"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Trockenestrich",
+    "description": "Abdichtung EG, Trockenestrich EG und OG",
+    "cpv": [
+     "45262320",
+     "45262321"
+    ],
+    "nuts": [
+     "DE27A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-07-19+02:00",
+    "plannedEnd": "2027-09-03+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das günstigste Angebot erhält den Zuschlag, sofern keine Ausschlussgründe vorliegen und die Eignung nachgewiesen wurde.",
+      "weight": 0
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

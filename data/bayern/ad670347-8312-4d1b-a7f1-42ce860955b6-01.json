@@ -5,14 +5,14 @@
   "noticeId": "ad670347-8312-4d1b-a7f1-42ce860955b6",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ad670347-8312-4d1b-a7f1-42ce860955b6",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:ad670347-8312-4d1b-a7f1-42ce860955b6-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:ad670347-8312-4d1b-a7f1-42ce860955b6-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/ad670347-8312-4d1b-a7f1-42ce860955b6?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Aufzugsanlage nach DIN EN 81-20/50 und DIN 81-70",
   "buyer": "Landratsamt Erding",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE21A"
   ],
-  "deadline": null,
+  "deadline": "2026-11-30T09:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -140,5 +140,58 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ad670347-8312-4d1b-a7f1-42ce860955b6",
+  "version": "01",
+  "title": "Aufzugsanlage nach DIN EN 81-20/50 und DIN 81-70",
+  "description": "Es ist ein Aufzug für den Personen- und Lastenverkehr nach DIN EN 81-20/50 und DIN 81-70 auszuführen \nPlanungsdaten: \nTraglast: 1000 kg / 13 Personen \nTriebwerksraum: treibwerksraumlose Ausführung \nBetriebsgeschwindigkeit: 1,00 m/s \nStockwerke / Zugänge: 4/5 \nDurchlader: ja \nFörderhöhe: ca. 12,36 m \nBauseitiger Neubauschacht \nSchachtbreite : 1600 mm \nSchachttiefe: 2650 mm \nSchachtkopf: 3500 mm \nSchachtgrube: 1300 mm \nBarrierefreie Ausführung entsprechend Anforderungen EN 81-70 \nNotrufsystem \nSchachtentrauchungsanlage \nWartungsvertrag",
+  "procedureType": "open",
+  "nuts": [
+   "DE21A"
+  ],
+  "cpv": [
+   "45313000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Aufzugsanlagen",
+    "description": "Es ist ein Aufzug für den Personen- und Lastenverkehr nach DIN EN 81-20/50 und DIN 81-70 auszuführen \nPlanungsdaten: \nTraglast: 1000 kg / 13 Personen \nTriebwerksraum: treibwerksraumlose Ausführung \nBetriebsgeschwindigkeit: 1,00 m/s \nStockwerke / Zugänge: 4/5 \nDurchlader: ja \nFörderhöhe: ca. 12,36 m \nBauseitiger Neubauschacht \nSchachtbreite : 1600 mm \nSchachttiefe: 2650 mm \nSchachtkopf: 3500 mm \nSchachtgrube: 1300 mm \nBarrierefreie Ausführung entsprechend Anforderungen EN 81-70 \nNotrufsystem \nSchachtentrauchungsanlage \nWartungsvertrag",
+    "cpv": [
+     "45313000"
+    ],
+    "nuts": [
+     "DE21A"
+    ],
+    "deadline": "2026-11-30T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-11+01:00",
+    "plannedEnd": "2029-01-10+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Unternehmen, die für die ausgeschriebenen Leistungen präqualifiziert sind, führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu mit dem Angebot die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft). Nicht für die ausgeschriebenen Leistungen präqualifizierte Unternehmen geben über das mit dem Angebot abzugebende Formblatt 124 eine Eigenerklärung über die Eintragung in das Berufs- oder Handelsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Siehe Vergabeunterlagen."
+    }
+   }
+  ]
+ }
 }

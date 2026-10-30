@@ -5,14 +5,14 @@
   "noticeId": "25974536",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25974536",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25974536-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25974536-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25974536?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "438.1-1148-001 Trockenbau Bestandsanb.",
   "buyer": "Med. Einrichtungen des Bez. Oberpfalz -, Universitätsstr. 84, 93053 Regensburg, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.medbo.de",
   "cpv": [
@@ -24,7 +24,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2027-04-28T00:00:00+02:00",
   "lots": 1
  },
  "ocds": {
@@ -99,5 +99,49 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25974536",
+  "version": "1",
+  "title": "438.1-1148-001 Trockenbau Bestandsanb.",
+  "description": "438.1-1148-001 Trockenbau Bestandsanb.",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "438.1-1148-001 Trockenbau Bestandsanb.",
+    "description": "438.1-1148-001 Trockenbau Bestandsanb.",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2027-04-28T00:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

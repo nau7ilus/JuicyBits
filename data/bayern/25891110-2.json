@@ -1,0 +1,144 @@
+{
+ "id": "25891110-2",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25891110",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25891110",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25891110-2.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25891110-2.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25891110?format=ocds&noticeVersion=2"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schwellen- und Schienenwechsel Bf. Aßling Gl. 1603",
+  "buyer": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45234116"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-29T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25891110",
+  "id": "25891110",
+  "date": "2026-10-20T19:00:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+   }
+  },
+  "tender": {
+   "title": "Schwellen- und Schienenwechsel Bf. Aßling Gl. 1603",
+   "description": "Schwellen- und Schienenwechsel im Bf Aßling\n\n- 680 m Schwellen- und Schienenwechsel im Bf Aßling\n\nSchwellen- und Schienenwechsel Bf. Aßling Gl. 1603",
+   "procuringEntity": {
+    "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234116",
+      "description": "Track construction works"
+     },
+     "deliveryAddress": {
+      "locality": "85617 Aßling",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/423bcc14-4804-4bbb-a45e-7306382f73e3",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-20T19:00:23.301Z",
+     "rationale": "geänderte Daten service.bund.de",
+     "description": "geänderte Daten service.bund.de",
+     "amendsReleaseID": "1",
+     "releaseID": "25891110-2"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schwellen- und Schienenwechsel Bf. Aßling Gl. 1603",
+     "description": "Schwellen- und Schienenwechsel im Bf Aßling\n\n- 680 m Schwellen- und Schienenwechsel im Bf Aßling\n\nSchwellen- und Schienenwechsel Bf. Aßling Gl. 1603"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25891110",
+  "version": "2",
+  "title": "Schwellen- und Schienenwechsel Bf. Aßling Gl. 1603",
+  "description": "Schwellen- und Schienenwechsel im Bf Aßling\n\n- 680 m Schwellen- und Schienenwechsel im Bf Aßling\n\nSchwellen- und Schienenwechsel Bf. Aßling Gl. 1603",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45234116"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schwellen- und Schienenwechsel Bf. Aßling Gl. 1603",
+    "description": "Schwellen- und Schienenwechsel im Bf Aßling\n\n- 680 m Schwellen- und Schienenwechsel im Bf Aßling\n\nSchwellen- und Schienenwechsel Bf. Aßling Gl. 1603",
+    "cpv": [
+     "45234116"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-29T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

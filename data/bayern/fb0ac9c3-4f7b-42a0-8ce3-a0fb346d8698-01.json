@@ -1,0 +1,446 @@
+{
+ "id": "fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "planning"
+  ],
+  "noticeType": "PriorInformationNotice",
+  "title": "Justizzentrum Schweinfurt,Umbau_Erweit.",
+  "buyer": "Staatliches Bauamt Schweinfurt",
+  "cpv": [
+   "45200000",
+   "45000000",
+   "45223220",
+   "45410000",
+   "45421130",
+   "45441000",
+   "45421132",
+   "45422000",
+   "45420000",
+   "45442100",
+   "45432100",
+   "45421150",
+   "45421153",
+   "45311200",
+   "45112700",
+   "45332000",
+   "45332400",
+   "45330000",
+   "45331000",
+   "45331231",
+   "45331200",
+   "45311000",
+   "45232000",
+   "45421160",
+   "45313000",
+   "45310000",
+   "45317000",
+   "45421100",
+   "44423400"
+  ],
+  "nuts": [
+   "DE262"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698",
+  "id": "fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698",
+  "date": "2026-10-22T02:08:25Z",
+  "tag": [
+   "planning"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09721203305",
+     "legalName": "Staatliches Bauamt Schweinfurt"
+    },
+    "address": {
+     "streetAddress": "Mainberger Straße 14",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97422",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 11",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91544",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Schweinfurt - Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0996207-32",
+     "legalName": "Staatliches Bauamt Schweinfurt - Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Mainberger Straße 14",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97422",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Schweinfurt",
+   "id": "t:09721203305",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Schweinfurt"
+   },
+   "address": {
+    "streetAddress": "Mainberger Straße 14",
+    "locality": "Schweinfurt",
+    "region": "DE262",
+    "postalCode": "97422",
+    "countryName": "DEU"
+   }
+  },
+  "planning": {
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ]
+  },
+  "tender": {
+   "title": "Justizzentrum Schweinfurt,Umbau_Erweit.",
+   "description": "Diese Vorinformation umfasst mehrere Gewerke bzw. Leistungen bzw. verschiedene Planungsleistungen.",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "t:09721203305"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45200000",
+      "description": "Works for complete or part construction and civil engineering work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45000000",
+       "description": "Construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45223220",
+       "description": "Structural shell work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45410000",
+       "description": "Plastering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421130",
+       "description": "Installation of doors and windows"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45441000",
+       "description": "Glazing work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421132",
+       "description": "Installation of windows"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45422000",
+       "description": "Carpentry installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45420000",
+       "description": "Joinery and carpentry installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45442100",
+       "description": "Painting work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432100",
+       "description": "Floor laying and covering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421150",
+       "description": "Non-metal joinery installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421153",
+       "description": "Installation of built-in furniture"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45311200",
+       "description": "Electrical fitting work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45112700",
+       "description": "Landscaping work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45332000",
+       "description": "Plumbing and drain-laying work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45332400",
+       "description": "Sanitary fixture installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45330000",
+       "description": "Plumbing and sanitary works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45331000",
+       "description": "Heating, ventilation and air-conditioning installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45331231",
+       "description": "Installation work of refrigeration equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45331200",
+       "description": "Ventilation and air-conditioning installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45311000",
+       "description": "Electrical wiring and fitting work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45232000",
+       "description": "Ancillary works for pipelines and cables"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421160",
+       "description": "Ironmongery work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45313000",
+       "description": "Lift and escalator installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45310000",
+       "description": "Electrical installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45317000",
+       "description": "Other electrical installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421100",
+       "description": "Installation of doors and windows and related components"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44423400",
+       "description": "Signs and related items"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Schweinfurt",
+      "region": "DE262",
+      "postalCode": "97421",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Justizzentrum Schweinfurt,Umbau_Erweit.",
+     "description": "Rohbauarbeiten, Natursteinfassade, Putzfassade, Holzfenster, Putzarbeiten, Tischlerarbeiten, Malerarbeiten, Bodenbelagsarbeiten,Beschilderung, Elektroinstallationen, Aussenanlagen Sanitärinstallationen, Heizungsinstallationen, Kälteanlagen, Lüftungsinstallationen, E-Tankstelle, Schließanlage, Beschilderung, Aufzüge",
+     "contractPeriod": {
+      "startDate": "2025-10-20T00:00:00+02:00",
+      "endDate": "2028-05-12T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "617188-2025",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "617188-2025"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "PriorInformationNotice",
+  "noticeSubType": "7",
+  "noticeId": "fb0ac9c3-4f7b-42a0-8ce3-a0fb346d8698",
+  "version": "01",
+  "title": "Justizzentrum Schweinfurt,Umbau_Erweit.",
+  "description": "Diese Vorinformation umfasst mehrere Gewerke bzw. Leistungen bzw. verschiedene Planungsleistungen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE262"
+  ],
+  "cpv": [
+   "45200000",
+   "45000000",
+   "45223220",
+   "45410000",
+   "45421130",
+   "45441000",
+   "45421132",
+   "45422000",
+   "45420000",
+   "45442100",
+   "45432100",
+   "45421150",
+   "45421153",
+   "45311200",
+   "45112700",
+   "45332000",
+   "45332400",
+   "45330000",
+   "45331000",
+   "45331231",
+   "45331200",
+   "45311000",
+   "45232000",
+   "45421160",
+   "45313000",
+   "45310000",
+   "45317000",
+   "45421100",
+   "44423400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Justizzentrum Schweinfurt,Umbau_Erweit.",
+    "description": "Rohbauarbeiten, Natursteinfassade, Putzfassade, Holzfenster, Putzarbeiten, Tischlerarbeiten, Malerarbeiten, Bodenbelagsarbeiten,Beschilderung, Elektroinstallationen, Aussenanlagen Sanitärinstallationen, Heizungsinstallationen, Kälteanlagen, Lüftungsinstallationen, E-Tankstelle, Schließanlage, Beschilderung, Aufzüge",
+    "cpv": [
+     "45200000",
+     "45000000",
+     "45223220",
+     "45410000",
+     "45421130",
+     "45441000",
+     "45421132",
+     "45422000",
+     "45420000",
+     "45442100",
+     "45432100",
+     "45421150",
+     "45421153",
+     "45311200",
+     "45112700",
+     "45332000",
+     "45332400",
+     "45330000",
+     "45331000",
+     "45331231",
+     "45331200",
+     "45311000",
+     "45232000",
+     "45421160",
+     "45313000",
+     "45310000",
+     "45317000",
+     "45421100",
+     "44423400"
+    ],
+    "nuts": [
+     "DE262"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-10-20+02:00",
+    "plannedEnd": "2028-05-12+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

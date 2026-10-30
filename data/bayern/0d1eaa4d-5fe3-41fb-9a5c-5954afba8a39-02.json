@@ -1,0 +1,233 @@
+{
+ "id": "0d1eaa4d-5fe3-41fb-9a5c-5954afba8a39-02",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "0d1eaa4d-5fe3-41fb-9a5c-5954afba8a39",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0d1eaa4d-5fe3-41fb-9a5c-5954afba8a39",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:0d1eaa4d-5fe3-41fb-9a5c-5954afba8a39-02.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:0d1eaa4d-5fe3-41fb-9a5c-5954afba8a39-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0d1eaa4d-5fe3-41fb-9a5c-5954afba8a39?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Kanalumlegung Abtsdorfer Gasse, Neumarkt i.d.OPf. - Kanalplanung Lph 5-9",
+  "buyer": "Stadt Neumarkt i.d.OPf.",
+  "cpv": [
+   "71322000"
+  ],
+  "nuts": [
+   "DE236"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-82bf8bfc-79c1-4ab7-a657-74f135da8164",
+  "id": "0d1eaa4d-5fe3-41fb-9a5c-5954afba8a39",
+  "date": "2026-10-23T02:12:46Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Neumarkt i.d.OPf.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2623",
+     "legalName": "Stadt Neumarkt i.d.OPf."
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Neumarkt i.d.OPf.",
+     "region": "DE236",
+     "postalCode": "92318",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0b47aabe-8b45-4001-a3e2-9b7b33685e76",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Steinbauer Consult Ingenieurbüro GbR",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE314879380",
+     "legalName": "Steinbauer Consult Ingenieurbüro GbR"
+    },
+    "address": {
+     "locality": "Georgensgmünd",
+     "region": "DE25B",
+     "postalCode": "91166",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Neumarkt i.d.OPf.",
+   "id": "2623",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Neumarkt i.d.OPf."
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Neumarkt i.d.OPf.",
+    "region": "DE236",
+    "postalCode": "92318",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "82bf8bfc-79c1-4ab7-a657-74f135da8164",
+   "title": "Kanalumlegung Abtsdorfer Gasse, Neumarkt i.d.OPf. - Kanalplanung Lph 5-9",
+   "description": "Kanalplanung Lph 5-9",
+   "procuringEntity": {
+    "name": "Stadt Neumarkt i.d.OPf.",
+    "id": "2623"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71322000",
+      "description": "Engineering design services for the construction of civil engineering works"
+     },
+     "deliveryAddress": {
+      "region": "DE236",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Steinbauer Consult Ingenieurbüro GbR",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Steinbauer Consult Ingenieurbüro GbR"
+     },
+     "address": {
+      "locality": "Georgensgmünd",
+      "region": "DE25B",
+      "postalCode": "91166",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Kanalumlegung Abtsdorfer Gasse, Neumarkt i.d.OPf. - Kanalplanung Lph 5-9",
+     "description": "Erstellung der Ausführungsplanung bis zur Objektüberwachung;\nKanalplanung für eine Kanalumlegung zur Baufeldfreimachung und hydraulischen Verbessung des Kanalnetzes der östlichen Innenstadt in Neumarkt i.d.OPf.;\nInsgeamt sollen ca. 230 m Kanal von DN 500 bis DN 900 verbaut werden.\nIn einer Engstelle (Untere Kaserngasse) muss aufgrund des Grundwasserstandes auf einer Länge von ca. 35 m ein HDI-Verbau (Kasten) eingebracht werden."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 147593.41,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "0d1eaa4d-5fe3-41fb-9a5c-5954afba8a39",
+  "version": "02",
+  "title": "Kanalumlegung Abtsdorfer Gasse, Neumarkt i.d.OPf. - Kanalplanung Lph 5-9",
+  "description": "Kanalplanung Lph 5-9",
+  "procedureType": "open",
+  "nuts": [
+   "DE236"
+  ],
+  "cpv": [
+   "71322000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Kanalumlegung Abtsdorfer Gasse, Neumarkt i.d.OPf. - Kanalplanung Lph 5-9",
+    "description": "Erstellung der Ausführungsplanung bis zur Objektüberwachung;\nKanalplanung für eine Kanalumlegung zur Baufeldfreimachung und hydraulischen Verbessung des Kanalnetzes der östlichen Innenstadt in Neumarkt i.d.OPf.;\nInsgeamt sollen ca. 230 m Kanal von DN 500 bis DN 900 verbaut werden.\nIn einer Engstelle (Untere Kaserngasse) muss aufgrund des Grundwasserstandes auf einer Länge von ca. 35 m ein HDI-Verbau (Kasten) eingebracht werden.",
+    "cpv": [
+     "71322000"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Zuschlagskriterium Preis  \nDer Preis wird aus der Wertungssumme des Angebotes ermittelt. \nDie Wertungssummen werden ermittelt aus den nachgerechneten Angebotssummen, insbesondere unter Berücksichtigung von Nachlässen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "25969202-1",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "25969202",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25969202",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:25969202-1.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:25969202-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25969202?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erneuerung der Gebäudeautomation (GA) - MCR Messecampus Riem, Joseph Wild Straße 20, 81829 München",
+  "buyer": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau",
+  "cpv": [
+   "45315700-5"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-30T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25969202",
+  "id": "25969202",
+  "date": "2026-10-24T07:00:20Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau"
+   }
+  },
+  "tender": {
+   "title": "Erneuerung der Gebäudeautomation (GA) - MCR Messecampus Riem, Joseph Wild Straße 20, 81829 München",
+   "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen, Gebäudeleittechnik- Automation/ MSR",
+   "procuringEntity": {
+    "name": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45315700-5"
+     },
+     "deliveryAddress": {
+      "locality": "81829 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28E48E-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Erneuerung der Gebäudeautomation (GA) - MCR Messecampus Riem, Joseph Wild Straße 20, 81829 München",
+     "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen, Gebäudeleittechnik- Automation/ MSR"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25969202",
+  "version": "1",
+  "title": "Erneuerung der Gebäudeautomation (GA) - MCR Messecampus Riem, Joseph Wild Straße 20, 81829 München",
+  "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen, Gebäudeleittechnik- Automation/ MSR",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45315700-5"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Erneuerung der Gebäudeautomation (GA) - MCR Messecampus Riem, Joseph Wild Straße 20, 81829 München",
+    "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen, Gebäudeleittechnik- Automation/ MSR",
+    "cpv": [
+     "45315700-5"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-30T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

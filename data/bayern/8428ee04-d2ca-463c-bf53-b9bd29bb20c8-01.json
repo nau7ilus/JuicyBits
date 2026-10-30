@@ -1,0 +1,412 @@
+{
+ "id": "8428ee04-d2ca-463c-bf53-b9bd29bb20c8-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "8428ee04-d2ca-463c-bf53-b9bd29bb20c8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8428ee04-d2ca-463c-bf53-b9bd29bb20c8",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:8428ee04-d2ca-463c-bf53-b9bd29bb20c8-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:8428ee04-d2ca-463c-bf53-b9bd29bb20c8-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8428ee04-d2ca-463c-bf53-b9bd29bb20c8?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Versorgungslastkraftwagen VS-L Bayern für die Gemeinde Obertaufkirchen",
+  "buyer": "Gemeinde Obertaufkirchen",
+  "cpv": [
+   "34144210",
+   "35110000",
+   "35111000"
+  ],
+  "nuts": [
+   "DE21G"
+  ],
+  "deadline": "2026-11-24T10:30:00+01:00",
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-dd4db89d-79ce-41d3-9cd2-b056c5ce9e10",
+  "id": "8428ee04-d2ca-463c-bf53-b9bd29bb20c8",
+  "date": "2026-10-21T02:08:57Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Obertaufkirchen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "84419_Obertaufkirchen_08082",
+     "legalName": "Gemeinde Obertaufkirchen"
+    },
+    "address": {
+     "streetAddress": "Am Sportplatz 5",
+     "locality": "Obertaufkirchen",
+     "region": "DE21G",
+     "postalCode": "84419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "VergabeSued",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Obertaufkirchen",
+   "id": "84419_Obertaufkirchen_08082",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Obertaufkirchen"
+   },
+   "address": {
+    "streetAddress": "Am Sportplatz 5",
+    "locality": "Obertaufkirchen",
+    "region": "DE21G",
+    "postalCode": "84419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "dd4db89d-79ce-41d3-9cd2-b056c5ce9e10",
+   "title": "Versorgungslastkraftwagen VS-L Bayern für die Gemeinde Obertaufkirchen",
+   "description": "Lieferung eines Versorgungslastkraftwagen VS-L mit Beladung in vier Losen gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des Bayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+   "procuringEntity": {
+    "name": "Gemeinde Obertaufkirchen",
+    "id": "84419_Obertaufkirchen_08082"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Am Sportplatz 5",
+      "locality": "Obertaufkirchen",
+      "region": "DE21G",
+      "postalCode": "84419",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Am Sportplatz 5",
+      "locality": "Obertaufkirchen",
+      "region": "DE21G",
+      "postalCode": "84419",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "35110000",
+       "description": "Firefighting, rescue and safety equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "35111000",
+       "description": "Firefighting equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Am Sportplatz 5",
+      "locality": "Obertaufkirchen",
+      "region": "DE21G",
+      "postalCode": "84419",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144210",
+      "description": "Firefighting vehicles"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Am Sportplatz 5",
+      "locality": "Obertaufkirchen",
+      "region": "DE21G",
+      "postalCode": "84419",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c949-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c949-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c949-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c949-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fahrgestell",
+     "description": "Lieferung eines Fahrgestells für einen Versorgungslastkraftwagen VS-L gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des\nBayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+     "contractPeriod": {
+      "startDate": "2026-11-25T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Aufbau",
+     "description": "Lieferung eines Aufbaus für einen Versorgungslastkraftwagen VS-L gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des\nBayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+     "contractPeriod": {
+      "startDate": "2026-11-25T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Beladung",
+     "description": "Lieferung der Beladung für einen Versorgungslastkraftwagen VS-L gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des\nBayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+     "contractPeriod": {
+      "startDate": "2026-11-25T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Rollcontainer",
+     "description": "Lieferung der Rollcontainer für einen Versorgungslastkraftwagen VS-L gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des\nBayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+     "contractPeriod": {
+      "startDate": "2026-11-25T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 4,
+    "maximumLotsAwardedPerSupplier": 4
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "8428ee04-d2ca-463c-bf53-b9bd29bb20c8",
+  "version": "01",
+  "title": "Versorgungslastkraftwagen VS-L Bayern für die Gemeinde Obertaufkirchen",
+  "description": "Lieferung eines Versorgungslastkraftwagen VS-L mit Beladung in vier Losen gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des Bayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21G"
+  ],
+  "cpv": [
+   "34144210",
+   "35111000",
+   "35110000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fahrgestell",
+    "description": "Lieferung eines Fahrgestells für einen Versorgungslastkraftwagen VS-L gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des\nBayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-11-24T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-25+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "technische Beschaffenheit, Funktionalität, Service",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Aufbau",
+    "description": "Lieferung eines Aufbaus für einen Versorgungslastkraftwagen VS-L gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des\nBayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-11-24T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-25+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "technische Beschaffenheit, Funktionalität, Service",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Beladung",
+    "description": "Lieferung der Beladung für einen Versorgungslastkraftwagen VS-L gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des\nBayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144210",
+     "35110000",
+     "35111000"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-11-24T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-25+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Rollcontainer",
+    "description": "Lieferung der Rollcontainer für einen Versorgungslastkraftwagen VS-L gem. der techn. Baubeschreibung für Versorgungslastkraftwagen des\nBayerischen Staatsministerium des Innern, für Bau und Verkehr (05/2015), DIN EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144210"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-11-24T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-11-25+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "technische Beschaffenheit, Funktionalität, Service",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

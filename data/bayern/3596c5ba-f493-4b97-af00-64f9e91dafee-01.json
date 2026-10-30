@@ -5,14 +5,14 @@
   "noticeId": "3596c5ba-f493-4b97-af00-64f9e91dafee",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3596c5ba-f493-4b97-af00-64f9e91dafee",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:3596c5ba-f493-4b97-af00-64f9e91dafee-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:3596c5ba-f493-4b97-af00-64f9e91dafee-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/3596c5ba-f493-4b97-af00-64f9e91dafee?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Personenbeförderung mit Omnibussen nach dem PBefG; MVV-Regionalbuslinien 392 und 394.",
   "buyer": "Landkreise Bad Tölz-Wolfratshausen und Weilheim-Schongau, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
   "cpv": [
@@ -20,9 +20,10 @@
   ],
   "nuts": [
    "DE212",
-   "DE216"
+   "DE216",
+   "DE21N"
   ],
-  "deadline": null,
+  "deadline": "2026-12-14T12:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -148,5 +149,76 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "3596c5ba-f493-4b97-af00-64f9e91dafee",
+  "version": "01",
+  "title": "Personenbeförderung mit Omnibussen nach dem PBefG; MVV-Regionalbuslinien 392 und 394.",
+  "description": "- Linienverkehr auf der MVV-Regionalbuslinie 392: (Hohenburg-) Bad Tölz [R] – Bad Heilbrunn – Benediktbeuern - Kochel [R] und zurück. \n- Linienverkehr auf der MVV-Regionalbuslinie 392V: (Hohenburg-) Bad Tölz [R] – Bad Heilbrunn – Benediktbeuern - Kochel [R] und zurück. \n- Linienverkehr auf der MVV-Regionalbuslinie 394: Penzberg – Bad Heilbrunn und zurück. \n- Linienverkehr auf der MVV-Regionalbuslinie 394V: Penzberg – Bad Heilbrunn - Kochel [R] - Schlehdorf / Schlehdorf - Kochel [R] - Benediktbeuern - Penzberg.",
+  "procedureType": "open",
+  "nuts": [
+   "DE216",
+   "DE21N"
+  ],
+  "cpv": [
+   "60112000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Personenbeförderung mit Omnibussen nach dem PBefG; MVV-Regionalbuslinien 392 und 394.",
+    "description": "— ca. 386 568 Nwkm/a, \n— 3 Neufahrzeuge 15 m Low-Entry-Überland \n— 1 Neufahrzeug 18 m Niederflur \n— 1 Gebrauchtfahrzeug 18 m Niederflur \n— ca. 51 Haltestellen. \nGeschätzter Wert ohne MwSt: Spanne von 11 980 000 bis 13 680 000 EUR",
+    "cpv": [
+     "60112000"
+    ],
+    "nuts": [
+     "DE216",
+     "DE21N"
+    ],
+    "deadline": "2026-12-14T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-11-08+01:00",
+    "plannedEnd": "2035-12-08+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Betriebskosten",
+      "description": "Betriebskosten",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Garantierte Zeit für die Bereitstellung von Ersatzfahrzeugen",
+      "description": "Garantierte Zeit für die Bereitstellung von Ersatzfahrzeugen",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Zusätzlich angebotene Fahrzeugqualität",
+      "description": "Zusätzlich angebotene Fahrzeugqualität",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "zugesagte Zeitpunkt für die Lieferung der Neufahrzeuge",
+      "description": "zugesagte Zeitpunkt für die Lieferung der Neufahrzeuge",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Umweltkriterium",
+      "description": "Umweltkriterium",
+      "weight": 25
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

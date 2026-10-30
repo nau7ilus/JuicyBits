@@ -1,0 +1,147 @@
+{
+ "id": "25974030-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25974030",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25974030",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25974030-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25974030-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25974030?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "4115-304 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Glaserarbeiten",
+  "buyer": "Zweckverband Bad Füssing",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-15T12:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25974030",
+  "id": "25974030",
+  "date": "2026-10-27T07:01:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband Bad Füssing",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Zweckverband Bad Füssing"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweckverband Bad Füssing",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zweckverband Bad Füssing"
+   }
+  },
+  "tender": {
+   "title": "4115-304 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Glaserarbeiten",
+   "description": "Verglasungsarbeiten",
+   "procuringEntity": {
+    "name": "Zweckverband Bad Füssing"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "94072 Bad Füssing",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "4115-304 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Glaserarbeiten",
+     "description": "Verglasungsarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25974030",
+  "version": "1",
+  "title": "4115-304 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Glaserarbeiten",
+  "description": "Verglasungsarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "4115-304 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Glaserarbeiten",
+    "description": "Verglasungsarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-15T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

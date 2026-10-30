@@ -1,0 +1,216 @@
+{
+ "id": "aa14f618-fc60-49f6-91cf-303a0e2d9627-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "aa14f618-fc60-49f6-91cf-303a0e2d9627",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=aa14f618-fc60-49f6-91cf-303a0e2d9627",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:aa14f618-fc60-49f6-91cf-303a0e2d9627-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:aa14f618-fc60-49f6-91cf-303a0e2d9627-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/aa14f618-fc60-49f6-91cf-303a0e2d9627?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "SV-MSI-261019-004 - Neubau Betriebshofzulaufstrecke Ständlerstraße, Fahrleitung",
+  "buyer": "Stadtwerke München GmbH",
+  "cpv": [
+   "45234000",
+   "45234120"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-2694c173-369c-46b3-8c25-2904bcf14304",
+  "id": "aa14f618-fc60-49f6-91cf-303a0e2d9627",
+  "date": "2026-10-22T02:08:29Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke München GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE812500229",
+     "legalName": "Stadtwerke München GmbH"
+    },
+    "address": {
+     "streetAddress": "Emmy-Noether-Straße 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80992",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern\nVergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern\nVergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximiliansstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke München GmbH",
+   "id": "DE812500229",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Stadtwerke München GmbH"
+   },
+   "address": {
+    "streetAddress": "Emmy-Noether-Straße 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80992",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "2694c173-369c-46b3-8c25-2904bcf14304",
+   "title": "SV-MSI-261019-004 - Neubau Betriebshofzulaufstrecke Ständlerstraße, Fahrleitung",
+   "description": "Neubau Betriebshofzulaufstrecke Ständlerstraße, Fahrleitung",
+   "procuringEntity": {
+    "name": "Stadtwerke München GmbH",
+    "id": "DE812500229"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234000",
+      "description": "Construction work for railways and cable transport systems"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45234120",
+       "description": "Urban railway works"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.swm.de/einkauf/bekanntmachungen",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "SV-MSI-261019-004 - Neubau Betriebshofzulaufstrecke Ständlerstraße, Fahrleitung",
+     "description": "Ausführung der Gründungs- und Fahrleitungsarbeiten im Bereich der Betriebshofzulaufstrecke Ständlerstraße (Wendeschleife Schwanseestraße ca. 250 m Doppelgleis;\nNeubaustrecke entlang Ständlerstraße mit Betriebshofanbiendung ca. 375 m Doppelgleis;\nAnlieferunggleis in der Aschauer Straße ca. 45 m;\nca. 40 Rohrgründungen, ca. 2.100 m Fahrdraht sowie ca. 1.500 m Tragseil);",
+     "contractPeriod": {
+      "startDate": "2027-04-19T00:00:00+02:00",
+      "endDate": "2029-11-16T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "aa14f618-fc60-49f6-91cf-303a0e2d9627",
+  "version": "01",
+  "title": "SV-MSI-261019-004 - Neubau Betriebshofzulaufstrecke Ständlerstraße, Fahrleitung",
+  "description": "Neubau Betriebshofzulaufstrecke Ständlerstraße, Fahrleitung",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45234000",
+   "45234120"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "SV-MSI-261019-004 - Neubau Betriebshofzulaufstrecke Ständlerstraße, Fahrleitung",
+    "description": "Ausführung der Gründungs- und Fahrleitungsarbeiten im Bereich der Betriebshofzulaufstrecke Ständlerstraße (Wendeschleife Schwanseestraße ca. 250 m Doppelgleis;\nNeubaustrecke entlang Ständlerstraße mit Betriebshofanbiendung ca. 375 m Doppelgleis;\nAnlieferunggleis in der Aschauer Straße ca. 45 m;\nca. 40 Rohrgründungen, ca. 2.100 m Fahrdraht sowie ca. 1.500 m Tragseil);",
+    "cpv": [
+     "45234000",
+     "45234120"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-19+02:00",
+    "plannedEnd": "2029-11-16+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis der Eintragung in einem Berufsregister mittels Kopie der Eintragung im Berufsregister\n(Handwerksrolle bzw. Industrie- und Handelskammer)."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Kriterium Umsatz bei vergleichbaren Leistungen: Erklärung über den Umsatz des Unternehmens bezogen\nauf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft,\ndie mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit\nanderen Unternehmen ausgeführten Aufträgen. Die aufgestellte Forderung stellt keine Mindestanforderung im\nHinblick auf die Dauer der Geschäftstätigkeit dar;\nKriterium Umsatz bei vergleichbaren Leistungen: Nachweis eines Mindestjahresumsatz bezogen auf das Mittel der angegeben Umsätze für vergleichbare Leistungen in Höhe von: 5.500.000 €"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Kriterium Personelle Ausstattung: Erklärung über die Zahl der in den letzten 3 abgeschlossenen\nKalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte des Unternehmens, gegliedert nach\nLohngruppen bzw. Qualifikationen mit gesondert ausgewiesenem technischem Leitungspersonal. Die\naufgestellte Forderung stellt keine Mindestanforderung im Hinblick auf die Dauer der Geschäftstätigkeit dar;"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "(1) Kriterium Referenzen: Angabe von Referenzen über vergleichbare Leistungen die in den letzten bis zu 5\nabgeschlossenen Kalenderjahren ausgeführt und fertiggestellt (= abgenommen) wurden. Hinsichtlich der\nVergleichbarkeit wird auf die Kurzbeschreibung des Auftrags sowie die Vergabeunterlagen\nverwiesen. Die Referenzangaben beziehen sich auf folgende Aspekte:\nAls vergleichbar gelten Referenzprojekte, die folgende Leistungen umfassen:\n- Vergleichbarkeit der Referenzmaßnahme mit den ausgeschriebenen Fahrleitungs- und Gründungsarbeiten;\n- Umfang der ausgeführten Leistungen (z. B. Anzahl der Mastgründungen, Fahrleitungsmasten und\nFahrleitungsanlagen);\n- Ausführung von Fahrleitungsanlagen im Straßenbahnbereich;\n- Durchführung von Arbeiten im öffentlichen Verkehrsraum;\n- Durchführung von Arbeiten unter laufendem Bahnbetrieb;\n- Technische und organisatorische Komplexität der Maßnahme;\n- Termingerechte und mangelfreie Ausführung der Leistungen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Gewichtung: 100 %",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

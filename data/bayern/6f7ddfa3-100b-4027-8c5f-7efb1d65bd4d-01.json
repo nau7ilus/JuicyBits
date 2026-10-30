@@ -5,12 +5,12 @@
   "noticeId": "6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als Stahlfachwerk 170m lang",
   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
   "cpv": [
@@ -186,5 +186,43 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d",
+  "version": "01",
+  "title": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als Stahlfachwerk 170m lang",
+  "description": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als zweigleisiges Stahlfachwerk 170m lang, seitliches Herstellen und Einschieben mit Abbruch des bestehenden 5feldrigen Überbaus, OLA-/LST-Begleitarbeiten, Oberbauarbeiten, Umverlegung Speiseleitungen",
+  "procedureType": null,
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45221112"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als Stahlfachwerk 170m lang",
+    "description": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als zweigleisiges Stahlfachwerk 170m lang, seitliches Herstellen und Einschieben mit Abbruch des bestehenden 5feldrigen Überbaus, OLA-/LST-Begleitarbeiten, Oberbauarbeiten, Umverlegung Speiseleitungen",
+    "cpv": [
+     "45221112"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-12-02+01:00",
+    "plannedEnd": "2028-05-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

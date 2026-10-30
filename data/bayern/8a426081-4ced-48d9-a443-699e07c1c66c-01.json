@@ -143,6 +143,8 @@
   "noticeId": "8a426081-4ced-48d9-a443-699e07c1c66c",
   "version": "01",
   "title": "Abschluss RV Matratzenreinigung",
+  "description": "Abschluss einer Rahmenvereinbarung über die Matratzenreinigung",
+  "procedureType": "open",
   "nuts": [
    "DE21E"
   ],
@@ -154,6 +156,7 @@
    {
     "id": "LOT-0000",
     "title": "Abschluss RV Matratzenreinigung",
+    "description": "gemäß Vergabeunterlagen",
     "cpv": [
      "90900000"
     ],
@@ -164,9 +167,19 @@
     "participationDeadline": null,
     "plannedStart": "2027-04-01+02:00",
     "plannedEnd": "2031-03-31+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis gem. Anlage 2 Preisblatt",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

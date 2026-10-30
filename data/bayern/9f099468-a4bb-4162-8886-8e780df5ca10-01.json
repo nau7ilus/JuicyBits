@@ -5,12 +5,12 @@
   "noticeId": "9f099468-a4bb-4162-8886-8e780df5ca10",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9f099468-a4bb-4162-8886-8e780df5ca10",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:9f099468-a4bb-4162-8886-8e780df5ca10-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:9f099468-a4bb-4162-8886-8e780df5ca10-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/9f099468-a4bb-4162-8886-8e780df5ca10?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "SIPO/SAKRA Leistungen für Bohrprogramm Strecke 5400 Neu-Ulm bis Bf. Kempten Los 1,2,3 und 4",
   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
   "cpv": [
@@ -188,5 +188,43 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "9f099468-a4bb-4162-8886-8e780df5ca10",
+  "version": "01",
+  "title": "SIPO/SAKRA Leistungen für Bohrprogramm Strecke 5400 Neu-Ulm bis Bf. Kempten Los 1,2,3 und 4",
+  "description": "Begleitung Bohrprogramm, Kampfmittelerkundung, Vermessung und Begehung. \n- Los 1: Strecke 5400 km 1,5 (Bf Kempten) bis km 36,900\n- Los 2: Stecke 5400 km 36,900 bis km 58,600 (Netzbezirksgrenze)\n- Los 3: Strecke 5400 km 58,600 (Netzbezirksgrenze) bis km 72,800\n- Los 4: Strecke 5400 km 72,800 bis km 83,700",
+  "procedureType": null,
+  "nuts": [
+   "DE273"
+  ],
+  "cpv": [
+   "79714000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1: Strecke 5400 km 1,5 (Bf Kempten) bis km 36,900",
+    "description": "Sipo/Sakra Sicherungsleistung für Bohrleistungen",
+    "cpv": [
+     "79714000"
+    ],
+    "nuts": [
+     "DE273"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-02-15+01:00",
+    "plannedEnd": "2026-02-27+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

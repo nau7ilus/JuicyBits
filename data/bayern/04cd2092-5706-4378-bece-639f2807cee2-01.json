@@ -1,0 +1,256 @@
+{
+ "id": "04cd2092-5706-4378-bece-639f2807cee2-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "04cd2092-5706-4378-bece-639f2807cee2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=04cd2092-5706-4378-bece-639f2807cee2",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:04cd2092-5706-4378-bece-639f2807cee2-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:04cd2092-5706-4378-bece-639f2807cee2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/04cd2092-5706-4378-bece-639f2807cee2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "KI-Server 2026",
+  "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+  "cpv": [
+   "48820000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0bd07b3f-a668-47c5-a33e-134075792335",
+  "id": "04cd2092-5706-4378-bece-639f2807cee2",
+  "date": "2026-10-27T03:12:20Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+     "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstraße 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Steuern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "955f3ee5-ba27-4dcc-9164-0b25df5b3370",
+     "legalName": "Bayerisches Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "T-Systems International GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "cb7def7b-ee0c-4ba7-b812-8465364d4ee7",
+     "legalName": "T-Systems International GmbH"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+   "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+   },
+   "address": {
+    "streetAddress": "Sophienstraße 6",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0bd07b3f-a668-47c5-a33e-134075792335",
+   "title": "KI-Server 2026",
+   "description": "Gegenstand des Vergabeverfahrens ist der Abschluss einer Rahmenvereinbarung über die Lieferung von „KI-Servern“.\nDie Vertragslaufzeit beträgt 24 Monate (Mindestvertragslaufzeit) mit zweimaliger Verlängerungsoption um je 12 Monate  (2+1+1).  ",
+   "procuringEntity": {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48820000",
+      "description": "Servers"
+     },
+     "deliveryAddress": {
+      "locality": "München ",
+      "region": "DE212",
+      "postalCode": "80333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-26T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "T-Systems International GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "T-Systems International GmbH"
+     },
+     "address": {
+      "locality": "Bonn",
+      "region": "DEA22",
+      "postalCode": "53113",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "KI-Server 2026",
+     "description": "Gegenstand des Vergabeverfahrens ist der Abschluss einer Rahmenvereinbarung über die Lieferung von „KI-Servern“.\nDie Vertragslaufzeit beträgt 24 Monate (Mindestvertragslaufzeit) mit zweimaliger Verlängerungsoption um je 12 Monate  (2+1+1).  "
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "04cd2092-5706-4378-bece-639f2807cee2",
+  "version": "01",
+  "title": "KI-Server 2026",
+  "description": "Gegenstand des Vergabeverfahrens ist der Abschluss einer Rahmenvereinbarung über die Lieferung von „KI-Servern“.\nDie Vertragslaufzeit beträgt 24 Monate (Mindestvertragslaufzeit) mit zweimaliger Verlängerungsoption um je 12 Monate  (2+1+1).",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48820000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "KI-Server 2026",
+    "description": "Gegenstand des Vergabeverfahrens ist der Abschluss einer Rahmenvereinbarung über die Lieferung von „KI-Servern“.\nDie Vertragslaufzeit beträgt 24 Monate (Mindestvertragslaufzeit) mit zweimaliger Verlängerungsoption um je 12 Monate  (2+1+1).",
+    "cpv": [
+     "48820000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

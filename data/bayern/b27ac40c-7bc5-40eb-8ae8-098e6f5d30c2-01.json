@@ -1,0 +1,207 @@
+{
+ "id": "b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Containergestellung, Übernahme, Transport und Verwertung von Elektroaltgeräten",
+  "buyer": "Landratsamt Landsberg am Lech",
+  "cpv": [
+   "90500000"
+  ],
+  "nuts": [
+   "DE21E"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2",
+  "id": "b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2",
+  "date": "2026-10-22T02:10:33Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landsberg am Lech",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9520",
+     "legalName": "Landratsamt Landsberg am Lech"
+    },
+    "address": {
+     "streetAddress": "Von -Kühlmann-Str. 15",
+     "locality": "Landsberg am Lech",
+     "region": "DE21E",
+     "postalCode": "86899",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "92b0e041-85e3-4d83-85d8-63d9fdad0242",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE21E",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landsberg am Lech",
+   "id": "9520",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landsberg am Lech"
+   },
+   "address": {
+    "streetAddress": "Von -Kühlmann-Str. 15",
+    "locality": "Landsberg am Lech",
+    "region": "DE21E",
+    "postalCode": "86899",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2",
+   "title": "Containergestellung, Übernahme, Transport und Verwertung von Elektroaltgeräten",
+   "description": "Containergestellung, Übernahme, Transport und Verwertung von Elektroaltgeräten der Sammelgruppen 4 und 5 aus dem Landkreis Landsberg am Lech",
+   "procuringEntity": {
+    "name": "Landratsamt Landsberg am Lech",
+    "id": "9520"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "region": "DE21E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Containergestellung, Übernahme, Transport und Verwertung von Elektroaltgeräten",
+     "description": "Der Landkreis Landsberg am Lech verfolgt mit dieser Ausschreibung das Ziel, das Konzept des Landkreises zur Abholung und Verwertung von Elektroaltgeräten umzusetzen.\nDieses Konzept sieht vor, dass der Landkreis Landsberg am Lech als öffentlich-rechtlicher Entsorgungsträger (örE) ein eigenes, flächendeckendes Sammelsystem für Elektroaltgeräte anbietet. Die damit verbundenen Aufgaben vergibt er durch diesen Auftrag im Rahmen seiner Zuständigkeiten gemäß § 22 KrWG an einen Dritten.\nDie vorliegende Ausschreibung soll zur Neuvergabe der Containergestellung, Abholung und des Transports sowie der Verwertung von Elektroaltgeräten der Sammelgruppen 4 und 5 führen.",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2029-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b27ac40c-7bc5-40eb-8ae8-098e6f5d30c2",
+  "version": "01",
+  "title": "Containergestellung, Übernahme, Transport und Verwertung von Elektroaltgeräten",
+  "description": "Containergestellung, Übernahme, Transport und Verwertung von Elektroaltgeräten der Sammelgruppen 4 und 5 aus dem Landkreis Landsberg am Lech",
+  "procedureType": "open",
+  "nuts": [
+   "DE21E"
+  ],
+  "cpv": [
+   "90500000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Containergestellung, Übernahme, Transport und Verwertung von Elektroaltgeräten",
+    "description": "Der Landkreis Landsberg am Lech verfolgt mit dieser Ausschreibung das Ziel, das Konzept des Landkreises zur Abholung und Verwertung von Elektroaltgeräten umzusetzen.\nDieses Konzept sieht vor, dass der Landkreis Landsberg am Lech als öffentlich-rechtlicher Entsorgungsträger (örE) ein eigenes, flächendeckendes Sammelsystem für Elektroaltgeräte anbietet. Die damit verbundenen Aufgaben vergibt er durch diesen Auftrag im Rahmen seiner Zuständigkeiten gemäß § 22 KrWG an einen Dritten.\nDie vorliegende Ausschreibung soll zur Neuvergabe der Containergestellung, Abholung und des Transports sowie der Verwertung von Elektroaltgeräten der Sammelgruppen 4 und 5 führen.",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2029-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Die Bewerber müssen ihre Befähigung und Erlaubnis zur Berufsausübung nach Rechtsvorschriften des Staats, in dem sie\nniedergelassen sind, entweder durch eine Eintragung in einem Berufs- oder Handelsregister dieses Staats oder auf andere Weise die erlaubte Berufsausübung nachweisen. Legen Sie eine Kopie eines aktuellen Auszugs aus dem\nBerufs- oder Handelsregister oder einen anderen entsprechenden Nachweis dem Angebot bei"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Erklärung des Bieters, dass er im Auftragsfall eine Berufs- oder Betriebshaftpflichtversicherung mit mindestens einer Deckungssumme je Schadensfall von mindestens 3.000.000,00 EUR für Personen-und Sachschäden und 1.000.000,00 EUR für Vermögensschäden und 50 Mio EUR KFZ Haftpflichtversicherung für Personen-, Sach-, und Vermögensschäden."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Referenzliste, der bezüglich der ausgeschriebenen Leistungen wesentlichen in den  letzten drei \nJahren erbrachten Leistungen mit Angabe des Auftragswertes, des Erbringungszeitpunkts sowie \ndes öffentlichen oder privaten Empfängers"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen\nUnternehmen ausgeführten Leistungen"
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Vorlage der Zertifizierung als Entsorgungsfachbetrieb(e). Nachweis in Form eines Zertifikats der Erstbehandlungsanlage(n) im Sinne des ElektroG."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

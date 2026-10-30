@@ -5,14 +5,14 @@
   "noticeId": "25978274",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978274",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978274-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978274-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978274?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Sanierung Hallenbad Burghausen - Innentüren",
   "buyer": "Stadt Burghausen",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-11-17T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -91,5 +91,43 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25978274",
+  "version": "1",
+  "title": "Sanierung Hallenbad Burghausen - Innentüren",
+  "description": "Innentüren/Zargen, Fenster- Fassadenbau Holz und Holzaluminium",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45421100-5  45421131-1  45421130-4 45421100-5  45421130-4"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sanierung Hallenbad Burghausen - Innentüren",
+    "description": "Innentüren/Zargen, Fenster- Fassadenbau Holz und Holzaluminium",
+    "cpv": [
+     "45421100-5  45421131-1  45421130-4 45421100-5  45421130-4"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -5,14 +5,14 @@
   "noticeId": "f645d15e-2535-4008-837e-1efd55fdd193",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f645d15e-2535-4008-837e-1efd55fdd193",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:f645d15e-2535-4008-837e-1efd55fdd193-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:f645d15e-2535-4008-837e-1efd55fdd193-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/f645d15e-2535-4008-837e-1efd55fdd193?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Wartungsleistung Gas-Otto-Motoren 2026-2029",
   "buyer": "Landeshauptstadt München, Baureferat",
   "cpv": [
@@ -219,5 +219,50 @@
    }
   ]
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "f645d15e-2535-4008-837e-1efd55fdd193",
+  "version": "01",
+  "title": "Wartungsleistung Gas-Otto-Motoren 2026-2029",
+  "description": "EZ_Wartungsleistung Gas-Otto-Motoren 2026-2029",
+  "procedureType": "open",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "50531200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Wartungsleistung Gas-Otto-Motoren 2026-2029",
+    "description": "EZ_Wartungsleistung Gas-Otto-Motoren 2026-2029",
+    "cpv": [
+     "50531200"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-14+02:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

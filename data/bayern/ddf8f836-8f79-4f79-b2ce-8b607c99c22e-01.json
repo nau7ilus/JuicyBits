@@ -5,14 +5,14 @@
   "noticeId": "ddf8f836-8f79-4f79-b2ce-8b607c99c22e",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ddf8f836-8f79-4f79-b2ce-8b607c99c22e",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:ddf8f836-8f79-4f79-b2ce-8b607c99c22e-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:ddf8f836-8f79-4f79-b2ce-8b607c99c22e-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/ddf8f836-8f79-4f79-b2ce-8b607c99c22e?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Verlege- und Verdrahtungsarbeiten sowie Liefe-rung und Montage von Netzwerktechnik für eine OCR-Anlage",
   "buyer": "Hafen Nürnberg-Roth GmbH",
   "cpv": [
@@ -242,5 +242,58 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "ddf8f836-8f79-4f79-b2ce-8b607c99c22e",
+  "version": "01",
+  "title": "Verlege- und Verdrahtungsarbeiten sowie Liefe-rung und Montage von Netzwerktechnik für eine OCR-Anlage",
+  "description": "Verlege- und Verdrahtungsarbeiten von Strom-, Daten&Kommunikationskabeln (SpeedPipe, LWL, Spleißbox, Spleißen) sowie E-Technik / Netzwerk Ausstattung (Serverrack, Patchfelder, Transceivermodule (Singlemode), Medienkonverter, etc.) LWL Messung",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "31730000",
+   "45311200",
+   "45314000",
+   "32400000",
+   "45314310"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Verlege- und Verdrahtungsarbeiten sowie Liefe-rung und Montage von Netzwerktechnik für eine OCR-Anlage",
+    "description": "Öffnen von Kabeltrögen und Kabelschächten,; Lieferung, Verlegen von Kabeln von Netzwerktechnik (SpeedPipe, LWL (Singlemode), Strom);  Lieferung eines 42 Höheneinheiten Serverracks Spleißen, LC-Stecker, Patchkabel, Transceivermodule (Singlemode), Speedpipe und LWL Länge  jeweils ca. 1.100 m von Stellwerk (Serverrack) bis Schienengate Spleisbox Stromkabellänge ca. 490 m von Verteilerkasten (Weichenheizung) bis Position Schienengate 12 fasiges LWL (Singlemode) Durchmessen der LWL-Fasern; DGUV-Vorschrift 3 Prüfung",
+    "cpv": [
+     "31730000",
+     "45311200",
+     "45314000",
+     "32400000",
+     "45314310"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-26+01:00",
+    "plannedEnd": "2026-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis über alles. Das unter Erfüllung der Leistungsbedingungen laut technischer Spezifikation niedrigste Gesamtpreisangebot für die E-Technik / Netzwerk Leistung für ein funktionsfähiges (OCR-Schienengate) sowie aller anzubietenden Preise.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

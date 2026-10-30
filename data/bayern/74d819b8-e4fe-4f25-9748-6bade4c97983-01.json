@@ -155,6 +155,8 @@
   "noticeId": "74d819b8-e4fe-4f25-9748-6bade4c97983",
   "version": "01",
   "title": "2026_EBUS_12 Meter",
+  "description": "Beschaffung eines 12 Meter Elektrolinienbusses",
+  "procedureType": "open",
   "nuts": [
    "DE238"
   ],
@@ -166,6 +168,7 @@
    {
     "id": "LOT-0001",
     "title": "Beschaffung eines 12 Meter Elektrolinienbusses",
+    "description": "Beschaffung eines 12 Meter Elektrolinienbusses in Vollniederflurbauweise",
     "cpv": [
      "34121400"
     ],
@@ -176,9 +179,15 @@
     "participationDeadline": null,
     "plannedStart": "2026-10-30+01:00",
     "plannedEnd": "2026-12-04+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
    }
   ]
  }

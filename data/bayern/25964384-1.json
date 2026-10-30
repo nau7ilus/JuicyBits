@@ -1,0 +1,124 @@
+{
+ "id": "25964384-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25964384",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25964384",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25964384-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25964384-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25964384?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Stromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029",
+  "buyer": "Stiftung Aktion Sonnenschein vertreten durch EMP Energie GmbH",
+  "cpv": [],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-12T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25964384",
+  "id": "25964384",
+  "date": "2026-10-23T07:01:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stiftung Aktion Sonnenschein vertreten durch EMP Energie GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stiftung Aktion Sonnenschein vertreten durch EMP Energie GmbH"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stiftung Aktion Sonnenschein vertreten durch EMP Energie GmbH",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stiftung Aktion Sonnenschein vertreten durch EMP Energie GmbH"
+   }
+  },
+  "tender": {
+   "title": "Stromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029",
+   "description": "Abschluss eines Liefervertrages für Strom inkl. Netznutzung im Zeitraum 01.01.2027 bis 31.12.2029.\n\nStromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029",
+   "procuringEntity": {
+    "name": "Stiftung Aktion Sonnenschein vertreten durch EMP Energie GmbH"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "deliveryAddress": {
+      "locality": "81377 München, Hadern",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/f77b118d-4af3-4f05-ae83-b2cf9836aea7",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Stromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029",
+     "description": "Abschluss eines Liefervertrages für Strom inkl. Netznutzung im Zeitraum 01.01.2027 bis 31.12.2029.\n\nStromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25964384",
+  "version": "1",
+  "title": "Stromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029",
+  "description": "Abschluss eines Liefervertrages für Strom inkl. Netznutzung im Zeitraum 01.01.2027 bis 31.12.2029.\n\nStromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Stromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029",
+    "description": "Abschluss eines Liefervertrages für Strom inkl. Netznutzung im Zeitraum 01.01.2027 bis 31.12.2029.\n\nStromlieferung an Stiftung Aktion Sonnenschein, LZ: 01.01.27 bis 31.12.2029",
+    "cpv": [],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-12T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

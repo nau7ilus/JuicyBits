@@ -1,0 +1,295 @@
+{
+ "id": "11009761-d1db-461d-a135-e1bfba75c238-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "11009761-d1db-461d-a135-e1bfba75c238",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=11009761-d1db-461d-a135-e1bfba75c238",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:11009761-d1db-461d-a135-e1bfba75c238-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:11009761-d1db-461d-a135-e1bfba75c238-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/11009761-d1db-461d-a135-e1bfba75c238?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "planning"
+  ],
+  "noticeType": "PriorInformationNotice",
+  "title": "WFL_Rhön-Kas, Neubau Gebäude 2 GefSimZ (Geb 18)",
+  "buyer": "Staatliches Bauamt Schweinfurt",
+  "cpv": [
+   "45000000",
+   "45432210",
+   "45422000",
+   "45422100",
+   "45421141",
+   "44112310",
+   "45432100",
+   "45432130",
+   "45432113",
+   "39531200"
+  ],
+  "nuts": [
+   "DE262",
+   "DE265"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-11009761-d1db-461d-a135-e1bfba75c238",
+  "id": "11009761-d1db-461d-a135-e1bfba75c238",
+  "date": "2026-10-22T02:09:02Z",
+  "tag": [
+   "planning"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09721203305",
+     "legalName": "Staatliches Bauamt Schweinfurt"
+    },
+    "address": {
+     "streetAddress": "Mainberger Straße 14",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97422",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt - Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "991-02380-92",
+     "legalName": "Bundeskartellamt - Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Schweinfurt - Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0996207-32",
+     "legalName": "Staatliches Bauamt Schweinfurt - Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Mainberger Straße 14",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97422",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Schweinfurt",
+   "id": "t:09721203305",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Schweinfurt"
+   },
+   "address": {
+    "streetAddress": "Mainberger Straße 14",
+    "locality": "Schweinfurt",
+    "region": "DE262",
+    "postalCode": "97422",
+    "countryName": "DEU"
+   }
+  },
+  "planning": {
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ]
+  },
+  "tender": {
+   "title": "WFL_Rhön-Kas, Neubau Gebäude 2 GefSimZ (Geb 18)",
+   "description": "Diese Vorinformation umfasst mehrere Gewerke bzw. Leistungen bzw. verschiedene Planungsleistungen.",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "t:09721203305"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45432210",
+       "description": "Wall-covering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45422000",
+       "description": "Carpentry installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45422100",
+       "description": "Woodwork"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421141",
+       "description": "Installation of partitioning"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44112310",
+       "description": "Partition walls"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432100",
+       "description": "Floor laying and covering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432130",
+       "description": "Floor-covering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432113",
+       "description": "Parquet flooring"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39531200",
+       "description": "Woven carpeting"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Rhön-Kaserne Wildflecken",
+      "region": "DE265",
+      "postalCode": "97772",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "WFL_Rhön-Kas, Neubau Gebäude 2 GefSimZ (Geb 18)",
+     "description": "Bauarbeiten, Tischlerarbeiten (Falttrennwände, Akustikelemente, Wandverkleidung), Bodenbelagsarbeiten (Teppich, Parkett)",
+     "contractPeriod": {
+      "startDate": "2024-04-10T00:00:00+02:00",
+      "endDate": "2027-10-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "684960-2025",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "684960-2025"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "PriorInformationNotice",
+  "noticeSubType": "7",
+  "noticeId": "11009761-d1db-461d-a135-e1bfba75c238",
+  "version": "01",
+  "title": "WFL_Rhön-Kas, Neubau Gebäude 2 GefSimZ (Geb 18)",
+  "description": "Diese Vorinformation umfasst mehrere Gewerke bzw. Leistungen bzw. verschiedene Planungsleistungen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "45000000",
+   "45432210",
+   "45422000",
+   "45422100",
+   "45421141",
+   "44112310",
+   "45432100",
+   "45432130",
+   "45432113",
+   "39531200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "WFL_Rhön-Kas, Neubau Gebäude 2 GefSimZ (Geb 18)",
+    "description": "Bauarbeiten, Tischlerarbeiten (Falttrennwände, Akustikelemente, Wandverkleidung), Bodenbelagsarbeiten (Teppich, Parkett)",
+    "cpv": [
+     "45000000",
+     "45432210",
+     "45422000",
+     "45422100",
+     "45421141",
+     "44112310",
+     "45432100",
+     "45432130",
+     "45432113",
+     "39531200"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2024-04-10+02:00",
+    "plannedEnd": "2027-10-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

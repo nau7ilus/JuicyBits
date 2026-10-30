@@ -190,6 +190,8 @@
   "noticeId": "b0956cd1-ad66-4d14-8cee-1e4cad24ae00",
   "version": "02",
   "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV102 Erdbauarbeiten",
+  "description": "Erdbauarbeiten",
+  "procedureType": "open",
   "nuts": [
    "DE21K"
   ],
@@ -201,6 +203,7 @@
    {
     "id": "LOT-0001",
     "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV102 Erdbauarbeiten",
+    "description": "Erdarbeiten: Aushub- und Erdbewegungsarbeiten, Aushubarbeiten",
     "cpv": [
      "45112000"
     ],
@@ -211,9 +214,19 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

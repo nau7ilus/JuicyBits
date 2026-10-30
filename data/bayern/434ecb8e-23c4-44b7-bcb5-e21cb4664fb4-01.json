@@ -1,0 +1,185 @@
+{
+ "id": "434ecb8e-23c4-44b7-bcb5-e21cb4664fb4-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "434ecb8e-23c4-44b7-bcb5-e21cb4664fb4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=434ecb8e-23c4-44b7-bcb5-e21cb4664fb4",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:434ecb8e-23c4-44b7-bcb5-e21cb4664fb4-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:434ecb8e-23c4-44b7-bcb5-e21cb4664fb4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/434ecb8e-23c4-44b7-bcb5-e21cb4664fb4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "VE BT11-3138-01 - Oberbodenarbeiten",
+  "buyer": "KLINIKEN SÜDOSTBAYERN AG",
+  "cpv": [
+   "45432130"
+  ],
+  "nuts": [
+   "DE21M"
+  ],
+  "deadline": "2026-11-23T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e7750f4b-f5d5-4a33-80e3-155a7b2f1afb",
+  "id": "434ecb8e-23c4-44b7-bcb5-e21cb4664fb4",
+  "date": "2026-10-22T02:10:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "KLINIKEN SÜDOSTBAYERN AG",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09189000-KLINIKSOB010x01-88",
+     "legalName": "KLINIKEN SÜDOSTBAYERN AG"
+    },
+    "address": {
+     "streetAddress": "Cuno-Niggl-Str. 3",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern-Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern-Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "KLINIKEN SÜDOSTBAYERN AG",
+   "id": "09189000-KLINIKSOB010x01-88",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "KLINIKEN SÜDOSTBAYERN AG"
+   },
+   "address": {
+    "streetAddress": "Cuno-Niggl-Str. 3",
+    "locality": "Traunstein",
+    "region": "DE21M",
+    "postalCode": "83278",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e7750f4b-f5d5-4a33-80e3-155a7b2f1afb",
+   "title": "VE BT11-3138-01 - Oberbodenarbeiten",
+   "description": "LOS I- ca. 290 m2 Bodenbelag PVC R9 Grau- ca. 140 m2 Bodenbelag PVC R9 ableitfähigteilweise mit Stellsockel und teilweise mit Hohlkehlsockeleinschl. Untergrundvorbereitung und SchutzmaßnahmenLOS II- ca. 550 m2 Bodenbelag PVC R9 Grauteilweise mit Stellsockel und teilweise mit Hohlkehlsockeleinschl. Untergrundvorbereitung und Schutzmaßnahmen",
+   "procuringEntity": {
+    "name": "KLINIKEN SÜDOSTBAYERN AG",
+    "id": "09189000-KLINIKSOB010x01-88"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45432130",
+      "description": "Floor-covering work"
+     },
+     "deliveryAddress": {
+      "region": "DE21M",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331224",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "VE BT11-3138-01 - Oberbodenarbeiten",
+     "description": "LOS I- ca. 290 m2 Bodenbelag PVC R9 Grau- ca. 140 m2 Bodenbelag PVC R9 ableitfähigteilweise mit Stellsockel und teilweise mit Hohlkehlsockeleinschl. Untergrundvorbereitung und SchutzmaßnahmenLOS II- ca. 550 m2 Bodenbelag PVC R9 Grauteilweise mit Stellsockel und teilweise mit Hohlkehlsockeleinschl. Untergrundvorbereitung und Schutzmaßnahmen",
+     "contractPeriod": {
+      "startDate": "2027-03-15T00:00:00+01:00",
+      "endDate": "2027-05-03T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "434ecb8e-23c4-44b7-bcb5-e21cb4664fb4",
+  "version": "01",
+  "title": "VE BT11-3138-01 - Oberbodenarbeiten",
+  "description": "LOS I- ca. 290 m2 Bodenbelag PVC R9 Grau- ca. 140 m2 Bodenbelag PVC R9 ableitfähigteilweise mit Stellsockel und teilweise mit Hohlkehlsockeleinschl. Untergrundvorbereitung und SchutzmaßnahmenLOS II- ca. 550 m2 Bodenbelag PVC R9 Grauteilweise mit Stellsockel und teilweise mit Hohlkehlsockeleinschl. Untergrundvorbereitung und Schutzmaßnahmen",
+  "procedureType": "open",
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "45432130"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "VE BT11-3138-01 - Oberbodenarbeiten",
+    "description": "LOS I- ca. 290 m2 Bodenbelag PVC R9 Grau- ca. 140 m2 Bodenbelag PVC R9 ableitfähigteilweise mit Stellsockel und teilweise mit Hohlkehlsockeleinschl. Untergrundvorbereitung und SchutzmaßnahmenLOS II- ca. 550 m2 Bodenbelag PVC R9 Grauteilweise mit Stellsockel und teilweise mit Hohlkehlsockeleinschl. Untergrundvorbereitung und Schutzmaßnahmen",
+    "cpv": [
+     "45432130"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": "2026-11-23T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-15+01:00",
+    "plannedEnd": "2027-05-03+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331224"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "id": "85a4e25e-0126-44de-a3de-b3406417aae0-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "85a4e25e-0126-44de-a3de-b3406417aae0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=85a4e25e-0126-44de-a3de-b3406417aae0",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:85a4e25e-0126-44de-a3de-b3406417aae0-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:85a4e25e-0126-44de-a3de-b3406417aae0-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/85a4e25e-0126-44de-a3de-b3406417aae0?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Totalunternehmerleistungen für den Neubau der Studierendenwohnanlage \"Illerpark\" Neu-Ulm",
+  "buyer": "Studierendenwerk Augsburg AdöR",
+  "cpv": [
+   "45000000",
+   "45214700",
+   "71320000"
+  ],
+  "nuts": [
+   "DE271",
+   "DE279"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-69e25659-32e8-4a75-9f87-165a986eef65",
+  "id": "85a4e25e-0126-44de-a3de-b3406417aae0",
+  "date": "2026-10-17T19:56:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Studierendenwerk Augsburg AdöR",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09761000-STWA123456-32",
+     "legalName": "Studierendenwerk Augsburg AdöR"
+    },
+    "address": {
+     "streetAddress": "Bürgermeister-Ulrich-Straße 152",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86179",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Ed. Züblin AG Bereich Augsburg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 147 843 723",
+     "legalName": "Ed. Züblin AG Bereich Augsburg"
+    },
+    "address": {
+     "streetAddress": "Beim Glaspalast 1",
+     "locality": "Augsburg",
+     "region": "DE111",
+     "postalCode": "86153",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Studierendenwerk Augsburg AdöR",
+   "id": "09761000-STWA123456-32",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Studierendenwerk Augsburg AdöR"
+   },
+   "address": {
+    "streetAddress": "Bürgermeister-Ulrich-Straße 152",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86179",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "69e25659-32e8-4a75-9f87-165a986eef65",
+   "title": "Totalunternehmerleistungen für den Neubau der Studierendenwohnanlage \"Illerpark\" Neu-Ulm",
+   "description": "Totalunternehmerleistungen mit sämtlichen erforderlichen Planungsleistungen für alle erforderlichen Leistungsbilder der HOAI für den Neubau der Studierendenwohnanlage \"Illerpark\" Neu-Ulm.",
+   "procuringEntity": {
+    "name": "Studierendenwerk Augsburg AdöR",
+    "id": "09761000-STWA123456-32"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45214700",
+       "description": "Construction work for halls of residence"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71320000",
+       "description": "Engineering design services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Kingsleystraße",
+      "locality": "Neu-Ulm",
+      "region": "DE279",
+      "postalCode": "89231",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 7865546.22,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-02T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Ed. Züblin AG Bereich Augsburg",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Ed. Züblin AG Bereich Augsburg"
+     },
+     "address": {
+      "streetAddress": "Beim Glaspalast 1",
+      "locality": "Augsburg",
+      "region": "DE111",
+      "postalCode": "86153",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Totalunternehmerleistungen für den Neubau der Studierendenwohnanlage \"Illerpark\" Neu-Ulm",
+     "description": "Das Studierendenwerk Augsburg beabsichtigt, im Baugebiet \"Wohnen am Illerpark\" in Neu-Ulm die schlüsselfertige Errichtung (Planung und Bau) einer Studierendenwohnanlage. Diese Studierendenwohnanlage muss gemäß des überarbeiteten Wettbewerbsergebnisses 72 Wohnheimplätze einschließlich der baurechtlich erforderlichen Stellplätze aufweisen. Die Wohnplatzgröße beträgt max. 19,5 m².  Dem Studierendenwerk wurde hierfür in Neu-Ulm, in dem Bebauungsplange-biet M 62.4 \"Wohnen am Illerpark\" in Ludwigsfeld, das Grundstück mit der Flurnummer 452/34 angeboten.  Das Studierendenwerk hat für das Vorhaben einen Realisierungswettbewerb nach RPW 2013 durchgeführt. Im Anschluss an den Wettbewerb hat das Studierendenwerk ein Verhandlungsverfahren ohne Teilnahmewettbewerb über die Beschaffung von Leistungen der Objektplanung - Leistungsbild Gebäude und Innenräume (§§ 33 ff. der Honorarordnung für Architekten und Ingenieure vom 10. Juli 2013 (BGBl. I S. 2276), die zuletzt durch Artikel 3 des Gesetzes vom 22. März 2023 (BGBl. 2023 I Nr. 88) geändert worden ist (im Folgenden nur \"HOAI\")) für das Vorhaben durchgeführt. Die Wettbewerbsteilnehmerin Drei Architekten Streule Vogel Partnerschaft mbB (im Folgenden \"Drei Architekten mbB\") hat auf ihr Angebot den Zuschlag erhalten. Die Planungsleistungen der Leistungsphasen 1 bis 4 gemäß HOAI für das Leistungsbild Objektplanung - Gebäude und Innenräume werden demgemäß von Drei Architekten mbB erbracht. Die bisherigen Planungsleistungen, die funktionale Leistungsbeschreibung sowie die Leitdetails sind den gegenständlichen Leistungen zugrunde zu legen. Im Rahmen dieses Vergabeverfahrens werden alle weiteren Planungs- und Bauleistungen für den Neubau dieser Studierendenwohnanlage im Rahmen einer stufenweisen Beauftragung an einen Totalunternehmer beauftragt. Ziel des Vorhabens ist die schlüsselfertige Errichtung (Planung und Bau) der Studierendenwohnanlage. Hierfür sind alle für das Projekt notwendigen Planungsleistungen von dem Totalunternehmer oder von ihm zu beauftragender Nachunternehmer zu erbringen. Dies umfasst insbesondere alle jeweils erforderlichen Leistungsbereiche analog der HOAI (Grundleistungen und Besondere Leistungen), wie beispielsweise die Freiflächen- und Infrastrukturplanung, die Fachplanung Technische Ausrüstung, die Fachplanung Tragwerksplanung sowie sonstige erforderliche Planungs- und Gutachterleistungen. Auch alle Bauleistungen sind vollumfänglich durch den Auftragnehmer und dessen Nachunternehmer zu erbringen und die Räumlichkeiten funktionsfähig, betriebsbereit und schlüsselfertig herzustellen.  Die Übergabe des bezugsfertigen Gebäudes sowie die Abnahme sollen spätestens zum September 2028 erfolgen.  Das Bauvorhaben hat den Fördermittelbestimmungen zu entsprechen, um eine maximale Förderung zu erzielen. Für die Beantragung und den Abruf der Fördermittel ist der Totalunternehmer nicht verantwortlich. Die Totalunternehmerleistungen werden stufenweise beauftragt.  Es sind folgende Leistungsstufen vorgesehen: - Leistungsstufe 1: alle weiteren Planungsleistungen im Sinne der Leistungsphasen 1 bis 4 analog HOAI; - Leistungsstufe 2: Planungsleistungen im Sinne der Leistungsphase 5 analog HOAI; - Leistungsstufe 3: (Planungs-/Überwachungs-)Leistungen im Sinne der Leistungsphase 8 analog HOAI sowie alle Bauleistungen. Das Studierendenwerk beauftragt mit Zuschlagserteilung zunächst nur die Leistungen der Leistungsstufe 1. Das Studierendenwerk behält sich vor, die Leistungen der weiteren Leistungsstufen (2 und 3) zu beauftragen. Das Studierendenwerk beabsichtigt, Leistungen - der Leistungsstufe 2 zu beauftragen, wenn der Bauantrag eingereicht wurde; - der Leistungsstufe 3 zu beauftragen, wenn der Fördermittelbescheid oder ein Bescheid über die Zustimmung zum vorzeitigen Vorhabenbeginn erteilt wurde. Für weitergehende Ausführungen wird auf die nachfolgenden Unterlagen verwiesen: - Funktionale Leistungsbeschreibung [Anlage 802]; - Richtlinien für die Förderung von Wohnraum für Studierende, Bekanntmachung des Bayerischen Staatsministeriums für Wohnen, Bau und Verkehr über die Richtlinien für die Förderung von Wohnraum für Studierende (StudR 2023) vom 4. August 2023 (BayMBl. Nr. 441) [Anlage 807]; - Wettbewerbsarbeit des Gewinners [Anlage 808]; - Bebauungsplan M 62.4 und 1. Änderung; - SWU Bauherrenmappe Illerpark (Anlage 909); - Qualitätshandbuch Illerpark (Anlage 908); - Schematische Stadtplanung; - Planunterlagen (Anlage 910).",
+     "contractPeriod": {
+      "startDate": "2026-10-13T00:00:00+02:00",
+      "endDate": "2028-09-15T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "TOTALUNTERNEHMERVERTRAG  STUDIERENDENWOHNANLAGE \"ILLERPARK\" NEU-ULM",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "TOTALUNTERNEHMERVERTRAG  STUDIERENDENWOHNANLAGE \"ILLERPARK\" NEU-ULM",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "85a4e25e-0126-44de-a3de-b3406417aae0",
+  "version": "01",
+  "title": "Totalunternehmerleistungen für den Neubau der Studierendenwohnanlage \"Illerpark\" Neu-Ulm",
+  "description": "Totalunternehmerleistungen mit sämtlichen erforderlichen Planungsleistungen für alle erforderlichen Leistungsbilder der HOAI für den Neubau der Studierendenwohnanlage \"Illerpark\" Neu-Ulm.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE279"
+  ],
+  "cpv": [
+   "45000000",
+   "45214700",
+   "71320000"
+  ],
+  "estimatedValue": {
+   "amount": 7865546.22,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Totalunternehmerleistungen für den Neubau der Studierendenwohnanlage \"Illerpark\" Neu-Ulm",
+    "description": "Das Studierendenwerk Augsburg beabsichtigt, im Baugebiet \"Wohnen am Illerpark\" in Neu-Ulm die schlüsselfertige Errichtung (Planung und Bau) einer Studierendenwohnanlage. Diese Studierendenwohnanlage muss gemäß des überarbeiteten Wettbewerbsergebnisses 72 Wohnheimplätze einschließlich der baurechtlich erforderlichen Stellplätze aufweisen. Die Wohnplatzgröße beträgt max. 19,5 m².  Dem Studierendenwerk wurde hierfür in Neu-Ulm, in dem Bebauungsplange-biet M 62.4 \"Wohnen am Illerpark\" in Ludwigsfeld, das Grundstück mit der Flurnummer 452/34 angeboten.  Das Studierendenwerk hat für das Vorhaben einen Realisierungswettbewerb nach RPW 2013 durchgeführt. Im Anschluss an den Wettbewerb hat das Studierendenwerk ein Verhandlungsverfahren ohne Teilnahmewettbewerb über die Beschaffung von Leistungen der Objektplanung - Leistungsbild Gebäude und Innenräume (§§ 33 ff. der Honorarordnung für Architekten und Ingenieure vom 10. Juli 2013 (BGBl. I S. 2276), die zuletzt durch Artikel 3 des Gesetzes vom 22. März 2023 (BGBl. 2023 I Nr. 88) geändert worden ist (im Folgenden nur \"HOAI\")) für das Vorhaben durchgeführt. Die Wettbewerbsteilnehmerin Drei Architekten Streule Vogel Partnerschaft mbB (im Folgenden \"Drei Architekten mbB\") hat auf ihr Angebot den Zuschlag erhalten. Die Planungsleistungen der Leistungsphasen 1 bis 4 gemäß HOAI für das Leistungsbild Objektplanung - Gebäude und Innenräume werden demgemäß von Drei Architekten mbB erbracht. Die bisherigen Planungsleistungen, die funktionale Leistungsbeschreibung sowie die Leitdetails sind den gegenständlichen Leistungen zugrunde zu legen. Im Rahmen dieses Vergabeverfahrens werden alle weiteren Planungs- und Bauleistungen für den Neubau dieser Studierendenwohnanlage im Rahmen einer stufenweisen Beauftragung an einen Totalunternehmer beauftragt. Ziel des Vorhabens ist die schlüsselfertige Errichtung (Planung und Bau) der Studierendenwohnanlage. Hierfür sind alle für das Projekt notwendigen Planungsleistungen von dem Totalunternehmer oder von ihm zu beauftragender Nachunternehmer zu erbringen. Dies umfasst insbesondere alle jeweils erforderlichen Leistungsbereiche analog der HOAI (Grundleistungen und Besondere Leistungen), wie beispielsweise die Freiflächen- und Infrastrukturplanung, die Fachplanung Technische Ausrüstung, die Fachplanung Tragwerksplanung sowie sonstige erforderliche Planungs- und Gutachterleistungen. Auch alle Bauleistungen sind vollumfänglich durch den Auftragnehmer und dessen Nachunternehmer zu erbringen und die Räumlichkeiten funktionsfähig, betriebsbereit und schlüsselfertig herzustellen.  Die Übergabe des bezugsfertigen Gebäudes sowie die Abnahme sollen spätestens zum September 2028 erfolgen.  Das Bauvorhaben hat den Fördermittelbestimmungen zu entsprechen, um eine maximale Förderung zu erzielen. Für die Beantragung und den Abruf der Fördermittel ist der Totalunternehmer nicht verantwortlich. Die Totalunternehmerleistungen werden stufenweise beauftragt.  Es sind folgende Leistungsstufen vorgesehen: - Leistungsstufe 1: alle weiteren Planungsleistungen im Sinne der Leistungsphasen 1 bis 4 analog HOAI; - Leistungsstufe 2: Planungsleistungen im Sinne der Leistungsphase 5 analog HOAI; - Leistungsstufe 3: (Planungs-/Überwachungs-)Leistungen im Sinne der Leistungsphase 8 analog HOAI sowie alle Bauleistungen. Das Studierendenwerk beauftragt mit Zuschlagserteilung zunächst nur die Leistungen der Leistungsstufe 1. Das Studierendenwerk behält sich vor, die Leistungen der weiteren Leistungsstufen (2 und 3) zu beauftragen. Das Studierendenwerk beabsichtigt, Leistungen - der Leistungsstufe 2 zu beauftragen, wenn der Bauantrag eingereicht wurde; - der Leistungsstufe 3 zu beauftragen, wenn der Fördermittelbescheid oder ein Bescheid über die Zustimmung zum vorzeitigen Vorhabenbeginn erteilt wurde. Für weitergehende Ausführungen wird auf die nachfolgenden Unterlagen verwiesen: - Funktionale Leistungsbeschreibung [Anlage 802]; - Richtlinien für die Förderung von Wohnraum für Studierende, Bekanntmachung des Bayerischen Staatsministeriums für Wohnen, Bau und Verkehr über die Richtlinien für die Förderung von Wohnraum für Studierende (StudR 2023) vom 4. August 2023 (BayMBl. Nr. 441) [Anlage 807]; - Wettbewerbsarbeit des Gewinners [Anlage 808]; - Bebauungsplan M 62.4 und 1. Änderung; - SWU Bauherrenmappe Illerpark (Anlage 909); - Qualitätshandbuch Illerpark (Anlage 908); - Schematische Stadtplanung; - Planunterlagen (Anlage 910).",
+    "cpv": [
+     "45000000",
+     "45214700",
+     "71320000"
+    ],
+    "nuts": [
+     "DE279"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-13+02:00",
+    "plannedEnd": "2028-09-15+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "1. Persönliche Erfahrung des Projektteams",
+      "description": "Bewertet wird die Erfahrung des Projektleiters und des stellvertretenden Projektleiters (gemeinsam Projektteam) anhand je mindestens eines (1) vergleichbaren persönlichen Referenzprojekts für ein Bauwerk (Neubau oder Generalsanierung). a) Der Projektleiter muss das für ihn angegebene persönliche Referenzprojekt als Projektleiter geleitet haben. b) Der stellvertretende Projektleiter muss das für ihn angegebene persönliche Referenzprojekt als stellvertretender Projektleiter oder als Projektleiter geleitet haben. c) Die (weiteren) Mindestanforderungen (i.) und die Bewertungssystematik (ii.) an das persönliche Referenzprojekt des Projektleiters und an das persönliche Referenzprojekt des stellvertretenden Projektleiters sind jeweils wie folgt:  (i.) Das jeweilige persönliche Referenzprojekt muss die Erbringung von Totalunternehmerleistungen (Neubau oder Generalsanierung) umfasst haben.  Damit das persönliche Referenzprojekt gewertet wird, muss das persönliche Referenzprojekt mindestens folgende Anforderungen erfüllen: - Gegenstand der Leistungen waren Totalunternehmerleistungen mit mindestens folgendem Inhalt: o schlüsselfertiger Bau (Neubau oder Generalsanierung); o mindestens Bauleistungen mit den Gewerken Baumeisterarbeiten und Ausbaugewerken; o Planungsleistungen mindestens der Leistungsphase 5 im Sinne der HOAI (gilt für den Projektleiter und für den stellvertretenden Projektleiter)  o Bauabnahme ist eingetreten zwischen dem 01.01.2020 bis zum Ablauf der Angebotsfrist (bei den indikativen Erstangeboten wird auf die Frist zur Abgabe dieser indikativen Erstangebote abgestellt; bei den indikativen Folgeangeboten wird auf die Frist zur Abgabe dieser indikativen Folgeangebote abgestellt; bei den endgültigen Angeboten wird auf die Frist zur Abgabe dieser endgültigen Angebote abgestellt) in dem gegenständlichen Verfahren. - Auftragswert (brutto) [vereinnahmte Vergütung - EUR (brutto) für die Bauleistungen und Planungsleistungen, die der Projektleiter als Projektleiter [bzw. der stellvertretende Projektleiter als Projektleiter oder stellvertretender Projektleiter] geleitet hat  o von mindestens 7.000.000,- EUR (brutto); - Brutto-Grundfläche (kurz: BGF) nach DIN 277:2021-08 [Summe der Netto Raumfläche (NRF) und der Konstruktions-Grundfläche (KGF)] des Referenzprojekts für die von dem Projektleiter und dem stellvertretenden Projektleiter erbrachten Leistungen  o von mindestens 1000 m². Erfüllt das persönliche Referenzprojekt des Projektleiters und / oder das persönliche Referenzprojekt des stellvertretenden Projektleiters nicht die oben genannten Mindestanforderungen führt dies zum Ausschluss des Angebots. (ii.) Die Bewertungssystematik ist sowohl für das persönliche Referenzprojekt des Projektleiters als auch für das persönliche Referenzprojekt des stellvertretenden Projektleiters wie folgt: 1. Auftragswert (brutto) [vereinnahmte Vergütung - EUR (brutto) für die Bauleistungen und Planungsleistungen, die der Projektleiter als Projektleiter (bzw. der stellvertretende Projektleiter als Projektleiter oder stellvertretender Projektleiter) geleitet hat];  >= 9.360.000 EUR (brutto): 5 Punkte = 7 Mio. EUR (brutto): 0 Punkte < 7 Mio. EUR (brutto): Kein geeignetes Referenzprojekt; führt zum Ausschluss des Angebots Soweit der Auftragswert zwischen 7 Mio. EUR (brutto) und 9.360.000 EUR (brutto) liegt, werden die Punkte durch Interpolation vergeben, mathematisch gerundet auf die zweite Nachkommastelle. Beispiel: Bei einem Auftragswert in Höhe von 8.180.000 EUR (brutto) erhält der Bieter 2,50 Punkte. 2. Brutto-Grundfläche (BGF) nach DIN 277:2021-08 [Summe der Netto-Raumfläche (NRF) und der Konstruktions-Grundfläche (KGF)] des persönlichen Referenzprojekts  >= 1.500 m²: 5 Punkte = 1000 m²: 0 Punkte < 1000 m²: Kein geeignetes Referenzprojekt; führt zum Ausschluss des Angebots Soweit die Brutto-Grundfläche (BGF) zwischen 1.000 m² und 1.500 m² liegt, werden die Punkte durch Interpolation vergeben, mathematisch gerundet auf zwei Nachkommastellen. Beispiel: Bei einer Brutto-Grundfläche (BGF) in Höhe von 1250 m² erhält der Bieter 2,50 Punkte. 3. Art der Nutzung Studierendenwohnheim [Ein Studentenwohnheim oder Studierendenwohnheim (teilweise auch Studentenwohnanlage, Studentendorf oder kurz Studentenheim genannt) ist eine Unterkunft für Studierende während des Studiums.]: 5 Punkte Gemeinschaftliches Wohnen (Altenwohnheim [Ein Altenheim oder Altersheim (auch Feierabendheim, Feierabendhaus, Pensionistenheim, Seniorenheim oder Seniorenresidenz genannt) ist eine Wohneinrichtung für alte Menschen, in der sie Betreuung und Pflege erhalten können.]; Jugendwohnheime [Wohnheim für berufstätige oder in Ausbildung stehende Jugendliche, die nicht zu Hause wohnen können.]): 3 Punkte kein Studierendenwohnheim; kein gemeinschaftliches Wohnen: 0 Punkte Die erzielten Punkte für den Auftragswert (brutto) (1.), die Brutto-Grundfläche (BGF) (2.) und die Art der Nutzung (3.) werden addiert.  Je eingereichtem persönlichem Referenzprojekt können maximal 15,00 Punkte (5,00 + 5,00 + 5,00) erzielt werden. Bei maximal einem (1) persönlichen Referenzprojekt jeweils für den Projektleiter und den stellvertretenden Projektleiter kann der Bieter somit maximal insgesamt 30,00 Punkte (2 x (5,00 + 5,00 + 5,00)) erzielen. Weiterführende Angaben unter: Fortführung: Persönliche Erfahrung des Projektteams.",
+      "weight": 15
+     },
+     {
+      "type": "quality",
+      "name": "Fortführung: Persönliche Erfahrung des Projektteams",
+      "description": "Für den Fall, dass mit dem Angebot mehr als ein (1) geeignetes persönliches Referenzprojekt jeweils für den Projektleiter und stellvertretenden Projektleiter eingereicht wird, wird jeweils das chronologisch erste geeignete persönliche Referenzprojekt gewertet. Zur Bewertung hat der Bieter die gelb markierten Felder in der Anlage 603 \"Erfahrung des Projektteams\" vollständig auszufüllen und als Teil des Angebots ausschließlich in elektronischer Form einzureichen. Je persönlichem Referenzprojekt sind zwei (2) zusätzliche Projektblätter (also maximal zwei (2) einseitig bedruckte DIN-A4-Seiten), die Fotos sowie eine Darstellung des persönlichen Referenzprojektes beinhalten, zu rein informatorischen Zwecken gestattet. Diese Projektblätter sind jedoch nicht Teil der Bewertung. Bewertet werden ausschließlich die Angaben des Bieters zu dem persönlichen Referenzprojekt in der Anlage 603 \"Erfahrung des Projektteams\". Im Falle der Auftragserteilung verpflichtet sich der Auftragnehmer, die Leistungen durch den benannten projektverantwortlichen Projektleiter und den benannten stellvertretenden Projektleiter zu erbringen. Der Projektleiter und der stellvertretende Projektleiter dürfen nur aus wichtigem Grund und nur bei Zustimmung durch den Auftraggeber in Textform ausgetauscht werden. Im Falle des Austauschs muss der neue Projektleiter bzw. der neue stellvertretende Projektleiter mindestens genauso erfahren und geeignet sein wie die zu ersetzende Person. Es müssten also mindestens genauso viele Punkte bei der Bewertung der Erfahrung erzielt worden sein, falls diese Person bereits im Rahmen des Vergabeverfahrens (je nach Ersetzung) als Projektleiter oder als stellvertretender Projektleiter angeboten worden wäre. HINWEIS: Das Zuschlagskriterium \"Persönliche Erfahrung des Projektteams\" ist für alle Leistungsstufen, auch für solche, die nicht mit Erteilung des Zuschlags unmittelbar beauftragt werden, wertungsrelevant. HINWEIS: Die Punkte werden multipliziert mit dem Gewichtungsfaktor 2,50; mathematisch gerundet auf zwei Nachkommastellen.  Maximal können für das Zuschlagskriterium \"Persönliche Erfahrung des Projektteams\" 75,00 qualitative Leistungspunkte erzielt werden.",
+      "weight": 0
+     },
+     {
+      "type": "quality",
+      "name": "2. Ausführungskonzept",
+      "description": "Bewertet wird ein von dem Bieter einzureichendes auftragsbezogenes Ausführungskonzept. In dem auftragsbezogenen Ausführungskonzept hat der Bieter anhand konkreter zukünftiger Maßnahmen darzustellen, wie er im Falle der Auftragserteilung an ihn, konkret die Leistungen ausführen wird, um das übergeordnete Ziel der termingerechten Fertigstellung, durch die möglichst rasche Erbringung der Planungs- und Bauleistungen sowie eine möglichst frühzeitige Abnahme erreicht wird, sicherzustellen. Dem Auftraggeber ist es wichtig, dass der Bieter möglichst viele vergleichbare Leistungen bereits erbracht hat, sei es  - selbst,  - durch in dem gegenständlichen Vergabeverfahren angebotene Mitglieder der Bietergemeinschaft  oder  - durch in dem gegenständlichen Vergabeverfahren vorliegend angebotene Unterauftragnehmer. Daher soll der Bieter darauf eingehen, welche Unternehmen für welche Leistungen vorgesehen sind und inwieweit der Auftragnehmer mit diesen Unternehmen in der Vergangenheit bereits vergleichbare Leistungen ausgeführt hat, damit vorliegend das übergeordnete Ziel der termingerechten Planungs- und Bauleistungen sichergestellt wird. (Unterkriterium 1: 0 bis 5 Bewertungspunkte) Das Ausführungskonzept darf einen Umfang von maximal drei (3) DIN A4-Seiten für das Unterkriterium nicht überschreiten. Angaben ab Seite 4 bleiben bei der Bewertung des Ausführungskonzeptes unberücksichtigt. Eine inhaltsleere Titelseite bleibt bei der Bewertung der zulässigen Seitenanzahl und des Ausführungskonzeptes unberücksichtigt.     Der Bieter soll das \"Ausführungskonzept\" wie folgt bezeichnen: Anlage 602 - Ausführungskonzept. Sollte das Ausführungskonzept fehlen, führt dies zwingend zum Ausschluss des Angebots. Eine Nachforderung wäre insoweit nicht möglich. Im Falle der Auftragserteilung ist der Auftragnehmer verpflichtet, die Leistungen entsprechend seines Ausführungskonzepts zu erbringen, soweit der Auftraggeber nicht ein davon abweichendes Vorgehen gegenüber dem Auftragnehmer geltend macht. Die in dem Ausführungskonzept enthaltenen Angaben gelten als vereinbarte Beschaffenheit. HINWEIS: Das Zuschlagskriterium \"Ausführungskonzept\" ist für alle Leistungsstufen, auch für solche, die nicht mit Erteilung des Zuschlags unmittelbar beauftragt werden, wertungsrelevant. HINWEIS: Die Bewertungspunkte (maximal 5 Bewertungspunkte) werden multipliziert mit dem Gewichtungsfaktor 15,00;  mathematisch gerundet auf zwei Nachkommastellen .  Maximal können für das Zuschlagskriterium \"Ausführungskonzept\" 75,00 qualitative Leistungspunkte erzielt werden.",
+      "weight": 15
+     },
+     {
+      "type": "price",
+      "name": "3. Kalkulatorischer Angebotspreis (brutto)",
+      "description": "Wertungsrelevanter Preis (P) = kalkulatorischer Angebotspreis (brutto) gemäß Anlage 803 \"Preisblatt\".  HINWEIS: Das Zuschlagskriterium \"Kalkulatorischer Angebotspreis (brutto)\" ist für alle Leistungsstufen, auch für solche, die nicht mit Erteilung des Zuschlags unmittelbar beauftragt werden, wertungsrelevant.",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

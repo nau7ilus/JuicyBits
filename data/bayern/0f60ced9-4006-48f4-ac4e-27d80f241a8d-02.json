@@ -1,0 +1,233 @@
+{
+ "id": "0f60ced9-4006-48f4-ac4e-27d80f241a8d-02",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "0f60ced9-4006-48f4-ac4e-27d80f241a8d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0f60ced9-4006-48f4-ac4e-27d80f241a8d",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:0f60ced9-4006-48f4-ac4e-27d80f241a8d-02.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:0f60ced9-4006-48f4-ac4e-27d80f241a8d-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0f60ced9-4006-48f4-ac4e-27d80f241a8d?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Übernahme, Transport und Verwertung von  Grüngut aus dem Landkreis Neuburg-Schrobenhausen",
+  "buyer": "Landkreisbetriebe Neuburg-Schrobenhausen",
+  "cpv": [
+   "90500000"
+  ],
+  "nuts": [
+   "DE21I"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-22bfc3e8-41e6-455d-a78e-42a4ec2f20c0",
+  "id": "0f60ced9-4006-48f4-ac4e-27d80f241a8d",
+  "date": "2026-10-27T03:10:26Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreisbetriebe Neuburg-Schrobenhausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10850",
+     "legalName": "Landkreisbetriebe Neuburg-Schrobenhausen"
+    },
+    "address": {
+     "streetAddress": "Sehensander Weg 23",
+     "locality": "Neuburg a. d. Donau",
+     "region": "DE21I",
+     "postalCode": "86633",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0e98ad92-0476-4e82-9689-364adc55e2c3",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Högl Kompost- und Recycling GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE161852996",
+     "legalName": "Högl Kompost- und Recycling GmbH"
+    },
+    "address": {
+     "locality": "Volkenschwand",
+     "region": "DE226",
+     "postalCode": "84106",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreisbetriebe Neuburg-Schrobenhausen",
+   "id": "10850",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreisbetriebe Neuburg-Schrobenhausen"
+   },
+   "address": {
+    "streetAddress": "Sehensander Weg 23",
+    "locality": "Neuburg a. d. Donau",
+    "region": "DE21I",
+    "postalCode": "86633",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "22bfc3e8-41e6-455d-a78e-42a4ec2f20c0",
+   "title": "Übernahme, Transport und Verwertung von  Grüngut aus dem Landkreis Neuburg-Schrobenhausen",
+   "description": "Übernahme, Transport und Verwertung von Grüngut aus dem Landkreis Neuburg-Schrobenhausen",
+   "procuringEntity": {
+    "name": "Landkreisbetriebe Neuburg-Schrobenhausen",
+    "id": "10850"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "region": "DE21I",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Högl Kompost- und Recycling GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Högl Kompost- und Recycling GmbH"
+     },
+     "address": {
+      "locality": "Volkenschwand",
+      "region": "DE226",
+      "postalCode": "84106",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Übernahme, Transport und Verwertung von  Grüngut aus dem Landkreis Neuburg-Schrobenhausen",
+     "description": "• Erfassung und Übernahme von Grüngut an den Sammelstellen des Auftraggebers im Landkreis Neu-burg-Schrobenhausen sowie Transport und Verwiegung bzw. Massenfeststellung\n• Vorbereitung zur Vermarktung / Verwertung von Grüngut\n• Vermarktung / Verwertung von Grüngut\n• Ordnungsgemäße Entsorgung aller anfallenden Stör- und Reststoffe"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-22T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-21T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "0f60ced9-4006-48f4-ac4e-27d80f241a8d",
+  "version": "02",
+  "title": "Übernahme, Transport und Verwertung von  Grüngut aus dem Landkreis Neuburg-Schrobenhausen",
+  "description": "Übernahme, Transport und Verwertung von Grüngut aus dem Landkreis Neuburg-Schrobenhausen",
+  "procedureType": "open",
+  "nuts": [
+   "DE21I"
+  ],
+  "cpv": [
+   "90500000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Übernahme, Transport und Verwertung von  Grüngut aus dem Landkreis Neuburg-Schrobenhausen",
+    "description": "• Erfassung und Übernahme von Grüngut an den Sammelstellen des Auftraggebers im Landkreis Neu-burg-Schrobenhausen sowie Transport und Verwiegung bzw. Massenfeststellung\n• Vorbereitung zur Vermarktung / Verwertung von Grüngut\n• Vermarktung / Verwertung von Grüngut\n• Ordnungsgemäße Entsorgung aller anfallenden Stör- und Reststoffe",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE21I"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

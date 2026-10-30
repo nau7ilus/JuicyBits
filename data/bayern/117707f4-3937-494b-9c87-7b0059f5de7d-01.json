@@ -5,14 +5,14 @@
   "noticeId": "117707f4-3937-494b-9c87-7b0059f5de7d",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=117707f4-3937-494b-9c87-7b0059f5de7d",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:117707f4-3937-494b-9c87-7b0059f5de7d-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:117707f4-3937-494b-9c87-7b0059f5de7d-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/117707f4-3937-494b-9c87-7b0059f5de7d?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1060-001 Estricharbeiten",
   "buyer": "Med. Einrichtungen des Bez. Oberpfalz - KU",
   "cpv": [
@@ -185,5 +185,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "117707f4-3937-494b-9c87-7b0059f5de7d",
+  "version": "01",
+  "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1060-001 Estricharbeiten",
+  "description": "Aufstockung Haus 10 - BT B\n- Trockenestrich inkl. Dämmung und Vorarbeiten            ca. 317 m²\n       \n\nAufstockung Haus 10 - BT C\n- Trockenestrich inkl. Dämmung und Vorarbeiten            ca. 1.080 m²",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "45262320"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Gewerk 1060-001 Estricharbeiten",
+    "description": "Aufstockung Haus 10 - BT B\n- Trockenestrich inkl. Dämmung und Vorarbeiten            ca. 317 m²\n       \n\nAufstockung Haus 10 - BT C\n- Trockenestrich inkl. Dämmung und Vorarbeiten            ca. 1.080 m²",
+    "cpv": [
+     "45262320"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-05-10+02:00",
+    "plannedEnd": "2027-06-12+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

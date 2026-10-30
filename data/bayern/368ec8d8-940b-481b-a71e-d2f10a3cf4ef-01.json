@@ -1,0 +1,237 @@
+{
+ "id": "368ec8d8-940b-481b-a71e-d2f10a3cf4ef-01",
+ "source": {
+  "pubDay": "2026-10-19",
+  "noticeId": "368ec8d8-940b-481b-a71e-d2f10a3cf4ef",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=368ec8d8-940b-481b-a71e-d2f10a3cf4ef",
+  "ocdsFile": "notices_2026-10-19_OCDS.zip:368ec8d8-940b-481b-a71e-d2f10a3cf4ef-01.json",
+  "eformsFile": "notices_2026-10-19_eForms.zip:368ec8d8-940b-481b-a71e-d2f10a3cf4ef-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/368ec8d8-940b-481b-a71e-d2f10a3cf4ef?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Belieferung mit Berufskleidung inklusive Wäscheservice für die Hochschulgastronomie",
+  "buyer": "Studierendenwerk München Oberbayern",
+  "cpv": [
+   "18110000",
+   "98310000",
+   "98311000",
+   "98312000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8f637407-5a96-4e88-9534-443105847018",
+  "id": "368ec8d8-940b-481b-a71e-d2f10a3cf4ef",
+  "date": "2026-10-19T00:00:00+02:00",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Studierendenwerk München Oberbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9115114-11",
+     "legalName": "Studierendenwerk München Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Leopoldstraße 15",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80802",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Studierendenwerk München Oberbayern",
+   "id": "09-9115114-11",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Studierendenwerk München Oberbayern"
+   },
+   "address": {
+    "streetAddress": "Leopoldstraße 15",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80802",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8f637407-5a96-4e88-9534-443105847018",
+   "title": "Belieferung mit Berufskleidung inklusive Wäscheservice für die Hochschulgastronomie",
+   "description": "Gegenstand der Beschaffung ist eine Rahmenvereinbarung mit einem Unternehmen über die Versorgung der Betriebe der Hochschulgastronomie des Studierendenwerks München Oberbayern mit Berufskleidung im Mietmodell einschließlich Wäscheservice. Die Leistung umfasst die Übernahme des vorhandenen Bekleidungsbestands, die Bereitstellung und Ersatzbeschaffung von Kleidung sowie Reinigung, Instandhaltung, Kennzeichnung, regelmäßige Abholung und Lieferung einschließlich Schrankfachservice.\n\nDie Rahmenvereinbarung wird für 4 Jahre geschlossen. Der Leistungszeitraum beginnt am 15.03.2027 und endet spätestens am 14.03.2031. Der Höchstwert beträgt 1.810.000,- Euro netto. Bei Erreichen dieses Höchstwerts endet die Rahmenvereinbarung auch vor Ablauf der vereinbarten Laufzeit. Eine Mindestabnahme wird nicht zugesichert.\n\nFür weitere Einzelheiten zu Art und Umfang der Leistungen wird auf die Leistungsbeschreibung, das Leistungsverzeichnis sowie die weiteren Vergabeunterlagen verwiesen.",
+   "procuringEntity": {
+    "name": "Studierendenwerk München Oberbayern",
+    "id": "09-9115114-11"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "18110000",
+      "description": "Occupational clothing"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "98310000",
+       "description": "Washing and dry-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Leopoldstraße 15",
+      "locality": "Muenchen",
+      "region": "DE212",
+      "postalCode": "80802",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 1645471.15,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "additionalProcurementCategories": [
+    "services"
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304831",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Belieferung mit Berufskleidung inklusive Wäscheservice für die Hochschulgastronomie",
+     "description": "Gegenstand der Beschaffung ist eine Rahmenvereinbarung mit einem Unternehmen über die Versorgung der Betriebe der Hochschulgastronomie des Studierendenwerks München Oberbayern mit Berufskleidung im Mietmodell einschließlich Wäscheservice. Die Leistung umfasst die Übernahme des vorhandenen Bekleidungsbestands, die Bereitstellung und Ersatzbeschaffung von Kleidung sowie Reinigung, Instandhaltung, Kennzeichnung, regelmäßige Abholung und Lieferung einschließlich Schrankfachservice.\n\nDie Rahmenvereinbarung wird für 4 Jahre geschlossen. Der Leistungszeitraum beginnt am 15.03.2027 und endet spätestens am 14.03.2031. Der Höchstwert beträgt 1.810.000,- Euro netto. Bei Erreichen dieses Höchstwerts endet die Rahmenvereinbarung auch vor Ablauf der vereinbarten Laufzeit. Eine Mindestabnahme wird nicht zugesichert.\n\nFür weitere Einzelheiten zu Art und Umfang der Leistungen wird auf die Leistungsbeschreibung, das Leistungsverzeichnis sowie die weiteren Vergabeunterlagen verwiesen.",
+     "value": {
+      "amount": 1645471.15,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-15T00:00:00+01:00",
+      "endDate": "2031-03-14T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "368ec8d8-940b-481b-a71e-d2f10a3cf4ef",
+  "version": "01",
+  "title": "Belieferung mit Berufskleidung inklusive Wäscheservice für die Hochschulgastronomie",
+  "description": "Gegenstand der Beschaffung ist eine Rahmenvereinbarung mit einem Unternehmen über die Versorgung der Betriebe der Hochschulgastronomie des Studierendenwerks München Oberbayern mit Berufskleidung im Mietmodell einschließlich Wäscheservice. Die Leistung umfasst die Übernahme des vorhandenen Bekleidungsbestands, die Bereitstellung und Ersatzbeschaffung von Kleidung sowie Reinigung, Instandhaltung, Kennzeichnung, regelmäßige Abholung und Lieferung einschließlich Schrankfachservice.\n\nDie Rahmenvereinbarung wird für 4 Jahre geschlossen. Der Leistungszeitraum beginnt am 15.03.2027 und endet spätestens am 14.03.2031. Der Höchstwert beträgt 1.810.000,- Euro netto. Bei Erreichen dieses Höchstwerts endet die Rahmenvereinbarung auch vor Ablauf der vereinbarten Laufzeit. Eine Mindestabnahme wird nicht zugesichert.\n\nFür weitere Einzelheiten zu Art und Umfang der Leistungen wird auf die Leistungsbeschreibung, das Leistungsverzeichnis sowie die weiteren Vergabeunterlagen verwiesen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "18110000",
+   "98311000",
+   "98312000",
+   "98310000"
+  ],
+  "estimatedValue": {
+   "amount": 1645471.15,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Belieferung mit Berufskleidung inklusive Wäscheservice für die Hochschulgastronomie",
+    "description": "Gegenstand der Beschaffung ist eine Rahmenvereinbarung mit einem Unternehmen über die Versorgung der Betriebe der Hochschulgastronomie des Studierendenwerks München Oberbayern mit Berufskleidung im Mietmodell einschließlich Wäscheservice. Die Leistung umfasst die Übernahme des vorhandenen Bekleidungsbestands, die Bereitstellung und Ersatzbeschaffung von Kleidung sowie Reinigung, Instandhaltung, Kennzeichnung, regelmäßige Abholung und Lieferung einschließlich Schrankfachservice.\n\nDie Rahmenvereinbarung wird für 4 Jahre geschlossen. Der Leistungszeitraum beginnt am 15.03.2027 und endet spätestens am 14.03.2031. Der Höchstwert beträgt 1.810.000,- Euro netto. Bei Erreichen dieses Höchstwerts endet die Rahmenvereinbarung auch vor Ablauf der vereinbarten Laufzeit. Eine Mindestabnahme wird nicht zugesichert.\n\nFür weitere Einzelheiten zu Art und Umfang der Leistungen wird auf die Leistungsbeschreibung, das Leistungsverzeichnis sowie die weiteren Vergabeunterlagen verwiesen.",
+    "cpv": [
+     "18110000",
+     "98310000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-15+01:00",
+    "plannedEnd": "2031-03-14+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 1645471.15,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Der Bieter hat mit dem Angebot mindestens drei (3) vergleichbare unternehmensbezogene Referenzprojekte nachzuweisen.\n\nDie Anforderungen an die unternehmensbezogenen Referenzprojekte ergeben sich aus Ziff. 1 der Unterlage „Eigenerklärung zur Eignung_Nichtvorliegen von Ausschlussgründen“.\n\nDer Bieter hat die dortigen Felder unter „Referenz 1“ bis „Referenz 3“ vollständig auszufüllen, die zutreffenden Angaben anzukreuzen und die ausgefüllte Unterlage mit dem Angebot einzureichen.\n\nUm einen ausreichenden Wettbewerb sicherzustellen, wird darauf hingewiesen, dass auch einschlägige Leistungen berücksichtigt werden, die mehr als drei (3) Jahre zurückliegen (vgl. § 46 Abs. 3 Nr. 1 Hs. 2 VgV), weil der Zeitraum vom 01.01.2023 bis zum Ablauf der Frist zur Abgabe der Angebote mehr als 36 Monate beträgt.\n\nKann ein Bieter nicht mindestens drei (3) vergleichbare unternehmensbezogene Referenzprojekte angeben, die die aufgestellten Mindestanforderungen erfüllen, führt dies zum Ausschluss des Angebots.\n\nBei Bietergemeinschaften sind in Summe mindestens drei (3) vergleichbare unternehmensbezogene Referenzprojekte anzugeben, die die aufgestellten Anforderungen erfüllen; außerdem muss klar erkennbar sein, welche Leistungen in welchem unternehmensbezogenen Referenzprojekt welches Mitglied der Bietergemeinschaft erbracht hat. Ausschließlich diejenigen unternehmensbezogenen Referenzprojekte der Mitglieder der Bietergemeinschaft, die die Mindestanforderungen nach Ziff. 1 der Unterlage „Eigenerklärung zur Eignung_Nichtvorliegen von Ausschlussgründen“ erfüllen, werden der Bietergemeinschaft zugerechnet.\n\n2. Ordnungsgemäße Informationen\nEine Übermittlung fahrlässig oder vorsätzlich irreführender Informationen kann ausweislich § 124 Abs. 1 Nr. 9 lit. c) des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) zum Ausschluss von Vergabeverfahren durch öffentliche Auftraggeber führen.\n\n3. Hinweise\nDie vorstehenden Anforderungen sind Mindestanforderungen an die unternehmensbezogenen Referenzprojekte.\n\nDer Bieter, die Mitglieder der Bietergemeinschaft und soweit relevant der eignungsverleihende Unterauftragnehmer haben für diese Erklärung die Unterlage „Eigenerklärung zur Eig-nung_Nichtvorliegen von Ausschlussgründen“, dort Ziff. 1, zu verwenden.\n\nDer Bieter / das vertretungsberechtigte Mitglied der Bietergemeinschaft hat diese Unterlage ausgefüllt als Bestandteil des Angebots einzureichen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Produkttest Neuware:",
+      "description": "Produkttest Neuware:\n\nDie angebotenen Musterteile werden als Neuware durch sechs Testpersonen unter realen Arbeitsbedingungen getragen und bewertet. Aus den Einzelbewertungen werden Mittelwerte je Kleidungsstück und anschließend eine Gesamtbewertung gebildet, die auf maximal zehn Punkte umgerechnet wird. Einzelheiten ergeben sich aus der Unterlage „Wertungskriterien“, insbesondere dem Bewertungs-bogen und dem Bewertungsmaßstab, sowie aus Ziff. 6 der Leistungsbeschreibung.\n\nDie für den jeweiligen Produkttest geforderten Muster müssen vollständig bis zum Ablauf der Angebotsfrist beim Auftraggeber eingegangen sein. Sollten die für den jeweiligen Produkttest geforderten Muster fehlen, führt dies zwingend zum Ausschluss des Angebots. Eine Nachforderung ist insoweit nicht möglich. Die Einzelheiten zur Einreichung ergeben sich aus Ziff. 6 und 6.1 der Leistungsbeschreibung.",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Produkttest nach fünf vollständigen Waschzyklen",
+      "description": "Produkttest nach fünf vollständigen Waschzyklen:\n\nDie angebotenen Musterteile werden nach fünf vollständigen Waschzyklen durch sechs Testpersonen unter realen Arbeitsbedingungen getragen und bewertet. Aus den Einzelbewertungen werden Mittelwerte je Kleidungsstück und anschließend eine Gesamtbewertung gebildet, die auf maximal 20 Punkte umgerechnet wird. Einzelheiten ergeben sich aus der Unterlage „Wertungskriterien“, insbesondere dem Bewertungsbogen und dem Bewertungsmaßstab, sowie aus Ziff. 6 der Leistungsbeschreibung.\nDie für den jeweiligen Produkttest geforderten Muster müssen vollständig bis zum Ablauf der Angebotsfrist beim Auftraggeber eingegangen sein. Sollten die für den jeweiligen Produkttest geforderten Muster fehlen, führt dies zwingend zum Ausschluss des Angebots. Eine Nachforderung ist insoweit nicht möglich. Die Einzelheiten zur Einreichung ergeben sich aus Ziff. 6 und 6.1 der Leistungsbeschreibung.",
+      "weight": 20
+     },
+     {
+      "type": "price",
+      "name": "Wertungsrelevanter Preis (P) = Gesamtsumme brutto",
+      "description": "Wertungsrelevanter Preis (P) = Gesamtsumme brutto:\n\nBewertet wird der im Leistungsverzeichnis ausgewiesene Gesamtpreis brutto (wertungsrelevanter Preis (P) einschließlich der Kosten der Wochenpauschalen für vier Jahre und der kalkulatorischen Restwertzahlungen. Das Angebot mit dem niedrigsten Gesamtpreis (brutto) erhält 70 Punkte; die übrigen Angebote werden nach der bekannt gemachten Verhältnisformel bewertet. Einzelheiten zur Preisberechnung und Punktevergabe ergeben sich aus dem Leistungsverzeichnis und der Unterlage „Wertungskriterien“.\n\nSollte das Leistungsverzeichnis fehlen, führt dies zwingend zum Ausschluss des Angebots. Eine Nachforderung ist insoweit nicht möglich.",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

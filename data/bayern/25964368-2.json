@@ -5,14 +5,14 @@
   "noticeId": "25964368",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25964368",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25964368-2.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25964368-2.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25964368?format=ocds&noticeVersion=2"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Kommunikationskampagne Discover N.O.W. ? Vergabe in 3 Losen?",
   "buyer": "Naturpark Nördlicher Oberpfälzer Wald e.V.",
   "cpv": [
@@ -26,7 +26,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-11-25T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -134,5 +134,53 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25964368",
+  "version": "2",
+  "title": "Kommunikationskampagne Discover N.O.W. ? Vergabe in 3 Losen?",
+  "description": "Der Naturpark NOW e. V. plant eine Kommunikationskampagne im Rahmen des LEADER-Projekts ?Discover N.O.W. ? Natur, Kultur & Genuss im Naturpark\"\n\nDetaillierte Informationen zum Umfang/Inhalt der geforderten Leistungen können der Leistungsbeschreibung bzw. dem Leistungsverzeichnis und den zugehörigen Vergabeunterlagen entnommen werden.\n\nKommunikationskampagne Discover N.O.W. ? Vergabe in 3 Losen?",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "92100000",
+   "92110000",
+   "92111000",
+   "79341400",
+   "79961000",
+   "79822500"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Kommunikationskampagne Discover N.O.W. ? Vergabe in 3 Losen?",
+    "description": "Der Naturpark NOW e. V. plant eine Kommunikationskampagne im Rahmen des LEADER-Projekts ?Discover N.O.W. ? Natur, Kultur & Genuss im Naturpark\"\n\nDetaillierte Informationen zum Umfang/Inhalt der geforderten Leistungen können der Leistungsbeschreibung bzw. dem Leistungsverzeichnis und den zugehörigen Vergabeunterlagen entnommen werden.\n\nKommunikationskampagne Discover N.O.W. ? Vergabe in 3 Losen?",
+    "cpv": [
+     "92100000",
+     "92110000",
+     "92111000",
+     "79341400",
+     "79961000",
+     "79822500"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-25T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -1,0 +1,147 @@
+{
+ "id": "25969162-1",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "25969162",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25969162",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:25969162-1.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:25969162-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25969162?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "4115-302 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Betonschneidearbeiten",
+  "buyer": "Zweckverband Bad Füssing",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-08-17T12:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25969162",
+  "id": "25969162",
+  "date": "2026-10-24T07:01:41Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband Bad Füssing",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Zweckverband Bad Füssing"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweckverband Bad Füssing",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zweckverband Bad Füssing"
+   }
+  },
+  "tender": {
+   "title": "4115-302 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Betonschneidearbeiten",
+   "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+   "procuringEntity": {
+    "name": "Zweckverband Bad Füssing"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "94072 Bad Füssing",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "4115-302 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Betonschneidearbeiten",
+     "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25969162",
+  "version": "1",
+  "title": "4115-302 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Betonschneidearbeiten",
+  "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "4115-302 Europa Therme Bad Füssing - Bewegungs- und Balance- Deck - Betonschneidearbeiten",
+    "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-08-17T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

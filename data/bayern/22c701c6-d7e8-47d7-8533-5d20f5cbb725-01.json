@@ -1,0 +1,251 @@
+{
+ "id": "22c701c6-d7e8-47d7-8533-5d20f5cbb725-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "22c701c6-d7e8-47d7-8533-5d20f5cbb725",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=22c701c6-d7e8-47d7-8533-5d20f5cbb725",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:22c701c6-d7e8-47d7-8533-5d20f5cbb725-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:22c701c6-d7e8-47d7-8533-5d20f5cbb725-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/22c701c6-d7e8-47d7-8533-5d20f5cbb725?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Fachplanung HLS",
+  "buyer": "Staatliches Bauamt Traunstein",
+  "cpv": [
+   "71321000"
+  ],
+  "nuts": [
+   "DE21M"
+  ],
+  "deadline": "2026-11-26T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5d7cee87-3b35-4be4-8582-df8826292f82",
+  "id": "22c701c6-d7e8-47d7-8533-5d20f5cbb725",
+  "date": "2026-10-27T03:12:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Traunstein",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0991604-67",
+     "legalName": "Staatliches Bauamt Traunstein"
+    },
+    "address": {
+     "streetAddress": "Rosenheimer Straße 7",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Traunstein - Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:086157411",
+     "legalName": "Staatliches Bauamt Traunstein - Vergabestelle"
+    },
+    "address": {
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Traunstein",
+   "id": "09-0991604-67",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Traunstein"
+   },
+   "address": {
+    "streetAddress": "Rosenheimer Straße 7",
+    "locality": "Traunstein",
+    "region": "DE21M",
+    "postalCode": "83278",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5d7cee87-3b35-4be4-8582-df8826292f82",
+   "title": "Fachplanung HLS",
+   "description": "05002 E 0004\nNeubau und Sanierung Laborgebäude\nFachplanung Heizung Sanitär Lüftung\nHOAI Leistungen \nLeistungsphasen 2 bis 9",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Traunstein",
+    "id": "09-0991604-67"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71321000",
+      "description": "Engineering design services for mechanical and electrical installations for buildings"
+     },
+     "deliveryAddress": {
+      "locality": "Marquartstein",
+      "region": "DE21M",
+      "postalCode": "83250",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 504201.68,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304342",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-27T03:12:17.119Z",
+     "rationale": "In der Bekanntmachung wurde ein Eignungskriterium vergessen und in den Ausschreibungsunterlagen wurde das Formblatt III.106.1 geändert (eine Mindestanforderung reduziert).",
+     "description": "1.) In der Bekanntmachung wurde das Eignungskriterium \"Andere wirtschaftliche oder finanzielle Anforderungen\" ergänzt.\n2.) In den Ausschreibungsunterlagen wurde das Formblatt III.106.1 geändert. Eine Mindestanforderung wurde reduziert.",
+     "amendsReleaseID": "cc9f2d28-cda1-4d0d-8bed-02b2e704da5d-01",
+     "releaseID": "22c701c6-d7e8-47d7-8533-5d20f5cbb725-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fachplanung HLS",
+     "description": "FBT - HOAI Leistungen\nLeistungsphasen 2 bis 9\nNeubau und Sanierung Laborgebäude\nFachplanung Heizung Sanitär Lüftung",
+     "value": {
+      "amount": 504201.68,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2033-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "22c701c6-d7e8-47d7-8533-5d20f5cbb725",
+  "version": "01",
+  "title": "Fachplanung HLS",
+  "description": "05002 E 0004\nNeubau und Sanierung Laborgebäude\nFachplanung Heizung Sanitär Lüftung\nHOAI Leistungen \nLeistungsphasen 2 bis 9",
+  "procedureType": "open",
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "71321000"
+  ],
+  "estimatedValue": {
+   "amount": 504201.68,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fachplanung HLS",
+    "description": "FBT - HOAI Leistungen\nLeistungsphasen 2 bis 9\nNeubau und Sanierung Laborgebäude\nFachplanung Heizung Sanitär Lüftung",
+    "cpv": [
+     "71321000"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": "2026-11-26T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2033-09-30+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 504201.68,
+     "currency": "EUR"
+    },
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise/Bescheinigungen sind in der Eigenerklärung (Formblatt III.106.1) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nIst der Bieter eine juristische Person, ist dieser nur dann teilnahmeberechtigt, wenn durch Erklärung des Bieters nachgewiesen wird, dass der verantwortliche Berufsangehörige, die an die natürliche Person gestellten Anforderungen erfüllt. Bieter oder verantwortliche Berufsangehörige juristischer Personen, die die entsprechende Berufsbezeichnung nach dem Recht eines anderen Mitgliedsstaates der Europäischen Union oder eines Vertragsstaates des Abkommens über den \nEuropäischen Wirtschaftsraum tragen, erfüllen die fachlichen Voraussetzungen dann, \n\n a) wenn sie sich dauerhaft im Bundesgebiet der Bundesrepublik Deutschland niedergelassen haben und berechtigt sind, die deutschen Berufsbezeichnungen nach den einschlägigen deutschen Fachgesetzen aufgrund einer Gleichstellung mit nach der Richtlinie 2005/36/EG (geändert durch die Richtlinie 2013/55/EU) zu tragen oder \n\n b) wenn sie vorübergehend im Bundesgebiet tätig sind und ihre Dienstleistungserbringung nach Richtlinie 2005/36/EG angezeigt haben."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise/Bescheinigungen sind in der Eigenerklärung (Formblatt III.106.1) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Eignungskriterien und die geforderten Nachweise/Bescheinigungen sind in der Eigenerklärung (Formblatt III.106.1) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien und die geforderten Nachweise/Bescheinigungen sind in der Eigenerklärung (Formblatt III. 106.1) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind. \nBei Versicherungsverträgen mit Pauschaldeckungen (also ohne Unterscheidung nach Sach- und Personenschäden) ist eine Erklärung des Versicherungsunternehmens erforderlich, dass beide Schadenskategorien im Auftragsfall nebeneinander mit den geforderten Deckungssummen abgesichert sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Als Sicherheit für die Vertragserfüllung, insbesondere die vertragsgemäße Ausführung der Leistung einschließlich der Abrechnung, Mängelansprüche und Schadensersatz, Vertragsstrafen, Rückzahlung von Überzahlungen, Ansprüche auf vertragsgemäße Erbringung von geänderten und zusätzlichen Leistungen und Ansprüche bei Nichtabführung von Beiträgen an die Sozialversicherungsträger, behält der Auftraggeber von jeder Zahlung jeweils 5 v.H. bis zu einer Höhe von 5  v.H. des tatsächlichen Gesamthonorars ein. Der Auftragnehmer kann stattdessen auch eine Bankbürgschaft stellen. Die Bankbürgschaft ist als selbstschuldnerische Bürgschaft eines in der Europäischen Gemeinschaft zugelassenen Kreditinstituts oder Kreditversicherers unter Ausschluss der Hinterlegung und unter Verzicht auf die Einrede der Vorausklage, zudem ohne Befristung, auszustellen. Einbehalte bzw. Sicherheiten nach Satz 1 und 2 für Leistungen des Auftragnehmers aus den Leistungsstufen 1 - 4 sind spätestens nach erfolgter Teilabnahme dieser \nLeistungen nach § 9 Nummer 9.1 Abs. 2, 1. oder 2. Variante, auszuzahlen bzw. zurückzugeben, soweit der Auftraggeber nicht zu diesem Zeitpunkt bereits Ansprüche in Bezug auf diese Leistungen geltend gemacht hat."
+    }
+   }
+  ]
+ }
+}

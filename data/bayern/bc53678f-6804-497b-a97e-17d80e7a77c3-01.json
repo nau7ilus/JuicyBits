@@ -1,0 +1,283 @@
+{
+ "id": "bc53678f-6804-497b-a97e-17d80e7a77c3-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "bc53678f-6804-497b-a97e-17d80e7a77c3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bc53678f-6804-497b-a97e-17d80e7a77c3",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:bc53678f-6804-497b-a97e-17d80e7a77c3-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:bc53678f-6804-497b-a97e-17d80e7a77c3-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bc53678f-6804-497b-a97e-17d80e7a77c3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Sanitärtrennwände BA2",
+  "buyer": "Landratsamt Erlangen-Höchstadt",
+  "cpv": [
+   "45421141",
+   "44112310",
+   "45421000"
+  ],
+  "nuts": [
+   "DE252",
+   "DE257"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-66a180ff-851b-46be-9b6a-4715751d06cc",
+  "id": "bc53678f-6804-497b-a97e-17d80e7a77c3",
+  "date": "2026-10-16T02:10:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Erlangen-Höchstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0358127-74",
+     "legalName": "Landratsamt Erlangen-Höchstadt"
+    },
+    "address": {
+     "streetAddress": "Nägelsbachstr. 1",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "funder",
+     "payer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "SANA Trennwände GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB 2651 / AG Weiden",
+     "legalName": "SANA Trennwände GmbH"
+    },
+    "address": {
+     "locality": "Luhe-Wildenau",
+     "region": "DE237",
+     "postalCode": "92706",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Erlangen-Höchstadt",
+   "id": "09-0358127-74",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Landratsamt Erlangen-Höchstadt"
+   },
+   "address": {
+    "streetAddress": "Nägelsbachstr. 1",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91052",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "66a180ff-851b-46be-9b6a-4715751d06cc",
+   "title": "Sanitärtrennwände BA2",
+   "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\n\nLiefern und montieren von Sanitär-/WC-Trennwänden, ca. 47 m² WC-Trennwände für Schüler- und Schülerinnen-WCs sowie ca. 10 Schamwänden (40 × 90 cm). Und ca. 12 m² Sanitärtrennwände für Lehrer- und Lehrerinnen-WCs. Einschließlich 14 Türen, Stützfüßen, Beschlägen, Griffen, Türstoppern etc.",
+   "procuringEntity": {
+    "name": "Landratsamt Erlangen-Höchstadt",
+    "id": "09-0358127-74"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421141",
+      "description": "Installation of partitioning"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "44112310",
+       "description": "Partition walls"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421000",
+       "description": "Joinery work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Friedrich-Weiler-Platz 2",
+      "locality": "Herzogenaurach",
+      "region": "DE257",
+      "postalCode": "91074",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-09-10T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SANA Trennwände GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "SANA Trennwände GmbH"
+     },
+     "address": {
+      "locality": "Luhe-Wildenau",
+      "region": "DE237",
+      "postalCode": "92706",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Sanitärtrennwände BA2",
+     "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\n\nLiefern und montieren von Sanitär-/WC-Trennwänden, ca. 47 m² WC-Trennwände für Schüler- und Schülerinnen-WCs sowie ca. 10 Schamwänden (40 × 90 cm). Und ca. 12 m² Sanitärtrennwände für Lehrer- und Lehrerinnen-WCs. Einschließlich 14 Türen, Stützfüßen, Beschlägen, Griffen, Türstoppern etc.",
+     "contractPeriod": {
+      "startDate": "2026-11-05T00:00:00+01:00",
+      "endDate": "2028-01-28T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "3461 - Sanitärtrennwände BA2",
+    "status": "active",
+    "date": "2026-09-25T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "SANA Trennwände GmbH",
+      "id": "HRB 2651 / AG Weiden",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "SANA Trennwände GmbH"
+      },
+      "address": {
+       "locality": "Luhe-Wildenau",
+       "region": "DE237",
+       "postalCode": "92706",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "title": "3461 - Sanitärtrennwände BA2",
+    "status": "active",
+    "value": {
+     "amount": 15578.29,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-09-24T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "bc53678f-6804-497b-a97e-17d80e7a77c3",
+  "version": "01",
+  "title": "Sanitärtrennwände BA2",
+  "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\n\nLiefern und montieren von Sanitär-/WC-Trennwänden, ca. 47 m² WC-Trennwände für Schüler- und Schülerinnen-WCs sowie ca. 10 Schamwänden (40 × 90 cm). Und ca. 12 m² Sanitärtrennwände für Lehrer- und Lehrerinnen-WCs. Einschließlich 14 Türen, Stützfüßen, Beschlägen, Griffen, Türstoppern etc.",
+  "procedureType": "open",
+  "nuts": [
+   "DE257"
+  ],
+  "cpv": [
+   "45421141",
+   "44112310",
+   "45421000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sanitärtrennwände BA2",
+    "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\n\nLiefern und montieren von Sanitär-/WC-Trennwänden, ca. 47 m² WC-Trennwände für Schüler- und Schülerinnen-WCs sowie ca. 10 Schamwänden (40 × 90 cm). Und ca. 12 m² Sanitärtrennwände für Lehrer- und Lehrerinnen-WCs. Einschließlich 14 Türen, Stützfüßen, Beschlägen, Griffen, Türstoppern etc.",
+    "cpv": [
+     "45421141",
+     "44112310",
+     "45421000"
+    ],
+    "nuts": [
+     "DE257"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-05+01:00",
+    "plannedEnd": "2028-01-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

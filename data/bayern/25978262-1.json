@@ -5,14 +5,14 @@
   "noticeId": "25978262",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978262",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25978262-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25978262-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978262?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Schreinerarbeiten Innentüren",
   "buyer": "Markt Bad Hindelang",
   "cpv": [
@@ -24,7 +24,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-10-19T10:30:00+02:00",
   "lots": 1
  },
  "ocds": {
@@ -99,5 +99,49 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25978262",
+  "version": "1",
+  "title": "Schreinerarbeiten Innentüren",
+  "description": "Schreiner-, Tischlerarbeiten/ Ausbau, Innentüren/Zargen",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schreinerarbeiten Innentüren",
+    "description": "Schreiner-, Tischlerarbeiten/ Ausbau, Innentüren/Zargen",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-19T10:30:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

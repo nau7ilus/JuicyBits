@@ -1,0 +1,301 @@
+{
+ "id": "bfd06582-d8b4-4896-8ee8-dac0696df61d-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "bfd06582-d8b4-4896-8ee8-dac0696df61d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bfd06582-d8b4-4896-8ee8-dac0696df61d",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:bfd06582-d8b4-4896-8ee8-dac0696df61d-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:bfd06582-d8b4-4896-8ee8-dac0696df61d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bfd06582-d8b4-4896-8ee8-dac0696df61d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Mittleres Löschfahrzeug MLF",
+  "buyer": "Gemeinde Lenggries",
+  "cpv": [
+   "34144213",
+   "34144210"
+  ],
+  "nuts": [
+   "DE257",
+   "DE216"
+  ],
+  "deadline": "2026-11-24T14:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-027a0d1c-291e-4dbd-9082-ed7487691f5c",
+  "id": "bfd06582-d8b4-4896-8ee8-dac0696df61d",
+  "date": "2026-10-27T03:08:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Lenggries",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9759",
+     "legalName": "Gemeinde Lenggries"
+    },
+    "address": {
+     "streetAddress": "Hannberger Straße 5",
+     "locality": "Heßdorf",
+     "region": "DE257",
+     "postalCode": "91093",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "945366ff-9795-406c-9fbc-864a31718389",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Lenggries",
+   "id": "9759",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Lenggries"
+   },
+   "address": {
+    "streetAddress": "Hannberger Straße 5",
+    "locality": "Heßdorf",
+    "region": "DE257",
+    "postalCode": "91093",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "027a0d1c-291e-4dbd-9082-ed7487691f5c",
+   "title": "Mittleres Löschfahrzeug MLF",
+   "description": "Lieferung eines Mittleren Löschfahrzeuges MLF nach DIN 14530-25 und DIN EN 1846",
+   "procuringEntity": {
+    "name": "Gemeinde Lenggries",
+    "id": "9759"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "deliveryAddress": {
+      "region": "DE216",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "deliveryAddress": {
+      "region": "DE216",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/027a0d1c-291e-4dbd-9082-ed7487691f5c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/027a0d1c-291e-4dbd-9082-ed7487691f5c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Mittleres Löschfahrzeug MLF",
+     "description": "Lieferung eines Mittleren Löschfahrzeuges MLF nach DIN 14530-25 bestehend aus einem Allradfahrgestell mit einer zul. Gesamtmasse von max. 7.490 kg und einem Fahrzeugaufbau mit aufbauintegriertem Mannschaftsraum",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Beladung für MLF",
+     "description": "Lieferung der feuerwehrtechnischen Fahrzeugbeladung für ein Mittleres Löschfahrzeug MLF nach DIN 14530-25",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bfd06582-d8b4-4896-8ee8-dac0696df61d",
+  "version": "01",
+  "title": "Mittleres Löschfahrzeug MLF",
+  "description": "Lieferung eines Mittleren Löschfahrzeuges MLF nach DIN 14530-25 und DIN EN 1846",
+  "procedureType": "open",
+  "nuts": [
+   "DE216"
+  ],
+  "cpv": [
+   "34144213",
+   "34144210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Mittleres Löschfahrzeug MLF",
+    "description": "Lieferung eines Mittleren Löschfahrzeuges MLF nach DIN 14530-25 bestehend aus einem Allradfahrgestell mit einer zul. Gesamtmasse von max. 7.490 kg und einem Fahrzeugaufbau mit aufbauintegriertem Mannschaftsraum",
+    "cpv": [
+     "34144213"
+    ],
+    "nuts": [
+     "DE216"
+    ],
+    "deadline": "2026-11-24T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Auf Verlangen der Vergabestelle eine Zertifizierung nach ISO 9001"
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Auf Verlangen der Vergabestelle eine Referenzliste der in den Jahren 2024 bis 2026 ausgelieferte Löschfahrzeuge vom Typ MLF"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Auf Verlangen der Vergabestelle: Bankauskünfte, Geschäftsbilanzen, Umsatzzahlen, sonstige Unternehmenskennzahlen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Erfüllungsgrad der Wertungskriterien",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Service",
+      "weight": 10
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Beladung für MLF",
+    "description": "Lieferung der feuerwehrtechnischen Fahrzeugbeladung für ein Mittleres Löschfahrzeug MLF nach DIN 14530-25",
+    "cpv": [
+     "34144213"
+    ],
+    "nuts": [
+     "DE216"
+    ],
+    "deadline": "2026-11-24T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Auf Verlangen der Vergabestelle eine Zertifizierung nach ISO 9001"
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Auf Verlangen der Vergabestelle eine Referenzliste der in den Jahren 2024 bis 2026 ausgelieferte Löschfahrzeuge vom Typ MLF"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Auf Verlangen der Vergabestelle: Bankauskünfte, Geschäftsbilanzen, Umsatzzahlen, sonstige Unternehmenskennzahlen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Erfüllungsgrad der Wertungskriterien",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Service",
+      "weight": 10
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

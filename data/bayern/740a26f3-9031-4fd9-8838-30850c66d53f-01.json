@@ -241,6 +241,8 @@
   "noticeId": "740a26f3-9031-4fd9-8838-30850c66d53f",
   "version": "01",
   "title": "Wartungs- und Servicevertrag der Medientechnik an Schulen",
+  "description": "Wartung- und Service medientechnischer Systeme an Schulen im Landkreis Ostallgäu und im Stadtgebiet Kaufbeuren.",
+  "procedureType": "neg-w-call",
   "nuts": [
    "DE27B"
   ],
@@ -253,6 +255,7 @@
    {
     "id": "LOT-0000",
     "title": "Wartungs- und Servicevertrag der Medientechnik an Schulen",
+    "description": "Betreuung der Medientechnik von 10 Schulen an 12 Standorten in 406 Unterrichts- und Sonderräumen. Der Landkreis Ostallgäu ist Sachaufwandsträger. Details sind dem Leistungsverzeichnis zu entnehmen. Leistungsbeginn ab 01/2027 bis 12/2029 (3 Jahre) mit Option einer zweimaligen Verlängerung um jeweils 1 Jahr.",
     "cpv": [
      "50340000",
      "72500000"
@@ -264,9 +267,49 @@
     "participationDeadline": null,
     "plannedStart": "2027-01-01+01:00",
     "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "K1",
+      "description": "Service- und Einsatzorganisation",
+      "weight": 12
+     },
+     {
+      "type": "quality",
+      "name": "K2",
+      "description": "Reaktions- und Entstörungskonzept",
+      "weight": 12
+     },
+     {
+      "type": "quality",
+      "name": "K3",
+      "description": "Crestron-/Remote-Servicekonzept",
+      "weight": 12
+     },
+     {
+      "type": "quality",
+      "name": "K4",
+      "description": "Ticketing, Reporting, Dokumentation",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "K5",
+      "description": "Projektorganisation & Einarbeitung",
+      "weight": 9
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Beschreibung der Einzelgewichtung zu den Leistungskriterien laut Anlage \"LK_OAL_Erlaeuterung_Wertung\".",
+      "weight": 45
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

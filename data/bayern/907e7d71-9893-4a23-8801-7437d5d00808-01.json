@@ -1,0 +1,377 @@
+{
+ "id": "907e7d71-9893-4a23-8801-7437d5d00808-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "907e7d71-9893-4a23-8801-7437d5d00808",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=907e7d71-9893-4a23-8801-7437d5d00808",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:907e7d71-9893-4a23-8801-7437d5d00808-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:907e7d71-9893-4a23-8801-7437d5d00808-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/907e7d71-9893-4a23-8801-7437d5d00808?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Mechanisierte Schwachholzernte (Harvester mit schwachen Harvesteraggregat inkl. Bündelfunktion oder Kombiaggregat) und Rückung (Forwarder) am Forstbetrieb Schliersee",
+  "buyer": "Bayerische Staatsforsten AöR ",
+  "cpv": [
+   "77200000",
+   "77230000"
+  ],
+  "nuts": [
+   "DE232",
+   "DE21F"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-46f8ee84-095c-47e7-9aec-2bdab7186662",
+  "id": "907e7d71-9893-4a23-8801-7437d5d00808",
+  "date": "2026-10-18T11:24:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerische Staatsforsten AöR ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916",
+     "legalName": "Bayerische Staatsforsten AöR "
+    },
+    "address": {
+     "streetAddress": "Tillystraße 2",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "bada5385-97e8-408b-a297-d300c60d0880",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Karl Hagl - Forstbetrieb",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "1f038a11-3ccb-4ffa-ac02-5b9d083e5e78",
+     "legalName": "Karl Hagl - Forstbetrieb"
+    },
+    "address": {
+     "locality": "Eiselfing",
+     "region": "DE21K",
+     "postalCode": "83549",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Höfer Bau GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "c8ae27bb-4490-4151-b45a-481b15a6df9a",
+     "legalName": "Höfer Bau GmbH"
+    },
+    "address": {
+     "locality": "Fischbachau",
+     "region": "DE21F",
+     "postalCode": "83730",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerische Staatsforsten AöR ",
+   "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerische Staatsforsten AöR "
+   },
+   "address": {
+    "streetAddress": "Tillystraße 2",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "46f8ee84-095c-47e7-9aec-2bdab7186662",
+   "title": "Mechanisierte Schwachholzernte (Harvester mit schwachen Harvesteraggregat inkl. Bündelfunktion oder Kombiaggregat) und Rückung (Forwarder) am Forstbetrieb Schliersee",
+   "description": "Mechanisierte Schwachholzernte  (Harvester mit schwachen Harvesteraggregat inkl. Bündelfunktion oder Kombiaggregat)  und Rückung (Forwarder) im Hofoldinger Forst (Reviere Hofolding und Otterfing) am Forstbetrieb Schliersee ",
+   "procuringEntity": {
+    "name": "Bayerische Staatsforsten AöR ",
+    "id": "ea47ac73-bb3c-4156-b342-0e82dc26a916"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "77200000",
+      "description": "Forestry services"
+     },
+     "deliveryAddress": {
+      "locality": "Schliersee",
+      "region": "DE21F",
+      "postalCode": "83727",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "77230000",
+      "description": "Services incidental to forestry"
+     },
+     "deliveryAddress": {
+      "locality": "Schliersee",
+      "region": "DE21F",
+      "postalCode": "83727",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "value": {
+    "amount": 659200,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "Karl Hagl - Forstbetrieb",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Karl Hagl - Forstbetrieb"
+     },
+     "address": {
+      "locality": "Eiselfing",
+      "region": "DE21K",
+      "postalCode": "83549",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Höfer Bau GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Höfer Bau GmbH"
+     },
+     "address": {
+      "locality": "Fischbachau",
+      "region": "DE21F",
+      "postalCode": "83730",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Revier Hofolding I",
+     "description": "Mechanisierte Holzernte",
+     "contractPeriod": {
+      "startDate": "2026-09-14T00:00:00+02:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Revier Hofolding II",
+     "description": "Mechanisierte Holzernte",
+     "contractPeriod": {
+      "startDate": "2026-09-14T00:00:00+02:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-06T00:00:00+02:00",
+    "value": {
+     "amount": 159300,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-06T00:00:00+02:00",
+    "value": {
+     "amount": 159300,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-05T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-05T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "907e7d71-9893-4a23-8801-7437d5d00808",
+  "version": "01",
+  "title": "Mechanisierte Schwachholzernte (Harvester mit schwachen Harvesteraggregat inkl. Bündelfunktion oder Kombiaggregat) und Rückung (Forwarder) am Forstbetrieb Schliersee",
+  "description": "Mechanisierte Schwachholzernte  (Harvester mit schwachen Harvesteraggregat inkl. Bündelfunktion oder Kombiaggregat)  und Rückung (Forwarder) im Hofoldinger Forst (Reviere Hofolding und Otterfing) am Forstbetrieb Schliersee",
+  "procedureType": "open",
+  "nuts": [
+   "DE21F"
+  ],
+  "cpv": [
+   "77230000",
+   "77200000"
+  ],
+  "estimatedValue": {
+   "amount": 659200,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Revier Hofolding I",
+    "description": "Mechanisierte Holzernte",
+    "cpv": [
+     "77200000"
+    ],
+    "nuts": [
+     "DE21F"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-14+02:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/0dff9a8e-0a9a-4ac4-b359-5fee8a0a4db2/awardcriteria",
+      "weight": 10
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Revier Hofolding II",
+    "description": "Mechanisierte Holzernte",
+    "cpv": [
+     "77230000"
+    ],
+    "nuts": [
+     "DE21F"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-14+02:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/0dff9a8e-0a9a-4ac4-b359-5fee8a0a4db2/awardcriteria",
+      "weight": 10
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

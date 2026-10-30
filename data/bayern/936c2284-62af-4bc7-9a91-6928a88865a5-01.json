@@ -1,0 +1,294 @@
+{
+ "id": "936c2284-62af-4bc7-9a91-6928a88865a5-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "936c2284-62af-4bc7-9a91-6928a88865a5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=936c2284-62af-4bc7-9a91-6928a88865a5",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:936c2284-62af-4bc7-9a91-6928a88865a5-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:936c2284-62af-4bc7-9a91-6928a88865a5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/936c2284-62af-4bc7-9a91-6928a88865a5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Rahmenvereinbarung zur baramundi Management Suite",
+  "buyer": "Bayerisches Landesamt für Umwelt",
+  "cpv": [
+   "72268000",
+   "48780000",
+   "48781000",
+   "72267000",
+   "72267100"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0ec68cda-c016-4ace-8297-9de11ce18357",
+  "id": "936c2284-62af-4bc7-9a91-6928a88865a5",
+  "date": "2026-10-21T02:08:59Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerisches Landesamt für Umwelt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63",
+     "legalName": "Bayerisches Landesamt für Umwelt"
+    },
+    "address": {
+     "streetAddress": "Bürgermeister-Ulrich Str. 160",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86179",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Umwelt (Hof)",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "16171123-8fff-438a-be14-5d81ae12bd4d",
+     "legalName": "Bayerisches Landesamt für Umwelt (Hof)"
+    },
+    "address": {
+     "streetAddress": "Hans-Högn-Straße 12",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "VITAC IT-Systeme GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "f6b90745-4056-4dd2-8e99-ec110ddf9e5b",
+     "legalName": "VITAC IT-Systeme GmbH"
+    },
+    "address": {
+     "locality": "Bielefeld",
+     "region": "DEA41",
+     "postalCode": "33602",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerisches Landesamt für Umwelt",
+   "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerisches Landesamt für Umwelt"
+   },
+   "address": {
+    "streetAddress": "Bürgermeister-Ulrich Str. 160",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86179",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0ec68cda-c016-4ace-8297-9de11ce18357",
+   "title": "Rahmenvereinbarung zur baramundi Management Suite",
+   "description": "Dieser Vertrag behandelt die Rahmenbedingungen zur Weiterführung der Wartung und Miete der baramundi Managemente Suite Produkte sowie zu Lizenznachkäufen von baramundi Management Suite inkl. der Aufnahme dieser in die Pflege sowie die Anmietung von baramundi Managed Software in äquivalenter Höhe.",
+   "procuringEntity": {
+    "name": "Bayerisches Landesamt für Umwelt",
+    "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72268000",
+      "description": "Software supply services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "48780000",
+       "description": "System, storage and content management software package"
+      },
+      {
+       "scheme": "CPV",
+       "id": "48781000",
+       "description": "System management software package"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72267000",
+       "description": "Software maintenance and repair services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72267100",
+       "description": "Maintenance of information technology software"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86179",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-05T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "VITAC IT-Systeme GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "VITAC IT-Systeme GmbH"
+     },
+     "address": {
+      "locality": "Bielefeld",
+      "region": "DEA41",
+      "postalCode": "33602",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvereinbarung zur baramundi Management Suite",
+     "description": "Dieser Vertrag behandelt die Rahmenbedingungen zur Weiterführung der Wartung und Miete der baramundi Managemente Suite Produkte sowie zu Lizenznachkäufen von baramundi Management Suite inkl. der Aufnahme dieser in die Pflege sowie die Anmietung von baramundi Managed Software in äquivalenter Höhe.",
+     "contractPeriod": {
+      "startDate": "2026-11-01T00:00:00+01:00",
+      "endDate": "2030-10-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-16T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 409881,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-15T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "936c2284-62af-4bc7-9a91-6928a88865a5",
+  "version": "01",
+  "title": "Rahmenvereinbarung zur baramundi Management Suite",
+  "description": "Dieser Vertrag behandelt die Rahmenbedingungen zur Weiterführung der Wartung und Miete der baramundi Managemente Suite Produkte sowie zu Lizenznachkäufen von baramundi Management Suite inkl. der Aufnahme dieser in die Pflege sowie die Anmietung von baramundi Managed Software in äquivalenter Höhe.",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "72268000",
+   "48780000",
+   "48781000",
+   "72267000",
+   "72267100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvereinbarung zur baramundi Management Suite",
+    "description": "Dieser Vertrag behandelt die Rahmenbedingungen zur Weiterführung der Wartung und Miete der baramundi Managemente Suite Produkte sowie zu Lizenznachkäufen von baramundi Management Suite inkl. der Aufnahme dieser in die Pflege sowie die Anmietung von baramundi Managed Software in äquivalenter Höhe.",
+    "cpv": [
+     "72268000",
+     "48780000",
+     "48781000",
+     "72267000",
+     "72267100"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-01+01:00",
+    "plannedEnd": "2030-10-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

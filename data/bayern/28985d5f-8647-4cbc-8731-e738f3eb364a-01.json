@@ -1,0 +1,272 @@
+{
+ "id": "28985d5f-8647-4cbc-8731-e738f3eb364a-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "28985d5f-8647-4cbc-8731-e738f3eb364a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=28985d5f-8647-4cbc-8731-e738f3eb364a",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:28985d5f-8647-4cbc-8731-e738f3eb364a-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:28985d5f-8647-4cbc-8731-e738f3eb364a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/28985d5f-8647-4cbc-8731-e738f3eb364a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Überlassung von Lizenzen des Herstellers Commvault\n",
+  "buyer": "Phoenics.IT GmbH",
+  "cpv": [
+   "72267000"
+  ],
+  "nuts": [
+   "DE929",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-57858b67-7efd-48b1-9fcf-fba0fa158434",
+  "id": "28985d5f-8647-4cbc-8731-e738f3eb364a",
+  "date": "2026-10-27T03:10:24Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Phoenics.IT GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "6264ac91-f213-415f-81bf-b5e859a4ac90",
+     "legalName": "Phoenics.IT GmbH"
+    },
+    "address": {
+     "streetAddress": "Tiergartenstraße 39",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30559",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt - Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "dd0a3a75-ce02-4ec8-8ecf-c4c7fc642dcf",
+     "legalName": "Bundeskartellamt - Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemombler Straße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Phoenics.IT GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "5faf2f67-f505-4dae-b642-3202e08ecfa1",
+     "legalName": "Phoenics.IT GmbH"
+    },
+    "address": {
+     "streetAddress": "Tiergartenstraße 39",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30559",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "SVA System Vertrieb Alexander GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "99559c30-d1c7-4085-a515-17ba77408849",
+     "legalName": "SVA System Vertrieb Alexander GmbH"
+    },
+    "address": {
+     "locality": "Wiesbaden",
+     "region": "DE714",
+     "postalCode": "65205",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Phoenics.IT GmbH",
+   "id": "6264ac91-f213-415f-81bf-b5e859a4ac90",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Phoenics.IT GmbH"
+   },
+   "address": {
+    "streetAddress": "Tiergartenstraße 39",
+    "locality": "Hannover",
+    "region": "DE929",
+    "postalCode": "30559",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "57858b67-7efd-48b1-9fcf-fba0fa158434",
+   "title": "Überlassung von Lizenzen des Herstellers Commvault\n",
+   "description": "Gegenstand der Vergabe ist der Abschluss eines Vertrages für folgende Lizenzen des Herstellers Commvault:\n\nCommcell IDs: FE6C9, FF05D\n\nMaintenance Conversion\n\nCV-BKRC-FT-33 \nCommvault Cloud Backup & Recovery Software, Per Front-End Terabyte, List Price is Monthly Rate, Annual Payment, Subscription - 3 Year\n\nCV-BKRC-MB-33\nCommvault Cloud Backup & Recovery Software for Mail and Cloud Applications, Per User Annual Payment: Subscription - 3 Year\n\nCV-ED-MB-33\nCommvault Cloud Compliance Software for Mail and Cloud Applications, Per User Annual Payment: Subscription - 3 Year\n\n",
+   "procuringEntity": {
+    "name": "Phoenics.IT GmbH",
+    "id": "6264ac91-f213-415f-81bf-b5e859a4ac90"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72267000",
+      "description": "Software maintenance and repair services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80335",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 780000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-06T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SVA System Vertrieb Alexander GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "SVA System Vertrieb Alexander GmbH"
+     },
+     "address": {
+      "locality": "Wiesbaden",
+      "region": "DE714",
+      "postalCode": "65205",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Überlassung von Lizenzen des Herstellers Commvault\n",
+     "description": "Gegenstand der Vergabe ist der Abschluss eines Vertrages für folgende Lizenzen des Herstellers Commvault:\n\nCommcell IDs: FE6C9, FF05D\n\nMaintenance Conversion\n\nCV-BKRC-FT-33 \nCommvault Cloud Backup & Recovery Software, Per Front-End Terabyte, List Price is Monthly Rate, Annual Payment, Subscription - 3 Year\n\nCV-BKRC-MB-33\nCommvault Cloud Backup & Recovery Software for Mail and Cloud Applications, Per User Annual Payment: Subscription - 3 Year\n\nCV-ED-MB-33\nCommvault Cloud Compliance Software for Mail and Cloud Applications, Per User Annual Payment: Subscription - 3 Year\n\n",
+     "contractPeriod": {
+      "startDate": "2026-10-27T00:00:00+01:00",
+      "endDate": "2029-10-26T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "value": {
+     "amount": 878620.08,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 829806,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "28985d5f-8647-4cbc-8731-e738f3eb364a",
+  "version": "01",
+  "title": "Überlassung von Lizenzen des Herstellers Commvault",
+  "description": "Gegenstand der Vergabe ist der Abschluss eines Vertrages für folgende Lizenzen des Herstellers Commvault:\n\nCommcell IDs: FE6C9, FF05D\n\nMaintenance Conversion\n\nCV-BKRC-FT-33 \nCommvault Cloud Backup & Recovery Software, Per Front-End Terabyte, List Price is Monthly Rate, Annual Payment, Subscription - 3 Year\n\nCV-BKRC-MB-33\nCommvault Cloud Backup & Recovery Software for Mail and Cloud Applications, Per User Annual Payment: Subscription - 3 Year\n\nCV-ED-MB-33\nCommvault Cloud Compliance Software for Mail and Cloud Applications, Per User Annual Payment: Subscription - 3 Year",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72267000"
+  ],
+  "estimatedValue": {
+   "amount": 780000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Überlassung von Lizenzen des Herstellers Commvault",
+    "description": "Gegenstand der Vergabe ist der Abschluss eines Vertrages für folgende Lizenzen des Herstellers Commvault:\n\nCommcell IDs: FE6C9, FF05D\n\nMaintenance Conversion\n\nCV-BKRC-FT-33 \nCommvault Cloud Backup & Recovery Software, Per Front-End Terabyte, List Price is Monthly Rate, Annual Payment, Subscription - 3 Year\n\nCV-BKRC-MB-33\nCommvault Cloud Backup & Recovery Software for Mail and Cloud Applications, Per User Annual Payment: Subscription - 3 Year\n\nCV-ED-MB-33\nCommvault Cloud Compliance Software for Mail and Cloud Applications, Per User Annual Payment: Subscription - 3 Year",
+    "cpv": [
+     "72267000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-27+01:00",
+    "plannedEnd": "2029-10-26+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

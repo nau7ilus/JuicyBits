@@ -1,0 +1,235 @@
+{
+ "id": "d0a771a8-765d-468a-9d77-431fc135c113-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "d0a771a8-765d-468a-9d77-431fc135c113",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d0a771a8-765d-468a-9d77-431fc135c113",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:d0a771a8-765d-468a-9d77-431fc135c113-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:d0a771a8-765d-468a-9d77-431fc135c113-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d0a771a8-765d-468a-9d77-431fc135c113?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Zwischenlagerung und Entsorgung von Aushubmaterial",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "90500000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-10T10:40:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b9437c20-0f18-442f-94be-bfaafb8c68e5",
+  "id": "d0a771a8-765d-468a-9d77-431fc135c113",
+  "date": "2026-10-20T10:04:57Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b9437c20-0f18-442f-94be-bfaafb8c68e5",
+   "title": "Zwischenlagerung und Entsorgung von Aushubmaterial",
+   "description": "Zwischenlagerung und Entsorgung von Bodenmaterial der Zuordnungsklassen Z0 bis größer Z2 einschließlich gefährlicher Abfall aus verschiedenen Baumaßnahmen der HA Tiefbau im Stadtgebiet München",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81671",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/298061",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-20T10:04:57.442Z",
+     "rationale": "Neuterminierung Öffnungstermin der Angebote und Bindefrist aufgrund Rückversetzung in den Stand vor Angebotsöffnung",
+     "description": "Neuterminierung Öffnungstermin der Angebote und Bindefrist aufgrund Rückversetzung in den Stand vor Angebotsöffnung",
+     "amendsReleaseID": "81eb6387-527e-4929-9a8d-93fc231e0be9-01",
+     "releaseID": "d0a771a8-765d-468a-9d77-431fc135c113-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Zwischenlagerung und Entsorgung von Aushubmaterial",
+     "description": "Das Baureferat, Hauptabteilung Tiefbau, der Landeshauptstadt München ist für Neubau- und\nUnterhaltsmaßnahmen bei Straßen im Stadtgebiet München zuständig. Bei einigen dieser Maßnahmen fällt Aushubmaterial an, welches vor Ort nicht mehr wiederverwendet werden kann (z. B. Verdrängung durch stärkeren gebundenen Aufbau, aufgrund seiner bodenmechanischen Eigenschaften etc.). Dieses Material kann, je nach Herkunft, mit Schadstoffen unterschiedlicher Art und Höhe kontaminiert sein und ist daher bis zur Vorlage der Deklarationsanalytik zwischenzulagern und anschließend einer geordneten Entsorgung zuzuführen.\nDas Material wird zu diesem Zweck mittels Deklarationsanalysen in Zuordnungsklassen (Z 0 2) gemäß Leitfaden zur Verfüllung von Gruben, Brüchen sowie Tagebauen (LVGBT, Stand: Juli 2021) bzw. teilweise auch in Deponieklassen gemäß Deponieverordnung (DepV) eingestuft.\nAufgrund von technisch nicht abtrennbaren Beimengungen an alten Straßenbelagsresten kann in Einzelfällen das Material nach einer Hot-Spot-Beprobung als gefährlicher Abfall (AVV 170503*) eingestuft werden.\nDer Leistungsgegenstand dieser Ausschreibung ist eine vom Auftragnehmer durchzuführende Zwischenlagerung von ca. 9.000 t Aushubmaterial aus Baustellen innerhalb des Stadtgebietes auf einer für gefährlichen Abfall (u. a. AVV 170503*) genehmigten und bewirtschafteten Zwischenlagerfläche zur Deklaration sowie eine vom Auftragnehmer durchzuführende ordnungsgemäße und schadlose Entsorgung (z. B. Verwertung als Verfüllung oder Deponieersatzbaustoff, durch thermische Verwertung, Recycling o.ä.) in hierfür zugelassenen Anlagen. Hierzu wird der Auftragnehmer gemäß § 22 KrWG mit der Erfüllung der Pflichten des Abfallerzeugers (hier: der Auftraggeber) beauftragt. Die abfallrechtliche Verantwortung des Auftraggebers bleibt hiervon unberührt.\n--\nAufgrund der Erfahrungen der letzten Jahre wird für diese Rahmenvereinbarung im\nausgeschriebenen Zeitraum eine Menge von ca. 9.000 t an Aushubmaterialien aus verschiedenen Baumaßnahmen der Hauptabteilung Tiefbau erwartet.\nDie ausgeschriebenen Mengen einzelner Leistungen beruhen auf den Erfahrungen der letzten Jahre, Abschätzungen aus Altlastenuntersuchungen sowie den derzeit vorliegenden Kenntnissen über geplante Baumaßnahmen. Sie sind daher mit Unsicherheiten belastet, so dass die tatsächlich abgerufene Menge einer Leistung von den ausgeschriebenen Mengen auch deutlich abweichen kann.\nFür diese Rahmenvereinbarung wird eine Mindestabnahme von 70 % der Gesamtsumme des Angebotes festgesetzt.\nDie Höchstgrenze, bis zu der ein Einzelabruf durch den Auftraggeber erfolgen kann, ist 140 %\nder Gesamtsumme des Angebots.",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d0a771a8-765d-468a-9d77-431fc135c113",
+  "version": "01",
+  "title": "Zwischenlagerung und Entsorgung von Aushubmaterial",
+  "description": "Zwischenlagerung und Entsorgung von Bodenmaterial der Zuordnungsklassen Z0 bis größer Z2 einschließlich gefährlicher Abfall aus verschiedenen Baumaßnahmen der HA Tiefbau im Stadtgebiet München",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "90500000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Zwischenlagerung und Entsorgung von Aushubmaterial",
+    "description": "Das Baureferat, Hauptabteilung Tiefbau, der Landeshauptstadt München ist für Neubau- und\nUnterhaltsmaßnahmen bei Straßen im Stadtgebiet München zuständig. Bei einigen dieser Maßnahmen fällt Aushubmaterial an, welches vor Ort nicht mehr wiederverwendet werden kann (z. B. Verdrängung durch stärkeren gebundenen Aufbau, aufgrund seiner bodenmechanischen Eigenschaften etc.). Dieses Material kann, je nach Herkunft, mit Schadstoffen unterschiedlicher Art und Höhe kontaminiert sein und ist daher bis zur Vorlage der Deklarationsanalytik zwischenzulagern und anschließend einer geordneten Entsorgung zuzuführen.\nDas Material wird zu diesem Zweck mittels Deklarationsanalysen in Zuordnungsklassen (Z 0 2) gemäß Leitfaden zur Verfüllung von Gruben, Brüchen sowie Tagebauen (LVGBT, Stand: Juli 2021) bzw. teilweise auch in Deponieklassen gemäß Deponieverordnung (DepV) eingestuft.\nAufgrund von technisch nicht abtrennbaren Beimengungen an alten Straßenbelagsresten kann in Einzelfällen das Material nach einer Hot-Spot-Beprobung als gefährlicher Abfall (AVV 170503*) eingestuft werden.\nDer Leistungsgegenstand dieser Ausschreibung ist eine vom Auftragnehmer durchzuführende Zwischenlagerung von ca. 9.000 t Aushubmaterial aus Baustellen innerhalb des Stadtgebietes auf einer für gefährlichen Abfall (u. a. AVV 170503*) genehmigten und bewirtschafteten Zwischenlagerfläche zur Deklaration sowie eine vom Auftragnehmer durchzuführende ordnungsgemäße und schadlose Entsorgung (z. B. Verwertung als Verfüllung oder Deponieersatzbaustoff, durch thermische Verwertung, Recycling o.ä.) in hierfür zugelassenen Anlagen. Hierzu wird der Auftragnehmer gemäß § 22 KrWG mit der Erfüllung der Pflichten des Abfallerzeugers (hier: der Auftraggeber) beauftragt. Die abfallrechtliche Verantwortung des Auftraggebers bleibt hiervon unberührt.\n--\nAufgrund der Erfahrungen der letzten Jahre wird für diese Rahmenvereinbarung im\nausgeschriebenen Zeitraum eine Menge von ca. 9.000 t an Aushubmaterialien aus verschiedenen Baumaßnahmen der Hauptabteilung Tiefbau erwartet.\nDie ausgeschriebenen Mengen einzelner Leistungen beruhen auf den Erfahrungen der letzten Jahre, Abschätzungen aus Altlastenuntersuchungen sowie den derzeit vorliegenden Kenntnissen über geplante Baumaßnahmen. Sie sind daher mit Unsicherheiten belastet, so dass die tatsächlich abgerufene Menge einer Leistung von den ausgeschriebenen Mengen auch deutlich abweichen kann.\nFür diese Rahmenvereinbarung wird eine Mindestabnahme von 70 % der Gesamtsumme des Angebotes festgesetzt.\nDie Höchstgrenze, bis zu der ein Einzelabruf durch den Auftraggeber erfolgen kann, ist 140 %\nder Gesamtsumme des Angebots.",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-10T10:40:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument \"BauR T-40145-2026_Eignung und Nichtvorliegen von Ausschlussgruenden.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=298061"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument \"BauR T-40145-2026_Eignung und Nichtvorliegen von Ausschlussgruenden.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=298061"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument \"BauR T-40145-2026_Eignung und Nichtvorliegen von Ausschlussgruenden.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=298061"
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument \"BauR T-40145-2026_Eignung und Nichtvorliegen von Ausschlussgruenden.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=298061"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument \"BauR T-40145-2026_Eignung und Nichtvorliegen von Ausschlussgruenden.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=298061"
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument \"BauR T-40145-2026_Eignung und Nichtvorliegen von Ausschlussgruenden.pdf\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=298061"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "siehe Vergabeunterlagen, Formblatt L227",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen (Formblatt L227) aufgeführt.",
+      "weight": null
+     },
+     {
+      "type": "cost",
+      "name": "siehe Vergabeunterlagen, Formblatt L227",
+      "description": "Die Kosten sind nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen (Formblatt L227) aufgeführt.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

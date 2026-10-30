@@ -1,0 +1,547 @@
+{
+ "id": "819d3d6d-bb93-4027-b45b-e22f4cda66cc-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "819d3d6d-bb93-4027-b45b-e22f4cda66cc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=819d3d6d-bb93-4027-b45b-e22f4cda66cc",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:819d3d6d-bb93-4027-b45b-e22f4cda66cc-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:819d3d6d-bb93-4027-b45b-e22f4cda66cc-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/819d3d6d-bb93-4027-b45b-e22f4cda66cc?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Videoüberwachung",
+  "buyer": "München Klinik gGmbH",
+  "cpv": [
+   "32000000",
+   "32323500"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-20T10:00:00+01:00",
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-633d5cdb-a58e-4c06-9303-87d1f0759398",
+  "id": "819d3d6d-bb93-4027-b45b-e22f4cda66cc",
+  "date": "2026-10-21T02:12:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "München Klinik gGmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRB154102",
+     "legalName": "München Klinik gGmbH"
+    },
+    "address": {
+     "streetAddress": "Thalkirchner Straße 48",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80337",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "München Klinik gGmbH",
+   "id": "HRB154102",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "München Klinik gGmbH"
+   },
+   "address": {
+    "streetAddress": "Thalkirchner Straße 48",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80337",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "633d5cdb-a58e-4c06-9303-87d1f0759398",
+   "title": "Videoüberwachung",
+   "description": "Die Leistung umfasst als Rahmenvertrag die Lieferung und Montage  von Videokameras zur Videoüberwachung für vier Klinikstandorte der München Klinik gGmbH.",
+   "procuringEntity": {
+    "name": "München Klinik gGmbH",
+    "id": "HRB154102"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32000000",
+      "description": "Radio, television, communication, telecommunication and related equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "32323500",
+       "description": "Video-surveillance system"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Sanatoriumsplatz 2",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81545",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32000000",
+      "description": "Radio, television, communication, telecommunication and related equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "32323500",
+       "description": "Video-surveillance system"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Englschalkinger Straße 77",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81925",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32000000",
+      "description": "Radio, television, communication, telecommunication and related equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "32323500",
+       "description": "Video-surveillance system"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Kölner Platz 1",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80804",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32000000",
+      "description": "Radio, television, communication, telecommunication and related equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "32323500",
+       "description": "Video-surveillance system"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Oskar-Maria-Graf-Ring 51",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81737",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y32M2W1/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y32M2W1/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y32M2W1/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y32M2W1/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "München Klinik Harlaching Ersatzneubau",
+     "description": "Der Rahmenvertrag der München Klinik gGmbH (MüK) umfasst die Lieferung und Montage von Videokameras für die Standorte Bogenhausen BA2 Erweiterungsbau Ost, Harlaching Ersatzneubau, Neuperlach und Schwabing BA1 Haus B inkl. Akademie. Mit über 3.300 Betten gehört die MüK zur kritischen Infrastruktur (KRITIS). Die Videoüberwachung ist ein Baustein zur Absicherung der kritischer Infrastrukturen (KRITIS), um Anlagen vor Sabotage, Einbruch, Diebstahl und Vandalismus zu schützen.  Die anzubietenden Fabrikate (Hersteller) der Außen- und Innenkameras müssen deshalb zwingend nach den IT-Sicherheitskriterien des \"Bundesamtes für Sicherheit in der Informationstechnik (BSI) geprüft sein.",
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "München Klinik Bogenhausen BA2 Erweiterungsbau Ost",
+     "description": "Der Rahmenvertrag der München Klinik gGmbH (MüK) umfasst die Lieferung und Montage von Videokameras für die Standorte Bogenhausen BA2 Erweiterungsbau Ost, Harlaching Ersatzneubau, Neuperlach und Schwabing BA1 Haus B inkl. Akademie. Mit über 3.300 Betten gehört die MüK zur kritischen Infrastruktur (KRITIS). Die Videoüberwachung ist ein Baustein zur Absicherung der kritischer Infrastrukturen (KRITIS), um Anlagen vor Sabotage, Einbruch, Diebstahl und Vandalismus zu schützen.  Die anzubietenden Fabrikate (Hersteller) der Außen- und Innenkameras müssen deshalb zwingend nach den IT-Sicherheitskriterien des \"Bundesamtes für Sicherheit in der Informationstechnik (BSI) geprüft sein.",
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "München Klinik Schwabing BA1 Haus B plus Akademie",
+     "description": "Der Rahmenvertrag der München Klinik gGmbH (MüK) umfasst die Lieferung und Montage von Videokameras für die Standorte Bogenhausen BA2 Erweiterungsbau Ost, Harlaching Ersatzneubau, Neuperlach und Schwabing BA1 Haus B inkl. Akademie. Mit über 3.300 Betten gehört die MüK zur kritischen Infrastruktur (KRITIS). Die Videoüberwachung ist ein Baustein zur Absicherung der kritischer Infrastrukturen (KRITIS), um Anlagen vor Sabotage, Einbruch, Diebstahl und Vandalismus zu schützen.  Die anzubietenden Fabrikate (Hersteller) der Außen- und Innenkameras müssen deshalb zwingend nach den IT-Sicherheitskriterien des \"Bundesamtes für Sicherheit in der Informationstechnik (BSI) geprüft sein.",
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "München Klinik Neuperlach",
+     "description": "Der Rahmenvertrag der München Klinik gGmbH (MüK) umfasst die Lieferung und Montage von Videokameras für die Standorte Bogenhausen BA2 Erweiterungsbau Ost, Harlaching Ersatzneubau, Neuperlach und Schwabing BA1 Haus B inkl. Akademie. Mit über 3.300 Betten gehört die MüK zur kritischen Infrastruktur (KRITIS). Die Videoüberwachung ist ein Baustein zur Absicherung der kritischer Infrastrukturen (KRITIS), um Anlagen vor Sabotage, Einbruch, Diebstahl und Vandalismus zu schützen.  Die anzubietenden Fabrikate (Hersteller) der Außen- und Innenkameras müssen deshalb zwingend nach den IT-Sicherheitskriterien des \"Bundesamtes für Sicherheit in der Informationstechnik (BSI) geprüft sein.",
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 4,
+    "maximumLotsAwardedPerSupplier": 4
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "819d3d6d-bb93-4027-b45b-e22f4cda66cc",
+  "version": "01",
+  "title": "Videoüberwachung",
+  "description": "Die Leistung umfasst als Rahmenvertrag die Lieferung und Montage  von Videokameras zur Videoüberwachung für vier Klinikstandorte der München Klinik gGmbH.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "32000000",
+   "32323500"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "München Klinik Harlaching Ersatzneubau",
+    "description": "Der Rahmenvertrag der München Klinik gGmbH (MüK) umfasst die Lieferung und Montage von Videokameras für die Standorte Bogenhausen BA2 Erweiterungsbau Ost, Harlaching Ersatzneubau, Neuperlach und Schwabing BA1 Haus B inkl. Akademie. Mit über 3.300 Betten gehört die MüK zur kritischen Infrastruktur (KRITIS). Die Videoüberwachung ist ein Baustein zur Absicherung der kritischer Infrastrukturen (KRITIS), um Anlagen vor Sabotage, Einbruch, Diebstahl und Vandalismus zu schützen.  Die anzubietenden Fabrikate (Hersteller) der Außen- und Innenkameras müssen deshalb zwingend nach den IT-Sicherheitskriterien des \"Bundesamtes für Sicherheit in der Informationstechnik (BSI) geprüft sein.",
+    "cpv": [
+     "32000000",
+     "32323500"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Mit dem Angebot sind vom Bieter (im Falle von Bietergemeinschaften von jedem Mitglied) vorzulegen: 1) Eigenerklärung über die Eintragung in einem Berufs-/ Handelsregister, bei der Industrie- und Handelskammer, Gewerbezentralregister oder einer anderen Stelle, bei der Eintragungspflicht besteht; alternativ Eigenerklärung über eine nicht bestehende Eintragungspflicht. Falls sein Angebot in die engere Wahl kommt, hat der Bieter zur Bestätigung seiner Erklärung auf Verlangen vorzulegen: Nachweis der Gewerbeanmeldung, Handelsregisterauszug und Nachweis der Eintragung bei der Industrie- und Handelskammer oder andere entsprechende Nachweise. 2) Eigenerklärung über die Mitgliedschaft in der Berufsgenossenschaft. Falls sein Angebot in die engere Wahl kommt, hat der Bieter eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für ihn zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorzulegen. 3) Eigenerklärung zum Vorliegen von Ausschlussgründen gemäß § 42 VGV bzw. § 31 Abs. 1 UVgO in Verbindung mit § 123 und § 124 GWB. Ab einer Auftragssumme von 50.000 Euro (netto) wird der Auftraggeber bei der Registerbehörde im Bundeskartellamt abfragen, ob im Wettbewerbsregister Eintragungen zu dem Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, gespeichert sind."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Eigenerklärung über den Umsatz des Bieters jeweils bezogen auf die letzten drei (3) abgeschlossenen Geschäftsjahre, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind.   Mindestanforderung ist ein Umsatz mit vergleichbaren Leistungen des Bieters, in jedem der letzten drei (3) abgeschlossenen Geschäftsjahre, von mindestens 1.000.000 EUR netto. Die Nichterfüllung der Mindestanforderung führt zum Ausschluss des Angebotes. Bei einer Bietergemeinschaft sind die jeweiligen Umsätze im Tätigkeitsbereich des Auftrages der Mitglieder pro Geschäftsjahr zu addieren und die Summe ist je Geschäftsjahr unter Umsatz im Tätigkeitsbereich des Auftrages anzugeben. Letztgenannter Wert ist maßgeblich für die Einhaltung der Mindestanforderung. Entsprechendes gilt für die jeweiligen Gesamtumsätze."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung des Bieters, dass er dem Auftraggeber bei Abschluss dieser Rahmenvereinbarung nachweist, dass er über eine im Rahmen und Umfang marktübliche Industriehaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU verfügt.  Der Auftragnehmer wird diesen Versicherungsschutz bis zum Ende dieser Rahmenvereinbarung und darüber hinaus bis zur Verjährung sämtlicher Mängelansprüche aus den Einzelaufträgen aufrechterhalten. Kommt der Auftragnehmer dieser Verpflichtung nicht nach, ist der Auftraggeber nach erfolgloser angemessener Fristsetzung zur Kündigung des Vertrages berechtigt, wenn ihm ein Festhalten am Vertrag nicht mehr zuzumuten ist. Weitergehende Ansprüche des Auftraggebers, insbesondere Schadensersatzansprüche, bleiben hiervon unberührt."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "1) Eigenerklärungen über mindestens drei (3) abgeschlossene Referenzen der letzten drei (3) Jahre, die mit der zu vergebenden Leistung vergleichbar sind. Vergleichbar sind Leistungen, die den ausgeschriebenen Leistungen nach Art, Umfang, Inhalt und Auftragswert (netto) im Wesentlichen entsprechen. Die Referenzen beinhalten mindestens folgende Angaben: Bezeichnung des Auftragsgebers mit Ansprechpartner (Anschrift, Name, Email, Telefonnummer), Bezeichnung der Leistung, Liefer- und Erbringungszeitraum, Auftragswert netto.  Bei Bietergemeinschaften muss klar erkennbar sein, welche Referenz welchem Mitglied der Bietergemeinschaft zuzuordnen ist. Die Mindestanforderungen erfüllende Referenzen der Mitglieder werden der Bietergemeinschaft zugerechnet. Falls das Angebot in die engere Wahl kommt, behält sich der Auftraggeber eine Überprüfung der Referenzen beim jeweiligen Vertragspartner/ Ansprechpartner vor."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Eigenerklärung, aus der die durchschnittliche Zahl der Beschäftigten (angestellte Mitarbeiter) und der Führungskräfte (Inhaber, geschäftsführende Gesellschafter, Geschäftsführer, Vorstände) des Bieters jeweils in den letzten drei (3) abgeschlossenen Geschäftsjahren ersichtlich ist. Bei einer Bietergemeinschaft sind je Jahr die durchschnittliche Zahl der Beschäftigten jedes Mitglieds der Bietergemeinschaft zu addieren; entsprechendes gilt für die durchschnittliche Zahl der Führungskräfte jedes Mitglieds der Bietergemeinschaft je Jahr. Die Summe ist maßgeblich für die Einhaltung der Mindestanforderung."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Eigenerklärung, ob und welche Teile des Auftrags der Bieter als Unteraufträge zu vergeben beabsichtigt. Eine Inanspruchnahme der Kapazitäten anderer Unternehmen für die berufliche Befähigung oder die berufliche Erfahrung ist nur möglich, wenn diese Unternehmen die Arbeiten ausführen, für die diese Kapazitäten benötigt werden."
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Folgende Unterlagen sind mit dem Angebot einzureichen: Zertifizierung nach DIN EN ISO 9001, Technische Produktdatenblätter"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "siehe Vergabeunterlagen",
+      "weight": 1
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "München Klinik Bogenhausen BA2 Erweiterungsbau Ost",
+    "description": "Der Rahmenvertrag der München Klinik gGmbH (MüK) umfasst die Lieferung und Montage von Videokameras für die Standorte Bogenhausen BA2 Erweiterungsbau Ost, Harlaching Ersatzneubau, Neuperlach und Schwabing BA1 Haus B inkl. Akademie. Mit über 3.300 Betten gehört die MüK zur kritischen Infrastruktur (KRITIS). Die Videoüberwachung ist ein Baustein zur Absicherung der kritischer Infrastrukturen (KRITIS), um Anlagen vor Sabotage, Einbruch, Diebstahl und Vandalismus zu schützen.  Die anzubietenden Fabrikate (Hersteller) der Außen- und Innenkameras müssen deshalb zwingend nach den IT-Sicherheitskriterien des \"Bundesamtes für Sicherheit in der Informationstechnik (BSI) geprüft sein.",
+    "cpv": [
+     "32000000",
+     "32323500"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Mit dem Angebot sind vom Bieter (im Falle von Bietergemeinschaften von jedem Mitglied) vorzulegen: 1) Eigenerklärung über die Eintragung in einem Berufs-/ Handelsregister, bei der Industrie- und Handelskammer, Gewerbezentralregister oder einer anderen Stelle, bei der Eintragungspflicht besteht; alternativ Eigenerklärung über eine nicht bestehende Eintragungspflicht. Falls sein Angebot in die engere Wahl kommt, hat der Bieter zur Bestätigung seiner Erklärung auf Verlangen vorzulegen: Nachweis der Gewerbeanmeldung, Handelsregisterauszug und Nachweis der Eintragung bei der Industrie- und Handelskammer oder andere entsprechende Nachweise. 2) Eigenerklärung über die Mitgliedschaft in der Berufsgenossenschaft. Falls sein Angebot in die engere Wahl kommt, hat der Bieter eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für ihn zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorzulegen. 3) Eigenerklärung zum Vorliegen von Ausschlussgründen gemäß § 42 VGV bzw. § 31 Abs. 1 UVgO in Verbindung mit § 123 und § 124 GWB. Ab einer Auftragssumme von 50.000 Euro (netto) wird der Auftraggeber bei der Registerbehörde im Bundeskartellamt abfragen, ob im Wettbewerbsregister Eintragungen zu dem Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, gespeichert sind."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Eigenerklärung über den Umsatz des Bieters jeweils bezogen auf die letzten drei (3) abgeschlossenen Geschäftsjahre, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind.   Mindestanforderung ist ein Umsatz mit vergleichbaren Leistungen des Bieters, in jedem der letzten drei (3) abgeschlossenen Geschäftsjahre, von mindestens 1.000.000 EUR netto. Die Nichterfüllung der Mindestanforderung führt zum Ausschluss des Angebotes. Bei einer Bietergemeinschaft sind die jeweiligen Umsätze im Tätigkeitsbereich des Auftrages der Mitglieder pro Geschäftsjahr zu addieren und die Summe ist je Geschäftsjahr unter Umsatz im Tätigkeitsbereich des Auftrages anzugeben. Letztgenannter Wert ist maßgeblich für die Einhaltung der Mindestanforderung. Entsprechendes gilt für die jeweiligen Gesamtumsätze."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung des Bieters, dass er dem Auftraggeber bei Abschluss dieser Rahmenvereinbarung nachweist, dass er über eine im Rahmen und Umfang marktübliche Industriehaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU verfügt.  Der Auftragnehmer wird diesen Versicherungsschutz bis zum Ende dieser Rahmenvereinbarung und darüber hinaus bis zur Verjährung sämtlicher Mängelansprüche aus den Einzelaufträgen aufrechterhalten. Kommt der Auftragnehmer dieser Verpflichtung nicht nach, ist der Auftraggeber nach erfolgloser angemessener Fristsetzung zur Kündigung des Vertrages berechtigt, wenn ihm ein Festhalten am Vertrag nicht mehr zuzumuten ist. Weitergehende Ansprüche des Auftraggebers, insbesondere Schadensersatzansprüche, bleiben hiervon unberührt."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "1) Eigenerklärungen über mindestens drei (3) abgeschlossene Referenzen der letzten drei (3) Jahre, die mit der zu vergebenden Leistung vergleichbar sind. Vergleichbar sind Leistungen, die den ausgeschriebenen Leistungen nach Art, Umfang, Inhalt und Auftragswert (netto) im Wesentlichen entsprechen. Die Referenzen beinhalten mindestens folgende Angaben: Bezeichnung des Auftragsgebers mit Ansprechpartner (Anschrift, Name, Email, Telefonnummer), Bezeichnung der Leistung, Liefer- und Erbringungszeitraum, Auftragswert netto.  Bei Bietergemeinschaften muss klar erkennbar sein, welche Referenz welchem Mitglied der Bietergemeinschaft zuzuordnen ist. Die Mindestanforderungen erfüllende Referenzen der Mitglieder werden der Bietergemeinschaft zugerechnet. Falls das Angebot in die engere Wahl kommt, behält sich der Auftraggeber eine Überprüfung der Referenzen beim jeweiligen Vertragspartner/ Ansprechpartner vor."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Eigenerklärung, aus der die durchschnittliche Zahl der Beschäftigten (angestellte Mitarbeiter) und der Führungskräfte (Inhaber, geschäftsführende Gesellschafter, Geschäftsführer, Vorstände) des Bieters jeweils in den letzten drei (3) abgeschlossenen Geschäftsjahren ersichtlich ist. Bei einer Bietergemeinschaft sind je Jahr die durchschnittliche Zahl der Beschäftigten jedes Mitglieds der Bietergemeinschaft zu addieren; entsprechendes gilt für die durchschnittliche Zahl der Führungskräfte jedes Mitglieds der Bietergemeinschaft je Jahr. Die Summe ist maßgeblich für die Einhaltung der Mindestanforderung."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Eigenerklärung, ob und welche Teile des Auftrags der Bieter als Unteraufträge zu vergeben beabsichtigt. Eine Inanspruchnahme der Kapazitäten anderer Unternehmen für die berufliche Befähigung oder die berufliche Erfahrung ist nur möglich, wenn diese Unternehmen die Arbeiten ausführen, für die diese Kapazitäten benötigt werden."
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Folgende Unterlagen sind mit dem Angebot einzureichen: Zertifizierung nach DIN EN ISO 9001, Technische Produktdatenblätter"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "siehe Vergabeunterlagen",
+      "weight": 1
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0003",
+    "title": "München Klinik Schwabing BA1 Haus B plus Akademie",
+    "description": "Der Rahmenvertrag der München Klinik gGmbH (MüK) umfasst die Lieferung und Montage von Videokameras für die Standorte Bogenhausen BA2 Erweiterungsbau Ost, Harlaching Ersatzneubau, Neuperlach und Schwabing BA1 Haus B inkl. Akademie. Mit über 3.300 Betten gehört die MüK zur kritischen Infrastruktur (KRITIS). Die Videoüberwachung ist ein Baustein zur Absicherung der kritischer Infrastrukturen (KRITIS), um Anlagen vor Sabotage, Einbruch, Diebstahl und Vandalismus zu schützen.  Die anzubietenden Fabrikate (Hersteller) der Außen- und Innenkameras müssen deshalb zwingend nach den IT-Sicherheitskriterien des \"Bundesamtes für Sicherheit in der Informationstechnik (BSI) geprüft sein.",
+    "cpv": [
+     "32000000",
+     "32323500"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Mit dem Angebot sind vom Bieter (im Falle von Bietergemeinschaften von jedem Mitglied) vorzulegen: 1) Eigenerklärung über die Eintragung in einem Berufs-/ Handelsregister, bei der Industrie- und Handelskammer, Gewerbezentralregister oder einer anderen Stelle, bei der Eintragungspflicht besteht; alternativ Eigenerklärung über eine nicht bestehende Eintragungspflicht. Falls sein Angebot in die engere Wahl kommt, hat der Bieter zur Bestätigung seiner Erklärung auf Verlangen vorzulegen: Nachweis der Gewerbeanmeldung, Handelsregisterauszug und Nachweis der Eintragung bei der Industrie- und Handelskammer oder andere entsprechende Nachweise. 2) Eigenerklärung über die Mitgliedschaft in der Berufsgenossenschaft. Falls sein Angebot in die engere Wahl kommt, hat der Bieter eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für ihn zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorzulegen. 3) Eigenerklärung zum Vorliegen von Ausschlussgründen gemäß § 42 VGV bzw. § 31 Abs. 1 UVgO in Verbindung mit § 123 und § 124 GWB. Ab einer Auftragssumme von 50.000 Euro (netto) wird der Auftraggeber bei der Registerbehörde im Bundeskartellamt abfragen, ob im Wettbewerbsregister Eintragungen zu dem Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, gespeichert sind."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Eigenerklärung über den Umsatz des Bieters jeweils bezogen auf die letzten drei (3) abgeschlossenen Geschäftsjahre, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind.   Mindestanforderung ist ein Umsatz mit vergleichbaren Leistungen des Bieters, in jedem der letzten drei (3) abgeschlossenen Geschäftsjahre, von mindestens 1.000.000 EUR netto. Die Nichterfüllung der Mindestanforderung führt zum Ausschluss des Angebotes. Bei einer Bietergemeinschaft sind die jeweiligen Umsätze im Tätigkeitsbereich des Auftrages der Mitglieder pro Geschäftsjahr zu addieren und die Summe ist je Geschäftsjahr unter Umsatz im Tätigkeitsbereich des Auftrages anzugeben. Letztgenannter Wert ist maßgeblich für die Einhaltung der Mindestanforderung. Entsprechendes gilt für die jeweiligen Gesamtumsätze."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung des Bieters, dass er dem Auftraggeber bei Abschluss dieser Rahmenvereinbarung nachweist, dass er über eine im Rahmen und Umfang marktübliche Industriehaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU verfügt.  Der Auftragnehmer wird diesen Versicherungsschutz bis zum Ende dieser Rahmenvereinbarung und darüber hinaus bis zur Verjährung sämtlicher Mängelansprüche aus den Einzelaufträgen aufrechterhalten. Kommt der Auftragnehmer dieser Verpflichtung nicht nach, ist der Auftraggeber nach erfolgloser angemessener Fristsetzung zur Kündigung des Vertrages berechtigt, wenn ihm ein Festhalten am Vertrag nicht mehr zuzumuten ist. Weitergehende Ansprüche des Auftraggebers, insbesondere Schadensersatzansprüche, bleiben hiervon unberührt."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "1) Eigenerklärungen über mindestens drei (3) abgeschlossene Referenzen der letzten drei (3) Jahre, die mit der zu vergebenden Leistung vergleichbar sind. Vergleichbar sind Leistungen, die den ausgeschriebenen Leistungen nach Art, Umfang, Inhalt und Auftragswert (netto) im Wesentlichen entsprechen. Die Referenzen beinhalten mindestens folgende Angaben: Bezeichnung des Auftragsgebers mit Ansprechpartner (Anschrift, Name, Email, Telefonnummer), Bezeichnung der Leistung, Liefer- und Erbringungszeitraum, Auftragswert netto.  Bei Bietergemeinschaften muss klar erkennbar sein, welche Referenz welchem Mitglied der Bietergemeinschaft zuzuordnen ist. Die Mindestanforderungen erfüllende Referenzen der Mitglieder werden der Bietergemeinschaft zugerechnet. Falls das Angebot in die engere Wahl kommt, behält sich der Auftraggeber eine Überprüfung der Referenzen beim jeweiligen Vertragspartner/ Ansprechpartner vor."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Eigenerklärung, aus der die durchschnittliche Zahl der Beschäftigten (angestellte Mitarbeiter) und der Führungskräfte (Inhaber, geschäftsführende Gesellschafter, Geschäftsführer, Vorstände) des Bieters jeweils in den letzten drei (3) abgeschlossenen Geschäftsjahren ersichtlich ist. Bei einer Bietergemeinschaft sind je Jahr die durchschnittliche Zahl der Beschäftigten jedes Mitglieds der Bietergemeinschaft zu addieren; entsprechendes gilt für die durchschnittliche Zahl der Führungskräfte jedes Mitglieds der Bietergemeinschaft je Jahr. Die Summe ist maßgeblich für die Einhaltung der Mindestanforderung."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Eigenerklärung, ob und welche Teile des Auftrags der Bieter als Unteraufträge zu vergeben beabsichtigt. Eine Inanspruchnahme der Kapazitäten anderer Unternehmen für die berufliche Befähigung oder die berufliche Erfahrung ist nur möglich, wenn diese Unternehmen die Arbeiten ausführen, für die diese Kapazitäten benötigt werden."
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Folgende Unterlagen sind mit dem Angebot einzureichen: Zertifizierung nach DIN EN ISO 9001, Technische Produktdatenblätter"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "siehe Vergabeunterlagen",
+      "weight": 1
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0004",
+    "title": "München Klinik Neuperlach",
+    "description": "Der Rahmenvertrag der München Klinik gGmbH (MüK) umfasst die Lieferung und Montage von Videokameras für die Standorte Bogenhausen BA2 Erweiterungsbau Ost, Harlaching Ersatzneubau, Neuperlach und Schwabing BA1 Haus B inkl. Akademie. Mit über 3.300 Betten gehört die MüK zur kritischen Infrastruktur (KRITIS). Die Videoüberwachung ist ein Baustein zur Absicherung der kritischer Infrastrukturen (KRITIS), um Anlagen vor Sabotage, Einbruch, Diebstahl und Vandalismus zu schützen.  Die anzubietenden Fabrikate (Hersteller) der Außen- und Innenkameras müssen deshalb zwingend nach den IT-Sicherheitskriterien des \"Bundesamtes für Sicherheit in der Informationstechnik (BSI) geprüft sein.",
+    "cpv": [
+     "32000000",
+     "32323500"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Mit dem Angebot sind vom Bieter (im Falle von Bietergemeinschaften von jedem Mitglied) vorzulegen: 1) Eigenerklärung über die Eintragung in einem Berufs-/ Handelsregister, bei der Industrie- und Handelskammer, Gewerbezentralregister oder einer anderen Stelle, bei der Eintragungspflicht besteht; alternativ Eigenerklärung über eine nicht bestehende Eintragungspflicht. Falls sein Angebot in die engere Wahl kommt, hat der Bieter zur Bestätigung seiner Erklärung auf Verlangen vorzulegen: Nachweis der Gewerbeanmeldung, Handelsregisterauszug und Nachweis der Eintragung bei der Industrie- und Handelskammer oder andere entsprechende Nachweise. 2) Eigenerklärung über die Mitgliedschaft in der Berufsgenossenschaft. Falls sein Angebot in die engere Wahl kommt, hat der Bieter eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für ihn zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorzulegen. 3) Eigenerklärung zum Vorliegen von Ausschlussgründen gemäß § 42 VGV bzw. § 31 Abs. 1 UVgO in Verbindung mit § 123 und § 124 GWB. Ab einer Auftragssumme von 50.000 Euro (netto) wird der Auftraggeber bei der Registerbehörde im Bundeskartellamt abfragen, ob im Wettbewerbsregister Eintragungen zu dem Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, gespeichert sind."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Eigenerklärung über den Umsatz des Bieters jeweils bezogen auf die letzten drei (3) abgeschlossenen Geschäftsjahre, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind.   Mindestanforderung ist ein Umsatz mit vergleichbaren Leistungen des Bieters, in jedem der letzten drei (3) abgeschlossenen Geschäftsjahre, von mindestens 1.000.000 EUR netto. Die Nichterfüllung der Mindestanforderung führt zum Ausschluss des Angebotes. Bei einer Bietergemeinschaft sind die jeweiligen Umsätze im Tätigkeitsbereich des Auftrages der Mitglieder pro Geschäftsjahr zu addieren und die Summe ist je Geschäftsjahr unter Umsatz im Tätigkeitsbereich des Auftrages anzugeben. Letztgenannter Wert ist maßgeblich für die Einhaltung der Mindestanforderung. Entsprechendes gilt für die jeweiligen Gesamtumsätze."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung des Bieters, dass er dem Auftraggeber bei Abschluss dieser Rahmenvereinbarung nachweist, dass er über eine im Rahmen und Umfang marktübliche Industriehaftpflichtversicherung oder eine vergleichbare Versicherung aus einem Mitgliedsstaat der EU verfügt.  Der Auftragnehmer wird diesen Versicherungsschutz bis zum Ende dieser Rahmenvereinbarung und darüber hinaus bis zur Verjährung sämtlicher Mängelansprüche aus den Einzelaufträgen aufrechterhalten. Kommt der Auftragnehmer dieser Verpflichtung nicht nach, ist der Auftraggeber nach erfolgloser angemessener Fristsetzung zur Kündigung des Vertrages berechtigt, wenn ihm ein Festhalten am Vertrag nicht mehr zuzumuten ist. Weitergehende Ansprüche des Auftraggebers, insbesondere Schadensersatzansprüche, bleiben hiervon unberührt."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "1) Eigenerklärungen über mindestens drei (3) abgeschlossene Referenzen der letzten drei (3) Jahre, die mit der zu vergebenden Leistung vergleichbar sind. Vergleichbar sind Leistungen, die den ausgeschriebenen Leistungen nach Art, Umfang, Inhalt und Auftragswert (netto) im Wesentlichen entsprechen. Die Referenzen beinhalten mindestens folgende Angaben: Bezeichnung des Auftragsgebers mit Ansprechpartner (Anschrift, Name, Email, Telefonnummer), Bezeichnung der Leistung, Liefer- und Erbringungszeitraum, Auftragswert netto.  Bei Bietergemeinschaften muss klar erkennbar sein, welche Referenz welchem Mitglied der Bietergemeinschaft zuzuordnen ist. Die Mindestanforderungen erfüllende Referenzen der Mitglieder werden der Bietergemeinschaft zugerechnet. Falls das Angebot in die engere Wahl kommt, behält sich der Auftraggeber eine Überprüfung der Referenzen beim jeweiligen Vertragspartner/ Ansprechpartner vor."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Eigenerklärung, aus der die durchschnittliche Zahl der Beschäftigten (angestellte Mitarbeiter) und der Führungskräfte (Inhaber, geschäftsführende Gesellschafter, Geschäftsführer, Vorstände) des Bieters jeweils in den letzten drei (3) abgeschlossenen Geschäftsjahren ersichtlich ist. Bei einer Bietergemeinschaft sind je Jahr die durchschnittliche Zahl der Beschäftigten jedes Mitglieds der Bietergemeinschaft zu addieren; entsprechendes gilt für die durchschnittliche Zahl der Führungskräfte jedes Mitglieds der Bietergemeinschaft je Jahr. Die Summe ist maßgeblich für die Einhaltung der Mindestanforderung."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Eigenerklärung, ob und welche Teile des Auftrags der Bieter als Unteraufträge zu vergeben beabsichtigt. Eine Inanspruchnahme der Kapazitäten anderer Unternehmen für die berufliche Befähigung oder die berufliche Erfahrung ist nur möglich, wenn diese Unternehmen die Arbeiten ausführen, für die diese Kapazitäten benötigt werden."
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Folgende Unterlagen sind mit dem Angebot einzureichen: Zertifizierung nach DIN EN ISO 9001, Technische Produktdatenblätter"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "siehe Vergabeunterlagen",
+      "weight": 1
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

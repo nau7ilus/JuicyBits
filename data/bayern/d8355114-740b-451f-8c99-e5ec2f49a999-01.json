@@ -1,0 +1,176 @@
+{
+ "id": "d8355114-740b-451f-8c99-e5ec2f49a999-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "d8355114-740b-451f-8c99-e5ec2f49a999",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d8355114-740b-451f-8c99-e5ec2f49a999",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:d8355114-740b-451f-8c99-e5ec2f49a999-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:d8355114-740b-451f-8c99-e5ec2f49a999-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d8355114-740b-451f-8c99-e5ec2f49a999?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "Strom- und Gaslieferung Stadt Freising – Inhouse-Auftrag an Freisinger Stadtwerke Versorgungs-GmbH",
+  "buyer": "Stadt Freising",
+  "cpv": [
+   "09310000",
+   "09123000"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-2f20ec2e-eb8c-458f-8fc2-f2c89c3461aa",
+  "id": "d8355114-740b-451f-8c99-e5ec2f49a999",
+  "date": "2026-10-24T20:50:04Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Freising",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 128 96 93 96",
+     "legalName": "Stadt Freising"
+    },
+    "address": {
+     "locality": "Freising",
+     "region": "DE21B",
+     "postalCode": "85354",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Freising",
+   "id": "DE 128 96 93 96",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Stadt Freising"
+   },
+   "address": {
+    "locality": "Freising",
+    "region": "DE21B",
+    "postalCode": "85354",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "2f20ec2e-eb8c-458f-8fc2-f2c89c3461aa",
+   "title": "Strom- und Gaslieferung Stadt Freising – Inhouse-Auftrag an Freisinger Stadtwerke Versorgungs-GmbH",
+   "description": "Vorliegend beabsichtigt die Stadt Freising, als öffentliche Auftraggeberin im Sinne des § 99 Nr. 1 GWB, die Verträge \nüber die Lieferung von elektrischer Energie und Erdgas für ihre städtischen Abnahmestellen an die Freisinger \nStadtwerke Versorgungs-GmbH (im Folgenden FSV; Kontaktdaten: [E-Mail entfernt], 08161/183-0) zu vergeben. Gegenstand der FSV ist die Versorgung der Bevölkerung und der Wirtschaftsunternehmen in Freising mit Strom, Wasser, Gas und Wärme.",
+   "procuringEntity": {
+    "name": "Stadt Freising",
+    "id": "DE 128 96 93 96"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryLocation": {
+      "description": "21B"
+     },
+     "deliveryAddress": {
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "Public contract between organisations within the public sector ('in-house'), contracts awarded to affiliated undertakings, or contracts awarded to a joint venture or within a joint venture",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Strom- und Gaslieferung Stadt Freising – Inhouse-Auftrag an Freisinger Stadtwerke Versorgungs-GmbH",
+     "description": "Vorliegend beabsichtigt die Stadt Freising, als öffentliche Auftraggeberin im Sinne des § 99 Nr. 1 GWB, die Verträge \nüber die Lieferung von elektrischer Energie und Erdgas für ihre städtischen Abnahmestellen an die Freisinger \nStadtwerke Versorgungs-GmbH (im Folgenden FSV) zu vergeben. Gegenstand der FSV ist die Versorgung der \nBevölkerung und der Wirtschaftsunternehmen in Freising mit Strom, Wasser, Gas und Wärme."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "25",
+  "noticeId": "d8355114-740b-451f-8c99-e5ec2f49a999",
+  "version": "01",
+  "title": "Strom- und Gaslieferung Stadt Freising – Inhouse-Auftrag an Freisinger Stadtwerke Versorgungs-GmbH",
+  "description": "Vorliegend beabsichtigt die Stadt Freising, als öffentliche Auftraggeberin im Sinne des § 99 Nr. 1 GWB, die Verträge \nüber die Lieferung von elektrischer Energie und Erdgas für ihre städtischen Abnahmestellen an die Freisinger \nStadtwerke Versorgungs-GmbH (im Folgenden FSV; Kontaktdaten: [E-Mail entfernt], 08161/183-0) zu vergeben. Gegenstand der FSV ist die Versorgung der Bevölkerung und der Wirtschaftsunternehmen in Freising mit Strom, Wasser, Gas und Wärme.",
+  "procedureType": "neg-wo-call",
+  "nuts": [],
+  "cpv": [
+   "09310000",
+   "09123000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Strom- und Gaslieferung Stadt Freising – Inhouse-Auftrag an Freisinger Stadtwerke Versorgungs-GmbH",
+    "description": "Vorliegend beabsichtigt die Stadt Freising, als öffentliche Auftraggeberin im Sinne des § 99 Nr. 1 GWB, die Verträge \nüber die Lieferung von elektrischer Energie und Erdgas für ihre städtischen Abnahmestellen an die Freisinger \nStadtwerke Versorgungs-GmbH (im Folgenden FSV) zu vergeben. Gegenstand der FSV ist die Versorgung der \nBevölkerung und der Wirtschaftsunternehmen in Freising mit Strom, Wasser, Gas und Wärme.",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

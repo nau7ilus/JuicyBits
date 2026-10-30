@@ -1,0 +1,125 @@
+{
+ "id": "25954632-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954632",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954632",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954632-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954632-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954632?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten",
+  "buyer": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft",
+  "cpv": [
+   "16700000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954632",
+  "id": "25954632",
+  "date": "2026-10-21T07:01:43Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft"
+   }
+  },
+  "tender": {
+   "title": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten",
+   "description": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten\n\nLieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "16700000",
+      "description": "Tractors"
+     },
+     "deliveryAddress": {
+      "locality": "90425 Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten",
+     "description": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten\n\nLieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25954632",
+  "version": "1",
+  "title": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten",
+  "description": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten\n\nLieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "16700000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten",
+    "description": "Lieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten\n\nLieferung von zwei Kommunaltraktoren mit Kabine und Anbaugeräten",
+    "cpv": [
+     "16700000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "id": "d99c9b76-12cd-460b-9970-75b5f0a65834-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "d99c9b76-12cd-460b-9970-75b5f0a65834",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d99c9b76-12cd-460b-9970-75b5f0a65834",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:d99c9b76-12cd-460b-9970-75b5f0a65834-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:d99c9b76-12cd-460b-9970-75b5f0a65834-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d99c9b76-12cd-460b-9970-75b5f0a65834?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag über die Medienversorgung der Bibliotheken der Goethe-Institute im Ausland",
+  "buyer": "Goethe-Institut e.V. - Zentrale",
+  "cpv": [
+   "22113000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-18T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fd1aea17-c6cb-46ac-954e-c5ad1a951f79",
+  "id": "d99c9b76-12cd-460b-9970-75b5f0a65834",
+  "date": "2026-10-16T02:10:36Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Goethe-Institut e.V. - Zentrale",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129516430",
+     "legalName": "Goethe-Institut e.V. - Zentrale"
+    },
+    "address": {
+     "streetAddress": "Oskar-von-Miller-Ring 18",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes beim Bundeskartellamt",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "53133",
+     "legalName": "Vergabekammer des Bundes beim Bundeskartellamt"
+    },
+    "address": {
+     "streetAddress": "Villemombler Str 76",
+     "locality": "Bonn",
+     "region": "DEA23",
+     "postalCode": "53133",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Goethe-Institut e.V. - Zentrale",
+   "id": "DE129516430",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Goethe-Institut e.V. - Zentrale"
+   },
+   "address": {
+    "streetAddress": "Oskar-von-Miller-Ring 18",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fd1aea17-c6cb-46ac-954e-c5ad1a951f79",
+   "title": "Rahmenvertrag über die Medienversorgung der Bibliotheken der Goethe-Institute im Ausland",
+   "description": "Für den Zweck der Medienversorgung der Bibliotheken der Goethe-Institute weltweit wird eine elektronische Bestellplattform benötigt. Über diese webbasierte, passwortgeschützte Plattform sollen alle Vorgänge der Bestellung, Beschaffung und Lieferung von Medien abgewickelt und dargestellt werden.  Bei den zu bestellenden Medien handelt es sich um: - Bücher - Tonträger (Musik und Hörbuch) - Brettspiele - Publikationen in fortgesetzter Erscheinungsweise (Fortsetzungswerke) - Abonnements von Zeitschriften und Zeitungen.  Es gibt keine garantierte jährliche Mindestabnahmesumme.",
+   "procuringEntity": {
+    "name": "Goethe-Institut e.V. - Zentrale",
+    "id": "DE129516430"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "22113000",
+      "description": "Library books"
+     },
+     "deliveryLocation": {
+      "description": "Der Gesamtauftrag ist in die folgenden neun Regionen mit Bibliotheksstandorten aufgeteilt, zu denen jeweils die im Folgenden aufgelisteten Standorte gehören: 1. Europa I: Bratislava, Budapest, Krakau, Prag, Warschau, Ankara, Athen, Belgrad, Bukarest, Istanbul, Izmir, Jerewan, Sarajewo, Sofia, Thessaloniki, Zagreb, Kyjiw, Tbilissi 2. Europa II: Amsterdam, Barcelona, Dublin, Glasgow, London, Lissabon, Lyon, Madrid, Mailand, Nancy, Paris, Riga, Stockholm, Tallinn 3. Nordamerika: Montreal, New York, Mexiko-Stadt, Toronto 4. Nordafrika/Nahost: Alexandria, Amman, Beirut, Casablanca, Kairo, Rabat, Ramallah, Tel Aviv 5. Ost- und Zentralasien: Hongkong, Kyoto, Peking, Seoul, Taipei, Tokyo, Ulan Bator, Almaty, Taschkent 6. Südamerika: Buenos Aires, Bogota, Caracas, Córdoba, La Paz, Lima, Porto Alegre, Rio de Janeiro, Salvador-Bahia, São Paulo, Santiago de Chile 7. Südostasien, Australien und Neuseeland: Bandung, Bangkok, Hanoi, Jakarta, Kuala Lumpur, Manila, Singapur, Yangon 8. Südasien: Bangalore, Chennai, Dhaka, Colombo, Karachi, Kolkata, Mumbai, New Delhi, Pune 9. Subsahara-Afrika: Abidjan, Accra, Addis Abeba, Dakar, Johannesburg, Lagos, Lomé, Nairobi, Windhuk, Yaoundé"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Oskar-von-Miller-Ring 18",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YHXMWXF/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag über die Medienversorgung der Bibliotheken der Goethe-Institute im Ausland",
+     "description": "Durch den Auftragnehmer zu erbringende Leistungen sind Folgende: 1.  Bereitstellung einer Bestellplattform (Online-Recherchedatenbank) als Bestellgrundlage für die genannten Medien bereit 2. Existenz einer Bedienungsfunktion der Bestellplattform 3.  Bereitstellung elektronischer Benutzerkonten (ein Konto je Adressat), die einen individuellen Zugriff auf sämtliche Daten und Bestellvorgänge ermöglichen 4. Abwicklung und Darstellung der Abonnement- und Fortsetzungsverwaltung 5. Rechnungsstellung auf elektronischem Wege und auf Wunsch auch die Bereitstellung von schriftlichen Originalrechnungen 6. Lieferung und Versand laut den aktuell gültigen Versandvorschriften des Goethe-Instituts (Anlage E) 7. Service und Sonstiges 8. Auftragnehmer muss im Falle der Auftragserteilung eine fristgerechte Verfügbarkeit aller Leistungen zum 1. Januar 2027 sicherstellen  Eine detaillierte Beschreibung der geforderten Leistung ist der Anlage A \"Leistungsbeschreibung\" (Anlage 1 zum Vertrag) zu entnehmen.",
+     "contractPeriod": {
+      "durationInDays": 730
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d99c9b76-12cd-460b-9970-75b5f0a65834",
+  "version": "01",
+  "title": "Rahmenvertrag über die Medienversorgung der Bibliotheken der Goethe-Institute im Ausland",
+  "description": "Für den Zweck der Medienversorgung der Bibliotheken der Goethe-Institute weltweit wird eine elektronische Bestellplattform benötigt. Über diese webbasierte, passwortgeschützte Plattform sollen alle Vorgänge der Bestellung, Beschaffung und Lieferung von Medien abgewickelt und dargestellt werden.  Bei den zu bestellenden Medien handelt es sich um: - Bücher - Tonträger (Musik und Hörbuch) - Brettspiele - Publikationen in fortgesetzter Erscheinungsweise (Fortsetzungswerke) - Abonnements von Zeitschriften und Zeitungen.  Es gibt keine garantierte jährliche Mindestabnahmesumme.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "22113000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag über die Medienversorgung der Bibliotheken der Goethe-Institute im Ausland",
+    "description": "Durch den Auftragnehmer zu erbringende Leistungen sind Folgende: 1.  Bereitstellung einer Bestellplattform (Online-Recherchedatenbank) als Bestellgrundlage für die genannten Medien bereit 2. Existenz einer Bedienungsfunktion der Bestellplattform 3.  Bereitstellung elektronischer Benutzerkonten (ein Konto je Adressat), die einen individuellen Zugriff auf sämtliche Daten und Bestellvorgänge ermöglichen 4. Abwicklung und Darstellung der Abonnement- und Fortsetzungsverwaltung 5. Rechnungsstellung auf elektronischem Wege und auf Wunsch auch die Bereitstellung von schriftlichen Originalrechnungen 6. Lieferung und Versand laut den aktuell gültigen Versandvorschriften des Goethe-Instituts (Anlage E) 7. Service und Sonstiges 8. Auftragnehmer muss im Falle der Auftragserteilung eine fristgerechte Verfügbarkeit aller Leistungen zum 1. Januar 2027 sicherstellen  Eine detaillierte Beschreibung der geforderten Leistung ist der Anlage A \"Leistungsbeschreibung\" (Anlage 1 zum Vertrag) zu entnehmen.",
+    "cpv": [
+     "22113000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-subc",
+      "description": "1.Soweit notwendig sind mit dem Angebot die folgenden Unterlagen einzureichen. Im Falle der Eignungsleihe (= Inanspruchnahme der Fachkunde oder Leistungsfähigkeit eines Unterauftragnehmers oder sonstigen Dritten) hat der Bieter eine verbindliche Verpflichtungserklärung des jeweiligen Unternehmens vorzulegen, dass ihm die Mittel zur Verfügung stehen werden bzw. dass der Dritte die Leistung ausführen wird (§ 47 Abs. 1 VgV) sowie eine Erklärung der gemeinsamen Haftung des Bieters und des anderen Unternehmens für die Auftragsausführung entsprechend dem Umfang der Eignungsleihe (Formblatt Anlage B4.).  Jedes Unternehmen, dessen Kapazitäten der Bewerber für die Erfüllung eines oder mehrerer Eignungskriterien in Anspruch nehmen will, muss zudem folgende Erklärungen vorlegen (Anforderungen an Unternehmen):  - Erklärungen gemäß Anlage B5 (Erklärungen zum Nichtvorliegen von Ausschlussgründen).  - Nachweis der Eignung des Unternehmens, dessen Kapazitäten der Bieter für die Erfüllung eines oder mehrerer Eignungskriterien in Anspruch nehmen will, in Bezug auf die Eignungskriterien entsprechend dem Umfang der Eignungsleihe. - Erklärung gemäß Anlage B 8 (Eigenerklärung Russlandbezug)."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "2. Darstellung von mindestens drei vergleichbaren Referenzprojekten (vergleichbare Größenordnung und ähnliches Umfeld), die in den letzten 3 Jahren seit der Veröffentlichung dieser Bekanntmachung erfolgreich unter Einhaltung der Ausführungsfristen und der veranschlagten Vergütung abgeschlossen wurden."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "3. Von dem Bieter bzw. der Bietergemeinschaft (ggf. einschl. der Unterauftragnehmer) ist der durch das/die Unternehmen erzielte Umsatz mit vergleichbaren Dienstleistungen (netto), jeweils für die letzten drei abgeschlossenen Geschäftsjahre anzugeben."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "4. Basisinformation zum Unternehmen des Bieters (Name, Sitz, Rechtsform, Gründungsjahr, Kontaktdaten) bzw. zu den an der Bietergemeinschaft beteiligten Unternehmen (Name, Sitz, Rechtsform, Gründungsjahr, Kontaktdaten, Leistungsanteil) (soweit zutreffend) (Formblatt Anlage B2.); 5. Bietergemeinschaften sind in Anlage B.3 zu benennen, haben insbesondere einen bevollmächtigten Vertreter für den Abschluss und die Durchführung des Vertrages zu bezeichnen und zu erklären, dass sie im Falle der Beauftragung gesamtschuldnerisch haften. Die rechtsverbindliche Bevollmächtigung des Vertreters der Bietergemeinschaft ist spätestens mit Abgabe des Angebots nachzuweisen. Bei Bietergemeinschaften sind folgende Erklärungen und Nachweise von jedem Mitglied gesondert zu erbringen: - Anlage B.5 Erklärungen zum Nichtvorliegen von Ausschlussgründen - Anlage B.8 Eigenerklärung Russlandbezug Die übrigen Anforderungen an Leistungsfähigkeit und Fachkunde (wirtschaftliche und finanzielle, technische und berufliche Leistungsfähigkeit) gelten für die gemeinschaftlich zur Verfügung stehenden Kapazitäten gemeinsam. 6. Eigenerklärung des Bieters, dass die in §§ 123, 124 GWB bzw. die in § 21 AEntG, § 98c AEntG, § 98c AufenthG, § 19 MiLoG, § 21 SchwarzArbG und § 22 LkSG genannten Ausschlussgründe nicht vorliegen bzw. Eigenerklärung für ausländische Bieter, dass keine Ausschlussgründe vorliegen, die nach den Rechtsvorschriften des jeweiligen Landes mit §§ 123, 124 GWB bzw. § 21 AEntG, § 98c AufenthG, § 19 MiLoG, § 21 SchwarzArbG und § 22 LkSG vergleichbar sind (Formblatt Anlage B.5.);"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Siehe Anlage D Bewertungsmatrix",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Versanddauer innerhalb Deutschlands",
+      "description": "Siehe Anlage D Bewertungsmatrix",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Bearbeitungszeit für die Folierung",
+      "description": "Siehe Anlage D Bewertungsmatrix",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Recherche und Bestellmöglichkeit für weitere fremdsprachige Medien",
+      "description": "Siehe Anlage D Bewertungsmatrix",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Sprachversionen der Benutzeroberfläche",
+      "description": "Siehe Anlage D Bewertungsmatrix",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Bearbeitungszeit für die Einpflege von Empfehlungslisten",
+      "description": "Siehe Anlage D Bewertungsmatrix",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Bearbeitungszeit für die Einpflege von Themenlisten",
+      "description": "Siehe Anlage D Bewertungsmatrix",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Angebot von Standing order-Dienstleistungen",
+      "description": "Siehe Anlage D Bewertungsmatrix",
+      "weight": 10
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "89495797-ba2d-480c-853d-1e7932fdb792",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=89495797-ba2d-480c-853d-1e7932fdb792",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:89495797-ba2d-480c-853d-1e7932fdb792-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:89495797-ba2d-480c-853d-1e7932fdb792-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/89495797-ba2d-480c-853d-1e7932fdb792?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Sanitaer und Heizung_mahe",
   "buyer": "Münchner Wohnen GmbH",
   "cpv": [
@@ -264,5 +264,54 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "89495797-ba2d-480c-853d-1e7932fdb792",
+  "version": "01",
+  "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Sanitaer und Heizung_mahe",
+  "description": "RV- Handwerkerportal\nSanitär- und Heizungsarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45000000",
+   "45232460",
+   "45315000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Sanitaer und Heizung_mahe",
+    "description": "RV- Handwerkerportal\nSanitär- und Heizungsarbeiten",
+    "cpv": [
+     "45000000",
+     "45232460",
+     "45315000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-08-01+02:00",
+    "plannedEnd": "2030-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "100% Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

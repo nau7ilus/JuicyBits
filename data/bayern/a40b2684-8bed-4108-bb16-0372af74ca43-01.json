@@ -146,6 +146,8 @@
   "noticeId": "a40b2684-8bed-4108-bb16-0372af74ca43",
   "version": "01",
   "title": "Mobiliar medizinisch",
+  "description": "Bei den ausgeschriebenen Leistungen handelt es sich im Wesentlichen um die\nLieferung von diversem medizinischem Mobiliar (unter anderem Behandlungslie-\ngen und -stühle, Drehhocker, Rollstühle, Toilettenstühle, Infusionsständer, Un-\ntersuchungsliegen usw.) für den Neubau des Klinikums Main-Spessart in 97816\nLohr.",
+  "procedureType": "open",
   "nuts": [
    "DE26A"
   ],
@@ -157,6 +159,7 @@
    {
     "id": "LOT-0001",
     "title": "Mobiliar medizinisch",
+    "description": "Bei den ausgeschriebenen Leistungen handelt es sich im Wesentlichen um die\nLieferung von diversem medizinischem Mobiliar (unter anderem Behandlungslie-\ngen und -stühle, Drehhocker, Rollstühle, Toilettenstühle, Infusionsständer, Un-\ntersuchungsliegen usw.) für den Neubau des Klinikums Main-Spessart in 97816\nLohr.",
     "cpv": [
      "33192000"
     ],
@@ -167,6 +170,10 @@
     "participationDeadline": null,
     "plannedStart": "2027-01-15+01:00",
     "plannedEnd": null,
+    "duration": {
+     "value": 70,
+     "unit": "DAY"
+    },
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -174,7 +181,16 @@
       "type": "slc-stand-other",
       "description": "Eignung zur Berufsausübung, zur technischen, beruflichen, wirtschaftlichen und finanziellen Leistungsfähigkeit\n\nsiehe Formblatt 124"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

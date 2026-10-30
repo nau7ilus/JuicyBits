@@ -1,0 +1,295 @@
+{
+ "id": "574a2037-1381-48ee-95f5-5490ee30ac7b-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "574a2037-1381-48ee-95f5-5490ee30ac7b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=574a2037-1381-48ee-95f5-5490ee30ac7b",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:574a2037-1381-48ee-95f5-5490ee30ac7b-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:574a2037-1381-48ee-95f5-5490ee30ac7b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/574a2037-1381-48ee-95f5-5490ee30ac7b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Beschaffung und Implementierung eines mobilen C-Bogens mit Flachdetektoren - 2 Stufe der Rahmenvereinbarung / Miniwettbewerb des Klinikums Landkreis Erding",
+  "buyer": "Klinikum Landkreis Erding",
+  "cpv": [
+   "33100000",
+   "33111000"
+  ],
+  "nuts": [
+   "DE21A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8a18fc58-8189-408a-920f-65f19ed95457",
+  "id": "574a2037-1381-48ee-95f5-5490ee30ac7b",
+  "date": "2026-10-27T03:12:13Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Landkreis Erding",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "114/114/50068",
+     "legalName": "Klinikum Landkreis Erding"
+    },
+    "address": {
+     "streetAddress": "Bajuwarenstraße 5",
+     "locality": "Erding",
+     "region": "DE21A",
+     "postalCode": "85435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Ziehm Imaging GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 133 545 793",
+     "legalName": "Ziehm Imaging GmbH"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 10",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Landkreis Erding",
+   "id": "114/114/50068",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Landkreis Erding"
+   },
+   "address": {
+    "streetAddress": "Bajuwarenstraße 5",
+    "locality": "Erding",
+    "region": "DE21A",
+    "postalCode": "85435",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8a18fc58-8189-408a-920f-65f19ed95457",
+   "title": "Beschaffung und Implementierung eines mobilen C-Bogens mit Flachdetektoren - 2 Stufe der Rahmenvereinbarung / Miniwettbewerb des Klinikums Landkreis Erding",
+   "description": "Einkauf eines mobilen C-Bogen High End mit Flachdetektor - Zweite Stufe der Rahmenvereinbarung der Prospitalia / Miniwettbewerb des Klinikums Erding",
+   "procuringEntity": {
+    "name": "Klinikum Landkreis Erding",
+    "id": "114/114/50068"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "33100000",
+      "description": "Medical equipments"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "33111000",
+       "description": "X-ray devices"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Bajuwarenstraße 5",
+      "locality": "Erding",
+      "region": "DE21A",
+      "postalCode": "85435",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 350000,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "Small contract with a small or medium-sized enterprise (article 5(4) 2nd paragraph of Regulation 1370/2007)",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Ziehm Imaging GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Ziehm Imaging GmbH"
+     },
+     "address": {
+      "streetAddress": "Lina-Ammon-Straße 10",
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90471",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Beschaffung und Implementierung eines mobilen C-Bogens mit Flachdetektoren - 2 Stufe der Rahmenvereinbarung / Miniwettbewerb des Klinikums Landkreis Erding",
+     "description": "Das Klinikum Landkreis Erding möchte einen mobilen C-Bogen High End mit Flachdetektor für die Gefäßchirurgie beschaffen. Die Leistung umfasst die Lieferung, Inbetriebnahme, Einweisung und Vollwartung.",
+     "contractPeriod": {
+      "durationInDays": 3650
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Ziehm Vision RFD Hybrid Edition;CMOSline 30 kW inklusive;Endovascular Navigation Aorto-iliac",
+    "status": "active",
+    "value": {
+     "amount": 240000,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Ziehm Vision RFD Hybrid Edition;CMOSline 30 kW inklusive;Endovascular Navigation Aorto-iliac",
+    "status": "active",
+    "value": {
+     "amount": 240000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "574a2037-1381-48ee-95f5-5490ee30ac7b",
+  "version": "01",
+  "title": "Beschaffung und Implementierung eines mobilen C-Bogens mit Flachdetektoren - 2 Stufe der Rahmenvereinbarung / Miniwettbewerb des Klinikums Landkreis Erding",
+  "description": "Einkauf eines mobilen C-Bogen High End mit Flachdetektor - Zweite Stufe der Rahmenvereinbarung der Prospitalia / Miniwettbewerb des Klinikums Erding",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE21A"
+  ],
+  "cpv": [
+   "33100000",
+   "33111000"
+  ],
+  "estimatedValue": {
+   "amount": 350000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung und Implementierung eines mobilen C-Bogens mit Flachdetektoren - 2 Stufe der Rahmenvereinbarung / Miniwettbewerb des Klinikums Landkreis Erding",
+    "description": "Das Klinikum Landkreis Erding möchte einen mobilen C-Bogen High End mit Flachdetektor für die Gefäßchirurgie beschaffen. Die Leistung umfasst die Lieferung, Inbetriebnahme, Einweisung und Vollwartung.",
+    "cpv": [
+     "33100000",
+     "33111000"
+    ],
+    "nuts": [
+     "DE21A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 10,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Bieter mit dem niedrigsten Preis für alle Bestandteile des Leistungsverzeichnisses (ggf. inkl. des Preises der Betriebs- bzw. Vollwartung über 5 oder 10 Jahre) erhält 40 Punkte, bei höheren Preisen erfolgt ein prozentualer Abzug von Punkten. 0 Punkte erhält das Angebot, was 3-mal so teuer ist wie das Günstigste. Beispiel: Der niedrigste Preis liegt bei 20.000 Euro, der zweitniedrigste Preis bei 22.000 Euro, dann ist der 2. Bieter 10% teurer und erhält damit 2 Punkte Abzug, d.h. 38 Punkte beim Preis.",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Anwenderbewertung",
+      "description": "In der Anwenderbewertung werden 4 Hauptkriterien beurteilt. (Gesamt-System, Grundlagen, Bildaquisition/ -verarbeitung, Bedienung und Auswertung. Deren Unterkriterien werden benotet und in ein Punktesystem umgewandelt.",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsverzeichnis",
+      "description": "Die Unterkriterien und die Punkteverteilung sind je nach Leistungsbedarf von Krankenhaus zu Krankenhaus unterschiedlich und können daher erst in der jeweiligen konkreten Leistungsbeschreibung für die Leistungsabrufe auf der zweiten Stufe der Rahmenvereinbarung festgelegt werden.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

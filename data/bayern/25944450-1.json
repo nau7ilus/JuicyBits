@@ -1,0 +1,145 @@
+{
+ "id": "25944450-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944450",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944450",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944450-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944450-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944450?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Verlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass.",
+  "buyer": "Stiftung Staatstheater Nürnberg",
+  "cpv": [
+   "50312310",
+   "50324100"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-26T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944450",
+  "id": "25944450",
+  "date": "2026-10-17T07:00:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stiftung Staatstheater Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stiftung Staatstheater Nürnberg"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stiftung Staatstheater Nürnberg",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stiftung Staatstheater Nürnberg"
+   }
+  },
+  "tender": {
+   "title": "Verlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass.",
+   "description": "Verlängerung des bestehenden HPE Foundation Care Wartungs- und Supportvertrages für die WLAN-Umgebung einschließlich Aruba ClearPass für die Laufzeit 10.11.2026 bis 30.11.2029.\n\nVerlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass.",
+   "procuringEntity": {
+    "name": "Stiftung Staatstheater Nürnberg"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "50312310",
+      "description": "Maintenance of data network equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "50324100",
+       "description": "System maintenance services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "90443 Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/469e1aba-4b55-4ee9-a8f6-6110670e4000",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Verlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass.",
+     "description": "Verlängerung des bestehenden HPE Foundation Care Wartungs- und Supportvertrages für die WLAN-Umgebung einschließlich Aruba ClearPass für die Laufzeit 10.11.2026 bis 30.11.2029.\n\nVerlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass."
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25944450",
+  "version": "1",
+  "title": "Verlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass.",
+  "description": "Verlängerung des bestehenden HPE Foundation Care Wartungs- und Supportvertrages für die WLAN-Umgebung einschließlich Aruba ClearPass für die Laufzeit 10.11.2026 bis 30.11.2029.\n\nVerlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass.",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "50312310",
+   "50324100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Verlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass.",
+    "description": "Verlängerung des bestehenden HPE Foundation Care Wartungs- und Supportvertrages für die WLAN-Umgebung einschließlich Aruba ClearPass für die Laufzeit 10.11.2026 bis 30.11.2029.\n\nVerlängerung HPE Foundation Care für WLAN-Infrastruktur inkl. Aruba ClearPass.",
+    "cpv": [
+     "50312310",
+     "50324100"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-26T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

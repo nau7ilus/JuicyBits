@@ -1,0 +1,205 @@
+{
+ "id": "1820a7f1-cd24-4005-865a-dd6fe8218c07-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "1820a7f1-cd24-4005-865a-dd6fe8218c07",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1820a7f1-cd24-4005-865a-dd6fe8218c07",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:1820a7f1-cd24-4005-865a-dd6fe8218c07-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:1820a7f1-cd24-4005-865a-dd6fe8218c07-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1820a7f1-cd24-4005-865a-dd6fe8218c07?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+  "buyer": "Gemeinde Engelthal",
+  "cpv": [
+   "64200000"
+  ],
+  "nuts": [
+   "DE259"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4b4c0d29-4937-4187-8229-cd08194aaad9",
+  "id": "1820a7f1-cd24-4005-865a-dd6fe8218c07",
+  "date": "2026-10-16T02:11:26Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Engelthal",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "13734",
+     "legalName": "Gemeinde Engelthal"
+    },
+    "address": {
+     "streetAddress": "Mühlstr. 2",
+     "locality": "Engelthal",
+     "region": "DE259",
+     "postalCode": "91238",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "05160a64-7ec0-4de6-8132-d2beaf845905",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Engelthal",
+   "id": "13734",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Engelthal"
+   },
+   "address": {
+    "streetAddress": "Mühlstr. 2",
+    "locality": "Engelthal",
+    "region": "DE259",
+    "postalCode": "91238",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4b4c0d29-4937-4187-8229-cd08194aaad9",
+   "title": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+   "description": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+   "procuringEntity": {
+    "name": "Gemeinde Engelthal",
+    "id": "13734"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64200000",
+      "description": "Telecommunications services"
+     },
+     "deliveryAddress": {
+      "region": "DE259",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 3834000,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "http://www.deutsche-evergabe.de/dashboards/dashboard_off/4b4c0d29-4937-4187-8229-cd08194aaad9",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+     "description": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+     "contractPeriod": {
+      "durationInDays": 2520
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "1820a7f1-cd24-4005-865a-dd6fe8218c07",
+  "version": "01",
+  "title": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+  "description": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE259"
+  ],
+  "cpv": [
+   "64200000"
+  ],
+  "estimatedValue": {
+   "amount": 3834000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+    "description": "Errichtung und Betrieb eines NGA-Netzes in der Gemeinde Engelthal",
+    "cpv": [
+     "64200000"
+    ],
+    "nuts": [
+     "DE259"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-10-26T10:00:00+02:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 84,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "siehe Eigenerklärung zum Teilnahmewettbewerb im Rahmen der Konzessionsbekanntmachung"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "siehe Eigenerklärung zum Teilnahmewettbewerb im Rahmen der Konzessionsbekanntmachung"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "siehe Eigenerklärung zum Teilnahmewettbewerb im Rahmen der Konzessionsbekanntmachung"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "siehe Eigenerklärung zum Teilnahmewettbewerb im Rahmen der Konzessionsbekanntmachung"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

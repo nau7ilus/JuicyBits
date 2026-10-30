@@ -5,24 +5,25 @@
   "noticeId": "c9d94151-97c4-42d3-85c0-279fa3dd2e0c",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c9d94151-97c4-42d3-85c0-279fa3dd2e0c",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:c9d94151-97c4-42d3-85c0-279fa3dd2e0c-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:c9d94151-97c4-42d3-85c0-279fa3dd2e0c-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/c9d94151-97c4-42d3-85c0-279fa3dd2e0c?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Aufzugsanlage",
   "buyer": "VGem Burgebrach",
   "cpv": [
    "45313100",
-   "42416100"
+   "42416100",
+   "45000000"
   ],
   "nuts": [
    "DE245"
   ],
-  "deadline": null,
+  "deadline": "2026-11-24T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -146,5 +147,46 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c9d94151-97c4-42d3-85c0-279fa3dd2e0c",
+  "version": "01",
+  "title": "Aufzugsanlage",
+  "description": "Revitalisierung Goldener Hirsch Burgebrach_Liefern und Installieren einer Aufzugsanlage",
+  "procedureType": "open",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "45000000",
+   "45313100",
+   "42416100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Aufzugsanlage",
+    "description": "Revitalisierung Goldener Hirsch Burgebrach_Liefern und Installieren einer Aufzugsanlage",
+    "cpv": [
+     "45313100",
+     "42416100"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-15+01:00",
+    "plannedEnd": "2028-12-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

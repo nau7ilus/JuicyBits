@@ -1,0 +1,277 @@
+{
+ "id": "4a7d8cd0-5b39-4507-ac36-692ae0366506-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "4a7d8cd0-5b39-4507-ac36-692ae0366506",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4a7d8cd0-5b39-4507-ac36-692ae0366506",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:4a7d8cd0-5b39-4507-ac36-692ae0366506-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:4a7d8cd0-5b39-4507-ac36-692ae0366506-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4a7d8cd0-5b39-4507-ac36-692ae0366506?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Generalsanierung Dreifachsporthalle Weißenburg i.Bay.",
+  "buyer": "Landkreis Weißenburg-Gunzenhausen",
+  "cpv": [
+   "45321000",
+   "45212225",
+   "45320000"
+  ],
+  "nuts": [
+   "DE25C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a4c61555-bb90-4bd3-b895-00e8ad447653",
+  "id": "4a7d8cd0-5b39-4507-ac36-692ae0366506",
+  "date": "2026-10-16T02:11:20Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Weißenburg-Gunzenhausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 09-9015777-38",
+     "legalName": "Landkreis Weißenburg-Gunzenhausen"
+    },
+    "address": {
+     "streetAddress": "Bahnhofstr. 2",
+     "locality": "Weißenburg",
+     "region": "DE25C",
+     "postalCode": "91781",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Kermann Isolierungen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "USt.-ID-Nr:: DE253973815",
+     "legalName": "Kermann Isolierungen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gewerbestraße 1",
+     "locality": "Ederheim",
+     "region": "DE27D",
+     "postalCode": "86739 Ederheim",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Weißenburg-Gunzenhausen",
+   "id": "Leitweg-ID 09-9015777-38",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Weißenburg-Gunzenhausen"
+   },
+   "address": {
+    "streetAddress": "Bahnhofstr. 2",
+    "locality": "Weißenburg",
+    "region": "DE25C",
+    "postalCode": "91781",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a4c61555-bb90-4bd3-b895-00e8ad447653",
+   "title": "Generalsanierung Dreifachsporthalle Weißenburg i.Bay.",
+   "description": "Gegenstand der Baumaßnahme ist die Generalsanierung der bestehenden Dreifachsporthalle aus dem Baujahr 1985 einschließlich erforderlicher Abbrucharbeiten, Teilneubauten und der vollständigen Erneuerung der technischen Gebäudeausrüstung.\nZiel der Maßnahme ist die Herstellung eines zeitgemäßen, sicheren und barrierefreien Sporthallenbetriebs unter Einhaltung der geltenden öffentlich-rechtlichen Vorschriften, insbesondere in Bezug auf Brandschutz, Barrierefreiheit und energetische Anforderungen gemäß Gebäudeenergiegesetz (GEG).\nDie Maßnahme erfolgt überwiegend im Bestand unter Integration der vorhandenen Gebäudestrukturen, wobei konstruktive Eingriffe auf das erforderliche Maß beschränkt werden.\nDer Übergang zum angrenzenden Gymnasium wird in die Baumaßnahme mit integriert.\nDie Baumaßnahme wird in einem Bauabschnitt durchgeführt.",
+   "procuringEntity": {
+    "name": "Landkreis Weißenburg-Gunzenhausen",
+    "id": "Leitweg-ID 09-9015777-38"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45321000",
+      "description": "Thermal insulation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45212225",
+       "description": "Sports hall construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45320000",
+       "description": "Insulation work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "An der Hagenau 22a",
+      "locality": "Weißenburg i Bay.",
+      "region": "DE25C",
+      "postalCode": "91781",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Kermann Isolierungen GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Kermann Isolierungen GmbH"
+     },
+     "address": {
+      "streetAddress": "Gewerbestraße 1",
+      "locality": "Ederheim",
+      "region": "DE27D",
+      "postalCode": "86739 Ederheim",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Wärmedämmung",
+     "description": "ca. 50m Schwitzwasserdämmung Abwasserleitung\t\nca. 1.900m Wärmedämmung Trinkwasser, davon ca. 70% als Blechummantelung\t\nca. 1.000m Wärmedämmung Heizungsleitungen, davon ca. 85% als Blechummantelung\t\nca. 300 m² Schwitzwasserdämmung Lüftung, davon ca. 90% als Blechummantelung\t\nca. 450 m² Wärmedämmung Lüftung, davon ca. 100 % als Blechummantelung",
+     "contractPeriod": {
+      "startDate": "2026-11-09T00:00:00+01:00",
+      "endDate": "2027-11-14T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Kermann Isolierungen GmbH",
+      "id": "USt.-ID-Nr:: DE253973815",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Kermann Isolierungen GmbH"
+      },
+      "address": {
+       "streetAddress": "Gewerbestraße 1",
+       "locality": "Ederheim",
+       "region": "DE27D",
+       "postalCode": "86739 Ederheim",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "4a7d8cd0-5b39-4507-ac36-692ae0366506",
+  "version": "01",
+  "title": "Generalsanierung Dreifachsporthalle Weißenburg i.Bay.",
+  "description": "Gegenstand der Baumaßnahme ist die Generalsanierung der bestehenden Dreifachsporthalle aus dem Baujahr 1985 einschließlich erforderlicher Abbrucharbeiten, Teilneubauten und der vollständigen Erneuerung der technischen Gebäudeausrüstung.\nZiel der Maßnahme ist die Herstellung eines zeitgemäßen, sicheren und barrierefreien Sporthallenbetriebs unter Einhaltung der geltenden öffentlich-rechtlichen Vorschriften, insbesondere in Bezug auf Brandschutz, Barrierefreiheit und energetische Anforderungen gemäß Gebäudeenergiegesetz (GEG).\nDie Maßnahme erfolgt überwiegend im Bestand unter Integration der vorhandenen Gebäudestrukturen, wobei konstruktive Eingriffe auf das erforderliche Maß beschränkt werden.\nDer Übergang zum angrenzenden Gymnasium wird in die Baumaßnahme mit integriert.\nDie Baumaßnahme wird in einem Bauabschnitt durchgeführt.",
+  "procedureType": "open",
+  "nuts": [
+   "DE25C"
+  ],
+  "cpv": [
+   "45321000",
+   "45212225",
+   "45320000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Wärmedämmung",
+    "description": "ca. 50m Schwitzwasserdämmung Abwasserleitung\t\nca. 1.900m Wärmedämmung Trinkwasser, davon ca. 70% als Blechummantelung\t\nca. 1.000m Wärmedämmung Heizungsleitungen, davon ca. 85% als Blechummantelung\t\nca. 300 m² Schwitzwasserdämmung Lüftung, davon ca. 90% als Blechummantelung\t\nca. 450 m² Wärmedämmung Lüftung, davon ca. 100 % als Blechummantelung",
+    "cpv": [
+     "45321000",
+     "45212225",
+     "45320000"
+    ],
+    "nuts": [
+     "DE25C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-09+01:00",
+    "plannedEnd": "2027-11-14+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "100 % Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "c076577e-1609-43fa-a4ce-916de486fdc1",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c076577e-1609-43fa-a4ce-916de486fdc1",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:c076577e-1609-43fa-a4ce-916de486fdc1-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:c076577e-1609-43fa-a4ce-916de486fdc1-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/c076577e-1609-43fa-a4ce-916de486fdc1?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "VE8309HB - Rückbau im Bereich des VKN München",
   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
   "cpv": [
@@ -140,5 +140,58 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "c076577e-1609-43fa-a4ce-916de486fdc1",
+  "version": "01",
+  "title": "VE8309HB - Rückbau im Bereich des VKN München",
+  "description": "Gegenstand der Maßnahme ist der Schadstoffsanierung, Entkernung und Abbruch im Bereich des Verkehrsknotenpunktes (VKN) Hbf München. \n\nFür die Herstellung der Vorhaltemaßnahme U9 und des Neubau Empfangsgebäudes sollen die daran angrenzenden Bereiche (Durchgangshalle sowie Nord- und Südbau) abgebrochen werden. Die Abbruchmaßnahmen umfassen die oberirdischen Teile der beschriebenen Gebäudeteile wie auch die bestehenden Untergeschosse und somit die kompletten Bauwerke, inkl. aller Medien / Versorgungsanlagen. Weiterhin werden in den jeweiligen Abbruchphasen die öffentlichen Wege vom Baufeld abgetrennt. Die notwendige bauliche Abtrennung des Querbahnsteigs vom Baufeld ist zu realisieren.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45111100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "VE8309HB - Rückbau im Bereich des VKN München",
+    "description": "Gegenstand der Maßnahme ist der Schadstoffsanierung, Entkernung und Abbruch im Bereich des Verkehrsknotenpunktes (VKN) Hbf München. \n\nFür die Herstellung der Vorhaltemaßnahme U9 und des Neubau Empfangsgebäudes sollen die daran angrenzenden Bereiche (Durchgangshalle sowie Nord- und Südbau) abgebrochen werden. Die Abbruchmaßnahmen umfassen die oberirdischen Teile der beschriebenen Gebäudeteile wie auch die bestehenden Untergeschosse und somit die kompletten Bauwerke, inkl. aller Medien / Versorgungsanlagen. Weiterhin werden in den jeweiligen Abbruchphasen die öffentlichen Wege vom Baufeld abgetrennt. Die notwendige bauliche Abtrennung des Querbahnsteigs vom Baufeld ist zu realisieren.",
+    "cpv": [
+     "45111100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-27T10:00:00+01:00",
+    "plannedStart": "2027-03-29+02:00",
+    "plannedEnd": "2028-09-01+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
 }

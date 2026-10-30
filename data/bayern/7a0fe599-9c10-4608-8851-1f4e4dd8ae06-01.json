@@ -1,0 +1,308 @@
+{
+ "id": "7a0fe599-9c10-4608-8851-1f4e4dd8ae06-01",
+ "source": {
+  "pubDay": "2026-10-26",
+  "noticeId": "7a0fe599-9c10-4608-8851-1f4e4dd8ae06",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7a0fe599-9c10-4608-8851-1f4e4dd8ae06",
+  "ocdsFile": "notices_2026-10-26_OCDS.zip:7a0fe599-9c10-4608-8851-1f4e4dd8ae06-01.json",
+  "eformsFile": "notices_2026-10-26_eForms.zip:7a0fe599-9c10-4608-8851-1f4e4dd8ae06-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7a0fe599-9c10-4608-8851-1f4e4dd8ae06?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Erweiterung OLA (Deckenstromschiene) ICE-Werk München",
+  "buyer": "DB Fernverkehr AG (Bukr 13)",
+  "cpv": [
+   "45234160"
+  ],
+  "nuts": [
+   "DE712",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-252f6d84-241b-4936-8a2a-dcab06f6d680",
+  "id": "7a0fe599-9c10-4608-8851-1f4e4dd8ae06",
+  "date": "2026-10-26T11:52:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB Fernverkehr AG (Bukr 13)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2ae75dcf-a462-419c-8753-8b96ab91631d",
+     "legalName": "DB Fernverkehr AG (Bukr 13)"
+    },
+    "address": {
+     "streetAddress": "Europa-Allee 78-84",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60486",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Rail Power Systems GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "3ebbc0b3-9dc6-4136-92a0-b69cfb4ae03d",
+     "legalName": "Rail Power Systems GmbH"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81373",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB Fernverkehr AG (Bukr 13)",
+   "id": "2ae75dcf-a462-419c-8753-8b96ab91631d",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB Fernverkehr AG (Bukr 13)"
+   },
+   "address": {
+    "streetAddress": "Europa-Allee 78-84",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60486",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "252f6d84-241b-4936-8a2a-dcab06f6d680",
+   "title": "Erweiterung OLA (Deckenstromschiene) ICE-Werk München",
+   "description": "Erweiterung OLA (Deckenstromschiene) ICE-Werk München",
+   "procuringEntity": {
+    "name": "DB Fernverkehr AG (Bukr 13)",
+    "id": "2ae75dcf-a462-419c-8753-8b96ab91631d"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234160",
+      "description": "Catenary's construction works"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80687",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234160",
+      "description": "Catenary's construction works"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80687",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "Contracts whose purpose is not the execution of works, the supply of products and the provision of services",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-23T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Rail Power Systems GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Rail Power Systems GmbH"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81373",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Ausführung DSS ARA",
+     "description": "Neubau Deckenschromschiene ARA",
+     "contractPeriod": {
+      "startDate": "2026-11-09T00:00:00+01:00",
+      "endDate": "2028-03-01T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Neubau DSS & AEA Lokhalle",
+     "description": "Neubau DSS & AEA Lokhalle",
+     "contractPeriod": {
+      "startDate": "2026-11-09T00:00:00+01:00",
+      "endDate": "2028-03-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "unsuccessful",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "7a0fe599-9c10-4608-8851-1f4e4dd8ae06",
+  "version": "01",
+  "title": "Erweiterung OLA (Deckenstromschiene) ICE-Werk München",
+  "description": "Erweiterung OLA (Deckenstromschiene) ICE-Werk München",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45234160"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Ausführung DSS ARA",
+    "description": "Neubau Deckenschromschiene ARA",
+    "cpv": [
+     "45234160"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-09+01:00",
+    "plannedEnd": "2028-03-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Neubau DSS & AEA Lokhalle",
+    "description": "Neubau DSS & AEA Lokhalle",
+    "cpv": [
+     "45234160"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-09+01:00",
+    "plannedEnd": "2028-03-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

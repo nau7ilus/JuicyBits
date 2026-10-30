@@ -1,0 +1,287 @@
+{
+ "id": "3d574699-8379-4c67-80eb-89f4df3d0d00-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "3d574699-8379-4c67-80eb-89f4df3d0d00",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3d574699-8379-4c67-80eb-89f4df3d0d00",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:3d574699-8379-4c67-80eb-89f4df3d0d00-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:3d574699-8379-4c67-80eb-89f4df3d0d00-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3d574699-8379-4c67-80eb-89f4df3d0d00?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "VE18_Tischlerarbeiten (Einbaumöbel)_Generalsanierung Grundschule Rain",
+  "buyer": "Stadt Rain für Schulverband Rain (Grundschule)",
+  "cpv": [
+   "45000000",
+   "45421151",
+   "45421152",
+   "45421153"
+  ],
+  "nuts": [
+   "DE27D"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-66fc2211-401e-4d07-b437-90e02fc22654",
+  "id": "3d574699-8379-4c67-80eb-89f4df3d0d00",
+  "date": "2026-10-24T14:00:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Rain für Schulverband Rain (Grundschule)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE127507988",
+     "legalName": "Stadt Rain für Schulverband Rain (Grundschule)"
+    },
+    "address": {
+     "streetAddress": "Hauptstr. 60",
+     "locality": "Rain",
+     "region": "DE27D",
+     "postalCode": "86641",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Rechtsanwälte Prof. Dr. Rauch & Partner mbB",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 188865506",
+     "legalName": "Rechtsanwälte Prof. Dr. Rauch & Partner mbB"
+    },
+    "address": {
+     "streetAddress": "Hoppestraße 7",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "Leitweg-ID: 09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schreinerei Johannes Sailer",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE308466167",
+     "legalName": "Schreinerei Johannes Sailer"
+    },
+    "address": {
+     "streetAddress": "Königslachener Weg 22",
+     "locality": "Schrobenhausen",
+     "region": "DE21I",
+     "postalCode": "86529",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Rain für Schulverband Rain (Grundschule)",
+   "id": "DE127507988",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Rain für Schulverband Rain (Grundschule)"
+   },
+   "address": {
+    "streetAddress": "Hauptstr. 60",
+    "locality": "Rain",
+    "region": "DE27D",
+    "postalCode": "86641",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "66fc2211-401e-4d07-b437-90e02fc22654",
+   "title": "VE18_Tischlerarbeiten (Einbaumöbel)_Generalsanierung Grundschule Rain",
+   "description": "VE18 Einbaumöbel",
+   "procuringEntity": {
+    "name": "Stadt Rain für Schulverband Rain (Grundschule)",
+    "id": "DE127507988"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421151",
+       "description": "Installation of fitted kitchens"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421152",
+       "description": "Installation of partition walls"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421153",
+       "description": "Installation of built-in furniture"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Rain",
+      "region": "DE27D",
+      "postalCode": "86641",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Schreinerei Johannes Sailer",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Schreinerei Johannes Sailer"
+     },
+     "address": {
+      "streetAddress": "Königslachener Weg 22",
+      "locality": "Schrobenhausen",
+      "region": "DE21I",
+      "postalCode": "86529",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "VE18_Tischlerarbeiten (Einbaumöbel)_Generalsanierung Grundschule Rain",
+     "description": "Einbauschränke, Breite ca. 120-780 cm, Höhe ca. 250 cm - 33 Stk. Sideboards und Tresenanlagen, Länge ca. 200-280 cm - 9 Stk. Teeküchen einschließlich Elektrogeräte - 3 Stk. Holztrennwände und Garderobenanlagen in unterschiedlichen Ausführungen Sitzbänke in Holzbauweise Holzverkleidung des Pausenverkaufs einschließlich Hebefaltladen und Holztüranlage.",
+     "contractPeriod": {
+      "startDate": "2027-02-22T00:00:00+01:00",
+      "endDate": "2027-06-05T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Tischlerarbeiten (Einbaumöbel)_Generalsanierung Grundschule Rain",
+    "status": "active",
+    "date": "2026-10-08T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Tischlerarbeiten (Einbaumöbel)_Generalsanierung Grundschule Rain",
+    "status": "active",
+    "value": {
+     "amount": 492654.6,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-07T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3d574699-8379-4c67-80eb-89f4df3d0d00",
+  "version": "01",
+  "title": "VE18_Tischlerarbeiten (Einbaumöbel)_Generalsanierung Grundschule Rain",
+  "description": "VE18 Einbaumöbel",
+  "procedureType": "open",
+  "nuts": [
+   "DE27D"
+  ],
+  "cpv": [
+   "45000000",
+   "45421151",
+   "45421152",
+   "45421153"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "VE18_Tischlerarbeiten (Einbaumöbel)_Generalsanierung Grundschule Rain",
+    "description": "Einbauschränke, Breite ca. 120-780 cm, Höhe ca. 250 cm - 33 Stk. Sideboards und Tresenanlagen, Länge ca. 200-280 cm - 9 Stk. Teeküchen einschließlich Elektrogeräte - 3 Stk. Holztrennwände und Garderobenanlagen in unterschiedlichen Ausführungen Sitzbänke in Holzbauweise Holzverkleidung des Pausenverkaufs einschließlich Hebefaltladen und Holztüranlage.",
+    "cpv": [
+     "45000000",
+     "45421151",
+     "45421152",
+     "45421153"
+    ],
+    "nuts": [
+     "DE27D"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-02-22+01:00",
+    "plannedEnd": "2027-06-05+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis wird aus der Wertungssumme des Angebots ermittelt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

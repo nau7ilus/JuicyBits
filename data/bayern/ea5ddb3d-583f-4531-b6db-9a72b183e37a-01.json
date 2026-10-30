@@ -1,0 +1,201 @@
+{
+ "id": "ea5ddb3d-583f-4531-b6db-9a72b183e37a-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "ea5ddb3d-583f-4531-b6db-9a72b183e37a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ea5ddb3d-583f-4531-b6db-9a72b183e37a",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:ea5ddb3d-583f-4531-b6db-9a72b183e37a-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:ea5ddb3d-583f-4531-b6db-9a72b183e37a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ea5ddb3d-583f-4531-b6db-9a72b183e37a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Sanierung ehem. Klosteranlage St. Michael - WC-Anlage Pfortenflügel Metallbauarbeiten",
+  "buyer": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung Bamberg vertreten durch das Immobilienmanagement / Abt. Hochbau",
+  "cpv": [
+   "45200000",
+   "45262670"
+  ],
+  "nuts": [
+   "DE241"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ea5ddb3d-583f-4531-b6db-9a72b183e37a",
+  "id": "ea5ddb3d-583f-4531-b6db-9a72b183e37a",
+  "date": "2026-10-24T13:04:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung Bamberg vertreten durch das Immobilienmanagement / Abt. Hochbau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "3441",
+     "legalName": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung Bamberg vertreten durch das Immobilienmanagement / Abt. Hochbau"
+    },
+    "address": {
+     "streetAddress": "Untere Sandstraße 34",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0bc103c-4bfd-4b19-8d00-7bd8cfa3a56d",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung Bamberg vertreten durch das Immobilienmanagement / Abt. Hochbau",
+   "id": "3441",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung Bamberg vertreten durch das Immobilienmanagement / Abt. Hochbau"
+   },
+   "address": {
+    "streetAddress": "Untere Sandstraße 34",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ea5ddb3d-583f-4531-b6db-9a72b183e37a",
+   "title": "Sanierung ehem. Klosteranlage St. Michael - WC-Anlage Pfortenflügel Metallbauarbeiten",
+   "description": "Die Bauaufgabe beinhaltet die Herstellung und Montage einer Windfang als Aluminiumkonstruktion - Schiebetür mit festen Seitenteilen und bogenförmigem Oberlicht, sowie einer Stahl Glastür mit elektronischem Türöffner.",
+   "procuringEntity": {
+    "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung Bamberg vertreten durch das Immobilienmanagement / Abt. Hochbau",
+    "id": "3441"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45200000",
+      "description": "Works for complete or part construction and civil engineering work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE241",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/ea5ddb3d-583f-4531-b6db-9a72b183e37a",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sanierung ehem. Klosteranlage St. Michael - WC-Anlage Pfortenflügel Metallbauarbeiten",
+     "description": "Für die zu erwartenden Besucherströme nach Eröffnung der Abteikirche soll eine moderne, barrierefrei zugängliche Toilettenanlage entstehen, für deren Realisierung als Standort die ungenutzten Räume der ehemaligen Studentenverbindung im Sockelgeschoss des Pfortenflügels aufgrund ihrer zentralen Lage im Zugangsbereich der Klosteranlage als besonders sinnvoll erachtet werden Für das in Zukunft geplante neue Besucherzentrum \"Kloster Michaelsberg\" wird ein zentrales Entree geschaffen, welches im Sockelgeschoss des Pfortenflügels beheimatet ist und somit im direkten Zugangsbereich zur Klosteranlage liegt. Über ein großzügiges, Rundbogentor mittig des Pfortenflügels betritt der Besucher zunächst einen Vorraum, von welchem rechterhand die neue öffentliche WC-Anlage barrierefrei erreicht werden kann. Eine automatische gläserne Schiebetüranlage, welche der Toranlage hintangestellt ist, dient der klimatischen Trennung. Durch die Wiederherstellung eines ehemaligen, aktuell zugemauerten Durchgangs in der nördlichen Flurwand, gelingt die Anbindung des nördlich hieran angrenzenden, drei Joche breiten wie drei Schiffe tiefen kleinen Gewölbesaals, der ehemals der studentischen Verbindung als Aufenthalt diente. In diesem wird nun die öffentliche Toilettenanlage integriert, wobei über eine zwei Gewölbe einnehmende Erschließungszone sowohl das barrierefreie WC direkt im Zugangsbereich wie auch die im rückwärtigen Bereich befindlichen, jeweils drei Joche einnehmenden Damen - und Herren WC´s erreicht werden. Die, die unterschiedlichen Abschnitte voneinander abgrenzenden, Trenn- und Installationswände sind hierbei stets in den Gewölbescheiteln angeordnet. \n\nDie Bauaufgabe beinhaltet die Herstellung und Montage einer Windfang als Aluminiumkonstruktion - Schiebetür mit festen Seitenteilen und bogenförmigem Oberlicht, sowie einer Stahl Glastür mit elektronischem Türöffner.",
+     "contractPeriod": {
+      "startDate": "2026-12-14T00:00:00+01:00",
+      "endDate": "2027-02-26T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ea5ddb3d-583f-4531-b6db-9a72b183e37a",
+  "version": "01",
+  "title": "Sanierung ehem. Klosteranlage St. Michael - WC-Anlage Pfortenflügel Metallbauarbeiten",
+  "description": "Die Bauaufgabe beinhaltet die Herstellung und Montage einer Windfang als Aluminiumkonstruktion - Schiebetür mit festen Seitenteilen und bogenförmigem Oberlicht, sowie einer Stahl Glastür mit elektronischem Türöffner.",
+  "procedureType": "open",
+  "nuts": [
+   "DE241"
+  ],
+  "cpv": [
+   "45262670",
+   "45200000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sanierung ehem. Klosteranlage St. Michael - WC-Anlage Pfortenflügel Metallbauarbeiten",
+    "description": "Für die zu erwartenden Besucherströme nach Eröffnung der Abteikirche soll eine moderne, barrierefrei zugängliche Toilettenanlage entstehen, für deren Realisierung als Standort die ungenutzten Räume der ehemaligen Studentenverbindung im Sockelgeschoss des Pfortenflügels aufgrund ihrer zentralen Lage im Zugangsbereich der Klosteranlage als besonders sinnvoll erachtet werden Für das in Zukunft geplante neue Besucherzentrum \"Kloster Michaelsberg\" wird ein zentrales Entree geschaffen, welches im Sockelgeschoss des Pfortenflügels beheimatet ist und somit im direkten Zugangsbereich zur Klosteranlage liegt. Über ein großzügiges, Rundbogentor mittig des Pfortenflügels betritt der Besucher zunächst einen Vorraum, von welchem rechterhand die neue öffentliche WC-Anlage barrierefrei erreicht werden kann. Eine automatische gläserne Schiebetüranlage, welche der Toranlage hintangestellt ist, dient der klimatischen Trennung. Durch die Wiederherstellung eines ehemaligen, aktuell zugemauerten Durchgangs in der nördlichen Flurwand, gelingt die Anbindung des nördlich hieran angrenzenden, drei Joche breiten wie drei Schiffe tiefen kleinen Gewölbesaals, der ehemals der studentischen Verbindung als Aufenthalt diente. In diesem wird nun die öffentliche Toilettenanlage integriert, wobei über eine zwei Gewölbe einnehmende Erschließungszone sowohl das barrierefreie WC direkt im Zugangsbereich wie auch die im rückwärtigen Bereich befindlichen, jeweils drei Joche einnehmenden Damen - und Herren WC´s erreicht werden. Die, die unterschiedlichen Abschnitte voneinander abgrenzenden, Trenn- und Installationswände sind hierbei stets in den Gewölbescheiteln angeordnet. \n\nDie Bauaufgabe beinhaltet die Herstellung und Montage einer Windfang als Aluminiumkonstruktion - Schiebetür mit festen Seitenteilen und bogenförmigem Oberlicht, sowie einer Stahl Glastür mit elektronischem Türöffner.",
+    "cpv": [
+     "45200000",
+     "45262670"
+    ],
+    "nuts": [
+     "DE241"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-14+01:00",
+    "plannedEnd": "2027-02-26+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Die Eignung ist für die zu vergebende Leistung durch Eintragung in die Liste des Vereins für Präqualifizierung von Bauunternehmen e.V. oder vorläufig durch die ausgefüllte Eigenerklärung zur Eignung gem. FB 124 oder durch die Einheitliche Europäische Eigenerklärung (EEE) nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl sind die im FB 124 oder der EEE genannten Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter auf die Fähigkeiten anderer Bieter zur Erfüllung des Auftrags, so ist die jeweilige Nummer im Präqualifikationsverzeichnis oder die Erklärung nach FB 124 oder EEE auch für diese Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in deutscher Sprache beizufügen. Das FB 124 liegt den Ausschreibungsunterlagen bei. Die EEE kann über den Link (www.evergabe-online.info/e-Vergabe/DE/5 Service/EEE/node_EEE.html) online ausgefüllt werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

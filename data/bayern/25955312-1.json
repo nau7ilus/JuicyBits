@@ -1,0 +1,157 @@
+{
+ "id": "25955312-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25955312",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25955312",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25955312-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25955312-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25955312?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Altstadtsanierung BA2 und BA3",
+  "buyer": "Stadt Scheinfeld, Hauptstr. 3, 91443 Scheinfeld, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.scheinfeld.de",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-17T00:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25955312",
+  "id": "25955312",
+  "date": "2026-10-22T07:00:48Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Scheinfeld, Hauptstr. 3, 91443 Scheinfeld, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.scheinfeld.de",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Scheinfeld, Hauptstr. 3, 91443 Scheinfeld, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.scheinfeld.de"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Scheinfeld, Hauptstr. 3, 91443 Scheinfeld, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.scheinfeld.de",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Scheinfeld, Hauptstr. 3, 91443 Scheinfeld, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.scheinfeld.de"
+   }
+  },
+  "tender": {
+   "title": "Altstadtsanierung BA2 und BA3",
+   "description": "Altstadtsanierung BA2 und BA3",
+   "procuringEntity": {
+    "name": "Stadt Scheinfeld, Hauptstr. 3, 91443 Scheinfeld, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.scheinfeld.de"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "91443 Scheinfeld",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/besuJs/BekLanding4Bund?z_param=2026-11-0431139",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Altstadtsanierung BA2 und BA3",
+     "description": "Altstadtsanierung BA2 und BA3"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25955312",
+  "version": "1",
+  "title": "Altstadtsanierung BA2 und BA3",
+  "description": "Altstadtsanierung BA2 und BA3",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Altstadtsanierung BA2 und BA3",
+    "description": "Altstadtsanierung BA2 und BA3",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T00:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

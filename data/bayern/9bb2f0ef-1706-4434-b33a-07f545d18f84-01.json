@@ -1,0 +1,336 @@
+{
+ "id": "9bb2f0ef-1706-4434-b33a-07f545d18f84-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "9bb2f0ef-1706-4434-b33a-07f545d18f84",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9bb2f0ef-1706-4434-b33a-07f545d18f84",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:9bb2f0ef-1706-4434-b33a-07f545d18f84-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:9bb2f0ef-1706-4434-b33a-07f545d18f84-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9bb2f0ef-1706-4434-b33a-07f545d18f84?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Egling - Ausschreibung Wirtschaftlichkeitslückenmodell - 2.0",
+  "buyer": "Gemeinde Egling",
+  "cpv": [
+   "72400000"
+  ],
+  "nuts": [
+   "DE216"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-08fb36ec-453e-47fe-9d75-97e6ae155af2",
+  "id": "9bb2f0ef-1706-4434-b33a-07f545d18f84",
+  "date": "2026-10-21T02:08:09Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Egling",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "08176 9312-0",
+     "legalName": "Gemeinde Egling"
+    },
+    "address": {
+     "streetAddress": "Rathausstraße 2",
+     "locality": "Egling",
+     "region": "DE216",
+     "postalCode": "82544",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximiliansstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Egling",
+   "id": "08176 9312-0",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Egling"
+   },
+   "address": {
+    "streetAddress": "Rathausstraße 2",
+    "locality": "Egling",
+    "region": "DE216",
+    "postalCode": "82544",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "08fb36ec-453e-47fe-9d75-97e6ae155af2",
+   "title": "Egling - Ausschreibung Wirtschaftlichkeitslückenmodell - 2.0",
+   "description": "Ausschreibung Breitband Wirtschaftlichkeitslückenmodell - Wirtschaftlichkeitslückenmodell 2.0",
+   "procuringEntity": {
+    "name": "Gemeinde Egling",
+    "id": "08176 9312-0"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72400000",
+      "description": "Internet services"
+     },
+     "deliveryAddress": {
+      "locality": "Egling",
+      "region": "DE216",
+      "postalCode": "82544",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72400000",
+      "description": "Internet services"
+     },
+     "deliveryAddress": {
+      "locality": "Egling",
+      "region": "DE216",
+      "postalCode": "82544",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4D5GMWWA/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4D5GMWWA/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Egling West",
+     "description": "Ein Branchendialog und eine Markterkundung hat / haben ergeben, dass für den Teilbereich der Gebietskörperschaft derzeit keine leistungsfähige Gigabitinfrastruktur mit einem Angebot entsprechender Telekommunikationsdienste flächendeckend gemäß den Zielen der Gigabit-Rahmenregelung 2.0 verfügbar ist und in den nächsten Jahren verfügbar sein wird. Die Gebietskörperschaft hat daher Fördermittel für einen flächendeckenden Gigabitausbau - bezogen auf den unterversorgten Teilbereich im Wirtschaftlichkeitslückenmodell im Rahmen der Richtlinie \"Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)\" vom 31. März 2023 in der Fassung der Änderung vom 13.01.2025 (\"Gigabit-Richtlinie 2.0\") beantragt und bewilligt erhalten. Die in diesem Förderprogramm im Wirtschaftlichkeitslückenmodell bereitgestellten Fördermittel (im Folgenden: Mittel) sollen durch Gebietskörperschaften an Telekommunikationsunternehmen im EU-beihilfenrechtlichen Sinne als Investitionskostenbeihilfe für den Bau und Betrieb von Gigabitnetzen weitergeleitet werden.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Egling Ost",
+     "description": "Ein Branchendialog und eine Markterkundung hat / haben ergeben, dass für den Teilbereich der Gebietskörperschaft derzeit keine leistungsfähige Gigabitinfrastruktur mit einem Angebot entsprechender Telekommunikationsdienste flächendeckend gemäß den Zielen der Gigabit-Rahmenregelung 2.0 verfügbar ist und in den nächsten Jahren verfügbar sein wird. Die Gebietskörperschaft hat daher Fördermittel für einen flächendeckenden Gigabitausbau - bezogen auf den unterversorgten Teilbereich im Wirtschaftlichkeitslückenmodell im Rahmen der Richtlinie \"Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)\" vom 31. März 2023 in der Fassung der Änderung vom 13.01.2025 (\"Gigabit-Richtlinie 2.0\") beantragt und bewilligt erhalten. Die in diesem Förderprogramm im Wirtschaftlichkeitslückenmodell bereitgestellten Fördermittel (im Folgenden: Mittel) sollen durch Gebietskörperschaften an Telekommunikationsunternehmen im EU-beihilfenrechtlichen Sinne als Investitionskostenbeihilfe für den Bau und Betrieb von Gigabitnetzen weitergeleitet werden.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "9bb2f0ef-1706-4434-b33a-07f545d18f84",
+  "version": "01",
+  "title": "Egling - Ausschreibung Wirtschaftlichkeitslückenmodell - 2.0",
+  "description": "Ausschreibung Breitband Wirtschaftlichkeitslückenmodell - Wirtschaftlichkeitslückenmodell 2.0",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE216"
+  ],
+  "cpv": [
+   "72400000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Egling West",
+    "description": "Ein Branchendialog und eine Markterkundung hat / haben ergeben, dass für den Teilbereich der Gebietskörperschaft derzeit keine leistungsfähige Gigabitinfrastruktur mit einem Angebot entsprechender Telekommunikationsdienste flächendeckend gemäß den Zielen der Gigabit-Rahmenregelung 2.0 verfügbar ist und in den nächsten Jahren verfügbar sein wird. Die Gebietskörperschaft hat daher Fördermittel für einen flächendeckenden Gigabitausbau - bezogen auf den unterversorgten Teilbereich im Wirtschaftlichkeitslückenmodell im Rahmen der Richtlinie \"Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)\" vom 31. März 2023 in der Fassung der Änderung vom 13.01.2025 (\"Gigabit-Richtlinie 2.0\") beantragt und bewilligt erhalten. Die in diesem Förderprogramm im Wirtschaftlichkeitslückenmodell bereitgestellten Fördermittel (im Folgenden: Mittel) sollen durch Gebietskörperschaften an Telekommunikationsunternehmen im EU-beihilfenrechtlichen Sinne als Investitionskostenbeihilfe für den Bau und Betrieb von Gigabitnetzen weitergeleitet werden.",
+    "cpv": [
+     "72400000"
+    ],
+    "nuts": [
+     "DE216"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-23T10:00:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 7,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Eigenerklärung darüber, dass der Bewerber in das Berufsregister (z.B. Handelsregister) seines Sitzes oder Wohnsitzes eingetragen ist."
+     },
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "Vorlage des Nachweises über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 5 Telekommunikationsgesetz (TKG) bei der BNetzA."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Vorlage des aktuellsten testierten Jahresabschlusses des Unternehmens"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Eigenerklärung über den Gesamtumsatz und über den Umsatz in dem Tätigkeitsbereich des Auftrags, bezogen auf die letzten drei Geschäftsjahre."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Eigenerklärung durch Nennung von Referenzen über Leistungen im Breitbandausbau über den Ausbau und den Betrieb einer aktiven Telekommunikationsinfrastruktur im Bereich Glasfaser gegliedert nach a) Name des Auftraggebers, b) Erbringungszeitraum innerhalb der letzten drei Geschäftsjahre vor Ablauf der Teilnahmefrist, sowie c) Wert in Euro, d) den Leistungserbringer, e) die Anzahl der ausgebauten Adressen und f) informative Angaben zur Erfahrung mit förderspezifischen Dokumentationspflichten. Maßgeblich ist die Verantwortung des Bewerbers für die Realisierung und den Betrieb des Netzes.   Die Referenz 1 (Mindestreferenz) ist erbracht, wenn die geforderten Mindestanforderungen erfüllt sind; andernfalls erfolgt der Ausschluss. Die Mindestanforderungen sind erfüllt, wenn der Bewerber a) den Namen des Auftraggebers, b) den Erbringungszeitraum innerhalb der letzten drei Geschäftsjahre vor Ablauf der Teilnahmefrist, sowie c) den Wert in Euro, d) den Leistungserbringer, e) die Anzahl der ausgebauten Adressen und f) ggf. Angaben zur Erfahrung mit förderspezifischen Dokumentationspflichten benannt hat. Die Referenz 1 (Mindestreferenz) wird - soweit kein Ausschluss erfolgt - hinsichtlich der ihr zuerkannten Bedeutung für die zu vergebenden Leistungen gewichtet und mit einem Punktesystem bewertet.      Die Referenzen 2 bis 5 werden - soweit die geforderten Mindestanforderungen erfüllt sind; andernfalls erfolgt die Nichtwertung der Referenz - hinsichtlich der ihnen zuerkannten Bedeutung für die zu vergebenden Leistungen gewichtet und mit einem Punktesystem bewertet. Die Mindestanforderungen an die weiteren Referenzen entsprechen denen der Mindestreferenzen. Der Punkt f) Angaben zur Erfahrung mit förderspezifischen Dokumentationspflichten ist als informative Abfrage vorgesehen.  Es dürfen insgesamt höchstens fünf Referenzen benannt werden."
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Vorlage einer aktuellen Unternehmensauskunft einer anerkannten Wirtschaftsauskunft (z. B. Creditreform, Schufa oder vergleichbare Auskunft)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Höhe der Wirtschaftlichkeitslücke",
+      "description": "Das Angebot hat eine detaillierte und plausible Darstellung der  Wirtschaftlichkeitslücke zu enthalten. Als Betrachtungszeitraum gilt hierbei ein Zeitraum von mindestens sieben Jahren ab Inbetriebnahme. Für die Angebotswertung wird eine Punkteskala festgelegt. Die volle Punktzahl erhält das Angebot mit der niedrigsten Wirtschaftlichkeitslücke. 0 Punkte erhält ein Angebot mit dem 2-fachen der niedrigsten Wirtschaftlichkeitslücke. Alle Angebote darüber erhalten ebenfalls 0 Punkte. Die Punktebewertung für die dazwischenliegenden Wirtschaftlichkeitslücken erfolgt über eine lineare Interpolation mit bis zu zwei Stellen nach dem Komma.",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": "Realisierungszeit",
+      "description": "Der Bieter hat mit seinem Angebot im Angebotsblatt die Ausbaudauer bis zur Inbetriebnahme in Monaten anzugeben.  Der Bieter mit der geringsten Realisierungszeit erhält 10 Punkte. Bei doppelter Realisierungszeit des Bestbieters werden 0 Leistungspunkte vergeben. Dazwischen erfolgt eine lineare Interpolation.",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Alternative Verlegemethoden",
+      "description": "Im Angebotsblatt ist zu kennzeichnen, ob diese zum Einsatz kommen oder ob diese nicht zum Einsatz kommen werden.  Für die Angebotswertung wird je nach Angabe des Bieters, die im Angebotsblatt hinterlegte Punktzahl zugrunde gelegt. Der Bieter kann 0  oder die volle Punktzahl, je nach Kennzeichnung im Angebotsblatt erreichen.",
+      "weight": 5
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Egling Ost",
+    "description": "Ein Branchendialog und eine Markterkundung hat / haben ergeben, dass für den Teilbereich der Gebietskörperschaft derzeit keine leistungsfähige Gigabitinfrastruktur mit einem Angebot entsprechender Telekommunikationsdienste flächendeckend gemäß den Zielen der Gigabit-Rahmenregelung 2.0 verfügbar ist und in den nächsten Jahren verfügbar sein wird. Die Gebietskörperschaft hat daher Fördermittel für einen flächendeckenden Gigabitausbau - bezogen auf den unterversorgten Teilbereich im Wirtschaftlichkeitslückenmodell im Rahmen der Richtlinie \"Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)\" vom 31. März 2023 in der Fassung der Änderung vom 13.01.2025 (\"Gigabit-Richtlinie 2.0\") beantragt und bewilligt erhalten. Die in diesem Förderprogramm im Wirtschaftlichkeitslückenmodell bereitgestellten Fördermittel (im Folgenden: Mittel) sollen durch Gebietskörperschaften an Telekommunikationsunternehmen im EU-beihilfenrechtlichen Sinne als Investitionskostenbeihilfe für den Bau und Betrieb von Gigabitnetzen weitergeleitet werden.",
+    "cpv": [
+     "72400000"
+    ],
+    "nuts": [
+     "DE216"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-23T10:00:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 7,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Eigenerklärung darüber, dass der Bewerber in das Berufsregister (z.B. Handelsregister) seines Sitzes oder Wohnsitzes eingetragen ist."
+     },
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "Vorlage des Nachweises über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 5 Telekommunikationsgesetz (TKG) bei der BNetzA."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Vorlage des aktuellsten testierten Jahresabschlusses des Unternehmens"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Eigenerklärung über den Gesamtumsatz und über den Umsatz in dem Tätigkeitsbereich des Auftrags, bezogen auf die letzten drei Geschäftsjahre."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Eigenerklärung durch Nennung von Referenzen über Leistungen im Breitbandausbau über den Ausbau und den Betrieb einer aktiven Telekommunikationsinfrastruktur im Bereich Glasfaser gegliedert nach a) Name des Auftraggebers, b) Erbringungszeitraum innerhalb der letzten drei Geschäftsjahre vor Ablauf der Teilnahmefrist, sowie c) Wert in Euro, d) den Leistungserbringer, e) die Anzahl der ausgebauten Adressen und f) informative Angaben zur Erfahrung mit förderspezifischen Dokumentationspflichten. Maßgeblich ist die Verantwortung des Bewerbers für die Realisierung und den Betrieb des Netzes.   Die Referenz 1 (Mindestreferenz) ist erbracht, wenn die geforderten Mindestanforderungen erfüllt sind; andernfalls erfolgt der Ausschluss. Die Mindestanforderungen sind erfüllt, wenn der Bewerber a) den Namen des Auftraggebers, b) den Erbringungszeitraum innerhalb der letzten drei Geschäftsjahre vor Ablauf der Teilnahmefrist, sowie c) den Wert in Euro, d) den Leistungserbringer, e) die Anzahl der ausgebauten Adressen und f) ggf. Angaben zur Erfahrung mit förderspezifischen Dokumentationspflichten benannt hat. Die Referenz 1 (Mindestreferenz) wird - soweit kein Ausschluss erfolgt - hinsichtlich der ihr zuerkannten Bedeutung für die zu vergebenden Leistungen gewichtet und mit einem Punktesystem bewertet.      Die Referenzen 2 bis 5 werden - soweit die geforderten Mindestanforderungen erfüllt sind; andernfalls erfolgt die Nichtwertung der Referenz - hinsichtlich der ihnen zuerkannten Bedeutung für die zu vergebenden Leistungen gewichtet und mit einem Punktesystem bewertet. Die Mindestanforderungen an die weiteren Referenzen entsprechen denen der Mindestreferenzen. Der Punkt f) Angaben zur Erfahrung mit förderspezifischen Dokumentationspflichten ist als informative Abfrage vorgesehen.  Es dürfen insgesamt höchstens fünf Referenzen benannt werden."
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Vorlage einer aktuellen Unternehmensauskunft einer anerkannten Wirtschaftsauskunft (z. B. Creditreform, Schufa oder vergleichbare Auskunft)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Höhe der Wirtschaftlichkeitslücke",
+      "description": "Das Angebot hat eine detaillierte und plausible Darstellung der  Wirtschaftlichkeitslücke zu enthalten. Als Betrachtungszeitraum gilt hierbei ein Zeitraum von mindestens sieben Jahren ab Inbetriebnahme. Für die Angebotswertung wird eine Punkteskala festgelegt. Die volle Punktzahl erhält das Angebot mit der niedrigsten Wirtschaftlichkeitslücke. 0 Punkte erhält ein Angebot mit dem 2-fachen der niedrigsten Wirtschaftlichkeitslücke. Alle Angebote darüber erhalten ebenfalls 0 Punkte. Die Punktebewertung für die dazwischenliegenden Wirtschaftlichkeitslücken erfolgt über eine lineare Interpolation mit bis zu zwei Stellen nach dem Komma.",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": "Realisierungszeit",
+      "description": "Der Bieter hat mit seinem Angebot im Angebotsblatt die Ausbaudauer bis zur Inbetriebnahme in Monaten anzugeben.  Der Bieter mit der geringsten Realisierungszeit erhält 10 Punkte. Bei doppelter Realisierungszeit des Bestbieters werden 0 Leistungspunkte vergeben. Dazwischen erfolgt eine lineare Interpolation.",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Alternative Verlegemethoden",
+      "description": "Im Angebotsblatt ist zu kennzeichnen, ob diese zum Einsatz kommen oder ob diese nicht zum Einsatz kommen werden.  Für die Angebotswertung wird je nach Angabe des Bieters, die im Angebotsblatt hinterlegte Punktzahl zugrunde gelegt. Der Bieter kann 0  oder die volle Punktzahl, je nach Kennzeichnung im Angebotsblatt erreichen.",
+      "weight": 5
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

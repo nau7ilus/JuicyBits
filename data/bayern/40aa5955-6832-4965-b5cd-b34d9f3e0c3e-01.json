@@ -213,6 +213,8 @@
   "noticeId": "40aa5955-6832-4965-b5cd-b34d9f3e0c3e",
   "version": "01",
   "title": "26DE Objektplanung Strecke Brueckenbau",
+  "description": "Objektplanung für Strecken- und Brückenbau der Ortsumfahrung B289 Mainroth - Rothwind - Fassoldshof",
+  "procedureType": "open",
   "nuts": [
    "DE24C"
   ],
@@ -224,6 +226,7 @@
    {
     "id": "LOT-0000",
     "title": "26DE Objektplanung Strecke Brueckenbau",
+    "description": "Objektplanung für Strecken- und Brückenbau der Ortsumfahrung B289 Mainroth - Rothwind - Fassoldshof",
     "cpv": [
      "71300000"
     ],
@@ -234,9 +237,25 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "gem. Zuschlagskriterien",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "gem. Zuschlagskriterien",
+      "weight": null
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

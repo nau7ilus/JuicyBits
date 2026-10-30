@@ -1,0 +1,135 @@
+{
+ "id": "25944204-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944204",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944204",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944204-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944204-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944204?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Freiflaechen- und Nachverdichtungskonzept",
+  "buyer": "Stadt Fuerth -Rf. V- Zentrale Vergabestelle",
+  "cpv": [
+   "71410000-5"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-12-01T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944204",
+  "id": "25944204",
+  "date": "2026-10-17T07:01:33Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Fuerth -Rf. V- Zentrale Vergabestelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Fuerth -Rf. V- Zentrale Vergabestelle"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Fuerth -Rf. V- Zentrale Vergabestelle",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Fuerth -Rf. V- Zentrale Vergabestelle"
+   }
+  },
+  "tender": {
+   "title": "Freiflaechen- und Nachverdichtungskonzept",
+   "description": "Freiflaechen- und Nachverdichtungskonzept",
+   "procuringEntity": {
+    "name": "Stadt Fuerth -Rf. V- Zentrale Vergabestelle"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71410000-5"
+     },
+     "deliveryAddress": {
+      "locality": "90762 Fuerth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Restricted",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/289627",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Freiflaechen- und Nachverdichtungskonzept",
+     "description": "Freiflaechen- und Nachverdichtungskonzept"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25944204",
+  "version": "1",
+  "title": "Freiflaechen- und Nachverdichtungskonzept",
+  "description": "Freiflaechen- und Nachverdichtungskonzept",
+  "procedureType": "restricted",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "71410000-5"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Freiflaechen- und Nachverdichtungskonzept",
+    "description": "Freiflaechen- und Nachverdichtungskonzept",
+    "cpv": [
+     "71410000-5"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-12-01T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

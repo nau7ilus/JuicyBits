@@ -1,0 +1,157 @@
+{
+ "id": "25940248-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25940248",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25940248",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25940248-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25940248-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25940248?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "500-6000-001 Außenanlagen",
+  "buyer": "Bezirksklinikum Ansbach, Feutwanger Str. 38, 91522 AnsbachErlangen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.bezirkskliniken-mfr.de",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-16T00:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25940248",
+  "id": "25940248",
+  "date": "2026-10-17T07:00:33Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bezirksklinikum Ansbach, Feutwanger Str. 38, 91522 AnsbachErlangen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.bezirkskliniken-mfr.de",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Bezirksklinikum Ansbach, Feutwanger Str. 38, 91522 AnsbachErlangen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.bezirkskliniken-mfr.de"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bezirksklinikum Ansbach, Feutwanger Str. 38, 91522 AnsbachErlangen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.bezirkskliniken-mfr.de",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bezirksklinikum Ansbach, Feutwanger Str. 38, 91522 AnsbachErlangen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.bezirkskliniken-mfr.de"
+   }
+  },
+  "tender": {
+   "title": "500-6000-001 Außenanlagen",
+   "description": "500-6000-001 Außenanlagen",
+   "procuringEntity": {
+    "name": "Bezirksklinikum Ansbach, Feutwanger Str. 38, 91522 AnsbachErlangen, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.bezirkskliniken-mfr.de"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "91522 Ansbach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Direct award",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/besuJs/BekLanding4Bund?z_param=2026-11-0421063",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "500-6000-001 Außenanlagen",
+     "description": "500-6000-001 Außenanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25940248",
+  "version": "1",
+  "title": "500-6000-001 Außenanlagen",
+  "description": "500-6000-001 Außenanlagen",
+  "procedureType": "de-comp-neg-wo-call",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "500-6000-001 Außenanlagen",
+    "description": "500-6000-001 Außenanlagen",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-16T00:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

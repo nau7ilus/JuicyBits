@@ -1,0 +1,222 @@
+{
+ "id": "ed42e680-ff44-4898-97d2-300d30324b44-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "ed42e680-ff44-4898-97d2-300d30324b44",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ed42e680-ff44-4898-97d2-300d30324b44",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:ed42e680-ff44-4898-97d2-300d30324b44-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:ed42e680-ff44-4898-97d2-300d30324b44-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ed42e680-ff44-4898-97d2-300d30324b44?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Adam-Kraft-Straße 2 - Bodenbelagsarbeiten",
+  "buyer": "Stadt Nürnberg Hochbauamt",
+  "cpv": [
+   "45432130"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-23T09:10:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0a0ac2b2-4b6b-47cd-b487-6a41474f7bcd",
+  "id": "ed42e680-ff44-4898-97d2-300d30324b44",
+  "date": "2026-10-21T02:12:13Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg Hochbauamt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "b8b3f6fd-d55b-4a00-9794-a0bf85492169",
+     "legalName": "Stadt Nürnberg Hochbauamt"
+    },
+    "address": {
+     "streetAddress": "Marientorgraben 11",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90402",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "855daf8c-fe9f-4b20-b84c-8e495602d628",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "42c9c6cf-cf68-4f0a-863c-fd6e52b1ce0d",
+     "legalName": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN"
+    },
+    "address": {
+     "streetAddress": "Bauhof 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90402",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg Hochbauamt",
+   "id": "b8b3f6fd-d55b-4a00-9794-a0bf85492169",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg Hochbauamt"
+   },
+   "address": {
+    "streetAddress": "Marientorgraben 11",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90402",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0a0ac2b2-4b6b-47cd-b487-6a41474f7bcd",
+   "title": "Adam-Kraft-Straße 2 - Bodenbelagsarbeiten",
+   "description": "Generalsanierung GS St. Johannis - Bodenbelagsarbeiten",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg Hochbauamt",
+    "id": "b8b3f6fd-d55b-4a00-9794-a0bf85492169"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45432130",
+      "description": "Floor-covering work"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90419",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f08df651-fdb1-419c-a21d-9074c205ea97",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Adam-Kraft-Straße 2 - Bodenbelagsarbeiten",
+     "description": "Generalsanierung GS St. Johannis - Bodenbelagsarbeiten",
+     "contractPeriod": {
+      "startDate": "2027-02-22T00:00:00+01:00",
+      "endDate": "2029-02-02T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ed42e680-ff44-4898-97d2-300d30324b44",
+  "version": "01",
+  "title": "Adam-Kraft-Straße 2 - Bodenbelagsarbeiten",
+  "description": "Generalsanierung GS St. Johannis - Bodenbelagsarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45432130"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Adam-Kraft-Straße 2 - Bodenbelagsarbeiten",
+    "description": "Generalsanierung GS St. Johannis - Bodenbelagsarbeiten",
+    "cpv": [
+     "45432130"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-23T09:10:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-22+01:00",
+    "plannedEnd": "2029-02-02+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Der Nachweis der Befähigung zur Berufsausübung umfasst die Eintragung in das Berufs- oder Handelsregister \noder die Handwerksrolle des Sitzes oder Wohnsitzes. Nachweisführung zu Eignung und dem Fehlen von \nAusschlussgründen: Die Eignung kann durch Eintragung in die Liste des Vereins für Präqualifikation von \nBauunternehmen e.V. (Präqualifikationsverzeichnis) nachgewiesen oder durch Eigenerklärung vorläufig \nnachgewiesen werden. Gelangt das Angebot eines nicht präqualifizierten Unternehmens in die engere Wahl, \nsind die in den Eignungskriterien genannten Bescheinigungen nach Aufforderung innerhalb von 6 Kalendertagen \nvorzulegen. Gelangt das Angebot eines präqualifizierten Unternehmens in die engere Wahl, hat das \nUnternehmen zusätzlich die in den Eignungskriterien beschriebenen, konkret auftragsbezogenen \nBescheinigungen zum Umsatz und zu den Referenzen nach Aufforderung innerhalb von 6 Kalendertagen \nvorzulegen, soweit die Prüfung der Vergabestelle ergibt, dass die im Präqualifikationsverzeichnis hinterlegten \nUnterlagen die beschriebenen Anforderungen quantitativ nicht oder nicht ausreichend belegen. Durch \nausländische Unternehmen sind gleichwertige Bescheinigungen vorzulegen. Stützt sich ein Bewerber/Bieter zum \nNachweis seiner Eignung auf andere Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis \noder sind die Eigenerklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen \ninnerhalb von 6 Kalendertagen vorzulegen. Werden die Kapazitäten anderer Unternehmen gemäß § 6d EU Abs. \n1 VOB/A in Anspruch genommen, so muss gemäß § 6d EU Abs. 3 VOB/A die Nachweisprüfung auch für diese \nUnternehmen erfolgen. Gemäß § 6d EU Abs. 1 Satz 5 VOB/A hat der Bieter die Möglichkeit, andere \nUnternehmen, deren  Kapazitäten der Bieter in Anspruch genommen hat, einmal zu ersetzen, wenn dieses \nUnternehmen einschlägige Eignungsanforderung nicht erfüllt oder bei diesem Ausschlussgründe gemäß § 6e EU \nAbs. 1 bis 5 VOB/A vorliegen."
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Der Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit umfassteine Erklärung über den Umsatz \ndes Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er \nBauleistungen betrifft,die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss desAnteils bei \ngemeinsam mit anderen Unternehmen ausgeführten Aufträgen. Entsprechend der Verordnung (EU) 2022/576  \ndürfen öffentlichen Aufträge und Konzessionen nach dem 9. April 2022 nicht an Personen oder Unternehmen \nvergeben werden, die einen Bezug zu Russland im Sinne der Vorschrift aufweisen. Dies umfasst sowohl \nunmittelbar als Bewerber, Bieter oder Auftragnehmer auftretende Personen oder Unternehmen als auch \nmittelbar, mit mehr als zehn Prozent, gemessen am Auftragswert, beteiligte Unterauftragnehmer, Lieferanten \noder Eignungsverleiher. Es wird vom Bieter daher die Erklärung verlangt, dass er entsprechend den Vorgaben \nder Verordnung (EU) 2022/576 keinen Bezug zu Russland aufweist. Darüber hinaus werden vom Bieter folgende \nErklärungen bzw. Nachweise für das Nichtvorliegen von Ausschlussgründen gemäß § 6e EU VOB/A verlangt:\n- Erklärung, dass das Unternehmen nicht zahlungsunfähig ist, bzw. ob ein Insolvenzverfahren über das \nVermögen des Unternehmens oder ein vergleichbares Verfahren beantragt oder eröffnet worden ist, die \nEröffnung eines solchen Verfahrens mangels Masse abgelehnt worden ist, sich das Unternehmen im Verfahren \nder Liquidation befindet.\n- Erklärung, dass das Unternehmen seinen Verpflichtungen zur Zahlung von Steuern, Abgaben und Beiträgen zur \nSozialversicherung nachgekommen ist. Falls das Angebot in die engere Wahl kommt, ist eine \nUnbedenklichkeitsbescheinigung der tariflichen Sozialkasse bzw. der zuständigen Krankenkasse vorzulegen.\n- Erklärung, dass für das Unternehmen keine schwere Verfehlung gem. § 6a Abs. 2 Nr. 7 VOB/A vorliegt.\nAb einer Auftragssumme von 30.000 Euro wird der Auftraggeber für den Bieter, der den Zuschlag erhalten soll, \neine Auskunft aus dem bundesweiten Wettbewerbsregister anfordern."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Der Nachweis der technischen und beruflichen Leistungsfähigkeit umfasst:\n- Erklärung, dass in den letzten bis zu fünf abgeschlossenen Kalenderjahren Leistungen ausgeführt wurden, die \nmit der zu vergebenden Leistung vergleichbar sind. Falls das Angebot in die engere Wahl kommt, ist für drei \nReferenzen je eine Referenzbescheinigung vorzulegen.\n- Erklärung, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen. Falls \ndas Angebot in die engere Wahl kommt, sind Angaben über die Zahl der in den letzten drei abgeschlossenen \nKalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert \nausgewiesenem technischen Leitungspersonal vorzulegen.\n- Angabe, welche Teile des Auftrags der Unternehmer unter Umständen an andere Unternehmen als \nUnteraufträge zu vergeben beabsichtigt."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Siehe Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

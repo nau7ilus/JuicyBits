@@ -1,0 +1,294 @@
+{
+ "id": "84502165-84ea-4e41-bcd1-e071fffebe0e-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "84502165-84ea-4e41-bcd1-e071fffebe0e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=84502165-84ea-4e41-bcd1-e071fffebe0e",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:84502165-84ea-4e41-bcd1-e071fffebe0e-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:84502165-84ea-4e41-bcd1-e071fffebe0e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/84502165-84ea-4e41-bcd1-e071fffebe0e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Sanierung rechter Paardeich von Großmehringer Brücke bis Manching",
+  "buyer": "Wasserwirtschaftsamt Ingolstadt",
+  "cpv": [
+   "71300000",
+   "71320000",
+   "71330000",
+   "71327000",
+   "71356400"
+  ],
+  "nuts": [
+   "DE211",
+   "DE212",
+   "DE219"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f6ede26a-7808-49b6-b4dc-938db60c94ae",
+  "id": "84502165-84ea-4e41-bcd1-e071fffebe0e",
+  "date": "2026-10-21T02:12:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Wasserwirtschaftsamt Ingolstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0841/3705-0",
+     "legalName": "Wasserwirtschaftsamt Ingolstadt"
+    },
+    "address": {
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Tractebel GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 150101681",
+     "legalName": "Tractebel GmbH"
+    },
+    "address": {
+     "streetAddress": "Rießnerstraße 18",
+     "locality": "Weimar",
+     "region": "DEG05",
+     "postalCode": "99427",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Wasserwirtschaftsamt Ingolstadt",
+   "id": "0841/3705-0",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Wasserwirtschaftsamt Ingolstadt"
+   },
+   "address": {
+    "locality": "Ingolstadt",
+    "region": "DE211",
+    "postalCode": "85049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f6ede26a-7808-49b6-b4dc-938db60c94ae",
+   "title": "Sanierung rechter Paardeich von Großmehringer Brücke bis Manching",
+   "description": "Technische Planungsleistungen: Objektplanung, Tragwerksplanung und örtliche Bauüberwachung",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71300000",
+      "description": "Engineering services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71320000",
+       "description": "Engineering design services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71330000",
+       "description": "Miscellaneous engineering services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71327000",
+       "description": "Load-bearing structure design services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71356400",
+       "description": "Technical planning services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Großmehring",
+      "region": "DE219",
+      "postalCode": "85098",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-08-06T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Tractebel GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Tractebel GmbH"
+     },
+     "address": {
+      "streetAddress": "Rießnerstraße 18",
+      "locality": "Weimar",
+      "region": "DEG05",
+      "postalCode": "99427",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Sanierung rechter Paardeich von Großmehringer Brücke bis Manching",
+     "description": "Technische Planungsleistungen: Objektplanung, Tragwerksplanung und örtliche Bauüberwachung",
+     "contractPeriod": {
+      "startDate": "2026-07-01T00:00:00+02:00",
+      "endDate": "2026-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Sanierung rechter Paardeich von Großmehringer Brücke bis Manching",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Tractebel GmbH",
+      "id": "DE 150101681",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Tractebel GmbH"
+      },
+      "address": {
+       "streetAddress": "Rießnerstraße 18",
+       "locality": "Weimar",
+       "region": "DEG05",
+       "postalCode": "99427",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Sanierung rechter Paardeich von Großmehringer Brücke bis Manching",
+    "status": "active",
+    "value": {
+     "amount": 274.9,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "84502165-84ea-4e41-bcd1-e071fffebe0e",
+  "version": "01",
+  "title": "Sanierung rechter Paardeich von Großmehringer Brücke bis Manching",
+  "description": "Technische Planungsleistungen: Objektplanung, Tragwerksplanung und örtliche Bauüberwachung",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE219"
+  ],
+  "cpv": [
+   "71300000",
+   "71320000",
+   "71330000",
+   "71327000",
+   "71356400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sanierung rechter Paardeich von Großmehringer Brücke bis Manching",
+    "description": "Technische Planungsleistungen: Objektplanung, Tragwerksplanung und örtliche Bauüberwachung",
+    "cpv": [
+     "71300000",
+     "71320000",
+     "71330000",
+     "71327000",
+     "71356400"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-07-01+02:00",
+    "plannedEnd": "2026-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": "1.1 Vorgesehener Projektleiter\n1.2 Vorgesehenes Personal zur Projektbearbeitung\n1.3 Vorgesehenes Personal zur Tragwerksplanung\n1.4 Vorgesehenes Personal für die örtliche Bauüberwachung",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

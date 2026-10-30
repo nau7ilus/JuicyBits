@@ -1,0 +1,246 @@
+{
+ "id": "e1e55bf9-56e2-4f90-9b2a-467678b5a75d-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "e1e55bf9-56e2-4f90-9b2a-467678b5a75d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e1e55bf9-56e2-4f90-9b2a-467678b5a75d",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:e1e55bf9-56e2-4f90-9b2a-467678b5a75d-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:e1e55bf9-56e2-4f90-9b2a-467678b5a75d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e1e55bf9-56e2-4f90-9b2a-467678b5a75d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ausschreibung zur Lieferung von Repräsentationsuniform für die Bayerische Polizei und Justiz",
+  "buyer": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+  "cpv": [
+   "18222100",
+   "18223000",
+   "18232000",
+   "18234000",
+   "35811200"
+  ],
+  "nuts": [
+   "DE244"
+  ],
+  "deadline": "2026-12-15T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-73b5ac86-2d59-4faf-98dd-cbbd815d9d17",
+  "id": "e1e55bf9-56e2-4f90-9b2a-467678b5a75d",
+  "date": "2026-10-16T02:10:07Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0d476125-c482-4c5f-92ba-8dd29615de66",
+     "legalName": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)"
+    },
+    "address": {
+     "streetAddress": "Ernst-Reuter-Straße 119",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+   "id": "0d476125-c482-4c5f-92ba-8dd29615de66",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)"
+   },
+   "address": {
+    "streetAddress": "Ernst-Reuter-Straße 119",
+    "locality": "Hof",
+    "region": "DE244",
+    "postalCode": "95030",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "73b5ac86-2d59-4faf-98dd-cbbd815d9d17",
+   "title": "Ausschreibung zur Lieferung von Repräsentationsuniform für die Bayerische Polizei und Justiz",
+   "description": "Die vorliegende Ausschreibung soll zur Beschaffung von Repräsentationsuniformen für die Bayerische Polizei und Justiz dienen. \n\nEs handelt sich um eine Rahmenvereinbarung, die mit einem Wirtschaftsteilnehmer geschlossen wird. \n\nWeitere Informationen sind den Vergabeunterlagen insbesondere der Leistungsbeschreibung sowie dem Leistungskriterienkatalog und den Besonderen Vertragsbedingungen zu entnehmen.",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+    "id": "0d476125-c482-4c5f-92ba-8dd29615de66"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "18222100",
+      "description": "Suits"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "18223000",
+       "description": "Jackets and blazers"
+      },
+      {
+       "scheme": "CPV",
+       "id": "18232000",
+       "description": "Skirts"
+      },
+      {
+       "scheme": "CPV",
+       "id": "18234000",
+       "description": "Trousers"
+      },
+      {
+       "scheme": "CPV",
+       "id": "35811200",
+       "description": "Police uniforms"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Hof",
+      "region": "DE244",
+      "postalCode": "95030",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/c065a781-f5fa-408e-899f-5aad25a8128f",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Ausschreibung zur Lieferung von Repräsentationsuniform für die Bayerische Polizei und Justiz",
+     "description": "Die vorliegende Ausschreibung soll zur Beschaffung von Repräsentationsuniformen für die Bayerische Polizei und Justiz dienen. \n\nEs handelt sich um eine Rahmenvereinbarung, die mit einem Wirtschaftsteilnehmer geschlossen wird. \n\nWeitere Informationen sind den Vergabeunterlagen insbesondere der Leistungsbeschreibung sowie dem Leistungskriterienkatalog und den Besonderen Vertragsbedingungen zu entnehmen."
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "e1e55bf9-56e2-4f90-9b2a-467678b5a75d",
+  "version": "01",
+  "title": "Ausschreibung zur Lieferung von Repräsentationsuniform für die Bayerische Polizei und Justiz",
+  "description": "Die vorliegende Ausschreibung soll zur Beschaffung von Repräsentationsuniformen für die Bayerische Polizei und Justiz dienen. \n\nEs handelt sich um eine Rahmenvereinbarung, die mit einem Wirtschaftsteilnehmer geschlossen wird. \n\nWeitere Informationen sind den Vergabeunterlagen insbesondere der Leistungsbeschreibung sowie dem Leistungskriterienkatalog und den Besonderen Vertragsbedingungen zu entnehmen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE244"
+  ],
+  "cpv": [
+   "18222100",
+   "18223000",
+   "18232000",
+   "18234000",
+   "35811200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Ausschreibung zur Lieferung von Repräsentationsuniform für die Bayerische Polizei und Justiz",
+    "description": "Die vorliegende Ausschreibung soll zur Beschaffung von Repräsentationsuniformen für die Bayerische Polizei und Justiz dienen. \n\nEs handelt sich um eine Rahmenvereinbarung, die mit einem Wirtschaftsteilnehmer geschlossen wird. \n\nWeitere Informationen sind den Vergabeunterlagen insbesondere der Leistungsbeschreibung sowie dem Leistungskriterienkatalog und den Besonderen Vertragsbedingungen zu entnehmen.",
+    "cpv": [
+     "18222100",
+     "18223000",
+     "18232000",
+     "18234000",
+     "35811200"
+    ],
+    "nuts": [
+     "DE244"
+    ],
+    "deadline": "2026-12-15T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/c065a781-f5fa-408e-899f-5aad25a8128f/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/c065a781-f5fa-408e-899f-5aad25a8128f/suitabilitycriteria"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/c065a781-f5fa-408e-899f-5aad25a8128f/suitabilitycriteria"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/c065a781-f5fa-408e-899f-5aad25a8128f/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/c065a781-f5fa-408e-899f-5aad25a8128f/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/c065a781-f5fa-408e-899f-5aad25a8128f/awardcriteria",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

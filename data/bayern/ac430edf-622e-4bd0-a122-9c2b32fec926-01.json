@@ -1,0 +1,237 @@
+{
+ "id": "ac430edf-622e-4bd0-a122-9c2b32fec926-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "ac430edf-622e-4bd0-a122-9c2b32fec926",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ac430edf-622e-4bd0-a122-9c2b32fec926",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:ac430edf-622e-4bd0-a122-9c2b32fec926-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:ac430edf-622e-4bd0-a122-9c2b32fec926-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ac430edf-622e-4bd0-a122-9c2b32fec926?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "VDE 8.1 Güterzugstrecke Bauüberwachungsleistung für das VP4 EÜ AS Steinach",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71200000",
+   "71240000",
+   "71247000",
+   "71300000",
+   "71521000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-60cc8e4a-f764-404d-850d-37e52cc65cc9",
+  "id": "ac430edf-622e-4bd0-a122-9c2b32fec926",
+  "date": "2026-10-18T06:44:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "60cc8e4a-f764-404d-850d-37e52cc65cc9",
+   "title": "VDE 8.1 Güterzugstrecke Bauüberwachungsleistung für das VP4 EÜ AS Steinach",
+   "description": "Im Rahmen des Verkehrsprojekts Deutsche Einheit (VDE) 8.1 - Güterzugstrecke wird im Nordwesten von Nürnberg auf der Neubaustrecke 5955 bei km G 14,850 im \"Vergabepaket 4 - Eisenbahnüberführung Anschlussstelle Steinach (EÜ AS Steinach)\" eine zweigleisige, einfeldrige Stabbogenbrücke errichtet.\nDie Brücke dient der Überführung der dreiarmigen Anschlussstelle Fürth-Steinach der Bundesautobahn (BAB) 73. Der Brückenüberbau wird außerhalb der Verkehrsflächen der Anschlussstelle Steinach vormontiert und anschließend in mehreren Verschubzuständen auf die zuvor hergestellten Widerlager in seine Endlage eingeschoben.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71240000",
+       "description": "Architectural, engineering and planning services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71247000",
+       "description": "Supervision of building work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71300000",
+       "description": "Engineering services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71521000",
+       "description": "Construction-site supervision services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90427",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/cb329675-953d-4fa0-851c-9dfa09655317",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "VDE 8.1 Güterzugstrecke Bauüberwachungsleistung für das VP4 EÜ AS Steinach",
+     "description": "Im Rahmen des Verkehrsprojekts Deutsche Einheit (VDE) 8.1 - Güterzugstrecke wird im Nordwesten von Nürnberg auf der Neubaustrecke 5955 bei km G 14,850 im \"Vergabepaket 4 - Eisenbahnüberführung Anschlussstelle Steinach (EÜ AS Steinach)\" eine zweigleisige, einfeldrige Stabbogenbrücke errichtet.\nDie Brücke dient der Überführung der dreiarmigen Anschlussstelle Fürth-Steinach der Bundesautobahn (BAB) 73. Der Brückenüberbau wird außerhalb der Verkehrsflächen der Anschlussstelle Steinach vormontiert und anschließend in mehreren Verschubzuständen auf die zuvor hergestellten Widerlager in seine Endlage eingeschoben.",
+     "contractPeriod": {
+      "startDate": "2027-05-01T00:00:00+02:00",
+      "endDate": "2028-11-30T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "ac430edf-622e-4bd0-a122-9c2b32fec926",
+  "version": "01",
+  "title": "VDE 8.1 Güterzugstrecke Bauüberwachungsleistung für das VP4 EÜ AS Steinach",
+  "description": "Im Rahmen des Verkehrsprojekts Deutsche Einheit (VDE) 8.1 - Güterzugstrecke wird im Nordwesten von Nürnberg auf der Neubaustrecke 5955 bei km G 14,850 im \"Vergabepaket 4 - Eisenbahnüberführung Anschlussstelle Steinach (EÜ AS Steinach)\" eine zweigleisige, einfeldrige Stabbogenbrücke errichtet.\nDie Brücke dient der Überführung der dreiarmigen Anschlussstelle Fürth-Steinach der Bundesautobahn (BAB) 73. Der Brückenüberbau wird außerhalb der Verkehrsflächen der Anschlussstelle Steinach vormontiert und anschließend in mehreren Verschubzuständen auf die zuvor hergestellten Widerlager in seine Endlage eingeschoben.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "71200000",
+   "71240000",
+   "71247000",
+   "71300000",
+   "71521000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "VDE 8.1 Güterzugstrecke Bauüberwachungsleistung für das VP4 EÜ AS Steinach",
+    "description": "Im Rahmen des Verkehrsprojekts Deutsche Einheit (VDE) 8.1 - Güterzugstrecke wird im Nordwesten von Nürnberg auf der Neubaustrecke 5955 bei km G 14,850 im \"Vergabepaket 4 - Eisenbahnüberführung Anschlussstelle Steinach (EÜ AS Steinach)\" eine zweigleisige, einfeldrige Stabbogenbrücke errichtet.\nDie Brücke dient der Überführung der dreiarmigen Anschlussstelle Fürth-Steinach der Bundesautobahn (BAB) 73. Der Brückenüberbau wird außerhalb der Verkehrsflächen der Anschlussstelle Steinach vormontiert und anschließend in mehreren Verschubzuständen auf die zuvor hergestellten Widerlager in seine Endlage eingeschoben.",
+    "cpv": [
+     "71200000",
+     "71240000",
+     "71247000",
+     "71300000",
+     "71521000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-17T11:00:00+01:00",
+    "plannedStart": "2027-05-01+02:00",
+    "plannedEnd": "2028-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/cb329675-953d-4fa0-851c-9dfa09655317/suitabilitycriteria\n\nBieter werden zur Abgabe eines Angebotes aufgefordert, wenn die Eignungsprüfung bestanden wurde."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 80
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "Die Leistungskriterien werden in der Ausschreibungsphase definiert.",
+      "weight": 20
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

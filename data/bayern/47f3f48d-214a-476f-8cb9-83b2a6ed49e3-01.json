@@ -5,14 +5,14 @@
   "noticeId": "47f3f48d-214a-476f-8cb9-83b2a6ed49e3",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=47f3f48d-214a-476f-8cb9-83b2a6ed49e3",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:47f3f48d-214a-476f-8cb9-83b2a6ed49e3-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:47f3f48d-214a-476f-8cb9-83b2a6ed49e3-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/47f3f48d-214a-476f-8cb9-83b2a6ed49e3?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Erschliessung Stark und Schwachstrom",
   "buyer": "Staatliches Bauamt Schweinfurt",
   "cpv": [
@@ -233,5 +233,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "47f3f48d-214a-476f-8cb9-83b2a6ed49e3",
+  "version": "01",
+  "title": "Erschliessung Stark und Schwachstrom",
+  "description": "B62HE402040016\nHAB_SaaleckKa, Neubau WiGeb 1800/BetrGeb \nErschließung Stark- und Schwachstrom\nAußenkabel, symmetrisch A-2YF(L), 100x2x0,8      1.055,00m\nRangierung, Muffen von Papierkabeln/LWL             1.100 Stk\nKoaxialleitung LCM33      920,00m\nAußenkabel A-DQ(ZN)2Y 4x12         3.700,00m\nNYCYW 4x120     150,00m",
+  "procedureType": "open",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "45231000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Erschliessung Stark und Schwachstrom",
+    "description": "B62HE402040016\nHAB_SaaleckKa, Neubau WiGeb 1800/BetrGeb \nErschließung Stark- und Schwachstrom\nAußenkabel, symmetrisch A-2YF(L), 100x2x0,8      1.055,00m\nRangierung, Muffen von Papierkabeln/LWL             1.100 Stk\nKoaxialleitung LCM33      920,00m\nAußenkabel A-DQ(ZN)2Y 4x12         3.700,00m\nNYCYW 4x120     150,00m",
+    "cpv": [
+     "45231000"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2027-12-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

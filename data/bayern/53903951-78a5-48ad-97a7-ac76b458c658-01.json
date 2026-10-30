@@ -1,0 +1,261 @@
+{
+ "id": "53903951-78a5-48ad-97a7-ac76b458c658-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "53903951-78a5-48ad-97a7-ac76b458c658",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=53903951-78a5-48ad-97a7-ac76b458c658",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:53903951-78a5-48ad-97a7-ac76b458c658-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:53903951-78a5-48ad-97a7-ac76b458c658-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/53903951-78a5-48ad-97a7-ac76b458c658?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "Zimmererarbeiten",
+  "buyer": "Landkreis Traunstein",
+  "cpv": [
+   "45261100"
+  ],
+  "nuts": [
+   "DE21M"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6c0b68b1-c1b3-4424-b2e6-30d6248d1349",
+  "id": "53903951-78a5-48ad-97a7-ac76b458c658",
+  "date": "2026-10-16T02:11:26Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Traunstein",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0918900000 0051 75",
+     "legalName": "Landkreis Traunstein"
+    },
+    "address": {
+     "streetAddress": "Papst-Benedikt-XVI.-Platz",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "SG 1.51 - Hochbau + Bildung",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:086158440",
+     "legalName": "SG 1.51 - Hochbau + Bildung"
+    },
+    "address": {
+     "streetAddress": "Papst-Benedikt-XVI.-Platz",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Denkmalbau GmbH Ettersburg",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE247983450",
+     "legalName": "Denkmalbau GmbH Ettersburg"
+    },
+    "address": {
+     "streetAddress": "Im Zweibuchenfelde 6",
+     "locality": "Ettersburg",
+     "region": "DEG0G",
+     "postalCode": "99439",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Traunstein",
+   "id": "0918900000 0051 75",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Traunstein"
+   },
+   "address": {
+    "streetAddress": "Papst-Benedikt-XVI.-Platz",
+    "locality": "Traunstein",
+    "region": "DE21M",
+    "postalCode": "83278",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6c0b68b1-c1b3-4424-b2e6-30d6248d1349",
+   "title": "Zimmererarbeiten",
+   "description": "Holzfaserdämmung und trittfester Belag auf Decke/Dachraum, ca. 1800 m2\nAuswechselungen Sparren und Pfetten\nFlachdach-Müllhäuschen",
+   "procuringEntity": {
+    "name": "Landkreis Traunstein",
+    "id": "0918900000 0051 75"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45261100",
+      "description": "Roof-framing work"
+     },
+     "deliveryAddress": {
+      "locality": "Trostberg",
+      "region": "DE21M",
+      "postalCode": "83308",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Denkmalbau GmbH Ettersburg",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Denkmalbau GmbH Ettersburg"
+     },
+     "address": {
+      "streetAddress": "Im Zweibuchenfelde 6",
+      "locality": "Ettersburg",
+      "region": "DEG0G",
+      "postalCode": "99439",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Zimmererarbeiten",
+     "description": "Holzfaserdämmung und trittfester Belag auf Decke/Dachraum, ca. 1800 m2\nAuswechselungen Sparren und Pfetten\nFlachdach-Müllhäuschen",
+     "contractPeriod": {
+      "startDate": "2024-10-07T00:00:00+02:00",
+      "endDate": "2025-12-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Zimmererarbeiten",
+    "date": "2026-10-15T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Denkmalbau GmbH Ettersburg",
+      "id": "DE247983450",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Denkmalbau GmbH Ettersburg"
+      },
+      "address": {
+       "streetAddress": "Im Zweibuchenfelde 6",
+       "locality": "Ettersburg",
+       "region": "DEG0G",
+       "postalCode": "99439",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Zimmererarbeiten",
+    "value": {
+     "amount": 12131.87,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-14T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "38",
+  "noticeId": "53903951-78a5-48ad-97a7-ac76b458c658",
+  "version": "01",
+  "title": "Zimmererarbeiten",
+  "description": "Holzfaserdämmung und trittfester Belag auf Decke/Dachraum, ca. 1800 m2\nAuswechselungen Sparren und Pfetten\nFlachdach-Müllhäuschen",
+  "procedureType": null,
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "45261100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Zimmererarbeiten",
+    "description": "Holzfaserdämmung und trittfester Belag auf Decke/Dachraum, ca. 1800 m2\nAuswechselungen Sparren und Pfetten\nFlachdach-Müllhäuschen",
+    "cpv": [
+     "45261100"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2024-10-07+02:00",
+    "plannedEnd": "2025-12-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

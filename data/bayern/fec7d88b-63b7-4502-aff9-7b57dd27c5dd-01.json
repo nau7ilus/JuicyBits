@@ -1,0 +1,237 @@
+{
+ "id": "fec7d88b-63b7-4502-aff9-7b57dd27c5dd-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "fec7d88b-63b7-4502-aff9-7b57dd27c5dd",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fec7d88b-63b7-4502-aff9-7b57dd27c5dd",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:fec7d88b-63b7-4502-aff9-7b57dd27c5dd-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:fec7d88b-63b7-4502-aff9-7b57dd27c5dd-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fec7d88b-63b7-4502-aff9-7b57dd27c5dd?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Klinikum Nürnberg Nord - Haus 47 Sanitär- und Heizungssanierung - Elektroinstallation BA 3",
+  "buyer": "Klinikum Nürnberg",
+  "cpv": [
+   "45311000",
+   "45311200"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-17T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fec7d88b-63b7-4502-aff9-7b57dd27c5dd",
+  "id": "fec7d88b-63b7-4502-aff9-7b57dd27c5dd",
+  "date": "2026-10-16T00:00:00+02:00",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8783",
+     "legalName": "Klinikum Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "7690538e-5927-44c3-978c-afecb8496dfd",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Nürnberg",
+   "id": "8783",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fec7d88b-63b7-4502-aff9-7b57dd27c5dd",
+   "title": "Klinikum Nürnberg Nord - Haus 47 Sanitär- und Heizungssanierung - Elektroinstallation BA 3",
+   "description": "Elektroinstallation für Heizungs- und Sanitärsanierung BA 1",
+   "procuringEntity": {
+    "name": "Klinikum Nürnberg",
+    "id": "8783"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311000",
+      "description": "Electrical wiring and fitting work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45311200",
+       "description": "Electrical fitting work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE254",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/fec7d88b-63b7-4502-aff9-7b57dd27c5dd",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Klinikum Nürnberg Nord - Haus 47 Sanitär- und Heizungssanierung - Elektroinstallation BA 3",
+     "description": "Die Heizungs- und Sanitärsanierung erfolgt in mehreren Bauabschnitten während dem laufenden Betrieb. Hierzu werden die Räume der zu sanierenden Bauabschnitte je nach Anforderung entweder komplett oder abschnittsweise geräumt. In den Sanitärkernen wird die Elektroinstallation erneuert. Im Gebäude müssen bestehende Installationsverteiler ertüchtigt werden.\nDie Leistungen umfassen den Rückbau bestehender Installationen, die Anpassung vorhandener Verteilungen sowie die Erneuerung von ca.1500m Kabeln, Leitungen, Verlegesystemen und Installationsgeräten. Bestandteil sind außerdem die Lieferung und Montage von 117 LED-Leuchten, erforderliche Bohrungen und Durchbrüche, Brandschutzmaßnahmen sowie Baustelleneinrichtung und Baustromversorgung. Prüfungen, Inbetriebnahme, Einweisung und Revisionsdokumentation vervollständigen den Leistungsumfang.",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-01-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "fec7d88b-63b7-4502-aff9-7b57dd27c5dd",
+  "version": "01",
+  "title": "Klinikum Nürnberg Nord - Haus 47 Sanitär- und Heizungssanierung - Elektroinstallation BA 3",
+  "description": "Elektroinstallation für Heizungs- und Sanitärsanierung BA 1",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45311000",
+   "45311200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Klinikum Nürnberg Nord - Haus 47 Sanitär- und Heizungssanierung - Elektroinstallation BA 3",
+    "description": "Die Heizungs- und Sanitärsanierung erfolgt in mehreren Bauabschnitten während dem laufenden Betrieb. Hierzu werden die Räume der zu sanierenden Bauabschnitte je nach Anforderung entweder komplett oder abschnittsweise geräumt. In den Sanitärkernen wird die Elektroinstallation erneuert. Im Gebäude müssen bestehende Installationsverteiler ertüchtigt werden.\nDie Leistungen umfassen den Rückbau bestehender Installationen, die Anpassung vorhandener Verteilungen sowie die Erneuerung von ca.1500m Kabeln, Leitungen, Verlegesystemen und Installationsgeräten. Bestandteil sind außerdem die Lieferung und Montage von 117 LED-Leuchten, erforderliche Bohrungen und Durchbrüche, Brandschutzmaßnahmen sowie Baustelleneinrichtung und Baustromversorgung. Prüfungen, Inbetriebnahme, Einweisung und Revisionsdokumentation vervollständigen den Leistungsumfang.",
+    "cpv": [
+     "45311000",
+     "45311200"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-17T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eigenerklärung des Bieters zu Registereintragungen. Der Bieter erklärt im Handelsregister, für die auszuführenden Leistungen, in die Handwerksrolle, bei der Industrie- und Handelskammer und/oder zu keiner Eintragung in die genannten Register verpflichtet zu sein. Außerdem mit dem Angebot abzugeben: Nachweis in Form einer Kopie der Gewerbeanmeldung, des Handelsregisterauszugs und/oder der Eintragung in der Handwerksrolle (Handwerkskarte) bzw. eine Kopie der Anmeldung bei der Industrie- und Handelskammer."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Eigenerklärung des Bieters, dass dem Unternehmen die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen. Der Bieter erklärt weiterhin, dass wenn sein Angebot/Teilnahmeantrag in die engere Wahl kommt, er auf gesondertes Verlangen der Vergabestelle die Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit extra ausgewiesenem technischen Leitungspersonal, anzugeben."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Angabe von mindestens 3 Referenzen zu vergleichbaren und abgeschlossenen Bauvorhaben in den letzten 5 Jahren. \nAnzugeben sind jeweils Auftraggeber, Ansprechpartner beim Auftraggeber mit Telefonnummer; Art der ausgeführten Leistung; Auftragssumme; Ausführungszeitraum; stichwortartige Benennung des mit eigenem Personal ausgeführten maßgeblichen Leistungsumfanges einschl. Angabe der ausgeführten Mengen; Zahl der hierfür durchschnittlich eingesetzten Arbeitnehmer; stichwortartige Beschreibung der besonderen technischen und gerätespezifischen Anforderungen bzw. (bei Komplettleistung) Kurzbeschreibung der Baumaßnahme einschließlich eventueller Besonderheiten der Ausführung; Angabe zur Art der Baumaßnahme (Neubau, Umbau, Denkmal); Angabe zur vertraglichen Bindung (Hauptauftragnehmer, ARGE-Partner, Nachunternehmer); ggf. Angabe der Gewerke, die mit eigenem Leitungspersonal koordiniert wurden. Bei Bewerbergemeinschaften ist die jeweilige Referenz dem jeweiligen Mitglied zuzuordnen. Mindestanforderungen betreffend Referenzen gelten für die Bewerbergemeinschaft als solche."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung zur Betriebshaftpflichtversicherung. Der Auftragnehmer ist verpflichtet, rechtzeitig vor Zuschlagserteilung eine kombinierte Bauwesen- und Haftpflichtversicherung mit ausreichenden Deckungssummen nachzuweisen. Die Deckungssummen müssen mindesten betragen: a) Im Bauwesenteil der Police muss die\nVersicherungssumme mindestens den voraussichtlichen Kosten der zu erbringenden Bauleistung (ohne Mwst) entsprechen. b) Im Haftpflichtteil der Police gelten folgende Mindest- Deckungssummen je Schadensereignis:\n-2.000.000,00 Euro für Personenschäden, -1.000.000,00 Euro für Sachschäden, einschließlich - 100.000,00 Euro für\nBearbeitungsschäden und -100.000,00 Euro für Mangelfolgeschäden, -1.000.000,00 Euro für Basis Umweltdeckung. Die Kosten für die Prämien einschließlich Versicherungssteuer sind in die Einheitspreise einzurechnen und werden nicht vom Auftraggeber gesondert vergütet. Als Nachweis ist eine entsprechende Bescheinigung des Versicherungsträgers des Auftragnehmers vorzulegen."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Insolvenz, Liquidation: Eigenerklärung des Bieters, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet. Falls eine Erklärung über das Vorliegen eines solchen Insolvenzplanes vom Bieter angegeben wurde, wird die Vergabestelle auf gesondertes Verlangen einen rechtskräftig bestätigten Insolvenzplan vom Bieter anfordern."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Steuern und Abgaben: Eigenerklärung des Bieters, dass das Unternehmen der Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur Sozialversicherung, soweit das Unternehmen der Pflicht zur Beitragszahlung unterfällt, ordnungsgemäß erfüllt hat. Der Bieter erklärt weiterhin, dass wenn sein Angebot/Teilnahmeantrag in die engere Wahl kommt, er auf gesondertes Verlangen der Vergabestelle eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, oder eine Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen und/oder eine Freistellungsbescheinigung nach § 48b EStG vorlegen wird."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Berufsgenossenschaft: Eigenerklärung des Bieters zu einer Mitgliedschaft bei der Berufsgenossenschaft. Der Bieter erklärt, dass wenn sein Angebot/Teilnahmeantrag in die engere Wahl kommt, er auf gesondertes Verlangen der Vergabestelle eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorlegen wird."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Verfehlung: Eigenerklärung des Bieters, dass nachweislich keine schwere Verfehlung begangen wurde, die die Zuverlässigkeit als Bewerber oder Bieter in Frage stellt; das für das Unternehmen keine Ausschlussgründe gemäß § 6e EU VOB/A vorliegen und dass das Unternehmen in den letzten zwei Jahren nicht aufgrund eines Verstoßes gegen Vorschriften, der zu einem Eintrag im Wettbewerbsregister geführt hat, mit einer Freiheitsstrafe von mehr als drei Monaten oder einer Geldstrafe von mehr als 90 Tagessätzen oder einer Geldbuße von mehr als 2.500 Euro belegt wurde. Eine Eigenerklärung zu möglichen Selbstreinigungsmaßnahmen i.S.d. §125 GWB ist abzugeben, sofern einschlägig. Hinweis: Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister beim Bundeskartellamt anfordern."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "(1) Eigenerklärung zur Vermeidung des Erwerbs von Produkten aus ausbeuterischer Kinderarbeit. Der Bieter sichert zu, dass die Herstellung bzw. Bearbeitung der zu liefernden Produkte ohne ausbeuterische Kinderarbeit im Sinn des IAO-Übereinkommens Nr. 182 erfolgt bzw. erfolgt ist. (2) Eigenerklärung des Bieters zum Bezug Russland, der Bieter versichert, dass kein Bezug zu Russland im Sinne der Verordnung (EU) 2022/576 besteht. (3) Eigenerklärung zum Masernschutz. Der Bieter versichert, dass alle zur Erfüllung des Vertrags eingesetzten Personen vor Beginn ihrer Tätigkeit die Anforderungen gemäß § 20 Abs. 9 Infektionsschutzgesetz (IfSG) erfüllen und sämtliche für die Nachweisführung gem. § 20 Abs. 9 IfSG notwendigen Unterlagen beim Bieter vorliegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

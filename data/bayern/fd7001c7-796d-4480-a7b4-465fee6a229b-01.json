@@ -1,0 +1,229 @@
+{
+ "id": "fd7001c7-796d-4480-a7b4-465fee6a229b-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "fd7001c7-796d-4480-a7b4-465fee6a229b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fd7001c7-796d-4480-a7b4-465fee6a229b",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:fd7001c7-796d-4480-a7b4-465fee6a229b-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:fd7001c7-796d-4480-a7b4-465fee6a229b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fd7001c7-796d-4480-a7b4-465fee6a229b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Fachplanung Monitoring",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "71000000",
+   "71327000",
+   "71322000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b343e584-5e5d-4f3d-9046-d39130e35d51",
+  "id": "fd7001c7-796d-4480-a7b4-465fee6a229b",
+  "date": "2026-10-18T07:22:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b343e584-5e5d-4f3d-9046-d39130e35d51",
+   "title": "Fachplanung Monitoring",
+   "description": "Fachplaner Monitoring BW 41/57; zweifeldrige Spannbetonbrücke; \nBeton B450 / Spannstahl vom Typ Sigma Oval 40; \nGesamtlänge 37,32m / Gesamtbreite 18,00m\n- Konzeption, Planung und fachliche Begleitung eines Monitoringsystems über die gesamte vorgesehene Monitoringlaufzeit. \n- Erarbeitung eines Monitoringkonzepts, die Definition der Überwachungsziele und Messgrößen, die Festlegung geeigneter Mess- und Auswertungsverfahren sowie die Erstellung der erforderlichen Vergabeunterlagen für die Beauftragung eines Spezialdienstleisters für Bauwerksmessungen. \n- fachliche Unterstützung und Begleitung des Vergabeverfahrens für die messtechnischen  Leistungen, einschließlich der Mitwirkung bei der Angebotsprüfung und fachlichen Bewertung \nder Angebote. \n- fachliche Begleitung der Umsetzung des Monitorings, die Qualitätssicherung der \nMonitoringmaßnahmen, die Überprüfung und Bewertung der Messergebnisse sowie die fortlaufende fachliche Beratung des Auftraggebers während der gesamten Monitoringlaufzeit",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71000000",
+      "description": "Architectural, construction, engineering and inspection services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71327000",
+       "description": "Load-bearing structure design services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71322000",
+       "description": "Engineering design services for the construction of civil engineering works"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81369",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303459",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fachplanung Monitoring",
+     "description": "Fachplaner Monitoring BW 41/57; zweifeldrige Spannbetonbrücke; \nBeton B450 / Spannstahl vom Typ Sigma Oval 40; \nGesamtlänge 37,32m / Gesamtbreite 18,00m\n- Konzeption, Planung und fachliche Begleitung eines Monitoringsystems über die gesamte vorgesehene Monitoringlaufzeit. \n- Erarbeitung eines Monitoringkonzepts, die Definition der Überwachungsziele und Messgrößen, die Festlegung geeigneter Mess- und Auswertungsverfahren sowie die Erstellung der erforderlichen Vergabeunterlagen für die Beauftragung eines Spezialdienstleisters für Bauwerksmessungen. \n- fachliche Unterstützung und Begleitung des Vergabeverfahrens für die messtechnischen  Leistungen, einschließlich der Mitwirkung bei der Angebotsprüfung und fachlichen Bewertung \nder Angebote. \n- fachliche Begleitung der Umsetzung des Monitorings, die Qualitätssicherung der \nMonitoringmaßnahmen, die Überprüfung und Bewertung der Messergebnisse sowie die fortlaufende fachliche Beratung des Auftraggebers während der gesamten Monitoringlaufzeit",
+     "contractPeriod": {
+      "startDate": "2027-02-15T00:00:00+01:00",
+      "endDate": "2032-02-27T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "fd7001c7-796d-4480-a7b4-465fee6a229b",
+  "version": "01",
+  "title": "Fachplanung Monitoring",
+  "description": "Fachplaner Monitoring BW 41/57; zweifeldrige Spannbetonbrücke; \nBeton B450 / Spannstahl vom Typ Sigma Oval 40; \nGesamtlänge 37,32m / Gesamtbreite 18,00m\n- Konzeption, Planung und fachliche Begleitung eines Monitoringsystems über die gesamte vorgesehene Monitoringlaufzeit. \n- Erarbeitung eines Monitoringkonzepts, die Definition der Überwachungsziele und Messgrößen, die Festlegung geeigneter Mess- und Auswertungsverfahren sowie die Erstellung der erforderlichen Vergabeunterlagen für die Beauftragung eines Spezialdienstleisters für Bauwerksmessungen. \n- fachliche Unterstützung und Begleitung des Vergabeverfahrens für die messtechnischen  Leistungen, einschließlich der Mitwirkung bei der Angebotsprüfung und fachlichen Bewertung \nder Angebote. \n- fachliche Begleitung der Umsetzung des Monitorings, die Qualitätssicherung der \nMonitoringmaßnahmen, die Überprüfung und Bewertung der Messergebnisse sowie die fortlaufende fachliche Beratung des Auftraggebers während der gesamten Monitoringlaufzeit",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71000000",
+   "71327000",
+   "71322000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fachplanung Monitoring",
+    "description": "Fachplaner Monitoring BW 41/57; zweifeldrige Spannbetonbrücke; \nBeton B450 / Spannstahl vom Typ Sigma Oval 40; \nGesamtlänge 37,32m / Gesamtbreite 18,00m\n- Konzeption, Planung und fachliche Begleitung eines Monitoringsystems über die gesamte vorgesehene Monitoringlaufzeit. \n- Erarbeitung eines Monitoringkonzepts, die Definition der Überwachungsziele und Messgrößen, die Festlegung geeigneter Mess- und Auswertungsverfahren sowie die Erstellung der erforderlichen Vergabeunterlagen für die Beauftragung eines Spezialdienstleisters für Bauwerksmessungen. \n- fachliche Unterstützung und Begleitung des Vergabeverfahrens für die messtechnischen  Leistungen, einschließlich der Mitwirkung bei der Angebotsprüfung und fachlichen Bewertung \nder Angebote. \n- fachliche Begleitung der Umsetzung des Monitorings, die Qualitätssicherung der \nMonitoringmaßnahmen, die Überprüfung und Bewertung der Messergebnisse sowie die fortlaufende fachliche Beratung des Auftraggebers während der gesamten Monitoringlaufzeit",
+    "cpv": [
+     "71000000",
+     "71327000",
+     "71322000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-18T13:00:00+01:00",
+    "plannedStart": "2027-02-15+01:00",
+    "plannedEnd": "2032-02-27+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Der Bewerber hat mit dem Teilnahmeantrag den Nachweis über seine berufliche Qualifikation als Dipl.-Ing. TH/FH bzw. Bachelor/Master an Universitäten oder Fachhochschulen mit der Fachrichtung Bauingenieurwesen, Messtechnik oder einer vergleichbaren technischen Fachrichtung einzureichen.\n\nIst der Bewerber eine juristische Person, ist dieser nur dann teilnahmeberechtigt, wenn durch Erklärung des Bewerbers nachgewiesen wird, dass der benannte verantwortliche Berufsangehörige die an die natürliche Person gestellten Anforderungen erfüllt. Bewerber oder verantwortliche Berufsangehörige juristischer Personen, die die entsprechende Berufsbezeichnung nach dem Recht eines anderen Mitgliedsstaates der europäischen Union oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum tragen, erfüllen die fachlichen Voraussetzungen dann,\na) wenn sie sich dauerhaft im Bundesgebiet der Bundesrepublik Deutschland niedergelassen haben und berechtigt sind, die deutschen Berufsbezeichnungen nach den einschlägigen deutschen Fachgesetzen aufgrund einer Gleichstellung mit nach der Richtlinie 2005/36/EG (geändert durch die Richtlinie 2013/55/EU) zutragen oder\nb) wenn sie vorübergehend im Bundesgebiet tätig sind und ihre Dienstleistungserbringung nach Richtlinie 2005/36/EG angezeigt haben."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung des Bewerbers, dass im Auftragsfall der Nachweis einer Berufshaftpflichtversicherung mit folgendem Inhalt vorgelegt wird: Berufshaftpflichtversicherung mit Deckungssummen von über mind. 2,0 Mio. EUR für Personenschäden und mind. 0,5 Mio. EUR für sonstige Schäden. Die Versicherung muss während der gesamten Vertragszeit unterhalten und nachgewiesen werden. Es ist zu gewährleisten, dass zur Deckung eines Schadens aus dem Vertrag Versicherungsschutz in Höhe der genannten Deckungssummen besteht. Zudem muss die Ersatzleistung der Versicherung mindestens das Zweifache der o.g. Deckungssummen pro Jahr betragen (2fach maximiert). Im Falle einer Bewerbergemeinschaft ist von jedem Mitglied der Bewerbergemeinschaft eine Versicherung zu den o.g. Bedingungen nachzuweisen. Zudem ist gleichzeitig eine Erklärung des Versicherers bzw. die entsprechende Passage aus dem/den Vertrag/Bedingungen beizufügen, wonach die Versicherung auch bei der Betätigung des Bewerbers als Partner einer Arge, bei Schäden, die vom Versicherungsnehmer verursacht werden, zu den genannten Bedingungen eintritt."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage von max. 2 Referenzen vergleichbarer Leistungen des Bewerbers aus dem Referenzzeitraum 2016 bis Ende der Bewerbungsfrist, die anhand folgender Kriterien bewertet werden:\n---\nReferenz 1: \n- Selbst erbrachte Leistung: Erstellung einer Nachrechnung eines Brückenbauwerks oder Tunnelbauwerks, bei dessen Bau spannungsrisskorossionsgefährdeter Spannstahl verwendet wurde;  \n- Leistungsbestandteil: Nachweisführung auf Ankündigungsverhalten \n---\nReferenz 2:  \n- Selbst erbrachte Leistung der Erstellung eines Monitoringkonzepts eines Schallemissionsmonitorings für ein Brückenbauwerk oder Tunnelbauwerk, bei dessen Bau spannungsrisskorossionsgefährdeter Spannstahl verwendet wurde ; \n- Leistungsbestandteil: Durchführung oder fachliche Begleitung von Installation und Betrieb eines Schallemissionsmonitorings ; \n- Leistungsbestandteil: tragwerksplanerische Bewertung der Ergebnisse eines Schallemissionsmonitorings über einen durchgängigen Leistungszeitraum von mind. 1 Jahr ; \n- Leistungsbestandteil: Erstellung eines Konzepts für ein faseroptisches Monitoring.\n---\nDie Referenzen sind in der „Liste geeigneter Referenzen“ als Anlage zum Bewerberbogen darzustellen, so dass eine Bewertung anhand der o.g. Kriterien ermöglicht wird. Die detaillierte Bewertung ergibt sich aus der Auswahlmatrix. \n---\nJede Referenz kann aus max. zwei Referenzprojekten bestehen. Werden pro Referenz des Unternehmens mehr als zwei Referenzprojekte aufgelistet, dann werden nur die ersten zwei berücksichtigt. \n---\nFür die Referenzen 1 und 2 werden darüber hinaus folgende Angaben erwartet: Kontaktdaten des Auftraggebers mit Namen des Ansprechpartners, Angabe ob öffentlicher oder privater Empfänger, Anschrift, Telefonnummer und E-Mail; Beschreibung der erbrachten Leistung; Wert der erbrachten Leistung und Angaben zu den erbrachten Leistungsphasen. Zudem ist anzugeben, ob die Leistungen als vollständige Eigenleistung, mit Nachunternehmern oder in Kooperation mit anderen Unternehmen erbracht wurden, sowie die Angabe des Eigenleistungsanteils. Wurden die Leistungen nicht vollständig als Eigenleistung erbracht, so ist anzugeben, welche Leistungen als Eigenleistung erbracht wurden. \n---\nMindestbedingung für die grundsätzliche Wertbarkeit einer Referenz ist die Erbringung von mindestens 75% vom wesentlichen Teil der Leistung im. o.g. Referenzzeitraum. In diesem Fall ist aufzulisten, welche Leistungen zu welchem Grad (Leistungsstand) bereits erbracht wurden und welche noch zu erbringen sind. Wenn die Mindestbedingung nicht erfüllt ist, kann die gesamte Referenz nicht gewertet werden. Zum Ausschluss des Teilnahmeantrags führt dies für sich aber nicht. \n---\nEine Leistungsphase gilt dann als im Referenzzeitraum erbracht, wenn sie innerhalb des o.g. Referenzzeitraums abgeschlossen worden ist. Der Beginn der Leistungsphase kann hingegen auch schon vor diesem Zeitraum liegen.\n---\nDie bestmögliche Bewertung wird nur erreicht, wenn die max. zulässige Anzahl an Referenzen die o.g. Kriterien vollumfänglich erfüllen. Die teilweise Erfüllung der o.g. Kriterien führt nicht zum Ausschluss, sondern zu einer entsprechend geringeren Bewertung."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Die Qualität ist nicht das einzige Zuschlagskriterium; alle (Unter-)Kriterien sowie deren Wichtung sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt.",
+      "weight": 60
+     },
+     {
+      "type": "price",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Die Preis ist nicht das einzige Zuschlagskriterium; alle (Unter-)Kriterien sowie deren Wichtung sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt.",
+      "weight": 40
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

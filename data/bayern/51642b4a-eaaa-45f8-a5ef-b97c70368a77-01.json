@@ -1,0 +1,263 @@
+{
+ "id": "51642b4a-eaaa-45f8-a5ef-b97c70368a77-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "51642b4a-eaaa-45f8-a5ef-b97c70368a77",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=51642b4a-eaaa-45f8-a5ef-b97c70368a77",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:51642b4a-eaaa-45f8-a5ef-b97c70368a77-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:51642b4a-eaaa-45f8-a5ef-b97c70368a77-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/51642b4a-eaaa-45f8-a5ef-b97c70368a77?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Erdgasausschreibung Klinikum Landkreis Erding 2027",
+  "buyer": "Klinikum Landkreis Erding, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+  "cpv": [
+   "09123000"
+  ],
+  "nuts": [
+   "DE21A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-650cfde6-8177-4e45-ba74-d16cb52d0592",
+  "id": "51642b4a-eaaa-45f8-a5ef-b97c70368a77",
+  "date": "2026-10-21T02:08:40Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Landkreis Erding, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "77fb4eb8-f4c0-4776-ad34-7f90ca9a1e25",
+     "legalName": "Klinikum Landkreis Erding, vertreten durch die KUBUS Kommunalberatung und Service GmbH"
+    },
+    "address": {
+     "streetAddress": "Bajuwarenstraße 5",
+     "locality": "Erding",
+     "region": "DE21A",
+     "postalCode": "85435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "fcbdfac7-5e4b-456e-aeed-2dd450c6e92a",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "KUBUS Kommunalberatung und Service GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "27a676a5-7d10-4084-af42-3eacd9bbacf1",
+     "legalName": "KUBUS Kommunalberatung und Service GmbH"
+    },
+    "address": {
+     "streetAddress": "Bertha-von-Suttner-Str. 5",
+     "locality": "Schwerin",
+     "region": "DE804",
+     "postalCode": "19061",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Stadtwerke Augsburg Energie GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "1abd3bd8-d035-43f4-b1b5-659f7ab565a9",
+     "legalName": "Stadtwerke Augsburg Energie GmbH"
+    },
+    "address": {
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Landkreis Erding, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+   "id": "77fb4eb8-f4c0-4776-ad34-7f90ca9a1e25",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Landkreis Erding, vertreten durch die KUBUS Kommunalberatung und Service GmbH"
+   },
+   "address": {
+    "streetAddress": "Bajuwarenstraße 5",
+    "locality": "Erding",
+    "region": "DE21A",
+    "postalCode": "85435",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "650cfde6-8177-4e45-ba74-d16cb52d0592",
+   "title": "Erdgasausschreibung Klinikum Landkreis Erding 2027",
+   "description": "Lieferung von Erdgas für Abnahmestelle des Klinikums Landkreis Erding; Lieferjahr: 2027; Liefermenge: ca. 7.800.000 kWh/Jahr\n\n\n\n",
+   "procuringEntity": {
+    "name": "Klinikum Landkreis Erding, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+    "id": "77fb4eb8-f4c0-4776-ad34-7f90ca9a1e25"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryLocation": {
+      "description": "Abnahmestellen gemäß Leistungsverzeichnis"
+     },
+     "deliveryAddress": {
+      "locality": "Erding",
+      "region": "DE21A",
+      "postalCode": "85435",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-08T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Stadtwerke Augsburg Energie GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Stadtwerke Augsburg Energie GmbH"
+     },
+     "address": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86152",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los Klinikum Landkreis Erding",
+     "description": "Lieferung von Erdgas für die Abnahmestelle des Klinikums Landkreis Erding, Lieferzeitraum: 2026, Menge: ca. 7.800.000 kWh/Jahr\n",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-01-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 845138,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "51642b4a-eaaa-45f8-a5ef-b97c70368a77",
+  "version": "01",
+  "title": "Erdgasausschreibung Klinikum Landkreis Erding 2027",
+  "description": "Lieferung von Erdgas für Abnahmestelle des Klinikums Landkreis Erding; Lieferjahr: 2027; Liefermenge: ca. 7.800.000 kWh/Jahr",
+  "procedureType": "open",
+  "nuts": [
+   "DE21A"
+  ],
+  "cpv": [
+   "09123000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los Klinikum Landkreis Erding",
+    "description": "Lieferung von Erdgas für die Abnahmestelle des Klinikums Landkreis Erding, Lieferzeitraum: 2026, Menge: ca. 7.800.000 kWh/Jahr",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE21A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

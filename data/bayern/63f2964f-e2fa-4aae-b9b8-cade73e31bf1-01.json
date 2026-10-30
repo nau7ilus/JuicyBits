@@ -5,23 +5,24 @@
   "noticeId": "63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:63f2964f-e2fa-4aae-b9b8-cade73e31bf1-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:63f2964f-e2fa-4aae-b9b8-cade73e31bf1-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/63f2964f-e2fa-4aae-b9b8-cade73e31bf1?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "PL_VP2020 Zwischenlager / Entsorgung Aushubmaterial aus Gleisbauarbeiten Steinbühler Str. Nürnberg",
   "buyer": "VAG Verkehrs-Aktiengesellschaft",
   "cpv": [
-   "90500000"
+   "90500000",
+   "45232470"
   ],
   "nuts": [
    "DE254"
   ],
-  "deadline": null,
+  "deadline": "2026-11-26T14:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -137,5 +138,111 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
+  "version": "01",
+  "title": "PL_VP2020 Zwischenlager / Entsorgung Aushubmaterial aus Gleisbauarbeiten Steinbühler Str. Nürnberg",
+  "description": "Im Rahmen des Projekts \"Umgestaltung Plärrer\" fällt aus Gleisbauarbeiten in der Gleisbühler Str. in Nürnberg die Leistung zur Bereitstellung einer Zwischenlagerfläche für das ausgebaute und zu beprobende Material sowie die Entsorgung, bzw. Verwertung der anfallenden Materialien an. Das zu entsorgende Material aus der Baustelle Plärrer (Gleisbau Teil 1) wird durch das gesondert beauftragte Bauunternehmen des AG auf die Zwischenlagerfläche des AN transportiert und dort nach Anweisung des AN durch das Bauunternehmen des AG abgekippt. \nDas Herstellen, Sichern und Unterhalten der Haufwerke auf der Zwischenlagerfläche erfolgt durch den AN. Die Haufwerke werden durch einen gesondert beauftragten Gutachter des AG beprobt. Bis zum Vorliegen der Deklarationsergebnisse ist das Material durch den AN zu lagern. \nBei Übergabe des Deklarationsergebnisses an den AN geht das gelagerte Material ins Eigentum des AN über und es ist die Entsorgung, bzw. Verwertung des Materials vorzunehmen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "90500000",
+   "45232470"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "PL_VP2020 Zwischenlager / Entsorgung Aushubmaterial aus Gleisbauarbeiten Steinbühler Str. Nürnberg",
+    "description": "Im Rahmen des Projekts \"Umgestaltung Plärrer\" fällt aus Gleisbauarbeiten in der Gleisbühler Str. in Nürnberg die Leistung zur Bereitstellung einer Zwischenlagerfläche für das ausgebaute und zu beprobende Material sowie die Entsorgung, bzw. Verwertung der anfallenden Materialien an. Das zu entsorgende Material aus der Baustelle Plärrer (Gleisbau Teil 1) wird durch das gesondert beauftragte Bauunternehmen des AG auf die Zwischenlagerfläche des AN transportiert und dort nach Anweisung des AN durch das Bauunternehmen des AG abgekippt. \nDas Herstellen, Sichern und Unterhalten der Haufwerke auf der Zwischenlagerfläche erfolgt durch den AN. Die Haufwerke werden durch einen gesondert beauftragten Gutachter des AG beprobt. Bis zum Vorliegen der Deklarationsergebnisse ist das Material durch den AN zu lagern. \nBei Übergabe des Deklarationsergebnisses an den AN geht das gelagerte Material ins Eigentum des AN über und es ist die Entsorgung, bzw. Verwertung des Materials vorzunehmen.",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-26T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-08+01:00",
+    "plannedEnd": "2027-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "1.1 Kopie der Anmeldungs- bzw. Eintragungsbescheinigung ins Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschriften des Herkunftslandes, anderenfalls vergleichbarer Nachweis für die Existenz und den Gegenstand des Unternehmens des Bewerbers. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "1.2 Eigenerklärung, dass keine Ausschlussgründe nach §§ 123 und 124 GWB bestehen. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "1.3 Eigenerklärung: Anerkennung deutsches Recht im Vertragsfall. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "1.4 Eigenerklärung: Bestätigung von deutschsprachigen Schlüsselpersonal. (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "1.5 Unbedenklichkeitsbescheinigung der Berufsgenossenschaft (nicht älter als 12 Monate) (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "1.6 Kopie Betriebshaftpflichtversicherung - nicht älter als 12 Monate: Die Deckungssumme muss mindestens 3.000.000 € je Schadensfall für Personen- und Sachschäden betragen. Zusätzlich müssen Umwelthaftpflichtschäden sowie öffentlich-rechtliche Ansprüche auf Sanierung von Umweltschäden durch eine geeignete Umwelthaftpflichtversicherung bzw. Umweltschadenversicherung mit jeweils mindestens 3.000.000 € je Schadensfall abgedeckt sein oder Vorlage einer Bescheinigung der Versicherung, dass diese bereit ist, im Auftragsfall eine Versicherung mit den entsprechenden Deckungssummen mit dem Bieter abzuschließen. \n(Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "2.1 Umsatzangaben der letzten drei abgeschlossenen Geschäftsjahre bezogen auf Tätigkeiten im ausgeschriebenen Aufgabengebiet, (Gewichtung 2 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "2.2 Bonitätsauskunft (z. B. Creditreform, Bankauskunft, etc.). (Gewichtung 6 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "2.3 Eigenerklärung, dass keine Eröffnung oder beantragte Eröffnung eines Insolvenzverfahrens oder einer vergleichbaren gesetzlich geregelten Verfahrens über das Vermögen des Unternehmens oder Ablehnung vorliegt (Gewichtung 4 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "2.4 Eigenerklärung, dass sich das Unternehmen nicht in Liquidation befindet. (Gewichtung 4 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "2.6 Eigenerklärung, dass Ihr Unternehmen seine Verpflichtung zur Zahlung der Steuern und Abgaben nach den Rechtsvorschriften des Landes des Sektorenauftraggebers erfüllt hat (Gewichtung 4 %)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "3.1 Eigenerklärung zur Einhaltung und Erfüllung aller mit dem Auftragsgegenstand verbundener abfallrechtlicher und umweltrechtlicher Anforderungen. (Gewichtung 4%)"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "3.2 Zwei mit der ausgeschriebenen Leistung vergleichbare Referenzen mit Ausführung 2023 bis 2026. (Gewichtung zweimal 32 % = 64 %), Wertung jeweils im Vergleich zur ausgeschriebenen Leistung für eine Referenz: 32 % voll vergleichbar, 0 % überhaupt nicht vergleichbar, dazwischen erfolgt eine Interpolation Die Referenzen sollen folgende Angaben enthalten: Auftraggeber mit Ansprechpartner und Telefonnummer, Art der ausgeführten Leistung, Auftragssumme, Ausführungszeitraum, Kurzbeschreibung des im eigenen Betrieb erbrachten maßgeblichen Leistungsumfangs mit Angabe von dabei ausgeführten wesentlichen Mengenkennzahlen, Zahl der dabei durchschnittlichen eingesetzten Arbeitskräfte."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "ALLGEMEINER HINWEIS: Sofern nichts anderes angegeben ist, dürfen Erklärungen nicht älter als ein Jahr sein. Bei Dokumenten, die nicht in deutscher Sprache verfasst sind, ist eine beglaubigte Übersetzung ins Deutsche beizufügen. Ausländische Bieter haben gleichwertige Nachweise des Herkunftslandes vorzulegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
 }

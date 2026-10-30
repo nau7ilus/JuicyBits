@@ -1,0 +1,337 @@
+{
+ "id": "9b8f9d43-58a4-4c74-b6f6-9aee61d6fff3-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "9b8f9d43-58a4-4c74-b6f6-9aee61d6fff3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9b8f9d43-58a4-4c74-b6f6-9aee61d6fff3",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:9b8f9d43-58a4-4c74-b6f6-9aee61d6fff3-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:9b8f9d43-58a4-4c74-b6f6-9aee61d6fff3-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9b8f9d43-58a4-4c74-b6f6-9aee61d6fff3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Stadt Dietfurt a.d.Altmühl: Beschaffung von Schülerbeförderungsleistungen",
+  "buyer": "Stadt Dietfurt",
+  "cpv": [
+   "60130000"
+  ],
+  "nuts": [
+   "DE236"
+  ],
+  "deadline": "2026-11-23T12:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5fb1ccd4-e743-4b57-964c-82bd15293072",
+  "id": "9b8f9d43-58a4-4c74-b6f6-9aee61d6fff3",
+  "date": "2026-10-23T02:12:42Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Dietfurt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "12345",
+     "legalName": "Stadt Dietfurt"
+    },
+    "address": {
+     "streetAddress": "Hauptstraße 26",
+     "locality": "Dietfurt a. d. Altmühl",
+     "region": "DE236",
+     "postalCode": "92345",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0981 531277",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Dietfurt",
+   "id": "12345",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Stadt Dietfurt"
+   },
+   "address": {
+    "streetAddress": "Hauptstraße 26",
+    "locality": "Dietfurt a. d. Altmühl",
+    "region": "DE236",
+    "postalCode": "92345",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5fb1ccd4-e743-4b57-964c-82bd15293072",
+   "title": "Stadt Dietfurt a.d.Altmühl: Beschaffung von Schülerbeförderungsleistungen",
+   "description": "Die Stadt Dietfurt a. d. Altmühl beschafft die Beförderungsleistungen für Schüler und Schülerinnen im freigestellten Schulverkehr mit Bussen zur Grund- und Mittelschule in Dietfurt ab dem 07.01.2027 bis zum 31.07.2027 und für die drei folgenden Schuljahre 2027/28, 2028/29 und 2029/2030 in drei Losen.\nDetaillierte Informationen zum Standort der Schule und den Haltestellen ergeben sich aus der Leistungsbeschreibung und den Anlagen hierzu.",
+   "procuringEntity": {
+    "name": "Stadt Dietfurt",
+    "id": "12345"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60130000",
+      "description": "Special-purpose road passenger-transport services"
+     },
+     "deliveryAddress": {
+      "locality": "Dietfurt a. d. Altmühl",
+      "region": "DE236",
+      "postalCode": "92345",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60130000",
+      "description": "Special-purpose road passenger-transport services"
+     },
+     "deliveryAddress": {
+      "locality": "Dietfurt a. d. Altmühl",
+      "region": "DE236",
+      "postalCode": "92345",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60130000",
+      "description": "Special-purpose road passenger-transport services"
+     },
+     "deliveryAddress": {
+      "locality": "Dietfurt a. d. Altmühl",
+      "region": "DE236",
+      "postalCode": "92345",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a162f40808-15d11a3173c617c8&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a162f40808-15d11a3173c617c8&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a162f40808-15d11a3173c617c8&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Leitenhof und Ottmaring",
+     "description": "1. Fahrt: (36 Schüler und 25 Kindergartenkinder): \nVon Leitenhof über Zell, Mühltal, Blauhof, Arnsdorf, Vogelthal, Hallenhausen über Griesstetten zur Grund- und Mittelschule Dietfurt und den Kindergarten. 2. Fahrt: (54 Schüler): \nVon Ottmaring über Töging (Siedlung), Töging (FFW) zur Grund- und Mittelschule Dietfurt.",
+     "contractPeriod": {
+      "startDate": "2027-10-07T00:00:00+02:00",
+      "endDate": "2030-07-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Stetterhof und Ottmaring",
+     "description": "1. Fahrt (17 Schüler und 3 Kindergartenkinder): \nVon Stetterhof, Oberbürg, Hebersdorf, Unterbürg, Staadorf, Wimpasing, Muttenhofen, Premerzhofen, Haas, Haahof, Parleithen, St. Bartlmä zur Grund- und Mittelschule Dietfurt und dem Kindergarten.\n2. Fahrt: (19 Schüler): \nOttmaring, Töging, Grund- und Mittelschule Dietfurt",
+     "contractPeriod": {
+      "startDate": "2027-10-07T00:00:00+02:00",
+      "endDate": "2030-07-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Wildenstein und Haimsberg",
+     "description": "1. Fahrt: (24 Schüler und 20 Kindergartenkinder): \nVon Wildenstein, Pestenrain, Predlfing, Eutenhofen, Gundelshofen, Schweinkofen und Mühlbach zur Grund- und Mittelschule Dietfurt und den Kindergarten.\n2. Fahrt: (18 Schüler und 12 Kindergartenkinder): \nVon Hainsberg, Mitteldorf, und Mallerstetten zur Grund- und Mittelschule Dietfurt und den Kindergarten.",
+     "contractPeriod": {
+      "startDate": "2027-10-07T00:00:00+02:00",
+      "endDate": "2030-07-31T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "9b8f9d43-58a4-4c74-b6f6-9aee61d6fff3",
+  "version": "01",
+  "title": "Stadt Dietfurt a.d.Altmühl: Beschaffung von Schülerbeförderungsleistungen",
+  "description": "Die Stadt Dietfurt a. d. Altmühl beschafft die Beförderungsleistungen für Schüler und Schülerinnen im freigestellten Schulverkehr mit Bussen zur Grund- und Mittelschule in Dietfurt ab dem 07.01.2027 bis zum 31.07.2027 und für die drei folgenden Schuljahre 2027/28, 2028/29 und 2029/2030 in drei Losen.\nDetaillierte Informationen zum Standort der Schule und den Haltestellen ergeben sich aus der Leistungsbeschreibung und den Anlagen hierzu.",
+  "procedureType": "open",
+  "nuts": [
+   "DE236"
+  ],
+  "cpv": [
+   "60130000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Leitenhof und Ottmaring",
+    "description": "1. Fahrt: (36 Schüler und 25 Kindergartenkinder): \nVon Leitenhof über Zell, Mühltal, Blauhof, Arnsdorf, Vogelthal, Hallenhausen über Griesstetten zur Grund- und Mittelschule Dietfurt und den Kindergarten. 2. Fahrt: (54 Schüler): \nVon Ottmaring über Töging (Siedlung), Töging (FFW) zur Grund- und Mittelschule Dietfurt.",
+    "cpv": [
+     "60130000"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-10-07+02:00",
+    "plannedEnd": "2030-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "drei Referenzen, die möglichst vergleichbar mit den geforderten Leistungen sind"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Auftragsbezogener Umsatz in den Jahren 2023, 2024 und 2025"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Stetterhof und Ottmaring",
+    "description": "1. Fahrt (17 Schüler und 3 Kindergartenkinder): \nVon Stetterhof, Oberbürg, Hebersdorf, Unterbürg, Staadorf, Wimpasing, Muttenhofen, Premerzhofen, Haas, Haahof, Parleithen, St. Bartlmä zur Grund- und Mittelschule Dietfurt und dem Kindergarten.\n2. Fahrt: (19 Schüler): \nOttmaring, Töging, Grund- und Mittelschule Dietfurt",
+    "cpv": [
+     "60130000"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-10-07+02:00",
+    "plannedEnd": "2030-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "drei Referenzen, die möglichst vergleichbar mit den geforderten Leistungen sind"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Auftragsbezogener Umsatz in den Jahren 2023, 2024 und 2025"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Wildenstein und Haimsberg",
+    "description": "1. Fahrt: (24 Schüler und 20 Kindergartenkinder): \nVon Wildenstein, Pestenrain, Predlfing, Eutenhofen, Gundelshofen, Schweinkofen und Mühlbach zur Grund- und Mittelschule Dietfurt und den Kindergarten.\n2. Fahrt: (18 Schüler und 12 Kindergartenkinder): \nVon Hainsberg, Mitteldorf, und Mallerstetten zur Grund- und Mittelschule Dietfurt und den Kindergarten.",
+    "cpv": [
+     "60130000"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-10-07+02:00",
+    "plannedEnd": "2030-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "drei Referenzen, die möglichst vergleichbar mit den geforderten Leistungen sind"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Auftragsbezogener Umsatz in den Jahren 2023, 2024 und 2025"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

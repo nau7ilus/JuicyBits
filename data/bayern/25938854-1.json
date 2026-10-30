@@ -1,0 +1,135 @@
+{
+ "id": "25938854-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25938854",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25938854",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25938854-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25938854-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25938854?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Oberbau Weicheneuerung  Regengsburg HBF Strecke; 5860",
+  "buyer": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45234100"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-12T09:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25938854",
+  "id": "25938854",
+  "date": "2026-10-16T07:01:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+   }
+  },
+  "tender": {
+   "title": "Oberbau Weicheneuerung  Regengsburg HBF Strecke; 5860",
+   "description": "Oberbau Weicheneuerung Regengsburg HBF W144_726 Strecke; 5860 km 0,4 - 0,6\n\nOberbau Weicheneuerung  Regengsburg HBF Strecke; 5860",
+   "procuringEntity": {
+    "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "93047 Regensburg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/1eaa3aa7-5df6-4af6-9327-0c5f384710be",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Oberbau Weicheneuerung  Regengsburg HBF Strecke; 5860",
+     "description": "Oberbau Weicheneuerung Regengsburg HBF W144_726 Strecke; 5860 km 0,4 - 0,6\n\nOberbau Weicheneuerung  Regengsburg HBF Strecke; 5860"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25938854",
+  "version": "1",
+  "title": "Oberbau Weicheneuerung  Regengsburg HBF Strecke; 5860",
+  "description": "Oberbau Weicheneuerung Regengsburg HBF W144_726 Strecke; 5860 km 0,4 - 0,6\n\nOberbau Weicheneuerung  Regengsburg HBF Strecke; 5860",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45234100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Oberbau Weicheneuerung  Regengsburg HBF Strecke; 5860",
+    "description": "Oberbau Weicheneuerung Regengsburg HBF W144_726 Strecke; 5860 km 0,4 - 0,6\n\nOberbau Weicheneuerung  Regengsburg HBF Strecke; 5860",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-12T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

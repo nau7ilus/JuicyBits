@@ -1,0 +1,257 @@
+{
+ "id": "0489b7f0-5a83-4152-890a-f1d243a45a67-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "0489b7f0-5a83-4152-890a-f1d243a45a67",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0489b7f0-5a83-4152-890a-f1d243a45a67",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:0489b7f0-5a83-4152-890a-f1d243a45a67-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:0489b7f0-5a83-4152-890a-f1d243a45a67-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0489b7f0-5a83-4152-890a-f1d243a45a67?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rohbauarbeiten",
+  "buyer": "Staatliches Bauamt Augsburg",
+  "cpv": [
+   "45223220",
+   "45262522"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-11-04T09:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-72a37847-5851-4abb-831b-aa4ee8ba14a8",
+  "id": "0489b7f0-5a83-4152-890a-f1d243a45a67",
+  "date": "2026-10-22T02:08:08Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Augsburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0997106-51",
+     "legalName": "Staatliches Bauamt Augsburg"
+    },
+    "address": {
+     "streetAddress": "Holbeinstraße 10",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86150",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern - Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern - Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Vergabestelle - Staatliches Bauamt Augsburg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabestelle - Staatliches Bauamt Augsburg"
+    },
+    "address": {
+     "streetAddress": "Holbeinstraße 10",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86150",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Augsburg",
+   "id": "09-0997106-51",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Augsburg"
+   },
+   "address": {
+    "streetAddress": "Holbeinstraße 10",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86150",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "72a37847-5851-4abb-831b-aa4ee8ba14a8",
+   "title": "Rohbauarbeiten",
+   "description": "Erdarbeiten Aushub und teilweise Wiederverfüllen: 750 m³\nStahlbeton Ortbeton und Sandwich-Fertigteile, Wände und Decken d=20-30cm,: ca.1.500m²\nMauerwerksarbeiten inkl. Maueranker, KS, d=11-24cm: 780 m²",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Augsburg",
+    "id": "09-0997106-51"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45223220",
+      "description": "Structural shell work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262522",
+       "description": "Masonry work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86156",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303304",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-22T02:08:08.833Z",
+     "rationale": "Termine geändert",
+     "description": "Fristen für die Einreichung wurden geändert.",
+     "amendsReleaseID": "fc8802d9-261e-444e-b30e-e0bde466a83a-01",
+     "releaseID": "0489b7f0-5a83-4152-890a-f1d243a45a67-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rohbauarbeiten",
+     "description": "Erdarbeiten Aushub und teilweise Wiederverfüllen: 750 m³\nStahlbeton Ortbeton und Sandwich-Fertigteile, Wände und Decken d=20-30cm,: ca.1.500m²\nMauerwerksarbeiten inkl. Maueranker, KS, d=11-24cm: 780 m²",
+     "contractPeriod": {
+      "startDate": "2027-01-11T00:00:00+01:00",
+      "endDate": "2030-02-15T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "337920-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "337920-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "0489b7f0-5a83-4152-890a-f1d243a45a67",
+  "version": "01",
+  "title": "Rohbauarbeiten",
+  "description": "Erdarbeiten Aushub und teilweise Wiederverfüllen: 750 m³\nStahlbeton Ortbeton und Sandwich-Fertigteile, Wände und Decken d=20-30cm,: ca.1.500m²\nMauerwerksarbeiten inkl. Maueranker, KS, d=11-24cm: 780 m²",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "45223220",
+   "45262522"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rohbauarbeiten",
+    "description": "Erdarbeiten Aushub und teilweise Wiederverfüllen: 750 m³\nStahlbeton Ortbeton und Sandwich-Fertigteile, Wände und Decken d=20-30cm,: ca.1.500m²\nMauerwerksarbeiten inkl. Maueranker, KS, d=11-24cm: 780 m²",
+    "cpv": [
+     "45223220",
+     "45262522"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-04T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-11+01:00",
+    "plannedEnd": "2030-02-15+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nAlle zur Erfüllung des Vertrags eingesetzten Personen müssen vor Beginn ihrer Tätigkeit die Anforderungen gemäß § 20 Abs. 9 IfSG erfüllen. Sämtliche für die Nachweisführung gem. § 20 Abs. 9 IfSG notwendigen Unterlagen müssen beim Bewerber/Bieter vorliegen. \nSiehe: FB 2493 „Erklärung Masernschutzgesetz“ in den Vergabeunterlagen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von ... Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt .... [2% Land / 3% Bund] Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

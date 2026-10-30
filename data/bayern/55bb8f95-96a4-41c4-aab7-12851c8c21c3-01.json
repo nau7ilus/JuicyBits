@@ -1,0 +1,308 @@
+{
+ "id": "55bb8f95-96a4-41c4-aab7-12851c8c21c3-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "55bb8f95-96a4-41c4-aab7-12851c8c21c3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=55bb8f95-96a4-41c4-aab7-12851c8c21c3",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:55bb8f95-96a4-41c4-aab7-12851c8c21c3-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:55bb8f95-96a4-41c4-aab7-12851c8c21c3-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/55bb8f95-96a4-41c4-aab7-12851c8c21c3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Personenbeförderung nach dem PBefG; FLEX 3000",
+  "buyer": "Landkreis Bad Tölz-Wolfratshausen, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
+  "cpv": [
+   "60112000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE216"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1f9cf2c3-c31d-4f38-9282-3ed4ccf71bdc",
+  "id": "55bb8f95-96a4-41c4-aab7-12851c8c21c3",
+  "date": "2026-10-27T03:12:11Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Bad Tölz-Wolfratshausen, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 00007468",
+     "legalName": "Landkreis Bad Tölz-Wolfratshausen, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH"
+    },
+    "address": {
+     "streetAddress": "Thierschstr. 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 09031800660",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Geldhauser Kleinbusservice GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRA 93401",
+     "legalName": "Geldhauser Kleinbusservice GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Fichtenstr. 29",
+     "locality": "Hofolding",
+     "region": "DE21H",
+     "postalCode": "85649",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Bad Tölz-Wolfratshausen, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
+   "id": "Berichtseinheit-ID 00007468",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Bad Tölz-Wolfratshausen, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH"
+   },
+   "address": {
+    "streetAddress": "Thierschstr. 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80538",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1f9cf2c3-c31d-4f38-9282-3ed4ccf71bdc",
+   "title": "Personenbeförderung nach dem PBefG; FLEX 3000",
+   "description": "FLEX 3000: Bediengebiet - Gemeinden Dietramszell, Egling und Bahnhöfe Holzkirchen und Wolfratshausen sowie Haltestelle Geretsried, Am Stern;",
+   "procuringEntity": {
+    "name": "Landkreis Bad Tölz-Wolfratshausen, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
+    "id": "Berichtseinheit-ID 00007468"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60112000",
+      "description": "Public road transport services"
+     },
+     "deliveryAddress": {
+      "region": "DE216",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Geldhauser Kleinbusservice GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Geldhauser Kleinbusservice GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Fichtenstr. 29",
+      "locality": "Hofolding",
+      "region": "DE21H",
+      "postalCode": "85649",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Personenbeförderung nach dem PBefG; FLEX 3000",
+     "description": "FLEX 3000: Bediengebiet - Gemeinden Dietramszell, Egling und Bahnhöfe Holzkirchen und Wolfratshausen sowie Haltestelle Geretsried, Am Stern; — ca. 435.000 Nwkm/a - Circa 121 Haltestellen — 5 x Neufahrzeug Van/(Großraum-)PKW davon 3 Fahrzeuge mit mind. 8 Fahrgastsitzplätzen und 2 behindertengerechte Fahrzeuge mit mind. 5 Fahrgastsitzplätzen Geschätzter Wert ohne MwSt: Spanne von 4.280.000 bis 4.760.000 EUR",
+     "contractPeriod": {
+      "startDate": "2027-12-12T00:00:00+01:00",
+      "endDate": "2031-12-13T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "pass-tran-serv",
+       "description": "Passenger road transport services"
+      }
+     ]
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "suppliers": [
+     {
+      "name": "Geldhauser Kleinbusservice GmbH & Co. KG",
+      "id": "HRA 93401",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Geldhauser Kleinbusservice GmbH & Co. KG"
+      },
+      "address": {
+       "streetAddress": "Fichtenstr. 29",
+       "locality": "Hofolding",
+       "region": "DE21H",
+       "postalCode": "85649",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "items": [
+     {
+      "id": 1,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "pass-tran-serv",
+        "description": "Passenger road transport services"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "m1",
+        "description": "M1"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles",
+        "description": "Vehicles"
+       }
+      ],
+      "quantity": 5
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "55bb8f95-96a4-41c4-aab7-12851c8c21c3",
+  "version": "01",
+  "title": "Personenbeförderung nach dem PBefG; FLEX 3000",
+  "description": "FLEX 3000: Bediengebiet - Gemeinden Dietramszell, Egling und Bahnhöfe Holzkirchen und Wolfratshausen sowie Haltestelle Geretsried, Am Stern;",
+  "procedureType": "open",
+  "nuts": [
+   "DE216"
+  ],
+  "cpv": [
+   "60112000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Personenbeförderung nach dem PBefG; FLEX 3000",
+    "description": "FLEX 3000: Bediengebiet - Gemeinden Dietramszell, Egling und Bahnhöfe Holzkirchen und Wolfratshausen sowie Haltestelle Geretsried, Am Stern; — ca. 435.000 Nwkm/a - Circa 121 Haltestellen — 5 x Neufahrzeug Van/(Großraum-)PKW davon 3 Fahrzeuge mit mind. 8 Fahrgastsitzplätzen und 2 behindertengerechte Fahrzeuge mit mind. 5 Fahrgastsitzplätzen Geschätzter Wert ohne MwSt: Spanne von 4.280.000 bis 4.760.000 EUR",
+    "cpv": [
+     "60112000"
+    ],
+    "nuts": [
+     "DE216"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-12-12+01:00",
+    "plannedEnd": "2031-12-13+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Betriebskosten",
+      "description": "Betriebskosten",
+      "weight": 75
+     },
+     {
+      "type": "quality",
+      "name": "Garantierte Zeit für die Bereitstellung von Ersatzfahrzeugen",
+      "description": "Garantierte Zeit für die Bereitstellung von Ersatzfahrzeugen",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Zusätzlich angebotene Fahrzeugqualität",
+      "description": "Zusätzlich angebotene Fahrzeugqualität",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "zugesagte Zeitpunkt für die Lieferung der Neufahrzeuge",
+      "description": "zugesagte Zeitpunkt für die Lieferung der Neufahrzeuge",
+      "weight": 10
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

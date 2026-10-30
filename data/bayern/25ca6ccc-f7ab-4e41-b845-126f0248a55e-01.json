@@ -1,0 +1,227 @@
+{
+ "id": "25ca6ccc-f7ab-4e41-b845-126f0248a55e-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25ca6ccc-f7ab-4e41-b845-126f0248a55e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25ca6ccc-f7ab-4e41-b845-126f0248a55e",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25ca6ccc-f7ab-4e41-b845-126f0248a55e-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25ca6ccc-f7ab-4e41-b845-126f0248a55e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25ca6ccc-f7ab-4e41-b845-126f0248a55e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 403 Sanitär",
+  "buyer": "Gemeinde Eching",
+  "cpv": [
+   "45332000",
+   "45332200",
+   "45332300",
+   "45332400"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": "2026-11-26T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25ca6ccc-f7ab-4e41-b845-126f0248a55e",
+  "id": "25ca6ccc-f7ab-4e41-b845-126f0248a55e",
+  "date": "2026-10-16T02:11:20Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Eching",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "14372",
+     "legalName": "Gemeinde Eching"
+    },
+    "address": {
+     "streetAddress": "Bürgerplatz 1",
+     "locality": "Eching",
+     "region": "DE21B",
+     "postalCode": "85386",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "8897be3b-aa2a-4335-a5df-2c650d9bb017",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Eching",
+   "id": "14372",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Eching"
+   },
+   "address": {
+    "streetAddress": "Bürgerplatz 1",
+    "locality": "Eching",
+    "region": "DE21B",
+    "postalCode": "85386",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "25ca6ccc-f7ab-4e41-b845-126f0248a55e",
+   "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 403 Sanitär",
+   "description": "Neubau einer Kindertagesstätte mit Wohnungen und Tiefgarage in Eching-West",
+   "procuringEntity": {
+    "name": "Gemeinde Eching",
+    "id": "14372"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45332000",
+      "description": "Plumbing and drain-laying work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45332200",
+       "description": "Water plumbing work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45332300",
+       "description": "Drain-laying work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45332400",
+       "description": "Sanitary fixture installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE21B",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/25ca6ccc-f7ab-4e41-b845-126f0248a55e",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 403 Sanitär",
+     "description": "ca. 400 m Abwasserrohr DN 50-DN150 als Schallschutzrohr \nca. 1500 m Trinkwasserrohr aus nichtrostendem Cr-Ni-TI Stahl bis DN 50                     \n1 Stk.    Trinkwasserhausanschluss                                         \n1 Stk.    Enthärtungsanlage                                         \nca. 20 Stk.           Absperr- und Regulierventile                                     \n3 Stk.    Stufenwaschrinne für 4 Waschplätze inkl. Einhebelmischer\n28 Stk.  WC´s & Kinder WC´s                       \n28 Stk.  Waschbecken mit Einhebelmischer                                        \n11 Stk.  Dusche inkl. Wandarmatur                                         \n4 Stk.     Badewanne inkl. Armatur                                                                           \n3 Stk.    Ausgussbecken                                                               \n1 Stk.    behindertengerechtes WC                                         \n1 Stk.    behindertengerechter Waschtisch inkl. Armatur                                              \n20 Stk.  Durchlauferhitzer mit bis 27 kW \n\n\nWartungslaufzeit: 4 Jahre",
+     "contractPeriod": {
+      "durationInDays": 630
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "25ca6ccc-f7ab-4e41-b845-126f0248a55e",
+  "version": "01",
+  "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 403 Sanitär",
+  "description": "Neubau einer Kindertagesstätte mit Wohnungen und Tiefgarage in Eching-West",
+  "procedureType": "open",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "45332400",
+   "45332000",
+   "45332200",
+   "45332300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "KEW / Neubau einer Kindertagesstätte mit Wohnungen u. TG in Eching-West - VE 403 Sanitär",
+    "description": "ca. 400 m Abwasserrohr DN 50-DN150 als Schallschutzrohr \nca. 1500 m Trinkwasserrohr aus nichtrostendem Cr-Ni-TI Stahl bis DN 50                     \n1 Stk.    Trinkwasserhausanschluss                                         \n1 Stk.    Enthärtungsanlage                                         \nca. 20 Stk.           Absperr- und Regulierventile                                     \n3 Stk.    Stufenwaschrinne für 4 Waschplätze inkl. Einhebelmischer\n28 Stk.  WC´s & Kinder WC´s                       \n28 Stk.  Waschbecken mit Einhebelmischer                                        \n11 Stk.  Dusche inkl. Wandarmatur                                         \n4 Stk.     Badewanne inkl. Armatur                                                                           \n3 Stk.    Ausgussbecken                                                               \n1 Stk.    behindertengerechtes WC                                         \n1 Stk.    behindertengerechter Waschtisch inkl. Armatur                                              \n20 Stk.  Durchlauferhitzer mit bis 27 kW \n\n\nWartungslaufzeit: 4 Jahre",
+    "cpv": [
+     "45332000",
+     "45332200",
+     "45332300",
+     "45332400"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": "2026-11-26T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 21,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Präqualifizierte Unternehmen müssen ihre Eignung mit Angabe der Präqualifikationsnummer (PQ-Nummer) mit Angebotsabgabe nachweisen. Nicht präqualifizierte Unternehmen müssen Ihre Eignung durch Abgabe einer ausgefüllten & unterzeichneten \"Eigenerklärung zur Eignung\" (Formblatt 124) oder einer \"Einheitlichen Europäischen Eigenerklärung\" (EEE) schriftlich bestätigen. Formblatt 127 Erfordernis mit Erklärung zu Russlandbezug ist mit dem Angebot einzureichen. Auf Verlangen der Vergabestelle sind ergänzende Nachweise und Erklärungen zur Eignung bzw. zum Formblatt 124 entsprechend der aktuell gültigen Fassung der VOB /A vorzulegen: Referenzliste, Zahl der letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer oder sonstige Berufsnachweise, Unbedenklichkeitsbescheinigung der Berufsgenossenschaft.\n(Z.B. Formblatt 124 Eigenerklärung oder EEE Einheitliche Europäische Eignungserklärung oder PQNummer,\nErfordernis der Erklärung zu Russlandbezug, ggf. Referenznachweise sofort oder auf\nVerlangen der Vergabestelle etc.)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Dieser Nachweis ist auf Verlangen der Vergabestelle vorzulegen: Der Auftragnehmer hat für die Dauer des Bauvorhabens eine Haftpflichtversicherung bei einem in der EU zugelassenen Versicherer zu unterhalten mit folgenden Mindestversicherungssummen (Mindestdeckungshöhen): 3.000.000 Euro für Personenschäden je Versicherungsfall, jährlich 2-fach maximiert. 1.500.000 Euro Mio. Euro für sonstige Schäden, je Versicherungsfall jährlich 2-fach maximiert.\n(Z.B. Nachweise und Anforderungen zu Versicherung und geforderte Deckungssummen,\nUmsatznachweise, Firmengröße und Mitarbeiteranzahl, Bonitätsnachweise etc.)"
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Beabsichtigt der Auftragnehmer die Unterauftragsvergabe muss er diese Teile seines Auftrages mit Angebotsabgabe benennen. Die Vergabestelle kann im weiteren Verfahren ergänzende Nachweise gem. §47 VgV zur Eignung des Nachunternehmers fordern.\n(Z.B. Nachweise Berufsbezeichnung, Technische Ausstattung, Angaben zur Auslastung etc.)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

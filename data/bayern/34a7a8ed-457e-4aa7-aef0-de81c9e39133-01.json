@@ -1,0 +1,266 @@
+{
+ "id": "34a7a8ed-457e-4aa7-aef0-de81c9e39133-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "34a7a8ed-457e-4aa7-aef0-de81c9e39133",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=34a7a8ed-457e-4aa7-aef0-de81c9e39133",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:34a7a8ed-457e-4aa7-aef0-de81c9e39133-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:34a7a8ed-457e-4aa7-aef0-de81c9e39133-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/34a7a8ed-457e-4aa7-aef0-de81c9e39133?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Trockenbauarbeiten 70-00482-2180-310 - PR1292746-2180-B",
+  "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+  "cpv": [
+   "45324000",
+   "45421146",
+   "45432210"
+  ],
+  "nuts": [
+   "DE212",
+   "DE131"
+  ],
+  "deadline": "2026-11-25T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4e8fb1ce-f8b8-4a53-b39c-040fc1523c8b",
+  "id": "34a7a8ed-457e-4aa7-aef0-de81c9e39133",
+  "date": "2026-10-22T02:10:15Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+   "id": "DE129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4e8fb1ce-f8b8-4a53-b39c-040fc1523c8b",
+   "title": "Trockenbauarbeiten 70-00482-2180-310 - PR1292746-2180-B",
+   "description": "Trockenbauarbeiten 70-00482-2180-310",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+    "id": "DE129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45324000",
+      "description": "Plasterboard works"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421146",
+       "description": "Installation of suspended ceilings"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432210",
+       "description": "Wall-covering work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Freiburg",
+      "region": "DE131",
+      "postalCode": "79110",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a15e1b2d60-7d34f08c68b671db",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Trockenbauarbeiten 70-00482-2180-310",
+     "description": "* Termine zur Durchführung der Hauptleistung auf der Baustelle:\nLeistungsbeginn 29.03.2027; Leistungsende 21.04.2028\n\n* Beschreibung der Beschaffung:\nTrockenbauwände inkl. Vorsatzschalen, Schachtwänden, Doppelständerwänden: ca. 1.300m²\nTrockenbauunterdecken im Außen- und Innenraum: ca. 100m²\nAkustikdeckensegel: 300 Stk\nAkustikbaffel: ca. 1.500 m\nTieftonabsorber: ca. 200 Stk\nBreitbandkompaktabsorber: ca. 100 Stk\nBlendschutz und Verdunkelungsanlagen für Fenster: ca. 220 Stk",
+     "contractPeriod": {
+      "startDate": "2027-03-15T00:00:00+01:00",
+      "endDate": "2028-04-21T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "34a7a8ed-457e-4aa7-aef0-de81c9e39133",
+  "version": "01",
+  "title": "Trockenbauarbeiten 70-00482-2180-310 - PR1292746-2180-B",
+  "description": "Trockenbauarbeiten 70-00482-2180-310",
+  "procedureType": "open",
+  "nuts": [
+   "DE131"
+  ],
+  "cpv": [
+   "45324000",
+   "45421146",
+   "45432210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Trockenbauarbeiten 70-00482-2180-310",
+    "description": "* Termine zur Durchführung der Hauptleistung auf der Baustelle:\nLeistungsbeginn 29.03.2027; Leistungsende 21.04.2028\n\n* Beschreibung der Beschaffung:\nTrockenbauwände inkl. Vorsatzschalen, Schachtwänden, Doppelständerwänden: ca. 1.300m²\nTrockenbauunterdecken im Außen- und Innenraum: ca. 100m²\nAkustikdeckensegel: 300 Stk\nAkustikbaffel: ca. 1.500 m\nTieftonabsorber: ca. 200 Stk\nBreitbandkompaktabsorber: ca. 100 Stk\nBlendschutz und Verdunkelungsanlagen für Fenster: ca. 220 Stk",
+    "cpv": [
+     "45324000",
+     "45421146",
+     "45432210"
+    ],
+    "nuts": [
+     "DE131"
+    ],
+    "deadline": "2026-11-25T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-15+01:00",
+    "plannedEnd": "2028-04-21+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an und geben zusätzlich mit dem Angebot eine Eigenerklärung zu 3 Referenzen über vergleichbare Leistungen aus den letzten 5 Jahren unter Verwendung des Formblatts 444 (nur die Seiten 1 und 2) jeweils mit Angaben zum Leistungsgegenstand, Leistungsanteil, zur Zahl der eigenen eingesetzten Arbeitnehmer, zu etwaigen besonderen technischen oder gerätespezifischen Anforderungen/Besonderheiten der Ausführung, zum Auftragswert ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft).\nNicht präqualifizierte Unternehmen geben mit dem Angebot folgende Eigenerklärung ab:\n- Eigenerklärung zu 3 Referenzen über vergleichbare Leistungen aus den letzten 5 Jahren unter Verwendung des Formblatts 444 (nur die Seiten 1 und 2) jeweils mit Angaben zum Leistungsgegenstand, Leistungsanteil, zur Zahl der eigenen eingesetzten Arbeitnehmer, zu etwaigen besonderen technischen oder gerätespezifischen Anforderungen/Besonderheiten der Ausführung, zum Auftragswert (für Bieter, Mitglieder einer Bietergemeinschaft). \n- Eigenerklärung im Formblatt 124, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen (für Bieter, Mitglieder einer Bietergemeinschaft). Auftragsspezifische Einzelnachweise (von präqualifizierten und nicht präqualifizierten Unternehmen vorzulegen): Mit dem Angebot sind die Teile des Auftrags, die als Unteraufträge an andere Unternehmen vergeben werden sollen, zu benennen (Formblatt 233). Möglicherweise geforderte Mindeststandards: Es müssen drei Referenzprojekte über vergleichbare Leistungen in den letzten 5 Jahren ausgeführt worden sein."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Siehe Referenzen zu bestimmten Arbeiten sowie Eintragung in ein relevantes Berufsregister"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Zahl der in den letzten drei abgeschlossenen Kalenderjahren durchschnittlich beschäftigten Arbeitskräfte geglieder nach Lohngruppen mit extra ausgewiesenem Leitungspersonal ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-no-mgmt",
+      "description": "Siehe Durchschnittliche jährliche Belegschaft"
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Nimmt der Bieter/Bewerber in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der 'Verpflichtungserklärung' (Formblatt 236) abzugeben."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer entsprechenden Berufshaftpflichtversicherung gem. § 6a VOB/A (für EU-Verfahren)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das mit dem Angebot aubzugebende Formblatt 124 eine Eigenerklärung zum Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren, so weit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab (für Bieter, Mitglieder einer Bietergemeinschaft). Nimmt der Bieter/Bewerber in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der 'Verpflichtungserklärung' (Formblatt 236) abzugeben."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das mit dem Angebot abzugebende Formblatt 124 eine Eigenerklärung zum Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren, so weit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab (für Bieter, Mitglieder einer Bietergemeinschaft)."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Eintragung in das Berufsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen).\nNicht präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Eintragung in das Handelsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

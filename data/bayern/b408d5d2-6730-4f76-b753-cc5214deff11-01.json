@@ -1,0 +1,295 @@
+{
+ "id": "b408d5d2-6730-4f76-b753-cc5214deff11-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "b408d5d2-6730-4f76-b753-cc5214deff11",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b408d5d2-6730-4f76-b753-cc5214deff11",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:b408d5d2-6730-4f76-b753-cc5214deff11-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:b408d5d2-6730-4f76-b753-cc5214deff11-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b408d5d2-6730-4f76-b753-cc5214deff11?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Z.MART.A.000002.PJS.VgV.2920",
+  "buyer": "Max-Planck-Gesellschaft, GV, Stabsreferat EK",
+  "cpv": [
+   "71541000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0efd585d-e398-4df4-92cc-8495127b52c1",
+  "id": "b408d5d2-6730-4f76-b753-cc5214deff11",
+  "date": "2026-10-23T02:08:11Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Max-Planck-Gesellschaft, GV, Stabsreferat EK",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "08c115d8-173e-40e7-8ebe-98d2aa705992",
+     "legalName": "Max-Planck-Gesellschaft, GV, Stabsreferat EK"
+    },
+    "address": {
+     "streetAddress": "Hofgartenstraße 8",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "aa8b0828-c81b-4559-8d50-a3c97e41455c",
+     "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bieterkommunikation",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "ba0ded00-7326-407f-98a6-60d454c8f580",
+     "legalName": "Bieterkommunikation"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Hitzler Ingenieure GmbH & Co. KG",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "9c6849b2-56f5-4ac2-acfc-a4e3e90e3756",
+     "legalName": "Hitzler Ingenieure GmbH & Co. KG"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80807",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Max-Planck-Gesellschaft, GV, Stabsreferat EK",
+   "id": "08c115d8-173e-40e7-8ebe-98d2aa705992",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Max-Planck-Gesellschaft, GV, Stabsreferat EK"
+   },
+   "address": {
+    "streetAddress": "Hofgartenstraße 8",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80539",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0efd585d-e398-4df4-92cc-8495127b52c1",
+   "title": "Z.MART.A.000002.PJS.VgV.2920",
+   "description": "Projektsteuerungsleistungen ",
+   "procuringEntity": {
+    "name": "Max-Planck-Gesellschaft, GV, Stabsreferat EK",
+    "id": "08c115d8-173e-40e7-8ebe-98d2aa705992"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71541000",
+      "description": "Construction project management services"
+     },
+     "deliveryAddress": {
+      "locality": "Martinsried/ Planegg ",
+      "region": "DE21H",
+      "postalCode": "82152",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 0,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-08-21T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Hitzler Ingenieure GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Hitzler Ingenieure GmbH & Co. KG"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80807",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Z.MART.A.000002.PJS.VgV.2920",
+     "description": "Projektsteuerungsleistungen ",
+     "contractPeriod": {
+      "durationInDays": 2190
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-02T00:00:00+02:00",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "suppliers": [
+     {
+      "name": "Hitzler Ingenieure GmbH & Co. KG",
+      "id": "9c6849b2-56f5-4ac2-acfc-a4e3e90e3756",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "Hitzler Ingenieure GmbH & Co. KG"
+      },
+      "address": {
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "80807",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-01T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "b408d5d2-6730-4f76-b753-cc5214deff11",
+  "version": "01",
+  "title": "Z.MART.A.000002.PJS.VgV.2920",
+  "description": "Projektsteuerungsleistungen",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "71541000"
+  ],
+  "estimatedValue": {
+   "amount": 0,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Z.MART.A.000002.PJS.VgV.2920",
+    "description": "Projektsteuerungsleistungen",
+    "cpv": [
+     "71541000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 6,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "Die Leistungskriterien werden in der Ausschreibungsphase definiert.",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "id": "98d06e9b-485c-4c38-aa85-f592d816d258-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "98d06e9b-485c-4c38-aa85-f592d816d258",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=98d06e9b-485c-4c38-aa85-f592d816d258",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:98d06e9b-485c-4c38-aa85-f592d816d258-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:98d06e9b-485c-4c38-aa85-f592d816d258-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/98d06e9b-485c-4c38-aa85-f592d816d258?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Ausschreibung Kommunal-LKW mit DSK 14t und Streuautomat",
+  "buyer": "Markt Eichendorf",
+  "cpv": [
+   "34134200",
+   "44113910"
+  ],
+  "nuts": [
+   "DE22C"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d6cca1d0-acb1-467b-807e-f57cbe97dfd6",
+  "id": "98d06e9b-485c-4c38-aa85-f592d816d258",
+  "date": "2026-10-18T09:32:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Eichendorf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE128969216",
+     "legalName": "Markt Eichendorf"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 5",
+     "locality": "Eichendorf",
+     "region": "DE22C",
+     "postalCode": "94428",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewBody",
+     "funder",
+     "payer"
+    ]
+   },
+   {
+    "name": "BayWa",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE129272852",
+     "legalName": "BayWa"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81918",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Beutelhauser",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE133695556",
+     "legalName": "Beutelhauser"
+    },
+    "address": {
+     "locality": "Hagelstadt",
+     "region": "DE238",
+     "postalCode": "93095",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Eichendorf",
+   "id": "DE128969216",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Eichendorf"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 5",
+    "locality": "Eichendorf",
+    "region": "DE22C",
+    "postalCode": "94428",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d6cca1d0-acb1-467b-807e-f57cbe97dfd6",
+   "title": "Ausschreibung Kommunal-LKW mit DSK 14t und Streuautomat",
+   "description": "Ausschreibung Kommunal-LKW mit DSK 14t und Streuautomat",
+   "procuringEntity": {
+    "name": "Markt Eichendorf",
+    "id": "DE128969216"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34134200",
+      "description": "Tipper trucks"
+     },
+     "deliveryAddress": {
+      "locality": "Eichendorf",
+      "region": "DE22C",
+      "postalCode": "94428",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "44113910",
+      "description": "Winter-maintenance materials"
+     },
+     "quantity": 1,
+     "unit": {
+      "scheme": "UNCEFACT",
+      "id": "H87"
+     },
+     "deliveryAddress": {
+      "locality": "Eichendorf",
+      "region": "DE22C",
+      "postalCode": "94428",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "BayWa",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "BayWa"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81918",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Beutelhauser",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Beutelhauser"
+     },
+     "address": {
+      "locality": "Hagelstadt",
+      "region": "DE238",
+      "postalCode": "93095",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1",
+     "description": "Kipplastwagen"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2",
+     "description": "Streuautomat"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-01T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "BayWa",
+      "id": "DE129272852",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "BayWa"
+      },
+      "address": {
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "81918",
+       "countryName": "DEU"
+      }
+     },
+     {
+      "name": "Beutelhauser",
+      "id": "DE133695556",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Beutelhauser"
+      },
+      "address": {
+       "locality": "Hagelstadt",
+       "region": "DE238",
+       "postalCode": "93095",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-01T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "BayWa",
+      "id": "DE129272852",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "BayWa"
+      },
+      "address": {
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "81918",
+       "countryName": "DEU"
+      }
+     },
+     {
+      "name": "Beutelhauser",
+      "id": "DE133695556",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Beutelhauser"
+      },
+      "address": {
+       "locality": "Hagelstadt",
+       "region": "DE238",
+       "postalCode": "93095",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-09-30T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-09-30T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "36",
+  "noticeId": "98d06e9b-485c-4c38-aa85-f592d816d258",
+  "version": "01",
+  "title": "Ausschreibung Kommunal-LKW mit DSK 14t und Streuautomat",
+  "description": "Ausschreibung Kommunal-LKW mit DSK 14t und Streuautomat",
+  "procedureType": "open",
+  "nuts": [
+   "DE22C"
+  ],
+  "cpv": [
+   "34134200",
+   "44113910"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1",
+    "description": "Kipplastwagen",
+    "cpv": [
+     "34134200"
+    ],
+    "nuts": [
+     "DE22C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2",
+    "description": "Streuautomat",
+    "cpv": [
+     "44113910"
+    ],
+    "nuts": [
+     "DE22C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

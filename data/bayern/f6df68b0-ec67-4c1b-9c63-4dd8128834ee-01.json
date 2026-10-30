@@ -1,0 +1,220 @@
+{
+ "id": "f6df68b0-ec67-4c1b-9c63-4dd8128834ee-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "f6df68b0-ec67-4c1b-9c63-4dd8128834ee",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f6df68b0-ec67-4c1b-9c63-4dd8128834ee",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:f6df68b0-ec67-4c1b-9c63-4dd8128834ee-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:f6df68b0-ec67-4c1b-9c63-4dd8128834ee-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f6df68b0-ec67-4c1b-9c63-4dd8128834ee?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Matrix-Schindel-Fertigungslinie für PV-Module - PR1278555-2350-W",
+  "buyer": "Fraunhofer-Gesellschaft, Einkauf B12",
+  "cpv": [
+   "42900000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE131"
+  ],
+  "deadline": "2026-11-18T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-22b0af32-c41d-42cf-b269-99d618c1fc45",
+  "id": "f6df68b0-ec67-4c1b-9c63-4dd8128834ee",
+  "date": "2026-10-18T12:00:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft, Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft, Einkauf B12"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE-129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft, Einkauf B12",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft, Einkauf B12"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "22b0af32-c41d-42cf-b269-99d618c1fc45",
+   "title": "Matrix-Schindel-Fertigungslinie für PV-Module - PR1278555-2350-W",
+   "description": "PR1278555-2350-W Matrix-Schindel-Fertigungslinie für PV-Module ",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft, Einkauf B12",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "42900000",
+      "description": "Miscellaneous general and special-purpose machinery"
+     },
+     "deliveryAddress": {
+      "locality": "Freiburg",
+      "region": "DE131",
+      "postalCode": "79111",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a1447bfb01-151c67f389bf4726",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Matrix-Schindel-Fertigungslinie für PV-Module - PR1278555-2350-W",
+     "description": "Modulare Fertigungslinie zur Schindelverschaltung, Matrixablage und Querverschaltung für Perowskit-Silizium-Tandem-Module\n(Baugruppen Schindelstrang, Matrixablage, Querverschaltung)",
+     "contractPeriod": {
+      "durationInDays": 330
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "f6df68b0-ec67-4c1b-9c63-4dd8128834ee",
+  "version": "01",
+  "title": "Matrix-Schindel-Fertigungslinie für PV-Module - PR1278555-2350-W",
+  "description": "PR1278555-2350-W Matrix-Schindel-Fertigungslinie für PV-Module",
+  "procedureType": "open",
+  "nuts": [
+   "DE131"
+  ],
+  "cpv": [
+   "42900000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Matrix-Schindel-Fertigungslinie für PV-Module - PR1278555-2350-W",
+    "description": "Modulare Fertigungslinie zur Schindelverschaltung, Matrixablage und Querverschaltung für Perowskit-Silizium-Tandem-Module\n(Baugruppen Schindelstrang, Matrixablage, Querverschaltung)",
+    "cpv": [
+     "42900000"
+    ],
+    "nuts": [
+     "DE131"
+    ],
+    "deadline": "2026-11-18T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 11,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz der letzten 3 Geschäftsjahre\n-\nDieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a1447bfb01-151c67f389bf4726"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Technische Detailbeschreibung",
+      "description": "Technische Detailbeschreibung",
+      "weight": 65
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

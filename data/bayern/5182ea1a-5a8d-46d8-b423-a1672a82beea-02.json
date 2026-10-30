@@ -1,0 +1,257 @@
+{
+ "id": "5182ea1a-5a8d-46d8-b423-a1672a82beea-02",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "5182ea1a-5a8d-46d8-b423-a1672a82beea",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5182ea1a-5a8d-46d8-b423-a1672a82beea",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:5182ea1a-5a8d-46d8-b423-a1672a82beea-02.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:5182ea1a-5a8d-46d8-b423-a1672a82beea-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5182ea1a-5a8d-46d8-b423-a1672a82beea?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung eines LKW mit Kipperpritsche und Ladekran",
+  "buyer": "Markt Regenstauf",
+  "cpv": [
+   "34139200"
+  ],
+  "nuts": [
+   "DE238"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-23d53b57-c16c-4c19-8fea-2d0e480d6911",
+  "id": "5182ea1a-5a8d-46d8-b423-a1672a82beea",
+  "date": "2026-10-22T02:09:03Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Regenstauf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "13754",
+     "legalName": "Markt Regenstauf"
+    },
+    "address": {
+     "streetAddress": "Bahnhofstraße 15",
+     "locality": "Regenstauf",
+     "region": "DE238",
+     "postalCode": "93128",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "5c03c3ee-cc53-41f3-ac3a-18cd0b7fbd06",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "MAN Truck and Bus Deutschland GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE811125407",
+     "legalName": "MAN Truck and Bus Deutschland GmbH"
+    },
+    "address": {
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93055",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Regenstauf",
+   "id": "13754",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Regenstauf"
+   },
+   "address": {
+    "streetAddress": "Bahnhofstraße 15",
+    "locality": "Regenstauf",
+    "region": "DE238",
+    "postalCode": "93128",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "23d53b57-c16c-4c19-8fea-2d0e480d6911",
+   "title": "Lieferung eines LKW mit Kipperpritsche und Ladekran",
+   "description": "Lieferung eines LKW mit Kipperpritsche und Ladekran",
+   "procuringEntity": {
+    "name": "Markt Regenstauf",
+    "id": "13754"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34139200",
+      "description": "Chassis bodies"
+     },
+     "deliveryAddress": {
+      "region": "DE238",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "MAN Truck and Bus Deutschland GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "MAN Truck and Bus Deutschland GmbH"
+     },
+     "address": {
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93055",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung eines LKW mit Kipperpritsche und Ladekran",
+     "description": "Lieferung eines LKW mit Kipperpritsche und Ladekran"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-14T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 282000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-13T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "5182ea1a-5a8d-46d8-b423-a1672a82beea",
+  "version": "02",
+  "title": "Lieferung eines LKW mit Kipperpritsche und Ladekran",
+  "description": "Lieferung eines LKW mit Kipperpritsche und Ladekran",
+  "procedureType": "open",
+  "nuts": [
+   "DE238"
+  ],
+  "cpv": [
+   "34139200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung eines LKW mit Kipperpritsche und Ladekran",
+    "description": "Lieferung eines LKW mit Kipperpritsche und Ladekran",
+    "cpv": [
+     "34139200"
+    ],
+    "nuts": [
+     "DE238"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Kundendienst",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Erfüllungsgrad der technischen Leistungsbeschreibung",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Lieferzeit",
+      "weight": 5
+     },
+     {
+      "type": "cost",
+      "name": "Kostenkriterium",
+      "description": "Preis",
+      "weight": 45
+     },
+     {
+      "type": "cost",
+      "name": "Kostenkriterium",
+      "description": "Folgekosten",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

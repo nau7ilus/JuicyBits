@@ -1,0 +1,200 @@
+{
+ "id": "30ed9b2b-bacf-4a43-9194-7967c929999b-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "30ed9b2b-bacf-4a43-9194-7967c929999b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=30ed9b2b-bacf-4a43-9194-7967c929999b",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:30ed9b2b-bacf-4a43-9194-7967c929999b-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:30ed9b2b-bacf-4a43-9194-7967c929999b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/30ed9b2b-bacf-4a43-9194-7967c929999b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Medienversorgung PCB",
+  "buyer": "Schulverband Thannhausen",
+  "cpv": [
+   "45421153",
+   "39180000",
+   "39160000"
+  ],
+  "nuts": [
+   "DE278"
+  ],
+  "deadline": "2026-11-24T09:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-9d4eeb65-07f6-45ea-9232-2296dfe0ea82",
+  "id": "30ed9b2b-bacf-4a43-9194-7967c929999b",
+  "date": "2026-10-22T02:08:45Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Schulverband Thannhausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "entfällt",
+     "legalName": "Schulverband Thannhausen"
+    },
+    "address": {
+     "streetAddress": "Edmund-Zimmermann-Straße 3",
+     "locality": "Thannhausen",
+     "region": "DE278",
+     "postalCode": "86470",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80438",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Schulverband Thannhausen",
+   "id": "entfällt",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Schulverband Thannhausen"
+   },
+   "address": {
+    "streetAddress": "Edmund-Zimmermann-Straße 3",
+    "locality": "Thannhausen",
+    "region": "DE278",
+    "postalCode": "86470",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "9d4eeb65-07f6-45ea-9232-2296dfe0ea82",
+   "title": "Medienversorgung PCB",
+   "description": "Lieferung und Montage von Fachklasseneinrichtungen in 2 Räumen Lehr-/Übungssaal und Vorbereitungsraum bestehend aus:\nFachraum-Deckensystem mit absenkbaren oder elektrisch schwenkbaren Medieneinheiten (8 Stück), Lehrerexperimentiertisch, Panoramaabzug Laborspüle, Vorbereitungs-Arbeitsplatz, abgesaugte Sicherheitsschränke, Schrankwand, Schülertische und Stühle\nVormontage Deckenabhänger\nErstellung von Anschlussplänen für die notwendigen Medien, welche bauseits zur Verfügung gestellt werden (z.B. Strom, EDV, Multimedia, Wasser, Abwasser, Gas, Lüftung)",
+   "procuringEntity": {
+    "name": "Schulverband Thannhausen",
+    "id": "entfällt"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421153",
+      "description": "Installation of built-in furniture"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39180000",
+       "description": "Laboratory furniture"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39160000",
+       "description": "School furniture"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Thannhausen",
+      "region": "DE278",
+      "postalCode": "86470",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c960-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Medienversorgung PCB",
+     "description": "Lieferung und Montage von Fachklasseneinrichtungen in 2 Räumen Lehr-/Übungssaal und Vorbereitungsraum bestehend aus:\nFachraum-Deckensystem mit absenkbaren oder elektrisch schwenkbaren Medieneinheiten (8 Stück), Lehrerexperimentiertisch, Panoramaabzug Laborspüle, Vorbereitungs-Arbeitsplatz, abgesaugte Sicherheitsschränke, Schrankwand, Schülertische und Stühle\nVormontage Deckenabhänger\nErstellung von Anschlussplänen für die notwendigen Medien, welche bauseits zur Verfügung gestellt werden (z.B. Strom, EDV, Multimedia, Wasser, Abwasser, Gas, Lüftung)",
+     "contractPeriod": {
+      "startDate": "2027-06-01T00:00:00+02:00",
+      "endDate": "2028-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "30ed9b2b-bacf-4a43-9194-7967c929999b",
+  "version": "01",
+  "title": "Medienversorgung PCB",
+  "description": "Lieferung und Montage von Fachklasseneinrichtungen in 2 Räumen Lehr-/Übungssaal und Vorbereitungsraum bestehend aus:\nFachraum-Deckensystem mit absenkbaren oder elektrisch schwenkbaren Medieneinheiten (8 Stück), Lehrerexperimentiertisch, Panoramaabzug Laborspüle, Vorbereitungs-Arbeitsplatz, abgesaugte Sicherheitsschränke, Schrankwand, Schülertische und Stühle\nVormontage Deckenabhänger\nErstellung von Anschlussplänen für die notwendigen Medien, welche bauseits zur Verfügung gestellt werden (z.B. Strom, EDV, Multimedia, Wasser, Abwasser, Gas, Lüftung)",
+  "procedureType": "open",
+  "nuts": [
+   "DE278"
+  ],
+  "cpv": [
+   "45421153",
+   "39180000",
+   "39160000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Medienversorgung PCB",
+    "description": "Lieferung und Montage von Fachklasseneinrichtungen in 2 Räumen Lehr-/Übungssaal und Vorbereitungsraum bestehend aus:\nFachraum-Deckensystem mit absenkbaren oder elektrisch schwenkbaren Medieneinheiten (8 Stück), Lehrerexperimentiertisch, Panoramaabzug Laborspüle, Vorbereitungs-Arbeitsplatz, abgesaugte Sicherheitsschränke, Schrankwand, Schülertische und Stühle\nVormontage Deckenabhänger\nErstellung von Anschlussplänen für die notwendigen Medien, welche bauseits zur Verfügung gestellt werden (z.B. Strom, EDV, Multimedia, Wasser, Abwasser, Gas, Lüftung)",
+    "cpv": [
+     "45421153",
+     "39180000",
+     "39160000"
+    ],
+    "nuts": [
+     "DE278"
+    ],
+    "deadline": "2026-11-24T09:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-06-01+02:00",
+    "plannedEnd": "2028-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

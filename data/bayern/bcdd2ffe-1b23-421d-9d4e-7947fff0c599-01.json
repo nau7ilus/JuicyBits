@@ -1,0 +1,563 @@
+{
+ "id": "bcdd2ffe-1b23-421d-9d4e-7947fff0c599-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "bcdd2ffe-1b23-421d-9d4e-7947fff0c599",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bcdd2ffe-1b23-421d-9d4e-7947fff0c599",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:bcdd2ffe-1b23-421d-9d4e-7947fff0c599-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:bcdd2ffe-1b23-421d-9d4e-7947fff0c599-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bcdd2ffe-1b23-421d-9d4e-7947fff0c599?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "26FEI87603 - Grundlastvertrag PD Nürnberg alle Netzbezirke 2027",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71521000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 6
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1561981e-9618-40d4-a7ec-65729889b720",
+  "id": "bcdd2ffe-1b23-421d-9d4e-7947fff0c599",
+  "date": "2026-10-16T02:11:01Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Emch + Berger GmbH - Ingenieure und Planer Nürnberg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "e01b42be-407a-4286-a2dc-6a3ec002b277",
+     "legalName": "Emch + Berger GmbH - Ingenieure und Planer Nürnberg"
+    },
+    "address": {
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90443",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1561981e-9618-40d4-a7ec-65729889b720",
+   "title": "26FEI87603 - Grundlastvertrag PD Nürnberg alle Netzbezirke 2027",
+   "description": "Grundlastvertrag PD Nürnberg alle Netzbezirke 2027",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0006"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-15T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Emch + Berger GmbH - Ingenieure und Planer Nürnberg",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Emch + Berger GmbH - Ingenieure und Planer Nürnberg"
+     },
+     "address": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 - Netzbezirk Ansbach + Netzbezirk Fürth FBÜ OB",
+     "description": "Los 1 - Netzbezirk Ansbach + Netzbezirk Fürth FBÜ OB",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 - Netzbezirk Nürnberg RBF+HBF FBÜ OB",
+     "description": "Los 2 - Netzbezirk Nürnberg RBF+HBF FBÜ OB",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3 - Netzbezirk Hof+Kirchenlaibach FBÜ OB",
+     "description": "Los 3 - Netzbezirk Hof+Kirchenlaibach FBÜ OB",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Los 4 - Netzbezirk Lichtenfels Nord+Süd FBÜ OB ",
+     "description": "Los 4 - Netzbezirk Lichtenfels Nord+Süd FBÜ OB",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Los 5 - FaSt alle Netzbezirke",
+     "description": "Los 5 - FaSt alle Netzbezirke",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0006",
+     "title": "Los 6 - DUA alle Netzbezirke",
+     "description": "Los 6 - DUA alle Netzbezirke",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "unsuccessful",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "unsuccessful",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   },
+   {
+    "id": "LOT-0004",
+    "status": "unsuccessful",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0004"
+    ]
+   },
+   {
+    "id": "LOT-0005",
+    "status": "active",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0005"
+    ]
+   },
+   {
+    "id": "LOT-0006",
+    "status": "unsuccessful",
+    "date": "2026-10-15T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0006"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0.1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     }
+    ],
+    "dateSigned": "2026-10-14T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "bcdd2ffe-1b23-421d-9d4e-7947fff0c599",
+  "version": "01",
+  "title": "26FEI87603 - Grundlastvertrag PD Nürnberg alle Netzbezirke 2027",
+  "description": "Grundlastvertrag PD Nürnberg alle Netzbezirke 2027",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "71521000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 - Netzbezirk Ansbach + Netzbezirk Fürth FBÜ OB",
+    "description": "Los 1 - Netzbezirk Ansbach + Netzbezirk Fürth FBÜ OB",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis100% Honorar - Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote\nab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte\nfür die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen\nWert des niedrigsten Angebotspreises linear interpoliert.\n\n1. 100 % Honorar (übertragene + optionale Leistung)\n\nDie maximale Anzahl an Losen, die einem Bieter zugesprochen werden kann, richtet sich\nnach Art und Umfang des Personals, das ihm für die Ausführung der ausgeschriebenen\nLeistungen kapazitiv zur Verfügung steht.\nDie konkreten Anforderungen an die personelle Ausstattung sind dem im Verfahren verwendeten\nTeilnahmeantrag (siehe Dokument „26FEI87603_Musterteilnahmeantrag_BÜW“) sowie der\nBekanntmachung zu entnehmen.\n\nWerden diese Anforderungen nicht vollständig erfüllt, führt dies zu einer Begrenzung\nder Anzahl der an den Bieter zu vergebenden Lose.\nEin Bieter kann sich dennoch auf alle Lose bewerben, auch wenn seine Kapazität nur\nfür eine geringere Anzahl ausreicht. Bei der Zuschlagsentscheidung wird berücksichtigt,\nob der Bieter die geforderte Mindestkapazität abdecken kann.\nDer Zuschlag erfolgt unter Berücksichtigung der angegebenen Kapazitäten auf die insgesamt\nwirtschaftlichste Kombination aller Lose.\nEine Beispielrechnung wird über das Dokument \"26FEI87603_Zuschlagsdefinition\" zur\nVerfügung gestellt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 - Netzbezirk Nürnberg RBF+HBF FBÜ OB",
+    "description": "Los 2 - Netzbezirk Nürnberg RBF+HBF FBÜ OB",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis100% Honorar - Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote\nab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte\nfür die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen\nWert des niedrigsten Angebotspreises linear interpoliert.\n\n1. 100 % Honorar (übertragene + optionale Leistung)\n\nDie maximale Anzahl an Losen, die einem Bieter zugesprochen werden kann, richtet sich\nnach Art und Umfang des Personals, das ihm für die Ausführung der ausgeschriebenen\nLeistungen kapazitiv zur Verfügung steht.\nDie konkreten Anforderungen an die personelle Ausstattung sind dem im Verfahren verwendeten\nTeilnahmeantrag (siehe Dokument „26FEI87603_Musterteilnahmeantrag_BÜW“) sowie der\nBekanntmachung zu entnehmen.\n\nWerden diese Anforderungen nicht vollständig erfüllt, führt dies zu einer Begrenzung\nder Anzahl der an den Bieter zu vergebenden Lose.\nEin Bieter kann sich dennoch auf alle Lose bewerben, auch wenn seine Kapazität nur\nfür eine geringere Anzahl ausreicht. Bei der Zuschlagsentscheidung wird berücksichtigt,\nob der Bieter die geforderte Mindestkapazität abdecken kann.\nDer Zuschlag erfolgt unter Berücksichtigung der angegebenen Kapazitäten auf die insgesamt\nwirtschaftlichste Kombination aller Lose.\nEine Beispielrechnung wird über das Dokument \"26FEI87603_Zuschlagsdefinition\" zur\nVerfügung gestellt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3 - Netzbezirk Hof+Kirchenlaibach FBÜ OB",
+    "description": "Los 3 - Netzbezirk Hof+Kirchenlaibach FBÜ OB",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis100% Honorar - Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote\nab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte\nfür die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen\nWert des niedrigsten Angebotspreises linear interpoliert.\n\n1. 100 % Honorar (übertragene + optionale Leistung)\n\nDie maximale Anzahl an Losen, die einem Bieter zugesprochen werden kann, richtet sich\nnach Art und Umfang des Personals, das ihm für die Ausführung der ausgeschriebenen\nLeistungen kapazitiv zur Verfügung steht.\nDie konkreten Anforderungen an die personelle Ausstattung sind dem im Verfahren verwendeten\nTeilnahmeantrag (siehe Dokument „26FEI87603_Musterteilnahmeantrag_BÜW“) sowie der\nBekanntmachung zu entnehmen.\n\nWerden diese Anforderungen nicht vollständig erfüllt, führt dies zu einer Begrenzung\nder Anzahl der an den Bieter zu vergebenden Lose.\nEin Bieter kann sich dennoch auf alle Lose bewerben, auch wenn seine Kapazität nur\nfür eine geringere Anzahl ausreicht. Bei der Zuschlagsentscheidung wird berücksichtigt,\nob der Bieter die geforderte Mindestkapazität abdecken kann.\nDer Zuschlag erfolgt unter Berücksichtigung der angegebenen Kapazitäten auf die insgesamt\nwirtschaftlichste Kombination aller Lose.\nEine Beispielrechnung wird über das Dokument \"26FEI87603_Zuschlagsdefinition\" zur\nVerfügung gestellt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Los 4 - Netzbezirk Lichtenfels Nord+Süd FBÜ OB",
+    "description": "Los 4 - Netzbezirk Lichtenfels Nord+Süd FBÜ OB",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis100% Honorar - Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote\nab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte\nfür die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen\nWert des niedrigsten Angebotspreises linear interpoliert.\n\n1. 100 % Honorar (übertragene + optionale Leistung)\n\nDie maximale Anzahl an Losen, die einem Bieter zugesprochen werden kann, richtet sich\nnach Art und Umfang des Personals, das ihm für die Ausführung der ausgeschriebenen\nLeistungen kapazitiv zur Verfügung steht.\nDie konkreten Anforderungen an die personelle Ausstattung sind dem im Verfahren verwendeten\nTeilnahmeantrag (siehe Dokument „26FEI87603_Musterteilnahmeantrag_BÜW“) sowie der\nBekanntmachung zu entnehmen.\n\nWerden diese Anforderungen nicht vollständig erfüllt, führt dies zu einer Begrenzung\nder Anzahl der an den Bieter zu vergebenden Lose.\nEin Bieter kann sich dennoch auf alle Lose bewerben, auch wenn seine Kapazität nur\nfür eine geringere Anzahl ausreicht. Bei der Zuschlagsentscheidung wird berücksichtigt,\nob der Bieter die geforderte Mindestkapazität abdecken kann.\nDer Zuschlag erfolgt unter Berücksichtigung der angegebenen Kapazitäten auf die insgesamt\nwirtschaftlichste Kombination aller Lose.\nEine Beispielrechnung wird über das Dokument \"26FEI87603_Zuschlagsdefinition\" zur\nVerfügung gestellt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Los 5 - FaSt alle Netzbezirke",
+    "description": "Los 5 - FaSt alle Netzbezirke",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis100% Honorar - Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote\nab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte\nfür die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen\nWert des niedrigsten Angebotspreises linear interpoliert.\n\n1. 100 % Honorar (übertragene + optionale Leistung)\n\nDie maximale Anzahl an Losen, die einem Bieter zugesprochen werden kann, richtet sich\nnach Art und Umfang des Personals, das ihm für die Ausführung der ausgeschriebenen\nLeistungen kapazitiv zur Verfügung steht.\nDie konkreten Anforderungen an die personelle Ausstattung sind dem im Verfahren verwendeten\nTeilnahmeantrag (siehe Dokument „26FEI87603_Musterteilnahmeantrag_BÜW“) sowie der\nBekanntmachung zu entnehmen.\n\nWerden diese Anforderungen nicht vollständig erfüllt, führt dies zu einer Begrenzung\nder Anzahl der an den Bieter zu vergebenden Lose.\nEin Bieter kann sich dennoch auf alle Lose bewerben, auch wenn seine Kapazität nur\nfür eine geringere Anzahl ausreicht. Bei der Zuschlagsentscheidung wird berücksichtigt,\nob der Bieter die geforderte Mindestkapazität abdecken kann.\nDer Zuschlag erfolgt unter Berücksichtigung der angegebenen Kapazitäten auf die insgesamt\nwirtschaftlichste Kombination aller Lose.\nEine Beispielrechnung wird über das Dokument \"26FEI87603_Zuschlagsdefinition\" zur\nVerfügung gestellt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0006",
+    "title": "Los 6 - DUA alle Netzbezirke",
+    "description": "Los 6 - DUA alle Netzbezirke",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis100% Honorar - Das Angebot mit dem niedrigsten Preis erhält 5 Punkte. Alle Angebote\nab dem 1,5fachen Wert des niedrigsten Angebotspreises erhalten 0 Punkte. Die Punkte\nfür die übrigen Angebote werden zwischen dem niedrigsten Angebotspreis und dem 1,5fachen\nWert des niedrigsten Angebotspreises linear interpoliert.\n\n1. 100 % Honorar (übertragene + optionale Leistung)\n\nDie maximale Anzahl an Losen, die einem Bieter zugesprochen werden kann, richtet sich\nnach Art und Umfang des Personals, das ihm für die Ausführung der ausgeschriebenen\nLeistungen kapazitiv zur Verfügung steht.\nDie konkreten Anforderungen an die personelle Ausstattung sind dem im Verfahren verwendeten\nTeilnahmeantrag (siehe Dokument „26FEI87603_Musterteilnahmeantrag_BÜW“) sowie der\nBekanntmachung zu entnehmen.\n\nWerden diese Anforderungen nicht vollständig erfüllt, führt dies zu einer Begrenzung\nder Anzahl der an den Bieter zu vergebenden Lose.\nEin Bieter kann sich dennoch auf alle Lose bewerben, auch wenn seine Kapazität nur\nfür eine geringere Anzahl ausreicht. Bei der Zuschlagsentscheidung wird berücksichtigt,\nob der Bieter die geforderte Mindestkapazität abdecken kann.\nDer Zuschlag erfolgt unter Berücksichtigung der angegebenen Kapazitäten auf die insgesamt\nwirtschaftlichste Kombination aller Lose.\nEine Beispielrechnung wird über das Dokument \"26FEI87603_Zuschlagsdefinition\" zur\nVerfügung gestellt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

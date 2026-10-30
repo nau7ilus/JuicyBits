@@ -213,6 +213,8 @@
   "noticeId": "16ecc721-832b-4ea0-acd1-d616112ae478",
   "version": "01",
   "title": null,
+  "description": null,
+  "procedureType": "open",
   "nuts": [
    "DE300"
   ],
@@ -224,6 +226,7 @@
    {
     "id": "LOT-0000",
     "title": null,
+    "description": null,
     "cpv": [
      "38510000"
     ],
@@ -234,9 +237,25 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-09+01:00",
     "plannedEnd": "2027-02-16+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": null,
+      "weight": 65
+     },
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": 35
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

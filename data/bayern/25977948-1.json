@@ -5,14 +5,14 @@
   "noticeId": "25977948",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25977948",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25977948-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25977948-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25977948?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Sicherheitshalbschuhe Feuerwehr Nürnberg",
   "buyer": "Stadt Nürnberg - Feuerwehr (FW/2)",
   "cpv": [
@@ -83,5 +83,43 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25977948",
+  "version": "1",
+  "title": "Sicherheitshalbschuhe Feuerwehr Nürnberg",
+  "description": "Beschaffung des Kontingentsbedarf 2026 -  Sicherheitshalbschuhe\n\nSicherheitshalbschuhe Feuerwehr Nürnberg",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "18143000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sicherheitshalbschuhe Feuerwehr Nürnberg",
+    "description": "Beschaffung des Kontingentsbedarf 2026 -  Sicherheitshalbschuhe\n\nSicherheitshalbschuhe Feuerwehr Nürnberg",
+    "cpv": [
+     "18143000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

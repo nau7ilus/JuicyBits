@@ -1,0 +1,284 @@
+{
+ "id": "7bc6d7a1-24cc-45b1-8c81-3c16fa64160f-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "7bc6d7a1-24cc-45b1-8c81-3c16fa64160f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7bc6d7a1-24cc-45b1-8c81-3c16fa64160f",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:7bc6d7a1-24cc-45b1-8c81-3c16fa64160f-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:7bc6d7a1-24cc-45b1-8c81-3c16fa64160f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7bc6d7a1-24cc-45b1-8c81-3c16fa64160f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "MSR-Anlagen",
+  "buyer": "Kemptener Kommunalunternehmen",
+  "cpv": [
+   "45315700",
+   "48921000"
+  ],
+  "nuts": [
+   "DE273"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bd838dbb-345b-47a5-aeca-eff7b81da462",
+  "id": "7bc6d7a1-24cc-45b1-8c81-3c16fa64160f",
+  "date": "2026-10-25T12:38:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Kemptener Kommunalunternehmen",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE205039405",
+     "legalName": "Kemptener Kommunalunternehmen"
+    },
+    "address": {
+     "streetAddress": "Kaufbeurer Straße 15",
+     "locality": "Kempten (Allgäu)",
+     "region": "DE273",
+     "postalCode": "87437",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Siemens AG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE129274202",
+     "legalName": "Siemens AG"
+    },
+    "address": {
+     "streetAddress": "Melli-Beese-Str. 5",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86159",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Kemptener Kommunalunternehmen",
+   "id": "DE205039405",
+   "identifier": {
+    "id": "ORG-0011",
+    "legalName": "Kemptener Kommunalunternehmen"
+   },
+   "address": {
+    "streetAddress": "Kaufbeurer Straße 15",
+    "locality": "Kempten (Allgäu)",
+    "region": "DE273",
+    "postalCode": "87437",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bd838dbb-345b-47a5-aeca-eff7b81da462",
+   "title": "MSR-Anlagen",
+   "description": "4 Schaltschränke\nFeldgeräte, Automationsstationen, Anschluss und Vernüpfung an Bestand und Fernanbindung",
+   "procuringEntity": {
+    "name": "Kemptener Kommunalunternehmen",
+    "id": "DE205039405"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45315700",
+      "description": "Switching station installation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "48921000",
+       "description": "Automation system"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Kempten",
+      "region": "DE273",
+      "postalCode": "87439",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-23T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Siemens AG",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Siemens AG"
+     },
+     "address": {
+      "streetAddress": "Melli-Beese-Str. 5",
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86159",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "MSR-Anlagen",
+     "description": "4 Schaltschränke\nFeldgeräte, Automationsstationen, Anschluss und Vernüpfung an Bestand und Fernanbindung",
+     "contractPeriod": {
+      "durationInDays": 300
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "MSR-Anlagen",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Siemens AG",
+      "id": "DE129274202",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Siemens AG"
+      },
+      "address": {
+       "streetAddress": "Melli-Beese-Str. 5",
+       "locality": "Augsburg",
+       "region": "DE271",
+       "postalCode": "86159",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "MSR-Anlagen",
+    "status": "active",
+    "value": {
+     "amount": 199841.7,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "621229-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "621229-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "7bc6d7a1-24cc-45b1-8c81-3c16fa64160f",
+  "version": "01",
+  "title": "MSR-Anlagen",
+  "description": "4 Schaltschränke\nFeldgeräte, Automationsstationen, Anschluss und Vernüpfung an Bestand und Fernanbindung",
+  "procedureType": "open",
+  "nuts": [
+   "DE273"
+  ],
+  "cpv": [
+   "45315700",
+   "48921000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "MSR-Anlagen",
+    "description": "4 Schaltschränke\nFeldgeräte, Automationsstationen, Anschluss und Vernüpfung an Bestand und Fernanbindung",
+    "cpv": [
+     "45315700",
+     "48921000"
+    ],
+    "nuts": [
+     "DE273"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 300,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

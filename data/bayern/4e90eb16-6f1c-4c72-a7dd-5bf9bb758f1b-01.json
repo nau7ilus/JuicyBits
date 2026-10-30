@@ -1,0 +1,302 @@
+{
+ "id": "4e90eb16-6f1c-4c72-a7dd-5bf9bb758f1b-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "4e90eb16-6f1c-4c72-a7dd-5bf9bb758f1b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4e90eb16-6f1c-4c72-a7dd-5bf9bb758f1b",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:4e90eb16-6f1c-4c72-a7dd-5bf9bb758f1b-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:4e90eb16-6f1c-4c72-a7dd-5bf9bb758f1b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4e90eb16-6f1c-4c72-a7dd-5bf9bb758f1b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Einbausportgeräte, mobile Sportgeräte und Betriebsausstattung",
+  "buyer": "Zweckverband Schulzentrum",
+  "cpv": [
+   "37420000",
+   "37400000",
+   "37423300",
+   "37422100",
+   "37421000",
+   "37425000"
+  ],
+  "nuts": [
+   "DE267"
+  ],
+  "deadline": "2026-11-18T10:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e5b2cb5e-73e6-4ed7-a80f-2eb3b2a1eb05",
+  "id": "4e90eb16-6f1c-4c72-a7dd-5bf9bb758f1b",
+  "date": "2026-10-20T10:04:25Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband Schulzentrum",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-5001110-34",
+     "legalName": "Zweckverband Schulzentrum"
+    },
+    "address": {
+     "streetAddress": "Am Herrenhof 1",
+     "locality": "Haßberge",
+     "region": "DE267",
+     "postalCode": "97437",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE8111335517",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweckverband Schulzentrum",
+   "id": "09-5001110-34",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Zweckverband Schulzentrum"
+   },
+   "address": {
+    "streetAddress": "Am Herrenhof 1",
+    "locality": "Haßberge",
+    "region": "DE267",
+    "postalCode": "97437",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e5b2cb5e-73e6-4ed7-a80f-2eb3b2a1eb05",
+   "title": "Einbausportgeräte, mobile Sportgeräte und Betriebsausstattung",
+   "description": "Einbausportgeräte, mobile Sportgeräte, Betriebsausstattung",
+   "procuringEntity": {
+    "name": "Zweckverband Schulzentrum",
+    "id": "09-5001110-34"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "37420000",
+      "description": "Gymnasium equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "37400000",
+       "description": "Sports goods and equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "37423300",
+       "description": "Gymnastic climbing accessories"
+      },
+      {
+       "scheme": "CPV",
+       "id": "37422100",
+       "description": "Gymnastic bars"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Haßfurt",
+      "region": "DE267",
+      "postalCode": "97437",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "37420000",
+      "description": "Gymnasium equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "37400000",
+       "description": "Sports goods and equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "37421000",
+       "description": "Gymnasium mats"
+      },
+      {
+       "scheme": "CPV",
+       "id": "37425000",
+       "description": "Gymnastic trampolines"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Haßfurt",
+      "region": "DE267",
+      "postalCode": "97437",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a1439a7694-2ef837c001ca8295&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://xvergabe.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a1439a7694-2ef837c001ca8295&",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Einbausportgeräte",
+     "description": "Einbau-Sportgeräte (Los 1)\n45 m Ballschutznetz-Anlage motorisch, in 3 Feldern\n2 St. 4- Paar URK-Anlage DIN EN 12655, elektr. hochklappbar, mit Zubehör\n2 St. 8-fach Klettertau-Einrichtung DIN 7911-2\n4 St. Ballwurfübungsanlage DIN EN 1270\n3 St. Basketball-Wandgerüst, zentrisch klapp- und höhenverstellbar, Querspielfeld\n3 St. Basketball-Deckengerüst, elektrisch hochzieh- und höhenverstellbar, Querspielfeld\n2 St. Basketball-Deckengerüst, elektrisch hochzieh- und höhenverstellbar, Zentralfeld\n4 St. Doppelfeld-Sprossenwand schwenkbar 1,80/2,60, mit Bodenhülsen und Prallschutzmatten\n2 St. 4-fach Steckreckanlage DIN EN 12197, mit Bodenhülsen und Wandablage\n4 St. Steckbarren DIN 7901, Höhe 1,00/1,60, sowie \n4 St. Steckbarren DIN 7901, Höhe 1,10/1,80, mit Bodenhülsen, Standrohrverlängerungen und Transportwägen\n6 St. Volleyballpfosten DIN EN 1271, sowie\n4 St. Badmintonpfosten DIN EN 1509, sowie\n2 St. Spielpfosten, sowie\n4 St. Unterstützungspfosten Badminton mit Standplatte, mit Bodenhülsen, Netzen, Zubehör und Wandablagen\n8 St. Korbballständer, mit Bodenhülsen\n4 St. Handballtor 3,0 / 2,0 / 0,8, DIN EN 749, sowie\n2 St. Handball-Wettspieltor 3,0 / 2,0 / 1,25, DIN EN 749, mit Tornetzen, Bodenbefestigungen und Transportwägen\n2 St. Hallenfußballtor 5,0 / 2,0 / 1,25, mit Tornetzen, Bodenbefestigungen und Transportwagen",
+     "contractPeriod": {
+      "startDate": "2026-12-21T00:00:00+01:00",
+      "endDate": "2027-11-30T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "mobile Sportgeräte, Betriebsausstattung",
+     "description": "Mobile Sportgeräte, Betriebsausstattung (Los 2)\n\nMobile Groß- und Kleingeräte\n11 Stück Leichtturnmatten\n2 Stück Bodenturnmatten\n6 Stück Sprungkasten einteilig\n9 Stück Sprungkasten sechsteilig\n4 Stück Turnbock \n2 Stück Turnbänke\n3 Stück Absprung Trampolin\n3 Stück Magnesia Behälter\n\nGeräteaufbewahrung\n3 Stück Aufbewehrungsgestell Sprungbrett\n3 Stück Transport- und Abstellwagen, Minitrampolin\n6 Stück Geräteschränke\n1 Stück Stehschrank\n\nGarderobenbänke Umkleiden\nPlanung\n56m einseitige Bänke\n12m doppelbänke\n\nWeitere Kleinausstattung\n1 Stück Liegebank\n3 Stück Verbandsschrank\n1 Stück Krankentrage\n1 Stück Meßstab\n3 Stück Schreibtisch Lehrerumkleiden\n6 Stühle für Lehrerumkleiden\n\nDokumentation, Einweisung und Stundenlohnarbeiten",
+     "contractPeriod": {
+      "startDate": "2026-12-21T00:00:00+01:00",
+      "endDate": "2027-11-30T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "4e90eb16-6f1c-4c72-a7dd-5bf9bb758f1b",
+  "version": "01",
+  "title": "Einbausportgeräte, mobile Sportgeräte und Betriebsausstattung",
+  "description": "Einbausportgeräte, mobile Sportgeräte, Betriebsausstattung",
+  "procedureType": "open",
+  "nuts": [
+   "DE267"
+  ],
+  "cpv": [
+   "37420000",
+   "37400000",
+   "37421000",
+   "37422100",
+   "37423300",
+   "37425000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Einbausportgeräte",
+    "description": "Einbau-Sportgeräte (Los 1)\n45 m Ballschutznetz-Anlage motorisch, in 3 Feldern\n2 St. 4- Paar URK-Anlage DIN EN 12655, elektr. hochklappbar, mit Zubehör\n2 St. 8-fach Klettertau-Einrichtung DIN 7911-2\n4 St. Ballwurfübungsanlage DIN EN 1270\n3 St. Basketball-Wandgerüst, zentrisch klapp- und höhenverstellbar, Querspielfeld\n3 St. Basketball-Deckengerüst, elektrisch hochzieh- und höhenverstellbar, Querspielfeld\n2 St. Basketball-Deckengerüst, elektrisch hochzieh- und höhenverstellbar, Zentralfeld\n4 St. Doppelfeld-Sprossenwand schwenkbar 1,80/2,60, mit Bodenhülsen und Prallschutzmatten\n2 St. 4-fach Steckreckanlage DIN EN 12197, mit Bodenhülsen und Wandablage\n4 St. Steckbarren DIN 7901, Höhe 1,00/1,60, sowie \n4 St. Steckbarren DIN 7901, Höhe 1,10/1,80, mit Bodenhülsen, Standrohrverlängerungen und Transportwägen\n6 St. Volleyballpfosten DIN EN 1271, sowie\n4 St. Badmintonpfosten DIN EN 1509, sowie\n2 St. Spielpfosten, sowie\n4 St. Unterstützungspfosten Badminton mit Standplatte, mit Bodenhülsen, Netzen, Zubehör und Wandablagen\n8 St. Korbballständer, mit Bodenhülsen\n4 St. Handballtor 3,0 / 2,0 / 0,8, DIN EN 749, sowie\n2 St. Handball-Wettspieltor 3,0 / 2,0 / 1,25, DIN EN 749, mit Tornetzen, Bodenbefestigungen und Transportwägen\n2 St. Hallenfußballtor 5,0 / 2,0 / 1,25, mit Tornetzen, Bodenbefestigungen und Transportwagen",
+    "cpv": [
+     "37420000",
+     "37400000",
+     "37423300",
+     "37422100"
+    ],
+    "nuts": [
+     "DE267"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-21+01:00",
+    "plannedEnd": "2027-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "mobile Sportgeräte, Betriebsausstattung",
+    "description": "Mobile Sportgeräte, Betriebsausstattung (Los 2)\n\nMobile Groß- und Kleingeräte\n11 Stück Leichtturnmatten\n2 Stück Bodenturnmatten\n6 Stück Sprungkasten einteilig\n9 Stück Sprungkasten sechsteilig\n4 Stück Turnbock \n2 Stück Turnbänke\n3 Stück Absprung Trampolin\n3 Stück Magnesia Behälter\n\nGeräteaufbewahrung\n3 Stück Aufbewehrungsgestell Sprungbrett\n3 Stück Transport- und Abstellwagen, Minitrampolin\n6 Stück Geräteschränke\n1 Stück Stehschrank\n\nGarderobenbänke Umkleiden\nPlanung\n56m einseitige Bänke\n12m doppelbänke\n\nWeitere Kleinausstattung\n1 Stück Liegebank\n3 Stück Verbandsschrank\n1 Stück Krankentrage\n1 Stück Meßstab\n3 Stück Schreibtisch Lehrerumkleiden\n6 Stühle für Lehrerumkleiden\n\nDokumentation, Einweisung und Stundenlohnarbeiten",
+    "cpv": [
+     "37420000",
+     "37400000",
+     "37421000",
+     "37425000"
+    ],
+    "nuts": [
+     "DE267"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-21+01:00",
+    "plannedEnd": "2027-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "id": "55ba1798-96dd-4a95-a4cd-92325c17ffef-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "55ba1798-96dd-4a95-a4cd-92325c17ffef",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=55ba1798-96dd-4a95-a4cd-92325c17ffef",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:55ba1798-96dd-4a95-a4cd-92325c17ffef-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:55ba1798-96dd-4a95-a4cd-92325c17ffef-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/55ba1798-96dd-4a95-a4cd-92325c17ffef?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erschließung BG Westring West",
+  "buyer": "Stadt Roth",
+  "cpv": [
+   "45111291"
+  ],
+  "nuts": [
+   "DE25B"
+  ],
+  "deadline": "2026-11-03T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f41e049c-7912-44b1-94d7-ded3ad3aff32",
+  "id": "55ba1798-96dd-4a95-a4cd-92325c17ffef",
+  "date": "2026-10-25T14:40:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Roth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09576143441000-79",
+     "legalName": "Stadt Roth"
+    },
+    "address": {
+     "streetAddress": "Kirchplatz 4",
+     "locality": "Roth",
+     "region": "DE25B",
+     "postalCode": "91154",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09035800261",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE252",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Roth",
+   "id": "09576143441000-79",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Roth"
+   },
+   "address": {
+    "streetAddress": "Kirchplatz 4",
+    "locality": "Roth",
+    "region": "DE25B",
+    "postalCode": "91154",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f41e049c-7912-44b1-94d7-ded3ad3aff32",
+   "title": "Erschließung BG Westring West",
+   "description": "Erschließung",
+   "procuringEntity": {
+    "name": "Stadt Roth",
+    "id": "09576143441000-79"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45111291",
+      "description": "Site-development work"
+     },
+     "deliveryAddress": {
+      "locality": "Stadt",
+      "region": "DE25B",
+      "postalCode": "91154",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331345",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Erschließung Bg Westring West",
+     "description": "Erschließung",
+     "contractPeriod": {
+      "durationInDays": 570
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "55ba1798-96dd-4a95-a4cd-92325c17ffef",
+  "version": "01",
+  "title": "Erschließung BG Westring West",
+  "description": "Erschließung",
+  "procedureType": "open",
+  "nuts": [
+   "DE25B"
+  ],
+  "cpv": [
+   "45111291"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Erschließung Bg Westring West",
+    "description": "Erschließung",
+    "cpv": [
+     "45111291"
+    ],
+    "nuts": [
+     "DE25B"
+    ],
+    "deadline": "2026-11-03T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 570,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331345"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

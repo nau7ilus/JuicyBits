@@ -1,0 +1,243 @@
+{
+ "id": "bcb08cbc-584d-45ae-a933-cbbf7ad478e7-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "bcb08cbc-584d-45ae-a933-cbbf7ad478e7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bcb08cbc-584d-45ae-a933-cbbf7ad478e7",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:bcb08cbc-584d-45ae-a933-cbbf7ad478e7-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:bcb08cbc-584d-45ae-a933-cbbf7ad478e7-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bcb08cbc-584d-45ae-a933-cbbf7ad478e7?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Fuhrleistungen für die Asphaltverlegung",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "60181000",
+   "60182000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-10-27T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0e082f22-8aa8-4a3f-a8d4-beeeae7fd028",
+  "id": "bcb08cbc-584d-45ae-a933-cbbf7ad478e7",
+  "date": "2026-10-24T13:14:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0e082f22-8aa8-4a3f-a8d4-beeeae7fd028",
+   "title": "Fuhrleistungen für die Asphaltverlegung",
+   "description": "Rahmenvertrag: Großer Regievertrag Fuhrleistungen für die städtische Asphaltverlegung 2027",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60181000",
+      "description": "Hire of trucks with driver"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "60182000",
+       "description": "Hire of industrial vehicles with driver"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81671",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303608",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-24T13:14:04.262Z",
+     "rationale": "Änderung Ende der Angebotsfrist, Öffnungstermin und Bindefrist",
+     "description": "Änderung Ende der Angebotsfrist, Öffnungstermin und Bindefrist",
+     "amendsReleaseID": "c0d6e1b2-0e87-4a17-bc26-a3b772d3fa4f-01",
+     "releaseID": "bcb08cbc-584d-45ae-a933-cbbf7ad478e7-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fuhrleistungen für die Asphaltverlegung",
+     "description": "Rahmenvertrag: Großer Regievertrag Fuhrleistungen für die städtische Asphaltverlegung 2027\nDas Baureferat, HA Tiefbau, Abt. Straßenunterhalt und -betrieb, Städtische Asphaltverlegung arbeitet im Auftrag der fünf Straßenunterhaltsbezirke der LHM im gesamten Stadtgebiet und führt Straßensanierungsarbeiten (keine Pflasterarbeiten!) in Asphaltbauweise mit zwei Partien durch. Hierzu werden in Ergänzung zu den Eigenfuhrleistungen der Asphaltverlegung zusätzliche Fuhrleistungen von und zu ihren Baustellen benötigt. Die Fuhrleistungen werden vornehmlich im Zuge von Fräs- und Asphalteinbauarbeiten abgerufen. Zu transportieren sind (teilweise auch auf Autobahnstrecken) Schutt, Bodenaushub verschiedener Klassen, Asphaltaufbruch (z.T. teerhaltig), Fräsgut, Niedrigtemperaturasphalt u. a.. Darüber hinaus muss zeitweise auch pechhaltiger Straßenaufbruch entsprechend den AVV-Schlüsselnummern 170301 und 170302 transportiert werden. Der Auftragnehmer, im Folgenden AN genannt, muss hierbei in der Lage sein, maximal bis zu 8 LKW (mit entsprechender Transportgenehmigung) pro Partie des vom AG geforderten Fahrzeugtyps (Sattel, 4-Achser und 3-Achser) zur Verfügung zu stellen. Mit den Fuhrleistungen ist nach Beendigung der Frostperiode, erfahrungsgemäß ab Mitte März, zu beginnen. Der Leistungszeitraum endet mit Beginn der Winterpause, abhängig von der Witterung, spätestens am 31.12. \nGesamtmassen: \n- 2-Achs-Kipper ohne Ladekran, ca. 50 Std. \n- 3-Achs-Kipper ohne Ladekran, ca. 50 Std. \n- 4-Achs-Kipper, ca. 1.750 Std.\n- 4-Achs-Kipper mit Thermobehälter, ca. 1.250 Std. \n- 4-Achs-Thermoabschieber, ca. 10 Std. \n- Sattelzug, ca. 1.750 Std. \n- Sattelzug mit Thermobehälter, ca. 1.250 Std. \n- Zuschlag für Einsatz in Nachtarbeit (20.00 – 6.00 Uhr), ca. 200 Std. \n- Erstellung Begleitscheine, ca. 300 Stk.\n--\nSchätzmenge: 6.300 Stunden\n--\nHöchstmenge: 8.500 Stunden",
+     "contractPeriod": {
+      "durationInDays": 365
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bcb08cbc-584d-45ae-a933-cbbf7ad478e7",
+  "version": "01",
+  "title": "Fuhrleistungen für die Asphaltverlegung",
+  "description": "Rahmenvertrag: Großer Regievertrag Fuhrleistungen für die städtische Asphaltverlegung 2027",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "60181000",
+   "60182000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fuhrleistungen für die Asphaltverlegung",
+    "description": "Rahmenvertrag: Großer Regievertrag Fuhrleistungen für die städtische Asphaltverlegung 2027\nDas Baureferat, HA Tiefbau, Abt. Straßenunterhalt und -betrieb, Städtische Asphaltverlegung arbeitet im Auftrag der fünf Straßenunterhaltsbezirke der LHM im gesamten Stadtgebiet und führt Straßensanierungsarbeiten (keine Pflasterarbeiten!) in Asphaltbauweise mit zwei Partien durch. Hierzu werden in Ergänzung zu den Eigenfuhrleistungen der Asphaltverlegung zusätzliche Fuhrleistungen von und zu ihren Baustellen benötigt. Die Fuhrleistungen werden vornehmlich im Zuge von Fräs- und Asphalteinbauarbeiten abgerufen. Zu transportieren sind (teilweise auch auf Autobahnstrecken) Schutt, Bodenaushub verschiedener Klassen, Asphaltaufbruch (z.T. teerhaltig), Fräsgut, Niedrigtemperaturasphalt u. a.. Darüber hinaus muss zeitweise auch pechhaltiger Straßenaufbruch entsprechend den AVV-Schlüsselnummern 170301 und 170302 transportiert werden. Der Auftragnehmer, im Folgenden AN genannt, muss hierbei in der Lage sein, maximal bis zu 8 LKW (mit entsprechender Transportgenehmigung) pro Partie des vom AG geforderten Fahrzeugtyps (Sattel, 4-Achser und 3-Achser) zur Verfügung zu stellen. Mit den Fuhrleistungen ist nach Beendigung der Frostperiode, erfahrungsgemäß ab Mitte März, zu beginnen. Der Leistungszeitraum endet mit Beginn der Winterpause, abhängig von der Witterung, spätestens am 31.12. \nGesamtmassen: \n- 2-Achs-Kipper ohne Ladekran, ca. 50 Std. \n- 3-Achs-Kipper ohne Ladekran, ca. 50 Std. \n- 4-Achs-Kipper, ca. 1.750 Std.\n- 4-Achs-Kipper mit Thermobehälter, ca. 1.250 Std. \n- 4-Achs-Thermoabschieber, ca. 10 Std. \n- Sattelzug, ca. 1.750 Std. \n- Sattelzug mit Thermobehälter, ca. 1.250 Std. \n- Zuschlag für Einsatz in Nachtarbeit (20.00 – 6.00 Uhr), ca. 200 Std. \n- Erstellung Begleitscheine, ca. 300 Stk.\n--\nSchätzmenge: 6.300 Stunden\n--\nHöchstmenge: 8.500 Stunden",
+    "cpv": [
+     "60181000",
+     "60182000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-27T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 1,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument Alle Unterlagen sind in dem Dokument „Eignung_und_Nichtvorliegen_von_Ausschlussgründen\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303608"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument Alle Unterlagen sind in dem Dokument „Eignung_und_Nichtvorliegen_von_Ausschlussgründen\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303608"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument Alle Unterlagen sind in dem Dokument „Eignung_und_Nichtvorliegen_von_Ausschlussgründen\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303608"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Alle zu erfüllenden Eignungskriterien und vorzulegende Eignungsnachweise sind vollständig in dem Dokument Alle Unterlagen sind in dem Dokument „Eignung_und_Nichtvorliegen_von_Ausschlussgründen\" aufgeführt, das unter nachstehendem Link direkt abrufbar ist: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303608"
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Vorlage mit dem Angebot:\n- Angabe des Umsatzes, jeweils bezogen auf die letzten drei abgeschlossenen\nGeschäftsjahre, soweit er Leistungen betrifft, die mit der die zu vergebenden Leistung\nvergleichbar sind. Der geforderte Mindestjahresumsatz beträgt 750.000,00 EUR."
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Vorlage mit dem Angebot:\n- Nachweis für insgesamt 16 Fahrzeuge (Sattel oder 4-Achser) über den eingesetzten\nAbgasstandard Euronorm 5 oder 6 bzw. höherwertiger (Fahrzeugscheine bzw.\nZulassungsbescheinigung Teil 1 bzw. ein anderer vergleichbarer Nachweis, der den\nFahrzeugen konkret zuordenbar ist – z.B. Sachverständigengutachten oder vergleichbar. Die\nVergabestelle muss in der Lage sein, die Abgasnorm nachvollziehen zu können\n- im Falle einer Kaufoption Vorlage einer Bestätigung des Verkäufers [(Reservierung) (l)]\nTechnische Voraussetzungen der LKWs zum Transportieren einer Anhängerlast von ca. 27 t \n--\nVorlage auf Verlangen innerhalb der von der Vergabestelle vorgegebenen Frist:\n- Ausnahmegenehmigungen für Schwertransporte (Überbreite bis 3 m sowie Transportgewicht ca. 27 t)"
+     },
+     {
+      "type": "slc-sche-env-cert-indep",
+      "description": "Vorlage mit dem Angebot:\n- Produktbeschreibung gem. DIN EN 168111:201610\n- Angaben zu Bezugsstätten, Lieferanten und Zwischenlager\n- Angaben zu Auslieferung/Zwischenlagern\n- EG-Sicherheitsdatenblatt (91/155/EWG) \n- Transportgenehmigung für gefährliche Abfälle, mit der Abfallschlüsselnummer 170301*\n- Nachweis über die Registrierung als Beförderer bei der zuständigen Behörde (in Bayern\nLfU) über die ZKS (Zentrale Koordinierungsstelle)\n- Nachweis über die Möglichkeit der Teilnahme am elektronischen Abfallnachweisverfahren\n(EANs)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

@@ -185,6 +185,8 @@
   "noticeId": "8c9b8809-1303-49d2-9f92-8d7afe252d35",
   "version": "01",
   "title": "Aufzugsanlagen",
+  "description": "1x Glasaufzug 1600 kg incl. Schachtgerüst aus Glas\n2x Lastenaufzug 2500 kg\n1x Scherenhubbühne 1000 kg",
+  "procedureType": "open",
   "nuts": [
    "DE254"
   ],
@@ -199,6 +201,7 @@
    {
     "id": "LOT-0000",
     "title": "Aufzugsanlagen",
+    "description": "1x Glasaufzug 1600 kg incl. Schachtgerüst aus Glas\n2x Lastenaufzug 2500 kg\n1x Scherenhubbühne 1000 kg",
     "cpv": [
      "45313100"
     ],
@@ -209,6 +212,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-03-01+01:00",
     "plannedEnd": "2029-04-27+02:00",
+    "duration": null,
     "estimatedValue": {
      "amount": 460380,
      "currency": "EUR"
@@ -231,7 +235,19 @@
       "type": "slc-suit-reg-prof",
       "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303772\n\n- Registereintragungen\n- Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2% Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
    }
   ]
  }

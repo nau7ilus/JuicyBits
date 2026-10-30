@@ -1,0 +1,505 @@
+{
+ "id": "505ebb78-302d-4702-896a-7c2ab2769063-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "505ebb78-302d-4702-896a-7c2ab2769063",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=505ebb78-302d-4702-896a-7c2ab2769063",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:505ebb78-302d-4702-896a-7c2ab2769063-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:505ebb78-302d-4702-896a-7c2ab2769063-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/505ebb78-302d-4702-896a-7c2ab2769063?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Grünstromlieferung für die Thermen der Niederbayerischen Thermengemeinschaft in 2027 und 2028",
+  "buyer": "Die Gesundheitsthermen , Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH",
+  "cpv": [
+   "09310000"
+  ],
+  "nuts": [
+   "DE228",
+   "DE226",
+   "DE22A"
+  ],
+  "deadline": null,
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6f140736-358f-41b9-885b-20dc827feeb2",
+  "id": "505ebb78-302d-4702-896a-7c2ab2769063",
+  "date": "2026-10-21T02:08:22Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Die Gesundheitsthermen , Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE130965350",
+     "legalName": "Die Gesundheitsthermen , Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH"
+    },
+    "address": {
+     "streetAddress": "Kurallee 23",
+     "locality": "Bad Füssing",
+     "region": "DE228",
+     "postalCode": "94072",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "enercity AG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 811116141",
+     "legalName": "enercity AG"
+    },
+    "address": {
+     "streetAddress": "Glockseeplatz 1",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30169",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Die Gesundheitsthermen , Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH",
+   "id": "DE130965350",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Die Gesundheitsthermen , Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH"
+   },
+   "address": {
+    "streetAddress": "Kurallee 23",
+    "locality": "Bad Füssing",
+    "region": "DE228",
+    "postalCode": "94072",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6f140736-358f-41b9-885b-20dc827feeb2",
+   "title": "Grünstromlieferung für die Thermen der Niederbayerischen Thermengemeinschaft in 2027 und 2028",
+   "description": "Lieferung von Grünstrom für die Thermen der Niederbayerischen Thermengemeinschaft für den Zeitraum 01/2027 - 12/2028 als Spotmarktmodell mit Terminmarktanteil in 4 Losen",
+   "procuringEntity": {
+    "name": "Die Gesundheitsthermen , Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH",
+    "id": "DE130965350"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Füssing",
+      "region": "DE228",
+      "postalCode": "94072",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Griesbach i. Rottal",
+      "region": "DE228",
+      "postalCode": "94086",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Neustadt a.d.Donau",
+      "region": "DE226",
+      "postalCode": "93333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Birnbach",
+      "region": "DE22A",
+      "postalCode": "84364",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "enercity AG",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "enercity AG"
+     },
+     "address": {
+      "streetAddress": "Glockseeplatz 1",
+      "locality": "Hannover",
+      "region": "DE929",
+      "postalCode": "30169",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 Zweckverband Bad Füssing",
+     "description": "Lieferung Strom 2027-2028, ca. 10.836 MWh (1 RLM)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 Zweckverband Bad Griesbach",
+     "description": "Lieferung Strom 2027-2028, ca. 4.268 MWh (1 RLM)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3 Zweckverband Bad Gögging",
+     "description": "Lieferung Strom 2027-2028, ca. 1.242 MWh (2 RLM)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Los 4 Zweckverband Thermalbad Birnbach",
+     "description": "Lieferung Strom 2027-2028, ca. 2.080 MWh (1 RLM, 2 SLP)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   },
+   {
+    "id": "LOT-0004",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0004"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0004",
+    "awardID": "CON-0004",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "505ebb78-302d-4702-896a-7c2ab2769063",
+  "version": "01",
+  "title": "Grünstromlieferung für die Thermen der Niederbayerischen Thermengemeinschaft in 2027 und 2028",
+  "description": "Lieferung von Grünstrom für die Thermen der Niederbayerischen Thermengemeinschaft für den Zeitraum 01/2027 - 12/2028 als Spotmarktmodell mit Terminmarktanteil in 4 Losen",
+  "procedureType": "open",
+  "nuts": [
+   "DE228",
+   "DE226",
+   "DE22A"
+  ],
+  "cpv": [
+   "09310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 Zweckverband Bad Füssing",
+    "description": "Lieferung Strom 2027-2028, ca. 10.836 MWh (1 RLM)",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE228"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 Zweckverband Bad Griesbach",
+    "description": "Lieferung Strom 2027-2028, ca. 4.268 MWh (1 RLM)",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE228"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3 Zweckverband Bad Gögging",
+    "description": "Lieferung Strom 2027-2028, ca. 1.242 MWh (2 RLM)",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE226"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Los 4 Zweckverband Thermalbad Birnbach",
+    "description": "Lieferung Strom 2027-2028, ca. 2.080 MWh (1 RLM, 2 SLP)",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE22A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

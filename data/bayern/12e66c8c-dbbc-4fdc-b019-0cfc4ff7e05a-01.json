@@ -1,0 +1,231 @@
+{
+ "id": "12e66c8c-dbbc-4fdc-b019-0cfc4ff7e05a-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "12e66c8c-dbbc-4fdc-b019-0cfc4ff7e05a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=12e66c8c-dbbc-4fdc-b019-0cfc4ff7e05a",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:12e66c8c-dbbc-4fdc-b019-0cfc4ff7e05a-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:12e66c8c-dbbc-4fdc-b019-0cfc4ff7e05a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/12e66c8c-dbbc-4fdc-b019-0cfc4ff7e05a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "REZ Bayern_45ind_JC Nürnberg Stadt",
+  "buyer": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+  "cpv": [
+   "80000000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-2473a4af-25b7-4e09-ad1c-ff06c72c2293",
+  "id": "12e66c8c-dbbc-4fdc-b019-0cfc4ff7e05a",
+  "date": "2026-10-20T10:04:15Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 100/104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "bfz gGmbH Mittelfranken",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE129514203_1",
+     "legalName": "bfz gGmbH Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Fürther Straße 212",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90429",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 100/104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "2473a4af-25b7-4e09-ad1c-ff06c72c2293",
+   "title": "REZ Bayern_45ind_JC Nürnberg Stadt",
+   "description": "Konzeption und Durchführung Individuelle Maßnahmekombination zur Aktivierung und beruflichen Eingliederung nach § 16 Absatz 1 SGB II in Verbindung mit § 45 Absatz 1 Satz 1 SGB III\nZEBRA - Zutrauen, Entwickeln, Beraten, Realisieren, Ankommen für insgesamt ca. 24 Teilnehmendenplätze im Bezirk des Jobcenters Nürnberg Stadt",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "80000000",
+      "description": "Education and training services"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "bfz gGmbH Mittelfranken",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "bfz gGmbH Mittelfranken"
+     },
+     "address": {
+      "streetAddress": "Fürther Straße 212",
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90429",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "REZ Bayern_45ind_JC Nürnberg Stadt",
+     "description": "REZ Bayern_45ind_JC Nürnberg Stadt",
+     "contractPeriod": {
+      "startDate": "2026-11-02T00:00:00+01:00",
+      "endDate": "2027-11-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-16T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-15T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "33",
+  "noticeId": "12e66c8c-dbbc-4fdc-b019-0cfc4ff7e05a",
+  "version": "01",
+  "title": "REZ Bayern_45ind_JC Nürnberg Stadt",
+  "description": "Konzeption und Durchführung Individuelle Maßnahmekombination zur Aktivierung und beruflichen Eingliederung nach § 16 Absatz 1 SGB II in Verbindung mit § 45 Absatz 1 Satz 1 SGB III\nZEBRA - Zutrauen, Entwickeln, Beraten, Realisieren, Ankommen für insgesamt ca. 24 Teilnehmendenplätze im Bezirk des Jobcenters Nürnberg Stadt",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "80000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "REZ Bayern_45ind_JC Nürnberg Stadt",
+    "description": "REZ Bayern_45ind_JC Nürnberg Stadt",
+    "cpv": [
+     "80000000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-02+01:00",
+    "plannedEnd": "2027-11-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

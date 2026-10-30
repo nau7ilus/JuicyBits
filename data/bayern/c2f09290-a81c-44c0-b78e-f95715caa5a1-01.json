@@ -1,0 +1,185 @@
+{
+ "id": "c2f09290-a81c-44c0-b78e-f95715caa5a1-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "c2f09290-a81c-44c0-b78e-f95715caa5a1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c2f09290-a81c-44c0-b78e-f95715caa5a1",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:c2f09290-a81c-44c0-b78e-f95715caa5a1-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:c2f09290-a81c-44c0-b78e-f95715caa5a1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c2f09290-a81c-44c0-b78e-f95715caa5a1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Küchentechnik",
+  "buyer": "Klinikverbund Allgäu gGmbH",
+  "cpv": [
+   "39221000"
+  ],
+  "nuts": [
+   "DE27C"
+  ],
+  "deadline": "2026-11-16T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-14486734-3963-45bc-986c-f42cbafa3cb0",
+  "id": "c2f09290-a81c-44c0-b78e-f95715caa5a1",
+  "date": "2026-10-18T19:12:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikverbund Allgäu gGmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "001",
+     "legalName": "Klinikverbund Allgäu gGmbH"
+    },
+    "address": {
+     "streetAddress": "Klinikverbund Allgäu gGmbH, Klinik Mindelheim, Bad Wörishofer Str. 44",
+     "locality": "Mindelheim",
+     "region": "DE27C",
+     "postalCode": "87719",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "002",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikverbund Allgäu gGmbH",
+   "id": "001",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikverbund Allgäu gGmbH"
+   },
+   "address": {
+    "streetAddress": "Klinikverbund Allgäu gGmbH, Klinik Mindelheim, Bad Wörishofer Str. 44",
+    "locality": "Mindelheim",
+    "region": "DE27C",
+    "postalCode": "87719",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "14486734-3963-45bc-986c-f42cbafa3cb0",
+   "title": "Küchentechnik",
+   "description": "siehe Ausschreibungsunterlagen",
+   "procuringEntity": {
+    "name": "Klinikverbund Allgäu gGmbH",
+    "id": "001"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39221000",
+      "description": "Kitchen equipment"
+     },
+     "deliveryAddress": {
+      "locality": "Mindelheim",
+      "region": "DE27C",
+      "postalCode": "87719",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331120",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Küchentechnik",
+     "description": "siehe Ausschreibungsunterlagen",
+     "contractPeriod": {
+      "startDate": "2027-01-18T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c2f09290-a81c-44c0-b78e-f95715caa5a1",
+  "version": "01",
+  "title": "Küchentechnik",
+  "description": "siehe Ausschreibungsunterlagen",
+  "procedureType": "open",
+  "nuts": [
+   "DE27C"
+  ],
+  "cpv": [
+   "39221000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Küchentechnik",
+    "description": "siehe Ausschreibungsunterlagen",
+    "cpv": [
+     "39221000"
+    ],
+    "nuts": [
+     "DE27C"
+    ],
+    "deadline": "2026-11-16T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-18+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "siehe Ausschreibungsunterlagen"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

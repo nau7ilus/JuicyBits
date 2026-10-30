@@ -197,6 +197,8 @@
   "noticeId": "3365c963-d23e-4bd3-a35b-6bba3bc1426c",
   "version": "01",
   "title": "Gymnasium Füssen - Innenputz- / Malerarbeiten BA 1-2",
+  "description": "Innenputz- / Malerarbeiten BA 1-2",
+  "procedureType": "open",
   "nuts": [
    "DE27B"
   ],
@@ -209,6 +211,7 @@
    {
     "id": "LOT-0000",
     "title": "Gymnasium Füssen - Innenputz- / Malerarbeiten BA 1-2",
+    "description": "- Ca. 650 m² Strukturierter Oberputz auf Grundputz inkl. vorbereitende Maßnahmen und Endbeschichtung\n- Ca. 1.000 m² Anstrich auf bestehendem strukturierten Oberputz inkl. vorbereitende Maßnahmen\n- Ca. 650 m² Spachtelarbeiten Wandflächen inkl. vorbereitende Maßnahmen und Endbeschichtung\n- 78 Stk. Anstrich Stahlumfassungszargen in verschiedenen Abmessungen\n- Diverse Ausbesserungsarbeiten im Bestand",
     "cpv": [
      "45410000",
      "45442110"
@@ -220,6 +223,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-03-08+01:00",
     "plannedEnd": "2028-02-11+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -243,7 +247,16 @@
       "type": "slc-suit-reg-trade",
       "description": "Erforderliche Angaben über die \"Eigenerklärung zur Eignung für nicht präqualifizierte Unternehmen\" bzw. Nachweis der Präqualifizierung."
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": ".",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

@@ -5,14 +5,14 @@
   "noticeId": "1042b7b7-94f8-4fd3-b572-fc8fb383d699",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1042b7b7-94f8-4fd3-b572-fc8fb383d699",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:1042b7b7-94f8-4fd3-b572-fc8fb383d699-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:1042b7b7-94f8-4fd3-b572-fc8fb383d699-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/1042b7b7-94f8-4fd3-b572-fc8fb383d699?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "BÜW Oberbau für GE Gablingen – Meitingen,  km 11,774 - 19,917 inkl. Leitende Bauüberwachung",
   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
   "cpv": [
@@ -195,5 +195,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "1042b7b7-94f8-4fd3-b572-fc8fb383d699",
+  "version": "01",
+  "title": "BÜW Oberbau für GE Gablingen – Meitingen,  km 11,774 - 19,917 inkl. Leitende Bauüberwachung",
+  "description": "Die Ausschreibung beinhaltet die Bauüberwachung Oberbau für die Gleiserneuerung auf der freien Strecke zwischen Gablingen und Meitingen von km 11,774 - 19,917.\n\nZusätzlich zur Schichtabdeckung wird die Leistung der Leitenden Bauüberwachung gefordert. Diese Leistung beinhaltet sämtliche Projektorganisation und -koordination sowie das Erstellen der Betra-Anträge, Durchführen von Besprechungen, Begehungen und sämtlicher Kommunikation mit allen Projektbeteiligten.",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE276"
+  ],
+  "cpv": [
+   "71521000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "BÜW Oberbau für GE Gablingen – Meitingen,  km 11,774 - 19,917 inkl. Leitende Bauüberwachung",
+    "description": "Die Ausschreibung beinhaltet die Bauüberwachung Oberbau für die Gleiserneuerung auf der freien Strecke zwischen Gablingen und Meitingen von km 11,774 - 19,917.\n\nZusätzlich zur Schichtabdeckung wird die Leistung der Leitenden Bauüberwachung gefordert. Diese Leistung beinhaltet sämtliche Projektorganisation und -koordination sowie das Erstellen der Betra-Anträge, Durchführen von Besprechungen, Begehungen und sämtlicher Kommunikation mit allen Projektbeteiligten.",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE276"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2027-10-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

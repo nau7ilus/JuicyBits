@@ -5,14 +5,14 @@
   "noticeId": "25974516",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25974516",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25974516-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25974516-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25974516?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "26-14-01b Tiefbau",
   "buyer": "Stadt Kulmbach, Marktplatz 1, 95326 Kulmbach, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.stadt-kulmbach.de",
   "cpv": [
@@ -24,7 +24,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-12-02T00:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -109,5 +109,49 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25974516",
+  "version": "1",
+  "title": "26-14-01b Tiefbau",
+  "description": "26-14-01b Tiefbau",
+  "procedureType": "de-restricted-wo-call",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "26-14-01b Tiefbau",
+    "description": "26-14-01b Tiefbau",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-12-02T00:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

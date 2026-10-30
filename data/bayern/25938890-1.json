@@ -1,0 +1,157 @@
+{
+ "id": "25938890-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25938890",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25938890",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25938890-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25938890-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25938890?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Stadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben",
+  "buyer": "Stadtwerke Krumbach (Schwaben)",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-26T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25938890",
+  "id": "25938890",
+  "date": "2026-10-16T07:01:18Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke Krumbach (Schwaben)",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadtwerke Krumbach (Schwaben)"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke Krumbach (Schwaben)",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadtwerke Krumbach (Schwaben)"
+   }
+  },
+  "tender": {
+   "title": "Stadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben",
+   "description": "Spezialtiefbauarbeiten, Brunnenbauarbeiten\n\nStadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben",
+   "procuringEntity": {
+    "name": "Stadtwerke Krumbach (Schwaben)"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "86381 Krumbach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/233761b2-3381-4b47-9da0-fbb502c014b5",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Stadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben",
+     "description": "Spezialtiefbauarbeiten, Brunnenbauarbeiten\n\nStadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25938890",
+  "version": "1",
+  "title": "Stadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben",
+  "description": "Spezialtiefbauarbeiten, Brunnenbauarbeiten\n\nStadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Stadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben",
+    "description": "Spezialtiefbauarbeiten, Brunnenbauarbeiten\n\nStadtwerke Krumbach, Sanierung von Quellfassungen am Zigeunergraben",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-26T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

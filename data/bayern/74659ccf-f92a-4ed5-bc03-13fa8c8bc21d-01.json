@@ -1,0 +1,493 @@
+{
+ "id": "74659ccf-f92a-4ed5-bc03-13fa8c8bc21d-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "74659ccf-f92a-4ed5-bc03-13fa8c8bc21d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=74659ccf-f92a-4ed5-bc03-13fa8c8bc21d",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:74659ccf-f92a-4ed5-bc03-13fa8c8bc21d-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:74659ccf-f92a-4ed5-bc03-13fa8c8bc21d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/74659ccf-f92a-4ed5-bc03-13fa8c8bc21d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung eines Löschgruppenfahrzeuges LF 10 mit Beladung für die Stadt Viechtach",
+  "buyer": "Stadt Viechtach",
+  "cpv": [
+   "34144213",
+   "35110000"
+  ],
+  "nuts": [
+   "DE229"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a5805dcd-51ec-44ea-8641-b071b67f3305",
+  "id": "74659ccf-f92a-4ed5-bc03-13fa8c8bc21d",
+  "date": "2026-10-17T15:34:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Viechtach",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09276144-94234-89",
+     "legalName": "Stadt Viechtach"
+    },
+    "address": {
+     "streetAddress": "Mönchshofstraße 31",
+     "locality": "Viechtach",
+     "region": "DE229",
+     "postalCode": "94234",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "VergSuedbayern80538",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Albert Ziegler GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "89537_Ziegler",
+     "legalName": "Albert Ziegler GmbH"
+    },
+    "address": {
+     "locality": "Giengen/Brenz",
+     "region": "DE11C",
+     "postalCode": "89537",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Sturm Feuerschutz GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "94209_Sturm",
+     "legalName": "Sturm Feuerschutz GmbH"
+    },
+    "address": {
+     "locality": "Regen",
+     "region": "DE229",
+     "postalCode": "94209",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Viechtach",
+   "id": "09276144-94234-89",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Viechtach"
+   },
+   "address": {
+    "streetAddress": "Mönchshofstraße 31",
+    "locality": "Viechtach",
+    "region": "DE229",
+    "postalCode": "94234",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a5805dcd-51ec-44ea-8641-b071b67f3305",
+   "title": "Lieferung eines Löschgruppenfahrzeuges LF 10 mit Beladung für die Stadt Viechtach",
+   "description": "Lieferung eines Löschgruppenfahrzeuges LF 10 mit Beladung in drei Losen, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-5, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis. ",
+   "procuringEntity": {
+    "name": "Stadt Viechtach",
+    "id": "09276144-94234-89"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Mönchshofstraße 31",
+      "locality": "Viechtach",
+      "region": "DE229",
+      "postalCode": "94234",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144213",
+      "description": "Fire engines"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Mönchshofstraße 31",
+      "locality": "Viechtach",
+      "region": "DE229",
+      "postalCode": "94234",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35110000",
+      "description": "Firefighting, rescue and safety equipment"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Mönchshofstraße 31",
+      "locality": "Viechtach",
+      "region": "DE229",
+      "postalCode": "94234",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "value": {
+    "amount": 487000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "Albert Ziegler GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Albert Ziegler GmbH"
+     },
+     "address": {
+      "locality": "Giengen/Brenz",
+      "region": "DE11C",
+      "postalCode": "89537",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Sturm Feuerschutz GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Sturm Feuerschutz GmbH"
+     },
+     "address": {
+      "locality": "Regen",
+      "region": "DE229",
+      "postalCode": "94209",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung eines Fahrgestells für ein Löschgruppenfahrzeug LF 10",
+     "description": "Lieferung eines Fahrgestells für ein Löschgruppenfahrzeug LF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-5, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+     "value": {
+      "amount": 109000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-09-02T00:00:00+02:00",
+      "endDate": "2028-07-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Lieferung eines Aufbaus für ein Löschgruppenfahrzeug LF 10",
+     "description": "Lieferung eines Aufbaus für ein Löschgruppenfahrzeug LF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-5, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+     "value": {
+      "amount": 336000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-09-02T00:00:00+02:00",
+      "endDate": "2028-07-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Lieferung der Beladung für ein Löschgruppenfahrzeug LF 10",
+     "description": "Lieferung der Beladung für ein Löschgruppenfahrzeug LF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-5, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+     "value": {
+      "amount": 42000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-09-02T00:00:00+02:00",
+      "endDate": "2028-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 116371,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 320097,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "value": {
+     "amount": 36800,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "74659ccf-f92a-4ed5-bc03-13fa8c8bc21d",
+  "version": "01",
+  "title": "Lieferung eines Löschgruppenfahrzeuges LF 10 mit Beladung für die Stadt Viechtach",
+  "description": "Lieferung eines Löschgruppenfahrzeuges LF 10 mit Beladung in drei Losen, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-5, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+  "procedureType": "open",
+  "nuts": [
+   "DE229"
+  ],
+  "cpv": [
+   "34144213",
+   "35110000"
+  ],
+  "estimatedValue": {
+   "amount": 487000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung eines Fahrgestells für ein Löschgruppenfahrzeug LF 10",
+    "description": "Lieferung eines Fahrgestells für ein Löschgruppenfahrzeug LF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-5, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144213"
+    ],
+    "nuts": [
+     "DE229"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-02+02:00",
+    "plannedEnd": "2028-07-31+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 109000,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Lieferung eines Aufbaus für ein Löschgruppenfahrzeug LF 10",
+    "description": "Lieferung eines Aufbaus für ein Löschgruppenfahrzeug LF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-5, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "34144213"
+    ],
+    "nuts": [
+     "DE229"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-02+02:00",
+    "plannedEnd": "2028-07-31+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 336000,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Lieferung der Beladung für ein Löschgruppenfahrzeug LF 10",
+    "description": "Lieferung der Beladung für ein Löschgruppenfahrzeug LF 10, wobei Los Fahrgestell und Los Aufbau miteinander anzubieten sind, gem. DIN 14530-5, Din EN 1846-1 bis -3, DIN 14502 Teil 1-3 und dem Leistungsverzeichnis.",
+    "cpv": [
+     "35110000"
+    ],
+    "nuts": [
+     "DE229"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-02+02:00",
+    "plannedEnd": "2028-07-31+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 42000,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

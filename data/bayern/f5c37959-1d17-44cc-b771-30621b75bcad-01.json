@@ -5,14 +5,14 @@
   "noticeId": "f5c37959-1d17-44cc-b771-30621b75bcad",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f5c37959-1d17-44cc-b771-30621b75bcad",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:f5c37959-1d17-44cc-b771-30621b75bcad-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:f5c37959-1d17-44cc-b771-30621b75bcad-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/f5c37959-1d17-44cc-b771-30621b75bcad?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Schlosserarbeiten, außen",
   "buyer": "Landeshauptstadt München, Baureferat",
   "cpv": [
@@ -221,5 +221,50 @@
    }
   ]
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "f5c37959-1d17-44cc-b771-30621b75bcad",
+  "version": "01",
+  "title": "Schlosserarbeiten, außen",
+  "description": "Campus Ost, Sportcampus \nFehwiesenstr. 115-117\nVE: Schlosserarbeiten, außen\neinschl. aufgeständerte Gitterrost- und Betonplattenbeläge im Außenbereich, Geländerkonstruktion mit Seilnetzfüllung und Sitzbänke",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schlosserarbeiten, außen",
+    "description": "Campus Ost, Sportcampus \nFehwiesenstr. 115-117\nVE: Schlosserarbeiten, außen\neinschl. aufgeständerte Gitterrost- und Betonplattenbeläge im Außenbereich, Geländerkonstruktion mit Seilnetzfüllung und Sitzbänke",
+    "cpv": [
+     "45262670"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-12+01:00",
+    "plannedEnd": "2027-04-20+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

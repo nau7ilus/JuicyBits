@@ -1,0 +1,145 @@
+{
+ "id": "25959358-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25959358",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25959358",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25959358-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25959358-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25959358?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Wartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule",
+  "buyer": "Bezirk Oberbayern",
+  "cpv": [
+   "50710000",
+   "50413100"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-11T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25959358",
+  "id": "25959358",
+  "date": "2026-10-22T07:00:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bezirk Oberbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Bezirk Oberbayern"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bezirk Oberbayern",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bezirk Oberbayern"
+   }
+  },
+  "tender": {
+   "title": "Wartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule",
+   "description": "Gegenstand der Ausschreibung ist die regelmäßige Wartung und Prüfung der MSR-Anlagen, Brandschutzklappen, Volumenstromregler/Messkreuze sowie Gaswarnanlagen der Anni-Braun-Schule in München.\n\nWartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule",
+   "procuringEntity": {
+    "name": "Bezirk Oberbayern"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "50710000",
+      "description": "Repair and maintenance services of electrical and mechanical building installations"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "50413100",
+       "description": "Repair and maintenance services of gas-detection equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "81929 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/cafaabe1-8a4c-422f-9f37-020017a57c26",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Wartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule",
+     "description": "Gegenstand der Ausschreibung ist die regelmäßige Wartung und Prüfung der MSR-Anlagen, Brandschutzklappen, Volumenstromregler/Messkreuze sowie Gaswarnanlagen der Anni-Braun-Schule in München.\n\nWartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25959358",
+  "version": "1",
+  "title": "Wartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule",
+  "description": "Gegenstand der Ausschreibung ist die regelmäßige Wartung und Prüfung der MSR-Anlagen, Brandschutzklappen, Volumenstromregler/Messkreuze sowie Gaswarnanlagen der Anni-Braun-Schule in München.\n\nWartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "50710000",
+   "50413100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Wartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule",
+    "description": "Gegenstand der Ausschreibung ist die regelmäßige Wartung und Prüfung der MSR-Anlagen, Brandschutzklappen, Volumenstromregler/Messkreuze sowie Gaswarnanlagen der Anni-Braun-Schule in München.\n\nWartung der MSR- und gebäudetechnischen Anlagen der Anni-Braun-Schule",
+    "cpv": [
+     "50710000",
+     "50413100"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-11T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

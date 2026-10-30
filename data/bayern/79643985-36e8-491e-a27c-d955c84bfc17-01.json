@@ -1,0 +1,262 @@
+{
+ "id": "79643985-36e8-491e-a27c-d955c84bfc17-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "79643985-36e8-491e-a27c-d955c84bfc17",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=79643985-36e8-491e-a27c-d955c84bfc17",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:79643985-36e8-491e-a27c-d955c84bfc17-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:79643985-36e8-491e-a27c-d955c84bfc17-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/79643985-36e8-491e-a27c-d955c84bfc17?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "26DE Fachplanung TGA",
+  "buyer": "Staatliches Bauamt Bayreuth",
+  "cpv": [
+   "71300000"
+  ],
+  "nuts": [
+   "DE242",
+   "DE244"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ce8a99e0-491c-4224-9b31-5f68cb09208f",
+  "id": "79643985-36e8-491e-a27c-d955c84bfc17",
+  "date": "2026-10-20T10:04:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Bayreuth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Tel.-Nr.: [Telefon entfernt]",
+     "legalName": "Staatliches Bauamt Bayreuth"
+    },
+    "address": {
+     "streetAddress": "Wilhelminenstraße 2",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95444",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern- Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID: DE 811 335 517",
+     "legalName": "Vergabekammer Nordbayern- Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "I.B.I.G Ingenieurbüro",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE199409837",
+     "legalName": "I.B.I.G Ingenieurbüro"
+    },
+    "address": {
+     "streetAddress": "Frauenrichter Straße 12",
+     "locality": "Weiden",
+     "region": "DE233",
+     "postalCode": "92637",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Bayreuth",
+   "id": "Tel.-Nr.: [Telefon entfernt]",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Bayreuth"
+   },
+   "address": {
+    "streetAddress": "Wilhelminenstraße 2",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95444",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ce8a99e0-491c-4224-9b31-5f68cb09208f",
+   "title": "26DE Fachplanung TGA",
+   "description": "Fachplanung Technische Gebäudeausrüstung für die AGR 1, 2, 3 für die brandschutztechnische Sanierung des Dienstgebäudes WWA Hof",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71300000",
+      "description": "Engineering services"
+     },
+     "deliveryAddress": {
+      "locality": "Hof",
+      "region": "DE244",
+      "postalCode": "95030",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-19T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "I.B.I.G Ingenieurbüro",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "I.B.I.G Ingenieurbüro"
+     },
+     "address": {
+      "streetAddress": "Frauenrichter Straße 12",
+      "locality": "Weiden",
+      "region": "DE233",
+      "postalCode": "92637",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "26DE Fachplanung TGA",
+     "description": "Fachplanung Technische Gebäudeausrüstung für die AGR 1, 2, 3 für die brandschutztechnische Sanierung des Dienstgebäudes WWA Hof"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "26DE Fachplanung TGA",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "I.B.I.G Ingenieurbüro",
+      "id": "DE199409837",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "I.B.I.G Ingenieurbüro"
+      },
+      "address": {
+       "streetAddress": "Frauenrichter Straße 12",
+       "locality": "Weiden",
+       "region": "DE233",
+       "postalCode": "92637",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "26DE Fachplanung TGA",
+    "status": "active",
+    "value": {
+     "amount": 203941.45,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "79643985-36e8-491e-a27c-d955c84bfc17",
+  "version": "01",
+  "title": "26DE Fachplanung TGA",
+  "description": "Fachplanung Technische Gebäudeausrüstung für die AGR 1, 2, 3 für die brandschutztechnische Sanierung des Dienstgebäudes WWA Hof",
+  "procedureType": "open",
+  "nuts": [
+   "DE244"
+  ],
+  "cpv": [
+   "71300000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "26DE Fachplanung TGA",
+    "description": "Fachplanung Technische Gebäudeausrüstung für die AGR 1, 2, 3 für die brandschutztechnische Sanierung des Dienstgebäudes WWA Hof",
+    "cpv": [
+     "71300000"
+    ],
+    "nuts": [
+     "DE244"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "gem. Zuschlagskriterien",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "gem. Zuschlagskriterien",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

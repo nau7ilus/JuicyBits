@@ -1,0 +1,254 @@
+{
+ "id": "331fe7ed-013b-451c-a341-f0ce9b6b87f5-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "331fe7ed-013b-451c-a341-f0ce9b6b87f5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=331fe7ed-013b-451c-a341-f0ce9b6b87f5",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:331fe7ed-013b-451c-a341-f0ce9b6b87f5-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:331fe7ed-013b-451c-a341-f0ce9b6b87f5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/331fe7ed-013b-451c-a341-f0ce9b6b87f5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "buyer": "Gemeinde Muhr a.See",
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "nuts": [
+   "DE25C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4804dda0-71c6-4eb5-bedb-5eee200e9651",
+  "id": "331fe7ed-013b-451c-a341-f0ce9b6b87f5",
+  "date": "2026-10-22T02:10:15Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Muhr a.See",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09577114",
+     "legalName": "Gemeinde Muhr a.See"
+    },
+    "address": {
+     "streetAddress": "Rosenau 1",
+     "locality": "Muhr a.See",
+     "region": "DE25C",
+     "postalCode": "91735",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09035800261",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Telekom Deutschland GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB 5919",
+     "legalName": "Telekom Deutschland GmbH"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53227",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Muhr a.See",
+   "id": "09577114",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Muhr a.See"
+   },
+   "address": {
+    "streetAddress": "Rosenau 1",
+    "locality": "Muhr a.See",
+    "region": "DE25C",
+    "postalCode": "91735",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4804dda0-71c6-4eb5-bedb-5eee200e9651",
+   "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+   "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 30.04.2024 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+   "procuringEntity": {
+    "name": "Gemeinde Muhr a.See",
+    "id": "09577114"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Rosenau 1",
+      "locality": "Muhr a.See",
+      "region": "DE25C",
+      "postalCode": "91735",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Telekom Deutschland GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Telekom Deutschland GmbH"
+     },
+     "address": {
+      "locality": "Bonn",
+      "region": "DEA22",
+      "postalCode": "53227",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) - Lückenschlussprogramm Aufruf 2024",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 30.04.2024 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adresse beträgt 9 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-09T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 25576.73,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "32",
+  "noticeId": "331fe7ed-013b-451c-a341-f0ce9b6b87f5",
+  "version": "01",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 30.04.2024 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+  "procedureType": null,
+  "nuts": [
+   "DE25C"
+  ],
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) - Lückenschlussprogramm Aufruf 2024",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 30.04.2024 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adresse beträgt 9 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE25C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

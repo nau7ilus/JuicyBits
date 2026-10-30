@@ -1,0 +1,261 @@
+{
+ "id": "99de38d3-38de-4011-9db4-0bd9a2a4dd0a-02",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "99de38d3-38de-4011-9db4-0bd9a2a4dd0a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=99de38d3-38de-4011-9db4-0bd9a2a4dd0a",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:99de38d3-38de-4011-9db4-0bd9a2a4dd0a-02.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:99de38d3-38de-4011-9db4-0bd9a2a4dd0a-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/99de38d3-38de-4011-9db4-0bd9a2a4dd0a?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Fraunhofer-Gesellschaft 80-00031-2800-A Objektplanung Gebäude - Rahmenvereinbarung",
+  "buyer": "Fraunhofer-Gesellschaft e.V. - Vergabestelle Bau",
+  "cpv": [
+   "71200000"
+  ],
+  "nuts": [
+   "DE212",
+   "DED21",
+   "DED2E",
+   "DED45"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1861e189-f84e-452a-98e6-d0981def072b",
+  "id": "99de38d3-38de-4011-9db4-0bd9a2a4dd0a",
+  "date": "2026-10-17T13:18:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft e.V. - Vergabestelle Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "5517",
+     "legalName": "Fraunhofer-Gesellschaft e.V. - Vergabestelle Bau"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes beim Bundeskartellamt",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "1d0a013c-da7b-4764-9701-771afbd4783c",
+     "legalName": "Vergabekammer des Bundes beim Bundeskartellamt"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "heinlewischer Partnerschaft freier Architekten",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE147513006",
+     "legalName": "heinlewischer Partnerschaft freier Architekten"
+    },
+    "address": {
+     "locality": "Dresden",
+     "region": "DED21",
+     "postalCode": "01067",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft e.V. - Vergabestelle Bau",
+   "id": "5517",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Fraunhofer-Gesellschaft e.V. - Vergabestelle Bau"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1861e189-f84e-452a-98e6-d0981def072b",
+   "title": "Fraunhofer-Gesellschaft 80-00031-2800-A Objektplanung Gebäude - Rahmenvereinbarung",
+   "description": "Ausschreibung für eine Rahmenvereinbarung für die Objektplanung für Gebäude und Innenräume",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft e.V. - Vergabestelle Bau",
+    "id": "5517"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "deliveryAddress": {
+      "region": "DED21",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "heinlewischer Partnerschaft freier Architekten",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "heinlewischer Partnerschaft freier Architekten"
+     },
+     "address": {
+      "locality": "Dresden",
+      "region": "DED21",
+      "postalCode": "01067",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fraunhofer-Gesellschaft 80-00031-2800-A Objektplanung Gebäude - Rahmenvereinbarung",
+     "description": "Ausschreibung für eine Rahmenvereinbarung für die Objektplanung für Gebäude und Innenräume mit Leistungen für Neubauten, Erweiterungsbauten, Umbauten, Modernisierungen, Instandsetzungen und Instandhaltungen.\nEs wird ein fachkundiges, mit dem Bauen im Bestand vertrautes und im Umgang mit hochtechnisierten Gebäuden erfahrenes Planungsbüro gesucht.\nDer überwiegende Anteil der Baumaßnahmen wird im Bestand und im laufenden Betrieb durchgeführt werden. Die Bestandsgebäude mit den technischen Anlagen sind unterschiedlichen Alters, in der Regel Sonderbauten und werden als Forschungseinrichtungen, Laborgebäude und Bürogebäude genutzt.\nAbrufberechtigt für die Zeitdauer der Rahmenvereinbarung sind neun Fraunhofer-Institute der Region 11_01, die folgende Standorte und damit Ausführungsorte umfasst: Moritzburg, Dresden, Zwickau\nNeue Institute oder Institutsteile die geografisch der Region zugeordnet werden, können ebenfalls Leistungen aus der Rahmenvereinbarung abrufen.\n\nVertrag:\nAbschluss einer Rahmenvereinbarung für die Durchführung von Bauplanungsleistungen im Bereich >Objektplanung Gebäude<, Gesamtkosten KG 200-700 (ohne Erstausstattung) je Abruf max. 999.999,00 € netto (ohne Mehrwertsteuer).\n\nFestpreisvertrag! Honorar gemäß HOAI entsprechend den Musterverträgen der RBBau. Stufenweise Beauftragung der Leistungsphasen 2-4 und 5-8 HOAI entsprechend den Musterverträgen der RBBau.\nHonorarzone (§35 HOAI): 3 und 4, Honorarsatz (§35 HOAI): Basishonorarsatz\n\nVertragslaufzeit:\nGrundlaufzeit: 2 Jahre\nOptionale Verlängerung 1 x 2 Jahre\n\nAuftragsvolumen:\nDas maximale Auftragsvolumen für alle Einzelabrufe (kumuliert) beträgt EUR 500.000 zuzüglich gesetzlicher Umsatzsteuer\n\nDie Gültigkeit des Rahmenvertrags endet mit Ablauf der Vertragslaufzeit oder mit Erreichen des maximalen Auftragsvolumens. Es gilt das früher eintretende Ereignis.\n\nHöhe der Nebenkosten: gem. RIFT-Bund in aktuellster Fassung\nUmbauzuschlag: Der Umbauzuschlag berechnet sich gem. AHO Schriftenreihe \"\"HOAI - Planen und Bauen im Bestand\"\" in der aktuellsten Fassung\nDie mitzuverarbeitende Bausubstanz wird wie folgt vergütet: die mitzuverarbeitende Bausubstanz ist in Form eines erhöhten Umbauzuschlag bereits berücksichtigt und damit abgegolten."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-08T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 500000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-07T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "99de38d3-38de-4011-9db4-0bd9a2a4dd0a",
+  "version": "02",
+  "title": "Fraunhofer-Gesellschaft 80-00031-2800-A Objektplanung Gebäude - Rahmenvereinbarung",
+  "description": "Ausschreibung für eine Rahmenvereinbarung für die Objektplanung für Gebäude und Innenräume",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DED2E",
+   "DED21",
+   "DED45"
+  ],
+  "cpv": [
+   "71200000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fraunhofer-Gesellschaft 80-00031-2800-A Objektplanung Gebäude - Rahmenvereinbarung",
+    "description": "Ausschreibung für eine Rahmenvereinbarung für die Objektplanung für Gebäude und Innenräume mit Leistungen für Neubauten, Erweiterungsbauten, Umbauten, Modernisierungen, Instandsetzungen und Instandhaltungen.\nEs wird ein fachkundiges, mit dem Bauen im Bestand vertrautes und im Umgang mit hochtechnisierten Gebäuden erfahrenes Planungsbüro gesucht.\nDer überwiegende Anteil der Baumaßnahmen wird im Bestand und im laufenden Betrieb durchgeführt werden. Die Bestandsgebäude mit den technischen Anlagen sind unterschiedlichen Alters, in der Regel Sonderbauten und werden als Forschungseinrichtungen, Laborgebäude und Bürogebäude genutzt.\nAbrufberechtigt für die Zeitdauer der Rahmenvereinbarung sind neun Fraunhofer-Institute der Region 11_01, die folgende Standorte und damit Ausführungsorte umfasst: Moritzburg, Dresden, Zwickau\nNeue Institute oder Institutsteile die geografisch der Region zugeordnet werden, können ebenfalls Leistungen aus der Rahmenvereinbarung abrufen.\n\nVertrag:\nAbschluss einer Rahmenvereinbarung für die Durchführung von Bauplanungsleistungen im Bereich >Objektplanung Gebäude<, Gesamtkosten KG 200-700 (ohne Erstausstattung) je Abruf max. 999.999,00 € netto (ohne Mehrwertsteuer).\n\nFestpreisvertrag! Honorar gemäß HOAI entsprechend den Musterverträgen der RBBau. Stufenweise Beauftragung der Leistungsphasen 2-4 und 5-8 HOAI entsprechend den Musterverträgen der RBBau.\nHonorarzone (§35 HOAI): 3 und 4, Honorarsatz (§35 HOAI): Basishonorarsatz\n\nVertragslaufzeit:\nGrundlaufzeit: 2 Jahre\nOptionale Verlängerung 1 x 2 Jahre\n\nAuftragsvolumen:\nDas maximale Auftragsvolumen für alle Einzelabrufe (kumuliert) beträgt EUR 500.000 zuzüglich gesetzlicher Umsatzsteuer\n\nDie Gültigkeit des Rahmenvertrags endet mit Ablauf der Vertragslaufzeit oder mit Erreichen des maximalen Auftragsvolumens. Es gilt das früher eintretende Ereignis.\n\nHöhe der Nebenkosten: gem. RIFT-Bund in aktuellster Fassung\nUmbauzuschlag: Der Umbauzuschlag berechnet sich gem. AHO Schriftenreihe \"\"HOAI - Planen und Bauen im Bestand\"\" in der aktuellsten Fassung\nDie mitzuverarbeitende Bausubstanz wird wie folgt vergütet: die mitzuverarbeitende Bausubstanz ist in Form eines erhöhten Umbauzuschlag bereits berücksichtigt und damit abgegolten.",
+    "cpv": [
+     "71200000"
+    ],
+    "nuts": [
+     "DED21"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Herangehensweise an die Aufgabe und zu erwartende Leistung\n* Erkennen der Aufgabenstellung aus der Aufgabenbeschreibung mit Darstellung der besonderen Herausforderungen des Bauens in einem bestehenden Institutsumfeld bei Sanierungen, Umbauten, Erweiterungs- und Neubauten  (25)\n* Darstellung der Umsetzung und Lösung der erkannten Herausforderungen hinsichtlich gestalterischer Qualität, Funktionalität, Innvation, techn. Realisierbarkeit, Wirtschaftlichkeit, insbes. Nachhaltigkeit (mit Darstellung integraler Planung) anhand geeigneter Referenzprojekte  (25)",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "\"Projektabwicklung\n* Darstellung der Projektstruktur und Zusammenarbeit bei der Abwicklung mit Schnittstellen zum Auftraggeber, anderen Planungsbeteiligten und Behörden  (10)\n* spezielle Maßnahemn und Instrumente zur Einhaltung von Kosten, Qualität und Terminen, auch in der Zusammenarbeit mit den weiteren Projektbeteiligten  (10)",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Gesamteindruck\nsoziale Interaktion im Team, Urteils- und Entscheidungfähigkeit, Auslastung und Verfügbarkeit",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Projektverantwortliche\n* Projektleitung: Vermittlung der eigenen fachlichen Kompetenz im Gespräch  (15)\n* Objektüberwachung: Vermittlung der eigenen fachlichen Kompetenz im Gespräch  (10)",
+      "weight": 25
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "kein Preiskriterium",
+      "weight": 0
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

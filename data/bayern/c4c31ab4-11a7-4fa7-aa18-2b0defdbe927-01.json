@@ -1,0 +1,445 @@
+{
+ "id": "c4c31ab4-11a7-4fa7-aa18-2b0defdbe927-01",
+ "source": {
+  "pubDay": "2026-10-19",
+  "noticeId": "c4c31ab4-11a7-4fa7-aa18-2b0defdbe927",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c4c31ab4-11a7-4fa7-aa18-2b0defdbe927",
+  "ocdsFile": "notices_2026-10-19_OCDS.zip:c4c31ab4-11a7-4fa7-aa18-2b0defdbe927-01.json",
+  "eformsFile": "notices_2026-10-19_eForms.zip:c4c31ab4-11a7-4fa7-aa18-2b0defdbe927-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c4c31ab4-11a7-4fa7-aa18-2b0defdbe927?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lieferung von Ökostrom für die Regiebetriebe des Bezirk Niederbayern in 2027 und 2028 ",
+  "buyer": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH",
+  "cpv": [
+   "09310000"
+  ],
+  "nuts": [
+   "DE221",
+   "DE222",
+   "DE223",
+   "DE229",
+   "DE224",
+   "DE227"
+  ],
+  "deadline": "2026-11-16T13:00:00+01:00",
+  "lots": 5
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-704d9eba-98c1-4c67-a39a-9ff112b2bd76",
+  "id": "c4c31ab4-11a7-4fa7-aa18-2b0defdbe927",
+  "date": "2026-10-19T09:24:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:087197512100",
+     "legalName": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH"
+    },
+    "address": {
+     "streetAddress": "Am Lurzenhof 15",
+     "locality": "Landshut",
+     "region": "DE221",
+     "postalCode": "84036",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Bundeskanzlerpl. 1",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH",
+   "id": "t:087197512100",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH"
+   },
+   "address": {
+    "streetAddress": "Am Lurzenhof 15",
+    "locality": "Landshut",
+    "region": "DE221",
+    "postalCode": "84036",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "704d9eba-98c1-4c67-a39a-9ff112b2bd76",
+   "title": "Lieferung von Ökostrom für die Regiebetriebe des Bezirk Niederbayern in 2027 und 2028 ",
+   "description": "Lieferung von 16.881 MWh elektrische Energie für die Jahre 2027 und 2028 als Tranchenmodell bzw. Festpreismodell",
+   "procuringEntity": {
+    "name": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH",
+    "id": "t:087197512100"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94032",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Straubing",
+      "region": "DE223",
+      "postalCode": "94315",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Landshut",
+      "region": "DE221",
+      "postalCode": "84036",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Landshut",
+      "region": "DE221",
+      "postalCode": "84034",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "locality": "Bischofsmais",
+      "region": "DE229",
+      "postalCode": "94253",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.vea-ausschreibungen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a111ef96aa-5f543ca35351d3e2",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.vea-ausschreibungen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a111ef96aa-5f543ca35351d3e2",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.vea-ausschreibungen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a111ef96aa-5f543ca35351d3e2",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.vea-ausschreibungen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a111ef96aa-5f543ca35351d3e2",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://www.vea-ausschreibungen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a111ef96aa-5f543ca35351d3e2",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Ökostromlieferung BK Passau & BK Mainkofen",
+     "description": "Lieferung Ökostrom 01/2025 bis 12/2026 ca. 10.589 MWh (3 RLM-Marktlokationen)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Ökostromlieferung BK Straubing & IHS Straubing",
+     "description": "Lieferung Ökostrom 01/2027 bis 12/2028 ca. 1.798 MWh (2 RLM-Marktlokationen)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Ökostromlieferung ABZ Landshut",
+     "description": "Lieferung Ökostrom 01/2025 bis 12/2026 ca. 248 MWh/a (1 RLM-Marktlokation)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Ökostromlieferung Standorte BK Landshut, Bezirksverwaltung & LBB Deutenkofen",
+     "description": "Ökostromlieferung Standorte BK Landshut-Schönbrunn, Bezirksverwaltung und Lehr- und Beispielsbetrieb Deutenkofen",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Ökostromlieferung Standorte Bischofsmais & Lindbergmühle",
+     "description": "Lieferung Ökostrom 01/2027 bis 12/2028 ca. 295 MWh (1 RLM- und 3 SLP-Marktlokationen)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 5,
+    "maximumLotsAwardedPerSupplier": 5
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c4c31ab4-11a7-4fa7-aa18-2b0defdbe927",
+  "version": "01",
+  "title": "Lieferung von Ökostrom für die Regiebetriebe des Bezirk Niederbayern in 2027 und 2028",
+  "description": "Lieferung von 16.881 MWh elektrische Energie für die Jahre 2027 und 2028 als Tranchenmodell bzw. Festpreismodell",
+  "procedureType": "open",
+  "nuts": [
+   "DE221",
+   "DE222",
+   "DE224",
+   "DE223",
+   "DE227",
+   "DE229"
+  ],
+  "cpv": [
+   "09310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Ökostromlieferung BK Passau & BK Mainkofen",
+    "description": "Lieferung Ökostrom 01/2025 bis 12/2026 ca. 10.589 MWh (3 RLM-Marktlokationen)",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE222",
+     "DE224"
+    ],
+    "deadline": "2026-11-16T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Ökostromlieferung BK Straubing & IHS Straubing",
+    "description": "Lieferung Ökostrom 01/2027 bis 12/2028 ca. 1.798 MWh (2 RLM-Marktlokationen)",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE223"
+    ],
+    "deadline": "2026-11-16T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Ökostromlieferung ABZ Landshut",
+    "description": "Lieferung Ökostrom 01/2025 bis 12/2026 ca. 248 MWh/a (1 RLM-Marktlokation)",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE221"
+    ],
+    "deadline": "2026-11-16T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Ökostromlieferung Standorte BK Landshut, Bezirksverwaltung & LBB Deutenkofen",
+    "description": "Ökostromlieferung Standorte BK Landshut-Schönbrunn, Bezirksverwaltung und Lehr- und Beispielsbetrieb Deutenkofen",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE221",
+     "DE227"
+    ],
+    "deadline": "2026-11-16T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Ökostromlieferung Standorte Bischofsmais & Lindbergmühle",
+    "description": "Lieferung Ökostrom 01/2027 bis 12/2028 ca. 295 MWh (1 RLM- und 3 SLP-Marktlokationen)",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE229"
+    ],
+    "deadline": "2026-11-16T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

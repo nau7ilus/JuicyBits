@@ -1,0 +1,247 @@
+{
+ "id": "4c7b7869-ea6d-463d-91bb-27b40e1345c4-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "4c7b7869-ea6d-463d-91bb-27b40e1345c4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4c7b7869-ea6d-463d-91bb-27b40e1345c4",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:4c7b7869-ea6d-463d-91bb-27b40e1345c4-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:4c7b7869-ea6d-463d-91bb-27b40e1345c4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4c7b7869-ea6d-463d-91bb-27b40e1345c4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Online-Umfrageplattform ZKM",
+  "buyer": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+  "cpv": [
+   "72000000"
+  ],
+  "nuts": [
+   "DE254",
+   "DEZZZ"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d6ec1b9e-35ad-421b-9c5b-31b2531eb992",
+  "id": "4c7b7869-ea6d-463d-91bb-27b40e1345c4",
+  "date": "2026-10-27T03:08:09Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Ingress GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE814213130",
+     "legalName": "Ingress GmbH"
+    },
+    "address": {
+     "streetAddress": "Weidestr. 122a",
+     "locality": "Hamburg",
+     "region": "DE600",
+     "postalCode": "22083",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d6ec1b9e-35ad-421b-9c5b-31b2531eb992",
+   "title": "Online-Umfrageplattform ZKM",
+   "description": "Zeitlich befristeter Zugang zu einer Umfrageplattform für Onlinebefragungen (SaaS Lösung) mit DL-Kontingent inkl. Betriebsservices",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000",
+      "description": "IT services: consulting, software development, Internet and support"
+     },
+     "deliveryAddress": {
+      "locality": "Bundesweit",
+      "region": "DEZZZ",
+      "postalCode": "00000",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Ingress GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Ingress GmbH"
+     },
+     "address": {
+      "streetAddress": "Weidestr. 122a",
+      "locality": "Hamburg",
+      "region": "DE600",
+      "postalCode": "22083",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Online-Umfrageplattform ZKM",
+     "description": "Zielsetzung der Beschaffung ist die weitere Durchführung webbasierter Online-Befragungen bei Kunden sowie Mitarbeitenden der BA sowie Erwerbstätigen am deutschen Arbeitsmarkt, mithilfe einer extern gehosteten Online-Befragungsplattform.\n\nZur Evaluation der Qualität der internen, wie auch externen Leistungen der BA benötigt die BA ein webbasiertes Umfragecenter, das extern beim Auftragnehmer in einem zertifizierten Rechenzentrum in Deutschland gehostet wird.\nEntsprechend der Verfahren im ZKM und IAB, um Befragte zu kontaktieren, ist es notwendig, dass der Zugriff der Nutzer auf die Umfrageplattform durch die Verwendung unterschiedlicher Domains bzw. Subdomains erfolgt. Zu den Aufgaben des Auftragnehmer gehört daher die technische Registrierung der Domains inklusive Sub-Domains im Namen der BA bzw. des IAB. Am Ende der Vertragslaufzeit verbleiben die Domains inklusive aller Subdomains bei der BA.\n\nNicht-optionale Leistungen:\n• Zeitlich befristeter Zugang zu einer SaaS Lösung inkl. Betriebsservices + Bereitstellung\n• Exit Management Konzept\n\nOptionale Leistungen:\n• Einmalige 12-monatige Verlängerung des zeitlich befristeten Zugangs einer SaaS Lösung inkl. Betriebsservices + Bereitstellung der Umfrageplattform\n• Dashboard\n• Dashboard Verlängerungsoption\n• Bereitstellung sowie Betriebsservices der laufenden Befragungen mit Panelfunktionalität (inkl. zugehöriger Online-Portale), siehe Kap. 2.1.9\n• Zeitlich befristeter Zugang inkl. Betriebsservices der laufenden Befragungen mit Panelfunktionalität (inkl. zugehöriger Online-Portale), Verlängerungsoption\n• Schulungen\n• Dienstleistungskontingent\n• Dienstleistungskontingent Panelfunktionalität\n• Exit Management Leistungen\n\nDie geschätzte Abrufmenge über den gesamten Vertragszeitraum hinweg beträgt ca. 75 Personentage. Ein Personentag entspricht dabei 8 Personenstunden, d.h. insgesamt 600 Personenstunden.\nZusätzlich können bis zu 200 Personenstunden für Weiterentwicklungen an Panelfunktionen abgerufen werden",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "4c7b7869-ea6d-463d-91bb-27b40e1345c4",
+  "version": "01",
+  "title": "Online-Umfrageplattform ZKM",
+  "description": "Zeitlich befristeter Zugang zu einer Umfrageplattform für Onlinebefragungen (SaaS Lösung) mit DL-Kontingent inkl. Betriebsservices",
+  "procedureType": "open",
+  "nuts": [
+   "DEZZZ"
+  ],
+  "cpv": [
+   "72000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Online-Umfrageplattform ZKM",
+    "description": "Zielsetzung der Beschaffung ist die weitere Durchführung webbasierter Online-Befragungen bei Kunden sowie Mitarbeitenden der BA sowie Erwerbstätigen am deutschen Arbeitsmarkt, mithilfe einer extern gehosteten Online-Befragungsplattform.\n\nZur Evaluation der Qualität der internen, wie auch externen Leistungen der BA benötigt die BA ein webbasiertes Umfragecenter, das extern beim Auftragnehmer in einem zertifizierten Rechenzentrum in Deutschland gehostet wird.\nEntsprechend der Verfahren im ZKM und IAB, um Befragte zu kontaktieren, ist es notwendig, dass der Zugriff der Nutzer auf die Umfrageplattform durch die Verwendung unterschiedlicher Domains bzw. Subdomains erfolgt. Zu den Aufgaben des Auftragnehmer gehört daher die technische Registrierung der Domains inklusive Sub-Domains im Namen der BA bzw. des IAB. Am Ende der Vertragslaufzeit verbleiben die Domains inklusive aller Subdomains bei der BA.\n\nNicht-optionale Leistungen:\n• Zeitlich befristeter Zugang zu einer SaaS Lösung inkl. Betriebsservices + Bereitstellung\n• Exit Management Konzept\n\nOptionale Leistungen:\n• Einmalige 12-monatige Verlängerung des zeitlich befristeten Zugangs einer SaaS Lösung inkl. Betriebsservices + Bereitstellung der Umfrageplattform\n• Dashboard\n• Dashboard Verlängerungsoption\n• Bereitstellung sowie Betriebsservices der laufenden Befragungen mit Panelfunktionalität (inkl. zugehöriger Online-Portale), siehe Kap. 2.1.9\n• Zeitlich befristeter Zugang inkl. Betriebsservices der laufenden Befragungen mit Panelfunktionalität (inkl. zugehöriger Online-Portale), Verlängerungsoption\n• Schulungen\n• Dienstleistungskontingent\n• Dienstleistungskontingent Panelfunktionalität\n• Exit Management Leistungen\n\nDie geschätzte Abrufmenge über den gesamten Vertragszeitraum hinweg beträgt ca. 75 Personentage. Ein Personentag entspricht dabei 8 Personenstunden, d.h. insgesamt 600 Personenstunden.\nZusätzlich können bis zu 200 Personenstunden für Weiterentwicklungen an Panelfunktionen abgerufen werden",
+    "cpv": [
+     "72000000"
+    ],
+    "nuts": [
+     "DEZZZ"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "UfAB-Wertung (einfache\nRichtwertmethode)",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "UfAB-Wertung (einfache Richtwertmethode)",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

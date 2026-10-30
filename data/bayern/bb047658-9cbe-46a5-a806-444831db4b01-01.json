@@ -5,14 +5,14 @@
   "noticeId": "bb047658-9cbe-46a5-a806-444831db4b01",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bb047658-9cbe-46a5-a806-444831db4b01",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:bb047658-9cbe-46a5-a806-444831db4b01-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:bb047658-9cbe-46a5-a806-444831db4b01-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/bb047658-9cbe-46a5-a806-444831db4b01?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "in situ Rasterelektronenmikroskop (in situ SEM)",
   "buyer": "Freistaat Bayern, vertreten durch die Universität Bayreuth ",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE242"
   ],
-  "deadline": null,
+  "deadline": "2026-11-27T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -157,5 +157,64 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bb047658-9cbe-46a5-a806-444831db4b01",
+  "version": "01",
+  "title": "in situ Rasterelektronenmikroskop (in situ SEM)",
+  "description": "Es soll ein in situ SEM angeschafft werden, das als Schlüsselinstrument in der lokalen, multiskaligen operando Analytik von heterogenen Katalysatoren und Batteriematerialien eingesetzt wird.",
+  "procedureType": "open",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "38511100"
+  ],
+  "estimatedValue": {
+   "amount": 1000000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "in situ Rasterelektronenmikroskop (in situ SEM)",
+    "description": "Es soll ein in situ SEM angeschafft werden, das als Schlüsselinstrument in der lokalen, multiskaligen operando Analytik von heterogenen Katalysatoren und Batteriematerialien eingesetzt wird.",
+    "cpv": [
+     "38511100"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": "2026-11-27T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e796f6c9-ae7d-4d88-8746-03934d292740/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e796f6c9-ae7d-4d88-8746-03934d292740/awardcriteria",
+      "weight": 80
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

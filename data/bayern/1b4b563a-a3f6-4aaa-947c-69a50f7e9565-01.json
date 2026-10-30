@@ -147,6 +147,8 @@
   "noticeId": "1b4b563a-a3f6-4aaa-947c-69a50f7e9565",
   "version": "01",
   "title": "Weiterentwicklung AIS.chat",
+  "description": "Der Auftragnehmer soll die bestehende Softwarelösung AIS.chat auf Basis eines Dienstleistungsvertrags bis Ende 2028 weiterentwickeln, betreiben und pflegen. Die Plattform ermöglicht Lehrkräften sowie Schülerinnen und Schülern die datenschutzkonforme Nutzung generativer KI-Modelle.",
+  "procedureType": "open",
   "nuts": [
    "DE21H"
   ],
@@ -158,6 +160,7 @@
    {
     "id": "LOT-0001",
     "title": "Weiterentwicklung AIS.chat",
+    "description": "Im Wege der Gesamtvergabe ist eine Teamzusammensetzung mit namentlich benannten Mitarbeitern anzubieten:   5 VZÄ Fullstack-Software-EntwicklerInnen; wahlweise auf fünf oder sechs Personen aufgeteilt:   zwei EntwicklerInnen mit dem Schwerpunkt DevOps;   drei, optional vier EntwicklerInnen mit dem Schwerpunkt KI & Bildung;   0,5 VZÄ UX/UI-DesignerIn für Softwareentwicklung und Betrieb.   Die Position der Product-Ownerin wird vom AG besetzt.   Weitere Informationen können Sie insbesondere der Anlage 1 - Anforderungsbeschreibung_Weiterentwicklung-AIS.chat entnehmen.",
     "cpv": [
      "72200000"
     ],
@@ -168,9 +171,28 @@
     "participationDeadline": null,
     "plannedStart": "2027-01-04+01:00",
     "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Für die Preisangabe reichen Sie bitte die Anlage 4 - Preisblatt_Weiterentwicklung_AIS.chat ausgefüllt ein.    Als Angebotspreis gilt der Tagessatz des gesamten Teams im Umfang gem. obiger Ziff. 1 Abs. 3, also die Tagessätze aller Teammitglieder, gewichtet nach ihrer gemittelten täglichen Arbeitszeit (Faktor 1 bei 8h pro Tag, Teilzeit anteilig), aufsummiert.",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Qualifikation und Erfahrung des mit der Ausführung des Auftrags betrauten Personals",
+      "description": "Die Bewertung des Zuschlagskriteriums Leistung erfolgt anhand der Qualifikation und Erfahrung des mit der Ausführung des Auftrags betrauten Personals.   Hierfür muss der Bieter die Bewertungsbögen in Anlage 3 -Profilbögen_Auswertung_Weiterentwicklung-AIS.chat ausfüllen.    Zusätzlich muss der Bieter aussagekräftige Profile jedes Teammitglieds einreichen, welche die Angaben nachvollziehbar belegen. Die Profile sollen insbesondere einen lebenslaufähnlichen Überblick über die berufliche Qualifikation sowie eine Darstellung der einschlägigen Referenzprojekte enthalten, aus denen die in den Profilbögen angegebenen Erfahrungen und Kenntnisse hervorgehen.",
+      "weight": 60
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
    }
   ]
  }

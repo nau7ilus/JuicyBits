@@ -1,0 +1,377 @@
+{
+ "id": "5f9a586a-5417-41eb-9d93-b14855e36223-02",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "5f9a586a-5417-41eb-9d93-b14855e36223",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5f9a586a-5417-41eb-9d93-b14855e36223",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:5f9a586a-5417-41eb-9d93-b14855e36223-02.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:5f9a586a-5417-41eb-9d93-b14855e36223-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5f9a586a-5417-41eb-9d93-b14855e36223?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Ausschreibung Gebäudereinigung - Fraunhofer Institut (IMS)",
+  "buyer": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V.",
+  "cpv": [
+   "90900000",
+   "90911300",
+   "90911200"
+  ],
+  "nuts": [
+   "DE212",
+   "DEA12"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-def61116-b176-4208-bbdd-c677da0bafc1",
+  "id": "5f9a586a-5417-41eb-9d93-b14855e36223",
+  "date": "2026-10-23T02:12:46Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "14049",
+     "legalName": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Bund",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "22f515b4-2cc6-4148-904a-27b015086330",
+     "legalName": "Vergabekammer Bund"
+    },
+    "address": {
+     "streetAddress": "Villemombler Straße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "NORDBERGER Gebäudereinigung GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE263124377",
+     "legalName": "NORDBERGER Gebäudereinigung GmbH & Co. KG"
+    },
+    "address": {
+     "locality": "Bergkamen",
+     "region": "DEA5C",
+     "postalCode": "59192",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Gebäudeservice Dietrich West KG",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 814 501 491",
+     "legalName": "Gebäudeservice Dietrich West KG"
+    },
+    "address": {
+     "locality": "Wuppertal",
+     "region": "DEA1A",
+     "postalCode": "42279",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V.",
+   "id": "14049",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V."
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "def61116-b176-4208-bbdd-c677da0bafc1",
+   "title": "Ausschreibung Gebäudereinigung - Fraunhofer Institut (IMS)",
+   "description": "Das Fraunhofer-Institut IMS am Standort Duisburg, benötigt die Unterhaltsreinigung (UR), die Reinraumreinigung (RR), den Geschirrservice (GSS), den Geräteservice (GS) und die die Glas- und Rahmenreinigung (GLR) für verschiedene Objekte und unterteilt in 2 Lose:\n\n - Los 1: UR, RR, GSS, GS\n - Los 2: GLR",
+   "procuringEntity": {
+    "name": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "14049"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "region": "DEA12",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911300",
+      "description": "Window-cleaning services"
+     },
+     "deliveryAddress": {
+      "region": "DEA12",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "NORDBERGER Gebäudereinigung GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "NORDBERGER Gebäudereinigung GmbH & Co. KG"
+     },
+     "address": {
+      "locality": "Bergkamen",
+      "region": "DEA5C",
+      "postalCode": "59192",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Gebäudeservice Dietrich West KG",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Gebäudeservice Dietrich West KG"
+     },
+     "address": {
+      "locality": "Wuppertal",
+      "region": "DEA1A",
+      "postalCode": "42279",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1: UR, RR, GSS, GS",
+     "description": "Das Fraunhofer-Institut (IMS) benötigt die Unterhaltsreinigung (UR), die Reinraumreinigung (RR), den Geschirrservice (GSS) und den Geräteservice (GS) für seine Gebäude an verschiedenen Standorten. Das Los 1 umfasst folgende Objekte für die Leistungserbringung:\n\nFraunhofer-Institut (IMS), Hauptgebäude, Finkenstraße 61, 47057 Duisburg\nLeistungen: UR, RR, GSS, GS\nBodenfläche: 16.374,41 m2\n\nFraunhofer-Institut (IMS), Fraunhofer-inHaus-Zentrum, Forsthausweg 1, 47057 Duisburg\nLeistungen: UR, GSS, GS\nBodenfläche: 4.660,84 m2\n\n---\n\nGesamtbodenfläche: 21.035,25 m2"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2: GLR",
+     "description": "Das Fraunhofer-Institut (IMS) benötigt die Glas- und Rahmenreinigung (GLR) für seine Gebäude an verschiedenen Standorten. Das Los 2 umfasst folgende Objekte für die Leistungserbringung:\n\nFraunhofer-Institut (IMS), Hauptgebäude, Finkenstraße 61, 47057 Duisburg\nLeistung: GLR\nGlasfläche: 3.891,84 m2\n\nFraunhofer-Institut (IMS), Fraunhofer-inHaus-Zentrum , Forsthausweg 1, 47057 Duisburg\nLeistung: GLR\nGlasfläche: 2.583,57 m2\n\n---\n\nGesamtglasfläche: 6.475,41 m2"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "5f9a586a-5417-41eb-9d93-b14855e36223",
+  "version": "02",
+  "title": "Ausschreibung Gebäudereinigung - Fraunhofer Institut (IMS)",
+  "description": "Das Fraunhofer-Institut IMS am Standort Duisburg, benötigt die Unterhaltsreinigung (UR), die Reinraumreinigung (RR), den Geschirrservice (GSS), den Geräteservice (GS) und die die Glas- und Rahmenreinigung (GLR) für verschiedene Objekte und unterteilt in 2 Lose:\n\n - Los 1: UR, RR, GSS, GS\n - Los 2: GLR",
+  "procedureType": "open",
+  "nuts": [
+   "DEA12"
+  ],
+  "cpv": [
+   "90911200",
+   "90900000",
+   "90911300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1: UR, RR, GSS, GS",
+    "description": "Das Fraunhofer-Institut (IMS) benötigt die Unterhaltsreinigung (UR), die Reinraumreinigung (RR), den Geschirrservice (GSS) und den Geräteservice (GS) für seine Gebäude an verschiedenen Standorten. Das Los 1 umfasst folgende Objekte für die Leistungserbringung:\n\nFraunhofer-Institut (IMS), Hauptgebäude, Finkenstraße 61, 47057 Duisburg\nLeistungen: UR, RR, GSS, GS\nBodenfläche: 16.374,41 m2\n\nFraunhofer-Institut (IMS), Fraunhofer-inHaus-Zentrum, Forsthausweg 1, 47057 Duisburg\nLeistungen: UR, GSS, GS\nBodenfläche: 4.660,84 m2\n\n---\n\nGesamtbodenfläche: 21.035,25 m2",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DEA12"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Produktivstunden",
+      "weight": 35
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Aufsichts-/Kontrollstunden",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Ausführungskonzept",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Nachhaltigkeit",
+      "weight": 5
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2: GLR",
+    "description": "Das Fraunhofer-Institut (IMS) benötigt die Glas- und Rahmenreinigung (GLR) für seine Gebäude an verschiedenen Standorten. Das Los 2 umfasst folgende Objekte für die Leistungserbringung:\n\nFraunhofer-Institut (IMS), Hauptgebäude, Finkenstraße 61, 47057 Duisburg\nLeistung: GLR\nGlasfläche: 3.891,84 m2\n\nFraunhofer-Institut (IMS), Fraunhofer-inHaus-Zentrum , Forsthausweg 1, 47057 Duisburg\nLeistung: GLR\nGlasfläche: 2.583,57 m2\n\n---\n\nGesamtglasfläche: 6.475,41 m2",
+    "cpv": [
+     "90911300"
+    ],
+    "nuts": [
+     "DEA12"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Produktivstunden",
+      "weight": 60
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

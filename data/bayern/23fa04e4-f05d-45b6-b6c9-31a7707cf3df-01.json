@@ -1,0 +1,275 @@
+{
+ "id": "23fa04e4-f05d-45b6-b6c9-31a7707cf3df-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "23fa04e4-f05d-45b6-b6c9-31a7707cf3df",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=23fa04e4-f05d-45b6-b6c9-31a7707cf3df",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:23fa04e4-f05d-45b6-b6c9-31a7707cf3df-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:23fa04e4-f05d-45b6-b6c9-31a7707cf3df-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/23fa04e4-f05d-45b6-b6c9-31a7707cf3df?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Fliesenarbeiten BA2",
+  "buyer": "Landratsamt Erlangen-Höchstadt",
+  "cpv": [
+   "45431000",
+   "45431100"
+  ],
+  "nuts": [
+   "DE252",
+   "DE257"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8d1687f9-34dc-4128-b590-a43864dfb75b",
+  "id": "23fa04e4-f05d-45b6-b6c9-31a7707cf3df",
+  "date": "2026-10-16T02:11:17Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Erlangen-Höchstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0358127-74",
+     "legalName": "Landratsamt Erlangen-Höchstadt"
+    },
+    "address": {
+     "streetAddress": "Nägelsbachstr. 1",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "funder",
+     "payer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fliesen Röhlich GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB 11767 / AG Nürnberg",
+     "legalName": "Fliesen Röhlich GmbH"
+    },
+    "address": {
+     "locality": "Wendelstein",
+     "region": "DE25B",
+     "postalCode": "90530",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Erlangen-Höchstadt",
+   "id": "09-0358127-74",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Landratsamt Erlangen-Höchstadt"
+   },
+   "address": {
+    "streetAddress": "Nägelsbachstr. 1",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91052",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8d1687f9-34dc-4128-b590-a43864dfb75b",
+   "title": "Fliesenarbeiten BA2",
+   "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d)\n125qm Bodenfliesen inkl. 150m Sockelfliesen und 50qm Wandfliesen inkl. Vor- und Nebenleistungen; Herstellen von Bohrungen und Ausschnitten für TGA-Installationen; Abbruch und Ergänzung von einzelnen Bestandsbodenfliesen; Wandspiegel in versch. Größen bis 3,6qm",
+   "procuringEntity": {
+    "name": "Landratsamt Erlangen-Höchstadt",
+    "id": "09-0358127-74"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45431000",
+      "description": "Tiling work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45431100",
+       "description": "Floor-tiling work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Friedrich-Weiler-Platz 2",
+      "locality": "Herzogenaurach",
+      "region": "DE257",
+      "postalCode": "91074",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-08-24T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Fliesen Röhlich GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Fliesen Röhlich GmbH"
+     },
+     "address": {
+      "locality": "Wendelstein",
+      "region": "DE25B",
+      "postalCode": "90530",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fliesenarbeiten BA2",
+     "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\n125qm Bodenfliesen inkl. 150m Sockelfliesen und 50qm Wandfliesen inkl. Vor- und Nebenleistungen; Herstellen von Bohrungen und Ausschnitten für TGA-Installationen; Abbruch und Ergänzung von einzelnen Bestandsbodenfliesen; Wandspiegel in versch. Größen bis 3,6qm",
+     "contractPeriod": {
+      "startDate": "2026-10-21T00:00:00+02:00",
+      "endDate": "2028-01-21T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Fliesenarbeiten BA2",
+    "status": "active",
+    "date": "2026-09-18T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Fliesen Röhlich GmbH",
+      "id": "HRB 11767 / AG Nürnberg",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "Fliesen Röhlich GmbH"
+      },
+      "address": {
+       "locality": "Wendelstein",
+       "region": "DE25B",
+       "postalCode": "90530",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "title": "Fliesenarbeiten BA2",
+    "status": "active",
+    "value": {
+     "amount": 35792.13,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-09-17T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "23fa04e4-f05d-45b6-b6c9-31a7707cf3df",
+  "version": "01",
+  "title": "Fliesenarbeiten BA2",
+  "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d)\n125qm Bodenfliesen inkl. 150m Sockelfliesen und 50qm Wandfliesen inkl. Vor- und Nebenleistungen; Herstellen von Bohrungen und Ausschnitten für TGA-Installationen; Abbruch und Ergänzung von einzelnen Bestandsbodenfliesen; Wandspiegel in versch. Größen bis 3,6qm",
+  "procedureType": "open",
+  "nuts": [
+   "DE257"
+  ],
+  "cpv": [
+   "45431000",
+   "45431100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fliesenarbeiten BA2",
+    "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\n125qm Bodenfliesen inkl. 150m Sockelfliesen und 50qm Wandfliesen inkl. Vor- und Nebenleistungen; Herstellen von Bohrungen und Ausschnitten für TGA-Installationen; Abbruch und Ergänzung von einzelnen Bestandsbodenfliesen; Wandspiegel in versch. Größen bis 3,6qm",
+    "cpv": [
+     "45431000",
+     "45431100"
+    ],
+    "nuts": [
+     "DE257"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-21+02:00",
+    "plannedEnd": "2028-01-21+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

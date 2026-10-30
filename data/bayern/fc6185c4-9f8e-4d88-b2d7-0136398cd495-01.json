@@ -1,0 +1,249 @@
+{
+ "id": "fc6185c4-9f8e-4d88-b2d7-0136398cd495-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "fc6185c4-9f8e-4d88-b2d7-0136398cd495",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fc6185c4-9f8e-4d88-b2d7-0136398cd495",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:fc6185c4-9f8e-4d88-b2d7-0136398cd495-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:fc6185c4-9f8e-4d88-b2d7-0136398cd495-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fc6185c4-9f8e-4d88-b2d7-0136398cd495?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung von Niederflurbussen",
+  "buyer": "Willy Schnappinger Verkehrsunternehmen GmbH",
+  "cpv": [
+   "34121400"
+  ],
+  "nuts": [
+   "DE21E"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-81a5436e-fbe4-457f-ba34-43080f8a4f75",
+  "id": "fc6185c4-9f8e-4d88-b2d7-0136398cd495",
+  "date": "2026-10-24T13:18:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Willy Schnappinger Verkehrsunternehmen GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811283627",
+     "legalName": "Willy Schnappinger Verkehrsunternehmen GmbH"
+    },
+    "address": {
+     "streetAddress": "Dießener Str 21",
+     "locality": "Utting",
+     "region": "DE21E",
+     "postalCode": "86919",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Willy Schnappinger Verkehrsunternehmen GmbH",
+   "id": "DE811283627",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Willy Schnappinger Verkehrsunternehmen GmbH"
+   },
+   "address": {
+    "streetAddress": "Dießener Str 21",
+    "locality": "Utting",
+    "region": "DE21E",
+    "postalCode": "86919",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "81a5436e-fbe4-457f-ba34-43080f8a4f75",
+   "title": "Beschaffung von Niederflurbussen",
+   "description": "Die Willy Schnappinger Verkehrsunternehmen GmbH beabsichtigt in Abhängigkeit der gewährten Fördermittel und Auftragsvergaben, die Beschaffung von bis zu 6 batterieelektrischen Solo-Niederflurbussen, 2 batterieelektrischen Niederflur Gelenkbussen und 2 batterieelektrischen Midibussen sowie optional die zuvor genannten Fahrzeuge mit Dieselantrieb.",
+   "procuringEntity": {
+    "name": "Willy Schnappinger Verkehrsunternehmen GmbH",
+    "id": "DE811283627"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34121400",
+      "description": "Low-floor buses"
+     },
+     "deliveryAddress": {
+      "region": "DE21E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34121400",
+      "description": "Low-floor buses"
+     },
+     "deliveryAddress": {
+      "region": "DE21E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.subreport.de/E11418697",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.subreport.de/E11418697",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Beschaffung von bis zu 6 batterieelektrischen Solo-Niederflurbussen, 2 batterieelektrischen Niederflur Gelenkbus optional mit Dieselantrieb.",
+     "description": "siehe Lastenheft\n\nDer Bieter muss zwingend für beide Antriebsarten anbieten.",
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    },
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0002",
+     "title": "Beschaffung von bis zu 2 batterieelektrischen Midi-Niederflurbussen",
+     "description": "siehe Lastenheft",
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "fc6185c4-9f8e-4d88-b2d7-0136398cd495",
+  "version": "01",
+  "title": "Beschaffung von Niederflurbussen",
+  "description": "Die Willy Schnappinger Verkehrsunternehmen GmbH beabsichtigt in Abhängigkeit der gewährten Fördermittel und Auftragsvergaben, die Beschaffung von bis zu 6 batterieelektrischen Solo-Niederflurbussen, 2 batterieelektrischen Niederflur Gelenkbussen und 2 batterieelektrischen Midibussen sowie optional die zuvor genannten Fahrzeuge mit Dieselantrieb.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21E"
+  ],
+  "cpv": [
+   "34121400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung von bis zu 6 batterieelektrischen Solo-Niederflurbussen, 2 batterieelektrischen Niederflur Gelenkbus optional mit Dieselantrieb.",
+    "description": "siehe Lastenheft\n\nDer Bieter muss zwingend für beide Antriebsarten anbieten.",
+    "cpv": [
+     "34121400"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-04T12:00:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Beschaffung von bis zu 2 batterieelektrischen Midi-Niederflurbussen",
+    "description": "siehe Lastenheft",
+    "cpv": [
+     "34121400"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-04T12:00:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

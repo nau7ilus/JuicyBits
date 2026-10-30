@@ -1,0 +1,207 @@
+{
+ "id": "bdd54817-f01b-4dee-b63a-5a669b1cf4f2-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "bdd54817-f01b-4dee-b63a-5a669b1cf4f2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bdd54817-f01b-4dee-b63a-5a669b1cf4f2",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:bdd54817-f01b-4dee-b63a-5a669b1cf4f2-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:bdd54817-f01b-4dee-b63a-5a669b1cf4f2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bdd54817-f01b-4dee-b63a-5a669b1cf4f2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Tischlerarbeiten, Innentüren",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "45422000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-10-29T09:40:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-26df918e-f408-4eb6-8243-4f52061758c1",
+  "id": "bdd54817-f01b-4dee-b63a-5a669b1cf4f2",
+  "date": "2026-10-16T02:10:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "26df918e-f408-4eb6-8243-4f52061758c1",
+   "title": "Tischlerarbeiten, Innentüren",
+   "description": "Grundschule und Haus für Kinder am Kirschgelände; Neubau; \nGewerk: Tischlerarbeiten",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45422000",
+      "description": "Carpentry installation work"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80999",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302197",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-16T02:10:19.636Z",
+     "rationale": "Verschiebung Öffnungstermin + Bindefrist",
+     "description": "Verschiebung Öffnungstermin + Bindefrist",
+     "amendsReleaseID": "1571fea0-2a72-485f-8dc3-3027ef30ed4e-01",
+     "releaseID": "bdd54817-f01b-4dee-b63a-5a669b1cf4f2-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Tischlerarbeiten, Innentüren",
+     "description": "Grundschule und Haus für Kinder am Kirschgelände; Neubau; \nGewerk: Schreinerarbeiten\n- Innentüren mit Holzblockzarge ges. ca. 113 Stück\n- Innentüren mit Stahlzarge ges. ca. 108 Stück \n- Innentüren mit Edelstahlzarge ges. ca. 17 Stück \n- Innentüren als Holzrahmentüren ges. ca. 84 Stück \n- Brandschutzelemente festverglast ges. ca. 39 Stück\n- Innentüren Wohnung ges. 8 Stück.",
+     "contractPeriod": {
+      "startDate": "2027-02-15T00:00:00+01:00",
+      "endDate": "2028-07-15T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bdd54817-f01b-4dee-b63a-5a669b1cf4f2",
+  "version": "01",
+  "title": "Tischlerarbeiten, Innentüren",
+  "description": "Grundschule und Haus für Kinder am Kirschgelände; Neubau; \nGewerk: Tischlerarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45422000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Tischlerarbeiten, Innentüren",
+    "description": "Grundschule und Haus für Kinder am Kirschgelände; Neubau; \nGewerk: Schreinerarbeiten\n- Innentüren mit Holzblockzarge ges. ca. 113 Stück\n- Innentüren mit Stahlzarge ges. ca. 108 Stück \n- Innentüren mit Edelstahlzarge ges. ca. 17 Stück \n- Innentüren als Holzrahmentüren ges. ca. 84 Stück \n- Brandschutzelemente festverglast ges. ca. 39 Stück\n- Innentüren Wohnung ges. 8 Stück.",
+    "cpv": [
+     "45422000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-29T09:40:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-15+01:00",
+    "plannedEnd": "2028-07-15+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Zusätzlich zu den Referenzen sind alle weiteren zu erfüllenden Eignungskriterien (Eignung zur Berufsausübung, wirtschaftliche und finanzielle Leistungsfähigkeit, technische und berufliche Leistungsfähigkeit) sowie die zum Nachweis vorzulegenden Unterlagen in dem Dokument \"Eignung_und_Nichtvorliegen_von_Ausschlussgruenden“ aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=302197"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Vertragserfüllung:\nSicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n---\nMängelansprüche:\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

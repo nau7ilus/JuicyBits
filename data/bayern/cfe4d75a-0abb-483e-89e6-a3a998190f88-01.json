@@ -1,0 +1,318 @@
+{
+ "id": "cfe4d75a-0abb-483e-89e6-a3a998190f88-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "cfe4d75a-0abb-483e-89e6-a3a998190f88",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=cfe4d75a-0abb-483e-89e6-a3a998190f88",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:cfe4d75a-0abb-483e-89e6-a3a998190f88-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:cfe4d75a-0abb-483e-89e6-a3a998190f88-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/cfe4d75a-0abb-483e-89e6-a3a998190f88?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Akutdialysegeräte - Hämofiltration, Verbrauchsmaterialien und Service",
+  "buyer": "Klinikum der Ludwig-Maximilians-Universität München (LMU Klinikum)",
+  "cpv": [
+   "33181000",
+   "33181520",
+   "50421000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-09T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6468b446-a590-4906-8005-fe319aaaa0cb",
+  "id": "cfe4d75a-0abb-483e-89e6-a3a998190f88",
+  "date": "2026-10-23T02:08:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum der Ludwig-Maximilians-Universität München (LMU Klinikum)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "keine Angabe",
+     "legalName": "Klinikum der Ludwig-Maximilians-Universität München (LMU Klinikum)"
+    },
+    "address": {
+     "streetAddress": "Marchioninistraße 15",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81377",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum der Ludwig-Maximilians-Universität München (LMU Klinikum)",
+   "id": "keine Angabe",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum der Ludwig-Maximilians-Universität München (LMU Klinikum)"
+   },
+   "address": {
+    "streetAddress": "Marchioninistraße 15",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81377",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6468b446-a590-4906-8005-fe319aaaa0cb",
+   "title": "Akutdialysegeräte - Hämofiltration, Verbrauchsmaterialien und Service",
+   "description": "Lieferung von Akutdialysegeräten - Hämofiltration, Verbrauchsmaterialien und Service",
+   "procuringEntity": {
+    "name": "Klinikum der Ludwig-Maximilians-Universität München (LMU Klinikum)",
+    "id": "keine Angabe"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "33181000",
+      "description": "Renal support devices"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "33181520",
+       "description": "Renal dialysis consumables"
+      },
+      {
+       "scheme": "CPV",
+       "id": "50421000",
+       "description": "Repair and maintenance services of medical equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXVHY6JDY64S0LSG/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-23T02:08:23.478Z",
+     "rationale": "Gegenstand des Korrekturzyklus ist die Anpassung des geforderten Referenzzeitraums in der Eigenerklärung zu den Referenzen von drei auf fünf Jahre gemäß § 46 Abs. 3 VgV.",
+     "description": "Referenzanforderung",
+     "amendsReleaseID": "8ef49414-93c8-463b-b721-7a69282b98e2-01",
+     "releaseID": "cfe4d75a-0abb-483e-89e6-a3a998190f88-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Akutdialysegeräte - Hämofiltration, Verbrauchsmaterialien und Service",
+     "description": "Gegenstand des Vergabeverfahrens ist die Beschaffung von Akutdialysegeräten einschließlich des erforderlichen gerätespezifischen Zubehörs, der erforderlichen Verbrauchsmaterialien sowie der zugehörigen Service- und Supportleistungen.\nDer Leistungsumfang umfasst insbesondere die Lieferung und Bereitstellung der Geräte, des erforderlichen Zubehörs und der Verbrauchsmaterialien/Lösungen, die Inbetriebnahme und Einweisung sowie die während der Vertragslaufzeit erforderlichen Wartungs-, Instandhaltungs-, Störungsbeseitigungs- und Supportleistungen.\nDie Einzelheiten des Leistungsumfangs sowie die technischen, funktionalen und qualitativen Anforderungen ergeben sich aus der Leistungsbeschreibung und den übrigen Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "cfe4d75a-0abb-483e-89e6-a3a998190f88",
+  "version": "01",
+  "title": "Akutdialysegeräte - Hämofiltration, Verbrauchsmaterialien und Service",
+  "description": "Lieferung von Akutdialysegeräten - Hämofiltration, Verbrauchsmaterialien und Service",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "33181000",
+   "33181520",
+   "50421000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Akutdialysegeräte - Hämofiltration, Verbrauchsmaterialien und Service",
+    "description": "Gegenstand des Vergabeverfahrens ist die Beschaffung von Akutdialysegeräten einschließlich des erforderlichen gerätespezifischen Zubehörs, der erforderlichen Verbrauchsmaterialien sowie der zugehörigen Service- und Supportleistungen.\nDer Leistungsumfang umfasst insbesondere die Lieferung und Bereitstellung der Geräte, des erforderlichen Zubehörs und der Verbrauchsmaterialien/Lösungen, die Inbetriebnahme und Einweisung sowie die während der Vertragslaufzeit erforderlichen Wartungs-, Instandhaltungs-, Störungsbeseitigungs- und Supportleistungen.\nDie Einzelheiten des Leistungsumfangs sowie die technischen, funktionalen und qualitativen Anforderungen ergeben sich aus der Leistungsbeschreibung und den übrigen Vergabeunterlagen.",
+    "cpv": [
+     "33181000",
+     "33181520",
+     "50421000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-09T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Formular Bietergemeinschaftserklärung (Mit dem Angebot; Mittels Eigenerklärung): ggf. Angaben zur Bietergemeinschaft"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Formular Verpflichtungserklärung (Mit dem Angebot; Mittels Eigenerklärung): ggf. Verpflichtungserklärung anderer Unternehmen"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Leistungsbeschreibung und Preisblatt (Mit dem Angebot; Mittels Eigenerklärung): Zur Abgabe des Angebots ist die Leistungsbeschreibung einschließlich Preisblatt vollständig auszufüllen und einzureichen. Diese enthält neben dem Angebotspreis auch die zu erfüllenden Mindestanforderungen sowie die Bewertungskriterien.\nDie vollständige Einreichung der Unterlagen ist Voraussetzung für die Teilnahme am weiteren Vergabeverfahren. Bei Nichtabgabe bzw. nicht vollständiger Abgabe wird der Bieter vom weiteren Verfahren ausgeschlossen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Nachweise und Konzeptanforderungen (Mit dem Angebot; Mittels Eigenerklärung): Mit dem Angebot sind sämtliche in der Leistungsbeschreibung geforderten Nachweise, Unterlagen und Angaben vollständig einzureichen. Hierzu zählen insbesondere die Konformitätserklärung, das Hygienekonzept, eine Aufstellung der zugelassenen Flächendesinfektionsmittel, das Wartungskonzept sowie der Wartungsplan.\n\nWeitere geforderte Angaben sind direkt in der Leistungsbeschreibung im dafür vorgesehenen Feld \"Bemerkung\" einzutragen. Die geforderten Nachweise und Angaben sind vollständig und nachvollziehbar einzureichen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Formular Eigenerklärungen des Unternehmens (Mit dem Angebot; Mittels Eigenerklärung): ?\nmuss vollständig ausgefüllt sein, sonst droht der Ausschluss aus dem weitern Verfahren."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe Gesetzliche(r) Vertreter (jur. Person) bzw. vertretungsberechtigte(r) Gesellschafter (Personengesellschaft, Einzelunternehmen - Angabe Gesetzliche(r) Vertreter (jur. Person) bzw. vertretungsberechtigte(r) Gesellschafter (Personengesellschaft, Einzelunternehmen"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe von Ansprechpartnern für den Auftraggeber (jeweils mit: Name, Vorname: Telefon/E-Maill) - Verbindliche (-r) Vertreter des Ansprechpartners mit Funktionsangabe"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Definition der Unternehmensklasse - Mein/Unser Unternehmen ist ein:\n\n- Kleinstunternehmen (bis 9 Beschäftigte und bis 2 \n  Mio. Euro Umsatz)\n\n- Kleines Unternehmen (bis 49 Beschäftigte und bis 10 \n  Mio. Euro Umsatz und kein Kleinstunternehmen)\n\n- Mittleres Unternehmen (bis 249 Beschäftigte und bis \n  50 Mio. Euro Umsatz und kein kleines Unternehmen)\n\n- Großunternehmen: über 249 Beschäftigte oder über \n  50 Mio. Euro Umsatz"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung über den Eintrag in das Berufs- oder Handelsregister oder anderer Nachweis der erlaubten Berufsausübung - Gefordert wird eine Eigenerklärung über die Eintragung in einem Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschrift des Landes, in dem der Bietende ansässig ist (§ 122 Abs.2 Nr.1 GWB i.V.m. § 44 Abs.1 VgV) oder ein anderer Nachweis der erlaubten Berufsausübung"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung über die Erfüllung der gewerberechtlichen Voraussetzungen für die Ausführung der angebotenen Leistung - Gefordert wird eine Eigenerklärung, dass der Bieter die gewerberechtlichen Voraussetzungen für die Ausführung der anzubietenden bzw. angebotenen Leistung erfüllt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zur Mitgliedschaft in einer Berufsgenossenschaft - Ich bin/Wir sind Mitglied der Berufsgenossenschaft.\nName der Berufsgenossenschaft: \n\nggf. Angabe der Eintragungsnummer"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zu gewerblichen Schutzrechten - Angaben zu evtl. gewerblichen Schutzrechten"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zu Referenzen - Der Bieter hat seine technische und berufliche Leistungsfähigkeit durch die Benennung geeigneter Referenzprojekte nachzuweisen. \nHierzu sind mindestens zwei (2) geeignete Referenzen über wesentliche, in den letzten fünf (5) Jahren ( §46 Abs. 3 Nr.1 VgV) erfolgreich erbrachte Leistungen vorzulegen. Die Referenzleistungen müssen hinsichtlich Art, Umfang, Komplexität und technischem Leistungsgegenstand sowie der maßgeblichen Betriebsanforderungen mit der ausgeschriebenen Leistung vergleichbar sein.\nFür jede Referenz sind mindestens folgende Angaben zu machen:\n- Name und Anschrift des Auftraggebers,\n- Bezeichnung und Beschreibung des Leistungsgegenstands,\n- Umfang und wesentliche Inhalte der erbrachten Leistung,\n- Zeitraum der Leistungserbringung sowie\n- kurze Darstellung der Vergleichbarkeit mit der ausgeschriebenen Leistung.\nDie geforderten zwei (2) Referenzen müssen jeweils von unterschiedlichen Auftraggebern stammen. Mehrere Referenzen, die gegenüber demselben Auftraggeber erbracht wurden, werden insoweit nicht als unterschiedliche Referenzen anerkannt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zur (Nicht-) Insolvenz - Ich/Wir erkläre(n) zu § 124 GWB, dass \n\nmein/unser Unternehmen  nicht zahlungsfähig ist, über das Vermögen des Unternehmens kein Insolvenzverfahren oder ein vergleichbares Verfahren beantragt oder eröffnet worden ist, die Eröffnung eines solchen Verfahrens mangels Masse nicht abgelehnt worden ist, sich das Unternehmen nicht im Verfahren der Liquidation befindet oder seine Tätigkeit eingestellt hat,"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung Umatz - Hinweis: Gefordert wird eine Erklärung zum Gesamtumsatz und zum Umsatz bezogen auf den Leistungsbereich, der Gegenstand der Vergabe ist, für die letzten drei (3) Geschäftsjahre. \n\nKlarstellender Hinweis: das Geschäftsjahr muss zeitlich abgelaufen sein, es kommt hingegen nicht darauf an, ob der (buchhalterische) Jahresabschluss durchgeführt worden ist. Das laufende Geschäftsjahr gehört nicht zu den geforderten Jahren."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zur Umsatzsteuer-ID - Angabe der Umsatzsteuer-ID"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zur Einhaltung der §§ 123/124 GWB - Ich/Wir erkläre(n), \n\n- dass für mein/unser Unternehmen keine \n  Ausschlussgründe gemäß den §§ 123 und 124 \n  GWB vorliegen, \n\n -dass ich/wir in den letzten zwei Jahren nicht\n-gem. § 21 Abs. 1 Satz 1 oder 2 \n  Schwarzarbeitsbekämpfungsgesetz oder\n- gem. § 21 Abs. 1 Arbeitnehmerentsendegesetz oder\n- gem. § 98c Aufenthaltsgesetz oder\n- gem. § 19 Abs. 1 Mindestlohngesetz\nmit einer Freiheitsstrafe von mehr als drei Monaten oder einer Geldstrafe von mehr als 90 Tagessätzen oder einer Geldbuße von mehr als 2.500 Euro belegt worden bin/sind (§124 Abs. 2 GWB) und\ndass ich/wir in den letzten drei Jahren nicht \n- gem. § 22 Lieferkettensorgfaltspflichtengesetz (LkSG) wegen eines rechtskräftig festgestellten Verstoßes nach § 24 Absatz 1 LkSG mit einer Geldbuße nach Maßgabe von § 22 Absatz 2 LkSG belegt worden bin/sind (§124 Abs. 2 GWB). \n\noder:\n\nIch/Wir erkläre(n), dass für mein/unser Unternehmen zwar ein Ausschlussgrund gemäß § 123 oder § 124 GWB vorliegt, ich/wir jedoch für mein/unser Unternehmen Maßnahmen zur Selbstreinigung (§125 GWB) ergriffen habe(n), durch die für mein/unser Unternehmen die Zuverlässigkeit wieder hergestellt wurde."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zur Betriebshaftpflichtversicherung - Gefordert wird eine verkehrsübliche Betriebs- bzw. Berufshaftpflichtversicherung mit (Mindestanforderung) mindestens folgenden Deckungssummen pro Schadensfall, je Versicherungsjahr zweifach maximiert.\n\n- Personenschäden        10 Mio EUR\n- Sachschäden               10 Mio EUR\n- Vermögensschäden     250.000 EUR\n\nDie Haftpflichtversicherung muss bei einem in der EU zugelassenen Haftpflichtversicherer oder Kreditinstitut abgeschlossen worden sein. Die Haftpflichtversicherung muss während der gesamten Vertragslaufzeit aufrechterhalten und nachgewiesen werden.\n\nIn Kenntnis der genannten Anforderungen erkläre ich/erklären wir:\n\nWir verpflichten uns, unverzüglich nach Vertragsschluss eine Versicherung in dem geforderten Umfang abzuschließen und eine entsprechende Bescheinigung vorzulegen.\n\noder:\n\nEine Versicherung in dem geforderten Umfang haben wir bereits abgeschlossen. Ein entsprechender Nachweis in Kopie ist beigefügt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angaben zur Zahlung von Steuern, Abgaben und Beiträgen zur gesetzlichen Sozialversicherung - Ich/Wir erkläre(n), dass ich/wir meine/unsere Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt habe(n). \n\nDie entsprechenden Nachweise habe(n) ich/wir, soweit sie vom Auftraggeber gefordert werden, beigefügt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zu Mindestlohn, Equal Pay - Ich/Wir erklären, dass alle geltenden rechtlichen Verpflichtungen von mir/uns eingehalten werden, insbesondere den Arbeitnehmerinnen und Arbeitnehmern wenigstens diejenigen Mindestbedingungen einschließlich des Mindestentgelts zu gewähren, die nach dem Mindestlohngesetz, einem nach dem Tarifvertragsgesetz mit den Wirkungen des Arbeitnehmerentsendegesetzes (AEntG) für allgemein verbindlich erklärten Tarifvertrag oder einer nach § 7, § 7a oder § 11 AEntG oder einer nach § 3a AÜG erlassenen Rechtsverordnung für die betreffende Leistung verbindlich vorgegeben werden, sowie gem. § 7 Abs. 1 AGG und § 3 Abs. 1 EntgTranspG Frauen und Männern bei gleicher oder gleichwertiger Arbeit gleiches Entgelt zu bezahlen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Präqualifikation - Mein/Unser Unternehmen ist in das Amtliche Verzeichnis präqualifizierter Unternehmen für den Liefer- und Dienstleistungsbereich (AVPQ) eingetragen"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zur Einhaltung der Russland-Sanktion - Erklärung zur Einhaltung der Russland-Sanktionen gemäß Art. 5k Sanktionen-VO (Russland)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung zur Einhaltung der China-Sanktion - Eigenerklärung zu Sanktionen die Volksrepublik China betreffend im Bereich der öffentlichen Beschaffung (Durchführungsverordnung (EU) 2025/1197 und Verpflichtung des Bieters nach Art. 8 Abs. 1 IPI-Verordnung, Art. 2 Abs. 1 DVO)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung des Lieferkettensorgfaltspflichtengesetzes - Einhaltung des Lieferkettensorgfaltspflichtengesetzes gemäß Verhaltenskodex für Auftragnehmer des LMU Klinikums und der einschlägigen gesetzlichen Vorschriften."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung Beschäftigte und Führungskräfte - Gefordert wird eine Erklärung, aus der die durchschnittliche jährliche Beschäftigungszahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich sind."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung Eignungsleihe - Hinweis: Dieser Abschnitt ist nur von dem Bieter bzw. dem vertretungsberechtigten Mitglied einer Bietergemeinschaft auszufüllen.\n\nErläuterungen zum Begriff der Eignungsleihe (§47 VgV): \n\nEin Bewerber kann zum Nachweis seiner Eignung (wirtschaftliche und finanzielle sowie technische und berufliche Leistungsfähigkeit) die Kapazitäten anderer Unternehmen in Anspruch nehmen (Eignungsleihe). Diese Möglichkeit besteht unabhängig von der Rechtsnatur der zwischen dem Bewerber und den anderen Unternehmen bestehenden Verbindungen (z.B. Unterauftragnehmerverhältnis). In diesem Fall ist der Vergabestelle nachzuweisen, dass dem Bewerber die erforderlichen Mittel tatsächlich zur Verfügung stehen werden, indem eine entsprechende Verpflichtungserklärung dieses Unternehmens vorgelegt wird.\n\nDiejenigen Unternehmen, auf die sich ein Bewerber zum Nachweis seiner Eignung stützt, müssen die entsprechenden Eignungskriterien selbst erfüllen. Zudem sind die Erklärungen über das Vorliegen von Ausschlussgründen nach § 123 Abs. 1 bis 4 GWB und § 124 Abs. 1 GWB auch von diesem Unternehmen abzugeben und der Vergabestelle vorzulegen. Werden die fraglichen Eignungsanforderungen nicht erfüllt oder liegen Ausschlussgründe gemäß § 123 Abs. 1 bis 4 GWB vor (und es ist keine Selbstreinigung gemäß §125 GWB nachgewiesen), so ist das Unternehmen auf Aufforderung der Vergabestelle innerhalb einer von dieser vorgegebenen Frist zu ersetzen. Liegen Ausschlussgründe nach § 124 Abs. 1 GWB vor (und es ist keine Selbstreinigung gemäß §125 GWB nachgewiesen), so kann die Vergabestelle verlangen, dass der Bewerber das Unternehmen ersetzt. \n\nEignungsverleiher sind mit dem Angebot namentlich zu benennen. Unternehmen, die zwar als Unterauftragnehmer vorgesehen sind, jedoch nicht in dem o.g. Sinne der Eignungsleihe dienen, können bereits mit dem Teilnahmeantrag/Angebot benannt werden und müssen spätestens nach Aufforderung durch den Auftraggeber benannt werden, etwa wenn ein Angebot in die engere Wahl kommt. Jedoch ist zwingend bereits anzugeben, welche Leistungen an Unterauftragnehmer vergeben werden sollen."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "25973346-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25973346",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25973346",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25973346-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25973346-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25973346?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm",
+  "buyer": "Vermögens- und Hochbauverwaltung Baden-Württemberg",
+  "cpv": [
+   "44521110-2"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-12-01T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25973346",
+  "id": "25973346",
+  "date": "2026-10-27T07:00:46Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vermögens- und Hochbauverwaltung Baden-Württemberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Vermögens- und Hochbauverwaltung Baden-Württemberg"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Vermögens- und Hochbauverwaltung Baden-Württemberg",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Vermögens- und Hochbauverwaltung Baden-Württemberg"
+   }
+  },
+  "tender": {
+   "title": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm",
+   "description": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm\n\nElektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm",
+   "procuringEntity": {
+    "name": "Vermögens- und Hochbauverwaltung Baden-Württemberg"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "44521110-2"
+     },
+     "deliveryAddress": {
+      "locality": "89081 Ulm",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bund.vergabe24.de/?hash=0eb29b3d8dbe5c430c366f76757b1b79",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm",
+     "description": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm\n\nElektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25973346",
+  "version": "1",
+  "title": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm",
+  "description": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm\n\nElektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "44521110-2"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm",
+    "description": "Elektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm\n\nElektronische Schließanlage - Unterkunftsgebäude - Wilhelmsburgkaserne Ulm",
+    "cpv": [
+     "44521110-2"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-12-01T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

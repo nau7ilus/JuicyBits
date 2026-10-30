@@ -1,0 +1,134 @@
+{
+ "id": "25973610-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25973610",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25973610",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25973610-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25973610-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25973610?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Dachabdichtung und Spenglerarbeiten",
+  "buyer": "Staatliches Bauamt Freising",
+  "cpv": [
+   "45200000-9"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-10T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25973610",
+  "id": "25973610",
+  "date": "2026-10-27T07:00:49Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Freising",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Staatliches Bauamt Freising"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Freising",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Freising"
+   }
+  },
+  "tender": {
+   "title": "Dachabdichtung und Spenglerarbeiten",
+   "description": "Dachabdichtung und Spenglerarbeiten",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Freising"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45200000-9"
+     },
+     "deliveryAddress": {
+      "locality": "85435 Erding",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304328",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Dachabdichtung und Spenglerarbeiten",
+     "description": "Dachabdichtung und Spenglerarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25973610",
+  "version": "1",
+  "title": "Dachabdichtung und Spenglerarbeiten",
+  "description": "Dachabdichtung und Spenglerarbeiten",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45200000-9"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Dachabdichtung und Spenglerarbeiten",
+    "description": "Dachabdichtung und Spenglerarbeiten",
+    "cpv": [
+     "45200000-9"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-10T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

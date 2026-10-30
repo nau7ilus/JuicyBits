@@ -1,0 +1,235 @@
+{
+ "id": "a111eca2-e514-4d95-bbc5-d1e53eb3679f-02",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "a111eca2-e514-4d95-bbc5-d1e53eb3679f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a111eca2-e514-4d95-bbc5-d1e53eb3679f",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:a111eca2-e514-4d95-bbc5-d1e53eb3679f-02.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:a111eca2-e514-4d95-bbc5-d1e53eb3679f-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a111eca2-e514-4d95-bbc5-d1e53eb3679f?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Sanierung ehem. Klosteranlage WC-Anlage Pfortenflügel - Lufttechnische Anlagen",
+  "buyer": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung vertreten durch das Immobilienmanagement / Abt. Hochbau",
+  "cpv": [
+   "45300000",
+   "45331000"
+  ],
+  "nuts": [
+   "DE241"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0d4ff923-7741-477c-9607-5611b5915676",
+  "id": "a111eca2-e514-4d95-bbc5-d1e53eb3679f",
+  "date": "2026-10-23T02:09:13Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung vertreten durch das Immobilienmanagement / Abt. Hochbau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "3441",
+     "legalName": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung vertreten durch das Immobilienmanagement / Abt. Hochbau"
+    },
+    "address": {
+     "streetAddress": "Untere Sandstraße 34",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "b7ce81eb-633f-40ae-8fa1-8232080b9d97",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Christian Reh GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE327237797",
+     "legalName": "Christian Reh GmbH"
+    },
+    "address": {
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90427",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung vertreten durch das Immobilienmanagement / Abt. Hochbau",
+   "id": "3441",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung vertreten durch das Immobilienmanagement / Abt. Hochbau"
+   },
+   "address": {
+    "streetAddress": "Untere Sandstraße 34",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0d4ff923-7741-477c-9607-5611b5915676",
+   "title": "Sanierung ehem. Klosteranlage WC-Anlage Pfortenflügel - Lufttechnische Anlagen",
+   "description": "Die Leistungen umfassen den Einbau der Lufttechnischen Anlagen.",
+   "procuringEntity": {
+    "name": "Stadt Bamberg / Zentrale Beschaffungs- und Vergabestelle im Auftrag der Bürgerspitalstiftung vertreten durch das Immobilienmanagement / Abt. Hochbau",
+    "id": "3441"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45300000",
+      "description": "Building installation work"
+     },
+     "deliveryAddress": {
+      "region": "DE241",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Christian Reh GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Christian Reh GmbH"
+     },
+     "address": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90427",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sanierung ehem. Klosteranlage WC-Anlage Pfortenflügel - Lufttechnische Anlagen",
+     "description": "Für die zu erwartenden Besucherströme nach Eröffnung der Abteikirche soll eine moderne, barrierefrei zugängliche Toilettenanlage entstehen, für deren Realisierung als Standort die ungenutzten Räume der ehemaligen Studentenverbindung im Sockelgeschoss des Pfortenflügels aufgrund ihrer zentralen Lage im Zugangsbereich der Klosteranlage als besonders sinnvoll erachtet werden Für das in Zukunft geplante neue Besucherzentrum \"Kloster Michaelsberg\" wird ein zentrales Entree geschaffen, welches im Sockelgeschoss des Pfortenflügels beheimatet ist und somit im direkten Zugangsbereich zur Klosteranlage liegt. Über ein großzügiges, Rundbogentor mittig des Pfortenflügels betritt der Besucher zunächst einen Vorraum, von welchem rechterhand die neue öffentliche WC-Anlage barrierefrei erreicht werden kann. Eine automatische gläserne Schiebetüranlage, welche der Toranlage hintangestellt ist, dient der klimatischen Trennung. Durch die Wiederherstellung eines ehemaligen, aktuell zugemauerten Durchgangs in der nördlichen Flurwand, gelingt die Anbindung des nördlich hieran angrenzenden, drei Joche breiten wie drei Schiffe tiefen kleinen Gewölbesaals, der ehemals der studentischen Verbindung als Aufenthalt diente. In diesem wird nun die öffentliche Toilettenanlage integriert, wobei über eine zwei Gewölbe einnehmende Erschließungszone sowohl das barrierefreie WC direkt im Zugangsbereich wie auch die im rückwärtigen Bereich befindlichen, jeweils drei Joche einnehmenden Damen - und Herren WC´s erreicht werden. Die, die unterschiedlichen Abschnitte voneinander abgrenzenden, Trenn- und Installationswände sind hierbei stets in den Gewölbescheiteln angeordnet.\nDie Leistungen umfassen den Einbau der Lufttechnischen Anlagen."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 58238.03,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a111eca2-e514-4d95-bbc5-d1e53eb3679f",
+  "version": "02",
+  "title": "Sanierung ehem. Klosteranlage WC-Anlage Pfortenflügel - Lufttechnische Anlagen",
+  "description": "Die Leistungen umfassen den Einbau der Lufttechnischen Anlagen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE241"
+  ],
+  "cpv": [
+   "45331000",
+   "45300000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sanierung ehem. Klosteranlage WC-Anlage Pfortenflügel - Lufttechnische Anlagen",
+    "description": "Für die zu erwartenden Besucherströme nach Eröffnung der Abteikirche soll eine moderne, barrierefrei zugängliche Toilettenanlage entstehen, für deren Realisierung als Standort die ungenutzten Räume der ehemaligen Studentenverbindung im Sockelgeschoss des Pfortenflügels aufgrund ihrer zentralen Lage im Zugangsbereich der Klosteranlage als besonders sinnvoll erachtet werden Für das in Zukunft geplante neue Besucherzentrum \"Kloster Michaelsberg\" wird ein zentrales Entree geschaffen, welches im Sockelgeschoss des Pfortenflügels beheimatet ist und somit im direkten Zugangsbereich zur Klosteranlage liegt. Über ein großzügiges, Rundbogentor mittig des Pfortenflügels betritt der Besucher zunächst einen Vorraum, von welchem rechterhand die neue öffentliche WC-Anlage barrierefrei erreicht werden kann. Eine automatische gläserne Schiebetüranlage, welche der Toranlage hintangestellt ist, dient der klimatischen Trennung. Durch die Wiederherstellung eines ehemaligen, aktuell zugemauerten Durchgangs in der nördlichen Flurwand, gelingt die Anbindung des nördlich hieran angrenzenden, drei Joche breiten wie drei Schiffe tiefen kleinen Gewölbesaals, der ehemals der studentischen Verbindung als Aufenthalt diente. In diesem wird nun die öffentliche Toilettenanlage integriert, wobei über eine zwei Gewölbe einnehmende Erschließungszone sowohl das barrierefreie WC direkt im Zugangsbereich wie auch die im rückwärtigen Bereich befindlichen, jeweils drei Joche einnehmenden Damen - und Herren WC´s erreicht werden. Die, die unterschiedlichen Abschnitte voneinander abgrenzenden, Trenn- und Installationswände sind hierbei stets in den Gewölbescheiteln angeordnet.\nDie Leistungen umfassen den Einbau der Lufttechnischen Anlagen.",
+    "cpv": [
+     "45300000"
+    ],
+    "nuts": [
+     "DE241"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

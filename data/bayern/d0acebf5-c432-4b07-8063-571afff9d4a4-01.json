@@ -1,0 +1,344 @@
+{
+ "id": "d0acebf5-c432-4b07-8063-571afff9d4a4-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "d0acebf5-c432-4b07-8063-571afff9d4a4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d0acebf5-c432-4b07-8063-571afff9d4a4",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:d0acebf5-c432-4b07-8063-571afff9d4a4-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:d0acebf5-c432-4b07-8063-571afff9d4a4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d0acebf5-c432-4b07-8063-571afff9d4a4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "BAVA Los 2, Vergärung und Gasaufbereitung und Los 3, Kompostierung und Hochbau",
+  "buyer": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+  "cpv": [
+   "45222100",
+   "45255800",
+   "42914000",
+   "45213280"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ee26087a-9bbb-4d5d-815d-816843c5a6db",
+  "id": "d0acebf5-c432-4b07-8063-571afff9d4a4",
+  "date": "2026-10-16T02:08:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID: 09162000-ZRE1000000-09",
+     "legalName": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7"
+    },
+    "address": {
+     "streetAddress": "Georg-Brauchle-Ring 29",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80992",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID: DE 811335517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+   "id": "Leitweg-ID: 09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7"
+   },
+   "address": {
+    "streetAddress": "Georg-Brauchle-Ring 29",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80992",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ee26087a-9bbb-4d5d-815d-816843c5a6db",
+   "title": "BAVA Los 2, Vergärung und Gasaufbereitung und Los 3, Kompostierung und Hochbau",
+   "description": "Bau einer Bioabfallverwertungsanlage in München;\nLos 2, Vergärung und Gasaufbereitung,\nLos 3, Kompostierung und Hochbau",
+   "procuringEntity": {
+    "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+    "id": "Leitweg-ID: 09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45222100",
+      "description": "Waste-treatment plant construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45255800",
+       "description": "Gas-production plant construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "42914000",
+       "description": "Recycling equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Werner-Heisenberg-Allee 62",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80939",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45213280",
+      "description": "Construction works for compost facility"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Werner-Heisenberg-Allee 62",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80939",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Restricted",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a0623ff9fd-2833f3baa4a35485",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a0623ff9fd-2833f3baa4a35485",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "BAVA Los 2, Vergärung und Gasaufbereitung",
+     "description": "Bau einer Bioabfallverwertungsanlage in München;\nLos 2, Vergärung und Gasaufbereitung\n\n- Beschickung und Eintrag in den Fermenter\n- Pfropfenstromfermenter\n- Gärrestaustrag und Übergabe an die Kompostierung\n- Biogasführung, Speicherung und Kondensat\n- Gasreinigung und Biogastrocknung\n- BHKW und Gasnutzung\n- Biogasfackel",
+     "contractPeriod": {
+      "startDate": "2027-06-04T00:00:00+02:00",
+      "endDate": "2029-05-09T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "BAVA Los 3, Kompostierung und Hochbau",
+     "description": "Bau einer Bioabfallverwertungsanlage in München;\nLos 3, Kompostierung und Hochbau\n\n- Anlieferhalle\n- Bunkerhalle inkl. Warte\n- Krananlage\n- Tunneleintragssystem\n- Kompostierungstunnel\n- Abluftfassung und Abluftbehandlung\n- Betriebsgebäude\n- Werkstatt und Waschplatz",
+     "contractPeriod": {
+      "startDate": "2027-06-04T00:00:00+02:00",
+      "endDate": "2029-07-02T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d0acebf5-c432-4b07-8063-571afff9d4a4",
+  "version": "01",
+  "title": "BAVA Los 2, Vergärung und Gasaufbereitung und Los 3, Kompostierung und Hochbau",
+  "description": "Bau einer Bioabfallverwertungsanlage in München;\nLos 2, Vergärung und Gasaufbereitung,\nLos 3, Kompostierung und Hochbau",
+  "procedureType": "restricted",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45222100",
+   "45213280",
+   "45255800",
+   "42914000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "BAVA Los 2, Vergärung und Gasaufbereitung",
+    "description": "Bau einer Bioabfallverwertungsanlage in München;\nLos 2, Vergärung und Gasaufbereitung\n\n- Beschickung und Eintrag in den Fermenter\n- Pfropfenstromfermenter\n- Gärrestaustrag und Übergabe an die Kompostierung\n- Biogasführung, Speicherung und Kondensat\n- Gasreinigung und Biogastrocknung\n- BHKW und Gasnutzung\n- Biogasfackel",
+    "cpv": [
+     "45222100",
+     "45255800",
+     "42914000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-17T10:00:00+01:00",
+    "plannedStart": "2027-06-04+02:00",
+    "plannedEnd": "2029-05-09+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Mindestanforderungen bei einer Bewerbung für das Los 2:\n\nMindestens drei vergleichbare Referenzprojekte aus den letzten zehn Jahren (maßgeblich ist der Zeitpunkt der erfolgten bauvertraglichen Abnahme), zurückgerechnet vom Schlusstermin für die Abgabe der Angebote.\n\nAls vergleichbar gelten nur Referenzprojekte, die kumulativ folgende Anforderungen erfüllen:\n- Das Auftragsvolumen muss mindestens 5,0 Mio. € (brutto) entsprochen haben. \n- Zu den vertraglichen Leistungen des jeweiligen Referenzprojektes müssen mindes-tens folgende Leistungen im Rahmen der Errichtung mindestens eines liegenden Pfropfenstromfermenters für Bio- und Grünabfälle (Anteil Bio- und/oder Grün-abfall >80%) bzw. für die organische Abfallfraktion von Siedlungsabfällen mit ei-nem Nutzvolumen je Fermenter von mindestens 1.500 Kubikmeter gehört haben: \n-- Bau- und Inbetriebnahme des Pfropfenstromfermenters, \n-- Bau- und Inbetriebnahme der für die Fahrweise des Fermenters notwendigen Steuerungstechnik. \n- Die Wellenanordnung (Entgasungshilfe bzw. Materialtransport) der Referenzanlage entspricht derjenigen, die das Unternehmen im Rahmen der baulichen Umsetzung für die ausgeschriebene Anlage vorsieht. D.h., dass z. B. eine Referenzanlage, bei der der Materialtransport und die Entgasung durch eine durchgehende Welle in Längsrich-tung der Förderrichtung erfolgt, dann nicht als vergleichbare Referenz anerkannt wird, wenn für die ausgeschriebene Anlage eine Ausführung vorgesehen ist, bei der diese Funktionen durch mehrere quer zur Förderrichtung angeordnete Wellen gewährleistet werden und umgekehrt. \n- Umsetzung innerhalb der Europäischen Union oder nach technisch und rechtlich ver-gleichbaren Regelungen. Werden Referenzen über Leistungen vorgelegt, die außer-halb der Europäischen Union erbracht worden sind, hat das Unternehmen mit dem Angebot darzustellen, dass es sich um Referenzen mit technisch und rechtlich ver-gleichbaren Anforderungen handelt.\n\nMindestanforderung bei einer Bewerbung für das Los 3:\n\nMindestens ein vergleichbares Referenzprojekt aus den letzten zehn Jahren (maßgeblich ist der Zeitpunkt der erfolgten bauvertraglichen Abnahme), zurückgerechnet vom Schlusstermin für die Abgabe der Angebote\n\nAls vergleichbar gelten nur Referenzprojekte, die kumulativ folgende Anforderungen erfüllen:\n- Zu den vertraglichen Leistungen des jeweiligen Referenzprojektes müssen mindes-tens folgende Leistungen im Rahmen der Errichtung einer Tunnelkompostierungs-anlage mit einer Durchsatzleistung von mindestens 14.000 Mg/a für Bio- und Grünabfall bzw. für die organische Fraktion des Siedlungsabfalls bzw. Gärres-ten aus einer Fermentationsanlage gehört haben: \n-- Bau- und Inbetriebnahme der Lüftungstechnik,\n-- Bau- und Inbetriebnahme der für die Fahrweise der Kompostierungstunnel notwendigen Steuerungstechnik.\n- Umsetzung innerhalb der Europäischen Union oder nach technisch und rechtlich ver-gleichbaren Regelungen. Werden Referenzen über Leistungen vorgelegt, die außer-halb der Europäischen Union erbracht worden sind, hat das Unternehmen mit dem Angebot darzustellen, dass es sich um Referenzen mit technisch und rechtlich ver-gleichbaren Anforderungen handelt."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angabe der durchschnittlichen Anzahl der in den letzten drei abgeschlossenen Geschäftsjahren beschäftigten Mitarbeitenden (eine Differenzierung zwischen Vollzeit- und Teilzeitmitarbeitenden ist nicht erforderlich)."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Berufshaftpflichtversicherung mit einer Deckungssumme\n- für Personen-, Sach- und Vermögensschäden in Höhe von jeweils mindestens 10,0 Mio. Euro und\n- für Umweltschäden nach dem Umwelthaftungs- und Umweltschadensgesetz ebenfalls in Höhe von mindestens 10,0 Mio. Euro,\njeweils maximiert auf mindestens das Zweifache der Deckungssumme pro Jahr"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angaben zur Zahlung von Steuern, Abgaben und Beiträgen zur gesetzlichen Sozialversicherung"
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Bei einer Bewerbung für das Los 2 bzw. bei einer Bewerbung auf beide Lose:\nDer Brutto-Jahresgesamtumsatz muss im Durchschnitt der letzten drei abgeschlossenen Geschäftsjahre jeweils mindestens 10 Mio. Euro betragen haben. Bei Bewerbergemeinschaften wird insoweit die Summe der Brutto-Umsätze aller Mitglieder der Bewerbergemeinschaft zugrunde gelegt.\n\nBei einer Bewerbung nur für das Los 3:\nDer Brutto-Jahresgesamtumsatz muss im Durchschnitt der letzten drei abgeschlossenen Geschäftsjahre jeweils mindestens 5,5 Mio. Euro betragen haben. Bei Bietergemeinschaften wird insoweit die Summe der Brutto-Umsätze aller Mitglieder der Bietergemeinschaft zugrunde gelegt."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle bzw. bei der Industrie- und Handelskammer (nicht älter als sechs Monate gerechnet vom Zeitpunkt des Schlusstermins für die Abgabe der Teilnahmeanträge), soweit die Eintragung nach Maßgabe der für den Bewerber einschlägigen Rechtvorschriften erforderlich ist, bzw. bei ausländischen Bewerbern eine gleichwertige Bescheinigung ihres Herkunftsstaates."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle bzw. bei der Industrie- und Handelskammer (nicht älter als sechs Monate gerechnet vom Zeitpunkt des Schlusstermins für die Abgabe der Teilnahmeanträge), soweit die Eintragung nach Maßgabe der für den Bewerber einschlägigen Rechtvorschriften erforderlich ist, bzw. bei ausländischen Bewerbern eine gleichwertige Bescheinigung ihres Herkunftsstaates."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "mehrere Kriterien mit unterschiedlicher Gewichtung",
+      "description": "Beschreibung der Projektabwicklung in den ersten 50 Tagen:\nKenntnisse und Erfahrungen des Projektteams;\nTermin- und Schnittstellenmanagement;\nBetriebsqualität der Verfahrens-und Anlagentechnik;",
+      "weight": 30
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Pauschalfestpreis",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "BAVA Los 3, Kompostierung und Hochbau",
+    "description": "Bau einer Bioabfallverwertungsanlage in München;\nLos 3, Kompostierung und Hochbau\n\n- Anlieferhalle\n- Bunkerhalle inkl. Warte\n- Krananlage\n- Tunneleintragssystem\n- Kompostierungstunnel\n- Abluftfassung und Abluftbehandlung\n- Betriebsgebäude\n- Werkstatt und Waschplatz",
+    "cpv": [
+     "45213280"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-17T10:00:00+01:00",
+    "plannedStart": "2027-06-04+02:00",
+    "plannedEnd": "2029-07-02+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Mindestanforderungen bei einer Bewerbung für das Los 2:\n\nMindestens drei vergleichbare Referenzprojekte aus den letzten zehn Jahren (maßgeblich ist der Zeitpunkt der erfolgten bauvertraglichen Abnahme), zurückgerechnet vom Schlusstermin für die Abgabe der Angebote.\n\nAls vergleichbar gelten nur Referenzprojekte, die kumulativ folgende Anforderungen erfüllen:\n- Das Auftragsvolumen muss mindestens 5,0 Mio. € (brutto) entsprochen haben. \n- Zu den vertraglichen Leistungen des jeweiligen Referenzprojektes müssen mindes-tens folgende Leistungen im Rahmen der Errichtung mindestens eines liegenden Pfropfenstromfermenters für Bio- und Grünabfälle (Anteil Bio- und/oder Grün-abfall >80%) bzw. für die organische Abfallfraktion von Siedlungsabfällen mit ei-nem Nutzvolumen je Fermenter von mindestens 1.500 Kubikmeter gehört haben: \n-- Bau- und Inbetriebnahme des Pfropfenstromfermenters, \n-- Bau- und Inbetriebnahme der für die Fahrweise des Fermenters notwendigen Steuerungstechnik. \n- Die Wellenanordnung (Entgasungshilfe bzw. Materialtransport) der Referenzanlage entspricht derjenigen, die das Unternehmen im Rahmen der baulichen Umsetzung für die ausgeschriebene Anlage vorsieht. D.h., dass z. B. eine Referenzanlage, bei der der Materialtransport und die Entgasung durch eine durchgehende Welle in Längsrich-tung der Förderrichtung erfolgt, dann nicht als vergleichbare Referenz anerkannt wird, wenn für die ausgeschriebene Anlage eine Ausführung vorgesehen ist, bei der diese Funktionen durch mehrere quer zur Förderrichtung angeordnete Wellen gewährleistet werden und umgekehrt. \n- Umsetzung innerhalb der Europäischen Union oder nach technisch und rechtlich ver-gleichbaren Regelungen. Werden Referenzen über Leistungen vorgelegt, die außer-halb der Europäischen Union erbracht worden sind, hat das Unternehmen mit dem Angebot darzustellen, dass es sich um Referenzen mit technisch und rechtlich ver-gleichbaren Anforderungen handelt.\n\nMindestanforderung bei einer Bewerbung für das Los 3:\n\nMindestens ein vergleichbares Referenzprojekt aus den letzten zehn Jahren (maßgeblich ist der Zeitpunkt der erfolgten bauvertraglichen Abnahme), zurückgerechnet vom Schlusstermin für die Abgabe der Angebote\n\nAls vergleichbar gelten nur Referenzprojekte, die kumulativ folgende Anforderungen erfüllen:\n- Zu den vertraglichen Leistungen des jeweiligen Referenzprojektes müssen mindes-tens folgende Leistungen im Rahmen der Errichtung einer Tunnelkompostierungs-anlage mit einer Durchsatzleistung von mindestens 14.000 Mg/a für Bio- und Grünabfall bzw. für die organische Fraktion des Siedlungsabfalls bzw. Gärres-ten aus einer Fermentationsanlage gehört haben: \n-- Bau- und Inbetriebnahme der Lüftungstechnik,\n-- Bau- und Inbetriebnahme der für die Fahrweise der Kompostierungstunnel notwendigen Steuerungstechnik.\n- Umsetzung innerhalb der Europäischen Union oder nach technisch und rechtlich ver-gleichbaren Regelungen. Werden Referenzen über Leistungen vorgelegt, die außer-halb der Europäischen Union erbracht worden sind, hat das Unternehmen mit dem Angebot darzustellen, dass es sich um Referenzen mit technisch und rechtlich ver-gleichbaren Anforderungen handelt."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angabe der durchschnittlichen Anzahl der in den letzten drei abgeschlossenen Geschäftsjahren beschäftigten Mitarbeitenden (eine Differenzierung zwischen Vollzeit- und Teilzeitmitarbeitenden ist nicht erforderlich)."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Berufshaftpflichtversicherung mit einer Deckungssumme\n- für Personen-, Sach- und Vermögensschäden in Höhe von jeweils mindestens 10,0 Mio. Euro und\n- für Umweltschäden nach dem Umwelthaftungs- und Umweltschadensgesetz ebenfalls in Höhe von mindestens 10,0 Mio. Euro,\njeweils maximiert auf mindestens das Zweifache der Deckungssumme pro Jahr"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angaben zur Zahlung von Steuern, Abgaben und Beiträgen zur gesetzlichen Sozialversicherung"
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Bei einer Bewerbung für das Los 2 bzw. bei einer Bewerbung auf beide Lose:\nDer Brutto-Jahresgesamtumsatz muss im Durchschnitt der letzten drei abgeschlossenen Geschäftsjahre jeweils mindestens 10 Mio. Euro betragen haben. Bei Bewerbergemeinschaften wird insoweit die Summe der Brutto-Umsätze aller Mitglieder der Bewerbergemeinschaft zugrunde gelegt.\n\nBei einer Bewerbung nur für das Los 3:\nDer Brutto-Jahresgesamtumsatz muss im Durchschnitt der letzten drei abgeschlossenen Geschäftsjahre jeweils mindestens 5,5 Mio. Euro betragen haben. Bei Bietergemeinschaften wird insoweit die Summe der Brutto-Umsätze aller Mitglieder der Bietergemeinschaft zugrunde gelegt."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle bzw. bei der Industrie- und Handelskammer (nicht älter als sechs Monate gerechnet vom Zeitpunkt des Schlusstermins für die Abgabe der Teilnahmeanträge), soweit die Eintragung nach Maßgabe der für den Bewerber einschlägigen Rechtvorschriften erforderlich ist, bzw. bei ausländischen Bewerbern eine gleichwertige Bescheinigung ihres Herkunftsstaates."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle bzw. bei der Industrie- und Handelskammer (nicht älter als sechs Monate gerechnet vom Zeitpunkt des Schlusstermins für die Abgabe der Teilnahmeanträge), soweit die Eintragung nach Maßgabe der für den Bewerber einschlägigen Rechtvorschriften erforderlich ist, bzw. bei ausländischen Bewerbern eine gleichwertige Bescheinigung ihres Herkunftsstaates."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "mehrere Kriterien mit unterschiedlicher Gewichtung",
+      "description": "Beschreibung der Projektabwicklung in den ersten 50 Tagen:\nKenntnisse und Erfahrungen des Projektteams;\nTermin- und Schnittstellenmanagement;\nBetriebsqualität der Verfahrens-und Anlagentechnik;\nStromverbrauch der Verfahrens-und Anlagentechnik pro Jahr",
+      "weight": 30
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Pauschalfestpreis",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

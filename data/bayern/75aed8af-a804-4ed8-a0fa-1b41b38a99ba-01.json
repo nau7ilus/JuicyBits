@@ -1,0 +1,200 @@
+{
+ "id": "75aed8af-a804-4ed8-a0fa-1b41b38a99ba-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "75aed8af-a804-4ed8-a0fa-1b41b38a99ba",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=75aed8af-a804-4ed8-a0fa-1b41b38a99ba",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:75aed8af-a804-4ed8-a0fa-1b41b38a99ba-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:75aed8af-a804-4ed8-a0fa-1b41b38a99ba-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/75aed8af-a804-4ed8-a0fa-1b41b38a99ba?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Neubau eines Busbetriebshofes Los  8 Trockenbauarbeiten und Innentüren",
+  "buyer": "Freisinger Stadtwerke Versorgungs-GmbH",
+  "cpv": [
+   "45213314",
+   "44221000"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": "2026-11-20T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-75aed8af-a804-4ed8-a0fa-1b41b38a99ba",
+  "id": "75aed8af-a804-4ed8-a0fa-1b41b38a99ba",
+  "date": "2026-10-23T02:08:20Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freisinger Stadtwerke Versorgungs-GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8808",
+     "legalName": "Freisinger Stadtwerke Versorgungs-GmbH"
+    },
+    "address": {
+     "streetAddress": "Wippenhauser Str.19",
+     "locality": "Freising",
+     "region": "DE21B",
+     "postalCode": "85354",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Rechnungsprüfungsamt der Stadt Freising",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "899a7698-3833-42ed-be52-899d065d0a54",
+     "legalName": "Rechnungsprüfungsamt der Stadt Freising"
+    },
+    "address": {
+     "streetAddress": "Amtsgerichtsgasse 6",
+     "locality": "Freising",
+     "region": "DE21B",
+     "postalCode": "85354",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freisinger Stadtwerke Versorgungs-GmbH",
+   "id": "8808",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freisinger Stadtwerke Versorgungs-GmbH"
+   },
+   "address": {
+    "streetAddress": "Wippenhauser Str.19",
+    "locality": "Freising",
+    "region": "DE21B",
+    "postalCode": "85354",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "75aed8af-a804-4ed8-a0fa-1b41b38a99ba",
+   "title": "Neubau eines Busbetriebshofes Los  8 Trockenbauarbeiten und Innentüren",
+   "description": "Das Leistungsverzeichnis umfasst die Trockenbauarbeiten und Innentüren für das Sozialgebäude sowie ergänzende Türanlagen für die Werkstatt, die Waschhalle und die Überdachung des neuen Busbetriebshofes mit Elektro-Ladeinfrastruktur in Freising. Die Leistungen beinhalten die Herstellung von Gipskarton-Montagewänden, Vorsatzschalen, Trockenputzsystemen, Deckenbekleidungen und Akustikdecken sowie Sanitärtrennwände aus HPL Verbundelementen. Darüber hinaus sind hochwertige Innentüren in Objektqualität, Stahl-Mehrzwecktüren für Werkstatt und Waschhalle sowie T90 Rauchschutztüren im Bereich der Überdachung auszuführen. Ergänzend umfasst das Los sämtliche Unterkonstruktionen, Dämmungen, Oberflächenqualitäten, Beschläge sowie erforderliche Anschluss- und Nebenleistungen.",
+   "procuringEntity": {
+    "name": "Freisinger Stadtwerke Versorgungs-GmbH",
+    "id": "8808"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45213314",
+      "description": "Bus garage construction work"
+     },
+     "deliveryAddress": {
+      "region": "DE21B",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 203844,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/75aed8af-a804-4ed8-a0fa-1b41b38a99ba",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau eines Busbetriebshofes Los  8 Trockenbauarbeiten und Innentüren",
+     "description": "Im Rahmen des Neubaus eines Busbetriebshofes mit Elektro-Ladeinfrastruktur in Freising umfasst das Los 8 sämtliche Trockenbauarbeiten und Innentüren für das Sozialgebäude sowie ergänzende Türanlagen für die Werkstatt, die Waschhalle und die Überdachung der Busabstellplätze. Die Leistungen beginnen mit der technischen Bearbeitung und umfassen die Herstellung sämtlicher Trockenbaukonstruktionen einschließlich Unterkonstruktionen, Dämmungen, Oberflächenbehandlungen und erforderlicher Nebenarbeiten. Die Ausführung erfolgt auf Grundlage der Ausführungs- und Detailplanung sowie unter Einhaltung der einschlägigen DIN- und EN-Normen.\nIm Sozialgebäude werden umfangreiche nichttragende Gipskarton Montagewände in unterschiedlichen Wandstärken zwischen 125 mm und 250 mm hergestellt. Die Konstruktionen bestehen aus verzinkten Metallständerwerken mit mehrlagiger Beplankung und Mineralwolldämmung und erfüllen erhöhte Anforderungen an Schall- und Brandschutz. Ergänzend werden Vorsatzschalen, Trockenputzbekleidungen, Installationsschächte, Verkofferungen sowie Tür- und Revisionsöffnungen ausgeführt. Die Oberflächen werden überwiegend in den Qualitätsstufen Q2 und Q3 hergestellt und bilden die Grundlage für die nachfolgenden Ausbaugewerke.  \nEin weiterer Schwerpunkt des Loses sind Deckenkonstruktionen in unterschiedlichen Ausführungen. Hierzu gehören Mineralfaser-Rasterdecken in Büro-, Flur- und Aufenthaltsbereichen sowie schallabsorbierende Akustikdecken aus gelochten Gipsplatten in den Seminarbereichen. Die Deckensysteme werden als abgehängte Konstruktionen mit hoher Schallabsorption und guten raumakustischen Eigenschaften ausgeführt und tragen zu einer hochwertigen Aufenthaltsqualität innerhalb des Gebäudes bei.\nFür die Sanitär- und Umkleidebereiche werden robuste und wasserbeständige \nTrennwandsysteme aus HPL-Verbundelementen hergestellt und montiert. Die \nAnlagen umfassen WC-Kabinen, Duschtrennwände, Umkleidetrennwände sowie ergänzende Schamwände. Die Ausführung erfolgt mit korrosionsbeständigen Beschlägen, Aluminiumprofilen und langlebigen Verbundelementen, die speziell für den dauerhaften Einsatz in Feucht- und Nassräumen geeignet sind. \nZum Leistungsumfang gehören darüber hinaus sämtliche Innentüren des \nSozialgebäudes. Vorgesehen sind hochwertige HPL-beschichtete Objektinnentüren mit Vollspan-Türblättern, Holz-Umfassungszargen und Edelstahlbeschlägen in unterschiedlichen Abmessungen. Die Türen werden entsprechend ihrer Nutzung in Büro-, Seminar-, Sanitär- und Aufenthaltsbereichen ausgeführt und teilweise mit Obentürschließern, Wechselgarnituren oder zweiflügeligen Ausführungen ausgestattet. Ergänzend wird im Treppenhaus eine Ganzglasbrüstung aus \nVerbundsicherheitsglas mit Edelstahlhandlauf hergestellt. \nFür die Waschhalle und die Werkstatt umfasst das Los die Lieferung und Montage korrosionsgeschützter Stahl-Mehrzwecktüren mit verzinkten und pulverbeschichteten Türblättern, Edelstahlbeschlägen sowie Türschließern. Die Konstruktionen sind speziell für die erhöhten Beanspruchungen in Werkstatt- und Waschhallenbereichen ausgelegt und gewährleisten eine dauerhaft sichere und wartungsarme Nutzung. Im Bereich der Überdachung der Busabstellplätze ist zusätzlich zwei selbstschließende \nT90-RS-Brandschutztüren als Feuerschutzabschluss in einer Brandwand auszuführen.\nDie Leistungen umfassen darüber hinaus sämtliche Befestigungs- und \nVerbindungsmittel, Abdichtungen, Anschlüsse, Beschläge und Nebenarbeiten. Alle Konstruktionen werden unter Berücksichtigung hoher Anforderungen an Dauerhaftigkeit, Funktionalität, Raumakustik, Schallschutz und Ausführungsqualität hergestellt und montiert.",
+     "value": {
+      "amount": 203844,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2027-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "75aed8af-a804-4ed8-a0fa-1b41b38a99ba",
+  "version": "01",
+  "title": "Neubau eines Busbetriebshofes Los  8 Trockenbauarbeiten und Innentüren",
+  "description": "Das Leistungsverzeichnis umfasst die Trockenbauarbeiten und Innentüren für das Sozialgebäude sowie ergänzende Türanlagen für die Werkstatt, die Waschhalle und die Überdachung des neuen Busbetriebshofes mit Elektro-Ladeinfrastruktur in Freising. Die Leistungen beinhalten die Herstellung von Gipskarton-Montagewänden, Vorsatzschalen, Trockenputzsystemen, Deckenbekleidungen und Akustikdecken sowie Sanitärtrennwände aus HPL Verbundelementen. Darüber hinaus sind hochwertige Innentüren in Objektqualität, Stahl-Mehrzwecktüren für Werkstatt und Waschhalle sowie T90 Rauchschutztüren im Bereich der Überdachung auszuführen. Ergänzend umfasst das Los sämtliche Unterkonstruktionen, Dämmungen, Oberflächenqualitäten, Beschläge sowie erforderliche Anschluss- und Nebenleistungen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "45213314",
+   "44221000"
+  ],
+  "estimatedValue": {
+   "amount": 203844,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau eines Busbetriebshofes Los  8 Trockenbauarbeiten und Innentüren",
+    "description": "Im Rahmen des Neubaus eines Busbetriebshofes mit Elektro-Ladeinfrastruktur in Freising umfasst das Los 8 sämtliche Trockenbauarbeiten und Innentüren für das Sozialgebäude sowie ergänzende Türanlagen für die Werkstatt, die Waschhalle und die Überdachung der Busabstellplätze. Die Leistungen beginnen mit der technischen Bearbeitung und umfassen die Herstellung sämtlicher Trockenbaukonstruktionen einschließlich Unterkonstruktionen, Dämmungen, Oberflächenbehandlungen und erforderlicher Nebenarbeiten. Die Ausführung erfolgt auf Grundlage der Ausführungs- und Detailplanung sowie unter Einhaltung der einschlägigen DIN- und EN-Normen.\nIm Sozialgebäude werden umfangreiche nichttragende Gipskarton Montagewände in unterschiedlichen Wandstärken zwischen 125 mm und 250 mm hergestellt. Die Konstruktionen bestehen aus verzinkten Metallständerwerken mit mehrlagiger Beplankung und Mineralwolldämmung und erfüllen erhöhte Anforderungen an Schall- und Brandschutz. Ergänzend werden Vorsatzschalen, Trockenputzbekleidungen, Installationsschächte, Verkofferungen sowie Tür- und Revisionsöffnungen ausgeführt. Die Oberflächen werden überwiegend in den Qualitätsstufen Q2 und Q3 hergestellt und bilden die Grundlage für die nachfolgenden Ausbaugewerke.  \nEin weiterer Schwerpunkt des Loses sind Deckenkonstruktionen in unterschiedlichen Ausführungen. Hierzu gehören Mineralfaser-Rasterdecken in Büro-, Flur- und Aufenthaltsbereichen sowie schallabsorbierende Akustikdecken aus gelochten Gipsplatten in den Seminarbereichen. Die Deckensysteme werden als abgehängte Konstruktionen mit hoher Schallabsorption und guten raumakustischen Eigenschaften ausgeführt und tragen zu einer hochwertigen Aufenthaltsqualität innerhalb des Gebäudes bei.\nFür die Sanitär- und Umkleidebereiche werden robuste und wasserbeständige \nTrennwandsysteme aus HPL-Verbundelementen hergestellt und montiert. Die \nAnlagen umfassen WC-Kabinen, Duschtrennwände, Umkleidetrennwände sowie ergänzende Schamwände. Die Ausführung erfolgt mit korrosionsbeständigen Beschlägen, Aluminiumprofilen und langlebigen Verbundelementen, die speziell für den dauerhaften Einsatz in Feucht- und Nassräumen geeignet sind. \nZum Leistungsumfang gehören darüber hinaus sämtliche Innentüren des \nSozialgebäudes. Vorgesehen sind hochwertige HPL-beschichtete Objektinnentüren mit Vollspan-Türblättern, Holz-Umfassungszargen und Edelstahlbeschlägen in unterschiedlichen Abmessungen. Die Türen werden entsprechend ihrer Nutzung in Büro-, Seminar-, Sanitär- und Aufenthaltsbereichen ausgeführt und teilweise mit Obentürschließern, Wechselgarnituren oder zweiflügeligen Ausführungen ausgestattet. Ergänzend wird im Treppenhaus eine Ganzglasbrüstung aus \nVerbundsicherheitsglas mit Edelstahlhandlauf hergestellt. \nFür die Waschhalle und die Werkstatt umfasst das Los die Lieferung und Montage korrosionsgeschützter Stahl-Mehrzwecktüren mit verzinkten und pulverbeschichteten Türblättern, Edelstahlbeschlägen sowie Türschließern. Die Konstruktionen sind speziell für die erhöhten Beanspruchungen in Werkstatt- und Waschhallenbereichen ausgelegt und gewährleisten eine dauerhaft sichere und wartungsarme Nutzung. Im Bereich der Überdachung der Busabstellplätze ist zusätzlich zwei selbstschließende \nT90-RS-Brandschutztüren als Feuerschutzabschluss in einer Brandwand auszuführen.\nDie Leistungen umfassen darüber hinaus sämtliche Befestigungs- und \nVerbindungsmittel, Abdichtungen, Anschlüsse, Beschläge und Nebenarbeiten. Alle Konstruktionen werden unter Berücksichtigung hoher Anforderungen an Dauerhaftigkeit, Funktionalität, Raumakustik, Schallschutz und Ausführungsqualität hergestellt und montiert.",
+    "cpv": [
+     "45213314"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": "2026-11-20T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2027-03-31+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 203844,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Eintragung in ein relevantes Berufsregister"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -160,6 +160,8 @@
   "noticeId": "9a5bcf8c-916b-41e3-bd61-12b000dc08e8",
   "version": "01",
   "title": "Tischlerarbeiten, Mobile Trennwand",
+  "description": "Campus Ost, Sportcampus, Fehwiesenstraße 115-117, München\nVE: Tischlerarbeiten, Mobile Trennwand",
+  "procedureType": "open",
   "nuts": [
    "DE212"
   ],
@@ -173,6 +175,7 @@
    {
     "id": "LOT-0000",
     "title": "Tischlerarbeiten, Mobile Trennwand",
+    "description": "2 St mobile Trennwandkonstruktionen",
     "cpv": [
      "45262670",
      "45421131",
@@ -185,6 +188,10 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 91,
+     "unit": "DAY"
+    },
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -192,7 +199,19 @@
       "type": "slc-abil-ref-work",
       "description": "Zusätzlich zu den Referenzen sind alle weiteren zu erfüllenden Eignungskriterien (Eignung zur Berufsausübung, wirtschaftliche und finanzielle Leistungsfähigkeit, technische und berufliche Leistungsfähigkeit) sowie die zum Nachweis vorzulegenden Unterlagen in dem Dokument \"Eignung_und_Nichtvorliegen_von_Ausschlussgruenden“ aufgeführt, das unter nachstehendem Link direkt abrufbar ist: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304405"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
    }
   ]
  }

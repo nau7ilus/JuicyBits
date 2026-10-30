@@ -1,0 +1,292 @@
+{
+ "id": "a2e41cb0-8036-4d20-ac40-f2bd285228bf-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "a2e41cb0-8036-4d20-ac40-f2bd285228bf",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a2e41cb0-8036-4d20-ac40-f2bd285228bf",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:a2e41cb0-8036-4d20-ac40-f2bd285228bf-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:a2e41cb0-8036-4d20-ac40-f2bd285228bf-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a2e41cb0-8036-4d20-ac40-f2bd285228bf?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Fachplanung Technische Ausruestung BT",
+  "buyer": "Staatliches Bauamt Augsburg",
+  "cpv": [
+   "71300000",
+   "71334000",
+   "71000000",
+   "71330000"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-aebcb9c4-f721-4e0b-97d9-8dd0accf6878",
+  "id": "a2e41cb0-8036-4d20-ac40-f2bd285228bf",
+  "date": "2026-10-16T02:11:20Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Augsburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0997106-51",
+     "legalName": "Staatliches Bauamt Augsburg"
+    },
+    "address": {
+     "streetAddress": "Holbeinstraße 10",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86150",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern - Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern - Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Vergabestelle - Staatliches Bauamt Augsburg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabestelle - Staatliches Bauamt Augsburg"
+    },
+    "address": {
+     "streetAddress": "Holbeinstraße 10",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86150",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Augsburg",
+   "id": "09-0997106-51",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Augsburg"
+   },
+   "address": {
+    "streetAddress": "Holbeinstraße 10",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86150",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "aebcb9c4-f721-4e0b-97d9-8dd0accf6878",
+   "title": "Fachplanung Technische Ausruestung BT",
+   "description": "Maßnahme: B71SBBBD010600 B 17 Nachr. TUN - Tunnel Bärenkeller\nErneuerung der Betriebstechnik im Tunnel Bärenkeller auf der B17 in Augsburg in den Leistungsphasen 5-8 im Leistungsbild Technische Ausrüstung, Anlagengruppen 3, 4 u. 5 mit Besonderen Leistungen",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Augsburg",
+    "id": "09-0997106-51"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71300000",
+      "description": "Engineering services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71334000",
+       "description": "Mechanical and electrical engineering services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71000000",
+       "description": "Architectural, construction, engineering and inspection services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71330000",
+       "description": "Miscellaneous engineering services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86156",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302140",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-16T02:11:20.341Z",
+     "rationale": "Friständerungen für Eingang Teilnahmeantrag und Anforderung von Informationen\nLeistungen, die in den Unterlagen der Anlagengruppe 2 zugeordent waren, wurden ohne inhaltliche Änderung der Leistung in die Anlagengruppe 3 geändert.\n",
+     "description": "Bei BT-750-Lot\n„Referenzen zu bestimmten Dienstleistungen“  bei Kriterium 3 \n• 10 Punkte: Anlagengruppe 3 (statt 2) : mind. 90 % der Leistungen in den Leistungsphasen 5-8\n• 5 Punkte: Anlagengruppe 3 (statt 2): mind. 50 % der Leistungen in den Leistungsphasen 5-8",
+     "amendsReleaseID": "7c72f003-986b-4a77-9b9f-72e3b7857ff5-01",
+     "releaseID": "a2e41cb0-8036-4d20-ac40-f2bd285228bf-01"
+    },
+    {
+     "date": "2026-10-16T02:11:20.341Z",
+     "rationale": "Friständerungen für Eingang Teilnahmeantrag und Anforderung von Informationen\nLeistungen, die in den Unterlagen der Anlagengruppe 2 zugeordent waren, wurden ohne inhaltliche Änderung der Leistung in die Anlagengruppe 3 geändert.\n",
+     "description": "Friständerungen für Eingang Teilnahmeantrag und Anforderung von Informationen\n",
+     "amendsReleaseID": "7c72f003-986b-4a77-9b9f-72e3b7857ff5-01",
+     "releaseID": "a2e41cb0-8036-4d20-ac40-f2bd285228bf-01"
+    },
+    {
+     "date": "2026-10-16T02:11:20.341Z",
+     "rationale": "Friständerungen für Eingang Teilnahmeantrag und Anforderung von Informationen\nLeistungen, die in den Unterlagen der Anlagengruppe 2 zugeordent waren, wurden ohne inhaltliche Änderung der Leistung in die Anlagengruppe 3 geändert.\n",
+     "description": "Bei BT-24-Procedure\nMaßnahme: B71SBBBD010600 B 17 Nachr. TUN - Tunnel Bärenkeller\nErneuerung der Betriebstechnik im Tunnel Bärenkeller auf der B17 in Augsburg in den Leistungsphasen 5-8 im Leistungsbild Technische Ausrüstung, Anlagengruppen 3 (statt 2) , 4 u. 5 mit Besonderen Leistungen",
+     "amendsReleaseID": "7c72f003-986b-4a77-9b9f-72e3b7857ff5-01",
+     "releaseID": "a2e41cb0-8036-4d20-ac40-f2bd285228bf-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fachplanung Technische Ausruestung BT",
+     "description": "Im Zuge der altersbedingten Erneuerung wird die gesamte betriebstechnische und verkehrstechnische Ausstattung des Bärenkellertunnels auf den aktuellen Stand der Technik gebracht und die Räumlichkeiten neu strukturiert.\nZiel der Ausführungsplanung: Fortführung und Vertiefung der Entwurfsplanung sowie Erstellung aller Plan  und Ausschreibungsunterlagen.\nbereits erbrachte / weiter aus zu planenden Leistungen\nBeleuchtung\n•\tErneuerung der Tunnelbeleuchtungsanlage (Leuchten über dem Notgehweg).\n•\tPlanung von Fluchtwegkennzeichnungsleuchten. \n•\tPlanung einer aktiven Leiteinrichtung.\nSchalt /Verteilerraum & Betriebstechnik\n•\tErneuerung der betriebstechnischen Anlagen im Betriebsgebäude und im Verteilerraum am Nordportal.\nLeittechnik & Sicherheit\n•\tVideoüberwachung der Tunnelportale, des Betriebsgebäudes und der PV Freifeldanlage.\n•\tErneuerung der Notrufsäulen inkl. eigener Notrufzentrale.\nVerkehrs /Signaltechnik\n•\tPlanung neuer Lichtsignalanlagen mit neuem Standort.\n•\tErneuerung der Tunnelautomatisierung, der Bedienung von Löschwasserschiebern \nPhotovoltaik\n•\tPlanung einer PV Freifeldanlage inkl. Energiespeichersystem.\nKabel /Leerrohrtrassen\n•\tAnbindung einer neuen Leerrohrtrasse zwischen Betriebsgebäude und Tunnelportal.\nBauablauf\n•\tOrdnung und Strukturierung des Bauablaufs zur Minimierung von Verkehrsbeeinflussungen auf der B 17 (z. B. Vermeidung langer Vollsperrungen).\nweitere Planungsleistungen\n•\tErstellung der Ausführungsplanunterlagen\n•\tErstellung der Ausschreibungsunterlagen\n•\tMitwirkung bei der Vergabe\n•\tBauüberwachung\n\nEine umfassende Projektbeschreibung ist der Unterlage VII-11-3-StB_Projektbeschreibung zu entnehmen.",
+     "contractPeriod": {
+      "durationInDays": 630
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a2e41cb0-8036-4d20-ac40-f2bd285228bf",
+  "version": "01",
+  "title": "Fachplanung Technische Ausruestung BT",
+  "description": "Maßnahme: B71SBBBD010600 B 17 Nachr. TUN - Tunnel Bärenkeller\nErneuerung der Betriebstechnik im Tunnel Bärenkeller auf der B17 in Augsburg in den Leistungsphasen 5-8 im Leistungsbild Technische Ausrüstung, Anlagengruppen 3, 4 u. 5 mit Besonderen Leistungen",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "71300000",
+   "71334000",
+   "71000000",
+   "71330000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fachplanung Technische Ausruestung BT",
+    "description": "Im Zuge der altersbedingten Erneuerung wird die gesamte betriebstechnische und verkehrstechnische Ausstattung des Bärenkellertunnels auf den aktuellen Stand der Technik gebracht und die Räumlichkeiten neu strukturiert.\nZiel der Ausführungsplanung: Fortführung und Vertiefung der Entwurfsplanung sowie Erstellung aller Plan  und Ausschreibungsunterlagen.\nbereits erbrachte / weiter aus zu planenden Leistungen\nBeleuchtung\n•\tErneuerung der Tunnelbeleuchtungsanlage (Leuchten über dem Notgehweg).\n•\tPlanung von Fluchtwegkennzeichnungsleuchten. \n•\tPlanung einer aktiven Leiteinrichtung.\nSchalt /Verteilerraum & Betriebstechnik\n•\tErneuerung der betriebstechnischen Anlagen im Betriebsgebäude und im Verteilerraum am Nordportal.\nLeittechnik & Sicherheit\n•\tVideoüberwachung der Tunnelportale, des Betriebsgebäudes und der PV Freifeldanlage.\n•\tErneuerung der Notrufsäulen inkl. eigener Notrufzentrale.\nVerkehrs /Signaltechnik\n•\tPlanung neuer Lichtsignalanlagen mit neuem Standort.\n•\tErneuerung der Tunnelautomatisierung, der Bedienung von Löschwasserschiebern \nPhotovoltaik\n•\tPlanung einer PV Freifeldanlage inkl. Energiespeichersystem.\nKabel /Leerrohrtrassen\n•\tAnbindung einer neuen Leerrohrtrasse zwischen Betriebsgebäude und Tunnelportal.\nBauablauf\n•\tOrdnung und Strukturierung des Bauablaufs zur Minimierung von Verkehrsbeeinflussungen auf der B 17 (z. B. Vermeidung langer Vollsperrungen).\nweitere Planungsleistungen\n•\tErstellung der Ausführungsplanunterlagen\n•\tErstellung der Ausschreibungsunterlagen\n•\tMitwirkung bei der Vergabe\n•\tBauüberwachung\n\nEine umfassende Projektbeschreibung ist der Unterlage VII-11-3-StB_Projektbeschreibung zu entnehmen.",
+    "cpv": [
+     "71300000",
+     "71334000",
+     "71000000",
+     "71330000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-03T08:30:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 21,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung (Formblatt III. 6) und in der Bewertungsmatrix (Unterlage III-6a_Bewertungsmatrix) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nIst der Bewerber eine juristische Person, ist dieser nur dann teilnahmeberechtigt, wenn durch Erklärung des Bewerbers nachgewiesen wird, dass der verantwortliche Berufsangehörige, die an die natürliche Person gestellten Anforderungen erfüllt. Bewerber oder verantwortliche Berufsangehörige juristischer Personen, die die entsprechende Berufsbezeichnung nach dem Recht eines anderen Mitgliedsstaates der Europäischen Union oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum tragen, erfüllen die \nfachlichen Voraussetzungen dann,\n\na) wenn sie sich dauerhaft im Bundesgebiet der Bundesrepublik Deutschland niedergelassen haben und berechtigt sind, die deutschen Berufsbezeichnungen nach den einschlägigen deutschen Fachgesetzen aufgrund einer Gleichstellung mit nach der Richtlinie 2005/36/EG (geändert durch die Richtlinie 2013/55/EU) zu tragen oder\n\nb) wenn sie vorübergehend im Bundesgebiet tätig sind und ihre Dienstleistungserbringung nach Richtlinie 2005/36/EG angezeigt haben."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung (Formblatt III. 6) und in der Bewertungsmatrix  (Unterlage III-6a_Bewertungsmatrix) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nEs ist der Gesamtumsatz des Unternehmens in den letzten drei Geschäftsjahren in EUR netto anzugeben. Die Erklärung ist als Eigenerklärung im Rahmen des Teilnahmeantrags abzugeben. Der Auftraggeber behält sich vor, diese Erklärungen auf gesondertes Verlangen durch Bestätigungen, z.B. von Wirtschaftsprüfern, nachweisen zu lassen. Auswahlkriterium: Gesamtumsatz (netto): Durchschnitt der letzten 3 abgeschlossenen Geschäftsjahre\n50 Punkte: ab 700.000 € Umsatz / Jahr \n40 Punkte: ab 600.000 € Umsatz / Jahr\n30 Punkte: ab 500.000 € Umsatz / Jahr\n20 Punkte: ab 400.000 € Umsatz / Jahr\n10 Punkte: ab 300.000 € Umsatz / Jahr\n\nMindestkriterium: 300.000 € Umsatz / Jahr im Durchschnitt der letzten drei Jahre\n(sollte das Unternehmen noch keine 3 Jahre bestehen, wird der bisherige Umsatz durch 3 geteilt)"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung (Formblatt III. 6) und in der Bewertungsmatrix (Unterlage III-6a_Bewertungsmatrix) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nNimmt der Bewerber die Kapazitäten eines anderen Unternehmens im Hinblick auf die erforderliche wirtschaftliche und finanzielle Leistungsfähigkeit in Anspruch, so muss er eine Erklärung des anderen Unternehmens zur gemeinsamen Haftung vorlegen (Formblatt III.8); die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben. Diese Erklärungen sind mit dem Teilnahmeantrag abzugeben. Es ist eine Berufshaftpflichtversicherung mit Deckungssummen für Personenschäden von 2 Mio. EUR und Deckungssummen für sonstige Schäden von 2 Mio. EUR bei einem, in einem Mitgliedstaat der EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen Versicherungsunternehmens vor Vertragsschluss abzuschließen und nachzuweisen. Die Berufshaftpflichtversicherung muss während der gesamten Vertragszeit unterhalten und nachgewiesen werden. Es ist zu gewährleisten, dass zur Deckung eines Schadens aus dem Vertrag Versicherungsschutz in Höhe der genannten Deckungssummen besteht. In jedem Fall ist der Nachweis zu erbringen, dass die Maximierung der Ersatzleistung pro Versicherungsjahr mindestens das Zweifache der Deckungssumme beträgt. Die geforderte Sicherheit kann auch durch eine Erklärung des Versicherungsunternehmens erfüllt werden, mit der dieses den Abschluss der geforderten Haftpflichtleistungen und Deckungsnachweise im Auftragsfall zusichert. Bei Versicherungsverträgen mit Pauschaldeckungen (also ohne Unterscheidung nach Sach- und Personenschäden) ist eine Erklärung des Versicherungsunternehmens erforderlich, dass beide Schadenskategorien im Auftragsfall nebeneinander mit den geforderten Deckungssummen abgesichert sind. Im Rahmen des Teilnahmewettbewerbs ist eine entsprechende Eigenerklärung abzugeben, auf gesondertes Verlangen des Auftraggebers ist der entsprechende Nachweis einzureichen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung (Formblatt III. 6) und in der Bewertungsmatrix (Unterlage III-6a_Bewertungsmatrix) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nEs ist der Bürokapazität / Personalstärke im Mittel der letzten 3 Jahre anzugeben. Die Personalstärke ist im Rahmen des Teilnahmeantrags als Eigenerklärung anzugeben.\n\n50 Punkte: ab 5 Ingenieuren/-innen / Techniker/-innen (davon 2 Ingenieure/-innen)\n30 Punkte: ab 4 Ingenieuren/-innen / Techniker/-innen (davon 2 Ingenieure/-innen)\n10 Punkte: ab 3 Ingenieuren/-innen / Techniker/-innen (davon 2 Ingenieure/-innen)\n\nMindestkriterium: (aktuell) 2 Ingenieuren/-innen oder gleichwertig"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung (Formblatt III. 6) und in der Bewertungsmatrix (Unterlage III-6a_Bewertungsmatrix) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nReferenzprojekte können eingereicht werden (und werden gewertet), sofern die Fertigstellung (Inbetriebnahme) im Zeitraum 01.01.2016 bis zum Ablauf der in der Bekanntmachung genannten Bewerbungsfrist erfolgt ist. [HINWEIS: Referenzprojekte können auch dann eingereicht werden, sofern nur Teilleistungen beauftragt wurden. Unabhängig davon ist die Fertigstellung (Inbetriebnahme) maßgebend für die Wertung eingereichter Referenzen].\n2.2.1.) Referenzportfolio: Betriebstechnik Tunnel\nDie drei besten Referenzen werden gewertet. Die Referenzen werden jeweils anhand nachstehender\nKriterien bewertet. Je Kriterium werden die unten aufgelisteten Punktzahlen vergeben. Pro Referenz\nkönnen somit maximal 95 Punkte erreicht werden. (Entscheidend ist jeweils die höchste erreichbare\nPunktzahl je Kriterium.)\n\nKriterium 1: Art der Aufgabenstellung:\n• 25 Punkte: Tunnel nach Standard 2004/54/EG und deutschem Standard (RE-ING/EABT/RABT)\n• 10 Punkte: Tunnel nach Standard 2004/54/EG\n\nKriterium 2: Erfahrung mit laufendem Betrieb\n• 20 Punkte: Erfahrung vorhanden\n\nKriterium 3: Leistungsumfang (Fachplanung Technische Ausrüstung)\n• 10 Punkte: Anlagengruppe 3: mind. 90 % der Leistungen in den Leistungsphasen 5-8\n• 10 Punkte: Anlagengruppe 4: mind. 90 % der Leistungen in den Leistungsphasen 5-8\n• 10 Punkte: Anlagengruppe 5: mind. 90 % der Leistungen in den Leistungsphasen 5-8\n• 5 Punkte: Anlagengruppe 3: mind. 50 % der Leistungen in den Leistungsphasen 5-8\n• 5 Punkte: Anlagengruppe 4: mind. 50 % der Leistungen in den Leistungsphasen 5-8\n• 5 Punkte: Anlagengruppe 5: mind. 50 % der Leistungen in den Leistungsphasen 5-8\n[Hinweis: Bei Leistungen, die nicht nach der HOAI erbracht wurden (bei Leistungen außerhalb\nDeutschlands oder durch Büros außerhalb Deutschlands), ist darzulegen, dass die erbrachten Leistungen mit denen der HOAI vergleichbar waren.]\n\nKriterium 4: Größenordnung:\n• 20 Punkte: spezifische Projektkosten (KG 400) ab 3 Mio. € netto\n• 10 Punkte: spezifische Projektkosten (KG 400) ab 1 Mio. € netto\n\nMindestkriterium: In jedem Kriterium müssen Punkte erreicht worden sein. Dies kann auch durch\nReferenzen geschehen, die in der konkreten Bepunktung der drei besten Referenzen nicht berücksichtigt werden."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Die Eignungskriterien und die geforderten Nachweise Bescheinigungen sind in der Eigenerklärung (Formblatt III. 6) und in der Bewertungsmatrix (Unterlage III-6a_Bewertungsmatrix) in den Vergabeunterlagen aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nReferenzprojekte können eingereicht werden (und werden gewertet), sofern die Fertigstellung (Inbetriebnahme) im Zeitraum 01.01.2016 bis zum Ablauf der in der Bekanntmachung genannten Bewerbungsfrist erfolgt ist. [HINWEIS: Referenzprojekte können auch dann eingereicht werden, sofern nur Teilleistungen beauftragt wurden. Unabhängig davon ist die Fertigstellung (Inbetriebnahme) maßgebend für die Wertung eingereichter Referenzen].\n\n2.2.2.) Spezifische Referenzanforderungen\nDas folgende Referenzkriterium ist gesondert zu belegen. Entscheidend ist die Anzahl an Referenzen mit der entsprechenden Erfahrung. Für das Referenzportfolio kann somit eine maximale Punktezahl von 15 Punkten erreicht werden. Es können auch die gleichen Referenzen wie in 2.2.1 benannt werden.\n\nKriterium: Erfahrung in der Planung und Ausführung (Lph. 5-8) von PV-Anlagen\n• 15 Punkte: Erfahrung in 3 Projekten\n• 10 Punkte: Erfahrung in 2 Projekten\n• 5 Punkte: Erfahrung in 1 Projekt"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Die Qualität ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt: https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302140",
+      "weight": 70
+     },
+     {
+      "type": "price",
+      "name": "Siehe Vergabeunterlagen Formblatt III.16.1",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen (Formblatt III.16.1) aufgeführt: https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302140",
+      "weight": 30
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

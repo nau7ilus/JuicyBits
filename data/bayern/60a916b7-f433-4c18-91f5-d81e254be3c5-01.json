@@ -1,0 +1,248 @@
+{
+ "id": "60a916b7-f433-4c18-91f5-d81e254be3c5-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "60a916b7-f433-4c18-91f5-d81e254be3c5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=60a916b7-f433-4c18-91f5-d81e254be3c5",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:60a916b7-f433-4c18-91f5-d81e254be3c5-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:60a916b7-f433-4c18-91f5-d81e254be3c5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/60a916b7-f433-4c18-91f5-d81e254be3c5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag zur Unterstützung der Tests und der Abnahme im Programm GeFa",
+  "buyer": "Länder des Entwicklungsverbundes bestehend aus den 16 Bundesländern der Bundesrepublik Deutschland, vertreten durch den Freistaat Bayern, vertreten durch das Bayerische Staatsministerium der Justiz",
+  "cpv": [
+   "72254000",
+   "72226000",
+   "72260000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8d5e5204-0636-431f-b8bf-33c0ff2df231",
+  "id": "60a916b7-f433-4c18-91f5-d81e254be3c5",
+  "date": "2026-10-17T22:10:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Länder des Entwicklungsverbundes bestehend aus den 16 Bundesländern der Bundesrepublik Deutschland, vertreten durch den Freistaat Bayern, vertreten durch das Bayerische Staatsministerium der Justiz",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0e94e117-d9f6-4391-a4c0-a02d49065c44",
+     "legalName": "Länder des Entwicklungsverbundes bestehend aus den 16 Bundesländern der Bundesrepublik Deutschland, vertreten durch den Freistaat Bayern, vertreten durch das Bayerische Staatsministerium der Justiz"
+    },
+    "address": {
+     "streetAddress": "Prielmayerstraße 7",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80335",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Der Präsident des Oberlandesgerichts München",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "f0653f3a-e7a9-422f-8563-82216be6b777",
+     "legalName": "Der Präsident des Oberlandesgerichts München"
+    },
+    "address": {
+     "streetAddress": "Denisstr. 3",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80335",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Länder des Entwicklungsverbundes bestehend aus den 16 Bundesländern der Bundesrepublik Deutschland, vertreten durch den Freistaat Bayern, vertreten durch das Bayerische Staatsministerium der Justiz",
+   "id": "0e94e117-d9f6-4391-a4c0-a02d49065c44",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Länder des Entwicklungsverbundes bestehend aus den 16 Bundesländern der Bundesrepublik Deutschland, vertreten durch den Freistaat Bayern, vertreten durch das Bayerische Staatsministerium der Justiz"
+   },
+   "address": {
+    "streetAddress": "Prielmayerstraße 7",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80335",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8d5e5204-0636-431f-b8bf-33c0ff2df231",
+   "title": "Rahmenvertrag zur Unterstützung der Tests und der Abnahme im Programm GeFa",
+   "description": "Der vorliegende Auftrag umfasst die Vergabe „Test und Abnahme\" im Rahmen des bundesweiten Softwareprojektes „GeFa“. Gegenstand ist die eigenverantwortliche Bereitstellung und der dauerhafte Betrieb einer hochverfügbaren Testumgebung einschließlich CI/CD-Pipeline sowie die Unterstützung beim Aufbau einer auftraggeberseitigen Abnahmetestumgebung. Hinzu kommen umfassende Testunterstützungsleistungen in einem agilen Entwicklungsumfeld mit mehreren parallel arbeitenden Scrum-Teams. Der Auftragnehmer muss einen Beraterpool von über 60 namentlich zu benennenden Spezialisten stellen und jederzeit abrufbereit halten. Dieser Pool umfasst unter anderem Software Test Engineers, DevOps-Engineers, Testmanager, Konfigurationsmanager, Spezialisten für Barrierefreiheit, IT-Sicherheit und Datenschutz, Datenbank-Spezialisten, Cloud-Architekten sowie Test-Koordinatoren. Alle Berater müssen über nachweisbare, teils langjährige einschlägige Berufserfahrung und zwingend erforderliche Zertifizierungen verfügen, darunter ISTQB Advanced Level, IPMA, ITIL und DevOps Institute. Die Leistungserbringung erfolgt im Zusammenspiel mit weiteren externen Dienstleistern für Anforderungserhebung und Softwareentwicklung. Sie unterliegt strikten Service Level Agreements, darunter eine Mindestverfügbarkeit der Testumgebung von 99 % sowie verbindliche Wiederherstellungszeiten. Darüber hinaus werden sehr hohe Qualitätsanforderungen an Barrierefreiheit (DIN EN 301 549), IT-Sicherheit (BSI-Grundschutz, ISO 27001, OWASP), Ergonomie und Softwarequalität (ISO 25010) gestellt. Der Auftragnehmer hat deren Einhaltung durch geeignete Testverfahren kontinuierlich zu verifizieren.",
+   "procuringEntity": {
+    "name": "Länder des Entwicklungsverbundes bestehend aus den 16 Bundesländern der Bundesrepublik Deutschland, vertreten durch den Freistaat Bayern, vertreten durch das Bayerische Staatsministerium der Justiz",
+    "id": "0e94e117-d9f6-4391-a4c0-a02d49065c44"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72254000",
+      "description": "Software testing"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72226000",
+       "description": "System software acceptance testing consultancy services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72260000",
+       "description": "Software-related services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80335",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 86461451.1,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/dda27b2a-c611-4459-948a-eddf72ece4a1",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag zur Unterstützung der Tests und der Abnahme im Programm GeFa",
+     "description": "Der vorliegende Auftrag umfasst die Vergabe „Test und Abnahme\" im Rahmen des bundesweiten Softwareprojektes „GeFa“. Gegenstand ist die eigenverantwortliche Bereitstellung und der dauerhafte Betrieb einer hochverfügbaren Testumgebung einschließlich CI/CD-Pipeline sowie die Unterstützung beim Aufbau einer auftraggeberseitigen Abnahmetestumgebung. Hinzu kommen umfassende Testunterstützungsleistungen in einem agilen Entwicklungsumfeld mit mehreren parallel arbeitenden Scrum-Teams. Der Auftragnehmer muss einen Beraterpool von über 60 namentlich zu benennenden Spezialisten stellen und jederzeit abrufbereit halten. Dieser Pool umfasst unter anderem Software Test Engineers, DevOps-Engineers, Testmanager, Konfigurationsmanager, Spezialisten für Barrierefreiheit, IT-Sicherheit und Datenschutz, Datenbank-Spezialisten, Cloud-Architekten sowie Test-Koordinatoren. Alle Berater müssen über nachweisbare, teils langjährige einschlägige Berufserfahrung und zwingend erforderliche Zertifizierungen verfügen, darunter ISTQB Advanced Level, IPMA, ITIL und DevOps Institute. Die Leistungserbringung erfolgt im Zusammenspiel mit weiteren externen Dienstleistern für Anforderungserhebung und Softwareentwicklung. Sie unterliegt strikten Service Level Agreements, darunter eine Mindestverfügbarkeit der Testumgebung von 99 % sowie verbindliche Wiederherstellungszeiten. Darüber hinaus werden sehr hohe Qualitätsanforderungen an Barrierefreiheit (DIN EN 301 549), IT-Sicherheit (BSI-Grundschutz, ISO 27001, OWASP), Ergonomie und Softwarequalität (ISO 25010) gestellt. Der Auftragnehmer hat deren Einhaltung durch geeignete Testverfahren kontinuierlich zu verifizieren.",
+     "value": {
+      "amount": 86461451.1,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-07-30T00:00:00+02:00",
+      "endDate": "2031-07-29T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "60a916b7-f433-4c18-91f5-d81e254be3c5",
+  "version": "01",
+  "title": "Rahmenvertrag zur Unterstützung der Tests und der Abnahme im Programm GeFa",
+  "description": "Der vorliegende Auftrag umfasst die Vergabe „Test und Abnahme\" im Rahmen des bundesweiten Softwareprojektes „GeFa“. Gegenstand ist die eigenverantwortliche Bereitstellung und der dauerhafte Betrieb einer hochverfügbaren Testumgebung einschließlich CI/CD-Pipeline sowie die Unterstützung beim Aufbau einer auftraggeberseitigen Abnahmetestumgebung. Hinzu kommen umfassende Testunterstützungsleistungen in einem agilen Entwicklungsumfeld mit mehreren parallel arbeitenden Scrum-Teams. Der Auftragnehmer muss einen Beraterpool von über 60 namentlich zu benennenden Spezialisten stellen und jederzeit abrufbereit halten. Dieser Pool umfasst unter anderem Software Test Engineers, DevOps-Engineers, Testmanager, Konfigurationsmanager, Spezialisten für Barrierefreiheit, IT-Sicherheit und Datenschutz, Datenbank-Spezialisten, Cloud-Architekten sowie Test-Koordinatoren. Alle Berater müssen über nachweisbare, teils langjährige einschlägige Berufserfahrung und zwingend erforderliche Zertifizierungen verfügen, darunter ISTQB Advanced Level, IPMA, ITIL und DevOps Institute. Die Leistungserbringung erfolgt im Zusammenspiel mit weiteren externen Dienstleistern für Anforderungserhebung und Softwareentwicklung. Sie unterliegt strikten Service Level Agreements, darunter eine Mindestverfügbarkeit der Testumgebung von 99 % sowie verbindliche Wiederherstellungszeiten. Darüber hinaus werden sehr hohe Qualitätsanforderungen an Barrierefreiheit (DIN EN 301 549), IT-Sicherheit (BSI-Grundschutz, ISO 27001, OWASP), Ergonomie und Softwarequalität (ISO 25010) gestellt. Der Auftragnehmer hat deren Einhaltung durch geeignete Testverfahren kontinuierlich zu verifizieren.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72254000",
+   "72226000",
+   "72260000"
+  ],
+  "estimatedValue": {
+   "amount": 86461451.1,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag zur Unterstützung der Tests und der Abnahme im Programm GeFa",
+    "description": "Der vorliegende Auftrag umfasst die Vergabe „Test und Abnahme\" im Rahmen des bundesweiten Softwareprojektes „GeFa“. Gegenstand ist die eigenverantwortliche Bereitstellung und der dauerhafte Betrieb einer hochverfügbaren Testumgebung einschließlich CI/CD-Pipeline sowie die Unterstützung beim Aufbau einer auftraggeberseitigen Abnahmetestumgebung. Hinzu kommen umfassende Testunterstützungsleistungen in einem agilen Entwicklungsumfeld mit mehreren parallel arbeitenden Scrum-Teams. Der Auftragnehmer muss einen Beraterpool von über 60 namentlich zu benennenden Spezialisten stellen und jederzeit abrufbereit halten. Dieser Pool umfasst unter anderem Software Test Engineers, DevOps-Engineers, Testmanager, Konfigurationsmanager, Spezialisten für Barrierefreiheit, IT-Sicherheit und Datenschutz, Datenbank-Spezialisten, Cloud-Architekten sowie Test-Koordinatoren. Alle Berater müssen über nachweisbare, teils langjährige einschlägige Berufserfahrung und zwingend erforderliche Zertifizierungen verfügen, darunter ISTQB Advanced Level, IPMA, ITIL und DevOps Institute. Die Leistungserbringung erfolgt im Zusammenspiel mit weiteren externen Dienstleistern für Anforderungserhebung und Softwareentwicklung. Sie unterliegt strikten Service Level Agreements, darunter eine Mindestverfügbarkeit der Testumgebung von 99 % sowie verbindliche Wiederherstellungszeiten. Darüber hinaus werden sehr hohe Qualitätsanforderungen an Barrierefreiheit (DIN EN 301 549), IT-Sicherheit (BSI-Grundschutz, ISO 27001, OWASP), Ergonomie und Softwarequalität (ISO 25010) gestellt. Der Auftragnehmer hat deren Einhaltung durch geeignete Testverfahren kontinuierlich zu verifizieren.",
+    "cpv": [
+     "72254000",
+     "72226000",
+     "72260000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-16T12:00:00+01:00",
+    "plannedStart": "2027-07-30+02:00",
+    "plannedEnd": "2031-07-29+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 86461451.1,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die vollständigen Eignungskritrien finden Sie unter folgendem Link:\nhttps://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/dda27b2a-c611-4459-948a-eddf72ece4a1/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "Die Leistungskriterien werden in der Ausschreibungsphase definiert, sind in den Anlagen im derzeitigen Stnad beigefügt.",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

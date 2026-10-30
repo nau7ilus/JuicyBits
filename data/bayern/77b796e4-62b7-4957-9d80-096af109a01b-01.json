@@ -1,0 +1,245 @@
+{
+ "id": "77b796e4-62b7-4957-9d80-096af109a01b-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "77b796e4-62b7-4957-9d80-096af109a01b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=77b796e4-62b7-4957-9d80-096af109a01b",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:77b796e4-62b7-4957-9d80-096af109a01b-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:77b796e4-62b7-4957-9d80-096af109a01b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/77b796e4-62b7-4957-9d80-096af109a01b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "1002 BKP-ENF-Bezirkskrankenhaus Parsberg - Ersatzneubau Forensik Gewerk: 1231-001 Metallblechtüren 2 Haus 4 Pforte",
+  "buyer": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+  "cpv": [
+   "45421131",
+   "45262670"
+  ],
+  "nuts": [
+   "DE232",
+   "DE236"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c615f5f9-b8dc-48c6-bc89-1a64c31a791b",
+  "id": "77b796e4-62b7-4957-9d80-096af109a01b",
+  "date": "2026-10-16T02:10:53Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-IdNr:DE289669264",
+     "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+    },
+    "address": {
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "Ust.IdNr: DE811335517",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Niebuhr Stahlglastechnik GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE196749786",
+     "legalName": "Niebuhr Stahlglastechnik GmbH"
+    },
+    "address": {
+     "locality": "Gardelegen",
+     "region": "DEE04",
+     "postalCode": "39638",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+   "id": "USt-IdNr:DE289669264",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+   },
+   "address": {
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c615f5f9-b8dc-48c6-bc89-1a64c31a791b",
+   "title": "1002 BKP-ENF-Bezirkskrankenhaus Parsberg - Ersatzneubau Forensik Gewerk: 1231-001 Metallblechtüren 2 Haus 4 Pforte",
+   "description": "Innentüren Metall \n ca. 40 Stück Stahlrahmentüren in RS/T30/T90 und RC3\n ca. 10 Stück Stahlblechtüren\n ca. 15 Stück Stahlrahmen Innenfenster",
+   "procuringEntity": {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "USt-IdNr:DE289669264"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421131",
+      "description": "Installation of doors"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE236",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Niebuhr Stahlglastechnik GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Niebuhr Stahlglastechnik GmbH"
+     },
+     "address": {
+      "locality": "Gardelegen",
+      "region": "DEE04",
+      "postalCode": "39638",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Metallblechtüren 2 Haus 4 Pforte",
+     "description": "Innentüren Metall \n ca. 40 Stück Stahlrahmentüren in RS/T30/T90 und RC3\n ca. 10 Stück Stahlblechtüren\n ca. 15 Stück Stahlrahmen Innenfenster",
+     "contractPeriod": {
+      "startDate": "2027-06-07T00:00:00+02:00",
+      "endDate": "2027-07-23T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-05T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 231004,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-04T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "77b796e4-62b7-4957-9d80-096af109a01b",
+  "version": "01",
+  "title": "1002 BKP-ENF-Bezirkskrankenhaus Parsberg - Ersatzneubau Forensik Gewerk: 1231-001 Metallblechtüren 2 Haus 4 Pforte",
+  "description": "Innentüren Metall \n ca. 40 Stück Stahlrahmentüren in RS/T30/T90 und RC3\n ca. 10 Stück Stahlblechtüren\n ca. 15 Stück Stahlrahmen Innenfenster",
+  "procedureType": "open",
+  "nuts": [
+   "DE236"
+  ],
+  "cpv": [
+   "45421131",
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Metallblechtüren 2 Haus 4 Pforte",
+    "description": "Innentüren Metall \n ca. 40 Stück Stahlrahmentüren in RS/T30/T90 und RC3\n ca. 10 Stück Stahlblechtüren\n ca. 15 Stück Stahlrahmen Innenfenster",
+    "cpv": [
+     "45421131",
+     "45262670"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-06-07+02:00",
+    "plannedEnd": "2027-07-23+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "der Preis ist das einzige Zuschlagskriterium",
+      "description": "der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "f09bc897-2f1d-46be-9277-ed9cd4cb66a0",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f09bc897-2f1d-46be-9277-ed9cd4cb66a0",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:f09bc897-2f1d-46be-9277-ed9cd4cb66a0-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:f09bc897-2f1d-46be-9277-ed9cd4cb66a0-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/f09bc897-2f1d-46be-9277-ed9cd4cb66a0?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Mobile Trennwand",
   "buyer": "Stadt Erlangen - Zentrale Vergabestelle",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE252"
   ],
-  "deadline": null,
+  "deadline": "2026-11-05T10:15:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -169,5 +169,70 @@
    }
   ]
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "f09bc897-2f1d-46be-9277-ed9cd4cb66a0",
+  "version": "01",
+  "title": "Mobile Trennwand",
+  "description": "Maßnahmenbeschreibung:\nDie Stadt Erlangen plant einen Erweiterungsbau für die Michael-Poeschke Schule. Im Neubau sollen Räume für die Mittagsversorgung und die Ganztagsbetreuung (Hort) untergebracht werden. \n\n- 5-teilige Trennwandanlage, B x H=6,15 x 3,01 m, manuell verfahrbar,\n- mit 1 St. Durchgangstür und Oberfläche als Akustikabsorber,\n- einseitig mit Spiegeln, H= 2,00 m, \n- mit Deckenschott.",
+  "procedureType": "open",
+  "nuts": [
+   "DE252"
+  ],
+  "cpv": [
+   "45420000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Mobile Trennwand",
+    "description": "Maßnahmenbeschreibung:\nDie Stadt Erlangen plant einen Erweiterungsbau für die Michael-Poeschke Schule. Im Neubau sollen Räume für die Mittagsversorgung und die Ganztagsbetreuung (Hort) untergebracht werden. \n\n- 5-teilige Trennwandanlage, B x H=6,15 x 3,01 m, manuell verfahrbar,\n- mit 1 St. Durchgangstür und Oberfläche als Akustikabsorber,\n- einseitig mit Spiegeln, H= 2,00 m, \n- mit Deckenschott.",
+    "cpv": [
+     "45420000"
+    ],
+    "nuts": [
+     "DE252"
+    ],
+    "deadline": "2026-11-05T10:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-11+01:00",
+    "plannedEnd": "2027-07-23+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304148"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304148"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304148"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind.\n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304148"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
 }

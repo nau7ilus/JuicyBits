@@ -1,0 +1,394 @@
+{
+ "id": "408937df-2562-4c7b-a442-25d3811771b7-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "408937df-2562-4c7b-a442-25d3811771b7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=408937df-2562-4c7b-a442-25d3811771b7",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:408937df-2562-4c7b-a442-25d3811771b7-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:408937df-2562-4c7b-a442-25d3811771b7-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/408937df-2562-4c7b-a442-25d3811771b7?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Gigabit 2.0, FTTH-Ausbau Markt Pleinfeld",
+  "buyer": "Markt Pleinfeld",
+  "cpv": [
+   "45232332",
+   "32562000",
+   "45314000",
+   "45232300"
+  ],
+  "nuts": [
+   "DE25C"
+  ],
+  "deadline": "2026-11-24T11:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5ba7d94b-db7d-43c7-a846-b3f2589a1a64",
+  "id": "408937df-2562-4c7b-a442-25d3811771b7",
+  "date": "2026-10-23T02:06:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Pleinfeld",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "095770161161",
+     "legalName": "Markt Pleinfeld"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 11",
+     "locality": "Pleinfeld",
+     "region": "DE25C",
+     "postalCode": "91785",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern -",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811 335 517",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern -"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Pleinfeld",
+   "id": "095770161161",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Pleinfeld"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 11",
+    "locality": "Pleinfeld",
+    "region": "DE25C",
+    "postalCode": "91785",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5ba7d94b-db7d-43c7-a846-b3f2589a1a64",
+   "title": "Gigabit 2.0, FTTH-Ausbau Markt Pleinfeld",
+   "description": "Der Markt Pleinfeld beabsichtigt den nahezu flächendeckenden Ausbau der ausgeschriebenen Adressen des Erschließungsgebietes nach Maßgabe der Richtlinie „Förderung zur Unterstützung des Gigabitausbau der Telekommunikationsnetze in der Bundesrepublik Deutschland“ vom 31.03.2023 (nachfolgend „Gigabit RL 2.0“). Die erforderlichen Leistungen umfassen die physische Herstellung eines gigabitfähigen Glasfasernetzes bis in die Gebäude der ausgeschriebenen Adressen (FTTB), soweit Gestattungen der Gebäudeeigentümer hierfür vorliegen, andernfalls die Erstellung von Grundstücksanschlüssen. Ausnahme des Projektgebietes bilden der Ortskern von Pleinfeld, Ramsberg und einige wenige Ortsteile, die aus entlegenen Grundstücken im Außenbereich bestehen. Die vorhandene Planung berücksichtigt 1011 Adresspunkte und 72 km Trasse mit 200 km Glasfaserkabel. Aufgaben in diesem Ausbau sind speziell das Anschlussmanagement, der Tiefbau der Trassen, das Liefern und Einbringen von Rohren und Multirohrverbänden, das Stellen von Verzweigern, Schächten und eines POP, das Einbringen von Glasfaserkabeln, sowie die Dokumentation. Das Gesamtvorhaben wird in zwei Losen vergeben.",
+   "procuringEntity": {
+    "name": "Markt Pleinfeld",
+    "id": "095770161161"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232332",
+      "description": "Ancillary works for telecommunications"
+     },
+     "deliveryAddress": {
+      "locality": "Pleinfeld",
+      "region": "DE25C",
+      "postalCode": "91785",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232332",
+      "description": "Ancillary works for telecommunications"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "32562000",
+       "description": "Optical-fibre cables"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45314000",
+       "description": "Installation of telecommunications equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Pleinfeld",
+      "region": "DE25C",
+      "postalCode": "91785",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c7d4-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c7d4-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Gigabit 2.0, FTTH-Ausbau Markt Pleinfeld, Los 1",
+     "description": "Gegenstand von Los 1 sind die Tiefbau- und Trassenarbeiten für die Fernstrecken des Gigabitausbaues im Marktgebiet. Die Verlegung der Rohrinfrastruktur hat bevorzugt im Fräs-/ Trenchingverfahren nach DIN 18220 zu erfolgen. Enthalten sind 18 km Trassenbau, Lieferung und Verbau der Leerrohrinfrastruktur, sowie Wiederherstellung der Oberflächen und Dokumentation. Kabelmontage und Hausanschlüsse sind nicht Bestandteil dieses Loses",
+     "value": {
+      "amount": 1400000,
+      "currency": "EUR"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Gigabit 2.0, FTTH-Ausbau Markt Pleinfeld, Los 2",
+     "description": "Gegenstand von Los 2 ist die Errichtung der passiven Gigabit-Infrastruktur, sowie der Ausbau der Ortsnetze und Hausanschlüsse. Dies umfasst den Tiefbau für ca. 54km Trasse, den Einzug, bzw. das Einblasen der Glasfaserkabel (ca. 200km) im Gesamtnetz (inkl der in Los 1 errichteten Trassen), die Montage von Verteilergehäusen (NVts, sowie die Errichtung von ca. 1011 FTTB Hausanschlüssen nebst Endmontage und Dokumentation. Die Dokumentation aus Los 1 ist in die Gesamtdokumentation einzuarbeiten",
+     "value": {
+      "amount": 12900000,
+      "currency": "EUR"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "408937df-2562-4c7b-a442-25d3811771b7",
+  "version": "01",
+  "title": "Gigabit 2.0, FTTH-Ausbau Markt Pleinfeld",
+  "description": "Der Markt Pleinfeld beabsichtigt den nahezu flächendeckenden Ausbau der ausgeschriebenen Adressen des Erschließungsgebietes nach Maßgabe der Richtlinie „Förderung zur Unterstützung des Gigabitausbau der Telekommunikationsnetze in der Bundesrepublik Deutschland“ vom 31.03.2023 (nachfolgend „Gigabit RL 2.0“). Die erforderlichen Leistungen umfassen die physische Herstellung eines gigabitfähigen Glasfasernetzes bis in die Gebäude der ausgeschriebenen Adressen (FTTB), soweit Gestattungen der Gebäudeeigentümer hierfür vorliegen, andernfalls die Erstellung von Grundstücksanschlüssen. Ausnahme des Projektgebietes bilden der Ortskern von Pleinfeld, Ramsberg und einige wenige Ortsteile, die aus entlegenen Grundstücken im Außenbereich bestehen. Die vorhandene Planung berücksichtigt 1011 Adresspunkte und 72 km Trasse mit 200 km Glasfaserkabel. Aufgaben in diesem Ausbau sind speziell das Anschlussmanagement, der Tiefbau der Trassen, das Liefern und Einbringen von Rohren und Multirohrverbänden, das Stellen von Verzweigern, Schächten und eines POP, das Einbringen von Glasfaserkabeln, sowie die Dokumentation. Das Gesamtvorhaben wird in zwei Losen vergeben.",
+  "procedureType": "open",
+  "nuts": [
+   "DE25C"
+  ],
+  "cpv": [
+   "45232300",
+   "32562000",
+   "45314000",
+   "45232332"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Gigabit 2.0, FTTH-Ausbau Markt Pleinfeld, Los 1",
+    "description": "Gegenstand von Los 1 sind die Tiefbau- und Trassenarbeiten für die Fernstrecken des Gigabitausbaues im Marktgebiet. Die Verlegung der Rohrinfrastruktur hat bevorzugt im Fräs-/ Trenchingverfahren nach DIN 18220 zu erfolgen. Enthalten sind 18 km Trassenbau, Lieferung und Verbau der Leerrohrinfrastruktur, sowie Wiederherstellung der Oberflächen und Dokumentation. Kabelmontage und Hausanschlüsse sind nicht Bestandteil dieses Loses",
+    "cpv": [
+     "45232332"
+    ],
+    "nuts": [
+     "DE25C"
+    ],
+    "deadline": "2026-11-24T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": {
+     "amount": 1400000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Erklärung über Eintragung in Handwerksrolle und/ oder die nicht vorliegende Verpflichtung zur Eintragung in das genannte Register und auf Verlangen die Vorlage der geforderten Eintragung.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Erklärung über Eintragung in Handelsregister und/ oder bei der Industrie- und Handelskammer und/ oder die nicht vorliegende Verpflichtung zur Eintragung in eines der genannten Register und auf Verlangen die Vorlage der geforderten Eintragungen.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Erklärung über das Nichtvorliegen von Ausschlussgründen gemäß § 6e EU VOB/A und darüber, dass keine Eintragungen im Wettbewerbsregister gespeichert sind.\nAlternativ bei Vorliegen eines Ausschlussgrundes gemäß § 6e Abs. 6 EU VOB/A, eine Erklärung, dass für das Unternehmen Maßnahmen zur Selbstreinigung ergriffen wurden und die Zuverlässigkeit des Unternehmens wieder hergestellt wurde.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Erklärung über die Mitgliedschaft bei der Berufsgenossenschaft.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Der Bieter erklärt, dass sein spezifischer Netto-Jahresumsatz im Bereich des Tief-, Trassen- und Leitungsbaus in den letzten drei abgeschlossenen Geschäftsjahren im Durchschnitt mindestens 2.000.000,00 Euro (netto) beträgt.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Erklärung, dass eine Betriebs- und Haftpflichtversicherung bei einem in der europäischen Union zugelassenen Haftpflichtversicherer mit einer Deckungssumme je Schadenfall von 5.000.000,00 € für Personenschäden und 3.000.000,00 € für Sach- und Flurschäden (inkl. Leitungsschäden) besteht bzw. die schriftliche Bestätigung, dass im Auftragsfall eine solche Versicherung abgeschlossen wird bzw. die Deckungssumme der bestehenden Betriebshaftpflichtversicherung mindestens auf o.g. Deckungssummen angepasst werden.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Erklärung, dass die für die Ausführung der Leistung erforderlichen Arbeitskräfte zur Verfügung stehen.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Erklärung über die Ausstattung und Verfügbarkeit geeigneter Spezialgeräte/ Maschinen zur pflug- bzw. frästechnischen Rohr- und Kabelverlegung inklusive integrierter/ direkter Verfüllung und Verdichtung\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden.\n\nFalls das Angebot in die engere Wahl kommt, behält sich der Auftraggeber vor, vom Bieter einen Nachweis über die Verfügbarkeit der angegebenen Spezialgeräte/Maschinen anzufordern."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Eigenerklärung von mindestens 3 Referenzprojekten aus den letzten 5 Kalenderjahren vor Ende der Angebotsfrist im Bereich des maschinellen Trassenbaus (Fräs-, Pflug- oder Schlitzverfahren im Verkehrswegebau) mit mindestens folgenden Angaben:  \nAnsprechpartner; Art der ausgeführten Leistung; Auftragssumme; Ausführungszeitraum; stichwortartige Benennung des mit eigenem Personal ausgeführten maßgeblichen Leistungsumfanges einschl. Angabe der ausgeführten Mengen (Angabe der Haupttrassenlänge); stichwortartige Beschreibung der besonderen technischen und gerätespezifischen Anforderungen bzw. (bei Komplettleistung) Kurzbeschreibung der Baumaßnahme einschließlich eventueller Besonderheiten der Ausführung; Angabe zur Art der Baumaßnahme (Neubau, Umbau, Denkmal); Angabe zur vertraglichen Bindung (Hauptauftragnehmer, ARGE-Partner, Nachunternehmer); ggf. Angabe der Gewerke, die mit eigenem Leitungspersonal koordiniert wurden.\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 1-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden.\n\nMindestanforderung: Jedes Referenzprojekt muss eine Mindesttrassenlänge von 5 km umfassen.\n\nFalls das Angebot in die engere Wahl kommt, behält sich der Auftraggeber vor, vom Bieter eine Bestätigung des Auftraggebers über die vertragsgemäße Ausführung der Leistung anzufordern."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis wird anhand der Angebotssumme/ des Gesamtpreises laut Preisblatt bewertet.\n\nGenauere Angaben zu Anforderungen und Inhalt der Kriterien, der Gewichtung und dem Wertungsvorgehen ergeben sich aus „Zuschlagskriterien und Gewichtung Los 1“, auf welche verwiesen wird.",
+      "weight": 65
+     },
+     {
+      "type": "quality",
+      "name": "Technische Qualität",
+      "description": "Bewertung der technischen Leistungsfähigkeit, der Materialgüte und der spezifischen Ausführungsmethoden (z.B. Trassenbauverfahren/ Tiefbautechnik)\n\nGenauere Angaben zu Anforderungen und Inhalt der Kriterien, der Gewichtung und dem Wertungsvorgehen ergeben sich aus „Zuschlagskriterien und Gewichtung Los 1“, auf welche verwiesen wird.",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Ausführungs- und Terminkonzept",
+      "description": "Bewertung der Plausibilität des Bauzeitenplans, der Baustelleneinrichtung, des Baustellenmanagements sowie der Maßnahmen zur Fristeneinhaltung und Verkehrsleitung\n\nGenauere Angaben zu Anforderungen und Inhalt der Kriterien, der Gewichtung und dem Wertungsvorgehen ergeben sich aus „Zuschlagskriterien und Gewichtung Los 1“, auf welche verwiesen wird.",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Nachhaltigkeit",
+      "description": "Bewertung umweltbezogener Aspekte wie ressourcenschonender Baustoff-Einsatz, CO2-minimierter Maschineneinsatz oder umweltgerechte Wiederverfüllung\n\nGenauere Angaben zu Anforderungen und Inhalt der Kriterien, der Gewichtung und dem Wertungsvorgehen ergeben sich aus „Zuschlagskriterien und Gewichtung Los 1“, auf welche verwiesen wird.",
+      "weight": 5
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Geforderte Sicherheiten des zuschlagserhaltenden Bieters: 5% der Auftragssumme als Sicherheit für die Vertragserfüllung; 2% der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme als Sicherheit für Mängelansprüche"
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Gigabit 2.0, FTTH-Ausbau Markt Pleinfeld, Los 2",
+    "description": "Gegenstand von Los 2 ist die Errichtung der passiven Gigabit-Infrastruktur, sowie der Ausbau der Ortsnetze und Hausanschlüsse. Dies umfasst den Tiefbau für ca. 54km Trasse, den Einzug, bzw. das Einblasen der Glasfaserkabel (ca. 200km) im Gesamtnetz (inkl der in Los 1 errichteten Trassen), die Montage von Verteilergehäusen (NVts, sowie die Errichtung von ca. 1011 FTTB Hausanschlüssen nebst Endmontage und Dokumentation. Die Dokumentation aus Los 1 ist in die Gesamtdokumentation einzuarbeiten",
+    "cpv": [
+     "45232332",
+     "32562000",
+     "45314000"
+    ],
+    "nuts": [
+     "DE25C"
+    ],
+    "deadline": "2026-11-24T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": {
+     "amount": 12900000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Erklärung über Eintragung in Handwerksrolle und/ oder die nicht vorliegende Verpflichtung zur Eintragung in das genannte Register und auf Verlangen die Vorlage der geforderten Eintragung.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Erklärung über Eintragung in Handelsregister und/ oder bei der Industrie- und Handelskammer und/ oder die nicht vorliegende Verpflichtung zur Eintragung in eines der genannten Register und auf Verlangen die Vorlage der geforderten Eintragungen.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Erklärung über das Nichtvorliegen von Ausschlussgründen gemäß § 6e EU VOB/A und darüber, dass keine Eintragungen im Wettbewerbsregister gespeichert sind.\nAlternativ bei Vorliegen eines Ausschlussgrundes gemäß § 6e Abs. 6 EU VOB/A, eine Erklärung, dass für das Unternehmen Maßnahmen zur Selbstreinigung ergriffen wurden und die Zuverlässigkeit des Unternehmens wieder hergestellt wurde.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Erklärung über die Mitgliedschaft bei der Berufsgenossenschaft.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Der Bieter erklärt, dass sein spezifischer Netto-Jahresumsatz im Bereich der schlüsselfertigen oder teilschlüsselfertigen Errichtung von FFTB/H Netzen in den letzten drei abgeschlossenen Geschäftsjahren im Durchschnitt mindestens 5.000.000,00 Euro (netto) beträgt.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Erklärung, dass eine Betriebs- und Haftpflichtversicherung bei einem in der europäischen Union zugelassenen Haftpflichtversicherer mit einer Deckungssumme je Schadenfall von 5.000.000,00 € für Personenschäden und 5.000.000,00 € für Sach- und Flurschäden (inkl. Leitungsschäden) besteht bzw. die schriftliche Bestätigung, dass im Auftragsfall eine solche Versicherung abgeschlossen wird, bzw. die Deckungssummen der bestehenden Betriebshaftpflichtversicherung mindestens auf o.g. Deckungssummen angepasst werden.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Erklärung, dass die für die Ausführung der Leistung erforderlichen Arbeitskräfte zur Verfügung stehen.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Erklärung über die Ausstattung und Verfügbarkeit von Hardware und Software zur Erstellung der Netzdokumentation nach GIS NB.\n\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Eigenerklärung von mindestens 3 Referenzprojekten aus den letzten 5 Kalenderjahren vor Ende der Angebotsfrist im Bereich des maschinellen Trassenbaus mit mindestens folgenden Angaben:  \nAnsprechpartner; Art der ausgeführten Leistung; Auftragssumme; Ausführungszeitraum; stichwortartige Benennung des mit eigenem Personal ausgeführten maßgeblichen Leistungsumfanges einschl. Angabe der ausgeführten Mengen (Angabe der Haupttrassenlänge ohne Hausanschlüsse sowie Anzahl der Haus-/ Grundstücksanschlüsse); stichwortartige Beschreibung der besonderen technischen und gerätespezifischen Anforderungen bzw. (bei Komplettleistung) Kurzbeschreibung der Baumaßnahme einschließlich eventueller Besonderheiten der Ausführung; Angabe zur Art der Baumaßnahme (Neubau, Umbau, Denkmal); Angabe zur vertraglichen Bindung (Hauptauftragnehmer, ARGE-Partner, Nachunternehmer); ggf. Angabe der Gewerke, die mit eigenem Leitungspersonal koordiniert wurden.\nHierfür ist die vom Auftraggeber gestellte Vorlage „Los 2-Erklärung Eignungskriterien_PLEINFELD“ zu verwenden.\n\nMindestanforderung: Jedes Referenzprojekt muss eine Mindesttrassenlänge von 10 km umfassen und mindestens 500 Anschlüsse realisiert haben.\nFalls das Angebot in die engere Wahl kommt, behält sich der Auftraggeber vor, vom Bieter eine Bestätigung des Auftraggebers über die vertragsgemäße Ausführung der Leistung anzufordern."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis wird anhand der Angebotssumme/ des Gesamtpreises laut Preisblatt bewertet\n\nGenauere Angaben zu Anforderungen und Inhalt der Kriterien, der Gewichtung und dem Wertungsvorgehen ergeben sich aus „Zuschlagskriterien und Gewichtung Los 2“, auf welche verwiesen wird.",
+      "weight": 65
+     },
+     {
+      "type": "quality",
+      "name": "Technische Qualität",
+      "description": "Bewertung der technischen Leistungsfährigkei, der Materialgüte und der spezifischen Ausführungsmethoden (z.B. Trassenbauverfahren/ Tiefbautechnik)\n\nGenauere Angaben zu Anforderungen und Inhalt der Kriterien, der Gewichtung und dem Wertungsvorgehen ergeben sich aus „Zuschlagskriterien und Gewichtung Los 2“, auf welche verwiesen wird.",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Ausführungs- und Terminkonzept",
+      "description": "Bewertung der Plausibilität des Bauzeitenplans, der Baustelleneinrichtung, des Baustellenmanagements sowie der Maßnahmen zur Fristeneinhaltung und Verkehrsleitung\n\nGenauere Angaben zu Anforderungen und Inhalt der Kriterien, der Gewichtung und dem Wertungsvorgehen ergeben sich aus „Zuschlagskriterien und Gewichtung Los 2“, auf welche verwiesen wird.",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Nachhaltigkeit",
+      "description": "Bewertung umweltbezogener Aspekte wie ressourcenschonender Baustoff-Einsatz, CO2-minimierter Maschineneinsatz oder umweltgerechte Wiederverfüllung\n\nGenauere Angaben zu Anforderungen und Inhalt der Kriterien, der Gewichtung und dem Wertungsvorgehen ergeben sich aus „Zuschlagskriterien und Gewichtung Los 2“, auf welche verwiesen wird.",
+      "weight": 5
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Geforderte Sicherheiten des zuschlagserhaltenden Bieters: 5% der Auftragssumme als Sicherheit für die Vertragserfüllung; 2% der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme als Sicherheit für Mängelansprüche"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,463 @@
+{
+ "id": "7461a003-c883-4b3b-a3b8-69da24bcb434-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "7461a003-c883-4b3b-a3b8-69da24bcb434",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7461a003-c883-4b3b-a3b8-69da24bcb434",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:7461a003-c883-4b3b-a3b8-69da24bcb434-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:7461a003-c883-4b3b-a3b8-69da24bcb434-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7461a003-c883-4b3b-a3b8-69da24bcb434?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Technische Ausrüstung, Leistungsphasen 3 bis 9, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in zwei (2) Losen",
+  "buyer": "Stadt Bad Wörishofen",
+  "cpv": [
+   "71240000",
+   "71000000",
+   "71300000",
+   "71356400"
+  ],
+  "nuts": [
+   "DE27C"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7660d608-7591-47c6-a707-72feff2e897f",
+  "id": "7461a003-c883-4b3b-a3b8-69da24bcb434",
+  "date": "2026-10-17T15:22:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bad Wörishofen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129098408",
+     "legalName": "Stadt Bad Wörishofen"
+    },
+    "address": {
+     "streetAddress": "Bürgermeister-Ledermann-Str. 1",
+     "locality": "Bad Wörishofen",
+     "region": "DE27C",
+     "postalCode": "86825",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Scheel Ingenieure GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE127477392",
+     "legalName": "Scheel Ingenieure GmbH"
+    },
+    "address": {
+     "streetAddress": "Marienplatz 2",
+     "locality": "Friedberg",
+     "region": "DE275",
+     "postalCode": "86316",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Ingenieurbüro TGA-Elektrotechnik IB.S GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "HRB 7871",
+     "legalName": "Ingenieurbüro TGA-Elektrotechnik IB.S GmbH"
+    },
+    "address": {
+     "streetAddress": "Wiesstraße 13b",
+     "locality": "Kempten",
+     "region": "DE273",
+     "postalCode": "87435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bad Wörishofen",
+   "id": "DE129098408",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bad Wörishofen"
+   },
+   "address": {
+    "streetAddress": "Bürgermeister-Ledermann-Str. 1",
+    "locality": "Bad Wörishofen",
+    "region": "DE27C",
+    "postalCode": "86825",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7660d608-7591-47c6-a707-72feff2e897f",
+   "title": "Technische Ausrüstung, Leistungsphasen 3 bis 9, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in zwei (2) Losen",
+   "description": "Beschaffung von Leistungen der Technischen Ausrüstung für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in zwei (2) Losen.",
+   "procuringEntity": {
+    "name": "Stadt Bad Wörishofen",
+    "id": "DE129098408"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71240000",
+      "description": "Architectural, engineering and planning services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71000000",
+       "description": "Architectural, construction, engineering and inspection services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71300000",
+       "description": "Engineering services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71356400",
+       "description": "Technical planning services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Kaufbeurer Str. 12",
+      "locality": "Bad Wörishofen",
+      "region": "DE27C",
+      "postalCode": "86825",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71240000",
+      "description": "Architectural, engineering and planning services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71000000",
+       "description": "Architectural, construction, engineering and inspection services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71300000",
+       "description": "Engineering services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71356400",
+       "description": "Technical planning services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Kaufbeurer Str. 12",
+      "locality": "Bad Wörishofen",
+      "region": "DE27C",
+      "postalCode": "86825",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "value": {
+    "amount": 799075.96,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "Scheel Ingenieure GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Scheel Ingenieure GmbH"
+     },
+     "address": {
+      "streetAddress": "Marienplatz 2",
+      "locality": "Friedberg",
+      "region": "DE275",
+      "postalCode": "86316",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Ingenieurbüro TGA-Elektrotechnik IB.S GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Ingenieurbüro TGA-Elektrotechnik IB.S GmbH"
+     },
+     "address": {
+      "streetAddress": "Wiesstraße 13b",
+      "locality": "Kempten",
+      "region": "DE273",
+      "postalCode": "87435",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Technische Ausrüstung HLS",
+     "description": "Der Auftraggeber beabsichtigt, die Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen umzustrukturieren. Im Zuge der Umstruktierung soll insbesondere die \"Alte Turnhalle\" abgebrochen und an deren Stelle ein Neubau errichtet werden. Die Umstruktierung erfolgt in 2 Bauabschnitten, Bauabschnitt 1 (im Folgenden auch \"BA 1\" genannt) und Bauabschnitt 2 (im Folgenden auch \"BA 2\" genannt).   Das Bauvorhaben soll mit Fördermitteln nach Art. 10 BayFAG realisiert werden.  Die Fachplanungsleistungen für das Leistungsbild Technische Ausrüstung (HLS) der Anlagengruppen 1, 2, 3, 6, 7 und 8  der Leistungsphasen 1 und 2 gemäß der HOAI, wurden bereits erbracht.  Gegenstand dieses Vergabeverfahrens war die Beschaffung von Leistungen der Technischen Ausrüstung für die Leistungsphasen (LPH) 3 bis 9 des Bauabschnitts 1 sowie die Leistungsphase 3 des Bauabschnitts 2 für das Projekt \"Ersatzneubau und Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen\" in zwei (2) Losen:  a) Los 1 - Technische Ausrüstung HLS  Gegenstand dieses Vergabeverfahrens waren Leistungen der Technischen Ausrüstung, Heizung / Lüftung / Sanitär (HLS) gemäß § 53 Abs. 2 HOAI 2021:  Bauabschnitt 1: - Leistungsphase 3 bis 9. - Anlagengruppen: 1, 2, 3, 6, 7 und 8.  Bauabschnitt 2: - Leistungsphase 3. - Anlagengruppen: 1, 2, 3 und 8.  Die Beauftragung innerhalb der Planungsphase erfolgt stufenweise.  b) Los 2 - Technische Ausrüstung ELT   Gegenstand dieses Vergabeverfahrens waren Leistungen der Technischen Ausrüstung, Elektrotechnik (ELT) gemäß § 53 Abs. 2 HOAI 2021:  Bauabschnitt 1: - Leistungsphase 3 bis 9. - Anlagengruppen: 4, 5 und 8.  Bauabschnitt 2: - Leistungsphase 3. - Anlagengruppen: 4, 5 und 8.  Die Beauftragung innerhalb der Planungsphase erfolgt stufenweise.  Für weitergehende Ausführungen wird auf die nachfolgenden Unterlagen verwiesen:  Leitungsbeschreibung für Los 1 und 2 einheitlich: - Anlage 802_Leistungsbeschreibung.  Leistungs- und Vergütungskatalog: - Anlage 801_01_Leistungs- und Vergütungskatalog_Los 1; - Anlage 801_02_Leistungs- und Vergütungskatalog_Los 2.  Vertrag: - Anlage 906_01_Vertrag_Los 1; - Anlage 906_02_Vertrag_Los 2.  Projektspezifische Unterlagen: - Anlage 810 - Projektspezifische Unterlagen.",
+     "value": {
+      "amount": 499595.77,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 1080
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Technische Ausrüstung ELT",
+     "description": "Der Auftraggeber beabsichtigt, die Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen umzustrukturieren. Im Zuge der Umstruktierung soll insbesondere die \"Alte Turnhalle\" abgebrochen und an deren Stelle ein Neubau errichtet werden. Die Umstruktierung erfolgt in 2 Bauabschnitten, Bauabschnitt 1 (im Folgenden auch \"BA 1\" genannt) und Bauabschnitt 2 (im Folgenden auch \"BA 2\" genannt).   Das Bauvorhaben soll mit Fördermitteln nach Art. 10 BayFAG realisiert werden.  Die Fachplanungsleistungen für das Leistungsbild Technische Ausrüstung (HLS) der Anlagengruppen 1, 2, 3, 6, 7 und 8  der Leistungsphasen 1 und 2 gemäß der HOAI, wurden bereits erbracht.  Gegenstand dieses Vergabeverfahrens war die Beschaffung von Leistungen der Technischen Ausrüstung für die Leistungsphasen (LPH) 3 bis 9 des Bauabschnitts 1 sowie die Leistungsphase 3 des Bauabschnitts 2 für das Projekt \"Ersatzneubau und Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen\" in zwei (2) Losen:  a) Los 1 - Technische Ausrüstung HLS  Gegenstand dieses Vergabeverfahrens waren Leistungen der Technischen Ausrüstung, Heizung / Lüftung / Sanitär (HLS) gemäß § 53 Abs. 2 HOAI 2021:  Bauabschnitt 1: - Leistungsphase 3 bis 9. - Anlagengruppen: 1, 2, 3, 6, 7 und 8.  Bauabschnitt 2: - Leistungsphase 3. - Anlagengruppen: 1, 2, 3 und 8.  Die Beauftragung innerhalb der Planungsphase erfolgt stufenweise.  b) Los 2 - Technische Ausrüstung ELT   Gegenstand dieses Vergabeverfahrens waren Leistungen der Technischen Ausrüstung, Elektrotechnik (ELT) gemäß § 53 Abs. 2 HOAI 2021:  Bauabschnitt 1: - Leistungsphase 3 bis 9. - Anlagengruppen: 4, 5 und 8.  Bauabschnitt 2: - Leistungsphase 3. - Anlagengruppen: 4, 5 und 8.  Die Beauftragung innerhalb der Planungsphase erfolgt stufenweise.  Für weitergehende Ausführungen wird auf die nachfolgenden Unterlagen verwiesen:  Leitungsbeschreibung für Los 1 und 2 einheitlich: - Anlage 802_Leistungsbeschreibung.  Leistungs- und Vergütungskatalog: - Anlage 801_01_Leistungs- und Vergütungskatalog_Los 1; - Anlage 801_02_Leistungs- und Vergütungskatalog_Los 2.  Vertrag: - Anlage 906_01_Vertrag_Los 1; - Anlage 906_02_Vertrag_Los 2.  Projektspezifische Unterlagen: - Anlage 810 - Projektspezifische Unterlagen.",
+     "value": {
+      "amount": 299480.19,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 1080
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "value": {
+     "amount": 497512.47,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "value": {
+     "amount": 286877.07,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 455893.7,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 253559.45,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "7461a003-c883-4b3b-a3b8-69da24bcb434",
+  "version": "01",
+  "title": "Technische Ausrüstung, Leistungsphasen 3 bis 9, für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in zwei (2) Losen",
+  "description": "Beschaffung von Leistungen der Technischen Ausrüstung für den Ersatzneubau und die Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in zwei (2) Losen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE27C"
+  ],
+  "cpv": [
+   "71240000",
+   "71000000",
+   "71356400",
+   "71300000"
+  ],
+  "estimatedValue": {
+   "amount": 799075.96,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Technische Ausrüstung HLS",
+    "description": "Der Auftraggeber beabsichtigt, die Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen umzustrukturieren. Im Zuge der Umstruktierung soll insbesondere die \"Alte Turnhalle\" abgebrochen und an deren Stelle ein Neubau errichtet werden. Die Umstruktierung erfolgt in 2 Bauabschnitten, Bauabschnitt 1 (im Folgenden auch \"BA 1\" genannt) und Bauabschnitt 2 (im Folgenden auch \"BA 2\" genannt).   Das Bauvorhaben soll mit Fördermitteln nach Art. 10 BayFAG realisiert werden.  Die Fachplanungsleistungen für das Leistungsbild Technische Ausrüstung (HLS) der Anlagengruppen 1, 2, 3, 6, 7 und 8  der Leistungsphasen 1 und 2 gemäß der HOAI, wurden bereits erbracht.  Gegenstand dieses Vergabeverfahrens war die Beschaffung von Leistungen der Technischen Ausrüstung für die Leistungsphasen (LPH) 3 bis 9 des Bauabschnitts 1 sowie die Leistungsphase 3 des Bauabschnitts 2 für das Projekt \"Ersatzneubau und Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen\" in zwei (2) Losen:  a) Los 1 - Technische Ausrüstung HLS  Gegenstand dieses Vergabeverfahrens waren Leistungen der Technischen Ausrüstung, Heizung / Lüftung / Sanitär (HLS) gemäß § 53 Abs. 2 HOAI 2021:  Bauabschnitt 1: - Leistungsphase 3 bis 9. - Anlagengruppen: 1, 2, 3, 6, 7 und 8.  Bauabschnitt 2: - Leistungsphase 3. - Anlagengruppen: 1, 2, 3 und 8.  Die Beauftragung innerhalb der Planungsphase erfolgt stufenweise.  b) Los 2 - Technische Ausrüstung ELT   Gegenstand dieses Vergabeverfahrens waren Leistungen der Technischen Ausrüstung, Elektrotechnik (ELT) gemäß § 53 Abs. 2 HOAI 2021:  Bauabschnitt 1: - Leistungsphase 3 bis 9. - Anlagengruppen: 4, 5 und 8.  Bauabschnitt 2: - Leistungsphase 3. - Anlagengruppen: 4, 5 und 8.  Die Beauftragung innerhalb der Planungsphase erfolgt stufenweise.  Für weitergehende Ausführungen wird auf die nachfolgenden Unterlagen verwiesen:  Leitungsbeschreibung für Los 1 und 2 einheitlich: - Anlage 802_Leistungsbeschreibung.  Leistungs- und Vergütungskatalog: - Anlage 801_01_Leistungs- und Vergütungskatalog_Los 1; - Anlage 801_02_Leistungs- und Vergütungskatalog_Los 2.  Vertrag: - Anlage 906_01_Vertrag_Los 1; - Anlage 906_02_Vertrag_Los 2.  Projektspezifische Unterlagen: - Anlage 810 - Projektspezifische Unterlagen.",
+    "cpv": [
+     "71240000",
+     "71000000",
+     "71300000",
+     "71356400"
+    ],
+    "nuts": [
+     "DE27C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 36,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 499595.77,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "1. Persönliche Erfahrung des Projektteams",
+      "description": "Bewertet wurde die Erfahrung des Projektteams bestehend aus   - einem Projektleiter, und  - einem stellvertretendem Projektleiter  anhand von vergleichbaren persönlichen Referenzprojekten über Dienstleistungen der Fachplanung Technische Ausrüstung Heizung / Lüftung / Sanitär (HLS).  Der Bieter hatte für den in dem Vergabeverfahren einzusetzenden Projektleiter und für den in dem Vergabeverfahren einzusetzenden stellvertretenden Projektleiter jeweils mindestens ein (1) persönliches Referenzprojekt mit dem Angebot einzureichen, das die nachfolgenden (Mindest-)Anforderungen jeweils erfüllt.  a) Der Projektleiter musste das für ihn angegebene persönliche Referenzprojekt als Projektleiter geleitet haben.  b) Der stellvertretende Projektleiter musste das für ihn angegebene persönliche Referenzprojekt als Projektleiter oder als stellvertretender Projektleiter geleitet haben.  c) Die (weiteren) Mindestanforderungen (i.) und die Bewertungssystematik (ii.) an das persönliche Referenzprojekt des Projektleiters und des stellvertretenden Projektleiters waren jeweils wie folgt:  (i) Mindestanforderungen an die persönlichen Referenzprojekte des Projektleiters und des stellvertretenden Projektleiters:  - Das persönliche Referenzprojekt musste jeweils die Erbringung von Leistungen der Technischen Ausrüstung, Heizung / Lüftung / Sanitär (HLS) gemäß § 53 Abs. 2 HOAI 2021 für die Leistungsphasen (LPH) 3 bis 8, für ein Neubau-, Umbau- oder Erweiterungsvorhaben eines Gebäudes umfasst haben.  - das persönliche Referenzprojekt war mindestens der Honorarzone II im Sinne der HOAI zugeordnet;  - Die Leistungsphase 3 durfte nicht vor dem 01.01.2018 begonnen und die Leistungsphase 8 muss spätestens zum Ablauf der Angebotsfrist in dem hier gegenständlichen Vergabeverfahren abgeschlossen worden sein.  Anzugeben war das Anfangs-Datum (TT.MM.JJJJ) der Leistungsphase 3 und das End-Datum (TT.MM.JJJJ) der Leistungsphase 8;  die Datumsangaben waren grundsätzlich taggenau im Format TT.MM.JJJJ vorzunehmen. Sofern die Einhaltung der jeweiligen Mindestanforderung auch anhand der Angabe von Monat und Jahr zweifelsfrei festgestellt werden kann, war sowohl für den Beginn als auch für das Ende der jeweiligen Leistungsphase ausnahmsweise auch die Angabe von Monat und Jahr (MM.JJJJ) ausreichend;  - Angabe der Brutto-Grundfläche (BGF (nach DIN 277)) des persönlichen Referenzprojekts für die von dem Projektleiter als Projektleiter bzw. von dem stellvertretenden Projektleiter als Projektleiter oder als stellvertretender Projektleiter erbrachten Leistungen der Technischen Ausrüstung, Heizung / Lüftung / Sanitär (HLS) gemäß § 53 Abs. 2 HOAI 2021 für die Leistungsphasen (LPH) 3 bis 8, von mindestens 2.000 m²;  - Auftragswert  [vereinnahmte Vergütung - EUR (netto) für die Leistungen der Technischen Ausrüstung, Heizung / Lüftung / Sanitär (HLS) gemäß § 53 Abs. 2 HOAI 2021 für die Leistungsphasen (LPH) 3 bis 8, die der Projektleiter als Projektleiter (bzw. der stellvertretende Projektleiter als Projektleiter oder als stellvertretender Projektleiter) geleitet hat] von mindestens 200.000,- EUR (netto).  Erfüllte nicht mindestens ein (1) persönliches Referenzprojekt des Projektleiters und des stellvertretenden Projektleiters die oben genannten Mindestanforderungen, führte dies zum Ausschluss des Angebots.  Bewertet wurden ausschließlich diejenigen persönlichen Referenzprojekte, die die oben genannten Mindestanforderungen erfüllen.  Der Bieter hatte dabei in Form einer Liste je persönlichem Referenzprojekt Folgendes anzugeben:  - Name des jeweils in dem gegenständlichen Projekt einzusetzenden Projektleiters und stellvertretenden Projektleiters;  - Kurzbeschreibung des von dem Projektleiter und stellvertretendem Projektleiter jeweils persönlich geleiteten persönlichen Referenzprojekts;  der Bieter hatte die früher ausgeführten Leistungen so zu beschreiben, dass die Erfüllung der jeweiligen Mindestanforderungen aus der Beschreibung des Referenzprojekts nachvollziehbar hervorgeht entsprechend der Anlage 600_01 \"Erfahrung des Projektteams_Los 1\".  - Rolle des Projektleiters und des stellvertretenden Projektleiters in dem jeweiligen persönlichen Referenzprojekt;  - Name des Unternehmens, welches die Leistungen der Technischen Ausrüstung, Heizung / Lüftung / Sanitär (HLS) gemäß § 53 Abs. 2 HOAI 2021 für die Leistungsphasen (LPH) 3 bis 8, des persönlichen Referenzprojekts, die der Projektleiter bzw. der stellvertretende Projektleiter jeweils in der angegebenen Rolle geleitet hat, ausgeführt hat;  - Ausführungen zu den angegebenen Mindestanforderungen an den Inhalt der persönlichen Referenzprojekte entsprechend der Anlage 600_01 \"Erfahrung des Projektteams_Los 1\".    (ii.) Die Bewertungssystematik war wie folgt:  Die Bewertungssystematik war sowohl für die persönlichen Referenzprojekte des Projektleiters als auch für die persönlichen Referenzprojekte des stellvertretenden Projektleiters wie folgt:   (1.) Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts: >= 3.000 m² = 5 Punkte; = 2.000 m² = 0 Punkte; < 2.000 m² = Kein geeignetes Referenzprojekt.  Soweit die Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts zwischen 2.000 m² und 3.000 m² lag, wurden die Punkte durch Interpolation vergeben, mathematisch gerundet auf zwei Nachkommastellen.  Beispiel:  Bei einer Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts von 2.500 m² erhielt der Bieter 2,50 Punkte.  (2.) Auftragswert (netto) des persönlichen Referenzprojekts: >= 400.000 EUR (netto) = 5 Punkte; = 200.000 EUR (netto) = 0 Punkte; < 200.000 EUR (netto) = Kein geeignetes Referenzprojekt.  Soweit der Auftragswert (netto) des persönlichen Referenzprojekts zwischen 200.000 EUR (netto) und 400.000 EUR (netto) lag, wurden die Punkte durch Interpolation vergeben, mathematisch gerundet auf zwei Nachkommastellen.  Fortsetzung folgt***.",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "1. Persönliche Erfahrung des Projektteams",
+      "description": "Beginn der Fortsetzung***:  Beispiel: Bei einem Auftragswert des persönlichen Referenzprojekts von 300.000 EUR (netto) erhielt der Bieter 2,50 Punkte.  Die erzielten Punkte für die Brutto-Grundfläche (BGF) (nach DIN 277) (1.) und den Auftragswert (netto) (2.) wurden addiert. Je eingereichtem persönlichem Referenzprojekt konnten maximal 10,00 Punkte (5,00 + 5,00) erzielt werden.  Zu der punktemäßigen Bewertung:  - Der Bieter konnte für die mit dem Angebot eingereichten persönlichen Referenzprojekte des Projektleiters bzw. des stellvertretenden Projektleiters - die jeweils die oben genannten Mindestanforderungen erfüllen - maximal 30 Punkte erzielen; das heißt 60 Punkte zusammengerechnet.  - Der Bieter konnte in dem Zuschlagskriterium \"Persönliche Erfahrung des Projektteams\" maximal 40,00 qualitative Leistungspunkte erzielen.   Zur Ermittlung der qualitativen Leistungspunkte wurden die von dem Bieter insgesamt erzielten Punkte für die persönlichen Referenzprojekte des Projektleiters und des stellvertretenden Projektleiters mit dem Gewichtungsfaktor 2/3 multipliziert. Das Ergebnis wurde mathematisch gerundet auf zwei Nachkommastellen.  Zur Bewertung hatte der Bieter die gelb markierten Felder in der Anlage 600_01 \"Erfahrung des Projektteams_Los 1\" vollständig auszufüllen und als Teil des Angebots ausschließlich in elektronischer Form einzureichen.  Hat die Anlage 600_01 \"Erfahrung des Projektteams_Los 1\" gefehlt, führt dies zwingend zum Ausschluss des Angebots. Eine Nachforderung war insoweit nicht möglich.  Je persönlichem Referenzprojekt waren zwei (2) zusätzliche Projektblätter (also maximal zwei (2) einseitig bedruckte DIN-A4-Seiten), die Fotos sowie eine Darstellung des persönlichen Referenzprojektes beinhalten, zu rein informatorischen Zwecken gestattet.  Diese Projektblätter waren jedoch nicht Teil der Bewertung. Bewertet wurden ausschließlich die Angaben des Bieters zu dem persönlichen Referenzprojekt in der Anlage 600_01 \"Erfahrung des Projektteams_Los 1\".  Im Falle der Auftragserteilung hat sich der Auftragnehmer verpflichtet, die Leistungen durch den benannten Projektleiter und stellvertretender Projektleiter zu erbringen. Der benannte Projektleiter und der stellvertretende Projektleiter dürfen nur bei Zustimmung durch den Auftraggeber in Textform ausgetauscht werden. Für weitere Einzelheiten wird auf den Vertrag (Anlage 906_01) verwiesen.  Der Auftraggeber ist berechtigt, seine Zustimmung zu verweigern, wenn der neue Projektleiter oder der neue stellvertretende Projektleiter nicht mindestens genauso erfahren ist wie die zu ersetzende Person. Dies ist der Fall, wenn die Ersatzperson bei einer Bewertung nach den für die jeweilige Funktion geltenden Zuschlagskriterien des Vergabeverfahrens mindestens die gleiche Punktzahl erzielt hätte wie die zu ersetzende Person.  Im Falle des Austauschs muss der neue Projektleiter bzw. der neue stellvertretende Projektleiter mindestens genauso erfahren sein wie die zu ersetzende Person. Der Auftraggeber ist berechtigt, seine Zustimmung zu verweigern, wenn diese Voraussetzung nicht erfüllt ist. Es müssten also mindestens genauso viele Punkte bei der Bewertung der Erfahrung erzielt worden sein, falls diese Person bereits im Rahmen des Vergabeverfahrens (je nach Ersetzung) als Projektleiter oder als stellvertretender Projektleiter angeboten worden wäre.  Ende der Fortsetzung***.",
+      "weight": 0
+     },
+     {
+      "type": "price",
+      "name": "Kalkulatorischer Angebotspreis (brutto) - Los 1",
+      "description": "Kalkulatorischer Angebotspreis (brutto) gemäß Anlage 801_01 \"Leistungs- und Vergütungskatalog_Los 1\".  Hat die Anlage 801_01 \"Leistungs- und Vergütungskatalog_Los 1\" gefehlt, führte dies zwingend zum Ausschluss des Angebots. Eine Nachforderung war insoweit nicht möglich.",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Technische Ausrüstung ELT",
+    "description": "Der Auftraggeber beabsichtigt, die Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen umzustrukturieren. Im Zuge der Umstruktierung soll insbesondere die \"Alte Turnhalle\" abgebrochen und an deren Stelle ein Neubau errichtet werden. Die Umstruktierung erfolgt in 2 Bauabschnitten, Bauabschnitt 1 (im Folgenden auch \"BA 1\" genannt) und Bauabschnitt 2 (im Folgenden auch \"BA 2\" genannt).   Das Bauvorhaben soll mit Fördermitteln nach Art. 10 BayFAG realisiert werden.  Die Fachplanungsleistungen für das Leistungsbild Technische Ausrüstung (HLS) der Anlagengruppen 1, 2, 3, 6, 7 und 8  der Leistungsphasen 1 und 2 gemäß der HOAI, wurden bereits erbracht.  Gegenstand dieses Vergabeverfahrens war die Beschaffung von Leistungen der Technischen Ausrüstung für die Leistungsphasen (LPH) 3 bis 9 des Bauabschnitts 1 sowie die Leistungsphase 3 des Bauabschnitts 2 für das Projekt \"Ersatzneubau und Umstrukturierung der Pfarrer-Kneipp Grund- und Mittelschule in Bad Wörishofen\" in zwei (2) Losen:  a) Los 1 - Technische Ausrüstung HLS  Gegenstand dieses Vergabeverfahrens waren Leistungen der Technischen Ausrüstung, Heizung / Lüftung / Sanitär (HLS) gemäß § 53 Abs. 2 HOAI 2021:  Bauabschnitt 1: - Leistungsphase 3 bis 9. - Anlagengruppen: 1, 2, 3, 6, 7 und 8.  Bauabschnitt 2: - Leistungsphase 3. - Anlagengruppen: 1, 2, 3 und 8.  Die Beauftragung innerhalb der Planungsphase erfolgt stufenweise.  b) Los 2 - Technische Ausrüstung ELT   Gegenstand dieses Vergabeverfahrens waren Leistungen der Technischen Ausrüstung, Elektrotechnik (ELT) gemäß § 53 Abs. 2 HOAI 2021:  Bauabschnitt 1: - Leistungsphase 3 bis 9. - Anlagengruppen: 4, 5 und 8.  Bauabschnitt 2: - Leistungsphase 3. - Anlagengruppen: 4, 5 und 8.  Die Beauftragung innerhalb der Planungsphase erfolgt stufenweise.  Für weitergehende Ausführungen wird auf die nachfolgenden Unterlagen verwiesen:  Leitungsbeschreibung für Los 1 und 2 einheitlich: - Anlage 802_Leistungsbeschreibung.  Leistungs- und Vergütungskatalog: - Anlage 801_01_Leistungs- und Vergütungskatalog_Los 1; - Anlage 801_02_Leistungs- und Vergütungskatalog_Los 2.  Vertrag: - Anlage 906_01_Vertrag_Los 1; - Anlage 906_02_Vertrag_Los 2.  Projektspezifische Unterlagen: - Anlage 810 - Projektspezifische Unterlagen.",
+    "cpv": [
+     "71240000",
+     "71000000",
+     "71300000",
+     "71356400"
+    ],
+    "nuts": [
+     "DE27C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 36,
+     "unit": "MONTH"
+    },
+    "estimatedValue": {
+     "amount": 299480.19,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "1. Persönliche Erfahrung des Projektteams",
+      "description": "Bewertet wurde die Erfahrung des Projektteams bestehend aus   - einem Projektleiter, und  - einem stellvertretendem Projektleiter  anhand von vergleichbaren persönlichen Referenzprojekten über Dienstleistungen der Fachplanung Technische Ausrüstung Elektrotechnik (ELT).  Der Bieter hatte für den in dem Vergabeverfahren einzusetzenden Projektleiter und für den in dem Vergabeverfahren einzusetzenden stellvertretenden Projektleiter jeweils mindestens ein (1) persönliches Referenzprojekt mit dem Angebot einzureichen, das die nachfolgenden (Mindest-)Anforderungen jeweils erfüllt.  d) Der Projektleiter musste das für ihn angegebene persönliche Referenzprojekt als Projektleiter geleitet haben.  e) Der stellvertretende Projektleiter musste das für ihn angegebene persönliche Referenzprojekt als Projektleiter oder als stellvertretender Projektleiter geleitet haben.  f) Die (weiteren) Mindestanforderungen (i.) und die Bewertungssystematik (ii.) an das persönliche Referenzprojekt des Projektleiters und des stellvertretenden Projektleiters waren jeweils wie folgt:  (ii) Mindestanforderungen an die persönlichen Referenzprojekte des Projektleiters und des stellvertretenden Projektleiters:  - Das persönliche Referenzprojekt musste jeweils die Erbringung von Leistungen der Technischen Ausrüstung, Elektrotechnik (ELT) gemäß § 53 Abs. 2 HOAI 2021 für die Leistungsphasen (LPH) 3 bis 8, für ein Neubau-, Umbau- oder Erweiterungsvorhaben eines Gebäudes umfasst haben.  - das persönliche Referenzprojekt war mindestens der Honorarzone II im Sinne der HOAI zugeordnet;  - Die Leistungsphase 3 durfte nicht vor dem 01.01.2018 begonnen und die Leistungsphase 8 muss spätestens zum Ablauf der Angebotsfrist in dem hier gegenständlichen Vergabeverfahren abgeschlossen worden sein.  Anzugeben war das Anfangs-Datum (TT.MM.JJJJ) der Leistungsphase 3 und das End-Datum (TT.MM.JJJJ) der Leistungsphase 8;  die Datumsangaben waren grundsätzlich taggenau im Format TT.MM.JJJJ vorzunehmen. Sofern die Einhaltung der jeweiligen Mindestanforderung auch anhand der Angabe von Monat und Jahr zweifelsfrei festgestellt werden kann, war sowohl für den Beginn als auch für das Ende der jeweiligen Leistungsphase ausnahmsweise auch die Angabe von Monat und Jahr (MM.JJJJ) ausreichend;  - Angabe der Brutto-Grundfläche (BGF (nach DIN 277)) des persönlichen Referenzprojekts für die von dem Projektleiter als Projektleiter bzw. von dem stellvertretenden Projektleiter als Projektleiter oder als stellvertretender Projektleiter erbrachten Leistungen der Technischen Ausrüstung, Elektrotechnik (ELT) gemäß § 53 Abs. 2 HOAI 2021 für die Leistungsphasen (LPH) 3 bis 8, von mindestens 2.000 m²;  - Auftragswert  [vereinnahmte Vergütung - EUR (netto) für die Leistungen der Technischen Ausrüstung, Elektrotechnik (ELT) gemäß § 53 Abs. 2 HOAI 2021 für die Leistungsphasen (LPH) 3 bis 8, die der Projektleiter als Projektleiter (bzw. der stellvertretende Projektleiter als Projektleiter oder als stellvertretender Projektleiter) geleitet hat] von mindestens 120.000,- EUR (netto).  Erfüllte nicht mindestens ein (1) persönliches Referenzprojekt des Projektleiters und des stellvertretenden Projektleiters die oben genannten Mindestanforderungen, führte dies zum Ausschluss des Angebots.  Bewertet wurden ausschließlich diejenigen persönlichen Referenzprojekte, die die oben genannten Mindestanforderungen erfüllen.  Der Bieter hatte dabei in Form einer Liste je persönlichem Referenzprojekt Folgendes anzugeben:  - Name des jeweils in dem gegenständlichen Projekt einzusetzenden Projektleiters und stellvertretenden Projektleiters;  - Kurzbeschreibung des von dem Projektleiter und stellvertretendem Projektleiter jeweils persönlich geleiteten persönlichen Referenzprojekts;  der Bieter hat die früher ausgeführten Leistungen so zu beschreiben, dass die Erfüllung der jeweiligen Mindestanforderungen aus der Beschreibung des Referenzprojekts nachvollziehbar hervorgeht entsprechend der Anlage 600_02 \"Erfahrung des Projektteams_Los 2\".  - Rolle des Projektleiters und des stellvertretenden Projektleiters in dem jeweiligen persönlichen Referenzprojekt;  - Name des Unternehmens, welches die Leistungen der Technischen Ausrüstung, Elektrotechnik (ELT) gemäß § 53 Abs. 2 HOAI 2021 für die Leistungsphasen (LPH) 3 bis 8, des persönlichen Referenzprojekts, die der Projektleiter bzw. der stellvertretende Projektleiter jeweils in der angegebenen Rolle geleitet hat, ausgeführt hat;  - Ausführungen zu den angegebenen Mindestanforderungen an den Inhalt der persönlichen Referenzprojekte entsprechend der Anlage 600_02 \"Erfahrung des Projektteams_Los 2\".   (ii.) Die Bewertungssystematik war wie folgt:  Die Bewertungssystematik war sowohl für die persönlichen Referenzprojekte des Projektleiters als auch für die persönlichen Referenzprojekte des stellvertretenden Projektleiters wie folgt:   (1.) Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts: >= 3.000 m² = 5 Punkte; = 2.000 m² = 0 Punkte; < 2.000 m² = Kein geeignetes Referenzprojekt.  Soweit die Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts zwischen 2.000 m² und 3.000 m² lag, wurden die Punkte durch Interpolation vergeben, mathematisch gerundet auf zwei Nachkommastellen.  Beispiel:  Bei einer Brutto-Grundfläche (BGF) (nach DIN 277) des persönlichen Referenzprojekts von 2.500 m² erhielt der Bieter 2,50 Punkte.  (2.) Auftragswert (netto) des persönlichen Referenzprojekts: >= 240.000 EUR (netto) = 5 Punkte; = 120.000 EUR (netto) = 0 Punkte; < 120.000 EUR (netto) = Kein geeignetes Referenzprojekt.  Soweit der Auftragswert (netto) des persönlichen Referenzprojekts zwischen 120.000 EUR (netto) und 240.000 EUR (netto) lag, wurden die Punkte durch Interpolation vergeben, mathematisch gerundet auf zwei Nachkommastellen.  Fortsetzung folgt***.",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "1. Persönliche Erfahrung des Projektteams",
+      "description": "Beginn der Fortsetzung***:  Beispiel: Bei einem Auftragswert des persönlichen Referenzprojekts von 180.000 EUR (netto) erhielt der Bieter 2,50 Punkte.  Die erzielten Punkte für die Brutto-Grundfläche (BGF) (nach DIN 277) (1.) und den Auftragswert (netto) (2.) wurden addiert. Je eingereichtem persönlichem Referenzprojekt können maximal 10,00 Punkte (5,00 + 5,00) erzielt werden.  Zu der punktemäßigen Bewertung:  - Der Bieter konnte für die mit dem Angebot eingereichten persönlichen Referenzprojekte des Projektleiters bzw. des stellvertretenden Projektleiters - die jeweils die oben genannten Mindestanforderungen erfüllen - maximal 30 Punkte erzielen; das heißt 60 Punkte zusammengerechnet.  - Der Bieter konnte in dem Zuschlagskriterium \"Persönliche Erfahrung des Projektteams\" maximal 40,00 qualitative Leistungspunkte erzielen.   Zur Ermittlung der qualitativen Leistungspunkte wurden die von dem Bieter insgesamt erzielten Punkte für die persönlichen Referenzprojekte des Projektleiters und des stellvertretenden Projektleiters mit dem Gewichtungsfaktor 2/3 multipliziert. Das Ergebnis wurde mathematisch gerundet auf zwei Nachkommastellen.  Zur Bewertung hatte der Bieter die gelb markierten Felder in der Anlage 600_02 \"Erfahrung des Projektteams_Los 2\" vollständig auszufüllen und als Teil des Angebots ausschließlich in elektronischer Form einzureichen.  Hat die Anlage 600_02 \"Erfahrung des Projektteams_Los 2\" gefehlt, führte dies zwingend zum Ausschluss des Angebots. Eine Nachforderung war insoweit nicht möglich.  Je persönlichem Referenzprojekt waren zwei (2) zusätzliche Projektblätter (also maximal zwei (2) einseitig bedruckte DIN-A4-Seiten), die Fotos sowie eine Darstellung des persönlichen Referenzprojektes beinhalten, zu rein informatorischen Zwecken gestattet.  Diese Projektblätter waren jedoch nicht Teil der Bewertung. Bewertet wurden ausschließlich die Angaben des Bieters zu dem persönlichen Referenzprojekt in der Anlage 600_02 \"Erfahrung des Projektteams_Los 2\".  Im Falle der Auftragserteilung hat sich der Auftragnehmer verpflichtet, die Leistungen durch den benannten Projektleiter und stellvertretender Projektleiter zu erbringen. Der benannte Projektleiter und der stellvertretende Projektleiter dürfen nur bei Zustimmung durch den Auftraggeber in Textform ausgetauscht werden. Für weitere Einzelheiten wird auf den Vertrag (Anlage 906_02) verwiesen.  Der Auftraggeber ist berechtigt, seine Zustimmung zu verweigern, wenn der neue Projektleiter oder der neue stellvertretende Projektleiter nicht mindestens genauso erfahren ist wie die zu ersetzende Person. Dies ist der Fall, wenn die Ersatzperson bei einer Bewertung nach den für die jeweilige Funktion geltenden Zuschlagskriterien des Vergabeverfahrens mindestens die gleiche Punktzahl erzielt hätte wie die zu ersetzende Person.  Im Falle des Austauschs muss der neue Projektleiter bzw. der neue stellvertretende Projektleiter mindestens genauso erfahren sein wie die zu ersetzende Person. Der Auftraggeber ist berechtigt, seine Zustimmung zu verweigern, wenn diese Voraussetzung nicht erfüllt ist. Es müssten also mindestens genauso viele Punkte bei der Bewertung der Erfahrung erzielt worden sein, falls diese Person bereits im Rahmen des Vergabeverfahrens (je nach Ersetzung) als Projektleiter oder als stellvertretender Projektleiter angeboten worden wäre.",
+      "weight": 0
+     },
+     {
+      "type": "price",
+      "name": "Kalkulatorischer Angebotspreis (brutto) - Los 2",
+      "description": "Kalkulatorischer Angebotspreis (brutto) gemäß Anlage 801_02 \"Leistungs- und Vergütungskatalog_Los 2\".  Hat die Anlage 801_02 \"Leistungs- und Vergütungskatalog_Los 2\" gefehlt, führte dies zwingend zum Ausschluss des Angebots. Eine Nachforderung war insoweit nicht möglich.",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

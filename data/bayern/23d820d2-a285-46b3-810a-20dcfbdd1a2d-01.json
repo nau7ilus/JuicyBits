@@ -166,6 +166,8 @@
   "noticeId": "23d820d2-a285-46b3-810a-20dcfbdd1a2d",
   "version": "01",
   "title": "U3 SW, Bf. Gebersdorf, Oberfläche",
+  "description": "U3 SW, Bf Gebersdorf; Herstellung der Oberfläche samt Busbahnhof einschließlich Entwässerung nach dem Bau der U-Bahn.",
+  "procedureType": "open",
   "nuts": [
    "DE254"
   ],
@@ -177,6 +179,7 @@
    {
     "id": "LOT-0001",
     "title": "U3 SW, Bf. Gebersdorf, Oberfläche",
+    "description": "U3 SW, Bf Gebersdorf; Herstellung der Oberfläche samt Busbahnhof einschließlich Entwässerung nach dem Bau der U-Bahn.",
     "cpv": [
      "45233120"
     ],
@@ -187,6 +190,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-08+01:00",
     "plannedEnd": "2028-05-15+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -206,7 +210,19 @@
       "type": "slc-abil-ref-work",
       "description": "Der Nachweis der technischen und beruflichen Leistungsfähigkeit umfasst:- Erklärung, dass in den letzten bis zu fünf abgeschlossenen Kalenderjahren Leistungen ausgeführt wurden, die mit der zu vergebenden Leistung vergleichbar sind. Falls das Angebot in die engere Wahl kommt, ist für drei Referenzen je eine Referenzbescheinigung vorzulegen.- Erklärung, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen. Falls das Angebot in die engere Wahl kommt, sind Angaben über die Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischen Leitungspersonal vorzulegen.- Angabe, welche Teile des Auftrags der Unternehmer unter Umständen an andere Unternehmen als Unteraufträge zu vergeben beabsichtigt."
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Siehe Vergabeunterlagen"
+    }
    }
   ]
  }

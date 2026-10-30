@@ -1,0 +1,198 @@
+{
+ "id": "93e614c2-19b7-454a-a882-bfb0a655476a-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "93e614c2-19b7-454a-a882-bfb0a655476a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=93e614c2-19b7-454a-a882-bfb0a655476a",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:93e614c2-19b7-454a-a882-bfb0a655476a-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:93e614c2-19b7-454a-a882-bfb0a655476a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/93e614c2-19b7-454a-a882-bfb0a655476a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Gleiserneuerung Kempten (Allgäu) Hbf Strecke; 5362",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45234100"
+  ],
+  "nuts": [
+   "DE712",
+   "DE273"
+  ],
+  "deadline": "2026-12-11T09:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a5f5dfce-196a-400d-a4f8-1d261cade865",
+  "id": "93e614c2-19b7-454a-a882-bfb0a655476a",
+  "date": "2026-10-18T04:02:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a5f5dfce-196a-400d-a4f8-1d261cade865",
+   "title": "Gleiserneuerung Kempten (Allgäu) Hbf Strecke; 5362",
+   "description": "Oberbau_Gleiserneuerung Kempten (Allgäu) Hbf Strecke; \n362 MKP GE Gleis 2a\n5362 MKP ERNG WE 18,19,20,21,22,25, 31, 32, 33\n5362 MKP ERNG WE 6,8,15,17_konventionell",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Kempten",
+      "region": "DE273",
+      "postalCode": "87435",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/3663b6b5-8af4-4ba5-bbde-45917ce0c26e",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Gleiserneuerung Kempten (Allgäu) Hbf Strecke; 5362",
+     "description": "Oberbau_Gleiserneuerung Kempten (Allgäu) Hbf Strecke; \n362 MKP GE Gleis 2a\n5362 MKP ERNG WE 18,19,20,21,22,25, 31, 32, 33\n5362 MKP ERNG WE 6,8,15,17_konventionell",
+     "contractPeriod": {
+      "startDate": "2027-05-14T00:00:00+02:00",
+      "endDate": "2027-11-03T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "93e614c2-19b7-454a-a882-bfb0a655476a",
+  "version": "01",
+  "title": "Gleiserneuerung Kempten (Allgäu) Hbf Strecke; 5362",
+  "description": "Oberbau_Gleiserneuerung Kempten (Allgäu) Hbf Strecke; \n362 MKP GE Gleis 2a\n5362 MKP ERNG WE 18,19,20,21,22,25, 31, 32, 33\n5362 MKP ERNG WE 6,8,15,17_konventionell",
+  "procedureType": "open",
+  "nuts": [
+   "DE273"
+  ],
+  "cpv": [
+   "45234100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Gleiserneuerung Kempten (Allgäu) Hbf Strecke; 5362",
+    "description": "Oberbau_Gleiserneuerung Kempten (Allgäu) Hbf Strecke; \n362 MKP GE Gleis 2a\n5362 MKP ERNG WE 18,19,20,21,22,25, 31, 32, 33\n5362 MKP ERNG WE 6,8,15,17_konventionell",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE273"
+    ],
+    "deadline": "2026-12-11T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-14+02:00",
+    "plannedEnd": "2027-11-03+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

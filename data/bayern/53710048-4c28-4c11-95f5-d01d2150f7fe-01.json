@@ -213,6 +213,8 @@
   "noticeId": "53710048-4c28-4c11-95f5-d01d2150f7fe",
   "version": "01",
   "title": "Herstellung von Zerodurspiegeln - PR1275222-2660-W",
+  "description": "Herstellung von Zerodurspiegeln",
+  "procedureType": "neg-wo-call",
   "nuts": [
    "DEG03"
   ],
@@ -224,6 +226,7 @@
    {
     "id": "LOT-0000",
     "title": "Herstellung von Zerodurspiegeln - PR1275222-2660-W",
+    "description": "10 St. Herstellung von Zerodurspiegeln",
     "cpv": [
      "38000000"
     ],
@@ -234,9 +237,19 @@
     "participationDeadline": null,
     "plannedStart": "2027-06-18+02:00",
     "plannedEnd": "2027-10-29+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": ".",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

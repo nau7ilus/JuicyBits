@@ -5,14 +5,14 @@
   "noticeId": "fd65d9ca-bc8b-4cbb-afed-94fa92af7355",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fd65d9ca-bc8b-4cbb-afed-94fa92af7355",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:fd65d9ca-bc8b-4cbb-afed-94fa92af7355-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:fd65d9ca-bc8b-4cbb-afed-94fa92af7355-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/fd65d9ca-bc8b-4cbb-afed-94fa92af7355?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "TPB.610.04 Möbel Gastronomie",
   "buyer": "Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik (AdöR)",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE212"
   ],
-  "deadline": null,
+  "deadline": "2026-11-30T14:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -139,5 +139,74 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "fd65d9ca-bc8b-4cbb-afed-94fa92af7355",
+  "version": "01",
+  "title": "TPB.610.04 Möbel Gastronomie",
+  "description": "Gegenstand dieser Ausschreibung ist die Lieferung der losen Möblierung für die drei gastronomischen Bereiche des Deutschen Museums im Rahmen der Sanierung Sammlungsbau RA2. Die Positionen umfassen ausschließlich bewegliche Sitzmöbel und lose Tische gemäß den beiliegenden Ausstattungsplänen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "39100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "TPB.610.04 Möbel Gastronomie",
+    "description": "Gegenstand dieser Ausschreibung ist die Lieferung der losen Möblierung für die drei gastronomischen Bereiche des Deutschen Museums im Rahmen der Sanierung Sammlungsbau RA2. Die Positionen umfassen ausschließlich bewegliche Sitzmöbel und lose Tische gemäß den beiliegenden Ausstattungsplänen.",
+    "cpv": [
+     "39100000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-30T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 8,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen). Nicht präqualifizierte Unternehmen geben über das Formblatt L124 eine Eigenerklärung über den Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab. Nimmt der Bieter/Bewerber in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung\" (Formblatt L236) abzugeben."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen). Nicht präqualifizierte Unternehmen geben über das Formblatt L124 eine Eigenerklärung ab, dass in den letzten 3 Jahren vergleichbare Leistungen erbracht wurden. Auf Verlangen sind drei Referenzen mit folgenden Angaben abzugeben: Ansprechpartner, Art der Leistung, Auftragssumme, Ausführungszeitraum."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Präqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft, andere Unternehmen) Nicht präqualifizierte Unternehmen geben über das Formblatt L124 eine Eigenerklärung über die Eintragung in das Berufs- oder Handelsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Auftragsspezifische Einzelnachweise (von präqualifizierten und nicht präqualifizierten Unternehmen vorzulegen): Mit dem Angebot sind die Teile des Auftrags, die als Unteraufträge an andere Unternehmen vergeben werden sollen, zu benennen (Formblatt L235)."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Abgabe des Formblattes 127 Erklärung Bezug Russland"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das alleinige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

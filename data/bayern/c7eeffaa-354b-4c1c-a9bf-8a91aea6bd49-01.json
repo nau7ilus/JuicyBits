@@ -1,0 +1,190 @@
+{
+ "id": "c7eeffaa-354b-4c1c-a9bf-8a91aea6bd49-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "c7eeffaa-354b-4c1c-a9bf-8a91aea6bd49",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c7eeffaa-354b-4c1c-a9bf-8a91aea6bd49",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:c7eeffaa-354b-4c1c-a9bf-8a91aea6bd49-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:c7eeffaa-354b-4c1c-a9bf-8a91aea6bd49-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c7eeffaa-354b-4c1c-a9bf-8a91aea6bd49?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Atlassian Lizenzen",
+  "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+  "cpv": [
+   "48000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-23T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d1502c06-7537-4ec0-9296-fbe53e2d5a36",
+  "id": "c7eeffaa-354b-4c1c-a9bf-8a91aea6bd49",
+  "date": "2026-10-21T02:09:00Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+     "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstraße 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+   "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+   },
+   "address": {
+    "streetAddress": "Sophienstraße 6",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d1502c06-7537-4ec0-9296-fbe53e2d5a36",
+   "title": "Atlassian Lizenzen",
+   "description": "Ziel der Ausschreibung ist es, bestehende Atlassian DataCenter Subscriptions um 12 Monate zu verlängern. ",
+   "procuringEntity": {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48000000",
+      "description": "Software package and information systems"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81541",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/6889304a-2552-4671-b9ef-a590a04d6d57",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Atlassian Lizenzen",
+     "description": "Ziel der Ausschreibung ist es, bestehende Atlassian DataCenter Subscriptions um 12 Monate zu verlängern. "
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c7eeffaa-354b-4c1c-a9bf-8a91aea6bd49",
+  "version": "01",
+  "title": "Atlassian Lizenzen",
+  "description": "Ziel der Ausschreibung ist es, bestehende Atlassian DataCenter Subscriptions um 12 Monate zu verlängern.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Atlassian Lizenzen",
+    "description": "Ziel der Ausschreibung ist es, bestehende Atlassian DataCenter Subscriptions um 12 Monate zu verlängern.",
+    "cpv": [
+     "48000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/6889304a-2552-4671-b9ef-a590a04d6d57/suitabilitycriteria\n\nEigenerklärungen zur Erfüllung der Verpflichtung zur Zahlung von Steuern, Abgaben\nund Beiträgen zur gesetzlichen Sozialversicherung, Ausschluss Insolvenzverfahren /\nLiquidation, Eigenerklärungen zur Leistungsfähigkeit, Mindestlohn, Erklärung zur Struktur\ndes Bieters, Erklärung zu Auskunft aus dem Gewerbezentralregister, Eigenerklärung\nRussland"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "id": "bf8be738-c1f3-42fa-84b7-0b59e35d46b1-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "bf8be738-c1f3-42fa-84b7-0b59e35d46b1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bf8be738-c1f3-42fa-84b7-0b59e35d46b1",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:bf8be738-c1f3-42fa-84b7-0b59e35d46b1-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:bf8be738-c1f3-42fa-84b7-0b59e35d46b1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bf8be738-c1f3-42fa-84b7-0b59e35d46b1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Umbau Einrohr- auf Zweirohrheizungen als Generalunternehmer",
+  "buyer": "Münchner Wohnen GmbH",
+  "cpv": [
+   "45000000",
+   "45210000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-04T13:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c17c4bb2-2761-4b0c-916f-24a566169533",
+  "id": "bf8be738-c1f3-42fa-84b7-0b59e35d46b1",
+  "date": "2026-10-16T02:10:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schlichtungsstelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:008921762411",
+     "legalName": "Schlichtungsstelle"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   },
+   {
+    "name": "Münchner Wohnen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:0898776620",
+     "legalName": "Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Dienstleister Münchner Wohnen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "t:00898776620",
+     "legalName": "Dienstleister Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Münchner Wohnen GmbH",
+   "id": "t:0898776620",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Münchner Wohnen GmbH"
+   },
+   "address": {
+    "streetAddress": "Gustav-Heinemann- Ring 111",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c17c4bb2-2761-4b0c-916f-24a566169533",
+   "title": "Umbau Einrohr- auf Zweirohrheizungen als Generalunternehmer",
+   "description": "Sanierung der bestehenden Wärmeversorgungsanlage einer Wohnanlage mit insgesamt 338 Wohnungen, aufgeteilt auf 25 Treppenhäuser. Im Rahmen der Maßnahme wird das bestehende Einrohrheizungssystem auf ein Zweirohrsystem umgestellt. Die Leistung umfasst die hierfür erforderlichen Planungs-, Demontage-, Installations-, Prüf- und Inbetriebnahmeleistungen einschließlich der erforderlichen Anpassungen und Neuherstellung der Leitungsführungen und Heizungsverteilungen.",
+   "procuringEntity": {
+    "name": "Münchner Wohnen GmbH",
+    "id": "t:0898776620"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45210000",
+       "description": "Building construction work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Wintersteinstraße",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80933",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303826",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Umbau Einrohr- auf Zweirohrheizungen als Generalunternehmer",
+     "description": "Sanierung der bestehenden Wärmeversorgungsanlage einer Wohnanlage mit insgesamt 338 Wohnungen, aufgeteilt auf 25 Treppenhäuser. Im Rahmen der Maßnahme wird das bestehende Einrohrheizungssystem auf ein Zweirohrsystem umgestellt. Die Leistung umfasst die hierfür erforderlichen Planungs-, Demontage-, Installations-, Prüf- und Inbetriebnahmeleistungen einschließlich der erforderlichen Anpassungen und Neuherstellung der Leitungsführungen und Heizungsverteilungen.\nDie gesamte Baumaßnahme wird im bewohnten Zustand durchgeführt. Die Wohnungen und Gebäude bleiben während der Ausführung grundsätzlich in Nutzung. Sämtliche Leistungen sind daher wohnungsweise und unter besonderer Berücksichtigung der Bewohner zu organisieren und auszuführen. Hierzu gehören insbesondere die Koordination der Wohnungszugänge, Schutzmaßnahmen innerhalb der Wohnungen und Allgemeinbereiche sowie eine abgestimmte Bauablauf- und Baustellenlogistik.\nNeben den technischen Leistungen der Wärmeversorgung umfasst der Auftrag sämtliche hiermit verbundenen Hochbau- und Ausbauleistungen, insbesondere erforderliche Rückbau-, Trockenbau-, Putz-, Maler-, Fliesen- und Schreinerarbeiten sowie die vollständige Wiederherstellung der durch die Baumaßnahme betroffenen Bauteile und Oberflächen.\nZum Leistungsumfang gehören darüber hinaus die erforderliche Baustelleneinrichtung und -bewirtschaftung, Baustellenlogistik, Mieterkoordination, Schutz- und Sicherungsmaßnahmen, Reinigung und Dokumentation sowie sämtliche für eine vollständige, funktionsfähige und abnahmereife Herstellung erforderlichen Neben- und Koordinationsleistungen.",
+     "contractPeriod": {
+      "startDate": "2027-01-18T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bf8be738-c1f3-42fa-84b7-0b59e35d46b1",
+  "version": "01",
+  "title": "Umbau Einrohr- auf Zweirohrheizungen als Generalunternehmer",
+  "description": "Sanierung der bestehenden Wärmeversorgungsanlage einer Wohnanlage mit insgesamt 338 Wohnungen, aufgeteilt auf 25 Treppenhäuser. Im Rahmen der Maßnahme wird das bestehende Einrohrheizungssystem auf ein Zweirohrsystem umgestellt. Die Leistung umfasst die hierfür erforderlichen Planungs-, Demontage-, Installations-, Prüf- und Inbetriebnahmeleistungen einschließlich der erforderlichen Anpassungen und Neuherstellung der Leitungsführungen und Heizungsverteilungen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45000000",
+   "45210000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Umbau Einrohr- auf Zweirohrheizungen als Generalunternehmer",
+    "description": "Sanierung der bestehenden Wärmeversorgungsanlage einer Wohnanlage mit insgesamt 338 Wohnungen, aufgeteilt auf 25 Treppenhäuser. Im Rahmen der Maßnahme wird das bestehende Einrohrheizungssystem auf ein Zweirohrsystem umgestellt. Die Leistung umfasst die hierfür erforderlichen Planungs-, Demontage-, Installations-, Prüf- und Inbetriebnahmeleistungen einschließlich der erforderlichen Anpassungen und Neuherstellung der Leitungsführungen und Heizungsverteilungen.\nDie gesamte Baumaßnahme wird im bewohnten Zustand durchgeführt. Die Wohnungen und Gebäude bleiben während der Ausführung grundsätzlich in Nutzung. Sämtliche Leistungen sind daher wohnungsweise und unter besonderer Berücksichtigung der Bewohner zu organisieren und auszuführen. Hierzu gehören insbesondere die Koordination der Wohnungszugänge, Schutzmaßnahmen innerhalb der Wohnungen und Allgemeinbereiche sowie eine abgestimmte Bauablauf- und Baustellenlogistik.\nNeben den technischen Leistungen der Wärmeversorgung umfasst der Auftrag sämtliche hiermit verbundenen Hochbau- und Ausbauleistungen, insbesondere erforderliche Rückbau-, Trockenbau-, Putz-, Maler-, Fliesen- und Schreinerarbeiten sowie die vollständige Wiederherstellung der durch die Baumaßnahme betroffenen Bauteile und Oberflächen.\nZum Leistungsumfang gehören darüber hinaus die erforderliche Baustelleneinrichtung und -bewirtschaftung, Baustellenlogistik, Mieterkoordination, Schutz- und Sicherungsmaßnahmen, Reinigung und Dokumentation sowie sämtliche für eine vollständige, funktionsfähige und abnahmereife Herstellung erforderlichen Neben- und Koordinationsleistungen.",
+    "cpv": [
+     "45000000",
+     "45210000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-04T13:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-18+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Ist das Unternehmen in den einschlägigen Berufs- \noder Handelsregistern seines Niederlassungsmitgliedstaates eingetragen. Falls ja, bitte Berufs- oder Handelsregister mit Eintragungsort und -nummer angeben. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Ist der Besitz einer bestimmten Berechtigung oder die Mitgliedschaft in einer bestimmten Organisation erforderlich,  um die betreffende Leistung im Niederlassungsstaat des Unternehmens erbringen zu können. Bitte geben Sie an, welche Mitgliedschaft verlangt wird und ob diese Voraussetzung erfüllt wird. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Angaben zum Gesamtumsatz des Unternehmens in den letzten drei Geschäftsjahren:\n\nMindestanforderung:\nDer durchschnittliche Gesamtumsatz der letzten drei Geschäftsjahre muss mindestens 10.000.000 EUR brutto betragen.\n\nSoweit für das Geschäftsjahr 2025 noch keine endgültigen Umsatzzahlen vorliegen, können vorläufige Angaben gemacht werden.\n\nSind die Angaben zum Gesamtumsatz nicht für den gesamten vorgegebenen Zeitraum verfügbar, geben Sie bitte an,  zu welchem Zeitpunkt das Unternehmen gegründet wurde oder seine Tätigkeit aufgenommen hat.\n\nWird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis bzw. Erklärung zu einer Betriebshaftpflichtversicherung\n\nMindestanforderung:\nNachweis einer bestehenden Betriebs-/Berufshaftpflichtversicherung bzw. Erklärung, im Auftragsfall eine entsprechende Versicherung abzuschließen und für die Dauer der Auftragsausführung aufrechtzuerhalten, mit folgenden Mindestdeckungssummen:\n\nfür Personenschäden: 5.000.000 EUR pro Schadensfall und Person\n\nfür Sach- und Vermögensschäden: 5.000.000 EUR pro Schadensfall\n\nWird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Durchschnittliche jährliche Beschäftigtenzahl einschließlich Führungskräfte in den letzten drei Geschäftsjahren entsprechend Ziffer 4.2.1.\n\nEs sind ausschließlich eigene Mitarbeiter des Unternehmens anzugeben. Mitarbeiter von Nachunternehmern sind nicht zu berücksichtigen. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Durchschnittliche jährliche Beschäftigtenzahl in den letzten drei Geschäftsjahren entsprechend Ziffer 4.2.1 für Architekten, Dipl.-Ing. und Techniker für Planung, Ausführung und Überwachung.\n\nMindestanforderung:\nIn den letzten drei Geschäftsjahren müssen durchschnittlich mindestens 10 eigene Mitarbeiter der vorgenannten Qualifikationen beschäftigt worden sein.\n\nEs sind ausschließlich eigene Mitarbeiter des Unternehmens anzugeben. Mitarbeiter von Nachunternehmern sind nicht zu berücksichtigen.\n\nEntsprechende Nachweise sind auf Verlangen der Vergabestelle vorzulegen. Wird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Durchschnittliche jährliche Beschäftigtenzahl in den letzten drei Geschäftsjahren entsprechend Ziffer 4.2.1 für  gewerblich beschäftigte Mitarbeiter hinsichtlich der Bauausführung.\n\nEs sind nur Mitarbeiter zu berücksichtigen, die nicht bereits unter Ziffer 4.3.4 angegeben wurden.\n\nMindestanforderungen:\nIn den letzten drei Geschäftsjahren müssen durchschnittlich mindestens 20 eigene gewerblich beschäftigte Mitarbeiter hinsichtlich der Bauausführung beschäftigt worden sein.\n\nEs sind ausschließlich eigene Mitarbeiter des Unternehmens anzugeben. Mitarbeiter von Nachunternehmern sind nicht zu berücksichtigen.\n\nEntsprechende Nachweise sind auf Verlangen der Vergabestelle vorzulegen. Wird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Für die Ausführung der Schweißarbeiten sind die erforderlichen betrieblichen und personellen schweißtechnischen Qualifikationen nachzuweisen.\n\nMindestanforderungen:\nDas Unternehmen muss die Qualitätsanforderungen nach \nDIN EN ISO 3834-3 oder höher erfüllen und einen entsprechenden aktuellen Nachweis vorlegen.\n\nEs müssen mindestens drei eigene Mitarbeiter über eine gültige Schweißerprüfbescheinigung nach DIN EN ISO 9606-1 verfügen.\n\nDer Nachweis nach DIN EN ISO 3834-3 sowie die Schweißerprüfbescheinigungen für mindestens drei eigene Mitarbeiter sind dem Angebot beizulegen. Wird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Das Unternehmen hat drei Referenzen über vergleichbare, bereits ausgeführte General- und Totalunternehmerleistungen (GU/TU-Leistungen) vorzulegen.\n\nMindestanforderung:\nMindestanforderungen an jede Referenz:\n\n– Sanierungsmaßnahme im bewohnten Zustand\n– Ausführung als Totalunternehmerleistung (GU/TU-Leistung)\n– Die Abnahme durch den Auftraggeber muss innerhalb der letzten \n– sieben abgeschlossenen Kalenderjahre erfolgt sein.\n– Auftragssumme von mindestens 2.500.000 EUR brutto\n\nDie Erfüllung der Mindestanforderungen muss aus der jeweiligen Referenzbeschreibung eindeutig hervorgehen.\n\nDas Unternehmen hat folgende wesentliche Leistungen der genannten \nArt (GU/TU-Leistungen) in dem angegebenen Zeitraum erbracht:\n\nIm Detail muss die Beschreibung der Referenz \nfolgende Angaben enthalten:\n\n1.0 Beschreibung des Projekts (Planung und Ausführung)\n    1.1 Projektbezeichnung\n    1.2 Ort des Projekts\n    1.3 Art des Projekts\n2.0 Beschreibung der ausgeführten Leistungen\n3.0 Gebäudekenndaten\n4.0 Auftragssumme\n5.0 Angaben zum Erbringungszeitpunkt\n6.0 Angaben zum Auftraggeber / Angaben für Referenzauskunft\n\nErgänzend zum Referenzblatt ist für jede Referenz eine kurze Projektdarstellung als Anlage beizufügen. Die Darstellung darf je Referenz maximal vier \nDIN-A4-Seiten umfassen.\n\nDies gilt auch für Bietergemeinschaften; auch bei Bietergemeinschaften werden insgesamt maximal drei Referenzen gewertet.\n\nDie Angaben zu den drei Referenzen sind vollständig in dem hierfür vorgesehenen Referenzblatt zu machen und zusammen mit dem Bieterbogen einzureichen.\n\nDie Erfüllung der Mindestanforderungen muss aus der jeweiligen Referenzbeschreibung eindeutig hervorgehen.\n\nWerden mehr als drei Referenzen eingereicht, werden ausschließlich die drei aktuellsten Referenzen gewertet. Maßgeblich ist das Datum der Abnahme durch den Auftraggeber.\n\nEine Überprüfung der Referenzen durch die Vergabestelle bleibt vorbehalten. Falsche Angaben können zum Ausschluss führen.\n\n Wird die Mindestanforderung nicht erfüllt, wird das Angebot vom weiteren Verfahren ausgeschlossen. Die Angaben sind im Bieterbogen und ggf. zusätzlichen Anlagen anzugeben."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "100 % Gesamtpreis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

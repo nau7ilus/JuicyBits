@@ -1,0 +1,804 @@
+{
+ "id": "2a6901f2-a8f6-4921-abba-d8f95a9f409d-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "2a6901f2-a8f6-4921-abba-d8f95a9f409d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2a6901f2-a8f6-4921-abba-d8f95a9f409d",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:2a6901f2-a8f6-4921-abba-d8f95a9f409d-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:2a6901f2-a8f6-4921-abba-d8f95a9f409d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2a6901f2-a8f6-4921-abba-d8f95a9f409d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Gebäudereinigung von Gemeinschaftsunterkünften ",
+  "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+  "cpv": [
+   "90911100",
+   "90911200",
+   "90911300"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 5
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7f84666c-0f5d-4c0a-80f6-1bcaba9ff096",
+  "id": "2a6901f2-a8f6-4921-abba-d8f95a9f409d",
+  "date": "2026-10-25T07:14:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1"
+    },
+    "address": {
+     "streetAddress": "Birkerstraße 18",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80636",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Werner companies GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE128964671",
+     "legalName": "Werner companies GmbH"
+    },
+    "address": {
+     "streetAddress": "Keplerring 1",
+     "locality": "Ergolding",
+     "region": "DE227",
+     "postalCode": "84030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Weiss Dienstleistungen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE312909321",
+     "legalName": "Weiss Dienstleistungen GmbH"
+    },
+    "address": {
+     "streetAddress": "Benzstr. 13",
+     "locality": "Puchheim",
+     "region": "DE21C",
+     "postalCode": "82178",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "RBH Gebäudereinigungs GmbH",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "DE312735154",
+     "legalName": "RBH Gebäudereinigungs GmbH"
+    },
+    "address": {
+     "streetAddress": "Frankfurter Str. 18",
+     "locality": "Köln",
+     "region": "DEA23",
+     "postalCode": "51065",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+   "id": "Leitweg-ID 09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1"
+   },
+   "address": {
+    "streetAddress": "Birkerstraße 18",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80636",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7f84666c-0f5d-4c0a-80f6-1bcaba9ff096",
+   "title": "Gebäudereinigung von Gemeinschaftsunterkünften ",
+   "description": "Gebäudereinigung von Gemeinschaftsunterkünften (5 Lose)",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+    "id": "Leitweg-ID 09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911100",
+      "description": "Accommodation cleaning services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90911200",
+       "description": "Building-cleaning services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90911300",
+       "description": "Window-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911100",
+      "description": "Accommodation cleaning services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90911200",
+       "description": "Building-cleaning services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90911300",
+       "description": "Window-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911100",
+      "description": "Accommodation cleaning services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90911200",
+       "description": "Building-cleaning services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90911300",
+       "description": "Window-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911100",
+      "description": "Accommodation cleaning services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90911200",
+       "description": "Building-cleaning services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90911300",
+       "description": "Window-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911100",
+      "description": "Accommodation cleaning services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90911200",
+       "description": "Building-cleaning services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90911300",
+       "description": "Window-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 3,
+   "tenderers": [
+    {
+     "name": "Werner companies GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Werner companies GmbH"
+     },
+     "address": {
+      "streetAddress": "Keplerring 1",
+      "locality": "Ergolding",
+      "region": "DE227",
+      "postalCode": "84030",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Weiss Dienstleistungen GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Weiss Dienstleistungen GmbH"
+     },
+     "address": {
+      "streetAddress": "Benzstr. 13",
+      "locality": "Puchheim",
+      "region": "DE21C",
+      "postalCode": "82178",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "RBH Gebäudereinigungs GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "RBH Gebäudereinigungs GmbH"
+     },
+     "address": {
+      "streetAddress": "Frankfurter Str. 18",
+      "locality": "Köln",
+      "region": "DEA23",
+      "postalCode": "51065",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Gemeinschaftsunterkunft, Centa-Hafenbrädl-Straße",
+     "description": "Unterhaltsreinigung, Glasreinigung",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2030-11-30T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Gemeinschaftsunterkunft, Neuherbergstraße",
+     "description": "Unterhaltsreinigung, Glasreinigung",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2030-11-30T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Gemeinschaftsunterkunft, Landshamer Straße",
+     "description": "Unterhaltsreinigung, Glasreinigung",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2030-11-30T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Gemeinschaftsunterkunft, Kronstadter Straße",
+     "description": "Unterhaltsreinigung, Glasreinigung",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2030-11-30T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Gemeinschaftsunterkunft, Triebstraße",
+     "description": "Unterhaltsreinigung, Glasreinigung",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2030-11-30T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   },
+   {
+    "id": "LOT-0004",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0004"
+    ]
+   },
+   {
+    "id": "LOT-0005",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0005"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0005",
+    "awardID": "CON-0005",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0004",
+    "awardID": "CON-0004",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "2a6901f2-a8f6-4921-abba-d8f95a9f409d",
+  "version": "01",
+  "title": "Gebäudereinigung von Gemeinschaftsunterkünften",
+  "description": "Gebäudereinigung von Gemeinschaftsunterkünften (5 Lose)",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "90911100",
+   "90911200",
+   "90911300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Gemeinschaftsunterkunft, Centa-Hafenbrädl-Straße",
+    "description": "Unterhaltsreinigung, Glasreinigung",
+    "cpv": [
+     "90911100",
+     "90911200",
+     "90911300"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2030-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Abweichung der Leistungswerte",
+      "description": "Abweichung der Leistungswerte",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualität und Personal",
+      "description": "Dokumentierte Einweisung des\nReinigungspersonals 5 %, Dokumentierte Einweisung von\nVertretungspersonal 5 %, Dokumentierte Einweisung in die\nReinigungs- und Hygienetechnik 5 %, Dokumentierte Einweisung in das\nEntsorgungskonzept Dokumentierte Einweisung in das\nEntsorgungskonzept 5 %, Reaktionszeit bei\naußerplanmäßigem\nReinigungsbedarf (Stunden) 5 %, Qualifikation der Objektleitung 20 %, Berufserfahrung der Objektleitung (Jahre) 15 % , Qualitätskontrollen der Objektletung (Anzahl pro Monat oder pro Woche) 12,5 %, Feedback Gespräche (Anzahl pro Monat oder pro Woche) 15 %, Einsatz von Auszubildenden 12,5 %",
+      "weight": 25
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 55
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Gemeinschaftsunterkunft, Neuherbergstraße",
+    "description": "Unterhaltsreinigung, Glasreinigung",
+    "cpv": [
+     "90911100",
+     "90911200",
+     "90911300"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2030-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Abweichung der Leistungswerte",
+      "description": "Abweichung der Leistungswerte",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualität und Personal",
+      "description": "Dokumentierte Einweisung des\nReinigungspersonals 5 %, Dokumentierte Einweisung von\nVertretungspersonal 5 %, Dokumentierte Einweisung in die\nReinigungs- und Hygienetechnik 5 %, Dokumentierte Einweisung in das\nEntsorgungskonzept Dokumentierte Einweisung in das\nEntsorgungskonzept 5 %, Reaktionszeit bei\naußerplanmäßigem\nReinigungsbedarf (Stunden) 5 %, Qualifikation der Objektleitung 20 %, Berufserfahrung der Objektleitung (Jahre) 15 % , Qualitätskontrollen der Objektletung (Anzahl pro Monat oder pro Woche) 12,5 %, Feedback Gespräche (Anzahl pro Monat oder pro Woche) 15 %, Einsatz von Auszubildenden 12,5 %",
+      "weight": 25
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 55
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Gemeinschaftsunterkunft, Landshamer Straße",
+    "description": "Unterhaltsreinigung, Glasreinigung",
+    "cpv": [
+     "90911100",
+     "90911200",
+     "90911300"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2030-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Abweichung der Leistungswerte",
+      "description": "Abweichung der Leistungswerte",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualität und Personal",
+      "description": "Dokumentierte Einweisung des\nReinigungspersonals 5 %, Dokumentierte Einweisung von\nVertretungspersonal 5 %, Dokumentierte Einweisung in die\nReinigungs- und Hygienetechnik 5 %, Dokumentierte Einweisung in das\nEntsorgungskonzept Dokumentierte Einweisung in das\nEntsorgungskonzept 5 %, Reaktionszeit bei\naußerplanmäßigem\nReinigungsbedarf (Stunden) 5 %, Qualifikation der Objektleitung 20 %, Berufserfahrung der Objektleitung (Jahre) 15 % , Qualitätskontrollen der Objektletung (Anzahl pro Monat oder pro Woche) 12,5 %, Feedback Gespräche (Anzahl pro Monat oder pro Woche) 15 %, Einsatz von Auszubildenden 12,5 %",
+      "weight": 25
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 55
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Gemeinschaftsunterkunft, Kronstadter Straße",
+    "description": "Unterhaltsreinigung, Glasreinigung",
+    "cpv": [
+     "90911100",
+     "90911200",
+     "90911300"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2030-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Abweichung der Leistungswerte",
+      "description": "Abweichung der Leistungswerte",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualität und Personal",
+      "description": "Dokumentierte Einweisung des\nReinigungspersonals 5 %, Dokumentierte Einweisung von\nVertretungspersonal 5 %, Dokumentierte Einweisung in die\nReinigungs- und Hygienetechnik 5 %, Dokumentierte Einweisung in das\nEntsorgungskonzept Dokumentierte Einweisung in das\nEntsorgungskonzept 5 %, Reaktionszeit bei\naußerplanmäßigem\nReinigungsbedarf (Stunden) 5 %, Qualifikation der Objektleitung 20 %, Berufserfahrung der Objektleitung (Jahre) 15 % , Qualitätskontrollen der Objektletung (Anzahl pro Monat oder pro Woche) 12,5 %, Feedback Gespräche (Anzahl pro Monat oder pro Woche) 15 %, Einsatz von Auszubildenden 12,5 %",
+      "weight": 25
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 55
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Gemeinschaftsunterkunft, Triebstraße",
+    "description": "Unterhaltsreinigung, Glasreinigung",
+    "cpv": [
+     "90911100",
+     "90911200",
+     "90911300"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2030-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Abweichung der Leistungswerte",
+      "description": "Abweichung der Leistungswerte",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualität und Personal",
+      "description": "Dokumentierte Einweisung des\nReinigungspersonals 5 %, Dokumentierte Einweisung von\nVertretungspersonal 5 %, Dokumentierte Einweisung in die\nReinigungs- und Hygienetechnik 5 %, Dokumentierte Einweisung in das\nEntsorgungskonzept Dokumentierte Einweisung in das\nEntsorgungskonzept 5 %, Reaktionszeit bei\naußerplanmäßigem\nReinigungsbedarf (Stunden) 5 %, Qualifikation der Objektleitung 20 %, Berufserfahrung der Objektleitung (Jahre) 15 % , Qualitätskontrollen der Objektletung (Anzahl pro Monat oder pro Woche) 12,5 %, Feedback Gespräche (Anzahl pro Monat oder pro Woche) 15 %, Einsatz von Auszubildenden 12,5 %",
+      "weight": 25
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 55
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "id": "e4f51f4c-387f-4e5d-b906-054c338447df-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "e4f51f4c-387f-4e5d-b906-054c338447df",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e4f51f4c-387f-4e5d-b906-054c338447df",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:e4f51f4c-387f-4e5d-b906-054c338447df-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:e4f51f4c-387f-4e5d-b906-054c338447df-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e4f51f4c-387f-4e5d-b906-054c338447df?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Auswahlverfahren Schopfloch - Gigabit-RL 2.0 (LSP)",
+  "buyer": "Markt Schopfloch",
+  "cpv": [
+   "64210000",
+   "32412000",
+   "32561000",
+   "32562000",
+   "32562100",
+   "32562300",
+   "64215000"
+  ],
+  "nuts": [
+   "DE256"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e4f51f4c-387f-4e5d-b906-054c338447df",
+  "id": "e4f51f4c-387f-4e5d-b906-054c338447df",
+  "date": "2026-10-18T08:12:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Schopfloch",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "12304",
+     "legalName": "Markt Schopfloch"
+    },
+    "address": {
+     "streetAddress": "Friedrich-Ebert-Str. 15",
+     "locality": "Schopfloch",
+     "region": "DE256",
+     "postalCode": "91626",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "fc56ad34-93aa-4956-882c-5aa5e4b48ccd",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Schopfloch",
+   "id": "12304",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Schopfloch"
+   },
+   "address": {
+    "streetAddress": "Friedrich-Ebert-Str. 15",
+    "locality": "Schopfloch",
+    "region": "DE256",
+    "postalCode": "91626",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e4f51f4c-387f-4e5d-b906-054c338447df",
+   "title": "Auswahlverfahren Schopfloch - Gigabit-RL 2.0 (LSP)",
+   "description": "Zielsetzung dieser Fördermaßnahme ist die Unterstützung eines effektiven und technologieneutralen Breitbandausbaus im Projektgebiet zur Errichtung eines nachhaltigen sowie zukunfts- und hochleistungsfähigen Breitbandnetzes (Gigabitnetz) in den unterversorgten Gebieten",
+   "procuringEntity": {
+    "name": "Markt Schopfloch",
+    "id": "12304"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "region": "DE256",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 1000000,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "http://www.deutsche-evergabe.de/dashboards/dashboard_off/e4f51f4c-387f-4e5d-b906-054c338447df",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Auswahlverfahren Schopfloch - Gigabit-RL 2.0 (LSP)",
+     "description": "Der Netzbetreiber, dem nach Abschluss dieses Auswahlverfahrens der Zuschlag erteilt wird, erhält eine Dienstleistungskonzession zum Aufbau und Betrieb eines gigabitfähigen Netzes für das Erschließungsgebiet.\n\nHierfür plant, errichtet und betreibt der bezuschlagte Bieter die erforderlichen passiven und aktiven Netzinfrastruktur mit allen nach Regeln der Technik anzuwendenden Tiefbauleistungen und Komponenten, die zur Erschließung der unterversorgten Teilnehmer mit einem hochleistungsfähigen Gigabitnetz erforderlich sind.\n\nDetails zum Erschließungsgebiet:\n24 Adressen gem. Adressliste",
+     "contractPeriod": {
+      "durationInDays": 2520
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "19",
+  "noticeId": "e4f51f4c-387f-4e5d-b906-054c338447df",
+  "version": "01",
+  "title": "Auswahlverfahren Schopfloch - Gigabit-RL 2.0 (LSP)",
+  "description": "Zielsetzung dieser Fördermaßnahme ist die Unterstützung eines effektiven und technologieneutralen Breitbandausbaus im Projektgebiet zur Errichtung eines nachhaltigen sowie zukunfts- und hochleistungsfähigen Breitbandnetzes (Gigabitnetz) in den unterversorgten Gebieten",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE256"
+  ],
+  "cpv": [
+   "64210000",
+   "32412000",
+   "32561000",
+   "32562000",
+   "32562100",
+   "32562300",
+   "64215000"
+  ],
+  "estimatedValue": {
+   "amount": 1000000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Auswahlverfahren Schopfloch - Gigabit-RL 2.0 (LSP)",
+    "description": "Der Netzbetreiber, dem nach Abschluss dieses Auswahlverfahrens der Zuschlag erteilt wird, erhält eine Dienstleistungskonzession zum Aufbau und Betrieb eines gigabitfähigen Netzes für das Erschließungsgebiet.\n\nHierfür plant, errichtet und betreibt der bezuschlagte Bieter die erforderlichen passiven und aktiven Netzinfrastruktur mit allen nach Regeln der Technik anzuwendenden Tiefbauleistungen und Komponenten, die zur Erschließung der unterversorgten Teilnehmer mit einem hochleistungsfähigen Gigabitnetz erforderlich sind.\n\nDetails zum Erschließungsgebiet:\n24 Adressen gem. Adressliste",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-16T10:00:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 84,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "siehe 3. im Teilnahmeantrag der Vergabeunterlagen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 75
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Endkundenpreise",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Realisierungszeitraum",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Alternative Verlegemethoden",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "id": "17a21151-083d-421e-b034-ca2e74c8e14f-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "17a21151-083d-421e-b034-ca2e74c8e14f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=17a21151-083d-421e-b034-ca2e74c8e14f",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:17a21151-083d-421e-b034-ca2e74c8e14f-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:17a21151-083d-421e-b034-ca2e74c8e14f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/17a21151-083d-421e-b034-ca2e74c8e14f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Blockchainanalysetool (TRM)",
+  "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+  "cpv": [
+   "72268000",
+   "72260000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-16T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bf9aab29-2c96-479b-8b54-bbdb7a2f76c9",
+  "id": "17a21151-083d-421e-b034-ca2e74c8e14f",
+  "date": "2026-10-18T08:58:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+     "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstraße 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Steuern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "955f3ee5-ba27-4dcc-9164-0b25df5b3370",
+     "legalName": "Bayerisches Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+   "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+   },
+   "address": {
+    "streetAddress": "Sophienstraße 6",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bf9aab29-2c96-479b-8b54-bbdb7a2f76c9",
+   "title": "Blockchainanalysetool (TRM)",
+   "description": "10 Lizenzen TRM FOR-PREMIUM-LE - Lizenzlaufzeit: 3 Jahre ab Zuschlag -- zusätzlich Optional für Auftraggeber ohne Abnahmeverpflichtung - 5 weitere Lizenzen - API-Abfragekontigent von insgesamt 6 Mio. Abfragen - 50 Lizenzen TRM-Triage inkl. Support in deutscher Sprache ",
+   "procuringEntity": {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72268000",
+      "description": "Software supply services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72260000",
+       "description": "Software-related services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/9fcc3813-3ead-4412-ae32-6b32f6b6012b",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Blockchainanalysetool (TRM)",
+     "description": "10 Lizenzen TRM FOR-PREMIUM-LE - Lizenzlaufzeit: 3 Jahre ab Zuschlag -- zusätzlich Optional für Auftraggeber ohne Abnahmeverpflichtung - 5 weitere Lizenzen - API-Abfragekontigent von insgesamt 6 Mio. Abfragen - 50 Lizenzen TRM-Triage inkl. Support in deutscher Sprache "
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "17a21151-083d-421e-b034-ca2e74c8e14f",
+  "version": "01",
+  "title": "Blockchainanalysetool (TRM)",
+  "description": "10 Lizenzen TRM FOR-PREMIUM-LE - Lizenzlaufzeit: 3 Jahre ab Zuschlag -- zusätzlich Optional für Auftraggeber ohne Abnahmeverpflichtung - 5 weitere Lizenzen - API-Abfragekontigent von insgesamt 6 Mio. Abfragen - 50 Lizenzen TRM-Triage inkl. Support in deutscher Sprache",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72268000",
+   "72260000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Blockchainanalysetool (TRM)",
+    "description": "10 Lizenzen TRM FOR-PREMIUM-LE - Lizenzlaufzeit: 3 Jahre ab Zuschlag -- zusätzlich Optional für Auftraggeber ohne Abnahmeverpflichtung - 5 weitere Lizenzen - API-Abfragekontigent von insgesamt 6 Mio. Abfragen - 50 Lizenzen TRM-Triage inkl. Support in deutscher Sprache",
+    "cpv": [
+     "72268000",
+     "72260000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-16T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "keine Eignungskriterien"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

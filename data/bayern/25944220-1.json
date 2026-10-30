@@ -1,0 +1,134 @@
+{
+ "id": "25944220-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944220",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944220",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944220-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944220-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944220?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Strassen- und Tiefbauarbeiten",
+  "buyer": "Stadt Fuerth - Rf. V- Zentrale Vergabestelle",
+  "cpv": [
+   "45100000-8"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-29T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944220",
+  "id": "25944220",
+  "date": "2026-10-17T07:01:34Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Fuerth - Rf. V- Zentrale Vergabestelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Fuerth - Rf. V- Zentrale Vergabestelle"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Fuerth - Rf. V- Zentrale Vergabestelle",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Fuerth - Rf. V- Zentrale Vergabestelle"
+   }
+  },
+  "tender": {
+   "title": "Strassen- und Tiefbauarbeiten",
+   "description": "Strassen- und Tiefbauarbeiten",
+   "procuringEntity": {
+    "name": "Stadt Fuerth - Rf. V- Zentrale Vergabestelle"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45100000-8"
+     },
+     "deliveryAddress": {
+      "locality": "90762 Fuerth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304916",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Strassen- und Tiefbauarbeiten",
+     "description": "Strassen- und Tiefbauarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25944220",
+  "version": "1",
+  "title": "Strassen- und Tiefbauarbeiten",
+  "description": "Strassen- und Tiefbauarbeiten",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45100000-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Strassen- und Tiefbauarbeiten",
+    "description": "Strassen- und Tiefbauarbeiten",
+    "cpv": [
+     "45100000-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-29T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

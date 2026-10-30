@@ -236,6 +236,8 @@
   "noticeId": "a12bedbf-52ab-441e-a0f0-cf477f93490a",
   "version": "01",
   "title": "Geraetetraeger mit Zubehoer SM Hip",
+  "description": "Beschaffung eines Geräteträger vom Typ Unimog, mit Mähgeräten für die Straßenmeisterei Hilpoltstein.",
+  "procedureType": "open",
   "nuts": [
    "DE25B"
   ],
@@ -247,6 +249,7 @@
    {
     "id": "LOT-0000",
     "title": "Geraetetraeger mit Zubehoer SM Hip",
+    "description": "Beschaffung eines Geräteträger vom Typ Unimog, mit Mähgeräten für die Straßenmeisterei Hilpoltstein.",
     "cpv": [
      "34100000"
     ],
@@ -257,9 +260,19 @@
     "participationDeadline": null,
     "plannedStart": "2026-12-14+01:00",
     "plannedEnd": "2027-12-17+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

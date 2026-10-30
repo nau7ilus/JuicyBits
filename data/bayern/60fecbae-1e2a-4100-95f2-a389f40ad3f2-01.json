@@ -212,6 +212,8 @@
   "noticeId": "60fecbae-1e2a-4100-95f2-a389f40ad3f2",
   "version": "01",
   "title": null,
+  "description": null,
+  "procedureType": "open",
   "nuts": [
    "DE131"
   ],
@@ -223,6 +225,7 @@
    {
     "id": "LOT-0000",
     "title": null,
+    "description": null,
     "cpv": [
      "42990000"
     ],
@@ -233,9 +236,28 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 18,
+     "unit": "MONTH"
+    },
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": null,
+      "weight": 65
+     },
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": 35
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

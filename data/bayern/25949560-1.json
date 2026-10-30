@@ -1,0 +1,134 @@
+{
+ "id": "25949560-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25949560",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25949560",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25949560-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25949560-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25949560?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung von 191 Notebooks",
+  "buyer": "Landratsamt Aichach-Friedberg",
+  "cpv": [
+   "30213100-6"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-09T08:35:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25949560",
+  "id": "25949560",
+  "date": "2026-10-20T19:01:36Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Aichach-Friedberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landratsamt Aichach-Friedberg"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Aichach-Friedberg",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Aichach-Friedberg"
+   }
+  },
+  "tender": {
+   "title": "Beschaffung von 191 Notebooks",
+   "description": "Beschaffung von 191 Notebooks",
+   "procuringEntity": {
+    "name": "Landratsamt Aichach-Friedberg"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30213100-6"
+     },
+     "deliveryAddress": {
+      "locality": "86551 Aichach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304862",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Beschaffung von 191 Notebooks",
+     "description": "Beschaffung von 191 Notebooks"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25949560",
+  "version": "1",
+  "title": "Beschaffung von 191 Notebooks",
+  "description": "Beschaffung von 191 Notebooks",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "30213100-6"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Beschaffung von 191 Notebooks",
+    "description": "Beschaffung von 191 Notebooks",
+    "cpv": [
+     "30213100-6"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-09T08:35:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

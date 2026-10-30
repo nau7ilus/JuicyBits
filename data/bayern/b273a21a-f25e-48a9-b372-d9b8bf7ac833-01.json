@@ -1,0 +1,242 @@
+{
+ "id": "b273a21a-f25e-48a9-b372-d9b8bf7ac833-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "b273a21a-f25e-48a9-b372-d9b8bf7ac833",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b273a21a-f25e-48a9-b372-d9b8bf7ac833",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:b273a21a-f25e-48a9-b372-d9b8bf7ac833-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:b273a21a-f25e-48a9-b372-d9b8bf7ac833-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b273a21a-f25e-48a9-b372-d9b8bf7ac833?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Aufzugsanlagen",
+  "buyer": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+  "cpv": [
+   "45313100"
+  ],
+  "nuts": [
+   "DE252"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d51d9b65-892c-48e5-8186-e049c5c4176f",
+  "id": "b273a21a-f25e-48a9-b372-d9b8bf7ac833",
+  "date": "2026-10-25T09:20:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09113507199",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schmitt + Sohn Aufzüge GmbH & Co.",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE133408053",
+     "legalName": "Schmitt + Sohn Aufzüge GmbH & Co."
+    },
+    "address": {
+     "streetAddress": "Hadermühle 9-15",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90402",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+   "id": "t:09113507199",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+   },
+   "address": {
+    "streetAddress": "Bohlenplatz 18",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91054",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d51d9b65-892c-48e5-8186-e049c5c4176f",
+   "title": "Aufzugsanlagen",
+   "description": "1 Stück Personen- und Lastenaufzug \nTragkraft 1275 kg \nmaschinenraumlose Ausführung \n5 Haltestellen, kein Durchlader \nHubhöhe 17,40 m",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45313100",
+      "description": "Lift installation work"
+     },
+     "deliveryAddress": {
+      "locality": "Erlangen",
+      "region": "DE252",
+      "postalCode": "91054",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-08-14T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Schmitt + Sohn Aufzüge GmbH & Co.",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Schmitt + Sohn Aufzüge GmbH & Co."
+     },
+     "address": {
+      "streetAddress": "Hadermühle 9-15",
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90402",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Aufzugsanlagen",
+     "description": "1 Stück Personen- und Lastenaufzug \nTragkraft 1275 kg \nmaschinenraumlose Ausführung \n5 Haltestellen, kein Durchlader \nHubhöhe 17,40 m",
+     "contractPeriod": {
+      "startDate": "2026-08-30T00:00:00+02:00",
+      "endDate": "2028-12-22T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Aufzugsanlagen",
+    "status": "active",
+    "date": "2026-08-14T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Schmitt + Sohn Aufzüge GmbH & Co.",
+      "id": "DE133408053",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Schmitt + Sohn Aufzüge GmbH & Co."
+      },
+      "address": {
+       "streetAddress": "Hadermühle 9-15",
+       "locality": "Nürnberg",
+       "region": "DE254",
+       "postalCode": "90402",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Aufzugsanlagen",
+    "status": "active",
+    "value": {
+     "amount": 179230,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-08-13T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "b273a21a-f25e-48a9-b372-d9b8bf7ac833",
+  "version": "01",
+  "title": "Aufzugsanlagen",
+  "description": "1 Stück Personen- und Lastenaufzug \nTragkraft 1275 kg \nmaschinenraumlose Ausführung \n5 Haltestellen, kein Durchlader \nHubhöhe 17,40 m",
+  "procedureType": "open",
+  "nuts": [
+   "DE252"
+  ],
+  "cpv": [
+   "45313100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Aufzugsanlagen",
+    "description": "1 Stück Personen- und Lastenaufzug \nTragkraft 1275 kg \nmaschinenraumlose Ausführung \n5 Haltestellen, kein Durchlader \nHubhöhe 17,40 m",
+    "cpv": [
+     "45313100"
+    ],
+    "nuts": [
+     "DE252"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-08-30+02:00",
+    "plannedEnd": "2028-12-22+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

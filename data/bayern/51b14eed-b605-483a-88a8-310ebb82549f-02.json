@@ -1,0 +1,311 @@
+{
+ "id": "51b14eed-b605-483a-88a8-310ebb82549f-02",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "51b14eed-b605-483a-88a8-310ebb82549f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=51b14eed-b605-483a-88a8-310ebb82549f",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:51b14eed-b605-483a-88a8-310ebb82549f-02.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:51b14eed-b605-483a-88a8-310ebb82549f-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/51b14eed-b605-483a-88a8-310ebb82549f?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Verwertung / Vermarktung von Eisenschrott",
+  "buyer": "Landkreis Fürstenfeldbruck - Abfallwirtschaftsbetrieb des Landkreises Fürstenfeldbruck -",
+  "cpv": [
+   "90500000"
+  ],
+  "nuts": [
+   "DE21C"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-183cb884-62d3-4034-8011-cee7a59fc156",
+  "id": "51b14eed-b605-483a-88a8-310ebb82549f",
+  "date": "2026-10-18T07:16:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Fürstenfeldbruck - Abfallwirtschaftsbetrieb des Landkreises Fürstenfeldbruck -",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "4708",
+     "legalName": "Landkreis Fürstenfeldbruck - Abfallwirtschaftsbetrieb des Landkreises Fürstenfeldbruck -"
+    },
+    "address": {
+     "streetAddress": "Münchner Str. 33",
+     "locality": "Fürstenfeldbruck",
+     "region": "DE21C",
+     "postalCode": "82256",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern -",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "ddf3ab22-8f44-495d-8105-076b0b8337aa",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern -"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ALFA Recycling München GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE187693497",
+     "legalName": "ALFA Recycling München GmbH & Co. KG"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE21H",
+     "postalCode": "81245",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Fürstenfeldbruck - Abfallwirtschaftsbetrieb des Landkreises Fürstenfeldbruck -",
+   "id": "4708",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Fürstenfeldbruck - Abfallwirtschaftsbetrieb des Landkreises Fürstenfeldbruck -"
+   },
+   "address": {
+    "streetAddress": "Münchner Str. 33",
+    "locality": "Fürstenfeldbruck",
+    "region": "DE21C",
+    "postalCode": "82256",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "183cb884-62d3-4034-8011-cee7a59fc156",
+   "title": "Verwertung / Vermarktung von Eisenschrott",
+   "description": "Verwertung / Vermarktung von Eisenschrott aus den großen Wertstoffhöfen des Landkreises Fürstenfeldbruck",
+   "procuringEntity": {
+    "name": "Landkreis Fürstenfeldbruck - Abfallwirtschaftsbetrieb des Landkreises Fürstenfeldbruck -",
+    "id": "4708"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "region": "DE21C",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "region": "DE21C",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "ALFA Recycling München GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "ALFA Recycling München GmbH & Co. KG"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE21H",
+      "postalCode": "81245",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1",
+     "description": "Verwertung / Vermarktung von Eisenschrott\naus den großen Wertstoffhöfen der landkreisangehörigen\nStädte / Gemeinden (inkl. Ortsteile) Olching, Gröbenzell,\nPuchheim, Germering, Eichenau, Emmering und Alling"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2",
+     "description": "Verwertung / Vermarktung von Eisenschrott\naus den großen Wertstoffhöfen der landkreisangehörigen\nStädte / Gemeinden (inkl. Ortsteile) Althegnenberg,\nEgenhofen, Maisach, Mammendorf,\nFürstenfeldbruck, Moorenweis, Jesenwang, Schöngeising,\nGrafrath, Kottgeisering und Türkenfeld sowie Verwertung\nvon Eisenschrott aus der\nBauschuttdeponie Jesenwang"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-29T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-09-29T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-09-28T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-09-28T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "51b14eed-b605-483a-88a8-310ebb82549f",
+  "version": "02",
+  "title": "Verwertung / Vermarktung von Eisenschrott",
+  "description": "Verwertung / Vermarktung von Eisenschrott aus den großen Wertstoffhöfen des Landkreises Fürstenfeldbruck",
+  "procedureType": "open",
+  "nuts": [
+   "DE21C"
+  ],
+  "cpv": [
+   "90500000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1",
+    "description": "Verwertung / Vermarktung von Eisenschrott\naus den großen Wertstoffhöfen der landkreisangehörigen\nStädte / Gemeinden (inkl. Ortsteile) Olching, Gröbenzell,\nPuchheim, Germering, Eichenau, Emmering und Alling",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE21C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2",
+    "description": "Verwertung / Vermarktung von Eisenschrott\naus den großen Wertstoffhöfen der landkreisangehörigen\nStädte / Gemeinden (inkl. Ortsteile) Althegnenberg,\nEgenhofen, Maisach, Mammendorf,\nFürstenfeldbruck, Moorenweis, Jesenwang, Schöngeising,\nGrafrath, Kottgeisering und Türkenfeld sowie Verwertung\nvon Eisenschrott aus der\nBauschuttdeponie Jesenwang",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE21C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

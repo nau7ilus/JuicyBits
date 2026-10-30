@@ -1,0 +1,236 @@
+{
+ "id": "60596084-79f9-4fb1-b7f9-86849d58caea-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "60596084-79f9-4fb1-b7f9-86849d58caea",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=60596084-79f9-4fb1-b7f9-86849d58caea",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:60596084-79f9-4fb1-b7f9-86849d58caea-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:60596084-79f9-4fb1-b7f9-86849d58caea-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/60596084-79f9-4fb1-b7f9-86849d58caea?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "F&E in der Studie  - Additiv gefertigte Hochtemperatur-Komponenten für Nachbrennersysteme in Turbojettriebwerken",
+  "buyer": "Universität der Bundeswehr München",
+  "cpv": [
+   "73000000"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7ee805ab-3fed-415d-9642-bb1548235a4a",
+  "id": "60596084-79f9-4fb1-b7f9-86849d58caea",
+  "date": "2026-10-27T03:12:15Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Universität der Bundeswehr München",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "1",
+     "legalName": "Universität der Bundeswehr München"
+    },
+    "address": {
+     "streetAddress": "Werner-Heisenberg-Weg 39",
+     "locality": "Neubiberg",
+     "region": "DE21H",
+     "postalCode": "85579",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt - Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "1",
+     "legalName": "Bundeskartellamt - Vergabekammer des Bundes"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ING3D GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE316922457",
+     "legalName": "ING3D GmbH"
+    },
+    "address": {
+     "streetAddress": "Schwabacher Straße 512",
+     "locality": "Fürth",
+     "region": "DE253",
+     "postalCode": "90763",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Universität der Bundeswehr München",
+   "id": "1",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Universität der Bundeswehr München"
+   },
+   "address": {
+    "streetAddress": "Werner-Heisenberg-Weg 39",
+    "locality": "Neubiberg",
+    "region": "DE21H",
+    "postalCode": "85579",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7ee805ab-3fed-415d-9642-bb1548235a4a",
+   "title": "F&E in der Studie  - Additiv gefertigte Hochtemperatur-Komponenten für Nachbrennersysteme in Turbojettriebwerken",
+   "description": "Forschungs- und Entwicklungsleistung \"Additiv gefertigte Hochtemperatur-Komponenten für Nachbrennersysteme in Turbojettriebwerken\"",
+   "procuringEntity": {
+    "name": "Universität der Bundeswehr München",
+    "id": "1"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "73000000",
+      "description": "Research and development services and related consultancy services"
+     },
+     "deliveryAddress": {
+      "locality": "Neubiberg",
+      "region": "DE21H",
+      "postalCode": "85579",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "The contract can be provided only by a particular economic operator because of an absence of competition for technical reasons",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "ING3D GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "ING3D GmbH"
+     },
+     "address": {
+      "streetAddress": "Schwabacher Straße 512",
+      "locality": "Fürth",
+      "region": "DE253",
+      "postalCode": "90763",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "F&E in der Studie  - Additiv gefertigte Hochtemperatur-Komponenten für Nachbrennersysteme in Turbojettriebwerken",
+     "description": "1",
+     "contractPeriod": {
+      "startDate": "2026-10-08T00:00:00+02:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-08T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-07T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "60596084-79f9-4fb1-b7f9-86849d58caea",
+  "version": "01",
+  "title": "F&E in der Studie  - Additiv gefertigte Hochtemperatur-Komponenten für Nachbrennersysteme in Turbojettriebwerken",
+  "description": "Forschungs- und Entwicklungsleistung \"Additiv gefertigte Hochtemperatur-Komponenten für Nachbrennersysteme in Turbojettriebwerken\"",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "73000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "F&E in der Studie  - Additiv gefertigte Hochtemperatur-Komponenten für Nachbrennersysteme in Turbojettriebwerken",
+    "description": "1",
+    "cpv": [
+     "73000000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-08+02:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Nur der Preis ist relevant.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

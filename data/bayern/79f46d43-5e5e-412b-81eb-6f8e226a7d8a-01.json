@@ -1,0 +1,165 @@
+{
+ "id": "79f46d43-5e5e-412b-81eb-6f8e226a7d8a-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "79f46d43-5e5e-412b-81eb-6f8e226a7d8a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=79f46d43-5e5e-412b-81eb-6f8e226a7d8a",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:79f46d43-5e5e-412b-81eb-6f8e226a7d8a-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:79f46d43-5e5e-412b-81eb-6f8e226a7d8a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/79f46d43-5e5e-412b-81eb-6f8e226a7d8a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "planning"
+  ],
+  "noticeType": "PriorInformationNotice",
+  "title": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe ",
+  "buyer": "FE.EI - Beschaffung Infrastruktur",
+  "cpv": [
+   "71521000"
+  ],
+  "nuts": [
+   "DE300",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-79f46d43-5e5e-412b-81eb-6f8e226a7d8a",
+  "id": "79f46d43-5e5e-412b-81eb-6f8e226a7d8a",
+  "date": "2026-10-25T13:10:05Z",
+  "tag": [
+   "planning"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "FE.EI - Beschaffung Infrastruktur",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "b92451b1-681a-4594-8a2c-13489ba3b2af",
+     "legalName": "FE.EI - Beschaffung Infrastruktur"
+    },
+    "address": {
+     "streetAddress": "Caroline-Michaelis-Straße 5-11",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10115",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "FE.EI - Beschaffung Infrastruktur",
+   "id": "b92451b1-681a-4594-8a2c-13489ba3b2af",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "FE.EI - Beschaffung Infrastruktur"
+   },
+   "address": {
+    "streetAddress": "Caroline-Michaelis-Straße 5-11",
+    "locality": "Berlin",
+    "region": "DE300",
+    "postalCode": "10115",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "title": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe ",
+   "description": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe von Bauüberwachungsleistungen von 2027 bis 2029",
+   "procuringEntity": {
+    "name": "FE.EI - Beschaffung Infrastruktur",
+    "id": "b92451b1-681a-4594-8a2c-13489ba3b2af"
+   },
+   "items": [
+    {
+     "id": "PAR-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81829",
+      "countryName": "DEU"
+     },
+     "relatedLot": "PAR-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "PAR-0001",
+     "title": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe ",
+     "description": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe von Bauüberwachungsleistungen von 2027 bis 2029"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "PriorInformationNotice",
+  "noticeSubType": "5",
+  "noticeId": "79f46d43-5e5e-412b-81eb-6f8e226a7d8a",
+  "version": "01",
+  "title": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe",
+  "description": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe von Bauüberwachungsleistungen von 2027 bis 2029",
+  "procedureType": null,
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71521000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "PAR-0001",
+    "title": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe",
+    "description": "Online-Marktinformation: Korridorsanierung KS 5510 München-Rosenheim Etappe 1, Schwerpunkt: Vergabe von Bauüberwachungsleistungen von 2027 bis 2029",
+    "cpv": [
+     "71521000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

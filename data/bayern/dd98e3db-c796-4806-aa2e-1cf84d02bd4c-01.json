@@ -1,0 +1,244 @@
+{
+ "id": "dd98e3db-c796-4806-aa2e-1cf84d02bd4c-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "dd98e3db-c796-4806-aa2e-1cf84d02bd4c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=dd98e3db-c796-4806-aa2e-1cf84d02bd4c",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:dd98e3db-c796-4806-aa2e-1cf84d02bd4c-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:dd98e3db-c796-4806-aa2e-1cf84d02bd4c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/dd98e3db-c796-4806-aa2e-1cf84d02bd4c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung",
+  "buyer": "Gemeinde Halblech",
+  "cpv": [
+   "71200000",
+   "71300000"
+  ],
+  "nuts": [
+   "DE27B"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-76f3df13-8a5a-42b0-af3c-73b7f7a57618",
+  "id": "dd98e3db-c796-4806-aa2e-1cf84d02bd4c",
+  "date": "2026-10-23T02:12:37Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ZV KD Oberland Zentrale Beschaffungsstelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:080414417700",
+     "legalName": "ZV KD Oberland Zentrale Beschaffungsstelle"
+    },
+    "address": {
+     "streetAddress": "Prof.-Max-Lange-Platz 9",
+     "locality": "Bad Tölz",
+     "region": "DE216",
+     "postalCode": "83646",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Gemeinde Halblech",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:08368912220",
+     "legalName": "Gemeinde Halblech"
+    },
+    "address": {
+     "streetAddress": "Dorfstraße 18",
+     "locality": "Halblech",
+     "region": "DE27B",
+     "postalCode": "87642",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Halblech",
+   "id": "t:08368912220",
+   "identifier": {
+    "id": "ORG-0042",
+    "legalName": "Gemeinde Halblech"
+   },
+   "address": {
+    "streetAddress": "Dorfstraße 18",
+    "locality": "Halblech",
+    "region": "DE27B",
+    "postalCode": "87642",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "76f3df13-8a5a-42b0-af3c-73b7f7a57618",
+   "title": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung",
+   "description": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung für die Sanierung der Kläranlage in Halblech im laufenden Betrieb.",
+   "procuringEntity": {
+    "name": "Gemeinde Halblech",
+    "id": "t:08368912220"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71300000",
+       "description": "Engineering services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Halblech",
+      "region": "DE27B",
+      "postalCode": "87642",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/300858",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung",
+     "description": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung für die Sanierung der Kläranlage in Halblech im laufenden Betrieb.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "dd98e3db-c796-4806-aa2e-1cf84d02bd4c",
+  "version": "01",
+  "title": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung",
+  "description": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung für die Sanierung der Kläranlage in Halblech im laufenden Betrieb.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE27B"
+  ],
+  "cpv": [
+   "71200000",
+   "71300000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung",
+    "description": "Ingenieurplanungsleistungen nach Paragraph 41 HOAI inklusive Technischer Ausrüstung nach Paragraph 53 HOAI und Tragwerksplanung nach Paragraph 49 HOAI für die Leistungsphasen 1 - 9 in stufenweiser Beauftragung für die Sanierung der Kläranlage in Halblech im laufenden Betrieb.",
+    "cpv": [
+     "71200000",
+     "71300000"
+    ],
+    "nuts": [
+     "DE27B"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-10-22T08:00:00+02:00",
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung über eine bestehende Berufs- oder Betriebshaftpflichtversicherung oder Zusicherung des Versicherungsunternehmens, dass im Auftragsfall die Versicherungssummen auf die geforderte Höhe angepasst werden.\n\t\t\nFür die Objektplanungsleistungen + Technische Anlagen: \n\t\tPersonenschäden: 5.000.000,00 EUR\n\t\tSach- und Vermögensschäden: 3.000.000,00 EUR\n\nFür die Tragwerksplanung: \n\t\tPersonenschäden: 3.000.000,00 EUR\n\t\tSach- und Vermögensschäden: 1.500.000,00 EUR\n\t\t\nHinweis: Die Ersatzleistung der Versicherung muss mindestens das Zweifache der o. g. Deckungssummen pro Jahr betragen. Die Deckung muss über die gesamte Vertragslaufzeit uneingeschränkt erhalten bleiben.\n\t\t\nBitte nehmen Sie hierfür die notwendigen Eintragungen im Dokument \"Leitfaden\" vor.\n\t\t\nHinweis: Jedes Mitglied der Bietergemeinschaft hat den Nachweis einer Berufshaftpflichtversicherung mit der geforderten Mindestdeckungssumme vorzulegen. Soweit diese noch nicht besteht, ist eine Bestätigung des Versicherers über die Erhöhung der Deckungssumme im Zuschlagsfall vorzulegen.\n\t\t\nVorlage nach Anforderung der Vergabestelle im laufenden Verfahren \nEin entsprechender Nachweis ist von den Bietern des engeren Bieterkreises auf Anforderung der Vergabestelle innerhalb der gesetzten Frist über die Vergabeplattform vorzulegen"
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Mindestanforderung:\n\nFür die Objektplanungsleistungen und Tragwerksplanungsleistungen: \t\nNachweis zur Führung der Berufsbezeichnung „Ingenieur/in inkl. Bauvorlageberechtigung“ ; Eintragung in einem Berufs- oder Handelsregister sowie Bescheinigungen über die Erlaubnis zur Berufsausübung. \n\nFür die Technischen Anlagen:\nNachweis zur Führung der Berufsbezeichnung „Ingenieur/in“ ; Eintragung in einem Berufs- oder Handelsregister sowie Bescheinigungen über die Erlaubnis zur Berufsausübung. \n\t\t\nDer verantwortliche Leistungserbringer muss über folgende Qualifikation verfügen: Natürliche Personen, die gemäß den Rechtsvorschriften ihres Heimatlandes am Tag der Bekanntmachung zur Führung der Berufsbezeichnung \"Architekt\" berechtigt sind. Ist im jeweiligen Heimatland die Berufsbezeichnung grundsätzlich nicht geregelt, so sind die fachlichen Voraussetzungen erfüllt, wenn die Berechtigung zur Führung der o. g. Berufsbezeichnung nach der Richtlinie 2005/36/EG /2013/55/EU des Europäischen Parlaments und des Rates gewährleistet ist. Die bei einer juristischen Person für die Ausführung der betreffenden Dienstleistungen verantwortlichen Personen müssen, die an natürliche Personen gestellten Anforderungen erfüllen. Bei Bewerbergemeinschaften muss jedes Mitglied benannt und teilnahmeberechtigt \nsein\n\t\t\nBitte nehmen Sie hierfür die notwendigen Eintragungen im Dokument \"Leitfaden\" vor.\n\t\t\nHinweis: Jedes Mitglied der Bietergemeinschaft hat die für die Ausführung der von ihm übernommenen Leistungen erforderliche Berufsqualifikation bzw. Berufsberechtigung nachzuweisen.\n\t\t\nVorlage nach Anforderung der Vergabestelle im laufenden Verfahren \nEin entsprechender Nachweis ist von den Bietern des engeren Bieterkreises auf Anforderung der Vergabestelle innerhalb der gesetzten Frist über die Vergabeplattform vorzulegen"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Beschreibung \nVorlage von 3 geeignete Referenzen über früher ausgeführte Dienstleistungsaufträge in Form einer Liste der in den letzten acht Jahren (30.09.2018 bis Submissionstermin dieses Teilnahmewettbewerbes abgeschlossen sein) erbrachten wesentlichen Dienstleistungen mit Angabe des Werts, des Erbringungszeitraums sowie des öffentlichen oder privaten Empfängers.\n\t\nFolgende Punkte werden für jede Referenz einzeln vergeben. Die Punkte für alle Referenzen werden summiert und durch die Anzahl der Referenzen geteilt. Es müssen alle einzelnen Aspekte bei jeder Referenz ersichtlich sein, ansonsten wird die jeweilige Position mit 0 Punkten bewertet. Somit liegt die Gesamtmögliche Punktzahl bei 10 Punkten.\n\t\nFolgende Bewertungsschlüssel kommen zur Anwendungen:\n\t\nBewertungsschlüssel Referenz 1:\n \t\t\t\t\t\t\t\n1 Punkt: \tHonorarzone III oder höher\n1 Punkt:\tLeistungsphase 2 – 8 \n2 Punkte:  \tanrechenbare Kosten (Ingenieurplanungsleistung § 42 alle Abs. HOAI) in der Größenordnung des Auftrages (ab 2.000.000,- EUR netto)\n1 Punkt: \tNeubau/Erweiterungs-, Umbau bzw. Sanierung\n1 Punkt: \tUmbau im laufenden Betrieb\n4 Punkte: \tArt der Referenz entspricht dem Auftragsgegenstand \n- max. 4 Punkte für Anlagen der Abwasserversorgung\n- 3 Punkte für Anlagen der Wasserversorgung\n- 2 Punkte für Anlagen der Abfallversorgung \n- 1 Punkt für weitere komplexe Anlagen \n\nBewertungsschlüssel Referenz 2:\n \t\t\t\t\t\t\t\n1 Punkt: \tHonorarzone III oder höher\n1 Punkt:\t        Leistungsphase 1 – 6 \n1 Punkt:          Leistungsphase 8 als besondere Leistung beauftragt \n1 Punkte:  \tanrechenbare Kosten (Tragwerksplanung § 50 Abs. 3 HOAI) in der Größenordnung des Auftrages (ab 600.000,- EUR netto)\n1 Punkt: \tNeubau/Erweiterungs-, Umbau bzw. Sanierung\n1 Punkt: \tUmbau im laufenden Betrieb\n4 Punkte: \tArt der Referenz entspricht dem Auftragsgegenstand \n- max. 4 Punkte für Beckenbauwerke \n- 3 Punkte für Faulbehälter und Schlammbehandlungsanlagen\n- 2 Punkte für Betriebs- und Maschinengebäude \n- 1 Punkt für Pumpwerke und Schächte \n\nBewertungsschlüssel Referenz 3:\n \t\t\t\t\t\t\t\n1 Punkt: \tHonorarzone II oder höher\n1 Punkt:\tLeistungsphase 2 – 8 \n2 Punkte:  \tanrechenbare Kosten (Technische Anlagen § 54 Abs. 1 HOAI) in der Größenordnung des Auftrages (ab 300.000,- EUR netto)\n1 Punkt: \tNeubau/Erweiterungs-, Umbau bzw. Sanierung\n1 Punkt: \tUmbau im laufenden Betrieb\n4 Punkte: \tArt der Referenz entspricht dem Auftragsgegenstand \n- max. 4 Punkte für Anlagen der Abwasserversorgung\n- 3 Punkte für Anlagen der Wasserversorgung\n- 2 Punkte für Anlagen der Abfallversorgung \n- 1 Punkt für weitere komplexe Anlagen  \n\n\n\t\nGewichtung: 70 %\n\t\n******************************************\nDie vergleichbaren Referenzen müssen den sicheren Rückschluss zulassen, dass die für eine ordnungsgemäße Auftragsdurchführung erforderliche Fachkunde und Leistungsfähigkeit des Bewerbers vorhanden ist. Es können innerhalb einer Referenz mehrere oder alle genannten Mindestanforderungen erfüllt werden. Eine laufende Referenz, bei der die geforderten Leistungsphasen noch nicht abschließend erbracht wurden, kann nicht zur Erfüllung der Mindestanforderungen herangezogen werden. \n******************************************\nEs werden nur die vom Bewerber im vorgesehenen \"Referenzblatt\" jeweils genannten Referenzprojekte berücksichtigt. Angaben zu Referenzen in bewerbereigenen Dokumenten werden nicht gewertet. Bitte nehmen Sie hierfür die notwendigen Eintragungen im Dokument \"Leitfaden\" vor\n******************************************\nEs werden ausschließlich die in diesen Unterlagen gemachten Angaben gewertet. Eine Nachforderung materiell/inhaltlich falsch eingereichter Referenzprojekte ist nicht möglich! Grund: Die Nachforderungsmöglichkeiten des §56 Abs.2 Alt.1 VgV darf nicht dazu führen, dass sich einzelne Unternehmen im Nachhinein, nach Ablauf der Abgabefrist, gegenüber ihren Konkurrenten einen Wettbewerbsvorteil verschaffen können. ***"
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Gemittelter Umsatz für entsprechende Dienstleistungen im Tätigkeitsbereich des Auftrags (Objektplanungsleistungen + Technische Anlagen + Tragwerksplanung) in den letzten drei Jahren  (2025-2023).\n\t\n\tFolgende Punkte werden vergeben für:\n\t\n\t2 Punkte:\tab 400.000,00 € bis 800.000,00 € \n\t\n\t6 Punkte:\tab 800.000,01 € bis 1.200.000,00 €\n\t\n\t10 Punkte: \tab 1.200.000,01 Euro\n\t\n\tGewichtung: 30 %\n\t\nBitte nehmen Sie hierfür die notwendigen Eintragungen im Dokument \"26-035_A_Teilnahmeantrag_Leitfaden_1und2Stufe.docx\" vor"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Honorarangebot",
+      "description": "Honorarangebot - \"Wertungssumme\"\nAngebot mit niedrigster Wertungssumme bekommt 5 Punkte. \nAngebot mit dem 2-fachen der niedrigsten Wertungssumme bekommt 0 Punkte\nDie Punktermittlung für die dazwischen liegenden Preise erfolgt über eine lineare Interpolation mit bis zu drei Stellen nach dem Komma.\nGewichtung 30 %",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Ausführungskonzept",
+      "description": "Ausführungskonzept - Projekteinschätzung\n\t\nErkennen der Aufgabenstellung und der Projektanforderungen: Analyse der Projektaufgabe mit Darstellung der zu erwartenden Herausforderungen und ggf. Schwierigkeiten sowie die Herangehensweise zu folgenden Punkten:\n\n-\tKonzeption und Umgang mit dem laufenden Betrieb der Kläranlage während der Bauphase \n-\tDarstellung zu den baulichen Möglichkeiten ergänzend zur bestehenden Anlage (unter Einhaltung der Mindestanforderungen an die sanierte Anlage)\n-\tBewertung und Auswertung der Bestandsdaten\n-\tKonzeption Koordination der Inbetriebnahme und des Bauablaufes \n-\tDarstellung der zentralen technischen Schnittstellen zwischen Objektplanung, Technische Ausrüstung und Tragwerksplanung und wie der Informationsfluss hierzu gesteuert wird (Informationsfluss, Kommunikationswege; Besprechungsroutinen etc.)\n\t\n\t\nGewichtung 30 %\n\t\nDie geforderten Angaben sind in Form eines Konzeptes darzustellen. Bitte beachten Sie hierzu auch die Anforderungen an das Konzept (siehe Dokument \"Leitfaden\").\n\t\n\t**************\nAnforderungen an das Konzept:\n\nWir empfehlen die Einreichung in Querformat, in Hinblick auf einen möglichen Verhandlungstermin mit Präsentation, da die abgegebenen Unterlagen für diesen Termin zu verwenden sind.\n\nZu den einschlägigen Zuschlagskriterien sind die geforderten Angaben in Form eines Konzeptes darzustellen. Bitte beachten Sie, dass das geforderte Konzept mit Ablauf der Angebotsfrist vorliegen muss. Das Dokument darf die maximale Seitenanzahl von 10 nicht überschreiten (DIN A4,  andere Formate werden nicht akzeptiert Schriftgröße: 10, Schriftart: Arial oder vergleichbar – ohne Deckblatt und Inhaltsverzeichnis). \nBitte beachten Sie, dass auch bei in PDF-umgewandelte Präsentationsunterlagen nur die angegebene maximale Seitenanzahl gewertet wird.\nAnlagen zum Konzept bzw. zum Angebot werden nicht bewertet. Das abgegebene Konzept wird nach der Erteilung des Zuschlages Vertragsinhalt.\n\t****************\nBitte beachten Sie, dass Angaben zu den Zuschlagskriterien nicht nachgefordert werden (§ 56 Absatz 3 VGV). Somit wird bei Nichteinreichung das jeweilige Kriterium dieses mit 0 bewertet.",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Ausführungskonzept",
+      "description": "Projektteam\n\t\nVorstellung des/der Gesamtprojektleiter/in sowie des/der stellvertretenden Projektleiter/in mit Darlegung des persönlichen Erfahrungshintergrundes (u.a. Lebenslauf, Qualifikationen) bzw. der persönlichen Kenntnisse sowie anhand mindestens einer mit der konkreten Auftragsdurchführung vergleichbaren Referenz mit Erläuterung der Funktion und wesentlichen Aufgaben im Referenzprojekt, die für die ausgeschriebene Leistung relevant sein werden.\n\t\n\tVorgesehene/r Gesamtprojektleiter - Gewichtung 20 %\n\tVorgesehene/r stellvertretende/r Projektleiter/in  - Gewichtung 10 %\n\tKapazitätsplanung für das konkrete Projekt (Personal sowie Einbindung und zeitliche Verfügbarkeit) 10 %\n\n\tGewichtung 40 %\n\t\nDie geforderten Angaben sind in Form eines Konzeptes darzustellen. Bitte beachten Sie hierzu auch die Anforderungen an das Konzept (siehe Dokument \"Leitfaden\").\n\t\n**************\nZu den einschlägigen Zuschlagskriterien sind die geforderten Angaben in Form eines Konzeptes darzustellen. Bitte beachten Sie, dass das geforderte Konzept mit Ablauf der Angebotsfrist vorliegen muss. Das Dokument darf die maximale Seitenanzahl von 15 nicht überschreiten (DIN A4, Schriftgröße: 10, Schriftart: Arial oder vergleichbar – ohne Deckblatt und Inhaltsverzeichnis). Anlagen zum Konzept bzw. zum Angebot werden nicht bewertet. Das abgegebene Konzept wird nach der Erteilung des Zuschlages Vertragsinhalt.\n****************\nBitte beachten Sie, dass Angaben zu den Zuschlagskriterien nicht nachgefordert werden (§ 56 Absatz 3 VGV). Somit wird bei Nichteinreichung das jeweilige Kriterium dieses mit 0 bewertet.",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

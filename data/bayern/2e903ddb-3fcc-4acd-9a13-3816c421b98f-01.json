@@ -1,0 +1,216 @@
+{
+ "id": "2e903ddb-3fcc-4acd-9a13-3816c421b98f-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "2e903ddb-3fcc-4acd-9a13-3816c421b98f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2e903ddb-3fcc-4acd-9a13-3816c421b98f",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:2e903ddb-3fcc-4acd-9a13-3816c421b98f-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:2e903ddb-3fcc-4acd-9a13-3816c421b98f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2e903ddb-3fcc-4acd-9a13-3816c421b98f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Augenklinikinformationssystem",
+  "buyer": "TUM Klinikum",
+  "cpv": [
+   "48814000",
+   "48180000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-04T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8584e7c9-2a7c-49b1-b546-c7af6546f987",
+  "id": "2e903ddb-3fcc-4acd-9a13-3816c421b98f",
+  "date": "2026-10-22T02:08:55Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "TUM Klinikum",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2d99a6e2-5ad8-42ea-8466-5f7a5c5cfc6b",
+     "legalName": "TUM Klinikum"
+    },
+    "address": {
+     "streetAddress": "Ismaninger Str. 22",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81675",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "TUM Klinikum",
+   "id": "2d99a6e2-5ad8-42ea-8466-5f7a5c5cfc6b",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "TUM Klinikum"
+   },
+   "address": {
+    "streetAddress": "Ismaninger Str. 22",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81675",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8584e7c9-2a7c-49b1-b546-c7af6546f987",
+   "title": "Augenklinikinformationssystem",
+   "description": "Gegenstand des Verfahrens sind \n-\tEin Augenklinikinformationssystem inkl. Integrationsleistungen, Schulungen, Wartungs- & Servicemaßnahmen\n\nDas Augenklinikinformationssystem (AKIS) wird verwendet, um Patienten-, Untersuchungs- und Behandlungsdaten zentral und strukturiert digital zu verwalten. Es unterstützt die speziellen Anforderungen der Augenheilkunde, insbesondere die Dokumentation von Befunden, Bilddaten und operativen Eingriffen. Durch die Integration diagnostischer Geräte und standardisierte Prozesse werden Effizienz und Behandlungsqualität verbessert. Zudem unterstützt das AKIS eine sichere Dokumentation, Abrechnung und die Einhaltung gesetzlicher Vorgaben\n",
+   "procuringEntity": {
+    "name": "TUM Klinikum",
+    "id": "2d99a6e2-5ad8-42ea-8466-5f7a5c5cfc6b"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48814000",
+      "description": "Medical information systems"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "48180000",
+       "description": "Medical software package"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81657",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/e2daef96-d595-4c52-930a-fa1f46644e18",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Augenklinikinformationssystem",
+     "description": "Gegenstand des Verfahrens sind \n-\tEin Augenklinikinformationssystem inkl. Integrationsleistungen, Schulungen, Wartungs- & Servicemaßnahmen\n\nDas Augenklinikinformationssystem (AKIS) wird verwendet, um Patienten-, Untersuchungs- und Behandlungsdaten zentral und strukturiert digital zu verwalten. Es unterstützt die speziellen Anforderungen der Augenheilkunde, insbesondere die Dokumentation von Befunden, Bilddaten und operativen Eingriffen. Durch die Integration diagnostischer Geräte und standardisierte Prozesse werden Effizienz und Behandlungsqualität verbessert. Zudem unterstützt das AKIS eine sichere Dokumentation, Abrechnung und die Einhaltung gesetzlicher Vorgaben\n",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "2e903ddb-3fcc-4acd-9a13-3816c421b98f",
+  "version": "01",
+  "title": "Augenklinikinformationssystem",
+  "description": "Gegenstand des Verfahrens sind \n-\tEin Augenklinikinformationssystem inkl. Integrationsleistungen, Schulungen, Wartungs- & Servicemaßnahmen\n\nDas Augenklinikinformationssystem (AKIS) wird verwendet, um Patienten-, Untersuchungs- und Behandlungsdaten zentral und strukturiert digital zu verwalten. Es unterstützt die speziellen Anforderungen der Augenheilkunde, insbesondere die Dokumentation von Befunden, Bilddaten und operativen Eingriffen. Durch die Integration diagnostischer Geräte und standardisierte Prozesse werden Effizienz und Behandlungsqualität verbessert. Zudem unterstützt das AKIS eine sichere Dokumentation, Abrechnung und die Einhaltung gesetzlicher Vorgaben",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48814000",
+   "48180000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Augenklinikinformationssystem",
+    "description": "Gegenstand des Verfahrens sind \n-\tEin Augenklinikinformationssystem inkl. Integrationsleistungen, Schulungen, Wartungs- & Servicemaßnahmen\n\nDas Augenklinikinformationssystem (AKIS) wird verwendet, um Patienten-, Untersuchungs- und Behandlungsdaten zentral und strukturiert digital zu verwalten. Es unterstützt die speziellen Anforderungen der Augenheilkunde, insbesondere die Dokumentation von Befunden, Bilddaten und operativen Eingriffen. Durch die Integration diagnostischer Geräte und standardisierte Prozesse werden Effizienz und Behandlungsqualität verbessert. Zudem unterstützt das AKIS eine sichere Dokumentation, Abrechnung und die Einhaltung gesetzlicher Vorgaben",
+    "cpv": [
+     "48814000",
+     "48180000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-04T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Es wird für den Auftragsfall der Nachweis für folgende Berufs- oder Betriebshaftpflichtversicherung gefordert:\n\n-\tfür Personenschäden in Höhe von mindestens 3 Mio. € je Schadensfall\nfür die gesamte Vertragslaufzeit"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Es muss ein Nachweis über mindestens drei (3) erfolgreich durchgeführte Projekte im aktuellen Routinebetrieb erbracht werden, die von deutschsprachigen Universitätsklinika in vergleichbarer Größe (> 1000 Betten) stammen, in denen SAP ish/ish.med eingesetzt wird.\n\nDie geforderten Referenzprojekte müssen jeweils aus den letzten höchstens fünf Jahren vor dem Zeitpunkt der Auftragsbekanntmachung stammen. Der Auftraggeber behält sich die Prüfung der erfolgreichen Umsetzung durch Kontrollanrufe vor. Hierfür sind zwingend die dafür benötigten Kontaktdaten im entsprechenden Formblatt anzugeben. Es können auch mehr als drei Referenzen eingereicht werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/abfffd26-577c-4eba-bc62-71a75ea16f12/awardcriteria",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

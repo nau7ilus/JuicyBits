@@ -5,18 +5,19 @@
   "noticeId": "d46dba62-4dad-4778-b0ad-a12c43fca847",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d46dba62-4dad-4778-b0ad-a12c43fca847",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:d46dba62-4dad-4778-b0ad-a12c43fca847-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:d46dba62-4dad-4778-b0ad-a12c43fca847-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/d46dba62-4dad-4778-b0ad-a12c43fca847?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Neubau einer Fahrzeughalle und einer Geräte- und Lagerhalle",
   "buyer": "Landkreis Bamberg",
   "cpv": [
-   "71221000"
+   "71221000",
+   "71240000"
   ],
   "nuts": [
    "DE241",
@@ -117,5 +118,63 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "d46dba62-4dad-4778-b0ad-a12c43fca847",
+  "version": "01",
+  "title": "Neubau einer Fahrzeughalle und einer Geräte- und Lagerhalle",
+  "description": "Bei dem Kreisbauhof des Landkreises Bamberg soll eine alte Fahrzeughalle zurückgebaut und an gleicher Stelle neu errichtet werden.\nNach dieser Maßnahme soll zusätzlich auf dem Areal ein Neubau (Geräte- und Lagerhalle) für die Abteilung Gärtner errichtet werden.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "71240000",
+   "71221000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Architektenleistungen ab LP 3-LP 9",
+    "description": "Planung und Bauleitung für:\n- Abbruch und Neubau einer Fahrzeughalle\n- Neubau der Geräte- und Lagerhalle der Gärtner\n \nKostengruppen: - 200\n                          - 300  \n                          - 500\n                          - 600",
+    "cpv": [
+     "71221000"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": null,
+      "name": "Wirtschaftliche und finanzielle Leistungsfähigkeit",
+      "description": "Wirtschaftliche und finanzielle Leistungsfähigkeit",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Personelle Kapazitäten / Berufserfahrung / Qualiﬁkation",
+      "description": "Personelle Kapazitäten / Berufserfahrung / Qualiﬁkation",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Fachkunde/Erfahrungen bei vergleichbaren Leistungen",
+      "description": "Fachkunde/Erfahrungen bei vergleichbaren Leistungen",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

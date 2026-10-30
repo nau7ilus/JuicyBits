@@ -1,0 +1,200 @@
+{
+ "id": "26415e51-2bb6-43b2-bb6c-c36f3533a704-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "26415e51-2bb6-43b2-bb6c-c36f3533a704",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=26415e51-2bb6-43b2-bb6c-c36f3533a704",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:26415e51-2bb6-43b2-bb6c-c36f3533a704-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:26415e51-2bb6-43b2-bb6c-c36f3533a704-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/26415e51-2bb6-43b2-bb6c-c36f3533a704?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Kabeltiefbau bei Au-Morellstraße südlich des Augsburger Hbf (Projekt Regio-Schienen-Takt)",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45314300"
+  ],
+  "nuts": [
+   "DE712",
+   "DE271"
+  ],
+  "deadline": "2026-11-26T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4fcfa643-1fda-4ae7-aceb-f724edac1f61",
+  "id": "26415e51-2bb6-43b2-bb6c-c36f3533a704",
+  "date": "2026-10-23T02:08:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4fcfa643-1fda-4ae7-aceb-f724edac1f61",
+   "title": "Kabeltiefbau bei Au-Morellstraße südlich des Augsburger Hbf (Projekt Regio-Schienen-Takt)",
+   "description": "Die geplanten Kabeltiefbauarbeiten befindet sich südwestlich des Bf Augsburg Hbf zwischen den Ortsteilen Au-Morellstraße und Au-Messe im Bereich km ca. 0,85 bis km 2,5, der zweigleisigen Strecke 5304 von Augsburg Hbf nach Buchloe.\nFolgende Leistungen sind Bestandteile dieser Ausschreibung: Rückbau Signalfundamente, Schienenfußkabel; Herstellung Gleisquerungen, Herstellung Signaleinfassungen; Verlegen von Kabeln, Kabeltrögen, Leerrohren und Kabelschächten mit Anschluss an Bestandsschächte; Gleisstopfarbeiten im Bereich der Gleisquerung",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45314300",
+      "description": "Installation of cable infrastructure"
+     },
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86159",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/98b3df88-3662-48b0-80f0-67eee4b1361f",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Kabeltiefbau bei Au-Morellstraße südlich des Augsburger Hbf (Projekt Regio-Schienen-Takt)",
+     "description": "Die geplanten Kabeltiefbauarbeiten befindet sich südwestlich des Bf Augsburg Hbf zwischen den Ortsteilen Au-Morellstraße und Au-Messe im Bereich km ca. 0,85 bis km 2,5, der zweigleisigen Strecke 5304 von Augsburg Hbf nach Buchloe.\nFolgende Leistungen sind Bestandteile dieser Ausschreibung: Rückbau Signalfundamente, Schienenfußkabel; Herstellung Gleisquerungen, Herstellung Signaleinfassungen; Verlegen von Kabeln, Kabeltrögen, Leerrohren und Kabelschächten mit Anschluss an Bestandsschächte; Gleisstopfarbeiten im Bereich der Gleisquerung",
+     "contractPeriod": {
+      "startDate": "2027-03-22T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "26415e51-2bb6-43b2-bb6c-c36f3533a704",
+  "version": "01",
+  "title": "Kabeltiefbau bei Au-Morellstraße südlich des Augsburger Hbf (Projekt Regio-Schienen-Takt)",
+  "description": "Die geplanten Kabeltiefbauarbeiten befindet sich südwestlich des Bf Augsburg Hbf zwischen den Ortsteilen Au-Morellstraße und Au-Messe im Bereich km ca. 0,85 bis km 2,5, der zweigleisigen Strecke 5304 von Augsburg Hbf nach Buchloe.\nFolgende Leistungen sind Bestandteile dieser Ausschreibung: Rückbau Signalfundamente, Schienenfußkabel; Herstellung Gleisquerungen, Herstellung Signaleinfassungen; Verlegen von Kabeln, Kabeltrögen, Leerrohren und Kabelschächten mit Anschluss an Bestandsschächte; Gleisstopfarbeiten im Bereich der Gleisquerung",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "45314300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Kabeltiefbau bei Au-Morellstraße südlich des Augsburger Hbf (Projekt Regio-Schienen-Takt)",
+    "description": "Die geplanten Kabeltiefbauarbeiten befindet sich südwestlich des Bf Augsburg Hbf zwischen den Ortsteilen Au-Morellstraße und Au-Messe im Bereich km ca. 0,85 bis km 2,5, der zweigleisigen Strecke 5304 von Augsburg Hbf nach Buchloe.\nFolgende Leistungen sind Bestandteile dieser Ausschreibung: Rückbau Signalfundamente, Schienenfußkabel; Herstellung Gleisquerungen, Herstellung Signaleinfassungen; Verlegen von Kabeln, Kabeltrögen, Leerrohren und Kabelschächten mit Anschluss an Bestandsschächte; Gleisstopfarbeiten im Bereich der Gleisquerung",
+    "cpv": [
+     "45314300"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-22+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Bitte beachten Sie dazu die Ziffern 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

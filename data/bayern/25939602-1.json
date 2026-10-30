@@ -1,0 +1,133 @@
+{
+ "id": "25939602-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25939602",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25939602",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25939602-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25939602-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25939602?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Cisco Meraki Lizenzverlängerung",
+  "buyer": "Zweckverband Berufsschule und Bildung in Stadt und Landkreis Hof",
+  "cpv": [
+   "32424000-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-05T10:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25939602",
+  "id": "25939602",
+  "date": "2026-10-16T07:01:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband Berufsschule und Bildung in Stadt und Landkreis Hof",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Zweckverband Berufsschule und Bildung in Stadt und Landkreis Hof"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweckverband Berufsschule und Bildung in Stadt und Landkreis Hof",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zweckverband Berufsschule und Bildung in Stadt und Landkreis Hof"
+   }
+  },
+  "tender": {
+   "title": "Cisco Meraki Lizenzverlängerung",
+   "description": "Cisco Meraki Lizenzverlängerung",
+   "procuringEntity": {
+    "name": "Zweckverband Berufsschule und Bildung in Stadt und Landkreis Hof"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32424000-1"
+     },
+     "deliveryAddress": {
+      "locality": "95028 Hof",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV288C36-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Cisco Meraki Lizenzverlängerung",
+     "description": "Cisco Meraki Lizenzverlängerung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25939602",
+  "version": "1",
+  "title": "Cisco Meraki Lizenzverlängerung",
+  "description": "Cisco Meraki Lizenzverlängerung",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "32424000-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Cisco Meraki Lizenzverlängerung",
+    "description": "Cisco Meraki Lizenzverlängerung",
+    "cpv": [
+     "32424000-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-05T10:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

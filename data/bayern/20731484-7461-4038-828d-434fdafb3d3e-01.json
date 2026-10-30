@@ -1,0 +1,277 @@
+{
+ "id": "20731484-7461-4038-828d-434fdafb3d3e-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "20731484-7461-4038-828d-434fdafb3d3e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=20731484-7461-4038-828d-434fdafb3d3e",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:20731484-7461-4038-828d-434fdafb3d3e-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:20731484-7461-4038-828d-434fdafb3d3e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/20731484-7461-4038-828d-434fdafb3d3e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Metallbau Fenster-Fassade-Außentüren",
+  "buyer": "Lebenshilfe Ansbach e.V.",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "DE251",
+   "DE256"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5fd7ae12-5f38-4fca-8728-63e536f25ef5",
+  "id": "20731484-7461-4038-828d-434fdafb3d3e",
+  "date": "2026-10-16T02:10:19Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Lebenshilfe Ansbach e.V.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:098195250",
+     "legalName": "Lebenshilfe Ansbach e.V."
+    },
+    "address": {
+     "streetAddress": "Hardtstr. 1",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Aug. Guttendörfer GmbH + Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE131927367",
+     "legalName": "Aug. Guttendörfer GmbH + Co. KG"
+    },
+    "address": {
+     "streetAddress": "Stahlstr. 8",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Lebenshilfe Ansbach e.V.",
+   "id": "t:098195250",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Lebenshilfe Ansbach e.V."
+   },
+   "address": {
+    "streetAddress": "Hardtstr. 1",
+    "locality": "Ansbach",
+    "region": "DE251",
+    "postalCode": "91522",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5fd7ae12-5f38-4fca-8728-63e536f25ef5",
+   "title": "Metallbau Fenster-Fassade-Außentüren",
+   "description": "offenes Verfahren",
+   "procuringEntity": {
+    "name": "Lebenshilfe Ansbach e.V.",
+    "id": "t:098195250"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "deliveryAddress": {
+      "locality": "Herrieden",
+      "region": "DE256",
+      "postalCode": "91567",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 0,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-08-18T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Aug. Guttendörfer GmbH + Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Aug. Guttendörfer GmbH + Co. KG"
+     },
+     "address": {
+      "streetAddress": "Stahlstr. 8",
+      "locality": "Ansbach",
+      "region": "DE251",
+      "postalCode": "91522",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Metallbau Fenster-Fassade-Außentüren",
+     "description": "(65) Lebenshilfe - Neubau Kindertagesstätte KIDZ in Herrieden",
+     "value": {
+      "amount": 0,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-08-26T00:00:00+02:00",
+      "endDate": "2026-12-23T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Metallbau Fenster-Fassade-Außentüren",
+    "status": "active",
+    "date": "2026-08-19T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Aug. Guttendörfer GmbH + Co. KG",
+      "id": "DE131927367",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Aug. Guttendörfer GmbH + Co. KG"
+      },
+      "address": {
+       "streetAddress": "Stahlstr. 8",
+       "locality": "Ansbach",
+       "region": "DE251",
+       "postalCode": "91522",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Metallbau Fenster-Fassade-Außentüren",
+    "status": "active",
+    "value": {
+     "amount": 284672,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-08-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "20731484-7461-4038-828d-434fdafb3d3e",
+  "version": "01",
+  "title": "Metallbau Fenster-Fassade-Außentüren",
+  "description": "offenes Verfahren",
+  "procedureType": "open",
+  "nuts": [
+   "DE256"
+  ],
+  "cpv": [
+   "45000000"
+  ],
+  "estimatedValue": {
+   "amount": 0,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Metallbau Fenster-Fassade-Außentüren",
+    "description": "(65) Lebenshilfe - Neubau Kindertagesstätte KIDZ in Herrieden",
+    "cpv": [
+     "45000000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-08-26+02:00",
+    "plannedEnd": "2026-12-23+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Kriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

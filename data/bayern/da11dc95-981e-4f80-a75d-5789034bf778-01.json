@@ -1,0 +1,259 @@
+{
+ "id": "da11dc95-981e-4f80-a75d-5789034bf778-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "da11dc95-981e-4f80-a75d-5789034bf778",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=da11dc95-981e-4f80-a75d-5789034bf778",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:da11dc95-981e-4f80-a75d-5789034bf778-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:da11dc95-981e-4f80-a75d-5789034bf778-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/da11dc95-981e-4f80-a75d-5789034bf778?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Abbrucharbeiten innen",
+  "buyer": "Wohnbau Stadt Coburg GmbH",
+  "cpv": [
+   "45111100"
+  ],
+  "nuts": [
+   "DE243"
+  ],
+  "deadline": "2026-11-19T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6b402ff6-d178-404c-8282-b778f61ad641",
+  "id": "da11dc95-981e-4f80-a75d-5789034bf778",
+  "date": "2026-10-20T10:05:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Wohnbau Stadt Coburg GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE132459867",
+     "legalName": "Wohnbau Stadt Coburg GmbH"
+    },
+    "address": {
+     "streetAddress": "Mauer 12",
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Stadt Coburg - Beschaffungsamt",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09463000-0001SC1200-50",
+     "legalName": "Stadt Coburg - Beschaffungsamt"
+    },
+    "address": {
+     "streetAddress": "Steingasse 18",
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Stadt Coburg - Beschaffungsamt",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0 9463000-0001SC1200- 50",
+     "legalName": "Stadt Coburg - Beschaffungsamt"
+    },
+    "address": {
+     "streetAddress": "Steingasse 18",
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "09 -0358002- 61",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Wohnbau Stadt Coburg GmbH",
+   "id": "DE132459867",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Wohnbau Stadt Coburg GmbH"
+   },
+   "address": {
+    "streetAddress": "Mauer 12",
+    "locality": "Coburg",
+    "region": "DE243",
+    "postalCode": "96450",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6b402ff6-d178-404c-8282-b778f61ad641",
+   "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Abbrucharbeiten innen",
+   "description": "Abbrucharbeiten innen",
+   "procuringEntity": {
+    "name": "Wohnbau Stadt Coburg GmbH",
+    "id": "DE132459867"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45111100",
+      "description": "Demolition work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Heiligkreuzstraße 24+26",
+      "locality": "Coburg",
+      "region": "DE243",
+      "postalCode": "96450",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.tender24.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a12f4ab5c5-499a8a759ec0ca49",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Abbrucharbeiten innen",
+     "description": "Die in diesem Leistungsverzeichnis beschriebenen Leistungen umfassen u.a.:\n- Demontage von schadstoffhaltigen Baustoffen: Dachpappe o.ä. - ca. 820 m² / Mineralwolldämmungen o.ä. - ca. 12,5 m³ / Asbesthaltige Entwässerungsrohre - ca. 120 lfm\n- Entkernung des Abbruchobjekts: Dacheindeckung - ca. 420 m² / Wärmedämmung - ca. 5,7 m³ / Fußbodenaufbauten - ca. 1.100 m² / Innen- und Außenfenster und -türen - ca. 135 m² / Installationsrohre und diverse Anlagen\n- Abbrucharbeiten: Dachschalung - ca. 420m² / Dachstuhl - ca. 250 m² mit ca. 15 m³ Holz / Innen- und Außenmauerwerkswände - ca. 115 m³\n- Materialentsorgung",
+     "contractPeriod": {
+      "startDate": "2027-01-20T00:00:00+01:00",
+      "endDate": "2027-06-25T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "da11dc95-981e-4f80-a75d-5789034bf778",
+  "version": "01",
+  "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Abbrucharbeiten innen",
+  "description": "Abbrucharbeiten innen",
+  "procedureType": "open",
+  "nuts": [
+   "DE243"
+  ],
+  "cpv": [
+   "45111100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "ZV - Wohnbau Stadt Coburg GmbH - Heiligkreuzstraße 24+26 - Abbrucharbeiten innen",
+    "description": "Die in diesem Leistungsverzeichnis beschriebenen Leistungen umfassen u.a.:\n- Demontage von schadstoffhaltigen Baustoffen: Dachpappe o.ä. - ca. 820 m² / Mineralwolldämmungen o.ä. - ca. 12,5 m³ / Asbesthaltige Entwässerungsrohre - ca. 120 lfm\n- Entkernung des Abbruchobjekts: Dacheindeckung - ca. 420 m² / Wärmedämmung - ca. 5,7 m³ / Fußbodenaufbauten - ca. 1.100 m² / Innen- und Außenfenster und -türen - ca. 135 m² / Installationsrohre und diverse Anlagen\n- Abbrucharbeiten: Dachschalung - ca. 420m² / Dachstuhl - ca. 250 m² mit ca. 15 m³ Holz / Innen- und Außenmauerwerkswände - ca. 115 m³\n- Materialentsorgung",
+    "cpv": [
+     "45111100"
+    ],
+    "nuts": [
+     "DE243"
+    ],
+    "deadline": "2026-11-19T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-20+01:00",
+    "plannedEnd": "2027-06-25+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a12f4ab5c5-499a8a759ec0ca49"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a12f4ab5c5-499a8a759ec0ca49"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a12f4ab5c5-499a8a759ec0ca49"
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "https://www.tender24.de/NetServer/SelectionCriteria/54321-Tender-1a12f4ab5c5-499a8a759ec0ca49"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

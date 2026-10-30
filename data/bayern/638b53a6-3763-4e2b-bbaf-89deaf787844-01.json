@@ -1,0 +1,228 @@
+{
+ "id": "638b53a6-3763-4e2b-bbaf-89deaf787844-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "638b53a6-3763-4e2b-bbaf-89deaf787844",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=638b53a6-3763-4e2b-bbaf-89deaf787844",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:638b53a6-3763-4e2b-bbaf-89deaf787844-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:638b53a6-3763-4e2b-bbaf-89deaf787844-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/638b53a6-3763-4e2b-bbaf-89deaf787844?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "BÜW -  ESTW Kaufering, Strecke 5520 im Abschnitt km 54,227 bis km 62,047",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71240000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE21E"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-df3b6e03-6f00-4909-8fb5-af1a2a3459b4",
+  "id": "638b53a6-3763-4e2b-bbaf-89deaf787844",
+  "date": "2026-10-22T02:08:47Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "PD Railway Engineering Services Gmb",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "b4f63805-3a74-4807-9b92-240da322f5c4",
+     "legalName": "PD Railway Engineering Services Gmb"
+    },
+    "address": {
+     "locality": "Beimerstetten",
+     "region": "DE145",
+     "postalCode": "89179",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "df3b6e03-6f00-4909-8fb5-af1a2a3459b4",
+   "title": "BÜW -  ESTW Kaufering, Strecke 5520 im Abschnitt km 54,227 bis km 62,047",
+   "description": "25FEI82267 Die Bauüberwachung ist in drei Lose aufgeteilt: Los 1 kümmert sich um KIB/Obb, SiGe und Abfallmanagement, Los 2 überwacht die LST, und Los 3 fokussiert sich auf OLA und 50 Hz. Jede Einheit stellt die Einhaltung technischer Standards und die Betriebssicherheit sicher.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71240000",
+      "description": "Architectural, engineering and planning services"
+     },
+     "deliveryAddress": {
+      "locality": "Kaufering",
+      "region": "DE21E",
+      "postalCode": "86916",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-01-22T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "PD Railway Engineering Services Gmb",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "PD Railway Engineering Services Gmb"
+     },
+     "address": {
+      "locality": "Beimerstetten",
+      "region": "DE145",
+      "postalCode": "89179",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "LOS 3: BÜW ESTW Kaufering, Strecke 5520 im Abschnitt km 54,227 bis km 62,047 - OB/KIB",
+     "description": "LOS 3: BÜW ESTW Kaufering, Strecke 5520 im Abschnitt km 54,227 bis km 62,047 - OB/KIB",
+     "contractPeriod": {
+      "startDate": "2026-02-16T00:00:00+01:00",
+      "endDate": "2027-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2026-02-02T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-02-01T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "638b53a6-3763-4e2b-bbaf-89deaf787844",
+  "version": "01",
+  "title": "BÜW -  ESTW Kaufering, Strecke 5520 im Abschnitt km 54,227 bis km 62,047",
+  "description": "25FEI82267 Die Bauüberwachung ist in drei Lose aufgeteilt: Los 1 kümmert sich um KIB/Obb, SiGe und Abfallmanagement, Los 2 überwacht die LST, und Los 3 fokussiert sich auf OLA und 50 Hz. Jede Einheit stellt die Einhaltung technischer Standards und die Betriebssicherheit sicher.",
+  "procedureType": null,
+  "nuts": [
+   "DE21E"
+  ],
+  "cpv": [
+   "71240000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "LOS 3: BÜW ESTW Kaufering, Strecke 5520 im Abschnitt km 54,227 bis km 62,047 - OB/KIB",
+    "description": "LOS 3: BÜW ESTW Kaufering, Strecke 5520 im Abschnitt km 54,227 bis km 62,047 - OB/KIB",
+    "cpv": [
+     "71240000"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-02-16+01:00",
+    "plannedEnd": "2027-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

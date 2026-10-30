@@ -1,0 +1,133 @@
+{
+ "id": "25969210-1",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "25969210",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25969210",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:25969210-1.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:25969210-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25969210?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Kanalsanierung im grabenlosen & manuellen Verfahren",
+  "buyer": "Markt Manching",
+  "cpv": [
+   "45232410-9 45232410-9"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-06T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25969210",
+  "id": "25969210",
+  "date": "2026-10-24T07:00:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Manching",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Markt Manching"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Manching",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Manching"
+   }
+  },
+  "tender": {
+   "title": "Kanalsanierung im grabenlosen & manuellen Verfahren",
+   "description": "Tiefbau und Entwässerungskanalarbeiten, Gas- Wasser- und Entwässerungsanlagen",
+   "procuringEntity": {
+    "name": "Markt Manching"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232410-9 45232410-9"
+     },
+     "deliveryAddress": {
+      "locality": "85077 Westenhausen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28E496-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Kanalsanierung im grabenlosen & manuellen Verfahren",
+     "description": "Tiefbau und Entwässerungskanalarbeiten, Gas- Wasser- und Entwässerungsanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25969210",
+  "version": "1",
+  "title": "Kanalsanierung im grabenlosen & manuellen Verfahren",
+  "description": "Tiefbau und Entwässerungskanalarbeiten, Gas- Wasser- und Entwässerungsanlagen",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45232410-9 45232410-9"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Kanalsanierung im grabenlosen & manuellen Verfahren",
+    "description": "Tiefbau und Entwässerungskanalarbeiten, Gas- Wasser- und Entwässerungsanlagen",
+    "cpv": [
+     "45232410-9 45232410-9"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-06T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,467 @@
+{
+ "id": "9ce5e50b-9472-4c8b-a502-b2272fb7dd68-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "9ce5e50b-9472-4c8b-a502-b2272fb7dd68",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9ce5e50b-9472-4c8b-a502-b2272fb7dd68",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:9ce5e50b-9472-4c8b-a502-b2272fb7dd68-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:9ce5e50b-9472-4c8b-a502-b2272fb7dd68-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9ce5e50b-9472-4c8b-a502-b2272fb7dd68?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Erdgaslieferung",
+  "buyer": "Landkreis Fürth",
+  "cpv": [
+   "09123000"
+  ],
+  "nuts": [
+   "DE258"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fdf94dd9-3915-44c1-a74e-584248e06d4b",
+  "id": "9ce5e50b-9472-4c8b-a502-b2272fb7dd68",
+  "date": "2026-10-25T14:26:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Fürth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09573000-61210000-84",
+     "legalName": "Landkreis Fürth"
+    },
+    "address": {
+     "streetAddress": "Im Pinderpark  2",
+     "locality": "Zirndorf",
+     "region": "DE258",
+     "postalCode": "90513",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Infra Fürth GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE284948209",
+     "legalName": "Infra Fürth GmbH"
+    },
+    "address": {
+     "streetAddress": "Leyher Straße 69",
+     "locality": "Fürth",
+     "region": "DE253",
+     "postalCode": "90763",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Fürth",
+   "id": "09573000-61210000-84",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Fürth"
+   },
+   "address": {
+    "streetAddress": "Im Pinderpark  2",
+    "locality": "Zirndorf",
+    "region": "DE258",
+    "postalCode": "90513",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fdf94dd9-3915-44c1-a74e-584248e06d4b",
+   "title": "Erdgaslieferung",
+   "description": "Der Landkreis Fürth beabsichtigt, die Lieferung von Erdgas für die eigenen Abnahmestellen mit Lieferbeginn ab 01.01.2027 für eine Laufzeit von 3 Jahren bis zum 01.01.2030 neu zu vergeben.  Die Ausschreibung erfolgt in drei Losen, die jeweils unterschiedliche Liegenschaften abdecken.  Die Leistung umfasst die Lieferung  von Erdgas einschließlich Netznutzung und sämtliche damit unmittelbar verbundenen  Tätigkeiten im Rahmen eines \"All-Inclusive-Vertrages\".  Ziel des Vertrages ist eine sichere Versorgung zu wirtschaftlichen Bedingungen.\n",
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gymnasium Stein ",
+      "locality": "Stein",
+      "region": "DE258",
+      "postalCode": "90547",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Landratsamt Fürth - Dienststelle Fürth (Dienstgebäude Fürth) ",
+      "locality": "Fürth",
+      "region": "DE258",
+      "postalCode": "90763",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Gymnasium Oberasbach ",
+      "locality": "Oberasbach ",
+      "region": "DE258",
+      "postalCode": "90522",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Infra Fürth GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Infra Fürth GmbH"
+     },
+     "address": {
+      "streetAddress": "Leyher Straße 69",
+      "locality": "Fürth",
+      "region": "DE253",
+      "postalCode": "90763",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 Erdgaslieferung ",
+     "description": "Erdgaslieferung inkl. Netznutzung von ca. 1,2 Mio. KWh/a für den Lieferzeitraum 01.01.2027 bis 01.01.2030\n\nObjekte:\nGymnasium Stein\nGymnasium Stein - HM",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-01-01T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 Erdgaslieferung",
+     "description": "Erdgaslieferung inkl. Netznutzung von ca. 1,99 Mio. KWh/a für den Lieferzeitraum 01.01.2027 bis 01.01.2029 sowie von ca. 1,68 Mio. KWh/a für den Lieferzeitraum 01.01.2029 bis 01.01.2030\n\nObjekte:\nLandratsamt Fürth - Dienststelle Fürth (Dienstgebäude Fürth) \nLandwirtschaftsschule Fürth \nGymnasium Langenzenn\nGymnasium Langenzenn - Fachräume\nDillenbergschule Cadolzburg (Förderschule Cadolzburg) ",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-01-01T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3 Erdgaslieferung",
+     "description": "Erdgaslieferung inkl. Netznutzung von ca. 1,9 Mio. KWh/a für den Lieferzeitraum 01.01.2027 bis 01.01.2030\n\nObjekte:\nGymnasium Oberasbach\nLandkreis Bauhof Altenberg",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-01-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-25T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Infra Fürth GmbH",
+      "id": "DE284948209",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Infra Fürth GmbH"
+      },
+      "address": {
+       "streetAddress": "Leyher Straße 69",
+       "locality": "Fürth",
+       "region": "DE253",
+       "postalCode": "90763",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-09-25T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Infra Fürth GmbH",
+      "id": "DE284948209",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Infra Fürth GmbH"
+      },
+      "address": {
+       "streetAddress": "Leyher Straße 69",
+       "locality": "Fürth",
+       "region": "DE253",
+       "postalCode": "90763",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-09-25T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Infra Fürth GmbH",
+      "id": "DE284948209",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Infra Fürth GmbH"
+      },
+      "address": {
+       "streetAddress": "Leyher Straße 69",
+       "locality": "Fürth",
+       "region": "DE253",
+       "postalCode": "90763",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 350355,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-09-24T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 548638,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-09-24T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "value": {
+     "amount": 581658,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-09-24T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "9ce5e50b-9472-4c8b-a502-b2272fb7dd68",
+  "version": "01",
+  "title": "Erdgaslieferung",
+  "description": "Der Landkreis Fürth beabsichtigt, die Lieferung von Erdgas für die eigenen Abnahmestellen mit Lieferbeginn ab 01.01.2027 für eine Laufzeit von 3 Jahren bis zum 01.01.2030 neu zu vergeben.  Die Ausschreibung erfolgt in drei Losen, die jeweils unterschiedliche Liegenschaften abdecken.  Die Leistung umfasst die Lieferung  von Erdgas einschließlich Netznutzung und sämtliche damit unmittelbar verbundenen  Tätigkeiten im Rahmen eines \"All-Inclusive-Vertrages\".  Ziel des Vertrages ist eine sichere Versorgung zu wirtschaftlichen Bedingungen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE258"
+  ],
+  "cpv": [
+   "09123000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 Erdgaslieferung",
+    "description": "Erdgaslieferung inkl. Netznutzung von ca. 1,2 Mio. KWh/a für den Lieferzeitraum 01.01.2027 bis 01.01.2030\n\nObjekte:\nGymnasium Stein\nGymnasium Stein - HM",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE258"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Es wird der Zuschlag auf das preisgünstigste Angebot erteilt.  Der öffentliche Auftraggeber behält sich vor, bei wertungsgleichen Angeboten die Entscheidung per Losverfahren herbeizuführen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 Erdgaslieferung",
+    "description": "Erdgaslieferung inkl. Netznutzung von ca. 1,99 Mio. KWh/a für den Lieferzeitraum 01.01.2027 bis 01.01.2029 sowie von ca. 1,68 Mio. KWh/a für den Lieferzeitraum 01.01.2029 bis 01.01.2030\n\nObjekte:\nLandratsamt Fürth - Dienststelle Fürth (Dienstgebäude Fürth) \nLandwirtschaftsschule Fürth \nGymnasium Langenzenn\nGymnasium Langenzenn - Fachräume\nDillenbergschule Cadolzburg (Förderschule Cadolzburg)",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE258"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Es wird der Zuschlag auf das preisgünstigste Angebot erteilt.  Der öffentliche Auftraggeber behält sich vor, bei wertungsgleichen Angeboten die Entscheidung per Losverfahren herbeizuführen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3 Erdgaslieferung",
+    "description": "Erdgaslieferung inkl. Netznutzung von ca. 1,9 Mio. KWh/a für den Lieferzeitraum 01.01.2027 bis 01.01.2030\n\nObjekte:\nGymnasium Oberasbach\nLandkreis Bauhof Altenberg",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE258"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Es wird der Zuschlag auf das preisgünstigste Angebot erteilt.  Der öffentliche Auftraggeber behält sich vor, bei wertungsgleichen Angeboten die Entscheidung per Losverfahren herbeizuführen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

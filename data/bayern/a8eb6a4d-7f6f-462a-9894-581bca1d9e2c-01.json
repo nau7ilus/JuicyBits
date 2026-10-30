@@ -154,6 +154,8 @@
   "noticeId": "a8eb6a4d-7f6f-462a-9894-581bca1d9e2c",
   "version": "01",
   "title": "Rahmenvereinbarung Schmutzfangmatten mietweise mit Service (Liefern, Abholen, Reinigen und Auswechseln)",
+  "description": "Rahmenvereinbarung Schmutzfangmatten mietweise mit Service (Liefern, Abholen, Reinigen und Auswechseln)",
+  "procedureType": "open",
   "nuts": [
    "DE212"
   ],
@@ -166,6 +168,7 @@
    {
     "id": "LOT-0000",
     "title": "Rahmenvereinbarung Schmutzfangmatten mietweise mit Service (Liefern, Abholen, Reinigen und Auswechseln)",
+    "description": "Mietvollservice für geschätzt 13.240 Schmutzfangmatten. Diese beinhaltet eine leihweise Überlassung von Schmutzfangmatten in verschiedenen Großen und unterschiedlichen Wechselzeiträume. Lieferung, Auslegung sowie Abholung der gebrauchten Schmutzfangmatten, Waschen/Reinigen/Trocknen und Wiederanliefern der sauberen Schmutzfangmatten.",
     "cpv": [
      "98312000",
      "39532000"
@@ -177,6 +180,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-05-01+02:00",
     "plannedEnd": "2031-04-30+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -192,7 +196,40 @@
       "type": "slc-stand-to-gen",
       "description": "Die Angaben zu den Eignungskriterien sind im Eignungsfragebogen zu tätigen.\nhttps://vergabe.muenchen.de/NetServer/SelectionCriteria/54321-Tender-19f47145ddf-6e7d52fac246737b"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Nachhaltigkeit",
+      "description": "Transport emissionsarme letzte Meile",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Nachhaltigkeit",
+      "description": "Reduzierung Mikroplastikeintrag in Abwasser",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Nachhaltigkeit",
+      "description": "Einsatz von Recyclingmaterialien im Nitrilgummi",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Nachhaltigkeit",
+      "description": "Nutzung von Ökostrom bzw. eigenproduziertem Strom aus erneuerbaren Energiequellen für die Reinigung von Schmutzfangmatten",
+      "weight": 10
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

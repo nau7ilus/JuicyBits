@@ -175,6 +175,8 @@
   "noticeId": "2300b9e7-9ace-4922-bd4b-4c73c130a56a",
   "version": "01",
   "title": "Stahlbauarbeiten",
+  "description": "Anzubieten sind die Stahl- und Metallbauarbeiten für 2 nebeneinanderliegende Gebäude.\nDiese beinhalten unter anderem:\n- ca. 170 m² Gitterrostebenen in Technikschächten\n- ca. 500 m Stahl- und Glasgeländer mit Handläufen\n- 3 St. Vordächer als bekleidete Stahlkonstruktionen\n- 76 St. Stahlblechtüren\n- 3 St. Stahltreppenanlagen\n- 1 St. Tribünenkonstruktion aus Stahl in einem Vortragssaal",
+  "procedureType": "open",
   "nuts": [
    "DE254"
   ],
@@ -189,6 +191,7 @@
    {
     "id": "LOT-0000",
     "title": "Stahlbauarbeiten",
+    "description": "Anzubieten sind die Stahl- und Metallbauarbeiten für 2 nebeneinanderliegende Gebäude.\nDiese beinhalten unter anderem:\n- ca. 170 m² Gitterrostebenen in Technikschächten\n- ca. 500 m Stahl- und Glasgeländer mit Handläufen\n- 3 St. Vordächer als bekleidete Stahlkonstruktionen\n- 76 St. Stahlblechtüren\n- 3 St. Stahltreppenanlagen\n- 1 St. Tribünenkonstruktion aus Stahl in einem Vortragssaal",
     "cpv": [
      "45262670"
     ],
@@ -199,6 +202,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-04+01:00",
     "plannedEnd": "2028-10-27+02:00",
+    "duration": null,
     "estimatedValue": {
      "amount": 1143141.18,
      "currency": "EUR"
@@ -221,7 +225,19 @@
       "type": "slc-suit-reg-prof",
       "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=302475\n\n- Registereintragungen\n- Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2% Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
    }
   ]
  }

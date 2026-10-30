@@ -227,6 +227,8 @@
   "noticeId": "4d24b7df-446a-46da-9e59-da3e73295a74",
   "version": "01",
   "title": "VE 4.2.121b - Baufeinreinigung - Ost",
+  "description": "gesamte Reinigung aller Oberflächen in mehreren \nTeilabschnitten\n\n1. Für die Gesamtdauer der Reinigung des Objektes sind insgesamt 7 KW \nvorgesehen. \n2. Die Ausführung erfolgt nach Abruf in voraussichtlich 5-6 Teilabschnitten \nunterteilt nach Erst- und Endreinigung.\n3. Die Ausführung erfolgt zeitlich versetzt. \n1. Nach Abruf im September 2026, Dauer ca. 1 KW.\n2. Nach Abruf zwischen 19.10.2026 bis 10.11.2026, Dauer ca. 4 KW.\n3. Nach Abruf im März 2027, Dauer ca. 2 KW.",
+  "procedureType": "open",
   "nuts": [
    "DE211"
   ],
@@ -239,6 +241,7 @@
    {
     "id": "LOT-0001",
     "title": "VE 4.2.121b Baufeinreinigung - Ost",
+    "description": "gesamte Reinigung aller Oberflächen in mehreren \nTeilabschnitten\n\n1. Für die Gesamtdauer der Reinigung des Objektes sind insgesamt 7 KW \nvorgesehen. \n2. Die Ausführung erfolgt nach Abruf in voraussichtlich 5-6 Teilabschnitten \nunterteilt nach Erst- und Endreinigung.\n3. Die Ausführung erfolgt zeitlich versetzt. \n1. Nach Abruf im September 2026, Dauer ca. 1 KW.\n2. Nach Abruf zwischen 19.10.2026 bis 10.11.2026, Dauer ca. 4 KW.\n3. Nach Abruf im März 2027, Dauer ca. 2 KW.",
     "cpv": [
      "45215100",
      "90911200"
@@ -250,9 +253,19 @@
     "participationDeadline": null,
     "plannedStart": "2026-09-21+02:00",
     "plannedEnd": "2027-03-12+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Zuschlagskriterium = Wirtschaftlichkeit",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

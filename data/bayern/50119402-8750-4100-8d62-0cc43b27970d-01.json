@@ -1,0 +1,237 @@
+{
+ "id": "50119402-8750-4100-8d62-0cc43b27970d-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "50119402-8750-4100-8d62-0cc43b27970d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=50119402-8750-4100-8d62-0cc43b27970d",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:50119402-8750-4100-8d62-0cc43b27970d-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:50119402-8750-4100-8d62-0cc43b27970d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/50119402-8750-4100-8d62-0cc43b27970d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Photovoltaikanlage",
+  "buyer": "Landratsamt Eichstätt",
+  "cpv": [
+   "45315300",
+   "45311000",
+   "45261215"
+  ],
+  "nuts": [
+   "DE219"
+  ],
+  "deadline": "2026-10-29T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-43fb9760-d58c-432d-905a-84182ada3029",
+  "id": "50119402-8750-4100-8d62-0cc43b27970d",
+  "date": "2026-10-23T02:08:45Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Eichstätt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09176000 -SG17XXHochbau -15",
+     "legalName": "Landratsamt Eichstätt"
+    },
+    "address": {
+     "streetAddress": "Residenzplatz 1",
+     "locality": "Eichstätt",
+     "region": "DE219",
+     "postalCode": "85072",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Eichstätt",
+   "id": "09176000 -SG17XXHochbau -15",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Eichstätt"
+   },
+   "address": {
+    "streetAddress": "Residenzplatz 1",
+    "locality": "Eichstätt",
+    "region": "DE219",
+    "postalCode": "85072",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "43fb9760-d58c-432d-905a-84182ada3029",
+   "title": "Photovoltaikanlage",
+   "description": "Erweiterung des Gymnasiums Gaimersheim auf ein fünfzügiges G9-Gymnasium inkl. der Fachräume, sowie die Errichtung einer Einfachsporthalle.\nHier das Gewerk: Photovoltaikanlage\nAuf dem Flachdach mit Dachbegrünung ist die Errichtung einer Photovoltaikanlage vorgesehen.\n\tPV-Anlage mit einer Leistung von ca. 41 kWp\n\t1 St. Wechselrichter, Montage auf dem Dach\n\tMontagegestells für den Wechselrichter und Generatoranschlusskästen\n\tca. 200 m AC-Kabel\n\tca. 300 m DC-Kabel\n\tAnschluss an die vorhandene Absicherung in der bestehenden PV-Verteilung",
+   "procuringEntity": {
+    "name": "Landratsamt Eichstätt",
+    "id": "09176000 -SG17XXHochbau -15"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45315300",
+      "description": "Electricity supply installations"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45311000",
+       "description": "Electrical wiring and fitting work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45261215",
+       "description": "Solar panel roof-covering work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Gaimersheim",
+      "region": "DE219",
+      "postalCode": "85080",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303929",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Photovoltaikanlage",
+     "description": "Erweiterung des Gymnasiums Gaimersheim auf ein fünfzügiges G9-Gymnasium inkl. der Fachräume, sowie die Errichtung einer Einfachsporthalle.\nHier das Gewerk: Photovoltaikanlage\nAuf dem Flachdach mit Dachbegrünung ist die Errichtung einer Photovoltaikanlage vorgesehen.\n\tPV-Anlage mit einer Leistung von ca. 41 kWp\n\t1 St. Wechselrichter, Montage auf dem Dach\n\tMontagegestells für den Wechselrichter und Generatoranschlusskästen\n\tca. 200 m AC-Kabel\n\tca. 300 m DC-Kabel\n\tAnschluss an die vorhandene Absicherung in der bestehenden PV-Verteilung",
+     "contractPeriod": {
+      "startDate": "2027-01-18T00:00:00+01:00",
+      "endDate": "2027-08-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "50119402-8750-4100-8d62-0cc43b27970d",
+  "version": "01",
+  "title": "Photovoltaikanlage",
+  "description": "Erweiterung des Gymnasiums Gaimersheim auf ein fünfzügiges G9-Gymnasium inkl. der Fachräume, sowie die Errichtung einer Einfachsporthalle.\nHier das Gewerk: Photovoltaikanlage\nAuf dem Flachdach mit Dachbegrünung ist die Errichtung einer Photovoltaikanlage vorgesehen.\n\tPV-Anlage mit einer Leistung von ca. 41 kWp\n\t1 St. Wechselrichter, Montage auf dem Dach\n\tMontagegestells für den Wechselrichter und Generatoranschlusskästen\n\tca. 200 m AC-Kabel\n\tca. 300 m DC-Kabel\n\tAnschluss an die vorhandene Absicherung in der bestehenden PV-Verteilung",
+  "procedureType": "open",
+  "nuts": [
+   "DE219"
+  ],
+  "cpv": [
+   "45315300",
+   "45311000",
+   "45261215"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Photovoltaikanlage",
+    "description": "Erweiterung des Gymnasiums Gaimersheim auf ein fünfzügiges G9-Gymnasium inkl. der Fachräume, sowie die Errichtung einer Einfachsporthalle.\nHier das Gewerk: Photovoltaikanlage\nAuf dem Flachdach mit Dachbegrünung ist die Errichtung einer Photovoltaikanlage vorgesehen.\n\tPV-Anlage mit einer Leistung von ca. 41 kWp\n\t1 St. Wechselrichter, Montage auf dem Dach\n\tMontagegestells für den Wechselrichter und Generatoranschlusskästen\n\tca. 200 m AC-Kabel\n\tca. 300 m DC-Kabel\n\tAnschluss an die vorhandene Absicherung in der bestehenden PV-Verteilung",
+    "cpv": [
+     "45315300",
+     "45311000",
+     "45261215"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": "2026-10-29T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-18+01:00",
+    "plannedEnd": "2027-08-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "1. Vorlage mit dem Angebot:\nErklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen. \nDer Nachweis kann wie folgt erbracht werden: \nDie Erklärungen sind entweder mittels Angabe der Registriernummer beim Verein für die Präqualifikation von Bauunternehmen e.V. (präqualifizierte Unternehmen) oder mittels Eigenerklärung zur Eignung nach Formblatt 124 (liegt den Ausschreibungsunterlagen bei) oder mittels einer Einheitlichen Europäischen Eigenerklärung (EEE) abzugeben.\n2. Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er den Nachweis auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "1. Vorlage mit dem Angebot:\na) Erklärung zu Insolvenzverfahren und Liquidation\nb) Erklärung zur ordnungsgemäßen Erfüllung der Pflicht zur Zahlung von Steuern und Abgaben sowie der Beiträge zur Sozialversicherung\nc) Erklärung zur Mitgliedschaft bei der zuständigen Berufsgenossenschaft\nd) Erklärung zum Nichtvorliegen von Ausschlussgründen im Sinne von § 6e EU VOB/A und zu ggf. ergriffenen Selbstreinigungsmaßnahmen im Sinne von § 6f EU Abs. 1 VOB/A.\n2. Vorlage auf gesondertes Verlangen der Vergabestelle innerhalb einer gesetzten Frist:\na) Rechtskräftig bestätigter Insolvenzplan (sofern zutreffend)\nb) aktuell gültige Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, soweit das Unternehmen beitragspflichtig ist. Wenn keine Beitragspflicht besteht, ist dies in einem An- oder Begleitschreiben zu erklären und dem AG vorzulegen.\nc) aktuell gültige Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen, soweit das Finanzamt derartige Bescheinigungen ausstellt. Wenn nicht, ist dies in einem An- oder Begleitschreiben zu erklären und dem AG vorzulegen.\nd) aktuell gültige Freistellungsbescheinigung nach § 48b EStG\ne) aktuell gültige Qualifizierte Unbedenklichkeitsbescheinigung der zuständigen Berufsgenossenschaft mit Angabe der Lohnsummen\n3. Allgemeine Hinweise: Die Erklärungen gemäß 1. sind entweder mittels Angabe der Registriernummer beim Verein für die Präqualifikation von Bauunternehmen e.V. (präqualifizierte Unternehmen) oder mittels Eigenerklärung zur Eignung nach Formblatt 124 (liegt den Ausschreibungsunterlagen bei) oder mittels einer Einheitlichen Europäischen Eigenerklärung (EEE) abzugeben.\nDie Pflicht zur Vorlage der Unterlagen gemäß 2. entfällt für präqualifizierte Unternehmen, soweit diese Unterlagen für den AG abrufbar in dem PQ-Verzeichnis vorliegen. Unternehmen, die ihren Sitz nicht in der Bundesrepublik Deutschland haben, müssen gleichwertige Unterlagen vorlegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen.\nBeabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er die Erklärungen gemäß 1. und die Unterlagen gemäß 2. auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen.\n4. Weiterer Hinweis: Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister gem. § 6 WRegG anfordern."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Aktuell gültiger Nachweis einer Betriebshaftpflichtversicherung oder Eigenerklärung diese bei Vertragszuschlag mindestens in der geforderten Höhe abzuschließen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angaben über die Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischen Leitungspersonal. Erklärung, dass die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "1. Vorlage mit dem Angebot:\nErklärung zu bestehenden Eintragungen im Handelsregister\n2. Vorlage auf gesondertes Verlangen der Vergabestelle innerhalb der gesetzten Frist:\nHandelsregisterauszug.\n3. Allgemeine Hinweise: Die Erklärungen gemäß 1. sind entweder mittels Angabe der Registriernummer beim Verein für die Präqualifikation von Bauunternehmen e.V. (präqualifizierte Unternehmen) oder mittels Eigenerklärung zur Eignung nach Formblatt 124 (liegt den Ausschreibungsunterlagen bei) oder mittels einer Einheitlichen Europäischen Eigenerklärung (EEE) abzugeben.\nDie Pflicht zur Vorlage der Unterlagen gemäß 2. entfällt für präqualifizierte Unternehmen, soweit diese Unterlagen für den AG abrufbar in dem PQ-Verzeichnis vorliegen. Unternehmen, die ihren Sitz nicht in der Bundesrepublik Deutschland haben, müssen gleichwertige Unterlagen vorlegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen.\nBeabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er die Erklärungen gemäß 1. und die Unterlagen gemäß 2. auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen.\n4. Weiterer Hinweis: Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister gem. § 6 WRegG anfordern."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "1. Vorlage mit dem Angebot:\nErklärung zu bestehenden Eintragungen in die Handwerksrolle oder bei der Industrie-und Handelskammer\n2. Vorlage auf gesondertes Verlangen der Vergabestelle innerhalb der gesetzten Frist:\nEintragung in der Handwerksrolle (Handwerkskarte) bzw. beider Industrie- und Handelskammer (soweit zutreffend)\n3. Allgemeine Hinweise: Die Erklärungen gemäß 1. sind entweder mittels Angabe der Registriernummer beim Verein für die Präqualifikation von Bauunternehmen e.V. (präqualifizierte Unternehmen) oder mittels Eigenerklärung zur Eignung nach Formblatt 124 (liegt den Ausschreibungsunterlagen bei) oder mittels einer Einheitlichen Europäischen Eigenerklärung (EEE) abzugeben.\nDie Pflicht zur Vorlage der Unterlagen gemäß 2. entfällt für präqualifizierte Unternehmen, soweit diese Unterlagen für den AG abrufbar in dem PQ-Verzeichnis vorliegen. Unternehmen, die ihren Sitz nicht in der Bundesrepublik Deutschland haben, müssen gleichwertige Unterlagen vorlegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen.\nBeabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er die Erklärungen gemäß 1. und die Unterlagen gemäß 2. auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen.\n4. Weiterer Hinweis: Ab einer Auftragssumme von 30.000 Euro wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister gem. § 6 WRegG anfordern."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "1) Vorlage mit dem Angebot:\na) Erklärung, in den letzten fünf Kalenderjahren vergleichbare Leistungen ausgeführt zu haben\nMindestanforderung:\nMindestens vorzulegen sind drei (3) Referenznachweise aus den letzten fünf Kalenderjahren der Ausführung von der Lieferung, Montage und Anschluss von Photovoltaikanlagen, in einer vergleichbaren Art und einem vergleichbaren Umfang der ausgeschriebenen Leistung. \nDie Nachweise müssen umfassen:\nAngaben zu Ansprechpartner, Auftragssumme, Ausführungszeitraum, eingesetzten Arbeitnehmern, Art/Umfang/Besonderheiten der Leistung, Art der Baumaßnahme, vertragliche Bindung sowie Bestätigung der vertragsgemäßen Ausführung durch den Referenzgeber (Auftraggeber)\n2) Vorlage auf gesondertes Verlangen der Vergabestelle innerhalb einer gesetzten Frist:\na) Drei Referenznachweise zu der Erklärung gemäß vorstehender Ziffer 1) a).\nAllgemeine Hinweise: Die Erklärungen gemäß 1) a) sind entweder mittels Angabe der Registriernummer beim Verein für die Präqualifikation von Bauunternehmen e.V. (präqualifizierte Unternehmen) oder mittels Eigenerklärung zur Eignung nach Formblatt 124 (liegt den Ausschreibungsunterlagen bei) oder mittels einer Einheitlichen Europäischen Eigenerklärung (EEE) abzugeben.\nDie Pflicht zur Vorlage der Unterlagen gemäß 2) a) entfällt für präqualifizierte Unternehmen, mit Ausnahme von Referenznachweisen, soweit die im PQ Verzeichnis abrufbaren Referenznachweise zur Erfüllung der Mindestanforderungen nicht ausreichend sind. In diesem Fall sind die Referenznachweise mit dem Angebot vorzulegen.\nBescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen. Beabsichtigt der Bieter, Teile der Leistung von anderen Unternehmen ausführen zu lassen oder sich bei der Erfüllung eines Auftrags im Hinblick auf die erforderliche Leistungsfähigkeit anderer Unternehmen zu bedienen, so hat er die Erklärungen gemäß 1) und die Unterlagen gemäß 2) auf gesondertes Verlangen der Vergabestelle auch für diese Unternehmen vorzulegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Kriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "- Soweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n- Die Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen\nzum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

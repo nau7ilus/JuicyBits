@@ -1,0 +1,203 @@
+{
+ "id": "b8cf3657-249a-4174-a1de-fe60bcd8e922-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "b8cf3657-249a-4174-a1de-fe60bcd8e922",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b8cf3657-249a-4174-a1de-fe60bcd8e922",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:b8cf3657-249a-4174-a1de-fe60bcd8e922-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:b8cf3657-249a-4174-a1de-fe60bcd8e922-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b8cf3657-249a-4174-a1de-fe60bcd8e922?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Nürnberg, Regensburger Straße 104 - 106, 390-Gerüstbau",
+  "buyer": "Bundesagentur für Arbeit, BA-SH GB9",
+  "cpv": [
+   "45262100"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-16T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-92ac4514-6886-40b2-9aa1-b7d6f7f2411d",
+  "id": "b8cf3657-249a-4174-a1de-fe60bcd8e922",
+  "date": "2026-10-18T07:22:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit, BA-SH GB9",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992014820190073",
+     "legalName": "Bundesagentur für Arbeit, BA-SH GB9"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Die Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "022894990",
+     "legalName": "Die Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Bundeskanzlerplatz 2-10",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bundesagentur für Arbeit, SB 93 Recht/Vergabe",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0911988720",
+     "legalName": "Bundesagentur für Arbeit, SB 93 Recht/Vergabe"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit, BA-SH GB9",
+   "id": "992014820190073",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit, BA-SH GB9"
+   },
+   "address": {
+    "streetAddress": "Lina-Ammon-Straße 9",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90471",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "92ac4514-6886-40b2-9aa1-b7d6f7f2411d",
+   "title": "Nürnberg, Regensburger Straße 104 - 106, 390-Gerüstbau",
+   "description": "Gerüstbau",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit, BA-SH GB9",
+    "id": "992014820190073"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262100",
+      "description": "Scaffolding work"
+     },
+     "deliveryLocation": {
+      "description": "Regensburger Straße 104-106, 90478 Nürnberg, Deutschland"
+     },
+     "deliveryAddress": {
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=899696",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Nürnberg, Regensburger Straße 104 - 106, 390-Gerüstbau",
+     "description": "Die Leistung umfasst Lieferung, Auf- und Abbau sowie Vorhaltung der Gerüste im Innenbereich des Bauteils VII und den Turmdrehkran der Baustelle nach den Planunterlagen, insbesondere: \n• Fassadengerüste innen Typ C (rd. 50 m) und Typ E im zweigeschossigen Bereich (rd. 869 m²) in Lastklasse \n3 mit zugehöriger Vorhaltung, Treppenturm im Gerüst Typ C \n• Arbeitsplattform als Stützgerüst Typ D (rd. 442 m², Belag +7 m) mit Gitterträgern, Auflagerriegeln und \nWandkonsolen einschließlich Vorhaltung \n• Arbeits- und Traggerüste im Innenbereich, Konsolen, Seitenschutz am Emporenrand, Rollgerüste und \nTreppenturm Arbeitsgerüst innen \n• Turmdrehkran (Ausladung 40-45 m, Übergabe auf den Dachflächen): Antransport, Montage, Demontage, \nAbtransport und Vorhaltung ohne Kranführer (rund 8 Monate); Kranführer auf Abruf (350 Stunden) \n• Mobilkran für das Versetzen der Auflagerrahmen der Lichtbänder (ein Einsatz, 16 Einsatzstunden, mit \nSchwenkbereichsbegrenzung) \n• Winterbaumaßnahmen, Bauunterbrechungen aufgrund besonderer Ereignisse, Stundenlohnarbeiten, \nDokumentation und statischer Nachweis der Gerüstkonstruktion \nDas Leistungsverzeichnis umfasst 52 Positionen in einem Leistungsbereich (Gerüstbauarbeiten) mit den Abschnitten Baustelleneinrichtung, Gerüst Innenbereich nach Typen, Gerüste generell, Baukran (Turmdrehkran mit Kranführer auf Abruf, Mobilkran), Winterbaumaßnahmen, Stundenlohnarbeiten sowie Dokumentation und Nachweise; Wertung und Zuschlag erfolgen auf das gesamte Leistungsverzeichnis, es wird nicht in Lose aufgeteilt. Alle Positionen sind Grundpositionen mit festen Mengen. Wartungsleistungen sind nicht Bestandteil des Leistungsverzeichnisses.",
+     "contractPeriod": {
+      "startDate": "2027-02-08T00:00:00+01:00",
+      "endDate": "2028-09-15T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b8cf3657-249a-4174-a1de-fe60bcd8e922",
+  "version": "01",
+  "title": "Nürnberg, Regensburger Straße 104 - 106, 390-Gerüstbau",
+  "description": "Gerüstbau",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "45262100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Nürnberg, Regensburger Straße 104 - 106, 390-Gerüstbau",
+    "description": "Die Leistung umfasst Lieferung, Auf- und Abbau sowie Vorhaltung der Gerüste im Innenbereich des Bauteils VII und den Turmdrehkran der Baustelle nach den Planunterlagen, insbesondere: \n• Fassadengerüste innen Typ C (rd. 50 m) und Typ E im zweigeschossigen Bereich (rd. 869 m²) in Lastklasse \n3 mit zugehöriger Vorhaltung, Treppenturm im Gerüst Typ C \n• Arbeitsplattform als Stützgerüst Typ D (rd. 442 m², Belag +7 m) mit Gitterträgern, Auflagerriegeln und \nWandkonsolen einschließlich Vorhaltung \n• Arbeits- und Traggerüste im Innenbereich, Konsolen, Seitenschutz am Emporenrand, Rollgerüste und \nTreppenturm Arbeitsgerüst innen \n• Turmdrehkran (Ausladung 40-45 m, Übergabe auf den Dachflächen): Antransport, Montage, Demontage, \nAbtransport und Vorhaltung ohne Kranführer (rund 8 Monate); Kranführer auf Abruf (350 Stunden) \n• Mobilkran für das Versetzen der Auflagerrahmen der Lichtbänder (ein Einsatz, 16 Einsatzstunden, mit \nSchwenkbereichsbegrenzung) \n• Winterbaumaßnahmen, Bauunterbrechungen aufgrund besonderer Ereignisse, Stundenlohnarbeiten, \nDokumentation und statischer Nachweis der Gerüstkonstruktion \nDas Leistungsverzeichnis umfasst 52 Positionen in einem Leistungsbereich (Gerüstbauarbeiten) mit den Abschnitten Baustelleneinrichtung, Gerüst Innenbereich nach Typen, Gerüste generell, Baukran (Turmdrehkran mit Kranführer auf Abruf, Mobilkran), Winterbaumaßnahmen, Stundenlohnarbeiten sowie Dokumentation und Nachweise; Wertung und Zuschlag erfolgen auf das gesamte Leistungsverzeichnis, es wird nicht in Lose aufgeteilt. Alle Positionen sind Grundpositionen mit festen Mengen. Wartungsleistungen sind nicht Bestandteil des Leistungsverzeichnisses.",
+    "cpv": [
+     "45262100"
+    ],
+    "nuts": [],
+    "deadline": "2026-11-16T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-08+01:00",
+    "plannedEnd": "2028-09-15+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

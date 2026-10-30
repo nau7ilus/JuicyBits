@@ -1,0 +1,146 @@
+{
+ "id": "25944548-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944548",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944548",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944548-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944548-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944548?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+  "buyer": "Gemeinde Schmidgaden",
+  "cpv": [
+   "45231300-8",
+   "45232154-6"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-17T14:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944548",
+  "id": "25944548",
+  "date": "2026-10-17T07:01:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Schmidgaden",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Schmidgaden"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Schmidgaden",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Schmidgaden"
+   }
+  },
+  "tender": {
+   "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+   "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten, Gas- Wasser- und Entwässerungsanlagen, Beschichtungen, Tiefbau und Entwässerungskanalarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinde Schmidgaden"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": ""
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45231300-8"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45232154-6"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "92546 Schmidgaden",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28AEF6-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+     "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten, Gas- Wasser- und Entwässerungsanlagen, Beschichtungen, Tiefbau und Entwässerungskanalarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25944548",
+  "version": "1",
+  "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+  "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten, Gas- Wasser- und Entwässerungsanlagen, Beschichtungen, Tiefbau und Entwässerungskanalarbeiten",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45231300-8",
+   "45232154-6"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schmidgaden : WV Schmidgaden -Netzsanierung und Sanierung Bauwerke",
+    "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten, Gas- Wasser- und Entwässerungsanlagen, Beschichtungen, Tiefbau und Entwässerungskanalarbeiten",
+    "cpv": [
+     "45231300-8",
+     "45232154-6"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

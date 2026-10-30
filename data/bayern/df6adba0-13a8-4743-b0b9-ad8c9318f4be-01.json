@@ -1,0 +1,414 @@
+{
+ "id": "df6adba0-13a8-4743-b0b9-ad8c9318f4be-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "df6adba0-13a8-4743-b0b9-ad8c9318f4be",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=df6adba0-13a8-4743-b0b9-ad8c9318f4be",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:df6adba0-13a8-4743-b0b9-ad8c9318f4be-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:df6adba0-13a8-4743-b0b9-ad8c9318f4be-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/df6adba0-13a8-4743-b0b9-ad8c9318f4be?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "GMT 2027 Paket 6 - 4 Lose - 3x Region Süd;  1x Region Nord",
+  "buyer": "DB Netz AG (Bukr 16)",
+  "cpv": [
+   "45234116"
+  ],
+  "nuts": [
+   "DE712",
+   "DE259",
+   "DE25C",
+   "DE255",
+   "DE501",
+   "DEB35"
+  ],
+  "deadline": "2026-11-02T11:00:00+01:00",
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-51a856f8-6080-4945-8784-11be6f90e44f",
+  "id": "df6adba0-13a8-4743-b0b9-ad8c9318f4be",
+  "date": "2026-10-18T19:48:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB Netz AG (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37",
+     "legalName": "DB Netz AG (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB Netz AG (Bukr 16)",
+   "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB Netz AG (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "51a856f8-6080-4945-8784-11be6f90e44f",
+   "title": "GMT 2027 Paket 6 - 4 Lose - 3x Region Süd;  1x Region Nord",
+   "description": "Los 1 - Strecke 5904 GE/PSS Hersbruck-Pommelsbrunn ( Region Süd)\nLos 2 - Strecke 5320 GE/PSS Pleinfeld - Georgensgmünd ( Region Süd)\nLos 3 - Strecke 5320 GE/PSS Schwabach - Roth ( Region Süd)\nLos 4 - Strecke 2200/1402/1401 Bremen-Hastedt; Bremen-Vahr; Bremen Hbf (Region Nord)",
+   "procuringEntity": {
+    "name": "DB Netz AG (Bukr 16)",
+    "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234116",
+      "description": "Track construction works"
+     },
+     "deliveryAddress": {
+      "locality": "bundesweit",
+      "region": "DE259",
+      "postalCode": "bundesweit",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234116",
+      "description": "Track construction works"
+     },
+     "deliveryAddress": {
+      "locality": "bundesweit",
+      "region": "DE25C",
+      "postalCode": "bundesweit",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234116",
+      "description": "Track construction works"
+     },
+     "deliveryAddress": {
+      "locality": "bundesweit",
+      "region": "DE255",
+      "postalCode": "bundesweit",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234116",
+      "description": "Track construction works"
+     },
+     "deliveryAddress": {
+      "locality": "bundesweit",
+      "region": "DE501",
+      "postalCode": "bundesweit",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/84a4a8cf-d24d-4612-b6f7-fd949abca6dc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/84a4a8cf-d24d-4612-b6f7-fd949abca6dc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/84a4a8cf-d24d-4612-b6f7-fd949abca6dc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/84a4a8cf-d24d-4612-b6f7-fd949abca6dc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 - Region Süd\nStrecke 5904\nGE/PSS Hersbruck-Pommelsbrunn",
+     "description": "Strecke 5904 GE/PSS Hersbruck-Pommelsbrunn\n\nca. 9.300 m Gleiserneuerung maschinell\nca. 6.400 m Bettungsreinigung maschinell\nca. 2.800 m Schotteraufbereitung maschinell\nca. 6.150 m Planumsverbesserung maschinell\nca. 2.850 m Gleiserneuerung konventionell\nca. 2.850 m vollständige Bettungserneuerung konventionell \nca. 2.550 m Planumsverbesserung konventionell\nca. 500 m Tiefenentwässerung, Graben profilieren\nca. 12.500 m Randweg herstellen\nca. 600 m Randwegkonstruktion\n55 Brückenbalken; 60 m Führungsschienen\n1 Bahnübergang \nZusammenhangsarbeiten\nLogistik\nSicherungs- und bauaffine Dienstleistungen\n/////\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 14.05.2027\nFertigstellung der vertraglichen Leistung: 31.12.2027\n/////\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem Präqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein. \nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und zum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen Vertragsbedingungen zu entnehmen.\ngeforderte Präqualifikation - Los 1:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h\nSicherungsleistung:\nVerzeichnis II",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2028-02-28T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 Region Süd\nStrecke 5320 GE/PSS Pleinfeld - Georgensgmünd",
+     "description": "Strecke 5320 GE/PSS Pleinfeld - Georgensgmünd\n\nca. 6.300 m Gleiserneuerung maschinell\nca. 6.300 m Bettungsreinigung maschinell\nca. 1.600 m Gleiserneuerung konventionell\nca. 1.600 m vollständige Bettungserneuerung konventionell \nca. 350 m Planumsverbesserung konventionell\nca. 260 m Graben profilieren\nca. 7.100 m Randweg herstellen\nca. 372 m Führungsschienen\nKanal reinigen, Filterschicht erneuern\nKampfmittel\nZusammenhangsarbeiten\nLogistik\nSicherungs- und bauaffine Dienstleistungen\n/////\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 01.05.2027\nFertigstellung der vertraglichen Leistung: 30.10.2027\n/////\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem Präqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein. \nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und zum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen Vertragsbedingungen zu entnehmen.\ngeforderte Präqualifikation - Los 2:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h\nSicherungsleistung:\nVerzeichnis III",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2028-02-28T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3 Region Süd\nStrecke 5320 GE/PSS Schwabach - Roth",
+     "description": "Strecke 5320 GE/PSS Schwabach - Roth\n\nca. 8.600 m Gleiserneuerung maschinell\nca. 5.000 m Bettungsreinigung maschinell\nca. 3.600 m  Schotteraufbereitung maschinell\nca. 200 m Planumsverbesserung maschinell\nca. 821 m Gleiserneuerung konventionell\nca. 821 m vollständige Bettungserneuerung konventionell \nca. 141 m PSS konventionell\nca. 50 m Tiefenentwässerung\nca. 4.250 m Grabenfilter erneuern; Kanal spülen\nca. 680 m Graben profilieren\nca. 8.720 m Randweg herstellen\nca. 150 m Randwegkonstruktion\nca. 80 m Führungsschienen\nca. 300 m mobile Lärmschutzwand\nKampfmittel\nZusammenhangsarbeiten\nLogistik\nSicherungs- und bauaffine Dienstleistungen\n/////\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 24.09.2027\nFertigstellung der vertraglichen Leistung: 28.02.2028\n/////\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem Präqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein. \nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und zum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen Vertragsbedingungen zu entnehmen.\ngeforderte Präqualifikation - Los 3:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h\nSicherungsleistung:\nVerzeichnis III",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2028-02-28T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Los 4 Region Nord\nStrecke 2200/1402/1401 Bremen-Hastedt; Bremen-Vahr; Bremen Hbf\n",
+     "description": "Strecke 2200/1402/1401 Bremen-Hastedt; Bremen-Vahr; Bremen Hbf\n\nca. 6.250 m Gleiserneuerung maschinell\nca. 6.100 m Bettungsreinigung maschinell\nca. 430 m Gleiserneuerung konventionell\nca. 430 m vollständige Bettungserneuerung konventionell\nca. 1.000 m Randwegkonstruktion\nZusammenhangsarbeiten\nLogistik\n/////\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 01.04.2027\nFertigstellung der vertraglichen Leistung: 31.11.2027\n/////\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem Präqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein. \nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und zum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen Vertragsbedingungen zu entnehmen.\ngeforderte Präqualifikation - Los 4:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2028-02-28T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 4,
+    "maximumLotsAwardedPerSupplier": 4
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "df6adba0-13a8-4743-b0b9-ad8c9318f4be",
+  "version": "01",
+  "title": "GMT 2027 Paket 6 - 4 Lose - 3x Region Süd;  1x Region Nord",
+  "description": "Los 1 - Strecke 5904 GE/PSS Hersbruck-Pommelsbrunn ( Region Süd)\nLos 2 - Strecke 5320 GE/PSS Pleinfeld - Georgensgmünd ( Region Süd)\nLos 3 - Strecke 5320 GE/PSS Schwabach - Roth ( Region Süd)\nLos 4 - Strecke 2200/1402/1401 Bremen-Hastedt; Bremen-Vahr; Bremen Hbf (Region Nord)",
+  "procedureType": "open",
+  "nuts": [
+   "DEB35",
+   "DE259",
+   "DE25C",
+   "DE255",
+   "DE501"
+  ],
+  "cpv": [
+   "45234116"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 - Region Süd\nStrecke 5904\nGE/PSS Hersbruck-Pommelsbrunn",
+    "description": "Strecke 5904 GE/PSS Hersbruck-Pommelsbrunn\n\nca. 9.300 m Gleiserneuerung maschinell\nca. 6.400 m Bettungsreinigung maschinell\nca. 2.800 m Schotteraufbereitung maschinell\nca. 6.150 m Planumsverbesserung maschinell\nca. 2.850 m Gleiserneuerung konventionell\nca. 2.850 m vollständige Bettungserneuerung konventionell \nca. 2.550 m Planumsverbesserung konventionell\nca. 500 m Tiefenentwässerung, Graben profilieren\nca. 12.500 m Randweg herstellen\nca. 600 m Randwegkonstruktion\n55 Brückenbalken; 60 m Führungsschienen\n1 Bahnübergang \nZusammenhangsarbeiten\nLogistik\nSicherungs- und bauaffine Dienstleistungen\n/////\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 14.05.2027\nFertigstellung der vertraglichen Leistung: 31.12.2027\n/////\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem Präqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein. \nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und zum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen Vertragsbedingungen zu entnehmen.\ngeforderte Präqualifikation - Los 1:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h\nSicherungsleistung:\nVerzeichnis II",
+    "cpv": [
+     "45234116"
+    ],
+    "nuts": [
+     "DE259"
+    ],
+    "deadline": "2026-11-02T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2028-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Hinweise zu Eignung zur Berufsausübung, \nWirtschaftliche und finanzielle Leistungsfähigkeit und Technische und berufliche Leistungsfähigkeit siehe unter 2.1 Verfahren- Zentrale Elemente des Verfahrens, unter 2.1.4 Allgemeine Informationen- Zusätzliche Informationen siehe unter 5.1 dieses Loses\n/////\nDer Nachweis über die im folgenden aufgeführten Eignungsanforderungen wird durch das Vorhandensein einer Präqualifikation bei der Deutschen Bahn AG, den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V.(Präqualifikationsverzeichnis)/ PQVOB oder vorläufig mit einer Eigenerklärung über die Erfüllung der Eignungsanforderungen erbracht. Im letzten Fall sind auf gesondertes Verlangen der Vergabestelle die Nachweise zu den einzelnen Anforderungen innerhalb von 6 Kalendertagen vorzulegen. Auf gesondertes Verlangen der Vergabestelle ist ein Nachweis über das Vorhandensein einer PQ-VOB innerhalb von 6 Kalendertagen vorzulegen. Es ist zu beachten, dass nach „5.1 Beschreibung“ zwingend eine Präqualifikation der Deutschen Bahn AG erforderlich sein kann, falls dies dort ausdrücklich erwähnt ist. Eine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben. Zusätzliche Unterlagen sind nicht erwünscht."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen\n\nVertragserfüllungsbürgschaft\n    in Höhe von 5 v.H. der Auftragssumme\nBürgschaft für Mängelansprüche\n    in Höhe von 3 v.H. der Abrechnungssumme"
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 Region Süd\nStrecke 5320 GE/PSS Pleinfeld - Georgensgmünd",
+    "description": "Strecke 5320 GE/PSS Pleinfeld - Georgensgmünd\n\nca. 6.300 m Gleiserneuerung maschinell\nca. 6.300 m Bettungsreinigung maschinell\nca. 1.600 m Gleiserneuerung konventionell\nca. 1.600 m vollständige Bettungserneuerung konventionell \nca. 350 m Planumsverbesserung konventionell\nca. 260 m Graben profilieren\nca. 7.100 m Randweg herstellen\nca. 372 m Führungsschienen\nKanal reinigen, Filterschicht erneuern\nKampfmittel\nZusammenhangsarbeiten\nLogistik\nSicherungs- und bauaffine Dienstleistungen\n/////\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 01.05.2027\nFertigstellung der vertraglichen Leistung: 30.10.2027\n/////\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem Präqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein. \nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und zum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen Vertragsbedingungen zu entnehmen.\ngeforderte Präqualifikation - Los 2:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h\nSicherungsleistung:\nVerzeichnis III",
+    "cpv": [
+     "45234116"
+    ],
+    "nuts": [
+     "DE25C"
+    ],
+    "deadline": "2026-11-02T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2028-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Hinweise zu Eignung zur Berufsausübung, \nWirtschaftliche und finanzielle Leistungsfähigkeit und Technische und berufliche Leistungsfähigkeit siehe unter 2.1 Verfahren- Zentrale Elemente des Verfahrens, unter 2.1.4 Allgemeine Informationen- Zusätzliche Informationen siehe unter 5.1 dieses Loses\n/////\nDer Nachweis über die im folgenden aufgeführten Eignungsanforderungen wird durch das Vorhandensein einer Präqualifikation bei der Deutschen Bahn AG, den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V.(Präqualifikationsverzeichnis)/ PQVOB oder vorläufig mit einer Eigenerklärung über die Erfüllung der Eignungsanforderungen erbracht. Im letzten Fall sind auf gesondertes Verlangen der Vergabestelle die Nachweise zu den einzelnen Anforderungen innerhalb von 6 Kalendertagen vorzulegen. Auf gesondertes Verlangen der Vergabestelle ist ein Nachweis über das Vorhandensein einer PQ-VOB innerhalb von 6 Kalendertagen vorzulegen. Es ist zu beachten, dass nach „5.1 Beschreibung“ zwingend eine Präqualifikation der Deutschen Bahn AG erforderlich sein kann, falls dies dort ausdrücklich erwähnt ist. Eine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben. Zusätzliche Unterlagen sind nicht erwünscht."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen\n\nVertragserfüllungsbürgschaft\n    in Höhe von 5 v.H. der Auftragssumme\nBürgschaft für Mängelansprüche\n    in Höhe von 3 v.H. der Abrechnungssumme"
+    }
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3 Region Süd\nStrecke 5320 GE/PSS Schwabach - Roth",
+    "description": "Strecke 5320 GE/PSS Schwabach - Roth\n\nca. 8.600 m Gleiserneuerung maschinell\nca. 5.000 m Bettungsreinigung maschinell\nca. 3.600 m  Schotteraufbereitung maschinell\nca. 200 m Planumsverbesserung maschinell\nca. 821 m Gleiserneuerung konventionell\nca. 821 m vollständige Bettungserneuerung konventionell \nca. 141 m PSS konventionell\nca. 50 m Tiefenentwässerung\nca. 4.250 m Grabenfilter erneuern; Kanal spülen\nca. 680 m Graben profilieren\nca. 8.720 m Randweg herstellen\nca. 150 m Randwegkonstruktion\nca. 80 m Führungsschienen\nca. 300 m mobile Lärmschutzwand\nKampfmittel\nZusammenhangsarbeiten\nLogistik\nSicherungs- und bauaffine Dienstleistungen\n/////\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 24.09.2027\nFertigstellung der vertraglichen Leistung: 28.02.2028\n/////\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem Präqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein. \nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und zum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen Vertragsbedingungen zu entnehmen.\ngeforderte Präqualifikation - Los 3:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h\nSicherungsleistung:\nVerzeichnis III",
+    "cpv": [
+     "45234116"
+    ],
+    "nuts": [
+     "DE255"
+    ],
+    "deadline": "2026-11-02T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2028-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Hinweise zu Eignung zur Berufsausübung, \nWirtschaftliche und finanzielle Leistungsfähigkeit und Technische und berufliche Leistungsfähigkeit siehe unter 2.1 Verfahren- Zentrale Elemente des Verfahrens, unter 2.1.4 Allgemeine Informationen- Zusätzliche Informationen siehe unter 5.1 dieses Loses\n/////\nDer Nachweis über die im folgenden aufgeführten Eignungsanforderungen wird durch das Vorhandensein einer Präqualifikation bei der Deutschen Bahn AG, den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V.(Präqualifikationsverzeichnis)/ PQVOB oder vorläufig mit einer Eigenerklärung über die Erfüllung der Eignungsanforderungen erbracht. Im letzten Fall sind auf gesondertes Verlangen der Vergabestelle die Nachweise zu den einzelnen Anforderungen innerhalb von 6 Kalendertagen vorzulegen. Auf gesondertes Verlangen der Vergabestelle ist ein Nachweis über das Vorhandensein einer PQ-VOB innerhalb von 6 Kalendertagen vorzulegen. Es ist zu beachten, dass nach „5.1 Beschreibung“ zwingend eine Präqualifikation der Deutschen Bahn AG erforderlich sein kann, falls dies dort ausdrücklich erwähnt ist. Eine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben. Zusätzliche Unterlagen sind nicht erwünscht."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen\n\nVertragserfüllungsbürgschaft\n    in Höhe von 5 v.H. der Auftragssumme\nBürgschaft für Mängelansprüche\n    in Höhe von 3 v.H. der Abrechnungssumme"
+    }
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Los 4 Region Nord\nStrecke 2200/1402/1401 Bremen-Hastedt; Bremen-Vahr; Bremen Hbf",
+    "description": "Strecke 2200/1402/1401 Bremen-Hastedt; Bremen-Vahr; Bremen Hbf\n\nca. 6.250 m Gleiserneuerung maschinell\nca. 6.100 m Bettungsreinigung maschinell\nca. 430 m Gleiserneuerung konventionell\nca. 430 m vollständige Bettungserneuerung konventionell\nca. 1.000 m Randwegkonstruktion\nZusammenhangsarbeiten\nLogistik\n/////\ngem. Bauvertrag:\nBeginn der Ausführung auf der Baustelle: 01.04.2027\nFertigstellung der vertraglichen Leistung: 31.11.2027\n/////\nFür folgende Leistungen muss das für die Ausführung vorgesehene Unternehmen in einem Präqualifikationsverfahren bei der Deutschen Bahn AG präqualifiziert sein. \nEine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben.\nZusätzliche Unterlagen sind nicht erwünscht. Angaben zu den Teilnahmebedingungen und zum Präqualifikationsverfahren sind den Bewerbungsbedingungen Ziff. 18 und Besonderen Vertragsbedingungen zu entnehmen.\ngeforderte Präqualifikation - Los 4:\nOberbau konventionell-Schotter:\nGleise - Strecken II; Mischverkehr 121 - 160 km/h",
+    "cpv": [
+     "45234116"
+    ],
+    "nuts": [
+     "DE501"
+    ],
+    "deadline": "2026-11-02T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2028-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Hinweise zu Eignung zur Berufsausübung, \nWirtschaftliche und finanzielle Leistungsfähigkeit und Technische und berufliche Leistungsfähigkeit siehe unter 2.1 Verfahren- Zentrale Elemente des Verfahrens, unter 2.1.4 Allgemeine Informationen- Zusätzliche Informationen siehe unter 5.1 dieses Loses\n/////\nDer Nachweis über die im folgenden aufgeführten Eignungsanforderungen wird durch das Vorhandensein einer Präqualifikation bei der Deutschen Bahn AG, den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V.(Präqualifikationsverzeichnis)/ PQVOB oder vorläufig mit einer Eigenerklärung über die Erfüllung der Eignungsanforderungen erbracht. Im letzten Fall sind auf gesondertes Verlangen der Vergabestelle die Nachweise zu den einzelnen Anforderungen innerhalb von 6 Kalendertagen vorzulegen. Auf gesondertes Verlangen der Vergabestelle ist ein Nachweis über das Vorhandensein einer PQ-VOB innerhalb von 6 Kalendertagen vorzulegen. Es ist zu beachten, dass nach „5.1 Beschreibung“ zwingend eine Präqualifikation der Deutschen Bahn AG erforderlich sein kann, falls dies dort ausdrücklich erwähnt ist. Eine dementsprechende Erklärung ist im Offenen Verfahren mit dem Angebot abzugeben. Zusätzliche Unterlagen sind nicht erwünscht."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen\n\nVertragserfüllungsbürgschaft\n    in Höhe von 5 v.H. der Auftragssumme\nBürgschaft für Mängelansprüche\n    in Höhe von 3 v.H. der Abrechnungssumme"
+    }
+   }
+  ]
+ }
+}

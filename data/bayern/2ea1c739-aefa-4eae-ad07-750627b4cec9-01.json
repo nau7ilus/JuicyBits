@@ -1,0 +1,205 @@
+{
+ "id": "2ea1c739-aefa-4eae-ad07-750627b4cec9-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "2ea1c739-aefa-4eae-ad07-750627b4cec9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2ea1c739-aefa-4eae-ad07-750627b4cec9",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:2ea1c739-aefa-4eae-ad07-750627b4cec9-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:2ea1c739-aefa-4eae-ad07-750627b4cec9-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2ea1c739-aefa-4eae-ad07-750627b4cec9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Tafelanlagen_215110-096100-339",
+  "buyer": "Landkreis Passau",
+  "cpv": [
+   "45000000",
+   "45262800"
+  ],
+  "nuts": [
+   "DE222",
+   "DE228"
+  ],
+  "deadline": "2026-11-12T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-de614b9a-b32d-4942-af71-5db34ecdc957",
+  "id": "2ea1c739-aefa-4eae-ad07-750627b4cec9",
+  "date": "2026-10-23T02:08:35Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Passau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "092750000000",
+     "legalName": "Landkreis Passau"
+    },
+    "address": {
+     "streetAddress": "Domplatz 11",
+     "locality": "Passau",
+     "region": "DE222",
+     "postalCode": "94032",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0000",
+     "legalName": "Vergabekammer Südbayern der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Passau",
+   "id": "092750000000",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Passau"
+   },
+   "address": {
+    "streetAddress": "Domplatz 11",
+    "locality": "Passau",
+    "region": "DE222",
+    "postalCode": "94032",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "de614b9a-b32d-4942-af71-5db34ecdc957",
+   "title": "Tafelanlagen_215110-096100-339",
+   "description": "Durchführung von Trockenbauarbeiten im Rahmen der Sanierung des BA II an der Staatl. Realschule Hauzenberg",
+   "procuringEntity": {
+    "name": "Landkreis Passau",
+    "id": "092750000000"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262800",
+       "description": "Building extension work"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Staatliche Realschule Hauzenberg"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Eckmühlstraße 20",
+      "locality": "Hauzenberg",
+      "region": "DE228",
+      "postalCode": "94051",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331264",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "215110-096100, Trockenbauarbeiten-316 BAII",
+     "description": "Durchführung von Trockenbauarbeiten im Rahmen der Sanierung des BA II an der Staatl. Realschule Hauzenberg",
+     "contractPeriod": {
+      "startDate": "2026-08-10T00:00:00+02:00",
+      "endDate": "2026-10-23T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "2ea1c739-aefa-4eae-ad07-750627b4cec9",
+  "version": "01",
+  "title": "Tafelanlagen_215110-096100-339",
+  "description": "Durchführung von Trockenbauarbeiten im Rahmen der Sanierung des BA II an der Staatl. Realschule Hauzenberg",
+  "procedureType": "open",
+  "nuts": [
+   "DE228"
+  ],
+  "cpv": [
+   "45000000",
+   "45262800"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "215110-096100, Trockenbauarbeiten-316 BAII",
+    "description": "Durchführung von Trockenbauarbeiten im Rahmen der Sanierung des BA II an der Staatl. Realschule Hauzenberg",
+    "cpv": [
+     "45000000",
+     "45262800"
+    ],
+    "nuts": [
+     "DE228"
+    ],
+    "deadline": "2026-11-12T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-08-10+02:00",
+    "plannedEnd": "2026-10-23+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331264"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "id": "162585c4-9bcc-498b-b3fd-dc9d652247c1-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "162585c4-9bcc-498b-b3fd-dc9d652247c1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=162585c4-9bcc-498b-b3fd-dc9d652247c1",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:162585c4-9bcc-498b-b3fd-dc9d652247c1-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:162585c4-9bcc-498b-b3fd-dc9d652247c1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/162585c4-9bcc-498b-b3fd-dc9d652247c1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag über die Lieferung von Bürostühlen GB StMUV",
+  "buyer": "Bayerisches Landesamt für Umwelt",
+  "cpv": [
+   "39130000"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-10-26T12:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c076600d-1324-468c-b0fb-1dd3c260eec9",
+  "id": "162585c4-9bcc-498b-b3fd-dc9d652247c1",
+  "date": "2026-10-23T02:08:22Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerisches Landesamt für Umwelt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63",
+     "legalName": "Bayerisches Landesamt für Umwelt"
+    },
+    "address": {
+     "streetAddress": "Bürgermeister-Ulrich Str. 160",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86179",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Umwelt (Hof)",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "16171123-8fff-438a-be14-5d81ae12bd4d",
+     "legalName": "Bayerisches Landesamt für Umwelt (Hof)"
+    },
+    "address": {
+     "streetAddress": "Hans-Högn-Straße 12",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerisches Landesamt für Umwelt",
+   "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerisches Landesamt für Umwelt"
+   },
+   "address": {
+    "streetAddress": "Bürgermeister-Ulrich Str. 160",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86179",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c076600d-1324-468c-b0fb-1dd3c260eec9",
+   "title": "Rahmenvertrag über die Lieferung von Bürostühlen GB StMUV",
+   "description": "Rahmenvertrag über die Lieferung von Bürodreh- und Besucherstühlen für die Behörden des Geschäftsbereiches Umwelt und Verbraucherschutz",
+   "procuringEntity": {
+    "name": "Bayerisches Landesamt für Umwelt",
+    "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39130000",
+      "description": "Office furniture"
+     },
+     "deliveryLocation": {
+      "description": "Auslieferung an diverse Dienststellen in Bayern"
+     },
+     "deliveryAddress": {
+      "locality": "Behörden des GB StMUV",
+      "region": "DE271",
+      "postalCode": "Behörden ",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39130000",
+      "description": "Office furniture"
+     },
+     "deliveryLocation": {
+      "description": "Auslieferung an diverse Dienststellen in Bayern"
+     },
+     "deliveryAddress": {
+      "locality": "Behörden des GB StMUV",
+      "region": "DE271",
+      "postalCode": "Behörden ",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/37b630e2-a27b-448b-a01d-fcf736499fee",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/37b630e2-a27b-448b-a01d-fcf736499fee",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": " Bürodrehstühle ",
+     "description": "Gemäß Leistungsbeschreibung liegt die geschätzte Höchstabnahmemenge ( bei maximaler Laufzeit von vier Jahren ) bei den Bürodrehstühlen mit oder ohne Armlehne sowie Stoff- oder Kunstlederbezug bei insgesamt 1800. \nDie bei den einzelnen Kostenpositionen angegebenen Mengen wurden für den Angebotsvergleich festgelegt. \nDie tatsächlichen abgefragten Mengen können nach Bedarf variieren. ",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2031-02-28T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Besucherstühle ",
+     "description": "Besucherstühle ",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2031-02-28T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "162585c4-9bcc-498b-b3fd-dc9d652247c1",
+  "version": "01",
+  "title": "Rahmenvertrag über die Lieferung von Bürostühlen GB StMUV",
+  "description": "Rahmenvertrag über die Lieferung von Bürodreh- und Besucherstühlen für die Behörden des Geschäftsbereiches Umwelt und Verbraucherschutz",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "39130000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Bürodrehstühle",
+    "description": "Gemäß Leistungsbeschreibung liegt die geschätzte Höchstabnahmemenge ( bei maximaler Laufzeit von vier Jahren ) bei den Bürodrehstühlen mit oder ohne Armlehne sowie Stoff- oder Kunstlederbezug bei insgesamt 1800. \nDie bei den einzelnen Kostenpositionen angegebenen Mengen wurden für den Angebotsvergleich festgelegt. \nDie tatsächlichen abgefragten Mengen können nach Bedarf variieren.",
+    "cpv": [
+     "39130000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-10-26T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2031-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/d3c089b8-1009-404e-a36d-fa8995099e3d/awardcriteria",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Besucherstühle",
+    "description": "Besucherstühle",
+    "cpv": [
+     "39130000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-10-26T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2031-02-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/d3c089b8-1009-404e-a36d-fa8995099e3d/awardcriteria",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

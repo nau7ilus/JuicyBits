@@ -308,6 +308,8 @@
   "noticeId": "d05e7953-7a22-4d20-bd43-490ac9f60b87",
   "version": "01",
   "title": "Unterhalts- und Glasreinigung AELF Abensberg- Landshut",
+  "description": "Der Freistaat Bayern, vertreten durch das Amt für Ernährung, Landwirtschaft und Forsten Abensberg- Landshut, schreibt die Unterhaltsreinigung  (Los 1 & Los 3) sowie die Glas- und Rahmenreinigung (Los 2 & Los 4) für die Gebäude in Abensberg inkl. Siegenburg und in Landshut aus. \n \nBei der Unterhaltsreinigung für das Dienstgebäude in Abensberg und das Forstrevier in Siegenburg (Los 1) beläuft sich die Grundreinigungsfläche auf rund 1.800 m². Die Jahresreinigungsfläche beträgt rund 154.000 m². Für das Dienstgebäude in Landshut (Los 3) beläuft sich die Grundreinigungsfläche auf rund 2.200 m². Die Jahresreinigungsfläche beträgt rund 240.000 m².\n\nBei der Glas- und Rahmenreinigung für das Dienstgebäude in Abensberg und das Forstrevier in Siegenburg (Los 2) beläuft sich die Grundfläche auf rund 130 m². Die Jahresreinigungsfläche beträgt rund 240 m².\nFür das Dienstgebäude in Landshut (Los 4) beläuft sich die Grundreinigungsfläche auf rund 420 m². Die Jahresreinigungsfläche beträgt rund 840 m². \n\nEine Objektbesichtigung ist fakultativ (FREIWILLIG). Näheres zur Anmeldefrist siehe Vergabeunterlagen.",
+  "procedureType": "open",
   "nuts": [
    "DE227"
   ],
@@ -320,6 +322,7 @@
    {
     "id": "LOT-0001",
     "title": "Unterhaltsreinigung AELF Abensberg- Landshut am Dienstort Abensberg inkl. Forstrevier Siegenburg",
+    "description": "Unterhaltsreinigung AELF Abensberg- Landshut am Dienstort Abensberg inkl. Forstrevier Siegenburg",
     "cpv": [
      "90911200"
     ],
@@ -330,13 +333,30 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2b4acd3d-fb1c-4e3a-a7a5-53c0654646fc/awardcriteria",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0002",
     "title": "Glas- und Rahmenreinigung AELF Abensberg- Landshut am Dienstort Abensberg inkl. Forstrevier Siegenburg",
+    "description": "Glas- und Rahmenreinigung AELF Abensberg- Landshut am Dienstort Abensberg inkl. Forstrevier Siegenburg",
     "cpv": [
      "90911200",
      "90911300"
@@ -348,13 +368,24 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0003",
     "title": "Unterhaltsreinigung AELF Abensberg- Landshut am Dienstort Landshut",
+    "description": "Unterhaltsreinigung AELF Abensberg- Landshut am Dienstort Landshut",
     "cpv": [
      "90911200"
     ],
@@ -365,13 +396,30 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2b4acd3d-fb1c-4e3a-a7a5-53c0654646fc/awardcriteria",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0004",
     "title": "Glas- und Rahmenreinigung AELF Abensberg- Landshut am Dienstort Landshut",
+    "description": "Glas- und Rahmenreinigung AELF Abensberg- Landshut am Dienstort Landshut",
     "cpv": [
      "90911200",
      "90911300"
@@ -383,9 +431,19 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

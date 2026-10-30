@@ -1,0 +1,555 @@
+{
+ "id": "f9226f47-b650-48a6-96e2-e5b3c23cfb31-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "f9226f47-b650-48a6-96e2-e5b3c23cfb31",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f9226f47-b650-48a6-96e2-e5b3c23cfb31",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:f9226f47-b650-48a6-96e2-e5b3c23cfb31-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:f9226f47-b650-48a6-96e2-e5b3c23cfb31-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f9226f47-b650-48a6-96e2-e5b3c23cfb31?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Digitale Wasserzähler",
+  "buyer": "swa Netze GmbH",
+  "cpv": [
+   "38421100"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-adfa51d2-0561-49c7-8751-144f5c41bc08",
+  "id": "f9226f47-b650-48a6-96e2-e5b3c23cfb31",
+  "date": "2026-10-22T02:08:44Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke Augsburg Holding GmbH\nMethoden- und Projekteinkauf",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 00002395",
+     "legalName": "Stadtwerke Augsburg Holding GmbH\nMethoden- und Projekteinkauf"
+    },
+    "address": {
+     "streetAddress": "Hoher Weg 1",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "swa Netze GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE815578902",
+     "legalName": "swa Netze GmbH"
+    },
+    "address": {
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "swa Netze GmbH",
+   "id": "DE815578902",
+   "identifier": {
+    "id": "ORG-0002",
+    "legalName": "swa Netze GmbH"
+   },
+   "address": {
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86152",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "adfa51d2-0561-49c7-8751-144f5c41bc08",
+   "title": "Digitale Wasserzähler",
+   "description": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029 mit folgenden Klassen / Losen:\nLos 1a - Q3=4\nLos 1b - Q3=4\nLos 2 - Q3=10\nLos 3 - Q3=16\n\nLosaufteilung – Los 1:\nEs werden nur Angebote gewertet, welche für beide Teillose (a und b) eingereicht werden. Das heißt, dass wenn man ein Angebot für das Los 1 abgeben möchte, sowohl für das Los 1a als auch für das Los 1b ein Angebot einreichen muss. Die Vergabe der Lose erfolgt gemäß der Anlage „Zuschlagskriterien und Gewichtung“ an die jeweils wirtschaftlichsten Anbieter für die Teillose. Sollte ein Bieter für beide Teillose (Los 1a UND Los 1b) das wirtschaftlichste Angebot eingereicht haben, so erfolgt für diesen Bieter die Vergabe auf das Teillos a und das Teillos b wird an das zweitwirtschaftlichste Angebot vergeben. Die Vergabe beider Teillose (Los 1a und Los 1b) an denselben Bieter ist ausgeschlossen.",
+   "procuringEntity": {
+    "name": "swa Netze GmbH",
+    "id": "DE815578902"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38421100",
+      "description": "Water meters"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38421100",
+      "description": "Water meters"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38421100",
+      "description": "Water meters"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38421100",
+      "description": "Water meters"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.subreport.de/E71835917",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.subreport.de/E71835917",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.subreport.de/E71835917",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.subreport.de/E71835917",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029",
+     "description": "Lieferung von digitalen Wasserzählern - Q3=4"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029",
+     "description": "Lieferung von digitalen Wasserzählern - Q3=4"
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029",
+     "description": "Lieferung von digitalen Wasserzählern - Q3= 10"
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029",
+     "description": "Lieferung von digitalen Wasserzählern - Q3=16"
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 4
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "f9226f47-b650-48a6-96e2-e5b3c23cfb31",
+  "version": "01",
+  "title": "Digitale Wasserzähler",
+  "description": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029 mit folgenden Klassen / Losen:\nLos 1a - Q3=4\nLos 1b - Q3=4\nLos 2 - Q3=10\nLos 3 - Q3=16\n\nLosaufteilung – Los 1:\nEs werden nur Angebote gewertet, welche für beide Teillose (a und b) eingereicht werden. Das heißt, dass wenn man ein Angebot für das Los 1 abgeben möchte, sowohl für das Los 1a als auch für das Los 1b ein Angebot einreichen muss. Die Vergabe der Lose erfolgt gemäß der Anlage „Zuschlagskriterien und Gewichtung“ an die jeweils wirtschaftlichsten Anbieter für die Teillose. Sollte ein Bieter für beide Teillose (Los 1a UND Los 1b) das wirtschaftlichste Angebot eingereicht haben, so erfolgt für diesen Bieter die Vergabe auf das Teillos a und das Teillos b wird an das zweitwirtschaftlichste Angebot vergeben. Die Vergabe beider Teillose (Los 1a und Los 1b) an denselben Bieter ist ausgeschlossen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "38421100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029",
+    "description": "Lieferung von digitalen Wasserzählern - Q3=4",
+    "cpv": [
+     "38421100"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 1) Darstellung des Unternehmens mit folgenden Angaben: \n- Firmenprofil -Unternehmensgröße (Sitz, Niederlassungen, …) \n- Geschäftsstruktur \n- vollständige und detaillierte Eignerstruktur der gesamten Unternehmens- / Konzerngesellschaft"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "lfd. Nr. 2) Nachweis über den Eintrag in einer Handwerksrolle (Kopie nicht älter als 6 Monate) ein Berufsregister oder das Register \neiner Industrie- und Handelskammer oder eines Registers einer Institution/Einrichtung /Behörde jeweils nach Maßgabe der Rechtsvorschriften des Mitgliedsstaates, in dem der Bieter ansässig ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 3) Bestätigung in Form einer Eigenerklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“), dass kein Ausschlussgrund entsprechend § 123 Abs. 1 und 4 GWB vorliegt. Alternativ zur Eigenerklärung auf dem Formblatt kann der Bewerber zum Nachweis entsprechend §123 Abs. 1 GWB einen Bundeszentralregisterauszug (Auskunft aus dem Gewerbezentralregister nach §150 GewO; Führungszeugnis ist nicht ausreichend!) bzw. mehrere Bundeszentralregisterauszüge der Personen, die zur Geschäftsführung berufen sind oder Handlungsvollmacht besitzen einreichen. Der Stichtag der Bundeszentralregisterauszüge darf zum Zeitpunkt des Angebotes nicht länger als 3 Monate zurückliegen. Der Nachweis entsprechend § 123 Abs. 4 GWB ist in diesem Fall separat zu erbringen. Ausländische Unternehmen haben ggf. vergleichbare Nachweise ihres Herkunftslandes in deutscher Sprache oder beglaubigter Übersetzung abzugeben bzw. die Eigenerklärung in Bezug auf ausländische den in § 123 Abs. 1 GWB vergleichbare Strafnormen abzugeben."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 4) Bestätigung in Form einer Eigenerklärung auf einem Formblatt (zum Download verfügbar auf der -Vergabeplattform „subreport ELViS“), dass: \n- das Unternehmen bei der Ausführung öffentlicher Aufträge nicht gegengeltende umwelt-, sozial oder arbeitsrechtliche Verpflichtungen verstoßen hat, - das Unternehmen die Vorgaben des Mindestlohngesetzes (MiLoG) einhält (sofern die Leistungserbringung innerhalb \nDeutschlands erfolgt bzw. das Unternehmen in Deutschland ansässig ist), \n- das Unternehmen die Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgemäß erfüllt hat, \n- das Unternehmen die Verpflichtung zur Zahlung der Beiträge zur Berufsgenossenschaft und gesetzlichen Sozialversicherung ordnungsgemäß erfüllt hat, \n- das Unternehmen nicht zahlungsunfähig ist, über das Vermögen des Unternehmens kein Insolvenzverfahren oder ein vergleichbares Verfahren beantragt oder eröffnet worden ist, sich das Unternehmen nicht im Verfahrender Liquidation befindet oder seine Tätigkeit eingestellt hat, \n- das Unternehmen oder eine Person, deren Verhalten nach § 123 Abs. 3 GWB dem Unternehmen zuzurechnen ist, im Rahmen der beruflichen Tätigkeit nachweislich keine schwere Verfehlung begangen hat, durch die die Integrität des Unternehmens infrage gestellt wird."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 5) Eigenerklärung Sanktionsmaßnahmen Russland - Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform \n„subreport ELViS“),gemäß Verordnung (EU) 2022/576"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "lfd. 6) Nachweis einer aktuellen Betriebshaftpflichtversicherung mit Deckungssummen von mindestens 2 Mio. EUR"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "lfd. Nr. 7) Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“), über den Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren für vergleichbare Leistungen. Ausländische Unternehmen haben, sofern möglich, vergleichbare Nachweise ihres Herkunftslandes in deutscher Sprache oder beglaubigter Übersetzung abzugeben."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "lfd. Nr. 8) Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) zum Nachweis über die Erfüllung der u. g. Anforderungen:\nDie Bauart eichpflichtiger Messeinrichtungen muss der Europäischen Messgeräterichtlinie (MID 2014/32/EU), dem Mess- und Eichgesetz (MessEG), der Mess- und Eichverordnung (MessEV) und den anerkannten Regeln der Technik entsprechen. Anerkannte Regeln der Technik im Sinne des MessEG sind insbesondere die durch den Regelermittlungsausschuss (REA) bekannt gemachten und im Bundesanzeiger veröffentlichten Regeln zum jeweils aktuellen Stand."
+     },
+     {
+      "type": "slc-sche-env-cert-indep",
+      "description": "lfd. Nr. 9) Zertifizierung nach ISO 14001 (gültiges Zertifikat als Nachweis ist vorzulegen) oder vergleichbar."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "lfd. Nr. 10) Zertifikat zum Qualitätsmanagementsystem gemäß DIN EN ISO 9001 (gültiges Zertifikat als Nachweis ist vorzulegen) oder vergleichbar."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das Angebot mit dem günstigsten Preis erhält 90 Punkte. Die nachfolgenden Angebot erhalten in jenem Verhältnis weniger Punkte, als ihre jeweiligen Angebotssummen in Prozentpunkten teurer sind als das günstigste Angebot (reziproker Ansatz).\n\nDetails siehe Dokument \"Zuschlagskriterien und Gewichtung\"",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Bereits bestandenes Qualifikationsverfahren zur Angebotsabgabe\n\nDetails siehe Dokument \"Zuschlagskriterien und Gewichtung\"",
+      "weight": 10
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029",
+    "description": "Lieferung von digitalen Wasserzählern - Q3=4",
+    "cpv": [
+     "38421100"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 1) Darstellung des Unternehmens mit folgenden Angaben: \n- Firmenprofil -Unternehmensgröße (Sitz, Niederlassungen, …) \n- Geschäftsstruktur \n- vollständige und detaillierte Eignerstruktur der gesamten Unternehmens- / Konzerngesellschaft"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "lfd. Nr. 2) Nachweis über den Eintrag in einer Handwerksrolle (Kopie nicht älter als 6 Monate) ein Berufsregister oder das Register \neiner Industrie- und Handelskammer oder eines Registers einer Institution/Einrichtung /Behörde jeweils nach Maßgabe der Rechtsvorschriften des Mitgliedsstaates, in dem der Bieter ansässig ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 3) Bestätigung in Form einer Eigenerklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“), dass kein Ausschlussgrund entsprechend § 123 Abs. 1 und 4 GWB vorliegt. Alternativ zur Eigenerklärung auf dem Formblatt kann der Bewerber zum Nachweis entsprechend §123 Abs. 1 GWB einen Bundeszentralregisterauszug (Auskunft aus dem Gewerbezentralregister nach §150 GewO; Führungszeugnis ist nicht ausreichend!) bzw. mehrere Bundeszentralregisterauszüge der Personen, die zur Geschäftsführung berufen sind oder Handlungsvollmacht besitzen einreichen. Der Stichtag der Bundeszentralregisterauszüge darf zum Zeitpunkt des Angebotes nicht länger als 3 Monate zurückliegen. Der Nachweis entsprechend § 123 Abs. 4 GWB ist in diesem Fall separat zu erbringen. Ausländische Unternehmen haben ggf. vergleichbare Nachweise ihres Herkunftslandes in deutscher Sprache oder beglaubigter Übersetzung abzugeben bzw. die Eigenerklärung in Bezug auf ausländische den in § 123 Abs. 1 GWB vergleichbare Strafnormen abzugeben."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 4) Bestätigung in Form einer Eigenerklärung auf einem Formblatt (zum Download verfügbar auf der -Vergabeplattform „subreport ELViS“), dass: \n- das Unternehmen bei der Ausführung öffentlicher Aufträge nicht gegengeltende umwelt-, sozial oder arbeitsrechtliche Verpflichtungen verstoßen hat, - das Unternehmen die Vorgaben des Mindestlohngesetzes (MiLoG) einhält (sofern die Leistungserbringung innerhalb \nDeutschlands erfolgt bzw. das Unternehmen in Deutschland ansässig ist), \n- das Unternehmen die Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgemäß erfüllt hat, \n- das Unternehmen die Verpflichtung zur Zahlung der Beiträge zur Berufsgenossenschaft und gesetzlichen Sozialversicherung ordnungsgemäß erfüllt hat, \n- das Unternehmen nicht zahlungsunfähig ist, über das Vermögen des Unternehmens kein Insolvenzverfahren oder ein vergleichbares Verfahren beantragt oder eröffnet worden ist, sich das Unternehmen nicht im Verfahrender Liquidation befindet oder seine Tätigkeit eingestellt hat, \n- das Unternehmen oder eine Person, deren Verhalten nach § 123 Abs. 3 GWB dem Unternehmen zuzurechnen ist, im Rahmen der beruflichen Tätigkeit nachweislich keine schwere Verfehlung begangen hat, durch die die Integrität des Unternehmens infrage gestellt wird."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 5) Eigenerklärung Sanktionsmaßnahmen Russland - Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform \n„subreport ELViS“),gemäß Verordnung (EU) 2022/576"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "lfd. 6) Nachweis einer aktuellen Betriebshaftpflichtversicherung mit Deckungssummen von mindestens 2 Mio. EUR"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "lfd. Nr. 7) Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“), über den Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren für vergleichbare Leistungen. Ausländische Unternehmen haben, sofern möglich, vergleichbare Nachweise ihres Herkunftslandes in deutscher Sprache oder beglaubigter Übersetzung abzugeben."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "lfd. Nr. 8) Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) zum Nachweis über die Erfüllung der u. g. Anforderungen:\nDie Bauart eichpflichtiger Messeinrichtungen muss der Europäischen Messgeräterichtlinie (MID 2014/32/EU), dem Mess- und Eichgesetz (MessEG), der Mess- und Eichverordnung (MessEV) und den anerkannten Regeln der Technik entsprechen. Anerkannte Regeln der Technik im Sinne des MessEG sind insbesondere die durch den Regelermittlungsausschuss (REA) bekannt gemachten und im Bundesanzeiger veröffentlichten Regeln zum jeweils aktuellen Stand."
+     },
+     {
+      "type": "slc-sche-env-cert-indep",
+      "description": "lfd. Nr. 9) Zertifizierung nach ISO 14001 (gültiges Zertifikat als Nachweis ist vorzulegen) oder vergleichbar."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "lfd. Nr. 10) Zertifikat zum Qualitätsmanagementsystem gemäß DIN EN ISO 9001 (gültiges Zertifikat als Nachweis ist vorzulegen) oder vergleichbar."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das Angebot mit dem günstigsten Preis erhält 90 Punkte. Die nachfolgenden Angebot erhalten in jenem Verhältnis weniger Punkte, als ihre jeweiligen Angebotssummen in Prozentpunkten teurer sind als das günstigste Angebot (reziproker Ansatz).\n\nDetails siehe Dokument \"Zuschlagskriterien und Gewichtung\"",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Bereits bestandenes Qualifikationsverfahren zur Angebotsabgabe\n\nDetails siehe Dokument \"Zuschlagskriterien und Gewichtung\"",
+      "weight": 10
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029",
+    "description": "Lieferung von digitalen Wasserzählern - Q3= 10",
+    "cpv": [
+     "38421100"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 1) Darstellung des Unternehmens mit folgenden Angaben: \n- Firmenprofil -Unternehmensgröße (Sitz, Niederlassungen, …) \n- Geschäftsstruktur \n- vollständige und detaillierte Eignerstruktur der gesamten Unternehmens- / Konzerngesellschaft"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "lfd. Nr. 2) Nachweis über den Eintrag in einer Handwerksrolle (Kopie nicht älter als 6 Monate) ein Berufsregister oder das Register \neiner Industrie- und Handelskammer oder eines Registers einer Institution/Einrichtung /Behörde jeweils nach Maßgabe der Rechtsvorschriften des Mitgliedsstaates, in dem der Bieter ansässig ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 3) Bestätigung in Form einer Eigenerklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“), dass kein Ausschlussgrund entsprechend § 123 Abs. 1 und 4 GWB vorliegt. Alternativ zur Eigenerklärung auf dem Formblatt kann der Bewerber zum Nachweis entsprechend §123 Abs. 1 GWB einen Bundeszentralregisterauszug (Auskunft aus dem Gewerbezentralregister nach §150 GewO; Führungszeugnis ist nicht ausreichend!) bzw. mehrere Bundeszentralregisterauszüge der Personen, die zur Geschäftsführung berufen sind oder Handlungsvollmacht besitzen einreichen. Der Stichtag der Bundeszentralregisterauszüge darf zum Zeitpunkt des Angebotes nicht länger als 3 Monate zurückliegen. Der Nachweis entsprechend § 123 Abs. 4 GWB ist in diesem Fall separat zu erbringen. Ausländische Unternehmen haben ggf. vergleichbare Nachweise ihres Herkunftslandes in deutscher Sprache oder beglaubigter Übersetzung abzugeben bzw. die Eigenerklärung in Bezug auf ausländische den in § 123 Abs. 1 GWB vergleichbare Strafnormen abzugeben."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 4) Bestätigung in Form einer Eigenerklärung auf einem Formblatt (zum Download verfügbar auf der -Vergabeplattform „subreport ELViS“), dass: \n- das Unternehmen bei der Ausführung öffentlicher Aufträge nicht gegengeltende umwelt-, sozial oder arbeitsrechtliche Verpflichtungen verstoßen hat, - das Unternehmen die Vorgaben des Mindestlohngesetzes (MiLoG) einhält (sofern die Leistungserbringung innerhalb \nDeutschlands erfolgt bzw. das Unternehmen in Deutschland ansässig ist), \n- das Unternehmen die Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgemäß erfüllt hat, \n- das Unternehmen die Verpflichtung zur Zahlung der Beiträge zur Berufsgenossenschaft und gesetzlichen Sozialversicherung ordnungsgemäß erfüllt hat, \n- das Unternehmen nicht zahlungsunfähig ist, über das Vermögen des Unternehmens kein Insolvenzverfahren oder ein vergleichbares Verfahren beantragt oder eröffnet worden ist, sich das Unternehmen nicht im Verfahrender Liquidation befindet oder seine Tätigkeit eingestellt hat, \n- das Unternehmen oder eine Person, deren Verhalten nach § 123 Abs. 3 GWB dem Unternehmen zuzurechnen ist, im Rahmen der beruflichen Tätigkeit nachweislich keine schwere Verfehlung begangen hat, durch die die Integrität des Unternehmens infrage gestellt wird."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 5) Eigenerklärung Sanktionsmaßnahmen Russland - Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform \n„subreport ELViS“),gemäß Verordnung (EU) 2022/576"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "lfd. 6) Nachweis einer aktuellen Betriebshaftpflichtversicherung mit Deckungssummen von mindestens 2 Mio. EUR"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "lfd. Nr. 7) Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“), über den Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren für vergleichbare Leistungen. Ausländische Unternehmen haben, sofern möglich, vergleichbare Nachweise ihres Herkunftslandes in deutscher Sprache oder beglaubigter Übersetzung abzugeben."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "lfd. Nr. 8) Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) zum Nachweis über die Erfüllung der u. g. Anforderungen:\nDie Bauart eichpflichtiger Messeinrichtungen muss der Europäischen Messgeräterichtlinie (MID 2014/32/EU), dem Mess- und Eichgesetz (MessEG), der Mess- und Eichverordnung (MessEV) und den anerkannten Regeln der Technik entsprechen. Anerkannte Regeln der Technik im Sinne des MessEG sind insbesondere die durch den Regelermittlungsausschuss (REA) bekannt gemachten und im Bundesanzeiger veröffentlichten Regeln zum jeweils aktuellen Stand."
+     },
+     {
+      "type": "slc-sche-env-cert-indep",
+      "description": "lfd. Nr. 9) Zertifizierung nach ISO 14001 (gültiges Zertifikat als Nachweis ist vorzulegen) oder vergleichbar."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "lfd. Nr. 10) Zertifikat zum Qualitätsmanagementsystem gemäß DIN EN ISO 9001 (gültiges Zertifikat als Nachweis ist vorzulegen) oder vergleichbar."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das Angebot mit dem günstigsten Preis erhält 90 Punkte. Die nachfolgenden Angebot erhalten in jenem Verhältnis weniger Punkte, als ihre jeweiligen Angebotssummen in Prozentpunkten teurer sind als das günstigste Angebot (reziproker Ansatz).\n\nDetails siehe Dokument \"Zuschlagskriterien und Gewichtung\"",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Bereits bestandenes Qualifikationsverfahren zur Angebotsabgabe\n\nDetails siehe Dokument \"Zuschlagskriterien und Gewichtung\"",
+      "weight": 10
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Lieferung von digitalen Wasserzählern für die Jahre 2027 bis 2029",
+    "description": "Lieferung von digitalen Wasserzählern - Q3=16",
+    "cpv": [
+     "38421100"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 1) Darstellung des Unternehmens mit folgenden Angaben: \n- Firmenprofil -Unternehmensgröße (Sitz, Niederlassungen, …) \n- Geschäftsstruktur \n- vollständige und detaillierte Eignerstruktur der gesamten Unternehmens- / Konzerngesellschaft"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "lfd. Nr. 2) Nachweis über den Eintrag in einer Handwerksrolle (Kopie nicht älter als 6 Monate) ein Berufsregister oder das Register \neiner Industrie- und Handelskammer oder eines Registers einer Institution/Einrichtung /Behörde jeweils nach Maßgabe der Rechtsvorschriften des Mitgliedsstaates, in dem der Bieter ansässig ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 3) Bestätigung in Form einer Eigenerklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“), dass kein Ausschlussgrund entsprechend § 123 Abs. 1 und 4 GWB vorliegt. Alternativ zur Eigenerklärung auf dem Formblatt kann der Bewerber zum Nachweis entsprechend §123 Abs. 1 GWB einen Bundeszentralregisterauszug (Auskunft aus dem Gewerbezentralregister nach §150 GewO; Führungszeugnis ist nicht ausreichend!) bzw. mehrere Bundeszentralregisterauszüge der Personen, die zur Geschäftsführung berufen sind oder Handlungsvollmacht besitzen einreichen. Der Stichtag der Bundeszentralregisterauszüge darf zum Zeitpunkt des Angebotes nicht länger als 3 Monate zurückliegen. Der Nachweis entsprechend § 123 Abs. 4 GWB ist in diesem Fall separat zu erbringen. Ausländische Unternehmen haben ggf. vergleichbare Nachweise ihres Herkunftslandes in deutscher Sprache oder beglaubigter Übersetzung abzugeben bzw. die Eigenerklärung in Bezug auf ausländische den in § 123 Abs. 1 GWB vergleichbare Strafnormen abzugeben."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 4) Bestätigung in Form einer Eigenerklärung auf einem Formblatt (zum Download verfügbar auf der -Vergabeplattform „subreport ELViS“), dass: \n- das Unternehmen bei der Ausführung öffentlicher Aufträge nicht gegengeltende umwelt-, sozial oder arbeitsrechtliche Verpflichtungen verstoßen hat, - das Unternehmen die Vorgaben des Mindestlohngesetzes (MiLoG) einhält (sofern die Leistungserbringung innerhalb \nDeutschlands erfolgt bzw. das Unternehmen in Deutschland ansässig ist), \n- das Unternehmen die Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgemäß erfüllt hat, \n- das Unternehmen die Verpflichtung zur Zahlung der Beiträge zur Berufsgenossenschaft und gesetzlichen Sozialversicherung ordnungsgemäß erfüllt hat, \n- das Unternehmen nicht zahlungsunfähig ist, über das Vermögen des Unternehmens kein Insolvenzverfahren oder ein vergleichbares Verfahren beantragt oder eröffnet worden ist, sich das Unternehmen nicht im Verfahrender Liquidation befindet oder seine Tätigkeit eingestellt hat, \n- das Unternehmen oder eine Person, deren Verhalten nach § 123 Abs. 3 GWB dem Unternehmen zuzurechnen ist, im Rahmen der beruflichen Tätigkeit nachweislich keine schwere Verfehlung begangen hat, durch die die Integrität des Unternehmens infrage gestellt wird."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "lfd. Nr. 5) Eigenerklärung Sanktionsmaßnahmen Russland - Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform \n„subreport ELViS“),gemäß Verordnung (EU) 2022/576"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "lfd. 6) Nachweis einer aktuellen Betriebshaftpflichtversicherung mit Deckungssummen von mindestens 2 Mio. EUR"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "lfd. Nr. 7) Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“), über den Umsatz des Unternehmens in den letzten 3 abgeschlossenen Geschäftsjahren für vergleichbare Leistungen. Ausländische Unternehmen haben, sofern möglich, vergleichbare Nachweise ihres Herkunftslandes in deutscher Sprache oder beglaubigter Übersetzung abzugeben."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "lfd. Nr. 8) Erklärung auf einem Formblatt (zum Download verfügbar auf der Vergabeplattform „subreport ELViS“) zum Nachweis über die Erfüllung der u. g. Anforderungen:\nDie Bauart eichpflichtiger Messeinrichtungen muss der Europäischen Messgeräterichtlinie (MID 2014/32/EU), dem Mess- und Eichgesetz (MessEG), der Mess- und Eichverordnung (MessEV) und den anerkannten Regeln der Technik entsprechen. Anerkannte Regeln der Technik im Sinne des MessEG sind insbesondere die durch den Regelermittlungsausschuss (REA) bekannt gemachten und im Bundesanzeiger veröffentlichten Regeln zum jeweils aktuellen Stand."
+     },
+     {
+      "type": "slc-sche-env-cert-indep",
+      "description": "lfd. Nr. 9) Zertifizierung nach ISO 14001 (gültiges Zertifikat als Nachweis ist vorzulegen) oder vergleichbar."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "lfd. Nr. 10) Zertifikat zum Qualitätsmanagementsystem gemäß DIN EN ISO 9001 (gültiges Zertifikat als Nachweis ist vorzulegen) oder vergleichbar."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das Angebot mit dem günstigsten Preis erhält 100 Punkte. Die nachfolgenden Angebot erhalten in jenem Verhältnis weniger Punkte, als ihre jeweiligen Angebotssummen in Prozentpunkten teurer sind als das günstigste Angebot (reziproker Ansatz).\n\nDetails siehe Dokument \"Zuschlagskriterien und Gewichtung\"",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

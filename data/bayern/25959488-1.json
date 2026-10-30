@@ -1,0 +1,156 @@
+{
+ "id": "25959488-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25959488",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25959488",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25959488-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25959488-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25959488?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Brandmeldeanlage",
+  "buyer": "Protestantische Alumneumsstiftung",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-16T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25959488",
+  "id": "25959488",
+  "date": "2026-10-22T07:00:30Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Protestantische Alumneumsstiftung",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Protestantische Alumneumsstiftung"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Protestantische Alumneumsstiftung",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Protestantische Alumneumsstiftung"
+   }
+  },
+  "tender": {
+   "title": "Brandmeldeanlage",
+   "description": "Brandmelde- und Gefahrenmeldeanlagen",
+   "procuringEntity": {
+    "name": "Protestantische Alumneumsstiftung"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "93057 Regensburg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28C952-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Brandmeldeanlage",
+     "description": "Brandmelde- und Gefahrenmeldeanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25959488",
+  "version": "1",
+  "title": "Brandmeldeanlage",
+  "description": "Brandmelde- und Gefahrenmeldeanlagen",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Brandmeldeanlage",
+    "description": "Brandmelde- und Gefahrenmeldeanlagen",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-16T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

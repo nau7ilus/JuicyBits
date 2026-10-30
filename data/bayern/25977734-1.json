@@ -5,14 +5,14 @@
   "noticeId": "25977734",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25977734",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:25977734-1.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:25977734-1.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/25977734?format=ocds&noticeVersion=1"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Instandsetzung Brueckenbauwerk Memminger Tor - NU-042, Stadt Neu-Ulm",
   "buyer": "Stadt Neu-Ulm",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE2"
   ],
-  "deadline": null,
+  "deadline": "2026-11-17T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -92,5 +92,43 @@
    ]
   }
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25977734",
+  "version": "1",
+  "title": "Instandsetzung Brueckenbauwerk Memminger Tor - NU-042, Stadt Neu-Ulm",
+  "description": "Instandsetzung Brueckenbauwerk Memminger Tor - NU-042, Stadt Neu-Ulm",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45221119-9"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Instandsetzung Brueckenbauwerk Memminger Tor - NU-042, Stadt Neu-Ulm",
+    "description": "Instandsetzung Brueckenbauwerk Memminger Tor - NU-042, Stadt Neu-Ulm",
+    "cpv": [
+     "45221119-9"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

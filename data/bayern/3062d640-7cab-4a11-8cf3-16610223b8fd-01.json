@@ -225,6 +225,8 @@
   "noticeId": "3062d640-7cab-4a11-8cf3-16610223b8fd",
   "version": "01",
   "title": "Hausmeisterleistungen",
+  "description": "Hausmeisterei für:\n11 Liegenschaften\n84 Wohneinheiten\n26 Gewerbe- / Sondereinheiten\n9.122 m² Wohnfläche / Nutzfläche\n5 Leistungsbereiche je Objekt\n3 denkmalgeschützte Objekte\n\nHausmeisterleistungen: Innen-/Außenreinigung, Grünpflege, \nMüllmanagement, Winterdienst sowie Kontroll- und \nDokumentationspflichten\n\nGrundleistungen:\n- Innen-/Treppenhaus- und Außenreinigung\n- Außenanlagen- und Grünpflege\n- Müllmanagement\n- Objekt-/Anlagenkontrollen, Notdienst - Grundvorhaltung\n\nWinterdienst",
+  "procedureType": "open",
   "nuts": [
    "DE21C"
   ],
@@ -239,6 +241,7 @@
    {
     "id": "LOT-0001",
     "title": "Hausmeisterleistungen",
+    "description": "Hausmeisterei für:\n11 Liegenschaften\n84 Wohneinheiten\n26 Gewerbe- / Sondereinheiten\n9.122 m² Wohnfläche / Nutzfläche\n5 Leistungsbereiche je Objekt\n3 denkmalgeschützte Objekte\n\nHausmeisterleistungen: Innen-/Außenreinigung, Grünpflege, \nMüllmanagement, Winterdienst sowie Kontroll- und \nDokumentationspflichten\n\nGrundleistungen:\n- Innen-/Treppenhaus- und Außenreinigung\n- Außenanlagen- und Grünpflege\n- Müllmanagement\n- Objekt-/Anlagenkontrollen, Notdienst - Grundvorhaltung\n\nWinterdienst",
     "cpv": [
      "98341140"
     ],
@@ -249,9 +252,25 @@
     "participationDeadline": null,
     "plannedStart": "2027-01-01+01:00",
     "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://ffb.healyhudson.biz/evergabe.bieter/api/supplier/external/subproject/feafb15a-0424-47a6-bfa7-8d45c29b9697/awardcriteria",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

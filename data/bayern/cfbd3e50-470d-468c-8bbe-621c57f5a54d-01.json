@@ -1,0 +1,250 @@
+{
+ "id": "cfbd3e50-470d-468c-8bbe-621c57f5a54d-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "cfbd3e50-470d-468c-8bbe-621c57f5a54d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=cfbd3e50-470d-468c-8bbe-621c57f5a54d",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:cfbd3e50-470d-468c-8bbe-621c57f5a54d-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:cfbd3e50-470d-468c-8bbe-621c57f5a54d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/cfbd3e50-470d-468c-8bbe-621c57f5a54d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung aktiver Netzwerk- und WLAN-Komponenten inkl. Implementierung",
+  "buyer": "Klinikum Main-Spessart – Eigenbetrieb des Landkreises Main-Spessart",
+  "cpv": [
+   "32420000",
+   "32422000",
+   "32424000"
+  ],
+  "nuts": [
+   "DE26A"
+  ],
+  "deadline": "2026-10-23T09:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-528539dc-b060-4b5f-9053-d980ebf4c058",
+  "id": "cfbd3e50-470d-468c-8bbe-621c57f5a54d",
+  "date": "2026-10-16T02:11:00Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Main-Spessart – Eigenbetrieb des Landkreises Main-Spessart",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE192166233",
+     "legalName": "Klinikum Main-Spessart – Eigenbetrieb des Landkreises Main-Spessart"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 3",
+     "locality": "Lohr a. Main",
+     "region": "DE26A",
+     "postalCode": "97816",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Vergabekammer Nordbayern, Regierung Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Main-Spessart – Eigenbetrieb des Landkreises Main-Spessart",
+   "id": "DE192166233",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Main-Spessart – Eigenbetrieb des Landkreises Main-Spessart"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 3",
+    "locality": "Lohr a. Main",
+    "region": "DE26A",
+    "postalCode": "97816",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "528539dc-b060-4b5f-9053-d980ebf4c058",
+   "title": "Beschaffung aktiver Netzwerk- und WLAN-Komponenten inkl. Implementierung",
+   "description": "Beschaffung aktiver Netzwerk- und WLAN-Komponenten (Switche, WLAN Access Points) des Herstellers HPE Aruba Networking einschließlich zugehöriger Lizenzen, Subscriptions und Hersteller-Supportleistungen sowie Implementierungs-, Integrations-, Konfigurations- und Inbetriebnahmeleistungen für den Neubau des Zentralklinikums Main-Spessart unter Integration bzw. Erweiterung der bestehenden IT-Infrastruktur. ",
+   "procuringEntity": {
+    "name": "Klinikum Main-Spessart – Eigenbetrieb des Landkreises Main-Spessart",
+    "id": "DE192166233"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32420000",
+      "description": "Network equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "32422000",
+       "description": "Network components"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Leistungs- und Lieferort ist das Zentralklinikum des Klinikums Main-Spessart, Am Sommerberg, 97816 Lohr am Main. Einzelne Leistungen können nach vorheriger Abstimmung auch an bestehenden Standorten bzw. Systemen des Auftraggebers oder remote erbracht werden."
+     },
+     "deliveryAddress": {
+      "streetAddress": "Am Sommerberg",
+      "locality": "Lohr am Main",
+      "region": "DE26A",
+      "postalCode": "97816",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "additionalProcurementCategories": [
+    "services"
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284b7e-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-16T02:11:00.345Z",
+     "rationale": "Änderung Angebotsfrist",
+     "amendsReleaseID": "16a40f51-6773-47b9-a863-81aee74a504d-01",
+     "releaseID": "cfbd3e50-470d-468c-8bbe-621c57f5a54d-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Beschaffung aktiver Netzwerkkomponenten",
+     "description": "Beschaffung aktiver Netzwerkkomponenten (Switche, WLAN Access Points) des Herstellers Aruba einschließlich zugehöriger Lizenzen sowie Implementierungs-, Integrations-, Konfigurations- und Inbetriebnahmeleistungen für den Neubau des Zentralklinikums des Klinikums Main-Spessart unter Integration bzw. Erweiterung der bereits bestehenden IT-Infratruktur. "
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "582136-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "582136-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "cfbd3e50-470d-468c-8bbe-621c57f5a54d",
+  "version": "01",
+  "title": "Beschaffung aktiver Netzwerk- und WLAN-Komponenten inkl. Implementierung",
+  "description": "Beschaffung aktiver Netzwerk- und WLAN-Komponenten (Switche, WLAN Access Points) des Herstellers HPE Aruba Networking einschließlich zugehöriger Lizenzen, Subscriptions und Hersteller-Supportleistungen sowie Implementierungs-, Integrations-, Konfigurations- und Inbetriebnahmeleistungen für den Neubau des Zentralklinikums Main-Spessart unter Integration bzw. Erweiterung der bestehenden IT-Infrastruktur.",
+  "procedureType": "open",
+  "nuts": [
+   "DE26A"
+  ],
+  "cpv": [
+   "32420000",
+   "32424000",
+   "32422000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung aktiver Netzwerkkomponenten",
+    "description": "Beschaffung aktiver Netzwerkkomponenten (Switche, WLAN Access Points) des Herstellers Aruba einschließlich zugehöriger Lizenzen sowie Implementierungs-, Integrations-, Konfigurations- und Inbetriebnahmeleistungen für den Neubau des Zentralklinikums des Klinikums Main-Spessart unter Integration bzw. Erweiterung der bereits bestehenden IT-Infratruktur.",
+    "cpv": [
+     "32420000",
+     "32422000"
+    ],
+    "nuts": [
+     "DE26A"
+    ],
+    "deadline": "2026-10-23T09:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Angabe des Umsatzes des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind. Die Angaben sind mit der Eigenerklärung zur Eignung (L 124) vorzulegen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Der Bieter muss über eine für Art und Umfang des Auftrags ausreichende Betriebshaftpflichtversicherung verfügen. Geforderte Mindestdeckung: Personenschäden 3.000.000 EUR, Sachschäden 1.500.000 EUR und Vermögensschäden 1.500.000 EUR. Alternativ kann eine verbindliche Erklärung vorgelegt werden, dass im Zuschlagsfall eine entsprechende Versicherungsdeckung hergestellt wird."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis der Eintragung in das Berufs- oder Handelsregister des Sitzes oder Wohnsitzes, soweit eine entsprechende Eintragungspflicht besteht. Der Nachweis ist auf gesondertes Verlangen vorzulegen."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bieter muss mindestens drei vergleichbare Referenzprojekte aus den letzten drei Jahren nachweisen. Die Referenzen müssen in ihrer Gesamtheit Erfahrungen insbesondere bei der Implementierung umfangreicher Netzwerk- und WLAN-Infrastrukturen, der Integration in bestehende produktive IT-Infrastrukturen, Network Access Control bzw. vergleichbaren Authentifizierungs- und Autorisierungsstrukturen sowie der Umsetzung in hochverfügbaren und betriebskritischen Umgebungen erkennen lassen. Mindestens eine Referenz muss aus einem Krankenhaus oder einer hinsichtlich Verfügbarkeit und Betriebskritikalität vergleichbaren Infrastruktur stammen. Die weiteren geforderten Angaben ergeben sich aus den Vergabeunterlagen."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Der Bieter muss zum Zeitpunkt der Angebotsabgabe autorisierter Partner von HPE für den Bereich HPE Aruba Networking / Networking sein und zur Lieferung und Implementierung der ausgeschriebenen Komponenten berechtigt sein. Der entsprechende Herstellerstatus ist mit dem Angebot nachzuweisen."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Für die Leistungserbringung muss der Bieter über entsprechend qualifiziertes und zertifiziertes Fachpersonal verfügen.\nIm für das Projekt vorgesehenen Personal müssen mindestens folgende gültige HPE-Aruba-Networking-Zertifizierungen oder deren jeweilige offizielle Nachfolge- bzw. höherwertige Zertifizierungen vorhanden sein:\n– mindestens zwei Personen mit HPE Aruba Networking Certified Professional – Campus Access (ACP-CA) oder höher,\n– mindestens zwei Personen mit HPE Aruba Networking Certified Professional – Network Security (ACP-NS) oder höher,\n– mindestens zwei Personen mit HPE Advanced Product Certified – ClearPass,\n– mindestens zwei Personen mit HPE Advanced Product Certified – HPE Aruba Networking Central.\nMehrere der geforderten Zertifizierungen dürfen durch dieselbe Person nachgewiesen werden. Die vorgesehenen zertifizierten Fachkräfte sind mit dem Angebot unter Angabe ihrer jeweiligen Zertifizierungen zu benennen.\nFür die Durchführung des Projekts sind mindestens folgende Schlüsselrollen vorzusehen:\n– verantwortlicher technischer Projektleiter,\n– technische Verantwortung Switching/LAN,\n– technische Verantwortung WLAN,\n– technische Verantwortung HPE Aruba Networking Central,\n– technische Verantwortung Network Access Control / Aruba ClearPass.\nMehrere technische Rollen dürfen durch dieselbe Person wahrgenommen werden, sofern diese sämtliche für die jeweiligen Rollen geltenden Anforderungen erfüllt.\nDer verantwortliche technische Projektleiter muss über mindestens fünf Jahre einschlägige Berufserfahrung in der technischen Leitung bzw. Koordination von Netzwerk- und WLAN-Implementierungsprojekten verfügen. Darüber hinaus muss er persönliche Erfahrung aus mindestens zwei hinsichtlich Art und Komplexität vergleichbaren Projekten nachweisen. Mindestens eines dieser Projekte muss die Integration bzw. Erweiterung einer bestehenden produktiven Netzwerkumgebung umfasst haben.\nDie für Switching/LAN, WLAN, HPE Aruba Networking Central und Network Access Control / Aruba ClearPass vorgesehenen technischen Schlüsselpersonen müssen jeweils über mindestens drei Jahre praktische Erfahrung mit der Implementierung und Integration der betreffenden Technologien verfügen. Für jede technische Schlüsselperson ist mindestens ein persönliches Referenzprojekt anzugeben, bei dem die betreffende Person an der Integration in eine bestehende produktive IT- bzw. Netzwerkinfrastruktur mitgewirkt hat.\nDie für die technischen Schlüsselrollen vorgesehenen Personen müssen zugleich über die für ihren jeweiligen Aufgabenbereich geforderte Herstellerqualifikation verfügen. Für den verantwortlichen technischen Projektleiter ist eine Herstellerzertifizierung nur erforderlich, soweit dieser zugleich eine technische Schlüsselrolle übernimmt.\nDie weiteren Anforderungen an die Nachweise und Kurzprofile ergeben sich aus den Vergabeunterlagen."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Der Bieter muss über eine geeignete Organisations- und Personalstruktur sowie über ausreichend qualifiziertes technisches Fachpersonal verfügen, um bei systemkritischen Störungen der ausgeschriebenen Netzwerk- und WLAN-Infrastruktur innerhalb des Zeitfensters Montag bis Freitag von 08:00 Uhr bis 17:00 Uhr, ausgenommen gesetzliche Feiertage am Leistungsort, spätestens innerhalb von zwei Stunden entsprechend qualifiziertes technisches Personal am Leistungsort des Auftraggebers bereitstellen zu können.\nDie hierfür verfügbaren Fachkräfte müssen über die für die betroffenen HPE-Aruba-Networking-Technologien erforderliche fachliche und herstellerspezifische Qualifikation sowie über praktische Erfahrung mit der Fehleranalyse und Störungsbehebung in produktiven Enterprise-Netzwerkumgebungen verfügen.\nMit dem Angebot ist eine Eigenerklärung einzureichen, aus der nachvollziehbar hervorgeht, wie die geforderte Vor-Ort-Verfügbarkeit organisatorisch und personell sichergestellt wird. Aus der Erklärung müssen mindestens die Anzahl der für entsprechende Vor-Ort-Einsätze verfügbaren technischen Fachkräfte, deren fachliche und herstellerspezifische Qualifikation sowie die organisatorische Sicherstellung der maximalen Vor-Ort-Verfügbarkeit von zwei Stunden hervorgehen.\nDie vorstehende Anforderung dient ausschließlich dem Nachweis der technischen und beruflichen Leistungsfähigkeit des Bieters. Sie begründet für sich allein keine eigenständige Vor-Ort-Service-, Reaktions- oder Wiederherstellungsverpflichtung des Auftragnehmers."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Gesamtangebotspreis gemäß Preisblatt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

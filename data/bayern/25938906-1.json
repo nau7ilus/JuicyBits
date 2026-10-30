@@ -1,0 +1,157 @@
+{
+ "id": "25938906-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25938906",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25938906",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25938906-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25938906-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25938906?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Sanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten",
+  "buyer": "Stadt Goldkronach",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-12T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25938906",
+  "id": "25938906",
+  "date": "2026-10-16T07:00:44Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Goldkronach",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Goldkronach"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Goldkronach",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Goldkronach"
+   }
+  },
+  "tender": {
+   "title": "Sanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten",
+   "description": "Metallbau- und Verglasungsarbeiten\n\nSanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten",
+   "procuringEntity": {
+    "name": "Stadt Goldkronach"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "95497 Goldkronach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/7935fe99-40ad-4855-b52d-f81e9a8551fb",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Sanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten",
+     "description": "Metallbau- und Verglasungsarbeiten\n\nSanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25938906",
+  "version": "1",
+  "title": "Sanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten",
+  "description": "Metallbau- und Verglasungsarbeiten\n\nSanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten",
+    "description": "Metallbau- und Verglasungsarbeiten\n\nSanierung und Ersatzbau Gemeinschaftshaus Goldkronach - Metallbau- und Verglasungsarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-12T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

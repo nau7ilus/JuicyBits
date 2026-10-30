@@ -1,0 +1,342 @@
+{
+ "id": "7c4f21d1-fc64-44a6-94df-298ae4e609f3-02",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "7c4f21d1-fc64-44a6-94df-298ae4e609f3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7c4f21d1-fc64-44a6-94df-298ae4e609f3",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:7c4f21d1-fc64-44a6-94df-298ae4e609f3-02.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:7c4f21d1-fc64-44a6-94df-298ae4e609f3-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7c4f21d1-fc64-44a6-94df-298ae4e609f3?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubeschaffung IT-Erstausstattung Fachinformatiker JBS-Schule Memmingen",
+  "buyer": "Stadt Memmingen",
+  "cpv": [
+   "30210000"
+  ],
+  "nuts": [
+   "DE274"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5ef39630-332c-47cf-80ce-4ac5ca672d3b",
+  "id": "7c4f21d1-fc64-44a6-94df-298ae4e609f3",
+  "date": "2026-10-20T10:02:21Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Memmingen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10150",
+     "legalName": "Stadt Memmingen"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 1",
+     "locality": "Memmingen",
+     "region": "DE274",
+     "postalCode": "87700",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern – Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "e16e0ff8-b460-45c8-ad77-46566eb1bcdd",
+     "legalName": "Regierung von Oberbayern – Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "BITS - Brunner IT Services GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE303992961",
+     "legalName": "BITS - Brunner IT Services GmbH & Co. KG"
+    },
+    "address": {
+     "locality": "Sulzberg (Allgäu)",
+     "region": "DE27E",
+     "postalCode": "87477",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "CANCOM GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE128791177",
+     "legalName": "CANCOM GmbH"
+    },
+    "address": {
+     "locality": "Jettingen-Scheppach",
+     "region": "DE278",
+     "postalCode": "89343",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Memmingen",
+   "id": "10150",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Memmingen"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 1",
+    "locality": "Memmingen",
+    "region": "DE274",
+    "postalCode": "87700",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5ef39630-332c-47cf-80ce-4ac5ca672d3b",
+   "title": "Neubeschaffung IT-Erstausstattung Fachinformatiker JBS-Schule Memmingen",
+   "description": "Lieferung, Installation und Inbetriebnahme einer neuen IT-Erstausstattung für den Ausbildungsberuf Fachinformatiker Systemintegration an der Staatlichen Berufsschule I Memmingen (Johann-Bierwirth-Schule) aufgeteilt in zwei Lose.",
+   "procuringEntity": {
+    "name": "Stadt Memmingen",
+    "id": "10150"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30210000",
+      "description": "Data-processing machines (hardware)"
+     },
+     "deliveryAddress": {
+      "region": "DE274",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30210000",
+      "description": "Data-processing machines (hardware)"
+     },
+     "deliveryAddress": {
+      "region": "DE274",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "BITS - Brunner IT Services GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "BITS - Brunner IT Services GmbH & Co. KG"
+     },
+     "address": {
+      "locality": "Sulzberg (Allgäu)",
+      "region": "DE27E",
+      "postalCode": "87477",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "CANCOM GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "CANCOM GmbH"
+     },
+     "address": {
+      "locality": "Jettingen-Scheppach",
+      "region": "DE278",
+      "postalCode": "89343",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 Berufsschule I Memmingen (JBS-Schule)",
+     "description": "Der Sachaufwandsträger beabsichtigt das Schulnetz mit Microsoft Windows Arbeitsgerätschaften zu erweitern. \n\nDie auszuschreibende Gesamtleistung umfasst insbesondere die Lieferung, den Aufbau und die Konfiguration der Hardware sowie die Installation der Software, die zum verwendungsfertigen Betrieb der neuen IT-Ausstattung der Staatlichen Berufsschule I Memmingen, Bodenseestraße 45, 87700 Memmingen, unter Verwendung der pädagogischen Netzwerklösung „Windows 5.x Musterlösung Baden-Württemberg“ notwendig ist. \n\nProjektbegleitend ist eine ausreichende Einweisung des Systemverwalters in den Räumlichkeiten der Schule sowie eine lückenlose Dokumentation des neu errichteten Netzwerks unabdingbar. \n\nDer Auftragnehmer liefert die zu beschaffenden Komponenten frei Haus an den vom Auftraggeber benannten Standort (frei Verwendungsstelle) und verpflichtet sich, anfallende Verpackungsmaterialien auf eigene Kosten zu entsorgen.\n\nZiel ist die Lieferung, Installation und Inbetriebnahme der neuen IT-Ausstattung gemäß Leistungsverzeichnis, die für den täglichen Unterrichtseinsatz für die Berufsausbildung Fachinformatiker für Systemintegration konzipiert ist. \n\nDie Anlieferung, Aufstellung und Installation der Komponenten erfolgt an nachstehender Lieferadresse frei Verwendungsstelle: \n\nStaatliche Berufsschule I Memmingen, Bodenseestraße 45, 87700 Memmingen \n\nDie Transportkosten werden durch den Auftragnehmer getragen. \n\nVor Beginn der Installationsarbeiten hat ein Einführungsgespräch mit dem Auftraggeber, dem Amt für Schulen und Sport der Stadt Memmingen zu erfolgen. \n\nDie Ausführung der Leistungen hat zum unten genannten Termin zu erfolgen. Es wird nach Erbringung der vollen Leistung ein Vor-Ort-Termin an der Staatliche Berufsschule I Memmingen zur förmlichen Abnahme mit dem Auftragnehmer und dem Auftraggeber stattfinden. \n\nErst nach vollständiger, mangelfreier Leistungserbringung, die in schriftlicher Form von beiden Parteien festgelegt wird, ist eine Rechnungsstellung möglich. Teilzahlungen sind auch bei etwaigen Teillieferungen ausgeschlossen, sofern eine etwaige Installationsverzögerung nicht nachweislich auf den Auftraggeber zurückzuführen ist. \n\nVerzögerungen beim Baufortschritt und die ggf. hierdurch zwischenzulagernden Hardwarekomponenten sind durch den Auftragnehmer zu tragen. \n\nDie Rechnung ist nach Position und Reihenfolge des Leistungsverzeichnisses des Auftraggebers zu stellen. Die Ersteinweisung hat in Absprache mit dem Systembetreuer und dem Auftraggeber im Anschluss an die Installationsarbeiten zu erfolgen.\n\nDer Vertrag beginnt mit Zuschlagserteilung (voraussichtlich 42. KW 2026). Die Lieferung und Installation haben in Abhängigkeit der Zuschlagserteilung zum frühestmöglichen Zeitpunkt stattzufinden. Eine verwendungsfertige Bereitstellung des Gewerks hat spätestens bis zum 06.11.2026 zu erfolgen.\n\nWeitere Details entnehmen Sie bitte den Vergabeunterlagen."
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 Berufsschule I Memmingen (Netzwerktechnik)",
+     "description": "Der Sachaufwandsträger beabsichtigt das Schulnetz mit Microsoft Windows Arbeitsgerätschaften zu erweitern. \n\nDie auszuschreibende Gesamtleistung umfasst insbesondere die Lieferung, den Aufbau und die Konfiguration der Hardware sowie die Installation der Software, die zum verwendungsfertigen Betrieb der neuen IT-Ausstattung der Staatlichen Berufsschule I Memmingen, Bodenseestraße 45, 87700 Memmingen, unter Verwendung der pädagogischen Netzwerklösung „Windows 5.x Musterlösung Baden-Württemberg“ notwendig ist. \n\nProjektbegleitend ist eine ausreichende Einweisung des Systemverwalters in den Räumlichkeiten der Schule sowie eine lückenlose Dokumentation des neu errichteten Netzwerks unabdingbar. \n\nDer Auftragnehmer liefert die zu beschaffenden Komponenten frei Haus an den vom Auftraggeber benannten Standort (frei Verwendungsstelle) und verpflichtet sich, anfallende Verpackungsmaterialien auf eigene Kosten zu entsorgen.\n\nZiel ist die Lieferung, Installation und Inbetriebnahme der neuen IT-Ausstattung gemäß Leistungsverzeichnis, die für den täglichen Unterrichtseinsatz für die Berufsausbildung Fachinformatiker für Systemintegration konzipiert ist. \n\nDie Anlieferung, Aufstellung und Installation der Komponenten erfolgt an nachstehender Lieferadresse frei Verwendungsstelle: \n\nStaatliche Berufsschule I Memmingen, Bodenseestraße 45, 87700 Memmingen \n\nDie Transportkosten werden durch den Auftragnehmer getragen. \n\nVor Beginn der Installationsarbeiten hat ein Einführungsgespräch mit dem Auftraggeber, dem Amt für Schulen und Sport der Stadt Memmingen zu erfolgen. \n\nDie Ausführung der Leistungen hat zum unten genannten Termin zu erfolgen. Es wird nach Erbringung der vollen Leistung ein Vor-Ort-Termin an der Staatliche Berufsschule I Memmingen zur förmlichen Abnahme mit dem Auftragnehmer und dem Auftraggeber stattfinden. \n\nErst nach vollständiger, mangelfreier Leistungserbringung, die in schriftlicher Form von beiden Parteien festgelegt wird, ist eine Rechnungsstellung möglich. Teilzahlungen sind auch bei etwaigen Teillieferungen ausgeschlossen, sofern eine etwaige Installationsverzögerung nicht nachweislich auf den Auftraggeber zurückzuführen ist. \n\nVerzögerungen beim Baufortschritt und die ggf. hierdurch zwischenzulagernden Hardwarekomponenten sind durch den Auftragnehmer zu tragen. \n\nDie Rechnung ist nach Position und Reihenfolge des Leistungsverzeichnisses des Auftraggebers zu stellen. Die Ersteinweisung hat in Absprache mit dem Systembetreuer und dem Auftraggeber im Anschluss an die Installationsarbeiten zu erfolgen.\n\nDer Vertrag beginnt mit Zuschlagserteilung (voraussichtlich 42. KW 2026). Die Lieferung und Installation haben in Abhängigkeit der Zuschlagserteilung zum frühestmöglichen Zeitpunkt stattzufinden. Eine verwendungsfertige Bereitstellung des Gewerks hat spätestens bis zum 06.11.2026 zu erfolgen.\n\nBegründung für die Produktvorgabe nach § 31 Absatz 6 Satz 1 VgV:\nDie Ausschreibung erfolgt in Los 2 herstellerbezogen für Produkte des Herstellers Cisco Systems. Die Beschaffung dient dem Betrieb und der Ausbildung an einer Bildungseinrichtung. \nIm Rahmen des Curriculums / des Lehrplans (z. B. Vorbereitung auf CCNA-Zertifizierungen) ist die Vermittlung herstellerspezifischer Kenntnisse des Betriebssystems Cisco IOS sowie der Cisco-Befehlszeile (CLI) zwingender Bestandteil des Unterrichts. Ein herstellerneutrales Gerät würde das Erreichen des didaktischen Lehrziels ausschließen, da alternative Betriebssysteme andere Syntaxstrukturen und Funktionsweisen aufweisen.\n\nWeitere Details entnehmen Sie bitte den Vergabeunterlagen."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-24T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-09-24T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 318815,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-09-23T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 97483.65,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-05T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "7c4f21d1-fc64-44a6-94df-298ae4e609f3",
+  "version": "02",
+  "title": "Neubeschaffung IT-Erstausstattung Fachinformatiker JBS-Schule Memmingen",
+  "description": "Lieferung, Installation und Inbetriebnahme einer neuen IT-Erstausstattung für den Ausbildungsberuf Fachinformatiker Systemintegration an der Staatlichen Berufsschule I Memmingen (Johann-Bierwirth-Schule) aufgeteilt in zwei Lose.",
+  "procedureType": "open",
+  "nuts": [
+   "DE274"
+  ],
+  "cpv": [
+   "30210000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 Berufsschule I Memmingen (JBS-Schule)",
+    "description": "Der Sachaufwandsträger beabsichtigt das Schulnetz mit Microsoft Windows Arbeitsgerätschaften zu erweitern. \n\nDie auszuschreibende Gesamtleistung umfasst insbesondere die Lieferung, den Aufbau und die Konfiguration der Hardware sowie die Installation der Software, die zum verwendungsfertigen Betrieb der neuen IT-Ausstattung der Staatlichen Berufsschule I Memmingen, Bodenseestraße 45, 87700 Memmingen, unter Verwendung der pädagogischen Netzwerklösung „Windows 5.x Musterlösung Baden-Württemberg“ notwendig ist. \n\nProjektbegleitend ist eine ausreichende Einweisung des Systemverwalters in den Räumlichkeiten der Schule sowie eine lückenlose Dokumentation des neu errichteten Netzwerks unabdingbar. \n\nDer Auftragnehmer liefert die zu beschaffenden Komponenten frei Haus an den vom Auftraggeber benannten Standort (frei Verwendungsstelle) und verpflichtet sich, anfallende Verpackungsmaterialien auf eigene Kosten zu entsorgen.\n\nZiel ist die Lieferung, Installation und Inbetriebnahme der neuen IT-Ausstattung gemäß Leistungsverzeichnis, die für den täglichen Unterrichtseinsatz für die Berufsausbildung Fachinformatiker für Systemintegration konzipiert ist. \n\nDie Anlieferung, Aufstellung und Installation der Komponenten erfolgt an nachstehender Lieferadresse frei Verwendungsstelle: \n\nStaatliche Berufsschule I Memmingen, Bodenseestraße 45, 87700 Memmingen \n\nDie Transportkosten werden durch den Auftragnehmer getragen. \n\nVor Beginn der Installationsarbeiten hat ein Einführungsgespräch mit dem Auftraggeber, dem Amt für Schulen und Sport der Stadt Memmingen zu erfolgen. \n\nDie Ausführung der Leistungen hat zum unten genannten Termin zu erfolgen. Es wird nach Erbringung der vollen Leistung ein Vor-Ort-Termin an der Staatliche Berufsschule I Memmingen zur förmlichen Abnahme mit dem Auftragnehmer und dem Auftraggeber stattfinden. \n\nErst nach vollständiger, mangelfreier Leistungserbringung, die in schriftlicher Form von beiden Parteien festgelegt wird, ist eine Rechnungsstellung möglich. Teilzahlungen sind auch bei etwaigen Teillieferungen ausgeschlossen, sofern eine etwaige Installationsverzögerung nicht nachweislich auf den Auftraggeber zurückzuführen ist. \n\nVerzögerungen beim Baufortschritt und die ggf. hierdurch zwischenzulagernden Hardwarekomponenten sind durch den Auftragnehmer zu tragen. \n\nDie Rechnung ist nach Position und Reihenfolge des Leistungsverzeichnisses des Auftraggebers zu stellen. Die Ersteinweisung hat in Absprache mit dem Systembetreuer und dem Auftraggeber im Anschluss an die Installationsarbeiten zu erfolgen.\n\nDer Vertrag beginnt mit Zuschlagserteilung (voraussichtlich 42. KW 2026). Die Lieferung und Installation haben in Abhängigkeit der Zuschlagserteilung zum frühestmöglichen Zeitpunkt stattzufinden. Eine verwendungsfertige Bereitstellung des Gewerks hat spätestens bis zum 06.11.2026 zu erfolgen.\n\nWeitere Details entnehmen Sie bitte den Vergabeunterlagen.",
+    "cpv": [
+     "30210000"
+    ],
+    "nuts": [
+     "DE274"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 Berufsschule I Memmingen (Netzwerktechnik)",
+    "description": "Der Sachaufwandsträger beabsichtigt das Schulnetz mit Microsoft Windows Arbeitsgerätschaften zu erweitern. \n\nDie auszuschreibende Gesamtleistung umfasst insbesondere die Lieferung, den Aufbau und die Konfiguration der Hardware sowie die Installation der Software, die zum verwendungsfertigen Betrieb der neuen IT-Ausstattung der Staatlichen Berufsschule I Memmingen, Bodenseestraße 45, 87700 Memmingen, unter Verwendung der pädagogischen Netzwerklösung „Windows 5.x Musterlösung Baden-Württemberg“ notwendig ist. \n\nProjektbegleitend ist eine ausreichende Einweisung des Systemverwalters in den Räumlichkeiten der Schule sowie eine lückenlose Dokumentation des neu errichteten Netzwerks unabdingbar. \n\nDer Auftragnehmer liefert die zu beschaffenden Komponenten frei Haus an den vom Auftraggeber benannten Standort (frei Verwendungsstelle) und verpflichtet sich, anfallende Verpackungsmaterialien auf eigene Kosten zu entsorgen.\n\nZiel ist die Lieferung, Installation und Inbetriebnahme der neuen IT-Ausstattung gemäß Leistungsverzeichnis, die für den täglichen Unterrichtseinsatz für die Berufsausbildung Fachinformatiker für Systemintegration konzipiert ist. \n\nDie Anlieferung, Aufstellung und Installation der Komponenten erfolgt an nachstehender Lieferadresse frei Verwendungsstelle: \n\nStaatliche Berufsschule I Memmingen, Bodenseestraße 45, 87700 Memmingen \n\nDie Transportkosten werden durch den Auftragnehmer getragen. \n\nVor Beginn der Installationsarbeiten hat ein Einführungsgespräch mit dem Auftraggeber, dem Amt für Schulen und Sport der Stadt Memmingen zu erfolgen. \n\nDie Ausführung der Leistungen hat zum unten genannten Termin zu erfolgen. Es wird nach Erbringung der vollen Leistung ein Vor-Ort-Termin an der Staatliche Berufsschule I Memmingen zur förmlichen Abnahme mit dem Auftragnehmer und dem Auftraggeber stattfinden. \n\nErst nach vollständiger, mangelfreier Leistungserbringung, die in schriftlicher Form von beiden Parteien festgelegt wird, ist eine Rechnungsstellung möglich. Teilzahlungen sind auch bei etwaigen Teillieferungen ausgeschlossen, sofern eine etwaige Installationsverzögerung nicht nachweislich auf den Auftraggeber zurückzuführen ist. \n\nVerzögerungen beim Baufortschritt und die ggf. hierdurch zwischenzulagernden Hardwarekomponenten sind durch den Auftragnehmer zu tragen. \n\nDie Rechnung ist nach Position und Reihenfolge des Leistungsverzeichnisses des Auftraggebers zu stellen. Die Ersteinweisung hat in Absprache mit dem Systembetreuer und dem Auftraggeber im Anschluss an die Installationsarbeiten zu erfolgen.\n\nDer Vertrag beginnt mit Zuschlagserteilung (voraussichtlich 42. KW 2026). Die Lieferung und Installation haben in Abhängigkeit der Zuschlagserteilung zum frühestmöglichen Zeitpunkt stattzufinden. Eine verwendungsfertige Bereitstellung des Gewerks hat spätestens bis zum 06.11.2026 zu erfolgen.\n\nBegründung für die Produktvorgabe nach § 31 Absatz 6 Satz 1 VgV:\nDie Ausschreibung erfolgt in Los 2 herstellerbezogen für Produkte des Herstellers Cisco Systems. Die Beschaffung dient dem Betrieb und der Ausbildung an einer Bildungseinrichtung. \nIm Rahmen des Curriculums / des Lehrplans (z. B. Vorbereitung auf CCNA-Zertifizierungen) ist die Vermittlung herstellerspezifischer Kenntnisse des Betriebssystems Cisco IOS sowie der Cisco-Befehlszeile (CLI) zwingender Bestandteil des Unterrichts. Ein herstellerneutrales Gerät würde das Erreichen des didaktischen Lehrziels ausschließen, da alternative Betriebssysteme andere Syntaxstrukturen und Funktionsweisen aufweisen.\n\nWeitere Details entnehmen Sie bitte den Vergabeunterlagen.",
+    "cpv": [
+     "30210000"
+    ],
+    "nuts": [
+     "DE274"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

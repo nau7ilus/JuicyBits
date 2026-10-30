@@ -1,0 +1,202 @@
+{
+ "id": "04d86643-55b4-48b0-82a0-153b8b8a4b4c-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "04d86643-55b4-48b0-82a0-153b8b8a4b4c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=04d86643-55b4-48b0-82a0-153b8b8a4b4c",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:04d86643-55b4-48b0-82a0-153b8b8a4b4c-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:04d86643-55b4-48b0-82a0-153b8b8a4b4c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/04d86643-55b4-48b0-82a0-153b8b8a4b4c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Wartung der Lüftungsanlagen 2027 bis 2030 am UKR",
+  "buyer": "Universitätsklinikum Regensburg AöR",
+  "cpv": [
+   "50712000"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": "2026-11-19T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-967ac606-9937-496b-941a-01b0b396c9a1",
+  "id": "04d86643-55b4-48b0-82a0-153b8b8a4b4c",
+  "date": "2026-10-21T02:08:26Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Universitätsklinikum Regensburg AöR",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09419440",
+     "legalName": "Universitätsklinikum Regensburg AöR"
+    },
+    "address": {
+     "streetAddress": "Franz-Josef-Strauß-Allee 11",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:0981531277",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Universitätsklinikum Regensburg AöR",
+   "id": "t:09419440",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Universitätsklinikum Regensburg AöR"
+   },
+   "address": {
+    "streetAddress": "Franz-Josef-Strauß-Allee 11",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "967ac606-9937-496b-941a-01b0b396c9a1",
+   "title": "Wartung der Lüftungsanlagen 2027 bis 2030 am UKR",
+   "description": "Ausgeschrieben wird die planmäßige Wartung und Hygienewartung der im Anlagenverzeichnis aufgeführten raumlufttechnischen Anlagen einschließlich der erforderlichen Filterwechsel sowie die Wartung der gelisteten Kanalrauchmelder. Ziel ist ein sicherer, hygienischer und störungsarmer Anlagenbetrieb unter den besonderen Bedingungen eines Universitätsklinikums.",
+   "procuringEntity": {
+    "name": "Universitätsklinikum Regensburg AöR",
+    "id": "t:09419440"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "50712000",
+      "description": "Repair and maintenance services of mechanical building installations"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Franz-Josef-Strauß-Allee 11",
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93053",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 520000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4DAHMWWM/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Wartung der Lüftungsanlagen 2027 bis 2030 am UKR",
+     "description": "Ausgeschrieben wird die planmäßige Wartung und Hygienewartung der im Anlagenverzeichnis aufgeführten raumlufttechnischen Anlagen einschließlich der erforderlichen Filterwechsel sowie die Wartung der gelisteten Kanalrauchmelder. Ziel ist ein sicherer, hygienischer und störungsarmer Anlagenbetrieb unter den besonderen Bedingungen eines Universitätsklinikums.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "04d86643-55b4-48b0-82a0-153b8b8a4b4c",
+  "version": "01",
+  "title": "Wartung der Lüftungsanlagen 2027 bis 2030 am UKR",
+  "description": "Ausgeschrieben wird die planmäßige Wartung und Hygienewartung der im Anlagenverzeichnis aufgeführten raumlufttechnischen Anlagen einschließlich der erforderlichen Filterwechsel sowie die Wartung der gelisteten Kanalrauchmelder. Ziel ist ein sicherer, hygienischer und störungsarmer Anlagenbetrieb unter den besonderen Bedingungen eines Universitätsklinikums.",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "50712000"
+  ],
+  "estimatedValue": {
+   "amount": 520000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Wartung der Lüftungsanlagen 2027 bis 2030 am UKR",
+    "description": "Ausgeschrieben wird die planmäßige Wartung und Hygienewartung der im Anlagenverzeichnis aufgeführten raumlufttechnischen Anlagen einschließlich der erforderlichen Filterwechsel sowie die Wartung der gelisteten Kanalrauchmelder. Ziel ist ein sicherer, hygienischer und störungsarmer Anlagenbetrieb unter den besonderen Bedingungen eines Universitätsklinikums.",
+    "cpv": [
+     "50712000"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-11-19T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis ist alleiniges Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

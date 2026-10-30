@@ -1,0 +1,279 @@
+{
+ "id": "7db41809-94d5-40de-bf3d-adf9529da1a5-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "7db41809-94d5-40de-bf3d-adf9529da1a5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7db41809-94d5-40de-bf3d-adf9529da1a5",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:7db41809-94d5-40de-bf3d-adf9529da1a5-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:7db41809-94d5-40de-bf3d-adf9529da1a5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7db41809-94d5-40de-bf3d-adf9529da1a5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "2025-1004771_Flughafen München_Einbau-/Umbau Fahrzeugausstattung mit Funksystem",
+  "buyer": "Flughafen München GmbH",
+  "cpv": [
+   "51330000",
+   "50117100",
+   "51100000"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6b8c3729-634b-4b54-830a-d72e56992416",
+  "id": "7db41809-94d5-40de-bf3d-adf9529da1a5",
+  "date": "2026-10-20T10:04:54Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Flughafen München GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129352365",
+     "legalName": "Flughafen München GmbH"
+    },
+    "address": {
+     "streetAddress": "Postfach 23 17 55",
+     "locality": "München",
+     "region": "DE21B",
+     "postalCode": "85326",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Klein Kommunikationstechnik GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE245881582",
+     "legalName": "Klein Kommunikationstechnik GmbH"
+    },
+    "address": {
+     "locality": "Altdorf",
+     "region": "DE227",
+     "postalCode": "84032",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Flughafen München GmbH",
+   "id": "DE129352365",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Flughafen München GmbH"
+   },
+   "address": {
+    "streetAddress": "Postfach 23 17 55",
+    "locality": "München",
+    "region": "DE21B",
+    "postalCode": "85326",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6b8c3729-634b-4b54-830a-d72e56992416",
+   "title": "2025-1004771_Flughafen München_Einbau-/Umbau Fahrzeugausstattung mit Funksystem",
+   "description": "Auf- und Umrüstung von Fahrzeugen der Flughafen München GmbH mit individuellen Funktionsausstattungen. Umfang: Erfahrungswerte liegen bei ca. 15 Fahrzeugumbauten pro Jahr.  Für die Ausführung der Leistungen erforderlich: Nachweise als zertifizierter Betrieb für den Einbau und die Inbetriebnahme von BOS-Anlagen (BOS-Dienstleisterkarte für Bayern), sowie Nachweise als zertifizierter Einbaupartner der Marken Sepura und Motorola.",
+   "procuringEntity": {
+    "name": "Flughafen München GmbH",
+    "id": "DE129352365"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "51330000",
+      "description": "Installation services of radiotelephony apparatus"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "50117100",
+       "description": "Motor vehicle conversion services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "51100000",
+       "description": "Installation services of electrical and mechanical equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Postfach 23 17 55",
+      "locality": "München",
+      "region": "DE21B",
+      "postalCode": "85326",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-08-19T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Klein Kommunikationstechnik GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Klein Kommunikationstechnik GmbH"
+     },
+     "address": {
+      "locality": "Altdorf",
+      "region": "DE227",
+      "postalCode": "84032",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "2025-1004771_Flughafen München_Einbau-/Umbau Fahrzeugausstattung mit Funksystem",
+     "description": "Einbau von Sondersignal- und Kommunikationsanlagen wie BOS/Digital Funk, Rundumkennleuchten, Dachbalken, Freisprecheinrichtungen, Kamerasysteme, Zusatzbeleuchtungen für Sonderfahrzeuge die am Flughafen München zum Einsatz kommen. Eine Einbindung in das Bordnetz der Fahrzeuge ist in Abstimmung mit dem Hersteller notwendig. Alle Aufrüstungen müssen bei Bedarf vom Auftragnehmer durch anerkannte Überwachungsorganisationen abgenommen werden und im Anschluss in die Fahrzeugpapiere eingetragen werden. Für alle Arbeiten ist eine Dokumentation (Schaltpläne, Ersatzteillisten, Funktionsbeschreibung usw.) gemäß Leistungsbeschreibung zu erstellen.  Für die Störungsbeseitigung vor Ort gilt eine Reaktionszeit von 24 Stunden (Montag bis Samstag). Die Aufnahme der Arbeiten zur Störungsbeseitigung hat spätestens innerhalb von fünf Arbeitstagen zu beginnen. Die vollständige Behebung der Störung soll in der Regel innerhalb von 20 Tagen erfolgen. Sollten Lieferengpässe auftreten, die zu einer Überschreitung der 20?Tage?Frist führen, sind diese dem Auftraggeber unverzüglich mitzuteilen.",
+     "contractPeriod": {
+      "durationInDays": 1825
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Einbau-/Umbau Fahrzeugausstattung \"Funksystem\"",
+    "date": "2026-08-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Einbau-/Umbau Fahrzeugausstattung \"Funksystem\"",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-08-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "154931-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "154931-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "7db41809-94d5-40de-bf3d-adf9529da1a5",
+  "version": "01",
+  "title": "2025-1004771_Flughafen München_Einbau-/Umbau Fahrzeugausstattung mit Funksystem",
+  "description": "Auf- und Umrüstung von Fahrzeugen der Flughafen München GmbH mit individuellen Funktionsausstattungen. Umfang: Erfahrungswerte liegen bei ca. 15 Fahrzeugumbauten pro Jahr.  Für die Ausführung der Leistungen erforderlich: Nachweise als zertifizierter Betrieb für den Einbau und die Inbetriebnahme von BOS-Anlagen (BOS-Dienstleisterkarte für Bayern), sowie Nachweise als zertifizierter Einbaupartner der Marken Sepura und Motorola.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "51330000",
+   "50117100",
+   "51100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "2025-1004771_Flughafen München_Einbau-/Umbau Fahrzeugausstattung mit Funksystem",
+    "description": "Einbau von Sondersignal- und Kommunikationsanlagen wie BOS/Digital Funk, Rundumkennleuchten, Dachbalken, Freisprecheinrichtungen, Kamerasysteme, Zusatzbeleuchtungen für Sonderfahrzeuge die am Flughafen München zum Einsatz kommen. Eine Einbindung in das Bordnetz der Fahrzeuge ist in Abstimmung mit dem Hersteller notwendig. Alle Aufrüstungen müssen bei Bedarf vom Auftragnehmer durch anerkannte Überwachungsorganisationen abgenommen werden und im Anschluss in die Fahrzeugpapiere eingetragen werden. Für alle Arbeiten ist eine Dokumentation (Schaltpläne, Ersatzteillisten, Funktionsbeschreibung usw.) gemäß Leistungsbeschreibung zu erstellen.  Für die Störungsbeseitigung vor Ort gilt eine Reaktionszeit von 24 Stunden (Montag bis Samstag). Die Aufnahme der Arbeiten zur Störungsbeseitigung hat spätestens innerhalb von fünf Arbeitstagen zu beginnen. Die vollständige Behebung der Störung soll in der Regel innerhalb von 20 Tagen erfolgen. Sollten Lieferengpässe auftreten, die zu einer Überschreitung der 20?Tage?Frist führen, sind diese dem Auftraggeber unverzüglich mitzuteilen.",
+    "cpv": [
+     "51330000",
+     "50117100",
+     "51100000"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 5,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": null,
+      "name": null,
+      "description": null,
+      "weight": null
+     },
+     {
+      "type": null,
+      "name": null,
+      "description": null,
+      "weight": null
+     },
+     {
+      "type": null,
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

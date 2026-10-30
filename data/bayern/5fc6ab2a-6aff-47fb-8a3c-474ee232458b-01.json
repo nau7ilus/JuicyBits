@@ -1,0 +1,579 @@
+{
+ "id": "5fc6ab2a-6aff-47fb-8a3c-474ee232458b-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "5fc6ab2a-6aff-47fb-8a3c-474ee232458b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5fc6ab2a-6aff-47fb-8a3c-474ee232458b",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:5fc6ab2a-6aff-47fb-8a3c-474ee232458b-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:5fc6ab2a-6aff-47fb-8a3c-474ee232458b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5fc6ab2a-6aff-47fb-8a3c-474ee232458b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Altkabeln ",
+  "buyer": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+  "cpv": [
+   "90500000",
+   "90514000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4d09667d-3830-46f5-b5fa-6a1d1870779e",
+  "id": "5fc6ab2a-6aff-47fb-8a3c-474ee232458b",
+  "date": "2026-10-20T10:04:38Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7"
+    },
+    "address": {
+     "streetAddress": "Georg-Brauchle-Ring 29",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80992",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID: DE 811335517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Peter Preimesser GmbH & Co KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE212029086",
+     "legalName": "Peter Preimesser GmbH & Co KG"
+    },
+    "address": {
+     "streetAddress": "Taxetstrasse 3",
+     "locality": "Kirchheim",
+     "region": "DE21H",
+     "postalCode": "85551",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Münchner Recycling GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 131 190 303",
+     "legalName": "Münchner Recycling GmbH"
+    },
+    "address": {
+     "streetAddress": "Gutenbergstr. 9",
+     "locality": "Garching bei München",
+     "region": "DE21H",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7"
+   },
+   "address": {
+    "streetAddress": "Georg-Brauchle-Ring 29",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80992",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4d09667d-3830-46f5-b5fa-6a1d1870779e",
+   "title": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Altkabeln ",
+   "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028",
+   "procuringEntity": {
+    "name": "Abfallwirtschaftsbetrieb München (AWM) - Vergabestelle 7",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90514000",
+       "description": "Refuse recycling services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Anlieferstelle und Verwertungsanlage des Auftragnehmers"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90514000",
+       "description": "Refuse recycling services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Anlieferstelle und Verwertungsanlage des Auftragnehmers"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90514000",
+       "description": "Refuse recycling services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Anlieferstelle und Verwertungsanlage des Auftragnehmers"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90514000",
+       "description": "Refuse recycling services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Anlieferstelle und Verwertungsanlage des Auftragnehmers"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "Peter Preimesser GmbH & Co KG",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Peter Preimesser GmbH & Co KG"
+     },
+     "address": {
+      "streetAddress": "Taxetstrasse 3",
+      "locality": "Kirchheim",
+      "region": "DE21H",
+      "postalCode": "85551",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "Münchner Recycling GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Münchner Recycling GmbH"
+     },
+     "address": {
+      "streetAddress": "Gutenbergstr. 9",
+      "locality": "Garching bei München",
+      "region": "DE21H",
+      "postalCode": "85748",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1",
+     "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028 für 2 Wertstoffhöfe WSH Mühlangerstr. 100 und WSH Am Neubruch 23\nca. 58 Tonnen in 24 Monaten",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2",
+     "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028 für 3 Wertstoffhöfe WSH Lindberghstr. 8a, WSH Lerchenstr. 13, WSH Savitstrasse 79\nca. 76 Tonnen in 24 Monaten",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3",
+     "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028 für 3 Wertstoffhöfe WSH Truderinger Str. 2a, WSH Mauerseglerstr. 9, WSH Bayerwaldstrasse 33\nca. 83 Tonnen in 24 Monaten",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Los 4",
+     "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028 für 4 Wertstoffhöfe WSH Arnulfstr. 290, WSH Tischlerstr. 3, WSH Thalkirchnerstr. 260, WSH Tübinger Str. 13\nca. 108 Tonnen in 24 Monaten",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   },
+   {
+    "id": "LOT-0004",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0004"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0004",
+    "awardID": "CON-0004",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "5fc6ab2a-6aff-47fb-8a3c-474ee232458b",
+  "version": "01",
+  "title": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Altkabeln",
+  "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "90500000",
+   "90514000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1",
+    "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028 für 2 Wertstoffhöfe WSH Mühlangerstr. 100 und WSH Am Neubruch 23\nca. 58 Tonnen in 24 Monaten",
+    "cpv": [
+     "90500000",
+     "90514000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Berücksichtigung des Transportkostenzuschlags",
+      "description": "a) Im Fall von Kostenangeboten\n(positive Vergütung an den\nBieter):\nGesamtwertungsbetrag =\n(Festpreis/Tonne zzgl.\nUmsatzsteuer +\nTransportkostenzuschlag/Tonne) ×\nLosmenge (t)\nb) Im Fall von\nVergütungsangeboten (Zahlung an\nden AWM):\nGesamtwertungsbetrag =\n(Vergütung/Tonne zzgl.\nUmsatzsteuer -\nTransportkostenzuschlag/Tonne) ×\nLosmenge (t)",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2",
+    "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028 für 3 Wertstoffhöfe WSH Lindberghstr. 8a, WSH Lerchenstr. 13, WSH Savitstrasse 79\nca. 76 Tonnen in 24 Monaten",
+    "cpv": [
+     "90500000",
+     "90514000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Berücksichtigung des Transportkostenzuschlags",
+      "description": "a) Im Fall von Kostenangeboten\n(positive Vergütung an den\nBieter):\nGesamtwertungsbetrag =\n(Festpreis/Tonne zzgl.\nUmsatzsteuer +\nTransportkostenzuschlag/Tonne) ×\nLosmenge (t)\nb) Im Fall von\nVergütungsangeboten (Zahlung an\nden AWM):\nGesamtwertungsbetrag =\n(Vergütung/Tonne zzgl.\nUmsatzsteuer -\nTransportkostenzuschlag/Tonne) ×\nLosmenge (t)",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3",
+    "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028 für 3 Wertstoffhöfe WSH Truderinger Str. 2a, WSH Mauerseglerstr. 9, WSH Bayerwaldstrasse 33\nca. 83 Tonnen in 24 Monaten",
+    "cpv": [
+     "90500000",
+     "90514000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Berücksichtigung des Transportkostenzuschlags",
+      "description": "a) Im Fall von Kostenangeboten\n(positive Vergütung an den\nBieter):\nGesamtwertungsbetrag =\n(Festpreis/Tonne zzgl.\nUmsatzsteuer +\nTransportkostenzuschlag/Tonne) ×\nLosmenge (t)\nb) Im Fall von\nVergütungsangeboten (Zahlung an\nden AWM):\nGesamtwertungsbetrag =\n(Vergütung/Tonne zzgl.\nUmsatzsteuer -\nTransportkostenzuschlag/Tonne) ×\nLosmenge (t)",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Los 4",
+    "description": "Annahme, Verwiegung und ordnungsgemäße Verwertung von Kabeln im Sinne des ElektroG in der Zeit vom 01.01.2027 bis 31.12.2028 für 4 Wertstoffhöfe WSH Arnulfstr. 290, WSH Tischlerstr. 3, WSH Thalkirchnerstr. 260, WSH Tübinger Str. 13\nca. 108 Tonnen in 24 Monaten",
+    "cpv": [
+     "90500000",
+     "90514000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Berücksichtigung des Transportkostenzuschlags",
+      "description": "a) Im Fall von Kostenangeboten\n(positive Vergütung an den\nBieter):\nGesamtwertungsbetrag =\n(Festpreis/Tonne zzgl.\nUmsatzsteuer +\nTransportkostenzuschlag/Tonne) ×\nLosmenge (t)\nb) Im Fall von\nVergütungsangeboten (Zahlung an\nden AWM):\nGesamtwertungsbetrag =\n(Vergütung/Tonne zzgl.\nUmsatzsteuer -\nTransportkostenzuschlag/Tonne) ×\nLosmenge (t)",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

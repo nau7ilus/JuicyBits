@@ -5,14 +5,14 @@
   "noticeId": "e7b12a98-4ad7-411b-881d-9aad20822bef",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e7b12a98-4ad7-411b-881d-9aad20822bef",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:e7b12a98-4ad7-411b-881d-9aad20822bef-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:e7b12a98-4ad7-411b-881d-9aad20822bef-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/e7b12a98-4ad7-411b-881d-9aad20822bef?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Rahmenvertrag Medientechnik-Berater",
   "buyer": "Helmholtz Zentrum München Deutsches Forschungszentrum für Gesundheit und Umwelt (GmbH)",
   "cpv": [
@@ -207,5 +207,56 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e7b12a98-4ad7-411b-881d-9aad20822bef",
+  "version": "01",
+  "title": "Rahmenvertrag Medientechnik-Berater",
+  "description": "Medientechnik ist ein zentrales Thema nicht nur bei Helmholtz Munich. Eine funktionierende Konferenztechnik in den verschiedensten Spielarten ist unerlässlich für das Arbeiten aller Mitarbeiter. Als Ergänzung wird ein externer Medientechnik-Berater gesucht, der wichtige Meetings professionell von technischer Seite aus vorbereitet und betreut. Auch müssen ausgestatte Räume medientechnisch betreut werden bzw. neue Räume medientechnisch ausgestattet werden.\nSeit Corona müssen alle Veranstaltungen bei Bedarf als hybride Veranstaltungen stattfinden können. In der Folge müssen Räume auf dem Gelände Campus Neuherberg sowie an den verschiednenen Außenstandorten auf hybride Technik umgestellt werden. Zum anderen gibt es sehr viele Bautätigkeiten. Auch diese brauchen oft eine intensive Betreuung durch einen Medientechniker. Um die jetzt anstehenden Arbeiten erledigen zu können und im Anschluss eine reibungslose Zusammenarbeit mit der festangestellten Medientechnikerin zu gewährleisten, soll ein Vertrag mit einem externen Medientechniker geschlossen werden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "72000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvertrag Medientechnik-Berater",
+    "description": "Die geschätzte Gesamtmenge an benötigten Beratungstagen beläuft sich für die Vertragslaufzeit von 1 Jahr auf insgesamt ca. 200 Personentage (PT). Für jedes weitere Jahr schätzen wir auch ca. 200 PT. Diese Angaben werden aufgrund der aktuell\nvorliegenden Bedarfs und Haushaltslage getroffen und begründen keine Abnahmeverpflichtung gegenüber dem künftigen Auftragnehmer.",
+    "cpv": [
+     "72000000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2027-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "Leistung",
+      "weight": 50
+     },
+     {
+      "type": "cost",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

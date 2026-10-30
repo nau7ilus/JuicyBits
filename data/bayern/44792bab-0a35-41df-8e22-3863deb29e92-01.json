@@ -1,0 +1,255 @@
+{
+ "id": "44792bab-0a35-41df-8e22-3863deb29e92-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "44792bab-0a35-41df-8e22-3863deb29e92",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=44792bab-0a35-41df-8e22-3863deb29e92",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:44792bab-0a35-41df-8e22-3863deb29e92-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:44792bab-0a35-41df-8e22-3863deb29e92-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/44792bab-0a35-41df-8e22-3863deb29e92?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Vergabe MPG Mathematica 2026 AZ:1316",
+  "buyer": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e. V.; Max Planck Information & Technology",
+  "cpv": [
+   "48000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-46bfe0f2-dfb2-49d5-9fe4-02f1bb705e0c",
+  "id": "44792bab-0a35-41df-8e22-3863deb29e92",
+  "date": "2026-10-24T16:26:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e. V.; Max Planck Information & Technology",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "VR 13378 B",
+     "legalName": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e. V.; Max Planck Information & Technology"
+    },
+    "address": {
+     "streetAddress": "Landsberger Straße 346",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80687",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ADDITIVE Soft- und Hardware für Technik und Wissenschaft GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE114114201",
+     "legalName": "ADDITIVE Soft- und Hardware für Technik und Wissenschaft GmbH"
+    },
+    "address": {
+     "streetAddress": "In der Hub 2-8",
+     "locality": "Bad Nauheim",
+     "region": "DE71E",
+     "postalCode": "61231",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e. V.; Max Planck Information & Technology",
+   "id": "VR 13378 B",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e. V.; Max Planck Information & Technology"
+   },
+   "address": {
+    "streetAddress": "Landsberger Straße 346",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80687",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "46bfe0f2-dfb2-49d5-9fe4-02f1bb705e0c",
+   "title": "Vergabe MPG Mathematica 2026 AZ:1316",
+   "description": "Gegenstand der Beschaffung ist die Bereitstellung und Lizenzierung der Mathematica Software sowie weiterer Wolfram Produkte für die Institute und Einrichtungen der Max-Planck-Gesellschaft. Die Beschaffung umfasst die Fortführung der bestehenden Softwarelizenzen einschließlich Updates, Upgrades und Supportleistungen über eine Vertragslaufzeit von fünf Jahren. Darüber hinaus können während der Vertragslaufzeit bei entsprechendem Bedarf zusätzliche Lizenzen zu den vereinbarten Vertragskonditionen abgerufen werden.",
+   "procuringEntity": {
+    "name": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e. V.; Max Planck Information & Technology",
+    "id": "VR 13378 B"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48000000",
+      "description": "Software package and information systems"
+     },
+     "deliveryLocation": {
+      "description": "München, Kreisfreie Stadt (DE212)"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 3391269.45,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "The contract can be provided only by a particular economic operator because of exclusive rights, including intellectual property rights",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "ADDITIVE Soft- und Hardware für Technik und Wissenschaft GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "ADDITIVE Soft- und Hardware für Technik und Wissenschaft GmbH"
+     },
+     "address": {
+      "streetAddress": "In der Hub 2-8",
+      "locality": "Bad Nauheim",
+      "region": "DE71E",
+      "postalCode": "61231",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "MPG_Mathematica Lizenzen",
+     "description": "Beschaffung von Mathematica Lizenzen und des dazu gehörigen Supports."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 3249122.65,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ]
+   },
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 3249122.65,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ]
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 3249122.65,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "44792bab-0a35-41df-8e22-3863deb29e92",
+  "version": "01",
+  "title": "Vergabe MPG Mathematica 2026 AZ:1316",
+  "description": "Gegenstand der Beschaffung ist die Bereitstellung und Lizenzierung der Mathematica Software sowie weiterer Wolfram Produkte für die Institute und Einrichtungen der Max-Planck-Gesellschaft. Die Beschaffung umfasst die Fortführung der bestehenden Softwarelizenzen einschließlich Updates, Upgrades und Supportleistungen über eine Vertragslaufzeit von fünf Jahren. Darüber hinaus können während der Vertragslaufzeit bei entsprechendem Bedarf zusätzliche Lizenzen zu den vereinbarten Vertragskonditionen abgerufen werden.",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48000000"
+  ],
+  "estimatedValue": {
+   "amount": 3391269.45,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "MPG_Mathematica Lizenzen",
+    "description": "Beschaffung von Mathematica Lizenzen und des dazu gehörigen Supports.",
+    "cpv": [
+     "48000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Pries",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

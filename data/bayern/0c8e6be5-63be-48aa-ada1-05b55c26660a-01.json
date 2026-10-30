@@ -1,0 +1,219 @@
+{
+ "id": "0c8e6be5-63be-48aa-ada1-05b55c26660a-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "0c8e6be5-63be-48aa-ada1-05b55c26660a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0c8e6be5-63be-48aa-ada1-05b55c26660a",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:0c8e6be5-63be-48aa-ada1-05b55c26660a-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:0c8e6be5-63be-48aa-ada1-05b55c26660a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0c8e6be5-63be-48aa-ada1-05b55c26660a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "VMware Servervirtualisierung",
+  "buyer": "München Klinik gGmbH",
+  "cpv": [
+   "48000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bf9e2165-8b37-4d45-9303-ab71f2b84e7d",
+  "id": "0c8e6be5-63be-48aa-ada1-05b55c26660a",
+  "date": "2026-10-23T02:08:15Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "München Klinik gGmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE814184919",
+     "legalName": "München Klinik gGmbH"
+    },
+    "address": {
+     "streetAddress": "Thalkirchner Straße 48",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80337",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE212",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "München Klinik gGmbH",
+   "id": "DE814184919",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "München Klinik gGmbH"
+   },
+   "address": {
+    "streetAddress": "Thalkirchner Straße 48",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80337",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bf9e2165-8b37-4d45-9303-ab71f2b84e7d",
+   "title": "VMware Servervirtualisierung",
+   "description": "Die München Klinik beabsichtigt die Vergabe eines direkten Beschaffungsvertrages über die Lieferung von corebasierten Subscription-Lizenzen für VMware vSphere Foundation.",
+   "procuringEntity": {
+    "name": "München Klinik gGmbH",
+    "id": "DE814184919"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48000000",
+      "description": "Software package and information systems"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80337",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YL5MW34/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "VMware Servervirtualisierung",
+     "description": "Die zentrale Servervirtualisierung der München Klinik basiert auf VMware vSphere. Die Lizenzierung erfolgte bislang über ein Enterprise License Agreement (ELA) im Academic-Modell, das am 21.01.2027 ausläuft. Der Hersteller Broadcom stellt das Academic-Lizenzmodell sowie die bisherige sockelbasierte Lizenzierung ein; eine Anschlusslizenzierung ist ausschließlich im corebasierten Subscription-Modell möglich.  Ziel der Beschaffung ist die unterbrechungsfreie Fortführung des produktiven Betriebs der bestehenden VMware-Umgebung - ohne Wechsel der Virtualisierungsplattform und ohne Erweiterung des bisherigen Funktionsumfangs.     Der Auftragnehmer übernimmt die Beschaffung und Bereitstellung einer core-basierten Subscription-Lizenzierung für die zentrale Servervirtualisierung der München Klinik auf Basis von VMware vSphere.   Der Auftragnehmer fungiert als zentraler Ansprechpartner für die Lizenzbelieferung und stellt die unterbrechungsfreie Verfügbarkeit der Subscription-Lizenzierung für die bestehende VMware Umgebung sicher. Die Leistungen umfassen insbesondere: - Bereitstellung von Subscription-Lizenzen für VMware vSphere Foundation für die in Ziffer 3.2 a) genannte Gesamtzahl von 1.472 Cores - Bereitstellung der zugehörigen vSAN-Lizenzierung im Rahmen des Foundation-Entitlements für die sechs dezentralen Cluster (108 TB Bedarf) - 24/7 Production Support für die gesamte Vertragslaufzeit - Bereitstellung aller Lizenzschlüssel, Downloads und Entitlements über das Hersteller-/Reseller-Portal - Benennung einer deutschsprachigen Kontaktperson; die vertragliche Regelung erfolgt über Nummer 11 des EVB-IT-Überlassungsvertrags (Anlage 6).  Nicht Gegenstand der Leistung sind Hardwarebeschaffung, Migrations- oder Implementierungsdienstleistungen sowie PSO-Credits, sowie Neukauf oder Upgrade zusätzlicher Produktpakete (z.B. NSX, Cloud Foundation). Der 24/7 Production Support nach Ziffer 3.2 f) ist hiervon nicht erfasst; er gehört zum Leistungsumfang.",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "0c8e6be5-63be-48aa-ada1-05b55c26660a",
+  "version": "01",
+  "title": "VMware Servervirtualisierung",
+  "description": "Die München Klinik beabsichtigt die Vergabe eines direkten Beschaffungsvertrages über die Lieferung von corebasierten Subscription-Lizenzen für VMware vSphere Foundation.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "VMware Servervirtualisierung",
+    "description": "Die zentrale Servervirtualisierung der München Klinik basiert auf VMware vSphere. Die Lizenzierung erfolgte bislang über ein Enterprise License Agreement (ELA) im Academic-Modell, das am 21.01.2027 ausläuft. Der Hersteller Broadcom stellt das Academic-Lizenzmodell sowie die bisherige sockelbasierte Lizenzierung ein; eine Anschlusslizenzierung ist ausschließlich im corebasierten Subscription-Modell möglich.  Ziel der Beschaffung ist die unterbrechungsfreie Fortführung des produktiven Betriebs der bestehenden VMware-Umgebung - ohne Wechsel der Virtualisierungsplattform und ohne Erweiterung des bisherigen Funktionsumfangs.     Der Auftragnehmer übernimmt die Beschaffung und Bereitstellung einer core-basierten Subscription-Lizenzierung für die zentrale Servervirtualisierung der München Klinik auf Basis von VMware vSphere.   Der Auftragnehmer fungiert als zentraler Ansprechpartner für die Lizenzbelieferung und stellt die unterbrechungsfreie Verfügbarkeit der Subscription-Lizenzierung für die bestehende VMware Umgebung sicher. Die Leistungen umfassen insbesondere: - Bereitstellung von Subscription-Lizenzen für VMware vSphere Foundation für die in Ziffer 3.2 a) genannte Gesamtzahl von 1.472 Cores - Bereitstellung der zugehörigen vSAN-Lizenzierung im Rahmen des Foundation-Entitlements für die sechs dezentralen Cluster (108 TB Bedarf) - 24/7 Production Support für die gesamte Vertragslaufzeit - Bereitstellung aller Lizenzschlüssel, Downloads und Entitlements über das Hersteller-/Reseller-Portal - Benennung einer deutschsprachigen Kontaktperson; die vertragliche Regelung erfolgt über Nummer 11 des EVB-IT-Überlassungsvertrags (Anlage 6).  Nicht Gegenstand der Leistung sind Hardwarebeschaffung, Migrations- oder Implementierungsdienstleistungen sowie PSO-Credits, sowie Neukauf oder Upgrade zusätzlicher Produktpakete (z.B. NSX, Cloud Foundation). Der 24/7 Production Support nach Ziffer 3.2 f) ist hiervon nicht erfasst; er gehört zum Leistungsumfang.",
+    "cpv": [
+     "48000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis über den Eintrag ins Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschrift des Landes, in dem der Bieter ansässig ist (§ 122 Abs. 2 Nr. 1 GWB i.V.m. § 44 Abs. 1 VgV)."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Erklärung zur Berufs- oder Betriebshaftpflichtversicherung (§ 122 Abs. 2 Nr. 2 GWB i.V.m. § 45 Abs. 1 Nr. 3 VgV).  Nachweis der aufgeführten Versicherungen durch Eigenerklärung nach Anlage 2.1 oder Bescheinigung des Versicherungsgebers oder Bescheinigung eines Versicherungsgebers, dass eine entsprechende Versicherung im Auftragsfall abgeschlossen wird (jeweils Kopie ausreichend).  Im Einzelnen: - Personenschäden 1.000.000,00 Euro - Sachschäden 1.000.000,00 Euro - Vermögensschäden 1.000.000,00 Euro (2 fache Jahresmaximierung der Versicherungssumme)."
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Erklärung zum Nettoumsatz bezogen auf die Leistungsart, die Gegenstand der Vergabe ist, für die letzten 3 abgeschlossenen Geschäftsjahre (§ 122 Abs. 2 Nr. 2 GWB i.V.m. § 45 Abs. 4 Nr. 4 VgV). ***** Mindestanforderung: Der Anbieter weist mind. 500.000 EUR netto Jahresumsatz im Bereich \"Lizenzen Virtualisierung\" nach.  ***** Ausschlusskriterium: weniger als 0,5 Mio. EUR netto Jahresumsatz im Bereich \"Lizenzen Virtualisierung\"."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Erklärung zur beruflichen Leistungsfähigkeit (§ 122 Abs. 2 Nr. 3 GWB i.V.m. § 46 Abs. 3 Nr. 1 VgV) durch Eigenerklärung des Bieters in Anlage 2.1: Der Bieter hat eine Referenzliste (mind. 3 Referenzen), aus den letzten 3 Geschäftsjahren. (gerechnet ab dem Zeitpunkt der Veröffentlichung dieses Verfahrens) in vorgegebener Weise vorzulegen. Projekte, die zum Zeitpunkt der Angebotsabgabe in Ausführung befindlich sind, sind gleichwertig zulässig  *****  Vergleichbar sind die Mindest-Referenzen, wenn Sie folgende Kriterien erfüllen: - Leistungsinhalt: Beschaffung und Bereitstellung von Lizenz-/Subscription-Produkten (Core-Abonnement beim Hersteller) inklusive Vertragsabwicklung; Umfang von mindestens 1.200 bereitgestellten Lizenzen. - Leistungszeitraum: Vertragsende des Referenzprojekts ist nicht älter als 3 Jahre, gerechnet ab dem Zeitpunkt der Auftragsbekanntmachung dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Nachweis als autorisierter Broadcom-/VMware-Lizenzpartner bzw. autorisierter Reseller.  Der Bieter weist nach, dass er als autorisierter Broadcom-/VMware-Lizenzpartner bzw. autorisierter Reseller zum Vertrieb der ausgeschriebenen Produkte berechtigt sind.  Anforderung: Aktuelle Bestätigung als autorisierter Broadcom-/VMware-Partner (z. B. Partnerurkunde, Reseller-Bestätigung des Herstellers oder ein gleichwertiger Nachweis), aus der die Berechtigung zum Vertrieb von VMware-/Broadcom-Produkten hervorgeht  Nachweisform: eigene Nachweisführung, ein Formblatt der Vergabestelle ist nicht zu verwenden"
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Nachweis einer Zertifizierung nach DIN EN ISO 9001 oder vergleichbar.  Der Bieter hat als Nachweis ein gültiges Zertifikat nach DIN EN ISO 9001 oder einen gleichwertigen Nachweis einer vergleichbaren Zertifizierung vorzulegen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Bewertet wird die Höhe des Gesamtpreises entsprechend der Anlage 3 Preisblatt. Das Angebot mit der niedrigsten Angebotsendsumme (Gesamtpreis netto über alle Positionen exkl. MwSt. in EURO für 3 Jahre) erhält die höchste Bewertung.  Bei gleichem Wertungspreis entscheidet das Los.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

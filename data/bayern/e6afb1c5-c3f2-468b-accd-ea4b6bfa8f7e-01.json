@@ -1,0 +1,403 @@
+{
+ "id": "e6afb1c5-c3f2-468b-accd-ea4b6bfa8f7e-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "e6afb1c5-c3f2-468b-accd-ea4b6bfa8f7e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e6afb1c5-c3f2-468b-accd-ea4b6bfa8f7e",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:e6afb1c5-c3f2-468b-accd-ea4b6bfa8f7e-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:e6afb1c5-c3f2-468b-accd-ea4b6bfa8f7e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e6afb1c5-c3f2-468b-accd-ea4b6bfa8f7e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "LKW mit Wechselsystem, Kran und Winterdienststreuer",
+  "buyer": "Gemeinde Unterföhring",
+  "cpv": [
+   "34000000",
+   "34143000",
+   "34139000",
+   "34144700"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-26a384f7-a5c3-479f-a816-ba1555ed7df9",
+  "id": "e6afb1c5-c3f2-468b-accd-ea4b6bfa8f7e",
+  "date": "2026-10-16T02:06:29Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AWAS-Ausschreibungen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "5378004",
+     "legalName": "AWAS-Ausschreibungen"
+    },
+    "address": {
+     "streetAddress": "Vürfels 17",
+     "locality": "Bergisch Gladbach",
+     "region": "DEA2B",
+     "postalCode": "51427",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern VOB-/VOL-Stelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921760",
+     "legalName": "Regierung von Oberbayern VOB-/VOL-Stelle"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Gemeinde Unterföhring",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:089950810",
+     "legalName": "Gemeinde Unterföhring"
+    },
+    "address": {
+     "streetAddress": "Münchner Straße 70",
+     "locality": "Unterföhring",
+     "region": "DE21H",
+     "postalCode": "85774",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Atlas München GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 226897431",
+     "legalName": "Atlas München GmbH"
+    },
+    "address": {
+     "streetAddress": "Römerstrasse 1",
+     "locality": "Forstinning",
+     "region": "DE218",
+     "postalCode": "85661",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Unterföhring",
+   "id": "t:089950810",
+   "identifier": {
+    "id": "ORG-0018",
+    "legalName": "Gemeinde Unterföhring"
+   },
+   "address": {
+    "streetAddress": "Münchner Straße 70",
+    "locality": "Unterföhring",
+    "region": "DE21H",
+    "postalCode": "85774",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "26a384f7-a5c3-479f-a816-ba1555ed7df9",
+   "title": "LKW mit Wechselsystem, Kran und Winterdienststreuer",
+   "description": "Die Gemeinde Unterföhring beabsichtigt für ihren Bauhof einen Lastkraftwagen mit Wechselsystem, Kran und einen Aufbaustreuer für den Winterdienst zu beschaffen.",
+   "procuringEntity": {
+    "name": "Gemeinde Unterföhring",
+    "id": "t:089950810"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34000000",
+      "description": "Transport equipment and auxiliary products to transportation"
+     },
+     "quantity": 1,
+     "unit": {
+      "scheme": "UNCEFACT",
+      "id": "H87"
+     },
+     "deliveryAddress": {
+      "locality": "Unterföhring",
+      "region": "DE21H",
+      "postalCode": "85774",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34143000",
+      "description": "Winter-maintenance vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Unterföhring",
+      "region": "DE21H",
+      "postalCode": "85774",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Atlas München GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Atlas München GmbH"
+     },
+     "address": {
+      "streetAddress": "Römerstrasse 1",
+      "locality": "Forstinning",
+      "region": "DE218",
+      "postalCode": "85661",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "LKW mit Kran und Wechselsystem",
+     "description": "Die Gemeinde Unterföhring beabsichtigt für ihren Bauhof einen Lastkraftwagen mit Wechselsystem, Kran und einen Aufbaustreuer für den Winterdienst zu beschaffen.",
+     "contractPeriod": {
+      "endDate": "2027-10-31T00:00:00+01:00",
+      "durationInDays": 360
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Winterdienststreuer",
+     "description": "Die Gemeinde Unterföhring beabsichtigt für ihren Bauhof einen Lastkraftwagen mit Wechselsystem, Kran und einen Aufbaustreuer für den Winterdienst zu beschaffen.",
+     "contractPeriod": {
+      "endDate": "2027-10-31T00:00:00+01:00",
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "LKW mit Wechselsystem, Kran und Winterdienststreuer",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Atlas München GmbH",
+      "id": "DE 226897431",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Atlas München GmbH"
+      },
+      "address": {
+       "streetAddress": "Römerstrasse 1",
+       "locality": "Forstinning",
+       "region": "DE218",
+       "postalCode": "85661",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "title": "LKW mit Wechselsystem, Kran und Winterdienststreuer",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Atlas München GmbH",
+      "id": "DE 226897431",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Atlas München GmbH"
+      },
+      "address": {
+       "streetAddress": "Römerstrasse 1",
+       "locality": "Forstinning",
+       "region": "DE218",
+       "postalCode": "85661",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "LKW mit Wechselsystem, Kran und Winterdienststreuer",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "title": "Winterdienststreuer",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e6afb1c5-c3f2-468b-accd-ea4b6bfa8f7e",
+  "version": "01",
+  "title": "LKW mit Wechselsystem, Kran und Winterdienststreuer",
+  "description": "Die Gemeinde Unterföhring beabsichtigt für ihren Bauhof einen Lastkraftwagen mit Wechselsystem, Kran und einen Aufbaustreuer für den Winterdienst zu beschaffen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "34000000",
+   "34139000",
+   "34143000",
+   "34144700"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "LKW mit Kran und Wechselsystem",
+    "description": "Die Gemeinde Unterföhring beabsichtigt für ihren Bauhof einen Lastkraftwagen mit Wechselsystem, Kran und einen Aufbaustreuer für den Winterdienst zu beschaffen.",
+    "cpv": [
+     "34000000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": "2027-10-31+01:00",
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Angebotspreis",
+      "description": "Das Angebot mit niedrigster Wertungssumme erhält 10 Punkte.\nAngebot mit dem 2-fachen der niedrigsten Wertungssumme erhält 0 Punkte.\nDie Punktermittlung für die dazwischen liegenden Preise erfolgt über eine lineare Interpolation mit bis zu drei Stellen nach dem Komma.",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Die zu erreichende Punktzahl ergibt sich aus den Punkten der Unterkriterien\n- Sicherheitsfahrerhaus ECE R29-3 = 10 Punkte, ansonsten 0 Punkte\n- Scheinwerfer und Rücklicht in LED-Ausführung = 10 Punkte, ansonsten 0 Punkte\n- Wandlergetriebe = 10 Punkte, ansonsten 0 Punkte\n- Luft-Federung = 10 Punkte, ansonsten 0 Punkte\n- Wechselsystem mit Konuslagerung = 10 Punkte, ansonsten 0 Punkte",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Winterdienststreuer",
+    "description": "Die Gemeinde Unterföhring beabsichtigt für ihren Bauhof einen Lastkraftwagen mit Wechselsystem, Kran und einen Aufbaustreuer für den Winterdienst zu beschaffen.",
+    "cpv": [
+     "34143000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": "2027-10-31+01:00",
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Angebotspreis",
+      "description": "Das Angebot mit niedrigster Wertungssumme erhält 10 Punkte.\nAngebot mit dem 2-fachen der niedrigsten Wertungssumme erhält 0 Punkte.\nDie Punktermittlung für die dazwischen liegenden Preise erfolgt über eine lineare Interpolation mit bis zu drei Stellen nach dem Komma.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

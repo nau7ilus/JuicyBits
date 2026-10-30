@@ -1,0 +1,233 @@
+{
+ "id": "bf50804d-b20a-4de1-9d43-5b82205bc970-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "bf50804d-b20a-4de1-9d43-5b82205bc970",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bf50804d-b20a-4de1-9d43-5b82205bc970",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:bf50804d-b20a-4de1-9d43-5b82205bc970-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:bf50804d-b20a-4de1-9d43-5b82205bc970-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bf50804d-b20a-4de1-9d43-5b82205bc970?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag Anzeigenagentur",
+  "buyer": "München Klinik gGmbH",
+  "cpv": [
+   "79633000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-05T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-9ede7127-a93c-49b5-b184-ae594bb3dd33",
+  "id": "bf50804d-b20a-4de1-9d43-5b82205bc970",
+  "date": "2026-10-21T02:08:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "München Klinik gGmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 814184919",
+     "legalName": "München Klinik gGmbH"
+    },
+    "address": {
+     "streetAddress": "Thalkirchner Straße 48",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80337",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "München Klinik gGmbH",
+   "id": "DE 814184919",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "München Klinik gGmbH"
+   },
+   "address": {
+    "streetAddress": "Thalkirchner Straße 48",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80337",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "9ede7127-a93c-49b5-b184-ae594bb3dd33",
+   "title": "Rahmenvertrag Anzeigenagentur",
+   "description": "Die München Klinik ist der größte kommunale Klinikverbund in Süddeutschland. An fünf Klinikstandorten in Bogenhausen, Neuperlach, Schwabing, Harlaching und in der Fachklinik für Dermatologie in der Thalkirchner Straße, bieten wir unseren Patient*innen eine umfassende und qualitativ hochwertige medizinische Versorgung. Pro Jahr werden ca. 135.000 Patient*innen stationär behandelt. Zusätzlich finden bei uns ca. 100.000 Notfallbehandlungen im Jahr statt.",
+   "procuringEntity": {
+    "name": "München Klinik gGmbH",
+    "id": "DE 814184919"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79633000",
+      "description": "Staff development services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Thalkirchner Straße 48",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80337",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 2000000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YL5MUU8/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-21T02:08:11.395Z",
+     "description": "Angebotsfrist NEU: 05.11.2026, 10:00 Uhr Frist für Bieterfragen NEU: 28.10.2026, 10:00 Uhr Frist zur Beantwortung von Bieterfragen NEU: 30.10.2026",
+     "amendsReleaseID": "8cf14eb9-066c-4993-99bd-8cdab0f826a2-01",
+     "releaseID": "bf50804d-b20a-4de1-9d43-5b82205bc970-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag Anzeigenagentur",
+     "description": "Die München Klinik beabsichtigt die Vergabe eines Rahmenvertrages über Dienstleistungen im Bereich Stellenanzeigenmanagement. Gegenstand der Ausschreibung ist die Beauftragung eines externen Dienstleisters zur Planung, Beratung, Buchung, Schaltung, Veröffentlichung, Verwaltung und Erfolgskontrolle von Stellenanzeigen. Der Auftrag umfasst insbesondere die Auswahl geeigneter Medien, die Mediaplanung, die Abwicklung von Anzeigenbuchungen, die laufende Beratung hinsichtlich Reichweite und Wirtschaftlichkeit der Veröffentlichungen sowie die Bereitstellung von Auswertungen und Reportings.",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bf50804d-b20a-4de1-9d43-5b82205bc970",
+  "version": "01",
+  "title": "Rahmenvertrag Anzeigenagentur",
+  "description": "Die München Klinik ist der größte kommunale Klinikverbund in Süddeutschland. An fünf Klinikstandorten in Bogenhausen, Neuperlach, Schwabing, Harlaching und in der Fachklinik für Dermatologie in der Thalkirchner Straße, bieten wir unseren Patient*innen eine umfassende und qualitativ hochwertige medizinische Versorgung. Pro Jahr werden ca. 135.000 Patient*innen stationär behandelt. Zusätzlich finden bei uns ca. 100.000 Notfallbehandlungen im Jahr statt.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "79633000"
+  ],
+  "estimatedValue": {
+   "amount": 2000000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag Anzeigenagentur",
+    "description": "Die München Klinik beabsichtigt die Vergabe eines Rahmenvertrages über Dienstleistungen im Bereich Stellenanzeigenmanagement. Gegenstand der Ausschreibung ist die Beauftragung eines externen Dienstleisters zur Planung, Beratung, Buchung, Schaltung, Veröffentlichung, Verwaltung und Erfolgskontrolle von Stellenanzeigen. Der Auftrag umfasst insbesondere die Auswahl geeigneter Medien, die Mediaplanung, die Abwicklung von Anzeigenbuchungen, die laufende Beratung hinsichtlich Reichweite und Wirtschaftlichkeit der Veröffentlichungen sowie die Bereitstellung von Auswertungen und Reportings.",
+    "cpv": [
+     "79633000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-05T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Berufs- und Handelsregistereintragung Nachweis des Eintrags ins Berufs- oder Handelsregister nach Maßgabe der Rechtsvorschrift des Landes, in dem der Bieter ansässig ist (§ 122 Abs. 2 Nr. 1 GWB i.V.m. § 44 Abs. 1 VgV). Der Auszug darf nicht älter als 12 Monate sein. Der Nachweis muss dem Angebot zwingend beigelegt werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Haftpflichtversicherung Nachweis einer Firmenhaftpflichtversicherung mit folgenden Deckungssummen: 1. Personen- und Sachschäden: Mindestens 3.000.000,00 Euro pro Schadensfall, zweifach maximiert im Jahr 2. Vermögensschäden: Mindestens 1.000.000,00 Euro pro Schadensfall, zweifach maximiert im Jahr  Die Haftpflichtversicherung muss bei einem in der EU zugelassenen Haftpflichtversicherer oder Kreditinstitut abgeschlossen worden sein. Die Haftpflichtversicherung muss während der gesamten Vertragslaufzeit aufrechterhalten und nachgewiesen werden. Der Bieter hat zu gewährleisten, dass zur Deckung eines Schadens aus dem Vertrag Versicherungsschutz in Höhe der im Vertrag genannten Deckungssummen besteht.  Ein Versicherungsnachweis über die geforderte Firmenhaftpflichtversicherung beziehungs-weise eine schriftliche Erklärung zur Erhöhung der Firmenhaftpflichtversicherung im Auftragsfall muss dem Antrag zwingend beigelegt werden.  Im Falle einer Bewerber-/Bietergemeinschaft ist der Berufshaftpflichtversicherungsnachweis jedes Mitglieds der Bewerber-/Bietergemeinschaft vorzulegen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Referenzen des Unternehmens  Bitte geben Sie mindestens drei vergleichbare Referenzprojekte an. Vergleichbar sind die Referenzaufträge, wenn Sie folgende Kriterien erfüllen: - Leistungsinhalt: Erstellung von Stellenanzeigen  - Leistungszeitraum: Vertragsende des Referenzprojekts ist nicht älter als 3 Jahre, gerechnet ab dem Zeitpunkt der Auftragsbekanntmachung dieses Vergabeverfahrens  Bitte verwenden Sie zur Angabe Ihrer Referenzen die Dokumente \"2.1_Eigenerklärung Eig-nung.docx\" und \"2.5_Referenzenvordruck.docx\"  Bitte beachten Sie, dass zur Überprüfbarkeit der persönlichen Referenzen die Kontaktdaten des Ansprechpartners (Name, E-Mail, Telefonnummer) des Referenzgebers angegeben werden müssen. Die Auftraggeberin behält sich vor, die Referenzen zu verifizieren"
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Sprachniveau Lektorat Die für das Lektorat eingesetzte Person muss über Deutschkenntnisse auf mindestens dem Sprachniveau C2 des Gemeinsamen Europäischen Referenzrahmens für Sprachen (GER) verfügen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Angebotspreis",
+      "description": "Die maximale, im Zuschlagskriterium \"Angebotspreis\" erzielbare Punktzahl beträgt insgesamt 50. Dies entspricht in der Gewichtung 50 %: Das Angebot mit dem niedrigsten Preis (nachfolgend: Angebotssumme) erhält die höchste Bewertung entsprechend der dem Kriterium zugeordneten Maximalpunktzahl. Eine Abstufung erfolgt linear zum niedrigsten Angebotspreis (netto) entsprechend der prozentualen Abweichung. Die Bewertung des Kriteriums \"Preis\" ermittelt sich wie folgt:  Bewertung = 50 * (günstigstes Angebot / betrachtetes Angebot)",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Fachgespräch",
+      "description": "Die maximale, im Unterkriterium \"Fachgespräch\" insgesamt erzielbare Punktzahl beträgt 50. Dies entspricht in der Gewichtung 50%.   Im Rahmen des Fachgesprächs präsentieren die Bieter ihre Lösung zu den beiden gestellten Praxisaufgaben. Bewertet werden ausschließlich die im Fachgespräch vorgestellten Inhalte, Erläuterungen und Antworten auf Rückfragen. Die nach dem Fachgespräch einzureichende Präsentation dient ausschließlich der Dokumentation der vorgestellten Inhalte und ist nicht eigenständiger Bewertungsgegenstand.  Beide Praxisaufgaben werden getrennt anhand derselben Bewertungskriterien bewertet. Je Aufgabe können maximal 100 Punkte erreicht werden. Insgesamt können somit im Fachgespräch maximal 200 Punkte erzielt werden.  Die im Fachgespräch erreichte Gesamtpunktzahl wird anschließend entsprechend der Gewichtung des Zuschlagskriteriums \"Qualität\" auf maximal 50 gewichtete Punkte mit folgender Formel skaliert: Gewichtete Qualitätspunkte = (erreichte Punkte / 200) × 50",
+      "weight": 50
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

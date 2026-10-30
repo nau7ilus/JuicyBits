@@ -1,0 +1,249 @@
+{
+ "id": "f081fd57-41a8-408a-8609-26138404f9ef-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "f081fd57-41a8-408a-8609-26138404f9ef",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f081fd57-41a8-408a-8609-26138404f9ef",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:f081fd57-41a8-408a-8609-26138404f9ef-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:f081fd57-41a8-408a-8609-26138404f9ef-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f081fd57-41a8-408a-8609-26138404f9ef?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "6141-14 Umbau und Erweiterung Bürgersaal in Geisenhausen, Gewerk 2418-309- Fassadenbau",
+  "buyer": "Markt Geisenhausen",
+  "cpv": [
+   "45443000",
+   "45262670"
+  ],
+  "nuts": [
+   "DE227"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a2c97485-a996-44f9-ba07-ec9a684b1e8d",
+  "id": "f081fd57-41a8-408a-8609-26138404f9ef",
+  "date": "2026-10-16T02:11:25Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Geisenhausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-Identifikationsnummer: DE 128 969 312",
+     "legalName": "Markt Geisenhausen"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 6",
+     "locality": "Geisenhausen",
+     "region": "DE227",
+     "postalCode": "84144",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierungsbezirk Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierungsbezirk Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fassadentechnik Weiser",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE247984959",
+     "legalName": "Fassadentechnik Weiser"
+    },
+    "address": {
+     "locality": "Schleiz",
+     "region": "DEG0K",
+     "postalCode": "07907",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Geisenhausen",
+   "id": "USt-Identifikationsnummer: DE 128 969 312",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Markt Geisenhausen"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 6",
+    "locality": "Geisenhausen",
+    "region": "DE227",
+    "postalCode": "84144",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a2c97485-a996-44f9-ba07-ec9a684b1e8d",
+   "title": "6141-14 Umbau und Erweiterung Bürgersaal in Geisenhausen, Gewerk 2418-309- Fassadenbau",
+   "description": "Trocken- und Innenausbauarbeiten bestehend aus:\n- Ca. 500m² Aluminiumfassade mit gelochten Zackenprofil inkl. Unterkonstruktion",
+   "procuringEntity": {
+    "name": "Markt Geisenhausen",
+    "id": "USt-Identifikationsnummer: DE 128 969 312"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45443000",
+      "description": "Facade work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Marktplatz 6",
+      "locality": "Geisenhausen",
+      "region": "DE227",
+      "postalCode": "84144",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Fassadentechnik Weiser",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Fassadentechnik Weiser"
+     },
+     "address": {
+      "locality": "Schleiz",
+      "region": "DEG0K",
+      "postalCode": "07907",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fassadenbau",
+     "description": "Trocken- und Innenausbauarbeiten bestehend aus:\n- Ca. 500m² Aluminiumfassade mit gelochten Zackenprofil inkl. Unterkonstruktion",
+     "contractPeriod": {
+      "startDate": "2026-10-01T00:00:00+02:00",
+      "endDate": "2026-12-21T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-05T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 232017,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-04T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "f081fd57-41a8-408a-8609-26138404f9ef",
+  "version": "01",
+  "title": "6141-14 Umbau und Erweiterung Bürgersaal in Geisenhausen, Gewerk 2418-309- Fassadenbau",
+  "description": "Trocken- und Innenausbauarbeiten bestehend aus:\n- Ca. 500m² Aluminiumfassade mit gelochten Zackenprofil inkl. Unterkonstruktion",
+  "procedureType": "open",
+  "nuts": [
+   "DE227"
+  ],
+  "cpv": [
+   "45443000",
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fassadenbau",
+    "description": "Trocken- und Innenausbauarbeiten bestehend aus:\n- Ca. 500m² Aluminiumfassade mit gelochten Zackenprofil inkl. Unterkonstruktion",
+    "cpv": [
+     "45443000",
+     "45262670"
+    ],
+    "nuts": [
+     "DE227"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-01+02:00",
+    "plannedEnd": "2026-12-21+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preist ist das einzige Zuschlagskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

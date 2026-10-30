@@ -1,0 +1,234 @@
+{
+ "id": "e35c22ba-7f5e-499b-92b5-10bec0fbd73f-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "e35c22ba-7f5e-499b-92b5-10bec0fbd73f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e35c22ba-7f5e-499b-92b5-10bec0fbd73f",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:e35c22ba-7f5e-499b-92b5-10bec0fbd73f-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:e35c22ba-7f5e-499b-92b5-10bec0fbd73f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e35c22ba-7f5e-499b-92b5-10bec0fbd73f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Gerüstarbeiten",
+  "buyer": "Gemeinde Aschheim",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-80000fb7-ba1e-485a-bb61-d8d3a119c850",
+  "id": "e35c22ba-7f5e-499b-92b5-10bec0fbd73f",
+  "date": "2026-10-23T02:12:42Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Aschheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09184112-85609-21",
+     "legalName": "Gemeinde Aschheim"
+    },
+    "address": {
+     "streetAddress": "Saturnstraße 48",
+     "locality": "Aschheim",
+     "region": "DE21H",
+     "postalCode": "85609",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE21H",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Gerüstbauu.-verleihSeyferte.Kfm.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "keine Angabe",
+     "legalName": "Gerüstbauu.-verleihSeyferte.Kfm."
+    },
+    "address": {
+     "locality": "Gornau",
+     "region": "DED42",
+     "postalCode": "09405",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Aschheim",
+   "id": "09184112-85609-21",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Aschheim"
+   },
+   "address": {
+    "streetAddress": "Saturnstraße 48",
+    "locality": "Aschheim",
+    "region": "DE21H",
+    "postalCode": "85609",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "80000fb7-ba1e-485a-bb61-d8d3a119c850",
+   "title": "Gerüstarbeiten",
+   "description": "Art und Umfang der wesentlichen Leistung: 01.Baustelleneinrichtung 01.01Baustelleneinrichtung des AN02. Verbauarbeiten in geringem Umfang02.01Baustelleneinrichtung Verbauarbeiten 02.02Trägerbohlwand mit Kanaldielenausfachung- Trägerbohlwand Träger HEB-Profil 300, mit Kanaldielen-  ausfachung, Verbauhöhe ca. 4,5 mgesamt ca. 100 m²03.Erdarbeiten03.01Baugrubenaushub- Boden Baugrube lösen, laden gesamt ca. 4.600 m³- Boden Baugrube lösen, fördern, abkippengesamt ca. 400 m³03.02Entsorgen Baugrubenaushub03.03Baugrubenhinterfüllung - Bauwerk hinterfüllen überschütten, verdichten, Boden   lieferngesamt ca. 2.250 m³03.04Maßnahmen zur Verbesserung der Gründung - Bettungsschicht Füllstoff einbauen, verdichten, Kies-  Sandgemischgesamt ca. 720 m³",
+   "procuringEntity": {
+    "name": "Gemeinde Aschheim",
+    "id": "09184112-85609-21"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "deliveryAddress": {
+      "region": "DE21H",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-05-26T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Gerüstbauu.-verleihSeyferte.Kfm.",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Gerüstbauu.-verleihSeyferte.Kfm."
+     },
+     "address": {
+      "locality": "Gornau",
+      "region": "DED42",
+      "postalCode": "09405",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Gerüstarbeiten",
+     "description": "Beschreibung: 01.Gerüstarbeiten01.01Fassadengerüste- Aufbauen, Abbauen und Vorhaltung von Arbeits- und Schutzgerüsten als Fassadengerüste Lastklasse 3, Breitenklasse SW 09 zum Teil freistehendgesamt ca.1.850 m²- Aufbauen, Abbauen einschl. Vorhaltung Standgerüst als Modulgerüst gesamt ca. 170 m³- Aufbauen, Abbauen einschl. Vorhaltung Treppen- aufgänge einläufig, Höhe bis 10 mgesamt ca. 5 Stück01.02Fahrbare Gerüste- Aufbauen, Abbauen einschl. Vorhaltung fahrbare Gerüste, Höhe bis 4 m gesamt6 Stück"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-06-08T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 75140,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-06-07T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e35c22ba-7f5e-499b-92b5-10bec0fbd73f",
+  "version": "01",
+  "title": "Gerüstarbeiten",
+  "description": "Art und Umfang der wesentlichen Leistung: 01.Baustelleneinrichtung 01.01Baustelleneinrichtung des AN02. Verbauarbeiten in geringem Umfang02.01Baustelleneinrichtung Verbauarbeiten 02.02Trägerbohlwand mit Kanaldielenausfachung- Trägerbohlwand Träger HEB-Profil 300, mit Kanaldielen-  ausfachung, Verbauhöhe ca. 4,5 mgesamt ca. 100 m²03.Erdarbeiten03.01Baugrubenaushub- Boden Baugrube lösen, laden gesamt ca. 4.600 m³- Boden Baugrube lösen, fördern, abkippengesamt ca. 400 m³03.02Entsorgen Baugrubenaushub03.03Baugrubenhinterfüllung - Bauwerk hinterfüllen überschütten, verdichten, Boden   lieferngesamt ca. 2.250 m³03.04Maßnahmen zur Verbesserung der Gründung - Bettungsschicht Füllstoff einbauen, verdichten, Kies-  Sandgemischgesamt ca. 720 m³",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "45000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Gerüstarbeiten",
+    "description": "Beschreibung: 01.Gerüstarbeiten01.01Fassadengerüste- Aufbauen, Abbauen und Vorhaltung von Arbeits- und Schutzgerüsten als Fassadengerüste Lastklasse 3, Breitenklasse SW 09 zum Teil freistehendgesamt ca.1.850 m²- Aufbauen, Abbauen einschl. Vorhaltung Standgerüst als Modulgerüst gesamt ca. 170 m³- Aufbauen, Abbauen einschl. Vorhaltung Treppen- aufgänge einläufig, Höhe bis 10 mgesamt ca. 5 Stück01.02Fahrbare Gerüste- Aufbauen, Abbauen einschl. Vorhaltung fahrbare Gerüste, Höhe bis 4 m gesamt6 Stück",
+    "cpv": [
+     "45000000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterien",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

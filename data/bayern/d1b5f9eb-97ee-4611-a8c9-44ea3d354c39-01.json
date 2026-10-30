@@ -210,6 +210,8 @@
   "noticeId": "d1b5f9eb-97ee-4611-a8c9-44ea3d354c39",
   "version": "01",
   "title": "Uw München-Pasing, Los1 (Umspannertausch und Bauleistungen) und Los 2 (Erneuerung Sekundärtechnik)",
+  "description": "Uw München-Pasing, Los1 (Umspannertausch und Bauleistungen) und Los 2 (Erneuerung Sekundärtechnik)",
+  "procedureType": "neg-wo-call",
   "nuts": [
    "DE212"
   ],
@@ -223,6 +225,7 @@
    {
     "id": "LOT-0001",
     "title": "Unterwerk München-Pasing, Los 1 Bauleistungen Primärtechnik und Umspannertausch",
+    "description": "Abbruch und Montage der Primärtechnik",
     "cpv": [
      "45232200"
     ],
@@ -233,13 +236,24 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-01+01:00",
     "plannedEnd": "2028-06-30+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0002",
     "title": "Unterwerk München-Pasing, Los 2, Erneuerung der Sekundärtechnik",
+    "description": "Rückbau und Neumontage Sekundärtechnik",
     "cpv": [
      "45232200"
     ],
@@ -250,13 +264,24 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-01+01:00",
     "plannedEnd": "2028-06-30+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    },
    {
     "id": "LOT-0003",
     "title": "Unterwerk München-Pasing, Los 3 Rückbau Oberbau",
+    "description": "Rückbau eines bestehenden stillgelegten Werksgleises",
     "cpv": [
      "45232200"
     ],
@@ -267,9 +292,19 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-01+01:00",
     "plannedEnd": "2028-06-30+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

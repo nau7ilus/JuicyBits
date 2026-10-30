@@ -5,14 +5,14 @@
   "noticeId": "ac72358a-15e2-4a61-aaba-8840dbf3ebf1",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ac72358a-15e2-4a61-aaba-8840dbf3ebf1",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:ac72358a-15e2-4a61-aaba-8840dbf3ebf1-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:ac72358a-15e2-4a61-aaba-8840dbf3ebf1-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/ac72358a-15e2-4a61-aaba-8840dbf3ebf1?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "LSA Ft1 Update des zentralen Verkehrsrechners der Stadt Fürth inkl. Wartungsvertrag",
   "buyer": "Stadt Fürth",
   "cpv": [
@@ -213,5 +213,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "ac72358a-15e2-4a61-aaba-8840dbf3ebf1",
+  "version": "01",
+  "title": "LSA Ft1 Update des zentralen Verkehrsrechners der Stadt Fürth inkl. Wartungsvertrag",
+  "description": "Das Verkehrsrechnersystem der Stadt Fürth ist veraltet und muss erneuert werden. Es werden nur die Komponenten ausgetauscht, die für eine Erneuerung des Systems notwendig sind. Eine vollständige Kompatibilität mit Bestandssystemen ist zu gewährleisten",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE253"
+  ],
+  "cpv": [
+   "48000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "LSA Ft1 Update des zentralen Verkehrsrechners der Stadt Fürth inkl. Wartungsvertrag",
+    "description": "Das Verkehrsrechnersystem der Stadt Fürth ist veraltet und muss erneuert werden. Es werden nur die Komponenten ausgetauscht, die für eine Erneuerung des Systems notwendig sind. Eine vollständige Kompatibilität mit Bestandssystemen ist zu gewährleisten",
+    "cpv": [
+     "48000000"
+    ],
+    "nuts": [
+     "DE253"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

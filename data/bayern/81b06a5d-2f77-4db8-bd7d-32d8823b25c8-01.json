@@ -1,0 +1,299 @@
+{
+ "id": "81b06a5d-2f77-4db8-bd7d-32d8823b25c8-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "81b06a5d-2f77-4db8-bd7d-32d8823b25c8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=81b06a5d-2f77-4db8-bd7d-32d8823b25c8",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:81b06a5d-2f77-4db8-bd7d-32d8823b25c8-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:81b06a5d-2f77-4db8-bd7d-32d8823b25c8-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/81b06a5d-2f77-4db8-bd7d-32d8823b25c8?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Fassadensanierung am Standort Landshut - Los 03 - Metallbauarbeiten (Alu-Fassade)",
+  "buyer": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)",
+  "cpv": [
+   "45443000",
+   "45262670"
+  ],
+  "nuts": [
+   "DE731",
+   "DE221"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6622d232-44ff-466e-ad6d-3b96d45f57f9",
+  "id": "81b06a5d-2f77-4db8-bd7d-32d8823b25c8",
+  "date": "2026-10-16T02:06:28Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 9930176733",
+     "legalName": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)"
+    },
+    "address": {
+     "streetAddress": "Weißensteinstr. 70 -72",
+     "locality": "Kassel",
+     "region": "DE731",
+     "postalCode": "34131",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "VBS Vergabeberatungsstelle GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE364668695",
+     "legalName": "VBS Vergabeberatungsstelle GmbH"
+    },
+    "address": {
+     "streetAddress": "Auf dem Kalk 5",
+     "locality": "Montabaur",
+     "region": "DEB1B",
+     "postalCode": "56410",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "T:0022894990",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemomblerstraße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Starz Metallbau GmbH & Co. KG",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 292461920",
+     "legalName": "Starz Metallbau GmbH & Co. KG"
+    },
+    "address": {
+     "locality": "Aalen",
+     "region": "DE11D",
+     "postalCode": "73432",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)",
+   "id": "Leitweg-ID 9930176733",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)"
+   },
+   "address": {
+    "streetAddress": "Weißensteinstr. 70 -72",
+    "locality": "Kassel",
+    "region": "DE731",
+    "postalCode": "34131",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6622d232-44ff-466e-ad6d-3b96d45f57f9",
+   "title": "Fassadensanierung am Standort Landshut - Los 03 - Metallbauarbeiten (Alu-Fassade)",
+   "description": "- ca. 3.675 m² abschnittsweiser Ausbau der Bestandselemente als Pfosten Riegel Fassade in vier Teilabschnitten und Wiedereinbau der neuen Aufsatzkonstruktion aus Aluminium, inkl. Verglasung als PR Fassade in gleichem Umfang",
+   "procuringEntity": {
+    "name": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)",
+    "id": "Leitweg-ID 9930176733"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45443000",
+      "description": "Facade work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE221",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 3535902,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-09-28T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Starz Metallbau GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Starz Metallbau GmbH & Co. KG"
+     },
+     "address": {
+      "locality": "Aalen",
+      "region": "DE11D",
+      "postalCode": "73432",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fassadensanierung am Standort Landshut - Los 03 - Metallbauarbeiten (Alu-Fassade)",
+     "description": "Ca. 3.675 m² abschnittsweiser Ausbau der Bestandselemente als Pfosten Riegel Fassade in vier Teilabschnitten und Wiedereinbau der neuen Aufsatzkonstruktion aus Aluminium, inkl. Verglasung als PR Fassade in gleichem Umfang.",
+     "value": {
+      "amount": 3535902,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-12-02T00:00:00+01:00",
+      "endDate": "2027-10-04T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-09T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Starz Metallbau GmbH & Co. KG",
+      "id": "DE 292461920",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "Starz Metallbau GmbH & Co. KG"
+      },
+      "address": {
+       "locality": "Aalen",
+       "region": "DE11D",
+       "postalCode": "73432",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 3432117.22,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "81b06a5d-2f77-4db8-bd7d-32d8823b25c8",
+  "version": "01",
+  "title": "Fassadensanierung am Standort Landshut - Los 03 - Metallbauarbeiten (Alu-Fassade)",
+  "description": "- ca. 3.675 m² abschnittsweiser Ausbau der Bestandselemente als Pfosten Riegel Fassade in vier Teilabschnitten und Wiedereinbau der neuen Aufsatzkonstruktion aus Aluminium, inkl. Verglasung als PR Fassade in gleichem Umfang",
+  "procedureType": "open",
+  "nuts": [
+   "DE221"
+  ],
+  "cpv": [
+   "45443000",
+   "45262670"
+  ],
+  "estimatedValue": {
+   "amount": 3535902,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fassadensanierung am Standort Landshut - Los 03 - Metallbauarbeiten (Alu-Fassade)",
+    "description": "Ca. 3.675 m² abschnittsweiser Ausbau der Bestandselemente als Pfosten Riegel Fassade in vier Teilabschnitten und Wiedereinbau der neuen Aufsatzkonstruktion aus Aluminium, inkl. Verglasung als PR Fassade in gleichem Umfang.",
+    "cpv": [
+     "45443000",
+     "45262670"
+    ],
+    "nuts": [
+     "DE221"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-02+01:00",
+    "plannedEnd": "2027-10-04+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 3535902,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,260 @@
+{
+ "id": "745bf0ab-413e-4f64-96a9-652e54407937-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "745bf0ab-413e-4f64-96a9-652e54407937",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=745bf0ab-413e-4f64-96a9-652e54407937",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:745bf0ab-413e-4f64-96a9-652e54407937-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:745bf0ab-413e-4f64-96a9-652e54407937-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/745bf0ab-413e-4f64-96a9-652e54407937?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10",
+  "buyer": "Stadt Nürnberg - Zentrale Dienste",
+  "cpv": [
+   "32232000",
+   "30231300",
+   "32341000",
+   "32342000",
+   "51313000",
+   "51314000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-16T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f8d2c4e7-82f8-43c2-9a38-b2447c419259",
+  "id": "745bf0ab-413e-4f64-96a9-652e54407937",
+  "date": "2026-10-18T08:58:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg - Zentrale Dienste",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "371db3d0-6d09-473b-9b49-7f540709d97f",
+     "legalName": "Stadt Nürnberg - Zentrale Dienste"
+    },
+    "address": {
+     "streetAddress": "Winklerstr. 33",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90403",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "855daf8c-fe9f-4b20-b84c-8e495602d628",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Nürnberg - Zentrale Dienste (ZD/3)",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "a9852b42-30a1-45ec-9d1c-d4e0b900bb2e",
+     "legalName": "Stadt Nürnberg - Zentrale Dienste (ZD/3)"
+    },
+    "address": {
+     "streetAddress": "Winklerstr. 33",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90403",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg - Zentrale Dienste",
+   "id": "371db3d0-6d09-473b-9b49-7f540709d97f",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg - Zentrale Dienste"
+   },
+   "address": {
+    "streetAddress": "Winklerstr. 33",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90403",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f8d2c4e7-82f8-43c2-9a38-b2447c419259",
+   "title": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10",
+   "description": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg - Zentrale Dienste",
+    "id": "371db3d0-6d09-473b-9b49-7f540709d97f"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32232000",
+      "description": "Video-conferencing equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "30231300",
+       "description": "Display screens"
+      },
+      {
+       "scheme": "CPV",
+       "id": "32341000",
+       "description": "Microphones"
+      },
+      {
+       "scheme": "CPV",
+       "id": "32342000",
+       "description": "Loudspeakers"
+      },
+      {
+       "scheme": "CPV",
+       "id": "51313000",
+       "description": "Installation services of sound equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "51314000",
+       "description": "Installation services of video equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90451",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/16b27d1c-ffce-44b6-ae57-44bfec607544",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10",
+     "description": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "745bf0ab-413e-4f64-96a9-652e54407937",
+  "version": "01",
+  "title": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10",
+  "description": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "32232000",
+   "30231300",
+   "32341000",
+   "32342000",
+   "51313000",
+   "51314000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10",
+    "description": "Erneuerung der Medientechnik bei der ILS Nürnberg im Rahmen des HWT10",
+    "cpv": [
+     "32232000",
+     "30231300",
+     "32341000",
+     "32342000",
+     "51313000",
+     "51314000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-16T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "1. Eigenerklärung, dass die gewerberechtlichen Voraussetzungen für die Ausführung der angebotenen Leistung erfüllt sind 2. Eigenerklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet. 3. Eigenerklärung Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung (Kranken-, Renten- und Arbeitslosenversicherung) einschließlich der Unfallversicherung 4. Verpflichtungserklärung des Eignungsgebers im Falle einer Eignungsleihe zur Bereitstellung eben dieser Leistungen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis (Kopie der Versicherungspolice) über eine bestehende Betriebshaftpflichtversicherung mit folgenden Mindestdeckungssummen: Sachschäden 3.000.000 EUR; Personenschäden 2.000.000 EUR; oder pauschal 3.000.000 EUR für Personen- und Sachschäden."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Aktuelle Kopie des Nachweises (nicht älter als 12 Monate, bezogen auf die Angebotsfrist) des Eintrags in das Handelsregister bzw. des Eintrags in das Verzeichnis der zulassungsfreien Handwerksgewerbe oder eine Kopie des Nachweises über die Eintragung in das Berufs- und/oder Handelsregister nach Maßgabe der Rechtsvorschriften des Staates der Europäischen Union, in dem das Unternehmen niedergelassen ist."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

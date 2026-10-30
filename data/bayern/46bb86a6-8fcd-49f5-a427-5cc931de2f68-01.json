@@ -5,18 +5,19 @@
   "noticeId": "46bb86a6-8fcd-49f5-a427-5cc931de2f68",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=46bb86a6-8fcd-49f5-a427-5cc931de2f68",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:46bb86a6-8fcd-49f5-a427-5cc931de2f68-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:46bb86a6-8fcd-49f5-a427-5cc931de2f68-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/46bb86a6-8fcd-49f5-a427-5cc931de2f68?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
   "buyer": "IKZ Lichtenau",
   "cpv": [
-   "64210000"
+   "64210000",
+   "32412000"
   ],
   "nuts": [
    "DE256"
@@ -300,5 +301,551 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "19",
+  "noticeId": "46bb86a6-8fcd-49f5-a427-5cc931de2f68",
+  "version": "01",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministeriums für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE256"
+  ],
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 1 (Gesamtlos) beträgt 1121 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-09-11T10:00:00+02:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Angabe von mindestens 5 Referenzen aus den letzten 3 Jahren vor Ende der Bewerbungsfrist über die Ausführung von Leistungen, die mit der zu vergebenden Konzession vergleichbar sind, mit Angabe des jeweiligen Auftragswerts. Die Mindestanzahl an Referenzen muss für jeden der Leistungsteile Planung, Bau und Betrieb von NGA-Netzen gesondert nachgewiesen werden. Kann ein Bieter nicht für alle Leistungsbereiche Referenzen vorweisen, so hat er diese Leistungsteile ggfs. unter Einbindung von entsprechend erfahrenen Unterauftragnehmern nachzuweisen"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage eines Unternehmensprofils oder sonstiger aussagekräftiger Angaben über den Bieter"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung über den Gesamtumsatz des sich bewerbenden Unternehmens sowie den Umsatz aus Leistungen, die mit dem Konzessionsgegenstand oder Teilen davon vergleichbar sind, jeweils bezogen auf die letzten 3 Geschäftsjahre. Sofern ein Bewerber noch nicht so lange auf dem Markt tätig ist, legt er für die fehlenden Jahre eine Unternehmensplanung vor. Nichtbilanzierende Unternehmen legen eine attestierte Gewinn- und Verlustrechnung der letzten drei Jahre vor."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis der Haftungs- und Eigentumsverhältnisse des Bieters durch Vorlage eines Auszugs aus dem Handelsregister des Herkunftslandes, der zum Zeitpunkt des Ablaufs der Bewerbungsfrist nicht älter als drei Monate sein darf; dieses Erfordernis entfällt bei nicht eingetragenen Personengesellschaften bzw. anderen nicht eintragungspflichtigen Unternehmen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass kein Insolvenzverfahren oder vergleichbar gesetzlich geregeltes Verfahren eröffnet, die Eröffnung beantragt oder der Antrag mangels Masse abgelehnt worden ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass sich der Bieter nicht in Liquidation befindet."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber nicht rechtskräftig verurteilt oder gegen ihn eine Geldbuße rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 123 GWB."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung, dass der Bewerber im Rahmen seiner beruflichen Tätigkeit keine sonstigen schweren Verfehlungen begangen hat, die seine Zuverlässigkeit iSd § 124 GWB in Frage stellen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber seine Verpflichtungen zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozial- und Krankenversicherung ordnungsgemäß erfüllt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber sich bei der Erteilung von Auskünften im Vergabeverfahren keiner falschen Erklärungen schuldig gemacht oder entsprechende Auskünfte unberechtigterweise nicht erteilt hat."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 5 Telekommunikationsgesetz (TKG) bei der BNetzA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 2(Gemeinde Windelsbach) beträgt 414 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-09-11T10:00:00+02:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Angabe von mindestens 5 Referenzen aus den letzten 3 Jahren vor Ende der Bewerbungsfrist über die Ausführung von Leistungen, die mit der zu vergebenden Konzession vergleichbar sind, mit Angabe des jeweiligen Auftragswerts. Die Mindestanzahl an Referenzen muss für jeden der Leistungsteile Planung, Bau und Betrieb von NGA-Netzen gesondert nachgewiesen werden. Kann ein Bieter nicht für alle Leistungsbereiche Referenzen vorweisen, so hat er diese Leistungsteile ggfs. unter Einbindung von entsprechend erfahrenen Unterauftragnehmern nachzuweisen"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage eines Unternehmensprofils oder sonstiger aussagekräftiger Angaben über den Bieter"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung über den Gesamtumsatz des sich bewerbenden Unternehmens sowie den Umsatz aus Leistungen, die mit dem Konzessionsgegenstand oder Teilen davon vergleichbar sind, jeweils bezogen auf die letzten 3 Geschäftsjahre. Sofern ein Bewerber noch nicht so lange auf dem Markt tätig ist, legt er für die fehlenden Jahre eine Unternehmensplanung vor. Nichtbilanzierende Unternehmen legen eine attestierte Gewinn- und Verlustrechnung der letzten drei Jahre vor."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis der Haftungs- und Eigentumsverhältnisse des Bieters durch Vorlage eines Auszugs aus dem Handelsregister des Herkunftslandes, der zum Zeitpunkt des Ablaufs der Bewerbungsfrist nicht älter als drei Monate sein darf; dieses Erfordernis entfällt bei nicht eingetragenen Personengesellschaften bzw. anderen nicht eintragungspflichtigen Unternehmen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass kein Insolvenzverfahren oder vergleichbar gesetzlich geregeltes Verfahren eröffnet, die Eröffnung beantragt oder der Antrag mangels Masse abgelehnt worden ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass sich der Bieter nicht in Liquidation befindet."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber nicht rechtskräftig verurteilt oder gegen ihn eine Geldbuße rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 123 GWB."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung, dass der Bewerber im Rahmen seiner beruflichen Tätigkeit keine sonstigen schweren Verfehlungen begangen hat, die seine Zuverlässigkeit iSd § 124 GWB in Frage stellen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber seine Verpflichtungen zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozial- und Krankenversicherung ordnungsgemäß erfüllt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber sich bei der Erteilung von Auskünften im Vergabeverfahren keiner falschen Erklärungen schuldig gemacht oder entsprechende Auskünfte unberechtigterweise nicht erteilt hat."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 5 Telekommunikationsgesetz (TKG) bei der BNetzA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 3 (Markt Flachslanden) beträgt 369 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-09-11T10:00:00+02:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Angabe von mindestens 5 Referenzen aus den letzten 3 Jahren vor Ende der Bewerbungsfrist über die Ausführung von Leistungen, die mit der zu vergebenden Konzession vergleichbar sind, mit Angabe des jeweiligen Auftragswerts. Die Mindestanzahl an Referenzen muss für jeden der Leistungsteile Planung, Bau und Betrieb von NGA-Netzen gesondert nachgewiesen werden. Kann ein Bieter nicht für alle Leistungsbereiche Referenzen vorweisen, so hat er diese Leistungsteile ggfs. unter Einbindung von entsprechend erfahrenen Unterauftragnehmern nachzuweisen"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage eines Unternehmensprofils oder sonstiger aussagekräftiger Angaben über den Bieter"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung über den Gesamtumsatz des sich bewerbenden Unternehmens sowie den Umsatz aus Leistungen, die mit dem Konzessionsgegenstand oder Teilen davon vergleichbar sind, jeweils bezogen auf die letzten 3 Geschäftsjahre. Sofern ein Bewerber noch nicht so lange auf dem Markt tätig ist, legt er für die fehlenden Jahre eine Unternehmensplanung vor. Nichtbilanzierende Unternehmen legen eine attestierte Gewinn- und Verlustrechnung der letzten drei Jahre vor."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis der Haftungs- und Eigentumsverhältnisse des Bieters durch Vorlage eines Auszugs aus dem Handelsregister des Herkunftslandes, der zum Zeitpunkt des Ablaufs der Bewerbungsfrist nicht älter als drei Monate sein darf; dieses Erfordernis entfällt bei nicht eingetragenen Personengesellschaften bzw. anderen nicht eintragungspflichtigen Unternehmen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass kein Insolvenzverfahren oder vergleichbar gesetzlich geregeltes Verfahren eröffnet, die Eröffnung beantragt oder der Antrag mangels Masse abgelehnt worden ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass sich der Bieter nicht in Liquidation befindet."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber nicht rechtskräftig verurteilt oder gegen ihn eine Geldbuße rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 123 GWB."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung, dass der Bewerber im Rahmen seiner beruflichen Tätigkeit keine sonstigen schweren Verfehlungen begangen hat, die seine Zuverlässigkeit iSd § 124 GWB in Frage stellen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber seine Verpflichtungen zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozial- und Krankenversicherung ordnungsgemäß erfüllt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber sich bei der Erteilung von Auskünften im Vergabeverfahren keiner falschen Erklärungen schuldig gemacht oder entsprechende Auskünfte unberechtigterweise nicht erteilt hat."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 5 Telekommunikationsgesetz (TKG) bei der BNetzA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 4 (Markt Lichtenau) beträgt 202 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-09-11T10:00:00+02:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Angabe von mindestens 5 Referenzen aus den letzten 3 Jahren vor Ende der Bewerbungsfrist über die Ausführung von Leistungen, die mit der zu vergebenden Konzession vergleichbar sind, mit Angabe des jeweiligen Auftragswerts. Die Mindestanzahl an Referenzen muss für jeden der Leistungsteile Planung, Bau und Betrieb von NGA-Netzen gesondert nachgewiesen werden. Kann ein Bieter nicht für alle Leistungsbereiche Referenzen vorweisen, so hat er diese Leistungsteile ggfs. unter Einbindung von entsprechend erfahrenen Unterauftragnehmern nachzuweisen"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage eines Unternehmensprofils oder sonstiger aussagekräftiger Angaben über den Bieter"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung über den Gesamtumsatz des sich bewerbenden Unternehmens sowie den Umsatz aus Leistungen, die mit dem Konzessionsgegenstand oder Teilen davon vergleichbar sind, jeweils bezogen auf die letzten 3 Geschäftsjahre. Sofern ein Bewerber noch nicht so lange auf dem Markt tätig ist, legt er für die fehlenden Jahre eine Unternehmensplanung vor. Nichtbilanzierende Unternehmen legen eine attestierte Gewinn- und Verlustrechnung der letzten drei Jahre vor."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis der Haftungs- und Eigentumsverhältnisse des Bieters durch Vorlage eines Auszugs aus dem Handelsregister des Herkunftslandes, der zum Zeitpunkt des Ablaufs der Bewerbungsfrist nicht älter als drei Monate sein darf; dieses Erfordernis entfällt bei nicht eingetragenen Personengesellschaften bzw. anderen nicht eintragungspflichtigen Unternehmen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass kein Insolvenzverfahren oder vergleichbar gesetzlich geregeltes Verfahren eröffnet, die Eröffnung beantragt oder der Antrag mangels Masse abgelehnt worden ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass sich der Bieter nicht in Liquidation befindet."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber nicht rechtskräftig verurteilt oder gegen ihn eine Geldbuße rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 123 GWB."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung, dass der Bewerber im Rahmen seiner beruflichen Tätigkeit keine sonstigen schweren Verfehlungen begangen hat, die seine Zuverlässigkeit iSd § 124 GWB in Frage stellen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber seine Verpflichtungen zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozial- und Krankenversicherung ordnungsgemäß erfüllt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber sich bei der Erteilung von Auskünften im Vergabeverfahren keiner falschen Erklärungen schuldig gemacht oder entsprechende Auskünfte unberechtigterweise nicht erteilt hat."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 5 Telekommunikationsgesetz (TKG) bei der BNetzA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 5 (Gemeinde Bruckberg) beträgt 91 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-09-11T10:00:00+02:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Angabe von mindestens 5 Referenzen aus den letzten 3 Jahren vor Ende der Bewerbungsfrist über die Ausführung von Leistungen, die mit der zu vergebenden Konzession vergleichbar sind, mit Angabe des jeweiligen Auftragswerts. Die Mindestanzahl an Referenzen muss für jeden der Leistungsteile Planung, Bau und Betrieb von NGA-Netzen gesondert nachgewiesen werden. Kann ein Bieter nicht für alle Leistungsbereiche Referenzen vorweisen, so hat er diese Leistungsteile ggfs. unter Einbindung von entsprechend erfahrenen Unterauftragnehmern nachzuweisen"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage eines Unternehmensprofils oder sonstiger aussagekräftiger Angaben über den Bieter"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung über den Gesamtumsatz des sich bewerbenden Unternehmens sowie den Umsatz aus Leistungen, die mit dem Konzessionsgegenstand oder Teilen davon vergleichbar sind, jeweils bezogen auf die letzten 3 Geschäftsjahre. Sofern ein Bewerber noch nicht so lange auf dem Markt tätig ist, legt er für die fehlenden Jahre eine Unternehmensplanung vor. Nichtbilanzierende Unternehmen legen eine attestierte Gewinn- und Verlustrechnung der letzten drei Jahre vor."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis der Haftungs- und Eigentumsverhältnisse des Bieters durch Vorlage eines Auszugs aus dem Handelsregister des Herkunftslandes, der zum Zeitpunkt des Ablaufs der Bewerbungsfrist nicht älter als drei Monate sein darf; dieses Erfordernis entfällt bei nicht eingetragenen Personengesellschaften bzw. anderen nicht eintragungspflichtigen Unternehmen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass kein Insolvenzverfahren oder vergleichbar gesetzlich geregeltes Verfahren eröffnet, die Eröffnung beantragt oder der Antrag mangels Masse abgelehnt worden ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass sich der Bieter nicht in Liquidation befindet."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber nicht rechtskräftig verurteilt oder gegen ihn eine Geldbuße rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 123 GWB."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung, dass der Bewerber im Rahmen seiner beruflichen Tätigkeit keine sonstigen schweren Verfehlungen begangen hat, die seine Zuverlässigkeit iSd § 124 GWB in Frage stellen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber seine Verpflichtungen zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozial- und Krankenversicherung ordnungsgemäß erfüllt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber sich bei der Erteilung von Auskünften im Vergabeverfahren keiner falschen Erklärungen schuldig gemacht oder entsprechende Auskünfte unberechtigterweise nicht erteilt hat."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 5 Telekommunikationsgesetz (TKG) bei der BNetzA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0006",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 6 (Gemeinde Neuendettelsbau) beträgt 45 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE256"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-09-11T10:00:00+02:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Angabe von mindestens 5 Referenzen aus den letzten 3 Jahren vor Ende der Bewerbungsfrist über die Ausführung von Leistungen, die mit der zu vergebenden Konzession vergleichbar sind, mit Angabe des jeweiligen Auftragswerts. Die Mindestanzahl an Referenzen muss für jeden der Leistungsteile Planung, Bau und Betrieb von NGA-Netzen gesondert nachgewiesen werden. Kann ein Bieter nicht für alle Leistungsbereiche Referenzen vorweisen, so hat er diese Leistungsteile ggfs. unter Einbindung von entsprechend erfahrenen Unterauftragnehmern nachzuweisen"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage eines Unternehmensprofils oder sonstiger aussagekräftiger Angaben über den Bieter"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung über den Gesamtumsatz des sich bewerbenden Unternehmens sowie den Umsatz aus Leistungen, die mit dem Konzessionsgegenstand oder Teilen davon vergleichbar sind, jeweils bezogen auf die letzten 3 Geschäftsjahre. Sofern ein Bewerber noch nicht so lange auf dem Markt tätig ist, legt er für die fehlenden Jahre eine Unternehmensplanung vor. Nichtbilanzierende Unternehmen legen eine attestierte Gewinn- und Verlustrechnung der letzten drei Jahre vor."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Nachweis der Haftungs- und Eigentumsverhältnisse des Bieters durch Vorlage eines Auszugs aus dem Handelsregister des Herkunftslandes, der zum Zeitpunkt des Ablaufs der Bewerbungsfrist nicht älter als drei Monate sein darf; dieses Erfordernis entfällt bei nicht eingetragenen Personengesellschaften bzw. anderen nicht eintragungspflichtigen Unternehmen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass kein Insolvenzverfahren oder vergleichbar gesetzlich geregeltes Verfahren eröffnet, die Eröffnung beantragt oder der Antrag mangels Masse abgelehnt worden ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass sich der Bieter nicht in Liquidation befindet."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber nicht rechtskräftig verurteilt oder gegen ihn eine Geldbuße rechtskräftig festgesetzt worden ist wegen einer Straftat nach § 123 GWB."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung, dass der Bewerber im Rahmen seiner beruflichen Tätigkeit keine sonstigen schweren Verfehlungen begangen hat, die seine Zuverlässigkeit iSd § 124 GWB in Frage stellen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber seine Verpflichtungen zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozial- und Krankenversicherung ordnungsgemäß erfüllt."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eigenerklärung, dass der Bewerber sich bei der Erteilung von Auskünften im Vergabeverfahren keiner falschen Erklärungen schuldig gemacht oder entsprechende Auskünfte unberechtigterweise nicht erteilt hat."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis über die Registrierung als Betreiber öffentlicher Telekommunikationsnetze im Sinne des § 5 Telekommunikationsgesetz (TKG) bei der BNetzA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 85
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

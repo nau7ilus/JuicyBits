@@ -1,0 +1,292 @@
+{
+ "id": "4fd505d4-ca64-4af2-8a09-b458bf621725-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "4fd505d4-ca64-4af2-8a09-b458bf621725",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4fd505d4-ca64-4af2-8a09-b458bf621725",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:4fd505d4-ca64-4af2-8a09-b458bf621725-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:4fd505d4-ca64-4af2-8a09-b458bf621725-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4fd505d4-ca64-4af2-8a09-b458bf621725?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Kauf von 16 Pressmüllfahrzeugen in Schweizer Breite",
+  "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+  "cpv": [
+   "34144511"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T23:59:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-979ff45c-cccb-4519-a1e2-216c38c6f36a",
+  "id": "4fd505d4-ca64-4af2-8a09-b458bf621725",
+  "date": "2026-10-23T02:12:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3"
+    },
+    "address": {
+     "streetAddress": "Birkerstraße 18",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80636",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+   "id": "Leitweg-ID 09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3"
+   },
+   "address": {
+    "streetAddress": "Birkerstraße 18",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80636",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "979ff45c-cccb-4519-a1e2-216c38c6f36a",
+   "title": "Kauf von 16 Pressmüllfahrzeugen in Schweizer Breite",
+   "description": "Kauf von 16 Pressmüllfahrzeugen in Schweizer Breite",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 3",
+    "id": "Leitweg-ID 09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144511",
+      "description": "Refuse-collection vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81660",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144511",
+      "description": "Refuse-collection vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81660",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1987f483562-42e7dc75802e2885",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1987f483562-42e7dc75802e2885",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Kauf von 16 LKW Fahrgestellen (zGG 26t)",
+     "description": "Los 1:\nKauf von 16 LKW Fahrgestellen.\nDetails siehe Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 300
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Kauf von 16 Pressmüllaufbauten (mind. 17 m³) und 16 Schüttungen",
+     "description": "Los 2: \nKauf von 16 Pressmüllaufbauten inklusive Schüttung.\nDetails siehe Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 150
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "4fd505d4-ca64-4af2-8a09-b458bf621725",
+  "version": "01",
+  "title": "Kauf von 16 Pressmüllfahrzeugen in Schweizer Breite",
+  "description": "Kauf von 16 Pressmüllfahrzeugen in Schweizer Breite",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "34144511"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Kauf von 16 LKW Fahrgestellen (zGG 26t)",
+    "description": "Los 1:\nKauf von 16 LKW Fahrgestellen.\nDetails siehe Leistungsbeschreibung.",
+    "cpv": [
+     "34144511"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 10,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 2 erbrachte\nvergleichbare Leistungen pro Los vorweisen.\nAls vergleichbare Leistung gilt in vorliegendem Fall:\nLos 1:\nAls Referenz wird in diesem Los die Lieferung von mind. 3 Fahrgestellen des angebotenen Fabrikats / Typs mit Fernverkehrsfahrerhaus an einen Auftraggeber anerkannt. \nLos 2:\nAls Referenz wird in diesem Los die Lieferung von mind. 3 Pressmüllaufbauten inklusive Schüttung des angebotenen Fabrikats / Typs an einen Auftraggeber anerkannt.\n\nReferenzen dürfen nachfolgend nur angegeben werden, wenn\n- sie nicht älter als drei Jahre sind\nund\n- die Leistung bereits vollständig abgeschlossen wurde oder\neiner Vertragslaufzeit von über einem Jahr, mindestens ein\nLeistungszeitraum von einem Jahr bereits abgeschlossen\nwurde."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Während der Ausführungszeit des Auftrags besteht für das Unternehmen eine Berufs- oder Betriebshaftpflichtversicherung mit mindestens folgenden Deckungssummen: \n\nPersonenschäden: 1.000.000 Euro \nSachschäden: 1.000.000 Euro \nVermögensschäden: 1.000.000 Euro"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz in den letzten 3 abgeschlossenen Geschäftsjahren muss für die einzelnen Lose mindestens folgende Werte betragen:\nMindestanforderungen an den Umsatz:\n- Los 1: 5.000.000 Euro\n- Los 2: 5.000.000 Euro\n\nSoll der Zuschlag für mehrere, gleichzeitig auszuführende Lose an einen Bewerber / Bieter erteilt werden, so müssen die Umsatzzahlen des Bewerbers/Bieters in den letzten 3 abgeschlossenen Geschäftsjahren mindestens der Summe der geforderten Mindestumsätze aus den betreffenden Losen entsprechen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Zuschlagskriterium ist der Preis (100%), wobei alle Anforderungen gemäß der Vergabeunterlagen erfüllt sein müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Kauf von 16 Pressmüllaufbauten (mind. 17 m³) und 16 Schüttungen",
+    "description": "Los 2: \nKauf von 16 Pressmüllaufbauten inklusive Schüttung.\nDetails siehe Leistungsbeschreibung.",
+    "cpv": [
+     "34144511"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 5,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 2 erbrachte\nvergleichbare Leistungen pro Los vorweisen.\nAls vergleichbare Leistung gilt in vorliegendem Fall:\nLos 1:\nAls Referenz wird in diesem Los die Lieferung von mind. 3 Fahrgestellen des angebotenen Fabrikats / Typs mit Fernverkehrsfahrerhaus an einen Auftraggeber anerkannt. \nLos 2:\nAls Referenz wird in diesem Los die Lieferung von mind. 3 Pressmüllaufbauten inklusive Schüttung des angebotenen Fabrikats / Typs an einen Auftraggeber anerkannt.\n\nReferenzen dürfen nachfolgend nur angegeben werden, wenn\n- sie nicht älter als drei Jahre sind\nund\n- die Leistung bereits vollständig abgeschlossen wurde oder\neiner Vertragslaufzeit von über einem Jahr, mindestens ein\nLeistungszeitraum von einem Jahr bereits abgeschlossen\nwurde."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Während der Ausführungszeit des Auftrags besteht für das Unternehmen eine Berufs- oder Betriebshaftpflichtversicherung mit mindestens folgenden Deckungssummen: \n\nPersonenschäden: 1.000.000 Euro \nSachschäden: 1.000.000 Euro \nVermögensschäden: 1.000.000 Euro"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz in den letzten 3 abgeschlossenen Geschäftsjahren muss für die einzelnen Lose mindestens folgende Werte betragen:\nMindestanforderungen an den Umsatz:\n- Los 1: 5.000.000 Euro\n- Los 2: 5.000.000 Euro\n\nSoll der Zuschlag für mehrere, gleichzeitig auszuführende Lose an einen Bewerber / Bieter erteilt werden, so müssen die Umsatzzahlen des Bewerbers/Bieters in den letzten 3 abgeschlossenen Geschäftsjahren mindestens der Summe der geforderten Mindestumsätze aus den betreffenden Losen entsprechen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Zuschlagskriterium ist der Preis (100%), wobei alle Anforderungen gemäß der Vergabeunterlagen erfüllt sein müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

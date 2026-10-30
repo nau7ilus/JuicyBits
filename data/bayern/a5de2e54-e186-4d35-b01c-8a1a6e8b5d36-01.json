@@ -1,0 +1,310 @@
+{
+ "id": "a5de2e54-e186-4d35-b01c-8a1a6e8b5d36-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "a5de2e54-e186-4d35-b01c-8a1a6e8b5d36",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a5de2e54-e186-4d35-b01c-8a1a6e8b5d36",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:a5de2e54-e186-4d35-b01c-8a1a6e8b5d36-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:a5de2e54-e186-4d35-b01c-8a1a6e8b5d36-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a5de2e54-e186-4d35-b01c-8a1a6e8b5d36?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Parkplatz Süd-Ost",
+  "buyer": "Aberlandklinik Viechtach",
+  "cpv": [
+   "45223300",
+   "45112700",
+   "45112711",
+   "45233253",
+   "45236250",
+   "45233252",
+   "45233222"
+  ],
+  "nuts": [
+   "DE229"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-20672fa2-4209-4e83-b61c-96389a4e7c12",
+  "id": "a5de2e54-e186-4d35-b01c-8a1a6e8b5d36",
+  "date": "2026-10-18T09:42:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Aberlandklinik Viechtach",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Deggendorf HRA 2210",
+     "legalName": "Aberlandklinik Viechtach"
+    },
+    "address": {
+     "locality": "Viechtach",
+     "region": "DE229",
+     "postalCode": "94234",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Hitzler Ingenieure GmbH & Co.KG",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "München HRA 118089",
+     "legalName": "Hitzler Ingenieure GmbH & Co.KG"
+    },
+    "address": {
+     "streetAddress": "Weimarer Str. 32",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80807",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "eSender",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Josef Zankl GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "HRB192",
+     "legalName": "Josef Zankl GmbH"
+    },
+    "address": {
+     "streetAddress": "Schmidstraße 28a",
+     "locality": "Viechtach",
+     "region": "DE229",
+     "postalCode": "94234",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Aberlandklinik Viechtach",
+   "id": "Deggendorf HRA 2210",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Aberlandklinik Viechtach"
+   },
+   "address": {
+    "locality": "Viechtach",
+    "region": "DE229",
+    "postalCode": "94234",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "20672fa2-4209-4e83-b61c-96389a4e7c12",
+   "title": "Parkplatz Süd-Ost",
+   "description": "Gegenstand der Ausschreibung ist die Erstellung von Parkplatzflächen und eines barrierefreien Zuganges zum Gebäude. \nGrobmassenübersicht:\n- Erdarbeiten und Grabenaushub: ca. 600 m3\n- Abbruch Beläge ca. 300 m2\n- Neubau Beläge ca. 900 m2 inkl. Einfassungen und Entwässerung\n- Tragschichten weitestgehend bauseits vorhanden\n- ca. 10 lfm Blockstufen\n- ca. 14 lfm Stützmauern aus Palisaden\n- ca. 16 lfm Absturzsicherung aus Stahl mit Handlauf Edelstahl\n- Pflanzflächen ca. 100 m2 inkl. Fertigstellungspflege\n- Rasenflächen ca. 200 m2 inkl. Fertigstellungspflege",
+   "procuringEntity": {
+    "name": "Aberlandklinik Viechtach",
+    "id": "Deggendorf HRA 2210"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45223300",
+      "description": "Parking lot construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45112700",
+       "description": "Landscaping work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45112711",
+       "description": "Landscaping work for parks"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45233253",
+       "description": "Surface work for footpaths"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45236250",
+       "description": "Flatwork for parks"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45233252",
+       "description": "Surface work for streets"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45233222",
+       "description": "Paving and asphalting works"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Karl-Gareis-Str. 31",
+      "locality": "Viechtach",
+      "region": "DE229",
+      "postalCode": "94234",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Josef Zankl GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Josef Zankl GmbH"
+     },
+     "address": {
+      "streetAddress": "Schmidstraße 28a",
+      "locality": "Viechtach",
+      "region": "DE229",
+      "postalCode": "94234",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Parkplatz Süd-Ost",
+     "description": "Gegenstand der Ausschreibung ist die Erstellung von Parkplatzflächen und eines barrierefreien Zuganges zum Gebäude. \nGrobmassenübersicht:\n- Erdarbeiten und Grabenaushub: ca. 600 m3\n- Abbruch Beläge ca. 300 m2\n- Neubau Beläge ca. 900 m2 inkl. Einfassungen und Entwässerung\n- Tragschichten weitestgehend bauseits vorhanden\n- ca. 10 lfm Blockstufen\n- ca. 14 lfm Stützmauern aus Palisaden\n- ca. 16 lfm Absturzsicherung aus Stahl mit Handlauf Edelstahl\n- Pflanzflächen ca. 100 m2 inkl. Fertigstellungspflege\n- Rasenflächen ca. 200 m2 inkl. Fertigstellungspflege",
+     "contractPeriod": {
+      "startDate": "2026-09-01T00:00:00+02:00",
+      "endDate": "2026-11-20T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-08-03T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 288849.13,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-08-02T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a5de2e54-e186-4d35-b01c-8a1a6e8b5d36",
+  "version": "01",
+  "title": "Parkplatz Süd-Ost",
+  "description": "Gegenstand der Ausschreibung ist die Erstellung von Parkplatzflächen und eines barrierefreien Zuganges zum Gebäude. \nGrobmassenübersicht:\n- Erdarbeiten und Grabenaushub: ca. 600 m3\n- Abbruch Beläge ca. 300 m2\n- Neubau Beläge ca. 900 m2 inkl. Einfassungen und Entwässerung\n- Tragschichten weitestgehend bauseits vorhanden\n- ca. 10 lfm Blockstufen\n- ca. 14 lfm Stützmauern aus Palisaden\n- ca. 16 lfm Absturzsicherung aus Stahl mit Handlauf Edelstahl\n- Pflanzflächen ca. 100 m2 inkl. Fertigstellungspflege\n- Rasenflächen ca. 200 m2 inkl. Fertigstellungspflege",
+  "procedureType": "open",
+  "nuts": [
+   "DE229"
+  ],
+  "cpv": [
+   "45223300",
+   "45112700",
+   "45112711",
+   "45233253",
+   "45236250",
+   "45233252",
+   "45233222"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Parkplatz Süd-Ost",
+    "description": "Gegenstand der Ausschreibung ist die Erstellung von Parkplatzflächen und eines barrierefreien Zuganges zum Gebäude. \nGrobmassenübersicht:\n- Erdarbeiten und Grabenaushub: ca. 600 m3\n- Abbruch Beläge ca. 300 m2\n- Neubau Beläge ca. 900 m2 inkl. Einfassungen und Entwässerung\n- Tragschichten weitestgehend bauseits vorhanden\n- ca. 10 lfm Blockstufen\n- ca. 14 lfm Stützmauern aus Palisaden\n- ca. 16 lfm Absturzsicherung aus Stahl mit Handlauf Edelstahl\n- Pflanzflächen ca. 100 m2 inkl. Fertigstellungspflege\n- Rasenflächen ca. 200 m2 inkl. Fertigstellungspflege",
+    "cpv": [
+     "45223300",
+     "45112700",
+     "45112711",
+     "45233253",
+     "45236250",
+     "45233252",
+     "45233222"
+    ],
+    "nuts": [
+     "DE229"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-01+02:00",
+    "plannedEnd": "2026-11-20+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Angebotspreis",
+      "description": "Angebotspreis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

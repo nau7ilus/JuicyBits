@@ -1,0 +1,157 @@
+{
+ "id": "25950066-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25950066",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25950066",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25950066-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25950066-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25950066?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Kanalsanierung Eichenau 2027",
+  "buyer": "AmperVerband",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-11T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25950066",
+  "id": "25950066",
+  "date": "2026-10-20T19:00:50Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AmperVerband",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "AmperVerband"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AmperVerband",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AmperVerband"
+   }
+  },
+  "tender": {
+   "title": "Kanalsanierung Eichenau 2027",
+   "description": "Renovierung und Reparatur von Hauptkanälen und Anschlussleitungen\n\nKanalsanierung Eichenau 2027",
+   "procuringEntity": {
+    "name": "AmperVerband"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "82223 Eichenau",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/e5a82141-ac7b-438e-86e3-88dfa1739cad",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Kanalsanierung Eichenau 2027",
+     "description": "Renovierung und Reparatur von Hauptkanälen und Anschlussleitungen\n\nKanalsanierung Eichenau 2027"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25950066",
+  "version": "1",
+  "title": "Kanalsanierung Eichenau 2027",
+  "description": "Renovierung und Reparatur von Hauptkanälen und Anschlussleitungen\n\nKanalsanierung Eichenau 2027",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Kanalsanierung Eichenau 2027",
+    "description": "Renovierung und Reparatur von Hauptkanälen und Anschlussleitungen\n\nKanalsanierung Eichenau 2027",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-11T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

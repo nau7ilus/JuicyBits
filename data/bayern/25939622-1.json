@@ -1,0 +1,134 @@
+{
+ "id": "25939622-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25939622",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25939622",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25939622-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25939622-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25939622?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Landkreis Regensburg: Neubau Schwimmhalle Realschule Regenstauf - Maler- und Lackierarbeiten - Beschichtungen",
+  "buyer": "Landkreis Regensburg",
+  "cpv": [
+   "45442100-8  45442110-1  45442180-2"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-04T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25939622",
+  "id": "25939622",
+  "date": "2026-10-16T07:00:50Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Regensburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landkreis Regensburg"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Regensburg",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Regensburg"
+   }
+  },
+  "tender": {
+   "title": "Landkreis Regensburg: Neubau Schwimmhalle Realschule Regenstauf - Maler- und Lackierarbeiten - Beschichtungen",
+   "description": "Maler- Lackierarbeiten/Beschichtung",
+   "procuringEntity": {
+    "name": "Landkreis Regensburg"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45442100-8  45442110-1  45442180-2"
+     },
+     "deliveryAddress": {
+      "locality": "93128 Regenstauf",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28A7EB",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Landkreis Regensburg: Neubau Schwimmhalle Realschule Regenstauf - Maler- und Lackierarbeiten - Beschichtungen",
+     "description": "Maler- Lackierarbeiten/Beschichtung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25939622",
+  "version": "1",
+  "title": "Landkreis Regensburg: Neubau Schwimmhalle Realschule Regenstauf - Maler- und Lackierarbeiten - Beschichtungen",
+  "description": "Maler- Lackierarbeiten/Beschichtung",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45442100-8  45442110-1  45442180-2"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Landkreis Regensburg: Neubau Schwimmhalle Realschule Regenstauf - Maler- und Lackierarbeiten - Beschichtungen",
+    "description": "Maler- Lackierarbeiten/Beschichtung",
+    "cpv": [
+     "45442100-8  45442110-1  45442180-2"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-04T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,371 @@
+{
+ "id": "bd98f36c-c81a-40bc-b54b-af60aa718ffd-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "bd98f36c-c81a-40bc-b54b-af60aa718ffd",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bd98f36c-c81a-40bc-b54b-af60aa718ffd",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:bd98f36c-c81a-40bc-b54b-af60aa718ffd-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:bd98f36c-c81a-40bc-b54b-af60aa718ffd-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bd98f36c-c81a-40bc-b54b-af60aa718ffd?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "ZRF Passau: Erweiterung ILS Passau & Hardwaretausch",
+  "buyer": "Zweckverband für Rettungsdienst- und Feuerwehralarmierung Passau",
+  "cpv": [
+   "39134000",
+   "39130000",
+   "30233000",
+   "30210000",
+   "30200000",
+   "30230000"
+  ],
+  "nuts": [
+   "DE222"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0e723fad-0156-4290-97dd-e4d57c78e727",
+  "id": "bd98f36c-c81a-40bc-b54b-af60aa718ffd",
+  "date": "2026-10-25T07:42:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband für Rettungsdienst- und Feuerwehralarmierung Passau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "n/a",
+     "legalName": "Zweckverband für Rettungsdienst- und Feuerwehralarmierung Passau"
+    },
+    "address": {
+     "streetAddress": "Am Fernsehturm 6",
+     "locality": "Passau",
+     "region": "DE222",
+     "postalCode": "94032",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "n-a",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweckverband für Rettungsdienst- und Feuerwehralarmierung Passau",
+   "id": "n/a",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Zweckverband für Rettungsdienst- und Feuerwehralarmierung Passau"
+   },
+   "address": {
+    "streetAddress": "Am Fernsehturm 6",
+    "locality": "Passau",
+    "region": "DE222",
+    "postalCode": "94032",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0e723fad-0156-4290-97dd-e4d57c78e727",
+   "title": "ZRF Passau: Erweiterung ILS Passau & Hardwaretausch",
+   "description": "Der Zweckverband für Rettungsdienst & Feuerwehralarmierung Passau (kurz: ZRF) beabsichtigt die Beschaffung von Leitstellenmöblierung, Medientechnik und Informations- und Kommunikationstechnik samt zugehöriger Leistungen für seine integrierte Leitstelle (ILS).  \n   \nDie Leistung wird in drei (3) Fachlosen beschafft. \n• Los 1: Leitstellenmöblierung \n• Los 2: Medientechnik \n• Los 3: Informations- und Kommunikationstechnik \n   \nEine ausführliche Darstellung des Leistungsgegenstandes findet sich losspezifisch in den Dokumenten 5.3 bis 5.14 der Vergabeunterlagen.",
+   "procuringEntity": {
+    "name": "Zweckverband für Rettungsdienst- und Feuerwehralarmierung Passau",
+    "id": "n/a"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39134000",
+      "description": "Computer furniture"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39130000",
+       "description": "Office furniture"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen, insbes. Werkvertrag."
+     },
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94032",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30233000",
+      "description": "Media storage and reader devices"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "30210000",
+       "description": "Data-processing machines (hardware)"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen, insbes. EVB-IT Systemlieferungsvertrag."
+     },
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94032",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30200000",
+      "description": "Computer equipment and supplies"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "30210000",
+       "description": "Data-processing machines (hardware)"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Siehe Vergabeunterlagen, insbes. EVB-IT Systemvertrag."
+     },
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94032",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Leitstellenmöblierung",
+     "description": "Beschaffung von Leitstellenmöblierung",
+     "contractPeriod": {
+      "durationInDays": 1
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Medientechnik",
+     "description": "Beschaffung der Medientechnik für die ILS.",
+     "contractPeriod": {
+      "durationInDays": 1800
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Informations- und Kommunikationstechnik",
+     "description": "Beschaffung der Informations- und Kommunikationstechnik für die ILS",
+     "contractPeriod": {
+      "durationInDays": 1800
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "bd98f36c-c81a-40bc-b54b-af60aa718ffd",
+  "version": "01",
+  "title": "ZRF Passau: Erweiterung ILS Passau & Hardwaretausch",
+  "description": "Der Zweckverband für Rettungsdienst & Feuerwehralarmierung Passau (kurz: ZRF) beabsichtigt die Beschaffung von Leitstellenmöblierung, Medientechnik und Informations- und Kommunikationstechnik samt zugehöriger Leistungen für seine integrierte Leitstelle (ILS).  \n   \nDie Leistung wird in drei (3) Fachlosen beschafft. \n• Los 1: Leitstellenmöblierung \n• Los 2: Medientechnik \n• Los 3: Informations- und Kommunikationstechnik \n   \nEine ausführliche Darstellung des Leistungsgegenstandes findet sich losspezifisch in den Dokumenten 5.3 bis 5.14 der Vergabeunterlagen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE222"
+  ],
+  "cpv": [
+   "30200000",
+   "30230000",
+   "39134000",
+   "39130000",
+   "30233000",
+   "30210000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Leitstellenmöblierung",
+    "description": "Beschaffung von Leitstellenmöblierung",
+    "cpv": [
+     "39134000",
+     "39130000"
+    ],
+    "nuts": [
+     "DE222"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 1,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "Leistung (Erweiterte Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis (Erweiterte Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Medientechnik",
+    "description": "Beschaffung der Medientechnik für die ILS.",
+    "cpv": [
+     "30233000",
+     "30210000"
+    ],
+    "nuts": [
+     "DE222"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "Leistung (Erweiterte Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     },
+     {
+      "type": "cost",
+      "name": "Wertungspreis",
+      "description": "Wertungspreis (Erweiterte Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Informations- und Kommunikationstechnik",
+    "description": "Beschaffung der Informations- und Kommunikationstechnik für die ILS",
+    "cpv": [
+     "30200000",
+     "30210000"
+    ],
+    "nuts": [
+     "DE222"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Leistung",
+      "description": "Leistung (Erweiterte Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     },
+     {
+      "type": "cost",
+      "name": "Wertungspreis",
+      "description": "Wertungspreis (Erweiterte Richtwertmethode nach UfAB 2018)",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,255 @@
+{
+ "id": "5a450954-01b3-44e8-b657-10d3b0befe01-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "5a450954-01b3-44e8-b657-10d3b0befe01",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5a450954-01b3-44e8-b657-10d3b0befe01",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:5a450954-01b3-44e8-b657-10d3b0befe01-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:5a450954-01b3-44e8-b657-10d3b0befe01-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5a450954-01b3-44e8-b657-10d3b0befe01?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3460 Tischler, Wandbekl.",
+  "buyer": "Markt Garmisch-Partenkirchen",
+  "cpv": [
+   "45421000",
+   "45421146",
+   "45422100",
+   "45432210"
+  ],
+  "nuts": [
+   "DE21D"
+  ],
+  "deadline": "2026-11-24T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5a450954-01b3-44e8-b657-10d3b0befe01",
+  "id": "5a450954-01b3-44e8-b657-10d3b0befe01",
+  "date": "2026-10-23T02:12:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Garmisch-Partenkirchen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2564",
+     "legalName": "Markt Garmisch-Partenkirchen"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Garmisch Partenkirchen",
+     "region": "DE21D",
+     "postalCode": "82467",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "3cd3c43d-cbd7-47cf-a032-7959baf9353e",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Garmisch-Partenkirchen",
+   "id": "2564",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Garmisch-Partenkirchen"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Garmisch Partenkirchen",
+    "region": "DE21D",
+    "postalCode": "82467",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5a450954-01b3-44e8-b657-10d3b0befe01",
+   "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3460 Tischler, Wandbekl.",
+   "description": "Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)",
+   "procuringEntity": {
+    "name": "Markt Garmisch-Partenkirchen",
+    "id": "2564"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421000",
+      "description": "Joinery work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421146",
+       "description": "Installation of suspended ceilings"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45422100",
+       "description": "Woodwork"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432210",
+       "description": "Wall-covering work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE21D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/5a450954-01b3-44e8-b657-10d3b0befe01",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3460 Tischler, Wandbekl.",
+     "description": "ca. 3.920 m2 Akustisch wirksame Holzleistendecken\nca. 4.190 m2 Wandbekleidungen mit 3s-Platten Holzvertäfelungen",
+     "contractPeriod": {
+      "startDate": "2027-05-25T00:00:00+02:00",
+      "endDate": "2027-08-23T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "17129-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "17129-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "5a450954-01b3-44e8-b657-10d3b0befe01",
+  "version": "01",
+  "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3460 Tischler, Wandbekl.",
+  "description": "Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)",
+  "procedureType": "open",
+  "nuts": [
+   "DE21D"
+  ],
+  "cpv": [
+   "45421000",
+   "45421146",
+   "45422100",
+   "45432210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "470 BSGM - Neubau Bgm. Schütte Grundschule Partenkirchen (BA1)-2024-BSGM-3460 Tischler, Wandbekl.",
+    "description": "ca. 3.920 m2 Akustisch wirksame Holzleistendecken\nca. 4.190 m2 Wandbekleidungen mit 3s-Platten Holzvertäfelungen",
+    "cpv": [
+     "45421000",
+     "45421146",
+     "45422100",
+     "45432210"
+    ],
+    "nuts": [
+     "DE21D"
+    ],
+    "deadline": "2026-11-24T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-25+02:00",
+    "plannedEnd": "2027-08-23+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignung ist durch Vorlage der PQ-Nr. oder durch das ausgefüllte Formblatt 124 (in den Vergabeunterlagen aufgeführt oder unter https://www.stmb.bayern.de/assets/stmi/buw/bauthemen/vergabeundvertragswesen/vhb/z5_vergabe_bauauftraege_formblatt_124_eigenerklaerung.pdf einsehbar) mit dem Angebot nachzuweisen. \nNachfolgende Unterlagen sind auf Aufforderung ergänzend zur Vorlage der PQ-Nr. oder des Formblattes 124 einzureichen: 1. Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse \n2. Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen \n3. Freistellungsbescheinigung nach § 48b EStG \n4. Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für das Unternehmen zuständige Versicherungsträgers mit Angabe der Lohnsummen"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Bescheinigung über die Eintragung in das Berufsregister"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Handelsregister und der Handwerksrolle ihres Sitzes oder Wohnsitzes"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer bestehenden Betriebshaftpflichtversicherung mit folgenden Deckungssummen: 5.000.000 Euro für Personenschäden und 5.000.000 Euro für Sachschäden; zweifach maximiert pro Versicherungsjahr"
+     },
+     {
+      "type": "slc-stand-to-avg",
+      "description": "1. Vorlage von Jahresabschlüssen aus den letzten 3 Geschäftsjahren, falls deren Veröffentlichung in dem Land, in dem das Unternehmen ansässig ist, gesetzlich vorgeschrieben ist.\n2. Eine Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Angaben über die Ausführung von Leistungen in den letzten bis zu fünf abgeschlossenen Kalenderjahren, die mit \nder zu vergebenden Leistung vergleichbar sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "1. Angabe der technischen Fachkräfte oder der technischen Stellen, unabhängig davon, ob sie seinem Unternehmen angehören oder nicht, und zwar insbesondere derjenigen, die mit der Qualitätskontrolle beauftragt sind, und \nderjenigen, über die der Unternehmer für die Errichtung des Bauwerks verfügt.\n2. Studiennachweise und Bescheinigungen über die berufliche Befähigung des Dienstleisters oder Unternehmers und/oder der Führungskräfte des Unternehmens.\n3. Angaben über die Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischem Leitungspersonal."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Angabe, welche Teile des Auftrags der Unternehmer unter Umständen als Unteraufträge zu vergeben beabsichtigt."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preiskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

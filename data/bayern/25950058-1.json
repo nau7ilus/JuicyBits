@@ -1,0 +1,125 @@
+{
+ "id": "25950058-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25950058",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25950058",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25950058-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25950058-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25950058?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Erdgasausschreibung Gemeinde Haimhausen 2027/2028",
+  "buyer": "Gemeinde Haimhausen, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+  "cpv": [
+   "09123000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25950058",
+  "id": "25950058",
+  "date": "2026-10-20T19:01:47Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Haimhausen, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Haimhausen, vertreten durch die KUBUS Kommunalberatung und Service GmbH"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Haimhausen, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Haimhausen, vertreten durch die KUBUS Kommunalberatung und Service GmbH"
+   }
+  },
+  "tender": {
+   "title": "Erdgasausschreibung Gemeinde Haimhausen 2027/2028",
+   "description": "Lieferung von Erdgas für die Abnahmestellen der Gemeinde Haimhausen ;\nLieferzeitraum: 01.01.2027-01.01.2029;\nLiefermenge: ca. 882.000 kWh/Jahr.\n\nErdgasausschreibung Gemeinde Haimhausen 2027/2028",
+   "procuringEntity": {
+    "name": "Gemeinde Haimhausen, vertreten durch die KUBUS Kommunalberatung und Service GmbH"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryAddress": {
+      "locality": "85778 Haimhausen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Erdgasausschreibung Gemeinde Haimhausen 2027/2028",
+     "description": "Lieferung von Erdgas für die Abnahmestellen der Gemeinde Haimhausen ;\nLieferzeitraum: 01.01.2027-01.01.2029;\nLiefermenge: ca. 882.000 kWh/Jahr.\n\nErdgasausschreibung Gemeinde Haimhausen 2027/2028"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25950058",
+  "version": "1",
+  "title": "Erdgasausschreibung Gemeinde Haimhausen 2027/2028",
+  "description": "Lieferung von Erdgas für die Abnahmestellen der Gemeinde Haimhausen ;\nLieferzeitraum: 01.01.2027-01.01.2029;\nLiefermenge: ca. 882.000 kWh/Jahr.\n\nErdgasausschreibung Gemeinde Haimhausen 2027/2028",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "09123000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Erdgasausschreibung Gemeinde Haimhausen 2027/2028",
+    "description": "Lieferung von Erdgas für die Abnahmestellen der Gemeinde Haimhausen ;\nLieferzeitraum: 01.01.2027-01.01.2029;\nLiefermenge: ca. 882.000 kWh/Jahr.\n\nErdgasausschreibung Gemeinde Haimhausen 2027/2028",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

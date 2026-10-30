@@ -1,0 +1,222 @@
+{
+ "id": "08145988-66de-4c45-8907-a5829d632083-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "08145988-66de-4c45-8907-a5829d632083",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=08145988-66de-4c45-8907-a5829d632083",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:08145988-66de-4c45-8907-a5829d632083-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:08145988-66de-4c45-8907-a5829d632083-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/08145988-66de-4c45-8907-a5829d632083?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ausschreibung zur Lieferung von Strickpullovern für die Bayerische Polizei und Justiz",
+  "buyer": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+  "cpv": [
+   "18235100",
+   "18235000"
+  ],
+  "nuts": [
+   "DE244"
+  ],
+  "deadline": "2027-01-18T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-781d6eea-6593-4966-a75f-a782542582db",
+  "id": "08145988-66de-4c45-8907-a5829d632083",
+  "date": "2026-10-21T02:08:51Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "0d476125-c482-4c5f-92ba-8dd29615de66",
+     "legalName": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)"
+    },
+    "address": {
+     "streetAddress": "Ernst-Reuter-Straße 119",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+   "id": "0d476125-c482-4c5f-92ba-8dd29615de66",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)"
+   },
+   "address": {
+    "streetAddress": "Ernst-Reuter-Straße 119",
+    "locality": "Hof",
+    "region": "DE244",
+    "postalCode": "95030",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "781d6eea-6593-4966-a75f-a782542582db",
+   "title": "Ausschreibung zur Lieferung von Strickpullovern für die Bayerische Polizei und Justiz",
+   "description": "Die vorliegende Ausschreibung soll zur Beschaffung von Strickpullovern für die Bayerische Polizei und Justiz dienen. \n\nEs handelt sich um eine Rahmenvereinbarung, die mit einem Wirtschaftsteilnehmer geschlossen wird. \n\nWeitere Informationen sind den Vergabeunterlagen insbesondere der Leistungsbeschreibung zu entnehmen.",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+    "id": "0d476125-c482-4c5f-92ba-8dd29615de66"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "18235100",
+      "description": "Pullovers"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "18235000",
+       "description": "Pullovers, cardigans and similar articles"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Hof",
+      "region": "DE244",
+      "postalCode": "95030",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/f379f512-f285-4499-95d8-82320d1a3a6c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Ausschreibung zur Lieferung von Strickpullovern für die Bayerische Polizei und Justiz",
+     "description": "Die vorliegende Ausschreibung soll zur Beschaffung von Strickpullovern für die Bayerische Polizei und Justiz dienen. \n\nEs handelt sich um eine Rahmenvereinbarung, die mit einem Wirtschaftsteilnehmer geschlossen wird. \n\nWeitere Informationen sind den Vergabeunterlagen insbesondere der Leistungsbeschreibung zu entnehmen."
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "08145988-66de-4c45-8907-a5829d632083",
+  "version": "01",
+  "title": "Ausschreibung zur Lieferung von Strickpullovern für die Bayerische Polizei und Justiz",
+  "description": "Die vorliegende Ausschreibung soll zur Beschaffung von Strickpullovern für die Bayerische Polizei und Justiz dienen. \n\nEs handelt sich um eine Rahmenvereinbarung, die mit einem Wirtschaftsteilnehmer geschlossen wird. \n\nWeitere Informationen sind den Vergabeunterlagen insbesondere der Leistungsbeschreibung zu entnehmen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE244"
+  ],
+  "cpv": [
+   "18235100",
+   "18235000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Ausschreibung zur Lieferung von Strickpullovern für die Bayerische Polizei und Justiz",
+    "description": "Die vorliegende Ausschreibung soll zur Beschaffung von Strickpullovern für die Bayerische Polizei und Justiz dienen. \n\nEs handelt sich um eine Rahmenvereinbarung, die mit einem Wirtschaftsteilnehmer geschlossen wird. \n\nWeitere Informationen sind den Vergabeunterlagen insbesondere der Leistungsbeschreibung zu entnehmen.",
+    "cpv": [
+     "18235100",
+     "18235000"
+    ],
+    "nuts": [
+     "DE244"
+    ],
+    "deadline": "2027-01-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f379f512-f285-4499-95d8-82320d1a3a6c/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f379f512-f285-4499-95d8-82320d1a3a6c/suitabilitycriteria"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f379f512-f285-4499-95d8-82320d1a3a6c/suitabilitycriteria"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f379f512-f285-4499-95d8-82320d1a3a6c/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f379f512-f285-4499-95d8-82320d1a3a6c/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/f379f512-f285-4499-95d8-82320d1a3a6c/awardcriteria",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

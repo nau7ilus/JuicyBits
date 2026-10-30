@@ -1,0 +1,302 @@
+{
+ "id": "fe1c5701-25b1-47a8-9db0-7830ba9ba658-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "fe1c5701-25b1-47a8-9db0-7830ba9ba658",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fe1c5701-25b1-47a8-9db0-7830ba9ba658",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:fe1c5701-25b1-47a8-9db0-7830ba9ba658-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:fe1c5701-25b1-47a8-9db0-7830ba9ba658-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fe1c5701-25b1-47a8-9db0-7830ba9ba658?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Fassadensanierung am Standort Landshut - Los 04 - Sonnenschutz",
+  "buyer": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)",
+  "cpv": [
+   "45000000",
+   "45212190"
+  ],
+  "nuts": [
+   "DE731",
+   "DE221"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7a140f6b-ae5d-4b4f-a043-7ffa35b28c05",
+  "id": "fe1c5701-25b1-47a8-9db0-7830ba9ba658",
+  "date": "2026-10-16T02:06:15Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 9930176733",
+     "legalName": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)"
+    },
+    "address": {
+     "streetAddress": "Weißensteinstr. 70 -72",
+     "locality": "Kassel",
+     "region": "DE731",
+     "postalCode": "34131",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "VBS Vergabeberatungsstelle GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE364668695",
+     "legalName": "VBS Vergabeberatungsstelle GmbH"
+    },
+    "address": {
+     "streetAddress": "Auf dem Kalk 5",
+     "locality": "Montabaur",
+     "region": "DEB1B",
+     "postalCode": "56410",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "T:0022894990",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemomblerstraße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schneider Business GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE-814398703",
+     "legalName": "Schneider Business GmbH"
+    },
+    "address": {
+     "streetAddress": "Markneukirchner Straße 11",
+     "locality": "Adorf",
+     "region": "DED44",
+     "postalCode": "08626",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)",
+   "id": "Leitweg-ID 9930176733",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)"
+   },
+   "address": {
+    "streetAddress": "Weißensteinstr. 70 -72",
+    "locality": "Kassel",
+    "region": "DE731",
+    "postalCode": "34131",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7a140f6b-ae5d-4b4f-a043-7ffa35b28c05",
+   "title": "Fassadensanierung am Standort Landshut - Los 04 - Sonnenschutz",
+   "description": "- Demontage und Entsorgung  von ca. 1058 vorhandenen Raffstoreanlagen, aufgeteilt in vier Bauabschnitten Wiedermontage von ca. 1058 neuen Raffstoreanlagen, aufgeteilt in vier Bauabschnitten",
+   "procuringEntity": {
+    "name": "Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)",
+    "id": "Leitweg-ID 9930176733"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45212190",
+       "description": "Sun-protection works"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE221",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 496779,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-09-24T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Schneider Business GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Schneider Business GmbH"
+     },
+     "address": {
+      "streetAddress": "Markneukirchner Straße 11",
+      "locality": "Adorf",
+      "region": "DED44",
+      "postalCode": "08626",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fassadensanierung am Standort Landshut - Los 04 - Sonnenschutz",
+     "description": "Demontage und Entsorgung  von ca. 1058 vorhandenen Raffstoreanlagen, aufgeteilt in vier Bauabschnitten Wiedermontage von ca. 1058 neuen Raffstoreanlagen, aufgeteilt in vier Bauabschnitten",
+     "value": {
+      "amount": 496779,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-11-30T00:00:00+01:00",
+      "endDate": "2027-10-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-09T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Schneider Business GmbH",
+      "id": "DE-814398703",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "Schneider Business GmbH"
+      },
+      "address": {
+       "streetAddress": "Markneukirchner Straße 11",
+       "locality": "Adorf",
+       "region": "DED44",
+       "postalCode": "08626",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 405880.91,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "fe1c5701-25b1-47a8-9db0-7830ba9ba658",
+  "version": "01",
+  "title": "Fassadensanierung am Standort Landshut - Los 04 - Sonnenschutz",
+  "description": "- Demontage und Entsorgung  von ca. 1058 vorhandenen Raffstoreanlagen, aufgeteilt in vier Bauabschnitten Wiedermontage von ca. 1058 neuen Raffstoreanlagen, aufgeteilt in vier Bauabschnitten",
+  "procedureType": "open",
+  "nuts": [
+   "DE221"
+  ],
+  "cpv": [
+   "45000000",
+   "45212190"
+  ],
+  "estimatedValue": {
+   "amount": 496779,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fassadensanierung am Standort Landshut - Los 04 - Sonnenschutz",
+    "description": "Demontage und Entsorgung  von ca. 1058 vorhandenen Raffstoreanlagen, aufgeteilt in vier Bauabschnitten Wiedermontage von ca. 1058 neuen Raffstoreanlagen, aufgeteilt in vier Bauabschnitten",
+    "cpv": [
+     "45000000",
+     "45212190"
+    ],
+    "nuts": [
+     "DE221"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-30+01:00",
+    "plannedEnd": "2027-10-01+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 496779,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "id": "172b00be-3050-4b32-a8c5-ec11533b155d-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "172b00be-3050-4b32-a8c5-ec11533b155d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=172b00be-3050-4b32-a8c5-ec11533b155d",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:172b00be-3050-4b32-a8c5-ec11533b155d-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:172b00be-3050-4b32-a8c5-ec11533b155d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/172b00be-3050-4b32-a8c5-ec11533b155d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Übernahme und Verwertung von Altholz",
+  "buyer": "Abfallwirtschaftsbetrieb des Landkreises Pfaffenhofen an der Ilm",
+  "cpv": [
+   "90500000",
+   "90514000"
+  ],
+  "nuts": [
+   "DE21J"
+  ],
+  "deadline": "2026-11-17T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f82b7192-b302-47df-8235-5cce71f4f3fa",
+  "id": "172b00be-3050-4b32-a8c5-ec11533b155d",
+  "date": "2026-10-16T02:11:22Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abfallwirtschaftsbetrieb des Landkreises Pfaffenhofen an der Ilm",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "012345",
+     "legalName": "Abfallwirtschaftsbetrieb des Landkreises Pfaffenhofen an der Ilm"
+    },
+    "address": {
+     "streetAddress": "Raiffeisenstr. 19",
+     "locality": "Pfaffenhofen an der Ilm",
+     "region": "DE21J",
+     "postalCode": "85276",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abfallwirtschaftsbetrieb des Landkreises Pfaffenhofen an der Ilm",
+   "id": "012345",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Abfallwirtschaftsbetrieb des Landkreises Pfaffenhofen an der Ilm"
+   },
+   "address": {
+    "streetAddress": "Raiffeisenstr. 19",
+    "locality": "Pfaffenhofen an der Ilm",
+    "region": "DE21J",
+    "postalCode": "85276",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f82b7192-b302-47df-8235-5cce71f4f3fa",
+   "title": "Übernahme und Verwertung von Altholz",
+   "description": "Der Landkreis Pfaffenhofen a.d.Ilm beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe durch den AWP, die Übernahme, Transport und Verwertung / Vermarktung von Altholz der Kategorien A I bis A III im Landkreis Pfaffenhofen a.d.Ilmzum 01.01.2027 für zunächst 3 Jahre bis zum 31.12.2029 neu zu vergeben. Gegenstand dieser Ausschreibung sind somit folgende Leistungen: •Gestellung der Sammelbehälter für das Bringsystem (ca. 25 Stk. 36 – 38 m³ Ab-rollcontainer, gedeckelt). •Übernahme von Altholz der Kategorien A I bis A III an den Sammelstellen des Landkreises Pfaffenhofen a. d. Ilm sowie Transport, Verwiegung, Vorbereitung zur Verwertung / Vermarktung und Übergabe von Altholz der Kategorien A I bis A III (3.400 Mg/Jahr)• Verwertung / Vermarktung von Altholz der Kategorien A I bis A III (3.400 Mg/Jahr) •Entsorgung von Rest- bzw. Störstoffen Die Ausschreibung erfolgt gemäß den Bestimmungen der Vergabeverordnung (VgV) und des Gesetzes gegen Wettbewerbsbeschränkungen (GWB).",
+   "procuringEntity": {
+    "name": "Abfallwirtschaftsbetrieb des Landkreises Pfaffenhofen an der Ilm",
+    "id": "012345"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90514000",
+       "description": "Refuse recycling services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Pfaffenhofen a.d.Ilm",
+      "region": "DE21J",
+      "postalCode": "85276",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331029",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Übernahme und Verwertung von Altholz",
+     "description": "Gestellung der Sammelbehälter für das Bringsystem (ca. 25 Stk. 36 – 38 m³ Ab-rollcontainer, gedeckelt). •Übernahme von Altholz der Kategorien A I bis A III an den Sammelstellen des Landkreises Pfaffenhofen a. d. Ilm sowie Transport, Verwiegung, Vorbereitung zur Verwertung / Vermarktung und Übergabe von Altholz der Kategorien A I bis A III (3.400 Mg/Jahr) •Verwertung / Vermarktung von Altholz der Kategorien A I bis A III (3.400 Mg/Jahr) •Entsorgung von Rest- und Störstoffen",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2029-12-31T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "oth-serv-contr",
+       "description": "Other service contract"
+      }
+     ]
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "172b00be-3050-4b32-a8c5-ec11533b155d",
+  "version": "01",
+  "title": "Übernahme und Verwertung von Altholz",
+  "description": "Der Landkreis Pfaffenhofen a.d.Ilm beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe durch den AWP, die Übernahme, Transport und Verwertung / Vermarktung von Altholz der Kategorien A I bis A III im Landkreis Pfaffenhofen a.d.Ilmzum 01.01.2027 für zunächst 3 Jahre bis zum 31.12.2029 neu zu vergeben. Gegenstand dieser Ausschreibung sind somit folgende Leistungen: •Gestellung der Sammelbehälter für das Bringsystem (ca. 25 Stk. 36 – 38 m³ Ab-rollcontainer, gedeckelt). •Übernahme von Altholz der Kategorien A I bis A III an den Sammelstellen des Landkreises Pfaffenhofen a. d. Ilm sowie Transport, Verwiegung, Vorbereitung zur Verwertung / Vermarktung und Übergabe von Altholz der Kategorien A I bis A III (3.400 Mg/Jahr)• Verwertung / Vermarktung von Altholz der Kategorien A I bis A III (3.400 Mg/Jahr) •Entsorgung von Rest- bzw. Störstoffen Die Ausschreibung erfolgt gemäß den Bestimmungen der Vergabeverordnung (VgV) und des Gesetzes gegen Wettbewerbsbeschränkungen (GWB).",
+  "procedureType": "open",
+  "nuts": [
+   "DE21J"
+  ],
+  "cpv": [
+   "90500000",
+   "90514000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Übernahme und Verwertung von Altholz",
+    "description": "Gestellung der Sammelbehälter für das Bringsystem (ca. 25 Stk. 36 – 38 m³ Ab-rollcontainer, gedeckelt). •Übernahme von Altholz der Kategorien A I bis A III an den Sammelstellen des Landkreises Pfaffenhofen a. d. Ilm sowie Transport, Verwiegung, Vorbereitung zur Verwertung / Vermarktung und Übergabe von Altholz der Kategorien A I bis A III (3.400 Mg/Jahr) •Verwertung / Vermarktung von Altholz der Kategorien A I bis A III (3.400 Mg/Jahr) •Entsorgung von Rest- und Störstoffen",
+    "cpv": [
+     "90500000",
+     "90514000"
+    ],
+    "nuts": [
+     "DE21J"
+    ],
+    "deadline": "2026-11-17T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

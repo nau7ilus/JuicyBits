@@ -1,0 +1,509 @@
+{
+ "id": "44796051-b072-4b5b-bea4-1ecd8f94c624-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "44796051-b072-4b5b-bea4-1ecd8f94c624",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=44796051-b072-4b5b-bea4-1ecd8f94c624",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:44796051-b072-4b5b-bea4-1ecd8f94c624-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:44796051-b072-4b5b-bea4-1ecd8f94c624-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/44796051-b072-4b5b-bea4-1ecd8f94c624?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Bewachungsdienste, Gemeinschaftsunterkünfte im Regierungsbezirk Oberpfalz",
+  "buyer": "Regierung der Oberpfalz",
+  "cpv": [
+   "79713000",
+   "79700000",
+   "79710000",
+   "79711000",
+   "79715000",
+   "79992000"
+  ],
+  "nuts": [
+   "DE232",
+   "DE235",
+   "DE23A",
+   "DE236"
+  ],
+  "deadline": "2026-11-26T08:00:00+01:00",
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a739d297-8138-402f-94fc-d29794834f9d",
+  "id": "44796051-b072-4b5b-bea4-1ecd8f94c624",
+  "date": "2026-10-27T03:12:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "1a86dfa1-e75a-4748-8724-5f436cb4ba9d",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung der Oberpfalz",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0e758653-8496-4d44-9493-0304a584e62b",
+     "legalName": "Regierung der Oberpfalz"
+    },
+    "address": {
+     "streetAddress": "Emmeramsplatz 8",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Regierung der Oberpfalz",
+   "id": "0e758653-8496-4d44-9493-0304a584e62b",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Regierung der Oberpfalz"
+   },
+   "address": {
+    "streetAddress": "Emmeramsplatz 8",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a739d297-8138-402f-94fc-d29794834f9d",
+   "title": "Bewachungsdienste, Gemeinschaftsunterkünfte im Regierungsbezirk Oberpfalz",
+   "description": "Die Regierung der Oberpfalz unterhält mehrere Gemeinschaftsunterkünfte für die Unterbringung von Asylsuchenden (im Folgenden GU genannt) im Regierungsbezirk verteilt. Betreiber dieser GUs ist der Freistaat Bayern, vertreten durch die Regierung der Oberpfalz, die für die Wahrnehmung hoheitlicher Tätigkeiten im Rahmen der Unterbringungsverwaltung verantwortlich ist. Zur Bewachung der Liegenschaften werden Sicherheitsdienstleister gesucht, welche die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernehmen.\n\nLos 1: GU Bad Kötzting\nLos 2: GU Tirschenreuth\nLos 3: GU Neumarkt i. d. Opf.\nLos 4: GU Regensburg, Dieselstraße\n",
+   "procuringEntity": {
+    "name": "Regierung der Oberpfalz",
+    "id": "0e758653-8496-4d44-9493-0304a584e62b"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79713000",
+      "description": "Guard services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Hauser Str. 40",
+      "locality": "Bad Kötzing",
+      "region": "DE235",
+      "postalCode": "93444",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79713000",
+      "description": "Guard services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Bärnauer Straße 4",
+      "locality": "Tirschenreuth",
+      "region": "DE23A",
+      "postalCode": "95643",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79713000",
+      "description": "Guard services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Goldschmidtstraße 42 d - f",
+      "locality": "Neumarkt i.d.Opf.",
+      "region": "DE236",
+      "postalCode": "92318",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79713000",
+      "description": "Guard services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Dieselstraße 3 und 3 a",
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93053",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "value": {
+    "amount": 0,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": " Los 1: GU Bad Kötzting",
+     "description": "Zur Bewachung der Liegenschaft in Bad Kötzting wird ab 15. April 2027 ein Sicherheitsdienstunternehmen (im Folgenden AN genannt) gesucht, welches die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernimmt. Diese Aufgaben soll das bewachungs- und sicherheitsdienstleistende Unternehmen mit qualifiziertem Personal in einem 24-Stunden-Betrieb an 365 Tagen im Jahr durchführen und das gesamte Leistungsspektrum eines qualifizierten und umfassenden Bewachungs- und Sicherheitsdienstleistungsbetriebs eigenverantwortlich abdecken.",
+     "contractPeriod": {
+      "startDate": "2027-04-15T00:00:00+02:00",
+      "endDate": "2028-04-14T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2: GU Tirschenreuth",
+     "description": "Zur Bewachung der Liegenschaft in Tirschenreuth wird ab 15. April 2027 ein Sicherheitsdienstunternehmen (im Folgenden AN genannt) gesucht, welches die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernimmt. Diese Aufgaben soll das bewachungs- und sicherheitsdienstleistende Unternehmen mit qualifiziertem Personal in einem 24- Stunden-Betrieb an 365 Tagen im Jahr durchführen und das gesamte Leistungsspektrum eines qualifizierten und umfassenden Bewachungs- und Sicherheitsdienstleistungsbetriebs eigenverantwortlich abdecken.",
+     "contractPeriod": {
+      "startDate": "2027-04-15T00:00:00+02:00",
+      "endDate": "2028-04-14T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3: GU Neumarkt i. d. Opf",
+     "description": "Zur Bewachung der Liegenschaft in Neumarkt i. d. Opf. wird ab 15. April 2027 ein Sicherheitsdienstunternehmen (im Folgenden AN genannt) gesucht, welches die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernimmt. Diese Aufgaben soll das bewachungs- und sicherheitsdienstleistende Unternehmen mit qualifiziertem Personal in einem 24-Stunden-Betrieb an 365 Tagen im Jahr durchführen und das gesamte Leistungsspektrum eines qualifizierten und umfassenden Bewachungs- und Sicherheitsdienstleistungsbetriebs eigenverantwortlich abdecken.",
+     "contractPeriod": {
+      "startDate": "2027-04-15T00:00:00+02:00",
+      "endDate": "2028-04-14T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Los 4: GU Regensburg, Dieselstraße",
+     "description": "Zur Bewachung der Liegenschaft in Regensburg wird ab 15. April 2027 ein Sicherheitsdienstunternehmen (im Folgenden AN genannt) gesucht, welches die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernimmt. Diese Aufgaben soll das bewachungs-und sicherheitsdienstleistende Unternehmen mit qualifiziertem Personal in einem 24-Stunden-Betrieb an 365 Tagen im Jahr durchführen und das gesamte Leistungsspektrum eines qualifizierten und umfassenden Bewachungs- und Sicherheitsdienstleistungsbetriebs eigenverantwortlich abdecken.",
+     "contractPeriod": {
+      "startDate": "2027-04-15T00:00:00+02:00",
+      "endDate": "2028-04-14T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 4,
+    "maximumLotsAwardedPerSupplier": 4
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "44796051-b072-4b5b-bea4-1ecd8f94c624",
+  "version": "01",
+  "title": "Bewachungsdienste, Gemeinschaftsunterkünfte im Regierungsbezirk Oberpfalz",
+  "description": "Die Regierung der Oberpfalz unterhält mehrere Gemeinschaftsunterkünfte für die Unterbringung von Asylsuchenden (im Folgenden GU genannt) im Regierungsbezirk verteilt. Betreiber dieser GUs ist der Freistaat Bayern, vertreten durch die Regierung der Oberpfalz, die für die Wahrnehmung hoheitlicher Tätigkeiten im Rahmen der Unterbringungsverwaltung verantwortlich ist. Zur Bewachung der Liegenschaften werden Sicherheitsdienstleister gesucht, welche die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernehmen.\n\nLos 1: GU Bad Kötzting\nLos 2: GU Tirschenreuth\nLos 3: GU Neumarkt i. d. Opf.\nLos 4: GU Regensburg, Dieselstraße",
+  "procedureType": "open",
+  "nuts": [
+   "DE235",
+   "DE23A",
+   "DE236",
+   "DE232"
+  ],
+  "cpv": [
+   "79713000",
+   "79700000",
+   "79710000",
+   "79711000",
+   "79715000",
+   "79992000"
+  ],
+  "estimatedValue": {
+   "amount": 0,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1: GU Bad Kötzting",
+    "description": "Zur Bewachung der Liegenschaft in Bad Kötzting wird ab 15. April 2027 ein Sicherheitsdienstunternehmen (im Folgenden AN genannt) gesucht, welches die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernimmt. Diese Aufgaben soll das bewachungs- und sicherheitsdienstleistende Unternehmen mit qualifiziertem Personal in einem 24-Stunden-Betrieb an 365 Tagen im Jahr durchführen und das gesamte Leistungsspektrum eines qualifizierten und umfassenden Bewachungs- und Sicherheitsdienstleistungsbetriebs eigenverantwortlich abdecken.",
+    "cpv": [
+     "79713000"
+    ],
+    "nuts": [
+     "DE235"
+    ],
+    "deadline": "2026-11-26T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-15+02:00",
+    "plannedEnd": "2028-04-14+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/awardcriteria",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2: GU Tirschenreuth",
+    "description": "Zur Bewachung der Liegenschaft in Tirschenreuth wird ab 15. April 2027 ein Sicherheitsdienstunternehmen (im Folgenden AN genannt) gesucht, welches die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernimmt. Diese Aufgaben soll das bewachungs- und sicherheitsdienstleistende Unternehmen mit qualifiziertem Personal in einem 24- Stunden-Betrieb an 365 Tagen im Jahr durchführen und das gesamte Leistungsspektrum eines qualifizierten und umfassenden Bewachungs- und Sicherheitsdienstleistungsbetriebs eigenverantwortlich abdecken.",
+    "cpv": [
+     "79713000"
+    ],
+    "nuts": [
+     "DE23A"
+    ],
+    "deadline": "2026-11-26T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-15+02:00",
+    "plannedEnd": "2028-04-14+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/awardcriteria",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3: GU Neumarkt i. d. Opf",
+    "description": "Zur Bewachung der Liegenschaft in Neumarkt i. d. Opf. wird ab 15. April 2027 ein Sicherheitsdienstunternehmen (im Folgenden AN genannt) gesucht, welches die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernimmt. Diese Aufgaben soll das bewachungs- und sicherheitsdienstleistende Unternehmen mit qualifiziertem Personal in einem 24-Stunden-Betrieb an 365 Tagen im Jahr durchführen und das gesamte Leistungsspektrum eines qualifizierten und umfassenden Bewachungs- und Sicherheitsdienstleistungsbetriebs eigenverantwortlich abdecken.",
+    "cpv": [
+     "79713000"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": "2026-11-26T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-15+02:00",
+    "plannedEnd": "2028-04-14+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/awardcriteria",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Los 4: GU Regensburg, Dieselstraße",
+    "description": "Zur Bewachung der Liegenschaft in Regensburg wird ab 15. April 2027 ein Sicherheitsdienstunternehmen (im Folgenden AN genannt) gesucht, welches die originären Funktionen der Bewachung und der Pfortendienste sowie weitere in der Leistungsbeschreibung bezeichnete Unterstützungsaufgaben für die Verwaltung übernimmt. Diese Aufgaben soll das bewachungs-und sicherheitsdienstleistende Unternehmen mit qualifiziertem Personal in einem 24-Stunden-Betrieb an 365 Tagen im Jahr durchführen und das gesamte Leistungsspektrum eines qualifizierten und umfassenden Bewachungs- und Sicherheitsdienstleistungsbetriebs eigenverantwortlich abdecken.",
+    "cpv": [
+     "79713000"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-11-26T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-15+02:00",
+    "plannedEnd": "2028-04-14+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-auth-mbrshp",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/2d304a88-21a6-4073-ae9c-fc2596b81acf/awardcriteria",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

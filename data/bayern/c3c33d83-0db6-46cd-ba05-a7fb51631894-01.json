@@ -1,0 +1,214 @@
+{
+ "id": "c3c33d83-0db6-46cd-ba05-a7fb51631894-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "c3c33d83-0db6-46cd-ba05-a7fb51631894",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c3c33d83-0db6-46cd-ba05-a7fb51631894",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:c3c33d83-0db6-46cd-ba05-a7fb51631894-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:c3c33d83-0db6-46cd-ba05-a7fb51631894-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c3c33d83-0db6-46cd-ba05-a7fb51631894?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Austausch F5 Loadbalancer wegen EoL",
+  "buyer": "Bayerische Versorgungskammer",
+  "cpv": [
+   "30000000",
+   "50000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-20T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4f97ca7e-e67a-4a47-abe7-881e250a95c2",
+  "id": "c3c33d83-0db6-46cd-ba05-a7fb51631894",
+  "date": "2026-10-21T02:09:12Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerische Versorgungskammer",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE240986226",
+     "legalName": "Bayerische Versorgungskammer"
+    },
+    "address": {
+     "streetAddress": "Arabellastraße 33",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81925",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerische Versorgungskammer",
+   "id": "DE240986226",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerische Versorgungskammer"
+   },
+   "address": {
+    "streetAddress": "Arabellastraße 33",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81925",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4f97ca7e-e67a-4a47-abe7-881e250a95c2",
+   "title": "Austausch F5 Loadbalancer wegen EoL",
+   "description": "Austausch F5 Loadbalancer wegen EoL",
+   "procuringEntity": {
+    "name": "Bayerische Versorgungskammer",
+    "id": "DE240986226"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30000000",
+      "description": "Office and computing machinery, equipment and supplies except furniture and software packages"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "50000000",
+       "description": "Repair and maintenance services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Arabellastr. 33",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81825",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y4KMWWD/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Austausch F5 Loadbalancer wegen EoL",
+     "description": "Die F5 BIG-IP Plattform muss geeignet sein, geschäftskritische Anwendungen und Services auch bei erhöhtem Nutzeraufkommen, technischen Störungen oder sicherheitsrelevanten Ereignissen zuver-lässig bereitzustellen. Anzubieten sind ausschließlich Neugeräte. Es soll für die Hardware ein Wartungsvertrag mit einer Laufzeit von 4 Jahren ab Lieferdatum geschlossen werden. Hardwareaustausch mit Vorablieferung NBD:",
+     "contractPeriod": {
+      "durationInDays": 1460
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c3c33d83-0db6-46cd-ba05-a7fb51631894",
+  "version": "01",
+  "title": "Austausch F5 Loadbalancer wegen EoL",
+  "description": "Austausch F5 Loadbalancer wegen EoL",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "30000000",
+   "50000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Austausch F5 Loadbalancer wegen EoL",
+    "description": "Die F5 BIG-IP Plattform muss geeignet sein, geschäftskritische Anwendungen und Services auch bei erhöhtem Nutzeraufkommen, technischen Störungen oder sicherheitsrelevanten Ereignissen zuver-lässig bereitzustellen. Anzubieten sind ausschließlich Neugeräte. Es soll für die Hardware ein Wartungsvertrag mit einer Laufzeit von 4 Jahren ab Lieferdatum geschlossen werden. Hardwareaustausch mit Vorablieferung NBD:",
+    "cpv": [
+     "30000000",
+     "50000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-20T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 4,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Der Auftragnehmer weist eine Versicherung nach, die im Rahmen und Umfang einer marktüblichen deutschen Berufshaft- und Betriebshaftpflichtversicherung oder einer vergleichbaren Versicherung aus einem Mitgliedsstaat der EU entspricht."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Ein ISMS muss gängigen Standards unterliegen.  Beispiele sind ISO/IEC 27001, BSI IT-Grundschutz, NIST 800-53. Der gültige Nachweis muss dem Auftraggeber in geeigneter Form mit dem Anforderungskatalog zur Verfügung gestellt werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Gesamtpreis",
+      "description": "Der Gesamtpreis setzt sich aus allen Preispositionen in dem Teil Preis aus der Leistungsbeschreibung zusammen.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

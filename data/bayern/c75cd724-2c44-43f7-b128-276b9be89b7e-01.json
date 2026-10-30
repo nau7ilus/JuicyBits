@@ -1,0 +1,228 @@
+{
+ "id": "c75cd724-2c44-43f7-b128-276b9be89b7e-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "c75cd724-2c44-43f7-b128-276b9be89b7e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c75cd724-2c44-43f7-b128-276b9be89b7e",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:c75cd724-2c44-43f7-b128-276b9be89b7e-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:c75cd724-2c44-43f7-b128-276b9be89b7e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c75cd724-2c44-43f7-b128-276b9be89b7e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "Planung 1. Stammstrecke München, Erng. Tunnelausrüstung inkl. KIB, Oberbau; Lph. 1-3 (opt. Lph. 4)",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71240000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5c918efb-8ce5-4322-97ea-05426284efce",
+  "id": "c75cd724-2c44-43f7-b128-276b9be89b7e",
+  "date": "2026-10-21T02:12:27Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "DB Engineering & Consulting GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "a91e16be-2254-4eae-8566-af3d9b6f5d9b",
+     "legalName": "DB Engineering & Consulting GmbH"
+    },
+    "address": {
+     "locality": "Duisburg",
+     "region": "DEA12",
+     "postalCode": "47058",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5c918efb-8ce5-4322-97ea-05426284efce",
+   "title": "Planung 1. Stammstrecke München, Erng. Tunnelausrüstung inkl. KIB, Oberbau; Lph. 1-3 (opt. Lph. 4)",
+   "description": "Gegenstand der Vergabe ist die Beschaffung von Planungsleistungen zur Erneuerung des Tunnels der 1. S-Bahn-Stammstrecke von München Hackerbrücke bis München Ost Pbf mit allen STE-Gewerken für die langfristige Verbesserung des S-Bahn-Verkehrs in München und Umgebung, um diesen Tunnel für die Zukunft zu rüsten. Betrachtet wird die Planung von KIB, VA, LST, OLA, 50Hz, TK und Funk und die Möglichkeiten, den Betrieb während der Baumaßnahmen soweit wie möglich aufrecht zu erhalten.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71240000",
+      "description": "Architectural, engineering and planning services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80335",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-02-02T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "DB Engineering & Consulting GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "DB Engineering & Consulting GmbH"
+     },
+     "address": {
+      "locality": "Duisburg",
+      "region": "DEA12",
+      "postalCode": "47058",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Verkehrsanlage – Oberbau, Konstruktiver Ing. Bau sowie Tragwerksplanung inkl KTB\n",
+     "description": "Verkehrsanlage – Oberbau, Konstruktiver Ing. Bau sowie Tragwerksplanung inkl KTB\n",
+     "contractPeriod": {
+      "startDate": "2026-02-23T00:00:00+01:00",
+      "endDate": "2027-12-15T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2026-02-03T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-02-02T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "c75cd724-2c44-43f7-b128-276b9be89b7e",
+  "version": "01",
+  "title": "Planung 1. Stammstrecke München, Erng. Tunnelausrüstung inkl. KIB, Oberbau; Lph. 1-3 (opt. Lph. 4)",
+  "description": "Gegenstand der Vergabe ist die Beschaffung von Planungsleistungen zur Erneuerung des Tunnels der 1. S-Bahn-Stammstrecke von München Hackerbrücke bis München Ost Pbf mit allen STE-Gewerken für die langfristige Verbesserung des S-Bahn-Verkehrs in München und Umgebung, um diesen Tunnel für die Zukunft zu rüsten. Betrachtet wird die Planung von KIB, VA, LST, OLA, 50Hz, TK und Funk und die Möglichkeiten, den Betrieb während der Baumaßnahmen soweit wie möglich aufrecht zu erhalten.",
+  "procedureType": null,
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71240000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Verkehrsanlage – Oberbau, Konstruktiver Ing. Bau sowie Tragwerksplanung inkl KTB",
+    "description": "Verkehrsanlage – Oberbau, Konstruktiver Ing. Bau sowie Tragwerksplanung inkl KTB",
+    "cpv": [
+     "71240000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-02-23+01:00",
+    "plannedEnd": "2027-12-15+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

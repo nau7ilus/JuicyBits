@@ -1,0 +1,125 @@
+{
+ "id": "25949790-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25949790",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25949790",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25949790-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25949790-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25949790?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu",
+  "buyer": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft",
+  "cpv": [
+   "34928400"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25949790",
+  "id": "25949790",
+  "date": "2026-10-20T19:02:20Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft"
+   }
+  },
+  "tender": {
+   "title": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu",
+   "description": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu\n\nAbfallbehälter Athen mit Ascher und \"nur\" Behälter Alu",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg, SÖR, Einkauf/Materialwirtschaft"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34928400",
+      "description": "Urban furniture"
+     },
+     "deliveryAddress": {
+      "locality": "90451 Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu",
+     "description": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu\n\nAbfallbehälter Athen mit Ascher und \"nur\" Behälter Alu"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25949790",
+  "version": "1",
+  "title": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu",
+  "description": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu\n\nAbfallbehälter Athen mit Ascher und \"nur\" Behälter Alu",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "34928400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu",
+    "description": "Abfallbehälter Athen mit Ascher und \"nur\" Behälter Alu\n\nAbfallbehälter Athen mit Ascher und \"nur\" Behälter Alu",
+    "cpv": [
+     "34928400"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "id": "f3dd7f7e-1091-4a90-b46f-8100b311a147-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "f3dd7f7e-1091-4a90-b46f-8100b311a147",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f3dd7f7e-1091-4a90-b46f-8100b311a147",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:f3dd7f7e-1091-4a90-b46f-8100b311a147-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:f3dd7f7e-1091-4a90-b46f-8100b311a147-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f3dd7f7e-1091-4a90-b46f-8100b311a147?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Brandschutzelemente",
+  "buyer": "Schulverband Thannhausen",
+  "cpv": [
+   "45262670",
+   "45421144",
+   "45343100"
+  ],
+  "nuts": [
+   "DE278"
+  ],
+  "deadline": "2026-11-24T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-727899ef-bd67-43e4-a6e2-02beefe7a9cb",
+  "id": "f3dd7f7e-1091-4a90-b46f-8100b311a147",
+  "date": "2026-10-22T02:08:53Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Schulverband Thannhausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "entfällt",
+     "legalName": "Schulverband Thannhausen"
+    },
+    "address": {
+     "streetAddress": "Edmund-Zimmermann-Straße 3",
+     "locality": "Thannhausen",
+     "region": "DE278",
+     "postalCode": "86470",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80438",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Schulverband Thannhausen",
+   "id": "entfällt",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Schulverband Thannhausen"
+   },
+   "address": {
+    "streetAddress": "Edmund-Zimmermann-Straße 3",
+    "locality": "Thannhausen",
+    "region": "DE278",
+    "postalCode": "86470",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "727899ef-bd67-43e4-a6e2-02beefe7a9cb",
+   "title": "Brandschutzelemente",
+   "description": "Liefern und Montieren von 12 Stk Brandschutzelementen/-türen\nLiefern und Montieren von 6 Stk Brandschutz-Festverglasungen",
+   "procuringEntity": {
+    "name": "Schulverband Thannhausen",
+    "id": "entfällt"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421144",
+       "description": "Installation work of awnings"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Thannhausen",
+      "region": "DE278",
+      "postalCode": "86470",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28c95a-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Brandschutzelemente",
+     "description": "Liefern und Montieren von 12 Stk Brandschutzelementen/-türen\nLiefern und Montieren von 6 Stk Brandschutz-Festverglasungen",
+     "contractPeriod": {
+      "startDate": "2027-06-28T00:00:00+02:00",
+      "endDate": "2027-12-23T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "f3dd7f7e-1091-4a90-b46f-8100b311a147",
+  "version": "01",
+  "title": "Brandschutzelemente",
+  "description": "Liefern und Montieren von 12 Stk Brandschutzelementen/-türen\nLiefern und Montieren von 6 Stk Brandschutz-Festverglasungen",
+  "procedureType": "open",
+  "nuts": [
+   "DE278"
+  ],
+  "cpv": [
+   "45262670",
+   "45343100",
+   "45421144"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Brandschutzelemente",
+    "description": "Liefern und Montieren von 12 Stk Brandschutzelementen/-türen\nLiefern und Montieren von 6 Stk Brandschutz-Festverglasungen",
+    "cpv": [
+     "45262670",
+     "45421144"
+    ],
+    "nuts": [
+     "DE278"
+    ],
+    "deadline": "2026-11-24T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-06-28+02:00",
+    "plannedEnd": "2027-12-23+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

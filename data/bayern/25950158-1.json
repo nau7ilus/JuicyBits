@@ -1,0 +1,156 @@
+{
+ "id": "25950158-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25950158",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25950158",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25950158-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25950158-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25950158?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beleuchtungssanierung",
+  "buyer": "Caritasverband für die Diözese Passau",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-19T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25950158",
+  "id": "25950158",
+  "date": "2026-10-20T19:00:28Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Caritasverband für die Diözese Passau",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Caritasverband für die Diözese Passau"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Caritasverband für die Diözese Passau",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Caritasverband für die Diözese Passau"
+   }
+  },
+  "tender": {
+   "title": "Beleuchtungssanierung",
+   "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+   "procuringEntity": {
+    "name": "Caritasverband für die Diözese Passau"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "94051 Hauzenberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV26700D-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Beleuchtungssanierung",
+     "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25950158",
+  "version": "1",
+  "title": "Beleuchtungssanierung",
+  "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Beleuchtungssanierung",
+    "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-19T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

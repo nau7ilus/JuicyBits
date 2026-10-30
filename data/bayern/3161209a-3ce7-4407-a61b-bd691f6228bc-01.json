@@ -1,0 +1,220 @@
+{
+ "id": "3161209a-3ce7-4407-a61b-bd691f6228bc-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "3161209a-3ce7-4407-a61b-bd691f6228bc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3161209a-3ce7-4407-a61b-bd691f6228bc",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:3161209a-3ce7-4407-a61b-bd691f6228bc-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:3161209a-3ce7-4407-a61b-bd691f6228bc-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3161209a-3ce7-4407-a61b-bd691f6228bc?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "S0335 Bewachung FBG-Tanklager Neuburg",
+  "buyer": "Bundeswehr-Dienstleistungszentrum Ingolstadt",
+  "cpv": [
+   "79713000"
+  ],
+  "nuts": [
+   "DE211",
+   "DE21I"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-05147fae-af0b-4c81-aa85-d4aafa1706c6",
+  "id": "3161209a-3ce7-4407-a61b-bd691f6228bc",
+  "date": "2026-10-21T02:08:53Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundeswehr-Dienstleistungszentrum Ingolstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "991-14291-55",
+     "legalName": "Bundeswehr-Dienstleistungszentrum Ingolstadt"
+    },
+    "address": {
+     "streetAddress": "Manchinger Straße 1",
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Bundeskartellamt"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundeswehr-Dienstleistungszentrum Ingolstadt",
+   "id": "991-14291-55",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundeswehr-Dienstleistungszentrum Ingolstadt"
+   },
+   "address": {
+    "streetAddress": "Manchinger Straße 1",
+    "locality": "Ingolstadt",
+    "region": "DE211",
+    "postalCode": "85053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "05147fae-af0b-4c81-aa85-d4aafa1706c6",
+   "title": "S0335 Bewachung FBG-Tanklager Neuburg",
+   "description": "Abschluss eines Vertrages über die konventionell-gewerbliche Bewachung des FBG - Tanklager Neuburg nach VSVgV",
+   "procuringEntity": {
+    "name": "Bundeswehr-Dienstleistungszentrum Ingolstadt",
+    "id": "991-14291-55"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79713000",
+      "description": "Guard services"
+     },
+     "deliveryAddress": {
+      "locality": "Weichering",
+      "region": "DE21I",
+      "postalCode": "86706",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Restricted",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdetails.html?id=900570",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "S0335 Bewachung FBG-Tanklager Neuburg",
+     "description": "Wachkategorie A -besonders schutzwürdige Anlage/Einrichtung - personelle Wachleistung mit Fahrzeug, Sicherheitsüberprüfung Ü2 Sabotageschutz erforderlich. Ü2 Sab muss vor dem Einsatz vorliegen. Die Wachaufgabe ist zu erfüllen mit einer Schichtstärke bis zu 10 Wachpersonen 24 Std pro Tag/ 7 Tage pro Woche im 12-Stunden-Schichtdienst mit persönlich zugewiesener Waffe P8 oder dem bei der Bundeswehr eingeführten Nachfolgemodell",
+     "contractPeriod": {
+      "startDate": "2027-12-01T00:00:00+01:00",
+      "endDate": "2031-11-30T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "18",
+  "noticeId": "3161209a-3ce7-4407-a61b-bd691f6228bc",
+  "version": "01",
+  "title": "S0335 Bewachung FBG-Tanklager Neuburg",
+  "description": "Abschluss eines Vertrages über die konventionell-gewerbliche Bewachung des FBG - Tanklager Neuburg nach VSVgV",
+  "procedureType": "restricted",
+  "nuts": [
+   "DE21I"
+  ],
+  "cpv": [
+   "79713000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "S0335 Bewachung FBG-Tanklager Neuburg",
+    "description": "Wachkategorie A -besonders schutzwürdige Anlage/Einrichtung - personelle Wachleistung mit Fahrzeug, Sicherheitsüberprüfung Ü2 Sabotageschutz erforderlich. Ü2 Sab muss vor dem Einsatz vorliegen. Die Wachaufgabe ist zu erfüllen mit einer Schichtstärke bis zu 10 Wachpersonen 24 Std pro Tag/ 7 Tage pro Woche im 12-Stunden-Schichtdienst mit persönlich zugewiesener Waffe P8 oder dem bei der Bundeswehr eingeführten Nachfolgemodell",
+    "cpv": [
+     "79713000"
+    ],
+    "nuts": [
+     "DE21I"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-12-03T13:00:00+01:00",
+    "plannedStart": "2027-12-01+01:00",
+    "plannedEnd": "2031-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Formlose Eigenerklärung, dass § 28 Waffengesetz beachtet wird\n\nEigenverpflichtungserklärung über die Behandlung von Verschlusssachen (VS) des Geheimhaltungsgrades VS-NUR FÜR DEN DIENSTGEBRAUCH (VS-NfD) und Merkblatt BAAINBw-B 096a/04.2015\n\nEigenerklärung, dass die Anforderungen gem. Ziffer 2.2 des Geheimschutzhandbuches des BMWK akzeptiert und eingehalten werden\n\n Eigenerklärung, dass\n-ausschließlich Personal eingesetzt wird,\ndas körperlich geistig und sprachlich zur Erfüllung der vertraglichen Bewachungsleistungen geeignet ist, wobei sprachlich geeignet bedeutet, dass das Personal sich in Wort und Schrift in deutscher Sprache verständigen kann,\nfür das ein Nachweis über die Freigabe im Bewacherregister vorliegt (Einsatzart: Schutz besonders gefährdeter Objekte),\ndas eine entsprechende Erste-Hilfe-Ausbildung erhalten hat und\ndas über eine fundierte Waffen- und Schießausbildung entsprechend den vertraglichen Vorgaben verfügt.\n-der Teilnehmer im Auftragsfall:\nAuf Verlangen des Auftraggebers die vorstehenden Einzelnachweise vor Leistungsbeginn bzw. vor dem ersten Einsatz des betreffenden Mitarbeiters vorlegen wird und\nAls Aufsichtführende Wachperson nur solche Mitarbeiter einsetzen wird, die im Hinblick auf die dabei erforderlichen besonderen Aufgaben hinreichend ausgebildet und geschult sind.\n\nEigenerklärung zum Nachweis des Nichtvorliegens von Ausschlussgründen gemäß §§ 23 und 24 VSVgV i.V.m. §§ 123, 124, 147 GWB (vgl. BAAINBw-B-V 034/04.16)\n\n Eigenerklärung VO 2022-833 Russlanderklärung\n\n BAAINBw-B-V-031-Erklärung zum Schutz von Verschlusssachen durch Bewerber/Bieter bei Aufträgen nach § 104 Abs. 3 GWB  \n\nEs wird eine zweigliedrige Prüfung und Bewertung der Teilnahmeanträge vorgenommen. Die Prüfung erfolgt wie nachstehend beschrieben: Im Rahmen des Teilnahmewettbewerbs wird anhand der einzureichenden Erklärungen und Nachweise zunächst die Eignung der Bewerber geprüft. Kann ein Unternehmen die geforderte Eigung nicht nachweisen, wird es nicht zur Angebotsabgabe aufgefordert. Werden mehr als 7 geeignete Bewrber ermittelt, wird eine Reihung der Bewerbungen gemäß nachfolgender Bewertungsmatrix vorgenommen:\n\n+militärische Liegenschaft oder kritische Infrastruktur jeweils mit Waffe und mehr als 10 Wachpersonen durchschnittlich=4 Punkte;\n-militärische Liegenschaft oder kritische Infrastruktur jeweils mit Waffe und 6 bis 10 Wachpersonen durchschnittlich=3 Punkte;\n+militärische Liegenschaft oder kritische Infrastruktur jeweils mit Waffe und bis zu 5 Wachpersonen durchschnittlich= 2 Punkte;\n-Sicherheitsdienstleistungen mit Waffe= 1 Punkt.\nZu berücksichtigen ist die durchschnittliche Anzahl der je Schicht eingesetzten Wachpersonen (Durchschnitt pro Woche - ohne Berücksichtigung von Feiertagen). Beispielrechnung: Mo-Fr: 3 WP Tagschicht/5 WP Nachtschicht und Sa/So: 5 WP Tag- und Nachtschicht [5(Schichten Mo-Fr) x 3(WP)) + [9 (Schichten Mo-So) x 5 (WP))=15+45=60\n60/14 (Schichten pro Woche)= 4,29 Wachaufgaben (somit 5 WP als durchschnittliche Anzahl). \nInfrastrukturen gelten dann als kritisch, wenn sie für die Funktionsfähigkeit moderner Gesellschaften von wichtiger Bedeutung sind und ihr ausfall oder ihre Beeinträchtigung nachhaltige Störungen im Gesamtsystem zur Folge hat. (Auszug Nationale Strategie zum Schutz Kritischer Infrastrukturen (KRITIS-Strategie). Die sieben Bewerber mit der höchsten Punktzahl werden zur Angebotsabgabe aufgefordert. Soweit eine Begrenzung auf 7 Bieter wegen Punktegleichheit an der 7. Stelle nicht möglich ist, wird der Bieterkreis um die Anzahl der punktgleichen Bieter erweitert.\n\nDer Zuschlag erfolgt auf das wirtschaftlichste Angebot, ermittelt aus der Summe der einzelnen Liegenschaftsauswertungen unter Berücksichtigung der jeweiligen Gewichtung von Qualität und Preis.\nLiegenschaft: Wachkategorie A - personelle Wachleistung mit Fahrzeugen\n(A2) Gewichtung = 30 % Preis und 70% Qualität\nMaximale Punktzahl (pro Liegenschaft) 1000 Punkte,"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Referenzen der wesentlichen in den letzten fünf Jahren erbrachten vergleichbaren Dienstleistungen gem. Vordruck \"Referenzbescheinigung\". Insgesamt sind genau drei erfolgreiche Referenzen des Dienstleistungsempfängers vorzulegen. Bei Leistungen an öffentliche Auftraggeber ist eine von der zuständigen Behörde ausgestellte Bescheinigung vorzulegen. Bei Leistungen in militärischen Liegenschaften ist die zuständige Stelle mindestens der Kasernenkommandant/ Standortälteste. Bei Leistungen an private Auftraggeber ist eine von diesen ausgestellte Bescheinigung oder, falls eine solche Bescheinigung nicht erhältlich ist, eine einfache Erklärung vorzulegen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Versicherungsnachweis Berufshaftpflicht (VSVgV § 26) bzw. Eigenerklärung, dass eine entsprechende Versicherung im Falle der Zuschlagserteilung abgeschlossen wird. Bei nicht ausreichender Deckungssumme ist die Deckungszusage des Versicherers erforderlich. Deckungssummen:\na)Für Personenschäden 1.500.000,00 €\nb)Für Sachschäden 350.000,00 €\nc)Für das Abhandenkommen bewachter Sachen 20.000,00 €\nd)Für Vermögensschäden 15.000,00 €"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Nachweis über die Freigabe im Bewacherregister (Der Nachweis muss zwingend folgende Daten enthalten: Name des Unternehmens, Gewerbe-ID, Status \"freigegeben\", Datum der Erstellung / des Auszuges)"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Auszug aus dem Berufs- oder Handelsregister (nicht älter als drei Monate zum Ende der Teilnahmefrist). Bewerber mit Sitz außerhalb der Bundesrepublik Deutschland haben eine gleichwertige Bescheinigung oder Urkunde einer zuständigen Gerichts- oder Verwaltungsbehörde des Herkunftslandes beizubringen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterien",
+      "description": "Wachkategorie A2",
+      "weight": 70
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

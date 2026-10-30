@@ -1,0 +1,392 @@
+{
+ "id": "a4f5425e-38fd-45d0-b2c0-f333aa29a16c-02",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "a4f5425e-38fd-45d0-b2c0-f333aa29a16c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a4f5425e-38fd-45d0-b2c0-f333aa29a16c",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:a4f5425e-38fd-45d0-b2c0-f333aa29a16c-02.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:a4f5425e-38fd-45d0-b2c0-f333aa29a16c-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a4f5425e-38fd-45d0-b2c0-f333aa29a16c?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Ausschreibung Gebäudereinigung - Gemeinde Eichenau",
+  "buyer": "Gemeinde Eichenau",
+  "cpv": [
+   "90900000",
+   "90911200"
+  ],
+  "nuts": [
+   "DE21C"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c38707d1-d198-4fa7-9c22-ea91d2043abf",
+  "id": "a4f5425e-38fd-45d0-b2c0-f333aa29a16c",
+  "date": "2026-10-23T02:12:46Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Eichenau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "14875",
+     "legalName": "Gemeinde Eichenau"
+    },
+    "address": {
+     "streetAddress": "Hauptplatz 2",
+     "locality": "Eichenau",
+     "region": "DE21C",
+     "postalCode": "82223",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "57c63a06-8c6c-4729-a626-952bf5bada0e",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE21H",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Prior & Peußner GmbH und Co. Dienstleistungs-KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 117 663 160",
+     "legalName": "Prior & Peußner GmbH und Co. Dienstleistungs-KG"
+    },
+    "address": {
+     "locality": "Osnabrück",
+     "region": "DE944",
+     "postalCode": "49084",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "ELGO Dienstleistungen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 363798718",
+     "legalName": "ELGO Dienstleistungen GmbH"
+    },
+    "address": {
+     "locality": "Grasbrunn",
+     "region": "DE21H",
+     "postalCode": "85630",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Eichenau",
+   "id": "14875",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Eichenau"
+   },
+   "address": {
+    "streetAddress": "Hauptplatz 2",
+    "locality": "Eichenau",
+    "region": "DE21C",
+    "postalCode": "82223",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c38707d1-d198-4fa7-9c22-ea91d2043abf",
+   "title": "Ausschreibung Gebäudereinigung - Gemeinde Eichenau",
+   "description": "Die Gemeinde Eichenau benötigt die Unterhaltsreinigung (UR) und die Grundreinigung (GR) für verschiedene Liegenschaften und unterteilt in 2 Lose: \nLos 1: UR, GR\nLos 2: UR, GR",
+   "procuringEntity": {
+    "name": "Gemeinde Eichenau",
+    "id": "14875"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "region": "DE21C",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "region": "DE21C",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 2,
+   "tenderers": [
+    {
+     "name": "Prior & Peußner GmbH und Co. Dienstleistungs-KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Prior & Peußner GmbH und Co. Dienstleistungs-KG"
+     },
+     "address": {
+      "locality": "Osnabrück",
+      "region": "DE944",
+      "postalCode": "49084",
+      "countryName": "DEU"
+     }
+    },
+    {
+     "name": "ELGO Dienstleistungen GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "ELGO Dienstleistungen GmbH"
+     },
+     "address": {
+      "locality": "Grasbrunn",
+      "region": "DE21H",
+      "postalCode": "85630",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1: UR, GR",
+     "description": "Die Gemeinde Eichenau benötigt die Unterhaltsreinigung (UR) und die Grundreinigung (GR) für ihre Gebäude an verschiedenen Standorten. Das Los 1 umfasst folgende Objekte für die Leistungserbringung:\n\nJosef-Dering-Grundschule - Bau 1, Schulstraße 38, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.359,95 m2\n\nJosef-Dering-Grundschule - Bau 2, Schulstraße 38, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.151,84 m2\n\nJosef-Dering-Grundschule - Bau 3, Schulstraße 38, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.693,77 m2\n\nJosef-Dering-Grundschule - Turnhalle, Schulstraße 38, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 654,93 m2\n\nJugendzentrum, Adalbert-Stifter-Weg 1, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 290,88 m2\n__________________________\nGesamtbodenfläche: 5.151,37 m2"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2: UR, GR",
+     "description": "Die Gemeinde Eichenau benötigt die Unterhaltsreinigung (UR) und die Grundreinigung (GR) für ihre Gebäude. Das Los 2 umfasst folgende Objekte für die Leistungserbringung:\n\nStarzelbachschule - Gebäude A, Parkstraße 41, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 4.379,37 m2\n\nStarzelbachschule - Gebäude B/K, Parkstraße 41, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.326,14 m2\n\nStarzelbachschule - Turnhalle, Parkstraße 41, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.208,32 m2\n____________________________\nGesamtbodenfläche: 6.913,83 m2"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-05T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-05T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-04T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-04T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a4f5425e-38fd-45d0-b2c0-f333aa29a16c",
+  "version": "02",
+  "title": "Ausschreibung Gebäudereinigung - Gemeinde Eichenau",
+  "description": "Die Gemeinde Eichenau benötigt die Unterhaltsreinigung (UR) und die Grundreinigung (GR) für verschiedene Liegenschaften und unterteilt in 2 Lose: \nLos 1: UR, GR\nLos 2: UR, GR",
+  "procedureType": "open",
+  "nuts": [
+   "DE21C"
+  ],
+  "cpv": [
+   "90911200",
+   "90900000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1: UR, GR",
+    "description": "Die Gemeinde Eichenau benötigt die Unterhaltsreinigung (UR) und die Grundreinigung (GR) für ihre Gebäude an verschiedenen Standorten. Das Los 1 umfasst folgende Objekte für die Leistungserbringung:\n\nJosef-Dering-Grundschule - Bau 1, Schulstraße 38, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.359,95 m2\n\nJosef-Dering-Grundschule - Bau 2, Schulstraße 38, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.151,84 m2\n\nJosef-Dering-Grundschule - Bau 3, Schulstraße 38, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.693,77 m2\n\nJosef-Dering-Grundschule - Turnhalle, Schulstraße 38, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 654,93 m2\n\nJugendzentrum, Adalbert-Stifter-Weg 1, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 290,88 m2\n__________________________\nGesamtbodenfläche: 5.151,37 m2",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DE21C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Produktivstunden",
+      "weight": 35
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Aufsichts-/Kontrollstunden",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Ausführungskonzept",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Nachhaltigkeit",
+      "weight": 5
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2: UR, GR",
+    "description": "Die Gemeinde Eichenau benötigt die Unterhaltsreinigung (UR) und die Grundreinigung (GR) für ihre Gebäude. Das Los 2 umfasst folgende Objekte für die Leistungserbringung:\n\nStarzelbachschule - Gebäude A, Parkstraße 41, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 4.379,37 m2\n\nStarzelbachschule - Gebäude B/K, Parkstraße 41, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.326,14 m2\n\nStarzelbachschule - Turnhalle, Parkstraße 41, 82223 Eichenau\nLeistungen: UR, GR\nBodenfläche: 1.208,32 m2\n____________________________\nGesamtbodenfläche: 6.913,83 m2",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DE21C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Produktivstunden",
+      "weight": 35
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Aufsichts-/Kontrollstunden",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Ausführungskonzept",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Nachhaltigkeit",
+      "weight": 5
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

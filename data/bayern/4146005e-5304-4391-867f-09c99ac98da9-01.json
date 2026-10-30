@@ -1,0 +1,317 @@
+{
+ "id": "4146005e-5304-4391-867f-09c99ac98da9-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "4146005e-5304-4391-867f-09c99ac98da9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4146005e-5304-4391-867f-09c99ac98da9",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:4146005e-5304-4391-867f-09c99ac98da9-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:4146005e-5304-4391-867f-09c99ac98da9-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4146005e-5304-4391-867f-09c99ac98da9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erdgaslieferung für die Regiebetriebe des Bezirks Niederbayern in 2027 und 2028 ",
+  "buyer": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH",
+  "cpv": [
+   "09123000"
+  ],
+  "nuts": [
+   "DE221",
+   "DE224",
+   "DE223"
+  ],
+  "deadline": "2026-11-20T13:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f283632c-d79a-4979-b450-ca5893c7d459",
+  "id": "4146005e-5304-4391-867f-09c99ac98da9",
+  "date": "2026-10-23T02:08:49Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE128968818",
+     "legalName": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH"
+    },
+    "address": {
+     "streetAddress": "Am Lurzenhof 15",
+     "locality": "Landshut",
+     "region": "DE221",
+     "postalCode": "84036",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemomblerstraße 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH",
+   "id": "DE128968818",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH"
+   },
+   "address": {
+    "streetAddress": "Am Lurzenhof 15",
+    "locality": "Landshut",
+    "region": "DE221",
+    "postalCode": "84036",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f283632c-d79a-4979-b450-ca5893c7d459",
+   "title": "Erdgaslieferung für die Regiebetriebe des Bezirks Niederbayern in 2027 und 2028 ",
+   "description": "Lieferung von 26.658 MWh Erdgas für die Jahre 2027 und 2028 als Tranchenmodell",
+   "procuringEntity": {
+    "name": "Bezirk Niederbayern Hauptverwaltung, Stabsstelle Rechtliche Sonderaufgaben und Grundstücksangelegenheiten, , vertreten durch VEA Beratungs-GmbH",
+    "id": "DE128968818"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryAddress": {
+      "locality": "Deggendorf",
+      "region": "DE224",
+      "postalCode": "94469",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryAddress": {
+      "locality": "Straubing",
+      "region": "DE223",
+      "postalCode": "94315",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryAddress": {
+      "locality": "Landshut",
+      "region": "DE221",
+      "postalCode": "84036",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.vea-ausschreibungen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a11bf6ea6c-7da3e34a75268166",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.vea-ausschreibungen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a11bf6ea6c-7da3e34a75268166",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.vea-ausschreibungen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a11bf6ea6c-7da3e34a75268166",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Gaslieferung BK Mainkofen und BK Passau",
+     "description": "Lieferung mit Erdgas 01/2027 bis 12/2028 ca.6.540 MWh/a (2 RLM- 2 SLP-Marktlokationen)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2029-01-01T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Gaslieferung Bezirksklinikum Straubing 2026",
+     "description": "Lieferung mit Erdgas 01/2027 bis 12/2028 ca. 4.457 MWh/a (1 RLM- 2 SLP-Marktlokationen)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2029-01-01T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Gaslieferung Agrarbildungszentrum Landshut 2026",
+     "description": "Lieferung mit Erdgas 01/2027 bis 12/2028 ca. 2.331 MWh/a (2 RLM-Marktlokationen)",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2029-01-01T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "4146005e-5304-4391-867f-09c99ac98da9",
+  "version": "01",
+  "title": "Erdgaslieferung für die Regiebetriebe des Bezirks Niederbayern in 2027 und 2028",
+  "description": "Lieferung von 26.658 MWh Erdgas für die Jahre 2027 und 2028 als Tranchenmodell",
+  "procedureType": "open",
+  "nuts": [
+   "DE221",
+   "DE224",
+   "DE223"
+  ],
+  "cpv": [
+   "09123000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Gaslieferung BK Mainkofen und BK Passau",
+    "description": "Lieferung mit Erdgas 01/2027 bis 12/2028 ca.6.540 MWh/a (2 RLM- 2 SLP-Marktlokationen)",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE224"
+    ],
+    "deadline": "2026-11-20T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Gaslieferung Bezirksklinikum Straubing 2026",
+    "description": "Lieferung mit Erdgas 01/2027 bis 12/2028 ca. 4.457 MWh/a (1 RLM- 2 SLP-Marktlokationen)",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE223"
+    ],
+    "deadline": "2026-11-20T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Gaslieferung Agrarbildungszentrum Landshut 2026",
+    "description": "Lieferung mit Erdgas 01/2027 bis 12/2028 ca. 2.331 MWh/a (2 RLM-Marktlokationen)",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE221"
+    ],
+    "deadline": "2026-11-20T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

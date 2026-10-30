@@ -1,0 +1,271 @@
+{
+ "id": "c028f45e-683b-415c-be86-e883b83cf3f3-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "c028f45e-683b-415c-be86-e883b83cf3f3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c028f45e-683b-415c-be86-e883b83cf3f3",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:c028f45e-683b-415c-be86-e883b83cf3f3-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:c028f45e-683b-415c-be86-e883b83cf3f3-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c028f45e-683b-415c-be86-e883b83cf3f3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker",
+  "buyer": "Münchner Wohnen GmbH",
+  "cpv": [
+   "90900000",
+   "90911000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-08b9b05b-d673-40bd-a841-a096f408468e",
+  "id": "c028f45e-683b-415c-be86-e883b83cf3f3",
+  "date": "2026-10-22T02:10:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Münchner Wohnen GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:0898776620",
+     "legalName": "Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Dienstleister Münchner Wohnen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:00898776620",
+     "legalName": "Dienstleister Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Münchner Wohnen GmbH",
+   "id": "t:0898776620",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Münchner Wohnen GmbH"
+   },
+   "address": {
+    "streetAddress": "Gustav-Heinemann- Ring 111",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "08b9b05b-d673-40bd-a841-a096f408468e",
+   "title": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker",
+   "description": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker, vgl. Liste",
+   "procuringEntity": {
+    "name": "Münchner Wohnen GmbH",
+    "id": "t:0898776620"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81739",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81739",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304807",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304807",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Objekte Münchner Osten",
+     "description": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker, vgl. Liste",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Objekte Münchner Westen",
+     "description": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker, vgl. Liste",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c028f45e-683b-415c-be86-e883b83cf3f3",
+  "version": "01",
+  "title": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker",
+  "description": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker, vgl. Liste",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "90911000",
+   "90900000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Objekte Münchner Osten",
+    "description": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker, vgl. Liste",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Objekte Münchner Westen",
+    "description": "Unterhaltsreinigungen in den WCs und Räumen der Hausmeister und Handwerker, vgl. Liste",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "id": "00747539-c38e-4eec-ab16-073a0d1b59ae-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "00747539-c38e-4eec-ab16-073a0d1b59ae",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=00747539-c38e-4eec-ab16-073a0d1b59ae",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:00747539-c38e-4eec-ab16-073a0d1b59ae-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:00747539-c38e-4eec-ab16-073a0d1b59ae-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/00747539-c38e-4eec-ab16-073a0d1b59ae?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Elektroherde für die Gemeinschaftsunterkünfte und ANKER-Einrichtung Deggendorf",
+  "buyer": "Regierung von Niederbayern",
+  "cpv": [
+   "39710000",
+   "39700000",
+   "39711000",
+   "39721100"
+  ],
+  "nuts": [
+   "DE221",
+   "DE224"
+  ],
+  "deadline": "2026-11-17T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1760ad50-2bc1-4677-b64b-31c65ff28c28",
+  "id": "00747539-c38e-4eec-ab16-073a0d1b59ae",
+  "date": "2026-10-16T02:06:13Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "1a86dfa1-e75a-4748-8724-5f436cb4ba9d",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Niederbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "fbe5d64f-8f8d-48db-bcea-9334e8d5adc0",
+     "legalName": "Regierung von Niederbayern"
+    },
+    "address": {
+     "streetAddress": "Regierungsplatz 540",
+     "locality": "Landshut",
+     "region": "DE221",
+     "postalCode": "84028",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Regierung von Niederbayern",
+   "id": "fbe5d64f-8f8d-48db-bcea-9334e8d5adc0",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Regierung von Niederbayern"
+   },
+   "address": {
+    "streetAddress": "Regierungsplatz 540",
+    "locality": "Landshut",
+    "region": "DE221",
+    "postalCode": "84028",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1760ad50-2bc1-4677-b64b-31c65ff28c28",
+   "title": "Elektroherde für die Gemeinschaftsunterkünfte und ANKER-Einrichtung Deggendorf",
+   "description": "Die Regierung von Niederbayern ist zuständig für den Betrieb der staatlichen Gemeinschaftsunterkünfte für Asylbewerber (GU) sowie für den Betrieb der ANKER-Einrichtung Deggendorf und dessen Dependancen/Außenstellen im Regierungsbezirk Niederbayern.\n\nFür die Versorgung der Asylbewerber an den oben genannten Bedarfsstellen benötigt der AG die im Leistungsverzeichnis näher bezeichneten Elektroherde. Der Bedarf umfasst die komplette Erstausstattung von Unterkünften sowie Nachbestellungen wegen Beschädigung, Zerstörung usw.",
+   "procuringEntity": {
+    "name": "Regierung von Niederbayern",
+    "id": "fbe5d64f-8f8d-48db-bcea-9334e8d5adc0"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39710000",
+      "description": "Electrical domestic appliances"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39700000",
+       "description": "Domestic appliances"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39711000",
+       "description": "Electrical domestic appliances for use with foodstuffs"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39721100",
+       "description": "Domestic cooking appliances"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Niederbayern",
+      "region": "DE224",
+      "postalCode": "94469 u.a.",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/0400a1f7-3062-4abd-905a-39606902d763",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Elektroherde für die Gemeinschaftsunterkünfte und ANKER-Einrichtung Deggendorf",
+     "description": "Die Regierung von Niederbayern ist zuständig für den Betrieb der staatlichen Gemeinschaftsunterkünfte für Asylbewerber (GU) sowie für den Betrieb der ANKER-Einrichtung Deggendorf und dessen Dependancen/Außenstellen im Regierungsbezirk Niederbayern.\n\nFür die Versorgung der Asylbewerber an den oben genannten Bedarfsstellen benötigt der AG die im Leistungsverzeichnis näher bezeichneten Elektroherde. Der Bedarf umfasst die komplette Erstausstattung von Unterkünften sowie Nachbestellungen wegen Beschädigung, Zerstörung usw.",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-05-14T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "00747539-c38e-4eec-ab16-073a0d1b59ae",
+  "version": "01",
+  "title": "Elektroherde für die Gemeinschaftsunterkünfte und ANKER-Einrichtung Deggendorf",
+  "description": "Die Regierung von Niederbayern ist zuständig für den Betrieb der staatlichen Gemeinschaftsunterkünfte für Asylbewerber (GU) sowie für den Betrieb der ANKER-Einrichtung Deggendorf und dessen Dependancen/Außenstellen im Regierungsbezirk Niederbayern.\n\nFür die Versorgung der Asylbewerber an den oben genannten Bedarfsstellen benötigt der AG die im Leistungsverzeichnis näher bezeichneten Elektroherde. Der Bedarf umfasst die komplette Erstausstattung von Unterkünften sowie Nachbestellungen wegen Beschädigung, Zerstörung usw.",
+  "procedureType": "open",
+  "nuts": [
+   "DE224"
+  ],
+  "cpv": [
+   "39710000",
+   "39700000",
+   "39711000",
+   "39721100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Elektroherde für die Gemeinschaftsunterkünfte und ANKER-Einrichtung Deggendorf",
+    "description": "Die Regierung von Niederbayern ist zuständig für den Betrieb der staatlichen Gemeinschaftsunterkünfte für Asylbewerber (GU) sowie für den Betrieb der ANKER-Einrichtung Deggendorf und dessen Dependancen/Außenstellen im Regierungsbezirk Niederbayern.\n\nFür die Versorgung der Asylbewerber an den oben genannten Bedarfsstellen benötigt der AG die im Leistungsverzeichnis näher bezeichneten Elektroherde. Der Bedarf umfasst die komplette Erstausstattung von Unterkünften sowie Nachbestellungen wegen Beschädigung, Zerstörung usw.",
+    "cpv": [
+     "39710000",
+     "39700000",
+     "39711000",
+     "39721100"
+    ],
+    "nuts": [
+     "DE224"
+    ],
+    "deadline": "2026-11-17T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-05-14+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/0400a1f7-3062-4abd-905a-39606902d763/suitabilitycriteria"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/0400a1f7-3062-4abd-905a-39606902d763/suitabilitycriteria"
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/0400a1f7-3062-4abd-905a-39606902d763/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Vgl. das Dokument \"Verfahrenshinweise und besondere Bewerbungsbedingungen\", Ziffer \"3.8.2 Ermittlung des wirtschaftlichsten Angebots\".",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

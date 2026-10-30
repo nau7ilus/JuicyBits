@@ -1,0 +1,279 @@
+{
+ "id": "1daac3eb-9886-4ec9-a30e-df2f8976391d-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "1daac3eb-9886-4ec9-a30e-df2f8976391d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1daac3eb-9886-4ec9-a30e-df2f8976391d",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:1daac3eb-9886-4ec9-a30e-df2f8976391d-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:1daac3eb-9886-4ec9-a30e-df2f8976391d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1daac3eb-9886-4ec9-a30e-df2f8976391d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau des Unternehmensstandortes der AWA Ammersee - Vergabe Objektplanung",
+  "buyer": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+  "cpv": [
+   "71200000"
+  ],
+  "nuts": [
+   "DE21L"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fc0d7b33-79fc-4b4e-9dad-e55787fbaeef",
+  "id": "1daac3eb-9886-4ec9-a30e-df2f8976391d",
+  "date": "2026-10-21T02:08:40Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE252001456",
+     "legalName": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU"
+    },
+    "address": {
+     "streetAddress": "Mitterweg 1",
+     "locality": "Herrsching",
+     "region": "DE21L",
+     "postalCode": "82211",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Sommersberger GmbH – Architekten und Ingenieure",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE223187243",
+     "legalName": "Sommersberger GmbH – Architekten und Ingenieure"
+    },
+    "address": {
+     "streetAddress": "Landshuter Allee 96",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80637",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+   "id": "DE252001456",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU"
+   },
+   "address": {
+    "streetAddress": "Mitterweg 1",
+    "locality": "Herrsching",
+    "region": "DE21L",
+    "postalCode": "82211",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fc0d7b33-79fc-4b4e-9dad-e55787fbaeef",
+   "title": "Neubau des Unternehmensstandortes der AWA Ammersee - Vergabe Objektplanung",
+   "description": "Objektplanung für Gebäude und Innenräume, LPH 2–9, Leistungsbild gemäß § 34 HOAI 2021",
+   "procuringEntity": {
+    "name": "AWA – Ammersee, Wasser- und Abwasserbetriebe gKU",
+    "id": "DE252001456"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Grundstück Fl.Nr. 408/1 Heinestraße",
+      "locality": "Herrsching",
+      "region": "DE21L",
+      "postalCode": "82211",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-03-05T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Sommersberger GmbH – Architekten und Ingenieure",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Sommersberger GmbH – Architekten und Ingenieure"
+     },
+     "address": {
+      "streetAddress": "Landshuter Allee 96",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80637",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Objektplanung Gebäude und Innenräume, LPH 2-9",
+     "description": "Objektplanung für Gebäude und Innenräume gemäß § 34 HOAI 2021, Leistungsphasen 2 bis 9, stufenweise Beauftragung.",
+     "contractPeriod": {
+      "startDate": "2026-04-08T00:00:00+02:00",
+      "endDate": "2029-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Objektplanung Gebäude und Innenräume NBU2512",
+    "status": "active",
+    "date": "2026-07-30T00:00:00+02:00",
+    "value": {
+     "amount": 1216334.11,
+     "currency": "EUR"
+    },
+    "suppliers": [
+     {
+      "name": "Sommersberger GmbH – Architekten und Ingenieure",
+      "id": "DE223187243",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "Sommersberger GmbH – Architekten und Ingenieure"
+      },
+      "address": {
+       "streetAddress": "Landshuter Allee 96",
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "80637",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Objektplanung Gebäude und Innenräume NBU2512",
+    "status": "active",
+    "value": {
+     "amount": 1113116.99,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-07-29T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "1daac3eb-9886-4ec9-a30e-df2f8976391d",
+  "version": "01",
+  "title": "Neubau des Unternehmensstandortes der AWA Ammersee - Vergabe Objektplanung",
+  "description": "Objektplanung für Gebäude und Innenräume, LPH 2–9, Leistungsbild gemäß § 34 HOAI 2021",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21L"
+  ],
+  "cpv": [
+   "71200000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Objektplanung Gebäude und Innenräume, LPH 2-9",
+    "description": "Objektplanung für Gebäude und Innenräume gemäß § 34 HOAI 2021, Leistungsphasen 2 bis 9, stufenweise Beauftragung.",
+    "cpv": [
+     "71200000"
+    ],
+    "nuts": [
+     "DE21L"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-04-08+02:00",
+    "plannedEnd": "2029-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualität des eingesetzten Personals",
+      "description": "Bewertet werden die berufliche Qualifikation und die Erfahrung der vorgesehenen Projektleitung sowie der vorgesehenen stellvertretenden Projektleitung, jeweils der Fachrichtung Architektur. Vorzulegen waren je Person der Studien- beziehungsweise Ausbildungsnachweis, ein Lebenslauf sowie zwei Referenzprojektblätter; Referenzprojekte von Nachunternehmern waren nicht zugelassen und es wurden ausschließlich die vier im Angebotsblatt benannten Referenzprojekte gewertet. Bepunktet wurden je Person die berufsbildentsprechende Qualifikation als Architekt oder Ingenieur mit 0,5 Punkten, eine Berufserfahrung von mindestens zehn Jahren mit 0,5 Punkten sowie je Referenzprojekt der ausgeführte Leistungsumfang nach Leistungsphasen mit bis zu 1 Punkt, ein Projektvolumen der Kostengruppe 300 von mindestens 6.000.000 Euro netto mit 0,5 Punkten und die geforderte Gebäudetypologie mit 0,5 Punkten. Auf die Projektleitung und auf die stellvertretende Projektleitung entfallen jeweils höchstens 5 Punkte, insgesamt höchstens 10 Punkte; dies entspricht der Gewichtung von 10 Prozent.",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Lösungsvorschlag",
+      "description": "Bewertet wird der von den Bietern einzureichende schriftliche Lösungsvorschlag nach Anlage 27 sowie dessen Erläuterung in der Präsentation vor der Jury. Der Lösungsvorschlag gliedert sich in die Bereiche Projektmethodik mit höchstens 45 Punkten, Kostenmanagement mit höchstens 8 Punkten und Qualitätssicherung mit höchstens 7 Punkten. Innerhalb der Projektmethodik werden das Projektverständnis für Aufgabenstellung, Projektziele und Rahmenbedingungen mit höchstens 10 Punkten, das methodische Vorgehen im internen Planungsprozess einschließlich Abstimmung mit den Fachplanern, Sicherstellung der Baufreiheit und Einbindung der Nutzerbeteiligung mit höchstens 15 Punkten, die architektonische Grundhaltung als schriftlich dargestellte gestalterische Leitidee mit Schwerpunkt Städtebau, Nachhaltigkeit und Funktionalität mit höchstens 15 Punkten und die Projektorganisation mit höchstens 5 Punkten bewertet. Das Kostenmanagement umfasst Kostenplanung und Kostensteuerung einschließlich Reporting, die Qualitätssicherung das bürointerne Qualitätsmanagement, die Koordination und das Schnittstellenmanagement sowie das Risikomanagement. Insgesamt sind höchstens 60 Punkte erreichbar; dies entspricht der Gewichtung von 60 Prozent.",
+      "weight": 60
+     },
+     {
+      "type": "price",
+      "name": "Honorarangebot",
+      "description": "Bewertet wird das im Honorarangebotsblatt nach Anlage 28 anzugebende Honorarangebot. Das preisgünstigste Honorarangebot aller Bieter erhält die volle Punktzahl von 30 Punkten, ein doppelt so hohes Angebot erhält 0 Punkte; dazwischen erfolgt eine lineare Punkteverteilung. Gewertet wird das Honorarangebot netto als Summe aus dem Honorar für die Grundleistungen einschließlich der angebotenen Zu- oder Abschläge, den Nebenkosten und dem Honorar für zusätzliche Leistungen. Insgesamt sind höchstens 30 Punkte erreichbar; dies entspricht der Gewichtung von 30 Prozent. Den Zuschlag erhält der Bieter mit der höchsten Gesamtpunktzahl; bei Punktgleichheit entscheidet das niedrigere Honorarangebot, danach das Los.",
+      "weight": 30
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

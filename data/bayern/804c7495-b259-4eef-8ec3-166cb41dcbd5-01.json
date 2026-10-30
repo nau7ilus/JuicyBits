@@ -1,0 +1,223 @@
+{
+ "id": "804c7495-b259-4eef-8ec3-166cb41dcbd5-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "804c7495-b259-4eef-8ec3-166cb41dcbd5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=804c7495-b259-4eef-8ec3-166cb41dcbd5",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:804c7495-b259-4eef-8ec3-166cb41dcbd5-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:804c7495-b259-4eef-8ec3-166cb41dcbd5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/804c7495-b259-4eef-8ec3-166cb41dcbd5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Heizungsarbeiten",
+  "buyer": "Staatliches Bauamt Aschaffenburg",
+  "cpv": [
+   "45331100"
+  ],
+  "nuts": [
+   "DE261",
+   "DE269"
+  ],
+  "deadline": "2026-10-07T10:45:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3c4a53d4-627d-4b40-937e-8626d8c6166f",
+  "id": "804c7495-b259-4eef-8ec3-166cb41dcbd5",
+  "date": "2026-10-16T02:06:35Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Aschaffenburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0996108-38",
+     "legalName": "Staatliches Bauamt Aschaffenburg"
+    },
+    "address": {
+     "streetAddress": "Cornelienstrasse 1",
+     "locality": "Aschaffenburg",
+     "region": "DE261",
+     "postalCode": "63739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 11",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Aschaffenburg",
+   "id": "09-0996108-38",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Aschaffenburg"
+   },
+   "address": {
+    "streetAddress": "Cornelienstrasse 1",
+    "locality": "Aschaffenburg",
+    "region": "DE261",
+    "postalCode": "63739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3c4a53d4-627d-4b40-937e-8626d8c6166f",
+   "title": "Heizungsarbeiten",
+   "description": "Neubau Finanzamt Obernburg mit Bearbeitungsstelle Nürnberg Nord",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Aschaffenburg",
+    "id": "09-0996108-38"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331100",
+      "description": "Central-heating installation work"
+     },
+     "deliveryAddress": {
+      "locality": "Obernburg am Main",
+      "region": "DE269",
+      "postalCode": "63785",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302441",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-16T02:06:35.352Z",
+     "rationale": "Verlängerung der Angebotsfrist",
+     "description": "- Informationen zur Einreichung:\n(BT-131(d)-Lot) Frist für den Eingang der Angebote: 22.10.2026\n(BT-132(d)-Lot) Datum des Öffnungstermins: 22.10.2026",
+     "amendsReleaseID": "6598079a-8ffe-4c89-9b43-6618ba25c8f2-01",
+     "releaseID": "804c7495-b259-4eef-8ec3-166cb41dcbd5-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Heizungsarbeiten",
+     "description": "Neubau Finanzamt Obernburg mit Bearbeitungsstelle Nürnberg Nord:\n- Sole/Wasser-Wärmepumpe, ca. 69 kW (ohne Erdsonden)\n- Edelstahlrohr in diversen Durchmessern, insgesamt ca. 430 m\n- Bögen in diversen Durchmessern, insgesamt ca. 340 St\n- T-Stücke, Muffen, Reduzierungen, *bergangstücke, Flanschen, Befestigungen\n- Verteiler mit 6 Abgängen\n- Luftgefäße, Kugelhähne, Entleerungen, Sicherheitsventile, Schmutzfänger\n- Pufferspeicher 2.000 l mit Wärmeübertrager Edelstahl\n- Punpen, Vakuumentgasung, Wärmemengenzähler\n- Membrandruckausdehnungsgefäße\n- Dämmung an Rohrleitungen und Armaturen\n- Fußbodenheizung, ca. 4.400 m2 mit Anbindeleitung\n- Heizkreisverteiler mit Schränken\n- Verkabelung, Brandschutzdurchführungen",
+     "contractPeriod": {
+      "durationInDays": 420
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "804c7495-b259-4eef-8ec3-166cb41dcbd5",
+  "version": "01",
+  "title": "Heizungsarbeiten",
+  "description": "Neubau Finanzamt Obernburg mit Bearbeitungsstelle Nürnberg Nord",
+  "procedureType": "open",
+  "nuts": [
+   "DE269"
+  ],
+  "cpv": [
+   "45331100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Heizungsarbeiten",
+    "description": "Neubau Finanzamt Obernburg mit Bearbeitungsstelle Nürnberg Nord:\n- Sole/Wasser-Wärmepumpe, ca. 69 kW (ohne Erdsonden)\n- Edelstahlrohr in diversen Durchmessern, insgesamt ca. 430 m\n- Bögen in diversen Durchmessern, insgesamt ca. 340 St\n- T-Stücke, Muffen, Reduzierungen, *bergangstücke, Flanschen, Befestigungen\n- Verteiler mit 6 Abgängen\n- Luftgefäße, Kugelhähne, Entleerungen, Sicherheitsventile, Schmutzfänger\n- Pufferspeicher 2.000 l mit Wärmeübertrager Edelstahl\n- Punpen, Vakuumentgasung, Wärmemengenzähler\n- Membrandruckausdehnungsgefäße\n- Dämmung an Rohrleitungen und Armaturen\n- Fußbodenheizung, ca. 4.400 m2 mit Anbindeleitung\n- Heizkreisverteiler mit Schränken\n- Verkabelung, Brandschutzdurchführungen",
+    "cpv": [
+     "45331100"
+    ],
+    "nuts": [
+     "DE269"
+    ],
+    "deadline": "2026-10-07T10:45:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 14,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211), im Verzeichnis vorzulegender Unterlagen (Formblatt 216) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium",
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "id": "d198e0d0-3e86-4865-b248-b0b0da8f2ec1-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "d198e0d0-3e86-4865-b248-b0b0da8f2ec1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d198e0d0-3e86-4865-b248-b0b0da8f2ec1",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:d198e0d0-3e86-4865-b248-b0b0da8f2ec1-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:d198e0d0-3e86-4865-b248-b0b0da8f2ec1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d198e0d0-3e86-4865-b248-b0b0da8f2ec1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Ohmsche Lastbank 5 MW - PR1270848-2830-W",
+  "buyer": "Fraunhofer-Gesellschaft, Einkauf B12",
+  "cpv": [
+   "31100000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE803"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3306d8fe-41b2-453a-8f52-bbf4102d5f6f",
+  "id": "d198e0d0-3e86-4865-b248-b0b0da8f2ec1",
+  "date": "2026-10-23T02:09:02Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft, Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft, Einkauf B12"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE-129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "BÜTOW Industrie-Elektronik GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE137436114",
+     "legalName": "BÜTOW Industrie-Elektronik GmbH"
+    },
+    "address": {
+     "streetAddress": "Ladestraße 1c",
+     "locality": "Wismar",
+     "region": "DE80M",
+     "postalCode": "23970",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft, Einkauf B12",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft, Einkauf B12"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3306d8fe-41b2-453a-8f52-bbf4102d5f6f",
+   "title": "Ohmsche Lastbank 5 MW - PR1270848-2830-W",
+   "description": "Ohmsche Lastbank 5 MW",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft, Einkauf B12",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "31100000",
+      "description": "Electric motors, generators and transformers"
+     },
+     "deliveryAddress": {
+      "locality": "Rostock-Warnemünde",
+      "region": "DE803",
+      "postalCode": "18119",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "BÜTOW Industrie-Elektronik GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "BÜTOW Industrie-Elektronik GmbH"
+     },
+     "address": {
+      "streetAddress": "Ladestraße 1c",
+      "locality": "Wismar",
+      "region": "DE80M",
+      "postalCode": "23970",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Ohmsche Lastbank 5 MW - PR1270848-2830-W",
+     "description": "1x Ohmsche Lastbank 5 MW",
+     "contractPeriod": {
+      "durationInDays": 330
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-21T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-20T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "d198e0d0-3e86-4865-b248-b0b0da8f2ec1",
+  "version": "01",
+  "title": "Ohmsche Lastbank 5 MW - PR1270848-2830-W",
+  "description": "Ohmsche Lastbank 5 MW",
+  "procedureType": "open",
+  "nuts": [
+   "DE803"
+  ],
+  "cpv": [
+   "31100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Ohmsche Lastbank 5 MW - PR1270848-2830-W",
+    "description": "1x Ohmsche Lastbank 5 MW",
+    "cpv": [
+     "31100000"
+    ],
+    "nuts": [
+     "DE803"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 11,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": ".",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

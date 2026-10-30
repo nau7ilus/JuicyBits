@@ -1,0 +1,283 @@
+{
+ "id": "2c9abe87-62d4-40b9-a725-03ff58f90a3e-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "2c9abe87-62d4-40b9-a725-03ff58f90a3e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2c9abe87-62d4-40b9-a725-03ff58f90a3e",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:2c9abe87-62d4-40b9-a725-03ff58f90a3e-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:2c9abe87-62d4-40b9-a725-03ff58f90a3e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2c9abe87-62d4-40b9-a725-03ff58f90a3e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Generalsanierung Mittelschule Marktheidenfeld - Parkettarbeiten BT A",
+  "buyer": "Schulverband Mittelschule Marktheidenfeld",
+  "cpv": [
+   "45430000",
+   "45432130",
+   "44112240",
+   "45432113",
+   "45432114",
+   "45214200",
+   "45210000",
+   "44112200"
+  ],
+  "nuts": [
+   "DE26A"
+  ],
+  "deadline": "2026-11-16T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-15d1c8ee-e53e-4fee-8803-4908c460a7d7",
+  "id": "2c9abe87-62d4-40b9-a725-03ff58f90a3e",
+  "date": "2026-10-18T10:44:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Schulverband Mittelschule Marktheidenfeld",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE132115350",
+     "legalName": "Schulverband Mittelschule Marktheidenfeld"
+    },
+    "address": {
+     "streetAddress": "Luitpoldstr. 17",
+     "locality": "Marktheidenfeld",
+     "region": "DE26A",
+     "postalCode": "97828",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   },
+   {
+    "name": "VOB-Stelle Regierung von Unterfranken, Stelle die Auskünfte über die Einlegung von Rechtsbehelfen erteilt",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "VOB-Stelle Regierung von Unterfranken, Stelle die Auskünfte über die Einlegung von Rechtsbehelfen erteilt"
+    },
+    "address": {
+     "streetAddress": "Peterplatz 9",
+     "locality": "Würzburg",
+     "region": "DE263",
+     "postalCode": "97070",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Schulverband Mittelschule Marktheidenfeld",
+   "id": "DE132115350",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Schulverband Mittelschule Marktheidenfeld"
+   },
+   "address": {
+    "streetAddress": "Luitpoldstr. 17",
+    "locality": "Marktheidenfeld",
+    "region": "DE26A",
+    "postalCode": "97828",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "15d1c8ee-e53e-4fee-8803-4908c460a7d7",
+   "title": "Generalsanierung Mittelschule Marktheidenfeld - Parkettarbeiten BT A",
+   "description": "Der Schulverband der Mittelschule Marktheidenfeld führt aktuell  die Generalsanierung der Mittelschule Marktheidenfeld in 2 Bauabschnitten aus. Teil des 2. BA ist das Hauptgebäude BT A Schule.Dafür werden hier die Leistungen für die Bodenbelagsarbeiten als Parkettarbeiten  im BT A Schulgebäude ausgeschrieben.",
+   "procuringEntity": {
+    "name": "Schulverband Mittelschule Marktheidenfeld",
+    "id": "DE132115350"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45430000",
+      "description": "Floor and wall covering work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45432130",
+       "description": "Floor-covering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44112240",
+       "description": "Parquet"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432113",
+       "description": "Parquet flooring"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432114",
+       "description": "Wood flooring work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Am Maradies 7",
+      "locality": "Marktheidenfeld",
+      "region": "DE26A",
+      "postalCode": "97828",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331112",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Parkettarbeiten  BT A",
+     "description": "Der Schulverband der Mittelschule Marktheidenfeld führt aktuell  die Generalsanierung der Mittelschule Marktheidenfeld in 2 Bauabschnitten aus. Teil des 2. BA ist das Hauptgebäude BT A Schule.Dafür werden hier die Leistungen für die Bodenbelagsarbeiten als Parkettarbeiten im  BT.A ausgeschrieben.Grobmassen: - Untergrundvorbereitung schleifen und spachteln ca. 300 m²- 300 m2 Industrieparkett",
+     "contractPeriod": {
+      "startDate": "2027-01-21T00:00:00+01:00",
+      "endDate": "2027-07-02T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "2c9abe87-62d4-40b9-a725-03ff58f90a3e",
+  "version": "01",
+  "title": "Generalsanierung Mittelschule Marktheidenfeld - Parkettarbeiten BT A",
+  "description": "Der Schulverband der Mittelschule Marktheidenfeld führt aktuell  die Generalsanierung der Mittelschule Marktheidenfeld in 2 Bauabschnitten aus. Teil des 2. BA ist das Hauptgebäude BT A Schule.Dafür werden hier die Leistungen für die Bodenbelagsarbeiten als Parkettarbeiten  im BT A Schulgebäude ausgeschrieben.",
+  "procedureType": "open",
+  "nuts": [
+   "DE26A"
+  ],
+  "cpv": [
+   "45214200",
+   "45210000",
+   "44112200",
+   "45430000",
+   "44112240",
+   "45432113",
+   "45432130",
+   "45432114"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Parkettarbeiten  BT A",
+    "description": "Der Schulverband der Mittelschule Marktheidenfeld führt aktuell  die Generalsanierung der Mittelschule Marktheidenfeld in 2 Bauabschnitten aus. Teil des 2. BA ist das Hauptgebäude BT A Schule.Dafür werden hier die Leistungen für die Bodenbelagsarbeiten als Parkettarbeiten im  BT.A ausgeschrieben.Grobmassen: - Untergrundvorbereitung schleifen und spachteln ca. 300 m²- 300 m2 Industrieparkett",
+    "cpv": [
+     "45430000",
+     "45432130",
+     "44112240",
+     "45432113",
+     "45432114"
+    ],
+    "nuts": [
+     "DE26A"
+    ],
+    "deadline": "2026-11-16T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-21+01:00",
+    "plannedEnd": "2027-07-02+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331112 - - - - Befähigung zur Berufsausübung einschließlich Auflagen hinsichtlich der Eintragung in einem Berufs- oder HandelsregisterAuflistung und kurze Beschreibung der Bedingungen:Die Eignung ist durch Eintragung in die Liste des Vereins für Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oderEigenerklärungen gem. Formblatt 124 „Eigenerklärungen zur Eignung“ nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters indie engere Wahl, sind die im Formblatt „Eigenerklärung zur Eignung“ sowie in Formblatt 216 unter Pkt.3.2 angegebenen Bescheinigungen innerhalbvon 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, istdie jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt „Eigenerklärung zurEignung“ auch für diese anderen Unternehmen auf Verlangen vorzulegen.Das Formblatt 124 „Eigenerklärung zur Eignung“ liegt den Vergabeunterlagen bei bzw.  ist erhältlichbei: https://www.stmb.bayern.de/buw/bauthemen/vergabeundvertragswesen/bauauftraege/index.php"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331112 - - - - wirtschaftliche und finanzielle Leistungsfähigkeit, Eignungskriterien gemäß Vergabeunterlagen"
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331112 - - - - Technische und berufliche Leistungsfähigkeit, Eignungskriterien gemäß Vergabeunterlagen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist einziges Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "siehe Vergabeunterlagen Formblatt 211EU, 212 EU und 214.Hff"
+    }
+   }
+  ]
+ }
+}

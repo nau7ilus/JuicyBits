@@ -1,0 +1,223 @@
+{
+ "id": "47c5ea72-a573-4972-8aae-34e1edc87d69-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "47c5ea72-a573-4972-8aae-34e1edc87d69",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=47c5ea72-a573-4972-8aae-34e1edc87d69",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:47c5ea72-a573-4972-8aae-34e1edc87d69-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:47c5ea72-a573-4972-8aae-34e1edc87d69-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/47c5ea72-a573-4972-8aae-34e1edc87d69?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung von flüssigem Helium (2025)",
+  "buyer": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+  "cpv": [
+   "24111300",
+   "24110000"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-161c0498-9d09-4780-bce9-d9bdfe226dc2",
+  "id": "47c5ea72-a573-4972-8aae-34e1edc87d69",
+  "date": "2026-10-25T12:38:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811209280",
+     "legalName": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften"
+    },
+    "address": {
+     "streetAddress": "Walther-Meissner-Str. 8",
+     "locality": "Garching",
+     "region": "DE21H",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabestelle Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern - Vergabestelle Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabestelle Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern - Vergabestelle Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+   "id": "DE811209280",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften"
+   },
+   "address": {
+    "streetAddress": "Walther-Meissner-Str. 8",
+    "locality": "Garching",
+    "region": "DE21H",
+    "postalCode": "85748",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "161c0498-9d09-4780-bce9-d9bdfe226dc2",
+   "title": "Lieferung von flüssigem Helium (2025)",
+   "description": "Lieferung von flüssigem Helium für den Zeitraum 1.1.2025 - 31.12.2025 Detailangaben sind im Leistungsverzeichnis festgehalten",
+   "procuringEntity": {
+    "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+    "id": "DE811209280"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "24111300",
+      "description": "Helium"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "24110000",
+       "description": "Industrial gases"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Walther-Meissner-Str. 8",
+      "locality": "Garching",
+      "region": "DE21H",
+      "postalCode": "85748",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung von flüssigem Helium (2025)",
+     "description": "Lieferung von flüssigem Helium für den Zeitraum 1.1.2025 - 31.12.2025 Detailangaben sind im Leistungsverzeichnis festgehalten",
+     "contractPeriod": {
+      "startDate": "2025-01-01T00:00:00+01:00",
+      "endDate": "2025-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "pending",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "47c5ea72-a573-4972-8aae-34e1edc87d69",
+  "version": "01",
+  "title": "Lieferung von flüssigem Helium (2025)",
+  "description": "Lieferung von flüssigem Helium für den Zeitraum 1.1.2025 - 31.12.2025 Detailangaben sind im Leistungsverzeichnis festgehalten",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "24111300",
+   "24110000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung von flüssigem Helium (2025)",
+    "description": "Lieferung von flüssigem Helium für den Zeitraum 1.1.2025 - 31.12.2025 Detailangaben sind im Leistungsverzeichnis festgehalten",
+    "cpv": [
+     "24111300",
+     "24110000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-01-01+01:00",
+    "plannedEnd": "2025-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 10
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

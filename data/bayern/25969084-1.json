@@ -1,0 +1,135 @@
+{
+ "id": "25969084-1",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "25969084",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25969084",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:25969084-1.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:25969084-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25969084?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Busfahrten für diverse Nürnberger Schulen",
+  "buyer": "Stadt Nürnberg - Zentrale Dienste",
+  "cpv": [
+   "60172000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-29T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25969084",
+  "id": "25969084",
+  "date": "2026-10-24T07:00:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg - Zentrale Dienste",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Nürnberg - Zentrale Dienste"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg - Zentrale Dienste",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg - Zentrale Dienste"
+   }
+  },
+  "tender": {
+   "title": "Busfahrten für diverse Nürnberger Schulen",
+   "description": "Busfahrten für diverse Nürnberger Schulen nach den Herbstferien\n\nBusfahrten für diverse Nürnberger Schulen",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg - Zentrale Dienste"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60172000",
+      "description": "Hire of buses and coaches with driver"
+     },
+     "deliveryAddress": {
+      "locality": "90403 Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/c185d427-6361-48c2-b38a-468e52637662",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Busfahrten für diverse Nürnberger Schulen",
+     "description": "Busfahrten für diverse Nürnberger Schulen nach den Herbstferien\n\nBusfahrten für diverse Nürnberger Schulen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25969084",
+  "version": "1",
+  "title": "Busfahrten für diverse Nürnberger Schulen",
+  "description": "Busfahrten für diverse Nürnberger Schulen nach den Herbstferien\n\nBusfahrten für diverse Nürnberger Schulen",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "60172000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Busfahrten für diverse Nürnberger Schulen",
+    "description": "Busfahrten für diverse Nürnberger Schulen nach den Herbstferien\n\nBusfahrten für diverse Nürnberger Schulen",
+    "cpv": [
+     "60172000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-29T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "id": "25954664-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954664",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954664",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954664-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954664-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954664?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Schuhkomponenten für die Schuhmacherei der JVA Kaisheim",
+  "buyer": "Justizvollzugsanstalt Kaisheim",
+  "cpv": [
+   "18840000",
+   "18841000",
+   "18842000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954664",
+  "id": "25954664",
+  "date": "2026-10-21T07:01:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Justizvollzugsanstalt Kaisheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Justizvollzugsanstalt Kaisheim"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Justizvollzugsanstalt Kaisheim",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Justizvollzugsanstalt Kaisheim"
+   }
+  },
+  "tender": {
+   "title": "Schuhkomponenten für die Schuhmacherei der JVA Kaisheim",
+   "description": "Für die JVA Kaisheim werden Schuhkomponenten, bestehend aus Schuhschäften, Einlegesohlen und Laufsohlen. (je 5.000 Paar)\n\nSchuhkomponenten für die Schuhmacherei der JVA Kaisheim",
+   "procuringEntity": {
+    "name": "Justizvollzugsanstalt Kaisheim"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "18840000",
+      "description": "Parts of footwear"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "18841000",
+       "description": "Footwear uppers"
+      },
+      {
+       "scheme": "CPV",
+       "id": "18842000",
+       "description": "Soles"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "00000 Kaisheim",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schuhkomponenten für die Schuhmacherei der JVA Kaisheim",
+     "description": "Für die JVA Kaisheim werden Schuhkomponenten, bestehend aus Schuhschäften, Einlegesohlen und Laufsohlen. (je 5.000 Paar)\n\nSchuhkomponenten für die Schuhmacherei der JVA Kaisheim"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25954664",
+  "version": "1",
+  "title": "Schuhkomponenten für die Schuhmacherei der JVA Kaisheim",
+  "description": "Für die JVA Kaisheim werden Schuhkomponenten, bestehend aus Schuhschäften, Einlegesohlen und Laufsohlen. (je 5.000 Paar)\n\nSchuhkomponenten für die Schuhmacherei der JVA Kaisheim",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "18840000",
+   "18841000",
+   "18842000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schuhkomponenten für die Schuhmacherei der JVA Kaisheim",
+    "description": "Für die JVA Kaisheim werden Schuhkomponenten, bestehend aus Schuhschäften, Einlegesohlen und Laufsohlen. (je 5.000 Paar)\n\nSchuhkomponenten für die Schuhmacherei der JVA Kaisheim",
+    "cpv": [
+     "18840000",
+     "18841000",
+     "18842000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

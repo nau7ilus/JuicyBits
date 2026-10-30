@@ -175,6 +175,8 @@
   "noticeId": "8e9a7635-182b-4185-a15d-8c40a9896eab",
   "version": "01",
   "title": "SSW-IT Rahmenvereinbarung Handelspartner für Beitritt zum BMI-Konditionenvertrag MS EA",
+  "description": "Rahmenvereinbarung zur Bestimmung eines autorisierten Microsoft Handelspartners für den Beitritt zum BMI-Konditionenvertrag Microsoft Enterprise- Agreement Konzernvertrag und dem Select Plus-Vertrag.",
+  "procedureType": "open",
   "nuts": [
    "DE271",
    "DE242",
@@ -192,6 +194,7 @@
    {
     "id": "LOT-0000",
     "title": "SSW-IT Rahmenvereinbarung Handelspartner für Beitritt zum BMI-Konditionenvertrag MS EA",
+    "description": "Beschaffung von Microsoft Software und Online-Diensten über einen \"Konzernbeitritt (indirekt)\" über einen von Microsoft autorisierten \"Handelspartner (Licensing Solution Partner - LSP)\" auf Basis eines \"Konzernbeitritts (indirekt)\" zu den zwischen Microsoft und der Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Inneren, abgeschlossenen \"Microsoft Business- und Service-Vertrag MBSA-Nr. U5223585\" und \"Konzernvertrag EA 5249528\" (EA-Konzernvertrag). Dabei soll auch mit dem Beitritt die Zusatzvereinbarung (N73) über das optionale Verlängerungsjahr geschlossen werden. \n\nBeschaffung von Microsoft Software über einen von Microsoft autorisierten \"Handelspartner (Licensing Solution Partner - LSP)\" auf Basis einer Registrierung zu den zwischen Microsoft und der Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Inneren, abgeschlossenen \"Microsoft Business- und Service-Vertrag MBSA-Nr. U5223585\" und Select Plus Vertrag (Nr. 7492930). Da der aktuelle Select Plus Vertrag zum 31.05.2028 ausläuft, ist auch eine Registrierung zu einem direkten Nachfolgevertrag unter dieser Rahmenvereinbarung abzuschließen.",
     "cpv": [
      "72260000",
      "48620000"
@@ -208,6 +211,10 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -219,7 +226,16 @@
       "type": "slc-suit-reg-trade",
       "description": "Angaben zur Eintragung in das Handelsregister mit Angabe der Registernummer und des zuständigen Amtsgerichts"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

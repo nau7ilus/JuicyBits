@@ -1,0 +1,419 @@
+{
+ "id": "866b2125-7dfe-4ac8-9c3c-a37923342a25-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "866b2125-7dfe-4ac8-9c3c-a37923342a25",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=866b2125-7dfe-4ac8-9c3c-a37923342a25",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:866b2125-7dfe-4ac8-9c3c-a37923342a25-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:866b2125-7dfe-4ac8-9c3c-a37923342a25-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/866b2125-7dfe-4ac8-9c3c-a37923342a25?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf",
+  "buyer": "Landratsamt Schwandorf - kommunale Abfallwirtschaft",
+  "cpv": [
+   "90500000",
+   "90511200",
+   "90512000"
+  ],
+  "nuts": [
+   "DE239"
+  ],
+  "deadline": "2026-11-17T09:59:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f234e6db-0817-4003-ab92-6eef1adff6a8",
+  "id": "866b2125-7dfe-4ac8-9c3c-a37923342a25",
+  "date": "2026-10-16T02:06:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Schwandorf - kommunale Abfallwirtschaft",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09376000-00014-24",
+     "legalName": "Landratsamt Schwandorf - kommunale Abfallwirtschaft"
+    },
+    "address": {
+     "streetAddress": "Wackersdorfer Straße 80",
+     "locality": "Schwandorf",
+     "region": "DE239",
+     "postalCode": "92421",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811 335 517",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Schwandorf - kommunale Abfallwirtschaft",
+   "id": "09376000-00014-24",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Schwandorf - kommunale Abfallwirtschaft"
+   },
+   "address": {
+    "streetAddress": "Wackersdorfer Straße 80",
+    "locality": "Schwandorf",
+    "region": "DE239",
+    "postalCode": "92421",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f234e6db-0817-4003-ab92-6eef1adff6a8",
+   "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf",
+   "description": "Der Landkreis Schwandorf beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe, erforderlichen Leistungen zur Sammlung, zum Transport und zur Übergabe von Restabfall, ab dem 01.01.2028 für zunächst drei (3) Jahre bis zum 31.12.2030 neu zu vergeben. Das Vertragsgebiet ist in drei (3) Gebietslose aufgeteilt.Die Abfuhr des Restabfalls erfolgt im Regelfall 14-tägig.",
+   "procuringEntity": {
+    "name": "Landratsamt Schwandorf - kommunale Abfallwirtschaft",
+    "id": "09376000-00014-24"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90511200",
+       "description": "Household-refuse collection services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90512000",
+       "description": "Refuse transport services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Landkreis Schwandorf"
+     },
+     "deliveryAddress": {
+      "region": "DE239",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90511200",
+       "description": "Household-refuse collection services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90512000",
+       "description": "Refuse transport services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Landkreis Schwandorf"
+     },
+     "deliveryAddress": {
+      "region": "DE239",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90511200",
+       "description": "Household-refuse collection services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90512000",
+       "description": "Refuse transport services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Landkreis Schwandorf"
+     },
+     "deliveryAddress": {
+      "region": "DE239",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331060",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331060",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331060",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf - Gebietslos 1",
+     "description": "Der Landkreis Schwandorf beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe, erforderlichen Leistungen zur Sammlung, zum Transport und zur Übergabe von Restabfall, ab dem 01.01.2028 für zunächst drei (3) Jahre bis zum 31.12.2030 neu zu vergeben.Das Vertragsgebiet ist in drei (3) Gebietslose aufgeteilt.Die Abfuhr des Restabfalls erfolgt im Regelfall 14-tägig.Gegenstand dieser Ausschreibung sind somit folgende Leistungen:• Sammlung und Transport von Restabfall im HolsystemLeerung der 60 l-MGB (14-tägige Abfuhr) - Prognose- 185.000 Leerungen/aLeerung der 80 l-MGB (14-tägige Abfuhr) - Prognose- 45.000 Leerungen/aLeerung der 120 l-MGB (14-tägige Abfuhr) - Prognose- 61.000 Leerungen/aLeerung der 240 l-MGB (14-tägige Abfuhr) - Prognose- 15.000 Leerungen/aLeerung der 770 l-MGB (14-tägige Abfuhr) - Prognose- 1.800 Leerungen/aLeerung der 1.100 l-MGB (14-tägige Abfuhr) - Prognose- 3.000 Leerungen/aEinsammlung von Müllsäcken (14-tägige Abfuhr) - Prognose- 15.000 Abholungen/a• Übergabe des übernommenen Restabfalls an den dafür vorgesehenen Verwertungseinrichtungen• Vorhalten eines Betriebshofs bzw. einer Niederlassung innerhalb der Landkreisgrenzen.Die angegebenen Mengen können sich in den Folgejahren ändern. Es wird darauf hingewiesen, dass die angegebenen Mengen unverbindlich sind, hieraus keine Umsatzgarantie abgeleitet werden kann und Änderungen in den Mengen zu keinen Veränderungen der Angebotspreise führen. Die Gestellung der Sammelbehälter und der Behälteränderungsdienst sind NICHT Teil der zu erbringenden Leistung.Die Ausschreibung erfolgt gemäß den Bestimmungen der Vergabeverordnung (VgV) und des Gesetzes gegen Wettbewerbsbeschränkungen (GWB).",
+     "contractPeriod": {
+      "startDate": "2028-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "oth-serv-contr",
+       "description": "Other service contract"
+      }
+     ]
+    },
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0002",
+     "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf - Gebietslos 2",
+     "description": "Der Landkreis Schwandorf beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe, erforderlichen Leistungen zur Sammlung, zum Transport und zur Übergabe von Restabfall, ab dem 01.01.2028 für zunächst drei (3) Jahre bis zum 31.12.2030 neu zu vergeben.Das Vertragsgebiet ist in drei (3) Gebietslose aufgeteilt.Die Abfuhr des Restabfalls erfolgt im Regelfall 14-tägig.Gegenstand dieser Ausschreibung sind somit folgende Leistungen:• Sammlung und Transport von Restabfall im Holsystem- Leerung der 60 l-MGB (14-tägige Abfuhr) - Prognose106.000 Leerungen/a- Leerung der 80 l-MGB (14-tägige Abfuhr) - Prognose23.000 Leerungen/a- Leerung der 120 l-MGB (14-tägige Abfuhr) -652294-2026 Page 5/11Prognose30.000 Leerungen/a- Leerung der 240 l-MGB (14-tägige Abfuhr) - Prognose3.700Leerungen/a- Leerung der 770 l-MGB (14-tägige Abfuhr) - Prognose200 Leerungen/a-Leerung der 1.100 l-MGB (14-tägige Abfuhr) - Prognose1.400 Leerungen/a- Einsammlung vonMüllsäcken (14-tägige Abfuhr) - Prognose9.000 Abholungen /a• Übergabe desübernommenen Restabfalls an den dafür vorgesehenen Verwertungseinrichtungen• Vorhalteneines Betriebshofs bzw. einer Niederlassung innerhalb der Landkreisgrenzen. Dieangegebenen Mengen können sich in den Folgejahren ändern. Es wird darauf hingewiesen,dass die angegebenen Mengen unverbindlich sind, hieraus keine Umsatzgarantie abgeleitetwerden kann und Änderungen in den Mengen zu keinen Veränderungen der Angebotspreiseführen. Die Gestellung der Sammelbehälter und der Behälteränderungsdienst sind NICHT Teilder zu erbringenden Leistung.Die Ausschreibung erfolgt gemäß den Bestimmungen derVergabeverordnung (VgV) und des Gesetzes gegen Wettbewerbsbeschränkungen (GWB).",
+     "contractPeriod": {
+      "startDate": "2028-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "oth-serv-contr",
+       "description": "Other service contract"
+      }
+     ]
+    },
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0003",
+     "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf - Gebietslos 3",
+     "description": "Der Landkreis Schwandorf beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe, erforderlichen Leistungen zur Sammlung, zum Transport und zur Übergabe von Restabfall, ab dem 01.01.2028 für zunächst drei (3) Jahre bis zum 31.12.2030 neu zu vergeben.Das Vertragsgebiet ist in drei (3) Gebietslose aufgeteilt.Die Abfuhr des Restabfalls erfolgt im Regelfall 14-tägig.Gegenstand dieser Ausschreibung sind somit folgende Leistungen:• Sammlung und Transport von Restabfall im Holsystem- Leerung der 60 l-MGB (14-tägige Abfuhr) - Prognose130.000 Leerungen/a- Leerung der 80 l-MGB (14-tägige Abfuhr) - Prognose38.000 Leerungen/a- Leerung der 120 l-MGB (14-tägige Abfuhr) - Prognose49.000 Leerungen/a- Leerung der 240 l-MGB (14-tägige Abfuhr) - Prognose7.900 Leerungen/a- Leerung der 770 l-MGB (14-tägige Abfuhr) - Prognose750 Leerungen/a- Leerung der 1.100 l-MGB (14-tägige Abfuhr) - Prognose1.900 Leerungen/a- Einsammlung von Müllsäcken (14-tägige Abfuhr) - Prognose13.000 Abholungen /a• Übergabe des übernommenen Restabfalls an den dafür vorgesehenen Verwertungseinrichtungen• Vorhalten eines Betriebshofs bzw. einer Niederlassung innerhalb der Landkreisgrenzen.Die angegebenen Mengen können sich in den Folgejahren ändern. Es wird darauf hingewiesen, dass die angegebenen Mengen unverbindlich sind, hieraus keine Umsatzgarantie abgeleitet werden kann und Änderungen in den Mengen zu keinen Veränderungen der Angebotspreise führen. Die Gestellung der Sammelbehälter und der Behälteränderungsdienst sind NICHT Teil der zu erbringenden Leistung.Die Ausschreibung erfolgt gemäß den Bestimmungen der Vergabeverordnung (VgV) und des Gesetzes gegen Wettbewerbsbeschränkungen (GWB).",
+     "contractPeriod": {
+      "startDate": "2028-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "oth-serv-contr",
+       "description": "Other service contract"
+      }
+     ]
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "866b2125-7dfe-4ac8-9c3c-a37923342a25",
+  "version": "01",
+  "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf",
+  "description": "Der Landkreis Schwandorf beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe, erforderlichen Leistungen zur Sammlung, zum Transport und zur Übergabe von Restabfall, ab dem 01.01.2028 für zunächst drei (3) Jahre bis zum 31.12.2030 neu zu vergeben. Das Vertragsgebiet ist in drei (3) Gebietslose aufgeteilt.Die Abfuhr des Restabfalls erfolgt im Regelfall 14-tägig.",
+  "procedureType": "open",
+  "nuts": [
+   "DE239"
+  ],
+  "cpv": [
+   "90500000",
+   "90511200",
+   "90512000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf - Gebietslos 1",
+    "description": "Der Landkreis Schwandorf beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe, erforderlichen Leistungen zur Sammlung, zum Transport und zur Übergabe von Restabfall, ab dem 01.01.2028 für zunächst drei (3) Jahre bis zum 31.12.2030 neu zu vergeben.Das Vertragsgebiet ist in drei (3) Gebietslose aufgeteilt.Die Abfuhr des Restabfalls erfolgt im Regelfall 14-tägig.Gegenstand dieser Ausschreibung sind somit folgende Leistungen:• Sammlung und Transport von Restabfall im HolsystemLeerung der 60 l-MGB (14-tägige Abfuhr) - Prognose- 185.000 Leerungen/aLeerung der 80 l-MGB (14-tägige Abfuhr) - Prognose- 45.000 Leerungen/aLeerung der 120 l-MGB (14-tägige Abfuhr) - Prognose- 61.000 Leerungen/aLeerung der 240 l-MGB (14-tägige Abfuhr) - Prognose- 15.000 Leerungen/aLeerung der 770 l-MGB (14-tägige Abfuhr) - Prognose- 1.800 Leerungen/aLeerung der 1.100 l-MGB (14-tägige Abfuhr) - Prognose- 3.000 Leerungen/aEinsammlung von Müllsäcken (14-tägige Abfuhr) - Prognose- 15.000 Abholungen/a• Übergabe des übernommenen Restabfalls an den dafür vorgesehenen Verwertungseinrichtungen• Vorhalten eines Betriebshofs bzw. einer Niederlassung innerhalb der Landkreisgrenzen.Die angegebenen Mengen können sich in den Folgejahren ändern. Es wird darauf hingewiesen, dass die angegebenen Mengen unverbindlich sind, hieraus keine Umsatzgarantie abgeleitet werden kann und Änderungen in den Mengen zu keinen Veränderungen der Angebotspreise führen. Die Gestellung der Sammelbehälter und der Behälteränderungsdienst sind NICHT Teil der zu erbringenden Leistung.Die Ausschreibung erfolgt gemäß den Bestimmungen der Vergabeverordnung (VgV) und des Gesetzes gegen Wettbewerbsbeschränkungen (GWB).",
+    "cpv": [
+     "90500000",
+     "90511200",
+     "90512000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": "2026-11-17T09:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Angebotspreis",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Fahrzeugeinsatz",
+      "weight": 10
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf - Gebietslos 2",
+    "description": "Der Landkreis Schwandorf beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe, erforderlichen Leistungen zur Sammlung, zum Transport und zur Übergabe von Restabfall, ab dem 01.01.2028 für zunächst drei (3) Jahre bis zum 31.12.2030 neu zu vergeben.Das Vertragsgebiet ist in drei (3) Gebietslose aufgeteilt.Die Abfuhr des Restabfalls erfolgt im Regelfall 14-tägig.Gegenstand dieser Ausschreibung sind somit folgende Leistungen:• Sammlung und Transport von Restabfall im Holsystem- Leerung der 60 l-MGB (14-tägige Abfuhr) - Prognose106.000 Leerungen/a- Leerung der 80 l-MGB (14-tägige Abfuhr) - Prognose23.000 Leerungen/a- Leerung der 120 l-MGB (14-tägige Abfuhr) -652294-2026 Page 5/11Prognose30.000 Leerungen/a- Leerung der 240 l-MGB (14-tägige Abfuhr) - Prognose3.700Leerungen/a- Leerung der 770 l-MGB (14-tägige Abfuhr) - Prognose200 Leerungen/a-Leerung der 1.100 l-MGB (14-tägige Abfuhr) - Prognose1.400 Leerungen/a- Einsammlung vonMüllsäcken (14-tägige Abfuhr) - Prognose9.000 Abholungen /a• Übergabe desübernommenen Restabfalls an den dafür vorgesehenen Verwertungseinrichtungen• Vorhalteneines Betriebshofs bzw. einer Niederlassung innerhalb der Landkreisgrenzen. Dieangegebenen Mengen können sich in den Folgejahren ändern. Es wird darauf hingewiesen,dass die angegebenen Mengen unverbindlich sind, hieraus keine Umsatzgarantie abgeleitetwerden kann und Änderungen in den Mengen zu keinen Veränderungen der Angebotspreiseführen. Die Gestellung der Sammelbehälter und der Behälteränderungsdienst sind NICHT Teilder zu erbringenden Leistung.Die Ausschreibung erfolgt gemäß den Bestimmungen derVergabeverordnung (VgV) und des Gesetzes gegen Wettbewerbsbeschränkungen (GWB).",
+    "cpv": [
+     "90500000",
+     "90511200",
+     "90512000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": "2026-11-17T09:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Angebotspreis",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Fahrzeugeinsatz",
+      "weight": 10
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Sammlung, Transport und Übergabe von Restmüll aus dem Landkreis Schwandorf - Gebietslos 3",
+    "description": "Der Landkreis Schwandorf beabsichtigt in Erfüllung seiner gesetzlichen Entsorgungsaufgabe, erforderlichen Leistungen zur Sammlung, zum Transport und zur Übergabe von Restabfall, ab dem 01.01.2028 für zunächst drei (3) Jahre bis zum 31.12.2030 neu zu vergeben.Das Vertragsgebiet ist in drei (3) Gebietslose aufgeteilt.Die Abfuhr des Restabfalls erfolgt im Regelfall 14-tägig.Gegenstand dieser Ausschreibung sind somit folgende Leistungen:• Sammlung und Transport von Restabfall im Holsystem- Leerung der 60 l-MGB (14-tägige Abfuhr) - Prognose130.000 Leerungen/a- Leerung der 80 l-MGB (14-tägige Abfuhr) - Prognose38.000 Leerungen/a- Leerung der 120 l-MGB (14-tägige Abfuhr) - Prognose49.000 Leerungen/a- Leerung der 240 l-MGB (14-tägige Abfuhr) - Prognose7.900 Leerungen/a- Leerung der 770 l-MGB (14-tägige Abfuhr) - Prognose750 Leerungen/a- Leerung der 1.100 l-MGB (14-tägige Abfuhr) - Prognose1.900 Leerungen/a- Einsammlung von Müllsäcken (14-tägige Abfuhr) - Prognose13.000 Abholungen /a• Übergabe des übernommenen Restabfalls an den dafür vorgesehenen Verwertungseinrichtungen• Vorhalten eines Betriebshofs bzw. einer Niederlassung innerhalb der Landkreisgrenzen.Die angegebenen Mengen können sich in den Folgejahren ändern. Es wird darauf hingewiesen, dass die angegebenen Mengen unverbindlich sind, hieraus keine Umsatzgarantie abgeleitet werden kann und Änderungen in den Mengen zu keinen Veränderungen der Angebotspreise führen. Die Gestellung der Sammelbehälter und der Behälteränderungsdienst sind NICHT Teil der zu erbringenden Leistung.Die Ausschreibung erfolgt gemäß den Bestimmungen der Vergabeverordnung (VgV) und des Gesetzes gegen Wettbewerbsbeschränkungen (GWB).",
+    "cpv": [
+     "90500000",
+     "90511200",
+     "90512000"
+    ],
+    "nuts": [
+     "DE239"
+    ],
+    "deadline": "2026-11-17T09:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Angebotspreis",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Fahrzeugeinsatz",
+      "weight": 10
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": null
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "id": "25956428-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25956428",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25956428",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25956428-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25956428-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25956428?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "BOS-Gebäudefunkanlage 73-00732-2800-456",
+  "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+  "cpv": [
+   "45314000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-26T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25956428",
+  "id": "25956428",
+  "date": "2026-10-22T07:00:44Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau"
+   }
+  },
+  "tender": {
+   "title": "BOS-Gebäudefunkanlage 73-00732-2800-456",
+   "description": "BOS-Gebäudefunkanlage 73-00732-2800-456\n\nBOS Funkanlage, Funk, Fernmelde CPV 45311200, CPV 32344250",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45314000",
+      "description": "Installation of telecommunications equipment"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-1a15dfeb0f8-3c124129ba2bf628&PublicationType=0",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "BOS-Gebäudefunkanlage 73-00732-2800-456",
+     "description": "BOS-Gebäudefunkanlage 73-00732-2800-456\n\nBOS Funkanlage, Funk, Fernmelde CPV 45311200, CPV 32344250"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25956428",
+  "version": "1",
+  "title": "BOS-Gebäudefunkanlage 73-00732-2800-456",
+  "description": "BOS-Gebäudefunkanlage 73-00732-2800-456\n\nBOS Funkanlage, Funk, Fernmelde CPV 45311200, CPV 32344250",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45314000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "BOS-Gebäudefunkanlage 73-00732-2800-456",
+    "description": "BOS-Gebäudefunkanlage 73-00732-2800-456\n\nBOS Funkanlage, Funk, Fernmelde CPV 45311200, CPV 32344250",
+    "cpv": [
+     "45314000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

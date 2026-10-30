@@ -1,0 +1,230 @@
+{
+ "id": "6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Neubau Rathaus in Ruhstorf a. d. Rott - Objektplanungsleistungen",
+  "buyer": "BayernGrund GmbH",
+  "cpv": [
+   "71200000",
+   "71240000",
+   "71250000",
+   "71251000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE228"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7",
+  "id": "6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7",
+  "date": "2026-10-27T03:10:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "BayernGrund GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10961",
+     "legalName": "BayernGrund GmbH"
+    },
+    "address": {
+     "streetAddress": "Giesinger Bahnhofplatz 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - nicht zuständig, weil BayernGrund ein privater AG ist. Eingabe aus technischen Gründen notwendig",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "7096fe07-aa86-40c4-a325-9b733c4c94c1",
+     "legalName": "Regierung von Oberbayern - nicht zuständig, weil BayernGrund ein privater AG ist. Eingabe aus technischen Gründen notwendig"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "BayernGrund GmbH",
+   "id": "10961",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "BayernGrund GmbH"
+   },
+   "address": {
+    "streetAddress": "Giesinger Bahnhofplatz 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81539",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7",
+   "title": "Neubau Rathaus in Ruhstorf a. d. Rott - Objektplanungsleistungen",
+   "description": "Objektplanungsleistungen nach § 34 HOAI, Leistungsphasen 5-9",
+   "procuringEntity": {
+    "name": "BayernGrund GmbH",
+    "id": "10961"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "deliveryAddress": {
+      "region": "DE228",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Rathaus in Ruhstorf a. d. Rott - Objektplanungsleistungen",
+     "description": "Vertragsgegenstand \nNeubau des Rathauses des Marktes Ruhstorf a.d. Rott auf dem Grundstück „Am Schulplatz 2“, Fl.-Nr. 26/2, Gemarkung Ruhstorf a.d. Rott (1.815 m², MI-Gebiet, erschlossen, faktisches Über-schwemmungsgebiet Kleeberger Bach, kein Bebauungsplan).\n\nGebäudekonzept\n•\tEG, OG und DG; EG in hochwasserangepasster Bauweise, OG/DG als Holzbau\n•\tUmgriff: Verkehrsflächen (Zufahrten, Stellplätze)\n•\tBaukosten gem. Kostenberechnung: ca. 5,2 Mio. € brutto (KG 200 – 600)\n\nLeistungsumfang\n•\tBereits erbracht: Objektplanung Gebäude und Innenräume, HOAI-LP 1–4 (abgeschlossen)\n•\tNoch zu erbringen: Objektplanung Gebäude und Innenräume, HOAI-LP 5–9 (Ausführungs-planung, Vorbereitung/Vergabe, Objektüberwachung)\n•\tBaugenehmigung liegt vor (Bescheid LRA Passau vom 02.09.2025, bestandskräftig)\n\nBesondere Bedingungen\n•\tBauen im Überschwemmungsgebiet (Kleeberger Bach) – Abstimmung mit wasserrechtli-cher Genehmigung erforderlich\n•\tKeine staatlichen Fördermittel (Bayern/BRD/EU); KfW-Förderung optional/noch ungeprüft",
+     "contractPeriod": {
+      "startDate": "2027-01-15T00:00:00+01:00",
+      "endDate": "2028-10-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6d0c63e3-2f2e-41af-a91a-1e87ceaa6ca7",
+  "version": "01",
+  "title": "Neubau Rathaus in Ruhstorf a. d. Rott - Objektplanungsleistungen",
+  "description": "Objektplanungsleistungen nach § 34 HOAI, Leistungsphasen 5-9",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE228"
+  ],
+  "cpv": [
+   "71240000",
+   "71200000",
+   "71250000",
+   "71251000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Rathaus in Ruhstorf a. d. Rott - Objektplanungsleistungen",
+    "description": "Vertragsgegenstand \nNeubau des Rathauses des Marktes Ruhstorf a.d. Rott auf dem Grundstück „Am Schulplatz 2“, Fl.-Nr. 26/2, Gemarkung Ruhstorf a.d. Rott (1.815 m², MI-Gebiet, erschlossen, faktisches Über-schwemmungsgebiet Kleeberger Bach, kein Bebauungsplan).\n\nGebäudekonzept\n•\tEG, OG und DG; EG in hochwasserangepasster Bauweise, OG/DG als Holzbau\n•\tUmgriff: Verkehrsflächen (Zufahrten, Stellplätze)\n•\tBaukosten gem. Kostenberechnung: ca. 5,2 Mio. € brutto (KG 200 – 600)\n\nLeistungsumfang\n•\tBereits erbracht: Objektplanung Gebäude und Innenräume, HOAI-LP 1–4 (abgeschlossen)\n•\tNoch zu erbringen: Objektplanung Gebäude und Innenräume, HOAI-LP 5–9 (Ausführungs-planung, Vorbereitung/Vergabe, Objektüberwachung)\n•\tBaugenehmigung liegt vor (Bescheid LRA Passau vom 02.09.2025, bestandskräftig)\n\nBesondere Bedingungen\n•\tBauen im Überschwemmungsgebiet (Kleeberger Bach) – Abstimmung mit wasserrechtli-cher Genehmigung erforderlich\n•\tKeine staatlichen Fördermittel (Bayern/BRD/EU); KfW-Förderung optional/noch ungeprüft",
+    "cpv": [
+     "71200000"
+    ],
+    "nuts": [
+     "DE228"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-26T08:00:00+01:00",
+    "plannedStart": "2027-01-15+01:00",
+    "plannedEnd": "2028-10-01+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Eigenerklärung über den durchschnittlichen Gesamtjahresumsatz der letzten drei Geschäftsjahre (2023, 2024, 2025) für die Durchführung von Hochbaumaßnahmen gemäß § 45 Abs. 4 Nr. 4 VgV.\n\nDurchschnittlicher Jahresumsatz der letzten 3 Geschäftsjahre\n•\tunter EUR 0,25 Mio. mit 0 Punkten,\n•\tab EUR 0,25 Mio. bis einschließlich EUR 0,35 Mio. mit 5 Punkten,\n•\tab EUR 0,35 Mio. bis einschließlich EUR 0,45 Mio. mit 10 Punkten,\n•\tab EUR 0,45 Mio. bis einschließlich EUR 0,55 Mio. mit 15 Punkten, \n•\tab EUR 0,55 Mio. mit 20 Punkten"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Eigenerklärung über die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Geschäftsjahren (2023, 2024, 2025).\n\nDurchschnittliche Beschäftigtenzahl der letzten 3 Geschäftsjahre\n•\tunter 1 Mitarbeiter mit 0 Punkten,\n•\tab 1 Mitarbeiter bis unter 2 Mitarbeiter mit 5 Punkten,\n•\tab 2 Mitarbeiter bis unter 3 Mitarbeiter mit 10 Punkten,\n•\tab 3 Mitarbeiter bis unter 4 Mitarbeiter mit 15 Punkten,\n•\tab 4 Mitarbeitern mit 20 Punkten"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung über geeignete Referenzen über früher ausgeführte Dienstleistungsaufträge in Form einer Liste der in den letzten höchstens fünf Jahren erbrachten wesentlichen Dienstleistungen. Anzahl der auszuwertenden Referenzen: 3\n\nMindestanforderungen je Referenz\nEine Referenz wird nur gewertet, wenn beide folgenden Bedingungen erfüllt sind:\n•\tAbschluss der Leistungsphasen 5–8 (nach HOAI) und\n•\tFertigstellung der Maßnahme nach dem 01.01.2021\n\nBewertungskriterien und Punktvergabe\nJede Referenz wird nach den folgenden Kriterien bewertet. Jedes erfüllte Kriterium wird mit 4 Punkten je Referenz bewertet. Die Nichterfüllung des Kriteriums wird mit 0 Punkten bewertet. Jedes Kriterium kann entweder voll oder nicht erfüllt werden.  \n\n•\tDurchführung einer Neubaumaßnahme;\n•\tDurchführung einer Maßnahme mit vergleichbarer Nutzungsart (Verwaltungsgebäude)\n•\tDurchführung einer Maßnahme für einen öffentlichen Auftraggeber (i. S. d. § 98 GWB);\n•\tBaukosten von mind. EUR 3 Mio. (netto) in den Kostengruppen 300+400 DIN 276;\n•\tLeistungsphasen 5-9 gem. § 34 HOAI erbracht und abgeschlossen\n\nMaximalpunkte pro Referenz: 20 Punkte (5 Kriterien × 4 Punkte).\nMaximalpunkte insgesamt: 60 Punkte (3 Referenzen × 20 Punkte)."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Besondere Herausforderung in diesem Projekt",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Herangehensweise und Organisation intern und extern, Software und technische Ausstattung",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Qualität des eingesetzten Personals",
+      "weight": 20
+     },
+     {
+      "type": "cost",
+      "name": "Kostenkriterium",
+      "description": "Durchschnittlicher Stundensatz gebildet aus Büroinhaber/ Projektleiter, fachliches Personal und Sonstige Mitarbeiter",
+      "weight": 5
+     },
+     {
+      "type": "cost",
+      "name": "Kostenkriterium",
+      "description": "Gesamthonorar nach Angebotsblatt",
+      "weight": 25
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

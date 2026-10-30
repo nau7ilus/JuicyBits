@@ -1,0 +1,274 @@
+{
+ "id": "bccc8e9f-f739-4327-8c54-a03c648f66d2-02",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "bccc8e9f-f739-4327-8c54-a03c648f66d2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bccc8e9f-f739-4327-8c54-a03c648f66d2",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:bccc8e9f-f739-4327-8c54-a03c648f66d2-02.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:bccc8e9f-f739-4327-8c54-a03c648f66d2-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bccc8e9f-f739-4327-8c54-a03c648f66d2?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Gemeinde Grafrath - Sanierung Bürgerstadl",
+  "buyer": "Gemeinde Grafrath",
+  "cpv": [
+   "71200000"
+  ],
+  "nuts": [
+   "DE21C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1d578b3e-7df7-4ea7-8adf-58b74bf52750",
+  "id": "bccc8e9f-f739-4327-8c54-a03c648f66d2",
+  "date": "2026-10-21T02:09:16Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Grafrath",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "13943",
+     "legalName": "Gemeinde Grafrath"
+    },
+    "address": {
+     "streetAddress": "Hauptstraße 64",
+     "locality": "Grafrath",
+     "region": "DE21C",
+     "postalCode": "82284",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "cac62622-0d04-4962-93b8-03850343ec5d",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Reitberger & Schilk GBR",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE18543366",
+     "legalName": "Reitberger & Schilk GBR"
+    },
+    "address": {
+     "locality": "Fürstenfeldbruck",
+     "region": "DE21C",
+     "postalCode": "82256",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Grafrath",
+   "id": "13943",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Grafrath"
+   },
+   "address": {
+    "streetAddress": "Hauptstraße 64",
+    "locality": "Grafrath",
+    "region": "DE21C",
+    "postalCode": "82284",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1d578b3e-7df7-4ea7-8adf-58b74bf52750",
+   "title": "Gemeinde Grafrath - Sanierung Bürgerstadl",
+   "description": "Leistungen der Objektplanung Gebäude und Innenräume, Leistungsphasen 1-9 (bei stufenweiser Beauftragung) gem. §33 HOAI",
+   "procuringEntity": {
+    "name": "Gemeinde Grafrath",
+    "id": "13943"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "deliveryAddress": {
+      "region": "DE21C",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Reitberger & Schilk GBR",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Reitberger & Schilk GBR"
+     },
+     "address": {
+      "locality": "Fürstenfeldbruck",
+      "region": "DE21C",
+      "postalCode": "82256",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Gemeinde Grafrath - Sanierung Bürgerstadl",
+     "description": "Die Gemeinde Grafrath plant die Sanierung des sogenannten \"Bürgerstadls\". Das aus dem Jahr 1986 stammende Gebäude in der Mauerner Straße in 82284 Grafrath (Flur-Nr. 146) wird für verschiedene u.a. sportliche und kulturelle Veranstaltungen genutzt. Der Lauf der Zeit erfordert neben der Erneuerung der Oberflächen, der Technik auch die Beseitigung vorhandener Schäden und eine Verbesserung der thermischen Hülle. \nDie Maßnahme wird bauabschnittsweise umgesetzt, in Abhängigkeit der Finanzierung durch die Gemeinde und möglicher Fördermittelgeber.  \nDie Leistung der Objektplanung Gebäude und Innenräume gem. §33 HAOI wird  über die Leistungsphasen 1-9 erforderlich, wobei die Leistung stufenweise vergeben wird.\nEin Anspruch auf vollständigen Abruf besteht nicht.\n\nTermine:\nDie Leistung ist nach Beauftragung binnen 12 Tagen aufzunehmen.\nDie Realisierung ist in mehreren Bauabschnitten geplant (aktuell bis 2031).\n\nGrobkosten:\nKG300+400+700: 2.430.000 EUR"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 304205.8,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "bccc8e9f-f739-4327-8c54-a03c648f66d2",
+  "version": "02",
+  "title": "Gemeinde Grafrath - Sanierung Bürgerstadl",
+  "description": "Leistungen der Objektplanung Gebäude und Innenräume, Leistungsphasen 1-9 (bei stufenweiser Beauftragung) gem. §33 HOAI",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21C"
+  ],
+  "cpv": [
+   "71200000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Gemeinde Grafrath - Sanierung Bürgerstadl",
+    "description": "Die Gemeinde Grafrath plant die Sanierung des sogenannten \"Bürgerstadls\". Das aus dem Jahr 1986 stammende Gebäude in der Mauerner Straße in 82284 Grafrath (Flur-Nr. 146) wird für verschiedene u.a. sportliche und kulturelle Veranstaltungen genutzt. Der Lauf der Zeit erfordert neben der Erneuerung der Oberflächen, der Technik auch die Beseitigung vorhandener Schäden und eine Verbesserung der thermischen Hülle. \nDie Maßnahme wird bauabschnittsweise umgesetzt, in Abhängigkeit der Finanzierung durch die Gemeinde und möglicher Fördermittelgeber.  \nDie Leistung der Objektplanung Gebäude und Innenräume gem. §33 HAOI wird  über die Leistungsphasen 1-9 erforderlich, wobei die Leistung stufenweise vergeben wird.\nEin Anspruch auf vollständigen Abruf besteht nicht.\n\nTermine:\nDie Leistung ist nach Beauftragung binnen 12 Tagen aufzunehmen.\nDie Realisierung ist in mehreren Bauabschnitten geplant (aktuell bis 2031).\n\nGrobkosten:\nKG300+400+700: 2.430.000 EUR",
+    "cpv": [
+     "71200000"
+    ],
+    "nuts": [
+     "DE21C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "1. Qualifikation und Erfahrung Projektmitarbeiter:\n1.1 Zusammensetzung des Projektteams einschließlich Berufsabschluss und Entscheidungsbefugnis",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "1. Qualifikation und Erfahrung Projektmitarbeiter:\n1.2 Praktische Erfahrung bei der Durchführung von vergleichbaren Baumaßnahmen",
+      "weight": 15
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "2. Projekteinschätzung / -analyse:\n2.1 Besonderheiten und Schwierigkeiten der Maßnahme",
+      "weight": 15
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "2. Projekteinschätzung / -analyse:\n2.2 Herangehensweise für die Entwicklung einer wirtschaftlichen Lösung",
+      "weight": 15
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "3. Darstellung einzelner Aspekte der Realisierung:\n3.1 Konzept zur Qualitätssicherung und Koordination in der Planung und Ausführung",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "3. Darstellung einzelner Aspekte der Realisierung:\n3.2 Konzept zur Kostenplanung und -sicherung",
+      "weight": 10
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "3. Darstellung einzelner Aspekte der Realisierung:\n3.3 Konzept zur Terminplanung und -sicherung",
+      "weight": 10
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Honorar",
+      "weight": 20
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

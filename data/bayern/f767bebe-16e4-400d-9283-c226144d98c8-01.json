@@ -1,0 +1,274 @@
+{
+ "id": "f767bebe-16e4-400d-9283-c226144d98c8-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "f767bebe-16e4-400d-9283-c226144d98c8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f767bebe-16e4-400d-9283-c226144d98c8",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:f767bebe-16e4-400d-9283-c226144d98c8-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:f767bebe-16e4-400d-9283-c226144d98c8-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f767bebe-16e4-400d-9283-c226144d98c8?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "STAW50 - Neubau Feuerwehrhaus Gilching - 390 - Innenausbau",
+  "buyer": "Gemeinde Gilching",
+  "cpv": [
+   "45216121",
+   "45421141",
+   "45324000",
+   "45421152",
+   "44112310"
+  ],
+  "nuts": [
+   "DE21L"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-94ace07e-c596-447f-9bcf-2496674a5187",
+  "id": "f767bebe-16e4-400d-9283-c226144d98c8",
+  "date": "2026-10-23T02:08:38Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Gilching",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-188121-77",
+     "legalName": "Gemeinde Gilching"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Gilching",
+     "region": "DE21L",
+     "postalCode": "82205",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stelzig GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE128233985",
+     "legalName": "Stelzig GmbH"
+    },
+    "address": {
+     "streetAddress": "Von-Linde-Straße 2",
+     "locality": "Gilching",
+     "region": "DE21L",
+     "postalCode": "82205",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Gilching",
+   "id": "09-188121-77",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Gilching"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Gilching",
+    "region": "DE21L",
+    "postalCode": "82205",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "94ace07e-c596-447f-9bcf-2496674a5187",
+   "title": "STAW50 - Neubau Feuerwehrhaus Gilching - 390 - Innenausbau",
+   "description": "Innenausbau für den Neubau Feuerwehrhaus Gilching",
+   "procuringEntity": {
+    "name": "Gemeinde Gilching",
+    "id": "09-188121-77"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45216121",
+      "description": "Fire station construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421141",
+       "description": "Installation of partitioning"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45324000",
+       "description": "Plasterboard works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421152",
+       "description": "Installation of partition walls"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44112310",
+       "description": "Partition walls"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Starnberger Weg 50",
+      "locality": "Gilching",
+      "region": "DE21L",
+      "postalCode": "82205",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Stelzig GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Stelzig GmbH"
+     },
+     "address": {
+      "streetAddress": "Von-Linde-Straße 2",
+      "locality": "Gilching",
+      "region": "DE21L",
+      "postalCode": "82205",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "STAW50 - Neubau Feuerwehrhaus Gilching - 390 - Innenausbau",
+     "description": "Innenausbau für den Neubau Feuerwehrhaus Gilching",
+     "contractPeriod": {
+      "startDate": "2026-10-05T00:00:00+02:00",
+      "endDate": "2027-05-28T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-05T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 614732,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-04T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "f767bebe-16e4-400d-9283-c226144d98c8",
+  "version": "01",
+  "title": "STAW50 - Neubau Feuerwehrhaus Gilching - 390 - Innenausbau",
+  "description": "Innenausbau für den Neubau Feuerwehrhaus Gilching",
+  "procedureType": "open",
+  "nuts": [
+   "DE21L"
+  ],
+  "cpv": [
+   "45216121",
+   "45421141",
+   "45324000",
+   "45421152",
+   "44112310"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "STAW50 - Neubau Feuerwehrhaus Gilching - 390 - Innenausbau",
+    "description": "Innenausbau für den Neubau Feuerwehrhaus Gilching",
+    "cpv": [
+     "45216121",
+     "45421141",
+     "45324000",
+     "45421152",
+     "44112310"
+    ],
+    "nuts": [
+     "DE21L"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-05+02:00",
+    "plannedEnd": "2027-05-28+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

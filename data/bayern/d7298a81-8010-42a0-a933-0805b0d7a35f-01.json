@@ -1,0 +1,263 @@
+{
+ "id": "d7298a81-8010-42a0-a933-0805b0d7a35f-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "d7298a81-8010-42a0-a933-0805b0d7a35f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d7298a81-8010-42a0-a933-0805b0d7a35f",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:d7298a81-8010-42a0-a933-0805b0d7a35f-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:d7298a81-8010-42a0-a933-0805b0d7a35f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d7298a81-8010-42a0-a933-0805b0d7a35f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "3 Müllsammelfahrzeuge",
+  "buyer": "Stadt Augsburg",
+  "cpv": [
+   "34139000",
+   "34144511"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-73942918-6806-4b54-b3dd-fd749814b733",
+  "id": "d7298a81-8010-42a0-a933-0805b0d7a35f",
+  "date": "2026-10-25T08:56:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Augsburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9007618-71",
+     "legalName": "Stadt Augsburg"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86150",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilanstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80438",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Augsburg",
+   "id": "09-9007618-71",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Augsburg"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86150",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "73942918-6806-4b54-b3dd-fd749814b733",
+   "title": "3 Müllsammelfahrzeuge",
+   "description": "Beschaffung von 3 Müllsammelfahrzeuge",
+   "procuringEntity": {
+    "name": "Stadt Augsburg",
+    "id": "09-9007618-71"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34139000",
+      "description": "Chassis"
+     },
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86153",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144511",
+      "description": "Refuse-collection vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86153",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304617",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304617",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fahrgestell",
+     "description": "Beschaffung von 3 Müllsammelfahrzeuge",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Aufbau mit Schüttung",
+     "description": "Beschaffung von 3 Müllsammelfahrzeuge",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d7298a81-8010-42a0-a933-0805b0d7a35f",
+  "version": "01",
+  "title": "3 Müllsammelfahrzeuge",
+  "description": "Beschaffung von 3 Müllsammelfahrzeuge",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "34144511",
+   "34139000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fahrgestell",
+    "description": "Beschaffung von 3 Müllsammelfahrzeuge",
+    "cpv": [
+     "34139000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304617"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Aufbau mit Schüttung",
+    "description": "Beschaffung von 3 Müllsammelfahrzeuge",
+    "cpv": [
+     "34144511"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304617"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

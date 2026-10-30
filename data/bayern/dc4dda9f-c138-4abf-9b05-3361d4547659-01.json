@@ -1,0 +1,274 @@
+{
+ "id": "dc4dda9f-c138-4abf-9b05-3361d4547659-01",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "dc4dda9f-c138-4abf-9b05-3361d4547659",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=dc4dda9f-c138-4abf-9b05-3361d4547659",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:dc4dda9f-c138-4abf-9b05-3361d4547659-01.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:dc4dda9f-c138-4abf-9b05-3361d4547659-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/dc4dda9f-c138-4abf-9b05-3361d4547659?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Rahmenvertrag für Druck-, Kuvertier- und Versanddienstleistungen",
+  "buyer": "Phoenics.IT GmbH",
+  "cpv": [
+   "79823000"
+  ],
+  "nuts": [
+   "DE929",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5fd96b3e-bda5-41d0-9a0e-fcbf9723619c",
+  "id": "dc4dda9f-c138-4abf-9b05-3361d4547659",
+  "date": "2026-10-17T19:18:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Phoenics.IT GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "6264ac91-f213-415f-81bf-b5e859a4ac90",
+     "legalName": "Phoenics.IT GmbH"
+    },
+    "address": {
+     "streetAddress": "Tiergartenstraße 39",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30559",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "b3de675e-d155-4587-8eba-ddb5670c2088",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemomblerstr. 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Phoenics.IT GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "5faf2f67-f505-4dae-b642-3202e08ecfa1",
+     "legalName": "Phoenics.IT GmbH"
+    },
+    "address": {
+     "streetAddress": "Tiergartenstraße 39",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30559",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "SPS Germany GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "76a190e6-90ba-4b52-8f55-f383d4cee76c",
+     "legalName": "SPS Germany GmbH"
+    },
+    "address": {
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Phoenics.IT GmbH",
+   "id": "6264ac91-f213-415f-81bf-b5e859a4ac90",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Phoenics.IT GmbH"
+   },
+   "address": {
+    "streetAddress": "Tiergartenstraße 39",
+    "locality": "Hannover",
+    "region": "DE929",
+    "postalCode": "30559",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5fd96b3e-bda5-41d0-9a0e-fcbf9723619c",
+   "title": "Rahmenvertrag für Druck-, Kuvertier- und Versanddienstleistungen",
+   "description": "Gegenstand dieses Vergabeverfahrens ist die Ausführung von  Druck-, Kuvertier- und Versanddienstleistungen, sowie die Bereitstellung der hierfür benötigten Materialien",
+   "procuringEntity": {
+    "name": "Phoenics.IT GmbH",
+    "id": "6264ac91-f213-415f-81bf-b5e859a4ac90"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79823000",
+      "description": "Printing and delivery services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80687",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 56500000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-09-19T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SPS Germany GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "SPS Germany GmbH"
+     },
+     "address": {
+      "locality": "Bamberg",
+      "region": "DE241",
+      "postalCode": "96052",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag für Druck-, Kuvertier- und Versanddienstleistungen",
+     "description": "Gegenstand dieses Vergabeverfahrens ist die Ausführung von  Druck-, Kuvertier- und Versanddienstleistungen, sowie die Bereitstellung der hierfür benötigten Materialien"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-30T00:00:00+02:00",
+    "value": {
+     "amount": 36067131.32,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 34800000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-29T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "dc4dda9f-c138-4abf-9b05-3361d4547659",
+  "version": "01",
+  "title": "Rahmenvertrag für Druck-, Kuvertier- und Versanddienstleistungen",
+  "description": "Gegenstand dieses Vergabeverfahrens ist die Ausführung von  Druck-, Kuvertier- und Versanddienstleistungen, sowie die Bereitstellung der hierfür benötigten Materialien",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "79823000"
+  ],
+  "estimatedValue": {
+   "amount": 56500000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag für Druck-, Kuvertier- und Versanddienstleistungen",
+    "description": "Gegenstand dieses Vergabeverfahrens ist die Ausführung von  Druck-, Kuvertier- und Versanddienstleistungen, sowie die Bereitstellung der hierfür benötigten Materialien",
+    "cpv": [
+     "79823000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/aea1ecde-1151-42f0-8017-2a4256a41d73/awardcriteria",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

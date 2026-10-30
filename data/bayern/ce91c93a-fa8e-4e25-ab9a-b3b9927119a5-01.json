@@ -1,0 +1,278 @@
+{
+ "id": "ce91c93a-fa8e-4e25-ab9a-b3b9927119a5-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "ce91c93a-fa8e-4e25-ab9a-b3b9927119a5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ce91c93a-fa8e-4e25-ab9a-b3b9927119a5",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:ce91c93a-fa8e-4e25-ab9a-b3b9927119a5-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:ce91c93a-fa8e-4e25-ab9a-b3b9927119a5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ce91c93a-fa8e-4e25-ab9a-b3b9927119a5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Kauf und Wartung von zentraler Speichererweiterung des Herstellers NetApp",
+  "buyer": "Phoenics.IT GmbH",
+  "cpv": [
+   "32424000",
+   "50312100"
+  ],
+  "nuts": [
+   "DE929",
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-28630d32-60db-4bc3-b161-97a8ca44f682",
+  "id": "ce91c93a-fa8e-4e25-ab9a-b3b9927119a5",
+  "date": "2026-10-25T13:50:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Phoenics.IT GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "6264ac91-f213-415f-81bf-b5e859a4ac90",
+     "legalName": "Phoenics.IT GmbH"
+    },
+    "address": {
+     "streetAddress": "Tiergartenstraße 39",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30559",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "b3de675e-d155-4587-8eba-ddb5670c2088",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Villemomblerstr. 76",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Phoenics.IT GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "5faf2f67-f505-4dae-b642-3202e08ecfa1",
+     "legalName": "Phoenics.IT GmbH"
+    },
+    "address": {
+     "streetAddress": "Tiergartenstraße 39",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30559",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "SVA System Vertrieb Alexander GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "99559c30-d1c7-4085-a515-17ba77408849",
+     "legalName": "SVA System Vertrieb Alexander GmbH"
+    },
+    "address": {
+     "locality": "Wiesbaden",
+     "region": "DE714",
+     "postalCode": "65205",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Phoenics.IT GmbH",
+   "id": "6264ac91-f213-415f-81bf-b5e859a4ac90",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Phoenics.IT GmbH"
+   },
+   "address": {
+    "streetAddress": "Tiergartenstraße 39",
+    "locality": "Hannover",
+    "region": "DE929",
+    "postalCode": "30559",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "28630d32-60db-4bc3-b161-97a8ca44f682",
+   "title": "Kauf und Wartung von zentraler Speichererweiterung des Herstellers NetApp",
+   "description": "Gegenstand dieses Vergabeverfahrens ist der Kauf und die Wartung von zentraler Speichererweiterung des Herstellers NetApp  ",
+   "procuringEntity": {
+    "name": "Phoenics.IT GmbH",
+    "id": "6264ac91-f213-415f-81bf-b5e859a4ac90"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32424000",
+      "description": "Network infrastructure"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "50312100",
+       "description": "Maintenance and repair of mainframe computers"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90449",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 1047000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-23T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SVA System Vertrieb Alexander GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "SVA System Vertrieb Alexander GmbH"
+     },
+     "address": {
+      "locality": "Wiesbaden",
+      "region": "DE714",
+      "postalCode": "65205",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Kauf und Wartung von zentraler Speichererweiterung des Herstellers NetApp",
+     "description": "Gegenstand dieses Vergabeverfahrens ist der Kauf und die Wartung von zentraler Speichererweiterung des Herstellers NetApp  "
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "value": {
+     "amount": 1042560,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1240646,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "ce91c93a-fa8e-4e25-ab9a-b3b9927119a5",
+  "version": "01",
+  "title": "Kauf und Wartung von zentraler Speichererweiterung des Herstellers NetApp",
+  "description": "Gegenstand dieses Vergabeverfahrens ist der Kauf und die Wartung von zentraler Speichererweiterung des Herstellers NetApp",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "32424000",
+   "50312100"
+  ],
+  "estimatedValue": {
+   "amount": 1047000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Kauf und Wartung von zentraler Speichererweiterung des Herstellers NetApp",
+    "description": "Gegenstand dieses Vergabeverfahrens ist der Kauf und die Wartung von zentraler Speichererweiterung des Herstellers NetApp",
+    "cpv": [
+     "32424000",
+     "50312100"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

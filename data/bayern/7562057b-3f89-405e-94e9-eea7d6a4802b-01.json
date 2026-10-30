@@ -1,0 +1,208 @@
+{
+ "id": "7562057b-3f89-405e-94e9-eea7d6a4802b-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "7562057b-3f89-405e-94e9-eea7d6a4802b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7562057b-3f89-405e-94e9-eea7d6a4802b",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:7562057b-3f89-405e-94e9-eea7d6a4802b-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:7562057b-3f89-405e-94e9-eea7d6a4802b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7562057b-3f89-405e-94e9-eea7d6a4802b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Containergestellung, Abholung und Transport von Restabfällen aus dem Landkreis Ebersberg",
+  "buyer": "AVIVE KU",
+  "cpv": [
+   "90512000",
+   "44613800"
+  ],
+  "nuts": [
+   "DE218"
+  ],
+  "deadline": "2026-11-16T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7562057b-3f89-405e-94e9-eea7d6a4802b",
+  "id": "7562057b-3f89-405e-94e9-eea7d6a4802b",
+  "date": "2026-10-16T02:06:30Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AVIVE KU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10850",
+     "legalName": "AVIVE KU"
+    },
+    "address": {
+     "streetAddress": "An der Schafweide 2",
+     "locality": "Ebersberg",
+     "region": "DE218",
+     "postalCode": "85560",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "9ad3ac00-bcf3-4bd0-b950-8a411adc0e2d",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AVIVE KU",
+   "id": "10850",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AVIVE KU"
+   },
+   "address": {
+    "streetAddress": "An der Schafweide 2",
+    "locality": "Ebersberg",
+    "region": "DE218",
+    "postalCode": "85560",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7562057b-3f89-405e-94e9-eea7d6a4802b",
+   "title": "Containergestellung, Abholung und Transport von Restabfällen aus dem Landkreis Ebersberg",
+   "description": "Containergestellung, Abholung und Transport von Restabfällen aus dem Landkreis Ebersberg und Anlieferung bei der MVA Ingolstadt",
+   "procuringEntity": {
+    "name": "AVIVE KU",
+    "id": "10850"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90512000",
+      "description": "Refuse transport services"
+     },
+     "deliveryAddress": {
+      "region": "DE218",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 1,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/7562057b-3f89-405e-94e9-eea7d6a4802b",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Containergestellung, Abholung und Transport von Restabfällen aus dem Landkreis Ebersberg",
+     "description": "•\tContainergestellung zur Übernahme von Sperrmüll und sonstigen Restabfällen an der Übergabestelle des Landkreises Ebersberg \n•\tbedarfsgerechte Abholung der vom Landkreis Ebersberg befüllten Container\n•\tTransport der Restabfälle zum Müllverwertungsanlage Ingolstadt\n•\tEntladung der Container am Müllverwertungsanlage Ingolstadt",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "7562057b-3f89-405e-94e9-eea7d6a4802b",
+  "version": "01",
+  "title": "Containergestellung, Abholung und Transport von Restabfällen aus dem Landkreis Ebersberg",
+  "description": "Containergestellung, Abholung und Transport von Restabfällen aus dem Landkreis Ebersberg und Anlieferung bei der MVA Ingolstadt",
+  "procedureType": "open",
+  "nuts": [
+   "DE218"
+  ],
+  "cpv": [
+   "90512000",
+   "44613800"
+  ],
+  "estimatedValue": {
+   "amount": 1,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Containergestellung, Abholung und Transport von Restabfällen aus dem Landkreis Ebersberg",
+    "description": "•\tContainergestellung zur Übernahme von Sperrmüll und sonstigen Restabfällen an der Übergabestelle des Landkreises Ebersberg \n•\tbedarfsgerechte Abholung der vom Landkreis Ebersberg befüllten Container\n•\tTransport der Restabfälle zum Müllverwertungsanlage Ingolstadt\n•\tEntladung der Container am Müllverwertungsanlage Ingolstadt",
+    "cpv": [
+     "90512000"
+    ],
+    "nuts": [
+     "DE218"
+    ],
+    "deadline": "2026-11-16T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Allgemeine Angaben zum Unternehmen: Mitarbeiterzahl, Konzernzugehörigkeit(en), Betriebsausstattung, Fuhrpark der vorgesehenen Niederlassung bzw. Betriebsstätte etc. \n\nBenennung und Beschreibung der für die Ausführung des Auftrags vorhandenen oder noch zu beschaffenden Einrichtungen, Geräte und technischen Ausrüstungen\n•\tBeschreibung des Betriebsstandortes, von dem aus die Leistungen erbracht werden\n•\tBeschreibung der Container\n•\tAnzahl und Art der Fahrzeuge und deren Beschreibung (Die Fahrzeuge müssen mind. der Abgasnorm EURO VI entsprechen.)"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Liste der Referenzprojekte mit ausgeführten vergleichbaren Leistungen aus den letzten 3 Jahren mit Angabe des Leistungsumfangs (Mengen), des Leistungszeitraums sowie der Auftraggeber mit Ansprechpartner"
+     },
+     {
+      "type": "slc-stand-ratio",
+      "description": "Angaben zum Gesamtumsatz des Unternehmens sowie zum Umsatz im Bereich der ausgeschriebenen Leistung, jeweils bezogen und aufgegliedert auf die letzten 3 Geschäftsjahre \n\nJahresabschluss (Kopie der Zusammenstellung, mindestens des letzten abgeschlossenen Jahres) soweit der Bieter bilanziert. Falls der Bieter nicht zur Bilanzveröffentlichung verpflichtet ist, ist stattdessen eine Bankerklärung (Bankauskunft) über die Solvenz beizufügen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Zuschlagskriterium ist der Preis.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

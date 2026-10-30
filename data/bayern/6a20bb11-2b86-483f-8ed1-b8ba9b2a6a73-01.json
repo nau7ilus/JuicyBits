@@ -1,0 +1,273 @@
+{
+ "id": "6a20bb11-2b86-483f-8ed1-b8ba9b2a6a73-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "6a20bb11-2b86-483f-8ed1-b8ba9b2a6a73",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6a20bb11-2b86-483f-8ed1-b8ba9b2a6a73",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:6a20bb11-2b86-483f-8ed1-b8ba9b2a6a73-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:6a20bb11-2b86-483f-8ed1-b8ba9b2a6a73-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6a20bb11-2b86-483f-8ed1-b8ba9b2a6a73?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Elektrische Dienstkraftfahrzeuge für die Eichämter des Bayerischen Landesamtes für Maß und Gewicht (LMG)",
+  "buyer": "Bayerisches Landesamt für Maß und Gewicht",
+  "cpv": [
+   "34144900"
+  ],
+  "nuts": [
+   "DE215",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-23def30f-a524-462b-b5ba-5b88ac8b585c",
+  "id": "6a20bb11-2b86-483f-8ed1-b8ba9b2a6a73",
+  "date": "2026-10-18T08:06:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerisches Landesamt für Maß und Gewicht",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "096611b4-72a2-4aab-b3a9-7f2d57ded2d4",
+     "legalName": "Bayerisches Landesamt für Maß und Gewicht"
+    },
+    "address": {
+     "streetAddress": "Wittelsbacherstr. 14",
+     "locality": "Bad Reichenhall",
+     "region": "DE215",
+     "postalCode": "83435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Maß und Gewicht",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "5382dccb-dd2b-4d37-9606-6a9da92545c0",
+     "legalName": "Bayerisches Landesamt für Maß und Gewicht"
+    },
+    "address": {
+     "streetAddress": "Wittelsbacherstr. 14",
+     "locality": "Bad Reichenhall",
+     "region": "DE215",
+     "postalCode": "83435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Autohaus Wickenhäuser GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "16ee5879-4139-48fd-91b4-361ecc21ee97",
+     "legalName": "Autohaus Wickenhäuser GmbH"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80807",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerisches Landesamt für Maß und Gewicht",
+   "id": "096611b4-72a2-4aab-b3a9-7f2d57ded2d4",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerisches Landesamt für Maß und Gewicht"
+   },
+   "address": {
+    "streetAddress": "Wittelsbacherstr. 14",
+    "locality": "Bad Reichenhall",
+    "region": "DE215",
+    "postalCode": "83435",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "23def30f-a524-462b-b5ba-5b88ac8b585c",
+   "title": "Elektrische Dienstkraftfahrzeuge für die Eichämter des Bayerischen Landesamtes für Maß und Gewicht (LMG)",
+   "description": "Beschaffung von 6 elektrischen Kraftfahrzeugen, PKW Kombis, für verschiedene Eichamtsstandorte im Freistaat Bayern",
+   "procuringEntity": {
+    "name": "Bayerisches Landesamt für Maß und Gewicht",
+    "id": "096611b4-72a2-4aab-b3a9-7f2d57ded2d4"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144900",
+      "description": "Electric vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "München und weitere Standorte",
+      "region": "DE212",
+      "postalCode": "80638",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-01T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Autohaus Wickenhäuser GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Autohaus Wickenhäuser GmbH"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80807",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Elektrische Dienstkraftfahrzeuge für die Eichämter des Bayerischen Landesamtes für Maß und Gewicht (LMG)",
+     "description": "Beschaffung von 6 elektrischen Kraftfahrzeugen, PKW Kombis, für verschiedene Eichamtsstandorte im Freistaat Bayern"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-12T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Autohaus Wickenhäuser GmbH",
+      "id": "16ee5879-4139-48fd-91b4-361ecc21ee97",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "Autohaus Wickenhäuser GmbH"
+      },
+      "address": {
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "80807",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 149725,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-11T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "6a20bb11-2b86-483f-8ed1-b8ba9b2a6a73",
+  "version": "01",
+  "title": "Elektrische Dienstkraftfahrzeuge für die Eichämter des Bayerischen Landesamtes für Maß und Gewicht (LMG)",
+  "description": "Beschaffung von 6 elektrischen Kraftfahrzeugen, PKW Kombis, für verschiedene Eichamtsstandorte im Freistaat Bayern",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "34144900"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Elektrische Dienstkraftfahrzeuge für die Eichämter des Bayerischen Landesamtes für Maß und Gewicht (LMG)",
+    "description": "Beschaffung von 6 elektrischen Kraftfahrzeugen, PKW Kombis, für verschiedene Eichamtsstandorte im Freistaat Bayern",
+    "cpv": [
+     "34144900"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

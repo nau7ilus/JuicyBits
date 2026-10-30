@@ -1,0 +1,243 @@
+{
+ "id": "35026b45-63e0-4733-b07f-1d2aceced936-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "35026b45-63e0-4733-b07f-1d2aceced936",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=35026b45-63e0-4733-b07f-1d2aceced936",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:35026b45-63e0-4733-b07f-1d2aceced936-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:35026b45-63e0-4733-b07f-1d2aceced936-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/35026b45-63e0-4733-b07f-1d2aceced936?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Gerüstarbeiten nach ATV DIN 18451",
+  "buyer": "Stadt Würzburg",
+  "cpv": [
+   "45262100",
+   "45262110",
+   "45262120"
+  ],
+  "nuts": [
+   "DE263"
+  ],
+  "deadline": "2026-11-19T09:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-15bbdb38-cfa8-4b94-a5d6-1848db3b03f8",
+  "id": "35026b45-63e0-4733-b07f-1d2aceced936",
+  "date": "2026-10-20T10:04:50Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Würzburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09663000",
+     "legalName": "Stadt Würzburg"
+    },
+    "address": {
+     "streetAddress": "Augustiner Str. 2",
+     "locality": "Würzburg",
+     "region": "DE263",
+     "postalCode": "97070",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "000",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Würzburg",
+   "id": "09663000",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Würzburg"
+   },
+   "address": {
+    "streetAddress": "Augustiner Str. 2",
+    "locality": "Würzburg",
+    "region": "DE263",
+    "postalCode": "97070",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "15bbdb38-cfa8-4b94-a5d6-1848db3b03f8",
+   "title": "Gerüstarbeiten nach ATV DIN 18451",
+   "description": "-Auf und Abbauen längenorientiert Standgerüst verankert Lastklasse 3, je 378 m²\n-Gebrauchsüberlassung 27.935 m²Wo\n-Auf und Abbauen längenorientiert Standgerüst nicht verankert Lastklasse 4, je 1.037 m²\n-Gebrauchsüberlassung 902 m², 67.396 m²Wo \n-Gebrauchsüberlassung 135 m², 17.010 m²Wo\n-Auf und Abbauen Stützgerüst, je 1.037 m²\n-Gebrauchsüberlassung 902 m², 67.395,75 m²Wo\n-Auf- und Abbau Belagsverbreiterung wandseitig, je 469 m\n-Auf und Abbau Treppenaufgang einläufig, je 2 St\n-Auf und Abbauen Bauaufzug Traglast 1000kg, je 1 St",
+   "procuringEntity": {
+    "name": "Stadt Würzburg",
+    "id": "09663000"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262100",
+      "description": "Scaffolding work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262110",
+       "description": "Scaffolding dismantling work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45262120",
+       "description": "Scaffolding erection work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Würzburg",
+      "region": "DE263",
+      "postalCode": "97084",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 206029.34,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304322",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Gerüstarbeiten nach ATV DIN 18451",
+     "description": "-Auf und Abbauen längenorientiert Standgerüst verankert Lastklasse 3, je 378 m²\n-Gebrauchsüberlassung 27.935 m²Wo\n-Auf und Abbauen längenorientiert Standgerüst nicht verankert Lastklasse 4, je 1.037 m²\n-Gebrauchsüberlassung 902 m², 67.396 m²Wo \n-Gebrauchsüberlassung 135 m², 17.010 m²Wo\n-Auf und Abbauen Stützgerüst, je 1.037 m²\n-Gebrauchsüberlassung 902 m², 67.395,75 m²Wo\n-Auf- und Abbau Belagsverbreiterung wandseitig, je 469 m\n-Auf und Abbau Treppenaufgang einläufig, je 2 St\n-Auf und Abbauen Bauaufzug Traglast 1000kg, je 1 St",
+     "value": {
+      "amount": 206029.34,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-04-26T00:00:00+02:00",
+      "endDate": "2028-09-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "35026b45-63e0-4733-b07f-1d2aceced936",
+  "version": "01",
+  "title": "Gerüstarbeiten nach ATV DIN 18451",
+  "description": "-Auf und Abbauen längenorientiert Standgerüst verankert Lastklasse 3, je 378 m²\n-Gebrauchsüberlassung 27.935 m²Wo\n-Auf und Abbauen längenorientiert Standgerüst nicht verankert Lastklasse 4, je 1.037 m²\n-Gebrauchsüberlassung 902 m², 67.396 m²Wo \n-Gebrauchsüberlassung 135 m², 17.010 m²Wo\n-Auf und Abbauen Stützgerüst, je 1.037 m²\n-Gebrauchsüberlassung 902 m², 67.395,75 m²Wo\n-Auf- und Abbau Belagsverbreiterung wandseitig, je 469 m\n-Auf und Abbau Treppenaufgang einläufig, je 2 St\n-Auf und Abbauen Bauaufzug Traglast 1000kg, je 1 St",
+  "procedureType": "open",
+  "nuts": [
+   "DE263"
+  ],
+  "cpv": [
+   "45262100",
+   "45262110",
+   "45262120"
+  ],
+  "estimatedValue": {
+   "amount": 206029.34,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Gerüstarbeiten nach ATV DIN 18451",
+    "description": "-Auf und Abbauen längenorientiert Standgerüst verankert Lastklasse 3, je 378 m²\n-Gebrauchsüberlassung 27.935 m²Wo\n-Auf und Abbauen längenorientiert Standgerüst nicht verankert Lastklasse 4, je 1.037 m²\n-Gebrauchsüberlassung 902 m², 67.396 m²Wo \n-Gebrauchsüberlassung 135 m², 17.010 m²Wo\n-Auf und Abbauen Stützgerüst, je 1.037 m²\n-Gebrauchsüberlassung 902 m², 67.395,75 m²Wo\n-Auf- und Abbau Belagsverbreiterung wandseitig, je 469 m\n-Auf und Abbau Treppenaufgang einläufig, je 2 St\n-Auf und Abbauen Bauaufzug Traglast 1000kg, je 1 St",
+    "cpv": [
+     "45262100",
+     "45262110",
+     "45262120"
+    ],
+    "nuts": [
+     "DE263"
+    ],
+    "deadline": "2026-11-19T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-26+02:00",
+    "plannedEnd": "2028-09-01+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 206029.34,
+     "currency": "EUR"
+    },
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, \nBescheinigungen sind in der Eigenerklärung (Formblatt 124), \nin der Aufforderung zur Angebotsabgabe (Formblatt 211), im \nVerzeichnis vorzulegender Unterlagen (Formblatt 216) \naufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind. \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304322"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, \nBescheinigungen sind in der Eigenerklärung (Formblatt 124), \nin der Aufforderung zur Angebotsabgabe (Formblatt 211), im \nVerzeichnis vorzulegender Unterlagen (Formblatt 216) \naufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind. \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304322"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, \nBescheinigungen sind in der Eigenerklärung (Formblatt 124), \nin der Aufforderung zur Angebotsabgabe (Formblatt 211), im \nVerzeichnis vorzulegender Unterlagen (Formblatt 216) \naufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind.\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304322"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, \nBescheinigungen sind in der Eigenerklärung (Formblatt 124), \nin der Aufforderung zur Angebotsabgabe (Formblatt 211), im \nVerzeichnis vorzulegender Unterlagen (Formblatt 216) \naufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die \nNachweise/Bescheinigungen einzureichen sind. \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304322"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B) \nSoweit die Auftragssumme mindestens 250.000 Euro ohne \nUmsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung \nin Höhe von 5 Prozent der Auftragssumme (inkl. \nUmsatzsteuer, ohne Nachträge) zu leisten. \n \nSicherheitsleistung für Mängelansprüche  \nDie Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen zum \nZeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "a72ac950-4c78-43ed-93a5-9bedd5be32fe",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a72ac950-4c78-43ed-93a5-9bedd5be32fe",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:a72ac950-4c78-43ed-93a5-9bedd5be32fe-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:a72ac950-4c78-43ed-93a5-9bedd5be32fe-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/a72ac950-4c78-43ed-93a5-9bedd5be32fe?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "62-2026-688-EA Verlängerung Maintenance von Citrix-Lizenzen",
   "buyer": "Stadt Regensburg",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE232"
   ],
-  "deadline": null,
+  "deadline": "2026-10-29T23:59:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -175,5 +175,58 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a72ac950-4c78-43ed-93a5-9bedd5be32fe",
+  "version": "01",
+  "title": "62-2026-688-EA Verlängerung Maintenance von Citrix-Lizenzen",
+  "description": "Die Stadt Regensburg unterhält zwei Citrix-Farmen. \nGegenstand dieses Vergabeverfahrens ist die Verlängerung der Bestands-Lizenzen sowie der dazugehörigen Software-Maintenance und der Hardware RMA für die genannte Citrix-Umgebung.",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "48000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "62-2026-688-EA Verlängerung Maintenance von Citrix-Lizenzen",
+    "description": "Die Stadt Regensburg unterhält zwei Citrix-Farmen. \nGegenstand dieses Vergabeverfahrens ist die Verlängerung der Bestands-Lizenzen sowie der dazugehörigen Software-Maintenance und der Hardware RMA für die genannte Citrix-Umgebung.",
+    "cpv": [
+     "48000000"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-10-29T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Anbieter muss zertifizierter Citrix Anbieter sein:\n-  Platinum Citrix Fusion Reseller\n-  Platinum Citrix Fusion Service Provider\n-  Preferred Service Partner\naktueller Herstellernachweis ist mit dem Angebot einzureichen.\n\n-Nachweis der Zertifizierung gem. ISO/IEC 27001 und DIN EN ISO 9001\n\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304012"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
 }

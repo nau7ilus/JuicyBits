@@ -1,0 +1,202 @@
+{
+ "id": "b394e8f6-e247-4c22-a2f4-a880584db7ad-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "b394e8f6-e247-4c22-a2f4-a880584db7ad",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b394e8f6-e247-4c22-a2f4-a880584db7ad",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:b394e8f6-e247-4c22-a2f4-a880584db7ad-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:b394e8f6-e247-4c22-a2f4-a880584db7ad-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b394e8f6-e247-4c22-a2f4-a880584db7ad?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rohbauarbeiten BA2",
+  "buyer": "Stadt Augsburg",
+  "cpv": [
+   "45223220",
+   "45262311"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-11-25T10:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-910355c5-9fbb-4bb0-b34a-a8dfb7c3632a",
+  "id": "b394e8f6-e247-4c22-a2f4-a880584db7ad",
+  "date": "2026-10-25T11:18:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Augsburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9007618-71",
+     "legalName": "Stadt Augsburg"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86150",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilanstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80438",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Augsburg",
+   "id": "09-9007618-71",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Augsburg"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86150",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "910355c5-9fbb-4bb0-b34a-a8dfb7c3632a",
+   "title": "Rohbauarbeiten BA2",
+   "description": "Montagegerüste Schächte, Umwehrungen, prov. Regen- und Oberflächenwasserableitung, Erdbauarbeiten Sockelbereich, Perimeterdämmung und Sockelabdichtung mit bituminösen Schweißbahnen und Flüssigkunststoffabdichtung, Sanierung Grundleitungen unter Bodenplatte, Schlitze in Bodenplatte, Dachabläufe ausstemmen und neue Dachabläufe einbetonieren, Blitzschutzarbeiten, Wände und Türöffnungen aus KS-Mauerwerk teils mit statischen Ertüchtigungen aus Stahlbeton, Durchstanzbewehrung in Stahlbeton M16 bis M20, Kernbohrungen, Stemmen von nachträglichen Durchbrüchen in Deckenplatten und Wänden mit Ergänzung Laibung oder Schließen von Durchbrüchen in Deckenplatten und Wänden jeweils mit nachträglicher Bewehrung mit Injektionsmörtel F0 und F90 und mit Betonersatzmörtel, Sanierung Bauteilfugen Stahlbetonbauteile F90, Einzelfundamente Windfang mit Abdichtung, Teilabbruch und Ersatzneubau Bodenplatte, Erstellung rechteckige Sitzstufen aus Stahlbeton, Teilabbruch und Ergänzung von Deckenrändern/Attiken.",
+   "procuringEntity": {
+    "name": "Stadt Augsburg",
+    "id": "09-9007618-71"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45223220",
+      "description": "Structural shell work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262311",
+       "description": "Concrete carcassing work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86159",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/296325",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rohbauarbeiten BA2",
+     "description": "Montagegerüste Schächte, Umwehrungen, prov. Regen- und Oberflächenwasserableitung, Erdbauarbeiten Sockelbereich, Perimeterdämmung und Sockelabdichtung mit bituminösen Schweißbahnen und Flüssigkunststoffabdichtung, Sanierung Grundleitungen unter Bodenplatte, Schlitze in Bodenplatte, Dachabläufe ausstemmen und neue Dachabläufe einbetonieren, Blitzschutzarbeiten, Wände und Türöffnungen aus KS-Mauerwerk teils mit statischen Ertüchtigungen aus Stahlbeton, Durchstanzbewehrung in Stahlbeton M16 bis M20, Kernbohrungen, Stemmen von nachträglichen Durchbrüchen in Deckenplatten und Wänden mit Ergänzung Laibung oder Schließen von Durchbrüchen in Deckenplatten und Wänden jeweils mit nachträglicher Bewehrung mit Injektionsmörtel F0 und F90 und mit Betonersatzmörtel, Sanierung Bauteilfugen Stahlbetonbauteile F90, Einzelfundamente Windfang mit Abdichtung, Teilabbruch und Ersatzneubau Bodenplatte, Erstellung rechteckige Sitzstufen aus Stahlbeton, Teilabbruch und Ergänzung von Deckenrändern/Attiken.",
+     "contractPeriod": {
+      "startDate": "2027-04-19T00:00:00+02:00",
+      "endDate": "2027-12-17T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b394e8f6-e247-4c22-a2f4-a880584db7ad",
+  "version": "01",
+  "title": "Rohbauarbeiten BA2",
+  "description": "Montagegerüste Schächte, Umwehrungen, prov. Regen- und Oberflächenwasserableitung, Erdbauarbeiten Sockelbereich, Perimeterdämmung und Sockelabdichtung mit bituminösen Schweißbahnen und Flüssigkunststoffabdichtung, Sanierung Grundleitungen unter Bodenplatte, Schlitze in Bodenplatte, Dachabläufe ausstemmen und neue Dachabläufe einbetonieren, Blitzschutzarbeiten, Wände und Türöffnungen aus KS-Mauerwerk teils mit statischen Ertüchtigungen aus Stahlbeton, Durchstanzbewehrung in Stahlbeton M16 bis M20, Kernbohrungen, Stemmen von nachträglichen Durchbrüchen in Deckenplatten und Wänden mit Ergänzung Laibung oder Schließen von Durchbrüchen in Deckenplatten und Wänden jeweils mit nachträglicher Bewehrung mit Injektionsmörtel F0 und F90 und mit Betonersatzmörtel, Sanierung Bauteilfugen Stahlbetonbauteile F90, Einzelfundamente Windfang mit Abdichtung, Teilabbruch und Ersatzneubau Bodenplatte, Erstellung rechteckige Sitzstufen aus Stahlbeton, Teilabbruch und Ergänzung von Deckenrändern/Attiken.",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "45223220",
+   "45262311"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rohbauarbeiten BA2",
+    "description": "Montagegerüste Schächte, Umwehrungen, prov. Regen- und Oberflächenwasserableitung, Erdbauarbeiten Sockelbereich, Perimeterdämmung und Sockelabdichtung mit bituminösen Schweißbahnen und Flüssigkunststoffabdichtung, Sanierung Grundleitungen unter Bodenplatte, Schlitze in Bodenplatte, Dachabläufe ausstemmen und neue Dachabläufe einbetonieren, Blitzschutzarbeiten, Wände und Türöffnungen aus KS-Mauerwerk teils mit statischen Ertüchtigungen aus Stahlbeton, Durchstanzbewehrung in Stahlbeton M16 bis M20, Kernbohrungen, Stemmen von nachträglichen Durchbrüchen in Deckenplatten und Wänden mit Ergänzung Laibung oder Schließen von Durchbrüchen in Deckenplatten und Wänden jeweils mit nachträglicher Bewehrung mit Injektionsmörtel F0 und F90 und mit Betonersatzmörtel, Sanierung Bauteilfugen Stahlbetonbauteile F90, Einzelfundamente Windfang mit Abdichtung, Teilabbruch und Ersatzneubau Bodenplatte, Erstellung rechteckige Sitzstufen aus Stahlbeton, Teilabbruch und Ergänzung von Deckenrändern/Attiken.",
+    "cpv": [
+     "45223220",
+     "45262311"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-25T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-19+02:00",
+    "plannedEnd": "2027-12-17+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=296325"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

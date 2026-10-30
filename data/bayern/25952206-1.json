@@ -1,0 +1,135 @@
+{
+ "id": "25952206-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25952206",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25952206",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25952206-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25952206-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25952206?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben",
+  "buyer": "Landeshauptstadt München, Mobilitätsreferat",
+  "cpv": [
+   "71355000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-03T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25952206",
+  "id": "25952206",
+  "date": "2026-10-21T07:00:25Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Mobilitätsreferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landeshauptstadt München, Mobilitätsreferat"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Mobilitätsreferat",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Mobilitätsreferat"
+   }
+  },
+  "tender": {
+   "title": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben",
+   "description": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben\n\nBestandsvermessung",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Mobilitätsreferat"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71355000",
+      "description": "Surveying services"
+     },
+     "deliveryAddress": {
+      "locality": "München\nDeutschland",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-1a158c132d0-2ef2261ecd82e516&PublicationType=0",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben",
+     "description": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben\n\nBestandsvermessung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25952206",
+  "version": "1",
+  "title": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben",
+  "description": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben\n\nBestandsvermessung",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "71355000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben",
+    "description": "Bestandsvermessung Radschnellverbindung München-Markt Schwaben\n\nBestandsvermessung",
+    "cpv": [
+     "71355000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-03T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

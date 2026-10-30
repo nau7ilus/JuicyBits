@@ -1,0 +1,157 @@
+{
+ "id": "25944232-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944232",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944232",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944232-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944232-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944232?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Vergebener Auftrag: Metallfassade erneuern",
+  "buyer": "Staatliches Bauamt Kempten",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-22T09:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944232",
+  "id": "25944232",
+  "date": "2026-10-17T07:00:47Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Kempten",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Staatliches Bauamt Kempten"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Kempten",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Kempten"
+   }
+  },
+  "tender": {
+   "title": "Vergebener Auftrag: Metallfassade erneuern",
+   "description": "Vergebener Auftrag: Metallfassade erneuern",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Kempten"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "87629 Füssen, Allgäukaserne",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "http://www.vergabe.bayern.de/Vergabeinformationen.bayernvergabeinformationen.0.html?details=1085101",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Vergebener Auftrag: Metallfassade erneuern",
+     "description": "Vergebener Auftrag: Metallfassade erneuern"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25944232",
+  "version": "1",
+  "title": "Vergebener Auftrag: Metallfassade erneuern",
+  "description": "Vergebener Auftrag: Metallfassade erneuern",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Vergebener Auftrag: Metallfassade erneuern",
+    "description": "Vergebener Auftrag: Metallfassade erneuern",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-22T09:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

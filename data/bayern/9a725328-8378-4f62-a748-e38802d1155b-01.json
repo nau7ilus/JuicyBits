@@ -1,0 +1,254 @@
+{
+ "id": "9a725328-8378-4f62-a748-e38802d1155b-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "9a725328-8378-4f62-a748-e38802d1155b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9a725328-8378-4f62-a748-e38802d1155b",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:9a725328-8378-4f62-a748-e38802d1155b-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:9a725328-8378-4f62-a748-e38802d1155b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9a725328-8378-4f62-a748-e38802d1155b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "buyer": "Gemeinde Grabenstätt",
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "nuts": [
+   "DE21M"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-741b2725-01e5-4969-b4b4-b52e0984c3ff",
+  "id": "9a725328-8378-4f62-a748-e38802d1155b",
+  "date": "2026-10-22T02:10:23Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Grabenstätt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09189119",
+     "legalName": "Gemeinde Grabenstätt"
+    },
+    "address": {
+     "streetAddress": "Schloßstraße 15",
+     "locality": "Grabenstätt",
+     "region": "DE21M",
+     "postalCode": "83355",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "08921762411",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Telekom Deutschland GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB 5919",
+     "legalName": "Telekom Deutschland GmbH"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53227",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Grabenstätt",
+   "id": "09189119",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Grabenstätt"
+   },
+   "address": {
+    "streetAddress": "Schloßstraße 15",
+    "locality": "Grabenstätt",
+    "region": "DE21M",
+    "postalCode": "83355",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "741b2725-01e5-4969-b4b4-b52e0984c3ff",
+   "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+   "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 30.04.2024 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+   "procuringEntity": {
+    "name": "Gemeinde Grabenstätt",
+    "id": "09189119"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Schloßstraße 15",
+      "locality": "Grabenstätt",
+      "region": "DE21M",
+      "postalCode": "83355",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Telekom Deutschland GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Telekom Deutschland GmbH"
+     },
+     "address": {
+      "locality": "Bonn",
+      "region": "DEA22",
+      "postalCode": "53227",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) - Lückenschlussprogramm Aufruf 2024",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 30.04.2024 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adresse beträgt 23 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-14T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 740060.36,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-13T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "32",
+  "noticeId": "9a725328-8378-4f62-a748-e38802d1155b",
+  "version": "01",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 30.04.2024 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+  "procedureType": null,
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) - Lückenschlussprogramm Aufruf 2024",
+    "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 30.04.2024 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adresse beträgt 23 Adressen.",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2555,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": null,
+      "description": "Höhe der Wirtschaftlichkeitslücke",
+      "weight": 90
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Realisierungszeit",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Konzept und Erläuterung\n- geplante Verlegemethoden und ob ggf. der Bieter den Einsatz von alternativen Verlegemethoden / Netztechnologie plant\n- inwieweit der Bieter Bestands-Infrastrukturen / Eigenleistungen des ZWE (Leerrohre, Glasfasern usw.) oder ggf. eigene vorhandene Infrastrukturen benutzt und dies in der Wirtschaftlichkeitslückenberechnung berücksichtigt hat",
+      "description": "Qualität der technischen Umsetzung\n(bei Nichtvorlage erfolgt die Wertung mit null Punkten)",
+      "weight": 5
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

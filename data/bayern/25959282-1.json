@@ -1,0 +1,125 @@
+{
+ "id": "25959282-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25959282",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25959282",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25959282-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25959282-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25959282?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "RV Trinkwasseruntersuchungen",
+  "buyer": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt",
+  "cpv": [
+   "65111000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25959282",
+  "id": "25959282",
+  "date": "2026-10-22T07:01:41Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt"
+   }
+  },
+  "tender": {
+   "title": "RV Trinkwasseruntersuchungen",
+   "description": "Rahmenvereinbarung über systemische Untersuchung auf Legionellen gemäß Trinkwasserverordnung (TrinkwV)\n\nRV Trinkwasseruntersuchungen",
+   "procuringEntity": {
+    "name": "Freistaat Bayern vertreten durch den Bayerischen Landtag - Landtagsamt"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "65111000",
+      "description": "Drinking-water distribution"
+     },
+     "deliveryAddress": {
+      "locality": "81675 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "RV Trinkwasseruntersuchungen",
+     "description": "Rahmenvereinbarung über systemische Untersuchung auf Legionellen gemäß Trinkwasserverordnung (TrinkwV)\n\nRV Trinkwasseruntersuchungen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25959282",
+  "version": "1",
+  "title": "RV Trinkwasseruntersuchungen",
+  "description": "Rahmenvereinbarung über systemische Untersuchung auf Legionellen gemäß Trinkwasserverordnung (TrinkwV)\n\nRV Trinkwasseruntersuchungen",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "65111000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "RV Trinkwasseruntersuchungen",
+    "description": "Rahmenvereinbarung über systemische Untersuchung auf Legionellen gemäß Trinkwasserverordnung (TrinkwV)\n\nRV Trinkwasseruntersuchungen",
+    "cpv": [
+     "65111000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

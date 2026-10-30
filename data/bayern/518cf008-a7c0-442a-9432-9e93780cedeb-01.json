@@ -1,0 +1,771 @@
+{
+ "id": "518cf008-a7c0-442a-9432-9e93780cedeb-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "518cf008-a7c0-442a-9432-9e93780cedeb",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=518cf008-a7c0-442a-9432-9e93780cedeb",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:518cf008-a7c0-442a-9432-9e93780cedeb-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:518cf008-a7c0-442a-9432-9e93780cedeb-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/518cf008-a7c0-442a-9432-9e93780cedeb?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvereinbarungen Programmier- und Beratungsleistungen zur Anwendungsentwicklung im Ressort des StMELF",
+  "buyer": "Freistaat Bayern, vertreten durch das Bayer. StM f. Ernährung, Landwirtschaft, Forsten und Tourismus",
+  "cpv": [
+   "72211000",
+   "72000000",
+   "72200000",
+   "72243000",
+   "72262000",
+   "72263000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-10-23T10:00:00+02:00",
+  "lots": 5
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ead5e827-f2fd-41fb-b8ba-735204aa6390",
+  "id": "518cf008-a7c0-442a-9432-9e93780cedeb",
+  "date": "2026-10-21T02:08:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch das Bayer. StM f. Ernährung, Landwirtschaft, Forsten und Tourismus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "4be2c938-2f87-47ea-9032-ea301a1573c6",
+     "legalName": "Freistaat Bayern, vertreten durch das Bayer. StM f. Ernährung, Landwirtschaft, Forsten und Tourismus"
+    },
+    "address": {
+     "streetAddress": "Ludwigstraße 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Zentrale Vergabestelle im Ressort des StMELF",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "7b3d9a8d-0537-4965-b90e-fb7b422d6047",
+     "legalName": "Zentrale Vergabestelle im Ressort des StMELF"
+    },
+    "address": {
+     "streetAddress": "Helmbrechtser Straße 22",
+     "locality": "95213 Münchberg",
+     "region": "DE249",
+     "postalCode": "95179",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch das Bayer. StM f. Ernährung, Landwirtschaft, Forsten und Tourismus",
+   "id": "4be2c938-2f87-47ea-9032-ea301a1573c6",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch das Bayer. StM f. Ernährung, Landwirtschaft, Forsten und Tourismus"
+   },
+   "address": {
+    "streetAddress": "Ludwigstraße 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80539",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ead5e827-f2fd-41fb-b8ba-735204aa6390",
+   "title": "Rahmenvereinbarungen Programmier- und Beratungsleistungen zur Anwendungsentwicklung im Ressort des StMELF",
+   "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung und Pflege von Anwendungen, insbesondere Webanwendungen sowie mobile Anwendungen. Die Entwicklung erfolgt hauptsächlich in den Referenzarchitekturen des StMELF (aktuell überwiegend Racy10, basierend auf der Programmiersprache Java sowie den Frameworks Apache Wicket, Spring und JPA sowie Racy25, basierend auf den Programmiersprachen Java und TypeScript sowie den Frameworks Angular, Spring und JPA). Die Leistung umfasst auch die Pflege und Weiterentwicklung der Referenzarchitekturen.\n\nDerzeit gibt es sowohl Anwendungen in der Racy10- als auch der Racy25-Architektur, wobei diese die Standardarchitektur für Neuentwicklungen ist.\nDie für die Entwicklung zuständigen Referate P5 und CIO2 des StMELF sowie das Sachgebiet IuK4 der FüAk sind Teil der EU-Zahlstelle des Freistaates Bayern und nach der EU-Verordnung Nr. 885/2006 ist für die Informationssysteme der Zahlstelle die Zertifizierung der IT-Sicherheit gemäß ISO 27001 auf Basis IT-Grundschutz des Bundesamtes für Sicherheit in der Informationstechnik (BSI) in jeweils aktueller Fassung verpflichtend.",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch das Bayer. StM f. Ernährung, Landwirtschaft, Forsten und Tourismus",
+    "id": "4be2c938-2f87-47ea-9032-ea301a1573c6"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72211000",
+      "description": "Programming services of systems and user software"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72000000",
+       "description": "IT services: consulting, software development, Internet and support"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72200000",
+       "description": "Software programming and consultancy services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72243000",
+       "description": "Programming services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72262000",
+       "description": "Software development services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72263000",
+       "description": "Software implementation services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80539",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72211000",
+      "description": "Programming services of systems and user software"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72000000",
+       "description": "IT services: consulting, software development, Internet and support"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72243000",
+       "description": "Programming services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72262000",
+       "description": "Software development services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72263000",
+       "description": "Software implementation services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72200000",
+       "description": "Software programming and consultancy services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80539",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72211000",
+      "description": "Programming services of systems and user software"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72000000",
+       "description": "IT services: consulting, software development, Internet and support"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72243000",
+       "description": "Programming services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72262000",
+       "description": "Software development services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72263000",
+       "description": "Software implementation services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72200000",
+       "description": "Software programming and consultancy services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80539",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72211000",
+      "description": "Programming services of systems and user software"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72000000",
+       "description": "IT services: consulting, software development, Internet and support"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72243000",
+       "description": "Programming services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72262000",
+       "description": "Software development services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72200000",
+       "description": "Software programming and consultancy services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72263000",
+       "description": "Software implementation services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80539",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72211000",
+      "description": "Programming services of systems and user software"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72000000",
+       "description": "IT services: consulting, software development, Internet and support"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72243000",
+       "description": "Programming services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72262000",
+       "description": "Software development services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72263000",
+       "description": "Software implementation services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "72200000",
+       "description": "Software programming and consultancy services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80539",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/86f247a2-7b0b-4c2b-aa43-54eb7f6b5f1d",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/86f247a2-7b0b-4c2b-aa43-54eb7f6b5f1d",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/86f247a2-7b0b-4c2b-aa43-54eb7f6b5f1d",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/86f247a2-7b0b-4c2b-aa43-54eb7f6b5f1d",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/86f247a2-7b0b-4c2b-aa43-54eb7f6b5f1d",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Dienstleistungen Anwendungsentwicklung",
+     "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nLos 1 umfasst geschätzt 75.000 Arbeitsstunden auf 4 Jahre.",
+     "value": {
+      "amount": 9375000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": " Dienstleistung Anwendungsentwicklung",
+     "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nEs handelt sich um geschätzt 75.000 Stunden auf 4 Jahre.\n",
+     "value": {
+      "amount": 9375000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Dienstleistung Anwendungsentwicklung",
+     "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nEs handelt sich um geschätzt 75.000 Stunden in 4 Jahren.",
+     "value": {
+      "amount": 9375000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Dienstleistung Anwendungsentwicklung",
+     "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nLos 4 umfasst geschätzt 75.000 Arbeitsstunden auf 4 Jahre.\n",
+     "value": {
+      "amount": 9375000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Dienstleistung Anwendungsentwicklung",
+     "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nEs handelt sich geschätzt um 75.000 Stunden für 4 Jahre.",
+     "value": {
+      "amount": 9375000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 5,
+    "maximumLotsAwardedPerSupplier": 1
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "518cf008-a7c0-442a-9432-9e93780cedeb",
+  "version": "01",
+  "title": "Rahmenvereinbarungen Programmier- und Beratungsleistungen zur Anwendungsentwicklung im Ressort des StMELF",
+  "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung und Pflege von Anwendungen, insbesondere Webanwendungen sowie mobile Anwendungen. Die Entwicklung erfolgt hauptsächlich in den Referenzarchitekturen des StMELF (aktuell überwiegend Racy10, basierend auf der Programmiersprache Java sowie den Frameworks Apache Wicket, Spring und JPA sowie Racy25, basierend auf den Programmiersprachen Java und TypeScript sowie den Frameworks Angular, Spring und JPA). Die Leistung umfasst auch die Pflege und Weiterentwicklung der Referenzarchitekturen.\n\nDerzeit gibt es sowohl Anwendungen in der Racy10- als auch der Racy25-Architektur, wobei diese die Standardarchitektur für Neuentwicklungen ist.\nDie für die Entwicklung zuständigen Referate P5 und CIO2 des StMELF sowie das Sachgebiet IuK4 der FüAk sind Teil der EU-Zahlstelle des Freistaates Bayern und nach der EU-Verordnung Nr. 885/2006 ist für die Informationssysteme der Zahlstelle die Zertifizierung der IT-Sicherheit gemäß ISO 27001 auf Basis IT-Grundschutz des Bundesamtes für Sicherheit in der Informationstechnik (BSI) in jeweils aktueller Fassung verpflichtend.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72000000",
+   "72211000",
+   "72200000",
+   "72243000",
+   "72262000",
+   "72263000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Dienstleistungen Anwendungsentwicklung",
+    "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nLos 1 umfasst geschätzt 75.000 Arbeitsstunden auf 4 Jahre.",
+    "cpv": [
+     "72211000",
+     "72000000",
+     "72200000",
+     "72243000",
+     "72262000",
+     "72263000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-23T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 9375000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/suitabilitycriteria\nEigenerklärung über den Nettogesamtumsatz des Bieters, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre. Bei einer Bietergemeinschaft sind die Nettogesamtumsätze jedes Mitglieds der Bietergemeinschaft, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben. Sofern entsprechende Angaben zum Nettogesamtumsatz nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null anzugeben und ebenfalls in einer gesonderten Anlage anzugeben und zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die gesonderte Anlage ist im\nArbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen"
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Eigenerklärung des Bieters über den Nettoumsatz im Tätigkeitsbereich des Auftrags, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre. Bei einer Bietergemeinschaft sind die Nettoumsätze im Tätigkeitsbereich jedes Mitglieds der Bietergemeinschaft, bezogen auf\ndie letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben.\nSofern entsprechende Angaben zum Nettoumsatz im Tätigkeitsbereich des Auftrags nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null einzutragen und in einer gesonderten Anlage anzugeben und zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die gesonderte Anlage ist im\nArbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung: Können Sie eine branchenübliche, bestehende Berufs- bzw. Betriebshaftpflichtversicherung bei einem in einem Mitgliedstaat der EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen Versicherungsunternehmen nachweisen? -> Ausschlusskriterium"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Zum Nachweis der für die Auftragsausführung erforderlichen technischen und beruflichen Leistungsfähigkeit ist eine\nEigenerklärung nachfolgend näher bezeichneter, unternehmensbezogener und geeigneter Referenzen des Bieters zu erbringen:\nDer Bieter hat eine Eigenerklärung über mindestens eine und höchstens fünf vergleichbare, unternehmensbezogene\nReferenzen des Bieters über früher ausgeführte Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren aus\nden letzten höchstens fünf Jahren, jeweils mit den nachfolgend geforderten Angaben abzugeben:\no Bezeichnung und Beschreibung der Referenz\no Angabe des Auftragswertes\no Angabe des Leistungszeitraumes\no Angabe des Auftraggebers (Name/Anschrift des Auftraggebers und Name des Ansprechpartners beim Auftraggeber mit\nTelefonnummer und E-Mail-Adresse)\no Angabe, ob Gegenstand die Digitalisierung von staatlichen Förderverfahren gewesen ist\no Angabe, ob die Referenz aus Sicht des Referenzauftraggebers vertragskonform erbracht wurde\nVergleichbarkeit der Referenz\nDie unternehmensbezogene Referenz gilt jeweils als vergleichbar, wenn alle Anforderungen kumulativ erfüllt sind:\no Es handelt sich um eine Referenz über Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren\no Es handelt sich um Projekte, die vom Bieter als Hauptauftragnehmer mit einem Auftragswert von mindestens 1. Mio. Euro\ndurchgeführt wurden.\no Es wurden die Entwicklung und Pflege von Webanwendungen durchgeführt.\no Die Entwicklung erfolgte mit vergleichbaren Technologien, also den Basistechnologien von Racy10 und Racy25. Diese\nvergleichbaren Technologien sind folgende: für Racy 10 die Programmiersprache Java sowie den Frameworks Apache Wicket,\nSpring und JPA) und für Racy25 die Programmiersprachen Java und TypeScript sowie den Frameworks Angular, Spring und\nJPA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/awardcriteria",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Dienstleistung Anwendungsentwicklung",
+    "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nEs handelt sich um geschätzt 75.000 Stunden auf 4 Jahre.",
+    "cpv": [
+     "72211000",
+     "72000000",
+     "72243000",
+     "72262000",
+     "72263000",
+     "72200000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-23T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 9375000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/suitabilitycriteria\nEigenerklärung über den Nettogesamtumsatz des Bieters, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre. Bei einer Bietergemeinschaft sind die Nettogesamtumsätze jedes Mitglieds der Bietergemeinschaft, bezogen auf die letzten drei\nabgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben.\nSofern entsprechende Angaben zum Nettogesamtumsatz nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null anzugeben und ebenfalls in einer gesonderten Anlage anzugeben\nund zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die gesonderte Anlage ist im Arbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen."
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Eigenerklärung des Bieters über den Nettoumsatz im Tätigkeitsbereich des Auftrags, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre.\nBei einer Bietergemeinschaft sind die Nettoumsätze im Tätigkeitsbereich jedes Mitglieds der Bietergemeinschaft, bezogen auf\ndie letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben.\nSofern entsprechende Angaben zum Nettoumsatz im Tätigkeitsbereich des Auftrags nicht oder nicht für drei abgeschlossene\nGeschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null einzutragen und in einer gesonderten\nAnlage anzugeben und zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen.\nDie Anlagen sind im Arbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung: Können Sie eine branchenübliche, bestehende Berufs- bzw. Betriebshaftpflichtversicherung bei einem in einem Mitgliedstaat\nder EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen\nVersicherungsunternehmen nachweisen? -> Ausschlusskriterium"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Zum Nachweis der für die Auftragsausführung erforderlichen technischen und beruflichen Leistungsfähigkeit ist eine\nEigenerklärung nachfolgend näher bezeichneter, unternehmensbezogener und geeigneter Referenzen des Bieters zu erbringen:\nDer Bieter hat eine Eigenerklärung über mindestens eine und höchstens fünf vergleichbare, unternehmensbezogene\nReferenzen des Bieters über früher ausgeführte Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren aus\nden letzten höchstens fünf Jahren, jeweils mit den nachfolgend geforderten Angaben abzugeben:\no Bezeichnung und Beschreibung der Referenz\no Angabe des Auftragswertes\no Angabe des Leistungszeitraumes\no Angabe des Auftraggebers (Name/Anschrift des Auftraggebers und Name des Ansprechpartners beim Auftraggeber mit\nTelefonnummer und E-Mail-Adresse)\no Angabe, ob Gegenstand die Digitalisierung von staatlichen Förderverfahren gewesen ist\no Angabe, ob die Referenz aus Sicht des Referenzauftraggebers vertragskonform erbracht wurde\nVergleichbarkeit der Referenz\nDie unternehmensbezogene Referenz gilt jeweils als vergleichbar, wenn alle Anforderungen kumulativ erfüllt sind:\no Es handelt sich um eine Referenz über Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren\no Es handelt sich um Projekte, die vom Bieter als Hauptauftragnehmer mit einem Auftragswert von mindestens 1. Mio. Euro\ndurchgeführt wurden.\no Es wurden die Entwicklung und Pflege von Webanwendungen durchgeführt.\no Die Entwicklung erfolgte mit vergleichbaren Technologien, also den Basistechnologien von Racy10 und Racy25. Diese\nvergleichbaren Technologien sind folgende: für Racy 10 die Programmiersprache Java sowie den Frameworks Apache Wicket,\nSpring und JPA) und für Racy25 die Programmiersprachen Java und TypeScript sowie den Frameworks Angular, Spring und\nJPA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/awardcriteria",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Dienstleistung Anwendungsentwicklung",
+    "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nEs handelt sich um geschätzt 75.000 Stunden in 4 Jahren.",
+    "cpv": [
+     "72211000",
+     "72000000",
+     "72243000",
+     "72262000",
+     "72263000",
+     "72200000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-23T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 9375000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/suitabilitycriteria\nEigenerklärung über den Nettogesamtumsatz des Bieters, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre. Bei einer Bietergemeinschaft sind die Nettogesamtumsätze jedes Mitglieds der Bietergemeinschaft, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben. Sofern entsprechende Angaben zum Nettogesamtumsatz nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar\nsind, hat der Bieter in dem entsprechenden Feld eine Null anzugeben und ebenfalls in einer gesonderten Anlage anzugeben und zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die gesonderte Anlage ist im Arbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen."
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Eigenerklärung des Bieters über den Nettoumsatz im Tätigkeitsbereich des Auftrags, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre.\nBei einer Bietergemeinschaft sind die Nettoumsätze im Tätigkeitsbereich jedes Mitglieds der Bietergemeinschaft, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben. Sofern entsprechende Angaben zum Nettoumsatz im Tätigkeitsbereich des Auftrags nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null einzutragen und in einer gesonderten Anlage anzugeben und zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die Anlagen sind im Arbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Zum Nachweis der für die Auftragsausführung erforderlichen technischen und beruflichen Leistungsfähigkeit ist eine\nEigenerklärung nachfolgend näher bezeichneter, unternehmensbezogener und geeigneter Referenzen des Bieters zu erbringen:\nDer Bieter hat eine Eigenerklärung über mindestens eine und höchstens fünf vergleichbare, unternehmensbezogene\nReferenzen des Bieters über früher ausgeführte Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren aus\nden letzten höchstens fünf Jahren, jeweils mit den nachfolgend geforderten Angaben abzugeben:\no Bezeichnung und Beschreibung der Referenz\no Angabe des Auftragswertes\no Angabe des Leistungszeitraumes\no Angabe des Auftraggebers (Name/Anschrift des Auftraggebers und Name des Ansprechpartners beim Auftraggeber mit\nTelefonnummer und E-Mail-Adresse)\no Angabe, ob Gegenstand die Digitalisierung von staatlichen Förderverfahren gewesen ist\no Angabe, ob die Referenz aus Sicht des Referenzauftraggebers vertragskonform erbracht wurde\nVergleichbarkeit der Referenz\nDie unternehmensbezogene Referenz gilt jeweils als vergleichbar, wenn alle Anforderungen kumulativ erfüllt sind:\no Es handelt sich um eine Referenz über Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren\no Es handelt sich um Projekte, die vom Bieter als Hauptauftragnehmer mit einem Auftragswert von mindestens 1. Mio. Euro\ndurchgeführt wurden.\no Es wurden die Entwicklung und Pflege von Webanwendungen durchgeführt.\no Die Entwicklung erfolgte mit vergleichbaren Technologien, also den Basistechnologien von Racy10 und Racy25. Diese\nvergleichbaren Technologien sind folgende: für Racy 10 die Programmiersprache Java sowie den Frameworks Apache Wicket,\nSpring und JPA) und für Racy25 die Programmiersprachen Java und TypeScript sowie den Frameworks Angular, Spring und\nJPA."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung: Können Sie eine branchenübliche, bestehende Berufs- bzw. Betriebshaftpflichtversicherung bei einem in einem Mitgliedstaat\nder EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen\nVersicherungsunternehmen nachweisen? -> Ausschlusskriterium"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/awardcriteria",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Dienstleistung Anwendungsentwicklung",
+    "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nLos 4 umfasst geschätzt 75.000 Arbeitsstunden auf 4 Jahre.",
+    "cpv": [
+     "72211000",
+     "72000000",
+     "72243000",
+     "72262000",
+     "72200000",
+     "72263000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-23T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 9375000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/suitabilitycriteria\nEigenerklärung über den Nettogesamtumsatz des Bieters, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre. Bei einer Bietergemeinschaft sind die Nettogesamtumsätze jedes Mitglieds der Bietergemeinschaft, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben. Sofern entsprechende Angaben zum Nettogesamtumsatz nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null anzugeben und ebenfalls in einer gesonderten Anlage anzugeben und zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die gesonderte Anlage ist im\nArbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen"
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Eigenerklärung des Bieters über den Nettoumsatz im Tätigkeitsbereich des Auftrags, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre.\nBei einer Bietergemeinschaft sind die Nettoumsätze im Tätigkeitsbereich jedes Mitglieds der Bietergemeinschaft, bezogen auf\ndie letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben.\nSofern entsprechende Angaben zum Nettoumsatz im Tätigkeitsbereich des Auftrags nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null einzutragen und in einer gesonderten Anlage anzugeben und zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die Anlagen sind im Arbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung: Können Sie eine branchenübliche, bestehende Berufs- bzw. Betriebshaftpflichtversicherung bei einem in einem Mitgliedstaat der EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen Versicherungsunternehmen nachweisen? -> Ausschlusskriterium"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Zum Nachweis der für die Auftragsausführung erforderlichen technischen und beruflichen Leistungsfähigkeit ist eine\nEigenerklärung nachfolgend näher bezeichneter, unternehmensbezogener und geeigneter Referenzen des Bieters zu erbringen:\nDer Bieter hat eine Eigenerklärung über mindestens eine und höchstens fünf vergleichbare, unternehmensbezogene\nReferenzen des Bieters über früher ausgeführte Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren aus\nden letzten höchstens fünf Jahren, jeweils mit den nachfolgend geforderten Angaben abzugeben:\no Bezeichnung und Beschreibung der Referenz\no Angabe des Auftragswertes\no Angabe des Leistungszeitraumes\no Angabe des Auftraggebers (Name/Anschrift des Auftraggebers und Name des Ansprechpartners beim Auftraggeber mit\nTelefonnummer und E-Mail-Adresse)\no Angabe, ob Gegenstand die Digitalisierung von staatlichen Förderverfahren gewesen ist\no Angabe, ob die Referenz aus Sicht des Referenzauftraggebers vertragskonform erbracht wurde\nVergleichbarkeit der Referenz\nDie unternehmensbezogene Referenz gilt jeweils als vergleichbar, wenn alle Anforderungen kumulativ erfüllt sind:\no Es handelt sich um eine Referenz über Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren\no Es handelt sich um Projekte, die vom Bieter als Hauptauftragnehmer mit einem Auftragswert von mindestens 1. Mio. Euro\ndurchgeführt wurden.\no Es wurden die Entwicklung und Pflege von Webanwendungen durchgeführt.\no Die Entwicklung erfolgte mit vergleichbaren Technologien, also den Basistechnologien von Racy10 und Racy25. Diese\nvergleichbaren Technologien sind folgende: für Racy 10 die Programmiersprache Java sowie den Frameworks Apache Wicket,\nSpring und JPA) und für Racy25 die Programmiersprachen Java und TypeScript sowie den Frameworks Angular, Spring und\nJPA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/awardcriteria",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Dienstleistung Anwendungsentwicklung",
+    "description": "Benötigt werden Dienstleistungen im Bereich der Entwicklung von Anwendungen, insbesondere Webanwendungen in der Referenzarchitektur des StMELF (aktuell Racy10, basierend auf den Frameworks Apache Wicket, Spring und JPA sowie Racy25 basierend auf den Frameworks Angular, Spring, JPA).\nEs handelt sich geschätzt um 75.000 Stunden für 4 Jahre.",
+    "cpv": [
+     "72211000",
+     "72000000",
+     "72243000",
+     "72262000",
+     "72263000",
+     "72200000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-23T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 9375000,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-gen",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/suEigenerklärung über den Nettogesamtumsatz des Bieters, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre.\nBei einer Bietergemeinschaft sind die Nettogesamtumsätze jedes Mitglieds der Bietergemeinschaft, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben. Sofern entsprechende Angaben zum Nettogesamtumsatz nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null anzugeben und ebenfalls in einer gesonderten Anlage anzugeben\nund zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die gesonderte Anlage ist im Arbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen.itabilitycriteria"
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Eigenerklärung des Bieters über den Nettoumsatz im Tätigkeitsbereich des Auftrags, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre. Bei einer Bietergemeinschaft sind die Nettoumsätze im Tätigkeitsbereich jedes Mitglieds der Bietergemeinschaft, bezogen auf die letzten drei abgeschlossenen Geschäftsjahre einzeln aufgegliedert und zusammengerechnet anzugeben. Sofern entsprechende Angaben zum Nettoumsatz im Tätigkeitsbereich des Auftrags nicht oder nicht für drei abgeschlossene Geschäftsjahre verfügbar sind, hat der Bieter in dem entsprechenden Feld eine Null einzutragen und in einer gesonderten Anlage anzugeben und zu begründen, warum die Angaben nicht oder nicht in dem geforderten Umfang vorliegen. Die Anlagen sind im Arbeitsschritt „Eigene Anlagen“ zum Angebot hochzuladen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung: Können Sie eine branchenübliche, bestehende Berufs- bzw. Betriebshaftpflichtversicherung bei einem in einem Mitgliedstaat der EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen Versicherungsunternehmen nachweisen? -> Ausschlusskriterium"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Zum Nachweis der für die Auftragsausführung erforderlichen technischen und beruflichen Leistungsfähigkeit ist eine\nEigenerklärung nachfolgend näher bezeichneter, unternehmensbezogener und geeigneter Referenzen des Bieters zu erbringen:\nDer Bieter hat eine Eigenerklärung über mindestens eine und höchstens fünf vergleichbare, unternehmensbezogene\nReferenzen des Bieters über früher ausgeführte Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren aus\nden letzten höchstens fünf Jahren, jeweils mit den nachfolgend geforderten Angaben abzugeben:\no Bezeichnung und Beschreibung der Referenz\no Angabe des Auftragswertes\no Angabe des Leistungszeitraumes\no Angabe des Auftraggebers (Name/Anschrift des Auftraggebers und Name des Ansprechpartners beim Auftraggeber mit\nTelefonnummer und E-Mail-Adresse)\no Angabe, ob Gegenstand die Digitalisierung von staatlichen Förderverfahren gewesen ist\no Angabe, ob die Referenz aus Sicht des Referenzauftraggebers vertragskonform erbracht wurde\nVergleichbarkeit der Referenz\nDie unternehmensbezogene Referenz gilt jeweils als vergleichbar, wenn alle Anforderungen kumulativ erfüllt sind:\no Es handelt sich um eine Referenz über Leistungen im Rahmen der Digitalisierung von staatlichen Förderverfahren\no Es handelt sich um Projekte, die vom Bieter als Hauptauftragnehmer mit einem Auftragswert von mindestens 1. Mio. Euro\ndurchgeführt wurden.\no Es wurden die Entwicklung und Pflege von Webanwendungen durchgeführt.\no Die Entwicklung erfolgte mit vergleichbaren Technologien, also den Basistechnologien von Racy10 und Racy25. Diese\nvergleichbaren Technologien sind folgende: für Racy 10 die Programmiersprache Java sowie den Frameworks Apache Wicket,\nSpring und JPA) und für Racy25 die Programmiersprachen Java und TypeScript sowie den Frameworks Angular, Spring und\nJPA."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 30
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/e6a6613c-2dbf-48ff-bd1a-83b431d590ea/awardcriteria",
+      "weight": 70
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

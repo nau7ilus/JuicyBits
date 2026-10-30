@@ -1,0 +1,124 @@
+{
+ "id": "25950182-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25950182",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25950182",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25950182-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25950182-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25950182?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Stadt Gefrees, Sanierung der Wasserversorgung Sanierung des Hochbehälters / Wasserwerks Hügelwiese Bauliches Gewerk",
+  "buyer": "Stadt Gefrees",
+  "cpv": [
+   "45200000-9"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-09T09:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25950182",
+  "id": "25950182",
+  "date": "2026-10-20T19:01:45Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Gefrees",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Gefrees"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Gefrees",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Gefrees"
+   }
+  },
+  "tender": {
+   "title": "Stadt Gefrees, Sanierung der Wasserversorgung Sanierung des Hochbehälters / Wasserwerks Hügelwiese Bauliches Gewerk",
+   "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+   "procuringEntity": {
+    "name": "Stadt Gefrees"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45200000-9"
+     },
+     "deliveryAddress": {
+      "locality": "95482 Gefrees",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Stadt Gefrees, Sanierung der Wasserversorgung Sanierung des Hochbehälters / Wasserwerks Hügelwiese Bauliches Gewerk",
+     "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25950182",
+  "version": "1",
+  "title": "Stadt Gefrees, Sanierung der Wasserversorgung Sanierung des Hochbehälters / Wasserwerks Hügelwiese Bauliches Gewerk",
+  "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45200000-9"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Stadt Gefrees, Sanierung der Wasserversorgung Sanierung des Hochbehälters / Wasserwerks Hügelwiese Bauliches Gewerk",
+    "description": "Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten",
+    "cpv": [
+     "45200000-9"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-09T09:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

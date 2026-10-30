@@ -1,0 +1,198 @@
+{
+ "id": "f2570bfc-9b88-4894-9b66-400eb3dfc564-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "f2570bfc-9b88-4894-9b66-400eb3dfc564",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f2570bfc-9b88-4894-9b66-400eb3dfc564",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:f2570bfc-9b88-4894-9b66-400eb3dfc564-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:f2570bfc-9b88-4894-9b66-400eb3dfc564-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f2570bfc-9b88-4894-9b66-400eb3dfc564?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "26FEI87406 - Kabeltiefbau ESTW Regensburg Ost - Str. 5500, km 130,883 - 137,660",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45234100"
+  ],
+  "nuts": [
+   "DE712",
+   "DE232"
+  ],
+  "deadline": "2026-12-04T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-63e1ff17-36e8-4206-a5e2-039b59c42585",
+  "id": "f2570bfc-9b88-4894-9b66-400eb3dfc564",
+  "date": "2026-10-25T12:02:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "63e1ff17-36e8-4206-a5e2-039b59c42585",
+   "title": "26FEI87406 - Kabeltiefbau ESTW Regensburg Ost - Str. 5500, km 130,883 - 137,660",
+   "description": "Im Bahnhof Regensburg Ost wird ein ESTW-Z realisiert. Das neue Stellwerk ersetzt vollständig die vorhandenen fünf mechanischen Stellwerke. \nDas Kabelführungssystem wird in Ausführungsform und Länge folgendermaßen neu errichtet: Größe I mit einer Länge von ca. 2,3 Kilometer, Größe II mit einer Länge von ca. 4,4 Kilometer, Größe III mit einer Länge von ca. 1 Kilometer, Größe IV mit einer Länge von ca. 2 Kilometer. Zusätzlich zu den Kabelführungssystemen erfordert die Umsetzung ergänzende Querungen und Schächte (u.a. Größen II, III, IV, V, VII, IX und X), um die Kabelverbindungen zu gewährleisten. Im Rahmen des Vorhabens werden Querungen mit variierenden Rohrlängen von 5 bis 50 Metern realisiert.\nNeben der Errichtung des ESTW-Z umfasst das Projekt u.a. auch die Ausrüstung von mehreren Gleisabschnitten mit Sicherungstechnik und Oberleitungsanlagen sowie die Anpassung von TK- und 50Hz-Anlagen. Detailliertere Angaben zum Projektumfang sind den beigefügten Unterlagen zu entnehmen.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234100",
+      "description": "Railway construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93055",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/7257b944-9907-4eb9-a110-59e8d9023b59",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "26FEI87406 - Kabeltiefbau ESTW Regensburg Ost - Str. 5500, km 130,883 - 137,660",
+     "description": "Im Bahnhof Regensburg Ost wird ein ESTW-Z realisiert. Das neue Stellwerk ersetzt vollständig die vorhandenen fünf mechanischen Stellwerke. \nDas Kabelführungssystem wird in Ausführungsform und Länge folgendermaßen neu errichtet: Größe I mit einer Länge von ca. 2,3 Kilometer, Größe II mit einer Länge von ca. 4,4 Kilometer, Größe III mit einer Länge von ca. 1 Kilometer, Größe IV mit einer Länge von ca. 2 Kilometer. Zusätzlich zu den Kabelführungssystemen erfordert die Umsetzung ergänzende Querungen und Schächte (u.a. Größen II, III, IV, V, VII, IX und X), um die Kabelverbindungen zu gewährleisten. Im Rahmen des Vorhabens werden Querungen mit variierenden Rohrlängen von 5 bis 50 Metern realisiert.\nNeben der Errichtung des ESTW-Z umfasst das Projekt u.a. auch die Ausrüstung von mehreren Gleisabschnitten mit Sicherungstechnik und Oberleitungsanlagen sowie die Anpassung von TK- und 50Hz-Anlagen. Detailliertere Angaben zum Projektumfang sind den beigefügten Unterlagen zu entnehmen.",
+     "contractPeriod": {
+      "startDate": "2027-02-15T00:00:00+01:00",
+      "endDate": "2029-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "f2570bfc-9b88-4894-9b66-400eb3dfc564",
+  "version": "01",
+  "title": "26FEI87406 - Kabeltiefbau ESTW Regensburg Ost - Str. 5500, km 130,883 - 137,660",
+  "description": "Im Bahnhof Regensburg Ost wird ein ESTW-Z realisiert. Das neue Stellwerk ersetzt vollständig die vorhandenen fünf mechanischen Stellwerke. \nDas Kabelführungssystem wird in Ausführungsform und Länge folgendermaßen neu errichtet: Größe I mit einer Länge von ca. 2,3 Kilometer, Größe II mit einer Länge von ca. 4,4 Kilometer, Größe III mit einer Länge von ca. 1 Kilometer, Größe IV mit einer Länge von ca. 2 Kilometer. Zusätzlich zu den Kabelführungssystemen erfordert die Umsetzung ergänzende Querungen und Schächte (u.a. Größen II, III, IV, V, VII, IX und X), um die Kabelverbindungen zu gewährleisten. Im Rahmen des Vorhabens werden Querungen mit variierenden Rohrlängen von 5 bis 50 Metern realisiert.\nNeben der Errichtung des ESTW-Z umfasst das Projekt u.a. auch die Ausrüstung von mehreren Gleisabschnitten mit Sicherungstechnik und Oberleitungsanlagen sowie die Anpassung von TK- und 50Hz-Anlagen. Detailliertere Angaben zum Projektumfang sind den beigefügten Unterlagen zu entnehmen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "45234100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "26FEI87406 - Kabeltiefbau ESTW Regensburg Ost - Str. 5500, km 130,883 - 137,660",
+    "description": "Im Bahnhof Regensburg Ost wird ein ESTW-Z realisiert. Das neue Stellwerk ersetzt vollständig die vorhandenen fünf mechanischen Stellwerke. \nDas Kabelführungssystem wird in Ausführungsform und Länge folgendermaßen neu errichtet: Größe I mit einer Länge von ca. 2,3 Kilometer, Größe II mit einer Länge von ca. 4,4 Kilometer, Größe III mit einer Länge von ca. 1 Kilometer, Größe IV mit einer Länge von ca. 2 Kilometer. Zusätzlich zu den Kabelführungssystemen erfordert die Umsetzung ergänzende Querungen und Schächte (u.a. Größen II, III, IV, V, VII, IX und X), um die Kabelverbindungen zu gewährleisten. Im Rahmen des Vorhabens werden Querungen mit variierenden Rohrlängen von 5 bis 50 Metern realisiert.\nNeben der Errichtung des ESTW-Z umfasst das Projekt u.a. auch die Ausrüstung von mehreren Gleisabschnitten mit Sicherungstechnik und Oberleitungsanlagen sowie die Anpassung von TK- und 50Hz-Anlagen. Detailliertere Angaben zum Projektumfang sind den beigefügten Unterlagen zu entnehmen.",
+    "cpv": [
+     "45234100"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-12-04T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-15+01:00",
+    "plannedEnd": "2029-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Bitte beachten Sie dazu die Ziffern 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

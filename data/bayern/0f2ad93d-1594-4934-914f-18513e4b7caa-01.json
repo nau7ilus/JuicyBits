@@ -5,14 +5,14 @@
   "noticeId": "0f2ad93d-1594-4934-914f-18513e4b7caa",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0f2ad93d-1594-4934-914f-18513e4b7caa",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:0f2ad93d-1594-4934-914f-18513e4b7caa-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:0f2ad93d-1594-4934-914f-18513e4b7caa-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/0f2ad93d-1594-4934-914f-18513e4b7caa?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Fachplanung Technische Ausrüstung gemäß §53 ff. HOAI 2021, Anlagengruppen 4, 5 und 6 der Leistungsphasen 1 – 9 für den Neubau der Kindertagesstätte Breitungstraße in Weißenburg i. Bay..",
   "buyer": "Stadt Weißenburg",
   "cpv": [
@@ -221,5 +221,66 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "0f2ad93d-1594-4934-914f-18513e4b7caa",
+  "version": "01",
+  "title": "Fachplanung Technische Ausrüstung gemäß §53 ff. HOAI 2021, Anlagengruppen 4, 5 und 6 der Leistungsphasen 1 – 9 für den Neubau der Kindertagesstätte Breitungstraße in Weißenburg i. Bay..",
+  "description": "Die Stadt Weißenburg i.Bay. plant als Träger die bestehende Kindertagesstätte in der Breitungstraße 16 in Weißenburg rückzubauen und durch einen Neubau zu ersetzen, der baulich sowie pädagogisch aktuellen Ansprüchen gerecht wird. Der Stadtratsbeschluss hierzu liegt vor. Das Grundstück ist ca. 2.500 m2 groß und liegt in einem ruhigen Wohngebiet im Osten der Stadt Weißenburg. Zum Zentrum/Altstadtkern ist das Grundstück fußläufig ca. 12 Minuten entfernt, mit dem Fahrrad ca. 5 Minuten. Der vorhandene Standort der Kindertageseinrichtung erfreut sich großer Beliebtheit, da neben den östlichen Weißenburgern v.a. auch die östlich gelegenen Ortsteile von Weißenburg diesen Kindergarten samt Krippe anfahren. Bei der ausgeschriebenen Maßnahme handelt es sich um den Neubau der Kindertagesstätte. Der Rückbau des Bestands erfolgt im Vorfeld durch die Stadt Weißenburg mit einem weiteren Auftragnehmer. Es sollen in der zukünftigen Kindertagesstätte insgesamt 124 Kinder betreut werden, davon 4 x 25 Kindergartenkinder sowie 2 x 12 Krippenkinder. Aufgrund der Größe des vorhandenen Grundstücks (ca. 2.500 m²) wird es erforderlich sein, den Neubau zweigeschossig zu errichten, da auf dem Grundstück auch Parkplätze für das Personal, Fahrradstellplätze für die Kinder sowie ein großzügiger Freispielbereich, getrennt für die Krippenkinder und die Kindergartenkinder, unterzubringen sind. Die Qualitäten des bestehenden Gartens, die großen, schattenspendenden Bäume sowie die rückwärtige ruhige Lage sollen erhalten bleiben. Daher ist die enge Zusammenarbeit von Objektplanung Gebäude mit der Objektplanung Freianlagen zwingend erforderlich. Der Erhalt des bestehenden Gartens und ein sensibler Umgang mit den vorhandenen Baum- und Pflanzstrukturen v.a. im Süden des Bestandsgebäudes wird vorausgesetzt. Das Gebäude soll als Holzbau aus städtischem Holz errichtet werden. Die überschlägige Kostenschätzung von Seiten des Bauherrn ergibt Kostengruppe 300 + 400 brutto EUR 4,5 Mio. und für die Kostengruppe 500 brutto EUR 0,4 Mio. Ziel für die Ausführung und Planung ist es, diesen Kostenrahmen nicht zu überschreiten. Der Start der Planung soll Mitte 2026 erfolgen. Umzug der bestehenden Gruppen vom Bestandskindergarten in den Interimskindergarten ist für Mitte 2027 geplant. Eine bauliche Fertigstellung mit Nutzungsaufnahme wird derzeit im Dezember 2029 vorgesehen.",
+  "procedureType": "oth-single",
+  "nuts": [
+   "DE25C"
+  ],
+  "cpv": [
+   "71300000",
+   "71320000",
+   "71315000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fachplanung Technische Ausrüstung gemäß §53 ff. HOAI 2021, Anlagengruppen 4, 5 und 6 der Leistungsphasen 1 – 9 für den Neubau der Kindertagesstätte Breitungstraße in Weißenburg i. Bay..",
+    "description": "Die Stadt Weißenburg i.Bay. plant als Träger die bestehende Kindertagesstätte in der Breitungstraße 16 in Weißenburg rückzubauen und durch einen Neubau zu ersetzen, der baulich sowie pädagogisch aktuellen Ansprüchen gerecht wird.",
+    "cpv": [
+     "71300000",
+     "71320000",
+     "71315000"
+    ],
+    "nuts": [
+     "DE25C"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-06-01+02:00",
+    "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Projektteam",
+      "description": "1. Fachliche Eignung des Projektteams2. Präsenz vor Ort",
+      "weight": 500
+     },
+     {
+      "type": "quality",
+      "name": "Projektabwicklung",
+      "description": "1. Darstellung von typischen Anforderungen und Fallbeispielen bei der Planung und Ausführung von vergleichbaren Baumaßnahmen2. Mitwirkung bei der Erstellung der Leistungsbeschreibungen",
+      "weight": 300
+     },
+     {
+      "type": "price",
+      "name": "Honorar",
+      "description": "Ein Angebots-Gesamthonorar, welches das Honorar des günstigsten Bieters um 50 % oder mehr überschreitet wird mit 0 Punkten bewertet. Unterhalb dieser Schwelle erfolgt die Bewertung durch lineare Interpolation zwischen der Maximalpunktzahl für dieses Kriterium und 0 Punkten.",
+      "weight": 200
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -1,0 +1,124 @@
+{
+ "id": "25950150-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25950150",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25950150",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25950150-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25950150-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25950150?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen",
+  "buyer": "Landkreis Miesbach",
+  "cpv": [
+   "90712100-2"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2023-09-28T11:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25950150",
+  "id": "25950150",
+  "date": "2026-10-20T19:02:12Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Miesbach",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landkreis Miesbach"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Miesbach",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Miesbach"
+   }
+  },
+  "tender": {
+   "title": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen",
+   "description": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen",
+   "procuringEntity": {
+    "name": "Landkreis Miesbach"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90712100-2"
+     },
+     "deliveryAddress": {
+      "locality": "83714 Miesbach",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen",
+     "description": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25950150",
+  "version": "1",
+  "title": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen",
+  "description": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "90712100-2"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen",
+    "description": "Integriertes Mobilitätskonzept für den Landkreis Miesbach erstellen",
+    "cpv": [
+     "90712100-2"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2023-09-28T11:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

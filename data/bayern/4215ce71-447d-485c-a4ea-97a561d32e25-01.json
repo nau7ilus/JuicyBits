@@ -5,14 +5,14 @@
   "noticeId": "4215ce71-447d-485c-a4ea-97a561d32e25",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4215ce71-447d-485c-a4ea-97a561d32e25",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:4215ce71-447d-485c-a4ea-97a561d32e25-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:4215ce71-447d-485c-a4ea-97a561d32e25-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/4215ce71-447d-485c-a4ea-97a561d32e25?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Sanierung und Erweiterung Gasthof „Zum Goldenen Kreuz“ in Röthlein, OT Heidenfeld ● Objektplanung Gebäude und Innenräume + Objektplanung Freianlagen",
   "buyer": "Gemeinde Röthlein",
   "cpv": [
@@ -200,5 +200,91 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "4215ce71-447d-485c-a4ea-97a561d32e25",
+  "version": "01",
+  "title": "Sanierung und Erweiterung Gasthof „Zum Goldenen Kreuz“ in Röthlein, OT Heidenfeld ● Objektplanung Gebäude und Innenräume + Objektplanung Freianlagen",
+  "description": "Die Gemeinde Röthlein beabsichtigt die Sanierung und Erweiterung des Gasthofes „Zum Goldenen Kreuz“ in Röthlein, OT Heidenfeld. ● Die Gesamtkosten (KG 200 – 700) nach DIN 276 werden auf ca. 3,13 Mio. € brutto geschätzt. Das Bauvorhaben wird mit öffentlichen Mitteln gefördert. (Städtebauförderung)",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE26B",
+   "DE262"
+  ],
+  "cpv": [
+   "71200000",
+   "71221000",
+   "71222000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sanierung und Erweiterung Gasthof „Zum Goldenen Kreuz“ in Röthlein, OT Heidenfeld ● Objektplanung Gebäude und Innenräume + Objektplanung Freianlagen",
+    "description": "Verfahrensgegenstand ist die gemeinsame Beauftragung der Architektenleistungen für die Objektplanung Gebäude und Innenräume und für die Objektplanung Freianlagen. ● Es werden zwei getrennte Verträge geschlossen, gem. den Vertragsmustern nach HAV-KOM | Die Vergabe erfolgt ausschließlich gemeinsam an einen Auftragnehmer. ● Objektplanung Gebäude und Innenräume, nach HOAI 2021 Teil 3, Abschnitt 1 §§ 34 ff.: stufenweise Beauftragung der Grundleistungen der Leistungsphasen 1 bis 9 | vorerst nur Stufe 1 mit LPH 1 + 2, einschl. zugehörige Besondere Leistungen | weitere Stufen gem. Vertragsmuster nach HAV-KOM Architektenvertrag – Gebäude und Innenräume ● Objektplanung Freianlagen, nach HOAI 2021, Teil 3, Abschnitt 2, §§ 38 ff.: stufenweise Beauftragung der Grundleistungen der Leistungsphasen 1 bis 9 | vorerst nur Stufe 1 mit LPH 1 \n+ 2, einschl. zugehörige Besondere Leistungen | weitere Stufen gem. Vertragsmuster nach HAV-KOM Architektenvertrag – Freianlagen ● Besondere Leistungen: Planung und Betreuung des Abbruchs / Rückbau | Beraten des AG und Mitwirken bei Förderverfahren | Beraten des AG und Mitwirken bzw. Zuarbeit zum Verwendungsnachweis (Die jeweilige Antragstellung erfolgt durch den AG selbst) ● Die Beauftragung ist entsprechend der Bereitstellung der Finanz- und Fördermittel beabsichtigt. Ein Rechtsanspruch auf die Beauftragung, sowie die Beauftragung mit weiteren Stufen oder Besonderen Leistungen, besteht nicht.",
+    "cpv": [
+     "71200000",
+     "71221000",
+     "71222000"
+    ],
+    "nuts": [
+     "DE262"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": null,
+      "description": "0. Bürovorstellung",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "1. Fachkunde und Qualifikation",
+      "weight": 55
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "2. Projektabwicklung, Organisation, Qualitätssicherung, Dokumentation",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "3. Methoden der Kosten- und Terminsteuerung",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "4. Verfügbarkeit, Kapazitäten, Präsenz",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "5. Gesamteindruck Präsentation / Eindruck verantwortliche Personen",
+      "weight": 50
+     },
+     {
+      "type": "price",
+      "name": null,
+      "description": "6. Honorarangebot",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -1,0 +1,150 @@
+{
+ "id": "25955834-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25955834",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25955834",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25955834-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25955834-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25955834?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag für die Lieferung von Büromaterial",
+  "buyer": "Goethe-Institut e.V. - Zentrale",
+  "cpv": [
+   "30100000-0",
+   "30192700-8",
+   "30192000-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-24T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25955834",
+  "id": "25955834",
+  "date": "2026-10-22T07:00:51Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Goethe-Institut e.V. - Zentrale",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Goethe-Institut e.V. - Zentrale"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Goethe-Institut e.V. - Zentrale",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Goethe-Institut e.V. - Zentrale"
+   }
+  },
+  "tender": {
+   "title": "Rahmenvertrag für die Lieferung von Büromaterial",
+   "description": "Rahmenvertrag für die Lieferung von Büromaterial",
+   "procuringEntity": {
+    "name": "Goethe-Institut e.V. - Zentrale"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30100000-0"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "30192700-8"
+      },
+      {
+       "scheme": "CPV",
+       "id": "30192000-1"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "80333 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YHXM2VX",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rahmenvertrag für die Lieferung von Büromaterial",
+     "description": "Rahmenvertrag für die Lieferung von Büromaterial"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25955834",
+  "version": "1",
+  "title": "Rahmenvertrag für die Lieferung von Büromaterial",
+  "description": "Rahmenvertrag für die Lieferung von Büromaterial",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "30100000-0",
+   "30192700-8",
+   "30192000-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvertrag für die Lieferung von Büromaterial",
+    "description": "Rahmenvertrag für die Lieferung von Büromaterial",
+    "cpv": [
+     "30100000-0",
+     "30192700-8",
+     "30192000-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-24T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

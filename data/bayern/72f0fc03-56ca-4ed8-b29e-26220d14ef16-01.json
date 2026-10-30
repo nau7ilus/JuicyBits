@@ -1,0 +1,274 @@
+{
+ "id": "72f0fc03-56ca-4ed8-b29e-26220d14ef16-01",
+ "source": {
+  "pubDay": "2026-10-19",
+  "noticeId": "72f0fc03-56ca-4ed8-b29e-26220d14ef16",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=72f0fc03-56ca-4ed8-b29e-26220d14ef16",
+  "ocdsFile": "notices_2026-10-19_OCDS.zip:72f0fc03-56ca-4ed8-b29e-26220d14ef16-01.json",
+  "eformsFile": "notices_2026-10-19_eForms.zip:72f0fc03-56ca-4ed8-b29e-26220d14ef16-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/72f0fc03-56ca-4ed8-b29e-26220d14ef16?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Systemdach und Spenglerarbeiten",
+  "buyer": "Gemeinde Bernau am Chiemsee",
+  "cpv": [
+   "45000000",
+   "45210000",
+   "45260000",
+   "45262670",
+   "45262000",
+   "45214200"
+  ],
+  "nuts": [
+   "DE21K"
+  ],
+  "deadline": "2026-11-18T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-26474450-8f52-479e-af2b-8cbb5f1e68c3",
+  "id": "72f0fc03-56ca-4ed8-b29e-26220d14ef16",
+  "date": "2026-10-19T00:00:00+02:00",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband Kommunale Dienste Oberland",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "173793",
+     "legalName": "Zweckverband Kommunale Dienste Oberland"
+    },
+    "address": {
+     "streetAddress": "Prof.-Max-Lange-Platz 9",
+     "locality": "DE216",
+     "region": "DE216",
+     "postalCode": "83646",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ZV KD Oberland Zentrale Beschaffungsstelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:080414417700",
+     "legalName": "ZV KD Oberland Zentrale Beschaffungsstelle"
+    },
+    "address": {
+     "streetAddress": "Prof.-Max-Lange-Platz 9",
+     "locality": "Bad Tölz",
+     "region": "DE216",
+     "postalCode": "83646",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Gemeinde Bernau am Chiemsee",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "t:0805180080",
+     "legalName": "Gemeinde Bernau am Chiemsee"
+    },
+    "address": {
+     "streetAddress": "Rathausplatz 1",
+     "locality": "Bernau am Chiemsee",
+     "region": "DE21K",
+     "postalCode": "83233",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Bernau am Chiemsee",
+   "id": "t:0805180080",
+   "identifier": {
+    "id": "ORG-0028",
+    "legalName": "Gemeinde Bernau am Chiemsee"
+   },
+   "address": {
+    "streetAddress": "Rathausplatz 1",
+    "locality": "Bernau am Chiemsee",
+    "region": "DE21K",
+    "postalCode": "83233",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "26474450-8f52-479e-af2b-8cbb5f1e68c3",
+   "title": "Systemdach und Spenglerarbeiten",
+   "description": "- Auffangnetz: 1.350m²\n- Systemdach REI30: 1370m²\n- Dachverblechung: 1370m²",
+   "procuringEntity": {
+    "name": "Gemeinde Bernau am Chiemsee",
+    "id": "t:0805180080"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45210000",
+       "description": "Building construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45260000",
+       "description": "Roof works and other special trade construction works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45262000",
+       "description": "Special trade construction works other than roof works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45214200",
+       "description": "Construction work for school buildings"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Bernau am Chiemsee",
+      "region": "DE21K",
+      "postalCode": "83233",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304849",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Systemdach und Spenglerarbeiten",
+     "description": "- Auffangnetz: 1.350m²\n- Systemdach REI30: 1370m²\n- Dachverblechung: 1370m²",
+     "contractPeriod": {
+      "startDate": "2027-03-22T00:00:00+01:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "72f0fc03-56ca-4ed8-b29e-26220d14ef16",
+  "version": "01",
+  "title": "Systemdach und Spenglerarbeiten",
+  "description": "- Auffangnetz: 1.350m²\n- Systemdach REI30: 1370m²\n- Dachverblechung: 1370m²",
+  "procedureType": "open",
+  "nuts": [
+   "DE21K"
+  ],
+  "cpv": [
+   "45000000",
+   "45210000",
+   "45260000",
+   "45262670",
+   "45262000",
+   "45214200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Systemdach und Spenglerarbeiten",
+    "description": "- Auffangnetz: 1.350m²\n- Systemdach REI30: 1370m²\n- Dachverblechung: 1370m²",
+    "cpv": [
+     "45000000",
+     "45210000",
+     "45260000",
+     "45262670",
+     "45262000",
+     "45214200"
+    ],
+    "nuts": [
+     "DE21K"
+    ],
+    "deadline": "2026-11-18T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-22+01:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Befähigung zur Berufsausübung einschließlich Auflagen hinsichtlich der Eintragung in die Handwerksrolle/Industrie und Handwerkskammer (wenn Verpflichtung besteht) \nNicht präqualifizierte Unternehmen geben über das Formblatt 124 eine Eigenerklärung über die Eintragung in das Berufs- oder Handelsregister ab (gilt für Bieter, Mitglieder einer Bietergemeinschaft)***\nPräqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft)****"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Nicht präqualifizierte Unternehmen geben über das mit dem Angebot abzugebende Formblatt 124 eine Eigenerklärung ab:\n- Nachweis einer Berufs- oder/ und Betriebshaftpflichtversicherung oder eine Erklärung, dass die Versicherung in der geforderten Höhe/Deckungssummen im Auftragsfall abgeschlossen wird.\n- Umsatz pro Jahr der letzten drei abgeschlossenen Geschäftsjahre, soweit dieser Bauleistungen und andere Leistungen betreffen, die mit der zu vergebenden Leistung vergleichbar ist, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen ab (für Bieter, Mitglieder einer Bietergemeinschaft,)\n- Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation \nbefindet.\n- Falls zutreffend, Erklärung, dass ein Insolvenzplan rechtskräftig bestätigt wurde. \n- Erklärung, dass das Unternehmen seine Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt hat. \n- Erklärung, dass das Unternehmen Mitglied der Berufsgenossenschaft ist. ***\n \nPräqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) und geben hierzu die PQ-Nummer an (gilt für Bieter, Mitglieder einer Bietergemeinschaft)\n***Nimmt der Bieter/Bewerber in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ (Formblatt 236) abzugeben."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Nicht präqualifizierte Unternehmen geben mit dem Angebot folgende Eigenerklärungen ab: \n- 3 Referenzen aus den letzten 5 Jahren unter Verwendung des Formblatts 444 (nur die Seiten 1 und 2) jeweils mit Angaben zum Leistungsgegenstand, Leistungsanteil, zur Zahl der eigenen eingesetzten Arbeitnehmer, zu etwaigen besonderen technischen oder gerätespezifischen Anforderungen/Besonderheiten der Ausführung und zum Auftragswert vor (gilt für Bieter, Mitglieder einer Bietergemeinschaft).\n- über die für die Ausführung der Leistungen erforderlichen Arbeitskräfte stehen zur Verfügung (über Formblatt 124)\nPräqualifizierte Unternehmen führen den Nachweis der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e. V.  und geben hierzu die PQ-Nummer an und legen mit dem Angebot eine Eigenerklärung zu 3 Referenzen über vergleichbare Leistungen aus den letzten 5 Jahren unter Verwendung des Formblatts 444 (nur die Seiten 1 und 2) jeweils mit Angaben zum Leistungsgegenstand, Leistungsanteil, zur Zahl der eigenen eingesetzten Arbeitnehmer, zu etwaigen besonderen technischen oder gerätespezifischen Anforderungen/Besonderheiten der Ausführung und zum Auftragswert vor (gilt für Bieter, Mitglieder einer Bietergemeinschaft).\nAuftragsspezifische Einzelnachweise (von präqualifizierten und nicht präqualifizierten Unternehmen vorzulegen): Mit dem Angebot sind die Teile des Auftrags, die als Unteraufträge an andere Unternehmen vergeben werden sollen, zu benennen (Formblatt 235)."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": true,
+     "description": "Mängelansprüchebürgschaft 2%\nVertragserfüllungsbürgschaft 5%"
+    }
+   }
+  ]
+ }
+}

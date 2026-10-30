@@ -5,14 +5,14 @@
   "noticeId": "3bedb728-a491-4e80-8633-30ab81073140",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3bedb728-a491-4e80-8633-30ab81073140",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:3bedb728-a491-4e80-8633-30ab81073140-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:3bedb728-a491-4e80-8633-30ab81073140-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/3bedb728-a491-4e80-8633-30ab81073140?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Schlosserarbeiten_innen_rerl",
   "buyer": "Münchner Wohnen GmbH",
   "cpv": [
@@ -240,5 +240,55 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3bedb728-a491-4e80-8633-30ab81073140",
+  "version": "01",
+  "title": "Schlosserarbeiten_innen_rerl",
+  "description": "Schlosserarbeiten innen für Freiham WA19",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45000000",
+   "45262670"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schlosserarbeiten_innen_rerl",
+    "description": "Schlosserarbeiten innen für Freiham WA19",
+    "cpv": [
+     "45000000",
+     "45262670"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-25+01:00",
+    "plannedEnd": null,
+    "duration": {
+     "value": 290,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "100 % Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

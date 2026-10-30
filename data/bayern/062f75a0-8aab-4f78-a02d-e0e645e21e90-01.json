@@ -193,6 +193,8 @@
   "noticeId": "062f75a0-8aab-4f78-a02d-e0e645e21e90",
   "version": "01",
   "title": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+  "description": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+  "procedureType": "open",
   "nuts": [
    "DE212"
   ],
@@ -204,6 +206,7 @@
    {
     "id": "LOT-0001",
     "title": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+    "description": "Lieferleistung von Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
     "cpv": [
      "38433300"
     ],
@@ -214,9 +217,22 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": {
+     "value": 10,
+     "unit": "WEEK"
+    },
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis",
+      "weight": null
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

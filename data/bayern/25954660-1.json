@@ -1,0 +1,157 @@
+{
+ "id": "25954660-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954660",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954660",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954660-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954660-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954660?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau",
+  "buyer": "Gemeinde Langweid a. Lech",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-05T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954660",
+  "id": "25954660",
+  "date": "2026-10-21T07:00:48Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Langweid a. Lech",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Langweid a. Lech"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Langweid a. Lech",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Langweid a. Lech"
+   }
+  },
+  "tender": {
+   "title": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau",
+   "description": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau\n\nOrtsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau",
+   "procuringEntity": {
+    "name": "Gemeinde Langweid a. Lech"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "86462 Langweid a. Lech",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/ad17ffec-de3a-46e1-8be4-8f776b1ebc47",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau",
+     "description": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau\n\nOrtsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25954660",
+  "version": "1",
+  "title": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau",
+  "description": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau\n\nOrtsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau",
+    "description": "Ortsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau\n\nOrtsdurchfahrt Achsheim, Kanal- und Wasserleitungsbau",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-05T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "id": "070f5c34-77d2-47c9-a87a-6dacbd25cebb-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "070f5c34-77d2-47c9-a87a-6dacbd25cebb",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=070f5c34-77d2-47c9-a87a-6dacbd25cebb",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:070f5c34-77d2-47c9-a87a-6dacbd25cebb-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:070f5c34-77d2-47c9-a87a-6dacbd25cebb-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/070f5c34-77d2-47c9-a87a-6dacbd25cebb?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Restaurierungsarbeiten Teil 2, Innenräume, Untergeordnete Räume",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "45454100",
+   "45410000",
+   "45442100"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T10:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d621f5b7-33ad-46bc-9a5f-bbbba8ef2f79",
+  "id": "070f5c34-77d2-47c9-a87a-6dacbd25cebb",
+  "date": "2026-10-25T11:32:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d621f5b7-33ad-46bc-9a5f-bbbba8ef2f79",
+   "title": "Restaurierungsarbeiten Teil 2, Innenräume, Untergeordnete Räume",
+   "description": "Generalinstandsetzung des Westfriedhofs, \nBaldustr. 28, 80637 München, \n10. Stadtbezirk, FlNr. 1209/0, Gemarkung Moosach,\nTeil 1 - Hauptanlage  (Untergeordnete Räume)\nGewerk: Restaurierungsarbeiten Innenräume",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45454100",
+      "description": "Restoration work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45410000",
+       "description": "Plastering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45442100",
+       "description": "Painting work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80637",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303728",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Restaurierungsarbeiten Teil 2, Innenräume, Untergeordnete Räume",
+     "description": "Baustelleneinrichtung\t42 KW\t\nDiverse Schutzmaßnahmen\nGrob- und Feinreinigung, Wände + Decken\tca. 9.000 qm\nBestandsanstrich anschleifen, Wände\tca. 6.700 qm\nBestandsanstrich anschleifen, Decken einschl. Gewölbe\tca. 1.100 qm\nLeimfarbbeschichtungen entfernen (Decken, Heißdampf)\tca. 125 qm\nBestandsanstrich entfernen\tca. 500 qm\nBestandsputz abschlagen, flächig + Fensterleibungen\tca. 600 qm\nPutzausbesserungen\nSanierputz, Wände\tca. 80 qm\nKalkputz, Wände\tca. 200 qm\nBrandschutzputz Stahlträger\tca. 230 qm\nWärmedämmputzsystem, Wand- und Fensterleibungen\tca. 1.300 qm\nWärmedämmputzsystem, Decken\tca. 110 qm\nWärmedämmplattensystem, Wand- und Fensterleibungen\tca. 850 qm\n\nAnstrich im Sol-Silikat-System, Putz, Wände\tca. 8.800 qm\nAnstrich im Sol-Silikat-System, Putz, Decken\tca. 1.100qm\nAnstrich im Sol-Silikat-System, TB, Wände\tca. 1.100 qm\nAnstrich im Sol-Silikat-System, TB, Decken\tca. 700 qm\nAnstrich Kalkfarbe, Wände\tca. 1.900 qm\nAnstrich Kalkfarbe, Decken\tca. 120 qm\nArbeitsproben + Musterfläche\tpsch\nUntersuchungen\tpsch\nArbeitsdokumentationen (schriftlich, fotografisch, graphisch)\tpsch\nStundenlohnarbeiten",
+     "contractPeriod": {
+      "durationInDays": 930
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "070f5c34-77d2-47c9-a87a-6dacbd25cebb",
+  "version": "01",
+  "title": "Restaurierungsarbeiten Teil 2, Innenräume, Untergeordnete Räume",
+  "description": "Generalinstandsetzung des Westfriedhofs, \nBaldustr. 28, 80637 München, \n10. Stadtbezirk, FlNr. 1209/0, Gemarkung Moosach,\nTeil 1 - Hauptanlage  (Untergeordnete Räume)\nGewerk: Restaurierungsarbeiten Innenräume",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45454100",
+   "45442100",
+   "45410000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Restaurierungsarbeiten Teil 2, Innenräume, Untergeordnete Räume",
+    "description": "Baustelleneinrichtung\t42 KW\t\nDiverse Schutzmaßnahmen\nGrob- und Feinreinigung, Wände + Decken\tca. 9.000 qm\nBestandsanstrich anschleifen, Wände\tca. 6.700 qm\nBestandsanstrich anschleifen, Decken einschl. Gewölbe\tca. 1.100 qm\nLeimfarbbeschichtungen entfernen (Decken, Heißdampf)\tca. 125 qm\nBestandsanstrich entfernen\tca. 500 qm\nBestandsputz abschlagen, flächig + Fensterleibungen\tca. 600 qm\nPutzausbesserungen\nSanierputz, Wände\tca. 80 qm\nKalkputz, Wände\tca. 200 qm\nBrandschutzputz Stahlträger\tca. 230 qm\nWärmedämmputzsystem, Wand- und Fensterleibungen\tca. 1.300 qm\nWärmedämmputzsystem, Decken\tca. 110 qm\nWärmedämmplattensystem, Wand- und Fensterleibungen\tca. 850 qm\n\nAnstrich im Sol-Silikat-System, Putz, Wände\tca. 8.800 qm\nAnstrich im Sol-Silikat-System, Putz, Decken\tca. 1.100qm\nAnstrich im Sol-Silikat-System, TB, Wände\tca. 1.100 qm\nAnstrich im Sol-Silikat-System, TB, Decken\tca. 700 qm\nAnstrich Kalkfarbe, Wände\tca. 1.900 qm\nAnstrich Kalkfarbe, Decken\tca. 120 qm\nArbeitsproben + Musterfläche\tpsch\nUntersuchungen\tpsch\nArbeitsdokumentationen (schriftlich, fotografisch, graphisch)\tpsch\nStundenlohnarbeiten",
+    "cpv": [
+     "45454100",
+     "45410000",
+     "45442100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-24T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 31,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Zusätzlich zu den Referenzen sind alle weiteren zu erfüllenden Eignungskriterien (Eignung zur Berufsausübung, wirtschaftliche und finanzielle Leistungsfähigkeit, technische und berufliche Leistungsfähigkeit) sowie die zum Nachweis vorzulegenden Unterlagen in dem Dokument \"Eignung_und_Nichtvorliegen_von_Ausschlussgruenden“ aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303728"
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Zusätzlich zu den Fachkundenachweisen für das Personal sind alle weiteren zu erfüllenden Eignungskriterien (Eignung zur Berufsausübung, wirtschaftliche und finanzielle Leistungsfähigkeit, technische und berufliche Leistungsfähigkeit) sowie die zum Nachweis vorzulegenden Unterlagen in dem Dokument \"Eignung_und_Nichtvorliegen_von_Ausschlussgruenden“ aufgeführt, das unter nachstehendem Link direkt abrufbar ist:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303728"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n--\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2 Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

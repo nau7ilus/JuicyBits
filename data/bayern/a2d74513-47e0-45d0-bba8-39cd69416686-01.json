@@ -227,6 +227,8 @@
   "noticeId": "a2d74513-47e0-45d0-bba8-39cd69416686",
   "version": "01",
   "title": "Ersatzneubau BW50 Hauptmaßnahme - BMP",
+  "description": "A3 BW50 Erneuerung Kreuzungsbauwerk A93, Ersatzneubau BW50 Hauptmaßnahme - BMP",
+  "procedureType": "open",
   "nuts": [
    "DE238"
   ],
@@ -242,6 +244,7 @@
    {
     "id": "LOT-0000",
     "title": "Ersatzneubau BW50 Hauptmaßnahme - BMP",
+    "description": "Ersatzneubau BW50 Hauptmaßnahme - BMP\nalle Arbeiten zum Rückbau des bestehenden Bauwerks und der \ndazugehörigen Verkehrswege, der Herstellung des Ersatzneubaus BW 50 (TBW 1-4) sowie Wiederherstellung der A3 und A93 im Bereich der Baumaßnahme.",
     "cpv": [
      "45000000",
      "45221100",
@@ -256,6 +259,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-01-11+01:00",
     "plannedEnd": "2031-04-23+02:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -295,7 +299,16 @@
       "type": "slc-suit-reg-trade",
       "description": "Mit dem Angebot einzureichen:\n\nAngaben zum Eintrag ins Handelsregister, in die Handwerksrolle und/oder bei der Industrie- und Handelskammer bzw., dass das Unternehmen zu keiner Eintragung in v. g. Register verpflichtet ist.\n\nAuf gesondertes Verlangen einzureichen:\n\nVorlage der Gewerbeanmeldung, des Handelsregisterauszugs, der Eintragung in die Handwerksrolle oder der Eintragung bei der Industrie- und Handelskammer oder anderweitige sonstige Nachweise.\n\nBenannte Nachweise und Erklärungen sind auf gesondertes Verlangen des Auftraggebers auch von Nachunternehmern und Mitgliedern einer Bietergemeinschaft einzureichen.\n\nPräqualifizierte Unternehmen\n\nPräqualifizierte Unternehmen können die Nachweise des Nichtvorliegens o. g. Ausschlussgründe und der Eignung durch den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e.V. (Präqualifikationsverzeichnis) führen.\n\nNicht präqualifizierte Unternehmen\n\nNicht präqualifizierte Unternehmen haben als vorläufigen Nachweis der Eignung mit dem Angebot das ausgefüllte Formblatt \"Eigenerklärung zur Eignung\" mit folgenden Angaben in Ziff. I.1. u. I.2. vorzulegen:\n- Angaben über die Eintragung in einem Handelsregister."
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

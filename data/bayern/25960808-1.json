@@ -1,0 +1,161 @@
+{
+ "id": "25960808-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25960808",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25960808",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25960808-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25960808-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25960808?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Ex Post Prallwand - Neubau Henneberg Grundschule",
+  "buyer": "Stadt Bad Kissingen",
+  "cpv": [
+   "45432210-9",
+   "45212225-9",
+   "45421131-1",
+   "45422000-1",
+   "45422100-2",
+   "44221220-3"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25960808",
+  "id": "25960808",
+  "date": "2026-10-23T07:02:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Bad Kissingen",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Bad Kissingen"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Bad Kissingen",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Bad Kissingen"
+   }
+  },
+  "tender": {
+   "title": "Ex Post Prallwand - Neubau Henneberg Grundschule",
+   "description": "Ex Post Prallwand - Neubau Henneberg Grundschule",
+   "procuringEntity": {
+    "name": "Stadt Bad Kissingen"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45432210-9"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45212225-9"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421131-1"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45422000-1"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45422100-2"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44221220-3"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "97688 Bad Kissingen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Ex Post Prallwand - Neubau Henneberg Grundschule",
+     "description": "Ex Post Prallwand - Neubau Henneberg Grundschule"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25960808",
+  "version": "1",
+  "title": "Ex Post Prallwand - Neubau Henneberg Grundschule",
+  "description": "Ex Post Prallwand - Neubau Henneberg Grundschule",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45432210-9",
+   "45212225-9",
+   "45421131-1",
+   "45422000-1",
+   "45422100-2",
+   "44221220-3"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Ex Post Prallwand - Neubau Henneberg Grundschule",
+    "description": "Ex Post Prallwand - Neubau Henneberg Grundschule",
+    "cpv": [
+     "45432210-9",
+     "45212225-9",
+     "45421131-1",
+     "45422000-1",
+     "45422100-2",
+     "44221220-3"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "59b03bee-f919-4e3f-aefe-10c8c57fc4d5",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=59b03bee-f919-4e3f-aefe-10c8c57fc4d5",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:59b03bee-f919-4e3f-aefe-10c8c57fc4d5-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:59b03bee-f919-4e3f-aefe-10c8c57fc4d5-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/59b03bee-f919-4e3f-aefe-10c8c57fc4d5?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Deinstallation, Verlagerung, Wiederinstallation, Inbetriebnahme DualBeam-FIB-SEM-Systems-Opex - PR1262394-3220-P",
   "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
   "cpv": [
@@ -169,5 +169,51 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "59b03bee-f919-4e3f-aefe-10c8c57fc4d5",
+  "version": "01",
+  "title": null,
+  "description": null,
+  "procedureType": "neg-w-call",
+  "nuts": [],
+  "cpv": [
+   "51430000",
+   "50430000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": null,
+    "description": null,
+    "cpv": [
+     "51430000",
+     "50430000"
+    ],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": "2026-11-27T09:00:00+01:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 2,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

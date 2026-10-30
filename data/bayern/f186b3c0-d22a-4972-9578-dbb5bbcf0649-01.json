@@ -5,14 +5,14 @@
   "noticeId": "f186b3c0-d22a-4972-9578-dbb5bbcf0649",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f186b3c0-d22a-4972-9578-dbb5bbcf0649",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:f186b3c0-d22a-4972-9578-dbb5bbcf0649-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:f186b3c0-d22a-4972-9578-dbb5bbcf0649-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/f186b3c0-d22a-4972-9578-dbb5bbcf0649?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
   "buyer": "Stadt Kemnath",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE23A"
   ],
-  "deadline": null,
+  "deadline": "2026-12-01T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -136,5 +136,76 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "f186b3c0-d22a-4972-9578-dbb5bbcf0649",
+  "version": "01",
+  "title": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+  "description": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+  "procedureType": "open",
+  "nuts": [
+   "DE23A"
+  ],
+  "cpv": [
+   "34139200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+    "description": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+    "cpv": [
+     "34139200"
+    ],
+    "nuts": [
+     "DE23A"
+    ],
+    "deadline": "2026-12-01T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 18,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Referenzliste"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Kundendienst",
+      "weight": 5
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Erfüllungsgrad der technischen Leistungsbeschreibung",
+      "weight": 40
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Lieferzeit",
+      "weight": 5
+     },
+     {
+      "type": "cost",
+      "name": "Kostenkriterium",
+      "description": "Preis/Folgekosten",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

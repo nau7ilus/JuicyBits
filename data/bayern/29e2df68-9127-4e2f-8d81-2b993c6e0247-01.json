@@ -1,0 +1,286 @@
+{
+ "id": "29e2df68-9127-4e2f-8d81-2b993c6e0247-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "29e2df68-9127-4e2f-8d81-2b993c6e0247",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=29e2df68-9127-4e2f-8d81-2b993c6e0247",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:29e2df68-9127-4e2f-8d81-2b993c6e0247-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:29e2df68-9127-4e2f-8d81-2b993c6e0247-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/29e2df68-9127-4e2f-8d81-2b993c6e0247?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Sicherheitsdienste, Hofmannstraße 51 Gebäude D, München",
+  "buyer": "Regierung von Oberbayern",
+  "cpv": [
+   "79713000",
+   "79700000",
+   "79992000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-870ba342-057e-4232-9803-b276c58f3af9",
+  "id": "29e2df68-9127-4e2f-8d81-2b993c6e0247",
+  "date": "2026-10-21T02:08:42Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "663ae97e-c321-415e-bcad-626518f051ed",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "1a86dfa1-e75a-4748-8724-5f436cb4ba9d",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "MS-Sicherheitsdienst Magdeburg GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "1425fac5-eca3-4f33-8eef-8b9f78e176b6",
+     "legalName": "MS-Sicherheitsdienst Magdeburg GmbH"
+    },
+    "address": {
+     "locality": "Magdeburg",
+     "region": "DEE03",
+     "postalCode": "39124",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Regierung von Oberbayern",
+   "id": "663ae97e-c321-415e-bcad-626518f051ed",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Regierung von Oberbayern"
+   },
+   "address": {
+    "streetAddress": "Maximilianstr. 39",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80538",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "870ba342-057e-4232-9803-b276c58f3af9",
+   "title": "Sicherheitsdienste, Hofmannstraße 51 Gebäude D, München",
+   "description": "Die Regierung von Oberbayern unterhält im Dienstgebäude Hofmannstr. 51, Gebäude D in 81379 München unter anderem Büroräume für Mitarbeiter der Asylverwaltung. Für diese Liegenschaft werden Sicherheitsleistungen (Objektschutz, Empfangsdienste, Kontrolldienste, Alarmdienste, Unterstützung der Verwaltung im Brandschutz) benötigt.",
+   "procuringEntity": {
+    "name": "Regierung von Oberbayern",
+    "id": "663ae97e-c321-415e-bcad-626518f051ed"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79713000",
+      "description": "Guard services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "79700000",
+       "description": "Investigation and security services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "79992000",
+       "description": "Reception services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Hofmannstraße 51 Gebäude D",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81379",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 0,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-05T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "MS-Sicherheitsdienst Magdeburg GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "MS-Sicherheitsdienst Magdeburg GmbH"
+     },
+     "address": {
+      "locality": "Magdeburg",
+      "region": "DEE03",
+      "postalCode": "39124",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sicherheitsdienste, Hofmannstraße 51 Gebäude D, München",
+     "description": "Die Regierung von Oberbayern unterhält im Dienstgebäude Hofmannstr. 51, Gebäude D in 81379 München unter anderem Büroräume für Mitarbeiter der Asylverwaltung. Für diese Liegenschaft werden Sicherheitsleistungen (Objektschutz, Empfangsdienste, Kontrolldienste, Alarmdienste, Unterstützung der Verwaltung im Brandschutz) benötigt.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "29e2df68-9127-4e2f-8d81-2b993c6e0247",
+  "version": "01",
+  "title": "Sicherheitsdienste, Hofmannstraße 51 Gebäude D, München",
+  "description": "Die Regierung von Oberbayern unterhält im Dienstgebäude Hofmannstr. 51, Gebäude D in 81379 München unter anderem Büroräume für Mitarbeiter der Asylverwaltung. Für diese Liegenschaft werden Sicherheitsleistungen (Objektschutz, Empfangsdienste, Kontrolldienste, Alarmdienste, Unterstützung der Verwaltung im Brandschutz) benötigt.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "79713000",
+   "79700000",
+   "79992000"
+  ],
+  "estimatedValue": {
+   "amount": 0,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sicherheitsdienste, Hofmannstraße 51 Gebäude D, München",
+    "description": "Die Regierung von Oberbayern unterhält im Dienstgebäude Hofmannstr. 51, Gebäude D in 81379 München unter anderem Büroräume für Mitarbeiter der Asylverwaltung. Für diese Liegenschaft werden Sicherheitsleistungen (Objektschutz, Empfangsdienste, Kontrolldienste, Alarmdienste, Unterstützung der Verwaltung im Brandschutz) benötigt.",
+    "cpv": [
+     "79713000",
+     "79700000",
+     "79992000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

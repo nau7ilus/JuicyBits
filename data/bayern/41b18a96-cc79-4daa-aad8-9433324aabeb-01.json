@@ -1,0 +1,203 @@
+{
+ "id": "41b18a96-cc79-4daa-aad8-9433324aabeb-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "41b18a96-cc79-4daa-aad8-9433324aabeb",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=41b18a96-cc79-4daa-aad8-9433324aabeb",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:41b18a96-cc79-4daa-aad8-9433324aabeb-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:41b18a96-cc79-4daa-aad8-9433324aabeb-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/41b18a96-cc79-4daa-aad8-9433324aabeb?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Nürnberg, Regensburger Straße 104 - 106, 470-Feuerlöschanlagen",
+  "buyer": "Bundesagentur für Arbeit, BA-SH GB9",
+  "cpv": [
+   "45343200"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-23T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b50dedd0-a0b8-4536-ab88-6478aab6edd2",
+  "id": "41b18a96-cc79-4daa-aad8-9433324aabeb",
+  "date": "2026-10-22T02:10:27Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit, BA-SH GB9",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992014820190073",
+     "legalName": "Bundesagentur für Arbeit, BA-SH GB9"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Die Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "022894990",
+     "legalName": "Die Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Bundeskanzlerplatz 2-10",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bundesagentur für Arbeit, SB 93 Recht/Vergabe",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "992014820190073",
+     "legalName": "Bundesagentur für Arbeit, SB 93 Recht/Vergabe"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit, BA-SH GB9",
+   "id": "992014820190073",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit, BA-SH GB9"
+   },
+   "address": {
+    "streetAddress": "Lina-Ammon-Straße 9",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90471",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b50dedd0-a0b8-4536-ab88-6478aab6edd2",
+   "title": "Nürnberg, Regensburger Straße 104 - 106, 470-Feuerlöschanlagen",
+   "description": "Feuerlöschanlagen",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit, BA-SH GB9",
+    "id": "992014820190073"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45343200",
+      "description": "Firefighting equipment installation work"
+     },
+     "deliveryLocation": {
+      "description": "Verwaltungszentrum der Bundesagentur für Arbeit, Regensburger Str. 104-106, 90478 Nürnberg, Deutschland."
+     },
+     "deliveryAddress": {
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=901021",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Nürnberg, Regensburger Straße 104 - 106, 470-Feuerlöschanlagen",
+     "description": "Sprinkleranlage (KG 474)\n- 1x Sprinklerzentrale (Nassanlage, OH 3) mit Löschwasserbehälter ca. 100 m³ aus Stahlsegmenten inkl. Stahlunterkonstruktion und Wartungssteg\n- 1x Sprinklerpumpenaggregat mit Dieselmotor, ca. 1.500 l/min bei ca. 40 m, inkl. Steuer- und Überwachungsschrank sowie Abgasleitung DN 100 (ca. 23 m)\n- 1x Druckhalteanlage\n- 1x Nassalarmventilstation DN 100\n- 1x Feuerwehreinspeisung DN 100\n- 1x Nachspeiseeinrichtung DN 32\n- 1x Sprinkler-Überwachungs- und Störmeldezentrale\n- ca. 1.160 St Sprinkler\n- ca. 230 St Wasserschutzschirme für Sprinkler\n- ca. 2.320 m genutete Sprinklerrohrleitung (Stahl) DN 25 - 150 inkl. Formteile, Rillenkupplungen und Rohrhalterungen\n- 5x Strömungsmelder-Prüfstationen DN 50 - 100 inkl. Schlüsselschalter-Bedienstellen und Hauptschlüsselschalter\n- ca. 35 St Spülanschlüsse DN 50 - 100\n- ca. 15 St Entleerungs- bzw. Entlüftungseinrichtungen DN 25\n- ca. 8 St Brandschutz-Rohrdurchführungen durch feuerbeständige Decken/Wände DN 50 - 100\n- ca. 9 St Kernbohrungen D 50 - 250 mm\n- ca. 125 St Kreisausschnitte in GK-Wänden D 50 - 200 mm\n- ca. 22 St tragbare Feuerlöscher (Schaum 6 l und CO2 5 kg) inkl. ca. 8 St Wandeinbauschränke",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2028-12-15T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "41b18a96-cc79-4daa-aad8-9433324aabeb",
+  "version": "01",
+  "title": "Nürnberg, Regensburger Straße 104 - 106, 470-Feuerlöschanlagen",
+  "description": "Feuerlöschanlagen",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "45343200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Nürnberg, Regensburger Straße 104 - 106, 470-Feuerlöschanlagen",
+    "description": "Sprinkleranlage (KG 474)\n- 1x Sprinklerzentrale (Nassanlage, OH 3) mit Löschwasserbehälter ca. 100 m³ aus Stahlsegmenten inkl. Stahlunterkonstruktion und Wartungssteg\n- 1x Sprinklerpumpenaggregat mit Dieselmotor, ca. 1.500 l/min bei ca. 40 m, inkl. Steuer- und Überwachungsschrank sowie Abgasleitung DN 100 (ca. 23 m)\n- 1x Druckhalteanlage\n- 1x Nassalarmventilstation DN 100\n- 1x Feuerwehreinspeisung DN 100\n- 1x Nachspeiseeinrichtung DN 32\n- 1x Sprinkler-Überwachungs- und Störmeldezentrale\n- ca. 1.160 St Sprinkler\n- ca. 230 St Wasserschutzschirme für Sprinkler\n- ca. 2.320 m genutete Sprinklerrohrleitung (Stahl) DN 25 - 150 inkl. Formteile, Rillenkupplungen und Rohrhalterungen\n- 5x Strömungsmelder-Prüfstationen DN 50 - 100 inkl. Schlüsselschalter-Bedienstellen und Hauptschlüsselschalter\n- ca. 35 St Spülanschlüsse DN 50 - 100\n- ca. 15 St Entleerungs- bzw. Entlüftungseinrichtungen DN 25\n- ca. 8 St Brandschutz-Rohrdurchführungen durch feuerbeständige Decken/Wände DN 50 - 100\n- ca. 9 St Kernbohrungen D 50 - 250 mm\n- ca. 125 St Kreisausschnitte in GK-Wänden D 50 - 200 mm\n- ca. 22 St tragbare Feuerlöscher (Schaum 6 l und CO2 5 kg) inkl. ca. 8 St Wandeinbauschränke",
+    "cpv": [
+     "45343200"
+    ],
+    "nuts": [],
+    "deadline": "2026-11-23T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2028-12-15+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das alleinige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

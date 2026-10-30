@@ -1,0 +1,203 @@
+{
+ "id": "983fa59c-2a78-4fb6-9f68-469e5a55a12f-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "983fa59c-2a78-4fb6-9f68-469e5a55a12f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=983fa59c-2a78-4fb6-9f68-469e5a55a12f",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:983fa59c-2a78-4fb6-9f68-469e5a55a12f-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:983fa59c-2a78-4fb6-9f68-469e5a55a12f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/983fa59c-2a78-4fb6-9f68-469e5a55a12f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+  "cpv": [
+   "71541000"
+  ],
+  "nuts": [
+   "DE300",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-2f12b9b2-8538-4ed0-ab94-9870a24bd471",
+  "id": "983fa59c-2a78-4fb6-9f68-469e5a55a12f",
+  "date": "2026-10-16T02:10:56Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)"
+    },
+    "address": {
+     "streetAddress": "Europaplatz 1",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+   "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)"
+   },
+   "address": {
+    "streetAddress": "Europaplatz 1",
+    "locality": "Berlin",
+    "region": "DE300",
+    "postalCode": "10557",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "2f12b9b2-8538-4ed0-ab94-9870a24bd471",
+   "title": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+   "description": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Personenbahnhöfe (Bukr 11)",
+    "id": "a6ceb1fb-e3c6-459d-a608-8a792d7bf449"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71541000",
+      "description": "Construction project management services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/be574ed6-da50-4975-ae44-cc1612538ee8",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+     "description": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2040-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "983fa59c-2a78-4fb6-9f68-469e5a55a12f",
+  "version": "01",
+  "title": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+  "description": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71541000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+    "description": "2. S-Bahn-Stammstrecke München, Terminsteuerung Querschnitt, VE1411",
+    "cpv": [
+     "71541000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-18T10:00:00+01:00",
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2040-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Hiermit erklären wir, dass der Umsatz für Projektsteuerungsleistungen im Mittel der letzten 3 abgeschlossenen Geschäftsjahre mindestens 1.500.000 € Netto betrug.\n\nHiermit erklären wir, dass wir in den genannten Fachbereichen mindestens untenstehende Anzahl an Arbeitskräften in den letzten 3 abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigt haben (nach Berufsgruppen gegliedert).\nReferenznachweise des Bewerbers\nEine vergleichbare Leistung, die innerhalb der letzten 10 Jahre vor dem Zeitpunkt der Veröffentlichung dieses Teilnahmeantrages erbracht wurde, ist nachzuweisen.\n\nEine Referenz gilt als vergleichbar, wenn folgende Mindestanforderungen erfüllt sind:\n1.\tEisenbahninfrastrukturprojekt mit Maßnahmen des Tunnelbaus sowie Hochbau.\n2.\tTerminplanungs- und Steuerungsleistungen mit komplexen Schnittstellen zwischen Planung, Genehmigung und Bauausführung und mehreren Teilprojekten oder Bauabschnitten erbracht \n3.\tProjektlaufzeit (Zeitraum von Grundlagenermittlung bis Fertigstellung der Bauleistung) mindestens 5 Jahre, davon Leistungserbringungszeit des Bewerbers mindestens zwei Jahre in einer bauausführenden Projektphase\n4.\tAuftragssumme der Projektsteuerungsleistung mindestens 2,5 Mio.€ netto. Bei Mitgliedschaft in ARGEN muss ein Eigenleistungsanteil von mindestens 2,5 Mio. € netto dargelegt werden\nBaukosten des Projektes mindestens 200 Mio.€ netto (KG 300, 400)\n\nNachweise über die Qualifikation der vorgesehenen Mitarbeiter mit objektbezogener \nEignung\nAngaben zum vorgesehenen Terminsteuerer 1\n1.\tAbschluss: abgeschlossenes Studium Dipl. Ing./MSc oder vergleichbar\n2.\tmind. 5 Jahre Berufserfahrung als Terminsteuerer\n3.\tmind. 7 Jahre Berufserfahrung in der Ausführung von Infrastrukturprojekten\n4.\tErfahrung in der Erstellung, Pflege und Analyse komplexer Steuerungsterminpläne\n5.\tFundierte Kenntnisse in Terminmanagementmethoden (kritischer Pfad, Soll-Ist-Vergleich, Prognoseverfahren, Szenariobetrachtungen, Terminrisikoanalysen, Meilensteinmanagement, Weg-Zeit-Diagrammen)\n6.\tErfahrungen in der Umsetzung von automatisierte Berichts- und Dashboardlösungen, Berechtigungs- und Rechtekonzepten, Administration und Konfiguration von Terminservern\n7.\tErfahrungen in mindestens drei von den folgenden Systemen: MS Project, Oracle Primavera, TILOS, Power BI, iTWO, PowerProject \n8.\tProjektmanagement-Zertifizierung (PMP), IPMA- Level-Schulung oder vergleichbare Zertifizierung\n9.\tErfahrungen als Schulungsleiter \n\nReferenzen \n\nEine vergleichbare Leistung, die innerhalb der letzten 10 Jahre vor dem Zeitpunkt der Veröffentlichung dieses Teilnahmeantrages erbracht wurde, in der er als Terminsteuerer tätig war.\n\nEine Referenz gilt als vergleichbar, wenn folgende Mindestanforderungen erfüllt sind:\n1.\tEisenbahninfrastrukturprojekt mit Maßnahmen des Tunnelbaus sowie Hochbau.\n2.\tTerminplanungs- und Steuerungsleistungen mit komplexen Schnittstellen zwischen Planung, Genehmigung und Bauausführung und mehreren Teilprojekten oder Bauabschnitten erbracht \n3.\tProjektlaufzeit (Zeitraum von Grundlagenermittlung bis Fertigstellung der Bauleistung) mindestens 5 Jahre, davon Leistungserbringungszeit des vorgesehenen Terminsteuerers mindestens zwei Jahre in einer bauausführenden Projektphase\n4.\tAuftragssumme der Projektsteuerungsleistung mindestens 2,5 Mio.€ netto. \nBaukosten des Projektes mindestens 200 Mio.€ netto (KG 300, 400)\n\nAngaben zum vorgesehenen Terminsteuerer 2\n1.\tAbschluss: abgeschlossenes Studium Dipl. Ing./MSc oder vergleichbar\n2.\tmind. 5 Jahre Berufserfahrung als Terminsteuerer\n3.\tmind. 7 Jahre Berufserfahrung in der Ausführung von Infrastrukturprojekten\n4.\tErfahrung in der Erstellung, Pflege und Analyse komplexer Steuerungsterminpläne\n5.\tFundierte Kenntnisse in Terminmanagementmethoden (kritischer Pfad, Soll-Ist-Vergleich, Prognoseverfahren, Szenariobetrachtungen, Terminrisikoanalysen, Meilensteinmanagement, Weg-Zeit-Diagrammen)\n6.\tErfahrungen in der Umsetzung von automatisierte Berichts- und Dashboardlösungen, Berechtigungs- und Rechtekonzepten, Administration und Konfiguration von Terminservern\n7.\tErfahrungen in mindestens drei von den folgenden Systemen: MS Project, Oracle Primavera, TILOS, Power BI, iTWO, PowerProject \n8.\tProjektmanagement-Zertifizierung (PMP), IPMA- Level-Schulung oder vergleichbare Zertifizierung\n\nReferenzen  \n \nEine vergleichbare Leistung, die innerhalb der letzten 10 Jahre vor dem Zeitpunkt der Veröffentlichung dieses Teilnahmeantrages erbracht wurde, in der er als Terminsteuerer tätig war. \n \nEine Referenz gilt als vergleichbar, wenn folgende Mindestanforderungen erfüllt sind: \n1.\tEisenbahninfrastrukturprojekt mit Maßnahmen des Tunnelbaus sowie Hochbau.\n2.\tTerminplanungs- und Steuerungsleistungen mit komplexen Schnittstellen zwischen Planung, Genehmigung und Bauausführung und mehreren Teilprojekten oder Bauabschnitten erbracht \n3.\tProjektlaufzeit (Zeitraum von Grundlagenermittlung bis Fertigstellung der Bauleistung) mindestens 5 Jahre, davon Leistungserbringungszeit des vorgesehenen Terminsteuerers mindestens zwei Jahre in einer bauausführenden Projektphase\nAuftragssumme der Projektsteuerungsleistung mindestens 2,5 Mio.€ netto. Baukosten des Projektes mindestens 200 Mio.€ netto (KG 300, 400)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "Analyse der Aufgaben- und Problemstellungen",
+      "weight": 40
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,255 @@
+{
+ "id": "a159675f-1797-40f6-88fe-e7e134e19b35-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "a159675f-1797-40f6-88fe-e7e134e19b35",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a159675f-1797-40f6-88fe-e7e134e19b35",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:a159675f-1797-40f6-88fe-e7e134e19b35-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:a159675f-1797-40f6-88fe-e7e134e19b35-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a159675f-1797-40f6-88fe-e7e134e19b35?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Austausch Kältemaschine WKZN nord - Uni Bayreuth",
+  "buyer": "Stadtwerke Bayreuth Energie und Wasser GmbH",
+  "cpv": [
+   "42510000"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6cd0f6a9-1f91-434a-be0b-4adb277396da",
+  "id": "a159675f-1797-40f6-88fe-e7e134e19b35",
+  "date": "2026-10-27T03:12:11Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke Bayreuth Energie und Wasser GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 00000218",
+     "legalName": "Stadtwerke Bayreuth Energie und Wasser GmbH"
+    },
+    "address": {
+     "streetAddress": "Birkenstr. 2",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95447",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811 335 517",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "AGO GmbH Energie + Anlagen",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 322 545 217",
+     "legalName": "AGO GmbH Energie + Anlagen"
+    },
+    "address": {
+     "locality": "Kulmbach",
+     "region": "DE24B",
+     "postalCode": "95326",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke Bayreuth Energie und Wasser GmbH",
+   "id": "Berichtseinheit-ID 00000218",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadtwerke Bayreuth Energie und Wasser GmbH"
+   },
+   "address": {
+    "streetAddress": "Birkenstr. 2",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95447",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6cd0f6a9-1f91-434a-be0b-4adb277396da",
+   "title": "Austausch Kältemaschine WKZN nord - Uni Bayreuth",
+   "description": "Ausbau und Entsorgung der defekten Kältemaschine, wobei verwertbare Teile als Ersatz für die redundante Maschine in der Anlage verbleiben\nLiefern, Montieren und Inbetriebnahme einer neuen Kältemaschine\nProbebetrieb",
+   "procuringEntity": {
+    "name": "Stadtwerke Bayreuth Energie und Wasser GmbH",
+    "id": "Berichtseinheit-ID 00000218"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "42510000",
+      "description": "Heat-exchange units, air-conditioning and refrigerating equipment, and filtering machinery"
+     },
+     "deliveryLocation": {
+      "description": "Gelände der Universität Bayreuth"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Universitätsstr. 30",
+      "locality": "Bayreuth",
+      "region": "DE242",
+      "postalCode": "95444",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 620000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "procurementMethodRationale": "Im Rahmen der planmäßigen Wartung am 07.08.2026 wurden erhebliche technische Mängel festgestellt, die auf eine fortgeschrittene Schadensentwicklung und ein signifikant erhöhtes Ausfallrisiko der Bestandsanlage hinweisen. Die Anlage ist für den laufenden Betrieb von wesentlicher Bedeutung. Zur Minimierung des Betriebsrisikos ist eine schnellstmögliche Einleitung der Ersatzbeschaffung erforderlich. Da die Lieferzeit für die Ersatzanlage voraussichtlich lange dauert und ein Austausch in den Sommermonaten von erheblichem Risiko wäre, führt jede Verzögerung der Zuschlagserteilung unmittelbar zu einer Verlängerung des Zeitraums, in dem die ausfallgefährdete Bestandsanlage betrieben werden muss.",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "AGO GmbH Energie + Anlagen",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "AGO GmbH Energie + Anlagen"
+     },
+     "address": {
+      "locality": "Kulmbach",
+      "region": "DE24B",
+      "postalCode": "95326",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Austausch Kältemaschine WKZN nord - Uni Bayreuth",
+     "description": "- Ausbau und Entsorgung der defekten Kältemaschine, wobei verwertbare Teile als Ersatz für die redundante Maschine in der Anlage verbleiben\n- Liefern, Montieren und Inbetriebnahme einer neuen Kältemaschine\n- Probebetrieb",
+     "value": {
+      "amount": 620000,
+      "currency": "EUR"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 586942.68,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "a159675f-1797-40f6-88fe-e7e134e19b35",
+  "version": "01",
+  "title": "Austausch Kältemaschine WKZN nord - Uni Bayreuth",
+  "description": "Ausbau und Entsorgung der defekten Kältemaschine, wobei verwertbare Teile als Ersatz für die redundante Maschine in der Anlage verbleiben\nLiefern, Montieren und Inbetriebnahme einer neuen Kältemaschine\nProbebetrieb",
+  "procedureType": "open",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "42510000"
+  ],
+  "estimatedValue": {
+   "amount": 620000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Austausch Kältemaschine WKZN nord - Uni Bayreuth",
+    "description": "- Ausbau und Entsorgung der defekten Kältemaschine, wobei verwertbare Teile als Ersatz für die redundante Maschine in der Anlage verbleiben\n- Liefern, Montieren und Inbetriebnahme einer neuen Kältemaschine\n- Probebetrieb",
+    "cpv": [
+     "42510000"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": {
+     "amount": 620000,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Das Angebot mit der höchsten Punktzahl erhält den Zuschlag.\nKriterien sind:\n\n1. der Preis - günstigstes, auskömmlichstes Angebot = 60 Punkte, danach lineare Abwertung\n2. Die Punkte aus einem Qualitätskriterienkatalog max. 40 Punkte",
+      "description": "Bewertet werden Preis und Qualität:\n\nPreis = 60%\nQualität = 40%",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,296 @@
+{
+ "id": "ccbc4b3a-21a6-4c29-b185-52c4951aff48-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "ccbc4b3a-21a6-4c29-b185-52c4951aff48",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ccbc4b3a-21a6-4c29-b185-52c4951aff48",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:ccbc4b3a-21a6-4c29-b185-52c4951aff48-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:ccbc4b3a-21a6-4c29-b185-52c4951aff48-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ccbc4b3a-21a6-4c29-b185-52c4951aff48?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "300 Neuausrichtung Herrenrodelstart Vergabe Generalunternehmerleistung",
+  "buyer": "Landkreis Berchtesgadener Land",
+  "cpv": [
+   "45200000",
+   "45212210",
+   "45231100",
+   "45212200"
+  ],
+  "nuts": [
+   "DE215"
+  ],
+  "deadline": "2026-12-01T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-9a4e1413-d413-4879-aca8-259888936436",
+  "id": "ccbc4b3a-21a6-4c29-b185-52c4951aff48",
+  "date": "2026-10-18T09:10:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Berchtesgadener Land",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9011727-63",
+     "legalName": "Landkreis Berchtesgadener Land"
+    },
+    "address": {
+     "streetAddress": "Salzburger Str. 64",
+     "locality": "Bad Reichenhall",
+     "region": "DE215",
+     "postalCode": "83435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[E-Mail entfernt]",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80543",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Berchtesgadener Land",
+   "id": "09-9011727-63",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Berchtesgadener Land"
+   },
+   "address": {
+    "streetAddress": "Salzburger Str. 64",
+    "locality": "Bad Reichenhall",
+    "region": "DE215",
+    "postalCode": "83435",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "9a4e1413-d413-4879-aca8-259888936436",
+   "title": "300 Neuausrichtung Herrenrodelstart Vergabe Generalunternehmerleistung",
+   "description": "300-Neuausrichtung Herrenrodelstart  Vergabe Generalunternehmerleistung\nKEB - 424100/096100 \nAm Standort der Lotto Bayern Eisarena Königssee wird im Rahmen des Wiederaufbaus der Kunsteisbahn Schönau am Königssee nach Abschluss des ersten Bauabschnitts der Herrenrodelstart neu errichtet. Gegenstand des zweiten Bauabschnitts sind die Errichtung des Herrenrodelstartgebäudes einschließlich der Startstrecke sowie die Anbindung an die bestehende Bahn bis Segment 11. Für dieses Bauvorhaben werden Generalunternehmerleistungen ausgeschrieben. \nDer genaue Leistungsumfang des GU ergibt sich aus den Vergabeunterlagen, insbesondere dem Leistungsverzeichnis und dem Vertrag (Vergabeunterlage 2151KEB_Vetragsbedingungen final).",
+   "procuringEntity": {
+    "name": "Landkreis Berchtesgadener Land",
+    "id": "09-9011727-63"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45200000",
+      "description": "Works for complete or part construction and civil engineering work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45212210",
+       "description": "Single-purpose sports facilities construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45231100",
+       "description": "General construction work for pipelines"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45212200",
+       "description": "Construction work for sports facilities"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Kunsteisbahn Königssee",
+      "locality": "Schönau am Königssee",
+      "region": "DE215",
+      "postalCode": "83471",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304895",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Wiederaufbau Kunsteisbahn Königssee - Neuausrichtung Herrenrodelstart – Vergabe Generalunternehmerleistung",
+     "description": "Die Leistung umfasst insbesondere Erd-, Spezialtiefbau-, Beton-, Stahlbau-, Holzbau-, Dach-, Fassaden-, Ausbau-, TGA-, Elektro-, Aufzugs- und Außenanlagenarbeiten. Gründung im Bereich des Treppenhauses erfolgt als Flachgründung nach vorherigen Bodenaustausch und weitere Maßnahmen wie Tiefgründung, Baugrubenerstellung mit Spritzbetonsicherung. Bestandssicherung des anschließenden, höhergelegenen Bestandgebäudes durch Niederdruck-Injektion. Weitere Flachgründungen bei den Stützen der Bahn. Das Startgebäude besteht aus einem Treppenhaus mit der Grundfläche von ca. 6,15 m x 9,20 m und einer Höhe von ca. 19,15 m. Vom Treppenhaus bis zur gegenüberliegenden Wandscheibe 50 cm dick, 9 m lang und ca. 15,60 m hoch, überspannt das eigentliche Startgebäude mit Zwischen- und Rodelstarteben das Bestandsgebäude über eine Länge von ca. 13,50 m. Die Überspannung erfolgt mit Verbundträger, Länge ca. 13,50 m, Höhe ca. 40 cm – je Deckenplatte 4 Träger. Die Deckenplatten werden als Fertigteilplatten mit Ortbetonergänzung ausgeführt. Das Startgebäude besteht aus zwei Ebenen mit jeweils einer Fläche von ca. 123 m2 und einem bekiesten Flachdach. Die gesamte Höhe des 2-geschoßigen Startgebäudes beträgt ca. 7,50 m. Im Treppenhaus integriert ist ein Aufzug ca. 3,10 m x 2,20 m, Hubhöhe ca. 14,30 m. Das Startgebäude ist mit Fensterbändern – ca. 75 m2 und mit einer vorgehängten Fassade – ca. 195 m2 versehen. Das Treppenhaus erhält eine Bekleidung als Wärmedämm-Verbundsystem. Die zwei Ebenen erhalten eine Fußbodenheizung – Fläche ca. 140 m2. Bodenbelag Kautschukbelag – Fläche ca. 285 m2. Von der Startebene startet die Herrenrodelstartstrecke. Auf einer Länge von ca. 59 m verläuft die Bahnschale in einem U-Trog. Der U-Trog ist ca. 4,45 m breit mit 50 cm Bodenplatte und einer zweiseitigen Brüstung mit jeweiliger Höhe von ca. 1.25 m. Auf der Brüstung sind die Stützen des Wetterschutzsystems (Bahnüberdachung) befestigt. Seitlich neben der Bahnschale im U-Trog angeordnet verläuft auf ca. 58 m Länge ein ca. 1,00 m breiter Gitterroststeg mit Geländer. Die Bahnschale aus Spritzbeton hat eine insgesamte Länge von ca. 104 m und ist in 5 Segmenten unterteilt. Breite i. M. ca. 2,10 m. Die Gründung des U-Trogs erfolgt über Einzelstützen mit Überzug. Die Bahnschale nach dem U Trog gründet auf Einzelfundamente. Außenanlagen ca. 1.000 m2 Asphaltflächen. Sanitär und Heizung erfolgt als Erweiterung vom Bestandsgebäude aus. Lüftungsanlage, Kanallänge ca. 50 m mit Lüftungs-Decken-Gerät. Elektro - Standardbeleuchtung („Büro“), Bahnbeleuchtung zweireihig angeordneten LED-Langfeldleuchten. Die Vergabe Leistungen erfolgt insbesondere auf der Basis des beigefügten Leistungsverzeichnisses nebst Projektunterlagen (Ordner „Pläne und Anlagen) und auf der Grundlage des beigefügten Vertrags (Vergabeunterlage 2152KEB_Vetragsbedingungen final).",
+     "contractPeriod": {
+      "startDate": "2027-01-27T00:00:00+01:00",
+      "endDate": "2028-01-21T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "552164-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "552164-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ccbc4b3a-21a6-4c29-b185-52c4951aff48",
+  "version": "01",
+  "title": "300 Neuausrichtung Herrenrodelstart Vergabe Generalunternehmerleistung",
+  "description": "300-Neuausrichtung Herrenrodelstart  Vergabe Generalunternehmerleistung\nKEB - 424100/096100 \nAm Standort der Lotto Bayern Eisarena Königssee wird im Rahmen des Wiederaufbaus der Kunsteisbahn Schönau am Königssee nach Abschluss des ersten Bauabschnitts der Herrenrodelstart neu errichtet. Gegenstand des zweiten Bauabschnitts sind die Errichtung des Herrenrodelstartgebäudes einschließlich der Startstrecke sowie die Anbindung an die bestehende Bahn bis Segment 11. Für dieses Bauvorhaben werden Generalunternehmerleistungen ausgeschrieben. \nDer genaue Leistungsumfang des GU ergibt sich aus den Vergabeunterlagen, insbesondere dem Leistungsverzeichnis und dem Vertrag (Vergabeunterlage 2151KEB_Vetragsbedingungen final).",
+  "procedureType": "open",
+  "nuts": [
+   "DE215"
+  ],
+  "cpv": [
+   "45200000",
+   "45212210",
+   "45231100",
+   "45212200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Wiederaufbau Kunsteisbahn Königssee - Neuausrichtung Herrenrodelstart – Vergabe Generalunternehmerleistung",
+    "description": "Die Leistung umfasst insbesondere Erd-, Spezialtiefbau-, Beton-, Stahlbau-, Holzbau-, Dach-, Fassaden-, Ausbau-, TGA-, Elektro-, Aufzugs- und Außenanlagenarbeiten. Gründung im Bereich des Treppenhauses erfolgt als Flachgründung nach vorherigen Bodenaustausch und weitere Maßnahmen wie Tiefgründung, Baugrubenerstellung mit Spritzbetonsicherung. Bestandssicherung des anschließenden, höhergelegenen Bestandgebäudes durch Niederdruck-Injektion. Weitere Flachgründungen bei den Stützen der Bahn. Das Startgebäude besteht aus einem Treppenhaus mit der Grundfläche von ca. 6,15 m x 9,20 m und einer Höhe von ca. 19,15 m. Vom Treppenhaus bis zur gegenüberliegenden Wandscheibe 50 cm dick, 9 m lang und ca. 15,60 m hoch, überspannt das eigentliche Startgebäude mit Zwischen- und Rodelstarteben das Bestandsgebäude über eine Länge von ca. 13,50 m. Die Überspannung erfolgt mit Verbundträger, Länge ca. 13,50 m, Höhe ca. 40 cm – je Deckenplatte 4 Träger. Die Deckenplatten werden als Fertigteilplatten mit Ortbetonergänzung ausgeführt. Das Startgebäude besteht aus zwei Ebenen mit jeweils einer Fläche von ca. 123 m2 und einem bekiesten Flachdach. Die gesamte Höhe des 2-geschoßigen Startgebäudes beträgt ca. 7,50 m. Im Treppenhaus integriert ist ein Aufzug ca. 3,10 m x 2,20 m, Hubhöhe ca. 14,30 m. Das Startgebäude ist mit Fensterbändern – ca. 75 m2 und mit einer vorgehängten Fassade – ca. 195 m2 versehen. Das Treppenhaus erhält eine Bekleidung als Wärmedämm-Verbundsystem. Die zwei Ebenen erhalten eine Fußbodenheizung – Fläche ca. 140 m2. Bodenbelag Kautschukbelag – Fläche ca. 285 m2. Von der Startebene startet die Herrenrodelstartstrecke. Auf einer Länge von ca. 59 m verläuft die Bahnschale in einem U-Trog. Der U-Trog ist ca. 4,45 m breit mit 50 cm Bodenplatte und einer zweiseitigen Brüstung mit jeweiliger Höhe von ca. 1.25 m. Auf der Brüstung sind die Stützen des Wetterschutzsystems (Bahnüberdachung) befestigt. Seitlich neben der Bahnschale im U-Trog angeordnet verläuft auf ca. 58 m Länge ein ca. 1,00 m breiter Gitterroststeg mit Geländer. Die Bahnschale aus Spritzbeton hat eine insgesamte Länge von ca. 104 m und ist in 5 Segmenten unterteilt. Breite i. M. ca. 2,10 m. Die Gründung des U-Trogs erfolgt über Einzelstützen mit Überzug. Die Bahnschale nach dem U Trog gründet auf Einzelfundamente. Außenanlagen ca. 1.000 m2 Asphaltflächen. Sanitär und Heizung erfolgt als Erweiterung vom Bestandsgebäude aus. Lüftungsanlage, Kanallänge ca. 50 m mit Lüftungs-Decken-Gerät. Elektro - Standardbeleuchtung („Büro“), Bahnbeleuchtung zweireihig angeordneten LED-Langfeldleuchten. Die Vergabe Leistungen erfolgt insbesondere auf der Basis des beigefügten Leistungsverzeichnisses nebst Projektunterlagen (Ordner „Pläne und Anlagen) und auf der Grundlage des beigefügten Vertrags (Vergabeunterlage 2152KEB_Vetragsbedingungen final).",
+    "cpv": [
+     "45200000",
+     "45212210",
+     "45231100",
+     "45212200"
+    ],
+    "nuts": [
+     "DE215"
+    ],
+    "deadline": "2026-12-01T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-27+01:00",
+    "plannedEnd": "2028-01-21+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "VORBEMERKUNG ZU DEN EIGNUNGSKRITERIEN – FESTLEGUNG ZUR FORM DES NACHWEISES: (1) Die Unternehmen führen den Nachweis der Eignung über Eigenerklärungen. (2) Nichtpräqualifizierte Unternehmen legen für den Nachweis der Eignung mit dem Angebot das in dem jeweiligen Punkt ausgefüllte Formblatt 124 „Eigenerklärung zur Eignung“ vor (soweit zutreffend). (3) ALLE UNTERNEHMEN (unabhängig davon, ob sie präqualifiziert sind oder nicht) müssen das Formblatt „FB_Mindestanforderungen Eignung_“ vorlegen. (4) Die Eigenerklärungen des Formblatts 124 können durch Verweis auf den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e. V.  (Präqualifikationsverzeichnis) erfolgen. Der Bieter hat in diesem Fall die Präqualifikationsnummer mitzuteilen. (5) Soweit Präqualifikation und/oder das Formblatt 124 die erforderliche Erklärung nicht beinhalten, führt der Bieter die Erklärung mit dem Angebot mit dem angegebenen Formblatt, insbesondere mit dem Formblatt „FB_Mindestanforderungen Eignung“. Dies gilt insbesondere auch für den Fall, dass die in der Präqualifikation enthaltenen Referenznachweise nicht ausreichen. (6) Der Auftraggeber behält sich vor, über die Eigenerklärung hinausgehende Nachweise zum Nachweis der Eignung zu verlangen. Für die Anforderung vorbehaltener Unterlagen gilt Folgendes: (a) Der Auftraggeber behält sich die Anforderung von Nachweisen vor, soweit er sich die Anforderung im Text dieser Bekanntmachung ausdrücklich vorbehalten hat. (b) Die Anforderung dieser Nachweise kann vollständig oder teilweise erfolgen. (c) Die Anforderung erfolgt nur bei aussichtsreichen Bietern (§ 122 GWB) (d) Soweit entsprechende Nachweise durch den Auftraggeber angefordert werden, können präqualifizierte Unternehmen den Nachweis durch Verweis auf den Eintrag in die Liste des Vereins für die Präqualifikation von Bauunternehmen e. V Präqualifikationsverzeichnis) führen, soweit zutreffend. (e) Nichtpräqualifizierte Unternehmen führen den Nachweis mittels angeforderter Unterlage. Dies gilt auch für präqualifizierte Unternehmen, wenn das Präqualifikationsverzeichnis den jeweils geforderten Nachweis nicht enthält. (f) Der Bieter wird darauf hingewiesen, dass die vorbehaltenen Nachweise im Fall einer \nAnforderung im angeforderten Umfang vollständig und innerhalb der gesetzten Frist \nvorzulegen sind und eine Nachforderung nach Fristablauf nicht zulässig ist (siehe \n§ 16 EU Nr. 4 Satz 1 VOB/A). (6) Diese Festlegung gilt für alle Anforderungen in Ziffer 5.1.9 der Auftragsbekanntmachung."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "A) Erklärung, dass Ausschlussgründe nach § 6e EU VOB/A nicht vorliegen. Soweit Ausschlussgründe gem. § 6e EU VOB/A vorliegen, ist dies vom Bieter anzuzeigen. Auf gesonderte Anforderung sind vom Bieter die Unterlagen hinsichtlich der Maßnahmen vorzulegen, die der Bieter zur Herstellung seiner Zuverlässigkeit vorgenommen hat (z. B. Unterlagen zur Selbstreinigung)."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "B) Eigenerklärung des Bieters, dass die in § 21 AEntG, § 98c AufenthG, § 19 MiLoG, § 21 SchwarzArbG, 14 BTTG und § 22 LkSG genannten Ausschlussgründe nicht vorliegen bzw. Eigenerklärung für ausländische Bieter, dass keine Ausschlussgründe vorliegen, die nach den Rechtsvorschriften des jeweiligen Landes mit § 21 AEntG, § 98c AufenthG, § 19 MiLoG, § 21 SchwarzArbG, §14 BTTG und § 22 LkSG vergleichbar sind (Gesondertes Formblatt: Formblatt zu weiteren Ausschlussgründen)."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "C) Erklärung, dass keine Eintragungen im Wettbewerbsregister gespeichert sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "D) Erklärung zur Eintragung in die folgenden Register: Handelsregister, Handwerksrolle, Industrie- und Handwerkskammer.\nAuf gesonderte Anforderung ist die Eignung über die Eigenerklärung hinaus durch Vorlage der folgenden Unterlagen nachzuweisen: Gewerbeanmeldung, Eintragung in die Handwerksrolle bzw. bei der Industrie- und Handelskammer."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "E) Erklärung bezüglich der Mitgliedschaft bei der Berufsgenossenschaft. Auf gesonderte Anforderung ist die Eignung über die Eigenerklärung hinaus durch Vorlage der folgenden Unterlagen nachzuweisen: Unbedenklichkeitsbescheinigung der Berufsgenossenschaft"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "F) Erklärung, dass das Unternehmen seine Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt hat Auf gesonderte Anforderung ist die Eignung über die Eigenerklärung hinaus durch Vorlage der folgenden Unterlagen nachzuweisen: Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "G) Erklärung, dass in Bezug auf das Unternehmen ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet oder ein Insolvenzplan rechtskräftig bestätigt wurde. Soweit ein Insolvenzplan rechtskräftig bestätigt worden ist, ist der Bieter verpflichtet, dies gesondert mitzuteilen Auf gesonderte Anforderung ist die Eignung über die Eigenerklärung hinaus durch Vorlage der folgenden Unterlagen nachzuweisen: Insolvenzplan."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "H) Erklärung über den Umsatz des Unternehmens in den letzten drei (3) abgeschlossenen Geschäftsjahren in Euro (netto), soweit er Bauleistungen betrifft unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Die Eigenerklärung ist mit dem Formblatt „FB_Mindestanforderung Eignung“ einzureichen. MINDESTANFORDERUNG UMSATZ FÜR VERGLEICHBARE LEISTUNGEN: Gefordert wird ein Umsatz des Bieters für vergleichbare Leistungen in den letzten drei (3) abgeschlossenen Geschäftsjahren von mindestens 20,00 Mio. EUR (netto) pro Geschäftsjahr. Der Bieter muss also für JEDES der letzten drei (3) abgeschlossenen Geschäftsjahre einen Mindestjahresumsatz für vergleichbare Leistungen von 20,00 Mio. EUR (netto) vorweisen. Vergleichbar mit der verfahrensgegenständlichen Leistung sind Bauleistungen.\nSoweit der Bieter eine Bietergemeinschaft ist, kann diese Mindestanforderung durch die Mitglieder der Bietergemeinschaft gemeinsam erfüllt werden. Auf § 6d EU VOB/A wird hingewiesen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "I) Eigenerklärung zu Referenzen, die mit der ausgeschriebenen Leistung vergleichbar sind: Es sind mindestens drei (3) Referenzen über vergleichbare Bauleistungen aus den letzten zehn (10) Jahren nachzuweisen. Konkret: Inbetriebnahme nicht vor 2016 und die Inbetriebnahme muss zum Abschluss des Ablaufs der Angebotsfrist in diesem Verfahren erfolgt sein. Vergleichbare Leistungen sind im vorliegenden Fall Bauleistungen im Hochbau. 1.) Die Eigenerklärung ist mit dem Formblatt „FB_Mindestanforderung Eignung“ einzureichen. 2.) Für jede Referenz sind mindestens folgende Angaben zu machen: Bezeichnung des Bauvorhabens; Auftraggeber und Ansprechpartner (insbesondere Name, Telefonnummer und E- Mail-Adresse); Ort der Ausführung; Ausführungszeitraum; Stellung des Unternehmens als Hauptauftragnehmer, Mitglied einer Arbeitsgemeinschaft oder Nachunternehmer; Beschreibung des vom Unternehmen tatsächlich ausgeführten Leistungsumfangs; Nettoauftragswert der maßgeblichen eigenen Leistungen sowie Zuordnung zu den Mindestanforderungen 1 bis 3. 3.) Es werden ausschließlich abgeschlossene Projekte anerkannt. Die Referenzen gelten als abgeschlossen, wenn die Inbetriebnahme erfolgt ist. 5.) Die Referenzen, dienen der Prüfung der beruflichen und technischen Leistungsfähigkeit. Auf § 6d EU Abs. 1 Satz 3 VOB/A wird daher nochmals hingewiesen. 5.) MINDESTANFORDERUNGEN HINSICHTLICH DER BERUFLICHEN UND TECHNISCHEN LEISTUNGSFÄHIGKEIT - Referenzen: a) Die Gesamtheit der vorgelegten Referenzen muss sämtliche nachfolgend genannten Mindestanforderungen abdecken. b) Alle Referenzen müssen im Referenzzeitraum letzten zehn (10) Jahren liegen. Konkret: Inbetriebnahme nicht vor 2016 und die Inbetriebnahme muss zum Abschluss des Ablaufs der Angebotsfrist in diesem Verfahren erfolgt sein. c) Die Vorlage von mehr als drei Referenzen ist zulässig. Zudem ist zulässig, dass ein Referenzprojekt mehrere der nachfolgend genannten Anforderungen/Leistungsbereiche abdeckt. Die genannten Anforderungen müssen für sich jedoch jeweils in einer Referenz enthalten sein; eine weitere Aufteilung ist nicht zulässig. d) Die Erfüllung der Mindestanforderungen kann durch eine (1) Referenz erfolgen, die alle Anforderungen der gestellten Mindestanforderungen abdeckt. Es ist jedoch auch möglich, mehrere Referenzen zur Erfüllung der Mindestanforderungen zu nennen. e.) Soweit der Bieter eine Bietergemeinschaft ist, muss die jeweilige Mindestanforderung an die Referenz durch mindestens ein Mitglied der Bietergemeinschaft oder durch eine (gemeinsame) Referenz der Bietergemeinschaft erfüllt werden. f) Zu ERFÜLLENDE MINDESTANFORDERUNGEN: 1) Einzureichen ist mindestens eine Referenz für den Pistenbau (Erstellung der technischen Konstruktion und des schichtweisen Aufbaus des Untergrunds, um eine dauerhafte, ebene und energieeffiziente Eisfläche zu erzeugen) einer Kunsteisbahn mit NH3 Direktverdampfung. 2) Einzureichen ist mindestens eine Referenz für den Bau einer Kunsteisbahn mit mindestens 1800 m² Verdampferfläche (Wärmeübertragungs- oder Auslegungsheizfläche) für NH3. 3) Einzureichen ist mindestens eine Referenz für den Bau und die Inbetriebnahme (also einschließlich der Leistungen der Vorprüfung und Systemtrocknung (mechanische Fertigstellung), der Prüfung der Sicherheits- und Steuerungstechnik, der Erstbefüllung und Dichtigkeitskontrolle unter NH3, des dynamischen Pumptests und des Hydraulischen Abgleichs der Abkühlkurve des Kältesystems) einer Kälteanlage mit mindestens 20 Stück hydraulisch abgeglichenen NH3 direktverdampfenden Kühlstellen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "J) Erklärung, dass dem Unternehmen die für die Ausführung der Leistungen notwendigen Arbeitskräfte zur Verfügung stehen. Auf gesonderte Anforderung ist die Eignung über die Eigenerklärung hinaus durch Vorlage der folgenden Unterlagen nachzuweisen: Erklärung über die Zahl der in den letzten 3 abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten Arbeitskräfte sowie Erklärung hinsichtlich der technischen Fachkräfte, über die das Unternehmen für die Ausführung der Leistung verfügt."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "K) Eigenerklärung zu den einzusetzenden Schlüsselpersonen im ausschreibungsgegenständlichen Auftrag: Für die Ausführung der Baumaßnahme sind mit dem Angebot mindesten folgende Schlüsselpersonen (technische Fachkräfte) zu benennen: 1) der oder die verantwortliche/n Spritzenführer für die Erstellung des Spritzbetons im ausschreibungsgegenständlichen Projekt und 2) der oder die Verantwortliche/n für die Programmierung (Programmierer) der Steuerung der Bobbahn im ausschreibungsgegenständlichen Projekt. .  Die Eigenerklärung ist mit dem Formblatt „FB_Mindestanforderung Eignung“ einzureichen. \nHinsichtlich der benannten Personen sind folgende MINDESTANFORDERUNGEN zu erfüllen: Die folgenden Schlüsselpersonen für die technischen Fachkräfte müssen benannt werden und die jeweils geforderten Qualifikationen mittels einer geeigneten, abgeschlossenen (Inbetriebnahme erfolgt) persönlichen Referenz aus den letzten zehn (10) Jahren (Konkret: Inbetriebnahme nicht vor 2016 und die Inbetriebnahme muss zum Abschluss des Ablaufs der Angebotsfrist in diesem Verfahren erfolgt sein) nachweisen. Bei Angabe der Referenzen der Schlüsselpersonen ist zusätzlich die entsprechende Funktion bei der Ausführung des Auftrags anzugeben. Eine Wertung der Referenzen kann nur erfolgen, wenn die benannte Person bei den für sie angegebenen Referenzprojekten, die für das ausschreibungsgegenständliche Projekt vorgesehene Funktion innehatte.\n 1) Spritzenführer: a) Der oder die Spritzenführer der im ausschreibungsgegenständlichen Projekt eingesetzt wird/werden, ist/sind zu nennen. b) Die Erfahrung der als Spritzenführer einzusetzenden Person/en bei der Erstellung von gewölbten und gekrümmten Flächen &gt; 45° und ≠ 90° sowie über Kopf bei erhöhten Anforderungen nach DIN 18202 (gem. Tabelle 1 und Tabelle 3) ist mittels einem geeigneten, abgeschlossenen (Inbetriebnahme erfolgt) persönlichen Referenzprojekt aus den letzten zehn (10) Jahren (Konkret: Inbetriebnahme nicht vor 2016 und die Inbetriebnahme muss zum Abschluss des Ablaufs der Angebotsfrist in diesem Verfahren erfolgt sein), bei der die einzusetzende Person als Spritzenführer tätig war,  nachzuweisen. c) Erhöhte Anforderungen nach DIN 18202 Tabelle 1 an die Maße sind wie folgt: Nennmaß bis 1m mit einer zulässigen Grenzabweichung +/- 10 mm; Nennmaß 1m bis 3 m mit einer zulässigen Grenzabweichung +/- 12 mm; Nennmaß 3 m bis 6 m mit einer zulässigen Grenzabweichung +/- 16 mm; Nennmaß 6 m bis 15 m mit einer zulässigen Grenzabweichung +/- 20 mm; Nennmaß 15 m bis 30 m mit einer zulässigen Grenzabweichung +/- 25 mm; Nennmaß von über 30 m mit einer zulässigen Grenzabweichung +/- 30 mm. d) Erhöhte Anforderungen nach DIN 18202 Tabelle 3 an die Ebenheit sind wie folgt: Die zulässigen Stichmaße als Grenzwerte für Unebenheiten dürfen in Abhängigkeit vom Messpunktabstand folgende Werte nicht überschreiten: Bei einem Messpunktabstand von 0,1 m: max. 1 mm; Bei einem Messpunktabstand von 1,0 m: max. 3 mm; Bei einem Messpunktabstand von 4,0 m: max. 9 mm; Bei einem Messpunktabstand von 10,0 m: max. 12 mm. e) Soweit mehrere Personen als Spritzenführer eingesetzt werden sollen, ist der Qualifikationsnachweis mittels Referenz für jeden der vorgesehenen Spritzenführer gesondert zu erbringen. 2) Verantwortlicher für die Programmierung (Programmierer) der Bobbahn: a) Der oder die Verantwortlicher/n für die Programmierung (Programmierer) der Steuerung der Bobbahn eingesetzt wird/werden, ist/sind zu nennen. b) Die Erfahrung der einzusetzenden Person/en ist in folgender Weise nachzuweisen: (1) Nachweis der Erfahrung für die druckabhängige, frequenzgerichteten Ansteuerung von mindestens einer NH3 -Hermetic-Pumpe mit mindestens 20m³/h bei mindestens 200m FH NH3 mittels einem geeigneten, abgeschlossenen (Inbetriebnahme erfolgt) persönlichen Referenzprojekt aus den letzten zehn (10) Jahren (Konkret: Inbetriebnahme nicht vor 2016 und die Inbetriebnahme muss zum Abschluss des Ablaufs der Angebotsfrist in diesem Verfahren erfolgt sein.), bei dem der vorgesehene Verantwortliche für die Programmierung (Programmierer) der Bobbahn als verantwortlicher Programmierer tätig war sowie (2) Nachweis der Erfahrung für die Steuerung einer NH3 direktverdampfendend Kunsteisbahn mit mindestens 500 m² Fläche mit SPS Siemens S7 mittels einem geeigneten, abgeschlossenen (Inbetriebnahme erfolgt) persönlichen Referenzprojekt aus den letzten zehn (10) Jahren (Konkret: Inbetriebnahme nicht vor 2016 und die Inbetriebnahme muss zum Abschluss des Ablaufs der Angebotsfrist in diesem Verfahren erfolgt sein.), bei dem der vorgesehene Verantwortliche für die Programmierung (Programmierer) der Bobbahn als verantwortlicher Programmierer tätig war. c) Der Nachweis für die Erfahrung kann mittels derselben oder mit unterschiedlichen Referenzen erfolgen. d) Soweit mehrere Personen als Verantwortlicher für die Programmierung (Programmierer) der Steuerung der Bobbahn eingesetzt werden sollen, ist der Qualifikationsnachweis in der Form der beiden Referenzen für jeden der vorgesehenen Verantwortlichen für die Programmierung (Programmierer) der Steuerung der Bobbahn gesondert zu erbringen. 3. Für jede Referenz der benannte/n Person/en zu 1 und zu 2) sind mindestens folgende Angaben zu machen: Bezeichnung des Bauvorhabens; Auftraggeber und Ansprechpartner (insbesondere Name, Telefonnummer und E- Mail-Adresse); Ort der Ausführung; Ausführungszeitraum; Beschreibung des von der benannten Person tatsächlich ausgeführten Leistungsumfangs hinsichtlich der konkreten Mindestanforderung."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304895\n\nL) Eigenerklärung, dass das/die Unternehmen, welches die Leistungen des Titel 2 (2.7) des Leistungsverzeichnisses erbring/en, eine Zertifizierung für die Erstellung von Rohrleitungen bis einschließlich Kategorie II gem. Art. 14 Abs. 2 b) der europäischen Druckgeräterichtlinie (DGRL) 2014/68/EU besitzt/en. Formblatt Mindestanforderungen – Eignung). Auf gesonderte Anforderung ist die Eignung über die Eigenerklärung hinaus durch Vorlage der Zertifizierung nachzuweisen. Auf § 6d EU VOB/A wird ausdrücklich hingewiesen."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "M) Eigenerklärung, dass das/die Unternehmen, welches die Leistungen des Titel 2 (2.7) des Leistungsverzeichnisses erbringt/en, eine Zertifizierung gem. § 10 Abs. 2 ChemKlimaSchutzVO hat/haben. In einem anderen Mitgliedstaat der Europäischen Union oder in einem anderen Vertragsstaat des Abkommens über den Europäischen Wirtschaftsraum ausgestellte Unternehmenszertifikate nach Artikel 10 Absatz 2 der Verordnung (EU) 2024/573 stehen dem Unternehmenszertifikat § 10 Abs. 2 ChemKlimaSchutzVO gleich (vgl. § 10 Abs. 1 Satz 2 ChemKlimaSchutzVO. Soweit Notwendig hat der Bieter den Nachweis der Gleichwertigkeit zu erbringen. Auf gesonderte Anforderung ist die Eignung über die Eigenerklärung hinaus durch Vorlage der Zertifizierung nachzuweisen. Auf § 6d EU VOB/A wird ausdrücklich hingewiesen."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "N) Eigenerklärung, dass das/die Unternehmen, welches die Leistungen des Titel 2 (2.7) des Leistungsverzeichnisses erbringt/en gem. § 62 AwSV als Fachbetrieb nach Wasserrecht zertifiziert ist/sind. Als Fachbetrieb gilt auch, wer die Anforderungen nach § 62 Abs. 2 AwSV erfüllt und berechtigt ist, in einem anderen Mitgliedstaat der Europäischen Union oder in einem anderen Vertragsstaat des Abkommens über den Europäischen Wirtschaftsraum Tätigkeiten durchzuführen, die in der Bundesrepublik Deutschland nach § 45 AwSV Fachbetrieben vorbehalten sind, sofern der Betrieb in dem anderen Staat einer gleichwertigen Überwachung unterliegt. Soweit Notwendig hat der Bieter den Nachweis der Gleichwertigkeit zu erbringen. Auf gesonderte Anforderung ist die Eignung über die Eigenerklärung hinaus durch Vorlage der Zertifizierung nachzuweisen. Auf § 6d EU VOB/A wird ausdrücklich hingewiesen."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "O) Erklärung (soweit erforderlich) der Bietergemeinschaftsmitglieder einschließlich Benennung desjenigen, der die Bietergemeinschaft vertritt (Formblatt 234). Bei Bietergemeinschaften sind die In Ziffer 5.1.9 Buchstabe A bis H und J  genannten Erklärungen und Nachweise von jedem Mitglied gesondert zu erbringen, soweit im Einzelnen nicht anders vorgegeben. Auf die VORBEMERKUNG ZU DEN EIGNUNGSKRITERIEN – FESTLEGUNG ZUR FORM DES NACHWEISES wird verwiesen. Die Festlegung gilt für Mitglieder einer Bietergemeinschaft entsprechend."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "P) Erklärung zur Eignungsleihe (soweit erforderlich): Eigenerklärung zur Eignungsleihe (Formblatt 235) einschließlich der Verpflichtungserklärung des Unternehmens/sonstigen Dritten (Formblatt 236).\nJedes Unternehmen, dessen Kapazitäten der Bieter für die Erfüllung eines oder mehrerer Eignungskriterien in Anspruch nehmen will, muss folgende Erklärungen vorlegen: \n(1) Erklärung zur Eignungsleihe (Formblatt 235; bei der Eignungsleihe hinsichtlich der technischen und beruflichen Leistungsfähigkeit ist die obere Tabelle auf dem Formblatt auszufüllen)\n(2) Verbindliche Verpflichtungserklärung des jeweiligen Unternehmens, dass ihm die Mittel zur Verfügung stehen werden bzw. dass der Dritte die Leistung ausführen wird (§ 6d Abs. 1 Satz 3 EU VOB/A). Nimmt der Bieter die Kapazitäten eines anderen Unternehmens im Hinblick auf die wirtschaftliche oder finanzielle Leistungsfähigkeit in Anspruch, ist zusätzlich die Abgabe einer gemeinsamen Haftungserklärung hinsichtlich der Auftragsausführung gefordert (Formblatt 236). \n(3) Darüber hinaus sind für das Unternehmen, dessen Kapazitäten in Anspruch genommen werden die folgenden Unterlagen einzureichen: (a) Allgemeine Erklärungen zur Eignung gem. Ziffer 5.1.9 dieser Auftragsbekanntmachung, Buchstabe A bis H. Auf gesonderte Anforderung ist auch für das eignungsverleihende Unternehmen die gem. Ziffer 5.1.9 in den Buchstaben A bis H auf gesonderte Anforderung vorzulegenden Nachweise einzureichen. (b) Nachweis der Eignung des Unternehmens, dessen Kapazitäten der Bieter für die Erfüllung eines oder mehrerer Eignungskriterien in Anspruch nehmen will, in Bezug auf die Eignungskriterien entsprechend dem Umfang der Eignungsleihe. (Verwendung des entsprechenden Formblatts (soweit vorhanden) oder durch Präqualifikationsnummer je nachdem, welche Eignung in Anspruch genommen werden soll). Nicht-präqualifizierte Unternehmen haben zum Nachweis der Eignung auf Anforderung die entsprechend in dieser Auftragsbekanntmachung genannten Nachweise vorzulegen. \n(4) Auf die VORBEMERKUNG ZU DEN EIGNUNGSKRITERIEN – FESTLEGUNG ZUR FORM DES NACHWEISES wird verwiesen. Die Festlegung gilt für Unternehmen, deren Kapazitäten im Rahmen der Eignungsleihe in Anspruch genommen werden, entsprechend."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Einziges Zuschlagskriterium ist der Gesamtwertungspreis. Zur Bildung des Gesamtwertungspreisen wird die Angebotssumme der anzubietenden Wartungsarbeiten addiert. Dabei werden die Wartungskosten über die Gesamtwartungsdauer gerechnet. Dies ergibt die Gesamtkosten der Wartungsarbeiten. Der niedrigste Gesamtwertungspreis bestehend aus Gesamtkosten der Hauptleistung und Gesamtkosten der Wartungsarbeiten ist das wirtschaftlichste Angebot. In diese Wertung gehen nur Bieter ein, die geeignet sind den Auftrag auszuführen. Eine Auftragserteilung erfolgt nur für die Hauptleistung. Hinsichtlich der Beauftragung der Wartung wird auf Ziffer 5.1.1. Unterpunkt „Optionen“ dieser Auftragsbekanntmachung verwiesen.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

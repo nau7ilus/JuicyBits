@@ -5,14 +5,14 @@
   "noticeId": "d2a40105-2db2-4707-9926-bdd5f17d2ccf",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d2a40105-2db2-4707-9926-bdd5f17d2ccf",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:d2a40105-2db2-4707-9926-bdd5f17d2ccf-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:d2a40105-2db2-4707-9926-bdd5f17d2ccf-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/d2a40105-2db2-4707-9926-bdd5f17d2ccf?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Germanisches Nationalmuseum - Sanierung Süd- und Südwestbau Nürnberg - VE426 Kälteanlagen",
   "buyer": "Germanisches Nationalmuseum",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE254"
   ],
-  "deadline": null,
+  "deadline": "2026-11-04T10:00:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -149,5 +149,50 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d2a40105-2db2-4707-9926-bdd5f17d2ccf",
+  "version": "01",
+  "title": "Germanisches Nationalmuseum - Sanierung Süd- und Südwestbau Nürnberg - VE426 Kälteanlagen",
+  "description": "VE426 Kälteanlagen",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45331231"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Germanisches Nationalmuseum - Sanierung Süd- und Südwestbau Nürnberg - VE426 Kälteanlagen",
+    "description": "siehe Leistungsverzeichnis",
+    "cpv": [
+     "45331231"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-04T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-08-02+02:00",
+    "plannedEnd": "2028-08-01+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "-",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -1,0 +1,211 @@
+{
+ "id": "80917500-0e29-48f5-a9ae-077597a353d6-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "80917500-0e29-48f5-a9ae-077597a353d6",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=80917500-0e29-48f5-a9ae-077597a353d6",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:80917500-0e29-48f5-a9ae-077597a353d6-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:80917500-0e29-48f5-a9ae-077597a353d6-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/80917500-0e29-48f5-a9ae-077597a353d6?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "GS EDS, Haus 6 - GaLa-Bau inkl. Erdarbeiten",
+  "buyer": "Gemeinde Veitshöchheim",
+  "cpv": [
+   "45112700"
+  ],
+  "nuts": [
+   "DE26C"
+  ],
+  "deadline": "2026-11-16T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-93930a2a-efd8-4060-b1e8-dc1a10bba9ad",
+  "id": "80917500-0e29-48f5-a9ae-077597a353d6",
+  "date": "2026-10-18T10:58:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Veitshöchheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09679202-V452-59",
+     "legalName": "Gemeinde Veitshöchheim"
+    },
+    "address": {
+     "streetAddress": "Erwin-Vornberger-Platz 1",
+     "locality": "Veitshöchheim",
+     "region": "DE26C",
+     "postalCode": "97209",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Veitshöchheim",
+   "id": "09679202-V452-59",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Veitshöchheim"
+   },
+   "address": {
+    "streetAddress": "Erwin-Vornberger-Platz 1",
+    "locality": "Veitshöchheim",
+    "region": "DE26C",
+    "postalCode": "97209",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "93930a2a-efd8-4060-b1e8-dc1a10bba9ad",
+   "title": "GS EDS, Haus 6 - GaLa-Bau inkl. Erdarbeiten",
+   "description": "Baubeschreibung  Die Gemeinde Veitshöchheim realisiert derzeit den Neubau der Eichendorff-Grund-/ Mittelschule. In diesem Zuge werden entsprechende Außenanlagen mit Zufahrten, Wegen und Aufenthaltsflächen umgesetzt. Das Grundstück mit Gebäudezugang ist im Südwesten an der Günterslebener Straße gelegen. In näherer Umgebung befindet sich die Rupert-Egenberger-Schule, ein Schulsportzentrum, die Kindertagestätte Menschenskinder und auf der gegenüberliegenden Straßenseite ein Wohngebiet. Die Baumaßnahme ist in mehrere Bauabschnitte aufgeteilt. Allgemein muss von beengten Verkehrswegen bei der Baustellenandienung und innerhalb der Baumaßnahme ausgegangen werden.",
+   "procuringEntity": {
+    "name": "Gemeinde Veitshöchheim",
+    "id": "09679202-V452-59"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112700",
+      "description": "Landscaping work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Günterslebener Straße 41",
+      "locality": "Veitshöchheim",
+      "region": "DE26C",
+      "postalCode": "97209",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 1181000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y2ZMWS5/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "GS EDS, Haus 6 - GaLa-Bau inkl. Erdarbeiten",
+     "description": "Hauptmassen:  Gesamt:    ca 1.400 m² Erdarbeiten:  Aushub:  ca. 4.000 m³ Belagsarbeiten:  Fallschutz-belag (EPDM): ca. 30 m²  Betonpflaster:   ca. 1.300 m²  Einfassungen:   ca. 180 m Betonarbeiten:   Treppen/Stufen:  ca. 55 m  Sitzstufen:   ca. 60 m Grünflächen:   Staudenmisch-Pflanzungen:  ca. 30 m²  Bäume:     8 Stück Leuchten:  Lichtstelen:  4 St Ausstattungsgegenstände wie Müllbehälter, Absperrpoller, Sitzelemente, Liegedeck, Fahrradständer, Schilder und Überdachung der Bushaltestelle.",
+     "contractPeriod": {
+      "startDate": "2027-01-11T00:00:00+01:00",
+      "endDate": "2027-09-03T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "80917500-0e29-48f5-a9ae-077597a353d6",
+  "version": "01",
+  "title": "GS EDS, Haus 6 - GaLa-Bau inkl. Erdarbeiten",
+  "description": "Baubeschreibung  Die Gemeinde Veitshöchheim realisiert derzeit den Neubau der Eichendorff-Grund-/ Mittelschule. In diesem Zuge werden entsprechende Außenanlagen mit Zufahrten, Wegen und Aufenthaltsflächen umgesetzt. Das Grundstück mit Gebäudezugang ist im Südwesten an der Günterslebener Straße gelegen. In näherer Umgebung befindet sich die Rupert-Egenberger-Schule, ein Schulsportzentrum, die Kindertagestätte Menschenskinder und auf der gegenüberliegenden Straßenseite ein Wohngebiet. Die Baumaßnahme ist in mehrere Bauabschnitte aufgeteilt. Allgemein muss von beengten Verkehrswegen bei der Baustellenandienung und innerhalb der Baumaßnahme ausgegangen werden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE26C"
+  ],
+  "cpv": [
+   "45112700"
+  ],
+  "estimatedValue": {
+   "amount": 1181000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "GS EDS, Haus 6 - GaLa-Bau inkl. Erdarbeiten",
+    "description": "Hauptmassen:  Gesamt:    ca 1.400 m² Erdarbeiten:  Aushub:  ca. 4.000 m³ Belagsarbeiten:  Fallschutz-belag (EPDM): ca. 30 m²  Betonpflaster:   ca. 1.300 m²  Einfassungen:   ca. 180 m Betonarbeiten:   Treppen/Stufen:  ca. 55 m  Sitzstufen:   ca. 60 m Grünflächen:   Staudenmisch-Pflanzungen:  ca. 30 m²  Bäume:     8 Stück Leuchten:  Lichtstelen:  4 St Ausstattungsgegenstände wie Müllbehälter, Absperrpoller, Sitzelemente, Liegedeck, Fahrradständer, Schilder und Überdachung der Bushaltestelle.",
+    "cpv": [
+     "45112700"
+    ],
+    "nuts": [
+     "DE26C"
+    ],
+    "deadline": "2026-11-16T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-11+01:00",
+    "plannedEnd": "2027-09-03+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Relevante Bildungs- und Berufsqualifikationen"
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Werkzeuge, Anlagen oder technische Ausrüstung"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Allgemeiner Jahresumsatz"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Eintragung in das Handelsregister"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "id": "465f49c6-cff7-4aad-95ae-c3b648c2c78b-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "465f49c6-cff7-4aad-95ae-c3b648c2c78b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=465f49c6-cff7-4aad-95ae-c3b648c2c78b",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:465f49c6-cff7-4aad-95ae-c3b648c2c78b-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:465f49c6-cff7-4aad-95ae-c3b648c2c78b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/465f49c6-cff7-4aad-95ae-c3b648c2c78b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Sicherheitsprüfungen an elektrischen Betriebsmitteln der Universität Augsburg",
+  "buyer": "Universität Augsburg",
+  "cpv": [
+   "71630000"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c86b361d-3603-4491-8efb-d74e63cb359c",
+  "id": "465f49c6-cff7-4aad-95ae-c3b648c2c78b",
+  "date": "2026-10-16T02:10:58Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Universität Augsburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "af6ab25b-977b-4033-834b-38f78e1ce1b7",
+     "legalName": "Universität Augsburg"
+    },
+    "address": {
+     "streetAddress": "Universitätsstraße 2",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86159",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Universität Augsburg, Referat III/2",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0d8e96fb-ee8d-4d05-a71f-da0488885aef",
+     "legalName": "Universität Augsburg, Referat III/2"
+    },
+    "address": {
+     "streetAddress": "Universitätsstraße 2",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86159",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "OMS Prüfservice GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "efcf40e0-a046-474e-9f89-e8675c89a111",
+     "legalName": "OMS Prüfservice GmbH"
+    },
+    "address": {
+     "streetAddress": "Mühlstr. 90",
+     "locality": "Lorch-Waldhausen",
+     "region": "DE11D",
+     "postalCode": "73547",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Universität Augsburg",
+   "id": "af6ab25b-977b-4033-834b-38f78e1ce1b7",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Universität Augsburg"
+   },
+   "address": {
+    "streetAddress": "Universitätsstraße 2",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86159",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c86b361d-3603-4491-8efb-d74e63cb359c",
+   "title": "Sicherheitsprüfungen an elektrischen Betriebsmitteln der Universität Augsburg",
+   "description": "Die Universität Augsburg beabsichtigt die Sicherheitsprüfung steckbarer, ortsveränderlicher elektrischer Betriebsmittel ab November 2026 an einen externen Dienstleister zu vergeben. Insgesamt sind rund 100.000 elektrische Betriebsmittel zu prüfen. Der hierfür vorgesehene Prüfzeitraum beträgt etwa zwei Jahre. Der Auftraggeber hat die Option, den Vertrag einmalig um weitere zwei Jahre zu verlängern. ",
+   "procuringEntity": {
+    "name": "Universität Augsburg",
+    "id": "af6ab25b-977b-4033-834b-38f78e1ce1b7"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Universität Augsburg",
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86159",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-09-18T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "OMS Prüfservice GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "OMS Prüfservice GmbH"
+     },
+     "address": {
+      "streetAddress": "Mühlstr. 90",
+      "locality": "Lorch-Waldhausen",
+      "region": "DE11D",
+      "postalCode": "73547",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sicherheitsprüfungen an elektrischen Betriebsmitteln der Universität Augsburg",
+     "description": "Die Universität Augsburg beabsichtigt die Sicherheitsprüfung steckbarer, ortsveränderlicher elektrischer Betriebsmittel ab November 2026 an einen externen Dienstleister zu vergeben. Insgesamt sind rund 100.000 elektrische Betriebsmittel zu prüfen. Der hierfür vorgesehene Prüfzeitraum beträgt etwa zwei Jahre. Der Auftraggeber hat die Option, den Vertrag einmalig um weitere zwei Jahre zu verlängern. ",
+     "contractPeriod": {
+      "startDate": "2026-11-01T00:00:00+01:00",
+      "endDate": "2028-10-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-02T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "OMS Prüfservice GmbH",
+      "id": "efcf40e0-a046-474e-9f89-e8675c89a111",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "OMS Prüfservice GmbH"
+      },
+      "address": {
+       "streetAddress": "Mühlstr. 90",
+       "locality": "Lorch-Waldhausen",
+       "region": "DE11D",
+       "postalCode": "73547",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 518000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-01T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "465f49c6-cff7-4aad-95ae-c3b648c2c78b",
+  "version": "01",
+  "title": "Sicherheitsprüfungen an elektrischen Betriebsmitteln der Universität Augsburg",
+  "description": "Die Universität Augsburg beabsichtigt die Sicherheitsprüfung steckbarer, ortsveränderlicher elektrischer Betriebsmittel ab November 2026 an einen externen Dienstleister zu vergeben. Insgesamt sind rund 100.000 elektrische Betriebsmittel zu prüfen. Der hierfür vorgesehene Prüfzeitraum beträgt etwa zwei Jahre. Der Auftraggeber hat die Option, den Vertrag einmalig um weitere zwei Jahre zu verlängern.",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "71630000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sicherheitsprüfungen an elektrischen Betriebsmitteln der Universität Augsburg",
+    "description": "Die Universität Augsburg beabsichtigt die Sicherheitsprüfung steckbarer, ortsveränderlicher elektrischer Betriebsmittel ab November 2026 an einen externen Dienstleister zu vergeben. Insgesamt sind rund 100.000 elektrische Betriebsmittel zu prüfen. Der hierfür vorgesehene Prüfzeitraum beträgt etwa zwei Jahre. Der Auftraggeber hat die Option, den Vertrag einmalig um weitere zwei Jahre zu verlängern.",
+    "cpv": [
+     "71630000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-01+01:00",
+    "plannedEnd": "2028-10-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "siehe Vergabeunterlagen",
+      "description": "Der Preis ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen aufgeführt.",
+      "weight": 80
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Vergabeunterlagen",
+      "description": "Die Qualität ist nicht das einzige Zuschlagskriterium; alle Kriterien sind in den Vergabeunterlagen aufgeführt.\nhttps://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/fa164ea1-fcf8-4edf-b725-2fe36a7979a8/awardcriteria",
+      "weight": 20
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,220 @@
+{
+ "id": "9ec90658-058d-479f-b1fc-a4f3d22aa5a8-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "9ec90658-058d-479f-b1fc-a4f3d22aa5a8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9ec90658-058d-479f-b1fc-a4f3d22aa5a8",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:9ec90658-058d-479f-b1fc-a4f3d22aa5a8-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:9ec90658-058d-479f-b1fc-a4f3d22aa5a8-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9ec90658-058d-479f-b1fc-a4f3d22aa5a8?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ersatzbeschaffung eines Pressmüllsammelfahrzeugs",
+  "buyer": "Stadt Schweinfurt",
+  "cpv": [
+   "34144511"
+  ],
+  "nuts": [
+   "DE262"
+  ],
+  "deadline": "2026-11-24T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-aab8df69-7841-40e2-8e76-523e0ba0e87d",
+  "id": "9ec90658-058d-479f-b1fc-a4f3d22aa5a8",
+  "date": "2026-10-25T10:14:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Schweinfurt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09662000-22-10",
+     "legalName": "Stadt Schweinfurt"
+    },
+    "address": {
+     "streetAddress": "Markt 1",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97421",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "000",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Schweinfurt",
+   "id": "09662000-22-10",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Schweinfurt"
+   },
+   "address": {
+    "streetAddress": "Markt 1",
+    "locality": "Schweinfurt",
+    "region": "DE262",
+    "postalCode": "97421",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "aab8df69-7841-40e2-8e76-523e0ba0e87d",
+   "title": "Ersatzbeschaffung eines Pressmüllsammelfahrzeugs",
+   "description": "Ersatzbeschaffung eines 3-Achs-Lastkraftwagen (27to), dritte Achse lenkbar, Pressmüllsammelfahrzeug Heckkipper",
+   "procuringEntity": {
+    "name": "Stadt Schweinfurt",
+    "id": "09662000-22-10"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144511",
+      "description": "Refuse-collection vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Schweinfurt",
+      "region": "DE262",
+      "postalCode": "97421",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305124",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0000",
+     "title": "Ersatzbeschaffung eines Pressmüllsammelfahrzeugs",
+     "description": "Ersatzbeschaffung eines 3-Achs-Lastkraftwagen (27to), dritte Achse lenkbar, Pressmüllsammelfahrzeug Heckkipper",
+     "contractPeriod": {
+      "startDate": "2027-01-25T00:00:00+01:00",
+      "endDate": "2027-10-31T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "9ec90658-058d-479f-b1fc-a4f3d22aa5a8",
+  "version": "01",
+  "title": "Ersatzbeschaffung eines Pressmüllsammelfahrzeugs",
+  "description": "Ersatzbeschaffung eines 3-Achs-Lastkraftwagen (27to), dritte Achse lenkbar, Pressmüllsammelfahrzeug Heckkipper",
+  "procedureType": "open",
+  "nuts": [
+   "DE262"
+  ],
+  "cpv": [
+   "34144511"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Ersatzbeschaffung eines Pressmüllsammelfahrzeugs",
+    "description": "Ersatzbeschaffung eines 3-Achs-Lastkraftwagen (27to), dritte Achse lenkbar, Pressmüllsammelfahrzeug Heckkipper",
+    "cpv": [
+     "34144511"
+    ],
+    "nuts": [
+     "DE262"
+    ],
+    "deadline": "2026-11-24T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-25+01:00",
+    "plannedEnd": "2027-10-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignung ist durch Eintragung in die Liste des Vereins für Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder Eigenerklärungen gem. Formblatt 124 Eigenerklärung zur Eignung oder Einheitliche Europäische Eigenerklärung EEE nachzuweisen. Gelangt das Angebot eines nichtpräqualifizierten Bieters in die engere Wahl, sind die im Formblatt 124 Eigenerklärung zur Eignung angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 Eigenerklärung zur Eignung auch für diese anderen Unternehmen auf Verlangen vorzulegen. Die Unterlagen stehen unter https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/242758 zur Verfügung.\nDes Weiteren der direkte Link: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=242758 für Formblatt 124 und für EEE https://uea.publicprocurement.be/"
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Mit der Angebotsabgabe müssen mindestens 3 baugleiche Fahrzeuge als Referenzfahrzeuge mit ihren Einsatzorten benannt werden."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis: 80",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Volumen Sammelbehälter gem. DIN EN 10205 in m³: 10",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "Eurovolumen der Ladewanne gem. EN 1501-01 in m³: 10",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

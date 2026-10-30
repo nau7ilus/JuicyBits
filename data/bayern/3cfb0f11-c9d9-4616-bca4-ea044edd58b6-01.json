@@ -145,6 +145,8 @@
   "noticeId": "3cfb0f11-c9d9-4616-bca4-ea044edd58b6",
   "version": "01",
   "title": "Rack-Server inkl. Service",
+  "description": "Auftragsgegenstand ist die Lieferung von 6 Rack-Servern inkl. Service",
+  "procedureType": "open",
   "nuts": [],
   "cpv": [
    "48820000"
@@ -154,6 +156,7 @@
    {
     "id": "LOT-0000",
     "title": "Rack-Server inkl. Service",
+    "description": "6 Rack-Server\n60 Monate Service",
     "cpv": [
      "48820000"
     ],
@@ -162,6 +165,7 @@
     "participationDeadline": null,
     "plannedStart": "2026-12-14+01:00",
     "plannedEnd": "2026-12-15+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -169,7 +173,16 @@
       "type": "slc-stand-to-gen",
       "description": "Jahresumsatz der letzten 3 Jahre + geschätzer Umsatz für dieses Jahr, wenn verfügbar (keine Formerfordernis)"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Nur der Preis ist relevant.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

@@ -1,0 +1,162 @@
+{
+ "id": "25901556-2",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25901556",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25901556",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25901556-2.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25901556-2.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25901556?format=ocds&noticeVersion=2"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung Leckagewannen - DB InfraGo AG (losweise)",
+  "buyer": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "44613400",
+   "44614300",
+   "63111000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-30T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25901556",
+  "id": "25901556",
+  "date": "2026-10-27T07:00:24Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+   }
+  },
+  "tender": {
+   "title": "Beschaffung Leckagewannen - DB InfraGo AG (losweise)",
+   "description": "Beschaffung von Leckagewannen für die DB InfraGo AG am Standort Ulm und Augsburg. Das Vorhaben wird zum Teil aus EU Mitteln finanziert: EU- Fördernummer 23-DE-TM-MiMob\nDEU.\n\nBeschaffung Leckagewannen - DB InfraGo AG (losweise)",
+   "procuringEntity": {
+    "name": "DB InfraGO AG ? Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "44613400",
+      "description": "Storage containers"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "44614300",
+       "description": "Container storage system"
+      },
+      {
+       "scheme": "CPV",
+       "id": "63111000",
+       "description": "Container handling services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "00000 divers",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/4c718af3-24f7-4f5c-ba27-e7e798eca4f8",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-27T07:00:24.360Z",
+     "rationale": "geänderte Daten service.bund.de",
+     "description": "geänderte Daten service.bund.de",
+     "amendsReleaseID": "1",
+     "releaseID": "25901556-2"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Beschaffung Leckagewannen - DB InfraGo AG (losweise)",
+     "description": "Beschaffung von Leckagewannen für die DB InfraGo AG am Standort Ulm und Augsburg. Das Vorhaben wird zum Teil aus EU Mitteln finanziert: EU- Fördernummer 23-DE-TM-MiMob\nDEU.\n\nBeschaffung Leckagewannen - DB InfraGo AG (losweise)"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25901556",
+  "version": "2",
+  "title": "Beschaffung Leckagewannen - DB InfraGo AG (losweise)",
+  "description": "Beschaffung von Leckagewannen für die DB InfraGo AG am Standort Ulm und Augsburg. Das Vorhaben wird zum Teil aus EU Mitteln finanziert: EU- Fördernummer 23-DE-TM-MiMob\nDEU.\n\nBeschaffung Leckagewannen - DB InfraGo AG (losweise)",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "44613400",
+   "44614300",
+   "63111000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Beschaffung Leckagewannen - DB InfraGo AG (losweise)",
+    "description": "Beschaffung von Leckagewannen für die DB InfraGo AG am Standort Ulm und Augsburg. Das Vorhaben wird zum Teil aus EU Mitteln finanziert: EU- Fördernummer 23-DE-TM-MiMob\nDEU.\n\nBeschaffung Leckagewannen - DB InfraGo AG (losweise)",
+    "cpv": [
+     "44613400",
+     "44614300",
+     "63111000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-30T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

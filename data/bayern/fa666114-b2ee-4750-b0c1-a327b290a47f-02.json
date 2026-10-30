@@ -1,0 +1,397 @@
+{
+ "id": "fa666114-b2ee-4750-b0c1-a327b290a47f-02",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "fa666114-b2ee-4750-b0c1-a327b290a47f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fa666114-b2ee-4750-b0c1-a327b290a47f",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:fa666114-b2ee-4750-b0c1-a327b290a47f-02.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:fa666114-b2ee-4750-b0c1-a327b290a47f-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fa666114-b2ee-4750-b0c1-a327b290a47f?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Übernahme und Vermarktung von Altpapier aus dem Gebiet des AZV Hof",
+  "buyer": "Abfallzweckverband (AZV) Stadt und Landkreis Hof",
+  "cpv": [
+   "90514000"
+  ],
+  "nuts": [
+   "DE244"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-66b01e8d-2fac-4195-a232-e56cfdc54137",
+  "id": "fa666114-b2ee-4750-b0c1-a327b290a47f",
+  "date": "2026-10-18T08:46:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abfallzweckverband (AZV) Stadt und Landkreis Hof",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10850",
+     "legalName": "Abfallzweckverband (AZV) Stadt und Landkreis Hof"
+    },
+    "address": {
+     "streetAddress": "Kirchplatz 10",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95028",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "1e1feae9-0d38-4f6c-a41d-26be0000d262",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Böhme GmbH Wertstofferfassung",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE132948788",
+     "legalName": "Böhme GmbH Wertstofferfassung"
+    },
+    "address": {
+     "locality": "Rehau",
+     "region": "DE249",
+     "postalCode": "95111",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abfallzweckverband (AZV) Stadt und Landkreis Hof",
+   "id": "10850",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Abfallzweckverband (AZV) Stadt und Landkreis Hof"
+   },
+   "address": {
+    "streetAddress": "Kirchplatz 10",
+    "locality": "Hof",
+    "region": "DE244",
+    "postalCode": "95028",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "66b01e8d-2fac-4195-a232-e56cfdc54137",
+   "title": "Übernahme und Vermarktung von Altpapier aus dem Gebiet des AZV Hof",
+   "description": "Übernahme und Vermarktung des Altpapiers aus dem Gebiet des AZV Hof mit\n• Einrichtung und Betrieb einer bzw. mehrerer Übernahmestellen für Altpapier\n• Ordnungsgemäße Verwertung bzw. Vermarktung des Altpapiers",
+   "procuringEntity": {
+    "name": "Abfallzweckverband (AZV) Stadt und Landkreis Hof",
+    "id": "10850"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90514000",
+      "description": "Refuse recycling services"
+     },
+     "deliveryAddress": {
+      "region": "DE244",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90514000",
+      "description": "Refuse recycling services"
+     },
+     "deliveryAddress": {
+      "region": "DE244",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90514000",
+      "description": "Refuse recycling services"
+     },
+     "deliveryAddress": {
+      "region": "DE244",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Böhme GmbH Wertstofferfassung",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Böhme GmbH Wertstofferfassung"
+     },
+     "address": {
+      "locality": "Rehau",
+      "region": "DE249",
+      "postalCode": "95111",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1: Papiertonne - Stadt Hof",
+     "description": "Übernahme und Vermarktung des Altpapiers aus der Papiertonne der Stadt Hof\n• Einrichtung und Betrieb einer bzw. mehrerer Übernahmestellen für Altpapier\n• Ordnungsgemäße Verwertung bzw. Vermarktung des Altpapiers"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2: Papiertonne - Landkreis Hof",
+     "description": "Übernahme und Vermarktung des Altpapiers aus der Papiertonne des Landkreises Hof\n• Einrichtung und Betrieb einer bzw. mehrerer Übernahmestellen für Altpapier\n• Ordnungsgemäße Verwertung bzw. Vermarktung des Altpapiers"
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3: Altpapier aus Wertstoffhöfen und –mobilen",
+     "description": "Übernahme und Vermarktung des Altpapiers aus den Wertstoffhöfen und -mobilen des AZV Hof\n• Einrichtung und Betrieb einer bzw. mehrerer Übernahmestellen für Altpapier\n• Ordnungsgemäße Verwertung bzw. Vermarktung des Altpapiers"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-17T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-09-17T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-09-17T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-09-16T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2006-09-16T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-09-16T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "fa666114-b2ee-4750-b0c1-a327b290a47f",
+  "version": "02",
+  "title": "Übernahme und Vermarktung von Altpapier aus dem Gebiet des AZV Hof",
+  "description": "Übernahme und Vermarktung des Altpapiers aus dem Gebiet des AZV Hof mit\n• Einrichtung und Betrieb einer bzw. mehrerer Übernahmestellen für Altpapier\n• Ordnungsgemäße Verwertung bzw. Vermarktung des Altpapiers",
+  "procedureType": "open",
+  "nuts": [
+   "DE244"
+  ],
+  "cpv": [
+   "90514000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1: Papiertonne - Stadt Hof",
+    "description": "Übernahme und Vermarktung des Altpapiers aus der Papiertonne der Stadt Hof\n• Einrichtung und Betrieb einer bzw. mehrerer Übernahmestellen für Altpapier\n• Ordnungsgemäße Verwertung bzw. Vermarktung des Altpapiers",
+    "cpv": [
+     "90514000"
+    ],
+    "nuts": [
+     "DE244"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Gesamterlös pro Jahr (netto)",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2: Papiertonne - Landkreis Hof",
+    "description": "Übernahme und Vermarktung des Altpapiers aus der Papiertonne des Landkreises Hof\n• Einrichtung und Betrieb einer bzw. mehrerer Übernahmestellen für Altpapier\n• Ordnungsgemäße Verwertung bzw. Vermarktung des Altpapiers",
+    "cpv": [
+     "90514000"
+    ],
+    "nuts": [
+     "DE244"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Gesamterlös pro Jahr (netto)",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3: Altpapier aus Wertstoffhöfen und –mobilen",
+    "description": "Übernahme und Vermarktung des Altpapiers aus den Wertstoffhöfen und -mobilen des AZV Hof\n• Einrichtung und Betrieb einer bzw. mehrerer Übernahmestellen für Altpapier\n• Ordnungsgemäße Verwertung bzw. Vermarktung des Altpapiers",
+    "cpv": [
+     "90514000"
+    ],
+    "nuts": [
+     "DE244"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Wirtschaftlichstes Angebot unter Berücksichtigung von Transportkosten des Auftraggebers",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "25950254-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25950254",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25950254",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25950254-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25950254-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25950254?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Einbau von Innentüren",
+  "buyer": "Stadt Mindelheim",
+  "cpv": [
+   "45421131-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-17T09:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25950254",
+  "id": "25950254",
+  "date": "2026-10-20T19:01:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Mindelheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Mindelheim"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Mindelheim",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Mindelheim"
+   }
+  },
+  "tender": {
+   "title": "Einbau von Innentüren",
+   "description": "Innentüren/Zargen",
+   "procuringEntity": {
+    "name": "Stadt Mindelheim"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421131-1"
+     },
+     "deliveryAddress": {
+      "locality": "87719 Mindelheim",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28BD40-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Einbau von Innentüren",
+     "description": "Innentüren/Zargen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25950254",
+  "version": "1",
+  "title": "Einbau von Innentüren",
+  "description": "Innentüren/Zargen",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45421131-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Einbau von Innentüren",
+    "description": "Innentüren/Zargen",
+    "cpv": [
+     "45421131-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T09:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

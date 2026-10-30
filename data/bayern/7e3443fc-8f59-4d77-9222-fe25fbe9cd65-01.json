@@ -5,14 +5,14 @@
   "noticeId": "7e3443fc-8f59-4d77-9222-fe25fbe9cd65",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7e3443fc-8f59-4d77-9222-fe25fbe9cd65",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:7e3443fc-8f59-4d77-9222-fe25fbe9cd65-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:7e3443fc-8f59-4d77-9222-fe25fbe9cd65-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/7e3443fc-8f59-4d77-9222-fe25fbe9cd65?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "1002 BKP-ENF-Bezirkskrankenhaus Parsberg - Ersatzneubau Forensik Gewerk: 2024-001 Küchentechnik",
   "buyer": "Med. Einrichtungen des Bez. Oberpfalz - KU",
   "cpv": [
@@ -22,7 +22,7 @@
    "DE232",
    "DE236"
   ],
-  "deadline": null,
+  "deadline": "2026-11-26T09:30:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -135,5 +135,87 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "7e3443fc-8f59-4d77-9222-fe25fbe9cd65",
+  "version": "01",
+  "title": "1002 BKP-ENF-Bezirkskrankenhaus Parsberg - Ersatzneubau Forensik Gewerk: 2024-001 Küchentechnik",
+  "description": "Einrichtungsgegenstände bestehend aus:\nca. 6,0 lfdm CNS-Arbeitstischanlagen\nca. 4,3 lfdm Speisenausgabe\nca. 15,0 lfdm Rammschutzbord\n1 x Gewerbe-Umluft-Kühlschrank für GN 2/1\n2 x Gewerbe-Umluft-Tiefkühlschrank für GN 2/1\n1 x Lagerhochschrank ca. 1200x600x2000\n1 x Wandhängeschrank \n1 x 4-Platten Einbau-Ceranherd\n1 Combi-Dämpfer 10xGN1/1\n1 x Kondensationshaube\n1 x Kaffeemaschine\n1 x Handwaschbecken\n1 x Zulauftisch\n1 x Doppelkorb-Durchschubspülmaschine\n1 x Untertisch-Doppel-Enthärter\n1 x Auslauftisch\n1 x Dunstabzugshaube ca. 1600x1100x500\n2 x Korbschrägbord\n1 x Tellerspender, fahrbar\n2 x Servierwagen\n1 x Tellerspender, fahrbar\n2 x Servierwagen\n1 x Tellerspender, fahrbar\n2 x Servierwagen\n1 x Tellerspender, fahrbar\n2 x Servierwagen",
+  "procedureType": "open",
+  "nuts": [
+   "DE236"
+  ],
+  "cpv": [
+   "45421151"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Küchen 2 Haus 4 Pforte",
+    "description": "Einrichtungsgegenstände bestehend aus:\nca. 6,0 lfdm CNS-Arbeitstischanlagen\nca. 4,3 lfdm Speisenausgabe\nca. 15,0 lfdm Rammschutzbord\n1 x Gewerbe-Umluft-Kühlschrank für GN 2/1\n2 x Gewerbe-Umluft-Tiefkühlschrank für GN 2/1\n1 x Lagerhochschrank ca. 1200x600x2000\n1 x Wandhängeschrank \n1 x 4-Platten Einbau-Ceranherd\n1 Combi-Dämpfer 10xGN1/1\n1 x Kondensationshaube\n1 x Kaffeemaschine\n1 x Handwaschbecken\n1 x Zulauftisch\n1 x Doppelkorb-Durchschubspülmaschine\n1 x Untertisch-Doppel-Enthärter\n1 x Auslauftisch\n1 x Dunstabzugshaube ca. 1600x1100x500\n2 x Korbschrägbord\n1 x Tellerspender, fahrbar\n2 x Servierwagen",
+    "cpv": [
+     "45421151"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": "2026-11-26T09:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-07-05+02:00",
+    "plannedEnd": "2027-08-13+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen\nbetrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemein-sam mit anderen Unternehmen ausgeführten Leistungen.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Angaben zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind. Ich erkläre / Wir erklären, dass ich / wir in den letzten fünf Kalenderjahren bzw. dem in der Auftragsbekanntmachung angegebenen Zeitraum, vergleichbare Leistungen ausgeführt habe/haben.\nFalls mein/unser Teilnahmeantrag/Angebot in die engere Wahl kommt, werde ich /werden wir drei Referenznachweise vorlegen.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Ich/Wir erkläre(n), dass mir/uns die für die Ausführung der Leistungen erforderlichen Arbeitskräfte zur Verfügung stehen. Falls mein/unser Teilnahmeantrag/Angebot in die engere Wahl kommt, werde ich /werden wir die Zahl der in den letzten drei abgeschlossenen Kalenderjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit extra ausgewiesenem technischen Leitungspersonal, angeben.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Falls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde ich/werden wir zur Bestätigung meiner/unserer Erklärung vorlegen:\nGewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Falls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde ich/werden wir zur Bestätigung meiner/unserer Erklärung vorlegen:\nGewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe zu Insolvenzverfahren und Liquidation.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Angabe, dass nachweislich keine schwere Verfehlung begangen wurde, die die Zuverlässigkeit als Bewerber oder Bieter in Frage stellt.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Ich erkläre/wir erklären, dass ich/wir meine/unsere Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt habe/haben.\nFalls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde ich/werden wir eine Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, eine Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen sowie eine Freistellungsbescheinigung nach § 48b EStG vorlegen.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     },
+     {
+      "type": "slc-sec-supply",
+      "description": "Ich bin/Wir sind Mitglied der Berufsgenossenschaft. Falls mein/unser Angebot/Teilnahmeantrag in die engere Wahl kommt, werde ich/werden wir eine qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für mich zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorlegen.\nhttps://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331386"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "der Preis ist das einzige Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

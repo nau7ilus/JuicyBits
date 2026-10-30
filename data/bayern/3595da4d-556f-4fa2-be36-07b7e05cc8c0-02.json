@@ -1,0 +1,234 @@
+{
+ "id": "3595da4d-556f-4fa2-be36-07b7e05cc8c0-02",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "3595da4d-556f-4fa2-be36-07b7e05cc8c0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3595da4d-556f-4fa2-be36-07b7e05cc8c0",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:3595da4d-556f-4fa2-be36-07b7e05cc8c0-02.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:3595da4d-556f-4fa2-be36-07b7e05cc8c0-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3595da4d-556f-4fa2-be36-07b7e05cc8c0?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Tragwerksplanung für Generalsanierung und Teilersatzneubau Rhabanus-Maurus-Gymnasium St. Ottilien",
+  "buyer": "Schulwerk der Diözese Augsburg (kirchliche Stiftung d.Ö.R.)",
+  "cpv": [
+   "71327000"
+  ],
+  "nuts": [
+   "DE271",
+   "DE21E"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-565da18f-9356-4222-aede-bcf071ee1972",
+  "id": "3595da4d-556f-4fa2-be36-07b7e05cc8c0",
+  "date": "2026-10-22T02:09:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Schulwerk der Diözese Augsburg (kirchliche Stiftung d.Ö.R.)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "7371",
+     "legalName": "Schulwerk der Diözese Augsburg (kirchliche Stiftung d.Ö.R.)"
+    },
+    "address": {
+     "streetAddress": "Böheimstr. 8",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86153",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "86dfabb1-6d4c-4a4b-817d-dc06cba50a8a",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80438",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Demuth + Schön Beratende Ingenieure PartG mbB",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE306617838",
+     "legalName": "Demuth + Schön Beratende Ingenieure PartG mbB"
+    },
+    "address": {
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86150",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Schulwerk der Diözese Augsburg (kirchliche Stiftung d.Ö.R.)",
+   "id": "7371",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Schulwerk der Diözese Augsburg (kirchliche Stiftung d.Ö.R.)"
+   },
+   "address": {
+    "streetAddress": "Böheimstr. 8",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86153",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "565da18f-9356-4222-aede-bcf071ee1972",
+   "title": "Tragwerksplanung für Generalsanierung und Teilersatzneubau Rhabanus-Maurus-Gymnasium St. Ottilien",
+   "description": "Das Schulwerk der Diözese Augsburg, kirchliche Stiftung des Öffentlichen Rechts, schreibt die Fachplanung Tragwerksplanung (Leistungsbild § 51 HOAI) für die Generalsanierung und den Teilersatzneubau des Rhabanus-Maurus-Gymnasium in St. Ottilien stufenweise ab der LPh 2 aus.",
+   "procuringEntity": {
+    "name": "Schulwerk der Diözese Augsburg (kirchliche Stiftung d.Ö.R.)",
+    "id": "7371"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71327000",
+      "description": "Load-bearing structure design services"
+     },
+     "deliveryAddress": {
+      "region": "DE21E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Demuth + Schön Beratende Ingenieure PartG mbB",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Demuth + Schön Beratende Ingenieure PartG mbB"
+     },
+     "address": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86150",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Tragwerksplanung für Generalsanierung und Teilersatzneubau Rhabanus-Maurus-Gymnasium St. Ottilien",
+     "description": "Das Schulwerk der Diözese Augsburg, kirchliche Stiftung des Öffentlichen Rechts, schreibt die Fachplanung Tragwerksplanung (Leistungsbild § 51 HOAI) für die Generalsanierung und den Teilersatzneubau des Rhabanus-Maurus-Gymnasium in St. Ottilien stufenweise ab der LPh 2 aus. \n\nDas Rhabanus-Maurus-Gymnasium mit derzeit über 680 Schülerinnen und Schülern und 60 Lehrkräften ist heute in einem Schulgebäude aus den 1960er Jahre beheimatet, das in den 1970er, 1980er und 1990er Jahren erweitert worden ist. Das aktuelle Schulgebäude ist nicht barrierefrei und weist erhebliche funktionale Mängel sowie bauliche / bauphysikalische Mängel auf. Im sog. Tagesheim (ehem. Kloster St. Katharina) sind derzeit Räume für eine Ganztagesbetreuung der Schülerinnen und Schüler untergebracht. Das ehem. Kloster St. Katharina ist zwischenzeitlich als Einzelbaudenkmal unter Denkmalschutz gestellt worden. Nach eingehenden Variantenuntersuchungen ist nunmehr geplant, das ehem. Klosters St. Katharina generalzusanieren und künftig schulisch zu nutzen. Ergänzend soll ein Teilersatzneubau für das Rhabanus-Maurus-Gymnasiums mit einem BRI von ca. 22.754,60 m2 entstehen. Das bestehende Schulgebäude wird überwiegend zurückgebaut. Die Einzelheiten ergeben sich aus der Projektbeschreibung RMG TWP und den beiliegenden Machbarkeitsstudien, die mit den Vergabeunterlagen bereitgestellt werden. Gegenstand dieser Ausschreibung ist die stufenweise Vergabe der erforderlichen Fachplanungsleistungen der Tragwerksplanung nach § 51 HOAI für die Generalsanierung des Klosters St. Katharina und den Teilersatzneubau des Rhabanus-Maurus-Gymnasiums. \n- Stufe 1: Vorplanung (LPH 2). \n- Stufe 2: Entwurfsplanung (LPh 3) und Genehmigungsplanung (LPh 4). \n- Stufe 3: Ausführungsplanung (LPh 5) und Vorbereitung der Vergabe (LPh 6)\n- Stufe 4: besondere Leistungen der Objektüberwachung (LPh 8). \n\nDer Stiftungsrat des Schulwerks hat ein max. Budget von brutto 46,8 Mio. EUR (KG 200 bis 700) beschlossen, das als verbindliche Kostenobergrenze vereinbart wird. \n\nDie Einzelheiten ergeben sich aus dem Ingenieurvertrag Tragwerksplanung und den weiteren Vergabeunterlagen."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3595da4d-556f-4fa2-be36-07b7e05cc8c0",
+  "version": "02",
+  "title": "Tragwerksplanung für Generalsanierung und Teilersatzneubau Rhabanus-Maurus-Gymnasium St. Ottilien",
+  "description": "Das Schulwerk der Diözese Augsburg, kirchliche Stiftung des Öffentlichen Rechts, schreibt die Fachplanung Tragwerksplanung (Leistungsbild § 51 HOAI) für die Generalsanierung und den Teilersatzneubau des Rhabanus-Maurus-Gymnasium in St. Ottilien stufenweise ab der LPh 2 aus.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21E"
+  ],
+  "cpv": [
+   "71327000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Tragwerksplanung für Generalsanierung und Teilersatzneubau Rhabanus-Maurus-Gymnasium St. Ottilien",
+    "description": "Das Schulwerk der Diözese Augsburg, kirchliche Stiftung des Öffentlichen Rechts, schreibt die Fachplanung Tragwerksplanung (Leistungsbild § 51 HOAI) für die Generalsanierung und den Teilersatzneubau des Rhabanus-Maurus-Gymnasium in St. Ottilien stufenweise ab der LPh 2 aus. \n\nDas Rhabanus-Maurus-Gymnasium mit derzeit über 680 Schülerinnen und Schülern und 60 Lehrkräften ist heute in einem Schulgebäude aus den 1960er Jahre beheimatet, das in den 1970er, 1980er und 1990er Jahren erweitert worden ist. Das aktuelle Schulgebäude ist nicht barrierefrei und weist erhebliche funktionale Mängel sowie bauliche / bauphysikalische Mängel auf. Im sog. Tagesheim (ehem. Kloster St. Katharina) sind derzeit Räume für eine Ganztagesbetreuung der Schülerinnen und Schüler untergebracht. Das ehem. Kloster St. Katharina ist zwischenzeitlich als Einzelbaudenkmal unter Denkmalschutz gestellt worden. Nach eingehenden Variantenuntersuchungen ist nunmehr geplant, das ehem. Klosters St. Katharina generalzusanieren und künftig schulisch zu nutzen. Ergänzend soll ein Teilersatzneubau für das Rhabanus-Maurus-Gymnasiums mit einem BRI von ca. 22.754,60 m2 entstehen. Das bestehende Schulgebäude wird überwiegend zurückgebaut. Die Einzelheiten ergeben sich aus der Projektbeschreibung RMG TWP und den beiliegenden Machbarkeitsstudien, die mit den Vergabeunterlagen bereitgestellt werden. Gegenstand dieser Ausschreibung ist die stufenweise Vergabe der erforderlichen Fachplanungsleistungen der Tragwerksplanung nach § 51 HOAI für die Generalsanierung des Klosters St. Katharina und den Teilersatzneubau des Rhabanus-Maurus-Gymnasiums. \n- Stufe 1: Vorplanung (LPH 2). \n- Stufe 2: Entwurfsplanung (LPh 3) und Genehmigungsplanung (LPh 4). \n- Stufe 3: Ausführungsplanung (LPh 5) und Vorbereitung der Vergabe (LPh 6)\n- Stufe 4: besondere Leistungen der Objektüberwachung (LPh 8). \n\nDer Stiftungsrat des Schulwerks hat ein max. Budget von brutto 46,8 Mio. EUR (KG 200 bis 700) beschlossen, das als verbindliche Kostenobergrenze vereinbart wird. \n\nDie Einzelheiten ergeben sich aus dem Ingenieurvertrag Tragwerksplanung und den weiteren Vergabeunterlagen.",
+    "cpv": [
+     "71327000"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

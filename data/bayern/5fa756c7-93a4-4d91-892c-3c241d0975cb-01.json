@@ -1,0 +1,299 @@
+{
+ "id": "5fa756c7-93a4-4d91-892c-3c241d0975cb-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "5fa756c7-93a4-4d91-892c-3c241d0975cb",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5fa756c7-93a4-4d91-892c-3c241d0975cb",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:5fa756c7-93a4-4d91-892c-3c241d0975cb-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:5fa756c7-93a4-4d91-892c-3c241d0975cb-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5fa756c7-93a4-4d91-892c-3c241d0975cb?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "LV 039-2 Trockenbauarbeiten BA 2",
+  "buyer": "Stadt Neusäß",
+  "cpv": [
+   "45324000",
+   "45421141",
+   "45421152"
+  ],
+  "nuts": [
+   "DE276"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-43676c8b-24ca-4da5-af59-a29a6361ee39",
+  "id": "5fa756c7-93a4-4d91-892c-3c241d0975cb",
+  "date": "2026-10-27T03:10:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Neusäß",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09772184-50",
+     "legalName": "Stadt Neusäß"
+    },
+    "address": {
+     "streetAddress": "Hauptstraße 28",
+     "locality": "Neusäß",
+     "region": "DE276",
+     "postalCode": "86465",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Beschaffungsamt des BMI",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "994-DOEVD-83",
+     "legalName": "Beschaffungsamt des BMI"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53119",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "fcae9c05-9a72-4840-ab55-79fc7593a189",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80438",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Lunca Innenausbau GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE341229954",
+     "legalName": "Lunca Innenausbau GmbH"
+    },
+    "address": {
+     "streetAddress": "Buchloerstr.2",
+     "locality": "Langerringen",
+     "region": "DE276",
+     "postalCode": "86853",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Neusäß",
+   "id": "09772184-50",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Neusäß"
+   },
+   "address": {
+    "streetAddress": "Hauptstraße 28",
+    "locality": "Neusäß",
+    "region": "DE276",
+    "postalCode": "86465",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "43676c8b-24ca-4da5-af59-a29a6361ee39",
+   "title": "LV 039-2 Trockenbauarbeiten BA 2",
+   "description": "340 m² Gipskartonwände\n55 m² Mineralwolledecken\n400 lfm Akustikbaffeln\n110 m² Doppelboden",
+   "procuringEntity": {
+    "name": "Stadt Neusäß",
+    "id": "09772184-50"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45324000",
+      "description": "Plasterboard works"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421141",
+       "description": "Installation of partitioning"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421152",
+       "description": "Installation of partition walls"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Neusäß",
+      "region": "DE276",
+      "postalCode": "86356",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-06T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Lunca Innenausbau GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Lunca Innenausbau GmbH"
+     },
+     "address": {
+      "streetAddress": "Buchloerstr.2",
+      "locality": "Langerringen",
+      "region": "DE276",
+      "postalCode": "86853",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "LV 039-2 Trockenbauarbeiten BA 2",
+     "description": "340 m² Gipskartonwände\n55 m² Mineralwolledecken\n400 lfm Akustikbaffeln\n110 m² Doppelboden",
+     "contractPeriod": {
+      "durationInDays": 210
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "LV 039-2 Trockenbauarbeiten BA 2",
+    "status": "active",
+    "date": "2026-10-24T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Lunca Innenausbau GmbH",
+      "id": "DE341229954",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Lunca Innenausbau GmbH"
+      },
+      "address": {
+       "streetAddress": "Buchloerstr.2",
+       "locality": "Langerringen",
+       "region": "DE276",
+       "postalCode": "86853",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "LV 039-2 Trockenbauarbeiten BA 2",
+    "status": "active",
+    "value": {
+     "amount": 108805.2,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-23T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "5fa756c7-93a4-4d91-892c-3c241d0975cb",
+  "version": "01",
+  "title": "LV 039-2 Trockenbauarbeiten BA 2",
+  "description": "340 m² Gipskartonwände\n55 m² Mineralwolledecken\n400 lfm Akustikbaffeln\n110 m² Doppelboden",
+  "procedureType": "open",
+  "nuts": [
+   "DE276"
+  ],
+  "cpv": [
+   "45324000",
+   "45421141",
+   "45421152"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "LV 039-2 Trockenbauarbeiten BA 2",
+    "description": "340 m² Gipskartonwände\n55 m² Mineralwolledecken\n400 lfm Akustikbaffeln\n110 m² Doppelboden",
+    "cpv": [
+     "45324000",
+     "45421141",
+     "45421152"
+    ],
+    "nuts": [
+     "DE276"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 7,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis als einziges Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

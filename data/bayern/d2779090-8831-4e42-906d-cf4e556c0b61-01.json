@@ -1,0 +1,228 @@
+{
+ "id": "d2779090-8831-4e42-906d-cf4e556c0b61-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "d2779090-8831-4e42-906d-cf4e556c0b61",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d2779090-8831-4e42-906d-cf4e556c0b61",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:d2779090-8831-4e42-906d-cf4e556c0b61-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:d2779090-8831-4e42-906d-cf4e556c0b61-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d2779090-8831-4e42-906d-cf4e556c0b61?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Sicherheitsdienstleistungen sowie Wach-, Schließ- und Kontrolltätigkeiten am Universitätsklinikum Regensburg",
+  "buyer": "Universitätsklinikum Regensburg AöR",
+  "cpv": [
+   "79710000",
+   "79715000",
+   "79713000"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": "2026-11-11T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f98ff731-c992-4cfa-b4dc-a95a04d27ea7",
+  "id": "d2779090-8831-4e42-906d-cf4e556c0b61",
+  "date": "2026-10-25T11:16:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Universitätsklinikum Regensburg AöR",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09419440",
+     "legalName": "Universitätsklinikum Regensburg AöR"
+    },
+    "address": {
+     "streetAddress": "Franz-Josef-Strauß-Allee 11",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:0981531277",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Universitätsklinikum Regensburg AöR",
+   "id": "t:09419440",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Universitätsklinikum Regensburg AöR"
+   },
+   "address": {
+    "streetAddress": "Franz-Josef-Strauß-Allee 11",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f98ff731-c992-4cfa-b4dc-a95a04d27ea7",
+   "title": "Sicherheitsdienstleistungen sowie Wach-, Schließ- und Kontrolltätigkeiten am Universitätsklinikum Regensburg",
+   "description": "Gegenstand ist die einheitlich koordinierte Erbringung stationärer Sicherheitsdienste am Haupteingang und an der Notaufnahme sowie einer eigenständig besetzten mobilen Funktion für Wach-, Schließ- und Kontrolltätigkeiten.",
+   "procuringEntity": {
+    "name": "Universitätsklinikum Regensburg AöR",
+    "id": "t:09419440"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79710000",
+      "description": "Security services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "79715000",
+       "description": "Patrol services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "79713000",
+       "description": "Guard services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Franz-Josef-Strauß-Allee 11",
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93053",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 1470000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "procurementMethodRationale": "Der bestehende Sicherheitsdienstvertrag läuft seit dem 01.09.2025 und war inzwischen monatlich kündbar. Am 21.10.2026 teilte der bisherige Auftragnehmer dem UKR die Kündigung des Vertrags mit Wirkung zum 30.11.2026 mit. Die konkrete Kündigung verkürzt den bislang verfügbaren Zeitraum für Durchführung, Wertung, Zuschlag und Mobilisierung erheblich. Die fortlaufende Absicherung des Klinikbetriebs ist wegen des jederzeitigen Patienten-, Besucher- und Beschäftigtenverkehrs erforderlich.",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4DAHM10V/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sicherheitsdienstleistungen sowie Wach-, Schließ- und Kontrolltätigkeiten am Universitätsklinikum Regensburg",
+     "description": "Gegenstand ist die einheitlich koordinierte Erbringung stationärer Sicherheitsdienste am Haupteingang und an der Notaufnahme sowie einer eigenständig besetzten mobilen Funktion für Wach-, Schließ- und Kontrolltätigkeiten.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d2779090-8831-4e42-906d-cf4e556c0b61",
+  "version": "01",
+  "title": "Sicherheitsdienstleistungen sowie Wach-, Schließ- und Kontrolltätigkeiten am Universitätsklinikum Regensburg",
+  "description": "Gegenstand ist die einheitlich koordinierte Erbringung stationärer Sicherheitsdienste am Haupteingang und an der Notaufnahme sowie einer eigenständig besetzten mobilen Funktion für Wach-, Schließ- und Kontrolltätigkeiten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "79710000",
+   "79715000",
+   "79713000"
+  ],
+  "estimatedValue": {
+   "amount": 1470000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Sicherheitsdienstleistungen sowie Wach-, Schließ- und Kontrolltätigkeiten am Universitätsklinikum Regensburg",
+    "description": "Gegenstand ist die einheitlich koordinierte Erbringung stationärer Sicherheitsdienste am Haupteingang und an der Notaufnahme sowie einer eigenständig besetzten mobilen Funktion für Wach-, Schließ- und Kontrolltätigkeiten.",
+    "cpv": [
+     "79710000",
+     "79715000",
+     "79713000"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": "2026-11-11T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Wertungspreis",
+      "description": "Der Wertungspreis ergibt sich aus dem vom Bieter vollständig ausgefüllten Preisblatt. Maßgeblich ist der dort ausgewiesene Gesamtwertungspreis einschließlich der vom UKR vorgegebenen Wertungsmengen für Optionen und Bedarfsleistungen. Aus den Wertungsmengen entsteht keine Abnahmeverpflichtung.",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Auftragsbezogenes Umsetzungskonzept",
+      "description": "Der Bieter hat mit dem Angebot ein zusammenhängendes, konkret auf die ausgeschriebenen Leistungen am UKR bezogenes Umsetzungskonzept einzureichen. Das Konzept soll erkennen lassen, wie der Bieter die Vorgaben des Leistungsverzeichnisses organisatorisch und qualitativ umsetzt.",
+      "weight": 40
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

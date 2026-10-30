@@ -5,14 +5,14 @@
   "noticeId": "97744796-f447-45ed-94c1-474293c3f58d",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=97744796-f447-45ed-94c1-474293c3f58d",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:97744796-f447-45ed-94c1-474293c3f58d-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:97744796-f447-45ed-94c1-474293c3f58d-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/97744796-f447-45ed-94c1-474293c3f58d?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Fraunhofer-Gesellschaft 80-00031-2800-A1 Objektplanung Gebäude - Rahmenvereinbarung Reg 15_02",
   "buyer": "Fraunhofer-Gesellschaft e.V. - Vergabestelle Bau",
   "cpv": [
@@ -20,7 +20,8 @@
   ],
   "nuts": [
    "DE212",
-   "DEC01"
+   "DEC01",
+   "DEC05"
   ],
   "deadline": null,
   "lots": 1
@@ -146,5 +147,114 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "97744796-f447-45ed-94c1-474293c3f58d",
+  "version": "01",
+  "title": "Fraunhofer-Gesellschaft 80-00031-2800-A1 Objektplanung Gebäude - Rahmenvereinbarung Reg 15_02",
+  "description": "Ausschreibung für eine Rahmenvereinbarung für die Objektplanung Gebäude",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DEC01",
+   "DEC05"
+  ],
+  "cpv": [
+   "71200000"
+  ],
+  "estimatedValue": {
+   "amount": 525000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fraunhofer-Gesellschaft 80-00031-2800-A1 Objektplanung Gebäude - Rahmenvereinbarung Reg 15_02",
+    "description": "Ausschreibung für eine Rahmenvereinbarung für die Planung Gebäude und Innenräume mit Leistungen für Neu-, Erweiterungs-, Umbauten, Modernisierungen, Instandsetzungen u. Instandhaltungen. Es wird ein fachkundiges, mit dem Bauen im Bestand vertrautes und im Umgang mit hochtechnisierten Gebäuden erfahrenes Planungsbüro gesucht. \nDer überwiegende Anteil der Baumaßnahmen wird im Bestand und im laufenden Betrieb durchgeführt. Die Bestandsgebäude mit den techn. Anlagen sind unterschiedlichen Alters, in der Regel Sonderbauten und werden als Forschungseinrichtungen, Laborgebäude und Bürogebäude genutzt.\nAbbrufberechtigt für die Vertragsdauer sind die Fraunhofer-Institute der Region 15_02, die mit unter folgende Standorte/  Ausführungsorte umfasst: St. Ingbert, Sulzbach, Saarbrücken\nNeue Institute oder Institutsteile, die geografisch der Region zugeordnet werden, können ebenfalls Leistungen aus dem Rahmenvertrag abrufen.\n\nVertrag:\nAbschluss einer Rahmenvereinbarung für die Durchführung von Bauplanungsleistungen im Bereich >Objektplanung<, Gesamtkosten KG 200-700 (ohne Erstausstattung) je Abruf max. 999.999,00 € netto (ohne Mehrwertsteuer).\n\nFestpreisvertrag! Honorar gemäß HOAI entsprechend den Musterverträgen der RBBau. Stufenweise Beauftragung der Leistungsphasen 2-4 und 5-8 HOAI entsprechend den Musterverträgen der RBBau.\nHonorarzone (§34 HOAI): 2 und 3, Honorarsatz (§34 HOAI): Basishonorarsatz\n\nVertragslaufzeit:\nGrundlaufzeit: 2 Jahre\nOptionale Verlängerung 1 x 2 Jahre\n\nAuftragsvolumen:\nDas maximale Auftragsvolumen für alle Einzelabrufe (kumuliert) beträgt EUR 525.000 € zuzüglich gesetzlicher Umsatzsteuer.\nDie Gültigkeit der Rahmenvereinbarung endet mit Ablauf der Vertragslaufzeit oder mit Erreichen des maximalen Auftragsvolumens. Es gilt das früher eintretende Ereignis.\n\nHöhe der Nebenkosten: gem. RIFT-Bund in aktuellster Fassung\nUmbauzuschlag: Der Umbauzuschlag berechnet sich gem. AHO Schriftenreihe \"HOAI - Planen und Bauen im Bestand\" in der aktuellsten Fassung\nDie mitzuverarbeitende Bausubstanz wird wie folgt vergütet: die mitzuverarbeitende Bausubstanz ist in Form eines erhöhten Umbauzuschlag bereits berücksichtigt und damit abgegolten.",
+    "cpv": [
+     "71200000"
+    ],
+    "nuts": [
+     "DEC01"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-12-01T10:00:00+01:00",
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2029-03-31+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 525000,
+     "currency": "EUR"
+    },
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-subc",
+      "description": "\"- Unterauftragnehmer § 36 Abs. 1 in Verbindung mit § 47 Abs. 1 VgV\n- Bewerber- / Bietergemeinschaften § 43 Abs. 2 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen – auch hinsichtlich Nachweise – sind in den Auftragsunterlagen als Bewerbungsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     },
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "\"Mindestjahresumsatz gem. § 45 Abs. 1 Nr. 1 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen – auch hinsichtlich Nachweise – sind in den Auftragsunterlagen als Bewerbungsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "\"Berufshaftpflichtversicherung gem. § 45 Abs. 1 Nr. 3 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen – auch hinsichtlich Nachweise – sind in den Auftragsunterlagen als Bewerbungsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "\"- Referenzen gem. § 46 Abs. 3 Nr. 1 VgV\n- Referenzen mit vergleichbarer Bauaufgabe und Komplexität gem. § 75 Abs. 5 VgV\n- Freie Referenzen gem. § 75 Abs. 5 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen – auch hinsichtlich Nachweise – sind in den Auftragsunterlagen als Bewerbungsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "\"Durchschnittliche jährliche Beschäftigtenzahl gem. § 46 Abs. 3 Nr. 8 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen – auch hinsichtlich Nachweise – sind in den Auftragsunterlagen als Bewerbungsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "\"Technische Fachkräfte gem. § 46 Abs. 3 Nr. 2 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen – auch hinsichtlich Nachweise – sind in den Auftragsunterlagen als Bewerbungsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "\"Technische Fachkräfte gem. § 46 Abs. 3 Nr. 2 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen – auch hinsichtlich Nachweise – sind in den Auftragsunterlagen als Bewerbungsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "\"- Berechtigung zur Erbringung der Leistung gem. § 43 Abs. 1 VgV und § 46 Abs. 3 Nr. 6 VgV\n- Angabe der Rechtsform gem. § 43 Abs. 1 VGV\n- Angabe der Berufsqualifikation gem. § 75 Abs. 1 oder 2 VgV\nDie Eigenerklärung und die darin enthaltenen ausführlichen Anforderungen – auch hinsichtlich Nachweise – sind in den Auftragsunterlagen als Bewerbungsbogen enthalten.\nMindeststandards: Siehe Auftragsunterlagen.\""
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "\"Herangehensweise an die Aufgabe und zu erwartende Leistung\n* Erkennen der Aufgabenstellung aus der Aufgabenbeschreibung mit Darstellung der besonderen Herausforderungen des Bauens in einem bestehenden Institutsumfeld bei Sanierungen, Umbauten, Erweiterungs- und Neubauten  (25)\n* Darstellung der Umsetzung und Lösung der erkannten Herausforderungen hinsichtlich gestalterischer Qualität, Funktionalität, Innvation, techn. Realisierbarkeit, Wirtschaftlichkeit, insbes. Nachhaltigkeit (mit Darstellung integraler Planung) anhand geeigneter Referenzprojekte  (25)",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "\"Projektabwicklung\n* Darstellung der Projektstruktur und Zusammenarbeit bei der Abwicklung mit Schnittstellen zum Auftraggeber, anderen Planungsbeteiligten und Behörden  (10)\n* spezielle Maßnahmen und Instrumente zur Einhaltung von Kosten, Qualität und Terminen, auch in der Zusammenarbeit mit den weiteren Projektbeteiligten  (10)",
+      "weight": 20
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "\"Projektverantwortliche\n* Projektleitung: Vermittlung der eigenen fachlichen Kompetenz im Gespräch  (15)\n* Objektüberwachung: Vermittlung der eigenen fachlichen Kompetenz im Gespräch  (10)",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Gesamteindruck: soziale Interaktion im Team, Urteils- und Entscheidungsfähigkeit im Team, Vermittlung von Inhalten gegenüber einem Gremium",
+      "weight": 5
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "kein Preiskriterium",
+      "weight": 0
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

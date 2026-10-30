@@ -5,14 +5,14 @@
   "noticeId": "80d88a37-3ceb-4d67-83b1-73aad386568c",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=80d88a37-3ceb-4d67-83b1-73aad386568c",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:80d88a37-3ceb-4d67-83b1-73aad386568c-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:80d88a37-3ceb-4d67-83b1-73aad386568c-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/80d88a37-3ceb-4d67-83b1-73aad386568c?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "Kauf von neun Leichtmüllfahrzeugen (batterie-elektrisch)",
   "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
   "cpv": [
@@ -21,7 +21,7 @@
   "nuts": [
    "DE212"
   ],
-  "deadline": null,
+  "deadline": "2026-12-01T23:59:00+01:00",
   "lots": 2
  },
  "ocds": {
@@ -183,5 +183,110 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "80d88a37-3ceb-4d67-83b1-73aad386568c",
+  "version": "01",
+  "title": "Kauf von neun Leichtmüllfahrzeugen (batterie-elektrisch)",
+  "description": "Kauf von neun Leichtmüllfahrzeugen (batterie-elektrisch)",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "34100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neun Elektro-Kleintransporter (batterie-elektrisch)",
+    "description": "Kleintransporter-Fahrgestell mit Elektro-Antrieb\n- geeignet für einen Leichtmüll-Aufbau (inkl. Kipper) gemäß Los 2\n- Radstand: 2.900 - 3.300 mm\n- Länge: max. 5.400 mm\n- zulässiges Gesamtgewicht max. 3.500 kg\n\nDie vollständige Produktbeschreibung ist der detaillierten Leistungsbeschreibung zu entnehmen.",
+    "cpv": [
+     "34100000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 175,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 2 erbrachte vergleichbare Leistungen vorweisen.\n\nAls vergleichbare Leistung gilt in vorliegendem Fall:\nLos 1: Als Referenz wird die Lieferung von mindestens drei Fahrzeugen eines zum angebotenen Fahrzeug vergleichbaren Fabrikats oder Typs anerkannt.\nLos 2: Als Referenz wird die Lieferung von mindestens drei vergleichbaren Kofferaufbauten (gemäß Los 2) anerkannt.\n\nReferenzen dürfen nachfolgend nur angegeben werden, wenn\n- sie nicht älter als drei Jahre sind\nund\n- die Leistung bereits vollständig abgeschlossen wurde\n\nLeistungen für die Auftraggeberin können nur berücksichtigt werden, wenn diese (genau wie externe Referenzen) als eigene Referenz angegeben werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Berufs- oder Betriebshaftpflichtversicherung (während der Ausführungszeit) mit mindestens folgenden Deckungssummen:\nPersonenschäden: 1.000.000 Euro\nSachschäden: 1.000.000 Euro\nVermögensschäden: 1.000.000 Euro"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz des Bewerbers/Bieters in den letzten 3\nabgeschlossenen Geschäftsjahren muss für die einzelnen Lose\nmindestens folgende Werte betragen:\nLos 1: 550.000 Euro\nLos 2: 400.000 Euro\nSoll der Zuschlag für mehrere, gleichzeitig auszuführende Lose an einen Bewerber /\nBieter erteilt werden, so müssen die Umsatzzahlen des Bewerbers / Bieters in den letzten 3 abgeschlossenen Geschäftsjahren mindestens der Summe der geforderten Mindestumsätze aus den betreffenden Losen entsprechen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Zuschlagskriterium ist der Preis (100%), wobei alle Anforderungen der Leistungsbeschreibung vollständig erfüllt sein müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Neun Leichtmüllaufbauten",
+    "description": "Leichtmüllaufbau\n- geeignet zur Aufnahme von Kehricht bzw. Leichtmüll\n- geeignet zum Aufbau an das Fahrgestell gemäß Los 1\n- Behältervolumen: mind. 4 m³\n- geschlossener Bauweise\n- heckseitig kippbar\n- Geschlossener, rechteckiger Kofferaufbau in Leichtbauweise\n- Ausführung als hydraulischer Kipperaufbau zur rückstandsfreien Schüttgut-Entleerung\n- inkl. Leuchtbalken und Rundumkennleuchte\n- Rückfahrkamera\n\nDie vollständige Produktbeschreibung ist der detaillierten Leistungsbeschreibung zu entnehmen.",
+    "cpv": [
+     "34100000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 350,
+     "unit": "DAY"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bewerber/Bieter muss als Referenz mindestens 2 erbrachte vergleichbare Leistungen vorweisen.\n\nAls vergleichbare Leistung gilt in vorliegendem Fall:\nLos 1: Als Referenz wird die Lieferung von mindestens drei Fahrzeugen eines zum angebotenen Fahrzeug vergleichbaren Fabrikats oder Typs anerkannt.\nLos 2: Als Referenz wird die Lieferung von mindestens drei vergleichbaren Kofferaufbauten (gemäß Los 2) anerkannt.\n\nReferenzen dürfen nachfolgend nur angegeben werden, wenn\n- sie nicht älter als drei Jahre sind\nund\n- die Leistung bereits vollständig abgeschlossen wurde\n\nLeistungen für die Auftraggeberin können nur berücksichtigt werden, wenn diese (genau wie externe Referenzen) als eigene Referenz angegeben werden."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Berufs- oder Betriebshaftpflichtversicherung (während der Ausführungszeit) mit mindestens folgenden Deckungssummen:\nPersonenschäden: 1.000.000 Euro\nSachschäden: 1.000.000 Euro\nVermögensschäden: 1.000.000 Euro"
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Der Jahresumsatz des Bewerbers/Bieters in den letzten 3\nabgeschlossenen Geschäftsjahren muss für die einzelnen Lose\nmindestens folgende Werte betragen:\nLos 1: 550.000 Euro\nLos 2: 400.000 Euro\nSoll der Zuschlag für mehrere, gleichzeitig auszuführende Lose an einen Bewerber /\nBieter erteilt werden, so müssen die Umsatzzahlen des Bewerbers / Bieters in den letzten 3 abgeschlossenen Geschäftsjahren mindestens der Summe der geforderten Mindestumsätze aus den betreffenden Losen entsprechen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Zuschlagskriterium ist der Preis (100%), wobei alle Anforderungen der Leistungsbeschreibung vollständig erfüllt sein müssen.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

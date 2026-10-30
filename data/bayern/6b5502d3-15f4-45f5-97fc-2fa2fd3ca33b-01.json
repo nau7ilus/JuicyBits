@@ -1,0 +1,223 @@
+{
+ "id": "6b5502d3-15f4-45f5-97fc-2fa2fd3ca33b-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "6b5502d3-15f4-45f5-97fc-2fa2fd3ca33b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6b5502d3-15f4-45f5-97fc-2fa2fd3ca33b",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:6b5502d3-15f4-45f5-97fc-2fa2fd3ca33b-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:6b5502d3-15f4-45f5-97fc-2fa2fd3ca33b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6b5502d3-15f4-45f5-97fc-2fa2fd3ca33b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Elektronenstrahllithografie",
+  "buyer": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+  "cpv": [
+   "38511100",
+   "31712100"
+  ],
+  "nuts": [
+   "DE252"
+  ],
+  "deadline": "2026-11-23T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bf7180d3-ce07-4e91-a945-33dfeda10880",
+  "id": "6b5502d3-15f4-45f5-97fc-2fa2fd3ca33b",
+  "date": "2026-10-22T02:10:29Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "a215d5ee-7b2b-4ffd-8397-e7bbc0200c3e",
+     "legalName": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Konrad-Zuse-Straße 3-5",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "6c9f0901-f60f-4b97-98f8-aaf1c1ca56cb",
+     "legalName": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Konrad-Zuse-Straße 3-5",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+   "id": "a215d5ee-7b2b-4ffd-8397-e7bbc0200c3e",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Konrad-Zuse-Straße 3-5",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91052",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bf7180d3-ce07-4e91-a945-33dfeda10880",
+   "title": "Elektronenstrahllithografie",
+   "description": "Gegenstand der Beschaffung ist ein Elektronenstrahllithografie-System (EBL) mit integrierten Funktionen zur Rasterelektronenmikroskopie (REM).",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch die Universität Erlangen-Nürnberg",
+    "id": "a215d5ee-7b2b-4ffd-8397-e7bbc0200c3e"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38511100",
+      "description": "Scanning electron microscopes"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "31712100",
+       "description": "Microelectronic machinery and apparatus"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Erlangen",
+      "region": "DE252",
+      "postalCode": "91052",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/fe8641a2-a1ae-4e01-a709-8a766b97aa24",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Elektronenstrahllithografie",
+     "description": "Gegenstand der Beschaffung ist ein Elektronenstrahllithografie-System (EBL) mit integrierten Funktionen zur Rasterelektronenmikroskopie (REM)."
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6b5502d3-15f4-45f5-97fc-2fa2fd3ca33b",
+  "version": "01",
+  "title": "Elektronenstrahllithografie",
+  "description": "Gegenstand der Beschaffung ist ein Elektronenstrahllithografie-System (EBL) mit integrierten Funktionen zur Rasterelektronenmikroskopie (REM).",
+  "procedureType": "open",
+  "nuts": [
+   "DE252"
+  ],
+  "cpv": [
+   "38511100",
+   "31712100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Elektronenstrahllithografie",
+    "description": "Gegenstand der Beschaffung ist ein Elektronenstrahllithografie-System (EBL) mit integrierten Funktionen zur Rasterelektronenmikroskopie (REM).",
+    "cpv": [
+     "38511100",
+     "31712100"
+    ],
+    "nuts": [
+     "DE252"
+    ],
+    "deadline": "2026-11-23T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/fe8641a2-a1ae-4e01-a709-8a766b97aa24/suitabilitycriteria"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/fe8641a2-a1ae-4e01-a709-8a766b97aa24/awardcriteria",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

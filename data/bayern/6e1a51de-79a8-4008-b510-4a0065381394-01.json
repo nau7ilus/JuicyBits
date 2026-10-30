@@ -1,0 +1,298 @@
+{
+ "id": "6e1a51de-79a8-4008-b510-4a0065381394-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "6e1a51de-79a8-4008-b510-4a0065381394",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6e1a51de-79a8-4008-b510-4a0065381394",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:6e1a51de-79a8-4008-b510-4a0065381394-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:6e1a51de-79a8-4008-b510-4a0065381394-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6e1a51de-79a8-4008-b510-4a0065381394?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Gebäude- und Glasreinigung für den Landkreis Neumarkt i.d.OPf. Realschulen",
+  "buyer": "Landkreis Neumarkt i.d.OPf.",
+  "cpv": [
+   "90911200",
+   "90911300"
+  ],
+  "nuts": [
+   "DE236"
+  ],
+  "deadline": "2026-11-23T10:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6e1a51de-79a8-4008-b510-4a0065381394",
+  "id": "6e1a51de-79a8-4008-b510-4a0065381394",
+  "date": "2026-10-25T07:04:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Neumarkt i.d.OPf.",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10159",
+     "legalName": "Landkreis Neumarkt i.d.OPf."
+    },
+    "address": {
+     "streetAddress": "Nürnberger Straße 1",
+     "locality": "Neumarkt i.d.OPf.",
+     "region": "DE236",
+     "postalCode": "92318",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "25bfd3ff-9c13-4a50-addb-d7f25e1c8149",
+     "legalName": "Vergabekammer Nordbayern Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Neumarkt i.d.OPf.",
+   "id": "10159",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Neumarkt i.d.OPf."
+   },
+   "address": {
+    "streetAddress": "Nürnberger Straße 1",
+    "locality": "Neumarkt i.d.OPf.",
+    "region": "DE236",
+    "postalCode": "92318",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6e1a51de-79a8-4008-b510-4a0065381394",
+   "title": "Gebäude- und Glasreinigung für den Landkreis Neumarkt i.d.OPf. Realschulen",
+   "description": "Gebäude- und Glasreinigung für den Landkreis Neumarkt i.d.OPf. Realschulen",
+   "procuringEntity": {
+    "name": "Landkreis Neumarkt i.d.OPf.",
+    "id": "10159"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "region": "DE236",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911300",
+      "description": "Window-cleaning services"
+     },
+     "deliveryAddress": {
+      "region": "DE236",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/6e1a51de-79a8-4008-b510-4a0065381394",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/6e1a51de-79a8-4008-b510-4a0065381394",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 Unterhalts- und Grundreinigung",
+     "description": "Gebäudereinigung gem. Leistungsbeschreibung/Leistungsverzeichnis/Kalkulationsdatei:\n\nObjekte Los 1\n\nRealschule für Knaben + Turnhalle\nRealschule für Mädchen + Turnhalle",
+     "contractPeriod": {
+      "startDate": "2027-02-15T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 Glasreinigung",
+     "description": "Glasreinigung gem. Leistungsbeschreibung/Leistungsverzeichnis/Kalkulationsdatei:\n\nObjekte:\n\n- Realschule für Knaben + Turnhalle\n- Realschule für Mädchen + Turnhalle",
+     "contractPeriod": {
+      "startDate": "2027-02-15T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6e1a51de-79a8-4008-b510-4a0065381394",
+  "version": "01",
+  "title": "Gebäude- und Glasreinigung für den Landkreis Neumarkt i.d.OPf. Realschulen",
+  "description": "Gebäude- und Glasreinigung für den Landkreis Neumarkt i.d.OPf. Realschulen",
+  "procedureType": "open",
+  "nuts": [
+   "DE236"
+  ],
+  "cpv": [
+   "90911200",
+   "90911300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 Unterhalts- und Grundreinigung",
+    "description": "Gebäudereinigung gem. Leistungsbeschreibung/Leistungsverzeichnis/Kalkulationsdatei:\n\nObjekte Los 1\n\nRealschule für Knaben + Turnhalle\nRealschule für Mädchen + Turnhalle",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-15+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-env",
+      "description": "Einhaltung der Anforderungen der Leistungsbeschreibung.\nEinhaltung der Anforderungen der Mindestanforderungen"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Sicherheitsvorschriften gem. Leistungsbeschreibung"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Referenzen in Datei Eigenerklärung eintragen"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Werte gem. Eigenerklärung"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Der Dienstleister muss seine Eintragung in das Handelsregister nachweisen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Qualitätskriterium",
+      "description": "Leistung in Stunden",
+      "weight": 40
+     },
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 60
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 Glasreinigung",
+    "description": "Glasreinigung gem. Leistungsbeschreibung/Leistungsverzeichnis/Kalkulationsdatei:\n\nObjekte:\n\n- Realschule für Knaben + Turnhalle\n- Realschule für Mädchen + Turnhalle",
+    "cpv": [
+     "90911300"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": "2026-11-23T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-15+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-env",
+      "description": "Einhaltung der Anforderungen der Leistungsbeschreibung.\nEinhaltung der Anforderungen der Mindestanforderungen"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Sicherheitsvorschriften gem. Leistungsbeschreibung"
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Referenzen in Datei Eigenerklärung eintragen"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Werte gem. Eigenerklärung"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Der Dienstleister muss seine Eintragung in das Handelsregister nachweisen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

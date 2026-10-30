@@ -5,14 +5,14 @@
   "noticeId": "8becc581-a193-4a62-9cff-492a95f452fc",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8becc581-a193-4a62-9cff-492a95f452fc",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:8becc581-a193-4a62-9cff-492a95f452fc-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:8becc581-a193-4a62-9cff-492a95f452fc-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/8becc581-a193-4a62-9cff-492a95f452fc?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Rohbauarbeiten im Rahmen der Errichtung KITA Bayreuth St. Johannis",
   "buyer": "Diakonisches Werk - Stadtmission Bayreuth e.V.",
   "cpv": [
@@ -214,5 +214,57 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "8becc581-a193-4a62-9cff-492a95f452fc",
+  "version": "01",
+  "title": "Rohbauarbeiten im Rahmen der Errichtung KITA Bayreuth St. Johannis",
+  "description": "Gegenstand dieser Ausschreibung sind Baumeisterarbeiten/ Rohbauarbeiten für die Errichtung der Kindertagesstätte Bayreuth St. Johannis.",
+  "procedureType": "open",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "45223220",
+   "45262310",
+   "45262522"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rohbauarbeiten im Rahmen der Errichtung KITA Bayreuth St. Johannis",
+    "description": "Das Diakonische Werk, Stadtmission Bayreuth e.V. plant den Neubau einer Kindertagesstätte.  Das Baugrundstück befindet sich in Bayreuth -St. Johannis auf Flurstück Nr. 297 (Teilfläche) der Gemarkung St. Johannis und wird über die Straße Ochsenhut angefahren. Das Baugrundstück wird ab der Straße Ochsenhut durch eine neu zu bauende Erschließungsstraße mit Kanal und allen Versorgungsleitungen erschlossen. Das Baugrundstück selbst hat eine Geländeneigung von Nord-Ost nach Süd-West von bis zu 6 m. Das Gelände wird teils abgegraben und aufgefüllt, so dass eine ebene Fläche entsteht. Das Gebäude wird zweigeschossig in Massivbauweise mit Kalksandstein- und Betonwänden/-stützen und Wärmedämmverbundsystem ausgeführt. Es ist nicht unterkellert. Die Gründung erfolgt über Streifenfundamente als Frostriegel und einer flächig gebetteten lastabtragender Stahlbetonbodenplatte. Die Dachdecke wird als Stahlbetondecke mit dem entsprechenden Aufbau nach Flachdachrichtlinien ausgeführt und wird begrünt. Die Begrenzung der Flachdachflächen erfolgt durch eine gemauerte bzw. betonierte Attika.",
+    "cpv": [
+     "45223220",
+     "45262310",
+     "45262522"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 8,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Das Angebot mit dem geringsten Nettopreis für die ausgeschriebene Leistung (vgl. Leistungsverzeichnis) erhält 100 Punkte.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

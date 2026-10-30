@@ -1,0 +1,263 @@
+{
+ "id": "43e4e8ea-c53f-472e-bf70-1e6a7a6c8a16-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "43e4e8ea-c53f-472e-bf70-1e6a7a6c8a16",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=43e4e8ea-c53f-472e-bf70-1e6a7a6c8a16",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:43e4e8ea-c53f-472e-bf70-1e6a7a6c8a16-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:43e4e8ea-c53f-472e-bf70-1e6a7a6c8a16-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/43e4e8ea-c53f-472e-bf70-1e6a7a6c8a16?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Fernwärmeverbundleitungstrasse Laufzorn II nach Laufzorn I der Erdwärme II GmbH und Co KG",
+  "buyer": "Erdwärme Grünwald II GmbH & Co. KG",
+  "cpv": [
+   "45232140",
+   "45231100",
+   "45231110",
+   "45112000",
+   "45231300",
+   "45232150",
+   "45232411",
+   "45231400"
+  ],
+  "nuts": [
+   "DE136",
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fca64a29-61d6-4609-b5c2-40808bca2444",
+  "id": "43e4e8ea-c53f-472e-bf70-1e6a7a6c8a16",
+  "date": "2026-10-22T02:10:18Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Erdwärme Grünwald II GmbH & Co. KG",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:004989944663100",
+     "legalName": "Erdwärme Grünwald II GmbH & Co. KG"
+    },
+    "address": {
+     "locality": "Grünwald",
+     "region": "DE136",
+     "postalCode": "82031",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "mediationBody",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09­0318006­60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE21H",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Erdwärme Grünwald II GmbH & Co. KG",
+   "id": "t:004989944663100",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Erdwärme Grünwald II GmbH & Co. KG"
+   },
+   "address": {
+    "locality": "Grünwald",
+    "region": "DE136",
+    "postalCode": "82031",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fca64a29-61d6-4609-b5c2-40808bca2444",
+   "title": "Fernwärmeverbundleitungstrasse Laufzorn II nach Laufzorn I der Erdwärme II GmbH und Co KG",
+   "description": "Die Erdwärme Grünwald II GmbH & Co. KG errichtet zur Erweiterung der geothermischen\nWärmeversorgung eine Fernwärmeverbundleitung zwischen den Erzeugerstandorten Laufzorn II und Laufzorn I im Gemeindegebiet Oberhaching.\n\nGegenstand der Ausschreibung ist der Neubau einer ca. 1,5 km langen, erdverlegten\nFernwärmetransportleitung als Kunststoffmantelrohrsystem (DN 500, DN 300 und DN 250)\neinschließlich des Anschlusses an bestehende Anlagen. Die Trasse verläuft überwiegend über\nlandwirtschaftliche Flächen sowie durch Waldgebiete und schließt an das bestehende Fernwärmenetz an.",
+   "procuringEntity": {
+    "name": "Erdwärme Grünwald II GmbH & Co. KG",
+    "id": "t:004989944663100"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232140",
+      "description": "District-heating mains construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45231100",
+       "description": "General construction work for pipelines"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45231110",
+       "description": "Pipelaying construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45112000",
+       "description": "Excavating and earthmoving work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45231300",
+       "description": "Construction work for water and sewage pipelines"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45232150",
+       "description": "Works related to water-distribution pipelines"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45232411",
+       "description": "Foul-water piping construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45231400",
+       "description": "Construction work for electricity power lines"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Grünwald",
+      "region": "DE21H",
+      "postalCode": "82031",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/3/tenderId/158270",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Fernwärmeverbundleitungstrasse Laufzorn II nach Laufzorn I der Erdwärme Grünwald II GmbH und Co KG",
+     "description": "Die Erdwärme Grünwald II GmbH & Co. KG errichtet zur Erweiterung der geothermischen\nWärmeversorgung eine Fernwärmeverbundleitung zwischen den Erzeugerstandorten Laufzorn II und Laufzorn I im Gemeindegebiet Oberhaching.\n\nGegenstand der Ausschreibung ist der Neubau einer ca. 1,5 km langen, erdverlegten\nFernwärmetransportleitung als Kunststoffmantelrohrsystem (DN 500, DN 300 und DN 250)\neinschließlich des Anschlusses an bestehende Anlagen. Die Trasse verläuft überwiegend über\nlandwirtschaftliche Flächen sowie durch Waldgebiete und schließt an das bestehende Fernwärmenetz an.",
+     "contractPeriod": {
+      "startDate": "2027-10-01T00:00:00+02:00",
+      "endDate": "2028-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "43e4e8ea-c53f-472e-bf70-1e6a7a6c8a16",
+  "version": "01",
+  "title": "Fernwärmeverbundleitungstrasse Laufzorn II nach Laufzorn I der Erdwärme II GmbH und Co KG",
+  "description": "Die Erdwärme Grünwald II GmbH & Co. KG errichtet zur Erweiterung der geothermischen\nWärmeversorgung eine Fernwärmeverbundleitung zwischen den Erzeugerstandorten Laufzorn II und Laufzorn I im Gemeindegebiet Oberhaching.\n\nGegenstand der Ausschreibung ist der Neubau einer ca. 1,5 km langen, erdverlegten\nFernwärmetransportleitung als Kunststoffmantelrohrsystem (DN 500, DN 300 und DN 250)\neinschließlich des Anschlusses an bestehende Anlagen. Die Trasse verläuft überwiegend über\nlandwirtschaftliche Flächen sowie durch Waldgebiete und schließt an das bestehende Fernwärmenetz an.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "45232140",
+   "45231100",
+   "45231110",
+   "45112000",
+   "45231300",
+   "45232150",
+   "45232411",
+   "45231400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Fernwärmeverbundleitungstrasse Laufzorn II nach Laufzorn I der Erdwärme Grünwald II GmbH und Co KG",
+    "description": "Die Erdwärme Grünwald II GmbH & Co. KG errichtet zur Erweiterung der geothermischen\nWärmeversorgung eine Fernwärmeverbundleitung zwischen den Erzeugerstandorten Laufzorn II und Laufzorn I im Gemeindegebiet Oberhaching.\n\nGegenstand der Ausschreibung ist der Neubau einer ca. 1,5 km langen, erdverlegten\nFernwärmetransportleitung als Kunststoffmantelrohrsystem (DN 500, DN 300 und DN 250)\neinschließlich des Anschlusses an bestehende Anlagen. Die Trasse verläuft überwiegend über\nlandwirtschaftliche Flächen sowie durch Waldgebiete und schließt an das bestehende Fernwärmenetz an.",
+    "cpv": [
+     "45232140",
+     "45231100",
+     "45231110",
+     "45112000",
+     "45231300",
+     "45232150",
+     "45232411",
+     "45231400"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-21T23:00:00+01:00",
+    "plannedStart": "2027-10-01+02:00",
+    "plannedEnd": "2028-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Bauzeitenplan",
+      "description": "Bauzeitenplan",
+      "weight": 15
+     },
+     {
+      "type": "quality",
+      "name": "Ausführungskonzept und Qualität",
+      "description": "Ausführungskonzept und Qualität",
+      "weight": 15
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

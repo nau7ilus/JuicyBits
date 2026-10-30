@@ -1,0 +1,202 @@
+{
+ "id": "105eceaf-2ce0-4c59-af7c-64b22e154667-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "105eceaf-2ce0-4c59-af7c-64b22e154667",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=105eceaf-2ce0-4c59-af7c-64b22e154667",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:105eceaf-2ce0-4c59-af7c-64b22e154667-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:105eceaf-2ce0-4c59-af7c-64b22e154667-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/105eceaf-2ce0-4c59-af7c-64b22e154667?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Nürnberg, Regensburger Straße 104 - 106, 360-Dachkonstruktionen, -öffnungen, -beläge",
+  "buyer": "Bundesagentur für Arbeit, SB93 Recht/Vergabe",
+  "cpv": [
+   "45261210"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": "2026-11-18T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-04903bde-0095-498b-84f0-5b4e03cd91fb",
+  "id": "105eceaf-2ce0-4c59-af7c-64b22e154667",
+  "date": "2026-10-16T02:10:39Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit, SB93 Recht/Vergabe",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992014820190073",
+     "legalName": "Bundesagentur für Arbeit, SB93 Recht/Vergabe"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Die Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "022894990",
+     "legalName": "Die Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Bundeskanzlerplatz 2-10",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bundesagentur für Arbeit, SB93 Recht/Vergabe",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "992014820190073",
+     "legalName": "Bundesagentur für Arbeit, SB93 Recht/Vergabe"
+    },
+    "address": {
+     "streetAddress": "Lina-Ammon-Straße 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90471",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit, SB93 Recht/Vergabe",
+   "id": "992014820190073",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit, SB93 Recht/Vergabe"
+   },
+   "address": {
+    "streetAddress": "Lina-Ammon-Straße 9",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90471",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "04903bde-0095-498b-84f0-5b4e03cd91fb",
+   "title": "Nürnberg, Regensburger Straße 104 - 106, 360-Dachkonstruktionen, -öffnungen, -beläge",
+   "description": "Dachdeckerarbeiten",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit, SB93 Recht/Vergabe",
+    "id": "992014820190073"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45261210",
+      "description": "Roof-covering work"
+     },
+     "deliveryLocation": {
+      "description": "Verwaltungszentrum der Bundesagentur für Arbeit, Regensburger Straße 104-106, 90478 Nürnberg, Deutschland"
+     },
+     "deliveryAddress": {
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=899537",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Nürnberg, Regensburger Straße 104 - 106, 360-Dachkonstruktionen, -öffnungen, -beläge",
+     "description": "Die Leistung umfasst die Dachdeckerarbeiten im Bereich der Lichtbandachsen des Bauteils VII nach den Planunterlagen, insbesondere: \n• Vorbereitende Arbeiten und Abbruch: Aufnehmen, Sieben und Zwischenlagern der Kiesschüttung zur Wiederverwendung (rd. 440 m²), schichtweiser und getreppter Rückbau von Trennlage, Abdichtungsebene \nund Dämmlage im Abbruchfeld (rd. 440 m²), Abbruch von 4 Dachgullys und 8 Dachentlüftern, Reinigen der Dachfläche; Abbruch von Dachaufbau und Dachkonstruktion für die Lichtbandöffnungen (rd. 217 m², Trennschnitte rd. 222 m) \n• Neuaufbau der Dachabdichtung: Dampfsperre Bitumen (rd. 437 m²), Grunddämmung Mineralwolle 80 mm (rd. 437 m²), Gefälledämmung Mineralwolle (mittlere Dicke 233 mm, rd. 599 m²), Bitumenabdichtung zweilagig (rd. 598 m²); Anschluss von Dampfsperre und Abdichtung an die neuen Lichtbänder (rd. 216 m) \n• 4 Dachgullys, Anschlüsse der Dachdurchdringungen (Sanitärentlüftung, Abluft/Fortluft), Notabläufe/Attikaüberläufe, Trennlage, Kiesauflast (rd. 599 m²) mit Kiesverfestiger: Wiedereinbau des gesiebten Bestandskieses, Ergänzung von Fehlmengen mit Neukies (rd. 90 m²) \n• Temporäre Regensicherung der Lichtbandachsen: Zwischenschutz der Dachöffnungen, Notabdichtung des Abbruchfelds (rd. 440 m², Kontrolle und Instandhaltung über 36 Wochen), Behelfsdach (rd. 300 m²) mit Vorhaltung, Umsetzen und Rückbau, 4 provisorische Dachabläufe \n• Abdichtung von Detailpunkten in Flüssigkunststoff (50 m²), Gitterroste (Wiedereinbau 40 m², weitere 80 m²), Seilsicherungssystem nach DIN EN 795 (75 m), Gefälledämmplan, Stundenlohnarbeiten, Dokumentation und Nachweise",
+     "contractPeriod": {
+      "startDate": "2027-03-08T00:00:00+01:00",
+      "endDate": "2027-12-03T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "105eceaf-2ce0-4c59-af7c-64b22e154667",
+  "version": "01",
+  "title": "Nürnberg, Regensburger Straße 104 - 106, 360-Dachkonstruktionen, -öffnungen, -beläge",
+  "description": "Dachdeckerarbeiten",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "45261210"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Nürnberg, Regensburger Straße 104 - 106, 360-Dachkonstruktionen, -öffnungen, -beläge",
+    "description": "Die Leistung umfasst die Dachdeckerarbeiten im Bereich der Lichtbandachsen des Bauteils VII nach den Planunterlagen, insbesondere: \n• Vorbereitende Arbeiten und Abbruch: Aufnehmen, Sieben und Zwischenlagern der Kiesschüttung zur Wiederverwendung (rd. 440 m²), schichtweiser und getreppter Rückbau von Trennlage, Abdichtungsebene \nund Dämmlage im Abbruchfeld (rd. 440 m²), Abbruch von 4 Dachgullys und 8 Dachentlüftern, Reinigen der Dachfläche; Abbruch von Dachaufbau und Dachkonstruktion für die Lichtbandöffnungen (rd. 217 m², Trennschnitte rd. 222 m) \n• Neuaufbau der Dachabdichtung: Dampfsperre Bitumen (rd. 437 m²), Grunddämmung Mineralwolle 80 mm (rd. 437 m²), Gefälledämmung Mineralwolle (mittlere Dicke 233 mm, rd. 599 m²), Bitumenabdichtung zweilagig (rd. 598 m²); Anschluss von Dampfsperre und Abdichtung an die neuen Lichtbänder (rd. 216 m) \n• 4 Dachgullys, Anschlüsse der Dachdurchdringungen (Sanitärentlüftung, Abluft/Fortluft), Notabläufe/Attikaüberläufe, Trennlage, Kiesauflast (rd. 599 m²) mit Kiesverfestiger: Wiedereinbau des gesiebten Bestandskieses, Ergänzung von Fehlmengen mit Neukies (rd. 90 m²) \n• Temporäre Regensicherung der Lichtbandachsen: Zwischenschutz der Dachöffnungen, Notabdichtung des Abbruchfelds (rd. 440 m², Kontrolle und Instandhaltung über 36 Wochen), Behelfsdach (rd. 300 m²) mit Vorhaltung, Umsetzen und Rückbau, 4 provisorische Dachabläufe \n• Abdichtung von Detailpunkten in Flüssigkunststoff (50 m²), Gitterroste (Wiedereinbau 40 m², weitere 80 m²), Seilsicherungssystem nach DIN EN 795 (75 m), Gefälledämmplan, Stundenlohnarbeiten, Dokumentation und Nachweise",
+    "cpv": [
+     "45261210"
+    ],
+    "nuts": [],
+    "deadline": "2026-11-18T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-08+01:00",
+    "plannedEnd": "2027-12-03+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das alleinige Zuschlagskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

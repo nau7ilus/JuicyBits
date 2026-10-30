@@ -1,0 +1,135 @@
+{
+ "id": "25927970-1",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "25927970",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25927970",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:25927970-1.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:25927970-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25927970?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Barrierefreie Bushaltestellen im Stadtgebiet FFB 2026",
+  "buyer": "Große Kreisstadt Fürstenfeldbruck",
+  "cpv": [
+   "71322500"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-02T10:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25927970",
+  "id": "25927970",
+  "date": "2026-10-20T19:00:57Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Große Kreisstadt Fürstenfeldbruck",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Große Kreisstadt Fürstenfeldbruck"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Große Kreisstadt Fürstenfeldbruck",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Große Kreisstadt Fürstenfeldbruck"
+   }
+  },
+  "tender": {
+   "title": "Barrierefreie Bushaltestellen im Stadtgebiet FFB 2026",
+   "description": "Die Stadt Fürstenfeldbruck strebt den barrierefreien Um- / Ausbau von acht Bushaltestellen im Stadtgebiet an. Bis Ende 2027 sollen diese acht Haltestellen dementsprechend umgeplant und anschließend umgebaut werden.\n\nBarrierefreie Bushaltestellen im Stadtgebiet FFB 2026",
+   "procuringEntity": {
+    "name": "Große Kreisstadt Fürstenfeldbruck"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71322500",
+      "description": "Engineering-design services for traffic installations"
+     },
+     "deliveryAddress": {
+      "locality": "82256 Fürstenfeldbruck",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://ffb.healyhudson.biz/evergabe.bieter/api/supplier/external/deeplink/subproject/263915f0-0b7d-47de-9302-41d200bd34a6",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Barrierefreie Bushaltestellen im Stadtgebiet FFB 2026",
+     "description": "Die Stadt Fürstenfeldbruck strebt den barrierefreien Um- / Ausbau von acht Bushaltestellen im Stadtgebiet an. Bis Ende 2027 sollen diese acht Haltestellen dementsprechend umgeplant und anschließend umgebaut werden.\n\nBarrierefreie Bushaltestellen im Stadtgebiet FFB 2026"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25927970",
+  "version": "1",
+  "title": "Barrierefreie Bushaltestellen im Stadtgebiet FFB 2026",
+  "description": "Die Stadt Fürstenfeldbruck strebt den barrierefreien Um- / Ausbau von acht Bushaltestellen im Stadtgebiet an. Bis Ende 2027 sollen diese acht Haltestellen dementsprechend umgeplant und anschließend umgebaut werden.\n\nBarrierefreie Bushaltestellen im Stadtgebiet FFB 2026",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "71322500"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Barrierefreie Bushaltestellen im Stadtgebiet FFB 2026",
+    "description": "Die Stadt Fürstenfeldbruck strebt den barrierefreien Um- / Ausbau von acht Bushaltestellen im Stadtgebiet an. Bis Ende 2027 sollen diese acht Haltestellen dementsprechend umgeplant und anschließend umgebaut werden.\n\nBarrierefreie Bushaltestellen im Stadtgebiet FFB 2026",
+    "cpv": [
+     "71322500"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-02T10:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

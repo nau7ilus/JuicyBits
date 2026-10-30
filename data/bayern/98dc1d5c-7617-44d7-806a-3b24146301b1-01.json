@@ -1,0 +1,202 @@
+{
+ "id": "98dc1d5c-7617-44d7-806a-3b24146301b1-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "98dc1d5c-7617-44d7-806a-3b24146301b1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=98dc1d5c-7617-44d7-806a-3b24146301b1",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:98dc1d5c-7617-44d7-806a-3b24146301b1-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:98dc1d5c-7617-44d7-806a-3b24146301b1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/98dc1d5c-7617-44d7-806a-3b24146301b1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "A120 - Erichtung des Bauwerks Projekt Wahle-Mecklar Los C6",
+  "buyer": "TenneT TSO GmbH",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-9f138d7f-33eb-4950-bbdd-975cafef2d80",
+  "id": "98dc1d5c-7617-44d7-806a-3b24146301b1",
+  "date": "2026-10-16T02:06:24Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "TenneT TSO GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRB 4923",
+     "legalName": "TenneT TSO GmbH"
+    },
+    "address": {
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95448",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "DACH-ARGE Kabeltrasse WMC",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE349812869",
+     "legalName": "DACH-ARGE Kabeltrasse WMC"
+    },
+    "address": {
+     "locality": "Wiesmoor",
+     "region": "DE947",
+     "postalCode": "26639",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 811 335 517",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "TenneT TSO GmbH",
+   "id": "HRB 4923",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "TenneT TSO GmbH"
+   },
+   "address": {
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95448",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "9f138d7f-33eb-4950-bbdd-975cafef2d80",
+   "title": "A120 - Erichtung des Bauwerks Projekt Wahle-Mecklar Los C6",
+   "description": "Bankettertüchtigung aufgrund der besonders beanspruchten Randbereiche durch Bauarbeiten",
+   "procuringEntity": {
+    "name": "TenneT TSO GmbH",
+    "id": "HRB 4923"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "deliveryAddress": {
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "DACH-ARGE Kabeltrasse WMC",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "DACH-ARGE Kabeltrasse WMC"
+     },
+     "address": {
+      "locality": "Wiesmoor",
+      "region": "DE947",
+      "postalCode": "26639",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "A120 - Erichtung des Bauwerks Projekt Wahle-Mecklar Los C6",
+     "description": "Bankettertüchtigung aufgrund der besonders beanspruchten Randbereiche durch Bauarbeiten"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "date": "2026-10-01T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "value": {
+     "amount": 38122.39,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-09-30T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "98dc1d5c-7617-44d7-806a-3b24146301b1",
+  "version": "01",
+  "title": "A120 - Erichtung des Bauwerks Projekt Wahle-Mecklar Los C6",
+  "description": "Bankettertüchtigung aufgrund der besonders beanspruchten Randbereiche durch Bauarbeiten",
+  "procedureType": null,
+  "nuts": [],
+  "cpv": [
+   "45000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "A120 - Erichtung des Bauwerks Projekt Wahle-Mecklar Los C6",
+    "description": "Bankettertüchtigung aufgrund der besonders beanspruchten Randbereiche durch Bauarbeiten",
+    "cpv": [],
+    "nuts": [],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

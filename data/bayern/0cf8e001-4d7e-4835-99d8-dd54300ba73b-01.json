@@ -1,0 +1,203 @@
+{
+ "id": "0cf8e001-4d7e-4835-99d8-dd54300ba73b-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "0cf8e001-4d7e-4835-99d8-dd54300ba73b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0cf8e001-4d7e-4835-99d8-dd54300ba73b",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:0cf8e001-4d7e-4835-99d8-dd54300ba73b-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:0cf8e001-4d7e-4835-99d8-dd54300ba73b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0cf8e001-4d7e-4835-99d8-dd54300ba73b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Ersatzneubau Kita St. Afra, Markt Mering - Freianlagen Interimsspielplatz",
+  "buyer": "Markt Mering",
+  "cpv": [
+   "45112700"
+  ],
+  "nuts": [
+   "DE275"
+  ],
+  "deadline": "2026-11-30T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0cf8e001-4d7e-4835-99d8-dd54300ba73b",
+  "id": "0cf8e001-4d7e-4835-99d8-dd54300ba73b",
+  "date": "2026-10-21T02:08:46Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Mering",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "11326",
+     "legalName": "Markt Mering"
+    },
+    "address": {
+     "streetAddress": "Kirchplatz 4",
+     "locality": "Mering",
+     "region": "DE275",
+     "postalCode": "86415",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "391f8daa-10df-4e9c-ad10-abc52f78549e",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Geschäftsstelle",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Mering",
+   "id": "11326",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Mering"
+   },
+   "address": {
+    "streetAddress": "Kirchplatz 4",
+    "locality": "Mering",
+    "region": "DE275",
+    "postalCode": "86415",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0cf8e001-4d7e-4835-99d8-dd54300ba73b",
+   "title": "Ersatzneubau Kita St. Afra, Markt Mering - Freianlagen Interimsspielplatz",
+   "description": "Ersatzneubau Kita St. Afra (5-Gruppen), Markt Mering",
+   "procuringEntity": {
+    "name": "Markt Mering",
+    "id": "11326"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112700",
+      "description": "Landscaping work"
+     },
+     "deliveryAddress": {
+      "region": "DE275",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/0cf8e001-4d7e-4835-99d8-dd54300ba73b",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Ersatzneubau Kita St. Afra, Markt Mering - Freianlagen Interimsspielplatz",
+     "description": "Freianlagen - Interimsspielplatz\n\nca. 300 m² - Interimspielplatz Fläche\nca. 110 m² - Siebdruckplatte - Bobbycarbahn \nca. 100 m   - Bauzaun 24 Mt. Miete\nca. 95 m²   - Pflasterbelag\n6 Stk.        - Spielgeräte",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2027-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "0cf8e001-4d7e-4835-99d8-dd54300ba73b",
+  "version": "01",
+  "title": "Ersatzneubau Kita St. Afra, Markt Mering - Freianlagen Interimsspielplatz",
+  "description": "Ersatzneubau Kita St. Afra (5-Gruppen), Markt Mering",
+  "procedureType": "open",
+  "nuts": [
+   "DE275"
+  ],
+  "cpv": [
+   "45112700"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Ersatzneubau Kita St. Afra, Markt Mering - Freianlagen Interimsspielplatz",
+    "description": "Freianlagen - Interimsspielplatz\n\nca. 300 m² - Interimspielplatz Fläche\nca. 110 m² - Siebdruckplatte - Bobbycarbahn \nca. 100 m   - Bauzaun 24 Mt. Miete\nca. 95 m²   - Pflasterbelag\n6 Stk.        - Spielgeräte",
+    "cpv": [
+     "45112700"
+    ],
+    "nuts": [
+     "DE275"
+    ],
+    "deadline": "2026-11-30T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2027-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Bestätigung über vergleichbare Leistungen in den letzten 5 Geschäftsjahren, drei Referenznachweise."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Eintragung in das Handelsregister"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eintragung in ein relevantes Berufsregister,\nsofern für die auszuführenden Arbeiten vorgeschrieben"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Der Preis hat eine Gewichtung von",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "id": "25973650-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25973650",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25973650",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25973650-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25973650-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25973650?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Vergebener Auftrag: Aussenanlagen",
+  "buyer": "Staatliches Bauamt Schweinfurt",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-07T08:50:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25973650",
+  "id": "25973650",
+  "date": "2026-10-27T07:00:32Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Staatliches Bauamt Schweinfurt"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Schweinfurt",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Schweinfurt"
+   }
+  },
+  "tender": {
+   "title": "Vergebener Auftrag: Aussenanlagen",
+   "description": "Vergebener Auftrag: Aussenanlagen",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Schweinfurt"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "97645 Ostheim vor der Rhön",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "http://www.vergabe.bayern.de/Vergabeinformationen.bayernvergabeinformationen.0.html?details=1087559",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Vergebener Auftrag: Aussenanlagen",
+     "description": "Vergebener Auftrag: Aussenanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25973650",
+  "version": "1",
+  "title": "Vergebener Auftrag: Aussenanlagen",
+  "description": "Vergebener Auftrag: Aussenanlagen",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Vergebener Auftrag: Aussenanlagen",
+    "description": "Vergebener Auftrag: Aussenanlagen",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-07T08:50:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

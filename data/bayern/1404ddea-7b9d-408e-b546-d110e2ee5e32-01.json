@@ -1,0 +1,281 @@
+{
+ "id": "1404ddea-7b9d-408e-b546-d110e2ee5e32-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "1404ddea-7b9d-408e-b546-d110e2ee5e32",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1404ddea-7b9d-408e-b546-d110e2ee5e32",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:1404ddea-7b9d-408e-b546-d110e2ee5e32-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:1404ddea-7b9d-408e-b546-d110e2ee5e32-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1404ddea-7b9d-408e-b546-d110e2ee5e32?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lieferung von  Original Knorr Bremse Bremsbauteile und Komponenten",
+  "buyer": "Deutsche Bahn AG Konzernleitung (Bukr 10)",
+  "cpv": [
+   "34631000"
+  ],
+  "nuts": [
+   "DE300",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b322ac32-b4b1-49f3-8b30-67ab34d8db37",
+  "id": "1404ddea-7b9d-408e-b546-d110e2ee5e32",
+  "date": "2026-10-16T02:11:25Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Deutsche Bahn AG Konzernleitung (Bukr 10)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "819a9f90-6236-4dea-8555-aef3b91b5321",
+     "legalName": "Deutsche Bahn AG Konzernleitung (Bukr 10)"
+    },
+    "address": {
+     "streetAddress": "Potsdamer Platz 2",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10785",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Deutsche Bahn AG Konzernleitung (Bukr 10)",
+   "id": "819a9f90-6236-4dea-8555-aef3b91b5321",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Deutsche Bahn AG Konzernleitung (Bukr 10)"
+   },
+   "address": {
+    "streetAddress": "Potsdamer Platz 2",
+    "locality": "Berlin",
+    "region": "DE300",
+    "postalCode": "10785",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b322ac32-b4b1-49f3-8b30-67ab34d8db37",
+   "title": "Lieferung von  Original Knorr Bremse Bremsbauteile und Komponenten",
+   "description": "Lieferung von  Original Knorr Bremse Bremsbauteile und Komponenten für die Baureihen der Deutschen Bahn AG \n",
+   "procuringEntity": {
+    "name": "Deutsche Bahn AG Konzernleitung (Bukr 10)",
+    "id": "819a9f90-6236-4dea-8555-aef3b91b5321"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34631000",
+      "description": "Parts of locomotives or rolling stock"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80634",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34631000",
+      "description": "Parts of locomotives or rolling stock"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80634",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/6380c7f9-fcba-4493-9a12-07df9e731a8f",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/6380c7f9-fcba-4493-9a12-07df9e731a8f",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 ",
+     "description": "Mechanische Bauteile",
+     "contractPeriod": {
+      "startDate": "2027-05-01T00:00:00+02:00",
+      "endDate": "2029-04-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2",
+     "description": "Restliche Komponenten",
+     "contractPeriod": {
+      "startDate": "2027-05-01T00:00:00+02:00",
+      "endDate": "2029-04-30T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "1404ddea-7b9d-408e-b546-d110e2ee5e32",
+  "version": "01",
+  "title": "Lieferung von  Original Knorr Bremse Bremsbauteile und Komponenten",
+  "description": "Lieferung von  Original Knorr Bremse Bremsbauteile und Komponenten für die Baureihen der Deutschen Bahn AG",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "34631000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1",
+    "description": "Mechanische Bauteile",
+    "cpv": [
+     "34631000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-16T12:00:00+01:00",
+    "plannedStart": "2027-05-01+02:00",
+    "plannedEnd": "2029-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "Die Leistungskriterien werden in der Ausschreibungsphase definiert.",
+      "weight": 30
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2",
+    "description": "Restliche Komponenten",
+    "cpv": [
+     "34631000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-16T12:00:00+01:00",
+    "plannedStart": "2027-05-01+02:00",
+    "plannedEnd": "2029-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 70
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "Die Leistungskriterien werden in der Ausschreibungsphase definiert.",
+      "weight": 30
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "id": "21f50960-691e-4f36-a584-8f527f6f36d2-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "21f50960-691e-4f36-a584-8f527f6f36d2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=21f50960-691e-4f36-a584-8f527f6f36d2",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:21f50960-691e-4f36-a584-8f527f6f36d2-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:21f50960-691e-4f36-a584-8f527f6f36d2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/21f50960-691e-4f36-a584-8f527f6f36d2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "Schnellläuferprogramm - 5902 Ansbach - Triesdorf\n",
+  "buyer": "DB Netz AG (Bukr 16)",
+  "cpv": [
+   "34632000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE251"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ba658657-be70-4047-9f38-72d00c250f7a",
+  "id": "21f50960-691e-4f36-a584-8f527f6f36d2",
+  "date": "2026-10-22T02:08:33Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB Netz AG (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37",
+     "legalName": "DB Netz AG (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "InoSig GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "601e4733-1b54-4d95-a6e3-ff23db2357a0",
+     "legalName": "InoSig GmbH"
+    },
+    "address": {
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10785",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB Netz AG (Bukr 16)",
+   "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB Netz AG (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ba658657-be70-4047-9f38-72d00c250f7a",
+   "title": "Schnellläuferprogramm - 5902 Ansbach - Triesdorf\n",
+   "description": "Schnellläuferprogramm Vorbereitung DSD-Rollout - Pilotierung Verfahrensmodell; Projekt Ansbach - Triesdorf (1.BA) - GU-Modell",
+   "procuringEntity": {
+    "name": "DB Netz AG (Bukr 16)",
+    "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34632000",
+      "description": "Railways traffic-control equipment"
+     },
+     "deliveryAddress": {
+      "locality": "Ansbach - Triesdorf",
+      "region": "DE251",
+      "postalCode": "91522",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2020-12-17T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "InoSig GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "InoSig GmbH"
+     },
+     "address": {
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "10785",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Schnellläuferprogramm - 5902 Ansbach - Triesdorf\n",
+     "description": "Schnellläuferprogramm Vorbereitung DSD-Rollout - Pilotierung Verfahrensmodell; Projekt Ansbach - Triesdorf (1.BA) - GU-Modell",
+     "contractPeriod": {
+      "startDate": "2020-12-18T00:00:00+01:00",
+      "endDate": "2021-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2020-12-17T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2020-12-16T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "21f50960-691e-4f36-a584-8f527f6f36d2",
+  "version": "01",
+  "title": "Schnellläuferprogramm - 5902 Ansbach - Triesdorf",
+  "description": "Schnellläuferprogramm Vorbereitung DSD-Rollout - Pilotierung Verfahrensmodell; Projekt Ansbach - Triesdorf (1.BA) - GU-Modell",
+  "procedureType": null,
+  "nuts": [
+   "DE251"
+  ],
+  "cpv": [
+   "34632000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Schnellläuferprogramm - 5902 Ansbach - Triesdorf",
+    "description": "Schnellläuferprogramm Vorbereitung DSD-Rollout - Pilotierung Verfahrensmodell; Projekt Ansbach - Triesdorf (1.BA) - GU-Modell",
+    "cpv": [
+     "34632000"
+    ],
+    "nuts": [
+     "DE251"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2020-12-18+01:00",
+    "plannedEnd": "2021-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

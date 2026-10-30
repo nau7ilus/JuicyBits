@@ -1,0 +1,311 @@
+{
+ "id": "5bb04eb5-0c5f-4480-90a7-259e04acccdc-02",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "5bb04eb5-0c5f-4480-90a7-259e04acccdc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5bb04eb5-0c5f-4480-90a7-259e04acccdc",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:5bb04eb5-0c5f-4480-90a7-259e04acccdc-02.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:5bb04eb5-0c5f-4480-90a7-259e04acccdc-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5bb04eb5-0c5f-4480-90a7-259e04acccdc?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Verwertung von Bioabfall und Grüngut für die Stadt Memmingen vom 01.01.2027 - 31.12.2031",
+  "buyer": "Stadt Memmingen",
+  "cpv": [
+   "90500000"
+  ],
+  "nuts": [
+   "DE274"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0c601865-75f2-4f9e-9b01-899868cbcb37",
+  "id": "5bb04eb5-0c5f-4480-90a7-259e04acccdc",
+  "date": "2026-10-23T02:09:13Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Memmingen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10150",
+     "legalName": "Stadt Memmingen"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 1",
+     "locality": "Memmingen",
+     "region": "DE274",
+     "postalCode": "87700",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern – Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "5c6b5446-ad31-4d65-9491-1b3452100d9b",
+     "legalName": "Regierung von Oberbayern – Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "KSK Kompostierungs-Service Käßmeyer GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 129 092 071",
+     "legalName": "KSK Kompostierungs-Service Käßmeyer GmbH"
+    },
+    "address": {
+     "locality": "Erkheim",
+     "region": "DE27C",
+     "postalCode": "87746",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Memmingen",
+   "id": "10150",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Memmingen"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 1",
+    "locality": "Memmingen",
+    "region": "DE274",
+    "postalCode": "87700",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0c601865-75f2-4f9e-9b01-899868cbcb37",
+   "title": "Verwertung von Bioabfall und Grüngut für die Stadt Memmingen vom 01.01.2027 - 31.12.2031",
+   "description": "Los 1: Übernahme, Transport und Verwertung von Bioabfall vom 01.01.2027 - 31.12.2031 mit Verlängerungsoption; Los 2: Übernahme, Transport und Verwertung von Grüngut vom 01.01.2027 - 31.12.2031 mit Verlängerungsoption",
+   "procuringEntity": {
+    "name": "Stadt Memmingen",
+    "id": "10150"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "region": "DE274",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "region": "DE274",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "KSK Kompostierungs-Service Käßmeyer GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "KSK Kompostierungs-Service Käßmeyer GmbH"
+     },
+     "address": {
+      "locality": "Erkheim",
+      "region": "DE27C",
+      "postalCode": "87746",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Übernahme, Transport und Verwertung von Bioabfall",
+     "description": "Zum 01.01.2027 beabsichtigt die Stadt Memmingen den Transport und die Verwertung von Grüngut- und Gartenabfällen und Bioabfällen neu zu vergeben. \n\nDie zu vergebenden Leistungen werden in den Losen 1 und 2 für eine Laufzeit von jeweils fünf Jahren (vom 01.01.2027 bis zum 31.12.2031) ausgeschrieben. Der Vertrag verlängert sich im jeweiligen Los maximal zweimalig um jeweils ein weiteres Jahr (bis zum 31.12.2032, bzw. max. bis zum 31.12.2033), sofern keiner der beiden Vertragspartner den Vertrag spätestens zwölf Monate vor Ablauf der jeweiligen Vertragslaufzeit kündigt (Vertragsverlängerung/-en). Notwendige Vorbereitungen zur Leistungserbringung können nach der Zuschlagserteilung (voraussichtlich 42. KW 2026) beginnen. \n\nDie Gesamtleistung wird in zwei Losen vergeben und besteht im Los 1 im Wesentlichen aus den folgenden Einzelleistungen: \n\n- Übernahme von Bioabfall an einer von der Stadt Memmingen vorgegebenen Umschlaganlage (= Übernahmestelle), inkl. Verwiegung;\n- Transport des Bioabfalls zu/zur Behandlungs-/Verwertungsanlage/-n (inkl. Gestellung aller für die Übernahme und den Transport benötigten Abrollcontainer (maximal vier); \n- Behandlung/Verwertung der übernommenen Bioabfälle in (einer) dafür genehmigten Behandlungs-/Verwertungsanlage/-n; \n- Entsorgung der bei der Behandlung/Verwertung anfallenden Reststoffe (z. B. Störstoffe und Siebreste); \n- Vermarktung der Produkte (z. B. Kompost, Gärreste); \n- Jährliche Bioabfallmenge: zwischen ca. 3 000 Mg/a und 4 200 Mg/a.\n\nWeitere Details entnehmen Sie bitte den Vergabeunterlagen."
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Übernahme, Transport und Verwertung von Grüngut",
+     "description": "Zum 01.01.2027 beabsichtigt die Stadt Memmingen den Transport und die Verwertung von Grüngut- und Gartenabfällen und Bioabfällen neu zu vergeben. \n\nDie zu vergebenden Leistungen werden in den Losen 1 und 2 für eine Laufzeit von jeweils fünf Jahren (vom 01.01.2027 bis zum 31.12.2031) ausgeschrieben. Der Vertrag verlängert sich im jeweiligen Los maximal zweimalig um jeweils ein weiteres Jahr (bis zum 31.12.2032, bzw. max. bis zum 31.12.2033), sofern keiner der beiden Vertragspartner den Vertrag spätestens zwölf Monate vor Ablauf der jeweiligen Vertragslaufzeit kündigt (Vertragsverlängerung/-en). Notwendige Vorbereitungen zur Leistungserbringung können nach der Zuschlagserteilung (voraussichtlich 42. KW 2026) beginnen. \n\nDie Gesamtleistung wird in zwei Losen vergeben und besteht im Los 2 im Wesentlichen aus den folgenden Einzelleistungen: \n- Übernahme des Grüngutes durch den Auftragnehmer an der vom Auftraggeber vorgegebenen Übernahmestelle. Das Grüngut wird dem Auftragnehmer unzerkleinert übergeben. \n- Holziges Grüngut ist mengenabhängig zu übernehmen; es kann vor Ort vom Auftragnehmer gehäckselt werden (maximal fünfmal pro Jahr). \n- Krautiges Grüngut ist wöchentlich am Montag bzw. dem ersten Werktag nach dem Wochenende und am Donnerstag, bzw. am ersten Werktag nach dem Mittwoch an der Grüngutannahmestelle zu übernehmen; Hinweis: Die Verladung erfolgt durch den Auftraggeber in die vom Auftragnehmer zu stellenden Container (zwei Abrollcontainer á 36 m³ - 40 m³). \n- Wurzelstöcke sind einmal pro Kalenderjahr zu übernehmen. \n- Verwertung bzw. Vermarktung des übernommenen Grüngutes. \n- Jährliche Grüngutmenge: zwischen ca. 1 500 Mg/a und 3 000 Mg/a.\n\nWeitere Details entnehmen Sie bitte den Vergabeunterlagen."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-16T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-16T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-15T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     }
+    ],
+    "dateSigned": "2026-10-15T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "5bb04eb5-0c5f-4480-90a7-259e04acccdc",
+  "version": "02",
+  "title": "Verwertung von Bioabfall und Grüngut für die Stadt Memmingen vom 01.01.2027 - 31.12.2031",
+  "description": "Los 1: Übernahme, Transport und Verwertung von Bioabfall vom 01.01.2027 - 31.12.2031 mit Verlängerungsoption; Los 2: Übernahme, Transport und Verwertung von Grüngut vom 01.01.2027 - 31.12.2031 mit Verlängerungsoption",
+  "procedureType": "open",
+  "nuts": [
+   "DE274"
+  ],
+  "cpv": [
+   "90500000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Übernahme, Transport und Verwertung von Bioabfall",
+    "description": "Zum 01.01.2027 beabsichtigt die Stadt Memmingen den Transport und die Verwertung von Grüngut- und Gartenabfällen und Bioabfällen neu zu vergeben. \n\nDie zu vergebenden Leistungen werden in den Losen 1 und 2 für eine Laufzeit von jeweils fünf Jahren (vom 01.01.2027 bis zum 31.12.2031) ausgeschrieben. Der Vertrag verlängert sich im jeweiligen Los maximal zweimalig um jeweils ein weiteres Jahr (bis zum 31.12.2032, bzw. max. bis zum 31.12.2033), sofern keiner der beiden Vertragspartner den Vertrag spätestens zwölf Monate vor Ablauf der jeweiligen Vertragslaufzeit kündigt (Vertragsverlängerung/-en). Notwendige Vorbereitungen zur Leistungserbringung können nach der Zuschlagserteilung (voraussichtlich 42. KW 2026) beginnen. \n\nDie Gesamtleistung wird in zwei Losen vergeben und besteht im Los 1 im Wesentlichen aus den folgenden Einzelleistungen: \n\n- Übernahme von Bioabfall an einer von der Stadt Memmingen vorgegebenen Umschlaganlage (= Übernahmestelle), inkl. Verwiegung;\n- Transport des Bioabfalls zu/zur Behandlungs-/Verwertungsanlage/-n (inkl. Gestellung aller für die Übernahme und den Transport benötigten Abrollcontainer (maximal vier); \n- Behandlung/Verwertung der übernommenen Bioabfälle in (einer) dafür genehmigten Behandlungs-/Verwertungsanlage/-n; \n- Entsorgung der bei der Behandlung/Verwertung anfallenden Reststoffe (z. B. Störstoffe und Siebreste); \n- Vermarktung der Produkte (z. B. Kompost, Gärreste); \n- Jährliche Bioabfallmenge: zwischen ca. 3 000 Mg/a und 4 200 Mg/a.\n\nWeitere Details entnehmen Sie bitte den Vergabeunterlagen.",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE274"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Übernahme, Transport und Verwertung von Grüngut",
+    "description": "Zum 01.01.2027 beabsichtigt die Stadt Memmingen den Transport und die Verwertung von Grüngut- und Gartenabfällen und Bioabfällen neu zu vergeben. \n\nDie zu vergebenden Leistungen werden in den Losen 1 und 2 für eine Laufzeit von jeweils fünf Jahren (vom 01.01.2027 bis zum 31.12.2031) ausgeschrieben. Der Vertrag verlängert sich im jeweiligen Los maximal zweimalig um jeweils ein weiteres Jahr (bis zum 31.12.2032, bzw. max. bis zum 31.12.2033), sofern keiner der beiden Vertragspartner den Vertrag spätestens zwölf Monate vor Ablauf der jeweiligen Vertragslaufzeit kündigt (Vertragsverlängerung/-en). Notwendige Vorbereitungen zur Leistungserbringung können nach der Zuschlagserteilung (voraussichtlich 42. KW 2026) beginnen. \n\nDie Gesamtleistung wird in zwei Losen vergeben und besteht im Los 2 im Wesentlichen aus den folgenden Einzelleistungen: \n- Übernahme des Grüngutes durch den Auftragnehmer an der vom Auftraggeber vorgegebenen Übernahmestelle. Das Grüngut wird dem Auftragnehmer unzerkleinert übergeben. \n- Holziges Grüngut ist mengenabhängig zu übernehmen; es kann vor Ort vom Auftragnehmer gehäckselt werden (maximal fünfmal pro Jahr). \n- Krautiges Grüngut ist wöchentlich am Montag bzw. dem ersten Werktag nach dem Wochenende und am Donnerstag, bzw. am ersten Werktag nach dem Mittwoch an der Grüngutannahmestelle zu übernehmen; Hinweis: Die Verladung erfolgt durch den Auftraggeber in die vom Auftragnehmer zu stellenden Container (zwei Abrollcontainer á 36 m³ - 40 m³). \n- Wurzelstöcke sind einmal pro Kalenderjahr zu übernehmen. \n- Verwertung bzw. Vermarktung des übernommenen Grüngutes. \n- Jährliche Grüngutmenge: zwischen ca. 1 500 Mg/a und 3 000 Mg/a.\n\nWeitere Details entnehmen Sie bitte den Vergabeunterlagen.",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE274"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

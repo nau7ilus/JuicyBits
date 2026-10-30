@@ -1,0 +1,204 @@
+{
+ "id": "f24d75cd-de13-4ca4-963c-798b74f3d383-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "f24d75cd-de13-4ca4-963c-798b74f3d383",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f24d75cd-de13-4ca4-963c-798b74f3d383",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:f24d75cd-de13-4ca4-963c-798b74f3d383-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:f24d75cd-de13-4ca4-963c-798b74f3d383-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f24d75cd-de13-4ca4-963c-798b74f3d383?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung eines Dokumentenmanagementsystems (DMS)",
+  "buyer": "Gemeinde Vaterstetten",
+  "cpv": [
+   "72268000",
+   "48311100"
+  ],
+  "nuts": [
+   "DE218"
+  ],
+  "deadline": "2026-11-18T10:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-01a7298d-31cd-4cd7-ab2c-221b4d8cdc85",
+  "id": "f24d75cd-de13-4ca4-963c-798b74f3d383",
+  "date": "2026-10-21T02:12:10Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Vaterstetten",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "11890",
+     "legalName": "Gemeinde Vaterstetten"
+    },
+    "address": {
+     "streetAddress": "Wendelsteinstraße 7",
+     "locality": "Vaterstetten",
+     "region": "DE218",
+     "postalCode": "85591",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "27f8871d-6bda-4d10-ba5e-50cbbbf3dd02",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Vaterstetten",
+   "id": "11890",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Vaterstetten"
+   },
+   "address": {
+    "streetAddress": "Wendelsteinstraße 7",
+    "locality": "Vaterstetten",
+    "region": "DE218",
+    "postalCode": "85591",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "01a7298d-31cd-4cd7-ab2c-221b4d8cdc85",
+   "title": "Beschaffung eines Dokumentenmanagementsystems (DMS)",
+   "description": "Gegenstand der Leistung sind die cloud-basierte Überlassung (Software-as-a-Service, SaaS) des DMS, dessen Bereitstellung, Konfiguration und Anpassung, die Migration vorhandener Daten, Schulung und Dokumentation, die förmliche Abnahme der einmaligen Einführungsleistungen sowie der laufende Betrieb einschließlich Pflege, Support und Service.",
+   "procuringEntity": {
+    "name": "Gemeinde Vaterstetten",
+    "id": "11890"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72268000",
+      "description": "Software supply services"
+     },
+     "deliveryAddress": {
+      "region": "DE218",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/01a7298d-31cd-4cd7-ab2c-221b4d8cdc85",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Beschaffung eines Dokumentenmanagementsystems (DMS)",
+     "description": "Auftraggeberin ist die Gemeinde Vaterstetten im Landkreis Ebersberg im Regierungsbezirk Oberbayern (https://vaterstetten.de). Mit über 25.000 Einwohnern ist Vaterstetten die zweitgrößte Gemeinde in Bayern, die weder Stadt noch Markt ist. Aufgrund der Einwohnerzahl zählt sie seit 2001 zu den sogenannten leistungsfähigen kreisangehörigen Gemeinden. Sie übernimmt daher Aufgaben des Landkreises wie etwa bei der Bearbeitung von Baugenehmigungen als Untere Bauaufsichtsbehörde, beim Denkmalschutz als Untere Denkmalschutzbehörde sowie bei der Abfallentsorgung auf dem Gemeindegebiet. Die Gemeindeverwaltung hat zusammen mit Baubetriebs- und Wertstoffhöfen sowie schulischen Liegenschaften eine Personalstärke von etwa 200 Beschäftigten.\nDie Verwaltung führt ihr Schriftgut teils papiergebunden, großteils aber in dateibasierten Ablagen (Netzlaufwerken) und in den jeweiligen Fachverfahren. Der Bayerische Einheitsaktenplan wird derzeit nur teilweise befolgt. Der jährliche Dokumentenzuwachs beträgt durchschnittlich etwa 15 %. Geplant ist die Einführung eines einheitlichen, medienbruchfreien Dokumentenmanagementsystems (DMS) mit elektronischer Akte (E-Akte) für die verwaltungsweite Vorgangsbearbeitung.\nGegenstand der Leistung sind die cloud-basierte Überlassung (Software-as-a-Service, SaaS) des DMS, dessen Bereitstellung, Konfiguration und Anpassung, die Migration vorhandener Daten, Schulung und Dokumentation, die förmliche Abnahme der einmaligen Einführungsleistungen sowie der laufende Betrieb einschließlich Pflege, Support und Service.",
+     "contractPeriod": {
+      "durationInDays": 1800
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "f24d75cd-de13-4ca4-963c-798b74f3d383",
+  "version": "01",
+  "title": "Beschaffung eines Dokumentenmanagementsystems (DMS)",
+  "description": "Gegenstand der Leistung sind die cloud-basierte Überlassung (Software-as-a-Service, SaaS) des DMS, dessen Bereitstellung, Konfiguration und Anpassung, die Migration vorhandener Daten, Schulung und Dokumentation, die förmliche Abnahme der einmaligen Einführungsleistungen sowie der laufende Betrieb einschließlich Pflege, Support und Service.",
+  "procedureType": "open",
+  "nuts": [
+   "DE218"
+  ],
+  "cpv": [
+   "72268000",
+   "48311100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung eines Dokumentenmanagementsystems (DMS)",
+    "description": "Auftraggeberin ist die Gemeinde Vaterstetten im Landkreis Ebersberg im Regierungsbezirk Oberbayern (https://vaterstetten.de). Mit über 25.000 Einwohnern ist Vaterstetten die zweitgrößte Gemeinde in Bayern, die weder Stadt noch Markt ist. Aufgrund der Einwohnerzahl zählt sie seit 2001 zu den sogenannten leistungsfähigen kreisangehörigen Gemeinden. Sie übernimmt daher Aufgaben des Landkreises wie etwa bei der Bearbeitung von Baugenehmigungen als Untere Bauaufsichtsbehörde, beim Denkmalschutz als Untere Denkmalschutzbehörde sowie bei der Abfallentsorgung auf dem Gemeindegebiet. Die Gemeindeverwaltung hat zusammen mit Baubetriebs- und Wertstoffhöfen sowie schulischen Liegenschaften eine Personalstärke von etwa 200 Beschäftigten.\nDie Verwaltung führt ihr Schriftgut teils papiergebunden, großteils aber in dateibasierten Ablagen (Netzlaufwerken) und in den jeweiligen Fachverfahren. Der Bayerische Einheitsaktenplan wird derzeit nur teilweise befolgt. Der jährliche Dokumentenzuwachs beträgt durchschnittlich etwa 15 %. Geplant ist die Einführung eines einheitlichen, medienbruchfreien Dokumentenmanagementsystems (DMS) mit elektronischer Akte (E-Akte) für die verwaltungsweite Vorgangsbearbeitung.\nGegenstand der Leistung sind die cloud-basierte Überlassung (Software-as-a-Service, SaaS) des DMS, dessen Bereitstellung, Konfiguration und Anpassung, die Migration vorhandener Daten, Schulung und Dokumentation, die förmliche Abnahme der einmaligen Einführungsleistungen sowie der laufende Betrieb einschließlich Pflege, Support und Service.",
+    "cpv": [
+     "72268000"
+    ],
+    "nuts": [
+     "DE218"
+    ],
+    "deadline": "2026-11-18T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Zum Nachweis der technischen und beruflichen Leistungsfähigkeit hat der Bieter mindestens drei Referenzen über wesentliche Leistungen anzugeben, die in den letzten höchstens drei Jahren (gerechnet ab dem Ende der Angebotsfrist) erbracht wurden oder noch erbracht werden.\n\nDie Referenzen müssen mit dem Gegenstand der ausgeschriebenen Leistung nach Art, Inhalt, Umfang und Komplexität vergleichbar sein. Gegenstand der Ausschreibung ist die Einführung und der Betrieb eines cloud-basierten Dokumentenmanagementsystems (DMS) mit elektronischer Aktenführung für eine öffentliche Verwaltung.\n\nAls vergleichbar gelten insbesondere Projekte zur Einführung oder zum Betrieb eines DMS bzw. einer E-Akte-Lösung bei Behörden, Kommunen oder vergleichbaren öffentlichen oder privaten Einrichtungen mit mindestens 150 Anwenderinnen und Anwendern, sofern eine SaaS-/Cloud-Bereitstellung, Datenmigration und Schulung Bestandteil der Leistung waren.\n\nMindestens drei Referenzen müssen diese Anforderungen erfüllen. Der Auftraggeber behält sich eine Überprüfung der Referenzen beim jeweiligen Vertragspartner/Ansprechpartner vor; unvollständige oder nicht nachvollziehbare Angaben können im Rahmen der Eignungsprüfung unberücksichtigt bleiben.\n\nBei Referenzen aus einer Bietergemeinschaft ist ausschließlich der vom Bieter selbst erbrachte Leistungsanteil anzugeben. Sofern der Bieter Alleinauftragnehmer war, genügt die entsprechende Kennzeichnung."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Der Bieter hat nachzuweisen, dass eine oder mehrere Haftpflichtversicherungen bestehen, die insgesamt alle Risiken abdecken, die im Zusammenhang mit der Erbringung der vertraglichen Leistungen (Bereitstellung, Implementierung, Betrieb und Pflege eines cloud-basierten Dokumentenmanagementsystems) entstehen können, und die während der gesamten Vertragslaufzeit aufrechterhalten werden. Die Versicherung(en) muss/müssen dabei folgende Mindestdeckungsbeträge aufweisen, die tarifmäßig in Deutschland versicherbar sind:\n\n•\tPersonenschäden: mindestens 500.000 EUR je Schadensfall\n•\tSachschäden: mindestens 1 Mio. EUR je Schadensfall\n•\tVermögensschäden: mindestens 1.000.000 EUR (einschließlich Schäden durch Datenverlust, fehlerhafte Systemkonfiguration, Verletzung von Datenschutzvorschriften sowie Betriebsunterbrechung infolge eines IT-Sicherheitsvorfalls) je Schadensfall\n\nDie Deckungssumme ist je Versicherungsjahr auf das Doppelte der genannten Beträge maximiert.\n\nAlternativ kann der Bieter eine verbindliche Erklärung abgeben, dass er eine oder mehrere solcher Versicherungen spätestens zum Zeitpunkt der Zuschlagserteilung abschließen wird.\n\nFehlt der Versicherungsnachweis oder die Erklärung, wird das Angebot ausgeschlossen.\n\nFügen Sie ggf. entsprechende Nachweise bei. Die Nachweise dürfen nicht älter als sechs Monate sein. Bestätigungen in anderer als deutscher Sprache müssen in einer Übersetzung vorgelegt werden. Der Bewerber garantiert die Richtigkeit der Übersetzung."
+     },
+     {
+      "type": "slc-abil-facil-tools",
+      "description": "Der Bieter hat eine Beschreibung der für die Leistungserbringung verfügbaren technischen Ausrüstung (Rechenzentrumsinfrastruktur) vorzulegen. Zum Nachweis der Informationssicherheit des Rechenzentrumsbetriebs ist ein gültiges BSI-C5-Testat, eine Zertifizierung nach ISO/IEC 27001 oder ein gleichwertiger Nachweis einzureichen."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Diese Erklärung ist von Einzelbietern, allen Mitgliedern einer Bietergemeinschaft und allen Unterauftragnehmern abzugeben. Der Bieter hat anzugeben, ob eine Eintragung in einem Berufs- und Handelsregister vorliegt oder ob er nicht zur Eintragung verpflichtet ist, aber auf andere Weise die erlaubte Berufsausübung nachweisen kann. Falls das Angebot in die engere Wahl kommt, sind zur Bestätigung auf gesondertes Verlangen vorzulegen: Gewerbeanmeldung, Berufs-/Handelsregisterauszug, Eintragung in der Handwerksrolle oder bei der Industrie- und Handelskammer oder anderweitige sonstige Nachweise."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Diese Erklärung ist von Einzelbietern, allen Mitgliedern einer Bietergemeinschaft und allen Unterauftragnehmern abzugeben. Der Bieter hat anzugeben, ob eine Eintragung in einem Berufs- und Handelsregister vorliegt oder ob er nicht zur Eintragung verpflichtet ist, aber auf andere Weise die erlaubte Berufsausübung nachweisen kann. Falls das Angebot in die engere Wahl kommt, sind zur Bestätigung auf gesondertes Verlangen vorzulegen: Gewerbeanmeldung, Berufs-/Handelsregisterauszug, Eintragung in der Handwerksrolle oder bei der Industrie- und Handelskammer oder anderweitige sonstige Nachweise."
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

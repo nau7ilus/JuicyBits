@@ -1,0 +1,133 @@
+{
+ "id": "25974026-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25974026",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25974026",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25974026-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25974026-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25974026?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Auswahlverfahren Vermietung Shop Olympiaturm",
+  "buyer": "Olympiapark München GmbH",
+  "cpv": [
+   "70310000-7"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-12-18T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25974026",
+  "id": "25974026",
+  "date": "2026-10-27T07:00:37Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Olympiapark München GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Olympiapark München GmbH"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Olympiapark München GmbH",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Olympiapark München GmbH"
+   }
+  },
+  "tender": {
+   "title": "Auswahlverfahren Vermietung Shop Olympiaturm",
+   "description": "Sonstiges",
+   "procuringEntity": {
+    "name": "Olympiapark München GmbH"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "70310000-7"
+     },
+     "deliveryAddress": {
+      "locality": "80809 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV288C10",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Auswahlverfahren Vermietung Shop Olympiaturm",
+     "description": "Sonstiges"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25974026",
+  "version": "1",
+  "title": "Auswahlverfahren Vermietung Shop Olympiaturm",
+  "description": "Sonstiges",
+  "procedureType": "Dienstleistungskonzession",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "70310000-7"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Auswahlverfahren Vermietung Shop Olympiaturm",
+    "description": "Sonstiges",
+    "cpv": [
+     "70310000-7"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-12-18T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

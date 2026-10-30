@@ -1,0 +1,197 @@
+{
+ "id": "b0263d0d-f922-42eb-8358-7f8aaf740493-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "b0263d0d-f922-42eb-8358-7f8aaf740493",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b0263d0d-f922-42eb-8358-7f8aaf740493",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:b0263d0d-f922-42eb-8358-7f8aaf740493-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:b0263d0d-f922-42eb-8358-7f8aaf740493-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b0263d0d-f922-42eb-8358-7f8aaf740493?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "VE8309HB - Rückbau im Bereich des VKN München",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45111100"
+  ],
+  "nuts": [
+   "DE712",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3ab16d0e-3f66-43c3-97c5-d4467d710eaf",
+  "id": "b0263d0d-f922-42eb-8358-7f8aaf740493",
+  "date": "2026-10-18T05:42:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3ab16d0e-3f66-43c3-97c5-d4467d710eaf",
+   "title": "VE8309HB - Rückbau im Bereich des VKN München",
+   "description": "Gegenstand der Maßnahme ist der Schadstoffsanierung, Entkernung und Abbruch im Bereich des Verkehrsknotenpunktes (VKN) Hbf München. \n\nFür die Herstellung der Vorhaltemaßnahme U9 und des Neubau Empfangsgebäudes sollen die daran angrenzenden Bereiche (Durchgangshalle sowie Nord- und Südbau) abgebrochen werden. Die Abbruchmaßnahmen umfassen die oberirdischen Teile der beschriebenen Gebäudeteile wie auch die bestehenden Untergeschosse und somit die kompletten Bauwerke, inkl. aller Medien / Versorgungsanlagen. Weiterhin werden in den jeweiligen Abbruchphasen die öffentlichen Wege vom Baufeld abgetrennt. Die notwendige bauliche Abtrennung des Querbahnsteigs vom Baufeld ist zu realisieren.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45111100",
+      "description": "Demolition work"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80335",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/2410d0af-38ae-4a32-95be-1475c6d54283",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "VE8309HB - Rückbau im Bereich des VKN München",
+     "description": "Gegenstand der Maßnahme ist der Schadstoffsanierung, Entkernung und Abbruch im Bereich des Verkehrsknotenpunktes (VKN) Hbf München. \n\nFür die Herstellung der Vorhaltemaßnahme U9 und des Neubau Empfangsgebäudes sollen die daran angrenzenden Bereiche (Durchgangshalle sowie Nord- und Südbau) abgebrochen werden. Die Abbruchmaßnahmen umfassen die oberirdischen Teile der beschriebenen Gebäudeteile wie auch die bestehenden Untergeschosse und somit die kompletten Bauwerke, inkl. aller Medien / Versorgungsanlagen. Weiterhin werden in den jeweiligen Abbruchphasen die öffentlichen Wege vom Baufeld abgetrennt. Die notwendige bauliche Abtrennung des Querbahnsteigs vom Baufeld ist zu realisieren.",
+     "contractPeriod": {
+      "startDate": "2027-03-15T00:00:00+01:00",
+      "endDate": "2028-09-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "b0263d0d-f922-42eb-8358-7f8aaf740493",
+  "version": "01",
+  "title": "VE8309HB - Rückbau im Bereich des VKN München",
+  "description": "Gegenstand der Maßnahme ist der Schadstoffsanierung, Entkernung und Abbruch im Bereich des Verkehrsknotenpunktes (VKN) Hbf München. \n\nFür die Herstellung der Vorhaltemaßnahme U9 und des Neubau Empfangsgebäudes sollen die daran angrenzenden Bereiche (Durchgangshalle sowie Nord- und Südbau) abgebrochen werden. Die Abbruchmaßnahmen umfassen die oberirdischen Teile der beschriebenen Gebäudeteile wie auch die bestehenden Untergeschosse und somit die kompletten Bauwerke, inkl. aller Medien / Versorgungsanlagen. Weiterhin werden in den jeweiligen Abbruchphasen die öffentlichen Wege vom Baufeld abgetrennt. Die notwendige bauliche Abtrennung des Querbahnsteigs vom Baufeld ist zu realisieren.",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45111100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "VE8309HB - Rückbau im Bereich des VKN München",
+    "description": "Gegenstand der Maßnahme ist der Schadstoffsanierung, Entkernung und Abbruch im Bereich des Verkehrsknotenpunktes (VKN) Hbf München. \n\nFür die Herstellung der Vorhaltemaßnahme U9 und des Neubau Empfangsgebäudes sollen die daran angrenzenden Bereiche (Durchgangshalle sowie Nord- und Südbau) abgebrochen werden. Die Abbruchmaßnahmen umfassen die oberirdischen Teile der beschriebenen Gebäudeteile wie auch die bestehenden Untergeschosse und somit die kompletten Bauwerke, inkl. aller Medien / Versorgungsanlagen. Weiterhin werden in den jeweiligen Abbruchphasen die öffentlichen Wege vom Baufeld abgetrennt. Die notwendige bauliche Abtrennung des Querbahnsteigs vom Baufeld ist zu realisieren.",
+    "cpv": [
+     "45111100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-12T10:00:00+01:00",
+    "plannedStart": "2027-03-15+01:00",
+    "plannedEnd": "2028-09-01+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Bitte beachten Sie dazu die Abschnitte 2.1, 2.1.4 und 5.1.6 dieser Bekanntmachung."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheiten gemäß Vergabeunterlagen"
+    }
+   }
+  ]
+ }
+}

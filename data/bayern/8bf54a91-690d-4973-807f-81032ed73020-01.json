@@ -1,0 +1,225 @@
+{
+ "id": "8bf54a91-690d-4973-807f-81032ed73020-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "8bf54a91-690d-4973-807f-81032ed73020",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8bf54a91-690d-4973-807f-81032ed73020",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:8bf54a91-690d-4973-807f-81032ed73020-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:8bf54a91-690d-4973-807f-81032ed73020-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8bf54a91-690d-4973-807f-81032ed73020?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung von 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb",
+  "buyer": "Busservice WatzingerGmbH & Co. KG",
+  "cpv": [
+   "34144910"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-10-29T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-34d397da-9f1c-4269-b9d4-5fce4d7ec0d1",
+  "id": "8bf54a91-690d-4973-807f-81032ed73020",
+  "date": "2026-10-16T02:11:03Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Busservice WatzingerGmbH & Co. KG",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "HRB 82076",
+     "legalName": "Busservice WatzingerGmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Landsberger Straße 181",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80687",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Landgericht München I",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0895597-03",
+     "legalName": "Landgericht München I"
+    },
+    "address": {
+     "streetAddress": "Prielmayerstraße 7 (Justizpalast)",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80335",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Busservice WatzingerGmbH & Co. KG",
+   "id": "HRB 82076",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Busservice WatzingerGmbH & Co. KG"
+   },
+   "address": {
+    "streetAddress": "Landsberger Straße 181",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80687",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "34d397da-9f1c-4269-b9d4-5fce4d7ec0d1",
+   "title": "Beschaffung von 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb",
+   "description": "Die Auftraggeberin beabsichtigt die Beschaffung von insgesamt 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb zur Elektrifizierung der Busflotte. Die technischen Anforderungen und weiteren Leistungsgegenstände sind den Anlagen dieses Vergabeverfahrens zu entnehmen. \nSpätester Liefertermin für die Fahrzeuge ist der 01.06.2027. Frühester Liefertermin ist der 15.04.2027. \nAnzubieten sind ferner optionale Leistungen gemäß Preisblatt. Insoweit handelt es sich um für den Auftraggeber einseitig ausübbare Optionsrechte. Die etwaige Ausübung erfolgt mit Zuschlagserteilung mit Ausnahme des Fahrzeugrückkaufs; diese Option wird spätestens nach Ablauf von 12 Jahren ab Lieferung ausgeübt.",
+   "procuringEntity": {
+    "name": "Busservice WatzingerGmbH & Co. KG",
+    "id": "HRB 82076"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144910",
+      "description": "Electric buses"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Landsberger Str. 181",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80687",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.subreport.de/E17911262",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-16T02:11:03.311Z",
+     "rationale": "Das Verfahren wurde in den Stand vor Angebotsabgabe zurückversetzt, da versehentlich eine erfolgte Angebotsfristverlängerung nicht bekanntgemacht wurde und einige Bieterfragen nicht gegenüber allen Bietern beantwortet wurden. Zur Sicherstellung der Chancengleichheit und Transparenz hat sich die Auftraggeberin dazu entscheiden, das Verfahren in den Stand vor Angebotsabgabe zurückzuversetzen.",
+     "description": "Das Verfahren wurde in den Stand vor Angebotsabgabe zurückversetzt.\n\nDie Vergabeunterlagen bleiben – mit Ausnahme der Angebotsfrist und der Bindefrist sowie formalen Anpassungen (z. B. der Datumsangaben) – inhaltlich unverändert. Alle Änderungen sind zur Nachvollziehbarkeit gelb unterlegt. Die Dateien, in denen sich Änderungen ergeben haben bzw. die neu hinzugekommen sind, sind dadurch gekennzeichnet, das am Ende der Dateibezeichnung das Wort „neu“ hinzugefügt wurde.\n\nDie neue Angebotsfrist ist: 29.10.2026, 12:00 Uhr\nDie neue Bindefrist ist: 30.11.2026",
+     "amendsReleaseID": "00aef367-7f42-49b2-bbf7-adb35650907a-01",
+     "releaseID": "8bf54a91-690d-4973-807f-81032ed73020-01"
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Beschaffung von 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb",
+     "description": "Die Auftraggeberin beabsichtigt die Beschaffung von insgesamt 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb zur Elektrifizierung der Busflotte. Die technischen Anforderungen und weiteren Leistungsgegenstände sind den An-lagen dieses Vergabeverfahrens zu entnehmen. \nSpätester Liefertermin für die Fahrzeuge ist der 01.06.2027. Frühester Liefertermin ist der 15.04.2027. \nAnzubieten sind ferner optionale Leistungen gemäß Preisblatt. Insoweit handelt es sich um für den Auftraggeber einseitig ausübbare Optionsrechte. Die etwaige Ausübung erfolgt mit Zuschlagserteilung mit Ausnahme des Fahrzeugrückkaufs; diese Option wird spätestens nach Ablauf von 12 Jahren ab Lieferung ausgeübt.",
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "8bf54a91-690d-4973-807f-81032ed73020",
+  "version": "01",
+  "title": "Beschaffung von 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb",
+  "description": "Die Auftraggeberin beabsichtigt die Beschaffung von insgesamt 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb zur Elektrifizierung der Busflotte. Die technischen Anforderungen und weiteren Leistungsgegenstände sind den Anlagen dieses Vergabeverfahrens zu entnehmen. \nSpätester Liefertermin für die Fahrzeuge ist der 01.06.2027. Frühester Liefertermin ist der 15.04.2027. \nAnzubieten sind ferner optionale Leistungen gemäß Preisblatt. Insoweit handelt es sich um für den Auftraggeber einseitig ausübbare Optionsrechte. Die etwaige Ausübung erfolgt mit Zuschlagserteilung mit Ausnahme des Fahrzeugrückkaufs; diese Option wird spätestens nach Ablauf von 12 Jahren ab Lieferung ausgeübt.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "34144910"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung von 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb",
+    "description": "Die Auftraggeberin beabsichtigt die Beschaffung von insgesamt 4 Solobussen mit Elektroantrieb und 6 Gelenkbussen mit Elektroantrieb zur Elektrifizierung der Busflotte. Die technischen Anforderungen und weiteren Leistungsgegenstände sind den An-lagen dieses Vergabeverfahrens zu entnehmen. \nSpätester Liefertermin für die Fahrzeuge ist der 01.06.2027. Frühester Liefertermin ist der 15.04.2027. \nAnzubieten sind ferner optionale Leistungen gemäß Preisblatt. Insoweit handelt es sich um für den Auftraggeber einseitig ausübbare Optionsrechte. Die etwaige Ausübung erfolgt mit Zuschlagserteilung mit Ausnahme des Fahrzeugrückkaufs; diese Option wird spätestens nach Ablauf von 12 Jahren ab Lieferung ausgeübt.",
+    "cpv": [
+     "34144910"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-10-29T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "•\tEigenerklärung des Bieters zur Eignung (Vordruck 2)\n•\tEigenerklärung des Bieters zum Gesamtumsatz in den letzten drei abgeschlossenen Geschäftsjahren aufgeteilt nach Gesamtumsatz und Umsatz im Zusammenhang mit dem Verkauf und der Lieferung von Bussen mit Elektroantrieb (Vordruck 2). Der Gesamtumsatz im Zusammenhang mit dem Verkauf und der Lieferung von Bussen mit Elektroantrieb muss mindestens 10.000.000,00 EUR betragen. \n•\tEigenerklärung zum Bestehen bzw. Abschluss im Zuschlagsfalle eines aus-reichenden Versicherungsschutzes bei einem in der EU zugelassenen Versicherungsinstitutes. Die Deckungssumme für den Versicherungsschutz muss mindestens 5.000.000 EUR für Personen-, Sach- und 250.000 EUR für Vermögensschäden je Schadensfall (mindestens das Zweifache der vorstehenden je nach Versicherungsfall vereinbarten Versicherungssumme pro Jahr) betragen."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "•\tEigenerklärung des Bieters (Vordruck 2) zu Referenzaufträgen. Anzugeben sind mindestens drei Referenzaufträge in den letzten drei Jahren. Die Referenzaufträge müssen jeweils folgende Anforderungen erfüllen:\n-\tMindestlieferumfang von 10 Elektrobussen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Wertungspreis wird wie folgt ermittelt:\nFür jeden Bustyp (Solobus und Gelenkbus) wird zunächst der angebotene Einzelpreis je Bus herangezogen. Bei jedem Bustyp wird sodann jeweils der anzubietende Rückkaufspreis nach 12 Jahren und 800.000km subtrahiert. Addiert wird anschließend der anzubietende Preis für den Wartungs- und Reparaturvertrag für 12 Jahre (ohne Preisgleitklausel) je Bustyp. Addiert werden zudem je Bustyp der Preis für die anzubietende Ladeschiene, das Top View Kamerasystem 360° und das Spiegelersatzsystem. Der sich so ergebende Gesamtpreis je Bustyp wird mit der Anzahl je Bustyp zu beschaffenden Busse multipliziert. Schließlich werden die so ermittelten Werte je Bustyp miteinander addiert. Das Ergebnis dieser Addition ist der Wertungspreis. \nDer Zuschlag wird auf das wirtschaftlichste Angebot nach dem Preis-Leistungsverhältnis erteilt. Das Angebot mit dem höchsten Faktor Z (Wertungspunk-te) erhält den Zuschlag. Die Gesamtbewertung wird nach der so genannten einfachen Richtwertmethode wie folgt vorgenommen:\nZ = wertungsfähige Leistungspunkte / Wertungspreis * 10.000.000 (wertungsfähige Leistungspunkte geteilt durch Wertungspreis multipliziert mit 10.000.000 gleich Wertungspunkte) \n\nHinsichtlich der Details wird auf die Vergabeunterlagen verwiesen.",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": null,
+      "description": "1.\tKonzept für die Versorgungssicherheit der Ersatzteile. \nGewichtung 30% der Qualitätsbewertung\n2.\tKonzept zur Instandsetzung von (Unfall)schäden, Defekten oder Verschleißerscheinungen. \nGewichtung 40 % der Qualitätsbewertung\n3.\tKonzept für die Einhaltung von Umweltkriterien in der Herstellung.\nGewichtung 30% der Qualitätsbewertung\n\nDer Zuschlag wird auf das wirtschaftlichste Angebot nach dem Preis-Leistungsverhältnis erteilt. Das Angebot mit dem höchsten Faktor Z (Wertungspunk-te) erhält den Zuschlag. Die Gesamtbewertung wird nach der so genannten einfa-chen Richtwertmethode wie folgt vorgenommen:\nZ = wertungsfähige Leistungspunkte / Wertungspreis * 10.000.000 (wertungsfä-hige Leistungspunkte geteilt durch Wertungspreis multipliziert mit 10.000.000 gleich Wertungspunkte) \n\nHinsichtlich der Details wird auf die Vergabeunterlagen verwiesen.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Der Bieter bringt spätestens 4 Wochen nach Zuschlagserteilung eine selbstschuldnerische Bankbürgschaft (Gewährleistungs- und Garantiebürgschaft) eines in der Europäischen Union (EU) oder im Europäischen Wirtschaftsraum (EWR) zugelassen Kreditinstituts.\nMit dieser Gewährleistungs- und Garantiebürgschaft sind alle Gewährleistungs- und Garantieansprüche, welche in der gegenständlichen Vergabe gefordert sind, abzudecken. Für die Bürgschaft und alle daraus entstehenden Streitigkeiten muss ausschließlich deutsches Recht gelten. Die Bürgschaftserklärung muss in deutscher Sprache verfasst sein. Der Gerichtsstand für Streitigkeiten aus der Bürgschaft muss in Deutschland liegen."
+    }
+   }
+  ]
+ }
+}

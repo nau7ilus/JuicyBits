@@ -5,14 +5,14 @@
   "noticeId": "c0faccc4-5f00-4786-af49-c8f148ed1069",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c0faccc4-5f00-4786-af49-c8f148ed1069",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:c0faccc4-5f00-4786-af49-c8f148ed1069-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:c0faccc4-5f00-4786-af49-c8f148ed1069-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/c0faccc4-5f00-4786-af49-c8f148ed1069?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113",
   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
   "cpv": [
@@ -140,5 +140,50 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "c0faccc4-5f00-4786-af49-c8f148ed1069",
+  "version": "01",
+  "title": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113",
+  "description": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113;Strecke: 5800 Schwandorf - Furth im Wald\nStrecke: 5801 DB-Grenze - Furth im Wald\nkm 66,6 (Str. 5800) – km 190,5 (Str. 5801)",
+  "procedureType": "open",
+  "nuts": [
+   "DE227"
+  ],
+  "cpv": [
+   "45234116"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113",
+    "description": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113;Strecke: 5800 Schwandorf - Furth im Wald\nStrecke: 5801 DB-Grenze - Furth im Wald\nkm 66,6 (Str. 5800) – km 190,5 (Str. 5801)",
+    "cpv": [
+     "45234116"
+    ],
+    "nuts": [
+     "DE227"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-06-08+02:00",
+    "plannedEnd": "2028-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

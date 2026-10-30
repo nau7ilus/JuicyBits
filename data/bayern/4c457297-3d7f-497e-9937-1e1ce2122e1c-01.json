@@ -5,16 +5,17 @@
   "noticeId": "4c457297-3d7f-497e-9937-1e1ce2122e1c",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4c457297-3d7f-497e-9937-1e1ce2122e1c",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:4c457297-3d7f-497e-9937-1e1ce2122e1c-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:4c457297-3d7f-497e-9937-1e1ce2122e1c-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/4c457297-3d7f-497e-9937-1e1ce2122e1c?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Blutgasgeräte",
   "buyer": "Klinikum der Technischen Universität München (TUM Klinikum)",
   "cpv": [
-   "38434520"
+   "38434520",
+   "33696200"
   ],
   "nuts": [
    "DE212"
@@ -175,5 +176,44 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "25",
+  "noticeId": "4c457297-3d7f-497e-9937-1e1ce2122e1c",
+  "version": "01",
+  "title": "Blutgasgeräte",
+  "description": "Beschaffung von 13 bis 14 Blutgasgeräten für das Dt. Herzzentrum inkl. Wartung und Integrationsleistungen",
+  "procedureType": "neg-wo-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "38434520",
+   "33696200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung von 13 bis 14 Blutgasgeräten für das Dt. Herzzentrum inkl. Wartung und Integrationsleistungen",
+    "description": "Beschaffung von 13 bis 14 Blutgasgeräten für das Dt. Herzzentrum inkl. Wartung und Integrationsleistungen",
+    "cpv": [
+     "38434520"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

@@ -1,0 +1,283 @@
+{
+ "id": "f4701b03-6ce3-4aa3-acd9-b95e0e93fbc0-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "f4701b03-6ce3-4aa3-acd9-b95e0e93fbc0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f4701b03-6ce3-4aa3-acd9-b95e0e93fbc0",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:f4701b03-6ce3-4aa3-acd9-b95e0e93fbc0-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:f4701b03-6ce3-4aa3-acd9-b95e0e93fbc0-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f4701b03-6ce3-4aa3-acd9-b95e0e93fbc0?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Bodenbelagsarbeiten BA 2",
+  "buyer": "Landratsamt Erlangen-Höchstadt",
+  "cpv": [
+   "45432000",
+   "45432100",
+   "45432130"
+  ],
+  "nuts": [
+   "DE252",
+   "DE257"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-05ca82c0-985b-4c7a-a3a6-eb1f87a6093c",
+  "id": "f4701b03-6ce3-4aa3-acd9-b95e0e93fbc0",
+  "date": "2026-10-18T07:46:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Erlangen-Höchstadt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0358127-74",
+     "legalName": "Landratsamt Erlangen-Höchstadt"
+    },
+    "address": {
+     "streetAddress": "Nägelsbachstr. 1",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "funder",
+     "payer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "KNS GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "HRB 104858 AG Darmstadt",
+     "legalName": "KNS GmbH"
+    },
+    "address": {
+     "locality": "Viernheim",
+     "region": "DE715",
+     "postalCode": "68519",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Erlangen-Höchstadt",
+   "id": "09-0358127-74",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Landratsamt Erlangen-Höchstadt"
+   },
+   "address": {
+    "streetAddress": "Nägelsbachstr. 1",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91052",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "05ca82c0-985b-4c7a-a3a6-eb1f87a6093c",
+   "title": "Bodenbelagsarbeiten BA 2",
+   "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200)\nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\nca. 550qm Linoleumbelag inkl. Vor- und Nebenleistungen; ca. 250qm Textiler Bodenbelag als Kugelgarn inkl. Vor- und Nebenleistungen; ca. 400m Sockelleisten aus Massivholz, lackiert inkl. Nebenleistungen",
+   "procuringEntity": {
+    "name": "Landratsamt Erlangen-Höchstadt",
+    "id": "09-0358127-74"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45432000",
+      "description": "Floor-laying and covering, wall-covering and wall-papering work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45432100",
+       "description": "Floor laying and covering work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45432130",
+       "description": "Floor-covering work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Friedrich-Weiler-Platz 2",
+      "locality": "Herzogenaurach",
+      "region": "DE257",
+      "postalCode": "91074",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-08-24T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "KNS GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "KNS GmbH"
+     },
+     "address": {
+      "locality": "Viernheim",
+      "region": "DE715",
+      "postalCode": "68519",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Bodenbelagsarbeiten BA2",
+     "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\nca. 550qm Linoleumbelag inkl. Vor- und Nebenleistungen; ca. 250qm Textiler Bodenbelag als Kugelgarn inkl. Vor- und Nebenleistungen; ca. 400m Sockelleisten aus Massivholz, lackiert inkl. Nebenleistungen",
+     "contractPeriod": {
+      "startDate": "2026-12-07T00:00:00+01:00",
+      "endDate": "2028-01-28T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "3242 - Bodenbelagsarbeiten BA2",
+    "status": "active",
+    "date": "2026-09-21T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "KNS GmbH",
+      "id": "HRB 104858 AG Darmstadt",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "KNS GmbH"
+      },
+      "address": {
+       "locality": "Viernheim",
+       "region": "DE715",
+       "postalCode": "68519",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "title": "3242 - Bodenbelagsarbeiten BA2",
+    "status": "active",
+    "value": {
+     "amount": 48711.76,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-09-20T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "f4701b03-6ce3-4aa3-acd9-b95e0e93fbc0",
+  "version": "01",
+  "title": "Bodenbelagsarbeiten BA 2",
+  "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200)\nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\nca. 550qm Linoleumbelag inkl. Vor- und Nebenleistungen; ca. 250qm Textiler Bodenbelag als Kugelgarn inkl. Vor- und Nebenleistungen; ca. 400m Sockelleisten aus Massivholz, lackiert inkl. Nebenleistungen",
+  "procedureType": "open",
+  "nuts": [
+   "DE257"
+  ],
+  "cpv": [
+   "45432000",
+   "45432100",
+   "45432130"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Bodenbelagsarbeiten BA2",
+    "description": "Sanierung Berufsschule Herzogenaurach BA2 (1.2411.9401.200): \nDer Bauabschnitt 2 gliedert sich in 4 weitere Unterabschnitte (a-d):\nca. 550qm Linoleumbelag inkl. Vor- und Nebenleistungen; ca. 250qm Textiler Bodenbelag als Kugelgarn inkl. Vor- und Nebenleistungen; ca. 400m Sockelleisten aus Massivholz, lackiert inkl. Nebenleistungen",
+    "cpv": [
+     "45432000",
+     "45432100",
+     "45432130"
+    ],
+    "nuts": [
+     "DE257"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-07+01:00",
+    "plannedEnd": "2028-01-28+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

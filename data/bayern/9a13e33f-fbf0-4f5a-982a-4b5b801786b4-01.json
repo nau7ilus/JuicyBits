@@ -1,0 +1,228 @@
+{
+ "id": "9a13e33f-fbf0-4f5a-982a-4b5b801786b4-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "9a13e33f-fbf0-4f5a-982a-4b5b801786b4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9a13e33f-fbf0-4f5a-982a-4b5b801786b4",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:9a13e33f-fbf0-4f5a-982a-4b5b801786b4-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:9a13e33f-fbf0-4f5a-982a-4b5b801786b4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9a13e33f-fbf0-4f5a-982a-4b5b801786b4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "GS 5830 Obertraubling-Passau, Leistungen Projektmanagement",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71541000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE222"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0359a9a9-f884-456c-a290-5c2cb0ae4c8d",
+  "id": "9a13e33f-fbf0-4f5a-982a-4b5b801786b4",
+  "date": "2026-10-16T02:06:13Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Kansoka Projektmanagement GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "4be0bbab-8330-4bb4-8458-866039aa8239",
+     "legalName": "Kansoka Projektmanagement GmbH"
+    },
+    "address": {
+     "locality": "Esslingen am Neckar",
+     "region": "DE113",
+     "postalCode": "73733",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0359a9a9-f884-456c-a290-5c2cb0ae4c8d",
+   "title": "GS 5830 Obertraubling-Passau, Leistungen Projektmanagement",
+   "description": "GS 5830 Obertraubling-Passau; Leistungsbereich Projektmanagement Bahntechnik (OLA, LST, TK, Bautechnik, Trassierung) \nErneuerung der Oberleitungsanlage freie Strecke Schalding - Sandbach von ca. km 7,872 -  ca. km 14,221 und zus. OLA  Restleistungen Strecke 5831; Ausführungszeitraum Juni -Dez 2026",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71541000",
+      "description": "Construction project management services"
+     },
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94032",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-04-23T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Kansoka Projektmanagement GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Kansoka Projektmanagement GmbH"
+     },
+     "address": {
+      "locality": "Esslingen am Neckar",
+      "region": "DE113",
+      "postalCode": "73733",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 6 - GS5830 Obertraubling - Passau Leistungsbereich Trassierung BA 1",
+     "description": "Los 6 - Trassierung BA 1 Projektmanagement: techn. Bearbeitung, Schnittstellen und Planungskoordination",
+     "contractPeriod": {
+      "startDate": "2026-05-01T00:00:00+02:00",
+      "endDate": "2027-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2026-05-04T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-05-03T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "9a13e33f-fbf0-4f5a-982a-4b5b801786b4",
+  "version": "01",
+  "title": "GS 5830 Obertraubling-Passau, Leistungen Projektmanagement",
+  "description": "GS 5830 Obertraubling-Passau; Leistungsbereich Projektmanagement Bahntechnik (OLA, LST, TK, Bautechnik, Trassierung) \nErneuerung der Oberleitungsanlage freie Strecke Schalding - Sandbach von ca. km 7,872 -  ca. km 14,221 und zus. OLA  Restleistungen Strecke 5831; Ausführungszeitraum Juni -Dez 2026",
+  "procedureType": null,
+  "nuts": [
+   "DE222"
+  ],
+  "cpv": [
+   "71541000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 6 - GS5830 Obertraubling - Passau Leistungsbereich Trassierung BA 1",
+    "description": "Los 6 - Trassierung BA 1 Projektmanagement: techn. Bearbeitung, Schnittstellen und Planungskoordination",
+    "cpv": [
+     "71541000"
+    ],
+    "nuts": [
+     "DE222"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-05-01+02:00",
+    "plannedEnd": "2027-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

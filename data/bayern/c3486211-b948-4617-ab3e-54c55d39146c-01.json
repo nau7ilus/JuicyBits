@@ -1,0 +1,203 @@
+{
+ "id": "c3486211-b948-4617-ab3e-54c55d39146c-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "c3486211-b948-4617-ab3e-54c55d39146c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c3486211-b948-4617-ab3e-54c55d39146c",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:c3486211-b948-4617-ab3e-54c55d39146c-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:c3486211-b948-4617-ab3e-54c55d39146c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c3486211-b948-4617-ab3e-54c55d39146c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Knappschaft Kliniken Saar - Sulzbach -Sanierung der Pflegestation im 2. & 3. OG",
+  "buyer": "Knappschaftsklinikum Saar GmbH / Klinik Sulzbach",
+  "cpv": [
+   "45262670",
+   "45421100",
+   "45421131"
+  ],
+  "nuts": [
+   "DE234",
+   "DEC01"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d48906e4-a1fe-4180-86a2-7fa1b8eefd0b",
+  "id": "c3486211-b948-4617-ab3e-54c55d39146c",
+  "date": "2026-10-18T14:28:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Knappschaftsklinikum Saar GmbH / Klinik Sulzbach",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:068975740",
+     "legalName": "Knappschaftsklinikum Saar GmbH / Klinik Sulzbach"
+    },
+    "address": {
+     "streetAddress": "An der Klinik 10",
+     "locality": "Sulzbach",
+     "region": "DE234",
+     "postalCode": "66280",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Saarlandes beim Ministerium für Wirtschaft, Innovation, Digitales und Energie",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "10000000-00108010000001-47",
+     "legalName": "Vergabekammern des Saarlandes beim Ministerium für Wirtschaft, Innovation, Digitales und Energie"
+    },
+    "address": {
+     "streetAddress": "Franz-Josef-Röder-Str. 17",
+     "locality": "Saarbrücken",
+     "region": "DEC01",
+     "postalCode": "66119",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Knappschaftsklinikum Saar GmbH / Klinik Sulzbach",
+   "id": "t:068975740",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Knappschaftsklinikum Saar GmbH / Klinik Sulzbach"
+   },
+   "address": {
+    "streetAddress": "An der Klinik 10",
+    "locality": "Sulzbach",
+    "region": "DE234",
+    "postalCode": "66280",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d48906e4-a1fe-4180-86a2-7fa1b8eefd0b",
+   "title": "Knappschaft Kliniken Saar - Sulzbach -Sanierung der Pflegestation im 2. & 3. OG",
+   "description": "Die Baustelle befindet sich im Krankenhaus Sulzbach, An der Klinik 10, 66280 Sulzbach. Es handelt sich um den Umbau einer bestehenden Krankenstation im 2. und 3. OG des Bettenhauses der oben genannten Klinik. Die Sanierung betrifft nur teilweise auch die\nangrenzenden Geschosse, welche die grundsätzliche Anbindung der Ver- und Entsorgung beinhalten. Projektziel ist es die v. g. Sanierungsebene und die dortige Station im laufenden Krankenhausbetrieb auf den aktuellen Stand der Technik zu bringen, die Anforderungen aus dem Brandschutzkonzept umzusetzen und durch entsprechende Anordnung der Patientenzimmer moderne Patientenbereiche zu errichten. \n\nDie Leistungen beinhalten die Ausführung der dazu erforderlichen Metallbauarbeiten zur Herstellung der Türen.",
+   "procuringEntity": {
+    "name": "Knappschaftsklinikum Saar GmbH / Klinik Sulzbach",
+    "id": "t:068975740"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421100",
+       "description": "Installation of doors and windows and related components"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421131",
+       "description": "Installation of doors"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DEC01",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Metallbauarbeiten - Türen",
+     "description": "Ausführung von Metallbauarbeiten mit je Station: \n- 2 St. Rohrrahmen-Aluminiumtüren 2-flg. T 30 RS mit Automatikantrieb; \n- 2 St. Aluminium-Elemente als feststehende Glaswand; \n- 1 St. Rohrrahmen-Aluminiumtür 2-flg. T 30 RS mit  EMR",
+     "contractPeriod": {
+      "startDate": "2027-07-23T00:00:00+02:00",
+      "endDate": "2028-06-23T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "c3486211-b948-4617-ab3e-54c55d39146c",
+  "version": "01",
+  "title": "Knappschaft Kliniken Saar - Sulzbach -Sanierung der Pflegestation im 2. & 3. OG",
+  "description": "Die Baustelle befindet sich im Krankenhaus Sulzbach, An der Klinik 10, 66280 Sulzbach. Es handelt sich um den Umbau einer bestehenden Krankenstation im 2. und 3. OG des Bettenhauses der oben genannten Klinik. Die Sanierung betrifft nur teilweise auch die\nangrenzenden Geschosse, welche die grundsätzliche Anbindung der Ver- und Entsorgung beinhalten. Projektziel ist es die v. g. Sanierungsebene und die dortige Station im laufenden Krankenhausbetrieb auf den aktuellen Stand der Technik zu bringen, die Anforderungen aus dem Brandschutzkonzept umzusetzen und durch entsprechende Anordnung der Patientenzimmer moderne Patientenbereiche zu errichten. \n\nDie Leistungen beinhalten die Ausführung der dazu erforderlichen Metallbauarbeiten zur Herstellung der Türen.",
+  "procedureType": "open",
+  "nuts": [
+   "DEC01"
+  ],
+  "cpv": [
+   "45262670",
+   "45421100",
+   "45421131"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Metallbauarbeiten - Türen",
+    "description": "Ausführung von Metallbauarbeiten mit je Station: \n- 2 St. Rohrrahmen-Aluminiumtüren 2-flg. T 30 RS mit Automatikantrieb; \n- 2 St. Aluminium-Elemente als feststehende Glaswand; \n- 1 St. Rohrrahmen-Aluminiumtür 2-flg. T 30 RS mit  EMR",
+    "cpv": [
+     "45262670",
+     "45421100",
+     "45421131"
+    ],
+    "nuts": [
+     "DEC01"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-07-23+02:00",
+    "plannedEnd": "2028-06-23+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Wertungssumme einschl. evtl. Wartungskosten: 100%",
+      "description": "Günstigstes Angebot",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

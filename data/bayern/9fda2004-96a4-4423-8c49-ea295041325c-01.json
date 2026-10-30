@@ -207,6 +207,8 @@
   "noticeId": "9fda2004-96a4-4423-8c49-ea295041325c",
   "version": "01",
   "title": "Patent Evaluations - PR1307638-3220-I",
+  "description": "Patent Evaluations",
+  "procedureType": "neg-wo-call",
   "nuts": [
    "DE300"
   ],
@@ -218,6 +220,7 @@
    {
     "id": "LOT-0000",
     "title": "Patent Evaluations - PR1307638-3220-I",
+    "description": "siehe Vergabeunterlagen",
     "cpv": [
      "79120000"
     ],
@@ -228,9 +231,19 @@
     "participationDeadline": null,
     "plannedStart": null,
     "plannedEnd": null,
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": null,
-    "selectionCriteria": []
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Gesamtpreis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

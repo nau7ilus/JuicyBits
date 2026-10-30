@@ -1,0 +1,233 @@
+{
+ "id": "bb122345-383d-404d-9f27-c22b1d47d0c6-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "bb122345-383d-404d-9f27-c22b1d47d0c6",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bb122345-383d-404d-9f27-c22b1d47d0c6",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:bb122345-383d-404d-9f27-c22b1d47d0c6-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:bb122345-383d-404d-9f27-c22b1d47d0c6-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bb122345-383d-404d-9f27-c22b1d47d0c6?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Speisenlogistik zur Versorgung des Klinikstandortes Campus Hallerwiese",
+  "buyer": "Klinikum Nürnberg",
+  "cpv": [
+   "60100000",
+   "63520000",
+   "63521000"
+  ],
+  "nuts": [
+   "DE254",
+   "DE259"
+  ],
+  "deadline": "2026-11-13T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bb122345-383d-404d-9f27-c22b1d47d0c6",
+  "id": "bb122345-383d-404d-9f27-c22b1d47d0c6",
+  "date": "2026-10-16T02:06:32Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8783",
+     "legalName": "Klinikum Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "8aa56aa3-d9ee-4c4b-97de-01203c3dfdd9",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Nürnberg",
+   "id": "8783",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bb122345-383d-404d-9f27-c22b1d47d0c6",
+   "title": "Speisenlogistik zur Versorgung des Klinikstandortes Campus Hallerwiese",
+   "description": "Transportdienstleistungen für das Klinikum Nürnberg - Speisenlogistik zur Versorgung des Klinikstandortes Campus Hallerwiese (Klinik Hallerwiese-\nCnopfsche Kinderklinik)",
+   "procuringEntity": {
+    "name": "Klinikum Nürnberg",
+    "id": "8783"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60100000",
+      "description": "Road transport services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "63520000",
+       "description": "Transport agency services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "63521000",
+       "description": "Freight transport agency services"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE254",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/bb122345-383d-404d-9f27-c22b1d47d0c6",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Speisenlogistik zur Versorgung des Klinikstandortes Campus Hallerwiese",
+     "description": "Ziel der Dienstleistungen ist die sichere, zuverlässige und effiziente Durchführung der Speisentransporte\nzwichen den Klinikstandorten Campus Nord, Krankenhaus Lauf und dem Campus Hallerwiese\n(Klinik Hallerwiese-Cnopfsche Kinderklinik)",
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bb122345-383d-404d-9f27-c22b1d47d0c6",
+  "version": "01",
+  "title": "Speisenlogistik zur Versorgung des Klinikstandortes Campus Hallerwiese",
+  "description": "Transportdienstleistungen für das Klinikum Nürnberg - Speisenlogistik zur Versorgung des Klinikstandortes Campus Hallerwiese (Klinik Hallerwiese-\nCnopfsche Kinderklinik)",
+  "procedureType": "open",
+  "nuts": [
+   "DE254",
+   "DE259"
+  ],
+  "cpv": [
+   "60100000",
+   "63520000",
+   "63521000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Speisenlogistik zur Versorgung des Klinikstandortes Campus Hallerwiese",
+    "description": "Ziel der Dienstleistungen ist die sichere, zuverlässige und effiziente Durchführung der Speisentransporte\nzwichen den Klinikstandorten Campus Nord, Krankenhaus Lauf und dem Campus Hallerwiese\n(Klinik Hallerwiese-Cnopfsche Kinderklinik)",
+    "cpv": [
+     "60100000",
+     "63520000",
+     "63521000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-13T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 24,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "MINDESTANFORDERUNGEN: (1) Eigenerklärung darüber, dass für das Unternehmen keine Ausschlussgründe gemäß den §§ 123 und 124 GWB vorliegen, welche die Zuverlässigkeit des Bieters in Frage stellen. (2) Eigenerklärung darüber, dass das Unternehmen in den letzten zwei Jahren nicht gemäß §21 Absatz 1 Nummer 1 oder 2 Schwarzarbeiterbekämpfungsgesetzt, gemäß §21 Absatz 1 Arbeitnehmerentsendegesetz oder §19 Absatz 1 Mindestlohngesetz mit einer Freiheitsstrafe von mehr als drei Monaten oder einer Geldstrafe von mehr als 90 Tagessätzen oder einer Geldbuße von mehr als 2.500 Euro belegt worden ist. (3) Eigenerklärung darüber, dass das Unternehmen seinen Verpflichtungen zur Zahlung von Steuern, Abgaben und Beiträgen zur Sozialversicherung nachgekommen ist. (4) Eigenerklärung darüber, dass das Unternehmen bei der Ausführung öffentlicher Aufträge nicht nachweislich gegen geltende umwelt-, sozial- oder arbeitsrechtliche Verpflichtungen verstoßen hat. (5) Eigenerklärung darüber, dass das Unternehmen nicht zahlungsunfähig ist, über das Vermögen des Unternehmens kein Insolvenzverfahren oder kein vergleichbares Verfahren beantragt oder eröffnet oder die Eröffnung eines solchen Verfahrens nicht mangels Masse abgelehnt worden ist, sich das Unternehmen nicht im Verfahren der Liquidation befindet und dass das Unternehmen seine Tätigkeit nicht eingestellt hat. (6) Eigenerklärung darüber, dass das Unternehmen im Rahmen seiner beruflichen Tätigkeit keine nachweislich schwere Verfehlung begangen hat, durch die die Integrität des Unternehmens infrage gestellt wird. (7) Eigenerklärung darüber, dass das Unternehmen keine Vereinbarungen mit anderen Unternehmen getroffen hat, die eine Verhinderung, Einschränkung oder Verfälschung des Wettbewerbs bezwecken oder bewirken. (8) Eigenerklärung darüber, dass kein Interessenkonflikt bei der Durchführung des Vergabeverfahrens besteht, der die Unparteilichkeit und Unabhängigkeit einer für den Auftraggeber tätigen Person bei der Durchführung des Vergabeverfahrens beeinträchtigen könnte. (9) Eigenerklärung darüber, dass keine Wettbewerbsverzerrung daraus resultiert, dass das Unternehmen bereits in die Vorbereitung des Vergabeverfahrens einbezogen war. (10) Eigenerklärung darüber, dass das Unternehmen keine wesentliche Anforderung bei der Ausführung eines früheren öffentlichen Auftrags oder Konzessionsvertrags erheblich oder fortdauernd mangelhaft erfüllt hat und dies nicht zu einer vorzeitigen Beendigung, zu Schadensersatz oder zu einer vergleichbaren Rechtsfolge geführt hat. (11) Eigenerklärung darüber, dass das Unternehmen in Bezug auf Ausschlussgründe oder Eignungskriterien keine schwerwiegende Täuschung begangen und keine Auskünfte zurückgehalten hat und in der Lage ist, die erforderlichen Nachweise zu übermitteln. (12) Eigenerklärung darüber, dass das Unternehmen nicht versucht hat, die Entscheidungsfindung des Auftraggebers in unzulässiger Weise zu beeinflussen, nicht versucht hat, vertrauliche Informationen zu erhalten, durch die es unzulässige Vorteile beim Vergabeverfahren erlangen könnte und nicht fahrlässig oder vorsätzlich irreführende Informationen übermittelt hat, die die Vergabeentscheidung des Auftraggebers erheblich beeinflussen könnten, oder nicht versucht hat, solche Informationen zu übermitteln. (13) Eigenerklärung zu Selbstreinigungsmaßnahmen i. S. d. § 125 GWB (abzugeben, sofern einschlägig)."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "MINDESTANFORDERUNG: (14) Eigenerklärung über die Befähigung und Erlaubnis zur Berufsausübung. Der Bieter erklärt in einem Berufs-/ Handelsregister eingetragen zu sein bzw. nicht zur Eintragung in ein Berufs-/Handelsregister verpflichtet zu sein, aber auf andere Weise die erlaubte Berufsausübung nachweisen zu können. Der Bieter/die Bietergemeinschaft werden aufgefordert, eine entsprechende Kopie des Berufs-/Handelsregisterauszugs oder Kopien über anderweitige Bescheinigungen und Erlaubnisse zur Befähigung der Berufsausübung mit dem Teilnahmeantrag/Angebot einzureichen."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "MINDESTANFORDERUNG: (15) Eigenerklärung darüber, dass für den Zeitraum der Leistungserbringung eine Betriebshaftpflichtversicherung mit einer Deckungssumme für Personenschäden in Höhe von mindestens 3.000.000,00 Euro, Sach- und Umweltschäden in Höhe von mindestens 1.000.000,00 Euro und Vermögensschäden in Höhe von mindestens 1.000.000,00 je Schadensereignis versichert, jährlich jedoch höchstens bis zum jeweils zweifachen Betrag pro Schadensart. Weiterhin erklärt der Bieter/die Bietergemeinschaft, dass im Falle einer Zuschlagserteilung der Bieter/die Bietergemeinschaft auf gesondertes Verlangen der Vergabestelle eine entsprechende Bescheinigung von dessen/deren Versicherungsträger für die oben erklärte Betriebshaftpflichtversicherung innerhalb von 14 Tagen vorlegen wird. Eine Bietergemeinschaft hat den Versicherungsschutz für sich selbst nachzuweisen. Alternativ kann der Versicherungsschutz auch für jedes Mitglied der Gemeinschaft gesondert in voller Höhe nachgewiesen werden, wenn die jeweilige Versicherung auch Ansprüche aus Fehlern anderer Mitglieder der Gemeinschaft umfasst. Die Addition von Versicherungssummen innerhalb der Gemeinschaft ist nicht zulässig."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "MINDESTANFORDERUNG (16) Eigenerklärung des Bieters/der Bietergemeinschaft zum Bezug Russland. Der Bieter/die Bietergemeinschaft versichert, dass kein Bezug zu Russland im Sinne der Verordnung (EU) 2022/576 besteht.\nMINDESTANFORDERUNG: (17) Gefordert wird eine Eigenerklärung zur Vermeidung des Erwerbs von Produkten aus ausbeuterischer Kinderarbeit. Der Bieter/die Bietergemeinschaft sichert zu, dass die Herstellung bzw. die Bearbeitung der eingesetzten bzw. zu liefernden Produkte ohne ausbeuterische Kinderarbeit im Sinn des IAO-Übereinkommens Nr. 182 erfolgt bzw. erfolgt ist."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "(18) Eigenerklärung zum Masernschutzgesetz: Der Bieter/die Bietergemeinschaft versichert, dass alle zur Erfüllung des Vertrags eingesetzten Personen vor Beginn ihrer Tätigkeit die Anforderungen gemäß § 20 Abs. 9 IfSG erfüllen und sämtliche für die Nachweisführung gem. § 20 Abs. 9 IfSG notwendigen Unterlagen beim Bieter/der Bietergemeinschaft vorliegen."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "MINDESTANFORDERUNG: (19) Eigenerklärung über den Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Es wird ein Jahresumsatz von mindestens 2.000.000,00 € pro Geschäftsjahr gefordert."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": "Preiskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,278 @@
+{
+ "id": "d08dc060-9d7f-459c-9221-a1c93567c6de-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "d08dc060-9d7f-459c-9221-a1c93567c6de",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d08dc060-9d7f-459c-9221-a1c93567c6de",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:d08dc060-9d7f-459c-9221-a1c93567c6de-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:d08dc060-9d7f-459c-9221-a1c93567c6de-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d08dc060-9d7f-459c-9221-a1c93567c6de?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Rahmenvertrag Mediadienstleistungen (Stellenanzeigen)",
+  "buyer": "LIfBi – Leibniz-Institut für Bildungsverläufe",
+  "cpv": [
+   "79600000",
+   "79620000"
+  ],
+  "nuts": [
+   "DE241"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d895980b-b2e9-4d70-8c95-3dd246e7cb61",
+  "id": "d08dc060-9d7f-459c-9221-a1c93567c6de",
+  "date": "2026-10-25T06:54:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "LIfBi – Leibniz-Institut für Bildungsverläufe",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "b51387be-c359-4793-9e84-1575a53bf426",
+     "legalName": "LIfBi – Leibniz-Institut für Bildungsverläufe"
+    },
+    "address": {
+     "streetAddress": "Wilhelmsplatz 3",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "LIfBi – Leibniz-Institut für Bildungsverläufe",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "38d10c25-811d-4ec1-9589-46d048254cc0",
+     "legalName": "LIfBi – Leibniz-Institut für Bildungsverläufe"
+    },
+    "address": {
+     "streetAddress": "Wilhelmsplatz 3",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "as mediendesign Inh. Andrea Sindermann e.K.",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "f34078e2-9823-471b-a0a0-468fc17d090e",
+     "legalName": "as mediendesign Inh. Andrea Sindermann e.K."
+    },
+    "address": {
+     "streetAddress": "Busonistraße 59",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "13125",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "LIfBi – Leibniz-Institut für Bildungsverläufe",
+   "id": "b51387be-c359-4793-9e84-1575a53bf426",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "LIfBi – Leibniz-Institut für Bildungsverläufe"
+   },
+   "address": {
+    "streetAddress": "Wilhelmsplatz 3",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d895980b-b2e9-4d70-8c95-3dd246e7cb61",
+   "title": "Rahmenvertrag Mediadienstleistungen (Stellenanzeigen)",
+   "description": "Rahmenvertrag über Mediadienstleistungen (Stellenanzeigen)\nmit 24 abrufberechtigten Teilnehmern (Instituten)",
+   "procuringEntity": {
+    "name": "LIfBi – Leibniz-Institut für Bildungsverläufe",
+    "id": "b51387be-c359-4793-9e84-1575a53bf426"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79600000",
+      "description": "Recruitment services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "79620000",
+       "description": "Supply services of personnel including temporary staff"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Bamberg",
+      "region": "DE241",
+      "postalCode": "96047",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-12T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "as mediendesign Inh. Andrea Sindermann e.K.",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "as mediendesign Inh. Andrea Sindermann e.K."
+     },
+     "address": {
+      "streetAddress": "Busonistraße 59",
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "13125",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag Mediadienstleistungen (Stellenanzeigen)",
+     "description": "Rahmenvertrag über Mediadienstleistungen (Stellenanzeigen)\nmit 24 abrufberechtigten Teilnehmern (Instituten)",
+     "contractPeriod": {
+      "startDate": "2027-01-15T00:00:00+01:00",
+      "endDate": "2029-01-14T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1529518,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-22T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "d08dc060-9d7f-459c-9221-a1c93567c6de",
+  "version": "01",
+  "title": "Rahmenvertrag Mediadienstleistungen (Stellenanzeigen)",
+  "description": "Rahmenvertrag über Mediadienstleistungen (Stellenanzeigen)\nmit 24 abrufberechtigten Teilnehmern (Instituten)",
+  "procedureType": "open",
+  "nuts": [
+   "DE241"
+  ],
+  "cpv": [
+   "79600000",
+   "79620000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag Mediadienstleistungen (Stellenanzeigen)",
+    "description": "Rahmenvertrag über Mediadienstleistungen (Stellenanzeigen)\nmit 24 abrufberechtigten Teilnehmern (Instituten)",
+    "cpv": [
+     "79600000",
+     "79620000"
+    ],
+    "nuts": [
+     "DE241"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-15+01:00",
+    "plannedEnd": "2029-01-14+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/6286f594-bf5b-41ff-a9ee-c3c915f8e156/awardcriteria",
+      "weight": 40
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

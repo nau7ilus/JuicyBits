@@ -1,0 +1,204 @@
+{
+ "id": "c75642d6-55fb-43ab-bdaa-d6dd4aec3558-01",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "c75642d6-55fb-43ab-bdaa-d6dd4aec3558",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c75642d6-55fb-43ab-bdaa-d6dd4aec3558",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:c75642d6-55fb-43ab-bdaa-d6dd4aec3558-01.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:c75642d6-55fb-43ab-bdaa-d6dd4aec3558-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c75642d6-55fb-43ab-bdaa-d6dd4aec3558?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lebensmittel für die Seniorenhäuser der Hospitalstiftung Hof für das Jahr 2027",
+  "buyer": "Hospitalstiftung Hof",
+  "cpv": [
+   "15000000"
+  ],
+  "nuts": [
+   "DE244"
+  ],
+  "deadline": "2026-12-01T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1c67e227-e0c8-4d04-8e53-3a26e28387c0",
+  "id": "c75642d6-55fb-43ab-bdaa-d6dd4aec3558",
+  "date": "2026-10-24T15:04:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Hospitalstiftung Hof",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-IdNr. DE132958651",
+     "legalName": "Hospitalstiftung Hof"
+    },
+    "address": {
+     "streetAddress": "Klosterstraße 3",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95028",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-IdNr. DE 811 335 517",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Hospitalstiftung Hof",
+   "id": "USt-IdNr. DE132958651",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Hospitalstiftung Hof"
+   },
+   "address": {
+    "streetAddress": "Klosterstraße 3",
+    "locality": "Hof",
+    "region": "DE244",
+    "postalCode": "95028",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1c67e227-e0c8-4d04-8e53-3a26e28387c0",
+   "title": "Lebensmittel für die Seniorenhäuser der Hospitalstiftung Hof für das Jahr 2027",
+   "description": "Die Hospitalstiftung Hof benötigt für ihre beiden Seniorenhäuser ein Kernsortiment an Lebensmitteln im Jahr 2027.",
+   "procuringEntity": {
+    "name": "Hospitalstiftung Hof",
+    "id": "USt-IdNr. DE132958651"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "15000000",
+      "description": "Food, beverages, tobacco and related products"
+     },
+     "deliveryAddress": {
+      "locality": "Hof",
+      "region": "DE244",
+      "postalCode": "95028",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331287",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lebensmittel für die Seniorenhäuser der Hospitalstiftung Hof für das Jahr 2027",
+     "description": "Die Hospitalstiftung der Stadt Hof beabsichtigt die Lebensmittellieferungen für die Seniorenhäuser der Hospitalstiftung Hof für den Zeitraum vom 01.01.2027 bis zum 31.12.2027 zu vergeben.\nDie Lieferungen erfolgen an zwei verschiedene Standorte:\n• Seniorenhaus Am Unteren Tor, Gerbergasse 4, 95028 Hof, \n• Seniorenhaus Christiansreuth, Christiansreuther Str. 29, 95032 Hof\nan jeweils zwei Liefertagen pro Woche.\nDie Lieferungen erfolgen zwischen 6:30 Uhr und 10:00 Uhr vormittags.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "c75642d6-55fb-43ab-bdaa-d6dd4aec3558",
+  "version": "01",
+  "title": "Lebensmittel für die Seniorenhäuser der Hospitalstiftung Hof für das Jahr 2027",
+  "description": "Die Hospitalstiftung Hof benötigt für ihre beiden Seniorenhäuser ein Kernsortiment an Lebensmitteln im Jahr 2027.",
+  "procedureType": "open",
+  "nuts": [
+   "DE244"
+  ],
+  "cpv": [
+   "15000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lebensmittel für die Seniorenhäuser der Hospitalstiftung Hof für das Jahr 2027",
+    "description": "Die Hospitalstiftung der Stadt Hof beabsichtigt die Lebensmittellieferungen für die Seniorenhäuser der Hospitalstiftung Hof für den Zeitraum vom 01.01.2027 bis zum 31.12.2027 zu vergeben.\nDie Lieferungen erfolgen an zwei verschiedene Standorte:\n• Seniorenhaus Am Unteren Tor, Gerbergasse 4, 95028 Hof, \n• Seniorenhaus Christiansreuth, Christiansreuther Str. 29, 95032 Hof\nan jeweils zwei Liefertagen pro Woche.\nDie Lieferungen erfolgen zwischen 6:30 Uhr und 10:00 Uhr vormittags.",
+    "cpv": [
+     "15000000"
+    ],
+    "nuts": [
+     "DE244"
+    ],
+    "deadline": "2026-12-01T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Eignungskriterien gemäß Vergabeunterlagen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eignungskriterien gemäß Vergabeunterlagen."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Eignungskriterien gemäß Vergabeunterlagen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Die Angebotssumme ist für die Wertung maßgeblich.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

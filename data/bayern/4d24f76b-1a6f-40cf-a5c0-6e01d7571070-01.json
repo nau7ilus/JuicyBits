@@ -171,6 +171,8 @@
   "noticeId": "4d24f76b-1a6f-40cf-a5c0-6e01d7571070",
   "version": "01",
   "title": "KFZ-Haftpflichtversicherung - PR1302106-9713-I",
+  "description": "KFZ-Haftpflichtversicherung",
+  "procedureType": "open",
   "nuts": [
    "DE212"
   ],
@@ -182,6 +184,7 @@
    {
     "id": "LOT-0000",
     "title": "KFZ-Haftpflichtversicherung - PR1302106-9713-I",
+    "description": "siehe Vergabeunterlagen",
     "cpv": [
      "66510000"
     ],
@@ -192,6 +195,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-01-01+01:00",
     "plannedEnd": "2030-01-01+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": true,
     "selectionCriteria": [
@@ -211,7 +215,16 @@
       "type": "slc-stand-ratio",
       "description": "Dieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a1353a9a0e-2191977a74155532"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Gesamtpreis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
    }
   ]
  }

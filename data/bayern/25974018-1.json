@@ -1,0 +1,147 @@
+{
+ "id": "25974018-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25974018",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25974018",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25974018-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25974018-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25974018?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Umbau Pumpwerk Fischen Insel",
+  "buyer": "Abwasserverband Obere Iller / Geschäftsstelle",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-29T14:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25974018",
+  "id": "25974018",
+  "date": "2026-10-27T07:00:54Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abwasserverband Obere Iller / Geschäftsstelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Abwasserverband Obere Iller / Geschäftsstelle"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abwasserverband Obere Iller / Geschäftsstelle",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Abwasserverband Obere Iller / Geschäftsstelle"
+   }
+  },
+  "tender": {
+   "title": "Umbau Pumpwerk Fischen Insel",
+   "description": "Tiefbau und Entwässerungskanalarbeiten",
+   "procuringEntity": {
+    "name": "Abwasserverband Obere Iller / Geschäftsstelle"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "87538 Fischen i. Allgäu",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Umbau Pumpwerk Fischen Insel",
+     "description": "Tiefbau und Entwässerungskanalarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25974018",
+  "version": "1",
+  "title": "Umbau Pumpwerk Fischen Insel",
+  "description": "Tiefbau und Entwässerungskanalarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Umbau Pumpwerk Fischen Insel",
+    "description": "Tiefbau und Entwässerungskanalarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-29T14:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

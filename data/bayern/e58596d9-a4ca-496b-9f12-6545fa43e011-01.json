@@ -1,0 +1,214 @@
+{
+ "id": "e58596d9-a4ca-496b-9f12-6545fa43e011-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "e58596d9-a4ca-496b-9f12-6545fa43e011",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e58596d9-a4ca-496b-9f12-6545fa43e011",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:e58596d9-a4ca-496b-9f12-6545fa43e011-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:e58596d9-a4ca-496b-9f12-6545fa43e011-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e58596d9-a4ca-496b-9f12-6545fa43e011?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Linienbündel Miltenberg Süd, Zusammenarbeit mit AMINA",
+  "buyer": "Landratsamt Miltenberg",
+  "cpv": [
+   "60112000",
+   "60140000"
+  ],
+  "nuts": [
+   "DE269"
+  ],
+  "deadline": "2026-10-27T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-569312d1-f32b-49c0-aa6a-ed8e250d1f5c",
+  "id": "e58596d9-a4ca-496b-9f12-6545fa43e011",
+  "date": "2026-10-18T09:28:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Miltenberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09036816724",
+     "legalName": "Landratsamt Miltenberg"
+    },
+    "address": {
+     "streetAddress": "Brückenstraße  2",
+     "locality": "Miltenberg",
+     "region": "DE269",
+     "postalCode": "63897",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09035800261",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE256",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Miltenberg",
+   "id": "09036816724",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Miltenberg"
+   },
+   "address": {
+    "streetAddress": "Brückenstraße  2",
+    "locality": "Miltenberg",
+    "region": "DE269",
+    "postalCode": "63897",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "569312d1-f32b-49c0-aa6a-ed8e250d1f5c",
+   "title": "Linienbündel Miltenberg Süd, Zusammenarbeit mit AMINA",
+   "description": "Vergabe öffentlicher Personenverkehrsleistungen im Linienverkehr mit Kraftfahrzeugen und im On Demand-Verkehr im Linienbündel „Miltenberg-Süd“",
+   "procuringEntity": {
+    "name": "Landratsamt Miltenberg",
+    "id": "09036816724"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60112000",
+      "description": "Public road transport services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "60140000",
+       "description": "Non-scheduled passenger transport"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Landkreis Miltenberg",
+      "locality": "Miltenberg",
+      "region": "DE269",
+      "postalCode": "63897",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av269774-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-18T09:28:04.863Z",
+     "rationale": "Verlängerung der Angebotsfrist",
+     "amendsReleaseID": "dd6680e0-bbe4-4b88-8af7-5dd7cef10933-01",
+     "releaseID": "e58596d9-a4ca-496b-9f12-6545fa43e011-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Linienbündel Miltenberg Süd, Zusammenarbeit mit AMINA",
+     "description": "Vergabe öffentlicher Personenverkehrsleistungen im Linienverkehr mit Kraftfahrzeugen und im On Demand-Verkehr im Linienbündel „Miltenberg-Süd“",
+     "contractPeriod": {
+      "startDate": "2027-12-01T00:00:00+01:00",
+      "endDate": "2036-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "e58596d9-a4ca-496b-9f12-6545fa43e011",
+  "version": "01",
+  "title": "Linienbündel Miltenberg Süd, Zusammenarbeit mit AMINA",
+  "description": "Vergabe öffentlicher Personenverkehrsleistungen im Linienverkehr mit Kraftfahrzeugen und im On Demand-Verkehr im Linienbündel „Miltenberg-Süd“",
+  "procedureType": "open",
+  "nuts": [
+   "DE269"
+  ],
+  "cpv": [
+   "60112000",
+   "60140000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Linienbündel Miltenberg Süd, Zusammenarbeit mit AMINA",
+    "description": "Vergabe öffentlicher Personenverkehrsleistungen im Linienverkehr mit Kraftfahrzeugen und im On Demand-Verkehr im Linienbündel „Miltenberg-Süd“",
+    "cpv": [
+     "60112000",
+     "60140000"
+    ],
+    "nuts": [
+     "DE269"
+    ],
+    "deadline": "2026-10-27T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-12-01+01:00",
+    "plannedEnd": "2036-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "siehe Leistungsbeschreibung",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "id": "db52b66e-f330-4fc7-aa3a-1f549477ea90-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "db52b66e-f330-4fc7-aa3a-1f549477ea90",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=db52b66e-f330-4fc7-aa3a-1f549477ea90",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:db52b66e-f330-4fc7-aa3a-1f549477ea90-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:db52b66e-f330-4fc7-aa3a-1f549477ea90-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/db52b66e-f330-4fc7-aa3a-1f549477ea90?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Serverschränke und Lüftung-Kühlung",
+  "buyer": "Landratsamt Eichstätt",
+  "cpv": [
+   "45311000",
+   "45314000",
+   "42965000"
+  ],
+  "nuts": [
+   "DE219"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a38cd0f0-3ce7-4d6f-932d-5d5f8d06d243",
+  "id": "db52b66e-f330-4fc7-aa3a-1f549477ea90",
+  "date": "2026-10-21T02:08:32Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Eichstätt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09176000 -SG17XXHochbau -15",
+     "legalName": "Landratsamt Eichstätt"
+    },
+    "address": {
+     "streetAddress": "Residenzplatz 1",
+     "locality": "Eichstätt",
+     "region": "DE219",
+     "postalCode": "85072",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Eichstätt",
+   "id": "09176000 -SG17XXHochbau -15",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Eichstätt"
+   },
+   "address": {
+    "streetAddress": "Residenzplatz 1",
+    "locality": "Eichstätt",
+    "region": "DE219",
+    "postalCode": "85072",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a38cd0f0-3ce7-4d6f-932d-5d5f8d06d243",
+   "title": "Serverschränke und Lüftung-Kühlung",
+   "description": "Bauvorhaben Neubau Integrierte Leitstelle Ingolstadt \nBesenbinderstraße 4\n85139 Wettstetten\nBauherrschaft:\nZRF Region Ingolstadt \nAuf der Schanz 30 \n85049 Ingolstadt\nGewerk:  Serverschränke und Lüftung/Kühlung\nDas Leistungsverzeichnis beschreibt die folgenden Positionen: \nInsgesamt sind 20 Serverschränke für 2 Serverräume (jeweils 10 Stück) mit eigenen Kaltgängen inkl. \nnotwendiger Dienstleistungen und Zubehör beschrieben.",
+   "procuringEntity": {
+    "name": "Landratsamt Eichstätt",
+    "id": "09176000 -SG17XXHochbau -15"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311000",
+      "description": "Electrical wiring and fitting work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45314000",
+       "description": "Installation of telecommunications equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "42965000",
+       "description": "Information-processing equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Wettstetten",
+      "region": "DE219",
+      "postalCode": "85139",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Serverschränke und Lüftung-Kühlung",
+     "description": "Bauvorhaben Neubau Integrierte Leitstelle Ingolstadt \nBesenbinderstraße 4\n85139 Wettstetten\nBauherrschaft:\nZRF Region Ingolstadt \nAuf der Schanz 30 \n85049 Ingolstadt\nGewerk:  Serverschränke und Lüftung/Kühlung\nDas Leistungsverzeichnis beschreibt die folgenden Positionen: \nInsgesamt sind 20 Serverschränke für 2 Serverräume (jeweils 10 Stück) mit eigenen Kaltgängen inkl. \nnotwendiger Dienstleistungen und Zubehör beschrieben.",
+     "contractPeriod": {
+      "startDate": "2027-07-05T00:00:00+02:00",
+      "endDate": "2027-09-24T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "db52b66e-f330-4fc7-aa3a-1f549477ea90",
+  "version": "01",
+  "title": "Serverschränke und Lüftung-Kühlung",
+  "description": "Bauvorhaben Neubau Integrierte Leitstelle Ingolstadt \nBesenbinderstraße 4\n85139 Wettstetten\nBauherrschaft:\nZRF Region Ingolstadt \nAuf der Schanz 30 \n85049 Ingolstadt\nGewerk:  Serverschränke und Lüftung/Kühlung\nDas Leistungsverzeichnis beschreibt die folgenden Positionen: \nInsgesamt sind 20 Serverschränke für 2 Serverräume (jeweils 10 Stück) mit eigenen Kaltgängen inkl. \nnotwendiger Dienstleistungen und Zubehör beschrieben.",
+  "procedureType": "open",
+  "nuts": [
+   "DE219"
+  ],
+  "cpv": [
+   "45311000",
+   "45314000",
+   "42965000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Serverschränke und Lüftung-Kühlung",
+    "description": "Bauvorhaben Neubau Integrierte Leitstelle Ingolstadt \nBesenbinderstraße 4\n85139 Wettstetten\nBauherrschaft:\nZRF Region Ingolstadt \nAuf der Schanz 30 \n85049 Ingolstadt\nGewerk:  Serverschränke und Lüftung/Kühlung\nDas Leistungsverzeichnis beschreibt die folgenden Positionen: \nInsgesamt sind 20 Serverschränke für 2 Serverräume (jeweils 10 Stück) mit eigenen Kaltgängen inkl. \nnotwendiger Dienstleistungen und Zubehör beschrieben.",
+    "cpv": [
+     "45311000",
+     "45314000",
+     "42965000"
+    ],
+    "nuts": [
+     "DE219"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-07-05+02:00",
+    "plannedEnd": "2027-09-24+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Kriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

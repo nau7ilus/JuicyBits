@@ -5,14 +5,14 @@
   "noticeId": "2862fc82-0e99-4271-9fb4-80040f506783",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2862fc82-0e99-4271-9fb4-80040f506783",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:2862fc82-0e99-4271-9fb4-80040f506783-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:2862fc82-0e99-4271-9fb4-80040f506783-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/2862fc82-0e99-4271-9fb4-80040f506783?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "tender"
   ],
-  "noticeType": null,
+  "noticeType": "ContractNotice",
   "title": "A623.01 Sportgeräte",
   "buyer": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
   "cpv": [
@@ -22,7 +22,7 @@
   "nuts": [
    "DE21G"
   ],
-  "deadline": null,
+  "deadline": "2026-12-01T14:45:00+01:00",
   "lots": 1
  },
  "ocds": {
@@ -152,5 +152,57 @@
   },
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "2862fc82-0e99-4271-9fb4-80040f506783",
+  "version": "01",
+  "title": "A623.01 Sportgeräte",
+  "description": "Ausstattung Wand, Boden und Deckengeräte inkl. Unterkonstruktionen und \nBodenhülsen für eine Einfachsporthalle. \nGeräteaufbewahrungsschränke und Umkleidebänke",
+  "procedureType": "open",
+  "nuts": [
+   "DE21G"
+  ],
+  "cpv": [
+   "45212225",
+   "37400000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "A623.01 Sportgeräte",
+    "description": "Ausstattung Wand, Boden und Deckengeräte inkl. Unterkonstruktionen und \nBodenhülsen für eine Einfachsporthalle. \nGeräteaufbewahrungsschränke und Umkleidebänke",
+    "cpv": [
+     "45212225",
+     "37400000"
+    ],
+    "nuts": [
+     "DE21G"
+    ],
+    "deadline": "2026-12-01T14:45:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-03+02:00",
+    "plannedEnd": "2027-10-29+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Formblatt 124 (Eigenerklärung zur Eignung)"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preisgewichtung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

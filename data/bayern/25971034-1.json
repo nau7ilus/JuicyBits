@@ -1,0 +1,150 @@
+{
+ "id": "25971034-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25971034",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25971034",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25971034-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25971034-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25971034?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Klärschlammentsorgung 2027",
+  "buyer": "Stadt Traunreut",
+  "cpv": [
+   "90460000-9",
+   "90000000-7",
+   "90400000-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-18T09:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25971034",
+  "id": "25971034",
+  "date": "2026-10-27T07:00:41Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Traunreut",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Traunreut"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Traunreut",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Traunreut"
+   }
+  },
+  "tender": {
+   "title": "Klärschlammentsorgung 2027",
+   "description": "Klärschlammentsorgung 2027",
+   "procuringEntity": {
+    "name": "Stadt Traunreut"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90460000-9"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90000000-7"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90400000-1"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "83301 Traunreut",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4D9ZM1HJ",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Klärschlammentsorgung 2027",
+     "description": "Klärschlammentsorgung 2027"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25971034",
+  "version": "1",
+  "title": "Klärschlammentsorgung 2027",
+  "description": "Klärschlammentsorgung 2027",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "90460000-9",
+   "90000000-7",
+   "90400000-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Klärschlammentsorgung 2027",
+    "description": "Klärschlammentsorgung 2027",
+    "cpv": [
+     "90460000-9",
+     "90000000-7",
+     "90400000-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-18T09:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

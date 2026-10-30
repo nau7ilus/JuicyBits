@@ -1,0 +1,296 @@
+{
+ "id": "0ff74739-c645-45c2-83a8-33c244d87725-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "0ff74739-c645-45c2-83a8-33c244d87725",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0ff74739-c645-45c2-83a8-33c244d87725",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:0ff74739-c645-45c2-83a8-33c244d87725-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:0ff74739-c645-45c2-83a8-33c244d87725-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0ff74739-c645-45c2-83a8-33c244d87725?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Klärschlamm-Notausschleusung",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "90513900",
+   "90000000",
+   "90513700",
+   "90513600"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5eb52be3-71c7-432d-945a-23f1b1b9c43f",
+  "id": "0ff74739-c645-45c2-83a8-33c244d87725",
+  "date": "2026-10-27T03:10:17Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "MSE Mobile Schlammentwässerungs GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 144198483",
+     "legalName": "MSE Mobile Schlammentwässerungs GmbH"
+    },
+    "address": {
+     "streetAddress": "Auf der Hub 35-39",
+     "locality": "Karlsbad",
+     "region": "DE123",
+     "postalCode": "76307",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5eb52be3-71c7-432d-945a-23f1b1b9c43f",
+   "title": "Klärschlamm-Notausschleusung",
+   "description": "Notwendigkeit einer Notausschleusung von entwässertem Faulschlamm.\nDer anfallende Klärschlamm wird anaerob stabilisiert und anschließend thermisch verwertet. Im Falle einer schweren Betriebsstörung muss der entwässerte Klärschlamm, abtransportiert und extern thermisch entsorgt werden.\nUm bei einem vollständigen oder teilweisen Ausfall der vorhandenen Klärschlammentsorgungseinrichtungen die Entsorgungssicherheit zu gewährleisten, muss die Entsorgung des Klärschlamms kurzfristig möglich sein.",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90513900",
+      "description": "Sludge disposal services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90000000",
+       "description": "Sewage, refuse, cleaning and environmental services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90513700",
+       "description": "Sludge transport services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90513600",
+       "description": "Sludge removal services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80995",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "MSE Mobile Schlammentwässerungs GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "MSE Mobile Schlammentwässerungs GmbH"
+     },
+     "address": {
+      "streetAddress": "Auf der Hub 35-39",
+      "locality": "Karlsbad",
+      "region": "DE123",
+      "postalCode": "76307",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Klärschlamm-Notausschleusung",
+     "description": "Notwendigkeit einer Notausschleusung von entwässertem Faulschlamm.\nDer anfallende Klärschlamm wird anaerob stabilisiert und anschließend thermisch verwertet. Im Falle einer schweren Betriebsstörung muss der entwässerte Klärschlamm, abtransportiert und extern thermisch entsorgt werden.\nUm bei einem vollständigen oder teilweisen Ausfall der vorhandenen Klärschlammentsorgungseinrichtungen die Entsorgungssicherheit zu gewährleisten, muss die Entsorgung des Klärschlamms kurzfristig möglich sein.",
+     "contractPeriod": {
+      "startDate": "2026-09-07T00:00:00+02:00",
+      "endDate": "2027-03-06T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Klärschlamm-Notausschleusung",
+    "status": "active",
+    "date": "2026-09-18T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "MSE Mobile Schlammentwässerungs GmbH",
+      "id": "DE 144198483",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "MSE Mobile Schlammentwässerungs GmbH"
+      },
+      "address": {
+       "streetAddress": "Auf der Hub 35-39",
+       "locality": "Karlsbad",
+       "region": "DE123",
+       "postalCode": "76307",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Klärschlamm-Notausschleusung",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-09-17T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "573254-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "573254-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "0ff74739-c645-45c2-83a8-33c244d87725",
+  "version": "01",
+  "title": "Klärschlamm-Notausschleusung",
+  "description": "Notwendigkeit einer Notausschleusung von entwässertem Faulschlamm.\nDer anfallende Klärschlamm wird anaerob stabilisiert und anschließend thermisch verwertet. Im Falle einer schweren Betriebsstörung muss der entwässerte Klärschlamm, abtransportiert und extern thermisch entsorgt werden.\nUm bei einem vollständigen oder teilweisen Ausfall der vorhandenen Klärschlammentsorgungseinrichtungen die Entsorgungssicherheit zu gewährleisten, muss die Entsorgung des Klärschlamms kurzfristig möglich sein.",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "90513900",
+   "90000000",
+   "90513700",
+   "90513600"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Klärschlamm-Notausschleusung",
+    "description": "Notwendigkeit einer Notausschleusung von entwässertem Faulschlamm.\nDer anfallende Klärschlamm wird anaerob stabilisiert und anschließend thermisch verwertet. Im Falle einer schweren Betriebsstörung muss der entwässerte Klärschlamm, abtransportiert und extern thermisch entsorgt werden.\nUm bei einem vollständigen oder teilweisen Ausfall der vorhandenen Klärschlammentsorgungseinrichtungen die Entsorgungssicherheit zu gewährleisten, muss die Entsorgung des Klärschlamms kurzfristig möglich sein.",
+    "cpv": [
+     "90513900",
+     "90000000",
+     "90513700",
+     "90513600"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-07+02:00",
+    "plannedEnd": "2027-03-06+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,1087 @@
+{
+ "id": "13fd54b4-b69f-40a5-9459-367449fb8655-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "13fd54b4-b69f-40a5-9459-367449fb8655",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=13fd54b4-b69f-40a5-9459-367449fb8655",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:13fd54b4-b69f-40a5-9459-367449fb8655-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:13fd54b4-b69f-40a5-9459-367449fb8655-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/13fd54b4-b69f-40a5-9459-367449fb8655?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Entsorgung datenschutzw Schriftgut",
+  "buyer": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+  "cpv": [
+   "90510000"
+  ],
+  "nuts": [
+   "DE254",
+   "DEF02",
+   "DE929",
+   "DEA11",
+   "DE712",
+   "DEC01",
+   "DE111",
+   "DE300",
+   "DEE02",
+   "DED41",
+   "DEZZZ",
+   "DE600",
+   "DE803",
+   "DE501",
+   "DE935",
+   "DE911",
+   "DE944",
+   "DEA2D",
+   "DEA41",
+   "DEA51",
+   "DEA52",
+   "DEA13",
+   "DEA23",
+   "DE731",
+   "DE721",
+   "DEB35",
+   "DEB21",
+   "DE126",
+   "DE122",
+   "DE144",
+   "DE131",
+   "DE402",
+   "DE40E",
+   "DEG01",
+   "DEE03",
+   "DED51",
+   "DED21",
+   "DE232",
+   "DE271"
+  ],
+  "deadline": "2026-10-21T12:00:00+02:00",
+  "lots": 11
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-250663fe-4213-4143-9199-17f22c806475",
+  "id": "13fd54b4-b69f-40a5-9459-367449fb8655",
+  "date": "2026-10-16T02:06:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "250663fe-4213-4143-9199-17f22c806475",
+   "title": "Entsorgung datenschutzw Schriftgut",
+   "description": "Entsorgung von datenschutzwürdigem Schriftgut",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Nord",
+      "region": "DEF02",
+      "postalCode": "24106",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Niedersachsen-Bremen",
+      "region": "DE929",
+      "postalCode": "30173",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Nordrhein-Westfalen",
+      "region": "DEA11",
+      "postalCode": "40474",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Hessen",
+      "region": "DE712",
+      "postalCode": "60528",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Rheinland-Pfalz-Saarland",
+      "region": "DEC01",
+      "postalCode": "66121",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Baden-Württemberg",
+      "region": "DE111",
+      "postalCode": "70174",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0006"
+    },
+    {
+     "id": "LOT-0007",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Berlin-Brandenburg",
+      "region": "DE300",
+      "postalCode": "10969",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0007"
+    },
+    {
+     "id": "LOT-0008",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Sachsen-Anhalt-Thüringen",
+      "region": "DEE02",
+      "postalCode": "06110",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0008"
+    },
+    {
+     "id": "LOT-0009",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Sachsen",
+      "region": "DED41",
+      "postalCode": "09114",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0009"
+    },
+    {
+     "id": "LOT-0010",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Bezirk Regionaldirektion Bayern",
+      "region": "DE254",
+      "postalCode": "90471",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0010"
+    },
+    {
+     "id": "LOT-0011",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "locality": "Verwaltungszentrum in Nürnberg",
+      "region": "DE254",
+      "postalCode": "90478",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0011"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    },
+    {
+     "id": "DOC-0006",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0006"
+     ]
+    },
+    {
+     "id": "DOC-0007",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0007"
+     ]
+    },
+    {
+     "id": "DOC-0008",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0008"
+     ]
+    },
+    {
+     "id": "DOC-0009",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0009"
+     ]
+    },
+    {
+     "id": "DOC-0010",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0010"
+     ]
+    },
+    {
+     "id": "DOC-0011",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885413",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0011"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    },
+    {
+     "date": "2026-10-16T02:06:05.470Z",
+     "rationale": "Verlängerung der Angebotsfrist, Version 3 der Vergabeunterlagen",
+     "amendsReleaseID": "babc63c3-77da-4a00-a353-77e6085c97b2-01",
+     "releaseID": "13fd54b4-b69f-40a5-9459-367449fb8655-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Regionaldirektion (RD) Nord",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Regionaldirektion (RD) Niedersachsen-Bremen",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Regionaldirektion (RD) Nordrhein-Westfalen",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Regionaldirektion (RD) Hessen",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Regionaldirektion (RD) Rheinland-Pfalz-Saarland",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0006",
+     "title": "Regionaldirektion (RD) Baden-Württemberg",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0007",
+     "title": "Regionaldirektion (RD) Berlin-Brandenburg",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0008",
+     "title": "Regionaldirektion (RD) Sachsen-Anhalt-Thüringen",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0009",
+     "title": "Regionaldirektion (RD) Sachsen",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0010",
+     "title": "Regionaldirektion (RD) Bayern",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0011",
+     "title": "Verwaltungszentrum (VZ) Nürnberg",
+     "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 11,
+    "maximumLotsAwardedPerSupplier": 11
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "13fd54b4-b69f-40a5-9459-367449fb8655",
+  "version": "01",
+  "title": "Entsorgung datenschutzw Schriftgut",
+  "description": "Entsorgung von datenschutzwürdigem Schriftgut",
+  "procedureType": "open",
+  "nuts": [
+   "DEZZZ",
+   "DEF02",
+   "DE600",
+   "DE803",
+   "DE929",
+   "DE501",
+   "DE935",
+   "DE911",
+   "DE944",
+   "DEA11",
+   "DEA2D",
+   "DEA41",
+   "DEA51",
+   "DEA52",
+   "DEA13",
+   "DEA23",
+   "DE712",
+   "DE731",
+   "DE721",
+   "DEC01",
+   "DEB35",
+   "DEB21",
+   "DE111",
+   "DE126",
+   "DE122",
+   "DE144",
+   "DE131",
+   "DE300",
+   "DE402",
+   "DE40E",
+   "DEE02",
+   "DEG01",
+   "DEE03",
+   "DED41",
+   "DED51",
+   "DED21",
+   "DE254",
+   "DE232",
+   "DE271"
+  ],
+  "cpv": [
+   "90510000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Regionaldirektion (RD) Nord",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DEF02",
+     "DE600",
+     "DE803"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Regionaldirektion (RD) Niedersachsen-Bremen",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DE929",
+     "DE501",
+     "DE935",
+     "DE911",
+     "DE944"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Regionaldirektion (RD) Nordrhein-Westfalen",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DEA11",
+     "DEA2D",
+     "DEA41",
+     "DEA51",
+     "DEA52",
+     "DEA13",
+     "DEA23"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Regionaldirektion (RD) Hessen",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DE712",
+     "DE731",
+     "DE721"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Regionaldirektion (RD) Rheinland-Pfalz-Saarland",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DEC01",
+     "DEB35",
+     "DEB21"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0006",
+    "title": "Regionaldirektion (RD) Baden-Württemberg",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DE111",
+     "DE126",
+     "DE122",
+     "DE144",
+     "DE131"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0007",
+    "title": "Regionaldirektion (RD) Berlin-Brandenburg",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DE300",
+     "DE402",
+     "DE40E"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0008",
+    "title": "Regionaldirektion (RD) Sachsen-Anhalt-Thüringen",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DEE02",
+     "DEG01",
+     "DEE03"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0009",
+    "title": "Regionaldirektion (RD) Sachsen",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DED41",
+     "DED51",
+     "DED21"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0010",
+    "title": "Regionaldirektion (RD) Bayern",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DE254",
+     "DE232",
+     "DE271"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0011",
+    "title": "Verwaltungszentrum (VZ) Nürnberg",
+    "description": "Gegenstand der zu erbringenden Werkleistung ist die ordnungsgemäße Übernahme, die rückinformationssichere Vernichtung sowie die datenschutzgerechte Entsorgung von datenschutzwürdigem Datenmaterial gemäß internationale Norm ISO IEC 21964 / zuvor inhaltsgleich DIN 66399-1 und -2 sowie DIN SPEC 66399-3 (DIN 66399 Büro und Datentechnik - Vernichtung von Datenträgern in der jeweils geltenden Fassung) für die Dienststellen der Bundesagentur für Arbeit (BA) sowie der betreuten gemeinsamen Einrichtungen (gE).\n\nNähere Informationen entnehmen Sie bitte aus der Leistungsbeschreibung.",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-10-21T12:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 48,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung) und Nachweis mittels Referenz (Vordruck D.9).\n\nZum Nachweis der Eignung des Bieters bzw. der\nBietergemeinschaft wird in diesem Vergabeverfahren eine\nReferenz über vergleichbare Leistungen benötigt, die innerhalb\nder letzten drei Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens erbracht wurde.\n\nDie im Rahmen dieses Vergabeverfahrens geforderte\n\"Vergleichbarkeit\" der Leistung bezieht sich auf folgende\nKriterien:\n\n- Leistungsart /-gegenstand:\nEntsorgung datenschutzwürdigen Schriftguts \n\n \n- Leistungszeitraum /-dauer:  mind. 1 Jahr innerhalb der letzten 3 Jahre bis einschließlich zum Veröffentlichungsdatum dieses Vergabeverfahrens."
+     },
+     {
+      "type": "slc-sche-qu-cert-indep",
+      "description": "Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\nDer Bieter muss ein zertifizierter Entsorgungsfachbetrieb gemäß § 56 Kreislaufwirtschaftsgesetz (KrWG) sein und wird für die Dauer des Vertragsverhältnisses das Zertifikat jeweils rechtzeitig vor Ablauf der Gültigkeit neu erlangen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Reine Preiswertung",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

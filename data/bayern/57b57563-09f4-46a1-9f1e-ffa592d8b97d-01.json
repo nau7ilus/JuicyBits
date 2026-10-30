@@ -1,0 +1,265 @@
+{
+ "id": "57b57563-09f4-46a1-9f1e-ffa592d8b97d-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "57b57563-09f4-46a1-9f1e-ffa592d8b97d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=57b57563-09f4-46a1-9f1e-ffa592d8b97d",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:57b57563-09f4-46a1-9f1e-ffa592d8b97d-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:57b57563-09f4-46a1-9f1e-ffa592d8b97d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/57b57563-09f4-46a1-9f1e-ffa592d8b97d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Druckerei Printprodukte B2C/B2B",
+  "buyer": "Bayern Tourismus Marketing GmbH",
+  "cpv": [
+   "79800000",
+   "79810000",
+   "79820000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-24T08:00:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ad798da5-e483-4b56-a046-4367296002a3",
+  "id": "57b57563-09f4-46a1-9f1e-ffa592d8b97d",
+  "date": "2026-10-25T13:24:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayern Tourismus Marketing GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE203066713",
+     "legalName": "Bayern Tourismus Marketing GmbH"
+    },
+    "address": {
+     "streetAddress": "Arabellastr. 17",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81925",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "498921762411",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayern Tourismus Marketing GmbH",
+   "id": "DE203066713",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayern Tourismus Marketing GmbH"
+   },
+   "address": {
+    "streetAddress": "Arabellastr. 17",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81925",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ad798da5-e483-4b56-a046-4367296002a3",
+   "title": "Druckerei Printprodukte B2C/B2B",
+   "description": "Herstellung und Lieferung von Printprodukten",
+   "procuringEntity": {
+    "name": "Bayern Tourismus Marketing GmbH",
+    "id": "DE203066713"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79800000",
+      "description": "Printing and related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "79810000",
+       "description": "Printing services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "79820000",
+       "description": "Services related to printing"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "In der Regel erfüllt der AN seine Aufgaben an seinem Standort, es sei denn, es wird etwas anderes mit dem AG vereinbart."
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79800000",
+      "description": "Printing and related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "79810000",
+       "description": "Printing services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "79820000",
+       "description": "Services related to printing"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "In der Regel erfüllt der AN seine Aufgaben an seinem Standort, es sei denn, es wird etwas anderes mit dem AG vereinbart."
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXVHYD6DYHK51VY8/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.dtvp.de/Satellite/notice/CXVHYD6DYHK51VY8/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Bayern.Das Magazin",
+     "description": "Weitere Angaben bitte der Anlage Leistungsbeschreibung entnehmen.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "B2B Printprodukte",
+     "description": "Weitere Angaben bitte der Anlage Leistungsbeschreibung entnehmen.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "57b57563-09f4-46a1-9f1e-ffa592d8b97d",
+  "version": "01",
+  "title": "Druckerei Printprodukte B2C/B2B",
+  "description": "Herstellung und Lieferung von Printprodukten",
+  "procedureType": "open",
+  "nuts": [],
+  "cpv": [
+   "79800000",
+   "79810000",
+   "79820000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Bayern.Das Magazin",
+    "description": "Weitere Angaben bitte der Anlage Leistungsbeschreibung entnehmen.",
+    "cpv": [
+     "79800000",
+     "79810000",
+     "79820000"
+    ],
+    "nuts": [],
+    "deadline": "2026-11-24T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   },
+   {
+    "id": "LOT-0002",
+    "title": "B2B Printprodukte",
+    "description": "Weitere Angaben bitte der Anlage Leistungsbeschreibung entnehmen.",
+    "cpv": [
+     "79800000",
+     "79810000",
+     "79820000"
+    ],
+    "nuts": [],
+    "deadline": "2026-11-24T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

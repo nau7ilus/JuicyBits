@@ -1,0 +1,223 @@
+{
+ "id": "d09406f6-9f26-4a9c-85ab-dab1f5190381-02",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "d09406f6-9f26-4a9c-85ab-dab1f5190381",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d09406f6-9f26-4a9c-85ab-dab1f5190381",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:d09406f6-9f26-4a9c-85ab-dab1f5190381-02.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:d09406f6-9f26-4a9c-85ab-dab1f5190381-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d09406f6-9f26-4a9c-85ab-dab1f5190381?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Offenes Verfahren (EU-weit) zur Vergabe von Winterdienst und Grauflächenreinigungsleistungen für das neue Einsatztrainingszentrum der Generalzolldirektion in Kümmersbruck, Bundesanstalt für Immobilienaufgaben, Direktion München - VOEK 190-26 -",
+  "buyer": "Bundesanstalt für Immobilienaufgaben",
+  "cpv": [
+   "90610000",
+   "90611000",
+   "90620000",
+   "90630000"
+  ],
+  "nuts": [
+   "DEA22",
+   "DE234"
+  ],
+  "deadline": "2026-12-17T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e10cdab6-8fae-4198-92a3-17544b056374",
+  "id": "d09406f6-9f26-4a9c-85ab-dab1f5190381",
+  "date": "2026-10-23T02:10:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesanstalt für Immobilienaufgaben",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "991-80032-33",
+     "legalName": "Bundesanstalt für Immobilienaufgaben"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53119",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "53113",
+     "region": "DEA22",
+     "postalCode": "Bonn",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesanstalt für Immobilienaufgaben",
+   "id": "991-80032-33",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Bundesanstalt für Immobilienaufgaben"
+   },
+   "address": {
+    "locality": "Bonn",
+    "region": "DEA22",
+    "postalCode": "53119",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e10cdab6-8fae-4198-92a3-17544b056374",
+   "title": "Offenes Verfahren (EU-weit) zur Vergabe von Winterdienst und Grauflächenreinigungsleistungen für das neue Einsatztrainingszentrum der Generalzolldirektion in Kümmersbruck, Bundesanstalt für Immobilienaufgaben, Direktion München - VOEK 190-26 -",
+   "description": "Winterdienst und Grauflächenreinigungsleistungen für das neue Einsatztrainingszentrum der Generalzolldirektion in Kümmersbruck",
+   "procuringEntity": {
+    "name": "Bundesanstalt für Immobilienaufgaben",
+    "id": "991-80032-33"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90610000",
+      "description": "Street-cleaning and sweeping services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90611000",
+       "description": "Street-cleaning services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90620000",
+       "description": "Snow-clearing services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "90630000",
+       "description": "Ice-clearing services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "WE 144008; Einsatztrainingszentrum der Generalzolldirektion, Kümmersbrucker Str. 6e, 92245 Kümmersbruck"
+     },
+     "deliveryAddress": {
+      "locality": "Kümmersbruck",
+      "region": "DE234",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=900268",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Offenes Verfahren (EU-weit) zur Vergabe von Winterdienst und Grauflächenreinigungsleistungen für das neue Einsatztrainingszentrum der Generalzolldirektion in Kümmersbruck, Bundesanstalt für Immobilienaufgaben, Direktion München - VOEK 190-26 -",
+     "description": "1. Grauflächenreinigung\n1.1 Nichtöffentliche Flächen\n− Reinigung Nichtöffentliche Flächen, ca. 7.810 m²\n− Reinigung Nichtöffentliche Flächen - Drainagepflaster, ca. 1.994 m²\n− Reinigung Nichtöffentliche Flächen - Traufstreifen, ca. 477 m²\n− Ablaufschächte/Gullys (Regeneinläufe) reinigen, 3 Stück\n− Entwässerungsrinnen reinigen, ca. 55 lfm\n− Abfallbehälter entleeren, 6 Stück (á 40 l)\n2. Winterdienst\n2.1 Nichtöffentliche Flächen\n− Nichtöffentliche Flächen, ca. 7.810 m²\n− Nichtöffentliche Flächen - Drainagepflaster, ca. 1.994 m²",
+     "contractPeriod": {
+      "startDate": "2027-08-01T00:00:00+02:00",
+      "endDate": "2029-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d09406f6-9f26-4a9c-85ab-dab1f5190381",
+  "version": "02",
+  "title": "Offenes Verfahren (EU-weit) zur Vergabe von Winterdienst und Grauflächenreinigungsleistungen für das neue Einsatztrainingszentrum der Generalzolldirektion in Kümmersbruck, Bundesanstalt für Immobilienaufgaben, Direktion München - VOEK 190-26 -",
+  "description": "Winterdienst und Grauflächenreinigungsleistungen für das neue Einsatztrainingszentrum der Generalzolldirektion in Kümmersbruck",
+  "procedureType": "open",
+  "nuts": [
+   "DE234"
+  ],
+  "cpv": [
+   "90611000",
+   "90610000",
+   "90620000",
+   "90630000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Offenes Verfahren (EU-weit) zur Vergabe von Winterdienst und Grauflächenreinigungsleistungen für das neue Einsatztrainingszentrum der Generalzolldirektion in Kümmersbruck, Bundesanstalt für Immobilienaufgaben, Direktion München - VOEK 190-26 -",
+    "description": "1. Grauflächenreinigung\n1.1 Nichtöffentliche Flächen\n− Reinigung Nichtöffentliche Flächen, ca. 7.810 m²\n− Reinigung Nichtöffentliche Flächen - Drainagepflaster, ca. 1.994 m²\n− Reinigung Nichtöffentliche Flächen - Traufstreifen, ca. 477 m²\n− Ablaufschächte/Gullys (Regeneinläufe) reinigen, 3 Stück\n− Entwässerungsrinnen reinigen, ca. 55 lfm\n− Abfallbehälter entleeren, 6 Stück (á 40 l)\n2. Winterdienst\n2.1 Nichtöffentliche Flächen\n− Nichtöffentliche Flächen, ca. 7.810 m²\n− Nichtöffentliche Flächen - Drainagepflaster, ca. 1.994 m²",
+    "cpv": [
+     "90610000",
+     "90611000",
+     "90620000",
+     "90630000"
+    ],
+    "nuts": [
+     "DE234"
+    ],
+    "deadline": "2026-12-17T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-08-01+02:00",
+    "plannedEnd": "2029-09-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "s. Anlage B-03 zum Angebotsaufforderungsschreiben (Bieterauskunft, Eignungskriterien)\n- Ziffer 2.2: Angaben zu Umsätzen\n- Ziffer 4.1: Eigenerklärung zur bestehenden Betriebs-/Berufshaftpflichtversicherung\n--------------------------------------------------------------------------------------------------------------\n2.2. Angaben zu Umsätzen\nHinweis: Bei Bietergemeinschaften reicht es aus, wenn die Umsatzangaben für die gesamte Bietergemeinschaft nur einmalig im Vordruck des bevollmächtigten Mitglieds gemacht werden.\nAngaben zum Gesamtumsatz des Unternehmens (netto) sowie zum Umsatz (netto) bezüglich der ausgeschriebenen Leistungsarten\nGrauflächenreinigung und Winterdienst, jeweils bezogen auf die letzten 3 abgeschlossenen Jahre.\n4.1. Eigenerklärung zur bestehenden Betriebs-/Berufshaftpflichtversicherung\nGeforderte Deckungssummen (pro Versicherungsjahr mindestens zweifach maximiert):\nPersonenschäden: mindestens 2,0 Mio. € (pro Schadensfall)\nSachschäden: mindestens 2,0 Mio. € (pro Schadensfall)\nVermögensschäden: mindestens 100.000 € (pro Schadensfall)\n- Es wird erklärt, dass die Höhe der geforderten Deckungssummen für die jeweiligen Schadensereignisse derzeit schon erreicht wird bzw. eine entsprechende Anpassung der Deckungssummen für die Dauer der Verträge unmittelbar nach Zuschlagserteilung vorgenommen wird.\nDer Nachweis für die bestehende Betriebs-/Berufshaftpflichtversicherung ist spätestens 14 Tage nach Zuschlagserteilung unaufgefordert der Auftraggeberin zu übersenden."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "s. Anlage B-03 zum Angebotsaufforderungsschreiben (Bieterauskunft, Eignungskriterien)\n- Ziffer 2.3: Leistungsbezogene Angaben zum Unternehmen\n- Ziffer 4.2.1: Eigenerklärung über die Leistungserbringung\n- Ziffer 4.2.2: Angaben zu Referenzen\n--------------------------------------------------------------------------------------------------------------\n2.3. Leistungsbezogene Angaben zum Unternehmen\n- Beschäftigtenanzahl des gesamten Unternehmens\n- Anzahl der Beschäftigten, bezogen auf die ausgeschriebene Leistungsart\n- Anzahl der geringfügig Beschäftigten, bezogen auf die ausgeschriebene Leistungsart\n4.2.1. Eigenerklärung über die Leistungserbringung\n- Es wird erklärt, dass das Unternehmen spätestens bei Leistungsbeginn ausreichend qualifiziertes Personal zur Erfüllung der ausgeschriebenen\nLeistung beschäftigt und die notwendigen Maschinen, Werkzeuge und Materialien zur Verfügung stehen, um die ausgeschriebene Leistung\nsachgerecht und unter Einhaltung notwendiger Sicherheitsbestimmungen auszuführen.\n4.2.2. Angaben zu Referenzen\nBenennung von mindestens 3 vergleichbaren Referenzen pro Leistungsart Winterdienst und Grauflächenreinigung von mindestens zwei verschiedenen Referenzgebern aus dem Zeitraum der letzten drei Jahre.\nVergleichbar sind Referenzen, deren Gegenstand dem Ausschreibungsgegenstand zumindest nahekommt. Die Referenzen müssen im technischen oder organisatorischen Bereich einen gleich hohen oder höheren Schwierigkeitsgrad aufweisen und einen tragfähigen Rückschluss auf die Leistungsfähigkeit des Bieters für die ausgeschriebene Leistung ermöglichen. Eine der Referenzen sollte mindestens 75 % des ausgeschriebenen Leistungsvolumens erreichen. Die beiden anderen Referenzen sollten jeweils mindestens 50 % des ausgeschriebenen Leistungsvolumens erreichen. Bei Unterschreiten dieser Werte wird der Bieter aufgefordert, die Vergleichbarkeit der Referenzen zu erläutern.\nHinweise: Bei Bietergemeinschaften reicht es aus, wenn die Referenzangaben für die gesamte Bietergemeinschaft nur einmalig im Vordruck des bevollmächtigten Mitglieds gemacht werden.\nDer Bieter hat sicherzustellen, dass alle Angaben vollständig und korrekt sind. Fehlende oder fehlerhafte Angaben zu den Referenzen können zum\nsofortigen Ausschluss des Angebots ohne Nachforderungsmöglichkeit führen.\nNachfolgende Angaben zu den Referenzen sind zu machen:\n- Name des Auftraggebers\n- Art des Referenzobjektes (Gewerbe-, Verwaltungs-, Wohn-, Industrieobjekt, u. a.),\n- Ausführungsort (Anschrift des Referenzobjektes),\n- Leistungsumfang (in bearbeitete Grundfläche in qm),\n- Leistungszeitraum,\n- Leistungsart,\n- Ansprechperson beim tatsächlichen Leistungsempfänger (nicht Auftraggeber im Unterauftragnehmerverhältnis) inkl. Name, Telefon-Nr. und E-Mail-Adresse."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Zuschlag wird auf das wirtschaftlichste Angebot erteilt.\nDie Zuschlagskriterien werden im Einzelnen wie folgt ermittelt und gewichtet: Preis 100 %.\nAls Wertungspreis wird die Summe der jährlichen Gesamtnettopreise (in Euro) laut Preisblatt gewertet.\nBei Gleichwertigkeit mehrerer Angebote behält sich die Auftraggeberin die Vergabe per Losentscheid vor.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

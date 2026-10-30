@@ -1,0 +1,262 @@
+{
+ "id": "3107554e-09ba-4421-a080-050d77a6b5f5-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "3107554e-09ba-4421-a080-050d77a6b5f5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3107554e-09ba-4421-a080-050d77a6b5f5",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:3107554e-09ba-4421-a080-050d77a6b5f5-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:3107554e-09ba-4421-a080-050d77a6b5f5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3107554e-09ba-4421-a080-050d77a6b5f5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Stromausschreibung Landkreis Ostallgäu",
+  "buyer": "Landkreis Ostallgäu",
+  "cpv": [
+   "09310000"
+  ],
+  "nuts": [
+   "DE27B"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f3ab35c1-8166-493f-8e22-97d8ecf200e7",
+  "id": "3107554e-09ba-4421-a080-050d77a6b5f5",
+  "date": "2026-10-27T03:10:23Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Ostallgäu",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "08342911535",
+     "legalName": "Landkreis Ostallgäu"
+    },
+    "address": {
+     "streetAddress": "Schwabenstraße 11",
+     "locality": "Marktoberdorf",
+     "region": "DE27B",
+     "postalCode": "87616",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "enPORTAL GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "Umsatzsteuer-Identifikationsnr.: DE260447746",
+     "legalName": "enPORTAL GmbH"
+    },
+    "address": {
+     "streetAddress": "Moordiek 1",
+     "locality": "Pronstorf",
+     "region": "DEF0D",
+     "postalCode": "D-23820",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Allgäuer Überlandwerk GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "HRB435",
+     "legalName": "Allgäuer Überlandwerk GmbH"
+    },
+    "address": {
+     "streetAddress": "Allgäuer Überlandwerk GmbH",
+     "locality": "Kempten",
+     "region": "DE273",
+     "postalCode": "87435",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Ostallgäu",
+   "id": "08342911535",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Ostallgäu"
+   },
+   "address": {
+    "streetAddress": "Schwabenstraße 11",
+    "locality": "Marktoberdorf",
+    "region": "DE27B",
+    "postalCode": "87616",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f3ab35c1-8166-493f-8e22-97d8ecf200e7",
+   "title": "Stromausschreibung Landkreis Ostallgäu",
+   "description": "Lieferung von Strom für die Abnahmestellen der ausgeschriebenen Lose",
+   "procuringEntity": {
+    "name": "Landkreis Ostallgäu",
+    "id": "08342911535"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09310000",
+      "description": "Electricity"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Schwabenstraße 11",
+      "locality": "Marktoberdorf",
+      "region": "DE27B",
+      "postalCode": "87616",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Restricted",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-09-29T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Allgäuer Überlandwerk GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Allgäuer Überlandwerk GmbH"
+     },
+     "address": {
+      "streetAddress": "Allgäuer Überlandwerk GmbH",
+      "locality": "Kempten",
+      "region": "DE273",
+      "postalCode": "87435",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Landkreis Ostallgäu Lieferzeitraum 2027 und 2028",
+     "description": "Ausschreibung für 43 Abnahmestellen. Jährlicher Verbrauch ca. 2.949.114 kWh.\n            ",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 675928.5899314022,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3107554e-09ba-4421-a080-050d77a6b5f5",
+  "version": "01",
+  "title": "Stromausschreibung Landkreis Ostallgäu",
+  "description": "Lieferung von Strom für die Abnahmestellen der ausgeschriebenen Lose",
+  "procedureType": "restricted",
+  "nuts": [
+   "DE27B"
+  ],
+  "cpv": [
+   "09310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Landkreis Ostallgäu Lieferzeitraum 2027 und 2028",
+    "description": "Ausschreibung für 43 Abnahmestellen. Jährlicher Verbrauch ca. 2.949.114 kWh.",
+    "cpv": [
+     "09310000"
+    ],
+    "nuts": [
+     "DE27B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Vergabe erfolgt auf Basis des niedrigsten Preises",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

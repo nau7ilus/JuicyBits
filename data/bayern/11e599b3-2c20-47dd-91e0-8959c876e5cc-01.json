@@ -1,0 +1,236 @@
+{
+ "id": "11e599b3-2c20-47dd-91e0-8959c876e5cc-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "11e599b3-2c20-47dd-91e0-8959c876e5cc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=11e599b3-2c20-47dd-91e0-8959c876e5cc",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:11e599b3-2c20-47dd-91e0-8959c876e5cc-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:11e599b3-2c20-47dd-91e0-8959c876e5cc-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/11e599b3-2c20-47dd-91e0-8959c876e5cc?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Erdgaslieferung für die Thermen der Niederbayerische Thermengemeinschaft in 2027 und 2028",
+  "buyer": "Die Gesundheitsthermen  Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH",
+  "cpv": [
+   "09123000"
+  ],
+  "nuts": [
+   "DE228"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ce1133e7-2d44-4358-856a-3ce976465184",
+  "id": "11e599b3-2c20-47dd-91e0-8959c876e5cc",
+  "date": "2026-10-21T02:08:29Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Die Gesundheitsthermen  Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE130965350",
+     "legalName": "Die Gesundheitsthermen  Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH"
+    },
+    "address": {
+     "streetAddress": "Kurallee 23",
+     "locality": "Bad Füssing",
+     "region": "DE228",
+     "postalCode": "94072",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "enercity AG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 811116141",
+     "legalName": "enercity AG"
+    },
+    "address": {
+     "streetAddress": "Glockseeplatz 1",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30169",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Die Gesundheitsthermen  Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH",
+   "id": "DE130965350",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Die Gesundheitsthermen  Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH"
+   },
+   "address": {
+    "streetAddress": "Kurallee 23",
+    "locality": "Bad Füssing",
+    "region": "DE228",
+    "postalCode": "94072",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ce1133e7-2d44-4358-856a-3ce976465184",
+   "title": "Erdgaslieferung für die Thermen der Niederbayerische Thermengemeinschaft in 2027 und 2028",
+   "description": "Lieferung Erdgas für die Thermen der Niederbayerische Thermengemeinschaft im Zeitraum 01/2027 - 06/2028 von rd. 61.929 MWh an 5 RLM- und 2 SLP-Marktlokationen als Tranchenmodell\n",
+   "procuringEntity": {
+    "name": "Die Gesundheitsthermen  Europa Therme Bad Füssing, vertreten durch VEA Beratungs-GmbH",
+    "id": "DE130965350"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Füssing",
+      "region": "DE228",
+      "postalCode": "94072",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "enercity AG",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "enercity AG"
+     },
+     "address": {
+      "streetAddress": "Glockseeplatz 1",
+      "locality": "Hannover",
+      "region": "DE929",
+      "postalCode": "30169",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Erdgaslieferung für die Thermen der Niederbayerische Thermengemeinschaft in 2027 und 2028",
+     "description": "Die Gesamtmenge beläuft sich auf ca. 65.527 MWh in den Zeitraum 01/2027 - 06/2028. Die Lieferung findet als Tranchenmodell inkl. Abwicklung der Netznutzung statt.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-07-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "11e599b3-2c20-47dd-91e0-8959c876e5cc",
+  "version": "01",
+  "title": "Erdgaslieferung für die Thermen der Niederbayerische Thermengemeinschaft in 2027 und 2028",
+  "description": "Lieferung Erdgas für die Thermen der Niederbayerische Thermengemeinschaft im Zeitraum 01/2027 - 06/2028 von rd. 61.929 MWh an 5 RLM- und 2 SLP-Marktlokationen als Tranchenmodell",
+  "procedureType": "open",
+  "nuts": [
+   "DE228"
+  ],
+  "cpv": [
+   "09123000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Erdgaslieferung für die Thermen der Niederbayerische Thermengemeinschaft in 2027 und 2028",
+    "description": "Die Gesamtmenge beläuft sich auf ca. 65.527 MWh in den Zeitraum 01/2027 - 06/2028. Die Lieferung findet als Tranchenmodell inkl. Abwicklung der Netznutzung statt.",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE228"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2028-07-01+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Der Preis ist das einzige Wertungskriterium",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

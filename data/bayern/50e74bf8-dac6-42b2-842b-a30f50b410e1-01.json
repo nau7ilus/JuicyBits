@@ -1,0 +1,262 @@
+{
+ "id": "50e74bf8-dac6-42b2-842b-a30f50b410e1-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "50e74bf8-dac6-42b2-842b-a30f50b410e1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=50e74bf8-dac6-42b2-842b-a30f50b410e1",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:50e74bf8-dac6-42b2-842b-a30f50b410e1-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:50e74bf8-dac6-42b2-842b-a30f50b410e1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/50e74bf8-dac6-42b2-842b-a30f50b410e1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Waerme und Kaelteversorgungsanlagen",
+  "buyer": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+  "cpv": [
+   "45331000",
+   "45331100",
+   "45331230"
+  ],
+  "nuts": [
+   "DE252",
+   "DE254"
+  ],
+  "deadline": "2026-11-24T09:06:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a6eda739-bf41-4ba7-9ffc-17311854ab84",
+  "id": "50e74bf8-dac6-42b2-842b-a30f50b410e1",
+  "date": "2026-10-23T02:08:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09113507199",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0995209-19",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+   "id": "t:09113507199",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+   },
+   "address": {
+    "streetAddress": "Bohlenplatz 18",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91054",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a6eda739-bf41-4ba7-9ffc-17311854ab84",
+   "title": "Waerme und Kaelteversorgungsanlagen",
+   "description": "4 Stück Übergabestationen\nca. 50 Stück Umwälzpumpen\nca. 10 Verteiler / Sammler\nca. 105 Stück Heizkörper\nca. 500 Stück Heiz- und Kühlsegel\nca. 15 Stück Deckenstrahlplatten\nca. 70 Stück Kühlbalken passiv\nca. 160 Stück Decken-Ventilatorkonvektoren\nca. 7800 m Stahlrohr DN15 bis DN20 Schweißverbindung\nca. 3200 m Stahlrohr DN25 bis DN32 Schweißbverbindung\nca. 2000 m Stahlrohr DN40 bis DN50 Schweißverbindung\nca. 1650 m Stahlrohr DN65 bis DN80 Schweißverbindung\nca. 500 m Stahlrohr DN100 bis DN125 Schweißverbindung\nca. 80 m Stahlrohr DN150 bis DN200 Schweißverbindung",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "t:09113507199"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331000",
+      "description": "Heating, ventilation and air-conditioning installation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45331100",
+       "description": "Central-heating installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45331230",
+       "description": "Installation work of cooling equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90461",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 5162543.93,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/300772",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Waerme und Kaelteversorgungsanlagen",
+     "description": "4 Stück Übergabestationen\nca. 50 Stück Umwälzpumpen\nca. 10 Verteiler / Sammler\nca. 105 Stück Heizkörper\nca. 500 Stück Heiz- und Kühlsegel\nca. 15 Stück Deckenstrahlplatten\nca. 70 Stück Kühlbalken passiv\nca. 160 Stück Decken-Ventilatorkonvektoren\nca. 7800 m Stahlrohr DN15 bis DN20 Schweißverbindung\nca. 3200 m Stahlrohr DN25 bis DN32 Schweißbverbindung\nca. 2000 m Stahlrohr DN40 bis DN50 Schweißverbindung\nca. 1650 m Stahlrohr DN65 bis DN80 Schweißverbindung\nca. 500 m Stahlrohr DN100 bis DN125 Schweißverbindung\nca. 80 m Stahlrohr DN150 bis DN200 Schweißverbindung",
+     "value": {
+      "amount": 5162543.93,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-02-08T00:00:00+01:00",
+      "endDate": "2029-05-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "50e74bf8-dac6-42b2-842b-a30f50b410e1",
+  "version": "01",
+  "title": "Waerme und Kaelteversorgungsanlagen",
+  "description": "4 Stück Übergabestationen\nca. 50 Stück Umwälzpumpen\nca. 10 Verteiler / Sammler\nca. 105 Stück Heizkörper\nca. 500 Stück Heiz- und Kühlsegel\nca. 15 Stück Deckenstrahlplatten\nca. 70 Stück Kühlbalken passiv\nca. 160 Stück Decken-Ventilatorkonvektoren\nca. 7800 m Stahlrohr DN15 bis DN20 Schweißverbindung\nca. 3200 m Stahlrohr DN25 bis DN32 Schweißbverbindung\nca. 2000 m Stahlrohr DN40 bis DN50 Schweißverbindung\nca. 1650 m Stahlrohr DN65 bis DN80 Schweißverbindung\nca. 500 m Stahlrohr DN100 bis DN125 Schweißverbindung\nca. 80 m Stahlrohr DN150 bis DN200 Schweißverbindung",
+  "procedureType": "open",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45331000",
+   "45331100",
+   "45331230"
+  ],
+  "estimatedValue": {
+   "amount": 5162543.93,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Waerme und Kaelteversorgungsanlagen",
+    "description": "4 Stück Übergabestationen\nca. 50 Stück Umwälzpumpen\nca. 10 Verteiler / Sammler\nca. 105 Stück Heizkörper\nca. 500 Stück Heiz- und Kühlsegel\nca. 15 Stück Deckenstrahlplatten\nca. 70 Stück Kühlbalken passiv\nca. 160 Stück Decken-Ventilatorkonvektoren\nca. 7800 m Stahlrohr DN15 bis DN20 Schweißverbindung\nca. 3200 m Stahlrohr DN25 bis DN32 Schweißbverbindung\nca. 2000 m Stahlrohr DN40 bis DN50 Schweißverbindung\nca. 1650 m Stahlrohr DN65 bis DN80 Schweißverbindung\nca. 500 m Stahlrohr DN100 bis DN125 Schweißverbindung\nca. 80 m Stahlrohr DN150 bis DN200 Schweißverbindung",
+    "cpv": [
+     "45331000",
+     "45331100",
+     "45331230"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-11-24T09:06:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-08+01:00",
+    "plannedEnd": "2029-05-31+02:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 5162543.93,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=300772\n\n- Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen.\n- Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=300772\n\nDie Anforderung des Nachweises vergleichbarer Referenzen gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter können sich dazu des PQ-Verzeichnisses bedienen, soweit dort Nachweise entsprechend vergleichbarer Referenzen hinterlegt sind. Präqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise vergleichbare Referenzen betreffen und die Hinterlegung ggf. entsprechend anpassen. Alternativ können die Referenzen auch mit dem Angebot übermittelt werden. \n\nNimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=300772\n\n- Angaben zur Verfügbarkeit der für die Ausführung der Leistungen erforderlichen Arbeitskräfte"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe:\nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=300772\n\n- Registereintragungen\n- Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung (§ 17 VOB/B)\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\n\nSicherheitsleistung für Mängelansprüche \nDie Sicherheit für Mängelansprüche beträgt 2% Prozent der Summe der Abschlagszahlungen zum Zeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

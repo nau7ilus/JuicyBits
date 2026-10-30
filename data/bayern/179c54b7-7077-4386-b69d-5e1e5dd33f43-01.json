@@ -1,0 +1,195 @@
+{
+ "id": "179c54b7-7077-4386-b69d-5e1e5dd33f43-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "179c54b7-7077-4386-b69d-5e1e5dd33f43",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=179c54b7-7077-4386-b69d-5e1e5dd33f43",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:179c54b7-7077-4386-b69d-5e1e5dd33f43-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:179c54b7-7077-4386-b69d-5e1e5dd33f43-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/179c54b7-7077-4386-b69d-5e1e5dd33f43?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "AB32 Neubau Wohnheim Ritter-Konrad-Str.",
+  "buyer": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen",
+  "cpv": [
+   "45324000"
+  ],
+  "nuts": [
+   "DE277",
+   "DE25C"
+  ],
+  "deadline": "2026-11-26T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-89ca8d83-d1cd-4274-b37a-ceefe4c21dbe",
+  "id": "179c54b7-7077-4386-b69d-5e1e5dd33f43",
+  "date": "2026-10-23T02:12:09Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09071 502-577",
+     "legalName": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen"
+    },
+    "address": {
+     "streetAddress": "Erzbischof-Stimpfle-Str. 1",
+     "locality": "Dillingen",
+     "region": "DE277",
+     "postalCode": "89407",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken – Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken – Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen",
+   "id": "09071 502-577",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen"
+   },
+   "address": {
+    "streetAddress": "Erzbischof-Stimpfle-Str. 1",
+    "locality": "Dillingen",
+    "region": "DE277",
+    "postalCode": "89407",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "89ca8d83-d1cd-4274-b37a-ceefe4c21dbe",
+   "title": "AB32 Neubau Wohnheim Ritter-Konrad-Str.",
+   "description": "ABSB1135_Absberg Neubau eines Wohnheimes für 24 Menschen mit Behinderung",
+   "procuringEntity": {
+    "name": "Regens-Wagner-Stiftung Zell, als Rechtsträger von Regens Wagner Absberg, vertreten durch die Direktion der Regens-Wagner-Stiftungen",
+    "id": "09071 502-577"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45324000",
+      "description": "Plasterboard works"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Ritter-Konrad-Str. 11",
+      "locality": "Absberg",
+      "region": "DE25C",
+      "postalCode": "91720",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331268",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "AB32 Neubau Wohnheim Ritter-Konrad-Str.",
+     "description": "ABSB1135_Absberg Neubau eines Wohnheimes für 24 Menschen mit Behinderung",
+     "contractPeriod": {
+      "startDate": "2027-05-03T00:00:00+02:00",
+      "endDate": "2028-03-10T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "179c54b7-7077-4386-b69d-5e1e5dd33f43",
+  "version": "01",
+  "title": "AB32 Neubau Wohnheim Ritter-Konrad-Str.",
+  "description": "ABSB1135_Absberg Neubau eines Wohnheimes für 24 Menschen mit Behinderung",
+  "procedureType": "open",
+  "nuts": [
+   "DE25C"
+  ],
+  "cpv": [
+   "45324000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "AB32 Neubau Wohnheim Ritter-Konrad-Str.",
+    "description": "ABSB1135_Absberg Neubau eines Wohnheimes für 24 Menschen mit Behinderung",
+    "cpv": [
+     "45324000"
+    ],
+    "nuts": [
+     "DE25C"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-03+02:00",
+    "plannedEnd": "2028-03-10+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Direkter Link zur Eigenerklärung -- siehe Link Direkter Link zur Eigenerklärung -- siehe Link https://www.staatsanzeiger-eservices.de/aJs/EFormsBekEigenUrl?z_param=331268"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "id": "3a6d583c-af13-4f38-8c9e-7e20a1bc8774-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "3a6d583c-af13-4f38-8c9e-7e20a1bc8774",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3a6d583c-af13-4f38-8c9e-7e20a1bc8774",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:3a6d583c-af13-4f38-8c9e-7e20a1bc8774-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:3a6d583c-af13-4f38-8c9e-7e20a1bc8774-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3a6d583c-af13-4f38-8c9e-7e20a1bc8774?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Rahmenvereinbarung über Matratzen",
+  "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+  "cpv": [
+   "39143112"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-40ac3fc2-260f-4c22-ad92-817c8b92b4ab",
+  "id": "3a6d583c-af13-4f38-8c9e-7e20a1bc8774",
+  "date": "2026-10-21T02:12:23Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Leitweg-ID 09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1"
+    },
+    "address": {
+     "streetAddress": "Balanstraße 59",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81541",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "mso Maja Schattkowsky objektausstattung",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE325902573",
+     "legalName": "mso Maja Schattkowsky objektausstattung"
+    },
+    "address": {
+     "streetAddress": "Lindenplatz 4",
+     "locality": "Redwitz an der Rodach",
+     "region": "DE24C",
+     "postalCode": "96257",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+   "id": "Leitweg-ID 09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1"
+   },
+   "address": {
+    "streetAddress": "Balanstraße 59",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81541",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "40ac3fc2-260f-4c22-ad92-817c8b92b4ab",
+   "title": "Rahmenvereinbarung über Matratzen",
+   "description": "Rahmenvertrag über Matratzen\nSozialreferat, Amt für Wohnen und Migration",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+    "id": "Leitweg-ID 09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39143112",
+      "description": "Mattresses"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80331",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "mso Maja Schattkowsky objektausstattung",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "mso Maja Schattkowsky objektausstattung"
+     },
+     "address": {
+      "streetAddress": "Lindenplatz 4",
+      "locality": "Redwitz an der Rodach",
+      "region": "DE24C",
+      "postalCode": "96257",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rahmenvereinbarung über Matratzen",
+     "description": "ca. 8000 Stück Matratzen",
+     "contractPeriod": {
+      "startDate": "2026-12-01T00:00:00+01:00",
+      "endDate": "2028-11-30T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "3a6d583c-af13-4f38-8c9e-7e20a1bc8774",
+  "version": "01",
+  "title": "Rahmenvereinbarung über Matratzen",
+  "description": "Rahmenvertrag über Matratzen\nSozialreferat, Amt für Wohnen und Migration",
+  "procedureType": "open",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "39143112"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvereinbarung über Matratzen",
+    "description": "ca. 8000 Stück Matratzen",
+    "cpv": [
+     "39143112"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-01+01:00",
+    "plannedEnd": "2028-11-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,16 +5,18 @@
   "noticeId": "9c73d48f-a147-42e1-ad4c-e04d8f73c9e0",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9c73d48f-a147-42e1-ad4c-e04d8f73c9e0",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:9c73d48f-a147-42e1-ad4c-e04d8f73c9e0-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:9c73d48f-a147-42e1-ad4c-e04d8f73c9e0-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/9c73d48f-a147-42e1-ad4c-e04d8f73c9e0?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "14TEI10205 2. S-Bahn-Stammstrecke München – VE 30 Rohbauarbeiten Tunnel West mit Trog und\nHp HauptbahnhofBahnhofplatz",
   "buyer": "DB InfraGO AG",
   "cpv": [
-   "45221242"
+   "45221242",
+   "43123000",
+   "45262311"
   ],
   "nuts": [
    "DE712",
@@ -174,5 +176,45 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "9c73d48f-a147-42e1-ad4c-e04d8f73c9e0",
+  "version": "01",
+  "title": "14TEI10205 2. S-Bahn-Stammstrecke München – VE 30 Rohbauarbeiten Tunnel West mit Trog und\nHp HauptbahnhofBahnhofplatz",
+  "description": "VE 30 Rohbauarbeiten Tunnel West mit Trog und Hp Hauptbahnhof Bahnhofplatz.\nNeubau von 2 eingleisigen Streckentunneln zwischen dem Tunnelportal westlich der Donnersbergerbrücke und\ndem Hp Marienhof (ausschließlich).\nIm bergmännisch zu erstellenden Tunnelabschnitt zudem Neubau von 4 Rettungsschächten mit Rettungsstollen\nzum Anschluss an die Fahrtunnel.\nNeubau (Rohbau) eines unterirdischen S-Bahn-Haltepunkts in Innenstadtlage (Hp Hauptbahnhof Bahnhofplatz)\nmit 2 Gleisen und getrennten Ein- und Ausstiegsbahnsteigen (Spanische Lösung) sowie Zugangsanlagen\n(Zentraler Aufgang, Aufgang Schützenstraße und Notausgang Bayerstraße), Zwischenebenen,\nTechnikzentralen und Anbindungen an bestehende U-Bahnbauwerke",
+  "procedureType": null,
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45221242",
+   "43123000",
+   "45262311"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "2. S-Bahn-Stammstrecke München – VE 30 Rohbauarbeiten Tunnel West mit Trog und\nHp HauptbahnhofBahnhofplatz",
+    "description": "VE 30 Rohbauarbeiten Tunnel West mit Trog und Hp Hauptbahnhof Bahnhofplatz.\nNeubau von 2 eingleisigen Streckentunneln zwischen dem Tunnelportal westlich der Donnersbergerbrücke und\ndem Hp Marienhof (ausschließlich).\nIm bergmännisch zu erstellenden Tunnelabschnitt zudem Neubau von 4 Rettungsschächten mit Rettungsstollen\nzum Anschluss an die Fahrtunnel.\nNeubau (Rohbau) eines unterirdischen S-Bahn-Haltepunkts in Innenstadtlage (Hp Hauptbahnhof Bahnhofplatz)\nmit 2 Gleisen und getrennten Ein- und Ausstiegsbahnsteigen (Spanische Lösung) sowie Zugangsanlagen\n(Zentraler Aufgang, Aufgang Schützenstraße und Notausgang Bayerstraße), Zwischenebenen,\nTechnikzentralen und Anbindungen an bestehende U-Bahnbauwerke",
+    "cpv": [
+     "45221242"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
 }

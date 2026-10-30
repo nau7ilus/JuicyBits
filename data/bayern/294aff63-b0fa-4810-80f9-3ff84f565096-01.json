@@ -1,0 +1,214 @@
+{
+ "id": "294aff63-b0fa-4810-80f9-3ff84f565096-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "294aff63-b0fa-4810-80f9-3ff84f565096",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=294aff63-b0fa-4810-80f9-3ff84f565096",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:294aff63-b0fa-4810-80f9-3ff84f565096-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:294aff63-b0fa-4810-80f9-3ff84f565096-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/294aff63-b0fa-4810-80f9-3ff84f565096?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erdgasausschreibung Gemeinde Eichenau 2027/2028",
+  "buyer": "Gemeinde Eichenau, vertreten durch die KUBUS Kommunalberatung & Service GmbH",
+  "cpv": [
+   "09123000"
+  ],
+  "nuts": [
+   "DE21C"
+  ],
+  "deadline": "2026-10-30T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-81a6a448-c818-484b-bf0f-91bb3066b7de",
+  "id": "294aff63-b0fa-4810-80f9-3ff84f565096",
+  "date": "2026-10-16T02:10:48Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Eichenau, vertreten durch die KUBUS Kommunalberatung & Service GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "a4ee264d-4772-448a-a149-a62732113037",
+     "legalName": "Gemeinde Eichenau, vertreten durch die KUBUS Kommunalberatung & Service GmbH"
+    },
+    "address": {
+     "streetAddress": "Hauptplatz 2",
+     "locality": "Eichenau",
+     "region": "DE21C",
+     "postalCode": "82223",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "fcbdfac7-5e4b-456e-aeed-2dd450c6e92a",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "KUBUS Kommunalberatung und Service GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "27a676a5-7d10-4084-af42-3eacd9bbacf1",
+     "legalName": "KUBUS Kommunalberatung und Service GmbH"
+    },
+    "address": {
+     "streetAddress": "Bertha-von-Suttner-Str. 5",
+     "locality": "Schwerin",
+     "region": "DE804",
+     "postalCode": "19061",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Eichenau, vertreten durch die KUBUS Kommunalberatung & Service GmbH",
+   "id": "a4ee264d-4772-448a-a149-a62732113037",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Eichenau, vertreten durch die KUBUS Kommunalberatung & Service GmbH"
+   },
+   "address": {
+    "streetAddress": "Hauptplatz 2",
+    "locality": "Eichenau",
+    "region": "DE21C",
+    "postalCode": "82223",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "81a6a448-c818-484b-bf0f-91bb3066b7de",
+   "title": "Erdgasausschreibung Gemeinde Eichenau 2027/2028",
+   "description": "Lieferung von Erdgas für die Abnahmestellen der Gemeinde Eichenau; \nLieferzeitraum: 01.01.2027 - 01.01.2029; \nLiefermenge: ca. 2.071.900 kWh/2027 und 2.096.900 kWh/2028.",
+   "procuringEntity": {
+    "name": "Gemeinde Eichenau, vertreten durch die KUBUS Kommunalberatung & Service GmbH",
+    "id": "a4ee264d-4772-448a-a149-a62732113037"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryLocation": {
+      "description": "Abnahmestellen gemäß Leistungsverzeichnis. "
+     },
+     "deliveryAddress": {
+      "locality": "Eichenau",
+      "region": "DE21C",
+      "postalCode": "82223",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/701a55ef-3277-4ed1-bb1b-5bc668d60577",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los Gemeinde Eichenau Erdgas",
+     "description": "Lieferung von Erdgas für die Abnahmestellen der Gemeinde Eichenau; \nLieferzeitraum: 01.01.2027 - 01.01.2029; \nLiefermenge: ca. 2.071.900 kWh/2027 und 2.096.900 kWh/2028.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2029-01-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "294aff63-b0fa-4810-80f9-3ff84f565096",
+  "version": "01",
+  "title": "Erdgasausschreibung Gemeinde Eichenau 2027/2028",
+  "description": "Lieferung von Erdgas für die Abnahmestellen der Gemeinde Eichenau; \nLieferzeitraum: 01.01.2027 - 01.01.2029; \nLiefermenge: ca. 2.071.900 kWh/2027 und 2.096.900 kWh/2028.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21C"
+  ],
+  "cpv": [
+   "09123000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los Gemeinde Eichenau Erdgas",
+    "description": "Lieferung von Erdgas für die Abnahmestellen der Gemeinde Eichenau; \nLieferzeitraum: 01.01.2027 - 01.01.2029; \nLiefermenge: ca. 2.071.900 kWh/2027 und 2.096.900 kWh/2028.",
+    "cpv": [
+     "09123000"
+    ],
+    "nuts": [
+     "DE21C"
+    ],
+    "deadline": "2026-10-30T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2029-01-01+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Eignung zur Berufsausübung: Nachweis der Eintragungen in dem einschlägigen Berufs-oder Handelsregister des Niederlassungsmitgliedstaates;\nWirtschaftliche und finanzielle Leistungsfähigkeit:\n- Erklärung zum „allgemeinen“ Jahresumsatz für die letzten drei Geschäftsjahre,\n- Erklärung zum „spezifischen“ Jahresumsatz (Sparte Erdgas) in dem vom Auftrag abgedeckten Geschäftsbereich für die letzten drei Geschäftsjahre;\nTechnische und berufliche Leistungsfähigkeit:\n- Mindestens zwei Referenzen über früher ausgeführte, mit dem Auftragsgegenstand vergleichbare Aufträge in Form einer Liste der in den letzten höchstens drei Kalenderjahren erbrachten Leistungen mit Angabe des Lieferzeitraums (Lieferjahr), der Liefermenge im Lieferjahr und der Anzahl der Abnahmestellen sowie des öffentlichen oder privaten Auftraggebers\n- Um einen ausreichenden Wettbewerb sicherzustellen, werden auch einschlägige Referenzen berücksichtigt, die mehr als drei Jahre zurückliegen,\n- Angabe, welche Teile des Auftrags das Unternehmen als Unteraufträge zu vergeben beabsichtigt.;\nDetails siehe Vergabeunterlagen."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

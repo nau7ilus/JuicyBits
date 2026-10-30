@@ -1,0 +1,296 @@
+{
+ "id": "e7ac61fa-32e7-42ff-a79f-a8de98fc1449-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "e7ac61fa-32e7-42ff-a79f-a8de98fc1449",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e7ac61fa-32e7-42ff-a79f-a8de98fc1449",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:e7ac61fa-32e7-42ff-a79f-a8de98fc1449-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:e7ac61fa-32e7-42ff-a79f-a8de98fc1449-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e7ac61fa-32e7-42ff-a79f-a8de98fc1449?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "NSHV, IT-Netz und Verteiler",
+  "buyer": "Arberlandklinik Zwiesel",
+  "cpv": [
+   "45311200",
+   "45317200",
+   "45315500",
+   "45315600",
+   "31213200"
+  ],
+  "nuts": [
+   "DE229"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f47aac20-e3da-4ad8-842a-aa7a653a58c0",
+  "id": "e7ac61fa-32e7-42ff-a79f-a8de98fc1449",
+  "date": "2026-10-18T09:56:05Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Arberlandklinik Zwiesel",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Deggendorf HRA 2210",
+     "legalName": "Arberlandklinik Zwiesel"
+    },
+    "address": {
+     "streetAddress": "Arberlandstraße 1",
+     "locality": "Zwiesel",
+     "region": "DE229",
+     "postalCode": "94227",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Hitzler Ingenieure GmbH & Co.KG",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "München HRA 118089",
+     "legalName": "Hitzler Ingenieure GmbH & Co.KG"
+    },
+    "address": {
+     "streetAddress": "Weimarer Str. 32",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80807",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "eSender",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "K+B E-Tech GmbH & Co. KG",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "HRA7202",
+     "legalName": "K+B E-Tech GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Barbaraweg 2",
+     "locality": "Cham",
+     "region": "DE235",
+     "postalCode": "93413",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Arberlandklinik Zwiesel",
+   "id": "Deggendorf HRA 2210",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Arberlandklinik Zwiesel"
+   },
+   "address": {
+    "streetAddress": "Arberlandstraße 1",
+    "locality": "Zwiesel",
+    "region": "DE229",
+    "postalCode": "94227",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f47aac20-e3da-4ad8-842a-aa7a653a58c0",
+   "title": "NSHV, IT-Netz und Verteiler",
+   "description": "Bei der Maßnahme handelt es sich um die Erneuerung und Erweiterung der zentralen Energieverteilung (NSHV) einer bestehenden Klinik unter Berücksichtigung der vorhandenen Infrastruktur im Bestand. Zusätzlich erfolgt die IT-Netz (Strom) Sanierung in zwei OP Bereichen.\n\n-\t1 x NSHV Allgemein (AV)\n-\t1 x NSHV Sonderversorgung (SV)\n-\t1 x Energiemanagement- und Netzvisualisierung\n-\t2 x IT Netz Versorgungen\n-\t8000m Kabel und Leitungen Starkstrom\n-\t5000m Fernmeldekabel\n-\t300m Verlegesysteme\n-\t10 x Unterverteilungen\n-\t120 x Installationsgeräte",
+   "procuringEntity": {
+    "name": "Arberlandklinik Zwiesel",
+    "id": "Deggendorf HRA 2210"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311200",
+      "description": "Electrical fitting work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45317200",
+       "description": "Electrical installation work of transformers"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45315500",
+       "description": "Medium-voltage installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45315600",
+       "description": "Low-voltage installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "31213200",
+       "description": "Distribution transformers"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Arberlandstraße 1",
+      "locality": "Zwiesel",
+      "region": "DE229",
+      "postalCode": "94227",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "K+B E-Tech GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "K+B E-Tech GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Barbaraweg 2",
+      "locality": "Cham",
+      "region": "DE235",
+      "postalCode": "93413",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "NSHV, IT-Netz und Verteiler",
+     "description": "Bei der Maßnahme handelt es sich um die Erneuerung und Erweiterung der zentralen Energieverteilung (NSHV) einer bestehenden Klinik unter Berücksichtigung der vorhandenen Infrastruktur im Bestand. Zusätzlich erfolgt die IT-Netz (Strom) Sanierung in zwei OP Bereichen.\n\n-\t1 x NSHV Allgemein (AV)\n-\t1 x NSHV Sonderversorgung (SV)\n-\t1 x Energiemanagement- und Netzvisualisierung\n-\t2 x IT Netz Versorgungen\n-\t8000m Kabel und Leitungen Starkstrom\n-\t5000m Fernmeldekabel\n-\t300m Verlegesysteme\n-\t10 x Unterverteilungen\n-\t120 x Installationsgeräte",
+     "contractPeriod": {
+      "startDate": "2026-09-01T00:00:00+02:00",
+      "endDate": "2027-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-05T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 953356.21,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-04T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e7ac61fa-32e7-42ff-a79f-a8de98fc1449",
+  "version": "01",
+  "title": "NSHV, IT-Netz und Verteiler",
+  "description": "Bei der Maßnahme handelt es sich um die Erneuerung und Erweiterung der zentralen Energieverteilung (NSHV) einer bestehenden Klinik unter Berücksichtigung der vorhandenen Infrastruktur im Bestand. Zusätzlich erfolgt die IT-Netz (Strom) Sanierung in zwei OP Bereichen.\n\n-\t1 x NSHV Allgemein (AV)\n-\t1 x NSHV Sonderversorgung (SV)\n-\t1 x Energiemanagement- und Netzvisualisierung\n-\t2 x IT Netz Versorgungen\n-\t8000m Kabel und Leitungen Starkstrom\n-\t5000m Fernmeldekabel\n-\t300m Verlegesysteme\n-\t10 x Unterverteilungen\n-\t120 x Installationsgeräte",
+  "procedureType": "open",
+  "nuts": [
+   "DE229"
+  ],
+  "cpv": [
+   "45311200",
+   "45317200",
+   "45315500",
+   "45315600",
+   "31213200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "NSHV, IT-Netz und Verteiler",
+    "description": "Bei der Maßnahme handelt es sich um die Erneuerung und Erweiterung der zentralen Energieverteilung (NSHV) einer bestehenden Klinik unter Berücksichtigung der vorhandenen Infrastruktur im Bestand. Zusätzlich erfolgt die IT-Netz (Strom) Sanierung in zwei OP Bereichen.\n\n-\t1 x NSHV Allgemein (AV)\n-\t1 x NSHV Sonderversorgung (SV)\n-\t1 x Energiemanagement- und Netzvisualisierung\n-\t2 x IT Netz Versorgungen\n-\t8000m Kabel und Leitungen Starkstrom\n-\t5000m Fernmeldekabel\n-\t300m Verlegesysteme\n-\t10 x Unterverteilungen\n-\t120 x Installationsgeräte",
+    "cpv": [
+     "45311200",
+     "45317200",
+     "45315500",
+     "45315600",
+     "31213200"
+    ],
+    "nuts": [
+     "DE229"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-01+02:00",
+    "plannedEnd": "2027-03-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Angebotspreis",
+      "description": "Gewertet wird der Angebotspreis.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

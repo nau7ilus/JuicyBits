@@ -1,0 +1,143 @@
+{
+ "id": "25944188-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944188",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944188",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944188-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944188-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944188?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Heizung nach DIN18380",
+  "buyer": "ZV KD Oberland Zentrale Beschaffungsstelle",
+  "cpv": [
+   "45331000-6",
+   "45330000-9"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-10T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944188",
+  "id": "25944188",
+  "date": "2026-10-17T07:01:36Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "ZV KD Oberland Zentrale Beschaffungsstelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "ZV KD Oberland Zentrale Beschaffungsstelle"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "ZV KD Oberland Zentrale Beschaffungsstelle",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "ZV KD Oberland Zentrale Beschaffungsstelle"
+   }
+  },
+  "tender": {
+   "title": "Heizung nach DIN18380",
+   "description": "Heizung nach DIN18380",
+   "procuringEntity": {
+    "name": "ZV KD Oberland Zentrale Beschaffungsstelle"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331000-6"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45330000-9"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "87642 Halblech",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Direct award",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305037",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Heizung nach DIN18380",
+     "description": "Heizung nach DIN18380"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25944188",
+  "version": "1",
+  "title": "Heizung nach DIN18380",
+  "description": "Heizung nach DIN18380",
+  "procedureType": "de-comp-neg-wo-call",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45331000-6",
+   "45330000-9"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Heizung nach DIN18380",
+    "description": "Heizung nach DIN18380",
+    "cpv": [
+     "45331000-6",
+     "45330000-9"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-10T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "25960860-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25960860",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25960860",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25960860-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25960860-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25960860?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Wunsiedel - Fenstertausch - VE3026 Fenster",
+  "buyer": "AOK Bayern - Die Gesundheitskasse",
+  "cpv": [
+   "45421132-8"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25960860",
+  "id": "25960860",
+  "date": "2026-10-23T07:02:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AOK Bayern - Die Gesundheitskasse",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "AOK Bayern - Die Gesundheitskasse"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AOK Bayern - Die Gesundheitskasse",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AOK Bayern - Die Gesundheitskasse"
+   }
+  },
+  "tender": {
+   "title": "Wunsiedel - Fenstertausch - VE3026 Fenster",
+   "description": "Wunsiedel - Fenstertausch - VE3026 Fenster",
+   "procuringEntity": {
+    "name": "AOK Bayern - Die Gesundheitskasse"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421132-8"
+     },
+     "deliveryAddress": {
+      "locality": "95632 Wunsiedel",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Wunsiedel - Fenstertausch - VE3026 Fenster",
+     "description": "Wunsiedel - Fenstertausch - VE3026 Fenster"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25960860",
+  "version": "1",
+  "title": "Wunsiedel - Fenstertausch - VE3026 Fenster",
+  "description": "Wunsiedel - Fenstertausch - VE3026 Fenster",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45421132-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Wunsiedel - Fenstertausch - VE3026 Fenster",
+    "description": "Wunsiedel - Fenstertausch - VE3026 Fenster",
+    "cpv": [
+     "45421132-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

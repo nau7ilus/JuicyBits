@@ -1,0 +1,277 @@
+{
+ "id": "f5062ff6-05cc-4b38-89cd-925b82e9ef5f-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "f5062ff6-05cc-4b38-89cd-925b82e9ef5f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f5062ff6-05cc-4b38-89cd-925b82e9ef5f",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:f5062ff6-05cc-4b38-89cd-925b82e9ef5f-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:f5062ff6-05cc-4b38-89cd-925b82e9ef5f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f5062ff6-05cc-4b38-89cd-925b82e9ef5f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "2 LKW mit Kran und Abrollk SM FRG ZWI",
+  "buyer": "Staatliches Bauamt Passau",
+  "cpv": [
+   "34134000",
+   "34143000"
+  ],
+  "nuts": [
+   "DE222"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-cdbbacd8-955e-4c9c-a1ad-542a32eac9c6",
+  "id": "f5062ff6-05cc-4b38-89cd-925b82e9ef5f",
+  "date": "2026-10-25T07:18:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Passau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Staatliches Bauamt Passau"
+    },
+    "address": {
+     "streetAddress": "Am Schanzl 2",
+     "locality": "Passau",
+     "region": "DE222",
+     "postalCode": "94032",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "processContactPoint",
+     "reviewContactPoint",
+     "funder",
+     "payer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ATLAS-KERN GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE185474478",
+     "legalName": "ATLAS-KERN GmbH"
+    },
+    "address": {
+     "streetAddress": "Gewerbering 1+3",
+     "locality": "Steinach",
+     "region": "DE22B",
+     "postalCode": "94377",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Passau",
+   "id": "[Telefon entfernt]",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Passau"
+   },
+   "address": {
+    "streetAddress": "Am Schanzl 2",
+    "locality": "Passau",
+    "region": "DE222",
+    "postalCode": "94032",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "cdbbacd8-955e-4c9c-a1ad-542a32eac9c6",
+   "title": "2 LKW mit Kran und Abrollk SM FRG ZWI",
+   "description": "Beabsichtigung der Vergabe von Leistungen:\nStaatliches Bauamt Passau\nLieferung von 2 LKW mit Kran und Abrollkipper für die SMén FRG und ZWI\nOrt der Ausführung: Passau",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34134000",
+      "description": "Flatbed and Tipper trucks"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "34143000",
+       "description": "Winter-maintenance vehicles"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Passau",
+      "region": "DE222",
+      "postalCode": "94032",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-09T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "ATLAS-KERN GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "ATLAS-KERN GmbH"
+     },
+     "address": {
+      "streetAddress": "Gewerbering 1+3",
+      "locality": "Steinach",
+      "region": "DE22B",
+      "postalCode": "94377",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "2 LKW mit Kran und Abrollk SM FRG ZWI",
+     "description": "Beabsichtigung der Vergabe von Leistungen:\nStaatliches Bauamt Passau\nLieferung von 2 LKW mit Kran und Abrollkipper für die SMén FRG und ZWI\nOrt der Ausführung: Passau",
+     "contractPeriod": {
+      "startDate": "2027-01-11T00:00:00+01:00",
+      "endDate": "2027-09-10T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "2 LKW mit Kran und Abrollk SM FRG ZWI",
+    "status": "active",
+    "date": "2026-10-09T00:00:00+02:00",
+    "value": {
+     "amount": 803670,
+     "currency": "EUR"
+    },
+    "suppliers": [
+     {
+      "name": "ATLAS-KERN GmbH",
+      "id": "DE185474478",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "ATLAS-KERN GmbH"
+      },
+      "address": {
+       "streetAddress": "Gewerbering 1+3",
+       "locality": "Steinach",
+       "region": "DE22B",
+       "postalCode": "94377",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "2 LKW mit Kran und Abrollk SM FRG ZWI",
+    "status": "active",
+    "value": {
+     "amount": 740300,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "f5062ff6-05cc-4b38-89cd-925b82e9ef5f",
+  "version": "01",
+  "title": "2 LKW mit Kran und Abrollk SM FRG ZWI",
+  "description": "Beabsichtigung der Vergabe von Leistungen:\nStaatliches Bauamt Passau\nLieferung von 2 LKW mit Kran und Abrollkipper für die SMén FRG und ZWI\nOrt der Ausführung: Passau",
+  "procedureType": "open",
+  "nuts": [
+   "DE222"
+  ],
+  "cpv": [
+   "34134000",
+   "34143000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "2 LKW mit Kran und Abrollk SM FRG ZWI",
+    "description": "Beabsichtigung der Vergabe von Leistungen:\nStaatliches Bauamt Passau\nLieferung von 2 LKW mit Kran und Abrollkipper für die SMén FRG und ZWI\nOrt der Ausführung: Passau",
+    "cpv": [
+     "34134000",
+     "34143000"
+    ],
+    "nuts": [
+     "DE222"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-11+01:00",
+    "plannedEnd": "2027-09-10+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

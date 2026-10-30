@@ -1,0 +1,150 @@
+{
+ "id": "25938728-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25938728",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25938728",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25938728-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25938728-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25938728?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Trafostation",
+  "buyer": "Krankenhauszweckverband Bayreuth",
+  "cpv": [
+   "45232221-7",
+   "45317200-4",
+   "31170000-8"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-04T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25938728",
+  "id": "25938728",
+  "date": "2026-10-16T07:01:40Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Krankenhauszweckverband Bayreuth",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Krankenhauszweckverband Bayreuth"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Krankenhauszweckverband Bayreuth",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Krankenhauszweckverband Bayreuth"
+   }
+  },
+  "tender": {
+   "title": "Trafostation",
+   "description": "Trafostation",
+   "procuringEntity": {
+    "name": "Krankenhauszweckverband Bayreuth"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232221-7"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45317200-4"
+      },
+      {
+       "scheme": "CPV",
+       "id": "31170000-8"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "95445 Bayreuth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/3/tenderId/158134",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Trafostation",
+     "description": "Trafostation"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25938728",
+  "version": "1",
+  "title": "Trafostation",
+  "description": "Trafostation",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45232221-7",
+   "45317200-4",
+   "31170000-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Trafostation",
+    "description": "Trafostation",
+    "cpv": [
+     "45232221-7",
+     "45317200-4",
+     "31170000-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-04T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

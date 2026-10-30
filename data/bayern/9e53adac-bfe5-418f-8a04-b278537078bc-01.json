@@ -5,14 +5,14 @@
   "noticeId": "9e53adac-bfe5-418f-8a04-b278537078bc",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9e53adac-bfe5-418f-8a04-b278537078bc",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:9e53adac-bfe5-418f-8a04-b278537078bc-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:9e53adac-bfe5-418f-8a04-b278537078bc-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/9e53adac-bfe5-418f-8a04-b278537078bc?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Stromversorgungsanlagen 70-00002-2780-407 - PR1229638-2780-B",
   "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
   "cpv": [
@@ -166,5 +166,52 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "9e53adac-bfe5-418f-8a04-b278537078bc",
+  "version": "01",
+  "title": "Stromversorgungsanlagen 70-00002-2780-407 - PR1229638-2780-B",
+  "description": "Stromversorgungsanlagen 70-00002-2780-407",
+  "procedureType": "open",
+  "nuts": [
+   "DE803"
+  ],
+  "cpv": [
+   "45315300",
+   "45315500"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Stromversorgungsanlagen 70-00002-2780-407",
+    "description": "Termine zur Durchführung der Hauptleistung auf der Baustelle:\nLeistungsbeginn 08.01.2027; Leistungsende 30.01.2028\n\n* Beschreibung der Beschaffung:\nBeschreibung der Beschaffung: \n1) Übergeordnete Leistungen\n=> Planungsleitungen Werk- und Montageplanung\n=> Übergabe- / Abnahmedokumentation\n=> eigene Baustelleneinrichtung\n   \n2) Schaltanlagen MS, NSHV, GHV\n=> Mittelspannungsschaltanlage (Kundenteil): 3 Felder, 1x Messung, 2x Trafoabgangsfelder mit Leistungsschalter                                                                                                                                                                                                                                                                                                                                 => Transformatoren: 2 Stück zu je 630 kVA \n=> NSHV: 6 Felder, 2x Trafoeinspeisefelder mit Leistungsschalter , 1x Einspeisefeld GHV mit Leistungsschalter, 2x NH Abgangsfelder, 1 xZEP Feld\n=> GHV: 5 Felder, 1x Einspeisefeld GHV mit Leistungsschalter, 4x NH Abgangsfelder,\n   \n3) Betonfertigstation begehbar, ausgestattet mit 1x MS Raum, 2x Trafokammer, 1x NSHV Raum, mit Doppelboden,\n    \n4) Kabel im  Aussenbereich erdverlegt\n=> NYCWY 4x185/95mm²: ca. 380m \n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             6 ) Kabeleerrohranlagen im  Aussenbereich \n=> 2 Stk. Kabelzugschächte ca. 1,m x 1,3m x 1,5m, ca. 300m Leerrohre DN 160 massiv und flexibel                                                                                                                                                                                                                                                                                                                                                                                                             \n 7) Bereitstellung Bereitschaftsdienst für das Betreiben vor VOB Abnahme",
+    "cpv": [
+     "45315300",
+     "45315500"
+    ],
+    "nuts": [
+     "DE803"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-04+01:00",
+    "plannedEnd": "2028-01-30+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

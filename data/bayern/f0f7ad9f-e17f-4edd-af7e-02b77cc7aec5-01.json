@@ -1,0 +1,192 @@
+{
+ "id": "f0f7ad9f-e17f-4edd-af7e-02b77cc7aec5-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "f0f7ad9f-e17f-4edd-af7e-02b77cc7aec5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f0f7ad9f-e17f-4edd-af7e-02b77cc7aec5",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:f0f7ad9f-e17f-4edd-af7e-02b77cc7aec5-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:f0f7ad9f-e17f-4edd-af7e-02b77cc7aec5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f0f7ad9f-e17f-4edd-af7e-02b77cc7aec5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Plasma Ashing System",
+  "buyer": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+  "cpv": [
+   "38000000"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5b0523ad-2b6c-48bf-bea6-5c7a87d9e7ea",
+  "id": "f0f7ad9f-e17f-4edd-af7e-02b77cc7aec5",
+  "date": "2026-10-25T13:46:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811209280",
+     "legalName": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften"
+    },
+    "address": {
+     "streetAddress": "Walther-Meissner-Str. 8",
+     "locality": "Garching",
+     "region": "DE21H",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabestelle Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern - Vergabestelle Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+   "id": "DE811209280",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften"
+   },
+   "address": {
+    "streetAddress": "Walther-Meissner-Str. 8",
+    "locality": "Garching",
+    "region": "DE21H",
+    "postalCode": "85748",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5b0523ad-2b6c-48bf-bea6-5c7a87d9e7ea",
+   "title": "Plasma Ashing System",
+   "description": "The Walther-Meissner-Institute (WMI) will acquire a plasma ashing system for the fabrication of integrated quantum circuits. The system should be capable of ashing and descumming of photo resist on 200 mm wafers with high uniformity. The plasma ashing system shall be turnkey ready, i.e., fully equipped with all necessary components, control electronics, and software. The system shall be ready for automated operation, i.e., the hardware components have to be equipped with appropriate interfaces for computer connection.",
+   "procuringEntity": {
+    "name": "Walther-Meissner-Institut der Bayerischen Akademie der Wissenschaften",
+    "id": "DE811209280"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38000000",
+      "description": "Laboratory, optical and precision equipments (excl. glasses)"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Walther-Meissner-Str. 8",
+      "locality": "Garching",
+      "region": "DE21H",
+      "postalCode": "85748",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Plasma Ashing System",
+     "description": "siehe Leistungsbeschreibung."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "pending",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "f0f7ad9f-e17f-4edd-af7e-02b77cc7aec5",
+  "version": "01",
+  "title": "Plasma Ashing System",
+  "description": "The Walther-Meissner-Institute (WMI) will acquire a plasma ashing system for the fabrication of integrated quantum circuits. The system should be capable of ashing and descumming of photo resist on 200 mm wafers with high uniformity. The plasma ashing system shall be turnkey ready, i.e., fully equipped with all necessary components, control electronics, and software. The system shall be ready for automated operation, i.e., the hardware components have to be equipped with appropriate interfaces for computer connection.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "38000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Plasma Ashing System",
+    "description": "siehe Leistungsbeschreibung.",
+    "cpv": [
+     "38000000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "cost",
+      "name": "Kosten",
+      "description": "Kosten",
+      "weight": 50
+     },
+     {
+      "type": "quality",
+      "name": "Qualität",
+      "description": "Qualität",
+      "weight": 50
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

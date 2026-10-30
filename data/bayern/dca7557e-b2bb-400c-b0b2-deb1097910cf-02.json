@@ -1,0 +1,233 @@
+{
+ "id": "dca7557e-b2bb-400c-b0b2-deb1097910cf-02",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "dca7557e-b2bb-400c-b0b2-deb1097910cf",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=dca7557e-b2bb-400c-b0b2-deb1097910cf",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:dca7557e-b2bb-400c-b0b2-deb1097910cf-02.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:dca7557e-b2bb-400c-b0b2-deb1097910cf-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/dca7557e-b2bb-400c-b0b2-deb1097910cf?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "0039 - Rottal-Inn Kliniken KU Eggenfelden - Neubau OP-/Intensivabteilung - NSHV Anlagen",
+  "buyer": "Rottal-Inn Kliniken KU",
+  "cpv": [
+   "45315700"
+  ],
+  "nuts": [
+   "DE22A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7bc20e92-00f0-47b2-926d-5c0bd3387a0a",
+  "id": "dca7557e-b2bb-400c-b0b2-deb1097910cf",
+  "date": "2026-10-27T03:08:27Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Rottal-Inn Kliniken KU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9722",
+     "legalName": "Rottal-Inn Kliniken KU"
+    },
+    "address": {
+     "streetAddress": "Simonsöder Allee 20",
+     "locality": "Eggenfelden",
+     "region": "DE22A",
+     "postalCode": "84307",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "48837f2a-899f-41e9-9879-f9f249c8a16e",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Brandhuber Elektro GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE815632189",
+     "legalName": "Brandhuber Elektro GmbH"
+    },
+    "address": {
+     "locality": "Neuötting",
+     "region": "DE214",
+     "postalCode": "84524",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Rottal-Inn Kliniken KU",
+   "id": "9722",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Rottal-Inn Kliniken KU"
+   },
+   "address": {
+    "streetAddress": "Simonsöder Allee 20",
+    "locality": "Eggenfelden",
+    "region": "DE22A",
+    "postalCode": "84307",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7bc20e92-00f0-47b2-926d-5c0bd3387a0a",
+   "title": "0039 - Rottal-Inn Kliniken KU Eggenfelden - Neubau OP-/Intensivabteilung - NSHV Anlagen",
+   "description": "0039 - Rottal-Inn Kliniken KU Eggenfelden - Neubau OP- und Intensivabteilung - Niederspannungshauptverteilung",
+   "procuringEntity": {
+    "name": "Rottal-Inn Kliniken KU",
+    "id": "9722"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45315700",
+      "description": "Switching station installation work"
+     },
+     "deliveryAddress": {
+      "region": "DE22A",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Brandhuber Elektro GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Brandhuber Elektro GmbH"
+     },
+     "address": {
+      "locality": "Neuötting",
+      "region": "DE214",
+      "postalCode": "84524",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "0039 - Rottal-Inn Kliniken KU Eggenfelden - Neubau OP-/Intensivabteilung - NSHV Anlagen",
+     "description": "Austausch / Erneuerung der Niederspannungshauptverteilungen:\n1 St Niederspannungshauptverteilung AV\n1 St Niederspannungshauptverteilung SV\n1 St. Energiemanagement System\nca. 60 m² Doppelbodensystem"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-09T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 422982.09,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "dca7557e-b2bb-400c-b0b2-deb1097910cf",
+  "version": "02",
+  "title": "0039 - Rottal-Inn Kliniken KU Eggenfelden - Neubau OP-/Intensivabteilung - NSHV Anlagen",
+  "description": "0039 - Rottal-Inn Kliniken KU Eggenfelden - Neubau OP- und Intensivabteilung - Niederspannungshauptverteilung",
+  "procedureType": "open",
+  "nuts": [
+   "DE22A"
+  ],
+  "cpv": [
+   "45315700"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "0039 - Rottal-Inn Kliniken KU Eggenfelden - Neubau OP-/Intensivabteilung - NSHV Anlagen",
+    "description": "Austausch / Erneuerung der Niederspannungshauptverteilungen:\n1 St Niederspannungshauptverteilung AV\n1 St Niederspannungshauptverteilung SV\n1 St. Energiemanagement System\nca. 60 m² Doppelbodensystem",
+    "cpv": [
+     "45315700"
+    ],
+    "nuts": [
+     "DE22A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preiskriterium",
+      "description": ".",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -163,6 +163,8 @@
   "noticeId": "aec66637-dbd1-4709-884b-1d38110d4ce7",
   "version": "01",
   "title": "Umgestaltung Obstmarkt \nArchäologische Baubegleitung",
+  "description": "Bauvorbereitende und baubegleitende archäologische Untersuchungen für die Baumaßnahmen zur Umgestaltung des Obstmarktes auf einer Fläche von ca. 12.000m². Die Maßnahme umfasst die Erneuerung der Trag- und Deckschichten, Baumpflanzungen, die Anlage eines Brunnens mit unterirdischer Brunnenkammer, den Bau von Rigolen, Filterschächten, Ver- und Entsorgungsleitungen mit einer Eingriffstiefe von bis zu 3m.",
+  "procedureType": "open",
   "nuts": [
    "DE254"
   ],
@@ -174,6 +176,7 @@
    {
     "id": "LOT-0001",
     "title": "Umgestaltung Obstmarkt \nArchäologische Baubegleitung",
+    "description": "Bauvorbereitende und baubegleitende archäologische Untersuchungen für die Baumaßnahmen zur Umgestaltung des Obstmarktes auf einer Fläche von ca. 12.000m². Die Maßnahme umfasst die Erneuerung der Trag- und Deckschichten, Baumpflanzungen, die Anlage eines Brunnens mit unterirdischer Brunnenkammer, den Bau von Rigolen, Filterschächten, Ver- und Entsorgungsleitungen mit einer Eingriffstiefe von bis zu 3m.",
     "cpv": [
      "71351914"
     ],
@@ -184,6 +187,7 @@
     "participationDeadline": null,
     "plannedStart": "2027-02-01+01:00",
     "plannedEnd": "2029-12-31+01:00",
+    "duration": null,
     "estimatedValue": null,
     "smeSuitable": false,
     "selectionCriteria": [
@@ -191,7 +195,19 @@
       "type": "slc-abil-staff-qual",
       "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/subproject/56ee0f3a-ea6c-4c30-abc4-ebb36c445215/suitabilitycriteria"
      }
-    ]
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "siehe Vergabeunterlagen"
+    }
    }
   ]
  }

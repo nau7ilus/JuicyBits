@@ -1,0 +1,135 @@
+{
+ "id": "25973834-1",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "25973834",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25973834",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:25973834-1.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:25973834-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25973834?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed",
+  "buyer": "Phoenics.IT GmbH",
+  "cpv": [
+   "32424000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-04T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25973834",
+  "id": "25973834",
+  "date": "2026-10-27T07:00:34Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Phoenics.IT GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Phoenics.IT GmbH"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Phoenics.IT GmbH",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Phoenics.IT GmbH"
+   }
+  },
+  "tender": {
+   "title": "Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed",
+   "description": "Gegenstand des Vergabeverfahrens ist die Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed\n\nWartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed",
+   "procuringEntity": {
+    "name": "Phoenics.IT GmbH"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32424000",
+      "description": "Network infrastructure"
+     },
+     "deliveryAddress": {
+      "locality": "00000 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/541a1bd3-480d-4169-aa65-a6776cc632de",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed",
+     "description": "Gegenstand des Vergabeverfahrens ist die Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed\n\nWartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25973834",
+  "version": "1",
+  "title": "Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed",
+  "description": "Gegenstand des Vergabeverfahrens ist die Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed\n\nWartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "32424000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed",
+    "description": "Gegenstand des Vergabeverfahrens ist die Wartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed\n\nWartungsverlängerung Steel Central ATXP und AppResponse des Herstellers Riverbed",
+    "cpv": [
+     "32424000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-04T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

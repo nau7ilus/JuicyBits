@@ -9,8 +9,12 @@
     "start": "node --env-file-if-exists=.env start.mjs",
     "worker": "node --env-file-if-exists=.env worker.mjs",
     "api": "node --env-file-if-exists=.env --env-file-if-exists=.local/mps-runtime.env agent-api.mjs",
-    "test": "node --env-file-if-exists=.env --test *.test.mjs data/*.test.mjs",
-    "data:import": "node data/import.mjs"
+    "test": "node --env-file-if-exists=.env --test *.test.mjs data/*.test.mjs tender/*.test.mjs",
+    "data:import": "node data/import.mjs",
+    "scout": "node --env-file-if-exists=.env tender/cli.mjs",
+    "eval": "node --env-file-if-exists=.env tender/eval.mjs",
+    "setup": "node dev/setup.mjs",
+    "try": "node --env-file-if-exists=.env dev/try.mjs"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "3.0.62",

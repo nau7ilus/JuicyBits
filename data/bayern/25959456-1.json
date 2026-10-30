@@ -1,0 +1,147 @@
+{
+ "id": "25959456-1",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "25959456",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25959456",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:25959456-1.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:25959456-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25959456?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Sanierung Förderschnecke VKA Thanners inklusive Trog",
+  "buyer": "Abwasserverband Obere Iller / Geschäftsstelle",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-07-21T11:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25959456",
+  "id": "25959456",
+  "date": "2026-10-22T07:01:45Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Abwasserverband Obere Iller / Geschäftsstelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Abwasserverband Obere Iller / Geschäftsstelle"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Abwasserverband Obere Iller / Geschäftsstelle",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Abwasserverband Obere Iller / Geschäftsstelle"
+   }
+  },
+  "tender": {
+   "title": "Sanierung Förderschnecke VKA Thanners inklusive Trog",
+   "description": "Betonsanierung/ Betonfertigteile, Beschichtungen, Schlosser, Stahlbauarbeiten",
+   "procuringEntity": {
+    "name": "Abwasserverband Obere Iller / Geschäftsstelle"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "87509 Immenstadt",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Sanierung Förderschnecke VKA Thanners inklusive Trog",
+     "description": "Betonsanierung/ Betonfertigteile, Beschichtungen, Schlosser, Stahlbauarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25959456",
+  "version": "1",
+  "title": "Sanierung Förderschnecke VKA Thanners inklusive Trog",
+  "description": "Betonsanierung/ Betonfertigteile, Beschichtungen, Schlosser, Stahlbauarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sanierung Förderschnecke VKA Thanners inklusive Trog",
+    "description": "Betonsanierung/ Betonfertigteile, Beschichtungen, Schlosser, Stahlbauarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-07-21T11:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

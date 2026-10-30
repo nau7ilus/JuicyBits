@@ -1,0 +1,372 @@
+{
+ "id": "fee0769f-015a-4947-8052-6b3299df23f1-01",
+ "source": {
+  "pubDay": "2026-10-27",
+  "noticeId": "fee0769f-015a-4947-8052-6b3299df23f1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fee0769f-015a-4947-8052-6b3299df23f1",
+  "ocdsFile": "notices_2026-10-27_OCDS.zip:fee0769f-015a-4947-8052-6b3299df23f1-01.json",
+  "eformsFile": "notices_2026-10-27_eForms.zip:fee0769f-015a-4947-8052-6b3299df23f1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fee0769f-015a-4947-8052-6b3299df23f1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Kauf von Nutzfahrzeugen (Kastenwagen) für das Drohnenkompetenz- und Abwehrzentrum sowie Sondereinheiten der Bayerischen Polizei",
+  "buyer": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+  "cpv": [
+   "34144700",
+   "34114200",
+   "34100000"
+  ],
+  "nuts": [
+   "DE244",
+   "DE21A"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-10402653-ff45-4c52-a23e-ef0900817fa2",
+  "id": "fee0769f-015a-4947-8052-6b3299df23f1",
+  "date": "2026-10-27T03:08:12Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "dc19e7b8-5d91-47cc-9364-a1b70f255cac",
+     "legalName": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)"
+    },
+    "address": {
+     "streetAddress": "Ernst-Reuter-Straße 119",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Mercedes-Benz AG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "e8b11c4d-54f4-422f-83c1-84fcda00778f",
+     "legalName": "Mercedes-Benz AG"
+    },
+    "address": {
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10243",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+   "id": "dc19e7b8-5d91-47cc-9364-a1b70f255cac",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)"
+   },
+   "address": {
+    "streetAddress": "Ernst-Reuter-Straße 119",
+    "locality": "Hof",
+    "region": "DE244",
+    "postalCode": "95030",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "10402653-ff45-4c52-a23e-ef0900817fa2",
+   "title": "Kauf von Nutzfahrzeugen (Kastenwagen) für das Drohnenkompetenz- und Abwehrzentrum sowie Sondereinheiten der Bayerischen Polizei",
+   "description": "Gegenstand dieser Ausschreibung ist der Kauf von Nutzfahrzeugen für das Drohnenkompetenz- und Abwehrzentrum (DKAZ) sowie verschiedene Sondereinheiten der Bayerischen Polizei.\n\nDer zu vergebende Auftrag ist in drei (3) Lose aufgeteilt:\n•\tLos 1: Nutzfahrzeuge, Transporter, Kastenwagen\n•\tLos 3: leichte Nutzfahrzeuge, Kleintransporter (3.200 kg zGG)\n•\tLos 3: Nutzfahrzeug, Transporter, Kastenwagen mit polizeispezifischen Merkmalen\n\nAlle weiteren Informationen sind den Vergabeunterlagen zu entnehmen. \n",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+    "id": "dc19e7b8-5d91-47cc-9364-a1b70f255cac"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144700",
+      "description": "Utility vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Erding",
+      "region": "DE21A",
+      "postalCode": "85435",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144700",
+      "description": "Utility vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Erding",
+      "region": "DE21A",
+      "postalCode": "85435",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144700",
+      "description": "Utility vehicles"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "34114200",
+       "description": "Police cars"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Erding",
+      "region": "DE21A",
+      "postalCode": "85435",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-19T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Mercedes-Benz AG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Mercedes-Benz AG"
+     },
+     "address": {
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "10243",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Nutzfahrzeuge, Transporter, Kastenwagen",
+     "description": "Bei den Fahrzeugen in Los 1 handelt es sich um Nutzfahrzeuge als Kastenwagen mit verschiedenen Fahrzeuglängen bzw. Radständen, teilweise mit Hochdach, für das Drohnenkompetenz- und Abwehrzentrum der Bayerischen Bereitschaftspolizei sowie verschiedene Sondereinheiten."
+    },
+    {
+     "id": "LOT-0002",
+     "title": "leichte Nutzfahrzeuge, Kleintransporter",
+     "description": "Bei den Fahrzeugen in Los 2 handelt es sich um leichte Nutzfahrzeuge (Kleintransporter mit 3,2 to zGG) mit unterschiedlichen Längen bzw. Radständen für die Polizeiinspektionen der Spezialeinheiten Nord- und Südbayern."
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Nutzfahrzeug, Transporter, Kastenwagen mit polizeispezifischen Merkmalen",
+     "description": "Bei dem Fahrzeug in Los 3 handelt es sich um einen Kastenwagen mit einer Fahrzeuglänge von circa 7,00 m und polizeispezifischen Einbauten."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "unsuccessful",
+    "date": "2026-10-19T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-18T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "fee0769f-015a-4947-8052-6b3299df23f1",
+  "version": "01",
+  "title": "Kauf von Nutzfahrzeugen (Kastenwagen) für das Drohnenkompetenz- und Abwehrzentrum sowie Sondereinheiten der Bayerischen Polizei",
+  "description": "Gegenstand dieser Ausschreibung ist der Kauf von Nutzfahrzeugen für das Drohnenkompetenz- und Abwehrzentrum (DKAZ) sowie verschiedene Sondereinheiten der Bayerischen Polizei.\n\nDer zu vergebende Auftrag ist in drei (3) Lose aufgeteilt:\n•\tLos 1: Nutzfahrzeuge, Transporter, Kastenwagen\n•\tLos 3: leichte Nutzfahrzeuge, Kleintransporter (3.200 kg zGG)\n•\tLos 3: Nutzfahrzeug, Transporter, Kastenwagen mit polizeispezifischen Merkmalen\n\nAlle weiteren Informationen sind den Vergabeunterlagen zu entnehmen.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21A"
+  ],
+  "cpv": [
+   "34144700",
+   "34100000",
+   "34114200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Nutzfahrzeuge, Transporter, Kastenwagen",
+    "description": "Bei den Fahrzeugen in Los 1 handelt es sich um Nutzfahrzeuge als Kastenwagen mit verschiedenen Fahrzeuglängen bzw. Radständen, teilweise mit Hochdach, für das Drohnenkompetenz- und Abwehrzentrum der Bayerischen Bereitschaftspolizei sowie verschiedene Sondereinheiten.",
+    "cpv": [
+     "34144700"
+    ],
+    "nuts": [
+     "DE21A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "leichte Nutzfahrzeuge, Kleintransporter",
+    "description": "Bei den Fahrzeugen in Los 2 handelt es sich um leichte Nutzfahrzeuge (Kleintransporter mit 3,2 to zGG) mit unterschiedlichen Längen bzw. Radständen für die Polizeiinspektionen der Spezialeinheiten Nord- und Südbayern.",
+    "cpv": [
+     "34144700"
+    ],
+    "nuts": [
+     "DE21A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Nutzfahrzeug, Transporter, Kastenwagen mit polizeispezifischen Merkmalen",
+    "description": "Bei dem Fahrzeug in Los 3 handelt es sich um einen Kastenwagen mit einer Fahrzeuglänge von circa 7,00 m und polizeispezifischen Einbauten.",
+    "cpv": [
+     "34144700",
+     "34114200"
+    ],
+    "nuts": [
+     "DE21A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

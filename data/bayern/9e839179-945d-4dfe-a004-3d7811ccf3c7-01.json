@@ -1,0 +1,414 @@
+{
+ "id": "9e839179-945d-4dfe-a004-3d7811ccf3c7-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "9e839179-945d-4dfe-a004-3d7811ccf3c7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9e839179-945d-4dfe-a004-3d7811ccf3c7",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:9e839179-945d-4dfe-a004-3d7811ccf3c7-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:9e839179-945d-4dfe-a004-3d7811ccf3c7-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9e839179-945d-4dfe-a004-3d7811ccf3c7?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "1413 -JR- Mobilfunkendgeräte DBS Kat. 2-DB_EA-20 Los 1-3",
+  "buyer": "BWI GmbH",
+  "cpv": [
+   "32250000"
+  ],
+  "nuts": [
+   "DE212",
+   "DEA13",
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1ec0788c-57bb-4bc2-b924-8653717f911d",
+  "id": "9e839179-945d-4dfe-a004-3d7811ccf3c7",
+  "date": "2026-10-21T02:12:10Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "BWI GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992-80159-61",
+     "legalName": "BWI GmbH"
+    },
+    "address": {
+     "streetAddress": "Dachauer Straße 128",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80637",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes beim Bundeskartellamt",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "Vergabekammer des Bundes",
+     "legalName": "Vergabekammer des Bundes beim Bundeskartellamt"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Brodos AG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 21869507",
+     "legalName": "Brodos AG"
+    },
+    "address": {
+     "streetAddress": "Erlanger Str. 9-13",
+     "locality": "Baiersdorf",
+     "region": "DE257",
+     "postalCode": "91083",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "BWI GmbH",
+   "id": "992-80159-61",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "BWI GmbH"
+   },
+   "address": {
+    "streetAddress": "Dachauer Straße 128",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80637",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1ec0788c-57bb-4bc2-b924-8653717f911d",
+   "title": "1413 -JR- Mobilfunkendgeräte DBS Kat. 2-DB_EA-20 Los 1-3",
+   "description": "1413 EA 20 - Los 1 EKW 2000287345 \n1413 EA 20 - Los 2 EKW 2000287360\n1413 EA 20 - Los 3 EKW 2000287432",
+   "procuringEntity": {
+    "name": "BWI GmbH",
+    "id": "992-80159-61"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32250000",
+      "description": "Mobile telephones"
+     },
+     "deliveryAddress": {
+      "locality": "Essen",
+      "region": "DEA13",
+      "postalCode": "45128",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32250000",
+      "description": "Mobile telephones"
+     },
+     "deliveryAddress": {
+      "locality": "Essen",
+      "region": "DEA13",
+      "postalCode": "45128",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "32250000",
+      "description": "Mobile telephones"
+     },
+     "deliveryAddress": {
+      "locality": "Essen",
+      "region": "DEA13",
+      "postalCode": "45128",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Restricted",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Brodos AG",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Brodos AG"
+     },
+     "address": {
+      "streetAddress": "Erlanger Str. 9-13",
+      "locality": "Baiersdorf",
+      "region": "DE257",
+      "postalCode": "91083",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Gliederungsebene",
+     "description": "Mobilfunkendgeräte Kat.2",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Gliederungsebene",
+     "description": "Mobilfunkendgeräte Kat.2",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Gliederungsebene",
+     "description": "Mobilfunkendgeräte Kat.2",
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "9e839179-945d-4dfe-a004-3d7811ccf3c7",
+  "version": "01",
+  "title": "1413 -JR- Mobilfunkendgeräte DBS Kat. 2-DB_EA-20 Los 1-3",
+  "description": "1413 EA 20 - Los 1 EKW 2000287345 \n1413 EA 20 - Los 2 EKW 2000287360\n1413 EA 20 - Los 3 EKW 2000287432",
+  "procedureType": "restricted",
+  "nuts": [
+   "DE21H",
+   "DEA13"
+  ],
+  "cpv": [
+   "32250000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Gliederungsebene",
+    "description": "Mobilfunkendgeräte Kat.2",
+    "cpv": [
+     "32250000"
+    ],
+    "nuts": [
+     "DEA13"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Nettopreis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Gliederungsebene",
+    "description": "Mobilfunkendgeräte Kat.2",
+    "cpv": [
+     "32250000"
+    ],
+    "nuts": [
+     "DEA13"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Nettopreis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Gliederungsebene",
+    "description": "Mobilfunkendgeräte Kat.2",
+    "cpv": [
+     "32250000"
+    ],
+    "nuts": [
+     "DEA13"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 12,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Nettopreis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

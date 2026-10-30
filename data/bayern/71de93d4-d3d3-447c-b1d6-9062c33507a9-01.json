@@ -1,0 +1,248 @@
+{
+ "id": "71de93d4-d3d3-447c-b1d6-9062c33507a9-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "71de93d4-d3d3-447c-b1d6-9062c33507a9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=71de93d4-d3d3-447c-b1d6-9062c33507a9",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:71de93d4-d3d3-447c-b1d6-9062c33507a9-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:71de93d4-d3d3-447c-b1d6-9062c33507a9-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/71de93d4-d3d3-447c-b1d6-9062c33507a9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "2026-1004851_Flughafen München_Neubau/Umverlegung Regenüberlaufbauwerk R009",
+  "buyer": "Flughafen München GmbH",
+  "cpv": [
+   "45221200",
+   "45232450",
+   "45262212",
+   "45112100",
+   "45262310"
+  ],
+  "nuts": [
+   "DE21B"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0edab869-a0e6-41c9-b370-950adf98612c",
+  "id": "71de93d4-d3d3-447c-b1d6-9062c33507a9",
+  "date": "2026-10-22T02:08:12Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Flughafen München GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129352365",
+     "legalName": "Flughafen München GmbH"
+    },
+    "address": {
+     "streetAddress": "Postfach 23 17 55",
+     "locality": "München",
+     "region": "DE21B",
+     "postalCode": "85326",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Flughafen München GmbH",
+   "id": "DE129352365",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Flughafen München GmbH"
+   },
+   "address": {
+    "streetAddress": "Postfach 23 17 55",
+    "locality": "München",
+    "region": "DE21B",
+    "postalCode": "85326",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0edab869-a0e6-41c9-b370-950adf98612c",
+   "title": "2026-1004851_Flughafen München_Neubau/Umverlegung Regenüberlaufbauwerk R009",
+   "description": "Die Flughafen München GmbH plant im südlichen Bereich der zentralen Zone den Neubau eines Mobilitätszentrums. Im Rahmen der Baufeldfreimachung müssen das Regenüberlaufbauwerk R009 inkl. der Zulaufkanal mit dem Durchmesser DN 1900 und der Ablaufkanal mit dem Durchmesser DN 2000 umverlegt bzw. neu gebaut werden. Gegenstand dieser Arbeiten sind Ingenieurbau-, Spezialtiefbau-, Straßenbau- u. Rückbauarbeiten.",
+   "procuringEntity": {
+    "name": "Flughafen München GmbH",
+    "id": "DE129352365"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45221200",
+      "description": "Construction work for tunnels, shafts and subways"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45232450",
+       "description": "Drainage construction works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45262212",
+       "description": "Trench sheeting work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45112100",
+       "description": "Trench-digging work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45262310",
+       "description": "Reinforced-concrete work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Postfach 23 17 55",
+      "locality": "München",
+      "region": "DE21B",
+      "postalCode": "85326",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "2026-1004851_Flughafen München_Neubau/Umverlegung Regenüberlaufbauwerk R009",
+     "description": "Gegenstand der Beschaffung sind Ingenieurbau-, Spezialtiefbau-, Straßenbau- u. Rückbauarbeiten für den Neubau bzw. die Umverlegung eines Regenüberlaufbauwerks inkl. Zulaufkanal als Baufeldfreimachungsmaßnahme für das Projekt Neubau Mobilitätszentrum; Verkehrssicherung dreistreifige Straße innerorts; Baugruben- bzw. Rohrgrabenaushub bis 8,5 m Tiefe herstellen (ca. 2.400 m3); Stahlspundwandkasten mit Aussteifungen und Schlossdichtung, inkl. Wasserhaltung herstellen (ca. 3655 m2); Baugrubenabdichtung mit Düsenstrahlverfahren herstellen (ca. 810 m3); Regenüberlaufbauwerk aus Stahlbeton herstellen (ca. 115 m3, Außenmaße LxBxH ca. 12,0x4,8x4,8 m); Haltestangen aus Edelstahl herstellen (ca. 18 m); Stahlbetonrohre DN 1900 inkl. Sonderbauteile verlegen (ca. 81 m); Stahlbetonrohre DN 2000 inkl. Sonderbauteile verlegen (ca. 8 m); Behelfsumfahrung aus Asphalt zweilagig herstellen (ca. 180 m2); Fahrbahn aus Asphalt und hydr. geb. Tragschicht vierlagig wiederherstellen (ca. 220 m2); Regenüberlaufbauwerk Bestand aus Stahlbeton zurückbauen (ca. 160 m3, LxBxH ca. 17,0x5,0x4,6 m).",
+     "contractPeriod": {
+      "startDate": "2026-07-13T00:00:00+02:00",
+      "endDate": "2027-05-21T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "189573-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "189573-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "71de93d4-d3d3-447c-b1d6-9062c33507a9",
+  "version": "01",
+  "title": "2026-1004851_Flughafen München_Neubau/Umverlegung Regenüberlaufbauwerk R009",
+  "description": "Die Flughafen München GmbH plant im südlichen Bereich der zentralen Zone den Neubau eines Mobilitätszentrums. Im Rahmen der Baufeldfreimachung müssen das Regenüberlaufbauwerk R009 inkl. der Zulaufkanal mit dem Durchmesser DN 1900 und der Ablaufkanal mit dem Durchmesser DN 2000 umverlegt bzw. neu gebaut werden. Gegenstand dieser Arbeiten sind Ingenieurbau-, Spezialtiefbau-, Straßenbau- u. Rückbauarbeiten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21B"
+  ],
+  "cpv": [
+   "45221200",
+   "45232450",
+   "45262212",
+   "45112100",
+   "45262310"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "2026-1004851_Flughafen München_Neubau/Umverlegung Regenüberlaufbauwerk R009",
+    "description": "Gegenstand der Beschaffung sind Ingenieurbau-, Spezialtiefbau-, Straßenbau- u. Rückbauarbeiten für den Neubau bzw. die Umverlegung eines Regenüberlaufbauwerks inkl. Zulaufkanal als Baufeldfreimachungsmaßnahme für das Projekt Neubau Mobilitätszentrum; Verkehrssicherung dreistreifige Straße innerorts; Baugruben- bzw. Rohrgrabenaushub bis 8,5 m Tiefe herstellen (ca. 2.400 m3); Stahlspundwandkasten mit Aussteifungen und Schlossdichtung, inkl. Wasserhaltung herstellen (ca. 3655 m2); Baugrubenabdichtung mit Düsenstrahlverfahren herstellen (ca. 810 m3); Regenüberlaufbauwerk aus Stahlbeton herstellen (ca. 115 m3, Außenmaße LxBxH ca. 12,0x4,8x4,8 m); Haltestangen aus Edelstahl herstellen (ca. 18 m); Stahlbetonrohre DN 1900 inkl. Sonderbauteile verlegen (ca. 81 m); Stahlbetonrohre DN 2000 inkl. Sonderbauteile verlegen (ca. 8 m); Behelfsumfahrung aus Asphalt zweilagig herstellen (ca. 180 m2); Fahrbahn aus Asphalt und hydr. geb. Tragschicht vierlagig wiederherstellen (ca. 220 m2); Regenüberlaufbauwerk Bestand aus Stahlbeton zurückbauen (ca. 160 m3, LxBxH ca. 17,0x5,0x4,6 m).",
+    "cpv": [
+     "45221200",
+     "45232450",
+     "45262212",
+     "45112100",
+     "45262310"
+    ],
+    "nuts": [
+     "DE21B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-07-13+02:00",
+    "plannedEnd": "2027-05-21+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": null,
+      "name": null,
+      "description": null,
+      "weight": null
+     },
+     {
+      "type": null,
+      "name": null,
+      "description": null,
+      "weight": null
+     },
+     {
+      "type": null,
+      "name": null,
+      "description": null,
+      "weight": null
+     },
+     {
+      "type": null,
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

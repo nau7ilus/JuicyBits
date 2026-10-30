@@ -1,0 +1,228 @@
+{
+ "id": "468f0a54-8933-4ee6-9701-4a7d913fe72f-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "468f0a54-8933-4ee6-9701-4a7d913fe72f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=468f0a54-8933-4ee6-9701-4a7d913fe72f",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:468f0a54-8933-4ee6-9701-4a7d913fe72f-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:468f0a54-8933-4ee6-9701-4a7d913fe72f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/468f0a54-8933-4ee6-9701-4a7d913fe72f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Stufe 1: Vergabeverfahren Museumsmanagementsystem der Staatlichen Museumsagentur Bayern",
+  "buyer": "Staatliche Museumsagentur Bayern",
+  "cpv": [
+   "48610000",
+   "72263000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ec9ac150-5da4-4043-bc25-1c5b67c72d7f",
+  "id": "468f0a54-8933-4ee6-9701-4a7d913fe72f",
+  "date": "2026-10-18T12:44:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliche Museumsagentur Bayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10542",
+     "legalName": "Staatliche Museumsagentur Bayern"
+    },
+    "address": {
+     "streetAddress": "Landshuter Allee 8",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80637",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "106ccc18-356a-4c58-828c-d7f8e51ba6e5",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximiliansstraße 39",
+     "locality": "München",
+     "region": "DE21H",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliche Museumsagentur Bayern",
+   "id": "10542",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliche Museumsagentur Bayern"
+   },
+   "address": {
+    "streetAddress": "Landshuter Allee 8",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80637",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ec9ac150-5da4-4043-bc25-1c5b67c72d7f",
+   "title": "Stufe 1: Vergabeverfahren Museumsmanagementsystem der Staatlichen Museumsagentur Bayern",
+   "description": "Beschaffung eines zentralen Museumsmanagementsystems (MMS) als SaaS-Lösung für die Staatlichen Museen und Sammlungen in Bayern",
+   "procuringEntity": {
+    "name": "Staatliche Museumsagentur Bayern",
+    "id": "10542"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48610000",
+      "description": "Database systems"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/ec9ac150-5da4-4043-bc25-1c5b67c72d7f",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Stufe 1: Vergabeverfahren Museumsmanagementsystem der Staatlichen Museumsagentur Bayern",
+     "description": "Bereitstellung eines webbasierten Museumsmanagementsystems einschließlich Feinkonzeption, Einrichtung, schrittweiser Datenmigration für alle Museen und Sammlungen (sechs Migrationsblöcke bis Ende 2029), Dokumentation, Schulung (Train-the-Trainer) sowie laufendem Support (Hotline, Ticketsystem, SLA mit 99,0 % Verfügbarkeit).  Das System muss insbesondere Funktionalitäten für Sammlungsmanagement, Medienverknüpfung, Leihverkehr, Ausstellungs- und Transportplanung, Restaurierungsdokumentation, Provenienzforschung und Online-Präsentation abdecken.",
+     "contractPeriod": {
+      "durationInDays": 1800
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "468f0a54-8933-4ee6-9701-4a7d913fe72f",
+  "version": "01",
+  "title": "Stufe 1: Vergabeverfahren Museumsmanagementsystem der Staatlichen Museumsagentur Bayern",
+  "description": "Beschaffung eines zentralen Museumsmanagementsystems (MMS) als SaaS-Lösung für die Staatlichen Museen und Sammlungen in Bayern",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "48610000",
+   "72263000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Stufe 1: Vergabeverfahren Museumsmanagementsystem der Staatlichen Museumsagentur Bayern",
+    "description": "Bereitstellung eines webbasierten Museumsmanagementsystems einschließlich Feinkonzeption, Einrichtung, schrittweiser Datenmigration für alle Museen und Sammlungen (sechs Migrationsblöcke bis Ende 2029), Dokumentation, Schulung (Train-the-Trainer) sowie laufendem Support (Hotline, Ticketsystem, SLA mit 99,0 % Verfügbarkeit).  Das System muss insbesondere Funktionalitäten für Sammlungsmanagement, Medienverknüpfung, Leihverkehr, Ausstellungs- und Transportplanung, Restaurierungsdokumentation, Provenienzforschung und Online-Präsentation abdecken.",
+    "cpv": [
+     "48610000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-02T10:00:00+02:00",
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 60,
+     "unit": "MONTH"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Auf vorgegebenen Formblättern mind. drei Referenzen , die nach Art der Aufgabenstellung sowie nach Umfang und Komplexität mit der zu vergebenden Leistung vergleichbar sind. Ein Referenzprojekt ist mit dem ausgeschriebenen Auftragsgegenstand vergleichbar, wenn der Referenzauftrag die Bereitstellung und Implementierung eines Museumsmanagementsystems oder einer vergleichbaren Softwarelösung für Sammlungsmanagement für Gegenstände von künstlerischem Wert umfasste und im Rahmen dessen eine Migration aus einem Bestandssystem durchgeführt wurde. Sofern sich die Vergleichbarkeit nicht bereits aus der Bezeichnung des Auftraggebers und des Auftrages ergibt, muss dies unter „Angaben zur Vergleichbarkeit“ erläutert werden. Für weitere Referenzen kann die Vorlage elektronisch kopiert und als ergänzende Seiten in das WORD-Dokument eingefügt werden (bitte Nummerierung entsprechend eintragen). Berücksichtigt werden können auch Projekte, die Schlüsselpersonen in leitender Stellung in einer früheren Tätigkeit erbracht haben. Der Bewerber erklärt sich durch Angabe der Referenzen mit einer Nachfrage des Auftraggebers bei den jeweiligen Referenzauftraggebern, ohne seine gesonderte vorherige Zustimmung, einverstanden. Die Referenzen müssen in den letzten fünf Jahren, also zurückgehend bis zum 1. Januar 2021, abgeschlossen worden sein. \tDie Installation des Museumsmanagementsystems muss seit mindestens sechs Monaten erfolgreich, also ohne wesentliche Beanstandungen, erfolgt sein. Die Leistung muss vollständig oder zumindest in wesentlichen Teilen abgenommen worden sein; eine Referenz gilt insoweit als in wesentlichen Teilen abgeschlossen, wenn das implementierte Museumsmanagementsystem seit mindestens sechs Monaten erfolgreich im Einsatz ist. Die Wartung des Systems muss im selben Zeitraum ohne wesentliche Beanstandungen erbracht worden sein. Mindestens eine der Referenzen muss eine erfolgreiche Migration aus einem Bestandssystem in die angebotene Lösung umfassen. Mindestens eine der Referenzen muss eine erfolgreiche Umsetzung eines Projektes zur Objektverwaltung im Museumsumfeld mit den Funktionalitäten Sammlungsmanagement, Medienverknüpfung, Leihverkehr, Ausstellungsmanagement, Restaurierungsdokumentation, Provenienz/Objektgeschichte und Normdatenverwaltung beinhalten. Mindestens eine der Referenzen muss den in Ziff. VI benannten Projektleiter umfassen, der die angebotene Lösung mit einer Nutzeranzahl von mindestens 100 erfolgreich umgesetzt hat. Mindestens eine der Referenzen muss mindestens 10 Kunden in GLAM-Institutionen (Galleries, Libraries, Archives, Museums) zählen, die der Bewerber in den letzten fünf Jahren betreut hat. Außerdem Angabe mindestens einer Referenz, die mindestens seit dem 1. Januar 2024, eine Marktpräsenz im Bereich IT-Dienstleistungen nachweist, sowie Erfahrung im Bereich Museumsmanagement nachweist."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Umsatz der letzten drei Geschäftsjahre 2023-2025 gesamt (netto, ohne Umsatzsteuer, nur Bewerber allein, nicht Konzern/verbundene Unternehmen) und Angaben zur Dauer des Geschäftsjahres (falls nicht mit Kalenderjahr identisch), für das die vorstehenden Angaben gemacht wurden, sowie zum Beginn der Geschäftstätigkeit (bei Aufnahme der Geschäftstätigkeit nach 2023); Verpflichtung, auf Anforderung des Auftraggebers unverzüglich Bilanzen/Bilanzauszüge für die beiden letzten Geschäftsjahre vorzulegen, falls deren Veröffentlichung nach dem Gesellschaftsrecht des Staates, in dem der Bewerber ansässig ist, vorgeschrieben ist."
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Umsatz der letzten drei Geschäftsjahre 2023 - 2025 mit vergleichbaren Aufträgen, d.h. Bereitstellung, Implementierung und Betrieb eines Museumsmanagementsystems (netto, ohne Umsatzsteuer, nur Bewerber allein, nicht Konzern/verbundene Unternehmen) und Angaben zur Dauer des jeweiligen Geschäftsjahres (falls nicht mit Kalenderjahr identisch), für das die vorstehenden Angaben gemacht wurden, sowie zum Beginn der Geschäftstätigkeit (bei Aufnahme der Geschäftstätigkeit nach 2023); Verpflichtung, auf Aufforderung des Auftraggebers unverzüglich Bilanzen/Bilanzauszüge für die letzten beiden Geschäftsjahre vorzulegen, falls deren Veröffentlichung nach dem Gesellschaftsrecht des Staats, in dem der Bewerber ansässig ist vorgeschrieben ist."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Angabe zur Anzahl der Beschäftigten gesamt und, Anzahl der Beschäftigten, die mit vergleichbaren Aufträgen, d.h. Bereitstellung, Implementierung und Betrieb eines Museumsmanagementsystems, befasst sind, in den letzten drei Geschäftsjahren 2023-2025."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Bewerber bzw. jedes Mitglied der Bewerbergemeinschaft erklärt, dass er/es nicht zu einer Eintragung in einem Berufs- oder Handelsregister verpflichtet ist oder darin eingetragen ist, Angabe von Nr/Register."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Erklärung über eine gültige Haftpflichtversicherung, wonach der Bewerber bzw. alle Mitglieder der Bewerbergemeinschaft sowie UNA für Vermögensschäden, Personen- und Sachschäden jeweils in angemessener Höhe – mindestens aber in Höhe von EUR 2.000.000 jeweils für Sach- und Personenschäden und EUR 1.500.000 für Vermögensschäden, mindestens zweifach maximiert im Versicherungsfall – versichert ist/ sind ODER hiermit verbindlich zusichert, dass er/sie im Falle der Beauftragung eine entsprechende Erhöhung der genannten Haftungssummen bzw. der Abschluss einer entsprechenden Versicherung vornimmt/vornehmen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Benennung der Umsatzsteueridentifikationsnummer des Bewerbers bzw. des Mitglieds der Bewerbergemeinschaft."
+     },
+     {
+      "type": "slc-abil-subc",
+      "description": "Erklärung zu Unterauftragnehmern (UAN)/anderen Dritten u Einreichung entsprechend Erklärung u ggf. Nachweise, wonach Bewerber erklärt, dass er sich hinsichtlich seiner Eignung für dieses Projekts auf Kenntnisse, Fähigkeiten, Ressourcen oder andere Mittel Dritter beruft. Auf Verlangen der Vergabestelle hat der Bewerber unverzüglich Namen/Adressen der Unternehmen, deren Fähigkeiten er sich im Auftragsfall bedient zu benennen, die Verpflichtungserklärung für wesentliche Teilleistungen auf der Vorlage des Formblatts Verpflichtungserklärung des Dritten dazu vorlegen, dass ihm die erforderlichen Mittel dieser Unternehmen zur Verfügung stehen, u für Unternehmen, die nach ihrem Umfang u/o ihrer Bedeutung wesentlich Leistungsteile erbringen sollen, entsprechend Erklärung u auf Anforderung Nachweise zur Eignung, wie sie in den Vergabeunterlagen gefordert sind und Referenzen der Unternehmen, für die sich Bewerber auf Eignung eines anderen Unternehmens beruft, übermittelt. Hierzu ist Beschreibung der Teilleistung sowie Name u Adresse des Dritte u Art u Weise der Einbindung des Dritten (z. B. UAN) erforderlich."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Angabe zu Art. 5k Abs. 1 der Verordnung (EU) Nr. 833/2014 in der Fassung des Art. 1 Ziff. 23 der Verordnung (EU) 2022/576 des Rates vom 8. April 2022; Angabe, dass keine Interessenkollision; Angabe zur Vertraulichkeit. Scientology-Schutzerklärung."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Vorlage des Profils des für den Auftrag vorgesehenen verantwortlichen Ansprechpartners (Projektleiter) mit Angaben zur Qualifikation und Erfahrung sowie aktueller Lebenslauf. Der vom Bewerber namentlich benannte Projektleiter verfügt über mindestens dreijährige einschlägige Berufserfahrung, insbesondere in der Einführung und Migration von Datenbank- bzw. Informationssystemen im GLAM-/Museumsumfeld, einschließlich der Lösung migrationsbedingter Problemfälle, sowie über die Beherrschung der deutschen Sprache auf dem Niveau B2 oder C 1. \nVorlage des Profils des für den Auftrag vorgesehenen stellvertretenden Ansprechpartners mit Angaben zur Qualifikation und Erfahrung sowie aktueller Lebenslauf. Der vom Bewerber namentlich benannte stellvertretende Ansprechpartner verfügt über mindestens dreijährige einschlägige Berufserfahrung, insbesondere in der Einführung und Migration von Datenbank- bzw. Informationssystemen im GLAM-/Museumsumfeld, einschließlich der Lösung migrationsbedingter Problemfälle, sowie über die Beherrschung der deutschen Sprache auf dem Niveau B2 oder C 1."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Die nachfolgend genannten Kriterien dienen ausschließlich der Auswahl unter den als geeignet festgestellten Bewerbern. Die Punktwerte der bis zu fünf Referenzen mit den höchsten Punktwerten je Bewer-ber/Bewerbergemeinschaft werden aufaddiert, so dass sich eine Gesamtpunktzahl für den Bewerber/die Bewerbergemeinschaft ergibt. \nEs werden daher maximal fünf Referenzen berücksichtigt. \nBei weniger als fünf vollständig ausgefüllten Referenzen werden nur die eingereichten Referenzen berücksichtigt.\nUnrichtige Angaben zu einem Referenzprojekt können zum Ausschluss des Bewer-bers vom Verfahren führen. Eine Korrektur der Angaben des/der Bewerber(s) durch den Auftraggeber ist nach Aufklärung möglich, der Auftraggeber ist jedoch nicht zu Aufklärung oder Einräumung einer Gelegenheit zur Nachreichung verpflichtet.\n\n1. Referenzgeber ist ein öffentlicher Auftraggeber: 1 Punkt\n2. Gegenstand der Referenz ist die Bereitstellung und Implementierung eines Museumsmanagementsystems oder einer vergleichbaren Softwarelösung für Sammlungsmanagement in einer GLAM (Galleries, Libraries, Archives, Museums) -Institution: 1 Punkt\n3. Erfolgreiche Umsetzung der angebotenen Lösung mit einer Nutzeranzahl von mindestens 100 registrierten Nutzern: 1 Punkt\n4. Die Referenz umfasst ein Projekt zur Objektverwaltung im Museumsumfeld mit den Funktionalitäten Sammlungsmanagement, Medienverknüpfung, Leihverkehr, Ausstellungsmanagement, Restaurierungsdokumentation, Provenienz/Objektgeschichte und Normdatenverwaltung: 3 Punkte\n5. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus dem MuseumPlus-System in die angebotene Lösung: 2 Punkte\n6. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus dem BeeCollect-System in die angebotene Lösung: 2 Punkte\n7. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus dem ArchaeoBook-System in die angebotene Lösung: 2 Punkte\n8. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus dem APS-System in die angebotene Lösung: 2 Punkte\n9. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus dem Filemaker -System in die angebotene Lösung: 2 Punkte\n10. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus dem Online-Sammlung -System in die angebotene Lösung: 2 Punkte\n11. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus dem Axiell -System in die angebotene Lösung: 2 Punkte\n12. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus dem CollectiveAccess -System in die angebotene Lösung: 2 Punkte\n13. Die Referenz beinhaltet eine erfolgreiche Datenübernahme (Migration) aus einem anderen Drittsystem in die angebotene Lösung: 1 Punkt\n14. Die Bereitstellung und Implementierung sind an einem Standort innerhalb der Europäischen Union, des Europäischen Wirtschaftsraums, der Schweiz oder des Vereinigten Königreichs erfolgt: 1 Punkt\n15. Das implementierte Museumsmanagementsystem wird seit mindestens sechs Monaten erfolgreich und ohne wesentliche Beanstandungen betrieben: 1 Punkt\n16. Die Wartung des Systems wird seit mindestens sechs Monaten ohne wesentliche Beanstandungen erbracht: 1 Punkt\n17: Anzahl der Referenzen für Bereitstellung und Implementierung eines Museumsmanagementsystems oder einer vergleichbaren Softwarelö-sung, die die Mindestanforderungen erfüllen: \n-\t3 Referenzen: 3 Punkte\n-\t4 Referenzen: 4 Punkte\n-\t5 Referenzen: 5 Punkte\t\n18. Anzahl der Referenzen für erfolgreiche Migrationen aus Bestandssyste-men, die die Mindestanforderungen erfüllen: \n-\t3 Referenzen: 3 Punkte\n-\t4 Referenzen: 4 Punkte \n-\t5 Referenzen: 5 Punkte"
+     }
+    ],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

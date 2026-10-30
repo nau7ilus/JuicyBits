@@ -1,0 +1,224 @@
+{
+ "id": "83887151-b738-4e33-b004-97211e036208-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "83887151-b738-4e33-b004-97211e036208",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=83887151-b738-4e33-b004-97211e036208",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:83887151-b738-4e33-b004-97211e036208-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:83887151-b738-4e33-b004-97211e036208-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/83887151-b738-4e33-b004-97211e036208?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Energetische Sanierung und barrierefreier Umbau Rathaus Meitingen\nAbbruch HLS",
+  "buyer": "Markt Meitingen Vergabestelle",
+  "cpv": [
+   "45000000"
+  ],
+  "nuts": [
+   "DE276"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-efa44906-25fa-4a2b-abc4-8a5cd769765e",
+  "id": "83887151-b738-4e33-b004-97211e036208",
+  "date": "2026-10-20T10:04:55Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Meitingen Vergabestelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "08271819943",
+     "legalName": "Markt Meitingen Vergabestelle"
+    },
+    "address": {
+     "locality": "Meitingen",
+     "region": "DE276",
+     "postalCode": "86405",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "KS-Abbruch GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "071139085159",
+     "legalName": "KS-Abbruch GmbH"
+    },
+    "address": {
+     "streetAddress": "Silvanerstr. 2",
+     "locality": "Esslingen am Neckar",
+     "region": "DE113",
+     "postalCode": "73733",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Meitingen Vergabestelle",
+   "id": "08271819943",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Meitingen Vergabestelle"
+   },
+   "address": {
+    "locality": "Meitingen",
+    "region": "DE276",
+    "postalCode": "86405",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "efa44906-25fa-4a2b-abc4-8a5cd769765e",
+   "title": "Energetische Sanierung und barrierefreier Umbau Rathaus Meitingen\nAbbruch HLS",
+   "description": "Es wird ein Rathaus in Meitingen, Baujahr 1980 saniert. Die Sanierung arbeiten beinhalten die Fassade, das Dach, sowie die technische Gebäudeausrüstung. Erhaltenswerte Bauteile bleiben bestehen. Die Bibliothek wird zu Büroräumen umgebaut. Die ehemalige Hausmeisterwohnung wird nicht saniert, da diese3 bereits modernisiert wurde. Die Räume werden an das Heizungs- und Sanitärsystem eingebunden.",
+   "procuringEntity": {
+    "name": "Markt Meitingen Vergabestelle",
+    "id": "08271819943"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "deliveryAddress": {
+      "region": "DE276",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2025-03-25T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "KS-Abbruch GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "KS-Abbruch GmbH"
+     },
+     "address": {
+      "streetAddress": "Silvanerstr. 2",
+      "locality": "Esslingen am Neckar",
+      "region": "DE113",
+      "postalCode": "73733",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Energetische Sanierung und barrierefreier Umbau Rathaus Meitingen. \nAbbruch HLS",
+     "description": "Es wird ein Rathaus in Meitingen, Baujahr 1980 saniert. Die Sanierung arbeiten beinhalten die Fassade, das Dach, sowie die technische Gebäudeausrüstung. Erhaltenswerte Bauteile bleiben bestehen. Die Bibliothek wird zu Büroräumen umgebaut. Die ehemalige Hausmeisterwohnung wird nicht saniert, da diese3 bereits modernisiert wurde. Die Räume werden an das Heizungs- und Sanitärsystem eingebunden.",
+     "contractPeriod": {
+      "startDate": "2025-01-22T00:00:00+01:00",
+      "endDate": "2025-04-18T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2025-03-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2025-03-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "83887151-b738-4e33-b004-97211e036208",
+  "version": "01",
+  "title": "Energetische Sanierung und barrierefreier Umbau Rathaus Meitingen\nAbbruch HLS",
+  "description": "Es wird ein Rathaus in Meitingen, Baujahr 1980 saniert. Die Sanierung arbeiten beinhalten die Fassade, das Dach, sowie die technische Gebäudeausrüstung. Erhaltenswerte Bauteile bleiben bestehen. Die Bibliothek wird zu Büroräumen umgebaut. Die ehemalige Hausmeisterwohnung wird nicht saniert, da diese3 bereits modernisiert wurde. Die Räume werden an das Heizungs- und Sanitärsystem eingebunden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE276"
+  ],
+  "cpv": [
+   "45000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Energetische Sanierung und barrierefreier Umbau Rathaus Meitingen. \nAbbruch HLS",
+    "description": "Es wird ein Rathaus in Meitingen, Baujahr 1980 saniert. Die Sanierung arbeiten beinhalten die Fassade, das Dach, sowie die technische Gebäudeausrüstung. Erhaltenswerte Bauteile bleiben bestehen. Die Bibliothek wird zu Büroräumen umgebaut. Die ehemalige Hausmeisterwohnung wird nicht saniert, da diese3 bereits modernisiert wurde. Die Räume werden an das Heizungs- und Sanitärsystem eingebunden.",
+    "cpv": [
+     "45000000"
+    ],
+    "nuts": [
+     "DE276"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-01-22+01:00",
+    "plannedEnd": "2025-04-18+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "-",
+      "description": "Der niedrigste Preis erhält den Zuschlag.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

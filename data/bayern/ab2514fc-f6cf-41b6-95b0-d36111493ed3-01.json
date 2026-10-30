@@ -1,0 +1,237 @@
+{
+ "id": "ab2514fc-f6cf-41b6-95b0-d36111493ed3-01",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "ab2514fc-f6cf-41b6-95b0-d36111493ed3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ab2514fc-f6cf-41b6-95b0-d36111493ed3",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:ab2514fc-f6cf-41b6-95b0-d36111493ed3-01.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:ab2514fc-f6cf-41b6-95b0-d36111493ed3-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ab2514fc-f6cf-41b6-95b0-d36111493ed3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Naturschutzfachkartierung im Landkreis Weilheim-Schongau",
+  "buyer": "Bayerisches Landesamt für Umwelt",
+  "cpv": [
+   "71222200"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-11-20T12:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f8411a0e-ea66-438a-b7d9-17feec17d623",
+  "id": "ab2514fc-f6cf-41b6-95b0-d36111493ed3",
+  "date": "2026-10-21T02:08:45Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerisches Landesamt für Umwelt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63",
+     "legalName": "Bayerisches Landesamt für Umwelt"
+    },
+    "address": {
+     "streetAddress": "Bürgermeister-Ulrich Str. 160",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86179",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Umwelt (Hof)",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "16171123-8fff-438a-be14-5d81ae12bd4d",
+     "legalName": "Bayerisches Landesamt für Umwelt (Hof)"
+    },
+    "address": {
+     "streetAddress": "Hans-Högn-Straße 12",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerisches Landesamt für Umwelt",
+   "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerisches Landesamt für Umwelt"
+   },
+   "address": {
+    "streetAddress": "Bürgermeister-Ulrich Str. 160",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86179",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f8411a0e-ea66-438a-b7d9-17feec17d623",
+   "title": "Naturschutzfachkartierung im Landkreis Weilheim-Schongau",
+   "description": "Der Auftrag umfasst die Kartierung von ausgesuchten Arten der Artengruppen Reptilien, Amphibien, Libellen, Tagfaltern und Widderchen sowie Heuschrecken auf ausgewählten Flächen (Vorauswahl teilweise erfolgt) im Landkreis Weilheim-Schongau, die Abgrenzung der Lebensräume von Artengemeinschaften sowie die technische und textliche Aufarbeitung der Ergebnisse. ",
+   "procuringEntity": {
+    "name": "Bayerisches Landesamt für Umwelt",
+    "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71222200",
+      "description": "Rural areas mapping services"
+     },
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86179",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/91da5f1a-edcf-423b-8b48-2e85bc31c093",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Naturschutzfachkartierung im Landkreis Weilheim-Schongau",
+     "description": "Der Auftrag umfasst die Kartierung von ausgesuchten Arten der Artengruppen Reptilien, Amphibien, Libellen, Tagfaltern und Widderchen sowie Heuschrecken auf ausgewählten Flächen (Vorauswahl teilweise erfolgt) im Landkreis Weilheim-Schongau, die Abgrenzung der Lebensräume von Artengemeinschaften sowie die technische und textliche Aufarbeitung der Ergebnisse. ",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2029-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ab2514fc-f6cf-41b6-95b0-d36111493ed3",
+  "version": "01",
+  "title": "Naturschutzfachkartierung im Landkreis Weilheim-Schongau",
+  "description": "Der Auftrag umfasst die Kartierung von ausgesuchten Arten der Artengruppen Reptilien, Amphibien, Libellen, Tagfaltern und Widderchen sowie Heuschrecken auf ausgewählten Flächen (Vorauswahl teilweise erfolgt) im Landkreis Weilheim-Schongau, die Abgrenzung der Lebensräume von Artengemeinschaften sowie die technische und textliche Aufarbeitung der Ergebnisse.",
+  "procedureType": "open",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "71222200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Naturschutzfachkartierung im Landkreis Weilheim-Schongau",
+    "description": "Der Auftrag umfasst die Kartierung von ausgesuchten Arten der Artengruppen Reptilien, Amphibien, Libellen, Tagfaltern und Widderchen sowie Heuschrecken auf ausgewählten Flächen (Vorauswahl teilweise erfolgt) im Landkreis Weilheim-Schongau, die Abgrenzung der Lebensräume von Artengemeinschaften sowie die technische und textliche Aufarbeitung der Ergebnisse.",
+    "cpv": [
+     "71222200"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-20T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2029-06-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Benennung eines Projektteams und Personaleinatz für Geländearbeit (Kartierer) über das Formblatt Personaleinsatzplan."
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Benennung mindestens zweier Bearbeiterinnen / Bearbeiter für die Insektengruppen (Tagfalter, Heuschrecken und Libellen werden gesamt betrachtet).\nDer Bearbeitungsanteil eines Bearbeiters darf für die drei Artgruppen insgesamt 80 % nicht übersteigen. Die Bearbeitung der restlichen Anteile muss durch einen oder mehrere weitere Personen gewährleistet werden."
+     },
+     {
+      "type": "slc-abil-staff-yrly-no-mgmt",
+      "description": "Ein Projektleiter-/in, der dem LfU als Hauptansprechpartner dient, sowie ein stellvertretender Projektleiter/-in müssen benannt und die jeweilige Eignung über die Vorlage einer entsprechenden Referenz nachgewiesen werden.\nJe eine aussagekräftige Referenz ist ausreichend. Die Referenz gilt als aussagekräftig, wenn sie die Erfahrungen des Projektleiters/-in bzw. stellvertretenden Projektleiters-/in in folgenden Punkten überzeugend belegt: Erfahrung in der Organisation und Koordination eines Projektes mit naturschutzfachlichem Inhalt (Kartierungsarbeiten oder Umsetzungsmaßnahmen); hauptverantwortliche Durchführung; gute Zusammenarbeit mit Behörden und ggf. weiteren Organisationen (z. B. Verbänden); erfolgreicher Abschluss des Projektes. Die Referenz muss jeweils mindestens die jetzt vorgesehene Funktion (Projektleitung bzw. stellvertretende Projektleitung) belegen. Eine Überprüfung der Referenz ist vorgesehen."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Hinreichende Kenntnisse im Umgang mit Datenbanken (Access, Excel) und (GIS-Programmen)"
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Jede/r für Geländearbeiten eingesetzte Bearbeiter/in muss über eine gültige Fahrerlaubnis und jeweils einen PKW verfügen."
+     },
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Die gesamte schriftliche und mündliche Projektkommunikation erfolgt in deutscher Sprache.Verfügen die mit dem Auftrag betrauten Bearbeiter/- innen über sehr gute deutsch Sprachkenntnisse in Wort und Schrift?"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": null
+     },
+     {
+      "type": "quality",
+      "name": "Leistungsbewertung gemäß Kriterienkatalog",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/91da5f1a-edcf-423b-8b48-2e85bc31c093/awardcriteria",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

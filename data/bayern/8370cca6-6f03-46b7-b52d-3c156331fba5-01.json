@@ -1,0 +1,280 @@
+{
+ "id": "8370cca6-6f03-46b7-b52d-3c156331fba5-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "8370cca6-6f03-46b7-b52d-3c156331fba5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8370cca6-6f03-46b7-b52d-3c156331fba5",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:8370cca6-6f03-46b7-b52d-3c156331fba5-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:8370cca6-6f03-46b7-b52d-3c156331fba5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8370cca6-6f03-46b7-b52d-3c156331fba5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Elektroinstallation",
+  "buyer": "Staatliches Bauamt Bamberg",
+  "cpv": [
+   "45311200"
+  ],
+  "nuts": [
+   "DE241"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-95cb62c7-421f-42ff-92c9-a8caa229f578",
+  "id": "8370cca6-6f03-46b7-b52d-3c156331fba5",
+  "date": "2026-10-20T10:04:17Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Bamberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0994103-39",
+     "legalName": "Staatliches Bauamt Bamberg"
+    },
+    "address": {
+     "streetAddress": "Kasernstraße 4",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Bamberg-Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t095195300",
+     "legalName": "Staatliches Bauamt Bamberg-Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Kasernstraße 4",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Geuppert Elektrotechnik GmbH & Co.KG",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE249755211",
+     "legalName": "Geuppert Elektrotechnik GmbH & Co.KG"
+    },
+    "address": {
+     "streetAddress": "Ringstraße 2",
+     "locality": "Hofheim",
+     "region": "DE267",
+     "postalCode": "97461",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Bamberg",
+   "id": "09-0994103-39",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Bamberg"
+   },
+   "address": {
+    "streetAddress": "Kasernstraße 4",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "95cb62c7-421f-42ff-92c9-a8caa229f578",
+   "title": "Elektroinstallation",
+   "description": "Die Maßnahme umfasst 3 Bauteile: Dienstgebäude, polizeiliches Trainingszentrum mit Raumschießanlage und Garagengebäude.\nDie Leistung gliedert sich in:\n\nDie Zugangsbestimmungen mit Sicherheitsüberprüfung der PP-Ofr sind zu beachten.",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Bamberg",
+    "id": "09-0994103-39"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311200",
+      "description": "Electrical fitting work"
+     },
+     "deliveryAddress": {
+      "locality": "Bamberg",
+      "region": "DE241",
+      "postalCode": "96050",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-19T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Geuppert Elektrotechnik GmbH & Co.KG",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Geuppert Elektrotechnik GmbH & Co.KG"
+     },
+     "address": {
+      "streetAddress": "Ringstraße 2",
+      "locality": "Hofheim",
+      "region": "DE267",
+      "postalCode": "97461",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Elektroinstallation",
+     "description": "Die Maßnahme umfasst 3 Bauteile: Dienstgebäude, polizeiliches Trainingszentrum mit Raumschießanlage und Garagengebäude.\nDie Leistung gliedert sich in:\n\nDie Zugangsbestimmungen mit Sicherheitsüberprüfung der PP-Ofr sind zu beachten.",
+     "contractPeriod": {
+      "startDate": "2026-11-09T00:00:00+01:00",
+      "endDate": "2029-12-21T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Elektroinstallation",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Geuppert Elektrotechnik GmbH & Co.KG",
+      "id": "DE249755211",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Geuppert Elektrotechnik GmbH & Co.KG"
+      },
+      "address": {
+       "streetAddress": "Ringstraße 2",
+       "locality": "Hofheim",
+       "region": "DE267",
+       "postalCode": "97461",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Elektroinstallation",
+    "status": "active",
+    "value": {
+     "amount": 5881853,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "8370cca6-6f03-46b7-b52d-3c156331fba5",
+  "version": "01",
+  "title": "Elektroinstallation",
+  "description": "Die Maßnahme umfasst 3 Bauteile: Dienstgebäude, polizeiliches Trainingszentrum mit Raumschießanlage und Garagengebäude.\nDie Leistung gliedert sich in:\n\nDie Zugangsbestimmungen mit Sicherheitsüberprüfung der PP-Ofr sind zu beachten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE241"
+  ],
+  "cpv": [
+   "45311200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Elektroinstallation",
+    "description": "Die Maßnahme umfasst 3 Bauteile: Dienstgebäude, polizeiliches Trainingszentrum mit Raumschießanlage und Garagengebäude.\nDie Leistung gliedert sich in:\n\nDie Zugangsbestimmungen mit Sicherheitsüberprüfung der PP-Ofr sind zu beachten.",
+    "cpv": [
+     "45311200"
+    ],
+    "nuts": [
+     "DE241"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-09+01:00",
+    "plannedEnd": "2029-12-21+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

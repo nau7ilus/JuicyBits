@@ -1,0 +1,466 @@
+{
+ "id": "adbc8d82-06cd-4746-add6-b7f5fbfbfeb5-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "adbc8d82-06cd-4746-add6-b7f5fbfbfeb5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=adbc8d82-06cd-4746-add6-b7f5fbfbfeb5",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:adbc8d82-06cd-4746-add6-b7f5fbfbfeb5-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:adbc8d82-06cd-4746-add6-b7f5fbfbfeb5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/adbc8d82-06cd-4746-add6-b7f5fbfbfeb5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Wäschedienstleistung",
+  "buyer": "Kliniken Südostbayern AG",
+  "cpv": [
+   "85100000",
+   "85111000",
+   "98310000"
+  ],
+  "nuts": [
+   "DE21M",
+   "DE214",
+   "DE215",
+   "DE21G"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-27a55ee5-45f6-4ed4-9d41-a67d87b07a60",
+  "id": "adbc8d82-06cd-4746-add6-b7f5fbfbfeb5",
+  "date": "2026-10-23T02:08:34Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Kliniken Südostbayern AG",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE172521047",
+     "legalName": "Kliniken Südostbayern AG"
+    },
+    "address": {
+     "streetAddress": "Cuno-Niggl-Straße 3",
+     "locality": "Traunstein",
+     "region": "DE21M",
+     "postalCode": "83278",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Textilservice Stangelmayer GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 131201486",
+     "legalName": "Textilservice Stangelmayer GmbH"
+    },
+    "address": {
+     "streetAddress": "Werkstraße 1",
+     "locality": "Kolbermoor",
+     "region": "DE21K",
+     "postalCode": "83059",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Kliniken Südostbayern AG",
+   "id": "DE172521047",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Kliniken Südostbayern AG"
+   },
+   "address": {
+    "streetAddress": "Cuno-Niggl-Straße 3",
+    "locality": "Traunstein",
+    "region": "DE21M",
+    "postalCode": "83278",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "27a55ee5-45f6-4ed4-9d41-a67d87b07a60",
+   "title": "Wäschedienstleistung",
+   "description": "Die  Kliniken  Südostbayern  AG  sowie  das  Innklinikum  Altötting  und  Mühldorf  gKU  sind  die kommunalen  Krankenhausträger  der  Landkreise  Traunstein,  Berchtesgadener  Land,  Mühldorf  und  Altötting.  Oberstes Ziel dieser Unternehmen ist die Gewährleistung einer lückenlosen, sicheren und qualitativ hochwertigen medizinischen Versorgung der Patientinnen- und Patienten.",
+   "procuringEntity": {
+    "name": "Kliniken Südostbayern AG",
+    "id": "DE172521047"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "85100000",
+      "description": "Health services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "85111000",
+       "description": "Hospital services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "98310000",
+       "description": "Washing and dry-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Cuno-Niggl-Straße 3 (Klinikum Traunstein)",
+      "locality": "Traunstein",
+      "region": "DE21M",
+      "postalCode": "83278",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "85100000",
+      "description": "Health services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "85111000",
+       "description": "Hospital services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "98310000",
+       "description": "Washing and dry-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Vinzenz-von-Paul-Straße 10 (Innklinikum Altötting)",
+      "locality": "Altötting",
+      "region": "DE214",
+      "postalCode": "84503",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "85100000",
+      "description": "Health services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "85111000",
+       "description": "Hospital services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "98310000",
+       "description": "Washing and dry-cleaning services"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Riedelstraße 5 (Kreisklinik Bad Reichenhall)",
+      "locality": "Bad Reichenhall",
+      "region": "DE215",
+      "postalCode": "83435",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Textilservice Stangelmayer GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Textilservice Stangelmayer GmbH"
+     },
+     "address": {
+      "streetAddress": "Werkstraße 1",
+      "locality": "Kolbermoor",
+      "region": "DE21K",
+      "postalCode": "83059",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Klinikum Traunstein und Kreisklinik Trostberg",
+     "description": "Gegenstand  dieser  Ausschreibung  ist  die  umfassende,  hygienische  und  logistische  textile Vollversorgung der jeweiligen Krankenhausstandorte nach den Anforderungen aktuellster Standards.   Das Vorhaben untergliedert sich in drei Lose:    a)  Los 1: Klinikum Traunstein und Kreisklinik Trostberg   b)  Los 2: Innklinikum Altötting, Innklinikum Mühldorf und Innklinikum Haag   c)  Los 3: Kreisklinik Bad Reichenhall und Fachklinik Berchtesgaden",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2032-01-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Innklinikum Altötting und Mühldorf",
+     "description": "Der Auftraggeber in Los 2 ist:  Innklinikum Altötting und Mühldorf gKU  Vinzenz-von-Paul-Straße 10, 84503 Altötting.",
+     "contractPeriod": {
+      "startDate": "2028-01-01T00:00:00+01:00",
+      "endDate": "2032-01-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Kreisklinik Bad Reichenhall und Fachklinik Berchtesgaden",
+     "description": "Gegenstand  dieser  Ausschreibung  ist  die  umfassende,  hygienische  und  logistische  textile Vollversorgung der jeweiligen Krankenhausstandorte nach den Anforderungen aktuellster Standards.   Das Vorhaben untergliedert sich in drei Lose:    a)  Los 1: Klinikum Traunstein und Kreisklinik Trostberg   b)  Los 2: Innklinikum Altötting, Innklinikum Mühldorf und Innklinikum Haag   c)  Los 3: Kreisklinik Bad Reichenhall und Fachklinik Berchtesgaden",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2032-01-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Wäschedienstleistung",
+    "status": "active",
+    "date": "2026-09-28T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Wäschedienstleistung",
+    "status": "active",
+    "date": "2026-09-28T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Wäschedienstleistung",
+    "status": "active",
+    "date": "2026-09-28T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Wäschedienstleistung",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-09-27T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "title": "Wäschedienstleistung",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-09-27T22:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "title": "Wäschedienstleistung",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     }
+    ],
+    "dateSigned": "2026-09-27T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "adbc8d82-06cd-4746-add6-b7f5fbfbfeb5",
+  "version": "01",
+  "title": "Wäschedienstleistung",
+  "description": "Die  Kliniken  Südostbayern  AG  sowie  das  Innklinikum  Altötting  und  Mühldorf  gKU  sind  die kommunalen  Krankenhausträger  der  Landkreise  Traunstein,  Berchtesgadener  Land,  Mühldorf  und  Altötting.  Oberstes Ziel dieser Unternehmen ist die Gewährleistung einer lückenlosen, sicheren und qualitativ hochwertigen medizinischen Versorgung der Patientinnen- und Patienten.",
+  "procedureType": "open",
+  "nuts": [
+   "DE21M",
+   "DE214",
+   "DE21G",
+   "DE215"
+  ],
+  "cpv": [
+   "85111000",
+   "85100000",
+   "98310000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Klinikum Traunstein und Kreisklinik Trostberg",
+    "description": "Gegenstand  dieser  Ausschreibung  ist  die  umfassende,  hygienische  und  logistische  textile Vollversorgung der jeweiligen Krankenhausstandorte nach den Anforderungen aktuellster Standards.   Das Vorhaben untergliedert sich in drei Lose:    a)  Los 1: Klinikum Traunstein und Kreisklinik Trostberg   b)  Los 2: Innklinikum Altötting, Innklinikum Mühldorf und Innklinikum Haag   c)  Los 3: Kreisklinik Bad Reichenhall und Fachklinik Berchtesgaden",
+    "cpv": [
+     "85100000",
+     "85111000",
+     "98310000"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2032-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das wirtschaftlichste Angebot des Vergabeverfahrens wurde zu 100 % nach dem Preis bewertet, der sich aus der Summe ohne Vor-Ort-Logistik aus dem Preisblatt ergibt.     Abweichend hiervon war der Gesamtpreis (=Summe inkl. Vor-Ort-Logistik) in folgendem Fall für das wirtschaftlichste Angebot maßgeblich:    -  Sofern der preisliche Abstand von dem günstigsten Bieter der Summe ohne Vor-Ort-Logistik zu dem günstigsten Bieter des Gesamtpreises geringer war, als der Preis für die Durchführung der Vor-Ort-Logistik in Eigenleistung betragen würde, erfolgt die Zuschlagserteilung auf den günstigsten Bieter der Gesamtleistung.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Innklinikum Altötting und Mühldorf",
+    "description": "Der Auftraggeber in Los 2 ist:  Innklinikum Altötting und Mühldorf gKU  Vinzenz-von-Paul-Straße 10, 84503 Altötting.",
+    "cpv": [
+     "85100000",
+     "85111000",
+     "98310000"
+    ],
+    "nuts": [
+     "DE214",
+     "DE21G"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2028-01-01+01:00",
+    "plannedEnd": "2032-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das wirtschaftlichste Angebot des Vergabeverfahrens wurde zu 100 % nach dem Preis bewertet, der sich aus der Summe ohne Vor-Ort-Logistik aus dem Preisblatt ergibt.     Abweichend hiervon war der Gesamtpreis (=Summe inkl. Vor-Ort-Logistik) in folgendem Fall für das wirtschaftlichste Angebot maßgeblich:    -  Sofern der preisliche Abstand von dem günstigsten Bieter der Summe ohne Vor-Ort-Logistik zu dem günstigsten Bieter des Gesamtpreises geringer war, als der Preis für die Durchführung der Vor-Ort-Logistik in Eigenleistung betragen würde, erfolgt die Zuschlagserteilung auf den günstigsten Bieter der Gesamtleistung.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Kreisklinik Bad Reichenhall und Fachklinik Berchtesgaden",
+    "description": "Gegenstand  dieser  Ausschreibung  ist  die  umfassende,  hygienische  und  logistische  textile Vollversorgung der jeweiligen Krankenhausstandorte nach den Anforderungen aktuellster Standards.   Das Vorhaben untergliedert sich in drei Lose:    a)  Los 1: Klinikum Traunstein und Kreisklinik Trostberg   b)  Los 2: Innklinikum Altötting, Innklinikum Mühldorf und Innklinikum Haag   c)  Los 3: Kreisklinik Bad Reichenhall und Fachklinik Berchtesgaden",
+    "cpv": [
+     "85100000",
+     "85111000",
+     "98310000"
+    ],
+    "nuts": [
+     "DE215"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2032-01-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das wirtschaftlichste Angebot des Vergabeverfahrens wurde zu 100 % nach dem Preis bewertet, der sich aus der Summe ohne Vor-Ort-Logistik aus dem Preisblatt ergibt.     Abweichend hiervon war der Gesamtpreis (=Summe inkl. Vor-Ort-Logistik) in folgendem Fall für das wirtschaftlichste Angebot maßgeblich:    -  Sofern der preisliche Abstand von dem günstigsten Bieter der Summe ohne Vor-Ort-Logistik zu dem günstigsten Bieter des Gesamtpreises geringer war, als der Preis für die Durchführung der Vor-Ort-Logistik in Eigenleistung betragen würde, erfolgt die Zuschlagserteilung auf den günstigsten Bieter der Gesamtleistung.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

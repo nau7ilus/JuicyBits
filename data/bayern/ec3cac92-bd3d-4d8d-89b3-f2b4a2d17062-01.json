@@ -1,0 +1,239 @@
+{
+ "id": "ec3cac92-bd3d-4d8d-89b3-f2b4a2d17062-01",
+ "source": {
+  "pubDay": "2026-10-25",
+  "noticeId": "ec3cac92-bd3d-4d8d-89b3-f2b4a2d17062",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ec3cac92-bd3d-4d8d-89b3-f2b4a2d17062",
+  "ocdsFile": "notices_2026-10-25_OCDS.zip:ec3cac92-bd3d-4d8d-89b3-f2b4a2d17062-01.json",
+  "eformsFile": "notices_2026-10-25_eForms.zip:ec3cac92-bd3d-4d8d-89b3-f2b4a2d17062-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ec3cac92-bd3d-4d8d-89b3-f2b4a2d17062?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "BGA-Geräte LV.377.7c",
+  "buyer": "Klinikum Fürth",
+  "cpv": [
+   "38434520",
+   "33100000"
+  ],
+  "nuts": [
+   "DE253"
+  ],
+  "deadline": "2026-11-24T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-34bc9775-16ef-4b24-aefb-f18426ebe47e",
+  "id": "ec3cac92-bd3d-4d8d-89b3-f2b4a2d17062",
+  "date": "2026-10-25T09:00:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Fürth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9563000-2X0R4000000-10",
+     "legalName": "Stadt Fürth"
+    },
+    "address": {
+     "streetAddress": "Hirschenstraße 2",
+     "locality": "Fürth",
+     "region": "DE253",
+     "postalCode": "90762",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "reviewContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Klinikum Fürth",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09563000-KLIFUE-33",
+     "legalName": "Klinikum Fürth"
+    },
+    "address": {
+     "streetAddress": "Jakob-Henle-Straße 1",
+     "locality": "Fürth",
+     "region": "DE253",
+     "postalCode": "90766",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "evaluationBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Fürth",
+   "id": "09563000-KLIFUE-33",
+   "identifier": {
+    "id": "ORG-0003",
+    "legalName": "Klinikum Fürth"
+   },
+   "address": {
+    "streetAddress": "Jakob-Henle-Straße 1",
+    "locality": "Fürth",
+    "region": "DE253",
+    "postalCode": "90766",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "34bc9775-16ef-4b24-aefb-f18426ebe47e",
+   "title": "BGA-Geräte LV.377.7c",
+   "description": "Neubau Klinikgebäude BT 6.1.1 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 108.000 m³, aufgeteilt in 2 unterirdische und 5 oberirdische Geschosse mit Anbindung an die Bestandsmagistrale. Neubau Technikzentrale T2 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 10.605 m³, aufgeteilt in 2 unterirdische und 4 oberirdische Geschosse.\n\nErgänzungsbeschaffung BGA-Geräte mit Fabrikatsvorgabe Radiometer aufgrund des bestehenden Gerätepools  und der einheitlichen Reagenzienversorgung im Klinikum Fürth.",
+   "procuringEntity": {
+    "name": "Klinikum Fürth",
+    "id": "09563000-KLIFUE-33"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38434520",
+      "description": "Blood analysers"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "33100000",
+       "description": "Medical equipments"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Jakob-Henle-Str. 1",
+      "locality": "Fürth",
+      "region": "DE253",
+      "postalCode": "90766",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304990",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "BGA-Geräte LV.377.7c",
+     "description": "Neubau Klinikgebäude BT 6.1.1 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 108.000 m³, aufgeteilt in 2 unterirdische und 5 oberirdische Geschosse mit Anbindung an die Bestandsmagistrale. Neubau Technikzentrale T2 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 10.605 m³, aufgeteilt in 2 unterirdische und 4 oberirdische Geschosse.\n\nErgänzungsbeschaffung BGA-Geräte mit Fabrikatsvorgabe Radiometer aufgrund des bestehenden Gerätepools  und der einheitlichen Reagenzienversorgung im Klinikum Fürth.",
+     "contractPeriod": {
+      "startDate": "2027-04-02T00:00:00+02:00",
+      "endDate": "2027-05-28T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "ec3cac92-bd3d-4d8d-89b3-f2b4a2d17062",
+  "version": "01",
+  "title": "BGA-Geräte LV.377.7c",
+  "description": "Neubau Klinikgebäude BT 6.1.1 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 108.000 m³, aufgeteilt in 2 unterirdische und 5 oberirdische Geschosse mit Anbindung an die Bestandsmagistrale. Neubau Technikzentrale T2 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 10.605 m³, aufgeteilt in 2 unterirdische und 4 oberirdische Geschosse.\n\nErgänzungsbeschaffung BGA-Geräte mit Fabrikatsvorgabe Radiometer aufgrund des bestehenden Gerätepools  und der einheitlichen Reagenzienversorgung im Klinikum Fürth.",
+  "procedureType": "open",
+  "nuts": [
+   "DE253"
+  ],
+  "cpv": [
+   "38434520",
+   "33100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "BGA-Geräte LV.377.7c",
+    "description": "Neubau Klinikgebäude BT 6.1.1 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 108.000 m³, aufgeteilt in 2 unterirdische und 5 oberirdische Geschosse mit Anbindung an die Bestandsmagistrale. Neubau Technikzentrale T2 mit einem Brutto-Rauminhalt nach DIN 277 von ca. 10.605 m³, aufgeteilt in 2 unterirdische und 4 oberirdische Geschosse.\n\nErgänzungsbeschaffung BGA-Geräte mit Fabrikatsvorgabe Radiometer aufgrund des bestehenden Gerätepools  und der einheitlichen Reagenzienversorgung im Klinikum Fürth.",
+    "cpv": [
+     "38434520",
+     "33100000"
+    ],
+    "nuts": [
+     "DE253"
+    ],
+    "deadline": "2026-11-24T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-04-02+02:00",
+    "plannedEnd": "2027-05-28+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211) aufgelistet. Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211) aufgelistet. Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211) aufgelistet. Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Die Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt 124), in der Aufforderung zur Angebotsabgabe (Formblatt 211) aufgelistet. Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": true,
+     "description": "Sicherheitsleistung für die Vertragserfüllung:\nSoweit die Auftragssumme mindestens 250.000 Euro ohne Umsatzsteuer beträgt, ist Sicherheit für die Vertragserfüllung in Höhe von 5 Prozent der Auftragssumme (inkl. Umsatzsteuer, ohne Nachträge) zu leisten.\nSicherheitsleistung für Mängelansprüche:\nDie Sicherheit für Mängelansprüche beträgt 3 Prozent der Summe der Abschlagszahlungen zum\nZeitpunkt der Abnahme (vorläufige Abrechnungssumme)."
+    }
+   }
+  ]
+ }
+}

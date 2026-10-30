@@ -1,7 +1,7 @@
 # TenderScout (TUM Blockchain & AI Hackathon, Cardano track)
 
 A paid Masumi/Sokosumi agent. For small and mid-sized contractors in Bavaria it turns a company profile with bidding criteria into a ranked, verified shortlist of public tenders with go/no-go reasoning.
-Deadline Sat 31 Oct 2026 15:00, freeze 14:30. Tickets, owners and dependencies: `tickets.json`.
+Deadline Sat 31 Oct 2026 15:00, freeze 14:30. Tickets, owners and dependencies: `tickets.json`. Current status and test guide (German): `STAND.md`.
 
 ## Team and tickets
 Roles: D development (critical path T1 → T7 → T8 → T10 → T12 → T13), B1 data and criteria, B2 business case and pitch, B3 test and docs, B4 video and Devfolio.
@@ -26,7 +26,7 @@ Do not claim live execution, registration, or seller payment without measured ev
 - Send at most 25 notices to the model per run. Prefilter harder if more remain.
 - Zero verified matches is a valid result. Never pad the list.
 - Never store or output contact data (names of persons, e-mail, phone, fax). `data/import.mjs` redacts it; keep it that way.
-- The model is OpenAI through the OpenAI-compatible `ZAI_*` variables in `.env`. Keep code provider-neutral.
+- The model is OpenAI: `OPENAI_API_KEY`, `OPENAI_MODEL`, optional `OPENAI_CONTEXT_WINDOW_TOKENS` in `.env`. The setup skill's `ZAI_*` names are replaced by these.
 - Report text in German. Code, comments and commit messages in English.
 - Data source is the public Open Data export only. No scraping, no logins, no third-party tender databases, no automatic downloads. People download exports by hand.
 - Do not invent URLs, endpoint paths or field names. Mark anything unverified as `TODO (Txx)`.
@@ -37,8 +37,12 @@ Do not claim live execution, registration, or seller payment without measured ev
 ## Environment and commands
 Use WSL (Ubuntu) with Node.js 24 from nvm and Sokosumi CLI `1.0.4`. Run `npm ci` inside WSL; do not share `node_modules` with Windows.
 ```sh
-npm test               # all tests (root *.test.mjs and data/*.test.mjs)
+npm run setup          # check tools, Sokosumi login, .env, data; lists missing config (-- --check: no changes)
+npm run try            # interactive: pick a pass from examples/, change fields, run offline or live, compare with t5-expected.json
+npm test               # all tests (root, data/ and tender/)
 npm run data:import    # data/inbox/*.zip → data/bayern/ (offline, Bavaria only)
+npm run scout -- examples/p3-isarcode.pass.json [--offline]   # one report from a Firmenpass (needs npm start unless --offline)
+npm run eval           # T5 cases against examples/t5-expected.json with the live model (needs npm start)
 npm start              # local Eve agent (terminal 1)
 npm run worker         # Sokosumi worker (terminal 2), one per Coworker
 npm run api            # MIP-003 API for paid jobs
@@ -52,7 +56,9 @@ Bavaria means any NUTS code starting with `DE2`. Coverage: above EU thresholds i
 Field paths and import rules: `data/README.md`. Scope is Bavaria only.
 
 ## Layout
-- `agent/instructions.md`: the agent's system prompt (assessment rules)
+- `agent/instructions.md`: the agent's system prompt (T6 criteria and point ranges, JSON output format)
+- `tender/`: pipeline. `pass.mjs` Firmenpass validation (T9), `prefilter.mjs` prefilter and CPV stages (T8), `assess.mjs` model call and T6 scoring (T10), `verify.mjs` source re-check (T18), `report.mjs` German report with SHA-256 footer (T10, T19), `scout.mjs` entry point with the `answer()` signature (T12), `eval.mjs` T5 evaluation
+- `docs/firmenpass.md`: input fields and scoring rules
 - `worker.mjs`, `comments.mjs`, `client.mjs`, `paid-task.mjs`, `agent-api.mjs`: template runtime (Sokosumi tasks, follow-up comments, payments)
 - `data/`: offline import and the Bavarian dataset
 - `examples/`: company profiles and expected results (test cases)

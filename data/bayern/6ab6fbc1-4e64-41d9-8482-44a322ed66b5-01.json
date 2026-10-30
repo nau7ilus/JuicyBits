@@ -1,0 +1,329 @@
+{
+ "id": "6ab6fbc1-4e64-41d9-8482-44a322ed66b5-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "6ab6fbc1-4e64-41d9-8482-44a322ed66b5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6ab6fbc1-4e64-41d9-8482-44a322ed66b5",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:6ab6fbc1-4e64-41d9-8482-44a322ed66b5-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:6ab6fbc1-4e64-41d9-8482-44a322ed66b5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6ab6fbc1-4e64-41d9-8482-44a322ed66b5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Rahmenvereinbarung Holzpellets",
+  "buyer": "Freistaat Bayern vertreten durch das Markgräfin Wilhelmine Gymnasium Bayreuth ",
+  "cpv": [
+   "09100000",
+   "03400000",
+   "03413000",
+   "03416000",
+   "09110000",
+   "09111300",
+   "09111400",
+   "60000000",
+   "77211000"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e23dac42-dce2-422f-8b1f-83462fffdd53",
+  "id": "6ab6fbc1-4e64-41d9-8482-44a322ed66b5",
+  "date": "2026-10-16T02:06:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern vertreten durch das Markgräfin Wilhelmine Gymnasium Bayreuth ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "5c08026d-fc41-40ab-80d2-c24a7897de83",
+     "legalName": "Freistaat Bayern vertreten durch das Markgräfin Wilhelmine Gymnasium Bayreuth "
+    },
+    "address": {
+     "streetAddress": "Königsallee 17 ",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95448",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Schule",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "c4ac0940-b401-4ae3-9a38-51499dceec1b",
+     "legalName": "Bayerisches Landesamt für Schule"
+    },
+    "address": {
+     "streetAddress": "Stuttgarter Straße 1",
+     "locality": "Gunzenhausen",
+     "region": "DE25C",
+     "postalCode": "91710",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "BayWa AG",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "b6404514-6cde-4bc2-952c-ab4c82862be4",
+     "legalName": "BayWa AG"
+    },
+    "address": {
+     "locality": "Leipzig",
+     "region": "DED51",
+     "postalCode": "04347",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern vertreten durch das Markgräfin Wilhelmine Gymnasium Bayreuth ",
+   "id": "5c08026d-fc41-40ab-80d2-c24a7897de83",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern vertreten durch das Markgräfin Wilhelmine Gymnasium Bayreuth "
+   },
+   "address": {
+    "streetAddress": "Königsallee 17 ",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95448",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e23dac42-dce2-422f-8b1f-83462fffdd53",
+   "title": "Rahmenvereinbarung Holzpellets",
+   "description": "Rahmenvereinbarung über die Lieferung von Holzpellets für das Markgräfin-Wilhelmine-Gymnasium Bayreuth",
+   "procuringEntity": {
+    "name": "Freistaat Bayern vertreten durch das Markgräfin Wilhelmine Gymnasium Bayreuth ",
+    "id": "5c08026d-fc41-40ab-80d2-c24a7897de83"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09100000",
+      "description": "Fuels"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "03400000",
+       "description": "Forestry and logging products"
+      },
+      {
+       "scheme": "CPV",
+       "id": "03413000",
+       "description": "Fuel wood"
+      },
+      {
+       "scheme": "CPV",
+       "id": "03416000",
+       "description": "Wood waste"
+      },
+      {
+       "scheme": "CPV",
+       "id": "09110000",
+       "description": "Solid fuels"
+      },
+      {
+       "scheme": "CPV",
+       "id": "09111300",
+       "description": "Fossil fuels"
+      },
+      {
+       "scheme": "CPV",
+       "id": "09111400",
+       "description": "Wood fuels"
+      },
+      {
+       "scheme": "CPV",
+       "id": "60000000",
+       "description": "Transport services (excl. Waste transport)"
+      },
+      {
+       "scheme": "CPV",
+       "id": "77211000",
+       "description": "Services incidental to logging"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Bayreuth",
+      "region": "DE242",
+      "postalCode": "95448",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 627000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-14T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "BayWa AG",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "BayWa AG"
+     },
+     "address": {
+      "locality": "Leipzig",
+      "region": "DED51",
+      "postalCode": "04347",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvereinbarung Holzpellets",
+     "description": "Rahmenvereinbarung über die Lieferung von Holzpellets für das Markgräfin-Wilhelmine-Gymnasium Bayreuth"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-14T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 750000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-13T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "6ab6fbc1-4e64-41d9-8482-44a322ed66b5",
+  "version": "01",
+  "title": "Rahmenvereinbarung Holzpellets",
+  "description": "Rahmenvereinbarung über die Lieferung von Holzpellets für das Markgräfin-Wilhelmine-Gymnasium Bayreuth",
+  "procedureType": "open",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "09100000",
+   "03400000",
+   "03413000",
+   "03416000",
+   "09110000",
+   "09111300",
+   "09111400",
+   "60000000",
+   "77211000"
+  ],
+  "estimatedValue": {
+   "amount": 627000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvereinbarung Holzpellets",
+    "description": "Rahmenvereinbarung über die Lieferung von Holzpellets für das Markgräfin-Wilhelmine-Gymnasium Bayreuth",
+    "cpv": [
+     "09100000",
+     "03400000",
+     "03413000",
+     "03416000",
+     "09110000",
+     "09111300",
+     "09111400",
+     "60000000",
+     "77211000"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

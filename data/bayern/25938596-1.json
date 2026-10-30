@@ -1,0 +1,134 @@
+{
+ "id": "25938596-1",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "25938596",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25938596",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:25938596-1.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:25938596-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25938596?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten",
+  "buyer": "Stadt Erlangen",
+  "cpv": [
+   "45442100-8"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-19T10:45:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25938596",
+  "id": "25938596",
+  "date": "2026-10-16T07:01:36Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Erlangen",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Erlangen"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Erlangen",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Erlangen"
+   }
+  },
+  "tender": {
+   "title": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten",
+   "description": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten",
+   "procuringEntity": {
+    "name": "Stadt Erlangen"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45442100-8"
+     },
+     "deliveryAddress": {
+      "locality": "91052 Erlangen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Restricted tender",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304178",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten",
+     "description": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25938596",
+  "version": "1",
+  "title": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten",
+  "description": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten",
+  "procedureType": "de-restricted-wo-call",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45442100-8"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten",
+    "description": "Jahresausschreibung 2027-2028 Maler- und Lackierarbeiten",
+    "cpv": [
+     "45442100-8"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-19T10:45:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

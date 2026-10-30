@@ -1,0 +1,258 @@
+{
+ "id": "5f68abb2-4231-4c4f-82b7-22ee6b54b561-01",
+ "source": {
+  "pubDay": "2026-10-18",
+  "noticeId": "5f68abb2-4231-4c4f-82b7-22ee6b54b561",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5f68abb2-4231-4c4f-82b7-22ee6b54b561",
+  "ocdsFile": "notices_2026-10-18_OCDS.zip:5f68abb2-4231-4c4f-82b7-22ee6b54b561-01.json",
+  "eformsFile": "notices_2026-10-18_eForms.zip:5f68abb2-4231-4c4f-82b7-22ee6b54b561-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5f68abb2-4231-4c4f-82b7-22ee6b54b561?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Vakuumtherapie",
+  "buyer": "Klinikum Ingolstadt GmbH",
+  "cpv": [
+   "42122410",
+   "33140000",
+   "33100000"
+  ],
+  "nuts": [
+   "DE211"
+  ],
+  "deadline": "2026-10-21T10:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8e54868f-4b38-4926-a496-7c3460d120e5",
+  "id": "5f68abb2-4231-4c4f-82b7-22ee6b54b561",
+  "date": "2026-10-18T07:54:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Ingolstadt GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE128601139",
+     "legalName": "Klinikum Ingolstadt GmbH"
+    },
+    "address": {
+     "streetAddress": "Krumenauerstraße 25",
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilian Str. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Ingolstadt GmbH",
+   "id": "DE128601139",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Ingolstadt GmbH"
+   },
+   "address": {
+    "streetAddress": "Krumenauerstraße 25",
+    "locality": "Ingolstadt",
+    "region": "DE211",
+    "postalCode": "85049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8e54868f-4b38-4926-a496-7c3460d120e5",
+   "title": "Vakuumtherapie",
+   "description": "Bereitstellung von Vakuumtherapie-Geräten (NPWT - Negative Pressure Wound Therapy) im Mietmodell einschließlich des hierfür erforderlichen Verbrauchsmaterials.",
+   "procuringEntity": {
+    "name": "Klinikum Ingolstadt GmbH",
+    "id": "DE128601139"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "42122410",
+      "description": "Pumps for medical use"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "33140000",
+       "description": "Medical consumables"
+      },
+      {
+       "scheme": "CPV",
+       "id": "33100000",
+       "description": "Medical equipments"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Krumenauerstraße 25",
+      "locality": "Ingolstadt",
+      "region": "DE211",
+      "postalCode": "85049",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 300000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4DLYM8SG/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-18T07:54:04.268Z",
+     "rationale": "Austausch Anlage 4_Preisblatt Version 261026",
+     "description": "In Anlage 4_Preisblatt wurde die Position 11.6 zusätzlich aufgenommen Aufgrund von Bieterfrage Nr. 37. Neue Version: Anlage 4_Preisblatt 261016.",
+     "amendsReleaseID": "b65970df-b061-4453-a0a6-0b52ca2bd38c-01",
+     "releaseID": "5f68abb2-4231-4c4f-82b7-22ee6b54b561-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Vakuumtherapie",
+     "description": "Ziel ist der Abschluss eines Rahmenvertrages mit einer Laufzeit von vier Jahren über die bedarfsgerechte Bereitstellung und Nutzung der NPWT-Geräte sowie über die Versorgung mit dem zugehörigen Verbrauchsmaterial. Die Gerätemiete wird entsprechend der tatsächlichen Nutzung abgerechnet. Die Einzelheiten zu Leistungsumfang, Bereitstellung, Verbrauchsmaterial, Service und Abrechnung ergeben sich aus den weiteren Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1460
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "5f68abb2-4231-4c4f-82b7-22ee6b54b561",
+  "version": "01",
+  "title": "Vakuumtherapie",
+  "description": "Bereitstellung von Vakuumtherapie-Geräten (NPWT - Negative Pressure Wound Therapy) im Mietmodell einschließlich des hierfür erforderlichen Verbrauchsmaterials.",
+  "procedureType": "open",
+  "nuts": [
+   "DE211"
+  ],
+  "cpv": [
+   "42122410",
+   "33140000",
+   "33100000"
+  ],
+  "estimatedValue": {
+   "amount": 300000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Vakuumtherapie",
+    "description": "Ziel ist der Abschluss eines Rahmenvertrages mit einer Laufzeit von vier Jahren über die bedarfsgerechte Bereitstellung und Nutzung der NPWT-Geräte sowie über die Versorgung mit dem zugehörigen Verbrauchsmaterial. Die Gerätemiete wird entsprechend der tatsächlichen Nutzung abgerechnet. Die Einzelheiten zu Leistungsumfang, Bereitstellung, Verbrauchsmaterial, Service und Abrechnung ergeben sich aus den weiteren Vergabeunterlagen.",
+    "cpv": [
+     "42122410",
+     "33140000",
+     "33100000"
+    ],
+    "nuts": [
+     "DE211"
+    ],
+    "deadline": "2026-10-21T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": {
+     "value": 4,
+     "unit": "YEAR"
+    },
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung über das Bestehen einer beruflichen Risikohaftpflichtversicherung mit folgenden Mindestdeckungssummen:  - 2.000.000 EUR für Personenschäden - 500.000 EUR für Sach- und Vermögensschäde  jeweils pro Versicherungsjahr und Schadensfall."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Vorlage eines aktuellen Auszugs aus dem Handelsregister oder einer gleichwertigen Bescheinigung bei ausländischen Unternehmen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Erklärung, aus der die durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte in den letzten drei Jahren ersichtlich sind."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Der Bieter hat mindestens drei Referenzkliniken zu benennen, bei denen der ausgeschriebene Leistungsgegenstand in vergleichbarer Art und vergleichbarem Umfang eingesetzt bzw. erbracht wird oder innerhalb der letzten drei Jahre eingesetzt bzw. er-bracht wurde. Die Referenzen sind unter Angabe von Auftraggeber, Leistungsumfang und Leistungszeitraum im dafür vorgesehenen Formular einzureichen"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis für Miete und Verbrauchsmaterial",
+      "description": "Die Preisbewertung erfolgt auf Grundlage der in Anlage 4 Preisblatt angegebenen und errechneten Preise. Das Preisblatt ist für die Wertung in zwei Abschnitte unterteilt: Für beide Abschnitte wird zunächst die jeweilige Summe gemäß Anlage 4 ermittelt. Die Summe des Abschnitts 1 wird mit 95 % und die Summe des Abschnitts 2 mit 5 % gewichtet. Die Addition der beiden gewichteten Abschnittssummen ergibt den Wertungspreis. Für die Preisbewertung wird folgende Formel angewendet:  (Niedrigster Wertungspreis / Wertungspreis des jeweiligen Bieters) × 100 (gerundet auf zwei Nachkommastellen).  Das Angebot mit dem niedrigsten Wertungspreis erhält 100 Punkte. Die Punktzahlen der übrigen Angebote werden nach der vorstehenden Formel ermittelt und auf zwei Nachkommastellen gerundet.",
+      "weight": 60
+     },
+     {
+      "type": "quality",
+      "name": "Qualität I",
+      "description": "Die im Leistungsverzeichnis Anlage 3 zu erfüllenden Mindestkriterien A-Kriterien müssen mit einer Quote von 100 % erfüllt werden. Erreicht ein Angebot diese Mindestquote nicht, wird es ausgeschlossen.  Die B-Kriterien werden mit den jeweils mit ausgewiesenen Punkten bewertet.",
+      "weight": 25
+     },
+     {
+      "type": "quality",
+      "name": "Qualität II",
+      "description": "Im Rahmen einer praktischen Teststellung werden die angebotenen NPWT-Systeme bewertet. Zur Teststellung werden nur diejenigen Bieter zugelassen, die nach der Bewertung der Zuschlagskriterien Preis und Qualität I rechnerisch noch die Möglichkeit haben, den Zuschlag zu erhalten. Die Teststellung dient der Beurteilung der praktischen Handhabung, Haptik und Praxistauglichkeit der angebotenen Systeme im Klinikalltag. Die Bewertung erfolgt durch medizinisches Fachpersonal anhand von festgelegten Einzelkriterien.",
+      "weight": 15
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "id": "25969080-1",
+ "source": {
+  "pubDay": "2026-10-24",
+  "noticeId": "25969080",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25969080",
+  "ocdsFile": "notices_2026-10-24_OCDS.zip:25969080-1.json",
+  "eformsFile": "notices_2026-10-24_eForms.zip:25969080-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25969080?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen",
+  "buyer": "Hochschule für angewandte Wissenschaften Kempten",
+  "cpv": [
+   "38341300"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-17T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25969080",
+  "id": "25969080",
+  "date": "2026-10-24T07:00:24Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Hochschule für angewandte Wissenschaften Kempten",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Hochschule für angewandte Wissenschaften Kempten"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Hochschule für angewandte Wissenschaften Kempten",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Hochschule für angewandte Wissenschaften Kempten"
+   }
+  },
+  "tender": {
+   "title": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen",
+   "description": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen\n\nBeschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen",
+   "procuringEntity": {
+    "name": "Hochschule für angewandte Wissenschaften Kempten"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38341300",
+      "description": "Instruments for measuring electrical quantities"
+     },
+     "deliveryAddress": {
+      "locality": "87435 Kempten",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/784d41cc-220b-4680-bb6a-2773d2c60e8e",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen",
+     "description": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen\n\nBeschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25969080",
+  "version": "1",
+  "title": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen",
+  "description": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen\n\nBeschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "38341300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen",
+    "description": "Beschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen\n\nBeschaffung eines Tisch-Prüfstand für AEM-Wasserelektrolysezellen",
+    "cpv": [
+     "38341300"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-17T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

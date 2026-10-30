@@ -1,0 +1,222 @@
+{
+ "id": "bfa1fa2f-7e45-40c5-840d-2b907c560b79-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "bfa1fa2f-7e45-40c5-840d-2b907c560b79",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bfa1fa2f-7e45-40c5-840d-2b907c560b79",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:bfa1fa2f-7e45-40c5-840d-2b907c560b79-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:bfa1fa2f-7e45-40c5-840d-2b907c560b79-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bfa1fa2f-7e45-40c5-840d-2b907c560b79?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Grundschule und Neubau Hort - Ausstattung lose Möblierung",
+  "buyer": "Gemeinde Nüdlingen",
+  "cpv": [
+   "39160000",
+   "39130000"
+  ],
+  "nuts": [
+   "DE265"
+  ],
+  "deadline": "2026-11-18T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-aa4ba10b-1c05-4019-b372-ff3fd53e3634",
+  "id": "bfa1fa2f-7e45-40c5-840d-2b907c560b79",
+  "date": "2026-10-20T10:04:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Bad Kissingen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9016726-04",
+     "legalName": "Landkreis Bad Kissingen"
+    },
+    "address": {
+     "streetAddress": "Obere Marktstraße 6",
+     "locality": "Bad Kissingen",
+     "region": "DE265",
+     "postalCode": "97688",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Gemeinde Nüdlingen",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09672136-0815-74",
+     "legalName": "Gemeinde Nüdlingen"
+    },
+    "address": {
+     "streetAddress": "Kissinger Straße 1",
+     "locality": "Nüdlingen",
+     "region": "DE265",
+     "postalCode": "97720",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Nüdlingen",
+   "id": "09672136-0815-74",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Gemeinde Nüdlingen"
+   },
+   "address": {
+    "streetAddress": "Kissinger Straße 1",
+    "locality": "Nüdlingen",
+    "region": "DE265",
+    "postalCode": "97720",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "aa4ba10b-1c05-4019-b372-ff3fd53e3634",
+   "title": "Grundschule und Neubau Hort - Ausstattung lose Möblierung",
+   "description": "Gegenstand dieser Ausschreibung ist die Ausstattung von \nGrundschul- und Horträumen: Lieferung von kindgerechten \nMöbeln und Aufbewahrungssystemen, sowie Büromöbeln \nfür die Verwaltungsräume.",
+   "procuringEntity": {
+    "name": "Gemeinde Nüdlingen",
+    "id": "09672136-0815-74"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39160000",
+      "description": "School furniture"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39130000",
+       "description": "Office furniture"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Nüdlingen",
+      "region": "DE265",
+      "postalCode": "97720",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305042",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Grundschule und Neubau Hort - Ausstattung lose Möblierung",
+     "description": "Gegenstand dieser Ausschreibung ist die Ausstattung von \nGrundschul- und Horträumen: Lieferung von kindgerechten \nMöbeln und Aufbewahrungssystemen, sowie Büromöbeln \nfür die Verwaltungsräume.",
+     "contractPeriod": {
+      "startDate": "2027-02-08T00:00:00+01:00",
+      "endDate": "2027-04-04T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "bfa1fa2f-7e45-40c5-840d-2b907c560b79",
+  "version": "01",
+  "title": "Grundschule und Neubau Hort - Ausstattung lose Möblierung",
+  "description": "Gegenstand dieser Ausschreibung ist die Ausstattung von \nGrundschul- und Horträumen: Lieferung von kindgerechten \nMöbeln und Aufbewahrungssystemen, sowie Büromöbeln \nfür die Verwaltungsräume.",
+  "procedureType": "open",
+  "nuts": [
+   "DE265"
+  ],
+  "cpv": [
+   "39160000",
+   "39130000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Grundschule und Neubau Hort - Ausstattung lose Möblierung",
+    "description": "Gegenstand dieser Ausschreibung ist die Ausstattung von \nGrundschul- und Horträumen: Lieferung von kindgerechten \nMöbeln und Aufbewahrungssystemen, sowie Büromöbeln \nfür die Verwaltungsräume.",
+    "cpv": [
+     "39160000",
+     "39130000"
+    ],
+    "nuts": [
+     "DE265"
+    ],
+    "deadline": "2026-11-18T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-08+01:00",
+    "plannedEnd": "2027-04-04+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignung ist durch Eintragung in die Liste des Vereins für Präqualifikation von Bauunternehmen e.V. \n(Präqualifikationsverzeichnis) oder Eigenerklärungen gem. Formblatt 124 „Eigenerklärung zur \nEignung“ nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, \nsind die im Formblatt 124 angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach \nAufforderung vorzulegen. Beruft sich der Bieter zur Erfüllung des Auftrages auf die Fähigkeiten \nanderer Unternehmen, ist die jeweilige 3 / 6 Nummer im Präqualifikationsverzeichnis oder es sind die \nErklärungen und Bescheinigungen gemäß Formblatt 124 auch für dieses andere \nUnternehmen auf Verlangen vorzulegen. Das Formblatt 124 „Eigenerklärung zur Eignung“ liegt den \nVergabeunterlagen bei. Im FB 124 werden folgende Angaben bzw. Unterlagen gefordert: \n- Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäfts-jahren, soweit er \nBauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind \nunter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen \n- 3 Referenzen aus den letzten 5 Jahren, die mit der ausgeschriebenen Leistung vergleichbar sind\n- Zahl der in den letzten drei abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten \nArbeitskräfte, gegliedert nach Lohngruppen mit extra ausgewiesenem technischen Leitungspersonal, \nangeben - Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle bzw. bei \nder Industrie- und Handelskammer \n- Angabe dazu, dass kein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren \nweder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde \nund sich/mein Unternehmen nicht in Liquidation befindet. \n- Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse \n-eine Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen\n- Nachweis der Mitgliedschaft in der Berufsgenossenschaft"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": null,
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "25944528-1",
+ "source": {
+  "pubDay": "2026-10-17",
+  "noticeId": "25944528",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25944528",
+  "ocdsFile": "notices_2026-10-17_OCDS.zip:25944528-1.json",
+  "eformsFile": "notices_2026-10-17_eForms.zip:25944528-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25944528?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Straßenbau",
+  "buyer": "Stadt Buchloe",
+  "cpv": [
+   "45233120-6  45233140-2"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-09-09T14:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25944528",
+  "id": "25944528",
+  "date": "2026-10-17T07:01:56Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Buchloe",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Buchloe"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Buchloe",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Buchloe"
+   }
+  },
+  "tender": {
+   "title": "Straßenbau",
+   "description": "Verkehrswegebau-, Asphaltarbeiten",
+   "procuringEntity": {
+    "name": "Stadt Buchloe"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45233120-6  45233140-2"
+     },
+     "deliveryAddress": {
+      "locality": "86807 Buchloe - Honsolgen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Straßenbau",
+     "description": "Verkehrswegebau-, Asphaltarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25944528",
+  "version": "1",
+  "title": "Straßenbau",
+  "description": "Verkehrswegebau-, Asphaltarbeiten",
+  "procedureType": null,
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45233120-6  45233140-2"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Straßenbau",
+    "description": "Verkehrswegebau-, Asphaltarbeiten",
+    "cpv": [
+     "45233120-6  45233140-2"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-09-09T14:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

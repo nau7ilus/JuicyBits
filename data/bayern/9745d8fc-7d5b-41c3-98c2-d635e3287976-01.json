@@ -1,0 +1,290 @@
+{
+ "id": "9745d8fc-7d5b-41c3-98c2-d635e3287976-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "9745d8fc-7d5b-41c3-98c2-d635e3287976",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9745d8fc-7d5b-41c3-98c2-d635e3287976",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:9745d8fc-7d5b-41c3-98c2-d635e3287976-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:9745d8fc-7d5b-41c3-98c2-d635e3287976-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9745d8fc-7d5b-41c3-98c2-d635e3287976?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Niederflur Linienbusse (12 Meter EURO 6 HVO100)",
+  "buyer": "Larcher Touristik GmbH",
+  "cpv": [
+   "34121400"
+  ],
+  "nuts": [
+   "DE218"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-9ad25ddc-b436-45ec-a52a-3134129883ce",
+  "id": "9745d8fc-7d5b-41c3-98c2-d635e3287976",
+  "date": "2026-10-16T02:06:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Larcher Touristik GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE242243982",
+     "legalName": "Larcher Touristik GmbH"
+    },
+    "address": {
+     "streetAddress": "Anzinger Str. 26",
+     "locality": "Markt Schwaben",
+     "region": "DE218",
+     "postalCode": "85570",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Daimler Buses GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "118727",
+     "legalName": "Daimler Buses GmbH"
+    },
+    "address": {
+     "locality": "Garching bei München",
+     "region": "DE21H",
+     "postalCode": "85748",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Larcher Touristik GmbH",
+   "id": "DE242243982",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Larcher Touristik GmbH"
+   },
+   "address": {
+    "streetAddress": "Anzinger Str. 26",
+    "locality": "Markt Schwaben",
+    "region": "DE218",
+    "postalCode": "85570",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "9ad25ddc-b436-45ec-a52a-3134129883ce",
+   "title": "Niederflur Linienbusse (12 Meter EURO 6 HVO100)",
+   "description": "Die Larcher Touristik GmbH beabsichtigt die Beschaffung von 3 Niederflur-Linienbussen (ca. 12 Meter, EURO 6, HVO100-fähig).",
+   "procuringEntity": {
+    "name": "Larcher Touristik GmbH",
+    "id": "DE242243982"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34121400",
+      "description": "Low-floor buses"
+     },
+     "deliveryAddress": {
+      "locality": "Markt Schwaben",
+      "region": "DE218",
+      "postalCode": "85570",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 1050000,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-09-18T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Daimler Buses GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Daimler Buses GmbH"
+     },
+     "address": {
+      "locality": "Garching bei München",
+      "region": "DE21H",
+      "postalCode": "85748",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Niederflur Linienbusse (12 Meter EURO 6 HVO100)",
+     "description": "Die Larcher Touristik GmbH beabsichtigt die Beschaffung von 3 Niederflur-Linienbussen (ca. 12 Meter, EURO 6, HVO100-fähig).",
+     "value": {
+      "amount": 1050000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-10-14T00:00:00+02:00",
+      "endDate": "2026-11-13T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Liefervertrag über 3 Niederflur-Linienbusse (12 m, Euro 6, HVO 100)",
+    "status": "active",
+    "date": "2026-10-14T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Daimler Buses GmbH",
+      "id": "118727",
+      "identifier": {
+       "id": "ORG-0002",
+       "legalName": "Daimler Buses GmbH"
+      },
+      "address": {
+       "locality": "Garching bei München",
+       "region": "DE21H",
+       "postalCode": "85748",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "items": [
+     {
+      "id": 1,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "veh-acq",
+        "description": "Vehicle purchase, lease or rent"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "m3",
+        "description": "Bus (M3)"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles-clean",
+        "description": "Vehicles clean"
+       }
+      ],
+      "quantity": 3
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Liefervertrag über 3 Niederflur-Linienbusse (12 m, Euro 6, HVO 100)",
+    "status": "active",
+    "value": {
+     "amount": 998700,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-13T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "9745d8fc-7d5b-41c3-98c2-d635e3287976",
+  "version": "01",
+  "title": "Niederflur Linienbusse (12 Meter EURO 6 HVO100)",
+  "description": "Die Larcher Touristik GmbH beabsichtigt die Beschaffung von 3 Niederflur-Linienbussen (ca. 12 Meter, EURO 6, HVO100-fähig).",
+  "procedureType": "neg-w-call",
+  "nuts": [
+   "DE218"
+  ],
+  "cpv": [
+   "34121400"
+  ],
+  "estimatedValue": {
+   "amount": 1050000,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Niederflur Linienbusse (12 Meter EURO 6 HVO100)",
+    "description": "Die Larcher Touristik GmbH beabsichtigt die Beschaffung von 3 Niederflur-Linienbussen (ca. 12 Meter, EURO 6, HVO100-fähig).",
+    "cpv": [
+     "34121400"
+    ],
+    "nuts": [
+     "DE218"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-14+02:00",
+    "plannedEnd": "2026-11-13+01:00",
+    "duration": null,
+    "estimatedValue": {
+     "amount": 1050000,
+     "currency": "EUR"
+    },
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis (Komplettpreis netto)",
+      "description": "Zuschlag auf das wirtschaftlichste Angebot; maßgeblich ist der Gesamtpreis netto (Komplettpreis) gemäß Preisblatt.",
+      "weight": 100
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

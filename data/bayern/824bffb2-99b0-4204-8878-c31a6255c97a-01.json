@@ -1,0 +1,295 @@
+{
+ "id": "824bffb2-99b0-4204-8878-c31a6255c97a-01",
+ "source": {
+  "pubDay": "2026-10-20",
+  "noticeId": "824bffb2-99b0-4204-8878-c31a6255c97a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=824bffb2-99b0-4204-8878-c31a6255c97a",
+  "ocdsFile": "notices_2026-10-20_OCDS.zip:824bffb2-99b0-4204-8878-c31a6255c97a-01.json",
+  "eformsFile": "notices_2026-10-20_eForms.zip:824bffb2-99b0-4204-8878-c31a6255c97a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/824bffb2-99b0-4204-8878-c31a6255c97a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Unterhalts-, Reinraum-, Grund-, Sonder- und Fensterreinigung - Fraunhofer ENAS - PR 1274034-3340-I",
+  "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
+  "cpv": [
+   "90911200",
+   "90911300"
+  ],
+  "nuts": [
+   "DE212",
+   "DED41"
+  ],
+  "deadline": "2026-11-18T23:59:00+01:00",
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-cf6886a4-4736-43f1-82da-bea1b5e90bba",
+  "id": "824bffb2-99b0-4204-8878-c31a6255c97a",
+  "date": "2026-10-20T10:04:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE-129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "cf6886a4-4736-43f1-82da-bea1b5e90bba",
+   "title": "Unterhalts-, Reinraum-, Grund-, Sonder- und Fensterreinigung - Fraunhofer ENAS - PR 1274034-3340-I",
+   "description": "Unterhalts-, Reinraum-, Grund-, Sonder- und Fensterreinigung - Fraunhofer ENAS",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "locality": "Chemnitz",
+      "region": "DED41",
+      "postalCode": "09126",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911300",
+      "description": "Window-cleaning services"
+     },
+     "deliveryAddress": {
+      "locality": "Chemnitz",
+      "region": "DED41",
+      "postalCode": "09126",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a1528e66d4-564445bbe419016d",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://vergabe.fraunhofer.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a1528e66d4-564445bbe419016d",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 - Unterhalts- und Reinraumreinigung gem. Leistungsbeschreibung",
+     "description": "Los 1 - Unterhalts-, Reinraum-, Grund- und Sonderreinigung",
+     "contractPeriod": {
+      "startDate": "2027-05-01T00:00:00+02:00",
+      "endDate": "2029-04-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 - Fensterreinigung gem. Leistungsbeschreibung",
+     "description": "Los 2 - Fensterreinigung gem. Leistungsbeschreibung",
+     "contractPeriod": {
+      "startDate": "2027-05-01T00:00:00+02:00",
+      "endDate": "2029-04-30T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "824bffb2-99b0-4204-8878-c31a6255c97a",
+  "version": "01",
+  "title": "Unterhalts-, Reinraum-, Grund-, Sonder- und Fensterreinigung - Fraunhofer ENAS - PR 1274034-3340-I",
+  "description": "Unterhalts-, Reinraum-, Grund-, Sonder- und Fensterreinigung - Fraunhofer ENAS",
+  "procedureType": "open",
+  "nuts": [
+   "DED41"
+  ],
+  "cpv": [
+   "90911200",
+   "90911300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1 - Unterhalts- und Reinraumreinigung gem. Leistungsbeschreibung",
+    "description": "Los 1 - Unterhalts-, Reinraum-, Grund- und Sonderreinigung",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DED41"
+    ],
+    "deadline": "2026-11-18T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-01+02:00",
+    "plannedEnd": "2029-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz der letzten 3 Geschäftsjahre\n-\nDieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a1528e66d4-564445bbe419016d"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Konzepte",
+      "description": "Konzepte",
+      "weight": 65
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 - Fensterreinigung gem. Leistungsbeschreibung",
+    "description": "Los 2 - Fensterreinigung gem. Leistungsbeschreibung",
+    "cpv": [
+     "90911300"
+    ],
+    "nuts": [
+     "DED41"
+    ],
+    "deadline": "2026-11-18T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-01+02:00",
+    "plannedEnd": "2029-04-30+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ratio",
+      "description": "Umsatz der letzten 3 Geschäftsjahre\n-\nDieses Kriterium ist NICHT das einzige Eignungskriterium. Die vollständigen Eignungskriterien finden Sie hier:\n\nhttps://vergabe.fraunhofer.de/NetServer/SelectionCriteria/54321-Tender-1a1528e66d4-564445bbe419016d"
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "quality",
+      "name": "Konzept",
+      "description": "Konzept",
+      "weight": 65
+     },
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 35
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

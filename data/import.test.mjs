@@ -12,9 +12,14 @@ const release=(id,region,delivery)=>({uri:`https://oeffentlichevergabe.de/api/no
   tender:{title:`Dach ${id}`,items:[{classification:{scheme:'CPV',id:'45261000'},deliveryAddress:{region:delivery}}],lots:[{id:'LOT-0001'}]}}]});
 const eforms=(id,nuts,deadline)=>`<?xml version="1.0"?><ContractNotice xmlns:cac="c" xmlns:cbc="b" xmlns:efac="a" xmlns:efext="e" xmlns:ext="x"><cbc:ID>${id}</cbc:ID><cbc:VersionID>01</cbc:VersionID>
 <cac:ContractingParty><cac:Party><cac:Contact><cbc:ElectronicMail>vergabe@example.org</cbc:ElectronicMail></cac:Contact></cac:Party></cac:ContractingParty>
+<cac:TenderingProcess><cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode></cac:TenderingProcess>
 <cac:ProcurementProjectLot><cbc:ID>LOT-0001</cbc:ID><cac:TenderingTerms><ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><efext:EformsExtension>
 <efac:SelectionCriteria><cbc:TendererRequirementTypeCode>slc-stand-to-gen</cbc:TendererRequirementTypeCode><cbc:Description>Meisterbrief</cbc:Description></efac:SelectionCriteria>
-</efext:EformsExtension></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions></cac:TenderingTerms>
+</efext:EformsExtension></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+<cac:RequiredFinancialGuarantee><cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode><cbc:Description>5 % Vertragserfüllung</cbc:Description></cac:RequiredFinancialGuarantee>
+<cac:AwardingTerms><cac:AwardingCriterion><cac:SubordinateAwardingCriterion><ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><efext:EformsExtension>
+<efac:AwardCriterionParameter><efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode><efbc:ParameterNumeric>70.0</efbc:ParameterNumeric></efac:AwardCriterionParameter>
+</efext:EformsExtension></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions><cbc:AwardingCriterionTypeCode>price</cbc:AwardingCriterionTypeCode><cbc:Name>Preis</cbc:Name></cac:SubordinateAwardingCriterion></cac:AwardingCriterion></cac:AwardingTerms></cac:TenderingTerms>
 <cac:TenderingProcess>${deadline?'<cac:TenderSubmissionDeadlinePeriod><cbc:EndDate>2026-11-30+01:00</cbc:EndDate><cbc:EndTime>09:00:00+01:00</cbc:EndTime></cac:TenderSubmissionDeadlinePeriod>':''}</cac:TenderingProcess>
 <cac:ProcurementProject><cbc:Name>Los 1</cbc:Name><cac:MainCommodityClassification><cbc:ItemClassificationCode listName="cpv">03000000</cbc:ItemClassificationCode></cac:MainCommodityClassification>
 <cac:RealizedLocation><cac:Address><cbc:PostalZone>08523</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">${nuts}</cbc:CountrySubentityCode></cac:Address></cac:RealizedLocation></cac:ProcurementProject>
@@ -30,6 +35,9 @@ test('eForms extraction keeps codes as strings and drops contacts',()=>{
  assert.deepEqual(form.lots[0].cpv,['03000000']);
  assert.equal(form.lots[0].deadline,'2026-11-30T09:00:00+01:00');
  assert.deepEqual(form.lots[0].selectionCriteria,[{type:'slc-stand-to-gen',description:'Meisterbrief'}]);
+ assert.equal(form.procedureType,'open');
+ assert.deepEqual(form.lots[0].awardCriteria,[{type:'price',name:'Preis',description:null,weight:70}]);
+ assert.deepEqual(form.lots[0].guarantee,{required:true,description:'5 % Vertragserfüllung'});
  assert.doesNotMatch(JSON.stringify(form),/@example|ElectronicMail/);
 });
 test('contact keys are removed at any depth',()=>{

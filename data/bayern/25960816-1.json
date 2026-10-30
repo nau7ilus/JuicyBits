@@ -1,0 +1,142 @@
+{
+ "id": "25960816-1",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "25960816",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25960816",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:25960816-1.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:25960816-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25960816?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Spitalstraße 7, Lüftung",
+  "buyer": "zentrale Vergabestelle",
+  "cpv": [
+   "42520000-7",
+   "42500000-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25960816",
+  "id": "25960816",
+  "date": "2026-10-23T07:01:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "zentrale Vergabestelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "zentrale Vergabestelle"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "zentrale Vergabestelle",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "zentrale Vergabestelle"
+   }
+  },
+  "tender": {
+   "title": "Spitalstraße 7, Lüftung",
+   "description": "Spitalstraße 7, Lüftung",
+   "procuringEntity": {
+    "name": "zentrale Vergabestelle"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "42520000-7"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "42500000-1"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "86609 Donauwörth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXVHY4RDYHFPULJC",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Spitalstraße 7, Lüftung",
+     "description": "Spitalstraße 7, Lüftung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25960816",
+  "version": "1",
+  "title": "Spitalstraße 7, Lüftung",
+  "description": "Spitalstraße 7, Lüftung",
+  "procedureType": "beabsichtigte Beschränkte Ausschreibung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "42520000-7",
+   "42500000-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Spitalstraße 7, Lüftung",
+    "description": "Spitalstraße 7, Lüftung",
+    "cpv": [
+     "42520000-7",
+     "42500000-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

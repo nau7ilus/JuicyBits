@@ -1,0 +1,134 @@
+{
+ "id": "25954426-1",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "25954426",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25954426",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:25954426-1.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:25954426-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25954426?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen",
+  "buyer": "WIGES Wasserbauliche Infrastrukturgesellschaft mbH",
+  "cpv": [
+   "45112700-2"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-16T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25954426",
+  "id": "25954426",
+  "date": "2026-10-21T07:01:30Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "WIGES Wasserbauliche Infrastrukturgesellschaft mbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "WIGES Wasserbauliche Infrastrukturgesellschaft mbH"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "WIGES Wasserbauliche Infrastrukturgesellschaft mbH",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "WIGES Wasserbauliche Infrastrukturgesellschaft mbH"
+   }
+  },
+  "tender": {
+   "title": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen",
+   "description": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen",
+   "procuringEntity": {
+    "name": "WIGES Wasserbauliche Infrastrukturgesellschaft mbH"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45112700-2"
+     },
+     "deliveryAddress": {
+      "locality": "94315 Deggendorf",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305103",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen",
+     "description": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25954426",
+  "version": "1",
+  "title": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen",
+  "description": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen",
+  "procedureType": "de-open",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45112700-2"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen",
+    "description": "StDeW.5618 MK5 AFG Bepflanzung Setzstangen",
+    "cpv": [
+     "45112700-2"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-16T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

@@ -5,14 +5,14 @@
   "noticeId": "846d6189-4747-4d1e-be8b-26ff90e62134",
   "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=846d6189-4747-4d1e-be8b-26ff90e62134",
   "ocdsFile": "notices_2026-10-28_OCDS.zip:846d6189-4747-4d1e-be8b-26ff90e62134-01.json",
-  "eformsFile": null,
+  "eformsFile": "notices_2026-10-28_eForms.zip:846d6189-4747-4d1e-be8b-26ff90e62134-01.xml",
   "noticeUri": "https://oeffentlichevergabe.de/api/notices/846d6189-4747-4d1e-be8b-26ff90e62134?format=ocds&noticeVersion=01"
  },
  "summary": {
   "tag": [
    "award"
   ],
-  "noticeType": null,
+  "noticeType": "ContractAwardNotice",
   "title": "Glastrennwände",
   "buyer": "Klinikum Main-Spessart",
   "cpv": [
@@ -203,5 +203,52 @@
   ],
   "language": "DEU"
  },
- "eforms": null
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "846d6189-4747-4d1e-be8b-26ff90e62134",
+  "version": "01",
+  "title": "Glastrennwände",
+  "description": "Bei den ausgeschriebenen Leistungen handelt es sich im Wesentlichen um die Montage und Lieferung von Glas- Trennwände aus Aluminiumprofilen mit Soppel- und Einfachverglasungen,mit Türen, Durchblickfenster, teilweise mit integrierten Sichtschutz-Jalousien mit Steuerung für den Neubau des Klinikums Main- Spessart in Lohr.",
+  "procedureType": "open",
+  "nuts": [
+   "DE26A"
+  ],
+  "cpv": [
+   "45421130",
+   "45000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Glastrennwände",
+    "description": "Bei den ausgeschriebenen Leistungen handelt es sich im Wesentlichen um die Montage und Lieferung von Glas- Trennwände aus Aluminiumprofilen mit Soppel- und Einfachverglasungen,mit Türen, Durchblickfenster, teilweise mit integrierten Sichtschutz-Jalousien mit Steuerung für den Neubau des Klinikums Main- Spessart in Lohr.",
+    "cpv": [
+     "45421130",
+     "45000000"
+    ],
+    "nuts": [
+     "DE26A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-29+01:00",
+    "plannedEnd": "2026-12-29+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Preis als einziges Zuschlagskriterium",
+      "weight": null
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
 }

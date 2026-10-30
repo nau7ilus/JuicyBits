@@ -1,0 +1,246 @@
+{
+ "id": "5809075a-5379-4461-82b3-1912112c461d-01",
+ "source": {
+  "pubDay": "2026-10-23",
+  "noticeId": "5809075a-5379-4461-82b3-1912112c461d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5809075a-5379-4461-82b3-1912112c461d",
+  "ocdsFile": "notices_2026-10-23_OCDS.zip:5809075a-5379-4461-82b3-1912112c461d-01.json",
+  "eformsFile": "notices_2026-10-23_eForms.zip:5809075a-5379-4461-82b3-1912112c461d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5809075a-5379-4461-82b3-1912112c461d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Sammelbestellung 25 - Kauf von vollelektrischen folierten Fahrzeugen der Kompaktklasse",
+  "buyer": "Wasserwirtschaftsamt Weiden",
+  "cpv": [
+   "34144900"
+  ],
+  "nuts": [
+   "DE233"
+  ],
+  "deadline": "2026-10-22T10:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f3831e29-c817-4b03-9afa-21f4c0ca32c2",
+  "id": "5809075a-5379-4461-82b3-1912112c461d",
+  "date": "2026-10-23T02:12:28Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Wasserwirtschaftsamt Weiden",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-1278308-54",
+     "legalName": "Wasserwirtschaftsamt Weiden"
+    },
+    "address": {
+     "streetAddress": "Am Langen Steg 5",
+     "locality": "Weiden i.d.OPf.",
+     "region": "DE233",
+     "postalCode": "92637",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabestelle Wasserwirtschaftsamt Weiden",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-1278308-54",
+     "legalName": "Vergabestelle Wasserwirtschaftsamt Weiden"
+    },
+    "address": {
+     "streetAddress": "Am Langen Steg 5",
+     "locality": "Weiden i.d.OPf.",
+     "region": "DE233",
+     "postalCode": "92637",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Wasserwirtschaftsamt Weiden",
+   "id": "09-1278308-54",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Wasserwirtschaftsamt Weiden"
+   },
+   "address": {
+    "streetAddress": "Am Langen Steg 5",
+    "locality": "Weiden i.d.OPf.",
+    "region": "DE233",
+    "postalCode": "92637",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f3831e29-c817-4b03-9afa-21f4c0ca32c2",
+   "title": "Sammelbestellung 25 - Kauf von vollelektrischen folierten Fahrzeugen der Kompaktklasse",
+   "description": "Inhalt der Leistung ist die Lieferung von 35 vollfolierten vollelektrischen Fahrzeugen für die bayerische Wasserwirtschaftsverwaltung, welche überwiegend für Dienstfahrten im Nah und Fernverkehr eingesetzt werden",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144900",
+      "description": "Electric vehicles"
+     },
+     "deliveryLocation": {
+      "description": "Die Fahrzeuge werden an folgenden Wasserwirtschaftsämtern eingesetzt: Ansbach, Aschaffenburg, Bad Kissingen, Deggendorf, Donauwörth, Hof, Ingolstadt, Kempten, Kronach, Landshut, München, Nürnberg, Regensburg, Rosenheim, Weiden, Weilheim"
+     },
+     "deliveryAddress": {
+      "locality": "Weiden",
+      "region": "DE233",
+      "postalCode": "92637",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/301494",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-23T02:12:28.358Z",
+     "rationale": "Die Angebotsfrist wurde auf 27.10.2026, 10:00 Uhr verschoben.",
+     "description": "Die Angebotsfrist wurde auf 27.10.2026, 10:00 Uhr verschoben.",
+     "amendsReleaseID": "b8dcfb30-5fb0-4bea-96e7-aee3fe042a0c-01",
+     "releaseID": "5809075a-5379-4461-82b3-1912112c461d-01"
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0000",
+     "title": "Sammelbestellung 25 - Kauf von vollelektrischen folierten Fahrzeugen der Kompaktklasse",
+     "description": "Inhalt der Leistung ist die Lieferung von 35 vollfolierten vollelektrischen Fahrzeugen für die bayerische Wasserwirtschaftsverwaltung, welche überwiegend für Dienstfahrten im Nah und Fernverkehr eingesetzt werden",
+     "contractPeriod": {
+      "startDate": "2027-05-01T00:00:00+02:00",
+      "endDate": "2027-07-31T00:00:00+02:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "5809075a-5379-4461-82b3-1912112c461d",
+  "version": "01",
+  "title": "Sammelbestellung 25 - Kauf von vollelektrischen folierten Fahrzeugen der Kompaktklasse",
+  "description": "Inhalt der Leistung ist die Lieferung von 35 vollfolierten vollelektrischen Fahrzeugen für die bayerische Wasserwirtschaftsverwaltung, welche überwiegend für Dienstfahrten im Nah und Fernverkehr eingesetzt werden",
+  "procedureType": "open",
+  "nuts": [
+   "DE233"
+  ],
+  "cpv": [
+   "34144900"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Sammelbestellung 25 - Kauf von vollelektrischen folierten Fahrzeugen der Kompaktklasse",
+    "description": "Inhalt der Leistung ist die Lieferung von 35 vollfolierten vollelektrischen Fahrzeugen für die bayerische Wasserwirtschaftsverwaltung, welche überwiegend für Dienstfahrten im Nah und Fernverkehr eingesetzt werden",
+    "cpv": [
+     "34144900"
+    ],
+    "nuts": [
+     "DE233"
+    ],
+    "deadline": "2026-10-22T10:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-01+02:00",
+    "plannedEnd": "2027-07-31+02:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=301494\n\nDie Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 124 / L1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=301494\n\nDie Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 124 / L 1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=301494\n\nDie Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 124 / L 1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=301494\n\nDie Eignungskriterien und die geforderten Nachweise, Bescheinigungen sind in der Eigenerklärung (Formblatt L 211, L 124 / L 1240) und in der Aufforderung zur Angebotsabgabe (Formblatt L 211) aufgelistet.  Hier finden Sie auch den Zeitpunkt, zu der die Nachweise/Bescheinigungen einzureichen sind."
+     }
+    ],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Der Preis ist das einzige Zuschlagskriterium.",
+      "description": "Der Preis ist das einzige Zuschlagskriterium.",
+      "weight": 100
+     }
+    ],
+    "guarantee": {
+     "required": false,
+     "description": null
+    }
+   }
+  ]
+ }
+}

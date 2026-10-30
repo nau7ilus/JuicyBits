@@ -1,0 +1,228 @@
+{
+ "id": "1116394c-dcc6-4a09-8df0-c06e954ed163-01",
+ "source": {
+  "pubDay": "2026-10-22",
+  "noticeId": "1116394c-dcc6-4a09-8df0-c06e954ed163",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1116394c-dcc6-4a09-8df0-c06e954ed163",
+  "ocdsFile": "notices_2026-10-22_OCDS.zip:1116394c-dcc6-4a09-8df0-c06e954ed163-01.json",
+  "eformsFile": "notices_2026-10-22_eForms.zip:1116394c-dcc6-4a09-8df0-c06e954ed163-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1116394c-dcc6-4a09-8df0-c06e954ed163?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "Projektsteuerung ZBA Rbf. München Nord: Los 1 Projektsteuerung Erneuerung ZBA München Nord und Los 2 Projektsteuerung ESTW München Ost Rangierbahnhof",
+  "buyer": "DB Netz AG (Bukr 16)",
+  "cpv": [
+   "71300000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3977e686-e6a4-4032-9d20-d437036c6633",
+  "id": "1116394c-dcc6-4a09-8df0-c06e954ed163",
+  "date": "2026-10-22T02:08:25Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB Netz AG (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37",
+     "legalName": "DB Netz AG (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Sweco GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "90ecd315-fd3f-4eb7-8f2d-7ac3218f6e1d",
+     "legalName": "Sweco GmbH"
+    },
+    "address": {
+     "locality": "Frankfurt am Main",
+     "region": "DE712",
+     "postalCode": "60329",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB Netz AG (Bukr 16)",
+   "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB Netz AG (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3977e686-e6a4-4032-9d20-d437036c6633",
+   "title": "Projektsteuerung ZBA Rbf. München Nord: Los 1 Projektsteuerung Erneuerung ZBA München Nord und Los 2 Projektsteuerung ESTW München Ost Rangierbahnhof",
+   "description": "Projektsteuerung ZBA Rbf. München Nord: Los 1 Projektsteuerung Erneuerung ZBA München Nord und Los 2 Projektsteuerung ESTW München Ost Rangierbahnhof",
+   "procuringEntity": {
+    "name": "DB Netz AG (Bukr 16)",
+    "id": "f45ee0d3-f9b6-44f0-846d-0c10b6f61a37"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71300000",
+      "description": "Engineering services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80805",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2023-07-06T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Sweco GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Sweco GmbH"
+     },
+     "address": {
+      "locality": "Frankfurt am Main",
+      "region": "DE712",
+      "postalCode": "60329",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 2: Projektsteuerung ESTW München Ost Rangierbahnhof",
+     "description": "Los 2: Projektsteuerung ESTW München Ost Rangierbahnhof",
+     "contractPeriod": {
+      "startDate": "2023-07-24T00:00:00+02:00",
+      "endDate": "2025-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2023-07-17T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2023-07-16T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "1116394c-dcc6-4a09-8df0-c06e954ed163",
+  "version": "01",
+  "title": "Projektsteuerung ZBA Rbf. München Nord: Los 1 Projektsteuerung Erneuerung ZBA München Nord und Los 2 Projektsteuerung ESTW München Ost Rangierbahnhof",
+  "description": "Projektsteuerung ZBA Rbf. München Nord: Los 1 Projektsteuerung Erneuerung ZBA München Nord und Los 2 Projektsteuerung ESTW München Ost Rangierbahnhof",
+  "procedureType": null,
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "71300000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 2: Projektsteuerung ESTW München Ost Rangierbahnhof",
+    "description": "Los 2: Projektsteuerung ESTW München Ost Rangierbahnhof",
+    "cpv": [
+     "71300000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2023-07-24+02:00",
+    "plannedEnd": "2025-12-31+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [],
+    "guarantee": null
+   }
+  ]
+ }
+}

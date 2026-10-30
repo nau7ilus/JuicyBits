@@ -1,36 +1,28 @@
 ---
 name: tender-test-cases
-description: Build TenderScout test cases - a fictional contractor profile plus real Bavarian notices with the expected go/no-go and reasons - and compare pipeline output against them. Use for tickets T5 and T11 or when checking assessment quality.
+description: Maintain TenderScout test cases - Firmenpass profiles in examples/, expected verdicts in examples/t5-expected.json - and run npm run eval to compare the live pipeline with them. Use for tickets T5 and T11 or when checking assessment quality.
 ---
 
 # Tender test cases
 
-Owner: B3 (T5, T11). Rules: `AGENTS.md`.
+Owner: B3 (T5 done, T11). Rules: `AGENTS.md`. Fields and scoring: `docs/firmenpass.md`.
 
-## Inputs
-- `data/bayern/index.json` and the notice files next to it (run the `tender-data-import` skill first if empty).
-- The input schema. Draft until T9 is closed:
-```json
-{"trade":"roofing","cpv_prefixes":["45261"],"states":["DE-BY"],"min_value_eur":20000,"max_value_eur":500000,
- "certifications":["Meisterbetrieb","Präqualifikation Bau"],"capacity_note":"2 Kolonnen, Start frühestens Januar",
- "exclusions":["Vertragsstrafe > 5%","Ausführungsfrist < 4 Wochen"],"lookback_days":14}
-```
+## Files
+- `examples/<id>.pass.json`: one Firmenpass per company. Must pass `validatePass` (`npm run scout -- examples/<id>.pass.json --offline` shows errors).
+- `examples/t5-expected.json`: `cases[]` with `profile`, `notice` (noticeId), `title`, `expected` (`go` or `nogo`), `score` (T5 reference), and `now` (fixed evaluation time, because deadlines expire).
+- `examples/README.md`: assumptions made when filling required fields, and known differences.
 
-## Steps (T5)
-1. Write three fictional company profiles in `examples/<name>.profile.json`. Use real trades with enough open tenders (count open tenders per CPV prefix in `data/bayern/index.json`). Make one profile that should get zero matches.
-2. For each profile pick real notices from `data/bayern/`: at least one clear go, one clear no-go, and one borderline. Five distinct notices in total.
-3. Write `examples/<name>.expected.md` in German. Per notice:
-   - `id` and `source.link`
-   - expected Go/No-Go and a score band (e.g. 70-90)
-   - the reasons, each tied to a field in the notice file (`eforms.lots[].selectionCriteria`, `plannedStart`, `estimatedValue`, `deadline`) or to the profile
-   - facts that must appear unchanged in the report (deadline, CPV, buyer)
+## Add or change a case
+1. Pick a real notice from `data/bayern/index.json` (Bavaria, `tag` `tender`, open deadline at `now`). Use its noticeId without the `-01` version suffix.
+2. Add a profile or reuse one. Fill required fields; prefer real proofs (`references`, `revenue_band_eur`, `liability_insurance_eur`) over leaving them out, because missing proofs become to-dos and cap at GO MIT AUFLAGE.
+3. Add the case to `t5-expected.json`. Expected `go` accepts GO; GO MIT AUFLAGE counts as "teilweise". Expected `nogo` also passes when the prefilter drops the notice.
 4. Do not copy contact data from source pages into examples.
 
-## Steps (T11)
-1. Run each profile through the pipeline (command from D once T10 is done; until then mark `TODO (T10)`).
-2. Compare the report with the expected file: go/no-go, score band, reasons, unchanged facts, no invented notices.
-3. Record differences in `docs/tickets/T11/abweichungen.md` as a table: profile, notice, expected, actual, likely cause (data, prefilter, prompt). Hand prompt issues to T20.
+## Run (T11)
+1. `npm start` in one terminal (Eve with the OpenAI model).
+2. `npm run eval` in another. It prints a table and writes `.local/eval.md`.
+3. For every row that is not "ja", record profile, notice, expected, actual, likely cause (profile data, prefilter, prompt) in `docs/tickets/T11/abweichungen.md`. Hand prompt issues to T20 (`assessment-prompt` skill).
+4. Save the run as `docs/tickets/T11/t5-eval-live.md`.
 
 ## Done when
-- Three profiles, five real notices, expected results with field-based reasons.
-- For T11: every difference recorded with a likely cause.
+- Every case is "ja", or each difference has a recorded cause and owner.

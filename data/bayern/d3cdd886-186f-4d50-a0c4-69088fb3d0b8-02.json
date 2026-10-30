@@ -1,0 +1,233 @@
+{
+ "id": "d3cdd886-186f-4d50-a0c4-69088fb3d0b8-02",
+ "source": {
+  "pubDay": "2026-10-21",
+  "noticeId": "d3cdd886-186f-4d50-a0c4-69088fb3d0b8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d3cdd886-186f-4d50-a0c4-69088fb3d0b8",
+  "ocdsFile": "notices_2026-10-21_OCDS.zip:d3cdd886-186f-4d50-a0c4-69088fb3d0b8-02.json",
+  "eformsFile": "notices_2026-10-21_eForms.zip:d3cdd886-186f-4d50-a0c4-69088fb3d0b8-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d3cdd886-186f-4d50-a0c4-69088fb3d0b8?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV107 Dachdecker/Spengler",
+  "buyer": "Gemeinde Brannenburg",
+  "cpv": [
+   "45260000"
+  ],
+  "nuts": [
+   "DE21K"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0b3dfca3-b74c-455d-908f-7446ef8243a6",
+  "id": "d3cdd886-186f-4d50-a0c4-69088fb3d0b8",
+  "date": "2026-10-21T02:09:18Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Brannenburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "6233",
+     "legalName": "Gemeinde Brannenburg"
+    },
+    "address": {
+     "streetAddress": "Schulweg 2",
+     "locality": "Brannenburg",
+     "region": "DE21K",
+     "postalCode": "83098",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0e4ea0aa-4146-44ba-87e6-34c32176e86b",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Binder & Sohn GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE128578726",
+     "legalName": "Binder & Sohn GmbH"
+    },
+    "address": {
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85055",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Brannenburg",
+   "id": "6233",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Brannenburg"
+   },
+   "address": {
+    "streetAddress": "Schulweg 2",
+    "locality": "Brannenburg",
+    "region": "DE21K",
+    "postalCode": "83098",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0b3dfca3-b74c-455d-908f-7446ef8243a6",
+   "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV107 Dachdecker/Spengler",
+   "description": "Dachdecker- und Spenglerarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinde Brannenburg",
+    "id": "6233"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45260000",
+      "description": "Roof works and other special trade construction works"
+     },
+     "deliveryAddress": {
+      "region": "DE21K",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Binder & Sohn GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Binder & Sohn GmbH"
+     },
+     "address": {
+      "locality": "Ingolstadt",
+      "region": "DE211",
+      "postalCode": "85055",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV107 Dachdecker/Spengler",
+     "description": "Dachdecker- und Spenglerarbeiten"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-07T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 377586.84,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-06T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "d3cdd886-186f-4d50-a0c4-69088fb3d0b8",
+  "version": "02",
+  "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV107 Dachdecker/Spengler",
+  "description": "Dachdecker- und Spenglerarbeiten",
+  "procedureType": "open",
+  "nuts": [
+   "DE21K"
+  ],
+  "cpv": [
+   "45260000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV107 Dachdecker/Spengler",
+    "description": "Dachdecker- und Spenglerarbeiten",
+    "cpv": [
+     "45260000"
+    ],
+    "nuts": [
+     "DE21K"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": "Preis",
+      "description": "Preis",
+      "weight": 1
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}

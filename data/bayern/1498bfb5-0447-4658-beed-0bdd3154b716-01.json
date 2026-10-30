@@ -1,0 +1,291 @@
+{
+ "id": "1498bfb5-0447-4658-beed-0bdd3154b716-01",
+ "source": {
+  "pubDay": "2026-10-16",
+  "noticeId": "1498bfb5-0447-4658-beed-0bdd3154b716",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1498bfb5-0447-4658-beed-0bdd3154b716",
+  "ocdsFile": "notices_2026-10-16_OCDS.zip:1498bfb5-0447-4658-beed-0bdd3154b716-01.json",
+  "eformsFile": "notices_2026-10-16_eForms.zip:1498bfb5-0447-4658-beed-0bdd3154b716-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1498bfb5-0447-4658-beed-0bdd3154b716?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau Kindertagesstätte Hergensweiler - Metallbauarbeiten",
+  "buyer": "Gemeinde Hergensweiler",
+  "cpv": [
+   "45262670",
+   "44233000",
+   "45341000",
+   "45262900"
+  ],
+  "nuts": [
+   "DE27A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-58fe5eeb-9603-4e95-9f8e-c5d9961ef61a",
+  "id": "1498bfb5-0447-4658-beed-0bdd3154b716",
+  "date": "2026-10-16T02:10:50Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Hergensweiler",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09776115-HGW01-50",
+     "legalName": "Gemeinde Hergensweiler"
+    },
+    "address": {
+     "streetAddress": "Friedhofweg 7",
+     "locality": "Hergensweiler",
+     "region": "DE27A",
+     "postalCode": "88138",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "89-2176-0",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Mannseichner Metallbau GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "260831",
+     "legalName": "Mannseichner Metallbau GmbH"
+    },
+    "address": {
+     "streetAddress": "Birkenweg 26",
+     "locality": "Altenstadt",
+     "region": "DE21N",
+     "postalCode": "86972",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Hergensweiler",
+   "id": "09776115-HGW01-50",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Hergensweiler"
+   },
+   "address": {
+    "streetAddress": "Friedhofweg 7",
+    "locality": "Hergensweiler",
+    "region": "DE27A",
+    "postalCode": "88138",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "58fe5eeb-9603-4e95-9f8e-c5d9961ef61a",
+   "title": "Neubau Kindertagesstätte Hergensweiler - Metallbauarbeiten",
+   "description": "Die Gemeinde Hergensweiler beabsichtigt den Neubau der Kindertagesstätte St. Ambrosius für rund 130 Kinder auf einem Grundstück im Zentrum von Hergensweiler. Der Neubau soll zweigeschossig in Holzbauweise erstellt werden. Das bestehende Gebäude wurde bereits komplett rückgebaut.\nZu vergeben sind die Leistungen rund um den Metallbauarbeiten.\nVoraussichtlicher Ausführungszeitraum: 13.05.2027 - 26.01.2028\nMetallbauarbeiten außen: 13.05.2027 - 25.06.2027\nMetallbauarbeiten innen: 20.01.2028 - 26.01.2028\n\nDie einzelnen Ausführungszeiträume können auch dem Bauzeitenplan entnommen werden.",
+   "procuringEntity": {
+    "name": "Gemeinde Hergensweiler",
+    "id": "09776115-HGW01-50"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "44233000",
+       "description": "Staircases"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45341000",
+       "description": "Erection of railings"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45262900",
+       "description": "Balcony work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Friedhofweg 4",
+      "locality": "Hergensweiler",
+      "region": "DE27A",
+      "postalCode": "88138",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-09-17T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Mannseichner Metallbau GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Mannseichner Metallbau GmbH"
+     },
+     "address": {
+      "streetAddress": "Birkenweg 26",
+      "locality": "Altenstadt",
+      "region": "DE21N",
+      "postalCode": "86972",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Metallbauarbeiten",
+     "description": "Metallbauarbeiten Außenbereich: Außentreppe, Balkon, Fenster\nMetallbauarbeiten Innenbereich: Innentreppe Foyer\n\nBrüstungen, Podeste, Handläufe, Balkonverkleidung /-brüstung, Fensterbrüstung",
+     "contractPeriod": {
+      "startDate": "2027-05-13T00:00:00+02:00",
+      "endDate": "2028-01-26T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-30T00:00:00+02:00",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "suppliers": [
+     {
+      "name": "Mannseichner Metallbau GmbH",
+      "id": "260831",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Mannseichner Metallbau GmbH"
+      },
+      "address": {
+       "streetAddress": "Birkenweg 26",
+       "locality": "Altenstadt",
+       "region": "DE21N",
+       "postalCode": "86972",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-29T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "1498bfb5-0447-4658-beed-0bdd3154b716",
+  "version": "01",
+  "title": "Neubau Kindertagesstätte Hergensweiler - Metallbauarbeiten",
+  "description": "Die Gemeinde Hergensweiler beabsichtigt den Neubau der Kindertagesstätte St. Ambrosius für rund 130 Kinder auf einem Grundstück im Zentrum von Hergensweiler. Der Neubau soll zweigeschossig in Holzbauweise erstellt werden. Das bestehende Gebäude wurde bereits komplett rückgebaut.\nZu vergeben sind die Leistungen rund um den Metallbauarbeiten.\nVoraussichtlicher Ausführungszeitraum: 13.05.2027 - 26.01.2028\nMetallbauarbeiten außen: 13.05.2027 - 25.06.2027\nMetallbauarbeiten innen: 20.01.2028 - 26.01.2028\n\nDie einzelnen Ausführungszeiträume können auch dem Bauzeitenplan entnommen werden.",
+  "procedureType": "open",
+  "nuts": [
+   "DE27A"
+  ],
+  "cpv": [
+   "45262670",
+   "44233000",
+   "45341000",
+   "45262900"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Metallbauarbeiten",
+    "description": "Metallbauarbeiten Außenbereich: Außentreppe, Balkon, Fenster\nMetallbauarbeiten Innenbereich: Innentreppe Foyer\n\nBrüstungen, Podeste, Handläufe, Balkonverkleidung /-brüstung, Fensterbrüstung",
+    "cpv": [
+     "45262670",
+     "44233000",
+     "45341000",
+     "45262900"
+    ],
+    "nuts": [
+     "DE27A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-05-13+02:00",
+    "plannedEnd": "2028-01-26+01:00",
+    "duration": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": [],
+    "awardCriteria": [
+     {
+      "type": "price",
+      "name": null,
+      "description": "Das günstigste Angebot erhält den Zuschlag, sofern keine Ausschlussgründe vorliegen und die Eignung nachgewiesen wurde.",
+      "weight": 0
+     }
+    ],
+    "guarantee": null
+   }
+  ]
+ }
+}
