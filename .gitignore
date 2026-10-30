@@ -134,3 +134,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# TUM hackathon template
+.env.*
+!.env.example
+.local/
+.eve/
+.workflow/
+.output/
+dist/
+docs/*.json

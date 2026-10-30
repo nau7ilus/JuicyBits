@@ -1,0 +1,421 @@
+{
+    "project": "Ausschreibungs-Agent auf Cardano (Masumi/Sokosumi)",
+    "start": "2026-10-30T18:00:00+01:00",
+    "deadline": "2026-10-31T15:00:00+01:00",
+    "roles": {
+        "D": "Entwicklung (kritischer Pfad)",
+        "B1": "Daten & Kriterien",
+        "B2": "Business Case & Pitch",
+        "B3": "Test & Doku",
+        "B4": "Video & Devfolio"
+    },
+    "critical_path": [
+        "T1",
+        "T7",
+        "T8",
+        "T10",
+        "T12",
+        "T13"
+    ],
+    "rules": [
+        "Wenn T13 bis 01:00 nicht laeuft, trotzdem schlafen. Masumi-Support ist morgen frueh erreichbar.",
+        "Nach T13 wird die Zahlungsstrecke nicht mehr angefasst.",
+        "Bei Verzug fallen T24 und T25 weg, nicht T18."
+    ],
+    "tickets": [
+        {
+            "id": "T1",
+            "title": "Setup: Node 24, Masumi-Quickstart, Sokosumi CLI 1.0.4, Preprod-Account, Testgeld, Claude-Key",
+            "owner": [
+                "D"
+            ],
+            "hours": 1.5,
+            "depends_on": [],
+            "priority": "must",
+            "start": "Fr 18:00"
+        },
+        {
+            "id": "T2",
+            "title": "Daten-Scouting: Open-Data-Endpunkt, Export-URL, OCDS-Feldnamen pruefen, Beispieldatei ziehen",
+            "owner": [
+                "B1"
+            ],
+            "hours": 1,
+            "depends_on": [],
+            "priority": "must",
+            "start": "Fr 18:00"
+        },
+        {
+            "id": "T3",
+            "title": "CPV-Codes fuer Demo-Gewerke (Dach, Reinigung, Security, Beratung)",
+            "owner": [
+                "B1"
+            ],
+            "hours": 0.5,
+            "depends_on": [],
+            "priority": "must",
+            "start": "Fr 18:00",
+            "handoff_to": "D",
+            "handoff_deadline": "Fr 20:30"
+        },
+        {
+            "id": "T4",
+            "title": "Kriterienkatalog aus Kundensicht (Gewerk, Region, Volumen, Zertifikate, Kapazitaet, Ausschluesse)",
+            "owner": [
+                "B1"
+            ],
+            "hours": 1,
+            "depends_on": [],
+            "priority": "must",
+            "start": "Fr 19:30"
+        },
+        {
+            "id": "T5",
+            "title": "Testfaelle: 5 echte Bekanntmachungen + 3 fiktive Firmenprofile mit erwartetem Go/No-Go",
+            "owner": [
+                "B3"
+            ],
+            "hours": 2,
+            "depends_on": [
+                "T2"
+            ],
+            "priority": "should",
+            "start": "Fr 18:00"
+        },
+        {
+            "id": "T6",
+            "title": "Bewertungsprompt als deutscher Text: was pruefen, wie begruenden, Ausgabeformat",
+            "owner": [
+                "B2"
+            ],
+            "hours": 1.5,
+            "depends_on": [
+                "T4"
+            ],
+            "priority": "must",
+            "start": "Fr 19:30",
+            "handoff_to": "D",
+            "handoff_deadline": "Fr 21:30"
+        },
+        {
+            "id": "T7",
+            "title": "OCDS-Export laden und parsen (Titel, CPV, Region, Frist, Wert, Link)",
+            "owner": [
+                "D"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T1",
+                "T2"
+            ],
+            "priority": "must",
+            "start": "Fr 19:30"
+        },
+        {
+            "id": "T8",
+            "title": "Vorfilter nach CPV, Bundesland, offener Frist",
+            "owner": [
+                "D"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T7",
+                "T3"
+            ],
+            "priority": "must",
+            "start": "Fr 20:30"
+        },
+        {
+            "id": "T9",
+            "title": "Eingabeschema (JSON) festlegen",
+            "owner": [
+                "D",
+                "B1"
+            ],
+            "hours": 0.5,
+            "depends_on": [
+                "T4"
+            ],
+            "priority": "must",
+            "start": "Fr 20:30"
+        },
+        {
+            "id": "T10",
+            "title": "Claude-Bewertung integrieren, Markdown-Report",
+            "owner": [
+                "D"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T8",
+                "T6",
+                "T9"
+            ],
+            "priority": "must",
+            "start": "Fr 21:30"
+        },
+        {
+            "id": "T11",
+            "title": "Qualitaetstest: Testfaelle durch die Pipeline, Abweichungen notieren",
+            "owner": [
+                "B3"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T5",
+                "T10"
+            ],
+            "priority": "should",
+            "start": "Fr 22:30"
+        },
+        {
+            "id": "T12",
+            "title": "Masumi-Endpunkte, erster unbezahlter Job ueber Sokosumi",
+            "owner": [
+                "D"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T1",
+                "T10"
+            ],
+            "priority": "must",
+            "start": "Fr 22:30"
+        },
+        {
+            "id": "T13",
+            "title": "Bezahlter Job auf Preprod, Tx-Hash sichern",
+            "owner": [
+                "D"
+            ],
+            "hours": 1.5,
+            "depends_on": [
+                "T12"
+            ],
+            "priority": "must",
+            "start": "Fr 23:30",
+            "milestone": "Track qualifiziert"
+        },
+        {
+            "id": "T14",
+            "title": "Business Case: Kunde, Journey, Preismodell, Antworten auf 'Warum Blockchain', 'Warum nicht DTAD', Abdeckung Ober-/Unterschwelle",
+            "owner": [
+                "B2",
+                "B1"
+            ],
+            "hours": 3,
+            "depends_on": [
+                "T4"
+            ],
+            "priority": "should",
+            "start": "Fr 18:00"
+        },
+        {
+            "id": "T15",
+            "title": "Video-Storyboard (2,5 min, Szenenliste, Sprechtext)",
+            "owner": [
+                "B4"
+            ],
+            "hours": 2,
+            "depends_on": [
+                "T14"
+            ],
+            "priority": "must",
+            "start": "Fr 19:30"
+        },
+        {
+            "id": "T16",
+            "title": "Devfolio-Beschreibung Entwurf",
+            "owner": [
+                "B4"
+            ],
+            "hours": 2,
+            "depends_on": [
+                "T14"
+            ],
+            "priority": "must",
+            "start": "Fr 21:30"
+        },
+        {
+            "id": "T17",
+            "title": "README-Entwurf (Struktur, Setup, Grenzen)",
+            "owner": [
+                "B3"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T12"
+            ],
+            "priority": "must",
+            "start": "Fr 23:30"
+        },
+        {
+            "id": "T18",
+            "title": "Verifikationsschritt: jeder Treffer gegen Quelle pruefen (existiert, Frist offen, CPV/Region passt)",
+            "owner": [
+                "D"
+            ],
+            "hours": 1.5,
+            "depends_on": [
+                "T10"
+            ],
+            "priority": "should",
+            "start": "Sa 07:30"
+        },
+        {
+            "id": "T19",
+            "title": "Report-Hash (SHA-256) im Ergebnis",
+            "owner": [
+                "D"
+            ],
+            "hours": 0.5,
+            "depends_on": [
+                "T18"
+            ],
+            "priority": "should",
+            "start": "Sa 09:00"
+        },
+        {
+            "id": "T20",
+            "title": "Prompt-Tuning nach Testfeedback",
+            "owner": [
+                "D",
+                "B3"
+            ],
+            "hours": 0.5,
+            "depends_on": [
+                "T11",
+                "T18"
+            ],
+            "priority": "should",
+            "start": "Sa 09:30"
+        },
+        {
+            "id": "T21",
+            "title": "Video drehen und schneiden (D liefert nur Screen-Aufnahmen)",
+            "owner": [
+                "B4",
+                "D"
+            ],
+            "hours": 2.5,
+            "depends_on": [
+                "T13",
+                "T18",
+                "T15"
+            ],
+            "priority": "must",
+            "start": "Sa 10:00"
+        },
+        {
+            "id": "T22",
+            "title": "README final",
+            "owner": [
+                "B3"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T19"
+            ],
+            "priority": "must",
+            "start": "Sa 10:00"
+        },
+        {
+            "id": "T23",
+            "title": "Devfolio final",
+            "owner": [
+                "B2",
+                "B4"
+            ],
+            "hours": 1.5,
+            "depends_on": [
+                "T16",
+                "T19"
+            ],
+            "priority": "must",
+            "start": "Sa 10:00"
+        },
+        {
+            "id": "T24",
+            "title": "PDF-Export mit Download-Link",
+            "owner": [
+                "D"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T19"
+            ],
+            "priority": "could",
+            "start": "Sa 11:00"
+        },
+        {
+            "id": "T25",
+            "title": "Agent-als-Kunde-Skript (Buero-Assistent beauftragt den Agenten)",
+            "owner": [
+                "D"
+            ],
+            "hours": 1,
+            "depends_on": [
+                "T13"
+            ],
+            "priority": "could",
+            "start": "Sa 12:30"
+        },
+        {
+            "id": "T26",
+            "title": "Freeze, Repo oeffentlich, Abgabe-Check mit Checkliste",
+            "owner": [
+                "D",
+                "B1",
+                "B2",
+                "B3",
+                "B4"
+            ],
+            "hours": 0.5,
+            "depends_on": [
+                "T21",
+                "T22",
+                "T23"
+            ],
+            "priority": "must",
+            "start": "Sa 14:30"
+        }
+    ],
+    "wont": [
+        "Unterschwellige Auftraege von Landes- und Kommunalportalen scrapen",
+        "Nutzerkonten, Login, Abo-Logik",
+        "Mainnet, echtes Geld",
+        "Automatisches Erstellen von Angeboten oder Bewerbungsunterlagen",
+        "Woechentliche Wiederholung, Benachrichtigungen, Dashboards",
+        "Mehr als ein Preismodell"
+    ],
+    "milestones": [
+        {
+            "time": "Fr 20:30",
+            "goal": "Daten liegen gefiltert vor (T7, T8)"
+        },
+        {
+            "time": "Fr 23:30",
+            "goal": "Erster unbezahlter Job ueber Sokosumi erfolgreich (T12)"
+        },
+        {
+            "time": "Sa 01:00",
+            "goal": "Bezahlter Job, Tx-Hash gesichert (T13). Dann schlafen."
+        },
+        {
+            "time": "Sa 10:00",
+            "goal": "Verifikation und Hash fertig (T18, T19)"
+        },
+        {
+            "time": "Sa 12:30",
+            "goal": "Video, README, Devfolio fertig"
+        },
+        {
+            "time": "Sa 14:30",
+            "goal": "Freeze und Abgabe (T26)"
+        },
+        {
+            "time": "Sa 15:00",
+            "goal": "Deadline"
+        }
+    ]
+}
