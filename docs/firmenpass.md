@@ -40,3 +40,17 @@ The model rates sub-criteria (`zulassung` 10, `referenzen` 15, `leistungsfaehigk
 The code (`tender/assess.mjs` `score`) adds the CPV stage points (A 5, B 4, C 2, D 2, E 1, F 0), applies the caps and decides:
 GO 70–100 · GO MIT AUFLAGE 40–69 (any to-do or stage C caps at 69) · NO-GO 0–39 (any K.O. caps at 39; wrong trade or D/E without matching text is 0).
 The report lists GO and GO MIT AUFLAGE only; NO-GO is counted in the exclusion table.
+
+## Freitext statt JSON
+A request may also be plain German text ("Wir suchen IT-Aufträge in den nächsten Monaten, 5 Mitarbeiter…"). `tender/intake.mjs` lets the model extract the fields above from the text only; it never invents capabilities, certificates or references. Code (not the model) fills the required fields that the text leaves open and names each as an assumption:
+
+| Field | Default | Assumption shown |
+|---|---|---|
+| `states` | `["DE-BY"]` | data covers Bavaria only |
+| `available_from` | today | start "ab sofort" |
+| `licenses`, `certifications`, `exclusions` | `[]` | none stated, eligibility is rated "unklar" |
+| `min_value_eur` | 10.000 € | estimated |
+| `max_value_eur` | `employees` × 100.000 €, clamped to 100.000–2.000.000 €; 500.000 € without a team size | estimated from team size |
+| `lookback_days` | 14 | – |
+
+In a Sokosumi Task the agent first posts the understood profile with these assumptions and open questions and waits for "passt" or corrections; in `npm run scout` and the paid MIP-003 path it assesses right away and prints the block "So wurde Ihre Anfrage verstanden" at the top of the report. A JSON Firmenpass is still accepted unchanged and is the exact form.

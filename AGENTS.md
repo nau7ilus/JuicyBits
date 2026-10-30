@@ -35,7 +35,7 @@ Do not claim live execution, registration, or seller payment without measured ev
 - Won't build: below-threshold portal scraping, user accounts or subscriptions, mainnet or real funds, bid document generation, scheduling, notifications, dashboards, more than one price model.
 
 ## Environment and commands
-Use WSL (Ubuntu) with Node.js 24 from nvm and Sokosumi CLI `1.0.4`. Run `npm ci` inside WSL; do not share `node_modules` with Windows.
+Use WSL (Ubuntu) with Node.js 24 from nvm and Sokosumi CLI `1.1.0` (1.0.4 fails on `tasks create --personal`, Core route removed; measured in T12). The setup skill still quotes 1.0.4. Run `npm ci` inside WSL; do not share `node_modules` with Windows.
 ```sh
 npm run setup          # check tools, Sokosumi login, .env, data; lists missing config (-- --check: no changes)
 npm run try            # interactive: pick a pass from examples/, change fields, run offline or live, compare with t5-expected.json

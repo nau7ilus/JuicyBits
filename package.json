@@ -14,7 +14,8 @@
     "scout": "node --env-file-if-exists=.env tender/cli.mjs",
     "eval": "node --env-file-if-exists=.env tender/eval.mjs",
     "setup": "node dev/setup.mjs",
-    "try": "node --env-file-if-exists=.env dev/try.mjs"
+    "try": "node --env-file-if-exists=.env dev/try.mjs",
+    "task": "node --env-file-if-exists=.env dev/task.mjs"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "3.0.62",
