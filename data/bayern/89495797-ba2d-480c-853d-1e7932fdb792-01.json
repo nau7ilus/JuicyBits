@@ -1,0 +1,268 @@
+{
+ "id": "89495797-ba2d-480c-853d-1e7932fdb792-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "89495797-ba2d-480c-853d-1e7932fdb792",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=89495797-ba2d-480c-853d-1e7932fdb792",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:89495797-ba2d-480c-853d-1e7932fdb792-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/89495797-ba2d-480c-853d-1e7932fdb792?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Sanitaer und Heizung_mahe",
+  "buyer": "Münchner Wohnen GmbH",
+  "cpv": [
+   "45000000",
+   "45232460",
+   "45315000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e9bdf3e5-ace3-4fe5-ab5a-70df803bed79",
+  "id": "89495797-ba2d-480c-853d-1e7932fdb792",
+  "date": "2026-10-28T03:24:13Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schlichtungsstelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:008921762411",
+     "legalName": "Schlichtungsstelle"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   },
+   {
+    "name": "Münchner Wohnen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:0898776620",
+     "legalName": "Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Dienstleister Münchner Wohnen GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "t:00898776620",
+     "legalName": "Dienstleister Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Wilhelm Hanraths & Sohn GmbH",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "DE189569642",
+     "legalName": "Wilhelm Hanraths & Sohn GmbH"
+    },
+    "address": {
+     "streetAddress": "Unterhachinger Str. 73d",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81737",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Münchner Wohnen GmbH",
+   "id": "t:0898776620",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Münchner Wohnen GmbH"
+   },
+   "address": {
+    "streetAddress": "Gustav-Heinemann- Ring 111",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e9bdf3e5-ace3-4fe5-ab5a-70df803bed79",
+   "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Sanitaer und Heizung_mahe",
+   "description": "RV- Handwerkerportal\nSanitär- und Heizungsarbeiten",
+   "procuringEntity": {
+    "name": "Münchner Wohnen GmbH",
+    "id": "t:0898776620"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45232460",
+       "description": "Sanitary works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45315000",
+       "description": "Electrical installation work of heating and other electrical building-equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81739",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-16T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Wilhelm Hanraths & Sohn GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Wilhelm Hanraths & Sohn GmbH"
+     },
+     "address": {
+      "streetAddress": "Unterhachinger Str. 73d",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81737",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Sanitaer und Heizung_mahe",
+     "description": "RV- Handwerkerportal\nSanitär- und Heizungsarbeiten",
+     "contractPeriod": {
+      "startDate": "2026-08-01T00:00:00+02:00",
+      "endDate": "2030-07-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Sanitaer und Heizung_mahe",
+    "status": "active",
+    "date": "2026-10-16T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Wilhelm Hanraths & Sohn GmbH",
+      "id": "DE189569642",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Wilhelm Hanraths & Sohn GmbH"
+      },
+      "address": {
+       "streetAddress": "Unterhachinger Str. 73d",
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "81737",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Rahmenvereinbarung Handwerkerportal für die Leistungen Sanitaer und Heizung_mahe",
+    "status": "active",
+    "value": {
+     "amount": 0.01,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-15T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

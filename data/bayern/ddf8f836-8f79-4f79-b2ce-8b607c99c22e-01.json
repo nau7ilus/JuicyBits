@@ -1,0 +1,246 @@
+{
+ "id": "ddf8f836-8f79-4f79-b2ce-8b607c99c22e-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "ddf8f836-8f79-4f79-b2ce-8b607c99c22e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ddf8f836-8f79-4f79-b2ce-8b607c99c22e",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:ddf8f836-8f79-4f79-b2ce-8b607c99c22e-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ddf8f836-8f79-4f79-b2ce-8b607c99c22e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Verlege- und Verdrahtungsarbeiten sowie Liefe-rung und Montage von Netzwerktechnik für eine OCR-Anlage",
+  "buyer": "Hafen Nürnberg-Roth GmbH",
+  "cpv": [
+   "31730000",
+   "45311200",
+   "45314000",
+   "32400000",
+   "45314310"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ef7545d6-0a32-4b7a-bbfd-dbe1d3d177cf",
+  "id": "ddf8f836-8f79-4f79-b2ce-8b607c99c22e",
+  "date": "2026-10-28T03:22:46Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Hafen Nürnberg-Roth GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE199405122",
+     "legalName": "Hafen Nürnberg-Roth GmbH"
+    },
+    "address": {
+     "streetAddress": "Rotterdammer Straße 2",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90451",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bayernhafen GmbH & Co. KG",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE814447923",
+     "legalName": "Bayernhafen GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Linzer Straße 6",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93055",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Elektrotechnik Homeier GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "244/125/51881",
+     "legalName": "Elektrotechnik Homeier GmbH"
+    },
+    "address": {
+     "streetAddress": "Regerstr., 14",
+     "locality": "Alteglofsheim",
+     "region": "DE238",
+     "postalCode": "93087",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Hafen Nürnberg-Roth GmbH",
+   "id": "DE199405122",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Hafen Nürnberg-Roth GmbH"
+   },
+   "address": {
+    "streetAddress": "Rotterdammer Straße 2",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90451",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ef7545d6-0a32-4b7a-bbfd-dbe1d3d177cf",
+   "title": "Verlege- und Verdrahtungsarbeiten sowie Liefe-rung und Montage von Netzwerktechnik für eine OCR-Anlage",
+   "description": "Verlege- und Verdrahtungsarbeiten von Strom-, Daten&Kommunikationskabeln (SpeedPipe, LWL, Spleißbox, Spleißen) sowie E-Technik / Netzwerk Ausstattung (Serverrack, Patchfelder, Transceivermodule (Singlemode), Medienkonverter, etc.) LWL Messung",
+   "procuringEntity": {
+    "name": "Hafen Nürnberg-Roth GmbH",
+    "id": "DE199405122"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "31730000",
+      "description": "Electrotechnical equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45311200",
+       "description": "Electrical fitting work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45314000",
+       "description": "Installation of telecommunications equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "32400000",
+       "description": "Networks"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45314310",
+       "description": "Installation of cable laying"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Verlegearbeiten im Hafenbahnhof sowie Zufahrtsgleis in den bayernhafen Nürnberg"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Rotterdammer Straße 2",
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90451",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-15T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Elektrotechnik Homeier GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Elektrotechnik Homeier GmbH"
+     },
+     "address": {
+      "streetAddress": "Regerstr., 14",
+      "locality": "Alteglofsheim",
+      "region": "DE238",
+      "postalCode": "93087",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Verlege- und Verdrahtungsarbeiten sowie Liefe-rung und Montage von Netzwerktechnik für eine OCR-Anlage",
+     "description": "Öffnen von Kabeltrögen und Kabelschächten,; Lieferung, Verlegen von Kabeln von Netzwerktechnik (SpeedPipe, LWL (Singlemode), Strom);  Lieferung eines 42 Höheneinheiten Serverracks Spleißen, LC-Stecker, Patchkabel, Transceivermodule (Singlemode), Speedpipe und LWL Länge  jeweils ca. 1.100 m von Stellwerk (Serverrack) bis Schienengate Spleisbox Stromkabellänge ca. 490 m von Verteilerkasten (Weichenheizung) bis Position Schienengate 12 fasiges LWL (Singlemode) Durchmessen der LWL-Fasern; DGUV-Vorschrift 3 Prüfung",
+     "contractPeriod": {
+      "startDate": "2026-10-26T00:00:00+01:00",
+      "endDate": "2026-11-30T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "OCR-Gate Verlegearbeiten",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "OCR-Gate Verlegearbeiten",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

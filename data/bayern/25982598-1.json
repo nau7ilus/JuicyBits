@@ -1,0 +1,137 @@
+{
+ "id": "25982598-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982598",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982598",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982598-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982598-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982598?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung eines Ultraschallsimulators",
+  "buyer": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern",
+  "cpv": [
+   "33190000",
+   "33100000",
+   "33120000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982598",
+  "id": "25982598",
+  "date": "2026-10-29T07:01:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern"
+   }
+  },
+  "tender": {
+   "title": "Lieferung eines Ultraschallsimulators",
+   "description": "Lieferung, Aufstellung, Einweisung und Inbetriebnahme eines Ultraschallsimulators\n\nLieferung eines Ultraschallsimulators",
+   "procuringEntity": {
+    "name": "Technische Hochschule Deggendorf als staatliche Einrichtung in Vertretung des Freistaats Bayern"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "33190000",
+      "description": "Miscellaneous medical devices and products"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "33100000",
+       "description": "Medical equipments"
+      },
+      {
+       "scheme": "CPV",
+       "id": "33120000",
+       "description": "Recording systems and exploration devices"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "94469 Deggendorf",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lieferung eines Ultraschallsimulators",
+     "description": "Lieferung, Aufstellung, Einweisung und Inbetriebnahme eines Ultraschallsimulators\n\nLieferung eines Ultraschallsimulators"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25982598",
+  "version": "1",
+  "title": "Lieferung eines Ultraschallsimulators",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "33190000",
+   "33100000",
+   "33120000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lieferung eines Ultraschallsimulators",
+    "cpv": [
+     "33190000",
+     "33100000",
+     "33120000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

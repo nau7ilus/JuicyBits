@@ -1,0 +1,171 @@
+{
+ "id": "da82deb5-ef45-47a6-892d-70f2a91ddc72-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "da82deb5-ef45-47a6-892d-70f2a91ddc72",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=da82deb5-ef45-47a6-892d-70f2a91ddc72",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:da82deb5-ef45-47a6-892d-70f2a91ddc72-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/da82deb5-ef45-47a6-892d-70f2a91ddc72?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Neubau KiTa Marxheim - Gewerk Malerarbeiten",
+  "buyer": "Gemeinde Marxheim",
+  "cpv": [
+   "45442100",
+   "45442110",
+   "45442180",
+   "44800000",
+   "45214100"
+  ],
+  "nuts": [
+   "DE27D"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-da82deb5-ef45-47a6-892d-70f2a91ddc72",
+  "id": "da82deb5-ef45-47a6-892d-70f2a91ddc72",
+  "date": "2026-10-28T03:22:26Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Marxheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9529",
+     "legalName": "Gemeinde Marxheim"
+    },
+    "address": {
+     "streetAddress": "Pfalzstraße 2",
+     "locality": "Marxheim",
+     "region": "DE27D",
+     "postalCode": "86688",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c5b69bec-6517-4915-9d5c-21d41dcf9962",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Marxheim",
+   "id": "9529",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Marxheim"
+   },
+   "address": {
+    "streetAddress": "Pfalzstraße 2",
+    "locality": "Marxheim",
+    "region": "DE27D",
+    "postalCode": "86688",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "da82deb5-ef45-47a6-892d-70f2a91ddc72",
+   "title": "Neubau KiTa Marxheim - Gewerk Malerarbeiten",
+   "description": "Neubau KiTa Marxheim - Malerarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinde Marxheim",
+    "id": "9529"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45442100",
+      "description": "Painting work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45442110",
+       "description": "Painting work of buildings"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45442180",
+       "description": "Repainting work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44800000",
+       "description": "Paints, varnishes and mastics"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45214100",
+       "description": "Construction work for kindergarten buildings"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE27D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 7300000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "procurementMethodRationale": "Die Dringlichkeit ergibt sich aus dem engen Terminplan des Neubaus der Kindertagesstätte. Die Malerarbeiten müssen vor dem geplanten Gerüstabbau und vor zu erwartenden witterungsbedingten Einschränkungen der Wintermonate ausgeführt werden. Eine Durchführung mit regulären Angebotsfristen würde die termingerechte Fertigstellung und Inbetriebnahme der Kindertagesstätte gefährden sowie den Bauablauf erheblich beeinträchtigen. Zudem wären vermeidbare Mehrkosten durch eine längere Vorhaltung des Gerüstes zu erwarten. Die Voraussetzungen für eine Verkürzung der Angebotsfrist werden daher als gegeben angesehen.",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/da82deb5-ef45-47a6-892d-70f2a91ddc72",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau KiTa Marxheim - Gewerk Malerarbeiten",
+     "description": "siehe LV",
+     "contractPeriod": {
+      "durationInDays": 60
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

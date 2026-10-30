@@ -1,0 +1,150 @@
+{
+ "id": "25982928-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982928",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982928",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982928-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982928-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982928?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Erstellung der Außenanlagen mit Lehrerparkplatz",
+  "buyer": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-24T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982928",
+  "id": "25982928",
+  "date": "2026-10-29T07:00:39Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen"
+   }
+  },
+  "tender": {
+   "title": "Erstellung der Außenanlagen mit Lehrerparkplatz",
+   "description": "Garten- Landschaftsbauanlagen",
+   "procuringEntity": {
+    "name": "Landratsamt Weilheim-Schongau, Sb. 10.4 - Vergabe- und Beschaffungswesen"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "82362 Weilheim",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28F15F-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Erstellung der Außenanlagen mit Lehrerparkplatz",
+     "description": "Garten- Landschaftsbauanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25982928",
+  "version": "1",
+  "title": "Erstellung der Außenanlagen mit Lehrerparkplatz",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Erstellung der Außenanlagen mit Lehrerparkplatz",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-24T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

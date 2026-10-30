@@ -1,0 +1,188 @@
+{
+ "id": "10cd8262-c44c-4505-82b7-39db65ceaea1-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "10cd8262-c44c-4505-82b7-39db65ceaea1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=10cd8262-c44c-4505-82b7-39db65ceaea1",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:10cd8262-c44c-4505-82b7-39db65ceaea1-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:10cd8262-c44c-4505-82b7-39db65ceaea1-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/10cd8262-c44c-4505-82b7-39db65ceaea1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Fliesenarbeiten",
+  "buyer": "Schulverband Thannhausen",
+  "cpv": [
+   "45431000",
+   "45421144",
+   "45343100"
+  ],
+  "nuts": [
+   "DE278"
+  ],
+  "deadline": "2026-11-30T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bceb352c-b160-4566-a429-85d62baad8cf",
+  "id": "10cd8262-c44c-4505-82b7-39db65ceaea1",
+  "date": "2026-10-29T03:20:10Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Schulverband Thannhausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "entfällt",
+     "legalName": "Schulverband Thannhausen"
+    },
+    "address": {
+     "streetAddress": "Edmund-Zimmermann-Straße 3",
+     "locality": "Thannhausen",
+     "region": "DE278",
+     "postalCode": "86470",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80438",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Schulverband Thannhausen",
+   "id": "entfällt",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Schulverband Thannhausen"
+   },
+   "address": {
+    "streetAddress": "Edmund-Zimmermann-Straße 3",
+    "locality": "Thannhausen",
+    "region": "DE278",
+    "postalCode": "86470",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bceb352c-b160-4566-a429-85d62baad8cf",
+   "title": "Fliesenarbeiten",
+   "description": "- Liefern und Montieren von ca. 925m² Bodenfliesen inkl. Vorab-Reinigung im Format\n60x60 als Feinsteinzeug\n- Liefern und Montieren von ca. 755m² Wandfliesen inkl. Vorab-Reinigung im Format\n6,2cm x 25cm, montiert mit Kreuzfuge\n- Liefern und Montieren von Tritt- und Setzstufen aus Feinsteinzeug auf\nca. 50 Treppenstufen inkl. Ausgleichsspachtelung\n- 750lfdm. Verfugungsarbeiten",
+   "procuringEntity": {
+    "name": "Schulverband Thannhausen",
+    "id": "entfällt"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45431000",
+      "description": "Tiling work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421144",
+       "description": "Installation work of awnings"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Thannhausen",
+      "region": "DE278",
+      "postalCode": "86470",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28f151-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Fliesenarbeiten",
+     "description": "- Liefern und Montieren von ca. 925m² Bodenfliesen inkl. Vorab-Reinigung im Format\n60x60 als Feinsteinzeug\n- Liefern und Montieren von ca. 755m² Wandfliesen inkl. Vorab-Reinigung im Format\n6,2cm x 25cm, montiert mit Kreuzfuge\n- Liefern und Montieren von Tritt- und Setzstufen aus Feinsteinzeug auf\nca. 50 Treppenstufen inkl. Ausgleichsspachtelung\n- 750lfdm. Verfugungsarbeiten",
+     "contractPeriod": {
+      "startDate": "2027-09-06T00:00:00+02:00",
+      "endDate": "2027-11-05T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "10cd8262-c44c-4505-82b7-39db65ceaea1",
+  "version": "01",
+  "title": "Fliesenarbeiten",
+  "nuts": [
+   "DE278"
+  ],
+  "cpv": [
+   "45431000",
+   "45343100",
+   "45421144"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Fliesenarbeiten",
+    "cpv": [
+     "45431000",
+     "45421144"
+    ],
+    "nuts": [
+     "DE278"
+    ],
+    "deadline": "2026-11-30T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-09-06+02:00",
+    "plannedEnd": "2027-11-05+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

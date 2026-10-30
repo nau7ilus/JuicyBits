@@ -1,0 +1,181 @@
+{
+ "id": "a40b2684-8bed-4108-bb16-0372af74ca43-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "a40b2684-8bed-4108-bb16-0372af74ca43",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a40b2684-8bed-4108-bb16-0372af74ca43",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:a40b2684-8bed-4108-bb16-0372af74ca43-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:a40b2684-8bed-4108-bb16-0372af74ca43-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a40b2684-8bed-4108-bb16-0372af74ca43?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Mobiliar medizinisch",
+  "buyer": "Klinikum Main-Spessart",
+  "cpv": [
+   "33192000"
+  ],
+  "nuts": [
+   "DE26A"
+  ],
+  "deadline": "2026-12-07T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-7d5b834b-be47-408d-a2a8-ceda7e8d2bce",
+  "id": "a40b2684-8bed-4108-bb16-0372af74ca43",
+  "date": "2026-10-29T03:22:18Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Main-Spessart",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE192166233",
+     "legalName": "Klinikum Main-Spessart"
+    },
+    "address": {
+     "streetAddress": "Marktplatz  3",
+     "locality": "Lohr am Main",
+     "region": "DE26A",
+     "postalCode": "97816",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Vergabekammer Nordbayern, Regierung Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Main-Spessart",
+   "id": "DE192166233",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Main-Spessart"
+   },
+   "address": {
+    "streetAddress": "Marktplatz  3",
+    "locality": "Lohr am Main",
+    "region": "DE26A",
+    "postalCode": "97816",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "7d5b834b-be47-408d-a2a8-ceda7e8d2bce",
+   "title": "Mobiliar medizinisch",
+   "description": "Bei den ausgeschriebenen Leistungen handelt es sich im Wesentlichen um die\nLieferung von diversem medizinischem Mobiliar (unter anderem Behandlungslie-\ngen und -stühle, Drehhocker, Rollstühle, Toilettenstühle, Infusionsständer, Un-\ntersuchungsliegen usw.) für den Neubau des Klinikums Main-Spessart in 97816\nLohr.",
+   "procuringEntity": {
+    "name": "Klinikum Main-Spessart",
+    "id": "DE192166233"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "33192000",
+      "description": "Medical furniture"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Am Sommerberg",
+      "locality": "Lohr am Main",
+      "region": "DE26A",
+      "postalCode": "97816",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://mp.aumass.de/Veroeffentlichung/av28e42d-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Mobiliar medizinisch",
+     "description": "Bei den ausgeschriebenen Leistungen handelt es sich im Wesentlichen um die\nLieferung von diversem medizinischem Mobiliar (unter anderem Behandlungslie-\ngen und -stühle, Drehhocker, Rollstühle, Toilettenstühle, Infusionsständer, Un-\ntersuchungsliegen usw.) für den Neubau des Klinikums Main-Spessart in 97816\nLohr.",
+     "contractPeriod": {
+      "startDate": "2027-01-15T00:00:00+01:00",
+      "durationInDays": 70
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a40b2684-8bed-4108-bb16-0372af74ca43",
+  "version": "01",
+  "title": "Mobiliar medizinisch",
+  "nuts": [
+   "DE26A"
+  ],
+  "cpv": [
+   "33192000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Mobiliar medizinisch",
+    "cpv": [
+     "33192000"
+    ],
+    "nuts": [
+     "DE26A"
+    ],
+    "deadline": "2026-12-07T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-15+01:00",
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Eignung zur Berufsausübung, zur technischen, beruflichen, wirtschaftlichen und finanziellen Leistungsfähigkeit\n\nsiehe Formblatt 124"
+     }
+    ]
+   }
+  ]
+ }
+}

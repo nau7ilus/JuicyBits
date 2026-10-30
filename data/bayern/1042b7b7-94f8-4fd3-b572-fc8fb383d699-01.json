@@ -1,0 +1,199 @@
+{
+ "id": "1042b7b7-94f8-4fd3-b572-fc8fb383d699-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "1042b7b7-94f8-4fd3-b572-fc8fb383d699",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1042b7b7-94f8-4fd3-b572-fc8fb383d699",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:1042b7b7-94f8-4fd3-b572-fc8fb383d699-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1042b7b7-94f8-4fd3-b572-fc8fb383d699?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "BÜW Oberbau für GE Gablingen – Meitingen,  km 11,774 - 19,917 inkl. Leitende Bauüberwachung",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71521000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE276"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0be1f1a0-4170-439e-b8a9-33d499e9c8c0",
+  "id": "1042b7b7-94f8-4fd3-b572-fc8fb383d699",
+  "date": "2026-10-28T03:22:33Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ZETCON Ingenieure GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0fa13085-4ade-4464-9891-bd247ec8833a",
+     "legalName": "ZETCON Ingenieure GmbH"
+    },
+    "address": {
+     "locality": "Bochum",
+     "region": "DEA51",
+     "postalCode": "44803",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0be1f1a0-4170-439e-b8a9-33d499e9c8c0",
+   "title": "BÜW Oberbau für GE Gablingen – Meitingen,  km 11,774 - 19,917 inkl. Leitende Bauüberwachung",
+   "description": "Die Ausschreibung beinhaltet die Bauüberwachung Oberbau für die Gleiserneuerung auf der freien Strecke zwischen Gablingen und Meitingen von km 11,774 - 19,917.\n\nZusätzlich zur Schichtabdeckung wird die Leistung der Leitenden Bauüberwachung gefordert. Diese Leistung beinhaltet sämtliche Projektorganisation und -koordination sowie das Erstellen der Betra-Anträge, Durchführen von Besprechungen, Begehungen und sämtlicher Kommunikation mit allen Projektbeteiligten.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71521000",
+      "description": "Construction-site supervision services"
+     },
+     "deliveryAddress": {
+      "locality": "Gablingen",
+      "region": "DE276",
+      "postalCode": "86456",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "Contracts whose purpose is not the execution of works, the supply of products and the provision of services",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-15T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "ZETCON Ingenieure GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "ZETCON Ingenieure GmbH"
+     },
+     "address": {
+      "locality": "Bochum",
+      "region": "DEA51",
+      "postalCode": "44803",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "BÜW Oberbau für GE Gablingen – Meitingen,  km 11,774 - 19,917 inkl. Leitende Bauüberwachung",
+     "description": "Die Ausschreibung beinhaltet die Bauüberwachung Oberbau für die Gleiserneuerung auf der freien Strecke zwischen Gablingen und Meitingen von km 11,774 - 19,917.\n\nZusätzlich zur Schichtabdeckung wird die Leistung der Leitenden Bauüberwachung gefordert. Diese Leistung beinhaltet sämtliche Projektorganisation und -koordination sowie das Erstellen der Betra-Anträge, Durchführen von Besprechungen, Begehungen und sämtlicher Kommunikation mit allen Projektbeteiligten.",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2027-10-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

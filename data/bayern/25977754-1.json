@@ -1,0 +1,96 @@
+{
+ "id": "25977754-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25977754",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25977754",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25977754-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25977754?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Markierungsarbeiten 2027-2029",
+  "buyer": "Stadt Freising",
+  "cpv": [
+   "45233221-4"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25977754",
+  "id": "25977754",
+  "date": "2026-10-28T07:00:57Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Freising",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Freising"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Freising",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Freising"
+   }
+  },
+  "tender": {
+   "title": "Markierungsarbeiten 2027-2029",
+   "description": "Markierungsarbeiten 2027-2029",
+   "procuringEntity": {
+    "name": "Stadt Freising"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45233221-4"
+     },
+     "deliveryAddress": {
+      "locality": "85354 Freising",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Restricted tender",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305525",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Markierungsarbeiten 2027-2029",
+     "description": "Markierungsarbeiten 2027-2029"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

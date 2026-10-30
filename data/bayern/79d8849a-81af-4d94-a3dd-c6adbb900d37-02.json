@@ -1,0 +1,149 @@
+{
+ "id": "79d8849a-81af-4d94-a3dd-c6adbb900d37-02",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "79d8849a-81af-4d94-a3dd-c6adbb900d37",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=79d8849a-81af-4d94-a3dd-c6adbb900d37",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:79d8849a-81af-4d94-a3dd-c6adbb900d37-02.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/79d8849a-81af-4d94-a3dd-c6adbb900d37?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Sanierung Kläranlage Schwabmünchen: Spezialtiefbau, Erdarbeiten und vorgezogene Maßnahmen",
+  "buyer": "Stadt Schwabmünchen",
+  "cpv": [
+   "45252100"
+  ],
+  "nuts": [
+   "DE276"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-79d8849a-81af-4d94-a3dd-c6adbb900d37",
+  "id": "79d8849a-81af-4d94-a3dd-c6adbb900d37",
+  "date": "2026-10-28T03:24:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Schwabmünchen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "3598",
+     "legalName": "Stadt Schwabmünchen"
+    },
+    "address": {
+     "streetAddress": "Fuggerstraße 50",
+     "locality": "Schwabmünchen",
+     "region": "DE276",
+     "postalCode": "86830",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "791b33bd-36b4-4e3d-ac23-48db8d43f053",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Geschäftsstelle",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Schwabmünchen",
+   "id": "3598",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Schwabmünchen"
+   },
+   "address": {
+    "streetAddress": "Fuggerstraße 50",
+    "locality": "Schwabmünchen",
+    "region": "DE276",
+    "postalCode": "86830",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "79d8849a-81af-4d94-a3dd-c6adbb900d37",
+   "title": "Sanierung Kläranlage Schwabmünchen: Spezialtiefbau, Erdarbeiten und vorgezogene Maßnahmen",
+   "description": "Vorgezogene Maßnahmen: Neubau eines Grundwasserbrunnens zur Betriebswasserversorgung und Verlegung eines provisorischen Ablaufsammlers DN 700. Sicherung von Teilflächen sowie Herstellung von Baustelleneinrichtungsflächen und Baustraßen. Erstellung von rückverankerten Spundwänden in mehreren Abschnitten. Abschnittsweiser Aushub der Baugruben mit Einrichtung und Betrieb von Wasserhaltungsmaßnahmen. Transportleistungen und Ablagerung auf externer Bereitstellungsfläche.",
+   "procuringEntity": {
+    "name": "Stadt Schwabmünchen",
+    "id": "3598"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45252100",
+      "description": "Sewage-treatment plant construction work"
+     },
+     "deliveryAddress": {
+      "region": "DE276",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 2909360,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "procurementMethodRationale": "Zur Einhaltung von Fristen aus dem LBP zum Artenschutz wir die Angebotsfrist verkürzt",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/79d8849a-81af-4d94-a3dd-c6adbb900d37",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sanierung Kläranlage Schwabmünchen: Spezialtiefbau, Erdarbeiten und vorgezogene Maßnahmen",
+     "description": "Vorgezogene Maßnahmen: Neubau eines Grundwasserbrunnens zur Betriebswasserversorgung und Verlegung eines provisorischen Ablaufsammlers DN 700. Sicherung von Teilflächen sowie Herstellung von Baustelleneinrichtungsflächen und Baustraßen. Erstellung von rückverankerten Spundwänden in mehreren Abschnitten. Abschnittsweiser Aushub der Baugruben mit Einrichtung und Betrieb von Wasserhaltungsmaßnahmen. Transportleistungen und Ablagerung auf externer Bereitstellungsfläche.",
+     "value": {
+      "amount": 2444840,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "durationInDays": 360
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

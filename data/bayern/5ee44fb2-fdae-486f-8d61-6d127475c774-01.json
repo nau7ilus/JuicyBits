@@ -1,0 +1,226 @@
+{
+ "id": "5ee44fb2-fdae-486f-8d61-6d127475c774-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "5ee44fb2-fdae-486f-8d61-6d127475c774",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5ee44fb2-fdae-486f-8d61-6d127475c774",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:5ee44fb2-fdae-486f-8d61-6d127475c774-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:5ee44fb2-fdae-486f-8d61-6d127475c774-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5ee44fb2-fdae-486f-8d61-6d127475c774?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 13.11.2020. ",
+  "buyer": "Gemeinde Tapfheim",
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "nuts": [
+   "DE27D"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5745e03d-65ad-46df-b41d-7367362cfb9c",
+  "id": "5ee44fb2-fdae-486f-8d61-6d127475c774",
+  "date": "2026-10-29T03:26:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Tapfheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09779218",
+     "legalName": "Gemeinde Tapfheim"
+    },
+    "address": {
+     "streetAddress": "Ulmer Straße 66",
+     "locality": "Gemeinde Tapfheim",
+     "region": "DE27D",
+     "postalCode": "86660",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE21H",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "GlasfaserPlus GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 338076384",
+     "legalName": "GlasfaserPlus GmbH"
+    },
+    "address": {
+     "locality": "Köln",
+     "region": "DEA23",
+     "postalCode": "51063",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Tapfheim",
+   "id": "09779218",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Tapfheim"
+   },
+   "address": {
+    "streetAddress": "Ulmer Straße 66",
+    "locality": "Gemeinde Tapfheim",
+    "region": "DE27D",
+    "postalCode": "86660",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5745e03d-65ad-46df-b41d-7367362cfb9c",
+   "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 13.11.2020. ",
+   "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministerium für Verkehr und digitale Infrastruktur vom 31.03.2023 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+   "procuringEntity": {
+    "name": "Gemeinde Tapfheim",
+    "id": "09779218"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Ulmer Straße 66",
+      "locality": "Gemeinde Tapfheim",
+      "region": "DE27D",
+      "postalCode": "86660",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "GlasfaserPlus GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "GlasfaserPlus GmbH"
+     },
+     "address": {
+      "locality": "Köln",
+      "region": "DEA23",
+      "postalCode": "51063",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) ",
+     "description": " Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Verkehr vom 31.03.2023 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adresse beträgt  292 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-25T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1620000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-24T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "32",
+  "noticeId": "5ee44fb2-fdae-486f-8d61-6d127475c774",
+  "version": "01",
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 13.11.2020.",
+  "nuts": [
+   "DE27D"
+  ],
+  "cpv": [
+   "64210000",
+   "32412000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ -\tGigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0)",
+    "cpv": [
+     "64210000"
+    ],
+    "nuts": [
+     "DE27D"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

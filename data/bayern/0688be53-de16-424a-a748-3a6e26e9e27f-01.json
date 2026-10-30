@@ -1,0 +1,247 @@
+{
+ "id": "0688be53-de16-424a-a748-3a6e26e9e27f-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "0688be53-de16-424a-a748-3a6e26e9e27f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0688be53-de16-424a-a748-3a6e26e9e27f",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:0688be53-de16-424a-a748-3a6e26e9e27f-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:0688be53-de16-424a-a748-3a6e26e9e27f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0688be53-de16-424a-a748-3a6e26e9e27f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "26DE Objektplanung Gebaeude",
+  "buyer": "Staatliches Bauamt Bayreuth",
+  "cpv": [
+   "71200000"
+  ],
+  "nuts": [
+   "DE242",
+   "DE24D"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d5ba7203-c021-41ba-a935-184c14e4df51",
+  "id": "0688be53-de16-424a-a748-3a6e26e9e27f",
+  "date": "2026-10-29T03:22:12Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Bayreuth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Tel.-Nr.: [Telefon entfernt]",
+     "legalName": "Staatliches Bauamt Bayreuth"
+    },
+    "address": {
+     "streetAddress": "Wilhelminenstraße 2",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95444",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern- Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID: DE 811 335 517",
+     "legalName": "Vergabekammer Nordbayern- Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "boxx3 - architektur & gestaltung",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE303288915",
+     "legalName": "boxx3 - architektur & gestaltung"
+    },
+    "address": {
+     "streetAddress": "Bohlleitenweg 19",
+     "locality": "Würzburg",
+     "region": "DE263",
+     "postalCode": "97082",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Bayreuth",
+   "id": "Tel.-Nr.: [Telefon entfernt]",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Bayreuth"
+   },
+   "address": {
+    "streetAddress": "Wilhelminenstraße 2",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95444",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d5ba7203-c021-41ba-a935-184c14e4df51",
+   "title": "26DE Objektplanung Gebaeude",
+   "description": "KBM ADBV Energetische Sanierung",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "deliveryAddress": {
+      "locality": "Wunsiedel",
+      "region": "DE24D",
+      "postalCode": "95632",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-26T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "boxx3 - architektur & gestaltung",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "boxx3 - architektur & gestaltung"
+     },
+     "address": {
+      "streetAddress": "Bohlleitenweg 19",
+      "locality": "Würzburg",
+      "region": "DE263",
+      "postalCode": "97082",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "26DE Objektplanung Gebaeude",
+     "description": "KBM ADBV Energetische Sanierung",
+     "contractPeriod": {
+      "startDate": "2026-10-27T00:00:00+01:00",
+      "endDate": "2028-09-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "26DE Objektplanung Gebaeude",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "suppliers": [
+     {
+      "name": "boxx3 - architektur & gestaltung",
+      "id": "DE303288915",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "boxx3 - architektur & gestaltung"
+      },
+      "address": {
+       "streetAddress": "Bohlleitenweg 19",
+       "locality": "Würzburg",
+       "region": "DE263",
+       "postalCode": "97082",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "26DE Objektplanung Gebaeude",
+    "status": "active",
+    "value": {
+     "amount": 164075.55,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "0688be53-de16-424a-a748-3a6e26e9e27f",
+  "version": "01",
+  "title": "26DE Objektplanung Gebaeude",
+  "nuts": [
+   "DE24D"
+  ],
+  "cpv": [
+   "71200000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "26DE Objektplanung Gebaeude",
+    "cpv": [
+     "71200000"
+    ],
+    "nuts": [
+     "DE24D"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-27+01:00",
+    "plannedEnd": "2028-09-30+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

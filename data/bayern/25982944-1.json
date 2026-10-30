@@ -1,0 +1,118 @@
+{
+ "id": "25982944-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982944",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982944",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982944-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982944-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982944?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Lieferung verschiedener Verfolgerscheinwerfer",
+  "buyer": "Bayreuther Festspiele GmbH",
+  "cpv": [
+   "31500000-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-28T15:10:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982944",
+  "id": "25982944",
+  "date": "2026-10-29T07:01:02Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayreuther Festspiele GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Bayreuther Festspiele GmbH"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayreuther Festspiele GmbH",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayreuther Festspiele GmbH"
+   }
+  },
+  "tender": {
+   "title": "Lieferung verschiedener Verfolgerscheinwerfer",
+   "description": "Lieferung verschiedener Verfolgerscheinwerfer",
+   "procuringEntity": {
+    "name": "Bayreuther Festspiele GmbH"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "31500000-1"
+     },
+     "deliveryAddress": {
+      "locality": "95445 Bayreuth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lieferung verschiedener Verfolgerscheinwerfer",
+     "description": "Lieferung verschiedener Verfolgerscheinwerfer"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25982944",
+  "version": "1",
+  "title": "Lieferung verschiedener Verfolgerscheinwerfer",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "31500000-1"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lieferung verschiedener Verfolgerscheinwerfer",
+    "cpv": [
+     "31500000-1"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-28T15:10:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "id": "25918398-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25918398",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25918398",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25918398-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25918398-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25918398?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Kauf von Notebooks",
+  "buyer": "Phoenics.IT GmbH",
+  "cpv": [
+   "30213100"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-09T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25918398",
+  "id": "25918398",
+  "date": "2026-10-29T07:00:34Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Phoenics.IT GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Phoenics.IT GmbH"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Phoenics.IT GmbH",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Phoenics.IT GmbH"
+   }
+  },
+  "tender": {
+   "title": "Kauf von Notebooks",
+   "description": "Gegenstand dieses Vergabeverfahrens ist der Kauf von Notebooks\n\nKauf von Notebooks",
+   "procuringEntity": {
+    "name": "Phoenics.IT GmbH"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "30213100",
+      "description": "Portable computers"
+     },
+     "deliveryAddress": {
+      "locality": "00000 München,",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/0df0aed3-d363-4b30-9b9a-6e94e5223326",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Kauf von Notebooks",
+     "description": "Gegenstand dieses Vergabeverfahrens ist der Kauf von Notebooks\n\nKauf von Notebooks"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25918398",
+  "version": "1",
+  "title": "Kauf von Notebooks",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "30213100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Kauf von Notebooks",
+    "cpv": [
+     "30213100"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-09T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

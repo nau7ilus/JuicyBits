@@ -1,0 +1,228 @@
+{
+ "id": "573363e6-2db9-49ce-be08-05e3b278e117-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "573363e6-2db9-49ce-be08-05e3b278e117",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=573363e6-2db9-49ce-be08-05e3b278e117",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:573363e6-2db9-49ce-be08-05e3b278e117-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:573363e6-2db9-49ce-be08-05e3b278e117-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/573363e6-2db9-49ce-be08-05e3b278e117?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schreinerarbeiten WC-Trennwände",
+  "buyer": "Stadt Amberg",
+  "cpv": [
+   "45420000",
+   "45421000",
+   "45422000"
+  ],
+  "nuts": [
+   "DE231"
+  ],
+  "deadline": "2026-11-24T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-2e06672f-05a8-464e-b884-5fdb1f0547d0",
+  "id": "573363e6-2db9-49ce-be08-05e3b278e117",
+  "date": "2026-10-29T03:22:33Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Amberg - Zentrale Vergabestelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9003617-46",
+     "legalName": "Stadt Amberg - Zentrale Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Steinhofgasse 4",
+     "locality": "Amberg",
+     "region": "DE231",
+     "postalCode": "92224",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabekammer",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Amberg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-9003617-46",
+     "legalName": "Stadt Amberg"
+    },
+    "address": {
+     "locality": "Amberg",
+     "region": "DE231",
+     "postalCode": "92224",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Amberg",
+   "id": "09-9003617-46",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Stadt Amberg"
+   },
+   "address": {
+    "locality": "Amberg",
+    "region": "DE231",
+    "postalCode": "92224",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "2e06672f-05a8-464e-b884-5fdb1f0547d0",
+   "title": "Schreinerarbeiten WC-Trennwände",
+   "description": "22 m² WC-Trennwandanlage\n10 m² WC-Trennwandanlage\n14 m² WC-Trennwandanlage \n8 m² WC-Trennwandanlage\n4 St Schamwände",
+   "procuringEntity": {
+    "name": "Stadt Amberg",
+    "id": "09-9003617-46"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45420000",
+      "description": "Joinery and carpentry installation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421000",
+       "description": "Joinery work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45422000",
+       "description": "Carpentry installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Amberg",
+      "region": "DE231",
+      "postalCode": "92224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305504",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schreinerarbeiten WC-Trennwände",
+     "description": "22 m² WC-Trennwandanlage\n10 m² WC-Trennwandanlage\n14 m² WC-Trennwandanlage \n8 m² WC-Trennwandanlage\n4 St Schamwände",
+     "contractPeriod": {
+      "durationInDays": 74
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "573363e6-2db9-49ce-be08-05e3b278e117",
+  "version": "01",
+  "title": "Schreinerarbeiten WC-Trennwände",
+  "nuts": [
+   "DE231"
+  ],
+  "cpv": [
+   "45420000",
+   "45421000",
+   "45422000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Schreinerarbeiten WC-Trennwände",
+    "cpv": [
+     "45420000",
+     "45421000",
+     "45422000"
+    ],
+    "nuts": [
+     "DE231"
+    ],
+    "deadline": "2026-11-24T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenen Leistung vergleichbar sind -  siehe \"Formblatt 124 Eigenerklärung zur Eignung\" in den Vergabeunterlagen. \nJahresumsatz der Jahre 2025, 2024 und 2023\nNimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "3 Referenzen: Angaben zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind, der letzten drei Jahre mit Angabe des Bauherrn, des Fertigstellungsjahr, der Leistungsbereiche und der Auftragssumme. Diese sind auf Verlangen der Vergabestelle vorzulegen.\n\nDie Anforderung des Nachweises vergleichbarer Referenzen gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter können sich dazu des PQ-Verzeichnisses bedienen, soweit dort Nachweise\nentsprechend vergleichbarer Referenzen hinterlegt sind.\nPräqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise vergleichbare Referenzen betreffen und die Hinterlegung ggf. entsprechend anpassen. Alternativ\nkönnen die Referenzen auch mit dem Angebot übermittelt werden.\nNimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in\nAnspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist\ngleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Durchschnittliche jährliche Beschäftigtenzahl des Unternehmens und die Zahl seiner Führungskräfte - siehe \"Formblatt 124 Eigenerklärung zur Eignung\" in den Vergabeunterlagen.\nAngaben zur Verfügbarkeit der für die Ausführung der Leistungen erforderlichen Arbeitskräfte.\nDie Unterlagen sind auf Verlangen der Vergabestelle vorzulegen."
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eintragung in das Berufsregister Ihres Sitzes oder Wohnsitzes - siehe \"Formblatt 124 Eigenerklärung zur Eignung\" in den Vergabeunterlagen.\nDie Unterlagen sind auf Verlangen der Vergabestelle vorzulegen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Diese Unterlagen sind auf Verlangen der Vergabestelle vorzulegen:\n\n- Freistellungsbescheinigung Finanzamt\n- Unbedenklichkeitserklärung Berufsgenossenschaft\n- Unbedenklichkeitserklärung Krankenkasse\n- Nachweis Haftpflichtversicherung\n- Auszug Handelsregister\n- Eintragung Handwerkskammer / Bestätigung Eintrag in die HW-Rolle\n- Bescheinigung in Steuersachen\n- SOKA Bescheinigung (bei PQ hinfällig)"
+     }
+    ]
+   }
+  ]
+ }
+}

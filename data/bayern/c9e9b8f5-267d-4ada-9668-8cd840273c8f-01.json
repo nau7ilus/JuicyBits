@@ -1,0 +1,229 @@
+{
+ "id": "c9e9b8f5-267d-4ada-9668-8cd840273c8f-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "c9e9b8f5-267d-4ada-9668-8cd840273c8f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c9e9b8f5-267d-4ada-9668-8cd840273c8f",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:c9e9b8f5-267d-4ada-9668-8cd840273c8f-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:c9e9b8f5-267d-4ada-9668-8cd840273c8f-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c9e9b8f5-267d-4ada-9668-8cd840273c8f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "IP Managementsystem",
+  "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
+  "cpv": [
+   "72260000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-5dda386e-472e-45e4-8a4c-be00654d5702",
+  "id": "c9e9b8f5-267d-4ada-9668-8cd840273c8f",
+  "date": "2026-10-29T03:22:36Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Unycom GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "68035/7456",
+     "legalName": "Unycom GmbH"
+    },
+    "address": {
+     "streetAddress": "St.-Peter-Gürtel 10",
+     "locality": "Graz",
+     "region": "AT221",
+     "postalCode": "8042",
+     "countryName": "AUT"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 27c",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "5dda386e-472e-45e4-8a4c-be00654d5702",
+   "title": "IP Managementsystem",
+   "description": "IP Managementsystem",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72260000",
+      "description": "Software-related services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80686",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Unycom GmbH",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Unycom GmbH"
+     },
+     "address": {
+      "streetAddress": "St.-Peter-Gürtel 10",
+      "locality": "Graz",
+      "region": "AT221",
+      "postalCode": "8042",
+      "countryName": "AUT"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "IP Managementsystem",
+     "description": "Die Fraunhofer-Gesellschaft benötigt ein Patentverwaltungssystem, das kontinuierlich Updates erhält und extern gewartet wird.\n\nDie Software für das IP-Management (im Folgenden abgekürzt mit IPMS) muss alle Bereiche des Schutzrechtsmanagements der Fraunhofer-Gesellschaft (im Folgenden abgekürzt mit Fraunhofer) umfassend abbilden und unterstützen. \nZu den Bereichen gehören die Ideenfindung (z. B. auch für eine Marke), die Erfindungsmeldung, die Durchführung von Patentrecherchen, die Anmeldeverfahren einschließlich der Nachanmeldungen und Länderanmeldungen, Aufrechterhaltungsentscheidungen, die Verwertung und Lizenzierung von Schutzrechten, die Erfindervergütung sowie die Erfassung von Buchungen und das Controlling von Lizenzforderungen. Daneben sind als unterstützende Funktionen das Aufgaben- und Fristenmanagement, die Aktenführung und das Dokumentenmanagement, sowie das Vertragsmanagement (für Forschungsverträge, Kooperationsverträge, Lizenzverträge) abzudecken. Weiterhin sind strategische Funktionen zu unterstützen. Dazu gehören Datenanalyse und Reporting, IP-Portfoliomanagement und Kanzleimanagement. \nInsgesamt wird von dem IPMS nicht nur die Datenhaltung erwartet, sondern umfassende Funktionen zur automatisierten Dokument- und Datenanalyse, Datenverarbeitung und Informationsvermittlung."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "date": "2026-09-04T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-09-03T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "38",
+  "noticeId": "c9e9b8f5-267d-4ada-9668-8cd840273c8f",
+  "version": "01",
+  "title": "IP Managementsystem",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72260000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "IP Managementsystem",
+    "cpv": [
+     "72260000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

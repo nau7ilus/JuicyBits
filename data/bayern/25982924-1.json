@@ -1,0 +1,127 @@
+{
+ "id": "25982924-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982924",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982924",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982924-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982924-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982924?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "630.01 Fliesen- und Plattenarbeiten (Neubau + Sanierung)",
+  "buyer": "HB Gemeinde Brunnthal",
+  "cpv": [
+   "45431000-7 45261420-4"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-26T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982924",
+  "id": "25982924",
+  "date": "2026-10-29T07:00:48Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "HB Gemeinde Brunnthal",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "HB Gemeinde Brunnthal"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "HB Gemeinde Brunnthal",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "HB Gemeinde Brunnthal"
+   }
+  },
+  "tender": {
+   "title": "630.01 Fliesen- und Plattenarbeiten (Neubau + Sanierung)",
+   "description": "Fliesen - Plattenarbeiten, Abdichtungsarbeiten",
+   "procuringEntity": {
+    "name": "HB Gemeinde Brunnthal"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45431000-7 45261420-4"
+     },
+     "deliveryAddress": {
+      "locality": "85649 Brunnthal",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28F143-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "630.01 Fliesen- und Plattenarbeiten (Neubau + Sanierung)",
+     "description": "Fliesen - Plattenarbeiten, Abdichtungsarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25982924",
+  "version": "1",
+  "title": "630.01 Fliesen- und Plattenarbeiten (Neubau + Sanierung)",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45431000-7 45261420-4"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "630.01 Fliesen- und Plattenarbeiten (Neubau + Sanierung)",
+    "cpv": [
+     "45431000-7 45261420-4"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-26T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

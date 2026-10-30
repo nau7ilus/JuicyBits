@@ -1,0 +1,228 @@
+{
+ "id": "b83d10a0-e3a4-463e-ae91-8d8e37b52352-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "b83d10a0-e3a4-463e-ae91-8d8e37b52352",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b83d10a0-e3a4-463e-ae91-8d8e37b52352",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:b83d10a0-e3a4-463e-ae91-8d8e37b52352-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:b83d10a0-e3a4-463e-ae91-8d8e37b52352-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b83d10a0-e3a4-463e-ae91-8d8e37b52352?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Metallbauarbeiten Fassade",
+  "buyer": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+  "cpv": [
+   "45262670"
+  ],
+  "nuts": [
+   "DE252",
+   "DE254"
+  ],
+  "deadline": "2026-12-01T09:08:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-69989284-d36e-43e1-9da5-53c6ea1b8bbb",
+  "id": "b83d10a0-e3a4-463e-ae91-8d8e37b52352",
+  "date": "2026-10-29T03:22:33Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09113507199",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0995209-19",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+   "id": "t:09113507199",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+   },
+   "address": {
+    "streetAddress": "Bohlenplatz 18",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91054",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "69989284-d36e-43e1-9da5-53c6ea1b8bbb",
+   "title": "Metallbauarbeiten Fassade",
+   "description": "Anzubieten sind Metallbauarbeiten für 2 nebeneinanderliegende Gebäude. Diese beinhalten unter anderem: \n- ca. 340 m Oberflächenentwässerungsrinnen als Fassadenrinnen\n- 3 St. Lamellenfenster\n- ca. 30 St. Metall-Wetterschutzgitter für Fassadenöffnungen\n- 5 St. Metallaußentüren aus Aluminium\n- ca. 25 m² Oberlichtsystem als Dachfenster mit RWA-Öffnungen",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "t:09113507199"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90461",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 288484.87,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302606",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Metallbauarbeiten Fassade",
+     "description": "Anzubieten sind Metallbauarbeiten für 2 nebeneinanderliegende Gebäude. Diese beinhalten unter anderem: \n- ca. 340 m Oberflächenentwässerungsrinnen als Fassadenrinnen\n- 3 St. Lamellenfenster\n- ca. 30 St. Metall-Wetterschutzgitter für Fassadenöffnungen\n- 5 St. Metallaußentüren aus Aluminium\n- ca. 25 m² Oberlichtsystem als Dachfenster mit RWA-Öffnungen",
+     "value": {
+      "amount": 288484.87,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-02-25T00:00:00+01:00",
+      "endDate": "2028-10-13T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b83d10a0-e3a4-463e-ae91-8d8e37b52352",
+  "version": "01",
+  "title": "Metallbauarbeiten Fassade",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45262670"
+  ],
+  "estimatedValue": {
+   "amount": 288484.87,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Metallbauarbeiten Fassade",
+    "cpv": [
+     "45262670"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-12-01T09:08:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-25+01:00",
+    "plannedEnd": "2028-10-13+02:00",
+    "estimatedValue": {
+     "amount": 288484.87,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=302606\n\n- Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen.\n- Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=302606\n\nDie Anforderung des Nachweises vergleichbarer Referenzen gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter können sich dazu des PQ-Verzeichnisses bedienen, soweit dort Nachweise entsprechend vergleichbarer Referenzen hinterlegt sind. Präqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise vergleichbare Referenzen betreffen und die Hinterlegung ggf. entsprechend anpassen. Alternativ können die Referenzen auch mit dem Angebot übermittelt werden. \n\nNimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=302606\n\n- Angaben zur Verfügbarkeit der für die Ausführung der Leistungen erforderlichen Arbeitskräfte"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=302606\n\n- Registereintragungen\n- Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
+     }
+    ]
+   }
+  ]
+ }
+}

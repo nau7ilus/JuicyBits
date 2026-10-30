@@ -1,0 +1,96 @@
+{
+ "id": "25978270-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25978270",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978270",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25978270-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978270?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Sanierung Hallenbad Burghausen - Innentüren",
+  "buyer": "Stadt Burghausen",
+  "cpv": [
+   "45421100-5  45421131-1  45421130-4 45421100-5  45421130-4"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25978270",
+  "id": "25978270",
+  "date": "2026-10-28T07:00:13Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Burghausen",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Burghausen"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Burghausen",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Burghausen"
+   }
+  },
+  "tender": {
+   "title": "Sanierung Hallenbad Burghausen - Innentüren",
+   "description": "Innentüren/Zargen, Fenster- Fassadenbau Holz und Holzaluminium",
+   "procuringEntity": {
+    "name": "Stadt Burghausen"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421100-5  45421131-1  45421130-4 45421100-5  45421130-4"
+     },
+     "deliveryAddress": {
+      "locality": "84489 Burghausen",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV289917",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Sanierung Hallenbad Burghausen - Innentüren",
+     "description": "Innentüren/Zargen, Fenster- Fassadenbau Holz und Holzaluminium"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

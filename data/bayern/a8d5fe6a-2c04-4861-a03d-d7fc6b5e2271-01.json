@@ -1,0 +1,148 @@
+{
+ "id": "a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "SV-KWE-261023-002 - TW - Batteriespeicher Zengermoos - Errichtung Batteriespeicher Zengermoos",
+  "buyer": "Stadtwerke München GmbH",
+  "cpv": [
+   "45311000",
+   "31430000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-243c7153-39df-4d26-92f6-da502402cc15",
+  "id": "a8d5fe6a-2c04-4861-a03d-d7fc6b5e2271",
+  "date": "2026-10-28T03:22:11Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke München GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 812 500 229",
+     "legalName": "Stadtwerke München GmbH"
+    },
+    "address": {
+     "streetAddress": "Emmy-Noether-Straße 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80992",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern\nVergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung von Oberbayern\nVergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximiliansstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke München GmbH",
+   "id": "DE 812 500 229",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Stadtwerke München GmbH"
+   },
+   "address": {
+    "streetAddress": "Emmy-Noether-Straße 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80992",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "243c7153-39df-4d26-92f6-da502402cc15",
+   "title": "SV-KWE-261023-002 - TW - Batteriespeicher Zengermoos - Errichtung Batteriespeicher Zengermoos",
+   "description": "TW - Batteriespeicher Zengermoos - Errichtung Batteriespeicher Zengermoos",
+   "procuringEntity": {
+    "name": "Stadtwerke München GmbH",
+    "id": "DE 812 500 229"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311000",
+      "description": "Electrical wiring and fitting work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "31430000",
+       "description": "Electric accumulators"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.swm.de/unternehmen/einkauf/bekanntmachungen",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "SV-KWE-261023-002 - TW - Batteriespeicher Zengermoos - Errichtung Batteriespeicher Zengermoos",
+     "description": "Gegenstand dieser Ausschreibung ist die schlüsselfertige Planung, Lieferung, Errichtung, Integration, Inbetriebsetzung und Dokumentation von zwei netzgekoppelten Batteriespeichersystemen (BESS-Anlage) an 2 bestehenden Photovoltaikanlagen (PV-Anlagen) des Auftraggebers. \nDie Batteriespeicher werden als Grünstromspeicher (Co-Location) mit den vorhandenen PV-Anlagen errichtet. Eine Beladung der Batteriespeicher aus dem öffentlichen Netz ist im Grundausbau nicht vorgesehen. Die Schaffung einer zukünftigen Erweiterungsmöglichkeit für netzbildende Funktionen nach aktuellen FNN-Hinweise bzw. “Graustromspeicher-Betrieb” soll jedoch gegeben sein.\nDie Batteriespeicher sind elektrisch in die bestehenden PV-Anlagen zu integrieren und gemeinsam mit diesen über die bestehenden Netzanschlusspunkte am Umspannwerk des Netzbetreibers Bayernwerk zu betreiben.\nDie bestehenden PV-Anlagen einschließlich Netzanschluss, Mittelspannungsinfrastruktur, Parkregelung, EZA-Regler, Fernwirktechnik, Anlagenzertifizierung sind weiter zu verwenden und durch den Auftragnehmer entsprechend zu erweitern.\nDer Auftragnehmer schuldet einen vollständig funktionsfähigen, betriebsbereiten und zertifizierungsfähigen Gesamtanlagenzustand (PV+BESS-Anlage) einschließlich sämtlicher hierfür erforderlicher technischer, planerischer und administrativer Leistungen.\nNach der vollständigen Errichtung und Abnahme der BESS-Anlage wird der AN die Vollwartung (Servicetätigkeiten zur Wartung, Inspektionen, Entstörung bzw. Instandsetzung und Ersatzteilmanagement inkl. Garantien) für die BESS-Anlage durchführen.",
+     "contractPeriod": {
+      "startDate": "2027-07-01T00:00:00+02:00",
+      "endDate": "2028-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

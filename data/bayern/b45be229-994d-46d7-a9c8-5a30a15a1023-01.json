@@ -1,0 +1,191 @@
+{
+ "id": "b45be229-994d-46d7-a9c8-5a30a15a1023-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "b45be229-994d-46d7-a9c8-5a30a15a1023",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=b45be229-994d-46d7-a9c8-5a30a15a1023",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:b45be229-994d-46d7-a9c8-5a30a15a1023-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:b45be229-994d-46d7-a9c8-5a30a15a1023-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/b45be229-994d-46d7-a9c8-5a30a15a1023?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Schulzentrum Bogen - Lieferung von Wärme",
+  "buyer": "Landkreis Straubing-Bogen",
+  "cpv": [
+   "71314000"
+  ],
+  "nuts": [
+   "DE223",
+   "DE22B"
+  ],
+  "deadline": "2026-12-02T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b45be229-994d-46d7-a9c8-5a30a15a1023",
+  "id": "b45be229-994d-46d7-a9c8-5a30a15a1023",
+  "date": "2026-10-29T03:20:08Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Straubing-Bogen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "2818",
+     "legalName": "Landkreis Straubing-Bogen"
+    },
+    "address": {
+     "streetAddress": "Leutnerstraße 15",
+     "locality": "Straubing",
+     "region": "DE223",
+     "postalCode": "94315",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern - Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "9e5e8fb2-9a72-4357-aba4-395c011146c2",
+     "legalName": "Vergabekammer Südbayern - Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Straubing-Bogen",
+   "id": "2818",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Straubing-Bogen"
+   },
+   "address": {
+    "streetAddress": "Leutnerstraße 15",
+    "locality": "Straubing",
+    "region": "DE223",
+    "postalCode": "94315",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b45be229-994d-46d7-a9c8-5a30a15a1023",
+   "title": "Schulzentrum Bogen - Lieferung von Wärme",
+   "description": "Wärmelieferung für das Biomasseheizwerk Schulzentrum Bogen - Betrieb, Wartung, Instandhaltung und Wärmelieferung für das Biomasseheizwerk Schulzentrum Bogen",
+   "procuringEntity": {
+    "name": "Landkreis Straubing-Bogen",
+    "id": "2818"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71314000",
+      "description": "Energy and related services"
+     },
+     "deliveryAddress": {
+      "region": "DE22B",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/b45be229-994d-46d7-a9c8-5a30a15a1023",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Schulzentrum Bogen - Lieferung von Wärme",
+     "description": "Wärmelieferung für das Biomasseheizwerk Schulzentrum Bogen - Betrieb, Wartung, Instandhaltung und Wärmelieferung für das Biomasseheizwerk Schulzentrum Bogen",
+     "contractPeriod": {
+      "startDate": "2027-09-15T00:00:00+02:00",
+      "endDate": "2047-09-14T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "b45be229-994d-46d7-a9c8-5a30a15a1023",
+  "version": "01",
+  "title": "Schulzentrum Bogen - Lieferung von Wärme",
+  "nuts": [
+   "DE22B"
+  ],
+  "cpv": [
+   "71314000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Schulzentrum Bogen - Lieferung von Wärme",
+    "cpv": [
+     "71314000"
+    ],
+    "nuts": [
+     "DE22B"
+    ],
+    "deadline": "2026-12-02T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-09-15+02:00",
+    "plannedEnd": "2047-09-14+02:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Referenzliste über mindestens drei in den letzten fünf Jahren erbrachte und hinsichtlich Art und Umfang vergleichbare Leistungen im Bereich Wärmeversorgung, Wärmelieferung oder Energieliefer-Contracting; die Referenzen müssen mindestens Angaben zum Auftraggeber, Leistungsumfang, Ausführungszeitraum sowie zur installierten \nWärmeleistung enthalten,"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Handelsregisterauszug oder ein gleichwertiger Nachweis der Eintragung in ein Berufs- oder Handelsregister"
+     },
+     {
+      "type": "slc-stand-to-spec",
+      "description": "Erklärung über den Umsatz des Unternehmens im Bereich Energiedienstleistungen, Wärmeversorgung oder Contracting in den letzten drei abgeschlossenen Geschäftsjahren"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer Betriebshaftpflichtversicherung oder eine verbindliche Bestätigung eines Versicherungsunternehmens über die Gewährung des erforderlichen Versicherungsschutzes im Auftragsfall"
+     }
+    ]
+   }
+  ]
+ }
+}

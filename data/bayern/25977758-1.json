@@ -1,0 +1,113 @@
+{
+ "id": "25977758-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25977758",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25977758",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25977758-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25977758?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Vergebener Auftrag: 26B Erdarbeiten und Entsorgung",
+  "buyer": "Staatliches Bauamt Bayreuth",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25977758",
+  "id": "25977758",
+  "date": "2026-10-28T07:00:36Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Bayreuth",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Staatliches Bauamt Bayreuth"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Bayreuth",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Bayreuth"
+   }
+  },
+  "tender": {
+   "title": "Vergebener Auftrag: 26B Erdarbeiten und Entsorgung",
+   "description": "Vergebener Auftrag: 26B Erdarbeiten und Entsorgung",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Bayreuth"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "95213 Münchberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "http://www.vergabe.bayern.de/Vergabeinformationen.bayernvergabeinformationen.0.html?details=1085082",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Vergebener Auftrag: 26B Erdarbeiten und Entsorgung",
+     "description": "Vergebener Auftrag: 26B Erdarbeiten und Entsorgung"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

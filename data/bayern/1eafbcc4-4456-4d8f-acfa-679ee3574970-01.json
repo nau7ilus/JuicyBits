@@ -1,0 +1,296 @@
+{
+ "id": "1eafbcc4-4456-4d8f-acfa-679ee3574970-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "1eafbcc4-4456-4d8f-acfa-679ee3574970",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1eafbcc4-4456-4d8f-acfa-679ee3574970",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:1eafbcc4-4456-4d8f-acfa-679ee3574970-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:1eafbcc4-4456-4d8f-acfa-679ee3574970-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1eafbcc4-4456-4d8f-acfa-679ee3574970?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Herstellung und Lieferung von klebegebundenen FiLBY-Broschüren für die Jahrgangsstufen 2 bis 4",
+  "buyer": "Bayerisches Staatsministerium für Unterricht und Kultus",
+  "cpv": [
+   "22000000",
+   "79823000"
+  ],
+  "nuts": [
+   "DE212",
+   "DEA1E"
+  ],
+  "deadline": "2026-11-27T10:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-cc49d8b9-eff8-49a9-988f-ded886715e12",
+  "id": "1eafbcc4-4456-4d8f-acfa-679ee3574970",
+  "date": "2026-10-29T03:20:12Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerisches Staatsministerium für Unterricht und Kultus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "a794d4f7-4ad5-4513-b2d9-f1d0531ed116",
+     "legalName": "Bayerisches Staatsministerium für Unterricht und Kultus"
+    },
+    "address": {
+     "streetAddress": "Salvatorstraße 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerisches Staatsministerium für Unterricht und Kultus",
+   "id": "a794d4f7-4ad5-4513-b2d9-f1d0531ed116",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerisches Staatsministerium für Unterricht und Kultus"
+   },
+   "address": {
+    "streetAddress": "Salvatorstraße 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "cc49d8b9-eff8-49a9-988f-ded886715e12",
+   "title": "Herstellung und Lieferung von klebegebundenen FiLBY-Broschüren für die Jahrgangsstufen 2 bis 4",
+   "description": "FiLBY beinhaltet eine auf drei Schuljahre (Jahrgangsstufen 2 bis 4) konzipierte, gezielte und systematische Leseförderung auf der Basis von Sachtexten, die auf den LehrplanPLUS Grundschule abgestimmt sind. Hierbei sieht das FiLBY-Konzept folgende \nSchwerpunkte vor, die sukzessive aufeinander aufbauen:\n Leseflüssigkeitstraining (Jahrgangsstufe 2),\n Lesestrategietraining (Jahrgangsstufe 3),\n selbstreguliertes Lesen (Jahrgangsstufe 4).\nAuftragsgegenstand sind die Herstellung und Lieferung von klebegebundenen FiLBY-Broschüren (1 Heft je Jahrgangsstufe, das vom Auftraggeber mittels Druckdaten über einen per E-Mail versandten Link zur Verfügung gestellt wird). Der Auftrag ist unterteilt in drei Lose (1 Los je Jahrgangsstufe) mit einer Abnahmemenge/ Stückzahl von 200.000 Stück FiLBY-Broschüren je Jahrgangsstufe bzw. Los. \n\nDie Lieferung erfolgt an den Lagerort PORTICA GmbH Marketing Support, Von-Galen-Str. 35, 47906 Kempen.\n\nAlle weiteren Informationen sind den Vergabeunterlagen zu entnehmen.\n\n",
+   "procuringEntity": {
+    "name": "Bayerisches Staatsministerium für Unterricht und Kultus",
+    "id": "a794d4f7-4ad5-4513-b2d9-f1d0531ed116"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "22000000",
+      "description": "Printed matter and related products"
+     },
+     "deliveryAddress": {
+      "locality": "Kempen",
+      "region": "DEA1E",
+      "postalCode": "47906",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "22000000",
+      "description": "Printed matter and related products"
+     },
+     "deliveryAddress": {
+      "locality": "Kempen",
+      "region": "DEA1E",
+      "postalCode": "47906",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "22000000",
+      "description": "Printed matter and related products"
+     },
+     "deliveryAddress": {
+      "locality": "Kempen",
+      "region": "DEA1E",
+      "postalCode": "47906",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/a73f1ab4-e724-4e4a-aefd-d3a21c089b9c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/a73f1ab4-e724-4e4a-aefd-d3a21c089b9c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/a73f1ab4-e724-4e4a-aefd-d3a21c089b9c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "FiLBY-Broschüren für die Jahrgangsstufe 2 (Los 1)",
+     "description": "Herstellung und Lieferung von klebegebundenen FiLBY-Broschüren für die Jahrgangsstufe 2 (200.000 Stück )",
+     "contractPeriod": {
+      "startDate": "2026-12-15T00:00:00+01:00",
+      "endDate": "2027-01-22T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "FiLBY-Broschüren für die Jahrgangsstufe 3 (Los 2)",
+     "description": "Herstellung und Lieferung von klebegebundenen FiLBY-Broschüren für die Jahrgangsstufe 3 (200.000 Stück )",
+     "contractPeriod": {
+      "startDate": "2026-12-15T00:00:00+01:00",
+      "endDate": "2027-01-22T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "FiLBY-Broschüren für die Jahrgangsstufe 4 (Los 3)",
+     "description": "Herstellung und Lieferung von klebegebundenen FiLBY-Broschüren für die Jahrgangsstufe 4 (200.000 Stück )",
+     "contractPeriod": {
+      "startDate": "2026-12-15T00:00:00+01:00",
+      "endDate": "2027-01-22T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "1eafbcc4-4456-4d8f-acfa-679ee3574970",
+  "version": "01",
+  "title": "Herstellung und Lieferung von klebegebundenen FiLBY-Broschüren für die Jahrgangsstufen 2 bis 4",
+  "nuts": [
+   "DEA1E"
+  ],
+  "cpv": [
+   "22000000",
+   "79823000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "FiLBY-Broschüren für die Jahrgangsstufe 2 (Los 1)",
+    "cpv": [
+     "22000000"
+    ],
+    "nuts": [
+     "DEA1E"
+    ],
+    "deadline": "2026-11-27T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-15+01:00",
+    "plannedEnd": "2027-01-22+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/a73f1ab4-e724-4e4a-aefd-d3a21c089b9c/suitabilitycriteria\n\nMit dem Angebot haben der Bieter, jedes Mitglied einer Bietergemeinschaft und - soweit für die Eignungsleihe relevant - das Unternehmen, dessen Kapazitäten herangezogen werden, das Vorliegen einer angemessenen Berufs- bzw. Betriebshaftpflichtversicherung mit marktüblichem Deckungsumfang und marktüblichen Deckungssummen für die Dauer von zwölf Monaten ab Zuschlag bzw. die Versicherbarkeit und den möglichen Abschluss einer entsprechenden Versicherung im Falle der Zuschlagserteilung zu erklären. Der Versicherungsschutz muss für die Dauer von zwölf Monaten ab Zuschlag aufrechterhalten werden und die aus der vertragsgegenständlichen Leistung entstehenden Haftungsrisiken angemessen abdecken, insbesondere die mit der Herstellung und Lieferung der vertragsgegenständlichen FiLBY-Broschüren verbundenen betrieblichen Haftungsrisiken. Im Falle einer Bietergemeinschaft hat jedes Mitglied der Bietergemeinschaft das Vorliegen bzw. den möglichen Abschluss der Berufs- bzw. Betriebshaftpflichtversicherung zu erklären (es wird insoweit nicht auf die gemeinschaftlich addierten Werte abgestellt). Die Vergabestelle behält sich vor, vom Bieter, jedem Mitglied einer Bietergemeinschaft und - soweit für die Eignungsleihe relevant - dem Unternehmen, dessen Kapazitäten herangezogen werden, den Versicherungsnachweis zur Bestätigung des Versicherungsschutzes zu fordern. Für den Fall, dass bei Abgabe des Angebots noch keine gültige Berufs- bzw. Betriebshaftpflichtversicherung zu den vorstehend genannten Konditionen vorliegt, ist auf Verlangen der Vergabestelle eine Erklärung eines Versicherers vorzuweisen, die bestätigt, dass dieser zum Abschluss einer entsprechenden Versicherung zum Leistungsbeginn bereit ist."
+     }
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "title": "FiLBY-Broschüren für die Jahrgangsstufe 3 (Los 2)",
+    "cpv": [
+     "22000000"
+    ],
+    "nuts": [
+     "DEA1E"
+    ],
+    "deadline": "2026-11-27T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-15+01:00",
+    "plannedEnd": "2027-01-22+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/a73f1ab4-e724-4e4a-aefd-d3a21c089b9c/suitabilitycriteria\n\nMit dem Angebot haben der Bieter, jedes Mitglied einer Bietergemeinschaft und - soweit für die Eignungsleihe relevant - das Unternehmen, dessen Kapazitäten herangezogen werden, das Vorliegen einer angemessenen Berufs- bzw. Betriebshaftpflichtversicherung mit marktüblichem Deckungsumfang und marktüblichen Deckungssummen für die Dauer von zwölf Monaten ab Zuschlag bzw. die Versicherbarkeit und den möglichen Abschluss einer entsprechenden Versicherung im Falle der Zuschlagserteilung zu erklären. Der Versicherungsschutz muss für die Dauer von zwölf Monaten ab Zuschlag aufrechterhalten werden und die aus der vertragsgegenständlichen Leistung entstehenden Haftungsrisiken angemessen abdecken, insbesondere die mit der Herstellung und Lieferung der vertragsgegenständlichen FiLBY-Broschüren verbundenen betrieblichen Haftungsrisiken. Im Falle einer Bietergemeinschaft hat jedes Mitglied der Bietergemeinschaft das Vorliegen bzw. den möglichen Abschluss der Berufs- bzw. Betriebshaftpflichtversicherung zu erklären (es wird insoweit nicht auf die gemeinschaftlich addierten Werte abgestellt). Die Vergabestelle behält sich vor, vom Bieter, jedem Mitglied einer Bietergemeinschaft und - soweit für die Eignungsleihe relevant - dem Unternehmen, dessen Kapazitäten herangezogen werden, den Versicherungsnachweis zur Bestätigung des Versicherungsschutzes zu fordern. Für den Fall, dass bei Abgabe des Angebots noch keine gültige Berufs- bzw. Betriebshaftpflichtversicherung zu den vorstehend genannten Konditionen vorliegt, ist auf Verlangen der Vergabestelle eine Erklärung eines Versicherers vorzuweisen, die bestätigt, dass dieser zum Abschluss einer entsprechenden Versicherung zum Leistungsbeginn bereit ist."
+     }
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "title": "FiLBY-Broschüren für die Jahrgangsstufe 4 (Los 3)",
+    "cpv": [
+     "22000000"
+    ],
+    "nuts": [
+     "DEA1E"
+    ],
+    "deadline": "2026-11-27T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-12-15+01:00",
+    "plannedEnd": "2027-01-22+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/subproject/a73f1ab4-e724-4e4a-aefd-d3a21c089b9c/suitabilitycriteria\n\nMit dem Angebot haben der Bieter, jedes Mitglied einer Bietergemeinschaft und - soweit für die Eignungsleihe relevant - das Unternehmen, dessen Kapazitäten herangezogen werden, das Vorliegen einer angemessenen Berufs- bzw. Betriebshaftpflichtversicherung mit marktüblichem Deckungsumfang und marktüblichen Deckungssummen für die Dauer von zwölf Monaten ab Zuschlag bzw. die Versicherbarkeit und den möglichen Abschluss einer entsprechenden Versicherung im Falle der Zuschlagserteilung zu erklären. Der Versicherungsschutz muss für die Dauer von zwölf Monaten ab Zuschlag aufrechterhalten werden und die aus der vertragsgegenständlichen Leistung entstehenden Haftungsrisiken angemessen abdecken, insbesondere die mit der Herstellung und Lieferung der vertragsgegenständlichen FiLBY-Broschüren verbundenen betrieblichen Haftungsrisiken. Im Falle einer Bietergemeinschaft hat jedes Mitglied der Bietergemeinschaft das Vorliegen bzw. den möglichen Abschluss der Berufs- bzw. Betriebshaftpflichtversicherung zu erklären (es wird insoweit nicht auf die gemeinschaftlich addierten Werte abgestellt). Die Vergabestelle behält sich vor, vom Bieter, jedem Mitglied einer Bietergemeinschaft und - soweit für die Eignungsleihe relevant - dem Unternehmen, dessen Kapazitäten herangezogen werden, den Versicherungsnachweis zur Bestätigung des Versicherungsschutzes zu fordern. Für den Fall, dass bei Abgabe des Angebots noch keine gültige Berufs- bzw. Betriebshaftpflichtversicherung zu den vorstehend genannten Konditionen vorliegt, ist auf Verlangen der Vergabestelle eine Erklärung eines Versicherers vorzuweisen, die bestätigt, dass dieser zum Abschluss einer entsprechenden Versicherung zum Leistungsbeginn bereit ist."
+     }
+    ]
+   }
+  ]
+ }
+}

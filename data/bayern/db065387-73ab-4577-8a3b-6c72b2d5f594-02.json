@@ -1,0 +1,220 @@
+{
+ "id": "db065387-73ab-4577-8a3b-6c72b2d5f594-02",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "db065387-73ab-4577-8a3b-6c72b2d5f594",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=db065387-73ab-4577-8a3b-6c72b2d5f594",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:db065387-73ab-4577-8a3b-6c72b2d5f594-02.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:db065387-73ab-4577-8a3b-6c72b2d5f594-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/db065387-73ab-4577-8a3b-6c72b2d5f594?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau Kinderklinikum (EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Patientenüberwachung",
+  "buyer": "Klinikum Nürnberg",
+  "cpv": [
+   "33195100"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ef39bbc6-3fc7-4107-8c83-027684a314e4",
+  "id": "db065387-73ab-4577-8a3b-6c72b2d5f594",
+  "date": "2026-10-29T03:26:16Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8783",
+     "legalName": "Klinikum Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "259e8148-7a21-4b67-9854-66fbf51f1315",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Philips GmbH Market DACH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE812927597",
+     "legalName": "Philips GmbH Market DACH"
+    },
+    "address": {
+     "locality": "Hamburg",
+     "region": "DE600",
+     "postalCode": "22335",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Nürnberg",
+   "id": "8783",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ef39bbc6-3fc7-4107-8c83-027684a314e4",
+   "title": "Neubau Kinderklinikum (EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Patientenüberwachung",
+   "description": "Patientenüberwachung",
+   "procuringEntity": {
+    "name": "Klinikum Nürnberg",
+    "id": "8783"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "33195100",
+      "description": "Monitors"
+     },
+     "deliveryAddress": {
+      "region": "DE254",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Philips GmbH Market DACH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Philips GmbH Market DACH"
+     },
+     "address": {
+      "locality": "Hamburg",
+      "region": "DE600",
+      "postalCode": "22335",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Kinderklinikum (EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Patientenüberwachung",
+     "description": "Lieferung und Umsetzung von div. Patientenmonitoren Überwachungszentralen für Kinder und Neonaten.\nHierbei handelt es sich um eine Erweiterung des bestehenden Philips-Monitoring-Systems. Im Bestand vorhandene Zentralen und Monitore sind in den Neubau umzusetzen und anzubinden.\nZentralen und Monitore für neue Funktionsstellen an die vorhandene Server/ Netzwerkstruktur anzubinden.\nZiel ist ein einheitliches System, in dem die Transporteinheiten mit den Patienten zwischen verschiedenen Bereichen (OP - Intensiv) wechseln und an den dort vorhandenen stationären Monitoren und Zentralen angeschlossen werden können."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "db065387-73ab-4577-8a3b-6c72b2d5f594",
+  "version": "02",
+  "title": "Neubau Kinderklinikum (EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Patientenüberwachung",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "33195100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Kinderklinikum (EKiZ) und Wirtschaftshof - Klinikum Nürnberg Süd - Patientenüberwachung",
+    "cpv": [
+     "33195100"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

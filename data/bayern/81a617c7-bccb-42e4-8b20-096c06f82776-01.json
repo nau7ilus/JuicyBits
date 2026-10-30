@@ -1,0 +1,222 @@
+{
+ "id": "81a617c7-bccb-42e4-8b20-096c06f82776-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "81a617c7-bccb-42e4-8b20-096c06f82776",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=81a617c7-bccb-42e4-8b20-096c06f82776",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:81a617c7-bccb-42e4-8b20-096c06f82776-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/81a617c7-bccb-42e4-8b20-096c06f82776?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Realschule Eggenfelden BA 5, Innentüren",
+  "buyer": "Landkreis Rottal-Inn",
+  "cpv": [
+   "45214220",
+   "45262800",
+   "45421111",
+   "45421131"
+  ],
+  "nuts": [
+   "DE22A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d3fda7ed-d9c0-4962-a940-131dd989e6b5",
+  "id": "81a617c7-bccb-42e4-8b20-096c06f82776",
+  "date": "2026-10-28T03:24:11Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Rottal-Inn",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09277000-RSEGG1566-62",
+     "legalName": "Landkreis Rottal-Inn"
+    },
+    "address": {
+     "streetAddress": "Ringstr. 4-7",
+     "locality": "Pfarrkirchen",
+     "region": "DE22A",
+     "postalCode": "84347",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Appold GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "Appold GmbH",
+     "legalName": "Appold GmbH"
+    },
+    "address": {
+     "streetAddress": "Bimbach 13",
+     "locality": "Bimbach",
+     "region": "DE268",
+     "postalCode": "97357",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Rottal-Inn",
+   "id": "09277000-RSEGG1566-62",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Rottal-Inn"
+   },
+   "address": {
+    "streetAddress": "Ringstr. 4-7",
+    "locality": "Pfarrkirchen",
+    "region": "DE22A",
+    "postalCode": "84347",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d3fda7ed-d9c0-4962-a940-131dd989e6b5",
+   "title": "Realschule Eggenfelden BA 5, Innentüren",
+   "description": "Realschule Eggenfelden, Bauabschnitt 5, Innentüren",
+   "procuringEntity": {
+    "name": "Landkreis Rottal-Inn",
+    "id": "09277000-RSEGG1566-62"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45214220",
+      "description": "Secondary school construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262800",
+       "description": "Building extension work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421111",
+       "description": "Installation of door frames"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421131",
+       "description": "Installation of doors"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Ringstr. 4-7",
+      "locality": "Pfarrkirchen",
+      "region": "DE22A",
+      "postalCode": "84347",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-16T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Appold GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Appold GmbH"
+     },
+     "address": {
+      "streetAddress": "Bimbach 13",
+      "locality": "Bimbach",
+      "region": "DE268",
+      "postalCode": "97357",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Realschule Eggenfelden BA 5, Innentüren",
+     "description": "- 17 Stück Stahlzargen mit verglastem Seitenteil und Oberlicht - 8 Stück Stahlzarge mit verglastem Oberlicht - 3 Stück Stahlzarge - 1 Stück T30-Türelement - 1 Stück festverglastes Fensterelement mit Stahlzarge - 29 Stück Holztürblatter - 3 Stück ITS mit Freilauffunktion",
+     "contractPeriod": {
+      "startDate": "2027-04-05T00:00:00+02:00",
+      "endDate": "2027-06-26T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Appold GmbH",
+    "status": "active",
+    "date": "2026-10-16T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Appold GmbH",
+    "status": "active",
+    "value": {
+     "amount": 65806.51,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-15T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

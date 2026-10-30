@@ -1,0 +1,129 @@
+{
+ "id": "25982594-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982594",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982594",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982594-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982594-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982594?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Lizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption",
+  "buyer": "Stadt Nürnberg - Zentrale Dienste",
+  "cpv": [
+   "48100000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-18T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982594",
+  "id": "25982594",
+  "date": "2026-10-29T07:00:39Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg - Zentrale Dienste",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Nürnberg - Zentrale Dienste"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg - Zentrale Dienste",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg - Zentrale Dienste"
+   }
+  },
+  "tender": {
+   "title": "Lizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption",
+   "description": "Lizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption\n\nLizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg - Zentrale Dienste"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48100000",
+      "description": "Industry specific software package"
+     },
+     "deliveryAddress": {
+      "locality": "90403 Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/0748a11d-aab8-4429-a969-1391beeee81e",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Lizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption",
+     "description": "Lizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption\n\nLizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25982594",
+  "version": "1",
+  "title": "Lizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "48100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Lizenzverlängerung Safenet SAS ab 01.12.2026 bis 30.11.2027 mit Verlängerungsoption",
+    "cpv": [
+     "48100000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-18T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "id": "fa0b9055-dee3-4788-8e6f-bdf375b758c4-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "fa0b9055-dee3-4788-8e6f-bdf375b758c4",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=fa0b9055-dee3-4788-8e6f-bdf375b758c4",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:fa0b9055-dee3-4788-8e6f-bdf375b758c4-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:fa0b9055-dee3-4788-8e6f-bdf375b758c4-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/fa0b9055-dee3-4788-8e6f-bdf375b758c4?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "E-Busbeschaffung 2028",
+  "buyer": "Stadtwerke Augsburg Verkehrs-GmbH",
+  "cpv": [
+   "34144910",
+   "34121100",
+   "34121400"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-4cab33cd-0f95-4536-98f1-3e3e07f31c52",
+  "id": "fa0b9055-dee3-4788-8e6f-bdf375b758c4",
+  "date": "2026-10-29T03:22:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke Augsburg Holding GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 00002395",
+     "legalName": "Stadtwerke Augsburg Holding GmbH"
+    },
+    "address": {
+     "streetAddress": "Hoher Weg 1",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Stadtwerke Augsburg Verkehrs-GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE813286917",
+     "legalName": "Stadtwerke Augsburg Verkehrs-GmbH"
+    },
+    "address": {
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern, Regierung von Oberbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern, Regierung von Oberbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "MAN Truck & Bus Deutschland GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE811124750",
+     "legalName": "MAN Truck & Bus Deutschland GmbH"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80995",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke Augsburg Verkehrs-GmbH",
+   "id": "DE813286917",
+   "identifier": {
+    "id": "ORG-0002",
+    "legalName": "Stadtwerke Augsburg Verkehrs-GmbH"
+   },
+   "address": {
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86152",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "4cab33cd-0f95-4536-98f1-3e3e07f31c52",
+   "title": "E-Busbeschaffung 2028",
+   "description": "15 batterieelektrisch (BEV) betriebene Elektro-Niederflurliniengelenkomnibus „eNG“ (Länge 18 m, 4-türig). Die Fahrzeuge müssen als reine Niederflurfahrzeuge barrierefrei gemäß den geltenden gesetzlichen und normativen Vorgaben ausgeführt sein, hierzu zählen insbesondere ein stufenloser Niederflureinstieg, eine Klapprampe sowie ausgewiesene Rollstuhl- und Kinderwagenstellplätze. Unter allen betrieblichen Einsatzbedingungen ist eine Mindestreichweite von 200 km im Stadtverkehr Augsburgs sicherzustellen. Die Fahrzeuge sind ausschließlich für die Depotladung über CCS-Stecker auszulegen.",
+   "procuringEntity": {
+    "name": "Stadtwerke Augsburg Verkehrs-GmbH",
+    "id": "DE813286917"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34144910",
+      "description": "Electric buses"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "34121100",
+       "description": "Public-service buses"
+      },
+      {
+       "scheme": "CPV",
+       "id": "34121400",
+       "description": "Low-floor buses"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "MAN Truck & Bus Deutschland GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "MAN Truck & Bus Deutschland GmbH"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80995",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "E-Busbeschaffung 2028",
+     "description": "15 batterieelektrisch (BEV) betriebene Elektro-Niederflurliniengelenkomnibus „eNG“ (Länge 18 m, 4-türig). Die Fahrzeuge müssen als reine Niederflurfahrzeuge barrierefrei gemäß den geltenden gesetzlichen und normativen Vorgaben ausgeführt sein, hierzu zählen insbesondere ein stufenloser Niederflureinstieg, eine Klapprampe sowie ausgewiesene Rollstuhl- und Kinderwagenstellplätze. Unter allen betrieblichen Einsatzbedingungen ist eine Mindestreichweite von 200 km im Stadtverkehr Augsburgs sicherzustellen. Die Fahrzeuge sind ausschließlich für die Depotladung über CCS-Stecker auszulegen.",
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "suppliers": [
+     {
+      "name": "MAN Truck & Bus Deutschland GmbH",
+      "id": "DE811124750",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "MAN Truck & Bus Deutschland GmbH"
+      },
+      "address": {
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "80995",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "items": [
+     {
+      "id": 1,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "veh-acq",
+        "description": "Vehicle purchase, lease or rent"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "m3",
+        "description": "Bus (M3)"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles-clean",
+        "description": "Vehicles clean"
+       }
+      ],
+      "quantity": 15
+     },
+     {
+      "id": 2,
+      "additionalClassifications": [
+       {
+        "scheme": "eu-cvd-contract-type",
+        "id": "veh-acq",
+        "description": "Vehicle purchase, lease or rent"
+       },
+       {
+        "scheme": "eu-vehicle-category",
+        "id": "m3",
+        "description": "Bus (M3)"
+       },
+       {
+        "scheme": "vehicles",
+        "id": "vehicles-zero-emission",
+        "description": "Vehicles zero emission"
+       }
+      ],
+      "quantity": 15
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 11985000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "fa0b9055-dee3-4788-8e6f-bdf375b758c4",
+  "version": "01",
+  "title": "E-Busbeschaffung 2028",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "34144910",
+   "34121100",
+   "34121400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "E-Busbeschaffung 2028",
+    "cpv": [
+     "34144910",
+     "34121100",
+     "34121400"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

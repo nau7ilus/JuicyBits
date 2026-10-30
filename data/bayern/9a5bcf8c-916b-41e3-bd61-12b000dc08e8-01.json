@@ -1,0 +1,199 @@
+{
+ "id": "9a5bcf8c-916b-41e3-bd61-12b000dc08e8-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "9a5bcf8c-916b-41e3-bd61-12b000dc08e8",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9a5bcf8c-916b-41e3-bd61-12b000dc08e8",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:9a5bcf8c-916b-41e3-bd61-12b000dc08e8-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:9a5bcf8c-916b-41e3-bd61-12b000dc08e8-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9a5bcf8c-916b-41e3-bd61-12b000dc08e8?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Tischlerarbeiten, Mobile Trennwand",
+  "buyer": "Landeshauptstadt München, Baureferat",
+  "cpv": [
+   "45262670",
+   "45421131",
+   "44221200"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-12-01T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-379537b3-9171-4000-ae0d-1244685784ed",
+  "id": "9a5bcf8c-916b-41e3-bd61-12b000dc08e8",
+  "date": "2026-10-29T03:24:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Baureferat"
+    },
+    "address": {
+     "streetAddress": "Friedensstraße 40",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Baureferat",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landeshauptstadt München, Baureferat"
+   },
+   "address": {
+    "streetAddress": "Friedensstraße 40",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81671",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "379537b3-9171-4000-ae0d-1244685784ed",
+   "title": "Tischlerarbeiten, Mobile Trennwand",
+   "description": "Campus Ost, Sportcampus, Fehwiesenstraße 115-117, München\nVE: Tischlerarbeiten, Mobile Trennwand",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Baureferat",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421131",
+       "description": "Installation of doors"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44221200",
+       "description": "Doors"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81673",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304405",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Tischlerarbeiten, Mobile Trennwand",
+     "description": "2 St mobile Trennwandkonstruktionen",
+     "contractPeriod": {
+      "durationInDays": 91
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "9a5bcf8c-916b-41e3-bd61-12b000dc08e8",
+  "version": "01",
+  "title": "Tischlerarbeiten, Mobile Trennwand",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45262670",
+   "45421131",
+   "44221200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Tischlerarbeiten, Mobile Trennwand",
+    "cpv": [
+     "45262670",
+     "45421131",
+     "44221200"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-12-01T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Zusätzlich zu den Referenzen sind alle weiteren zu erfüllenden Eignungskriterien (Eignung zur Berufsausübung, wirtschaftliche und finanzielle Leistungsfähigkeit, technische und berufliche Leistungsfähigkeit) sowie die zum Nachweis vorzulegenden Unterlagen in dem Dokument \"Eignung_und_Nichtvorliegen_von_Ausschlussgruenden“ aufgeführt, das unter nachstehendem Link direkt abrufbar ist: https://my.vergabe.bayern.de/eignungskriterien.php?lv_id=304405"
+     }
+    ]
+   }
+  ]
+ }
+}

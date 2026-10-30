@@ -1,0 +1,192 @@
+{
+ "id": "9f099468-a4bb-4162-8886-8e780df5ca10-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "9f099468-a4bb-4162-8886-8e780df5ca10",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9f099468-a4bb-4162-8886-8e780df5ca10",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:9f099468-a4bb-4162-8886-8e780df5ca10-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9f099468-a4bb-4162-8886-8e780df5ca10?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": null,
+  "title": "SIPO/SAKRA Leistungen für Bohrprogramm Strecke 5400 Neu-Ulm bis Bf. Kempten Los 1,2,3 und 4",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "79714000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE273"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a3072bc4-92ea-403a-9cf4-6e33ddf99891",
+  "id": "9f099468-a4bb-4162-8886-8e780df5ca10",
+  "date": "2026-10-28T03:24:11Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "SDL Bahndienste GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "37d20f39-a3c9-4bb1-85be-9a5d01e19a60",
+     "legalName": "SDL Bahndienste GmbH"
+    },
+    "address": {
+     "streetAddress": "Donauwörther Straße 126",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86154",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a3072bc4-92ea-403a-9cf4-6e33ddf99891",
+   "title": "SIPO/SAKRA Leistungen für Bohrprogramm Strecke 5400 Neu-Ulm bis Bf. Kempten Los 1,2,3 und 4",
+   "description": "Begleitung Bohrprogramm, Kampfmittelerkundung, Vermessung und Begehung. \n- Los 1: Strecke 5400 km 1,5 (Bf Kempten) bis km 36,900\n- Los 2: Stecke 5400 km 36,900 bis km 58,600 (Netzbezirksgrenze)\n- Los 3: Strecke 5400 km 58,600 (Netzbezirksgrenze) bis km 72,800\n- Los 4: Strecke 5400 km 72,800 bis km 83,700",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79714000",
+      "description": "Surveillance services"
+     },
+     "deliveryAddress": {
+      "locality": "Kempten",
+      "region": "DE273",
+      "postalCode": "87435",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2025-01-24T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "SDL Bahndienste GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "SDL Bahndienste GmbH"
+     },
+     "address": {
+      "streetAddress": "Donauwörther Straße 126",
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86154",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1: Strecke 5400 km 1,5 (Bf Kempten) bis km 36,900",
+     "description": "Sipo/Sakra Sicherungsleistung für Bohrleistungen ",
+     "contractPeriod": {
+      "startDate": "2025-02-15T00:00:00+01:00",
+      "endDate": "2026-02-27T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2025-02-07T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2025-02-06T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

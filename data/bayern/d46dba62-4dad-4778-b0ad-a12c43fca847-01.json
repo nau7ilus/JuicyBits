@@ -1,0 +1,121 @@
+{
+ "id": "d46dba62-4dad-4778-b0ad-a12c43fca847-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "d46dba62-4dad-4778-b0ad-a12c43fca847",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d46dba62-4dad-4778-b0ad-a12c43fca847",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:d46dba62-4dad-4778-b0ad-a12c43fca847-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d46dba62-4dad-4778-b0ad-a12c43fca847?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Neubau einer Fahrzeughalle und einer Geräte- und Lagerhalle",
+  "buyer": "Landkreis Bamberg",
+  "cpv": [
+   "71221000"
+  ],
+  "nuts": [
+   "DE241",
+   "DE245"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a6ba7369-da66-4762-9b5e-2d74de37a350",
+  "id": "d46dba62-4dad-4778-b0ad-a12c43fca847",
+  "date": "2026-10-28T03:24:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Bamberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 00002853",
+     "legalName": "Landkreis Bamberg"
+    },
+    "address": {
+     "streetAddress": "Ludwigstr. 23",
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Bamberg",
+   "id": "Berichtseinheit-ID 00002853",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Bamberg"
+   },
+   "address": {
+    "streetAddress": "Ludwigstr. 23",
+    "locality": "Bamberg",
+    "region": "DE241",
+    "postalCode": "96052",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a6ba7369-da66-4762-9b5e-2d74de37a350",
+   "title": "Neubau einer Fahrzeughalle und einer Geräte- und Lagerhalle",
+   "description": "Bei dem Kreisbauhof des Landkreises Bamberg soll eine alte Fahrzeughalle zurückgebaut und an gleicher Stelle neu errichtet werden.\nNach dieser Maßnahme soll zusätzlich auf dem Areal ein Neubau (Geräte- und Lagerhalle) für die Abteilung Gärtner errichtet werden.",
+   "procuringEntity": {
+    "name": "Landkreis Bamberg",
+    "id": "Berichtseinheit-ID 00002853"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71221000",
+      "description": "Architectural services for buildings"
+     },
+     "deliveryAddress": {
+      "locality": "Memmelsdorf",
+      "region": "DE245",
+      "postalCode": "96117",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Architektenleistungen ab LP 3-LP 9",
+     "description": "Planung und Bauleitung für:\n- Abbruch und Neubau einer Fahrzeughalle\n- Neubau der Geräte- und Lagerhalle der Gärtner\n \nKostengruppen: - 200\n                          - 300  \n                          - 500\n                          - 600"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,268 @@
+{
+ "id": "613b9cf6-755c-4bba-85f8-5dd08ced806d-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "613b9cf6-755c-4bba-85f8-5dd08ced806d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=613b9cf6-755c-4bba-85f8-5dd08ced806d",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:613b9cf6-755c-4bba-85f8-5dd08ced806d-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:613b9cf6-755c-4bba-85f8-5dd08ced806d-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/613b9cf6-755c-4bba-85f8-5dd08ced806d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Generalsanierung des Landratsamtes Kronach",
+  "buyer": "Landkreis Kronach",
+  "cpv": [
+   "45321000",
+   "44160000"
+  ],
+  "nuts": [
+   "DE24A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b2753b9a-b4d7-4cfc-a831-34fe1fabd187",
+  "id": "613b9cf6-755c-4bba-85f8-5dd08ced806d",
+  "date": "2026-10-29T03:20:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Kronach",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE180066558",
+     "legalName": "Landkreis Kronach"
+    },
+    "address": {
+     "streetAddress": "Güterstraße 18",
+     "locality": "Kronach",
+     "region": "DE24A",
+     "postalCode": "96317",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken\nVergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Mittelfranken\nVergabekammer Nordbayern"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Karbitschka Isolier-Bau GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE274803525",
+     "legalName": "Karbitschka Isolier-Bau GmbH"
+    },
+    "address": {
+     "locality": "Coburg",
+     "region": "DE243",
+     "postalCode": "96450",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Kronach",
+   "id": "DE180066558",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Kronach"
+   },
+   "address": {
+    "streetAddress": "Güterstraße 18",
+    "locality": "Kronach",
+    "region": "DE24A",
+    "postalCode": "96317",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b2753b9a-b4d7-4cfc-a831-34fe1fabd187",
+   "title": "Generalsanierung des Landratsamtes Kronach",
+   "description": "Dämmung an techn. Anlagen (Wärmeversorgung), BA III",
+   "procuringEntity": {
+    "name": "Landkreis Kronach",
+    "id": "DE180066558"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45321000",
+      "description": "Thermal insulation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "44160000",
+       "description": "Pipeline, piping, pipes, casing, tubing and related items"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Güterstraße 18",
+      "locality": "Kronach",
+      "region": "DE24A",
+      "postalCode": "96317",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-08T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Karbitschka Isolier-Bau GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Karbitschka Isolier-Bau GmbH"
+     },
+     "address": {
+      "locality": "Coburg",
+      "region": "DE243",
+      "postalCode": "96450",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Generalsanierung des Landratsamtes Kronach",
+     "description": "Dämmung an techn. Anlagen (Wärmeversorgung), BA III\n-\tWärmedämmung (alugitterfolienkaschierte Mineralfaserschalen)\n        mit Ummantelung Hart-Kunststoff-Folie ca. 280m inkl. Formteile\n-\tWärmedämmung (alugitterfolienkaschierte Mineralfaserschalen)\n        ohne Ummantelung Hart-Kunststoff-Folie ca. 550m inkl. Formteile\n",
+     "contractPeriod": {
+      "startDate": "2026-10-19T00:00:00+02:00",
+      "endDate": "2027-01-22T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Generalsanierung des Landratsamtes Kronach; Dämmung an technischen Anlagen (Wärmeversorgung, BA III)",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Karbitschka Isolier-Bau GmbH",
+      "id": "DE274803525",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Karbitschka Isolier-Bau GmbH"
+      },
+      "address": {
+       "locality": "Coburg",
+       "region": "DE243",
+       "postalCode": "96450",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Generalsanierung des Landratsamtes Kronach; Dämmung an technischen Anlagen (Wärmeversorgung, BA III)",
+    "status": "active",
+    "value": {
+     "amount": 18337.66,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "49799-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "49799-2026"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "613b9cf6-755c-4bba-85f8-5dd08ced806d",
+  "version": "01",
+  "title": "Generalsanierung des Landratsamtes Kronach",
+  "nuts": [
+   "DE24A"
+  ],
+  "cpv": [
+   "45321000",
+   "44160000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Generalsanierung des Landratsamtes Kronach",
+    "cpv": [
+     "45321000",
+     "44160000"
+    ],
+    "nuts": [
+     "DE24A"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-19+02:00",
+    "plannedEnd": "2027-01-22+01:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "id": "4164b8cb-7318-485b-9016-10ed570012d7-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "4164b8cb-7318-485b-9016-10ed570012d7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4164b8cb-7318-485b-9016-10ed570012d7",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:4164b8cb-7318-485b-9016-10ed570012d7-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:4164b8cb-7318-485b-9016-10ed570012d7-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4164b8cb-7318-485b-9016-10ed570012d7?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "008 Malerarbeiten",
+  "buyer": "Landkreis Wunsiedel i. Fichtelgebirge",
+  "cpv": [
+   "45000000",
+   "45442100"
+  ],
+  "nuts": [
+   "DE24D"
+  ],
+  "deadline": "2026-11-26T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f417e942-abba-4980-9938-bc5b2bcb068b",
+  "id": "4164b8cb-7318-485b-9016-10ed570012d7",
+  "date": "2026-10-29T03:20:08Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Wunsiedel i. Fichtelgebirge",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "479000000-112-62",
+     "legalName": "Landkreis Wunsiedel i. Fichtelgebirge"
+    },
+    "address": {
+     "streetAddress": "Jean-Paul-Straße 9",
+     "locality": "Wunsiedel i. Fichtelgebirge",
+     "region": "DE24D",
+     "postalCode": "95632",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "evaluationBody"
+    ]
+   },
+   {
+    "name": "Zentrale Vergabestelle",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0002",
+     "legalName": "Zentrale Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Jean-Paul-Straße 9",
+     "locality": "Wunsiedel i. Fichtelgebirge",
+     "region": "DE24D",
+     "postalCode": "95632",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "0003",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Wunsiedel i. Fichtelgebirge",
+   "id": "479000000-112-62",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Wunsiedel i. Fichtelgebirge"
+   },
+   "address": {
+    "streetAddress": "Jean-Paul-Straße 9",
+    "locality": "Wunsiedel i. Fichtelgebirge",
+    "region": "DE24D",
+    "postalCode": "95632",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f417e942-abba-4980-9938-bc5b2bcb068b",
+   "title": "008 Malerarbeiten",
+   "description": "Farbbeschichtung von Wänden, Türen und Decken",
+   "procuringEntity": {
+    "name": "Landkreis Wunsiedel i. Fichtelgebirge",
+    "id": "479000000-112-62"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45442100",
+       "description": "Painting work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Selb",
+      "region": "DE24D",
+      "postalCode": "95100",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305367",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "008 Malerarbeiten",
+     "description": "Farbbeschichtung von Wänden, Türen und Decken",
+     "contractPeriod": {
+      "startDate": "2027-08-02T00:00:00+02:00",
+      "endDate": "2027-09-24T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "09c4c08d-7dcf-4310-a243-0c1a7f3a7ca2-01",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "09c4c08d-7dcf-4310-a243-0c1a7f3a7ca2-01"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "4164b8cb-7318-485b-9016-10ed570012d7",
+  "version": "01",
+  "title": "008 Malerarbeiten",
+  "nuts": [
+   "DE24D"
+  ],
+  "cpv": [
+   "45000000",
+   "45442100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "008 Malerarbeiten",
+    "cpv": [
+     "45000000",
+     "45442100"
+    ],
+    "nuts": [
+     "DE24D"
+    ],
+    "deadline": "2026-11-26T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-08-02+02:00",
+    "plannedEnd": "2027-09-24+02:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Eignung zur Berufsausübung,\ntechnische und berufliche Leistungsfähigkeit sowie \nwirtschaftliche und finanzielle Leistungsfähigkeit"
+     }
+    ]
+   }
+  ]
+ }
+}

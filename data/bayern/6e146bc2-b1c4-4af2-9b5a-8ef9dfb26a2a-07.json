@@ -1,0 +1,196 @@
+{
+ "id": "6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a-07",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a-07.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a-07.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a?format=ocds&noticeVersion=07"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Helpdesk-Service",
+  "buyer": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes",
+  "cpv": [
+   "72253000",
+   "72253100"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-30T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-80fd6119-22b8-489f-a860-8b9ea1d79064",
+  "id": "6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a",
+  "date": "2026-10-29T03:20:13Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9910308320",
+     "legalName": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes"
+    },
+    "address": {
+     "streetAddress": "Zweibrückenstraße 12",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80331",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes beim Kartellamt",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "022894990",
+     "legalName": "Vergabekammer des Bundes beim Kartellamt"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes",
+   "id": "9910308320",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes"
+   },
+   "address": {
+    "streetAddress": "Zweibrückenstraße 12",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80331",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "80fd6119-22b8-489f-a860-8b9ea1d79064",
+   "title": "Helpdesk-Service",
+   "description": "Der Vertragsgegenstand umfasst die Bereitstellung von Serviceleistungen zum Betrieb des Helpdesk beim Auftraggeber am Standort München für die Dauer von 48 Monaten (Grundlaufzeit). Die Leistungen des Helpdesk bestehen im Wesentlichen aus dem 1st-Level Support, der Nutzung und Pflege des Knowledge Managements, dem Auftraggeber-spezifischen Servicecall-Management sowie weiterer Helpdesk-spezifischer Aufgaben aus dem IT-Bereich für über 2.800 Anwender.",
+   "procuringEntity": {
+    "name": "Bundesrepublik Deutschland, vertreten durch die Bundesministerin der Justiz und für Verbraucherschutz, diese vertreten durch die Präsidentin des Deutschen Patent- und Markenamtes",
+    "id": "9910308320"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72253000",
+      "description": "Helpdesk and support services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72253100",
+       "description": "Helpdesk services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdetails.html?id=884939",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Helpdesk-Service",
+     "description": "Der Vertragsgegenstand umfasst die Bereitstellung von Serviceleistungen zum Betrieb des Helpdesk beim Auftraggeber am Standort München für die Dauer von 48 Monaten (Grundlaufzeit). Die Leistungen des Helpdesk bestehen im Wesentlichen aus dem 1st-Level Support, der Nutzung und Pflege des Knowledge Managements, dem Auftraggeber-spezifischen Servicecall-Management sowie weiterer Helpdesk-spezifischer Aufgaben aus dem IT-Bereich für über 2.800 Anwender.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "6e146bc2-b1c4-4af2-9b5a-8ef9dfb26a2a",
+  "version": "07",
+  "title": "Helpdesk-Service",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72253000",
+   "72253100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Helpdesk-Service",
+    "cpv": [
+     "72253000",
+     "72253100"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-30T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Wirtschaftliche und finanzielle Leistungsfähigkeit - Bieter haben den Gesamtumsatz der letzten drei abgeschlossenen Geschäftsjahre anzugeben. Das Eignungskriterium ist erfüllt, wenn die drei vom Bieter gemäß Eigenerklärung angegebenen Jahresumsätze im Durchschnitt mindestens 1.400.000 € netto entsprechen.\nDie Eigenerklärung erfolgt durch Angabe auf dem Formblatt „Eigenerklärung & Angebotsschreiben“. Dieses Formblatt muss der Bieter bei der Angebotsabgabe einreichen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Technische und berufliche Leistungsfähigkeit - Angabe von mindestens drei geeigneten Referenzen durch Eigenerklärung über früher ausgeführte Dienstleistungsaufträge der letzten drei Kalenderjahre. Eine Referenz ist geeignet, wenn die vom Bieter im Referenzauftrag erbrachte Leistung eine oder mehrere der nachfolgend beschriebenen fünf Leistungsbereiche abdeckt. Eine Referenz muss dabei nicht alle der nachfolgend beschriebenen fünf Leistungsbereiche abdecken. Jeder Leistungsbereich muss aber mindestens durch eine Referenz vollständig abgedeckt werden.\n• Leistungsbereich 1: Annahme von Störungsmeldungen und Service-Anfragen von Anwendern\n• Leistungsbereich 2: Ticket-Erstellung in einem Ticketsystem\n• Leistungsbereich 3: Dokumentation/Kategorisierung/Priorisierung von Tickets\n• Leistungsbereich 4: Weiterleitung von Tickets an 2nd- bzw. 3rd-Level Support\n• Leistungsbereich 5: Eigenlösung von Tickets\nEine Referenz ist zudem nur dann geeignet, wenn der Referenzauftrag vertragsgemäß ausgeführt wurde und der Referenzauftraggeber bei einer etwaigen Überprüfung der angegebenen\nReferenz die vertragsgemäße Leistungserbringung bestätigen kann. Eine Pflicht des Auftraggebers zur Überprüfung der Referenz besteht nicht.\nSoweit es sich nicht um einen laufenden Referenzauftrag handelt, muss das Ende des Referenzauftrages innerhalb der letzten drei Kalenderjahre liegen.\nFür die Angabe der Referenzen ist das Formular „Referenzen“ zu nutzen. Dabei ist für jeden Referenzauftrag ein eigenes Formular auszufüllen, so dass mindestens drei Formulare einzureichen sind."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Technische und berufliche Leistungsfähigkeit - Gefordert wird eine Eigenerklärung über die durchschnittliche jährliche Beschäftigtenanzahl des Bieters im Tätigkeitsbereich des Auftrages (Betreiben eines Helpdesk) oder vergleichbarer Leistungen (z.B. reiner 1st Level-Support) in den letzten drei Kalenderjahren. Sollte die durchschnittliche Zahl der Beschäftigten, welche im Tätigkeitsbereich des Auftrags tätig gewesen sind, nicht genau ermittelt werden können, ist jeweils eine durchschnittliche Zahl der Beschäftigten anzugeben, die mindestens in dem betreffenden Kalenderjahr in allen der vorgenannten Bereiche tätig gewesen sind. Der Wert ist dann entsprechend zu kennzeichnen.\nDas Eignungskriterium ist erfüllt, wenn der Bieter in den letzten drei Kalenderjahren im Durchschnitt mindestens über 10 Beschäftigte verfügte, die im Tätigkeitsbereich des Auftrages oder für vergleichbare Leistungen eingesetzt wurden.\nDie Eigenerklärung erfolgt durch Angabe auf dem Formblatt „Eigenerklärung & Angebotsschreiben“. Dieses Formblatt muss der Bieter bei der Angebotsabgabe einreichen."
+     }
+    ]
+   }
+  ]
+ }
+}

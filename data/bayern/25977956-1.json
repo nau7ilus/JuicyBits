@@ -1,0 +1,87 @@
+{
+ "id": "25977956-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25977956",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25977956",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25977956-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25977956?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Haltegurte",
+  "buyer": "Stadt Nürnberg - Feuerwehr (FW/2)",
+  "cpv": [
+   "35112000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25977956",
+  "id": "25977956",
+  "date": "2026-10-28T07:01:09Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg - Feuerwehr (FW/2)",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Nürnberg - Feuerwehr (FW/2)"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg - Feuerwehr (FW/2)",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg - Feuerwehr (FW/2)"
+   }
+  },
+  "tender": {
+   "title": "Haltegurte",
+   "description": "Ausschreibung von Haltegurten nach EN 358\n\nHaltegurte",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg - Feuerwehr (FW/2)"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "35112000",
+      "description": "Rescue and emergency equipment"
+     },
+     "deliveryAddress": {
+      "locality": "90451 Nürnberg",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Haltegurte",
+     "description": "Ausschreibung von Haltegurten nach EN 358\n\nHaltegurte"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

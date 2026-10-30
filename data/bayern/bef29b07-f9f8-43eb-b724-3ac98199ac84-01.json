@@ -1,0 +1,218 @@
+{
+ "id": "bef29b07-f9f8-43eb-b724-3ac98199ac84-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "bef29b07-f9f8-43eb-b724-3ac98199ac84",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bef29b07-f9f8-43eb-b724-3ac98199ac84",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:bef29b07-f9f8-43eb-b724-3ac98199ac84-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bef29b07-f9f8-43eb-b724-3ac98199ac84?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Erdgasausschreibung Stadt Burgkunstadt 2027/2028/2029",
+  "buyer": "Stadt Burgkunstadt, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+  "cpv": [
+   "09123000"
+  ],
+  "nuts": [
+   "DE24C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-2aca9e81-921c-48d0-b519-46222e0392c7",
+  "id": "bef29b07-f9f8-43eb-b724-3ac98199ac84",
+  "date": "2026-10-28T03:22:33Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Burgkunstadt, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9987dabb-ad6b-4fb2-9f01-a132be9d1300",
+     "legalName": "Stadt Burgkunstadt, vertreten durch die KUBUS Kommunalberatung und Service GmbH"
+    },
+    "address": {
+     "streetAddress": "Vogtei 5",
+     "locality": "Burgkunstadt",
+     "region": "DE24C",
+     "postalCode": "96224",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "b3b9cc5f-21e9-4911-b7ac-589f82765435",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "KUBUS Kommunalberatung und Service GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "27a676a5-7d10-4084-af42-3eacd9bbacf1",
+     "legalName": "KUBUS Kommunalberatung und Service GmbH"
+    },
+    "address": {
+     "streetAddress": "Bertha-von-Suttner-Str. 5",
+     "locality": "Schwerin",
+     "region": "DE804",
+     "postalCode": "19061",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Enni Energie & Umwelt Niederrhein GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "a00e8466-bbe9-4b7e-854a-ad20f118b9f1",
+     "legalName": "Enni Energie & Umwelt Niederrhein GmbH"
+    },
+    "address": {
+     "locality": "Moers",
+     "region": "DEA1F",
+     "postalCode": "47441",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Burgkunstadt, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+   "id": "9987dabb-ad6b-4fb2-9f01-a132be9d1300",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Burgkunstadt, vertreten durch die KUBUS Kommunalberatung und Service GmbH"
+   },
+   "address": {
+    "streetAddress": "Vogtei 5",
+    "locality": "Burgkunstadt",
+    "region": "DE24C",
+    "postalCode": "96224",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "2aca9e81-921c-48d0-b519-46222e0392c7",
+   "title": "Erdgasausschreibung Stadt Burgkunstadt 2027/2028/2029",
+   "description": "Lieferung von Erdgas für die Abnahmestellen der Stadt Burgkunstadt:\nLiefermenge: 1.145.000 kWh/a;\nLieferzeitraum: 01.01.2027 - 01.01.2030\n",
+   "procuringEntity": {
+    "name": "Stadt Burgkunstadt, vertreten durch die KUBUS Kommunalberatung und Service GmbH",
+    "id": "9987dabb-ad6b-4fb2-9f01-a132be9d1300"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "09123000",
+      "description": "Natural gas"
+     },
+     "deliveryLocation": {
+      "description": "Abnahmestellen gemäß Leistungsverzeichnis"
+     },
+     "deliveryAddress": {
+      "locality": "Burgkunstadt",
+      "region": "DE24C",
+      "postalCode": "96224",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-12T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Enni Energie & Umwelt Niederrhein GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Enni Energie & Umwelt Niederrhein GmbH"
+     },
+     "address": {
+      "locality": "Moers",
+      "region": "DEA1F",
+      "postalCode": "47441",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los Stadt Burgkunstadt",
+     "description": "Lieferung von Erdgas für die Abnahmestellen der Stadt Burgkunstadt:\nLiefermenge: 1.145.000 kWh/a;\nLieferzeitraum: 01.01.2027 - 01.01.2030",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-01-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-23T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 315428,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-22T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

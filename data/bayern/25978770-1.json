@@ -1,0 +1,137 @@
+{
+ "id": "25978770-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25978770",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978770",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25978770-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25978770-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978770?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "San. Trinkwasserhochbehälter Lengfurt",
+  "buyer": "Markt Triefenstein, Rathausstr. 2, 97855 Triefenstein, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.triefenstein.de",
+  "cpv": [
+   "41",
+   "651"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-18T00:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25978770",
+  "id": "25978770",
+  "date": "2026-10-29T07:00:15Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Triefenstein, Rathausstr. 2, 97855 Triefenstein, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.triefenstein.de",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Markt Triefenstein, Rathausstr. 2, 97855 Triefenstein, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.triefenstein.de"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Triefenstein, Rathausstr. 2, 97855 Triefenstein, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.triefenstein.de",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Triefenstein, Rathausstr. 2, 97855 Triefenstein, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.triefenstein.de"
+   }
+  },
+  "tender": {
+   "title": "San. Trinkwasserhochbehälter Lengfurt",
+   "description": "San. Trinkwasserhochbehälter Lengfurt",
+   "procuringEntity": {
+    "name": "Markt Triefenstein, Rathausstr. 2, 97855 Triefenstein, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.triefenstein.de"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "41"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "651"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "97855 Lengfurt",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/besuJs/BekLanding4Bund?z_param=2026-11-0441287",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "San. Trinkwasserhochbehälter Lengfurt",
+     "description": "San. Trinkwasserhochbehälter Lengfurt"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25978770",
+  "version": "1",
+  "title": "San. Trinkwasserhochbehälter Lengfurt",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "41",
+   "651"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "San. Trinkwasserhochbehälter Lengfurt",
+    "cpv": [
+     "41",
+     "651"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-18T00:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

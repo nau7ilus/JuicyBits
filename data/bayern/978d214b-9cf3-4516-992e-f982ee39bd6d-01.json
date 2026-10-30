@@ -1,0 +1,178 @@
+{
+ "id": "978d214b-9cf3-4516-992e-f982ee39bd6d-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "978d214b-9cf3-4516-992e-f982ee39bd6d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=978d214b-9cf3-4516-992e-f982ee39bd6d",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:978d214b-9cf3-4516-992e-f982ee39bd6d-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/978d214b-9cf3-4516-992e-f982ee39bd6d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "REZ Bayern_AsA_AA Bayern",
+  "buyer": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+  "cpv": [
+   "80000000"
+  ],
+  "nuts": [
+   "DE254",
+   "DE21B",
+   "DE262"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-40a9cb0d-545e-4074-bab5-e3c4f687c37a",
+  "id": "978d214b-9cf3-4516-992e-f982ee39bd6d",
+  "date": "2026-10-28T03:22:41Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 100/104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 100/104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "40a9cb0d-545e-4074-bab5-e3c4f687c37a",
+   "title": "REZ Bayern_AsA_AA Bayern",
+   "description": "Konzeption und Durchführung Assistierte Ausbildung (AsA) - mit Vorphase für insgesamt ca. 105 Teilnehmendenplätze im Bezirk der Agenturen für Arbeit Bayern",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "80000000",
+      "description": "Education and training services"
+     },
+     "deliveryAddress": {
+      "locality": "Freising",
+      "region": "DE21B",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "80000000",
+      "description": "Education and training services"
+     },
+     "deliveryAddress": {
+      "locality": "Schweinfurt",
+      "region": "DE262",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=902243",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=902243",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "701-26-AsA-10295",
+     "description": "REZ Bayern_AsA_AA Bayern",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2030-08-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "701-26-AsA-10295",
+     "description": "REZ Bayern_AsA_AA Bayern",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2030-08-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

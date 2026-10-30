@@ -1,0 +1,220 @@
+{
+ "id": "d4daccc9-1041-4947-a160-e2ff1dbd7e62-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "d4daccc9-1041-4947-a160-e2ff1dbd7e62",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d4daccc9-1041-4947-a160-e2ff1dbd7e62",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:d4daccc9-1041-4947-a160-e2ff1dbd7e62-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:d4daccc9-1041-4947-a160-e2ff1dbd7e62-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d4daccc9-1041-4947-a160-e2ff1dbd7e62?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Elektroinstallation 2A",
+  "buyer": "Klinikum Neumarkt - Anstalt des öffentlichen Rechts des Landkreises Neumarkt i.d.OPf.",
+  "cpv": [
+   "45311000",
+   "45310000",
+   "45315100",
+   "45314000",
+   "45317000"
+  ],
+  "nuts": [
+   "DE236"
+  ],
+  "deadline": "2026-12-01T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-887538a4-9a4a-48d7-bb29-c0a578d628f8",
+  "id": "d4daccc9-1041-4947-a160-e2ff1dbd7e62",
+  "date": "2026-10-29T03:22:09Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Klinikum Neumarkt - Anstalt des öffentlichen Rechts des Landkreises Neumarkt i.d.OPf.",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 200721194",
+     "legalName": "Klinikum Neumarkt - Anstalt des öffentlichen Rechts des Landkreises Neumarkt i.d.OPf."
+    },
+    "address": {
+     "streetAddress": "Nürnberger Str. 12",
+     "locality": "Neumarkt i.d.OPf.",
+     "region": "DE236",
+     "postalCode": "92318",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Neumarkt - Anstalt des öffentlichen Rechts des Landkreises Neumarkt i.d.OPf.",
+   "id": "DE 200721194",
+   "identifier": {
+    "id": "ORG-0018",
+    "legalName": "Klinikum Neumarkt - Anstalt des öffentlichen Rechts des Landkreises Neumarkt i.d.OPf."
+   },
+   "address": {
+    "streetAddress": "Nürnberger Str. 12",
+    "locality": "Neumarkt i.d.OPf.",
+    "region": "DE236",
+    "postalCode": "92318",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "887538a4-9a4a-48d7-bb29-c0a578d628f8",
+   "title": "Elektroinstallation 2A",
+   "description": "ca. 1300 Leuchten\nca. 2300 Installationsgeräte\nca. 50000 m Kabel und Leitungen\nca. 1500 m Trassen\nca. 28000 m EDV-Kabel\nNSHV AV ca. 12 Felder\nNSHV SV ca. 7 Felder\nNSHV GHV ca. 7 Felder\nIT-System Verteiler",
+   "procuringEntity": {
+    "name": "Klinikum Neumarkt - Anstalt des öffentlichen Rechts des Landkreises Neumarkt i.d.OPf.",
+    "id": "DE 200721194"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311000",
+      "description": "Electrical wiring and fitting work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45310000",
+       "description": "Electrical installation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45315100",
+       "description": "Electrical engineering installation works"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45314000",
+       "description": "Installation of telecommunications equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45317000",
+       "description": "Other electrical installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Neumarkt in der Oberpfalz",
+      "region": "DE236",
+      "postalCode": "92318",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/3/tenderId/158479",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Elektroinstallation 2A",
+     "description": "ca. 1300 Leuchten\nca. 2300 Installationsgeräte\nca. 50000 m Kabel und Leitungen\nca. 1500 m Trassen\nca. 28000 m EDV-Kabel\nNSHV AV ca. 12 Felder\nNSHV SV ca. 7 Felder\nNSHV GHV ca. 7 Felder\nIT-System Verteiler",
+     "contractPeriod": {
+      "startDate": "2027-01-27T00:00:00+01:00",
+      "endDate": "2028-01-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "d4daccc9-1041-4947-a160-e2ff1dbd7e62",
+  "version": "01",
+  "title": "Elektroinstallation 2A",
+  "nuts": [
+   "DE236"
+  ],
+  "cpv": [
+   "45311000",
+   "45310000",
+   "45315100",
+   "45314000",
+   "45317000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Elektroinstallation 2A",
+    "cpv": [
+     "45311000",
+     "45310000",
+     "45315100",
+     "45314000",
+     "45317000"
+    ],
+    "nuts": [
+     "DE236"
+    ],
+    "deadline": "2026-12-01T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-27+01:00",
+    "plannedEnd": "2028-01-31+01:00",
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "a) Erklärung über die Eintragung des Unternehmens in das Berufs- oder Handelsregister oder in die Handwerksrolle des Unternehmens- oder Wohnsitzes;\nb) Erklärung, dass nachweislich keine schweren Verfehlungen begangen wurden, die die Zuverlässigkeit des Unternehmens in Frage stellen.\nMit dem Angebot ist der Nachweis zu erbringen entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE).\nc) Erklärung, dass das Unternehmen nicht unter die EU-Sanktionen gegen Russland laut Verordnung (EU) 2022/576 d fällt.\n\nAuf Verlangen des Auftraggebers sind zur Bestätigung der Eigenerklärung innerhalb von 6 Kalendertagen vorzulegen:\na) Gewerbeanmeldung, Handelsregisterauszug, Eintragung in der Handwerksrolle bzw. bei der Industrie- und Handelskammer.\nAb einer Auftragssumme von 30 000 EUR wird der Auftraggeber für den Bieter, auf dessen Angebot der Zuschlag erteilt werden soll, einen Auszug aus dem Wettbewerbsregister beim Bundeskartellamt anfordern.\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "a) Erklärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten 3 abgeschlossenen Geschäftsjahre, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Aufträgen;\nb) Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet;\nc) Falls zutreffend, Erklärung, dass ein Insolvenzplan rechtskräftig bestätigt wurde;\nd) Erklärung, dass das Unternehmen seine Verpflichtung zur Zahlung von Steuern und Abgaben so wieder Beiträge zur gesetzlichen Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt hat;\ne) Erklärung, dass das Unternehmen Mitglied der Berufsgenossenschaft ist.\nMit dem Angebot sind die Nachweise zu erbringen entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE).\n\nAuf Verlangen des Auftraggebers sind zur Bestätigung der Eigenerklärungen innerhalb von 6 Kalendertagen vorzulegen:\na) Bestätigung eines vereidigten Wirtschaftsprüfers/ Steuerberaters oder entsprechend testierte Jahresabschlüsse oder entsprechend testierte Gewinn- und Verlustrechnungen;\nb) Falls zutreffend, rechtskräftig bestätigter Insolvenzplan;\nc) Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse (soweit das Unternehmen beitragspflichtig ist), Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen (soweit das Finanzamt derartige Bescheinigungen ausstellt) sowie eine Freistellungsbescheinigung nach § 48b EStG;\nd) Qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für das Unternehmen zuständigen Versicherungsträgers mit Angabe der Lohnsummen.\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "a) Erklärung, dass das Unternehmen in den letzten bis zu 5 abgeschlossenen Kalenderjahren Leistungen ausgeführt hat, die mit der zu vergebenden Leistung nach Art und Umfang vergleichbar sind;\nb) Erklärung, dass dem Unternehmen die für die Ausführung der Leistung erforderlichen Arbeitskräfte zur Verfügung stehen.\nMit dem Angebot sind die Nachweise zu erbringen entweder durch die vom öffentlichen Auftraggeber direkt abrufbare Eintragung in die allgemein zugängliche Liste des Vereins für die Präqualifikation von Bauunternehmen e. V. (Präqualifikationsverzeichnis) oder vorläufig entweder durch eine den Ausschreibungsunterlagen beiliegende „Eigenerklärung zur Eignung“ (Formblatt 124) oder eine Einheitliche Europäische Eigenerklärung (EEE).\n\nAuf Verlangen des Auftraggebers sind zur Bestätigung der Eigenerklärungen innerhalb von 6 Kalendertagen vorzulegen:\na) mind. 3 Referenzen über die Ausführung von Leistungen in den letzten bis zu 5 abgeschlossenen Kalenderjahren, die mit der zu vergebenden Leistung nach Art und Umfang vergleichbar sind, wobei für die wichtigsten Bauleistungen Bescheinigungen über die ordnungsgemäße Ausführung und das Ergebnis beizufügen sind;\nb) Angaben über die Zahl der in den letzten 3 abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit gesondert ausgewiesenem technischen Leitungspersonal.\nBeruft sich das Unternehmen zur Erfüllung der Leistung auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis oder es sind die o. g. Erklärungen und Bescheinigungen auch für diese anderen Unternehmen auf Verlangen vorzulegen. Bescheinigungen, die nicht in deutscher Sprache abgefasst sind, ist eine Übersetzung in die deutsche Sprache beizufügen."
+     }
+    ]
+   }
+  ]
+ }
+}

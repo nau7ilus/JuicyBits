@@ -1,0 +1,173 @@
+{
+ "id": "377b4741-b2e3-4c2e-9526-83a304a278c3-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "377b4741-b2e3-4c2e-9526-83a304a278c3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=377b4741-b2e3-4c2e-9526-83a304a278c3",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:377b4741-b2e3-4c2e-9526-83a304a278c3-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:377b4741-b2e3-4c2e-9526-83a304a278c3-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/377b4741-b2e3-4c2e-9526-83a304a278c3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Malerarbeiten, Tonspachtelung",
+  "buyer": "Gemeinde Fridolfing",
+  "cpv": [
+   "45440000"
+  ],
+  "nuts": [
+   "DE21M"
+  ],
+  "deadline": "2026-12-02T10:15:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-abb7d000-67e2-4b19-affb-dbe9333a20d9",
+  "id": "377b4741-b2e3-4c2e-9526-83a304a278c3",
+  "date": "2026-10-29T03:20:04Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Fridolfing",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09189118-100005375-38",
+     "legalName": "Gemeinde Fridolfing"
+    },
+    "address": {
+     "streetAddress": "Hadrianstraße 28",
+     "locality": "Fridolfing",
+     "region": "DE21M",
+     "postalCode": "83413",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Fridolfing",
+   "id": "09189118-100005375-38",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Fridolfing"
+   },
+   "address": {
+    "streetAddress": "Hadrianstraße 28",
+    "locality": "Fridolfing",
+    "region": "DE21M",
+    "postalCode": "83413",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "abb7d000-67e2-4b19-affb-dbe9333a20d9",
+   "title": "Malerarbeiten, Tonspachtelung",
+   "description": "Anstrich Dreischichtplatte:                           1.395m²\nAnstrich GK-Platte:                                         392m²\nTonspachtelung Stohbau/Stahlbeton:    1360m²",
+   "procuringEntity": {
+    "name": "Gemeinde Fridolfing",
+    "id": "09189118-100005375-38"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45440000",
+      "description": "Painting and glazing work"
+     },
+     "deliveryAddress": {
+      "locality": "Fridolfing",
+      "region": "DE21M",
+      "postalCode": "83413",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305029",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Malerarbeiten, Tonspachtelung",
+     "description": "Anstrich Dreischichtplatte:                           1.395m²\nAnstrich GK-Platte:                                         392m²\nTonspachtelung Stohbau/Stahlbeton:    1360m²",
+     "contractPeriod": {
+      "startDate": "2027-05-19T00:00:00+02:00",
+      "endDate": "2027-09-13T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "377b4741-b2e3-4c2e-9526-83a304a278c3",
+  "version": "01",
+  "title": "Malerarbeiten, Tonspachtelung",
+  "nuts": [
+   "DE21M"
+  ],
+  "cpv": [
+   "45440000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Malerarbeiten, Tonspachtelung",
+    "cpv": [
+     "45440000"
+    ],
+    "nuts": [
+     "DE21M"
+    ],
+    "deadline": "2026-12-02T10:15:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-05-19+02:00",
+    "plannedEnd": "2027-09-13+02:00",
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "id": "8c332aa8-af1e-4641-8d36-85c85d39d13f-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "8c332aa8-af1e-4641-8d36-85c85d39d13f",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8c332aa8-af1e-4641-8d36-85c85d39d13f",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:8c332aa8-af1e-4641-8d36-85c85d39d13f-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8c332aa8-af1e-4641-8d36-85c85d39d13f?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "REZ Bayern_AsA_AA Schweinfurt",
+  "buyer": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+  "cpv": [
+   "80000000"
+  ],
+  "nuts": [
+   "DE254",
+   "DE266",
+   "DE267"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-145cb11a-1e88-4d63-9269-b79258c157b7",
+  "id": "8c332aa8-af1e-4641-8d36-85c85d39d13f",
+  "date": "2026-10-28T03:24:16Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 100/104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 100/104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "145cb11a-1e88-4d63-9269-b79258c157b7",
+   "title": "REZ Bayern_AsA_AA Schweinfurt",
+   "description": "Konzeption und Durchführung der Assistierten Ausbildung (AsA) nach §§ 74 bis 75a des Sozialgesetzbuches Drittes Buch (SGB III) sowie § 16 Absatz 1 des Sozialgesetzbuches Zweites Buch (SGB II) in Verbindung mit §§ 74 bis 75a SGB III für insgesamt ca. 22000 Stunden im Bezirk der Agentur für Arbeit Schweinfurt.",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit, Regionales Einkaufszentrum Bayern, (mit Zuständigkeit für Bayern und Sachsen)",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "80000000",
+      "description": "Education and training services"
+     },
+     "deliveryAddress": {
+      "locality": "Bad Neustadt",
+      "region": "DE266",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "80000000",
+      "description": "Education and training services"
+     },
+     "deliveryAddress": {
+      "locality": "Haßfurt",
+      "region": "DE267",
+      "postalCode": "-",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=902333",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=902333",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "701-26-AsA-10315",
+     "description": "REZ Bayern_AsA_AA Schweinfurt",
+     "contractPeriod": {
+      "startDate": "2027-09-01T00:00:00+02:00",
+      "endDate": "2030-08-31T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "701-26-AsA-10315",
+     "description": "REZ Bayern_AsA_AA Schweinfurt",
+     "contractPeriod": {
+      "startDate": "2027-09-01T00:00:00+02:00",
+      "endDate": "2030-08-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

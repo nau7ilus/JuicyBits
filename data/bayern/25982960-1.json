@@ -1,0 +1,150 @@
+{
+ "id": "25982960-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982960",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982960",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982960-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982960-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982960?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Malerarbeiten",
+  "buyer": "Montessori Bamberg e.V.",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-18T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982960",
+  "id": "25982960",
+  "date": "2026-10-29T07:00:16Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Montessori Bamberg e.V.",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Montessori Bamberg e.V."
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Montessori Bamberg e.V.",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Montessori Bamberg e.V."
+   }
+  },
+  "tender": {
+   "title": "Malerarbeiten",
+   "description": "Maler- Lackierarbeiten/Beschichtung",
+   "procuringEntity": {
+    "name": "Montessori Bamberg e.V."
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "96103 Hallstadt",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28F184-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Malerarbeiten",
+     "description": "Maler- Lackierarbeiten/Beschichtung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25982960",
+  "version": "1",
+  "title": "Malerarbeiten",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Malerarbeiten",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-18T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

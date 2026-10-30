@@ -1,0 +1,156 @@
+{
+ "id": "eac70ce1-9513-4b7e-9eb4-63263afba365-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "eac70ce1-9513-4b7e-9eb4-63263afba365",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=eac70ce1-9513-4b7e-9eb4-63263afba365",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:eac70ce1-9513-4b7e-9eb4-63263afba365-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/eac70ce1-9513-4b7e-9eb4-63263afba365?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Energetische Sanierung Konradin-Grundschule und Erweiterung um 4 Klassenräume, Barbarossastraße 29 - 31, 87600 Kaufbeuren",
+  "buyer": "Stadt Kaufbeuren",
+  "cpv": [
+   "45422000"
+  ],
+  "nuts": [
+   "DE272"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3f3e13ac-b712-4869-88bf-5833c96ba418",
+  "id": "eac70ce1-9513-4b7e-9eb4-63263afba365",
+  "date": "2026-10-28T03:22:49Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Kaufbeuren",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9007626-47",
+     "legalName": "Stadt Kaufbeuren"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Max-Straße 1",
+     "locality": "Kaufbeuren",
+     "region": "DE272",
+     "postalCode": "87600",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Kaufbeuren",
+   "id": "09-9007626-47",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Kaufbeuren"
+   },
+   "address": {
+    "streetAddress": "Kaiser-Max-Straße 1",
+    "locality": "Kaufbeuren",
+    "region": "DE272",
+    "postalCode": "87600",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3f3e13ac-b712-4869-88bf-5833c96ba418",
+   "title": "Energetische Sanierung Konradin-Grundschule und Erweiterung um 4 Klassenräume, Barbarossastraße 29 - 31, 87600 Kaufbeuren",
+   "description": "Das Grundstück liegt in einem Wohngebiet im nördlichen Stadtgebiet von Kaufbeuren. In unmittelbarer Nähe befindet sich eine Realschule die mit einem Sportplatz westlich an das Baugrundstück angrenzt. Südlich grenzt das Grundstück an eine Kirche, ansonsten liegen Erschließungsstraßen direkt an den Grenzen des Grundstücks. Über eine Baustraße ist die Baustelle von der Marktgrafenstraße aus direkt zugänglich.\n\nNach erfolgter Fertigstellung des Neubaus im ersten Bauabschnitt umfasst der 2. Bauabschnitt die energetische Sanierung des Bestandgebäudes. Die Arbeiten an verschiedenen Bauteilen umfassen vor allem die Überarbeitung der Außenhüllflächen und eine Sanierung der Klassenräume im Innenbereich. Zudem wird die Haustechnik überarbeitet, da die Heizung auf regenerative Energieträger umgestellt wird und im Zusammenspiel mit der angrenzenden Turnhalle komplett erneuert wird sowie die Klassenräume mit einer technischen Lüftung ausgestattet werden. Zum Abschluss der Arbeiten wird der Innenhofbereich wieder als Pausenhof gestaltet und die provisorischen Zufahrten rückgebaut.",
+   "procuringEntity": {
+    "name": "Stadt Kaufbeuren",
+    "id": "09-9007626-47"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45422000",
+      "description": "Carpentry installation work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Barbarossastraße 29 - 31",
+      "locality": "Kaufbeuren",
+      "region": "DE272",
+      "postalCode": "87600",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/302164",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Zimmererarbeiten BA 2",
+     "description": "630 m² Nichttragende Außenwand Fassadenelemente\n220 m² Fensteröffnungen herstellen\nca. 150 m³ Zellulose Einblasdämmung für Wandelemente\n680 m² Winddichtungsfolien\n680 m² Nut und Federschalung mit Unterkonstruktion\n150 m Sockelschutzblech\n200 m Attikaverblechung\n51 m Fallrohre",
+     "contractPeriod": {
+      "startDate": "2027-04-05T00:00:00+02:00",
+      "endDate": "2027-10-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "152511-2026",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "152511-2026"
+   }
+  ]
+ },
+ "eforms": null
+}

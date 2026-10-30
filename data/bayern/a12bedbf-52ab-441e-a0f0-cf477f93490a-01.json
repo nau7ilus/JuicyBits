@@ -1,0 +1,266 @@
+{
+ "id": "a12bedbf-52ab-441e-a0f0-cf477f93490a-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "a12bedbf-52ab-441e-a0f0-cf477f93490a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a12bedbf-52ab-441e-a0f0-cf477f93490a",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:a12bedbf-52ab-441e-a0f0-cf477f93490a-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:a12bedbf-52ab-441e-a0f0-cf477f93490a-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a12bedbf-52ab-441e-a0f0-cf477f93490a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Geraetetraeger mit Zubehoer SM Hip",
+  "buyer": "Staatliches Bauamt Nürnberg",
+  "cpv": [
+   "34100000"
+  ],
+  "nuts": [
+   "DE254",
+   "DE25B"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-8e6fcebe-6fbf-48c6-a7dc-d32683db1ec2",
+  "id": "a12bedbf-52ab-441e-a0f0-cf477f93490a",
+  "date": "2026-10-29T03:22:39Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Staatliches Bauamt Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Zollhof 6",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90443",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Nürnberg - Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0995308-13",
+     "legalName": "Staatliches Bauamt Nürnberg - Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Zollhof 6",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90443",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Henne Nutzfahrzeuge GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE173770391",
+     "legalName": "Henne Nutzfahrzeuge GmbH"
+    },
+    "address": {
+     "streetAddress": "Hürderstraße 6",
+     "locality": "Heimstetten",
+     "region": "DE21H",
+     "postalCode": "85551",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Nürnberg",
+   "id": "[Telefon entfernt]",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Zollhof 6",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90443",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "8e6fcebe-6fbf-48c6-a7dc-d32683db1ec2",
+   "title": "Geraetetraeger mit Zubehoer SM Hip",
+   "description": "Beschaffung eines Geräteträger vom Typ Unimog, mit Mähgeräten für die Straßenmeisterei Hilpoltstein.",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "Hilpoltstein",
+      "region": "DE25B",
+      "postalCode": "91161",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-26T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Henne Nutzfahrzeuge GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Henne Nutzfahrzeuge GmbH"
+     },
+     "address": {
+      "streetAddress": "Hürderstraße 6",
+      "locality": "Heimstetten",
+      "region": "DE21H",
+      "postalCode": "85551",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Geraetetraeger mit Zubehoer SM Hip",
+     "description": "Beschaffung eines Geräteträger vom Typ Unimog, mit Mähgeräten für die Straßenmeisterei Hilpoltstein.",
+     "contractPeriod": {
+      "startDate": "2026-12-14T00:00:00+01:00",
+      "endDate": "2027-12-17T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Geraetetraeger mit Zubehoer SM Hip",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "suppliers": [
+     {
+      "name": "Henne Nutzfahrzeuge GmbH",
+      "id": "DE173770391",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Henne Nutzfahrzeuge GmbH"
+      },
+      "address": {
+       "streetAddress": "Hürderstraße 6",
+       "locality": "Heimstetten",
+       "region": "DE21H",
+       "postalCode": "85551",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Geraetetraeger mit Zubehoer SM Hip",
+    "status": "active",
+    "value": {
+     "amount": 556134,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a12bedbf-52ab-441e-a0f0-cf477f93490a",
+  "version": "01",
+  "title": "Geraetetraeger mit Zubehoer SM Hip",
+  "nuts": [
+   "DE25B"
+  ],
+  "cpv": [
+   "34100000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Geraetetraeger mit Zubehoer SM Hip",
+    "cpv": [
+     "34100000"
+    ],
+    "nuts": [
+     "DE25B"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-12-14+01:00",
+    "plannedEnd": "2027-12-17+01:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "id": "3596c5ba-f493-4b97-af00-64f9e91dafee-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "3596c5ba-f493-4b97-af00-64f9e91dafee",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3596c5ba-f493-4b97-af00-64f9e91dafee",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:3596c5ba-f493-4b97-af00-64f9e91dafee-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3596c5ba-f493-4b97-af00-64f9e91dafee?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Personenbeförderung mit Omnibussen nach dem PBefG; MVV-Regionalbuslinien 392 und 394.",
+  "buyer": "Landkreise Bad Tölz-Wolfratshausen und Weilheim-Schongau, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
+  "cpv": [
+   "60112000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE216"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-fe541659-f077-4ebb-9d17-7315a054edc1",
+  "id": "3596c5ba-f493-4b97-af00-64f9e91dafee",
+  "date": "2026-10-28T03:24:12Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreise Bad Tölz-Wolfratshausen und Weilheim-Schongau, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 00007468",
+     "legalName": "Landkreise Bad Tölz-Wolfratshausen und Weilheim-Schongau, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH"
+    },
+    "address": {
+     "streetAddress": "Thierschstr. 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 09031800660",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Postfach",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreise Bad Tölz-Wolfratshausen und Weilheim-Schongau, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
+   "id": "Berichtseinheit-ID 00007468",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreise Bad Tölz-Wolfratshausen und Weilheim-Schongau, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH"
+   },
+   "address": {
+    "streetAddress": "Thierschstr. 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80538",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "fe541659-f077-4ebb-9d17-7315a054edc1",
+   "title": "Personenbeförderung mit Omnibussen nach dem PBefG; MVV-Regionalbuslinien 392 und 394.",
+   "description": "- Linienverkehr auf der MVV-Regionalbuslinie 392: (Hohenburg-) Bad Tölz [R] – Bad Heilbrunn – Benediktbeuern - Kochel [R] und zurück. \n- Linienverkehr auf der MVV-Regionalbuslinie 392V: (Hohenburg-) Bad Tölz [R] – Bad Heilbrunn – Benediktbeuern - Kochel [R] und zurück. \n- Linienverkehr auf der MVV-Regionalbuslinie 394: Penzberg – Bad Heilbrunn und zurück. \n- Linienverkehr auf der MVV-Regionalbuslinie 394V: Penzberg – Bad Heilbrunn - Kochel [R] - Schlehdorf / Schlehdorf - Kochel [R] - Benediktbeuern - Penzberg.",
+   "procuringEntity": {
+    "name": "Landkreise Bad Tölz-Wolfratshausen und Weilheim-Schongau, vertreten durch die Münchner Verkehrs- und Tarifverbund GmbH",
+    "id": "Berichtseinheit-ID 00007468"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60112000",
+      "description": "Public road transport services"
+     },
+     "deliveryAddress": {
+      "region": "DE216",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.subreport.de/E78535374",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Personenbeförderung mit Omnibussen nach dem PBefG; MVV-Regionalbuslinien 392 und 394.",
+     "description": "— ca. 386 568 Nwkm/a, \n— 3 Neufahrzeuge 15 m Low-Entry-Überland \n— 1 Neufahrzeug 18 m Niederflur \n— 1 Gebrauchtfahrzeug 18 m Niederflur \n— ca. 51 Haltestellen. \nGeschätzter Wert ohne MwSt: Spanne von 11 980 000 bis 13 680 000 EUR",
+     "contractPeriod": {
+      "startDate": "2027-11-08T00:00:00+01:00",
+      "endDate": "2035-12-08T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "pass-tran-serv",
+       "description": "Passenger road transport services"
+      }
+     ]
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

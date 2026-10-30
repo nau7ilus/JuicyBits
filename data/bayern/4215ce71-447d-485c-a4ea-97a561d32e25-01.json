@@ -1,0 +1,204 @@
+{
+ "id": "4215ce71-447d-485c-a4ea-97a561d32e25-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "4215ce71-447d-485c-a4ea-97a561d32e25",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4215ce71-447d-485c-a4ea-97a561d32e25",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:4215ce71-447d-485c-a4ea-97a561d32e25-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4215ce71-447d-485c-a4ea-97a561d32e25?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Sanierung und Erweiterung Gasthof „Zum Goldenen Kreuz“ in Röthlein, OT Heidenfeld ● Objektplanung Gebäude und Innenräume + Objektplanung Freianlagen",
+  "buyer": "Gemeinde Röthlein",
+  "cpv": [
+   "71200000",
+   "71221000",
+   "71222000"
+  ],
+  "nuts": [
+   "DE26B",
+   "DE262"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-62f72d20-a2aa-4c3a-bdf6-2d646dcfea88",
+  "id": "4215ce71-447d-485c-a4ea-97a561d32e25",
+  "date": "2026-10-28T03:22:14Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Röthlein",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09678170",
+     "legalName": "Gemeinde Röthlein"
+    },
+    "address": {
+     "streetAddress": "Elmußweg  1",
+     "locality": "Röthlein",
+     "region": "DE26B",
+     "postalCode": "97520",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Architekturbüro wiener + wolff freie Architekten PartmbB",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE296467388",
+     "legalName": "Architekturbüro wiener + wolff freie Architekten PartmbB"
+    },
+    "address": {
+     "streetAddress": "Kirchplatz 2",
+     "locality": "Karlstadt",
+     "region": "DE26A",
+     "postalCode": "97753",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Röthlein",
+   "id": "09678170",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Röthlein"
+   },
+   "address": {
+    "streetAddress": "Elmußweg  1",
+    "locality": "Röthlein",
+    "region": "DE26B",
+    "postalCode": "97520",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "62f72d20-a2aa-4c3a-bdf6-2d646dcfea88",
+   "title": "Sanierung und Erweiterung Gasthof „Zum Goldenen Kreuz“ in Röthlein, OT Heidenfeld ● Objektplanung Gebäude und Innenräume + Objektplanung Freianlagen",
+   "description": "Die Gemeinde Röthlein beabsichtigt die Sanierung und Erweiterung des Gasthofes „Zum Goldenen Kreuz“ in Röthlein, OT Heidenfeld. ● Die Gesamtkosten (KG 200 – 700) nach DIN 276 werden auf ca. 3,13 Mio. € brutto geschätzt. Das Bauvorhaben wird mit öffentlichen Mitteln gefördert. (Städtebauförderung)",
+   "procuringEntity": {
+    "name": "Gemeinde Röthlein",
+    "id": "09678170"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71221000",
+       "description": "Architectural services for buildings"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71222000",
+       "description": "Architectural services for outdoor areas"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Röthlein, OT Heidenfeld",
+      "region": "DE262",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Architekturbüro wiener + wolff freie Architekten PartmbB",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Architekturbüro wiener + wolff freie Architekten PartmbB"
+     },
+     "address": {
+      "streetAddress": "Kirchplatz 2",
+      "locality": "Karlstadt",
+      "region": "DE26A",
+      "postalCode": "97753",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Sanierung und Erweiterung Gasthof „Zum Goldenen Kreuz“ in Röthlein, OT Heidenfeld ● Objektplanung Gebäude und Innenräume + Objektplanung Freianlagen",
+     "description": "Verfahrensgegenstand ist die gemeinsame Beauftragung der Architektenleistungen für die Objektplanung Gebäude und Innenräume und für die Objektplanung Freianlagen. ● Es werden zwei getrennte Verträge geschlossen, gem. den Vertragsmustern nach HAV-KOM | Die Vergabe erfolgt ausschließlich gemeinsam an einen Auftragnehmer. ● Objektplanung Gebäude und Innenräume, nach HOAI 2021 Teil 3, Abschnitt 1 §§ 34 ff.: stufenweise Beauftragung der Grundleistungen der Leistungsphasen 1 bis 9 | vorerst nur Stufe 1 mit LPH 1 + 2, einschl. zugehörige Besondere Leistungen | weitere Stufen gem. Vertragsmuster nach HAV-KOM Architektenvertrag – Gebäude und Innenräume ● Objektplanung Freianlagen, nach HOAI 2021, Teil 3, Abschnitt 2, §§ 38 ff.: stufenweise Beauftragung der Grundleistungen der Leistungsphasen 1 bis 9 | vorerst nur Stufe 1 mit LPH 1 \n+ 2, einschl. zugehörige Besondere Leistungen | weitere Stufen gem. Vertragsmuster nach HAV-KOM Architektenvertrag – Freianlagen ● Besondere Leistungen: Planung und Betreuung des Abbruchs / Rückbau | Beraten des AG und Mitwirken bei Förderverfahren | Beraten des AG und Mitwirken bzw. Zuarbeit zum Verwendungsnachweis (Die jeweilige Antragstellung erfolgt durch den AG selbst) ● Die Beauftragung ist entsprechend der Bereitstellung der Finanz- und Fördermittel beabsichtigt. Ein Rechtsanspruch auf die Beauftragung, sowie die Beauftragung mit weiteren Stufen oder Besonderen Leistungen, besteht nicht. "
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-19T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 274997.06,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-18T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

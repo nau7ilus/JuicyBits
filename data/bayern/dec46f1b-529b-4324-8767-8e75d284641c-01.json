@@ -1,0 +1,194 @@
+{
+ "id": "dec46f1b-529b-4324-8767-8e75d284641c-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "dec46f1b-529b-4324-8767-8e75d284641c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=dec46f1b-529b-4324-8767-8e75d284641c",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:dec46f1b-529b-4324-8767-8e75d284641c-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:dec46f1b-529b-4324-8767-8e75d284641c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/dec46f1b-529b-4324-8767-8e75d284641c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Generalsanierung Berufliche Schulen Landsberg - 1111 Außentüren TB I",
+  "buyer": "Landratsamt Landsberg am Lech",
+  "cpv": [
+   "45214200",
+   "44221200",
+   "45262100"
+  ],
+  "nuts": [
+   "DE21E"
+  ],
+  "deadline": "2026-12-16T11:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-dec46f1b-529b-4324-8767-8e75d284641c",
+  "id": "dec46f1b-529b-4324-8767-8e75d284641c",
+  "date": "2026-10-29T03:22:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Landsberg am Lech",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9520",
+     "legalName": "Landratsamt Landsberg am Lech"
+    },
+    "address": {
+     "streetAddress": "Von -Kühlmann-Str. 15",
+     "locality": "Landsberg am Lech",
+     "region": "DE21E",
+     "postalCode": "86899",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "37bcc3ea-f5b4-4d69-b81c-99d6d9d8e58c",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Landsberg am Lech",
+   "id": "9520",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Landsberg am Lech"
+   },
+   "address": {
+    "streetAddress": "Von -Kühlmann-Str. 15",
+    "locality": "Landsberg am Lech",
+    "region": "DE21E",
+    "postalCode": "86899",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "dec46f1b-529b-4324-8767-8e75d284641c",
+   "title": "Generalsanierung Berufliche Schulen Landsberg - 1111 Außentüren TB I",
+   "description": "Außentüren TB I",
+   "procuringEntity": {
+    "name": "Landratsamt Landsberg am Lech",
+    "id": "9520"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45214200",
+      "description": "Construction work for school buildings"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "44221200",
+       "description": "Doors"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE21E",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/dec46f1b-529b-4324-8767-8e75d284641c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Generalsanierung Berufliche Schulen Landsberg - 1111 Außentüren TB I",
+     "description": "An den Beruflichen Schulen Landsberg am Lech wird eine Generalsanierung in mehreren Teilmaßnahmen durchgeführt. Im Bauabschnitt 1.2 erfolgt der Ergänzungsneubau eines Werkstattgebäudes mit Nebengebäude für die Fachbereiche KFZ- und Bautechnik (Bauteil I). Die Außenanlagen werden überarbeitet und an die neue Gebäudesituation angepasst. Die Gebäude umfassen sowohl Werkstätten mit zugehörigen Lagerräumen, als auch Lehrräume und Sanitärbereiche. \n\nDie Leistung des AN umfasst die Lieferung und Montage von 2 Stk. 2flgl. Alu-Türelementen als Zugangstüren und 3Stk. 1 flgl. Holz-Alu-Türelementen als Fluchttüren.",
+     "contractPeriod": {
+      "startDate": "2027-08-02T00:00:00+02:00",
+      "endDate": "2027-10-21T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "dec46f1b-529b-4324-8767-8e75d284641c",
+  "version": "01",
+  "title": "Generalsanierung Berufliche Schulen Landsberg - 1111 Außentüren TB I",
+  "nuts": [
+   "DE21E"
+  ],
+  "cpv": [
+   "45214200",
+   "45262100",
+   "44221200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Generalsanierung Berufliche Schulen Landsberg - 1111 Außentüren TB I",
+    "cpv": [
+     "45214200",
+     "44221200"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": "2026-12-16T11:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-08-02+02:00",
+    "plannedEnd": "2027-10-21+02:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Für den Auftrag kommen nur Bieter in Betracht, die bereits Leistungen mit Erfolg ausgeführt haben, die mit der zu vergebenen Leistung vergleichbar sind.\nMit dem Angebot ist für die Beurteilung der Eignung vorzulegen: Nachweis der Fachkunde, Leistungsfähigkeit, Zuverlässigkeit"
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Eine Eigenerklärung darüber, dass keine Ausschlussgründe nach §§ 123 und 124 GWB vorliegen. Für die Angabe ist das „Formblatt Eignung“ zu verwenden. Vor Zuschlagserteilung können die entsprechenden Bestätigungen angefordert werden.\n\nEine Eigenerklärung zur Umsetzung des Zuschlags- und Erfüllungsverbots für öffentliche Aufträge im Zusammenhang mit russischen Staatsangehörigen, Organisationen und Einrichtungen gem. Art. 5k der Verordnung EU 2022/576 - Selfdeclaration – (EU) Nr. 833-2014. Hierfür ist das Formblatt „Eigenerklärung Bezug zu Russland“ zu verwenden.\n\nSofern sich Bietergemeinschaften beteiligen, ist zusätzlich eine Bietergemeinschaftserklärung mit dem Angebot vorzulegen. Bei Beteiligung einer Bietergemeinschaft ist von allen Mitgliedern der Bietergemeinschaft eine unterschriebene Erklärung über die gesamtschuldnerische Haftung im Auftragsfall unter Benennung eines bevollmächtigten Vertreters einzureichen. Die bisher genannten Darstellungen sind in diesem Fall von jedem Mitglied der Bietergemeinschaft vorzulegen."
+     }
+    ]
+   }
+  ]
+ }
+}

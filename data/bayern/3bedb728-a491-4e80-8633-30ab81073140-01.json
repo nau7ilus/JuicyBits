@@ -1,0 +1,244 @@
+{
+ "id": "3bedb728-a491-4e80-8633-30ab81073140-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "3bedb728-a491-4e80-8633-30ab81073140",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=3bedb728-a491-4e80-8633-30ab81073140",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:3bedb728-a491-4e80-8633-30ab81073140-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/3bedb728-a491-4e80-8633-30ab81073140?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Schlosserarbeiten_innen_rerl",
+  "buyer": "Münchner Wohnen GmbH",
+  "cpv": [
+   "45000000",
+   "45262670"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0860a8d6-9c56-4663-b2de-62f58c62be1e",
+  "id": "3bedb728-a491-4e80-8633-30ab81073140",
+  "date": "2026-10-28T03:22:22Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Regierung von Oberbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Münchner Wohnen GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:0898776620",
+     "legalName": "Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Dienstleister Münchner Wohnen GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "t:00898776620",
+     "legalName": "Dienstleister Münchner Wohnen GmbH"
+    },
+    "address": {
+     "streetAddress": "Gustav-Heinemann- Ring 111",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Hiermer GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE128945020",
+     "legalName": "Hiermer GmbH"
+    },
+    "address": {
+     "streetAddress": "Reisbacher Straße 42",
+     "locality": "Marklkofen",
+     "region": "DE22C",
+     "postalCode": "84163",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Münchner Wohnen GmbH",
+   "id": "t:0898776620",
+   "identifier": {
+    "id": "ORG-0005",
+    "legalName": "Münchner Wohnen GmbH"
+   },
+   "address": {
+    "streetAddress": "Gustav-Heinemann- Ring 111",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81739",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0860a8d6-9c56-4663-b2de-62f58c62be1e",
+   "title": "Schlosserarbeiten_innen_rerl",
+   "description": "Schlosserarbeiten innen für Freiham WA19",
+   "procuringEntity": {
+    "name": "Münchner Wohnen GmbH",
+    "id": "t:0898776620"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000",
+      "description": "Construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80807",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-26T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Hiermer GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Hiermer GmbH"
+     },
+     "address": {
+      "streetAddress": "Reisbacher Straße 42",
+      "locality": "Marklkofen",
+      "region": "DE22C",
+      "postalCode": "84163",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Schlosserarbeiten_innen_rerl",
+     "description": "Schlosserarbeiten innen für Freiham WA19",
+     "contractPeriod": {
+      "startDate": "2027-01-25T00:00:00+01:00",
+      "durationInDays": 290
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Schlosserarbeiten_innen_rerl",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "suppliers": [
+     {
+      "name": "Hiermer GmbH",
+      "id": "DE128945020",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Hiermer GmbH"
+      },
+      "address": {
+       "streetAddress": "Reisbacher Straße 42",
+       "locality": "Marklkofen",
+       "region": "DE22C",
+       "postalCode": "84163",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Schlosserarbeiten_innen_rerl",
+    "status": "active",
+    "value": {
+     "amount": 212409.55,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,201 @@
+{
+ "id": "8cf6c749-cfbd-4550-8015-c96f7bb799c2-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "8cf6c749-cfbd-4550-8015-c96f7bb799c2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8cf6c749-cfbd-4550-8015-c96f7bb799c2",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:8cf6c749-cfbd-4550-8015-c96f7bb799c2-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:8cf6c749-cfbd-4550-8015-c96f7bb799c2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8cf6c749-cfbd-4550-8015-c96f7bb799c2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+  "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+  "cpv": [
+   "72000000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": "2026-11-16T11:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3cc60a1f-9842-47a8-9301-18abd444fa06",
+  "id": "8cf6c749-cfbd-4550-8015-c96f7bb799c2",
+  "date": "2026-10-29T03:26:08Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+     "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstraße 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "d909629c-b7ea-4afa-acf6-a8b05556708c",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80539",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Steuern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "955f3ee5-ba27-4dcc-9164-0b25df5b3370",
+     "legalName": "Bayerisches Landesamt für Steuern"
+    },
+    "address": {
+     "streetAddress": "Sophienstr. 6",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+   "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern"
+   },
+   "address": {
+    "streetAddress": "Sophienstraße 6",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3cc60a1f-9842-47a8-9301-18abd444fa06",
+   "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+   "description": "Das IT-Dienstleistungszentrum (IT-DLZ) im Landesamt für Digitalisierung, Breitband und Vermessung ist der zentrale IT-Dienstleister für die öffentliche Verwaltung in Bayern. \nZiel der Ausschreibung ist eine Dienstleistungsunterstützung im Umfang von 100 PT innerhalb eines Jahres mit dreimaliger Verlängerungsoption um jeweils 100 PT/Jahr (1+1+1+1). \n\n",
+   "procuringEntity": {
+    "name": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+    "id": "8d6c15f1-ae37-4c75-83d7-ed8c858db120"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72000000",
+      "description": "IT services: consulting, software development, Internet and support"
+     },
+     "deliveryAddress": {
+      "locality": "München ",
+      "region": "DE212",
+      "postalCode": "81541",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/22a1df15-bd33-44f4-a2ee-8df1fcea6406",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+     "description": "Das IT-Dienstleistungszentrum (IT-DLZ) im Landesamt für Digitalisierung, Breitband und Vermessung ist der zentrale IT-Dienstleister für die öffentliche Verwaltung in Bayern. \nZiel der Ausschreibung ist eine Dienstleistungsunterstützung im Umfang von 100 PT innerhalb eines Jahres mit dreimaliger Verlängerungsoption um jeweils 100 PT/Jahr (1+1+1+1). \n\n",
+     "contractPeriod": {
+      "durationInDays": 365
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "8cf6c749-cfbd-4550-8015-c96f7bb799c2",
+  "version": "01",
+  "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "72000000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Softwareentwicklung für das Projekt Landtagsverwaltung; LDBV",
+    "cpv": [
+     "72000000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": "2026-11-16T11:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-supply",
+      "description": "Eigenerklärung Russland"
+     },
+     {
+      "type": "slc-abil-mgmt-qual",
+      "description": "Beschreiben Sie bezogen auf den Vergabegegenstand, wie Sie ein Höchstmaß an Leistungsqualität mit flexibler Handlungsbereitschaft erreichen werden. Gehen Sie dabei insbesondere auf die organisatorischen Möglichkeiten Ihres Unternehmens ein (z.B. Ausfall des für das IT-DLZ vorgesehenen Mitarbeiters)."
+     }
+    ]
+   }
+  ]
+ }
+}

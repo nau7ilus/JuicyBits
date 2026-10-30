@@ -1,0 +1,226 @@
+{
+ "id": "f3c1ee61-49a8-4de3-b547-a7eaa9af1238-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "f3c1ee61-49a8-4de3-b547-a7eaa9af1238",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f3c1ee61-49a8-4de3-b547-a7eaa9af1238",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:f3c1ee61-49a8-4de3-b547-a7eaa9af1238-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f3c1ee61-49a8-4de3-b547-a7eaa9af1238?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Objektplanung Gebäude und Innenräume § 33ff HOAI 2021, Lph 1-9 mit Objektplanung Freianlagen § 38ff HOAI 2021, Lph 1-9",
+  "buyer": "Stadt Weißenburg",
+  "cpv": [
+   "71200000",
+   "71221000",
+   "71222000"
+  ],
+  "nuts": [
+   "DE25C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ee14af8e-b705-4614-91e3-a8808d518c16",
+  "id": "f3c1ee61-49a8-4de3-b547-a7eaa9af1238",
+  "date": "2026-10-28T03:24:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Weißenburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09577177-0442-18",
+     "legalName": "Stadt Weißenburg"
+    },
+    "address": {
+     "streetAddress": "Marktplatz 19",
+     "locality": "Weißenburg i. Bay.",
+     "region": "DE25C",
+     "postalCode": "91781",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "ARGE regina schineis architekten + zusammenbau architekten + Planungsbüro Weinbrenner",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 356003862",
+     "legalName": "ARGE regina schineis architekten + zusammenbau architekten + Planungsbüro Weinbrenner"
+    },
+    "address": {
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86152",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Weißenburg",
+   "id": "09577177-0442-18",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Weißenburg"
+   },
+   "address": {
+    "streetAddress": "Marktplatz 19",
+    "locality": "Weißenburg i. Bay.",
+    "region": "DE25C",
+    "postalCode": "91781",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ee14af8e-b705-4614-91e3-a8808d518c16",
+   "title": "Objektplanung Gebäude und Innenräume § 33ff HOAI 2021, Lph 1-9 mit Objektplanung Freianlagen § 38ff HOAI 2021, Lph 1-9",
+   "description": "VgV mit Lösungsvorschlägen für den Neubau der Kindertagesstätte Breitungstraße in Weißenburg i. Bay.  Die Leistung wird der HZ III zugeordnet.",
+   "procuringEntity": {
+    "name": "Stadt Weißenburg",
+    "id": "09577177-0442-18"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71200000",
+      "description": "Architectural and related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71221000",
+       "description": "Architectural services for buildings"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71222000",
+       "description": "Architectural services for outdoor areas"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Weißenburg i. Bay.",
+      "region": "DE25C",
+      "postalCode": "91781",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-04-23T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "ARGE regina schineis architekten + zusammenbau architekten + Planungsbüro Weinbrenner",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "ARGE regina schineis architekten + zusammenbau architekten + Planungsbüro Weinbrenner"
+     },
+     "address": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86152",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Objektplanung Gebäude und Innenräume § 33ff HOAI 2021, Lph 1-9 mit Objektplanung Freianlagen § 38ff HOAI 2021, Lph 1-9, VgV mit Lösungsvorschlägen für den Neubau der Kindertagesstätte Breitungstraße in Weißenburg i. Bay.",
+     "description": "Die Stadt Weißenburg i.Bay. plant als Träger die bestehende Kindertagesstätte in der Breitungstraße 16in Weißenburg rückzubauen und durch einen Neubau zu ersetzen, der baulich sowie pädagogisch aktuellen Ansprüchen gerecht wird. Der Stadtratsbeschluss hierzu liegt vor.Das Grundstück ist ca. 2.500 m2 groß und liegt in einem ruhigen Wohngebiet im Osten der Stadt Weißenburg. Zum Zentrum/Altstadtkern ist das Grundstück fußläufig ca. 12 Minuten entfernt, mit dem Fahrrad ca. 5 Minuten. Der vorhandene Standort der Kindertageseinrichtung erfreut sich großer Beliebtheit, da neben den östlichen Weißenburgern v.a. auch die östlich gelegenen Ortsteile von Weißenburg diesen Kindergarten samt Krippe anfahren. Bei der ausgeschriebenen Maßnahme handelt es sich um den Neubau der Kindertagesstätte. Der Rückbau des Bestands erfolgt im Vorfeld durch die Stadt Weißenburg mit einem weiteren Auftragnehmer.Es sollen in der zukünftigen Kindertagesstätte insgesamt 124 Kinder betreut werden, davon 4 x 25 Kindergartenkinder sowie 2x12 Krippenkinder. Aufgrund der Größe des vorhandenen Grundstücks (ca. 2.500 m2) wird es erforderlich sein, den Neubau zweigeschossig zu errichten, da auf dem Grundstück auch Parkplätze für das Personal, Fahrradstellplätze für die Kinder sowie ein großzügiger Freispielbereich, getrennt für die Krippenkinder und die Kindergartenkinder, unterzubringen sind. Die Qualitäten des bestehenden Gartens, die großen, schattenspendenden Bäume sowie die rückwärtige ruhige Lage sollen erhalten bleiben. Daher ist die enge Zusammenarbeit von Objektplanung Gebäude mit der Objektplanung Freianlagen zwingend erforderlich. Der Erhalt des bestehenden Gartens und ein sensibler Umgang mit den vorhandenen Baum- und Pflanzstrukturen v.a. im Süden des Bestandsgebäudes wird vorausgesetzt.Das Gebäude soll als Holzbau aus städtischem Holz errichtet werden.Die überschlägige Kostenschätzung von Seiten des Bauherrn ergibt Kostengruppe 300 + 400 brutto EUR 4,5 Mio. und für die Kostengruppe 500 brutto EUR 0,4 Mio. Ziel für die Ausführung und Planung ist es, diesen Kostenrahmen nicht zu überschreiten.Der Start der Planung soll Mitte 2026 erfolgen. Umzug der bestehenden Gruppen vom Bestandskindergarten in den Interimskindergarten ist für Mitte 2027 geplant. Eine bauliche Fertigstellung mit Nutzungsaufnahme wird derzeit im Dezember 2028 vorgesehen.",
+     "contractPeriod": {
+      "startDate": "2026-06-01T00:00:00+02:00",
+      "endDate": "2029-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-08-18T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "ARGE regina schineis architekten + zusammenbau architekten + Planungsbüro Weinbrenner",
+      "id": "DE 356003862",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "ARGE regina schineis architekten + zusammenbau architekten + Planungsbüro Weinbrenner"
+      },
+      "address": {
+       "locality": "Augsburg",
+       "region": "DE271",
+       "postalCode": "86152",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 419845,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-08-17T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

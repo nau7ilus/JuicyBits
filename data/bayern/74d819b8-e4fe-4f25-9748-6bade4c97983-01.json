@@ -1,0 +1,185 @@
+{
+ "id": "74d819b8-e4fe-4f25-9748-6bade4c97983-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "74d819b8-e4fe-4f25-9748-6bade4c97983",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=74d819b8-e4fe-4f25-9748-6bade4c97983",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:74d819b8-e4fe-4f25-9748-6bade4c97983-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:74d819b8-e4fe-4f25-9748-6bade4c97983-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/74d819b8-e4fe-4f25-9748-6bade4c97983?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "2026_EBUS_12 Meter",
+  "buyer": "Dechant Reisen GbR",
+  "cpv": [
+   "34121400"
+  ],
+  "nuts": [
+   "DE238"
+  ],
+  "deadline": "2026-12-04T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b288324b-9875-4c9d-953f-8f430792c8bb",
+  "id": "74d819b8-e4fe-4f25-9748-6bade4c97983",
+  "date": "2026-10-29T03:22:25Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Dechant Reisen GbR",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE459487043",
+     "legalName": "Dechant Reisen GbR"
+    },
+    "address": {
+     "streetAddress": "Oberschlagweg 2",
+     "locality": "Regenstauf",
+     "region": "DE238",
+     "postalCode": "93128",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "De811335517",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Dechant Reisen GbR",
+   "id": "DE459487043",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Dechant Reisen GbR"
+   },
+   "address": {
+    "streetAddress": "Oberschlagweg 2",
+    "locality": "Regenstauf",
+    "region": "DE238",
+    "postalCode": "93128",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b288324b-9875-4c9d-953f-8f430792c8bb",
+   "title": "2026_EBUS_12 Meter",
+   "description": "Beschaffung eines 12 Meter Elektrolinienbusses",
+   "procuringEntity": {
+    "name": "Dechant Reisen GbR",
+    "id": "DE459487043"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34121400",
+      "description": "Low-floor buses"
+     },
+     "deliveryAddress": {
+      "locality": "Regenstauf",
+      "region": "DE238",
+      "postalCode": "93128",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://pnp.aumass.de/Veroeffentlichung/av28e4b2-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Beschaffung eines 12 Meter Elektrolinienbusses",
+     "description": "Beschaffung eines 12 Meter Elektrolinienbusses in Vollniederflurbauweise",
+     "contractPeriod": {
+      "startDate": "2026-10-30T00:00:00+01:00",
+      "endDate": "2026-12-04T00:00:00+01:00"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "74d819b8-e4fe-4f25-9748-6bade4c97983",
+  "version": "01",
+  "title": "2026_EBUS_12 Meter",
+  "nuts": [
+   "DE238"
+  ],
+  "cpv": [
+   "34121400"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Beschaffung eines 12 Meter Elektrolinienbusses",
+    "cpv": [
+     "34121400"
+    ],
+    "nuts": [
+     "DE238"
+    ],
+    "deadline": "2026-12-04T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2026-10-30+01:00",
+    "plannedEnd": "2026-12-04+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

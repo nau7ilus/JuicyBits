@@ -1,0 +1,179 @@
+{
+ "id": "4c457297-3d7f-497e-9937-1e1ce2122e1c-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "4c457297-3d7f-497e-9937-1e1ce2122e1c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4c457297-3d7f-497e-9937-1e1ce2122e1c",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:4c457297-3d7f-497e-9937-1e1ce2122e1c-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4c457297-3d7f-497e-9937-1e1ce2122e1c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": null,
+  "title": "Blutgasgeräte",
+  "buyer": "Klinikum der Technischen Universität München (TUM Klinikum)",
+  "cpv": [
+   "38434520"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c6041a65-cb19-426d-bdef-9595dafaad5e",
+  "id": "4c457297-3d7f-497e-9937-1e1ce2122e1c",
+  "date": "2026-10-28T03:22:10Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum der Technischen Universität München (TUM Klinikum)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129523996",
+     "legalName": "Klinikum der Technischen Universität München (TUM Klinikum)"
+    },
+    "address": {
+     "streetAddress": "Ismaningerstraße 22",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81675",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "funder"
+    ]
+   },
+   {
+    "name": "Radiometer GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811 211 609",
+     "legalName": "Radiometer GmbH"
+    },
+    "address": {
+     "streetAddress": "Europark Fichtenhain A 4",
+     "locality": "Krefeld",
+     "region": "DEA14",
+     "postalCode": "47807",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Regierung Oberbayern - Sachgebiet Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Regierung Oberbayern - Sachgebiet Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum der Technischen Universität München (TUM Klinikum)",
+   "id": "DE129523996",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum der Technischen Universität München (TUM Klinikum)"
+   },
+   "address": {
+    "streetAddress": "Ismaningerstraße 22",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81675",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c6041a65-cb19-426d-bdef-9595dafaad5e",
+   "title": "Blutgasgeräte",
+   "description": "Beschaffung von 13 bis 14 Blutgasgeräten für das Dt. Herzzentrum inkl. Wartung und Integrationsleistungen",
+   "procuringEntity": {
+    "name": "Klinikum der Technischen Universität München (TUM Klinikum)",
+    "id": "DE129523996"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38434520",
+      "description": "Blood analysers"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Radiometer GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Radiometer GmbH"
+     },
+     "address": {
+      "streetAddress": "Europark Fichtenhain A 4",
+      "locality": "Krefeld",
+      "region": "DEA14",
+      "postalCode": "47807",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Beschaffung von 13 bis 14 Blutgasgeräten für das Dt. Herzzentrum inkl. Wartung und Integrationsleistungen",
+     "description": "Beschaffung von 13 bis 14 Blutgasgeräten für das Dt. Herzzentrum inkl. Wartung und Integrationsleistungen"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

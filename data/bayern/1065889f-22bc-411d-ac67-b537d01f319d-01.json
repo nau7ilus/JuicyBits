@@ -1,0 +1,246 @@
+{
+ "id": "1065889f-22bc-411d-ac67-b537d01f319d-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "1065889f-22bc-411d-ac67-b537d01f319d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1065889f-22bc-411d-ac67-b537d01f319d",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:1065889f-22bc-411d-ac67-b537d01f319d-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1065889f-22bc-411d-ac67-b537d01f319d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Metallbauarbeiten Tueren TO2",
+  "buyer": "Staatliches Bauamt Schweinfurt",
+  "cpv": [
+   "45421100",
+   "45262670"
+  ],
+  "nuts": [
+   "DE262",
+   "DE265"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e1e92bb5-ed0a-4a31-8a05-a6e0df64056a",
+  "id": "1065889f-22bc-411d-ac67-b537d01f319d",
+  "date": "2026-10-28T03:22:30Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09721203305",
+     "legalName": "Staatliches Bauamt Schweinfurt"
+    },
+    "address": {
+     "streetAddress": "Mainberger Straße 14",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97422",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt - Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "991-02380-92",
+     "legalName": "Bundeskartellamt - Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Schweinfurt - Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0996207-32",
+     "legalName": "Staatliches Bauamt Schweinfurt - Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Mainberger Straße 14",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97422",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Metallbau Beck GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE815663506",
+     "legalName": "Metallbau Beck GmbH"
+    },
+    "address": {
+     "streetAddress": "Reichenhäuser Straße 29",
+     "locality": "Frankenheim",
+     "region": "DEG0Q",
+     "postalCode": "98634",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Schweinfurt",
+   "id": "t:09721203305",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Schweinfurt"
+   },
+   "address": {
+    "streetAddress": "Mainberger Straße 14",
+    "locality": "Schweinfurt",
+    "region": "DE262",
+    "postalCode": "97422",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e1e92bb5-ed0a-4a31-8a05-a6e0df64056a",
+   "title": "Metallbauarbeiten Tueren TO2",
+   "description": "B62HE402040016 HAB_SaaleckKa, Neubau WiGeb 1800/BetrGeb\n1 St Werkplanung Metallbauarbeiten Türen\n4 St Aussentürel. Drehflügeltür 1-flg. B 1.250 - 1370 mm H 2.450 mm Alu RC2\n3 St Aussentürel. Drehflügeltür 2-flg. B 2.350 mm H 2.450 mm Alu Lüftungselemente Anlehnung RC2\n67,50 m Abdichtung Anschlussfuge außen elast. Dichtstoff PUR B bis 10mm\n67,50 m Abdichtung Anschlussfuge innen Dichtstoff Acrylatdispersion B bis 10mm",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "t:09721203305"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421100",
+      "description": "Installation of doors and windows and related components"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45262670",
+       "description": "Metalworking"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Hammelburg",
+      "region": "DE265",
+      "postalCode": "97762",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-05T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Metallbau Beck GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Metallbau Beck GmbH"
+     },
+     "address": {
+      "streetAddress": "Reichenhäuser Straße 29",
+      "locality": "Frankenheim",
+      "region": "DEG0Q",
+      "postalCode": "98634",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Metallbauarbeiten Tueren TO2",
+     "description": "B62HE402040016 HAB_SaaleckKa, Neubau WiGeb 1800/BetrGeb\n1 St Werkplanung Metallbauarbeiten Türen\n4 St Aussentürel. Drehflügeltür 1-flg. B 1.250 - 1370 mm H 2.450 mm Alu RC2\n3 St Aussentürel. Drehflügeltür 2-flg. B 2.350 mm H 2.450 mm Alu Lüftungselemente Anlehnung RC2\n67,50 m Abdichtung Anschlussfuge außen elast. Dichtstoff PUR B bis 10mm\n67,50 m Abdichtung Anschlussfuge innen Dichtstoff Acrylatdispersion B bis 10mm",
+     "contractPeriod": {
+      "startDate": "2026-10-05T00:00:00+02:00",
+      "endDate": "2027-02-12T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Metallbauarbeiten Tueren TO2",
+    "status": "active",
+    "date": "2026-10-16T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Metallbau Beck GmbH",
+      "id": "DE815663506",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Metallbau Beck GmbH"
+      },
+      "address": {
+       "streetAddress": "Reichenhäuser Straße 29",
+       "locality": "Frankenheim",
+       "region": "DEG0Q",
+       "postalCode": "98634",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Metallbauarbeiten Tueren TO2",
+    "status": "active",
+    "value": {
+     "amount": 84000,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-15T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,202 @@
+{
+ "id": "e25a25bd-d636-4db2-8b4a-99ffbb8723cc-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "e25a25bd-d636-4db2-8b4a-99ffbb8723cc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e25a25bd-d636-4db2-8b4a-99ffbb8723cc",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:e25a25bd-d636-4db2-8b4a-99ffbb8723cc-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e25a25bd-d636-4db2-8b4a-99ffbb8723cc?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Realschule Simbach BA 3, Malerarbeiten",
+  "buyer": "Landkreis Rottal-Inn",
+  "cpv": [
+   "45442100"
+  ],
+  "nuts": [
+   "DE22A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-cafb0cb2-5bd2-4a06-a058-2eb6af1589bb",
+  "id": "e25a25bd-d636-4db2-8b4a-99ffbb8723cc",
+  "date": "2026-10-28T03:24:12Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Rottal-Inn",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09277000-RSSIM1565-25",
+     "legalName": "Landkreis Rottal-Inn"
+    },
+    "address": {
+     "streetAddress": "Ringstr. 4-7",
+     "locality": "Pfarrkirchen",
+     "region": "DE22A",
+     "postalCode": "84347",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Maler Koeck",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "Maler Koeck",
+     "legalName": "Maler Koeck"
+    },
+    "address": {
+     "streetAddress": "Adolf-Kolping-Straße 35",
+     "locality": "Simbach am Inn",
+     "region": "DE22A",
+     "postalCode": "84359",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Rottal-Inn",
+   "id": "09277000-RSSIM1565-25",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Rottal-Inn"
+   },
+   "address": {
+    "streetAddress": "Ringstr. 4-7",
+    "locality": "Pfarrkirchen",
+    "region": "DE22A",
+    "postalCode": "84347",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "cafb0cb2-5bd2-4a06-a058-2eb6af1589bb",
+   "title": "Realschule Simbach BA 3, Malerarbeiten",
+   "description": "ca. 250 m2 Anstrich auf Gipskarton ca. 5000 m2 Imprägnierung auf Holz ca. 350 m2 Betonlasur",
+   "procuringEntity": {
+    "name": "Landkreis Rottal-Inn",
+    "id": "09277000-RSSIM1565-25"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45442100",
+      "description": "Painting work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Ringstr. 4-7",
+      "locality": "Pfarrkirchen",
+      "region": "DE22A",
+      "postalCode": "84347",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-21T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Maler Koeck",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Maler Koeck"
+     },
+     "address": {
+      "streetAddress": "Adolf-Kolping-Straße 35",
+      "locality": "Simbach am Inn",
+      "region": "DE22A",
+      "postalCode": "84359",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Realschule Simbach BA 3, Malerarbeiten",
+     "description": "ca. 250 m2 Anstrich auf Gipskarton ca. 5000 m2 Imprägnierung auf Holz ca. 350 m2 Betonlasur",
+     "contractPeriod": {
+      "startDate": "2026-11-02T00:00:00+01:00",
+      "endDate": "2027-09-24T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Maler Koeck",
+    "status": "active",
+    "date": "2026-10-21T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Maler Koeck",
+    "status": "active",
+    "value": {
+     "amount": 63422.96,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-20T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,399 @@
+{
+ "id": "c97ed431-10fe-4665-a690-a08b5467d6c3-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "c97ed431-10fe-4665-a690-a08b5467d6c3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c97ed431-10fe-4665-a690-a08b5467d6c3",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:c97ed431-10fe-4665-a690-a08b5467d6c3-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:c97ed431-10fe-4665-a690-a08b5467d6c3-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c97ed431-10fe-4665-a690-a08b5467d6c3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "GLV für FBÜ OB inkl. FaSt - Netz Augsburg - alle Netzbezirke (in 3 Losen)",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "71000000",
+   "71247000",
+   "71300000",
+   "71520000",
+   "71521000",
+   "71700000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE271"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c95943c1-a5a8-47ce-90cf-8bfd8de19333",
+  "id": "c97ed431-10fe-4665-a690-a08b5467d6c3",
+  "date": "2026-10-29T03:22:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c95943c1-a5a8-47ce-90cf-8bfd8de19333",
+   "title": "GLV für FBÜ OB inkl. FaSt - Netz Augsburg - alle Netzbezirke (in 3 Losen)",
+   "description": "Grundlastvertrag BÜW OB+FaSt 2027/2028\nLos 1(1x Nord; Augsburg+Ingolstadt+Donauwörth) \nLos 2 (1xSüd; Buchloe+Kempten); \nLos 3 (1xSüd; Kempten)",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71000000",
+      "description": "Architectural, construction, engineering and inspection services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71247000",
+       "description": "Supervision of building work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71300000",
+       "description": "Engineering services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71520000",
+       "description": "Construction supervision services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71521000",
+       "description": "Construction-site supervision services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71700000",
+       "description": "Monitoring and control services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86150",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71000000",
+      "description": "Architectural, construction, engineering and inspection services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71247000",
+       "description": "Supervision of building work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71300000",
+       "description": "Engineering services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71520000",
+       "description": "Construction supervision services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71521000",
+       "description": "Construction-site supervision services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71700000",
+       "description": "Monitoring and control services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86150",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71000000",
+      "description": "Architectural, construction, engineering and inspection services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71247000",
+       "description": "Supervision of building work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71300000",
+       "description": "Engineering services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71520000",
+       "description": "Construction supervision services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71521000",
+       "description": "Construction-site supervision services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71700000",
+       "description": "Monitoring and control services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86150",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Grundlastvertrag Los 1(1x Nord; AUG+ING+DON)",
+     "description": "Los1 Augsburg, Ingolstadt, Donauwörth",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-02-29T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 (BUCH/KEM); 2027/2028 (BÜW OB+FaSt)",
+     "description": "Los 2 Buchloe, Kempten",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-02-29T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3 (Kempten); 2027/2028 (BÜW OB+FaSt)",
+     "description": "Los 3 Kempten",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2028-02-29T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "17",
+  "noticeId": "c97ed431-10fe-4665-a690-a08b5467d6c3",
+  "version": "01",
+  "title": "GLV für FBÜ OB inkl. FaSt - Netz Augsburg - alle Netzbezirke (in 3 Losen)",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "71000000",
+   "71247000",
+   "71300000",
+   "71520000",
+   "71521000",
+   "71700000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Grundlastvertrag Los 1(1x Nord; AUG+ING+DON)",
+    "cpv": [
+     "71000000",
+     "71247000",
+     "71300000",
+     "71520000",
+     "71521000",
+     "71700000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-30T08:00:00+01:00",
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-02-29+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299/suitabilitycriteria"
+     }
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2 (BUCH/KEM); 2027/2028 (BÜW OB+FaSt)",
+    "cpv": [
+     "71000000",
+     "71247000",
+     "71300000",
+     "71520000",
+     "71521000",
+     "71700000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-30T08:00:00+01:00",
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-02-29+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299/suitabilitycriteria"
+     }
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Los 3 (Kempten); 2027/2028 (BÜW OB+FaSt)",
+    "cpv": [
+     "71000000",
+     "71247000",
+     "71300000",
+     "71520000",
+     "71521000",
+     "71700000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": null,
+    "participationDeadline": "2026-11-30T08:00:00+01:00",
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2028-02-29+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-sec-supply",
+      "description": "Die Eignungskriterien finden Sie unter nachfolgendem Link. Diese müssen nicht ausschließlich auf die angegebene Kategorie  zutreffen, sondern können auch für weitere gelten. https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/subproject/0542d11d-d136-4ba8-83d8-b5e19281b299/suitabilitycriteria"
+     }
+    ]
+   }
+  ]
+ }
+}

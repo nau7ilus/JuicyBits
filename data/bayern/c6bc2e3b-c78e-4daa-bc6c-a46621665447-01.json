@@ -1,0 +1,261 @@
+{
+ "id": "c6bc2e3b-c78e-4daa-bc6c-a46621665447-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "c6bc2e3b-c78e-4daa-bc6c-a46621665447",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c6bc2e3b-c78e-4daa-bc6c-a46621665447",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:c6bc2e3b-c78e-4daa-bc6c-a46621665447-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:c6bc2e3b-c78e-4daa-bc6c-a46621665447-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c6bc2e3b-c78e-4daa-bc6c-a46621665447?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Winterdienst AM Sulzberg",
+  "buyer": "Die Autobahn GmbH des Bundes - NL Südbayern",
+  "cpv": [
+   "90500000",
+   "90510000"
+  ],
+  "nuts": [
+   "DE212",
+   "DE27E"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bef5ee1d-5e13-4bc3-8965-9feb2a5568ed",
+  "id": "c6bc2e3b-c78e-4daa-bc6c-a46621665447",
+  "date": "2026-10-29T03:26:11Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Die Autobahn GmbH des Bundes - NL Südbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-ID DE329214156",
+     "legalName": "Die Autobahn GmbH des Bundes - NL Südbayern"
+    },
+    "address": {
+     "streetAddress": "Seidlstraße 7-11",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80335",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt - Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "N.N.",
+     "legalName": "Bundeskartellamt - Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Die Autobahn GmbH des Bundes",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "USt.-ID DE329214156",
+     "legalName": "Die Autobahn GmbH des Bundes"
+    },
+    "address": {
+     "streetAddress": "Heidestraße 15",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Die Autobahn GmbH des Bundes",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "USt. ID DE329214156",
+     "legalName": "Die Autobahn GmbH des Bundes"
+    },
+    "address": {
+     "streetAddress": "Heidestraße 15",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10557",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Die Autobahn GmbH des Bundes - NL Südbayern",
+   "id": "USt-ID DE329214156",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Die Autobahn GmbH des Bundes - NL Südbayern"
+   },
+   "address": {
+    "streetAddress": "Seidlstraße 7-11",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80335",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bef5ee1d-5e13-4bc3-8965-9feb2a5568ed",
+   "title": "Winterdienst AM Sulzberg",
+   "description": "Die ausgeschriebenen Leistungen umfasst den Winterdienst (Räumen u. Streuen) im Streckenbereich der Autobahnmeisterei Sulzberg.",
+   "procuringEntity": {
+    "name": "Die Autobahn GmbH des Bundes - NL Südbayern",
+    "id": "USt-ID DE329214156"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "locality": "Sulzberg",
+      "region": "DE27E",
+      "postalCode": "87477",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "locality": "Sulzberg",
+      "region": "DE27E",
+      "postalCode": "87477",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1",
+     "description": "Streckenbereich Autobahnmeisterei Sulzberg Gesamt",
+     "contractPeriod": {
+      "startDate": "2026-11-01T00:00:00+01:00",
+      "endDate": "2028-04-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2",
+     "description": "Streckenbereich Autobahnmeisterei Sulzberg Schwerpunkt B 12",
+     "contractPeriod": {
+      "startDate": "2026-11-01T00:00:00+01:00",
+      "endDate": "2028-04-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "c6bc2e3b-c78e-4daa-bc6c-a46621665447",
+  "version": "01",
+  "title": "Winterdienst AM Sulzberg",
+  "nuts": [
+   "DE27E"
+  ],
+  "cpv": [
+   "90500000",
+   "90510000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Los 1",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE27E"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-01+01:00",
+    "plannedEnd": "2028-04-30+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Los 2",
+    "cpv": [
+     "90500000"
+    ],
+    "nuts": [
+     "DE27E"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-11-01+01:00",
+    "plannedEnd": "2028-04-30+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

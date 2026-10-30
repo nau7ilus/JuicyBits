@@ -1,0 +1,163 @@
+{
+ "id": "d61fb22f-4394-4b99-92b2-52f52e0974cf-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "d61fb22f-4394-4b99-92b2-52f52e0974cf",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d61fb22f-4394-4b99-92b2-52f52e0974cf",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:d61fb22f-4394-4b99-92b2-52f52e0974cf-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d61fb22f-4394-4b99-92b2-52f52e0974cf?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Adam-Kraft-Straße 2 - Metallbauarbeiten neu BA 1",
+  "buyer": "Stadt Nürnberg Hochbauamt",
+  "cpv": [
+   "45262670"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-34b1fbd8-dc5a-4d29-bf9f-481e9acfc117",
+  "id": "d61fb22f-4394-4b99-92b2-52f52e0974cf",
+  "date": "2026-10-28T03:24:19Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg Hochbauamt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "b8b3f6fd-d55b-4a00-9794-a0bf85492169",
+     "legalName": "Stadt Nürnberg Hochbauamt"
+    },
+    "address": {
+     "streetAddress": "Marientorgraben 11",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90402",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "855daf8c-fe9f-4b20-b84c-8e495602d628",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "42c9c6cf-cf68-4f0a-863c-fd6e52b1ce0d",
+     "legalName": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN"
+    },
+    "address": {
+     "streetAddress": "Bauhof 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90402",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg Hochbauamt",
+   "id": "b8b3f6fd-d55b-4a00-9794-a0bf85492169",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg Hochbauamt"
+   },
+   "address": {
+    "streetAddress": "Marientorgraben 11",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90402",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "34b1fbd8-dc5a-4d29-bf9f-481e9acfc117",
+   "title": "Adam-Kraft-Straße 2 - Metallbauarbeiten neu BA 1",
+   "description": "Generalsanierung GS St. Johannis - Metallbauarbeiten neu BA 1",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg Hochbauamt",
+    "id": "b8b3f6fd-d55b-4a00-9794-a0bf85492169"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90419",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/86b9aa31-cb2c-4782-864c-aec2a9980817",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Adam-Kraft-Straße 2 - Metallbauarbeiten neu BA 1",
+     "description": "Generalsanierung GS St. Johannis - Metallbauarbeiten neu BA 1",
+     "contractPeriod": {
+      "startDate": "2027-02-15T00:00:00+01:00",
+      "endDate": "2027-02-26T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

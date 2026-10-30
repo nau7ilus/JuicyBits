@@ -1,0 +1,165 @@
+{
+ "id": "63d3ea28-63a3-46dd-9050-4668b5831ff1-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "63d3ea28-63a3-46dd-9050-4668b5831ff1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=63d3ea28-63a3-46dd-9050-4668b5831ff1",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:63d3ea28-63a3-46dd-9050-4668b5831ff1-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/63d3ea28-63a3-46dd-9050-4668b5831ff1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Rahmenvertrag über die Untersuchung von PFAS in Wasser für die Jahre 2027-2029, Grund-und Oberflächenwasser",
+  "buyer": "Bayerisches Landesamt für Umwelt",
+  "cpv": [
+   "71620000",
+   "90715200"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-6e3da7b0-a8f6-457f-8240-32664f5af443",
+  "id": "63d3ea28-63a3-46dd-9050-4668b5831ff1",
+  "date": "2026-10-28T03:24:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayerisches Landesamt für Umwelt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63",
+     "legalName": "Bayerisches Landesamt für Umwelt"
+    },
+    "address": {
+     "streetAddress": "Bürgermeister-Ulrich Str. 160",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86179",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bayerisches Landesamt für Umwelt (Hof)",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "16171123-8fff-438a-be14-5d81ae12bd4d",
+     "legalName": "Bayerisches Landesamt für Umwelt (Hof)"
+    },
+    "address": {
+     "streetAddress": "Hans-Högn-Straße 12",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayerisches Landesamt für Umwelt",
+   "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayerisches Landesamt für Umwelt"
+   },
+   "address": {
+    "streetAddress": "Bürgermeister-Ulrich Str. 160",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86179",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "6e3da7b0-a8f6-457f-8240-32664f5af443",
+   "title": "Rahmenvertrag über die Untersuchung von PFAS in Wasser für die Jahre 2027-2029, Grund-und Oberflächenwasser",
+   "description": "In den Jahren 2027-2029 sollen Grund- und Oberflächenwasserproben (Fließgewässer, Seen) auf ausgewählte per- und polyfluorierten Alkylsubstanzen analysiert werden.\n\n",
+   "procuringEntity": {
+    "name": "Bayerisches Landesamt für Umwelt",
+    "id": "5afc89e6-a3e7-4ae4-9230-17a75eeb3c63"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71620000",
+      "description": "Analysis services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "90715200",
+       "description": "Other pollution investigation services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86179",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8b63e22f-950c-407a-afe3-201176cbc92d",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag über die Untersuchung von PFAS in Wasser für die Jahre 2027-2029, Grund-und Oberflächenwasser",
+     "description": "In den Jahren 2027-2029 sollen Grund- und Oberflächenwasserproben (Fließgewässer, Seen) auf ausgewählte per- und polyfluorierten Alkylsubstanzen analysiert werden.\n\n"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

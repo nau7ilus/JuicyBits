@@ -1,0 +1,189 @@
+{
+ "id": "117707f4-3937-494b-9c87-7b0059f5de7d-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "117707f4-3937-494b-9c87-7b0059f5de7d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=117707f4-3937-494b-9c87-7b0059f5de7d",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:117707f4-3937-494b-9c87-7b0059f5de7d-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/117707f4-3937-494b-9c87-7b0059f5de7d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1060-001 Estricharbeiten",
+  "buyer": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+  "cpv": [
+   "45262320"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c7ba2a2f-2c51-4c44-bfa1-707201bdc3cc",
+  "id": "117707f4-3937-494b-9c87-7b0059f5de7d",
+  "date": "2026-10-28T03:24:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-IdNr:DE289669264",
+     "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+    },
+    "address": {
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "Ust.IdNr: DE811335517",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Süd Estrich GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "St-Nr.:115/137/80364",
+     "legalName": "Süd Estrich GmbH"
+    },
+    "address": {
+     "locality": "Fahrenzhausen",
+     "region": "DE21B",
+     "postalCode": "85777",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+   "id": "USt-IdNr:DE289669264",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+   },
+   "address": {
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c7ba2a2f-2c51-4c44-bfa1-707201bdc3cc",
+   "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1060-001 Estricharbeiten",
+   "description": "Aufstockung Haus 10 - BT B\n- Trockenestrich inkl. Dämmung und Vorarbeiten            ca. 317 m²\n       \n\nAufstockung Haus 10 - BT C\n- Trockenestrich inkl. Dämmung und Vorarbeiten            ca. 1.080 m²",
+   "procuringEntity": {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "USt-IdNr:DE289669264"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262320",
+      "description": "Screed works"
+     },
+     "deliveryAddress": {
+      "region": "DE232",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Süd Estrich GmbH",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Süd Estrich GmbH"
+     },
+     "address": {
+      "locality": "Fahrenzhausen",
+      "region": "DE21B",
+      "postalCode": "85777",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Gewerk 1060-001 Estricharbeiten",
+     "description": "Aufstockung Haus 10 - BT B\n- Trockenestrich inkl. Dämmung und Vorarbeiten            ca. 317 m²\n       \n\nAufstockung Haus 10 - BT C\n- Trockenestrich inkl. Dämmung und Vorarbeiten            ca. 1.080 m²",
+     "contractPeriod": {
+      "startDate": "2027-05-10T00:00:00+02:00",
+      "endDate": "2027-06-12T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-06-09T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 121406.93,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-06-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

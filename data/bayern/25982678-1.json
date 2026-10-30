@@ -1,0 +1,163 @@
+{
+ "id": "25982678-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982678",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982678",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982678-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982678-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982678?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "1559 - Ergänzungsausstattung für das Bildungszentrum Cham (EFRE-gefördert)",
+  "buyer": "Handwerkskammer Niederbayern-Oberpfalz",
+  "cpv": [
+   "43800000",
+   "38652120",
+   "39121200",
+   "38321000",
+   "42642100"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-27T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982678",
+  "id": "25982678",
+  "date": "2026-10-29T07:00:15Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Handwerkskammer Niederbayern-Oberpfalz",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Handwerkskammer Niederbayern-Oberpfalz"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Handwerkskammer Niederbayern-Oberpfalz",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Handwerkskammer Niederbayern-Oberpfalz"
+   }
+  },
+  "tender": {
+   "title": "1559 - Ergänzungsausstattung für das Bildungszentrum Cham (EFRE-gefördert)",
+   "description": "1559 - Ergänzungsausstattung für die Bereiche Bau, EDV-, Elektro-, KFZ-Technik, Theorie,\nMetallbau, Schreiner, Schweißen, Sanitär/Heizung/Klima-Technik, Verwaltung und Zimmerer\n\n1559 - Ergänzungsausstattung für das Bildungszentrum Cham (EFRE-gefördert)",
+   "procuringEntity": {
+    "name": "Handwerkskammer Niederbayern-Oberpfalz"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "43800000",
+      "description": "Workshop equipment"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "38652120",
+       "description": "Video projectors"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39121200",
+       "description": "Tables"
+      },
+      {
+       "scheme": "CPV",
+       "id": "38321000",
+       "description": "Drafting machines"
+      },
+      {
+       "scheme": "CPV",
+       "id": "42642100",
+       "description": "Machine tools for working wood"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "93413 Cham",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/42ad44ef-2b63-409a-af78-139f4eebff6e",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "1559 - Ergänzungsausstattung für das Bildungszentrum Cham (EFRE-gefördert)",
+     "description": "1559 - Ergänzungsausstattung für die Bereiche Bau, EDV-, Elektro-, KFZ-Technik, Theorie,\nMetallbau, Schreiner, Schweißen, Sanitär/Heizung/Klima-Technik, Verwaltung und Zimmerer\n\n1559 - Ergänzungsausstattung für das Bildungszentrum Cham (EFRE-gefördert)"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25982678",
+  "version": "1",
+  "title": "1559 - Ergänzungsausstattung für das Bildungszentrum Cham (EFRE-gefördert)",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "43800000",
+   "38652120",
+   "39121200",
+   "38321000",
+   "42642100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "1559 - Ergänzungsausstattung für das Bildungszentrum Cham (EFRE-gefördert)",
+    "cpv": [
+     "43800000",
+     "38652120",
+     "39121200",
+     "38321000",
+     "42642100"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-27T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

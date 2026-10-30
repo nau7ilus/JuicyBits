@@ -1,0 +1,189 @@
+{
+ "id": "f72cd288-8f0b-4c88-8221-a6b59ee6aa6a-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "f72cd288-8f0b-4c88-8221-a6b59ee6aa6a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f72cd288-8f0b-4c88-8221-a6b59ee6aa6a",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:f72cd288-8f0b-4c88-8221-a6b59ee6aa6a-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f72cd288-8f0b-4c88-8221-a6b59ee6aa6a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1229-001 Innenfensterbänke",
+  "buyer": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+  "cpv": [
+   "45422000"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f0e21459-7262-4321-ab69-e563f3398a04",
+  "id": "f72cd288-8f0b-4c88-8221-a6b59ee6aa6a",
+  "date": "2026-10-28T03:22:40Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-IdNr:DE289669264",
+     "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+    },
+    "address": {
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "Ust.IdNr: DE811335517",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Bauer GmbH & Co. KG \nSchreinerei-Innenausbau",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE252270939",
+     "legalName": "Bauer GmbH & Co. KG \nSchreinerei-Innenausbau"
+    },
+    "address": {
+     "locality": "Wernberg-Köblitz",
+     "region": "DE239",
+     "postalCode": "92533",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+   "id": "USt-IdNr:DE289669264",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+   },
+   "address": {
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f0e21459-7262-4321-ab69-e563f3398a04",
+   "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1229-001 Innenfensterbänke",
+   "description": "Fensterbänke MDF mit HPL Beschichtung 3320x200mm: 6 Stück\nFensterbänke MDF mit HPL Beschichtung 2020x200mm: 6 Stück\nFensterbänke MDF mit HPL Beschichtung 690x200mm: 21 Stück\nFensterbänke MDF mit HPL Beschichtung 6500x200mm: 11 Stück\nFensterbänke MDF mit HPL Beschichtung 1110x200mm: 15 Stück\nFensterbänke MDF mit HPL Beschichtung 1140x200mm: 24 Stück",
+   "procuringEntity": {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "USt-IdNr:DE289669264"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45422000",
+      "description": "Carpentry installation work"
+     },
+     "deliveryAddress": {
+      "region": "DE232",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Bauer GmbH & Co. KG \nSchreinerei-Innenausbau",
+     "identifier": {
+      "id": "ORG-0002",
+      "legalName": "Bauer GmbH & Co. KG \nSchreinerei-Innenausbau"
+     },
+     "address": {
+      "locality": "Wernberg-Köblitz",
+      "region": "DE239",
+      "postalCode": "92533",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Gewerk 1229-001 Innenfensterbänke",
+     "description": "Fensterbänke MDF mit HPL Beschichtung 3320x200mm: 6 Stück\nFensterbänke MDF mit HPL Beschichtung 2020x200mm: 6 Stück\nFensterbänke MDF mit HPL Beschichtung 690x200mm: 21 Stück\nFensterbänke MDF mit HPL Beschichtung 6500x200mm: 11 Stück\nFensterbänke MDF mit HPL Beschichtung 1110x200mm: 15 Stück\nFensterbänke MDF mit HPL Beschichtung 1140x200mm: 24 Stück",
+     "contractPeriod": {
+      "startDate": "2026-12-07T00:00:00+01:00",
+      "endDate": "2026-12-19T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-06-09T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 11007,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-06-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

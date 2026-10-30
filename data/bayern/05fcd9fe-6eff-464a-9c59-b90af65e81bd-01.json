@@ -1,0 +1,190 @@
+{
+ "id": "05fcd9fe-6eff-464a-9c59-b90af65e81bd-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "05fcd9fe-6eff-464a-9c59-b90af65e81bd",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=05fcd9fe-6eff-464a-9c59-b90af65e81bd",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:05fcd9fe-6eff-464a-9c59-b90af65e81bd-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/05fcd9fe-6eff-464a-9c59-b90af65e81bd?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1192-001 VHF (Fassadenarbeiten)",
+  "buyer": "AS Fassaden GmbH",
+  "cpv": [
+   "45443000"
+  ],
+  "nuts": [
+   "DE21G",
+   "DE232"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-02f754d0-5d47-437f-b39b-5588cc31aca0",
+  "id": "05fcd9fe-6eff-464a-9c59-b90af65e81bd",
+  "date": "2026-10-28T03:22:40Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-IdNr:DE289669264",
+     "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+    },
+    "address": {
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "Ust.IdNr: DE811335517",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "AS Fassaden GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE156182834",
+     "legalName": "AS Fassaden GmbH"
+    },
+    "address": {
+     "locality": "Gars am Inn",
+     "region": "DE21G",
+     "postalCode": "83555",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AS Fassaden GmbH",
+   "id": "DE156182834",
+   "identifier": {
+    "id": "ORG-0002",
+    "legalName": "AS Fassaden GmbH"
+   },
+   "address": {
+    "locality": "Gars am Inn",
+    "region": "DE21G",
+    "postalCode": "83555",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "02f754d0-5d47-437f-b39b-5588cc31aca0",
+   "title": "438.1 MRV am BK Regensburg - Aufstockung Haus 10 - Gewerk 1192-001 VHF (Fassadenarbeiten)",
+   "description": "Verstellbare Unterkonstruktion  885 ca. m²\nWärmedämmung 180mm ca. 590 m²\nWärmedämmung 140mm ca. 105 m²\nFassadenbekleidung aus Schichtpressstoffplattem ca. 885m²",
+   "procuringEntity": {
+    "name": "AS Fassaden GmbH",
+    "id": "DE156182834"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45443000",
+      "description": "Facade work"
+     },
+     "deliveryAddress": {
+      "region": "DE232",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+     "identifier": {
+      "id": "ORG-0000",
+      "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+     },
+     "address": {
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93053",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Gewerk 1192-001 VHF (Fassadenarbeiten)",
+     "description": "Verstellbare Unterkonstruktion  885 ca. m²\nWärmedämmung 180mm ca. 590 m²\nWärmedämmung 140mm ca. 105 m²\nFassadenbekleidung aus Schichtpressstoffplattem ca. 885m²",
+     "contractPeriod": {
+      "startDate": "2026-09-14T00:00:00+02:00",
+      "endDate": "2026-12-05T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-06-09T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0000",
+    "awardID": "CON-0000",
+    "status": "active",
+    "value": {
+     "amount": 245895.89,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-06-08T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

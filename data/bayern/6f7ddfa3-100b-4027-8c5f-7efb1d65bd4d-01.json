@@ -1,0 +1,190 @@
+{
+ "id": "6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": null,
+  "title": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als Stahlfachwerk 170m lang",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45221112"
+  ],
+  "nuts": [
+   "DE712",
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c0b0cd14-f064-4c07-8b20-80e4741a4b87",
+  "id": "6f7ddfa3-100b-4027-8c5f-7efb1d65bd4d",
+  "date": "2026-10-28T03:26:13Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "PORR GmbH & Co. KGaA",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "5a001d46-e930-44fe-bc9a-b8886ee46d4e",
+     "legalName": "PORR GmbH & Co. KGaA"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80807",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c0b0cd14-f064-4c07-8b20-80e4741a4b87",
+   "title": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als Stahlfachwerk 170m lang",
+   "description": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als zweigleisiges Stahlfachwerk 170m lang, seitliches Herstellen und Einschieben mit Abbruch des bestehenden 5feldrigen Überbaus, OLA-/LST-Begleitarbeiten, Oberbauarbeiten, Umverlegung Speiseleitungen",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45221112",
+      "description": "Railway bridge construction work"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90443",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2025-11-14T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "PORR GmbH & Co. KGaA",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "PORR GmbH & Co. KGaA"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80807",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als Stahlfachwerk 170m lang",
+     "description": "Ersatzneubau EÜ Port Arthur Strecke 5320 km 60,487 in Nürnberg als zweigleisiges Stahlfachwerk 170m lang, seitliches Herstellen und Einschieben mit Abbruch des bestehenden 5feldrigen Überbaus, OLA-/LST-Begleitarbeiten, Oberbauarbeiten, Umverlegung Speiseleitungen",
+     "contractPeriod": {
+      "startDate": "2025-12-02T00:00:00+01:00",
+      "endDate": "2028-05-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2025-11-25T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2025-11-24T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

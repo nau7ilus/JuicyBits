@@ -1,0 +1,204 @@
+{
+ "id": "9cf614b6-694c-4be5-b4db-d5da8f45c07b-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "9cf614b6-694c-4be5-b4db-d5da8f45c07b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9cf614b6-694c-4be5-b4db-d5da8f45c07b",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:9cf614b6-694c-4be5-b4db-d5da8f45c07b-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:9cf614b6-694c-4be5-b4db-d5da8f45c07b-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9cf614b6-694c-4be5-b4db-d5da8f45c07b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Stadt Krumbach (Schwaben) - Vermietung einer noch zu errichtenden Containeranlage inkl. Rückbau",
+  "buyer": "Stadt Krumbach (Schwaben)",
+  "cpv": [
+   "45223800",
+   "45214200",
+   "45214000"
+  ],
+  "nuts": [
+   "DE278"
+  ],
+  "deadline": "2026-11-27T08:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bbb7443b-690a-48e4-baaa-440574099287",
+  "id": "9cf614b6-694c-4be5-b4db-d5da8f45c07b",
+  "date": "2026-10-29T03:22:10Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Krumbach (Schwaben)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "UStID. DE201905712",
+     "legalName": "Stadt Krumbach (Schwaben)"
+    },
+    "address": {
+     "streetAddress": "Nattenhauser Straße 5",
+     "locality": "Krumbach (Schwaben)",
+     "region": "DE278",
+     "postalCode": "86381",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern - Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern - Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Krumbach (Schwaben)",
+   "id": "UStID. DE201905712",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Krumbach (Schwaben)"
+   },
+   "address": {
+    "streetAddress": "Nattenhauser Straße 5",
+    "locality": "Krumbach (Schwaben)",
+    "region": "DE278",
+    "postalCode": "86381",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bbb7443b-690a-48e4-baaa-440574099287",
+   "title": "Stadt Krumbach (Schwaben) - Vermietung einer noch zu errichtenden Containeranlage inkl. Rückbau",
+   "description": "Der Auftraggeber plant die Generalsanierung der Mittelschule Krumbach (Schwaben), Talstraße 70, 86381 Krumbach (Schwaben). Während der Generalsanierungsarbeiten soll der Schulbetrieb der gesamten Mittelschule Krumbach in ein Interimsschulgebäude in Modul-/Containerbauweise verlegt werden. Die Verlegung betrifft allein die Mittelschule und nicht die unmittelbar angrenzende Realschule Krumbach.   Die Aufstellung des Interimsbaus erfolgt auf dem zugehörigen, zum Zeitpunkt der Ausführung erschlossenen Parkplatzareal östlich des Schulgebäudes. Der Zugang zum Interimsgebäude erfolgt über den Parkplatzbereich auf demselben Grundstück. Die Baugenehmigung für die Maßnahme liegt vor.  Der Auftraggeber schreibt die nachfolgend beschriebenen Leistungen als Baulos der Generalsanierung der Mittelschule Krumbach (Schwaben) nach VOB/A-EU europaweit aus. Die Leistungen sind funktional betrachtet ein Gewerk dieser Gesamtbaumaßnahme.",
+   "procuringEntity": {
+    "name": "Stadt Krumbach (Schwaben)",
+    "id": "UStID. DE201905712"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45223800",
+      "description": "Assembly and erection of prefabricated structures"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45214200",
+       "description": "Construction work for school buildings"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45214000",
+       "description": "Construction work for buildings relating to education and research"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Talstraße 70",
+      "locality": "Krumbach (Schwaben)",
+      "region": "DE278",
+      "postalCode": "86381",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4Y9PM1ND/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Stadt Krumbach (Schwaben) - Vermietung einer noch zu errichtenden Containeranlage inkl. Rückbau",
+     "description": "Gegenstand des Vertrags ist die Vermietung einer noch zu liefernden und zu montierenden, voll funktionsfähigen und betriebsbereiten Containeranlage als Interimsschulgebäude einschließlich der hierzu erforderlichen Planungsleistungen sowie der Rückbau und Abtransport dieser Containeranlage nach Ende der Mietzeit, jeweils für den Standort Mittelschule Krumbach, Talstraße 70, 86381 Krumbach (Schwaben).  Zu den zu erbringenden Leistungen gehören insbesondere:  - die Ausführungs-, Werkstatt- und Montageplanung sowie die erforderlichen Fachplanungen und Nachweise; - die Erwirkung einer vorhabenbezogenen Bauartgenehmigung (vBG, Art. 15 Abs. 2 Satz 1 Nr. 2 BayBO) für die angebotene Containeranlage, sofern keine allgemeine Bauartgenehmigung (aBG, Art. 15 Abs. 2 Satz 1 Nr. 2 BayBO) für die angebotene Bauart vorliegt; - die Lieferung und Montage einer in Teilen bis zu dreigeschossigen Containeranlage in U-Form mit insgesamt 31 Klassenzimmern, Neben- und Fachräumen, Verwaltungs- und Sanitärbereichen sowie Treppenhausmodulen; - die außenliegenden Konstruktionen (u. a. Zugangstreppen, Rampenanlagen für den barrierefreien Zugang, Glasvordach); - die vollständige Elektro- und HLS-Installation ab den in der Leistungsbeschreibung definierten Übergabepunkten; - die Baustelleneinrichtung für Montage und Rückbau, betriebsbereite Übergabe an den Auftraggeber einschließlich Einweisung und Dokumentation; - die Vermietung der Containeranlage für eine Grundmietzeit von 30 Monaten und eine ggf. erfolgende Verlängerung von 18 Monaten; - die Erhaltung des Mietgegenstands sowie deren Versicherung während der gesamten Mietzeit; - die Demontage, den Abtransport und die Rückgabe der Montagefläche nach Mietzeitende.  Die Einzelheiten der geschuldeten Leistung ergeben sich abschließend aus der Leistungsbeschreibung nebst deren Anlagen sowie aus dem Vertrag."
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "9cf614b6-694c-4be5-b4db-d5da8f45c07b",
+  "version": "01",
+  "title": "Stadt Krumbach (Schwaben) - Vermietung einer noch zu errichtenden Containeranlage inkl. Rückbau",
+  "nuts": [
+   "DE278"
+  ],
+  "cpv": [
+   "45223800",
+   "45214200",
+   "45214000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Stadt Krumbach (Schwaben) - Vermietung einer noch zu errichtenden Containeranlage inkl. Rückbau",
+    "cpv": [
+     "45223800",
+     "45214200",
+     "45214000"
+    ],
+    "nuts": [
+     "DE278"
+    ],
+    "deadline": "2026-11-27T08:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-ins",
+      "description": "Eigenerklärung über eine bestehende Haftpflichtversicherung des Bieters  1. mit einer Deckungssumme je Schadensfall von mindestens 10.000.000,00 EUR für Personenschäden und 2. mit einer Deckungssumme je Schadensfall von mindestens 5.000.000,00 EUR für Vermögens- und Sachschäden, und 3. mit einer Deckungssumme je Schadensfall von mindestens 1.000.000,00 EUR für Umweltschäden, 4. wobei die Maximierung der Ersatzleistung mindestens das Zweifache der jeweiligen Deckungssummen pro Kalenderjahr betragen muss,  bei einem in einem Mitgliedstaat der EU oder eines Vertragsstaates des Abkommens über den Europäischen Wirtschaftsraum zugelassenen Versicherungsunternehmen.  Im Falle von geringeren Versicherungssummen und/oder geringerer Maximierung der Ersatzleistung als vorstehend unter Ziffer 1 bis 4 genannt, hat der Bieter zu erklären, dass er über eine Haftpflichtversicherung verfügt und diese im Auftragsfall an die vorstehenden Anforderungen unter Ziffer 1 bis 4 anpassen wird.  Bei Bietergemeinschaften sind ein entsprechender Nachweis oder eine entsprechende Eigenerklärung von jedem Mitglied der Bietergemeinschaft vorzulegen."
+     },
+     {
+      "type": "slc-stand-to-gen",
+      "description": "Eigenerklärung über den Gesamtumsatz des Bieters, jeweils der letzten drei (3) abgeschlossenen Geschäftsjahre, jeweils in EUR netto.  Mindestanforderung ist ein durchschnittlicher Jahresumsatz des Bieters von mindestens 3.000.000 EUR netto in den letzten drei (3) abgeschlossenen Geschäftsjahre.  Bei Bietergemeinschaften sind die jeweiligen Gesamtumsätze der Mitglieder pro Geschäftsjahr zu addieren und die Summe ist je Geschäftsjahr unter Gesamtumsatz anzugeben. Die Summe ist maßgeblich für die Einhaltung der vorgenannten Mindestanforderung."
+     },
+     {
+      "type": "slc-abil-ref-supply",
+      "description": "Eigenerklärung des Bieters/ der Mitglieder der Bietergemeinschaft über ausgeführte Referenzprojekte nach folgender Maßgabe, jeweils mit Angabe  - bei Bietergemeinschaften: des Namens des Unternehmens, das das Referenzprojekt durchgeführt hat, - der Rolle des Bieters/ des Mitglieds der Bietergemeinschaft in dem Referenzprojekt, - der Projektbezeichnung, - Projektbeschreibung inkl. Beschreibung der beauftragten und erbrachten Leistungen des Bieters/ des Mitglieds der Bietergemeinschaft, - des Auftragswerts dieser beauftragten und erbrachten Leistungen, - des Zeitraums der Leistungserbringung dieser beauftragten und erbrachten Leistungen, - des Namens und der Anschrift des Auftraggebers des Referenzprojektes und Name des Ansprechpartners beim Auftraggeber (nicht eines externen Dritten) mit Telefonnummer und E-Mail-Adresse.  Als Eignungskriterium gefordert sind zwei (2) (Mindestanforderung) ausgeführte Referenzprojekte des Bieters/ der Mitglieder der Bietergemeinschaft über ihm/ihnen gegenüber beauftragte und von ihm/ihnen erbrachte Leistungen, die jeweils alle folgenden drei Anforderungen erfüllen:  1. Es handelt sich um ein Referenzprojekt über die schlüsselfertige Lieferung und Montage einer Containeranlage, die dem nicht nur vorübergehenden Aufenthalt von Personen dient und nicht als Baustelleneinrichtung genutzt worden ist.  2. Auftragssumme des Referenzprojekts: mindestens 2.000.000,- EUR netto. Auftragssumme ist die den Auftragsumfang des Bieters/des Mitglieds oder der Mitglieder der Bietergemeinschaft betreffende vertraglich vereinbarte Gesamtvergütung für die beauftragte und erbrachte Lieferung und Montage der Containeranlage. 3. Projektstand des Referenzprojekts bei Ablauf der Angebotsfrist in diesem Verfahren: Das Referenzprojekt muss im Zeitraum 01.09.2021 bis zum Fristablauf der Abgabe des Angebots abgenommen oder übergeben worden sein (das Referenzprojekt kann vor dem 01.09.2021 begonnen worden sein).  Von den zwei (2) Referenzprojekten muss ein Referenzprojekt die nachfolgende Mindestanforderung erfüllen:  i. Der Bieter hat die gelieferte und montierte Containeranlage an den Referenzauftraggeber für einen Zeitraum von mindesten 3 Monaten vermietet und in diesem Zeitraum Maßnahmen zur Erhaltung der Containeranlage (Inspektionen, Wartungen, Instandsetzungen oder vergleichbare Maßnahmen) erbracht.  Bei Bietergemeinschaften muss klar erkennbar sein, welches Referenzprojekt welchem Mitglied zuzuordnen ist. Die Anforderungen erfüllende Referenzprojekte der Mitglieder werden der Bietergemeinschaft zugerechnet.  Es werden nur die vom Bieter im Anhang zum Formblatt Nichtvorliegen von Ausschlussgründen/Eignung an vorgegebener Stelle jeweils genannten Referenzprojekte berücksichtigt. Je Referenz ist ein zusätzliches Projektblatt mit Darstellung des Referenzprojektes gestattet, das ebenfalls berücksichtigt wird. Sollten an anderer Stelle oder darüber hinaus Referenzprojekte benannt werden (z. B. auch in allgemeinen Bürobroschüren, Referenzlisten o. ä.), werden diese nicht berücksichtigt. Hinsichtlich der weiteren an die Referenzen gestellten Anforderungen und der geforderten Form der Referenzangaben wird auf die Angaben im Formblatt Nichtvorliegen von Ausschlussgründen/Eignung  und dessen Anhang verwiesen.  Bei Nichterfüllung der o.g. Mindestanforderung (= zwei (2) Referenzen, die jeweils sämtliche Anforderungen gem. Ziffern 1.-3. erfüllen und von denen eine Referenz die Anforderung gem. Ziffer i. erfüllt) erfolgt der Ausschluss des Angebots."
+     }
+    ]
+   }
+  ]
+ }
+}

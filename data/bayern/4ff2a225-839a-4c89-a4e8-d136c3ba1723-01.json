@@ -1,0 +1,249 @@
+{
+ "id": "4ff2a225-839a-4c89-a4e8-d136c3ba1723-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "4ff2a225-839a-4c89-a4e8-d136c3ba1723",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4ff2a225-839a-4c89-a4e8-d136c3ba1723",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:4ff2a225-839a-4c89-a4e8-d136c3ba1723-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:4ff2a225-839a-4c89-a4e8-d136c3ba1723-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4ff2a225-839a-4c89-a4e8-d136c3ba1723?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "VE 4.2.118b - Lose Möbel - Ost",
+  "buyer": "Klinikum Ingolstadt GmbH",
+  "cpv": [
+   "45422000"
+  ],
+  "nuts": [
+   "DE211"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e11194d6-20c0-438c-b4df-14269e788a6a",
+  "id": "4ff2a225-839a-4c89-a4e8-d136c3ba1723",
+  "date": "2026-10-29T03:24:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Ingolstadt GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "12414700398",
+     "legalName": "Klinikum Ingolstadt GmbH"
+    },
+    "address": {
+     "streetAddress": "Klinikum Ingolstadt GmbH",
+     "locality": "Ingolstadt",
+     "region": "DE211",
+     "postalCode": "85049",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Kusch + Co. Sitzmoebelwerke",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE322452059",
+     "legalName": "Kusch + Co. Sitzmoebelwerke"
+    },
+    "address": {
+     "streetAddress": "Kusch + Co. Sitzmoebelwerke\nGundringhausen 5\n",
+     "locality": "Hallenberg",
+     "region": "DEA57",
+     "postalCode": "59969",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "08921762411",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Ingolstadt GmbH",
+   "id": "12414700398",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Ingolstadt GmbH"
+   },
+   "address": {
+    "streetAddress": "Klinikum Ingolstadt GmbH",
+    "locality": "Ingolstadt",
+    "region": "DE211",
+    "postalCode": "85049",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e11194d6-20c0-438c-b4df-14269e788a6a",
+   "title": "VE 4.2.118b - Lose Möbel - Ost",
+   "description": "Liefern von Stühlen und Tischen\n",
+   "procuringEntity": {
+    "name": "Klinikum Ingolstadt GmbH",
+    "id": "12414700398"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45422000",
+      "description": "Carpentry installation work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Klinikum Ingolstadt GmbH\n\n",
+      "locality": "Ingolstadt",
+      "region": "DE211",
+      "postalCode": "85049",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-08-14T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Kusch + Co. Sitzmoebelwerke",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Kusch + Co. Sitzmoebelwerke"
+     },
+     "address": {
+      "streetAddress": "Kusch + Co. Sitzmoebelwerke\nGundringhausen 5\n",
+      "locality": "Hallenberg",
+      "region": "DEA57",
+      "postalCode": "59969",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "VE 4.2.118b Lose Möbel - Ost",
+     "description": "Liefern von Stühlen und Tischen\n",
+     "contractPeriod": {
+      "startDate": "2026-09-28T00:00:00+02:00",
+      "endDate": "2026-12-21T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-09-14T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Kusch + Co. Sitzmoebelwerke",
+      "id": "DE322452059",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "Kusch + Co. Sitzmoebelwerke"
+      },
+      "address": {
+       "streetAddress": "Kusch + Co. Sitzmoebelwerke\nGundringhausen 5\n",
+       "locality": "Hallenberg",
+       "region": "DEA57",
+       "postalCode": "59969",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 41389.96,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-13T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "4ff2a225-839a-4c89-a4e8-d136c3ba1723",
+  "version": "01",
+  "title": "VE 4.2.118b - Lose Möbel - Ost",
+  "nuts": [
+   "DE211"
+  ],
+  "cpv": [
+   "45422000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "VE 4.2.118b Lose Möbel - Ost",
+    "cpv": [
+     "45422000"
+    ],
+    "nuts": [
+     "DE211"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-09-28+02:00",
+    "plannedEnd": "2026-12-21+01:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

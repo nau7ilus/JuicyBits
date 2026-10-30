@@ -1,0 +1,220 @@
+{
+ "id": "9b9473d6-2f99-4fd8-b893-904f73d3edd7-02",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "9b9473d6-2f99-4fd8-b893-904f73d3edd7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9b9473d6-2f99-4fd8-b893-904f73d3edd7",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:9b9473d6-2f99-4fd8-b893-904f73d3edd7-02.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:9b9473d6-2f99-4fd8-b893-904f73d3edd7-02.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9b9473d6-2f99-4fd8-b893-904f73d3edd7?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV103 Baumeisterarbeiten",
+  "buyer": "Gemeinde Brannenburg",
+  "cpv": [
+   "45210000"
+  ],
+  "nuts": [
+   "DE21K"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-e639752f-addd-499b-9f01-d290bc91d601",
+  "id": "9b9473d6-2f99-4fd8-b893-904f73d3edd7",
+  "date": "2026-10-29T03:24:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Brannenburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "6233",
+     "legalName": "Gemeinde Brannenburg"
+    },
+    "address": {
+     "streetAddress": "Schulweg 2",
+     "locality": "Brannenburg",
+     "region": "DE21K",
+     "postalCode": "83098",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0883c67a-1e1f-4bb9-9774-f08a4d0a8bbf",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Pfeiffer Baugesellschaft mbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE812932754",
+     "legalName": "Pfeiffer Baugesellschaft mbH"
+    },
+    "address": {
+     "locality": "Rosenheim",
+     "region": "DE213",
+     "postalCode": "83026",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Brannenburg",
+   "id": "6233",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Brannenburg"
+   },
+   "address": {
+    "streetAddress": "Schulweg 2",
+    "locality": "Brannenburg",
+    "region": "DE21K",
+    "postalCode": "83098",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "e639752f-addd-499b-9f01-d290bc91d601",
+   "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV103 Baumeisterarbeiten",
+   "description": "Baumeisterarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinde Brannenburg",
+    "id": "6233"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45210000",
+      "description": "Building construction work"
+     },
+     "deliveryAddress": {
+      "region": "DE21K",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Pfeiffer Baugesellschaft mbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Pfeiffer Baugesellschaft mbH"
+     },
+     "address": {
+      "locality": "Rosenheim",
+      "region": "DE213",
+      "postalCode": "83026",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV103 Baumeisterarbeiten",
+     "description": "Baumeisterarbeiten"
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-06-08T00:00:00+02:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 334710.06,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-06-07T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "9b9473d6-2f99-4fd8-b893-904f73d3edd7",
+  "version": "02",
+  "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV103 Baumeisterarbeiten",
+  "nuts": [
+   "DE21K"
+  ],
+  "cpv": [
+   "45210000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "BRA - Erweiterung der Grund- und Mittelschule in Brannenburg LV103 Baumeisterarbeiten",
+    "cpv": [
+     "45210000"
+    ],
+    "nuts": [
+     "DE21K"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

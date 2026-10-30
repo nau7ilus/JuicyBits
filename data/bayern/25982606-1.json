@@ -1,0 +1,139 @@
+{
+ "id": "25982606-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982606",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982606",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982606-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982606-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982606?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Pflege, Weiterentwicklung und Support der PAB-Datenbank",
+  "buyer": "Bezirk Oberbayern",
+  "cpv": [
+   "72267000",
+   "72260000"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-11-18T13:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982606",
+  "id": "25982606",
+  "date": "2026-10-29T07:00:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bezirk Oberbayern",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Bezirk Oberbayern"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bezirk Oberbayern",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bezirk Oberbayern"
+   }
+  },
+  "tender": {
+   "title": "Pflege, Weiterentwicklung und Support der PAB-Datenbank",
+   "description": "Gegenstand der Vergabe ist die Übernahme, der Betrieb, die Pflege, der Support sowie die bedarfsweise Weiterentwicklung der PAB-Datenbank der Musenbergschule in Johanneskrichen, einschließlich Cloudhosting.\n\nPflege, Weiterentwicklung und Support der PAB-Datenbank",
+   "procuringEntity": {
+    "name": "Bezirk Oberbayern"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72267000",
+      "description": "Software maintenance and repair services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "72260000",
+       "description": "Software-related services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "81929 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/dd671b1a-168b-4d07-8d57-166d88c60427",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Pflege, Weiterentwicklung und Support der PAB-Datenbank",
+     "description": "Gegenstand der Vergabe ist die Übernahme, der Betrieb, die Pflege, der Support sowie die bedarfsweise Weiterentwicklung der PAB-Datenbank der Musenbergschule in Johanneskrichen, einschließlich Cloudhosting.\n\nPflege, Weiterentwicklung und Support der PAB-Datenbank"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": null,
+  "noticeId": "25982606",
+  "version": "1",
+  "title": "Pflege, Weiterentwicklung und Support der PAB-Datenbank",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "72267000",
+   "72260000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Pflege, Weiterentwicklung und Support der PAB-Datenbank",
+    "cpv": [
+     "72267000",
+     "72260000"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-11-18T13:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "id": "8fc95335-13fd-4298-9e6c-26bd270585bd-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "8fc95335-13fd-4298-9e6c-26bd270585bd",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8fc95335-13fd-4298-9e6c-26bd270585bd",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:8fc95335-13fd-4298-9e6c-26bd270585bd-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8fc95335-13fd-4298-9e6c-26bd270585bd?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Holsteiner Straße 2a - Freianlagenplanung",
+  "buyer": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+  "cpv": [
+   "71222000",
+   "71400000",
+   "71420000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-19c1e74a-468a-43f1-9e3e-0e7f06e7d736",
+  "id": "8fc95335-13fd-4298-9e6c-26bd270585bd",
+  "date": "2026-10-28T03:22:28Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "75319f29-bfdb-4a73-8360-cb1c29695799",
+     "legalName": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum"
+    },
+    "address": {
+     "streetAddress": "Sulzbacher Str. 2-6",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90489",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "855daf8c-fe9f-4b20-b84c-8e495602d628",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "42c9c6cf-cf68-4f0a-863c-fd6e52b1ce0d",
+     "legalName": "Stadt Nürnberg, Rechtsamt, Abteilung 3-VMN"
+    },
+    "address": {
+     "streetAddress": "Bauhof 9",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90402",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "kübertlandschaftsarchitektur PartG mbB",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "71018e38-4450-45fe-b6fd-43dd9bb99d57",
+     "legalName": "kübertlandschaftsarchitektur PartG mbB"
+    },
+    "address": {
+     "locality": "80336",
+     "region": "DE212",
+     "postalCode": "80336",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+   "id": "75319f29-bfdb-4a73-8360-cb1c29695799",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum"
+   },
+   "address": {
+    "streetAddress": "Sulzbacher Str. 2-6",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90489",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "19c1e74a-468a-43f1-9e3e-0e7f06e7d736",
+   "title": "Holsteiner Straße 2a - Freianlagenplanung",
+   "description": "Neubau eines Hauses für Kinder auf dem Gelände der Grundschule in der Holsteiner Straße 2a. \nNeubau eines Allwetterplatzes und Wiederherstellung des Pausenhofes nach Hochbaumaßnahme.\n\nPlanungsleistung Freianlagenplanung (Landschaftsarchitektur)",
+   "procuringEntity": {
+    "name": "Stadt Nürnberg - Servicebetrieb Öffentlicher Raum",
+    "id": "75319f29-bfdb-4a73-8360-cb1c29695799"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71222000",
+      "description": "Architectural services for outdoor areas"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "71400000",
+       "description": "Urban planning and landscape architectural services"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71420000",
+       "description": "Landscape architectural services"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90427",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 280100,
+    "currency": "EUR"
+   },
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-05T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "kübertlandschaftsarchitektur PartG mbB",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "kübertlandschaftsarchitektur PartG mbB"
+     },
+     "address": {
+      "locality": "80336",
+      "region": "DE212",
+      "postalCode": "80336",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Holsteiner Straße 2a - Freianlagenplanung",
+     "description": "Neubau eines Hauses für Kinder auf dem Gelände der Grundschule in der Holsteiner Straße 2a. \nNeubau eines Allwetterplatzes und Wiederherstellung des Pausenhofes nach Hochbaumaßnahme.\n\nPlanungsleistung Freianlagenplanung (Landschaftsarchitektur)",
+     "contractPeriod": {
+      "startDate": "2026-10-01T00:00:00+01:00",
+      "endDate": "2033-10-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-27T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 280100,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-26T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

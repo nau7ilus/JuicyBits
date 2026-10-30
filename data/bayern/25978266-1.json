@@ -1,0 +1,112 @@
+{
+ "id": "25978266-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25978266",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978266",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25978266-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978266?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "München : Umbaumaßnahme für Unterbringung Referat 4.6 Ausländerrecht und Integration in der Verwaltungsgebäude in der Chiemgaustraße 109/ Pfälzer-Wald-Straße 70 ; 81549 München",
+  "buyer": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25978266",
+  "id": "25978266",
+  "date": "2026-10-28T07:00:36Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau"
+   }
+  },
+  "tender": {
+   "title": "München : Umbaumaßnahme für Unterbringung Referat 4.6 Ausländerrecht und Integration in der Verwaltungsgebäude in der Chiemgaustraße 109/ Pfälzer-Wald-Straße 70 ; 81549 München",
+   "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen",
+   "procuringEntity": {
+    "name": "Landratsamt München Fachbereich 1.4.1 Kreiseigener Hochbau"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "81549 München",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV288C5B-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "München : Umbaumaßnahme für Unterbringung Referat 4.6 Ausländerrecht und Integration in der Verwaltungsgebäude in der Chiemgaustraße 109/ Pfälzer-Wald-Straße 70 ; 81549 München",
+     "description": "Elektroinstallation, Nieder- und Mittelspannungsanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

@@ -1,0 +1,156 @@
+{
+ "id": "2862fc82-0e99-4271-9fb4-80040f506783-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "2862fc82-0e99-4271-9fb4-80040f506783",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2862fc82-0e99-4271-9fb4-80040f506783",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:2862fc82-0e99-4271-9fb4-80040f506783-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2862fc82-0e99-4271-9fb4-80040f506783?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "A623.01 Sportgeräte",
+  "buyer": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+  "cpv": [
+   "45212225",
+   "37400000"
+  ],
+  "nuts": [
+   "DE21G"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f841b0eb-851c-4fad-98d1-3989013cca60",
+  "id": "2862fc82-0e99-4271-9fb4-80040f506783",
+  "date": "2026-10-28T03:26:16Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE237605108",
+     "legalName": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau "
+    },
+    "address": {
+     "streetAddress": "Töginger Straße 18",
+     "locality": "Mühldorf a. Inn",
+     "region": "DE21G",
+     "postalCode": "84453",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+   "id": "DE237605108",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau "
+   },
+   "address": {
+    "streetAddress": "Töginger Straße 18",
+    "locality": "Mühldorf a. Inn",
+    "region": "DE21G",
+    "postalCode": "84453",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f841b0eb-851c-4fad-98d1-3989013cca60",
+   "title": "A623.01 Sportgeräte",
+   "description": "Ausstattung Wand, Boden und Deckengeräte inkl. Unterkonstruktionen und \nBodenhülsen für eine Einfachsporthalle. \nGeräteaufbewahrungsschränke und Umkleidebänke\n ",
+   "procuringEntity": {
+    "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+    "id": "DE237605108"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45212225",
+      "description": "Sports hall construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "37400000",
+       "description": "Sports goods and equipment"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Waldwinkler Straße 1",
+      "locality": "Aschau a. Inn",
+      "region": "DE21G",
+      "postalCode": "84544",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "additionalProcurementCategories": [
+    "goods"
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28f147-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "A623.01 Sportgeräte",
+     "description": "Ausstattung Wand, Boden und Deckengeräte inkl. Unterkonstruktionen und \nBodenhülsen für eine Einfachsporthalle. \nGeräteaufbewahrungsschränke und Umkleidebänke\n \n \n ",
+     "contractPeriod": {
+      "startDate": "2027-05-03T00:00:00+02:00",
+      "endDate": "2027-10-29T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

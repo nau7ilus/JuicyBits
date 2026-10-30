@@ -1,0 +1,177 @@
+{
+ "id": "1b4b563a-a3f6-4aaa-947c-69a50f7e9565-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "1b4b563a-a3f6-4aaa-947c-69a50f7e9565",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=1b4b563a-a3f6-4aaa-947c-69a50f7e9565",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:1b4b563a-a3f6-4aaa-947c-69a50f7e9565-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:1b4b563a-a3f6-4aaa-947c-69a50f7e9565-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/1b4b563a-a3f6-4aaa-947c-69a50f7e9565?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Weiterentwicklung AIS.chat",
+  "buyer": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH",
+  "cpv": [
+   "72200000"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": "2026-11-30T23:59:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-21aeac78-4cbc-4e30-88da-41d4af6db099",
+  "id": "1b4b563a-a3f6-4aaa-947c-69a50f7e9565",
+  "date": "2026-10-29T03:22:25Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE129521719",
+     "legalName": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH"
+    },
+    "address": {
+     "streetAddress": "Bavariafilmplatz 3",
+     "locality": "Grünwald",
+     "region": "DE21H",
+     "postalCode": "82031",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH",
+   "id": "DE129521719",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH"
+   },
+   "address": {
+    "streetAddress": "Bavariafilmplatz 3",
+    "locality": "Grünwald",
+    "region": "DE21H",
+    "postalCode": "82031",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "21aeac78-4cbc-4e30-88da-41d4af6db099",
+   "title": "Weiterentwicklung AIS.chat",
+   "description": "Der Auftragnehmer soll die bestehende Softwarelösung AIS.chat auf Basis eines Dienstleistungsvertrags bis Ende 2028 weiterentwickeln, betreiben und pflegen. Die Plattform ermöglicht Lehrkräften sowie Schülerinnen und Schülern die datenschutzkonforme Nutzung generativer KI-Modelle.",
+   "procuringEntity": {
+    "name": "FWU Institut für Film und Bild in Wissenschaft und Unterricht gGmbH",
+    "id": "DE129521719"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72200000",
+      "description": "Software programming and consultancy services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Bavariafilmplatz 3",
+      "locality": "Grünwald",
+      "region": "DE21H",
+      "postalCode": "82031",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YTSM1ZU/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Weiterentwicklung AIS.chat",
+     "description": "Im Wege der Gesamtvergabe ist eine Teamzusammensetzung mit namentlich benannten Mitarbeitern anzubieten:   5 VZÄ Fullstack-Software-EntwicklerInnen; wahlweise auf fünf oder sechs Personen aufgeteilt:   zwei EntwicklerInnen mit dem Schwerpunkt DevOps;   drei, optional vier EntwicklerInnen mit dem Schwerpunkt KI & Bildung;   0,5 VZÄ UX/UI-DesignerIn für Softwareentwicklung und Betrieb.   Die Position der Product-Ownerin wird vom AG besetzt.   Weitere Informationen können Sie insbesondere der Anlage 1 - Anforderungsbeschreibung_Weiterentwicklung-AIS.chat entnehmen.",
+     "contractPeriod": {
+      "startDate": "2027-01-04T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "1b4b563a-a3f6-4aaa-947c-69a50f7e9565",
+  "version": "01",
+  "title": "Weiterentwicklung AIS.chat",
+  "nuts": [
+   "DE21H"
+  ],
+  "cpv": [
+   "72200000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Weiterentwicklung AIS.chat",
+    "cpv": [
+     "72200000"
+    ],
+    "nuts": [
+     "DE21H"
+    ],
+    "deadline": "2026-11-30T23:59:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-04+01:00",
+    "plannedEnd": "2028-12-31+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

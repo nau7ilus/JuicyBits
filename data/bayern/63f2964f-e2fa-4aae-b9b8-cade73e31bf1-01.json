@@ -1,0 +1,141 @@
+{
+ "id": "63f2964f-e2fa-4aae-b9b8-cade73e31bf1-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:63f2964f-e2fa-4aae-b9b8-cade73e31bf1-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/63f2964f-e2fa-4aae-b9b8-cade73e31bf1?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "PL_VP2020 Zwischenlager / Entsorgung Aushubmaterial aus Gleisbauarbeiten Steinbühler Str. Nürnberg",
+  "buyer": "VAG Verkehrs-Aktiengesellschaft",
+  "cpv": [
+   "90500000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
+  "id": "63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
+  "date": "2026-10-28T03:22:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "VAG Verkehrs-Aktiengesellschaft",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "6850",
+     "legalName": "VAG Verkehrs-Aktiengesellschaft"
+    },
+    "address": {
+     "streetAddress": "Südliche Fürther Straße 5",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90429",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "3c5f94b9-36e2-4c4b-9281-f0cf47e0d323",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "VAG Verkehrs-Aktiengesellschaft",
+   "id": "6850",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "VAG Verkehrs-Aktiengesellschaft"
+   },
+   "address": {
+    "streetAddress": "Südliche Fürther Straße 5",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90429",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
+   "title": "PL_VP2020 Zwischenlager / Entsorgung Aushubmaterial aus Gleisbauarbeiten Steinbühler Str. Nürnberg",
+   "description": "Im Rahmen des Projekts \"Umgestaltung Plärrer\" fällt aus Gleisbauarbeiten in der Gleisbühler Str. in Nürnberg die Leistung zur Bereitstellung einer Zwischenlagerfläche für das ausgebaute und zu beprobende Material sowie die Entsorgung, bzw. Verwertung der anfallenden Materialien an. Das zu entsorgende Material aus der Baustelle Plärrer (Gleisbau Teil 1) wird durch das gesondert beauftragte Bauunternehmen des AG auf die Zwischenlagerfläche des AN transportiert und dort nach Anweisung des AN durch das Bauunternehmen des AG abgekippt. \nDas Herstellen, Sichern und Unterhalten der Haufwerke auf der Zwischenlagerfläche erfolgt durch den AN. Die Haufwerke werden durch einen gesondert beauftragten Gutachter des AG beprobt. Bis zum Vorliegen der Deklarationsergebnisse ist das Material durch den AN zu lagern. \nBei Übergabe des Deklarationsergebnisses an den AN geht das gelagerte Material ins Eigentum des AN über und es ist die Entsorgung, bzw. Verwertung des Materials vorzunehmen.",
+   "procuringEntity": {
+    "name": "VAG Verkehrs-Aktiengesellschaft",
+    "id": "6850"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90500000",
+      "description": "Refuse and waste related services"
+     },
+     "deliveryAddress": {
+      "region": "DE254",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/63f2964f-e2fa-4aae-b9b8-cade73e31bf1",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "PL_VP2020 Zwischenlager / Entsorgung Aushubmaterial aus Gleisbauarbeiten Steinbühler Str. Nürnberg",
+     "description": "Im Rahmen des Projekts \"Umgestaltung Plärrer\" fällt aus Gleisbauarbeiten in der Gleisbühler Str. in Nürnberg die Leistung zur Bereitstellung einer Zwischenlagerfläche für das ausgebaute und zu beprobende Material sowie die Entsorgung, bzw. Verwertung der anfallenden Materialien an. Das zu entsorgende Material aus der Baustelle Plärrer (Gleisbau Teil 1) wird durch das gesondert beauftragte Bauunternehmen des AG auf die Zwischenlagerfläche des AN transportiert und dort nach Anweisung des AN durch das Bauunternehmen des AG abgekippt. \nDas Herstellen, Sichern und Unterhalten der Haufwerke auf der Zwischenlagerfläche erfolgt durch den AN. Die Haufwerke werden durch einen gesondert beauftragten Gutachter des AG beprobt. Bis zum Vorliegen der Deklarationsergebnisse ist das Material durch den AN zu lagern. \nBei Übergabe des Deklarationsergebnisses an den AN geht das gelagerte Material ins Eigentum des AN über und es ist die Entsorgung, bzw. Verwertung des Materials vorzunehmen.",
+     "contractPeriod": {
+      "startDate": "2027-03-08T00:00:00+01:00",
+      "endDate": "2027-04-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

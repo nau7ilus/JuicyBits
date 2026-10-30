@@ -1,0 +1,113 @@
+{
+ "id": "25977766-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25977766",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25977766",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25977766-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25977766?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Vergebener Auftrag: Instandsetzung PV-Anlage",
+  "buyer": "Landkreis Freising",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25977766",
+  "id": "25977766",
+  "date": "2026-10-28T07:00:18Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Freising",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Landkreis Freising"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Freising",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Freising"
+   }
+  },
+  "tender": {
+   "title": "Vergebener Auftrag: Instandsetzung PV-Anlage",
+   "description": "Vergebener Auftrag: Instandsetzung PV-Anlage",
+   "procuringEntity": {
+    "name": "Landkreis Freising"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "85354 Freising",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "http://www.vergabe.bayern.de/Vergabeinformationen.bayernvergabeinformationen.0.html?details=1089794",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Vergebener Auftrag: Instandsetzung PV-Anlage",
+     "description": "Vergebener Auftrag: Instandsetzung PV-Anlage"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

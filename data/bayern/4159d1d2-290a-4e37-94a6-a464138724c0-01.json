@@ -1,0 +1,473 @@
+{
+ "id": "4159d1d2-290a-4e37-94a6-a464138724c0-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "4159d1d2-290a-4e37-94a6-a464138724c0",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4159d1d2-290a-4e37-94a6-a464138724c0",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:4159d1d2-290a-4e37-94a6-a464138724c0-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:4159d1d2-290a-4e37-94a6-a464138724c0-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/4159d1d2-290a-4e37-94a6-a464138724c0?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "UDL RIM München",
+  "buyer": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+  "cpv": [
+   "98392000"
+  ],
+  "nuts": [
+   "DE254",
+   "DE212",
+   "DE271",
+   "DE232",
+   "DE21N",
+   "DE21D",
+   "DE21E",
+   "DE21C",
+   "DE21L",
+   "DE21B",
+   "DE21A",
+   "DE217",
+   "DE218",
+   "DE213",
+   "DE216",
+   "DE21F",
+   "DE275",
+   "DE276",
+   "DE27D",
+   "DE277",
+   "DE278",
+   "DE279",
+   "DE211",
+   "DE219",
+   "DE21I",
+   "DE21J",
+   "DE273",
+   "DE274",
+   "DE27B",
+   "DE272",
+   "DE27A",
+   "DE27C",
+   "DE27E",
+   "DE226",
+   "DE236",
+   "DE224",
+   "DE229",
+   "DE22B",
+   "DE223",
+   "DE222",
+   "DE228",
+   "DE225",
+   "DE221",
+   "DE22C",
+   "DE22A",
+   "DE227",
+   "DE21M",
+   "DE21G",
+   "DE214",
+   "DE215"
+  ],
+  "deadline": "2026-12-01T12:00:00+01:00",
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-61e09235-22b5-4008-b468-dfee6bc31b50",
+  "id": "4159d1d2-290a-4e37-94a6-a464138724c0",
+  "date": "2026-10-29T03:22:35Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "61e09235-22b5-4008-b468-dfee6bc31b50",
+   "title": "UDL RIM München",
+   "description": "Umzugsdienstleistungen RIM München",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "98392000",
+      "description": "Relocation services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Kapuzinerstr. 26",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80337",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "98392000",
+      "description": "Relocation services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Wertachstr.28",
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86153",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "98392000",
+      "description": "Relocation services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Galgenbergstr. 24",
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93053",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=902556",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=902556",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=902556",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Verbund der AA München",
+     "description": "Die Umzugsdienstleistungen werden für die dem Regionalen Infrastrukturmanagement (RIM) München zugeordneten Liegenschaften mit einem geschätzten Volumen von 550.500,00 Euro netto / 655.095,00 Euro brutto ausgeschrieben. Das geschätzte Volumen stellt einen Erfahrungswert aus den Abrufen aus der Vergangenheit dar. Der Höchstwert des Vertrages beträgt 660.600,00 Euro netto / 786.114,00 Euro brutto. Eine Abrufverpflichtung seitens der BA besteht nicht. Die Abrechnung erfolgt nach tatsächlichem Aufwand.\n\nDie Leistung wird in 3 Losen vergeben.\n\nDer Geltungsbereich dieses Vertrages erstreckt sich auf die internen Umzüge des RIM München, seine ausgelagerten Dienststellen sowie Umzüge zwischen den vorhandenen Dienststellen. Des Weiteren umfasst der Rahmenvertrag sämtliche hinzukommenden Liegenschaften des RIM. Im Einzelfall können Transporte zu anderen, nicht genannten Liegenschaften (auch außerhalb des benannten RIM-Gebietes) durch den AG beauftragt werden. Dies erfolgt zu den gleichen vertraglich vereinbarten Konditionen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Verbund der AA Augsburg",
+     "description": "Die Umzugsdienstleistungen werden für die dem Regionalen Infrastrukturmanagement (RIM) München zugeordneten Liegenschaften mit einem geschätzten Volumen von 550.500,00 Euro netto / 655.095,00 Euro brutto ausgeschrieben. Das geschätzte Volumen stellt einen Erfahrungswert aus den Abrufen aus der Vergangenheit dar. Der Höchstwert des Vertrages beträgt 660.600,00 Euro netto / 786.114,00 Euro brutto. Eine Abrufverpflichtung seitens der BA besteht nicht. Die Abrechnung erfolgt nach tatsächlichem Aufwand.\n\nDie Leistung wird in 3 Losen vergeben.\n\nDer Geltungsbereich dieses Vertrages erstreckt sich auf die internen Umzüge des RIM München, seine ausgelagerten Dienststellen sowie Umzüge zwischen den vorhandenen Dienststellen. Des Weiteren umfasst der Rahmenvertrag sämtliche hinzukommenden Liegenschaften des RIM. Im Einzelfall können Transporte zu anderen, nicht genannten Liegenschaften (auch außerhalb des benannten RIM-Gebietes) durch den AG beauftragt werden. Dies erfolgt zu den gleichen vertraglich vereinbarten Konditionen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Verbund der AA Regensburg",
+     "description": "Die Umzugsdienstleistungen werden für die dem Regionalen Infrastrukturmanagement (RIM) München zugeordneten Liegenschaften mit einem geschätzten Volumen von 550.500,00 Euro netto / 655.095,00 Euro brutto ausgeschrieben. Das geschätzte Volumen stellt einen Erfahrungswert aus den Abrufen aus der Vergangenheit dar. Der Höchstwert des Vertrages beträgt 660.600,00 Euro netto / 786.114,00 Euro brutto. Eine Abrufverpflichtung seitens der BA besteht nicht. Die Abrechnung erfolgt nach tatsächlichem Aufwand.\n\nDie Leistung wird in 3 Losen vergeben.\n\nDer Geltungsbereich dieses Vertrages erstreckt sich auf die internen Umzüge des RIM München, seine ausgelagerten Dienststellen sowie Umzüge zwischen den vorhandenen Dienststellen. Des Weiteren umfasst der Rahmenvertrag sämtliche hinzukommenden Liegenschaften des RIM. Im Einzelfall können Transporte zu anderen, nicht genannten Liegenschaften (auch außerhalb des benannten RIM-Gebietes) durch den AG beauftragt werden. Dies erfolgt zu den gleichen vertraglich vereinbarten Konditionen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung.",
+     "contractPeriod": {
+      "durationInDays": 1440
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "4159d1d2-290a-4e37-94a6-a464138724c0",
+  "version": "01",
+  "title": "UDL RIM München",
+  "nuts": [
+   "DE212",
+   "DE21N",
+   "DE21D",
+   "DE21E",
+   "DE21C",
+   "DE21L",
+   "DE21B",
+   "DE21A",
+   "DE217",
+   "DE218",
+   "DE213",
+   "DE216",
+   "DE21F",
+   "DE271",
+   "DE275",
+   "DE276",
+   "DE27D",
+   "DE277",
+   "DE278",
+   "DE279",
+   "DE211",
+   "DE219",
+   "DE21I",
+   "DE21J",
+   "DE273",
+   "DE274",
+   "DE27B",
+   "DE272",
+   "DE27A",
+   "DE27C",
+   "DE27E",
+   "DE232",
+   "DE226",
+   "DE236",
+   "DE224",
+   "DE229",
+   "DE22B",
+   "DE223",
+   "DE222",
+   "DE228",
+   "DE225",
+   "DE221",
+   "DE22C",
+   "DE22A",
+   "DE227",
+   "DE21M",
+   "DE21G",
+   "DE214",
+   "DE215"
+  ],
+  "cpv": [
+   "98392000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Verbund der AA München",
+    "cpv": [
+     "98392000"
+    ],
+    "nuts": [
+     "DE212",
+     "DE21N",
+     "DE21D",
+     "DE21E",
+     "DE21C",
+     "DE21L",
+     "DE21B",
+     "DE21A",
+     "DE217",
+     "DE218",
+     "DE213",
+     "DE216",
+     "DE21F"
+    ],
+    "deadline": "2026-12-01T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-env",
+      "description": "Vorhandensein einer Zertifizierung nach ISO14001; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nDas Unternehmen verfügt über die Zertifizierung nach der ISO14001 zum Umweltmanagement. Die Zertifizierung darf zum Zeitpunkt der Veröffentlichung der Ausschreibung nicht länger als drei Jahre zurückliegen."
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Vorhandensein einer EU-Lizenz für gewerblichen\nGüterkraftverkehr; nachgewiesen durch Eigenerklärung zur\nBefähigung und Erlaubnis zur Berufsausübung (Fragebogen\nzur Eignungsprüfung).\nMindeststandard: Der Bieter muss über eine EU-Lizenz für\ngewerblichen Güterkraftverkehr verfügen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorhandensein ausreichender Berufserfahrung; nachgewiesen\ndurch Eigenerklärung zur technischen und beruflichen\nLeistungsfähigkeit (Fragebogen zur Eignungsprüfung) sowie\ndurch Eigenerklärung und Vorlage einer geeigneten Referenz\n(Vordruck D.9).\n\nLos 1:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Vertragsvolumen mindestens 75 % des Auftragswertes (346.885,- € brutto) entspricht. Für Los 1 beträgt dieser Referenzwert mind. 260.163,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate \n\nLos 2:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Vertragsvolumen mindestens 75 % des Auftragswertes (111.860,- € brutto) entspricht. Für Los 2 beträgt dieser Referenzwert mind. 83.895,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate \n\nLos 3:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Ver-tragsvolumen mindestens 75 % des Auftragswertes (196.350,- € brutto) entspricht. Für Los 3 beträgt dieser Referenzwert mind. 147.262,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Abschluss einer ausreichenden Berufshaftpflicht; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nMindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags umgehend eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird (sofern eine entsprechende Versicherung aktuell noch nicht vorhanden ist).\n\nAbschluss einer ausreichenden Transportversicherung; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nMindeststandard: Vorliegen einer Transportversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags umgehend eine Transportversicherung in ausreichender Höhe abgeschlossen wird (sofern eine entsprechende Versicherung aktuell noch nicht vorhanden ist).\n\nDie Transportversicherung muss dabei mind. folgende Faktoren berücksichtigen:\n- durchschnittliche Kosten eines IT-Arbeitsplatzes: 800 EUR\n -max. umzuziehende Menge eines Umzuges: 19 IT-Arbeitsplätze"
+     }
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Verbund der AA Augsburg",
+    "cpv": [
+     "98392000"
+    ],
+    "nuts": [
+     "DE271",
+     "DE275",
+     "DE276",
+     "DE27D",
+     "DE277",
+     "DE278",
+     "DE279",
+     "DE211",
+     "DE219",
+     "DE21I",
+     "DE21J",
+     "DE273",
+     "DE274",
+     "DE27B",
+     "DE272",
+     "DE27A",
+     "DE27C",
+     "DE27E"
+    ],
+    "deadline": "2026-12-01T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-env",
+      "description": "Vorhandensein einer Zertifizierung nach ISO14001; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nDas Unternehmen verfügt über die Zertifizierung nach der ISO14001 zum Umweltmanagement. Die Zertifizierung darf zum Zeitpunkt der Veröffentlichung der Ausschreibung nicht länger als drei Jahre zurückliegen."
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Vorhandensein einer EU-Lizenz für gewerblichen\nGüterkraftverkehr; nachgewiesen durch Eigenerklärung zur\nBefähigung und Erlaubnis zur Berufsausübung (Fragebogen\nzur Eignungsprüfung).\nMindeststandard: Der Bieter muss über eine EU-Lizenz für\ngewerblichen Güterkraftverkehr verfügen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorhandensein ausreichender Berufserfahrung; nachgewiesen\ndurch Eigenerklärung zur technischen und beruflichen\nLeistungsfähigkeit (Fragebogen zur Eignungsprüfung) sowie\ndurch Eigenerklärung und Vorlage einer geeigneten Referenz\n(Vordruck D.9).\n\nLos 1:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Vertragsvolumen mindestens 75 % des Auftragswertes (346.885,- € brutto) entspricht. Für Los 1 beträgt dieser Referenzwert mind. 260.163,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate \n\nLos 2:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Vertragsvolumen mindestens 75 % des Auftragswertes (111.860,- € brutto) entspricht. Für Los 2 beträgt dieser Referenzwert mind. 83.895,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate \n\nLos 3:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Ver-tragsvolumen mindestens 75 % des Auftragswertes (196.350,- € brutto) entspricht. Für Los 3 beträgt dieser Referenzwert mind. 147.262,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Abschluss einer ausreichenden Berufshaftpflicht; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nMindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags umgehend eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird (sofern eine entsprechende Versicherung aktuell noch nicht vorhanden ist).\n\nAbschluss einer ausreichenden Transportversicherung; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nMindeststandard: Vorliegen einer Transportversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags umgehend eine Transportversicherung in ausreichender Höhe abgeschlossen wird (sofern eine entsprechende Versicherung aktuell noch nicht vorhanden ist).\n\nDie Transportversicherung muss dabei mind. folgende Faktoren berücksichtigen:\n- durchschnittliche Kosten eines IT-Arbeitsplatzes: 800 EUR\n -max. umzuziehende Menge eines Umzuges: 19 IT-Arbeitsplätze"
+     }
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Verbund der AA Regensburg",
+    "cpv": [
+     "98392000"
+    ],
+    "nuts": [
+     "DE232",
+     "DE226",
+     "DE236",
+     "DE224",
+     "DE229",
+     "DE22B",
+     "DE223",
+     "DE222",
+     "DE228",
+     "DE225",
+     "DE221",
+     "DE22C",
+     "DE22A",
+     "DE227",
+     "DE21M",
+     "DE21G",
+     "DE214",
+     "DE215"
+    ],
+    "deadline": "2026-12-01T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-mgmt-env",
+      "description": "Vorhandensein einer Zertifizierung nach ISO14001; nachgewiesen durch Eigenerklärung zur technischen und beruflichen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nDas Unternehmen verfügt über die Zertifizierung nach der ISO14001 zum Umweltmanagement. Die Zertifizierung darf zum Zeitpunkt der Veröffentlichung der Ausschreibung nicht länger als drei Jahre zurückliegen."
+     },
+     {
+      "type": "slc-abil-qual-inst",
+      "description": "Vorhandensein einer EU-Lizenz für gewerblichen\nGüterkraftverkehr; nachgewiesen durch Eigenerklärung zur\nBefähigung und Erlaubnis zur Berufsausübung (Fragebogen\nzur Eignungsprüfung).\nMindeststandard: Der Bieter muss über eine EU-Lizenz für\ngewerblichen Güterkraftverkehr verfügen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorhandensein ausreichender Berufserfahrung; nachgewiesen\ndurch Eigenerklärung zur technischen und beruflichen\nLeistungsfähigkeit (Fragebogen zur Eignungsprüfung) sowie\ndurch Eigenerklärung und Vorlage einer geeigneten Referenz\n(Vordruck D.9).\n\nLos 1:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Vertragsvolumen mindestens 75 % des Auftragswertes (346.885,- € brutto) entspricht. Für Los 1 beträgt dieser Referenzwert mind. 260.163,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate \n\nLos 2:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Vertragsvolumen mindestens 75 % des Auftragswertes (111.860,- € brutto) entspricht. Für Los 2 beträgt dieser Referenzwert mind. 83.895,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate \n\nLos 3:\nMindeststandard der Referenz: Umzugsdienstleistungen in vergleichbarer Höhe. Als vergleichbar gelten Verträge, deren Ver-tragsvolumen mindestens 75 % des Auftragswertes (196.350,- € brutto) entspricht. Für Los 3 beträgt dieser Referenzwert mind. 147.262,- € (brutto). Leistungszeitraum /-dauer; hier: für mindestens 24 aufeinanderfolgende Monate"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Abschluss einer ausreichenden Berufshaftpflicht; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nMindeststandard: Vorliegen einer Berufshaftpflichtversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags umgehend eine Berufshaftpflichtversicherung in ausreichender Höhe abgeschlossen wird (sofern eine entsprechende Versicherung aktuell noch nicht vorhanden ist).\n\nAbschluss einer ausreichenden Transportversicherung; nachgewiesen durch Eigenerklärung zur wirtschaftlichen und finanziellen Leistungsfähigkeit (Fragebogen zur Eignungsprüfung).\n\nMindeststandard: Vorliegen einer Transportversicherung in ausreichender Höhe bzw. Zusicherung, dass im Falle des Zuschlags umgehend eine Transportversicherung in ausreichender Höhe abgeschlossen wird (sofern eine entsprechende Versicherung aktuell noch nicht vorhanden ist).\n\nDie Transportversicherung muss dabei mind. folgende Faktoren berücksichtigen:\n- durchschnittliche Kosten eines IT-Arbeitsplatzes: 800 EUR\n -max. umzuziehende Menge eines Umzuges: 19 IT-Arbeitsplätze"
+     }
+    ]
+   }
+  ]
+ }
+}

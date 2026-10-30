@@ -1,0 +1,180 @@
+{
+ "id": "5c2cdf19-b9f4-42f9-ac2f-b24c4017ea35-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "5c2cdf19-b9f4-42f9-ac2f-b24c4017ea35",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5c2cdf19-b9f4-42f9-ac2f-b24c4017ea35",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:5c2cdf19-b9f4-42f9-ac2f-b24c4017ea35-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:5c2cdf19-b9f4-42f9-ac2f-b24c4017ea35-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5c2cdf19-b9f4-42f9-ac2f-b24c4017ea35?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Neubau Kindergarten Schneegarten Donauwörth, Elektroinstallation",
+  "buyer": "Große Kreisstadt Donauwörth",
+  "cpv": [
+   "45311200"
+  ],
+  "nuts": [
+   "DE27D"
+  ],
+  "deadline": "2026-11-30T11:30:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a595b91a-4cff-4be7-a358-83e2ed60e25a",
+  "id": "5c2cdf19-b9f4-42f9-ac2f-b24c4017ea35",
+  "date": "2026-10-29T03:22:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Große Kreisstadt Donauwörth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09779131-00000000-60",
+     "legalName": "Große Kreisstadt Donauwörth"
+    },
+    "address": {
+     "streetAddress": "Rathausgasse 1",
+     "locality": "Donauwörth",
+     "region": "DE27D",
+     "postalCode": "86609",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE 811335517",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE27D",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Große Kreisstadt Donauwörth",
+   "id": "09779131-00000000-60",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Große Kreisstadt Donauwörth"
+   },
+   "address": {
+    "streetAddress": "Rathausgasse 1",
+    "locality": "Donauwörth",
+    "region": "DE27D",
+    "postalCode": "86609",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a595b91a-4cff-4be7-a358-83e2ed60e25a",
+   "title": "Neubau Kindergarten Schneegarten Donauwörth, Elektroinstallation",
+   "description": "Wandleranlage 630A\nVerteilerschrank 6 Stück mit je ca. 45 Stromkreisen\nKabel und Leitungen ca. 25.000 m\nLeerrohr Verlegung ca. 1.000 m\nInstallationsgeräte ca. 800 St.\nFernmelde und Datenleitungen ca. 4000 m\nBeleuchtungskörper ca. 1000 Stück\nKNX Komponenten ca. 350 Stück\nSicherheitsbeleuchtung Zentral-/Gruppenbatterie ca. 160 Leuchten\nBrandmeldeanlage nach DIN 14675 ca. 220 Komponenten",
+   "procuringEntity": {
+    "name": "Große Kreisstadt Donauwörth",
+    "id": "09779131-00000000-60"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311200",
+      "description": "Electrical fitting work"
+     },
+     "deliveryAddress": {
+      "locality": "Donauwörth",
+      "region": "DE27D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXVHY4RDYH047YFN/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Kindergarten Schneegarten Donauwörth, Elektroinstallation",
+     "description": "Elektroinstallation",
+     "contractPeriod": {
+      "startDate": "2027-07-05T00:00:00+02:00",
+      "endDate": "2029-04-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "5c2cdf19-b9f4-42f9-ac2f-b24c4017ea35",
+  "version": "01",
+  "title": "Neubau Kindergarten Schneegarten Donauwörth, Elektroinstallation",
+  "nuts": [
+   "DE27D"
+  ],
+  "cpv": [
+   "45311200"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Neubau Kindergarten Schneegarten Donauwörth, Elektroinstallation",
+    "cpv": [
+     "45311200"
+    ],
+    "nuts": [
+     "DE27D"
+    ],
+    "deadline": "2026-11-30T11:30:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-07-05+02:00",
+    "plannedEnd": "2029-04-01+02:00",
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-staff-qual",
+      "description": "Formblatt 124 und 127 (Mit dem Angebot; Mittels Eigenerklärung): Eigenerklärung (s. Formular 124 und Fomular 127):\n- dass nachweislich keine zwingenden Ausschlussgründe gem. § 123 GWB vorliegen\n- dass nachweislich keine fakultativen Ausschlussgründe nach § 124 GWB vorliegen\n- der Bieter seine Verpflichtungen zur Zahlung von Steuern und Abgaben, sowie der Beiträge zur gesetzlichen Sozialversicherung ordnungsgemäß erfüllt\n- eine Eintragung im Berufs- oder Handelsregister (soweit eine Eintragungspflicht besteht) vorliegt,\n- dass der Bieter bei der Berufsgenossenschaft gemeldet ist\n- dass der Bieter im Vergabeverfahren keine vorsätzlich unzutreffenden Erklärungen in Bezug auf die Eignung abgegeben hat,\n- dass eine Eigenerklärung (Formblatt 127) zu Russlandsanktionen durch den Bieter abgegeben wird.\n- Referenzliste"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,296 @@
+{
+ "id": "602dd192-0cd5-489d-98f7-c4b0c4d5f444-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "602dd192-0cd5-489d-98f7-c4b0c4d5f444",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=602dd192-0cd5-489d-98f7-c4b0c4d5f444",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:602dd192-0cd5-489d-98f7-c4b0c4d5f444-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/602dd192-0cd5-489d-98f7-c4b0c4d5f444?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Rahmenvereinbarung für Instandsetzungsleistungen an Telekommunikation Freileitungen",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45232210",
+   "45234100"
+  ],
+  "nuts": [
+   "DE712",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 4
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-29eee14a-476a-43dd-8a36-eefb12310fc1",
+  "id": "602dd192-0cd5-489d-98f7-c4b0c4d5f444",
+  "date": "2026-10-28T03:24:21Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "DB RegioNetz Infrastruktur GmbH (Bukr 76)",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "f9b97d37-924b-40d5-8c92-7485719515e1",
+     "legalName": "DB RegioNetz Infrastruktur GmbH (Bukr 76)"
+    },
+    "address": {
+     "streetAddress": "Europa-Allee 70-76",
+     "locality": "Frankfurt am Main",
+     "region": "DE712",
+     "postalCode": "60486",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "29eee14a-476a-43dd-8a36-eefb12310fc1",
+   "title": "Rahmenvereinbarung für Instandsetzungsleistungen an Telekommunikation Freileitungen",
+   "description": "Rahmenvereinbarung für\nInstandsetzungsleistungen an\nTelekommunikation Freileitungen\nmax. 200.000,00 EUR pro Einzelabruf\n\nDie InfraGO AG, Geschäftsbereich Fahrweg und die DB RegioNetz Infrastruktur GmbH beabsichtigen stellvertretend für verschiedene Gesellschaften der Deutschen Bahn AG einen Rahmenvertrag für Instandsetzungsleistungen an Telekommunikation Freileitungen auszuschreiben.",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232210",
+      "description": "Overhead line construction"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45234100",
+       "description": "Railway construction works"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Raumlos 01 Region Mitte"
+     },
+     "deliveryAddress": {
+      "locality": "Region Mitte",
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232210",
+      "description": "Overhead line construction"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45234100",
+       "description": "Railway construction works"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Region Süd",
+      "region": "DE212",
+      "postalCode": "D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232210",
+      "description": "Overhead line construction"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45234100",
+       "description": "Railway construction works"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Region Südwest",
+      "region": "DE212",
+      "postalCode": "D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232210",
+      "description": "Overhead line construction"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45234100",
+       "description": "Railway construction works"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Region West",
+      "region": "DE212",
+      "postalCode": "D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8454764d-dc73-4967-a876-261ac0924d1c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8454764d-dc73-4967-a876-261ac0924d1c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8454764d-dc73-4967-a876-261ac0924d1c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://bieterportal.noncd.db.de/evergabe.bieter/api/supplier/external/deeplink/subproject/8454764d-dc73-4967-a876-261ac0924d1c",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Los 1 Raumlos Region Mitte - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen",
+     "description": "Raumlos Region Mitte - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen\nEntstörung sowie für den anstehenden Rückbau bestehender Freileitungsanlagen.\nHierzu zähen auszugsweise folgende Leistungen:\nAus- und Einbau von Masten m. verschiedenen Höhen inkl. die Lieferung, Mastbinde liefern\nund montieren, Liefern und einbauen von Maststreben, Ausrichten von Masten, Anker\nanbringen, Luftkabel abbauen, aufbringen und regulieren, Beseitigen von Aufwuchs und\nFreischneidearbeiten im Mastbereich, Inspektion von Masten mit Resistograph,\nDokumentation von Mastlinien, Blitzschutz/Erdung, Kabellieferungen, Kabelgraben in\nHandschachtung, Muffengruben herstellen, Ankerklotz einbauen, Stundenlohnarbeiten\n",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2033-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Los 2 Raumlos Region Süd - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen",
+     "description": "Raumlos Region Süd - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen\nEntstörung sowie für den anstehenden Rückbau bestehender Freileitungsanlagen.\nHierzu zähen auszugsweise folgende Leistungen:\nAus- und Einbau von Masten m. verschiedenen Höhen inkl. die Lieferung, Mastbinde liefern\nund montieren, Liefern und einbauen von Maststreben, Ausrichten von Masten, Anker\nanbringen, Luftkabel abbauen, aufbringen und regulieren, Beseitigen von Aufwuchs und\nFreischneidearbeiten im Mastbereich, Inspektion von Masten mit Resistograph,\nDokumentation von Mastlinien, Blitzschutz/Erdung, Kabellieferungen, Kabelgraben in\nHandschachtung, Muffengruben herstellen, Ankerklotz einbauen, Stundenlohnarbeiten\n",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2033-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Los 3 Raumlos Region Südwest - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen",
+     "description": "Raumlos Region Südwest - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen\nEntstörung sowie für den anstehenden Rückbau bestehender Freileitungsanlagen.\nHierzu zähen auszugsweise folgende Leistungen:\nAus- und Einbau von Masten m. verschiedenen Höhen inkl. die Lieferung, Mastbinde liefern\nund montieren, Liefern und einbauen von Maststreben, Ausrichten von Masten, Anker\nanbringen, Luftkabel abbauen, aufbringen und regulieren, Beseitigen von Aufwuchs und\nFreischneidearbeiten im Mastbereich, Inspektion von Masten mit Resistograph,\nDokumentation von Mastlinien, Blitzschutz/Erdung, Kabellieferungen, Kabelgraben in\nHandschachtung, Muffengruben herstellen, Ankerklotz einbauen, Stundenlohnarbeiten\n",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2033-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Los 4 Raumlos Region West - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen",
+     "description": "Raumlos Region West - Rahmenvereinbarung für Instandsetzungsleistungen an\nTelekommunikation Freileitungen\nEntstörung sowie für den anstehenden Rückbau bestehender Freileitungsanlagen.\nHierzu zähen auszugsweise folgende Leistungen:\nAus- und Einbau von Masten m. verschiedenen Höhen inkl. die Lieferung, Mastbinde liefern\nund montieren, Liefern und einbauen von Maststreben, Ausrichten von Masten, Anker\nanbringen, Luftkabel abbauen, aufbringen und regulieren, Beseitigen von Aufwuchs und\nFreischneidearbeiten im Mastbereich, Inspektion von Masten mit Resistograph,\nDokumentation von Mastlinien, Blitzschutz/Erdung, Kabellieferungen, Kabelgraben in\nHandschachtung, Muffengruben herstellen, Ankerklotz einbauen, Stundenlohnarbeiten\n",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2033-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 4,
+    "maximumLotsAwardedPerSupplier": 4
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,151 @@
+{
+ "id": "bba6e731-845a-416d-ba1f-b1e04fd0b49b-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "bba6e731-845a-416d-ba1f-b1e04fd0b49b",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bba6e731-845a-416d-ba1f-b1e04fd0b49b",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:bba6e731-845a-416d-ba1f-b1e04fd0b49b-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bba6e731-845a-416d-ba1f-b1e04fd0b49b?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Rack-Server inkl. Service",
+  "buyer": "Universität der Bundeswehr München",
+  "cpv": [
+   "48820000"
+  ],
+  "nuts": [
+   "DE21H"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-20baaebf-4778-4568-8f9a-f0eb26687197",
+  "id": "bba6e731-845a-416d-ba1f-b1e04fd0b49b",
+  "date": "2026-10-28T03:22:35Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Universität der Bundeswehr München",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "1",
+     "legalName": "Universität der Bundeswehr München"
+    },
+    "address": {
+     "streetAddress": "Werner - Heisenberg - Weg 39",
+     "locality": "Neubiberg",
+     "region": "DE21H",
+     "postalCode": "85577",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt - Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "1",
+     "legalName": "Bundeskartellamt - Vergabekammer des Bundes"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53123",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Universität der Bundeswehr München",
+   "id": "1",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Universität der Bundeswehr München"
+   },
+   "address": {
+    "streetAddress": "Werner - Heisenberg - Weg 39",
+    "locality": "Neubiberg",
+    "region": "DE21H",
+    "postalCode": "85577",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "20baaebf-4778-4568-8f9a-f0eb26687197",
+   "title": "Rack-Server inkl. Service",
+   "description": "Auftragsgegenstand ist die Lieferung von 6 Rack-Servern inkl. Service",
+   "procuringEntity": {
+    "name": "Universität der Bundeswehr München",
+    "id": "1"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48820000",
+      "description": "Servers"
+     },
+     "deliveryLocation": {
+      "description": "Neubiberg"
+     },
+     "deliveryAddress": {
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe-online.de/tenderdocuments.html?id=899106",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-28T03:22:35.647Z",
+     "rationale": "-",
+     "amendsReleaseID": "80a32103-2278-497b-9ff0-c6246bb5f4eb-01",
+     "releaseID": "bba6e731-845a-416d-ba1f-b1e04fd0b49b-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Rack-Server inkl. Service",
+     "description": "6 Rack-Server\n60 Monate Service",
+     "contractPeriod": {
+      "startDate": "2026-12-14T00:00:00+01:00",
+      "endDate": "2026-12-15T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

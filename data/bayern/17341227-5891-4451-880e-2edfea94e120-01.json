@@ -1,0 +1,236 @@
+{
+ "id": "17341227-5891-4451-880e-2edfea94e120-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "17341227-5891-4451-880e-2edfea94e120",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=17341227-5891-4451-880e-2edfea94e120",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:17341227-5891-4451-880e-2edfea94e120-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:17341227-5891-4451-880e-2edfea94e120-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/17341227-5891-4451-880e-2edfea94e120?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "164 Schreinerarbeiten Einbaumöbel 4.BA",
+  "buyer": "Schulverband Margetshöchheim",
+  "cpv": [
+   "45421153",
+   "45214200",
+   "45421000",
+   "45420000"
+  ],
+  "nuts": [
+   "DE26C"
+  ],
+  "deadline": "2026-12-08T09:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-28f755a5-1710-405f-9dbb-039c6cc8fbcc",
+  "id": "17341227-5891-4451-880e-2edfea94e120",
+  "date": "2026-10-29T03:22:25Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Schulverband Margetshöchheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09679715-SV0000001-51",
+     "legalName": "Schulverband Margetshöchheim"
+    },
+    "address": {
+     "streetAddress": "Mainstraße 15",
+     "locality": "Margetshöchheim",
+     "region": "DE26C",
+     "postalCode": "97276",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "VOB-Stelle Regierung von Unterfranken",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "Kein Angabe",
+     "legalName": "VOB-Stelle Regierung von Unterfranken"
+    },
+    "address": {
+     "streetAddress": "Peterplatz 9",
+     "locality": "Würzburg",
+     "region": "DE263",
+     "postalCode": "97070",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Schulverband Margetshöchheim",
+   "id": "09679715-SV0000001-51",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Schulverband Margetshöchheim"
+   },
+   "address": {
+    "streetAddress": "Mainstraße 15",
+    "locality": "Margetshöchheim",
+    "region": "DE26C",
+    "postalCode": "97276",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "28f755a5-1710-405f-9dbb-039c6cc8fbcc",
+   "title": "164 Schreinerarbeiten Einbaumöbel 4.BA",
+   "description": "Schreinerarbeiten - Einbaumöbel für den 4. Bauabschnitt im Zuge der Generalsanierung der Grund- und Mittelschule Margetshöchheim, incl. Turnhalle",
+   "procuringEntity": {
+    "name": "Schulverband Margetshöchheim",
+    "id": "09679715-SV0000001-51"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421153",
+      "description": "Installation of built-in furniture"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45214200",
+       "description": "Construction work for school buildings"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421000",
+       "description": "Joinery work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45420000",
+       "description": "Joinery and carpentry installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Friedenstraße 1",
+      "locality": "Margetshöchheim",
+      "region": "DE26C",
+      "postalCode": "97276",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331427",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "164 Schreinerarbeiten Einbaumöbel 4.BA",
+     "description": "ca. 9 Stück Einbauschränke  --  ca. 7 Stück Waschtischrückwände",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2027-05-22T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "17341227-5891-4451-880e-2edfea94e120",
+  "version": "01",
+  "title": "164 Schreinerarbeiten Einbaumöbel 4.BA",
+  "nuts": [
+   "DE26C"
+  ],
+  "cpv": [
+   "45214200",
+   "45421000",
+   "45420000",
+   "45421153"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "164 Schreinerarbeiten Einbaumöbel 4.BA",
+    "cpv": [
+     "45421153",
+     "45214200",
+     "45421000",
+     "45420000"
+    ],
+    "nuts": [
+     "DE26C"
+    ],
+    "deadline": "2026-12-08T09:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2027-05-22+02:00",
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "Für alle Eignungskriterien gilt:Der Bieter, sowie seine zugehörigen Nachunternehmer, müssen eine Eigenerklärung zur Eignung für nicht präqualifizierte Unternehmen abgeben (siehe Formblatt 124 in den Vergabeunterlagen) oder die Präqualifizierungsnummer im Angebotsschreiben nennen. Die jeweiligen Bestätigungen / Nachweise zu den Eigenerklärungen müssen auf gesondertem Verlangen der Vergabestelle innerhalb der gesetzten angemessenen Frist von 6 Kalendertagen vorgelegt werden. Das Angebot wird ausgeschlossen, wenn die Unterlagen nicht vollständig innerhalb dieser Frist vorgelegt werden.\n\nFolgende Unternehmensbezogene Unterlagen werden im Zuge der Eigenerkärung verlangt (siehe hierzu auch Formblatt 216 der Vergabeunterlagen):\n\n•• Umsatz:\nEs ist eine Erkärung über den Umsatz des Unternehmens jeweils bezogen auf die letzten drei abgeschlossenen Geschäftsjahre abzugeben, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen.\n\n•• Angabe zu Insolvenzverfahren und Liquidation:\nErkärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetztlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen des Bieters nicht in Liquidation befindet.\nFalls erklärt wird, dass ein Insolvenzplan vorliegt, ist auf Verlangen ein rechtskräftig bestätigter Insolvenzplan vorzulegen.\n\n•• Erkärung, dass nachweislich keine schwere Verfehlung begangen wurde, die die Zuverlässigkeit des Bieters in Frage stellt.\n\n•• Angaben zur Zahlung von Steuern, Abgaben und Beträgen zur Sozialvesicherung:\nFalls der Bieter in die engere Wahl kommt, wird die Vorlage folgender Bescheinigungen notwendig:\n- Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, falls das Unternehmen beitragspflichtig ist\n- Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen, falls das Finanzamt eine solche Bescheinigung ausstellt\n- Freistellungsbescheinigung nach §48b EStG"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Folgende Unternehmensbezogene Unterlagen werden im Zuge der Eigenerkärung verlangt (siehe hierzu auch Formblatt 216 der Vergabeunterlagen):\n\n•• Registereintragungen:\nZum Nachweis der Befähigung und Erlaubnis zur Berufsausübung sind die entsprechenden Registereintragungen zu nennen. Wenn das Angebot in die engere Wahl kommt, müssen auf Verlangen entsprechende Erkärungen vorgelegt werden, wie Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle (Handwerkskarte) bzw. bei der Industrie- und Handelskammer.\n\n•• Angaben zur Mitgliedschaft bei der Berufsgenossenschaft:\nWenn das Angebot in die engere Wahl kommt, muss auf Verlangen die Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des zuständigen Versicherungsträgers mit Angabe der Lohnsummen vorgelegt werden."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Folgende Unternehmensbezogene Unterlagen werden im Zuge der Eigenerkärung verlangt (siehe hierzu auch Formblatt 216 der Vergabeunterlagen):\n\n•• Angabe zu Leistungen, die mit der zu vergebenden Leistung vergleichbar sind:\nErklärung, dass der Bieter in den letzten fünf Kalenderjahren vergleichbare Leistungen ausgeführt hat.\nFalls der Bieter in die engere Wahl kommt müssen 3 Referenznachweise, mit den im Formblatt 124 Eigenerklärung zur Eignung genannten Angaben, vorgelegt werden."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Folgende Unternehmensbezogene Unterlagen werden im Zuge der Eigenerkärung verlangt (siehe hierzu auch Formblatt 216 der Vergabeunterlagen):\n\n•• Angaben zu Arbeitskräften:\nErkärung, dass für die Ausführung der Leistungen die erforderlichen Arbeitskräfte zur Verfügung stehen.\nFalls der Bieter in die engere Wahl kommt, muss auf Verlangen eine Erkärung zur Zahl der in den letzten 3 Jahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen, mit extra ausgewiesenem technischen Leitungspersonal, vorgelegt werden."
+     }
+    ]
+   }
+  ]
+ }
+}

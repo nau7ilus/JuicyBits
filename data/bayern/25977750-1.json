@@ -1,0 +1,96 @@
+{
+ "id": "25977750-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25977750",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25977750",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25977750-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25977750?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Ausbau B304 westlich Strass",
+  "buyer": "Staatliches Bauamt Traunstein",
+  "cpv": [
+   "45000000-7"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25977750",
+  "id": "25977750",
+  "date": "2026-10-28T07:00:57Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Traunstein",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Staatliches Bauamt Traunstein"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Traunstein",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Traunstein"
+   }
+  },
+  "tender": {
+   "title": "Ausbau B304 westlich Strass",
+   "description": "Ausbau B304 westlich Strass",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Traunstein"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45000000-7"
+     },
+     "deliveryAddress": {
+      "locality": "83317 Teisendorf",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Public announcement",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305076",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Ausbau B304 westlich Strass",
+     "description": "Ausbau B304 westlich Strass"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

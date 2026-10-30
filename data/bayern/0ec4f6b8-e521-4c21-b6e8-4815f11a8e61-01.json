@@ -1,0 +1,155 @@
+{
+ "id": "0ec4f6b8-e521-4c21-b6e8-4815f11a8e61-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "0ec4f6b8-e521-4c21-b6e8-4815f11a8e61",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0ec4f6b8-e521-4c21-b6e8-4815f11a8e61",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:0ec4f6b8-e521-4c21-b6e8-4815f11a8e61-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0ec4f6b8-e521-4c21-b6e8-4815f11a8e61?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Neubau Kinderklinikum (EKiZ) u. Wirtschaftshof - Klinikum Nürnberg Süd - Rammschutz Patienten-Zimmer",
+  "buyer": "Klinikum Nürnberg",
+  "cpv": [
+   "45215100",
+   "45215130",
+   "45420000"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-750f93eb-f174-499f-b05b-52cb8ae4bdce",
+  "id": "0ec4f6b8-e521-4c21-b6e8-4815f11a8e61",
+  "date": "2026-10-28T03:26:17Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Klinikum Nürnberg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8783",
+     "legalName": "Klinikum Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90419",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "bb37954c-98f1-4494-8691-ee3da14cd89e",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Klinikum Nürnberg",
+   "id": "8783",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Klinikum Nürnberg"
+   },
+   "address": {
+    "streetAddress": "Prof.-Ernst-Nathan-Str. 1",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90419",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "750f93eb-f174-499f-b05b-52cb8ae4bdce",
+   "title": "Neubau Kinderklinikum (EKiZ) u. Wirtschaftshof - Klinikum Nürnberg Süd - Rammschutz Patienten-Zimmer",
+   "description": "Rammschutz für Patienten-Zimmer",
+   "procuringEntity": {
+    "name": "Klinikum Nürnberg",
+    "id": "8783"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45215100",
+      "description": "Construction work for buildings relating to health"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45215130",
+       "description": "Clinic construction work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45420000",
+       "description": "Joinery and carpentry installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "region": "DE254",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/750f93eb-f174-499f-b05b-52cb8ae4bdce",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Kinderklinikum (EKiZ) u. Wirtschaftshof - Klinikum Nürnberg Süd - Rammschutz Patienten-Zimmer",
+     "description": "- Liefern und Montieren von ca. 1550 m Wandschutz \n  platten aus Kompaktplatte HPL;\n- Liefern und Montieren von ca. 1150 St. Wandschutz- \n  Eckwinkel;\n- Herstellen von ca. 1000 St. Ausschnitte in div. Größen;\n- Herstellen der Fugenversiegeling für die Wandschutzelemente",
+     "contractPeriod": {
+      "startDate": "2027-01-18T00:00:00+01:00",
+      "endDate": "2027-04-03T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

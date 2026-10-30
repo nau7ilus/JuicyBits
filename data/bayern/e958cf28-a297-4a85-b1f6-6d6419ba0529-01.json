@@ -1,0 +1,290 @@
+{
+ "id": "e958cf28-a297-4a85-b1f6-6d6419ba0529-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "e958cf28-a297-4a85-b1f6-6d6419ba0529",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e958cf28-a297-4a85-b1f6-6d6419ba0529",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:e958cf28-a297-4a85-b1f6-6d6419ba0529-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:e958cf28-a297-4a85-b1f6-6d6419ba0529-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/e958cf28-a297-4a85-b1f6-6d6419ba0529?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Bau Kreativforum, Cleantech Innovation Park, Hallstadt",
+  "buyer": "Cleantech Innovation Park GmbH",
+  "cpv": [
+   "45311200",
+   "45314310",
+   "45314000",
+   "45317000"
+  ],
+  "nuts": [
+   "DE245"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b3574517-a947-4439-b084-80119e71fefb",
+  "id": "e958cf28-a297-4a85-b1f6-6d6419ba0529",
+  "date": "2026-10-29T03:22:13Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Cleantech Innovation Park GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 349 520 549",
+     "legalName": "Cleantech Innovation Park GmbH"
+    },
+    "address": {
+     "streetAddress": "Michelinstr. 130",
+     "locality": "Hallstadt",
+     "region": "DE245",
+     "postalCode": "96103",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "W2 ProjektManagement GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE328448663",
+     "legalName": "W2 ProjektManagement GmbH"
+    },
+    "address": {
+     "streetAddress": "John-Skilton-Str. 4b",
+     "locality": "Würzburg",
+     "region": "DE263",
+     "postalCode": "97074",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Elektro-Wittner GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE 153 375 262",
+     "legalName": "Elektro-Wittner GmbH"
+    },
+    "address": {
+     "locality": "Bamberg",
+     "region": "DE241",
+     "postalCode": "96052",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Cleantech Innovation Park GmbH",
+   "id": "DE 349 520 549",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Cleantech Innovation Park GmbH"
+   },
+   "address": {
+    "streetAddress": "Michelinstr. 130",
+    "locality": "Hallstadt",
+    "region": "DE245",
+    "postalCode": "96103",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b3574517-a947-4439-b084-80119e71fefb",
+   "title": "Bau Kreativforum, Cleantech Innovation Park, Hallstadt",
+   "description": "VE 051 Elektrotechnik",
+   "procuringEntity": {
+    "name": "Cleantech Innovation Park GmbH",
+    "id": "DE 349 520 549"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45311200",
+      "description": "Electrical fitting work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45314310",
+       "description": "Installation of cable laying"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45314000",
+       "description": "Installation of telecommunications equipment"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45317000",
+       "description": "Other electrical installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Michelinstraße 130",
+      "locality": "Hallstadt",
+      "region": "DE245",
+      "postalCode": "96103",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-07T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Elektro-Wittner GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Elektro-Wittner GmbH"
+     },
+     "address": {
+      "locality": "Bamberg",
+      "region": "DE241",
+      "postalCode": "96052",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "VE 051 Elektrotechnik",
+     "description": "Der Neubau der Cleantech Innovation Park GmbH ist die zweite Baumaßnahme auf dem Campus, an der Michelinstraße in Hallstadt. Das Grundstück ist über die naheliegende A70 bzw. die A73 ab Autobahnkreuz Bamberg gut erreichbar.\nDas Gebäude ist als viergeschossiger Baukörper ohne Unterkellerung in einer Holz-Hybridbauweise inkl. vorgesetztem Stahlbau geplant.\nMaximale Gebäudeabmessungen:\n- max. Gebäudehöhe 16.30m ü. FFB EG (±0.00 = 247,80 ü. NHN)\n- Gebäudeausdehnung: 41,65m x 26,65m\n- BGF ca. 3.650m²\n\nDie Leistung des AN beinhaltet:\n\n- PV ca. 42kWp\n- GHV 1 St. \n- UV ca.8 St.\n- Kabelrinnen ca. 700m\n- Kabel und Leitungen ca. 15.000m\n- Installationsgeräte ca. 1.000St\n- Leuchten ca. 800 ST (davon ca. 400m Lichtkanal)\n- Rauchmelder ca. 200St.\n- Datenkabel ca. 9.000m",
+     "contractPeriod": {
+      "startDate": "2026-10-05T00:00:00+02:00",
+      "endDate": "2028-03-10T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-27T00:00:00+01:00",
+    "suppliers": [
+     {
+      "name": "Elektro-Wittner GmbH",
+      "id": "DE 153 375 262",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "Elektro-Wittner GmbH"
+      },
+      "address": {
+       "locality": "Bamberg",
+       "region": "DE241",
+       "postalCode": "96052",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 865108.99,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-26T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "e958cf28-a297-4a85-b1f6-6d6419ba0529",
+  "version": "01",
+  "title": "Bau Kreativforum, Cleantech Innovation Park, Hallstadt",
+  "nuts": [
+   "DE245"
+  ],
+  "cpv": [
+   "45311200",
+   "45314310",
+   "45314000",
+   "45317000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "VE 051 Elektrotechnik",
+    "cpv": [
+     "45311200",
+     "45314310",
+     "45314000",
+     "45317000"
+    ],
+    "nuts": [
+     "DE245"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-05+02:00",
+    "plannedEnd": "2028-03-10+01:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

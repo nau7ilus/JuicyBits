@@ -1,0 +1,118 @@
+{
+ "id": "25982884-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982884",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982884",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982884-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982884-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982884?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Glas- und Rahmenreinigung",
+  "buyer": "Zweckverband Staatliches Gymnasium Oberhaching",
+  "cpv": [
+   "90910000-9 90911300-9  90919300-5"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-02T13:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982884",
+  "id": "25982884",
+  "date": "2026-10-29T07:01:15Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Zweckverband Staatliches Gymnasium Oberhaching",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Zweckverband Staatliches Gymnasium Oberhaching"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Zweckverband Staatliches Gymnasium Oberhaching",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Zweckverband Staatliches Gymnasium Oberhaching"
+   }
+  },
+  "tender": {
+   "title": "Glas- und Rahmenreinigung",
+   "description": "Glas- und Rahmenreinigung",
+   "procuringEntity": {
+    "name": "Zweckverband Staatliches Gymnasium Oberhaching"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90910000-9 90911300-9  90919300-5"
+     },
+     "deliveryAddress": {
+      "locality": "82041 Oberhaching",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Glas- und Rahmenreinigung",
+     "description": "Glas- und Rahmenreinigung"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25982884",
+  "version": "1",
+  "title": "Glas- und Rahmenreinigung",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "90910000-9 90911300-9  90919300-5"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Glas- und Rahmenreinigung",
+    "cpv": [
+     "90910000-9 90911300-9  90919300-5"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-02T13:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

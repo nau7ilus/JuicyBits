@@ -1,0 +1,180 @@
+{
+ "id": "0f3c4979-a3b3-424c-8174-0d7f4122731c-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "0f3c4979-a3b3-424c-8174-0d7f4122731c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0f3c4979-a3b3-424c-8174-0d7f4122731c",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:0f3c4979-a3b3-424c-8174-0d7f4122731c-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0f3c4979-a3b3-424c-8174-0d7f4122731c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Lieferung und Montage von Innentüren und Zargen",
+  "buyer": "Landkreis Neustadt a.d.Waldnaab",
+  "cpv": [
+   "45421131",
+   "45421100",
+   "45421130"
+  ],
+  "nuts": [
+   "DE237"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-589615c0-5e5a-4b83-8169-eeeb2bc69318",
+  "id": "0f3c4979-a3b3-424c-8174-0d7f4122731c",
+  "date": "2026-10-28T03:22:06Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Neustadt a.d.Waldnaab",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "6411e1c0-ae18-4c0f-8d2b-45eb50ee9b03",
+     "legalName": "Landkreis Neustadt a.d.Waldnaab"
+    },
+    "address": {
+     "streetAddress": "Am Hohlweg 2",
+     "locality": "Neustadt a. d. Waldnaab",
+     "region": "DE237",
+     "postalCode": "92660",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern mit Sitz in Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c8d602ce-2075-42fc-a5d1-11b4a8057381",
+     "legalName": "Vergabekammer Nordbayern mit Sitz in Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Europäisches Verbraucherzentrum Deutschland",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "932b0a76-7de4-4148-b53d-16c9dda517f2",
+     "legalName": "Europäisches Verbraucherzentrum Deutschland"
+    },
+    "address": {
+     "streetAddress": "Bahnhofsplatz 3",
+     "locality": "Kehl",
+     "region": "DE134",
+     "postalCode": "77694",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Neustadt a.d.Waldnaab",
+   "id": "6411e1c0-ae18-4c0f-8d2b-45eb50ee9b03",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Neustadt a.d.Waldnaab"
+   },
+   "address": {
+    "streetAddress": "Am Hohlweg 2",
+    "locality": "Neustadt a. d. Waldnaab",
+    "region": "DE237",
+    "postalCode": "92660",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "589615c0-5e5a-4b83-8169-eeeb2bc69318",
+   "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Lieferung und Montage von Innentüren und Zargen",
+   "description": "Der Landkreis Neustadt a.d.Waldnaab beabsichtigt im Rahmen des Neubaus des Hallenbades die Vergabe der Lieferung und Montage von Innentüren und Zargen für ein Hallenbad einschließlich Zubehör.\n\nLeitmassen:\n13 Objektinnentüren \n12 VSG Ganzglastüren\n12 Stahlblechtüren\n\nDetaillierte Angaben zum Leistungsumfang sind der Leistungsbeschreibung / dem Leistungsverzeichnis sowie den weiteren Vergabeunterlagen zu entnehmen.",
+   "procuringEntity": {
+    "name": "Landkreis Neustadt a.d.Waldnaab",
+    "id": "6411e1c0-ae18-4c0f-8d2b-45eb50ee9b03"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421131",
+      "description": "Installation of doors"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45421100",
+       "description": "Installation of doors and windows and related components"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421130",
+       "description": "Installation of doors and windows"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Neustadt a.d.Waldnaab",
+      "region": "DE237",
+      "postalCode": "92660",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 103477,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://bieterzugang.deutsche-evergabe.de/evergabe.bieter/api/supplier/external/deeplink/subproject/16955130-d687-4797-8666-5d071370e6d4",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Neubau Hallenbad Neustadt a.d.Waldnaab - Lieferung und Montage von Innentüren und Zargen",
+     "description": "Der Landkreis Neustadt a.d.Waldnaab beabsichtigt im Rahmen des Neubaus des Hallenbades die Vergabe der Lieferung und Montage von Innentüren und Zargen für ein Hallenbad einschließlich Zubehör.\n\nLeitmassen:\n13 Objektinnentüren \n12 VSG Ganzglastüren\n12 Stahlblechtüren\n\nDetaillierte Angaben zum Leistungsumfang sind der Leistungsbeschreibung / dem Leistungsverzeichnis sowie den weiteren Vergabeunterlagen zu entnehmen.",
+     "contractPeriod": {
+      "startDate": "2027-01-25T00:00:00+01:00",
+      "endDate": "2027-03-26T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

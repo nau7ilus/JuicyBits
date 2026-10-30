@@ -1,0 +1,150 @@
+{
+ "id": "c9d94151-97c4-42d3-85c0-279fa3dd2e0c-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "c9d94151-97c4-42d3-85c0-279fa3dd2e0c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c9d94151-97c4-42d3-85c0-279fa3dd2e0c",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:c9d94151-97c4-42d3-85c0-279fa3dd2e0c-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c9d94151-97c4-42d3-85c0-279fa3dd2e0c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Aufzugsanlage",
+  "buyer": "VGem Burgebrach",
+  "cpv": [
+   "45313100",
+   "42416100"
+  ],
+  "nuts": [
+   "DE245"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bd0185d1-0fca-4aa8-8e87-b90aace0296a",
+  "id": "c9d94151-97c4-42d3-85c0-279fa3dd2e0c",
+  "date": "2026-10-28T03:26:05Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "VGem Burgebrach",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE010954694160",
+     "legalName": "VGem Burgebrach"
+    },
+    "address": {
+     "streetAddress": "Hauptstr. 1-3",
+     "locality": "Burgebrach",
+     "region": "DE245",
+     "postalCode": "96138",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "VGem Burgebrach",
+   "id": "DE010954694160",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "VGem Burgebrach"
+   },
+   "address": {
+    "streetAddress": "Hauptstr. 1-3",
+    "locality": "Burgebrach",
+    "region": "DE245",
+    "postalCode": "96138",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bd0185d1-0fca-4aa8-8e87-b90aace0296a",
+   "title": "Aufzugsanlage",
+   "description": "Revitalisierung Goldener Hirsch Burgebrach_Liefern und Installieren einer Aufzugsanlage",
+   "procuringEntity": {
+    "name": "VGem Burgebrach",
+    "id": "DE010954694160"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45313100",
+      "description": "Lift installation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "42416100",
+       "description": "Lifts"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Burgebrach",
+      "region": "DE245",
+      "postalCode": "96138",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331409",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Aufzugsanlage",
+     "description": "Revitalisierung Goldener Hirsch Burgebrach_Liefern und Installieren einer Aufzugsanlage",
+     "contractPeriod": {
+      "startDate": "2027-01-15T00:00:00+01:00",
+      "endDate": "2028-12-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,153 @@
+{
+ "id": "d2a40105-2db2-4707-9926-bdd5f17d2ccf-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "d2a40105-2db2-4707-9926-bdd5f17d2ccf",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d2a40105-2db2-4707-9926-bdd5f17d2ccf",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:d2a40105-2db2-4707-9926-bdd5f17d2ccf-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d2a40105-2db2-4707-9926-bdd5f17d2ccf?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Germanisches Nationalmuseum - Sanierung Süd- und Südwestbau Nürnberg - VE426 Kälteanlagen",
+  "buyer": "Germanisches Nationalmuseum",
+  "cpv": [
+   "45331231"
+  ],
+  "nuts": [
+   "DE254"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-84e2b21f-edf8-4278-9d45-8cc0b8152b89",
+  "id": "d2a40105-2db2-4707-9926-bdd5f17d2ccf",
+  "date": "2026-10-28T03:24:14Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Germanisches Nationalmuseum",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "-",
+     "legalName": "Germanisches Nationalmuseum"
+    },
+    "address": {
+     "streetAddress": "Kornmarkt 1",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90402",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": ".-",
+     "legalName": "Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Germanisches Nationalmuseum",
+   "id": "-",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Germanisches Nationalmuseum"
+   },
+   "address": {
+    "streetAddress": "Kornmarkt 1",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90402",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "84e2b21f-edf8-4278-9d45-8cc0b8152b89",
+   "title": "Germanisches Nationalmuseum - Sanierung Süd- und Südwestbau Nürnberg - VE426 Kälteanlagen",
+   "description": "VE426 Kälteanlagen",
+   "procuringEntity": {
+    "name": "Germanisches Nationalmuseum",
+    "id": "-"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45331231",
+      "description": "Installation work of refrigeration equipment"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Kartäusergasse 1",
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90402",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.tender24.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a0d8b6f642-52f0ae43867ec259",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-28T03:24:14.777Z",
+     "rationale": "Verlängerung Angebotsfrist",
+     "amendsReleaseID": "054d2b4a-0718-4a6d-a9a2-05d180624fcf-01",
+     "releaseID": "d2a40105-2db2-4707-9926-bdd5f17d2ccf-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Germanisches Nationalmuseum - Sanierung Süd- und Südwestbau Nürnberg - VE426 Kälteanlagen",
+     "description": "siehe Leistungsverzeichnis",
+     "contractPeriod": {
+      "startDate": "2027-08-02T00:00:00+02:00",
+      "endDate": "2028-08-01T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

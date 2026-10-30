@@ -1,0 +1,141 @@
+{
+ "id": "25978782-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25978782",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978782",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25978782-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25978782-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978782?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Am Herrengrund Sanierung - Starkregen",
+  "buyer": "Stadt Eichstätt, Marktplatz 11, 85072 Eichstätt, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt]",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2027-04-29T00:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25978782",
+  "id": "25978782",
+  "date": "2026-10-29T07:01:10Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Eichstätt, Marktplatz 11, 85072 Eichstätt, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt]",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Stadt Eichstätt, Marktplatz 11, 85072 Eichstätt, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt]"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Eichstätt, Marktplatz 11, 85072 Eichstätt, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt]",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Eichstätt, Marktplatz 11, 85072 Eichstätt, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt]"
+   }
+  },
+  "tender": {
+   "title": "Am Herrengrund Sanierung - Starkregen",
+   "description": "Am Herrengrund Sanierung - Starkregen",
+   "procuringEntity": {
+    "name": "Stadt Eichstätt, Marktplatz 11, 85072 Eichstätt, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt]"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "85072 Eichstätt",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Am Herrengrund Sanierung - Starkregen",
+     "description": "Am Herrengrund Sanierung - Starkregen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25978782",
+  "version": "1",
+  "title": "Am Herrengrund Sanierung - Starkregen",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Am Herrengrund Sanierung - Starkregen",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2027-04-29T00:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

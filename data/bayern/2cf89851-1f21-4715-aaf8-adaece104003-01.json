@@ -1,0 +1,258 @@
+{
+ "id": "2cf89851-1f21-4715-aaf8-adaece104003-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "2cf89851-1f21-4715-aaf8-adaece104003",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2cf89851-1f21-4715-aaf8-adaece104003",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:2cf89851-1f21-4715-aaf8-adaece104003-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:2cf89851-1f21-4715-aaf8-adaece104003-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2cf89851-1f21-4715-aaf8-adaece104003?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "26E Spenglerarbeiten",
+  "buyer": "Staatliches Bauamt Regensburg",
+  "cpv": [
+   "45212361",
+   "45261300"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3dfcefda-3ab8-4e04-af59-ced3766bcd4a",
+  "id": "2cf89851-1f21-4715-aaf8-adaece104003",
+  "date": "2026-10-29T03:26:11Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Regensburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09416985601",
+     "legalName": "Staatliches Bauamt Regensburg"
+    },
+    "address": {
+     "streetAddress": "Bajuwarenstraße 2d",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91511",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Müller +Duscher GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE175853889",
+     "legalName": "Müller +Duscher GmbH"
+    },
+    "address": {
+     "streetAddress": "Gewerbering 22",
+     "locality": "Loiching",
+     "region": "DE22C",
+     "postalCode": "84180",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Regensburg",
+   "id": "t:09416985601",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Regensburg"
+   },
+   "address": {
+    "streetAddress": "Bajuwarenstraße 2d",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3dfcefda-3ab8-4e04-af59-ced3766bcd4a",
+   "title": "26E Spenglerarbeiten",
+   "description": "Baustelleneinrichtung\nEinbau Dachbleche und Regenrinnen\nFassadenarbeiten (Einbau Regenfallrohre, Lieferung Kehlnocken, Einbau Schneefang, Taubenschutznetze etc.)\nEinbau Fensterbänke\nAnbaudächer (Spenglerarbeiten in kleinerem Umfang)\nTraufstreifen in Kupfer unterschiedlichen Zuschnitten ca. 140 m \nHängedachrinne Kupfer ca. 140 m\nRegenfallrohr Kupfer ca. 150 m\nKehlnocken Kupfer ca. 500 Stück\nSchneefang Vollkupfer ca. 160 m\nTaubenschutznetze ca. 16 Stück",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Regensburg",
+    "id": "t:09416985601"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45212361",
+      "description": "Church construction work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45261300",
+       "description": "Flashing and guttering work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93047",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-09-28T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Müller +Duscher GmbH",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Müller +Duscher GmbH"
+     },
+     "address": {
+      "streetAddress": "Gewerbering 22",
+      "locality": "Loiching",
+      "region": "DE22C",
+      "postalCode": "84180",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "26E Spenglerarbeiten",
+     "description": "Baustelleneinrichtung\nEinbau Dachbleche und Regenrinnen\nFassadenarbeiten (Einbau Regenfallrohre, Lieferung Kehlnocken, Einbau Schneefang, Taubenschutznetze etc.)\nEinbau Fensterbänke\nAnbaudächer (Spenglerarbeiten in kleinerem Umfang)\nTraufstreifen in Kupfer unterschiedlichen Zuschnitten ca. 140 m \nHängedachrinne Kupfer ca. 140 m\nRegenfallrohr Kupfer ca. 150 m\nKehlnocken Kupfer ca. 500 Stück\nSchneefang Vollkupfer ca. 160 m\nTaubenschutznetze ca. 16 Stück",
+     "contractPeriod": {
+      "startDate": "2027-02-12T00:00:00+01:00",
+      "endDate": "2027-12-16T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "26E Spenglerarbeiten",
+    "status": "active",
+    "date": "2026-09-28T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Müller +Duscher GmbH",
+      "id": "DE175853889",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Müller +Duscher GmbH"
+      },
+      "address": {
+       "streetAddress": "Gewerbering 22",
+       "locality": "Loiching",
+       "region": "DE22C",
+       "postalCode": "84180",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "26E Spenglerarbeiten",
+    "status": "active",
+    "value": {
+     "amount": 187731.48,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-09-27T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "2cf89851-1f21-4715-aaf8-adaece104003",
+  "version": "01",
+  "title": "26E Spenglerarbeiten",
+  "nuts": [
+   "DE232"
+  ],
+  "cpv": [
+   "45212361",
+   "45261300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "26E Spenglerarbeiten",
+    "cpv": [
+     "45212361",
+     "45261300"
+    ],
+    "nuts": [
+     "DE232"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-02-12+01:00",
+    "plannedEnd": "2027-12-16+01:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

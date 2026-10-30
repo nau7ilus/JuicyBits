@@ -1,0 +1,161 @@
+{
+ "id": "bb047658-9cbe-46a5-a806-444831db4b01-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "bb047658-9cbe-46a5-a806-444831db4b01",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=bb047658-9cbe-46a5-a806-444831db4b01",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:bb047658-9cbe-46a5-a806-444831db4b01-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/bb047658-9cbe-46a5-a806-444831db4b01?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "in situ Rasterelektronenmikroskop (in situ SEM)",
+  "buyer": "Freistaat Bayern, vertreten durch die Universität Bayreuth ",
+  "cpv": [
+   "38511100"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1dfd4397-f4e6-4a17-88bf-f07cd9cb3a2c",
+  "id": "bb047658-9cbe-46a5-a806-444831db4b01",
+  "date": "2026-10-28T03:22:47Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch die Universität Bayreuth ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9b4042e0-f924-4bab-b4d8-78cf05e37bc5",
+     "legalName": "Freistaat Bayern, vertreten durch die Universität Bayreuth "
+    },
+    "address": {
+     "streetAddress": "Universitätsstraße 30",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95447",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Freistaat Bayern, vertreten durch die Universität Bayreuth",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "e5cac331-81ef-483c-b26c-46b467f99013",
+     "legalName": "Freistaat Bayern, vertreten durch die Universität Bayreuth"
+    },
+    "address": {
+     "streetAddress": "Universitätsstraße 30",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95447",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "processContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch die Universität Bayreuth ",
+   "id": "9b4042e0-f924-4bab-b4d8-78cf05e37bc5",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch die Universität Bayreuth "
+   },
+   "address": {
+    "streetAddress": "Universitätsstraße 30",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95447",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1dfd4397-f4e6-4a17-88bf-f07cd9cb3a2c",
+   "title": "in situ Rasterelektronenmikroskop (in situ SEM)",
+   "description": "Es soll ein in situ SEM angeschafft werden, das als Schlüsselinstrument in der lokalen, multiskaligen operando Analytik von heterogenen Katalysatoren und Batteriematerialien eingesetzt wird. ",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch die Universität Bayreuth ",
+    "id": "9b4042e0-f924-4bab-b4d8-78cf05e37bc5"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38511100",
+      "description": "Scanning electron microscopes"
+     },
+     "deliveryAddress": {
+      "locality": "Bayreuth",
+      "region": "DE242",
+      "postalCode": "95448",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 1000000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/e796f6c9-ae7d-4d88-8746-03934d292740",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "in situ Rasterelektronenmikroskop (in situ SEM)",
+     "description": "Es soll ein in situ SEM angeschafft werden, das als Schlüsselinstrument in der lokalen, multiskaligen operando Analytik von heterogenen Katalysatoren und Batteriematerialien eingesetzt wird. "
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

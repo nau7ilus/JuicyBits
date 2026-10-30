@@ -1,0 +1,141 @@
+{
+ "id": "25982936-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982936",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982936",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982936-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982936-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982936?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Erneuerung der Heizungsanlage",
+  "buyer": "Bayreuther Festspiele GmbH",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-10-28T14:03:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982936",
+  "id": "25982936",
+  "date": "2026-10-29T07:01:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayreuther Festspiele GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Bayreuther Festspiele GmbH"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayreuther Festspiele GmbH",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayreuther Festspiele GmbH"
+   }
+  },
+  "tender": {
+   "title": "Erneuerung der Heizungsanlage",
+   "description": "Heizungs- und Wärmeversorgungsanlagen",
+   "procuringEntity": {
+    "name": "Bayreuther Festspiele GmbH"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "95445 Bayreuth",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Erneuerung der Heizungsanlage",
+     "description": "Heizungs- und Wärmeversorgungsanlagen"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25982936",
+  "version": "1",
+  "title": "Erneuerung der Heizungsanlage",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Erneuerung der Heizungsanlage",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-10-28T14:03:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

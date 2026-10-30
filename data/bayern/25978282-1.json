@@ -1,0 +1,95 @@
+{
+ "id": "25978282-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25978282",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978282",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25978282-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978282?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Technische Außenanlagen - Grundschule Egling INTERIMSMASSNAHME",
+  "buyer": "Gemeinde Egling",
+  "cpv": [
+   "45232411-6  45232450-1"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25978282",
+  "id": "25978282",
+  "date": "2026-10-28T07:00:23Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Egling",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Egling"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Egling",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Egling"
+   }
+  },
+  "tender": {
+   "title": "Technische Außenanlagen - Grundschule Egling INTERIMSMASSNAHME",
+   "description": "Tiefbau und Entwässerungskanalarbeiten",
+   "procuringEntity": {
+    "name": "Gemeinde Egling"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232411-6  45232450-1"
+     },
+     "deliveryAddress": {
+      "locality": "82544 Egling",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28BD4D-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Technische Außenanlagen - Grundschule Egling INTERIMSMASSNAHME",
+     "description": "Tiefbau und Entwässerungskanalarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

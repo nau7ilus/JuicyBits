@@ -1,0 +1,202 @@
+{
+ "id": "48769eb6-f6a5-40fe-855e-76aa0f4a381c-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "48769eb6-f6a5-40fe-855e-76aa0f4a381c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=48769eb6-f6a5-40fe-855e-76aa0f4a381c",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:48769eb6-f6a5-40fe-855e-76aa0f4a381c-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/48769eb6-f6a5-40fe-855e-76aa0f4a381c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Hausverwaltung - kaufmännische und technische Verwaltung (Mietverwaltung im kommunalen Eigentum)",
+  "buyer": "Große Kreisstadt Fürstenfeldbruck",
+  "cpv": [
+   "70330000"
+  ],
+  "nuts": [
+   "DE21C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-d35770bc-71d7-48e3-a76b-f2fab77d5787",
+  "id": "48769eb6-f6a5-40fe-855e-76aa0f4a381c",
+  "date": "2026-10-28T03:24:14Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Große Kreisstadt Fürstenfeldbruck",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "9149d3fa-ecee-4364-9748-687cb7133495",
+     "legalName": "Große Kreisstadt Fürstenfeldbruck"
+    },
+    "address": {
+     "streetAddress": "Hauptstr. 31",
+     "locality": "Fürstenfeldbruck",
+     "region": "DE21C",
+     "postalCode": "82256",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "7ceddfe8-3000-479d-8430-27b5b7e2e92b",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "BP Real Estate Management GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "9d2c137b-a9e2-49fc-a9e7-4b63d7506298",
+     "legalName": "BP Real Estate Management GmbH"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Große Kreisstadt Fürstenfeldbruck",
+   "id": "9149d3fa-ecee-4364-9748-687cb7133495",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Große Kreisstadt Fürstenfeldbruck"
+   },
+   "address": {
+    "streetAddress": "Hauptstr. 31",
+    "locality": "Fürstenfeldbruck",
+    "region": "DE21C",
+    "postalCode": "82256",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "d35770bc-71d7-48e3-a76b-f2fab77d5787",
+   "title": "Hausverwaltung - kaufmännische und technische Verwaltung (Mietverwaltung im kommunalen Eigentum)",
+   "description": "Hausverwaltung für:\n14 Abrechnungseinheiten\n11 Standorte im Stadtgebiet\n91 Wohneinheiten gesamt\n28 Gewerbe- / Sondereinheiten\n10.887 m² Wohn- / Nutzfläche\n3 denkmalgeschützte Objekte\n\nGrundleistungen:\n– Kaufmännische Verwaltung\n– Technische Verwaltung\n– Infrastrukturelle Steuerung Dritter\n– Objektbegehungen mind. 2×/Jahr je Einheit\n\nBesondere Leistungen:\n– Maßnahmen über 2.000 € brutto\n– Sanierungen / Investitionen ab 25.000 €\n– Gerichtliche Verfahren über die Koordination hinaus\n– Nur nach vorheriger schriftlicher Zustimmung / Beauftragung\n\n\n\n",
+   "procuringEntity": {
+    "name": "Große Kreisstadt Fürstenfeldbruck",
+    "id": "9149d3fa-ecee-4364-9748-687cb7133495"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "70330000",
+      "description": "Property management services of real estate on a fee or contract basis"
+     },
+     "deliveryAddress": {
+      "locality": "Fürstenfeldbruck",
+      "region": "DE21C",
+      "postalCode": "82256",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "awardPeriod": {
+    "endDate": "2026-10-13T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "BP Real Estate Management GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "BP Real Estate Management GmbH"
+     },
+     "address": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80538",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Hausverwaltung - kaufmännische und technische Verwaltung (Mietverwaltung im kommunalen Eigentum)",
+     "description": "Hausverwaltung für:\n14 Abrechnungseinheiten\n11 Standorte im Stadtgebiet\n91 Wohneinheiten gesamt\n28 Gewerbe- / Sondereinheiten\n10.887 m² Wohn- / Nutzfläche\n3 denkmalgeschützte Objekte\n\nGrundleistungen:\n– Kaufmännische Verwaltung\n– Technische Verwaltung\n– Infrastrukturelle Steuerung Dritter\n– Objektbegehungen mind. 2×/Jahr je Einheit\n\nBesondere Leistungen:\n– Maßnahmen über 2.000 € brutto\n– Sanierungen / Investitionen ab 25.000 €\n– Gerichtliche Verfahren über die Koordination hinaus\n– Nur nach vorheriger schriftlicher Zustimmung / Beauftragung\n\n\n\n",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2029-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-27T00:00:00+01:00",
+    "value": {
+     "amount": 96980,
+     "currency": "EUR"
+    },
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 106181,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-26T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

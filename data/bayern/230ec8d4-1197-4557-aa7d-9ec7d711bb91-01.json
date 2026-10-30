@@ -1,0 +1,242 @@
+{
+ "id": "230ec8d4-1197-4557-aa7d-9ec7d711bb91-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "230ec8d4-1197-4557-aa7d-9ec7d711bb91",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=230ec8d4-1197-4557-aa7d-9ec7d711bb91",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:230ec8d4-1197-4557-aa7d-9ec7d711bb91-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:230ec8d4-1197-4557-aa7d-9ec7d711bb91-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/230ec8d4-1197-4557-aa7d-9ec7d711bb91?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Teilanmeldungen zu Patenten im Bereich der Videokodierung - PR1295442 - 3220 - I",
+  "buyer": "Fraunhofer-Gesellschaft - Einkauf B12",
+  "cpv": [
+   "79120000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-ba94f80c-0d20-43fe-b81c-b749f3da7dcb",
+  "id": "230ec8d4-1197-4557-aa7d-9ec7d711bb91",
+  "date": "2026-10-29T03:20:10Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 129515865",
+     "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+    },
+    "address": {
+     "streetAddress": "Hansastraße 28",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V.",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE-129515865",
+     "legalName": "Fraunhofer Gesellschaft zur Förderung der angewandten Forschung e.V."
+    },
+    "address": {
+     "streetAddress": "Hansastraße 27c",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80686",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Schoppe, Zimmermann, Stöckeler, Zinkler, Schenk & Partner mbB",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE270564910",
+     "legalName": "Schoppe, Zimmermann, Stöckeler, Zinkler, Schenk & Partner mbB"
+    },
+    "address": {
+     "streetAddress": "Radlkoferstr. 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81373",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+   "id": "DE 129515865",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Fraunhofer-Gesellschaft - Einkauf B12"
+   },
+   "address": {
+    "streetAddress": "Hansastraße 28",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80686",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "ba94f80c-0d20-43fe-b81c-b749f3da7dcb",
+   "title": "Teilanmeldungen zu Patenten im Bereich der Videokodierung - PR1295442 - 3220 - I",
+   "description": "Teilanmeldungen zu Patenten im Bereich der Videokodierung",
+   "procuringEntity": {
+    "name": "Fraunhofer-Gesellschaft - Einkauf B12",
+    "id": "DE 129515865"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79120000",
+      "description": "Patent and copyright consultancy services"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80686",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "The contract can be provided only by a particular economic operator because of protection of other exclusive rights, including intellectual property rights, other than those defined in Directive 2014/23/EU Art. 5(10)",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Schoppe, Zimmermann, Stöckeler, Zinkler, Schenk & Partner mbB",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Schoppe, Zimmermann, Stöckeler, Zinkler, Schenk & Partner mbB"
+     },
+     "address": {
+      "streetAddress": "Radlkoferstr. 2",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81373",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Teilanmeldungen zu Patenten im Bereich der Videokodierung - PR1295442 - 3220 - I",
+     "description": "Die Fraunhofer-Gesellschaft für Ihre Institute Fraunhofer HHI und Fraunhofer IIS (im Folgenden: Auftraggeber) beabsichtigt, patentanwaltliche Dienstleistungen zur Unterstützung der internen Patentabteilung für die Teilanmeldung, Verfahrensführung, Verteidigung und Aufrechterhaltung von Schutzrechten auf dem Gebiet der Videocodierung zu beschaffen.\nGegenstand der Betreuung ist die Teilanmeldung zu Patenten (Stammanmeldungen), die im Kern die von den Instituten des Auftraggebers erarbeiteten Beiträge zu den internationalen Videocodierungsstandards der Familie H.26x abbilden- insbesondere H.264/AVC, H.265/HEVC und H.266/VVC sowie deren Erweiterungen und Nachfolgestandards, ferner angrenzende Standards zu Übertragung und Systemintegration (z. B. MPEG-DASH). Die Standardisierung erfolgt in den Gremien ITU-T SG 21 / ISO-IEC JTC 1/SC 29 (JVET, MPEG).\nWesentliche Teile dieses Portfolios sind standardessenziell (Standard Essential Patents, SEP). Sie werden überwiegend über Patentpool-Programme sowie über bilaterale Lizenzverträge verwertet. Die Qualität der patentanwaltlichen Leistung - insbesondere die Fristensicherheit, die Ausarbeitungsqualität prioritätsbegründender Anmeldungen und die standardbezogene Ausgestaltung der Patentansprüche - hat daher unmittelbaren Einfluss auf erhebliche, wiederkehrende Vermögenswerte des Auftraggebers.",
+     "contractPeriod": {
+      "startDate": "2026-10-27T00:00:00+01:00",
+      "endDate": "2027-04-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "active",
+    "date": "2026-10-27T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-26T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "230ec8d4-1197-4557-aa7d-9ec7d711bb91",
+  "version": "01",
+  "title": "Teilanmeldungen zu Patenten im Bereich der Videokodierung - PR1295442 - 3220 - I",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "79120000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Teilanmeldungen zu Patenten im Bereich der Videokodierung - PR1295442 - 3220 - I",
+    "cpv": [
+     "79120000"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2026-10-27+01:00",
+    "plannedEnd": "2027-04-30+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

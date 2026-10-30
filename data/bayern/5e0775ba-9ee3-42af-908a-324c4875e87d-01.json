@@ -1,0 +1,622 @@
+{
+ "id": "5e0775ba-9ee3-42af-908a-324c4875e87d-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "5e0775ba-9ee3-42af-908a-324c4875e87d",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5e0775ba-9ee3-42af-908a-324c4875e87d",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:5e0775ba-9ee3-42af-908a-324c4875e87d-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5e0775ba-9ee3-42af-908a-324c4875e87d?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Arbeitgeberkommunikation: Versand",
+  "buyer": "Die AOK-Bundesverband eGbR führt im Namen der in der Bekanntmachung genannten Auftraggeberinnen das Vergabeverfahren durch",
+  "cpv": [
+   "79571000"
+  ],
+  "nuts": [
+   "DE300",
+   "DE111",
+   "DE212",
+   "DE718",
+   "DE929",
+   "DE404",
+   "DEA52",
+   "DED21",
+   "DEA11",
+   "DEB3D"
+  ],
+  "deadline": null,
+  "lots": 11
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-16a08a44-fea3-4acd-9a70-5a62b3b391b1",
+  "id": "5e0775ba-9ee3-42af-908a-324c4875e87d",
+  "date": "2026-10-28T03:26:12Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Die AOK-Bundesverband eGbR führt im Namen der in der Bekanntmachung genannten Auftraggeberinnen das Vergabeverfahren durch",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "GsR634B",
+     "legalName": "Die AOK-Bundesverband eGbR führt im Namen der in der Bekanntmachung genannten Auftraggeberinnen das Vergabeverfahren durch"
+    },
+    "address": {
+     "streetAddress": "Rosenthaler Str. 31",
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "10178",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "leadBuyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "AOK Baden - Württemberg",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE168368778",
+     "legalName": "AOK Baden - Württemberg"
+    },
+    "address": {
+     "streetAddress": "Presselstraße 19",
+     "locality": "Stuttgart",
+     "region": "DE111",
+     "postalCode": "70191",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "AOK Bayern - Die Gesundheitskasse",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE811695320",
+     "legalName": "AOK Bayern - Die Gesundheitskasse"
+    },
+    "address": {
+     "streetAddress": "Carl-Wery-Str. 28",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81739",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "AOK - Die Gesundheitskasse in Hessen",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE114110216",
+     "legalName": "AOK - Die Gesundheitskasse in Hessen"
+    },
+    "address": {
+     "streetAddress": "Basler Str. 2",
+     "locality": "Bad Homburg",
+     "region": "DE718",
+     "postalCode": "61352",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "AOK - Die Gesundheitskasse für Niedersachsen",
+    "id": "ORG-0005",
+    "identifier": {
+     "id": "DE192651227",
+     "legalName": "AOK - Die Gesundheitskasse für Niedersachsen"
+    },
+    "address": {
+     "streetAddress": "Hildesheimer Str. 273",
+     "locality": "Hannover",
+     "region": "DE929",
+     "postalCode": "30519",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "AOK Nordost - Die Gesundheitskasse",
+    "id": "ORG-0006",
+    "identifier": {
+     "id": "DE275390265",
+     "legalName": "AOK Nordost - Die Gesundheitskasse"
+    },
+    "address": {
+     "streetAddress": "Behlertstraße 33A",
+     "locality": "Potsdam",
+     "region": "DE404",
+     "postalCode": "14467",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "AOK NordWest - Die Gesundheitskasse",
+    "id": "ORG-0007",
+    "identifier": {
+     "id": "DE124159739",
+     "legalName": "AOK NordWest - Die Gesundheitskasse"
+    },
+    "address": {
+     "streetAddress": "Kopenhagener Str. 1",
+     "locality": "Dortmund",
+     "region": "DEA52",
+     "postalCode": "44269",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "AOK PLUS - Die Gesundheitskasse für Sachsen und Thürigen",
+    "id": "ORG-0008",
+    "identifier": {
+     "id": "DE256878834",
+     "legalName": "AOK PLUS - Die Gesundheitskasse für Sachsen und Thürigen"
+    },
+    "address": {
+     "streetAddress": "Sternplatz 7",
+     "locality": "Dresden",
+     "region": "DED21",
+     "postalCode": "01067",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "AOK Rheinland/Hamburg - Die Gesundheitskasse",
+    "id": "ORG-0009",
+    "identifier": {
+     "id": "DE207055164",
+     "legalName": "AOK Rheinland/Hamburg - Die Gesundheitskasse"
+    },
+    "address": {
+     "streetAddress": "Wanheimer Str. 72",
+     "locality": "Düsseldorf",
+     "region": "DEA11",
+     "postalCode": "40468",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "AOK Rheinland-Pfalz/Saarland - Die Gesundheitskasse",
+    "id": "ORG-0010",
+    "identifier": {
+     "id": "DE271900642",
+     "legalName": "AOK Rheinland-Pfalz/Saarland - Die Gesundheitskasse"
+    },
+    "address": {
+     "streetAddress": "Virchowstraße 30",
+     "locality": "Eisenberg",
+     "region": "DEB3D",
+     "postalCode": "67304",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes beim Bundeskartellamt",
+    "id": "ORG-0011",
+    "identifier": {
+     "id": "t:022894990",
+     "legalName": "Vergabekammer des Bundes beim Bundeskartellamt"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Die AOK-Bundesverband eGbR führt im Namen der in der Bekanntmachung genannten Auftraggeberinnen das Vergabeverfahren durch",
+   "id": "GsR634B",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Die AOK-Bundesverband eGbR führt im Namen der in der Bekanntmachung genannten Auftraggeberinnen das Vergabeverfahren durch"
+   },
+   "address": {
+    "streetAddress": "Rosenthaler Str. 31",
+    "locality": "Berlin",
+    "region": "DE300",
+    "postalCode": "10178",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "16a08a44-fea3-4acd-9a70-5a62b3b391b1",
+   "title": "Arbeitgeberkommunikation: Versand",
+   "description": "Leistungsgegenstand ist der Versand der Arbeitgebermedien (AOK-Magazin), die dem Auftragnehmer durch den Druckdienstleister versandbereit zur Abholung bereitgestellt werden. Die Leistung wird in 11 Gebietslosen ausgeschrieben.   Grundsätzlich wird das Arbeitgebermagazin in zwei verschiedenen Ausgaben (KMGU für kleine, mittlere und große Unternehmen und KU für kleine Unternehmen) jeweils viermal pro Jahr versendet. Von AOK zu AOK können die tatsächliche Versandfrequenz sowie die eingesetzten Ausgaben (nur KU/KMGU oder beides) variieren (s. Leistungsbeschreibung).",
+   "procuringEntity": {
+    "name": "Die AOK-Bundesverband eGbR führt im Namen der in der Bekanntmachung genannten Auftraggeberinnen das Vergabeverfahren durch",
+    "id": "GsR634B"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0006"
+    },
+    {
+     "id": "LOT-0007",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0007"
+    },
+    {
+     "id": "LOT-0008",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0008"
+    },
+    {
+     "id": "LOT-0009",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0009"
+    },
+    {
+     "id": "LOT-0010",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0010"
+    },
+    {
+     "id": "LOT-0011",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79571000",
+      "description": "Mailing services"
+     },
+     "relatedLot": "LOT-0011"
+    }
+   ],
+   "value": {
+    "amount": 5604510,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    },
+    {
+     "id": "DOC-0006",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0006"
+     ]
+    },
+    {
+     "id": "DOC-0007",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0007"
+     ]
+    },
+    {
+     "id": "DOC-0008",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0008"
+     ]
+    },
+    {
+     "id": "DOC-0009",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0009"
+     ]
+    },
+    {
+     "id": "DOC-0010",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0010"
+     ]
+    },
+    {
+     "id": "DOC-0011",
+     "url": "https://www.dtvp.de/Satellite/notice/CXP4YDKMWE2/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0011"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Baden-Württemberg",
+     "description": "Auftraggeberin ist ausschließlich die AOK Baden-Württemberg.",
+     "value": {
+      "amount": 930000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Bayern",
+     "description": "Auftraggeberin ist ausschließlich die AOK Bayern.",
+     "value": {
+      "amount": 1195000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Hessen",
+     "description": "Auftraggeberin ist ausschließlich die AOK Hessen.",
+     "value": {
+      "amount": 452213,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Niedersachsen",
+     "description": "Auftraggeberin ist ausschließlich die AOK Niedersachsen.",
+     "value": {
+      "amount": 259060,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Berlin/Brandenburg/Mecklenburg-Vorpommern",
+     "description": "Auftraggeberin ist ausschließlich die AOK Nordost.",
+     "value": {
+      "amount": 255000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0006",
+     "title": "Westfalen-Lippe",
+     "description": "Auftraggeberin ist ausschließlich die AOK NordWest.",
+     "value": {
+      "amount": 501045,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0007",
+     "title": "Schleswig-Holstein",
+     "description": "Auftraggeberin ist ausschließlich die AOK NordWest.",
+     "value": {
+      "amount": 185871,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0008",
+     "title": "Sachsen/Thüringen",
+     "description": "Auftraggeberin ist ausschließlich die AOK PLUS.",
+     "value": {
+      "amount": 510222,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0009",
+     "title": "Rheinland",
+     "description": "Auftraggeberin ist ausschließlich die AOK Rheinland/Hamburg.",
+     "value": {
+      "amount": 849000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0010",
+     "title": "Hamburg",
+     "description": "Auftraggeberin ist ausschließlich die AOK Rheinland/Hamburg.",
+     "value": {
+      "amount": 141600,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0011",
+     "title": "Rheinland-Pfalz/Saarland",
+     "description": "Auftraggeberin ist ausschließlich die AOK Rheinland-Pfalz/Saarland.",
+     "value": {
+      "amount": 325500,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-06-17T00:00:00+02:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 11,
+    "maximumLotsAwardedPerSupplier": 11
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,188 @@
+{
+ "id": "10e74830-b3f3-4244-9ce4-784b2699b0f9-02",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "10e74830-b3f3-4244-9ce4-784b2699b0f9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=10e74830-b3f3-4244-9ce4-784b2699b0f9",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:10e74830-b3f3-4244-9ce4-784b2699b0f9-02.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/10e74830-b3f3-4244-9ce4-784b2699b0f9?format=ocds&noticeVersion=02"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Transport von Haushaltsabfällen aus privaten Herkunftsbereichen",
+  "buyer": "Landratsamt Garmisch-Partenkirchen - Abfallwirtschaft -",
+  "cpv": [
+   "90512000"
+  ],
+  "nuts": [
+   "DE21D"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-99f8d573-da44-4f2d-9d7f-e2188e00194f",
+  "id": "10e74830-b3f3-4244-9ce4-784b2699b0f9",
+  "date": "2026-10-28T03:22:51Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Garmisch-Partenkirchen - Abfallwirtschaft -",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "10232",
+     "legalName": "Landratsamt Garmisch-Partenkirchen - Abfallwirtschaft -"
+    },
+    "address": {
+     "streetAddress": "Olympiastr. 10",
+     "locality": "Garmisch-Partenkirchen",
+     "region": "DE21D",
+     "postalCode": "82467",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "58136ada-bf43-4337-ae64-676696cd8557",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Demmel Sixtus GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE153751338",
+     "legalName": "Demmel Sixtus GmbH"
+    },
+    "address": {
+     "locality": "Wolnzach",
+     "region": "DE21J",
+     "postalCode": "85283",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Garmisch-Partenkirchen - Abfallwirtschaft -",
+   "id": "10232",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Garmisch-Partenkirchen - Abfallwirtschaft -"
+   },
+   "address": {
+    "streetAddress": "Olympiastr. 10",
+    "locality": "Garmisch-Partenkirchen",
+    "region": "DE21D",
+    "postalCode": "82467",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "99f8d573-da44-4f2d-9d7f-e2188e00194f",
+   "title": "Transport von Haushaltsabfällen aus privaten Herkunftsbereichen",
+   "description": "Transport des Restmülls aus privaten Haushalten zur Müllverwertungsanlage",
+   "procuringEntity": {
+    "name": "Landratsamt Garmisch-Partenkirchen - Abfallwirtschaft -",
+    "id": "10232"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90512000",
+      "description": "Refuse transport services"
+     },
+     "deliveryAddress": {
+      "region": "DE21D",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Demmel Sixtus GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Demmel Sixtus GmbH"
+     },
+     "address": {
+      "locality": "Wolnzach",
+      "region": "DE21J",
+      "postalCode": "85283",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Transport von Haushaltsabfällen aus privaten Herkunftsbereichen",
+     "description": "Bereitstellung von Containermulden und Transport der Mulden nach Ingolstadt zur Müllverwertungsanlage. Detaillierte Informationen zum Auftrag sind dem Leistungsverzeichnis zu entnehmen."
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

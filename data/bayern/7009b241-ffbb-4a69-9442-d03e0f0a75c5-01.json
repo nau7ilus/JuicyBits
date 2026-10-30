@@ -1,0 +1,233 @@
+{
+ "id": "7009b241-ffbb-4a69-9442-d03e0f0a75c5-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "7009b241-ffbb-4a69-9442-d03e0f0a75c5",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=7009b241-ffbb-4a69-9442-d03e0f0a75c5",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:7009b241-ffbb-4a69-9442-d03e0f0a75c5-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:7009b241-ffbb-4a69-9442-d03e0f0a75c5-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/7009b241-ffbb-4a69-9442-d03e0f0a75c5?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Tischlerarbeiten - Innentüren DIN 18355",
+  "buyer": "Stadt Rosenheim",
+  "cpv": [
+   "45421100"
+  ],
+  "nuts": [
+   "DE213"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1332827e-6716-41fe-a74b-f453efb28b8e",
+  "id": "7009b241-ffbb-4a69-9442-d03e0f0a75c5",
+  "date": "2026-10-29T03:26:04Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Rosenheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09163000-STARO1-29",
+     "legalName": "Stadt Rosenheim"
+    },
+    "address": {
+     "streetAddress": "Königstraße 24",
+     "locality": "Rosenheim",
+     "region": "DE213",
+     "postalCode": "83022",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Schreinerei Lagler",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE131085659",
+     "legalName": "Schreinerei Lagler"
+    },
+    "address": {
+     "streetAddress": "Riedstr. 16a",
+     "locality": "Flintsbach",
+     "region": "DE21K",
+     "postalCode": "83126",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Rosenheim",
+   "id": "09163000-STARO1-29",
+   "identifier": {
+    "id": "ORG-0011",
+    "legalName": "Stadt Rosenheim"
+   },
+   "address": {
+    "streetAddress": "Königstraße 24",
+    "locality": "Rosenheim",
+    "region": "DE213",
+    "postalCode": "83022",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1332827e-6716-41fe-a74b-f453efb28b8e",
+   "title": "Tischlerarbeiten - Innentüren DIN 18355",
+   "description": "- 18 St. Innentüren mit Stahlumfassungszarge und Volltürblatt mit beidseitiger HPL-Beschichtung, Einbau in Trockenbauwand d= 12,5 cm, oder Brettsperrholzwand mit Vorsatzschale d= 18,5 cm, oder in Stahlbetonwand d= 20 cm, einflügelig\n- 34 St. Innentüren mit Stahl-Blockzarge, Volltürblatt mit beidseitiger HPL-Beschichtung, einflügelig und zweiflügelig\n- 3 St. Innentüren mit Stahl-Laibungszarge, Volltürblatt mit einseitiger HPL-Beschichtung und bauseitiger Akustik-Verkleidung, einflügelig, Tür mit Muschelgriff\nInnentüren teilweise mit erhöhter Schallschutzanforderung und mit Brandschutzanforderung, Türen einschließlich Drückergarnitur aus Edelstahl und Fingerquetschschutz\n- 2 St. Fensterelemente mit Festverglasung\n- 4 St. Fensterbänder mit Holz-Stockzargen aus Fichte, Festverglasung, F30 und Holz-Laibungsblende\n- 3 St. Fensterbänder mit Stahl-Blockzargen, Stahl-Laibungsblende und Festverglasung",
+   "procuringEntity": {
+    "name": "Stadt Rosenheim",
+    "id": "09163000-STARO1-29"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45421100",
+      "description": "Installation of doors and windows and related components"
+     },
+     "deliveryAddress": {
+      "locality": "Rosenheim",
+      "region": "DE213",
+      "postalCode": "83026",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-01T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Schreinerei Lagler",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Schreinerei Lagler"
+     },
+     "address": {
+      "streetAddress": "Riedstr. 16a",
+      "locality": "Flintsbach",
+      "region": "DE21K",
+      "postalCode": "83126",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Tischlerarbeiten - Innentüren DIN 18355",
+     "description": "- 18 St. Innentüren mit Stahlumfassungszarge und Volltürblatt mit beidseitiger HPL-Beschichtung, Einbau in Trockenbauwand d= 12,5 cm, oder Brettsperrholzwand mit Vorsatzschale d= 18,5 cm, oder in Stahlbetonwand d= 20 cm, einflügelig\n- 34 St. Innentüren mit Stahl-Blockzarge, Volltürblatt mit beidseitiger HPL-Beschichtung, einflügelig und zweiflügelig\n- 3 St. Innentüren mit Stahl-Laibungszarge, Volltürblatt mit einseitiger HPL-Beschichtung und bauseitiger Akustik-Verkleidung, einflügelig, Tür mit Muschelgriff\nInnentüren teilweise mit erhöhter Schallschutzanforderung und mit Brandschutzanforderung, Türen einschließlich Drückergarnitur aus Edelstahl und Fingerquetschschutz\n- 2 St. Fensterelemente mit Festverglasung\n- 4 St. Fensterbänder mit Holz-Stockzargen aus Fichte, Festverglasung, F30 und Holz-Laibungsblende\n- 3 St. Fensterbänder mit Stahl-Blockzargen, Stahl-Laibungsblende und Festverglasung",
+     "contractPeriod": {
+      "startDate": "2027-01-11T00:00:00+01:00",
+      "endDate": "2027-05-21T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Tischlerarbeiten - Innentüren DIN 18355",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Schreinerei Lagler",
+      "id": "DE131085659",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Schreinerei Lagler"
+      },
+      "address": {
+       "streetAddress": "Riedstr. 16a",
+       "locality": "Flintsbach",
+       "region": "DE21K",
+       "postalCode": "83126",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Tischlerarbeiten - Innentüren DIN 18355",
+    "status": "active",
+    "value": {
+     "amount": 172123,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "7009b241-ffbb-4a69-9442-d03e0f0a75c5",
+  "version": "01",
+  "title": "Tischlerarbeiten - Innentüren DIN 18355",
+  "nuts": [
+   "DE213"
+  ],
+  "cpv": [
+   "45421100"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Tischlerarbeiten - Innentüren DIN 18355",
+    "cpv": [
+     "45421100"
+    ],
+    "nuts": [
+     "DE213"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-01-11+01:00",
+    "plannedEnd": "2027-05-21+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

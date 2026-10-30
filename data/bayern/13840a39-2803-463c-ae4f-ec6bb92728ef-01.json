@@ -1,0 +1,253 @@
+{
+ "id": "13840a39-2803-463c-ae4f-ec6bb92728ef-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "13840a39-2803-463c-ae4f-ec6bb92728ef",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=13840a39-2803-463c-ae4f-ec6bb92728ef",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:13840a39-2803-463c-ae4f-ec6bb92728ef-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/13840a39-2803-463c-ae4f-ec6bb92728ef?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "LV 611.2 Einrichtung Möblierung",
+  "buyer": "Landratsamt Fürstenfeldbruck ",
+  "cpv": [
+   "39100000",
+   "39120000",
+   "39130000",
+   "39134000",
+   "39153100",
+   "39160000"
+  ],
+  "nuts": [
+   "DE21C"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-aeb79dac-61f8-43fb-9324-609598e2e928",
+  "id": "13840a39-2803-463c-ae4f-ec6bb92728ef",
+  "date": "2026-10-28T03:26:18Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Fürstenfeldbruck ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9011792-62",
+     "legalName": "Landratsamt Fürstenfeldbruck "
+    },
+    "address": {
+     "streetAddress": "Münchner Straße 32",
+     "locality": "Fürstenfeldbruck",
+     "region": "DE21C",
+     "postalCode": "82256",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "payer"
+    ]
+   },
+   {
+    "name": "ASS-Einrichtungssysteme GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE218715721",
+     "legalName": "ASS-Einrichtungssysteme GmbH"
+    },
+    "address": {
+     "streetAddress": "ASS-Adam-Stegner-Str. 19",
+     "locality": "Stockheim",
+     "region": "DE24A",
+     "postalCode": "96342",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Fürstenfeldbruck ",
+   "id": "09-9011792-62",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Fürstenfeldbruck "
+   },
+   "address": {
+    "streetAddress": "Münchner Straße 32",
+    "locality": "Fürstenfeldbruck",
+    "region": "DE21C",
+    "postalCode": "82256",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "aeb79dac-61f8-43fb-9324-609598e2e928",
+   "title": "LV 611.2 Einrichtung Möblierung",
+   "description": "162 Stk.            Schülerstühle Sitz-Lehnenschale \n51 Stk.               Computertische zweisitzig\n94 Stk.              Mehrzwecktische zweisitzig\n3 Stk.                Höhenverstellbare Tische ca. 70x70cm\n15 Stk.              Tisch rund, teilw. höhenverstellbar\n51 Stk.               Schränke zweiflügelig \n9 Stk.                Garderobenschränke\n8 Stk.                Bücherregal Holz doppelseitig\n11 Stk.              Bücherregal Holz einseitig\n1 Stk.                Konferenztisch oval für bis zu 10 Personen\n130 St.              Freischwingstühle\n13 St.               Postfachschränke \n10 St.               Bankelemente gebogen mit Lehne\n16 St.               Bürodrehstühle\n\n",
+   "procuringEntity": {
+    "name": "Landratsamt Fürstenfeldbruck ",
+    "id": "09-9011792-62"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "39100000",
+      "description": "Furniture"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "39120000",
+       "description": "Tables, cupboards, desk and bookcases"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39130000",
+       "description": "Office furniture"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39134000",
+       "description": "Computer furniture"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39153100",
+       "description": "Bookstands"
+      },
+      {
+       "scheme": "CPV",
+       "id": "39160000",
+       "description": "School furniture"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Gymnasium Gröbenzell"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Wildmoosstr. 34",
+      "locality": "Gröbenzell",
+      "region": "DE21C",
+      "postalCode": "82194",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "procurementMethodRationale": "Verkürzung der Mindestfrist für den Eingang von Angeboten durch Veröffentlichung einer Vorinformation.",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "ASS-Einrichtungssysteme GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "ASS-Einrichtungssysteme GmbH"
+     },
+     "address": {
+      "streetAddress": "ASS-Adam-Stegner-Str. 19",
+      "locality": "Stockheim",
+      "region": "DE24A",
+      "postalCode": "96342",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "LV 611.2 Einrichtung Möblierung",
+     "description": "162 Stk.            Schülerstühle Sitz-Lehnenschale \n51 Stk.               Computertische zweisitzig\n94 Stk.              Mehrzwecktische zweisitzig\n3 Stk.                Höhenverstellbare Tische ca. 70x70cm\n15 Stk.              Tisch rund, teilw. höhenverstellbar\n51 Stk.               Schränke zweiflügelig \n9 Stk.                Garderobenschränke\n8 Stk.                Bücherregal Holz doppelseitig\n11 Stk.              Bücherregal Holz einseitig\n1 Stk.                Konferenztisch oval für bis zu 10 Personen\n130 St.              Freischwingstühle\n13 St.               Postfachschränke  \n10 St.               Bankelemente gebogen mit Lehne\n16 St.               Bürodrehstühle\n\n\n",
+     "contractPeriod": {
+      "startDate": "2026-12-07T00:00:00+01:00",
+      "endDate": "2026-12-11T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "LV 611.2 Einrichtung Möblierung",
+    "status": "active",
+    "date": "2026-09-18T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "ASS-Einrichtungssysteme GmbH",
+      "id": "DE218715721",
+      "identifier": {
+       "id": "ORG-0003",
+       "legalName": "ASS-Einrichtungssysteme GmbH"
+      },
+      "address": {
+       "streetAddress": "ASS-Adam-Stegner-Str. 19",
+       "locality": "Stockheim",
+       "region": "DE24A",
+       "postalCode": "96342",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "LV 611.2 Einrichtung Möblierung",
+    "status": "active",
+    "value": {
+     "amount": 1,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-09-17T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

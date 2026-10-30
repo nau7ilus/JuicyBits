@@ -1,0 +1,222 @@
+{
+ "id": "0dba9eb1-6a43-4eae-9a74-a98b80fb3df9-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "0dba9eb1-6a43-4eae-9a74-a98b80fb3df9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=0dba9eb1-6a43-4eae-9a74-a98b80fb3df9",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:0dba9eb1-6a43-4eae-9a74-a98b80fb3df9-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:0dba9eb1-6a43-4eae-9a74-a98b80fb3df9-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/0dba9eb1-6a43-4eae-9a74-a98b80fb3df9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [],
+  "noticeType": "ContractAwardNotice",
+  "title": "GS 5830 Obertraubling–Passau (km 53,845 - km 109,010) BA 2-OLA Los 1 und BA 2-OLA Los 2",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45234160"
+  ],
+  "nuts": [
+   "DE712",
+   "DE224"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-9c65d524-3570-4ea3-bd09-288eef4e389c",
+  "id": "0dba9eb1-6a43-4eae-9a74-a98b80fb3df9",
+  "date": "2026-10-29T03:22:41Z",
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "EUROPTEN Deutschland GmbH",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "a93ed4ae-82e4-4d13-9539-31254dcb6eda",
+     "legalName": "EUROPTEN Deutschland GmbH"
+    },
+    "address": {
+     "locality": "Berlin",
+     "region": "DE300",
+     "postalCode": "12681",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "9c65d524-3570-4ea3-bd09-288eef4e389c",
+   "title": "GS 5830 Obertraubling–Passau (km 53,845 - km 109,010) BA 2-OLA Los 1 und BA 2-OLA Los 2",
+   "description": "GS 5830 Obertraubling–Passau (km 53,845 - km 109,010) BA 2-OLA Los 1 und BA 2-OLA Los 2",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234160",
+      "description": "Catenary's construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Plattling",
+      "region": "DE224",
+      "postalCode": "94447",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2025-08-14T00:00:00+01:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "EUROPTEN Deutschland GmbH",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "EUROPTEN Deutschland GmbH"
+     },
+     "address": {
+      "locality": "Berlin",
+      "region": "DE300",
+      "postalCode": "12681",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "GS 5830 Obertraubling–Passau (km 53,845 - km 109,010) BA 2-OLA Los 2 - OLA Neubau ÜST Rinkam (km 81,6) und ÜST Sengkofen (km 99,1)",
+     "description": "GS 5830 Obertraubling–Passau (km 53,845 - km 109,010) BA 2-OLA Los 2 - OLA Neubau ÜST Rinkam (km 81,6) und ÜST Sengkofen (km 99,1)",
+     "contractPeriod": {
+      "startDate": "2025-08-28T00:00:00+02:00",
+      "endDate": "2027-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "date": "2025-08-14T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "value": {
+     "amount": 0,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2025-08-13T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "39",
+  "noticeId": "0dba9eb1-6a43-4eae-9a74-a98b80fb3df9",
+  "version": "01",
+  "title": "GS 5830 Obertraubling–Passau (km 53,845 - km 109,010) BA 2-OLA Los 1 und BA 2-OLA Los 2",
+  "nuts": [
+   "DE224"
+  ],
+  "cpv": [
+   "45234160"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "GS 5830 Obertraubling–Passau (km 53,845 - km 109,010) BA 2-OLA Los 2 - OLA Neubau ÜST Rinkam (km 81,6) und ÜST Sengkofen (km 99,1)",
+    "cpv": [
+     "45234160"
+    ],
+    "nuts": [
+     "DE224"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2025-08-28+02:00",
+    "plannedEnd": "2027-12-31+01:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

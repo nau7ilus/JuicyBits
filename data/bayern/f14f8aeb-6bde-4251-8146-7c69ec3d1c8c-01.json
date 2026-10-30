@@ -1,0 +1,257 @@
+{
+ "id": "f14f8aeb-6bde-4251-8146-7c69ec3d1c8c-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "f14f8aeb-6bde-4251-8146-7c69ec3d1c8c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f14f8aeb-6bde-4251-8146-7c69ec3d1c8c",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:f14f8aeb-6bde-4251-8146-7c69ec3d1c8c-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f14f8aeb-6bde-4251-8146-7c69ec3d1c8c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Seniorenwohnen Am Gern Farchant",
+  "buyer": "Gemeinde Farchant",
+  "cpv": [
+   "45324000",
+   "45323000",
+   "45421146"
+  ],
+  "nuts": [
+   "DE21D"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-69ee11aa-c340-4a0b-b15a-34bf4a9143b8",
+  "id": "f14f8aeb-6bde-4251-8146-7c69ec3d1c8c",
+  "date": "2026-10-28T03:26:19Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Farchant",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 90134055",
+     "legalName": "Gemeinde Farchant"
+    },
+    "address": {
+     "streetAddress": "Am Gern 1",
+     "locality": "Farchant",
+     "region": "DE21D",
+     "postalCode": "82490",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "KMP Projektsteuerung GmbH",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "HRB 116716",
+     "legalName": "KMP Projektsteuerung GmbH"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81673",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Süd Ausbau GmbH",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE456329208",
+     "legalName": "Süd Ausbau GmbH"
+    },
+    "address": {
+     "streetAddress": "Heiterwanger Straße 64",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81373",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Farchant",
+   "id": "Berichtseinheit-ID 90134055",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Farchant"
+   },
+   "address": {
+    "streetAddress": "Am Gern 1",
+    "locality": "Farchant",
+    "region": "DE21D",
+    "postalCode": "82490",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "69ee11aa-c340-4a0b-b15a-34bf4a9143b8",
+   "title": "Seniorenwohnen Am Gern Farchant",
+   "description": "Kernmengen:\n- Dachbekleidung (Satteldach): ca. 620 m²\n- Abgehängte Decken: ca. 150 m²\n- Trockenbauwände: ca. 1.000 m²\n- Vorsatzschalen/Schachtwände: ca. 500 m²\n- Schiebetürzargen: 4 Stück",
+   "procuringEntity": {
+    "name": "Gemeinde Farchant",
+    "id": "Berichtseinheit-ID 90134055"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45324000",
+      "description": "Plasterboard works"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45323000",
+       "description": "Sound insulation work"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45421146",
+       "description": "Installation of suspended ceilings"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Am Gern 2 und 4",
+      "locality": "Farchant",
+      "region": "DE21D",
+      "postalCode": "82490",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "value": {
+    "amount": 309000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-09T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Süd Ausbau GmbH",
+     "identifier": {
+      "id": "ORG-0004",
+      "legalName": "Süd Ausbau GmbH"
+     },
+     "address": {
+      "streetAddress": "Heiterwanger Straße 64",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81373",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Trockenbauarbeiten",
+     "description": "Kernmengen:\n- Dachbekleidung (Satteldach): ca. 620 m²\n- Abgehängte Decken: ca. 150 m²\n- Trockenbauwände: ca. 1.000 m²\n- Vorsatzschalen/Schachtwände: ca. 500 m²\n- Schiebetürzargen: 4 Stück",
+     "value": {
+      "amount": 309000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2026-10-26T00:00:00+01:00",
+      "endDate": "2027-07-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "title": "Trockenbauarbeiten",
+    "status": "active",
+    "date": "2026-10-20T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Süd Ausbau GmbH",
+      "id": "DE456329208",
+      "identifier": {
+       "id": "ORG-0004",
+       "legalName": "Süd Ausbau GmbH"
+      },
+      "address": {
+       "streetAddress": "Heiterwanger Straße 64",
+       "locality": "München",
+       "region": "DE212",
+       "postalCode": "81373",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Trockenbauarbeiten",
+    "status": "active",
+    "value": {
+     "amount": 261755,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-19T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

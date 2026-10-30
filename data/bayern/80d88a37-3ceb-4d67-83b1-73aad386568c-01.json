@@ -1,0 +1,187 @@
+{
+ "id": "80d88a37-3ceb-4d67-83b1-73aad386568c-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "80d88a37-3ceb-4d67-83b1-73aad386568c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=80d88a37-3ceb-4d67-83b1-73aad386568c",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:80d88a37-3ceb-4d67-83b1-73aad386568c-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/80d88a37-3ceb-4d67-83b1-73aad386568c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Kauf von neun Leichtmüllfahrzeugen (batterie-elektrisch)",
+  "buyer": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+  "cpv": [
+   "34100000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 2
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-93336e9b-5194-4a06-b852-3d84d5bb54fb",
+  "id": "80d88a37-3ceb-4d67-83b1-73aad386568c",
+  "date": "2026-10-28T03:22:38Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09162000-ZRE1000000-09",
+     "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1"
+    },
+    "address": {
+     "streetAddress": "Balanstraße 59",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81541",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern, Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID DE 811 335 517",
+     "legalName": "Regierung von Oberbayern, Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+   "id": "09162000-ZRE1000000-09",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1"
+   },
+   "address": {
+    "streetAddress": "Balanstraße 59",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81541",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "93336e9b-5194-4a06-b852-3d84d5bb54fb",
+   "title": "Kauf von neun Leichtmüllfahrzeugen (batterie-elektrisch)",
+   "description": "Kauf von neun Leichtmüllfahrzeugen (batterie-elektrisch)",
+   "procuringEntity": {
+    "name": "Landeshauptstadt München, Direktorium, Vergabestelle 1, SG 1",
+    "id": "09162000-ZRE1000000-09"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81379",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34100000",
+      "description": "Motor vehicles"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81379",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a167992d39-152ec9566ac5dcdc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://vergabe.muenchen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a167992d39-152ec9566ac5dcdc",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "coveredBy": [
+      "EU-CVD"
+     ],
+     "id": "LOT-0001",
+     "title": "Neun Elektro-Kleintransporter (batterie-elektrisch)",
+     "description": "Kleintransporter-Fahrgestell mit Elektro-Antrieb\n- geeignet für einen Leichtmüll-Aufbau (inkl. Kipper) gemäß Los 2\n- Radstand: 2.900 - 3.300 mm\n- Länge: max. 5.400 mm\n- zulässiges Gesamtgewicht max. 3.500 kg\n\nDie vollständige Produktbeschreibung ist der detaillierten Leistungsbeschreibung zu entnehmen.",
+     "contractPeriod": {
+      "durationInDays": 175
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "eu-cvd-contract-type",
+       "id": "veh-acq",
+       "description": "Vehicle purchase, lease or rent"
+      }
+     ]
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Neun Leichtmüllaufbauten",
+     "description": "Leichtmüllaufbau\n- geeignet zur Aufnahme von Kehricht bzw. Leichtmüll\n- geeignet zum Aufbau an das Fahrgestell gemäß Los 1\n- Behältervolumen: mind. 4 m³\n- geschlossener Bauweise\n- heckseitig kippbar\n- Geschlossener, rechteckiger Kofferaufbau in Leichtbauweise\n- Ausführung als hydraulischer Kipperaufbau zur rückstandsfreien Schüttgut-Entleerung\n- inkl. Leuchtbalken und Rundumkennleuchte\n- Rückfahrkamera\n\nDie vollständige Produktbeschreibung ist der detaillierten Leistungsbeschreibung zu entnehmen.",
+     "contractPeriod": {
+      "durationInDays": 350
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 2,
+    "maximumLotsAwardedPerSupplier": 2
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

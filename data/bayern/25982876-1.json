@@ -1,0 +1,141 @@
+{
+ "id": "25982876-1",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "25982876",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25982876",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:25982876-1.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:25982876-1.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25982876?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Neubau Kindertagesstätte Kammersdorf -  Heizung Lüftung Sanitär",
+  "buyer": "Gemeinde Geiersthal",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": "2026-07-30T11:00:00+02:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25982876",
+  "id": "25982876",
+  "date": "2026-10-29T07:01:11Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Gemeinde Geiersthal",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Gemeinde Geiersthal"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Gemeinde Geiersthal",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Gemeinde Geiersthal"
+   }
+  },
+  "tender": {
+   "title": "Neubau Kindertagesstätte Kammersdorf -  Heizung Lüftung Sanitär",
+   "description": "Heizungs- und Wärmeversorgungsanlagen, Kälte-, Klima- und Raumlufttechnische Anlagen, Fertignasszellen Sanitär",
+   "procuringEntity": {
+    "name": "Gemeinde Geiersthal"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "94244 Geiersthal",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Neubau Kindertagesstätte Kammersdorf -  Heizung Lüftung Sanitär",
+     "description": "Heizungs- und Wärmeversorgungsanlagen, Kälte-, Klima- und Raumlufttechnische Anlagen, Fertignasszellen Sanitär"
+    }
+   ]
+  }
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": null,
+  "noticeId": "25982876",
+  "version": "1",
+  "title": "Neubau Kindertagesstätte Kammersdorf -  Heizung Lüftung Sanitär",
+  "nuts": [
+   "DE2"
+  ],
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Neubau Kindertagesstätte Kammersdorf -  Heizung Lüftung Sanitär",
+    "cpv": [
+     "45",
+     "43",
+     "44",
+     "71"
+    ],
+    "nuts": [
+     "DE2"
+    ],
+    "deadline": "2026-07-30T11:00:00+02:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

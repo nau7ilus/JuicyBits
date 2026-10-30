@@ -1,0 +1,144 @@
+{
+ "id": "c0faccc4-5f00-4786-af49-c8f148ed1069-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "c0faccc4-5f00-4786-af49-c8f148ed1069",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c0faccc4-5f00-4786-af49-c8f148ed1069",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:c0faccc4-5f00-4786-af49-c8f148ed1069-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/c0faccc4-5f00-4786-af49-c8f148ed1069?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113",
+  "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+  "cpv": [
+   "45234116"
+  ],
+  "nuts": [
+   "DE712",
+   "DE227"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-0d820421-3feb-4579-b2ee-5bc79d999e11",
+  "id": "c0faccc4-5f00-4786-af49-c8f148ed1069",
+  "date": "2026-10-28T03:22:35Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "fb197f94-7578-4673-8a57-4642ae120532",
+     "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+    },
+    "address": {
+     "streetAddress": "Adam-Riese-Straße 11-13",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60327",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "id": "fb197f94-7578-4673-8a57-4642ae120532",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)"
+   },
+   "address": {
+    "streetAddress": "Adam-Riese-Straße 11-13",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60327",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "0d820421-3feb-4579-b2ee-5bc79d999e11",
+   "title": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113",
+   "description": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113;Strecke: 5800 Schwandorf - Furth im Wald\nStrecke: 5801 DB-Grenze - Furth im Wald\nkm 66,6 (Str. 5800) – km 190,5 (Str. 5801)",
+   "procuringEntity": {
+    "name": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "id": "fb197f94-7578-4673-8a57-4642ae120532"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45234116",
+      "description": "Track construction works"
+     },
+     "deliveryAddress": {
+      "locality": "Furth",
+      "region": "DE227",
+      "postalCode": "84095",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113",
+     "description": "GE Bf Furth im Wald Gleis 4, 5, 6, 7, 8, 111, 112, 113;Strecke: 5800 Schwandorf - Furth im Wald\nStrecke: 5801 DB-Grenze - Furth im Wald\nkm 66,6 (Str. 5800) – km 190,5 (Str. 5801)",
+     "contractPeriod": {
+      "startDate": "2027-06-08T00:00:00+02:00",
+      "endDate": "2028-04-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

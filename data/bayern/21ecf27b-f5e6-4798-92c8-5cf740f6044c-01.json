@@ -1,0 +1,432 @@
+{
+ "id": "21ecf27b-f5e6-4798-92c8-5cf740f6044c-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "21ecf27b-f5e6-4798-92c8-5cf740f6044c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=21ecf27b-f5e6-4798-92c8-5cf740f6044c",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:21ecf27b-f5e6-4798-92c8-5cf740f6044c-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:21ecf27b-f5e6-4798-92c8-5cf740f6044c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/21ecf27b-f5e6-4798-92c8-5cf740f6044c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Gebäudereinigung",
+  "buyer": "AVA Abfallverwertung Augsburg Kommunalunternehmen",
+  "cpv": [
+   "90911200",
+   "90911300",
+   "98312000"
+  ],
+  "nuts": [
+   "DE271"
+  ],
+  "deadline": "2026-11-02T12:00:00+01:00",
+  "lots": 5
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-3a2c90dc-7237-4b9b-978d-ca1f589928ee",
+  "id": "21ecf27b-f5e6-4798-92c8-5cf740f6044c",
+  "date": "2026-10-29T03:22:30Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "AVA Abfallverwertung Augsburg Kommunalunternehmen",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "Berichtseinheit-ID 00009000",
+     "legalName": "AVA Abfallverwertung Augsburg Kommunalunternehmen"
+    },
+    "address": {
+     "streetAddress": "Am Mittleren Moos 60",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86167",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "AVA Abfallverwertung Augsburg Kommunalunternehmen",
+   "id": "Berichtseinheit-ID 00009000",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "AVA Abfallverwertung Augsburg Kommunalunternehmen"
+   },
+   "address": {
+    "streetAddress": "Am Mittleren Moos 60",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86167",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "3a2c90dc-7237-4b9b-978d-ca1f589928ee",
+   "title": "Gebäudereinigung",
+   "description": "Unterhaltsreinigung , Industriegebäude ,Glasreinigung , Industrieanlagenreinigung , Service Schmutzfangmatten für die Abfallverwertung Augsburg",
+   "procuringEntity": {
+    "name": "AVA Abfallverwertung Augsburg Kommunalunternehmen",
+    "id": "Berichtseinheit-ID 00009000"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911300",
+      "description": "Window-cleaning services"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90911200",
+      "description": "Building-cleaning services"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "98312000",
+      "description": "Textile-cleaning services"
+     },
+     "deliveryAddress": {
+      "region": "DE271",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.subreport.de/E31634954",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.subreport.de/E31634954",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.subreport.de/E31634954",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://www.subreport.de/E31634954",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://www.subreport.de/E31634954",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Unterhaltsreinigung",
+     "description": "Unterhaltsreinigung Verwaltungsgebäude"
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Unterhaltsreinigung",
+     "description": "Unterhaltsreinigung Industriegebäude"
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Glasreinigung",
+     "description": "Glasreinigung"
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Industrieanlagenreinigung",
+     "description": "Industrieanlagenreinigung"
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Schmutzfangmattenservice",
+     "description": "Schmutzfangmattenservice"
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 5
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "21ecf27b-f5e6-4798-92c8-5cf740f6044c",
+  "version": "01",
+  "title": "Gebäudereinigung",
+  "nuts": [
+   "DE271"
+  ],
+  "cpv": [
+   "90911200",
+   "90911300",
+   "98312000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Unterhaltsreinigung",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-30T14:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Der Bieter erklärt den Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Mindestanforderungen: Der gemittelte Umsatz der letzten drei abgeschlossenen Geschäftsjahre für vergleichbare Leistungen muss mindestens 500.000 EUR betragen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage einer Referenzliste mit den wesentlichen in den letzten drei Jahren erbrachten vergleichbaren Leistungen mit Angabe des Auftragsvolumens (€/a), des Erbringungszeitpunkts und des Auftraggebers. \nMindestanforderungen: \n-\tEs müssen 3 Referenzen benannt werden, davon mindestens zwei Referenzen bei denen der Auftrag die Reinigung von Gebäuden an mehreren Standorten in vergleichbarer Größenordnung (min. 10.000 m² Bodenfläche in Bezug auf Gesamtauftrag) betrifft. \n-\tMindestens einer der genannten Referenzaufträge soll ein Auftragsvolumen pro Jahr von über 150.000 EUR gehabt haben.\n-\tAusführungsende des jeweiligen Referenzauftrages darf bei Ablauf der Frist für die Einreichung der Teilnahmeanträge nicht länger als 36 Monate zurückliegen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "durchschnittliche jährliche Beschäftigtenzahl und Anzahl der Führungskräfte in den letzten drei Jahren"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
+     }
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Unterhaltsreinigung",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-02T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Der Bieter erklärt den Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Mindestanforderungen: Der gemittelte Umsatz der letzten drei abgeschlossenen Geschäftsjahre für vergleichbare Leistungen muss mindestens 500.000 EUR betragen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage einer Referenzliste mit den wesentlichen in den letzten drei Jahren erbrachten vergleichbaren Leistungen mit Angabe des Auftragsvolumens (€/a), des Erbringungszeitpunkts und des Auftraggebers. \nMindestanforderungen: \n-\tEs müssen 3 Referenzen benannt werden, davon mindestens zwei Referenzen bei denen der Auftrag die Reinigung von Gebäuden an mehreren Standorten in vergleichbarer Größenordnung (min. 10.000 m² Bodenfläche in Bezug auf Gesamtauftrag) betrifft. \n-\tMindestens einer der genannten Referenzaufträge soll ein Auftragsvolumen pro Jahr von über 150.000 EUR gehabt haben.\n-\tAusführungsende des jeweiligen Referenzauftrages darf bei Ablauf der Frist für die Einreichung der Teilnahmeanträge nicht länger als 36 Monate zurückliegen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "durchschnittliche jährliche Beschäftigtenzahl und Anzahl der Führungskräfte in den letzten drei Jahren"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
+     }
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Glasreinigung",
+    "cpv": [
+     "90911300"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-02T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Der Bieter erklärt den Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Mindestanforderungen: Mindestanforderungen: Der gemittelte Umsatz der letzten drei abgeschlossenen Geschäftsjahre für vergleichbare Leistungen muss mindestens 100.000 EUR betragen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage einer Referenzliste mit den wesentlichen in den letzten drei Jahren erbrachten vergleichbaren Leistungen mit Angabe des Auftragsvolumens (€/a), des Erbringungszeitpunkts und des Auftraggebers. \nMindestanforderungen: \n-\tEs müssen 3 Referenzen benannt werden, davon mindestens zwei Referenzen bei denen der Auftrag die Reinigung von Gebäuden an mehreren Standorten in vergleichbarer Größenordnung (min. 10.000 m² Glasfläche in Bezug auf Gesamtauftrag) betrifft. \n-\tMindestens einer der genannten Referenzaufträge soll ein Auftragsvolumen pro Jahr von über 80.000 EUR gehabt haben.\n-\tAusführungsende des jeweiligen Referenzauftrages darf bei Ablauf der Frist für die Einreichung der Teilnahmeanträge nicht länger als 36 Monate zurückliegen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "durchschnittliche jährliche Beschäftigtenzahl und Anzahl der Führungskräfte in den letzten drei Jahren"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
+     }
+    ]
+   },
+   {
+    "id": "LOT-0004",
+    "title": "Industrieanlagenreinigung",
+    "cpv": [
+     "90911200"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-02T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Der Bieter erklärt den Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Mindestanforderungen: Mindestanforderungen: Der gemittelte Umsatz der letzten drei abgeschlossenen Geschäftsjahre für vergleichbare Leistungen muss mindestens 1.000.000 EUR betragen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage einer Referenzliste mit den wesentlichen in den letzten drei Jahren erbrachten vergleichbaren Leistungen mit Angabe des Auftragsvolumens (€/a), des Erbringungszeitpunkts und des Auftraggebers. \nMindestanforderungen: \n-\tEs müssen 3 Referenzen benannt werden, davon mindestens zwei Referenzen bei denen der Auftrag die Reinigung von Objekten und Anlagen an mehreren Standorten in vergleichbarer Größenordnung betrifft. \n-\tMindestens einer der genannten Referenzaufträge soll ein Auftragsvolumen pro Jahr von über 400.000 EUR gehabt haben.\n-\tAusführungsende des jeweiligen Referenzauftrages darf bei Ablauf der Frist für die Einreichung der Teilnahmeanträge nicht länger als 36 Monate zurückliegen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "durchschnittliche jährliche Beschäftigtenzahl und Anzahl der Führungskräfte in den letzten drei Jahren"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
+     }
+    ]
+   },
+   {
+    "id": "LOT-0005",
+    "title": "Schmutzfangmattenservice",
+    "cpv": [
+     "98312000"
+    ],
+    "nuts": [
+     "DE271"
+    ],
+    "deadline": "2026-11-02T12:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-avg",
+      "description": "Der Bieter erklärt den Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind, unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen. Mindestanforderungen: Mindestanforderungen: Der gemittelte Umsatz der letzten drei abgeschlossenen Geschäftsjahre für vergleichbare Leistungen muss mindestens 50.000 EUR betragen."
+     },
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Vorlage einer Referenzliste mit den wesentlichen in den letzten drei Jahren erbrachten vergleichbaren Leistungen mit Angabe des Auftragsvolumens (€/a), des Erbringungszeitpunkts und des Auftraggebers. \nMindestanforderungen: \n-\tEs müssen 3 Referenzen benannt werden, davon mindestens zwei Referenzen bei denen der Auftrag die Lieferung des Services an mehreren Standorten in vergleichbarer Größenordnung betrifft. \n-\tMindestens einer der genannten Referenzaufträge soll ein Auftragsvolumen pro Jahr von über 30.000 EUR gehabt haben.\n-\tAusführungsende des jeweiligen Referenzauftrages darf bei Ablauf der Frist für die Einreichung der Teilnahmeanträge nicht länger als 36 Monate zurückliegen."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "durchschnittliche jährliche Beschäftigtenzahl und Anzahl der Führungskräfte in den letzten drei Jahren"
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Nachweis einer aktuell gültigen Betriebshaftpflichtversicherung inkl. Schlüsselverlustversi-cherung.\n\nFolgende Mindestsummen müssen im Auftragsfall abgedeckt sein:\n\n•\t2,0 Mio. Euro für Personenschäden\n•\t2,0 Mio. Euro für Sach- und Vermögensschäden\n•\t200.000,00 Euro für den Verlust von Schlüsseln und Codekarten von Schließanlagen"
+     }
+    ]
+   }
+  ]
+ }
+}

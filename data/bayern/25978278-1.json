@@ -1,0 +1,95 @@
+{
+ "id": "25978278-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25978278",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25978278",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25978278-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25978278?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Errichtung Steinschlag- und Lawinenschutznetze in alpinem Steilgelände",
+  "buyer": "Markt Oberstdorf",
+  "cpv": [
+   "45262210-6 45112000-5"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25978278",
+  "id": "25978278",
+  "date": "2026-10-28T07:00:39Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Markt Oberstdorf",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "Markt Oberstdorf"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Markt Oberstdorf",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Markt Oberstdorf"
+   }
+  },
+  "tender": {
+   "title": "Errichtung Steinschlag- und Lawinenschutznetze in alpinem Steilgelände",
+   "description": "Spezialtiefbau, Press- Ramm- und Verbauarbeiten, Schlosser, Stahlbauarbeiten, Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten, Erdbauarbeiten",
+   "procuringEntity": {
+    "name": "Markt Oberstdorf"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262210-6 45112000-5"
+     },
+     "deliveryAddress": {
+      "locality": "87561 Oberstdorf",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/AV28A1D0-A",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Errichtung Steinschlag- und Lawinenschutznetze in alpinem Steilgelände",
+     "description": "Spezialtiefbau, Press- Ramm- und Verbauarbeiten, Schlosser, Stahlbauarbeiten, Hochbau-/ Maurer-/ Beton- Stahlbetonarbeiten, Erdbauarbeiten"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

@@ -1,0 +1,140 @@
+{
+ "id": "f186b3c0-d22a-4972-9578-dbb5bbcf0649-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "f186b3c0-d22a-4972-9578-dbb5bbcf0649",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f186b3c0-d22a-4972-9578-dbb5bbcf0649",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:f186b3c0-d22a-4972-9578-dbb5bbcf0649-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f186b3c0-d22a-4972-9578-dbb5bbcf0649?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+  "buyer": "Stadt Kemnath",
+  "cpv": [
+   "34139200"
+  ],
+  "nuts": [
+   "DE23A"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f186b3c0-d22a-4972-9578-dbb5bbcf0649",
+  "id": "f186b3c0-d22a-4972-9578-dbb5bbcf0649",
+  "date": "2026-10-28T03:22:45Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Kemnath",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "13754",
+     "legalName": "Stadt Kemnath"
+    },
+    "address": {
+     "streetAddress": "Stadtplatz 38",
+     "locality": "Kemnath",
+     "region": "DE23A",
+     "postalCode": "95478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken, Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "cecdcd57-b6e5-4a72-9423-5300d0b7d7c0",
+     "legalName": "Regierung von Mittelfranken, Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Kemnath",
+   "id": "13754",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Kemnath"
+   },
+   "address": {
+    "streetAddress": "Stadtplatz 38",
+    "locality": "Kemnath",
+    "region": "DE23A",
+    "postalCode": "95478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f186b3c0-d22a-4972-9578-dbb5bbcf0649",
+   "title": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+   "description": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+   "procuringEntity": {
+    "name": "Stadt Kemnath",
+    "id": "13754"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "34139200",
+      "description": "Chassis bodies"
+     },
+     "deliveryAddress": {
+      "region": "DE23A",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/f186b3c0-d22a-4972-9578-dbb5bbcf0649",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+     "description": "Lieferung eines LKW mit Abrollkipper, Ladekran und Winterdienstausstattung",
+     "contractPeriod": {
+      "durationInDays": 540
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

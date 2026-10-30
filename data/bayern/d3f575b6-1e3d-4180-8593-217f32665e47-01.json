@@ -1,0 +1,228 @@
+{
+ "id": "d3f575b6-1e3d-4180-8593-217f32665e47-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "d3f575b6-1e3d-4180-8593-217f32665e47",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d3f575b6-1e3d-4180-8593-217f32665e47",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:d3f575b6-1e3d-4180-8593-217f32665e47-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d3f575b6-1e3d-4180-8593-217f32665e47?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "RV über die Lieferung von Formblättern und Formularsätzen für die Bayer. Polizei",
+  "buyer": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+  "cpv": [
+   "22820000"
+  ],
+  "nuts": [
+   "DE244"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-789f7f8f-0c4e-4707-9204-bc37848f22f8",
+  "id": "d3f575b6-1e3d-4180-8593-217f32665e47",
+  "date": "2026-10-28T03:24:10Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "085676d6-6e27-4e44-9dc0-ee0fda4e9ef2",
+     "legalName": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)"
+    },
+    "address": {
+     "streetAddress": "Ernst-Reuter-Straße 119",
+     "locality": "Hof",
+     "region": "DE244",
+     "postalCode": "95030",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Mittelfranken - Vergabekammer Nordbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c0f12e87-76f1-4468-90ef-036d199560d7",
+     "legalName": "Regierung von Mittelfranken - Vergabekammer Nordbayern"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+   "id": "085676d6-6e27-4e44-9dc0-ee0fda4e9ef2",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)"
+   },
+   "address": {
+    "streetAddress": "Ernst-Reuter-Straße 119",
+    "locality": "Hof",
+    "region": "DE244",
+    "postalCode": "95030",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "789f7f8f-0c4e-4707-9204-bc37848f22f8",
+   "title": "RV über die Lieferung von Formblättern und Formularsätzen für die Bayer. Polizei",
+   "description": "Das Logistikzentrum der Bayerischen Polizei (LZBP) beabsichtigt, auf der Basis der gegenständlichen Vergabeunterlagen eine Rahmenvereinbarung über die Lieferung von Drucksachen für den täglichen Dienstgebrauch, überwiegend Formblätter und Formularsätze für alle Verbände der Bayerischen Polizei (Polizeipräsidien mit jeweils nachgeordneten Dienststellen sowie Sonderverbände der Bayerischen Polizei).\n\nDer zu vergebende Auftrag ist in drei Lose aufgeteilt.\n\nDie Rahmenvereinbarung beginnt frühestens ab 01.01.2027 und hat eine Laufzeit von 2 Jahren mit 2 Verlängerungsoptionen um jeweils 1 weiteres Jahr (maximal mögliche Vertragslaufzeit: 31.12.2030).\n\nAlle weiteren Informationen sind den Vergabeunterlagen zu entnehmen.\n",
+   "procuringEntity": {
+    "name": "Freistaat Bayern, vertreten durch das Logistikzentrum der Bayerischen Polizei (LZBP)",
+    "id": "085676d6-6e27-4e44-9dc0-ee0fda4e9ef2"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "22820000",
+      "description": "Forms"
+     },
+     "deliveryAddress": {
+      "locality": "Hof",
+      "region": "DE244",
+      "postalCode": "95030",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "22820000",
+      "description": "Forms"
+     },
+     "deliveryAddress": {
+      "locality": "Hof",
+      "region": "DE244",
+      "postalCode": "95030",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "22820000",
+      "description": "Forms"
+     },
+     "deliveryAddress": {
+      "locality": "Hof",
+      "region": "DE244",
+      "postalCode": "95030",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "value": {
+    "amount": 392000,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/a0b005f0-c612-4c40-9619-802a91fd2900",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/a0b005f0-c612-4c40-9619-802a91fd2900",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://www.evergabe.bayern.de/evergabe.bieter/api/supplier/external/deeplink/subproject/a0b005f0-c612-4c40-9619-802a91fd2900",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Formulare ohne Geldwert",
+     "description": "Bei den in Los 1 enthaltenen Artikel handelt es sich um bayernweite Formulare. \n",
+     "value": {
+      "amount": 236000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Verbandseigene Formulare und artverwandte Druckwaren",
+     "description": "Los 2 enthält verbandseigene Formulare und artverwandte Druckwaren. ",
+     "value": {
+      "amount": 103000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Geldwerte Formulare",
+     "description": "Die in Los 3 enthaltenen Artikel benötigen alle eine fortlaufende Nummerierung (gemäß Nummernkreis). \n",
+     "value": {
+      "amount": 53000,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2028-12-31T00:00:00+01:00"
+     }
+    }
+   ],
+   "lotDetails": {
+    "maximumLotsBidPerSupplier": 3,
+    "maximumLotsAwardedPerSupplier": 3
+   }
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

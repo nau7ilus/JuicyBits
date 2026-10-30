@@ -1,0 +1,112 @@
+{
+ "id": "25974524-1",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "25974524",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=25974524",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:25974524-1.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/25974524?format=ocds&noticeVersion=1"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Kanalsanierung 2027, Gem. Poing BA II",
+  "buyer": "gKu  VE München-Ost, Blumenstr. 1, 85586 Poing, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.gku-vemo.de",
+  "cpv": [
+   "45",
+   "43",
+   "44",
+   "71"
+  ],
+  "nuts": [
+   "DE2"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-25974524",
+  "id": "25974524",
+  "date": "2026-10-28T07:00:32Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "gKu  VE München-Ost, Blumenstr. 1, 85586 Poing, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.gku-vemo.de",
+    "id": "ORG-0001",
+    "identifier": {
+     "legalName": "gKu  VE München-Ost, Blumenstr. 1, 85586 Poing, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.gku-vemo.de"
+    },
+    "roles": [
+     "buyer"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "gKu  VE München-Ost, Blumenstr. 1, 85586 Poing, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.gku-vemo.de",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "gKu  VE München-Ost, Blumenstr. 1, 85586 Poing, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.gku-vemo.de"
+   }
+  },
+  "tender": {
+   "title": "Kanalsanierung 2027, Gem. Poing BA II",
+   "description": "Kanalsanierung 2027, Gem. Poing BA II",
+   "procuringEntity": {
+    "name": "gKu  VE München-Ost, Blumenstr. 1, 85586 Poing, Tel.: [Telefon entfernt], Fax: [Telefon entfernt], E-Mail: [E-Mail entfernt], Internet: www.gku-vemo.de"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "43"
+      },
+      {
+       "scheme": "CPV",
+       "id": "44"
+      },
+      {
+       "scheme": "CPV",
+       "id": "71"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "85586 Poing",
+      "region": "DE2",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/besuJs/BekLanding4Bund?z_param=2026-11-0441239",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Kanalsanierung 2027, Gem. Poing BA II",
+     "description": "Kanalsanierung 2027, Gem. Poing BA II"
+    }
+   ]
+  }
+ },
+ "eforms": null
+}

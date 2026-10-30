@@ -1,0 +1,226 @@
+{
+ "id": "8e9a7635-182b-4185-a15d-8c40a9896eab-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "8e9a7635-182b-4185-a15d-8c40a9896eab",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8e9a7635-182b-4185-a15d-8c40a9896eab",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:8e9a7635-182b-4185-a15d-8c40a9896eab-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:8e9a7635-182b-4185-a15d-8c40a9896eab-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8e9a7635-182b-4185-a15d-8c40a9896eab?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "SSW-IT Rahmenvereinbarung Handelspartner für Beitritt zum BMI-Konditionenvertrag MS EA",
+  "buyer": "Deutsche Rentenversicherung Schwaben, Zentrale Vergabestelle",
+  "cpv": [
+   "72260000",
+   "48620000"
+  ],
+  "nuts": [
+   "DE271",
+   "DE242",
+   "DE221",
+   "DEB38",
+   "DE712",
+   "DE122"
+  ],
+  "deadline": "2026-12-08T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1ec42642-ec10-4edf-bfc3-5fed117a7d51",
+  "id": "8e9a7635-182b-4185-a15d-8c40a9896eab",
+  "date": "2026-10-29T03:22:30Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Deutsche Rentenversicherung Schwaben, Zentrale Vergabestelle",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "992-8035421B01-95",
+     "legalName": "Deutsche Rentenversicherung Schwaben, Zentrale Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Dieselstraße 9",
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86154",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "USt-ID DE 811 335 517",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Deutsche Rentenversicherung Schwaben - Zentrale Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "992-8035421B01-95",
+     "legalName": "Deutsche Rentenversicherung Schwaben - Zentrale Vergabestelle"
+    },
+    "address": {
+     "locality": "Augsburg",
+     "region": "DE271",
+     "postalCode": "86154",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Deutsche Rentenversicherung Schwaben, Zentrale Vergabestelle",
+   "id": "992-8035421B01-95",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Deutsche Rentenversicherung Schwaben, Zentrale Vergabestelle"
+   },
+   "address": {
+    "streetAddress": "Dieselstraße 9",
+    "locality": "Augsburg",
+    "region": "DE271",
+    "postalCode": "86154",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1ec42642-ec10-4edf-bfc3-5fed117a7d51",
+   "title": "SSW-IT Rahmenvereinbarung Handelspartner für Beitritt zum BMI-Konditionenvertrag MS EA",
+   "description": "Rahmenvereinbarung zur Bestimmung eines autorisierten Microsoft Handelspartners für den Beitritt zum BMI-Konditionenvertrag Microsoft Enterprise- Agreement Konzernvertrag und dem Select Plus-Vertrag.",
+   "procuringEntity": {
+    "name": "Deutsche Rentenversicherung Schwaben, Zentrale Vergabestelle",
+    "id": "992-8035421B01-95"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72260000",
+      "description": "Software-related services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "48620000",
+       "description": "Operating systems"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Augsburg",
+      "region": "DE271",
+      "postalCode": "86154",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-rentenversicherung-bund.de/einkaufskoordination/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a13a69e276-608286d1c0658030",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "SSW-IT Rahmenvereinbarung Handelspartner für Beitritt zum BMI-Konditionenvertrag MS EA",
+     "description": "Beschaffung von Microsoft Software und Online-Diensten über einen \"Konzernbeitritt (indirekt)\" über einen von Microsoft autorisierten \"Handelspartner (Licensing Solution Partner - LSP)\" auf Basis eines \"Konzernbeitritts (indirekt)\" zu den zwischen Microsoft und der Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Inneren, abgeschlossenen \"Microsoft Business- und Service-Vertrag MBSA-Nr. U5223585\" und \"Konzernvertrag EA 5249528\" (EA-Konzernvertrag). Dabei soll auch mit dem Beitritt die Zusatzvereinbarung (N73) über das optionale Verlängerungsjahr geschlossen werden. \n\nBeschaffung von Microsoft Software über einen von Microsoft autorisierten \"Handelspartner (Licensing Solution Partner - LSP)\" auf Basis einer Registrierung zu den zwischen Microsoft und der Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Inneren, abgeschlossenen \"Microsoft Business- und Service-Vertrag MBSA-Nr. U5223585\" und Select Plus Vertrag (Nr. 7492930). Da der aktuelle Select Plus Vertrag zum 31.05.2028 ausläuft, ist auch eine Registrierung zu einem direkten Nachfolgevertrag unter dieser Rahmenvereinbarung abzuschließen.",
+     "contractPeriod": {
+      "durationInDays": 720
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "8e9a7635-182b-4185-a15d-8c40a9896eab",
+  "version": "01",
+  "title": "SSW-IT Rahmenvereinbarung Handelspartner für Beitritt zum BMI-Konditionenvertrag MS EA",
+  "nuts": [
+   "DE271",
+   "DE242",
+   "DE221",
+   "DEB38",
+   "DE712",
+   "DE122"
+  ],
+  "cpv": [
+   "72260000",
+   "48620000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "SSW-IT Rahmenvereinbarung Handelspartner für Beitritt zum BMI-Konditionenvertrag MS EA",
+    "cpv": [
+     "72260000",
+     "48620000"
+    ],
+    "nuts": [
+     "DE271",
+     "DE242",
+     "DE221",
+     "DEB38",
+     "DE712",
+     "DE122"
+    ],
+    "deadline": "2026-12-08T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-other",
+      "description": "1. Erklärung, dass ein Insolvenzverfahren oder ein vergleichbares gesetzlich geregeltes Verfahren weder beantragt noch eröffnet wurde, ein Antrag auf Eröffnung nicht mangels Masse abgelehnt wurde und sich das Unternehmen nicht in Liquidation befindet.\n\n2. Erklärung, dass das Unternehmen seine Verpflichtung zur Zahlung von Steuern und Abgaben sowie der Beiträge zur gesetzlichen Sozialversicherung, soweit sie der Pflicht zur Beitragszahlung unterfallen, ordnungsgemäß erfüllt hat. Auf gesondertes Verlangen ist innerhalb von 6 Kalendertagen eine Unbedenklichkeitsbescheinigung des Finanzamtes bzw. Bescheinigung in Steuersachen (soweit das Finanzamt derartige Bescheinigungen ausstellt) einzureichen. \n\n3. Erklärung, dass das Unternehmen Mitglied der Berufsgenossenschaft ist. Auf gesondertes Verlangen ist innerhalb von 6 Kalendertagen eine Unbedenklichkeitsbescheinigung der Berufsgenossenschaft des für das Unternehmen zuständigen Versicherungsträgers einzureichen."
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Angaben zur Eintragung in das Handelsregister mit Angabe der Registernummer und des zuständigen Amtsgerichts"
+     }
+    ]
+   }
+  ]
+ }
+}

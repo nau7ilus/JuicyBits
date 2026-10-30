@@ -1,0 +1,126 @@
+{
+ "id": "9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "planning"
+  ],
+  "noticeType": null,
+  "title": "MVV Flex",
+  "buyer": "Landratsamt Rosenheim",
+  "cpv": [
+   "60112000"
+  ],
+  "nuts": [
+   "DE213"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6",
+  "id": "9b06cdfd-6c7d-454a-93c9-04ea6b4a41c6",
+  "date": "2026-10-28T03:20:04Z",
+  "tag": [
+   "planning"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Rosenheim",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9011875-07",
+     "legalName": "Landratsamt Rosenheim"
+    },
+    "address": {
+     "streetAddress": "Wittelsbacherstr. 53",
+     "locality": "Rosenheim",
+     "region": "DE213",
+     "postalCode": "83022",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern bei der Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t:08921762411",
+     "legalName": "Vergabekammer Südbayern bei der Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstr. 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Rosenheim",
+   "id": "09-9011875-07",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Rosenheim"
+   },
+   "address": {
+    "streetAddress": "Wittelsbacherstr. 53",
+    "locality": "Rosenheim",
+    "region": "DE213",
+    "postalCode": "83022",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "title": "MVV Flex",
+   "description": "On demand Verkehr (bedarfsgesteuert) mit Kfz in den Gemeinden Bad Endorf, Bernau, Breitbrunn, Eggstätt, Frasdorf, Gstadt am Chiemsee, Höslwang, Prien am Chiemsee, Rimsting mit einer Haltestelle in Aschau i. Chiemgau",
+   "items": [
+    {
+     "id": "PAR-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "60112000",
+      "description": "Public road transport services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Wittelsbacherstr. 53",
+      "locality": "Rosenheim",
+      "region": "DE213",
+      "postalCode": "83022 Rosenheim",
+      "countryName": "DEU"
+     },
+     "relatedLot": "PAR-0001"
+    }
+   ],
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "PAR-0001",
+     "title": "MVV Flex",
+     "description": "On demand Verkehr (bedarfsgesteuert) mit Kfz in den Gemeinden Bad Endorf, Bernau, Breitbrunn, Eggstätt, Frasdorf, Gstadt am Chiemsee, Höslwang, Prien am Chiemsee, Rimsting mit einer Haltestelle in Aschau i. Chiemgau"
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

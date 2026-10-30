@@ -1,0 +1,201 @@
+{
+ "id": "f25a02c3-c822-432d-aeac-9750ba1cd3c2-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "f25a02c3-c822-432d-aeac-9750ba1cd3c2",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=f25a02c3-c822-432d-aeac-9750ba1cd3c2",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:f25a02c3-c822-432d-aeac-9750ba1cd3c2-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:f25a02c3-c822-432d-aeac-9750ba1cd3c2-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/f25a02c3-c822-432d-aeac-9750ba1cd3c2?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Aussenanlagen BA1",
+  "buyer": "IHK für Oberfranken Bayreuth",
+  "cpv": [
+   "45233250",
+   "45233222"
+  ],
+  "nuts": [
+   "DE242"
+  ],
+  "deadline": "2026-11-30T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-73c5d32a-3801-407c-9b49-bf654520784f",
+  "id": "f25a02c3-c822-432d-aeac-9750ba1cd3c2",
+  "date": "2026-10-29T03:24:07Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "IHK für Oberfranken Bayreuth",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 236 948 457",
+     "legalName": "IHK für Oberfranken Bayreuth"
+    },
+    "address": {
+     "streetAddress": "Bahnhofstraße 25",
+     "locality": "Bayreuth",
+     "region": "DE242",
+     "postalCode": "95444",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Postfach 606",
+     "locality": "Ansbach\n",
+     "region": "DE251",
+     "postalCode": "91511\n",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "mediationBody",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "IHK für Oberfranken Bayreuth",
+   "id": "DE 236 948 457",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "IHK für Oberfranken Bayreuth"
+   },
+   "address": {
+    "streetAddress": "Bahnhofstraße 25",
+    "locality": "Bayreuth",
+    "region": "DE242",
+    "postalCode": "95444",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "73c5d32a-3801-407c-9b49-bf654520784f",
+   "title": "Aussenanlagen BA1",
+   "description": "Die Industrie- und Handelskammer für Oberfranken Bayreuth beabsichtigt den Neubau einer überbetrieblichen Bildungsstätte („IHK-Campus Bayreuth“). Das neue Gebäude wird multifunktionale Anforderungen im Bereich der beruflichen Aus- und Weiterbildung (IHK Lehrbetrieb,\nIHK-Prüfbetrieb und bildungspolitische Formate) erfüllen. Das Gebäude ist als leichte Konstruktion geplant. Bis auf das Untergeschoss - dieses ist in Stahlbetonbauweise vorgesehen - wird das Gebäude aus Stahl, Holz und Glas errichtet. Die tragende Stahlkonstruktion, mit den die Säle überspannenden Stahlfachwerkträgern, ist mit Stahltrapezblechen eingedeckt. Dachaufbau mit begrüntem Flachdachaufbau und Photovoltaik. Die Außenwände werden in Holzrahmenbauweise mit Mineralfaserdämmung errichtet. Die Außenhaut wird als hinterlüftete Plattenverkleidung ausgeführt. \nEs ist geplant, dass dieses Projekt \"Neubau IHK-Campus Bayreuth\" vom Freistaat Bayern und der Europäischen Union aus dem Europäischen Fonds für regionale Entwicklung (EFRE 2021 bis 2027) gefördert wird. \nEin entsprechender Förderantrag wurde gestellt.",
+   "procuringEntity": {
+    "name": "IHK für Oberfranken Bayreuth",
+    "id": "DE 236 948 457"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45233250",
+      "description": "Surfacing work except for roads"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45233222",
+       "description": "Paving and asphalting works"
+      }
+     ],
+     "deliveryAddress": {
+      "streetAddress": "Friedrich-von-Schiller-Straße 2\n",
+      "locality": "Bayreuth\n",
+      "region": "DE242",
+      "postalCode": "95444",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28f133-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Aussenanlagen BA 1",
+     "description": " Beschreibung der Hauptleistungen mit ungefähren Mengenangaben:\n\n-\tWiederherstellen des öffentlichen Gehwegs – ca. 70 m²\n-\tPflasterbelag aus Doppel-T-Verbundsteinen – ca. 140 m²\n-\tPflasterbelag aus Betonpflastersteinen – 16/24/8 cm – ca. 150 m²\n-\tErdarbeiten, Schottertragschichten und Splittbett für Pflasterarbeiten\n-\tErgänzung des Asphalts der Fahrbahn im Zuge der Wiederherstellung des\n\töffentlichen Gehwegs, ca. 50 cm breit, ca. 35 m lang\n-\tReihenfahrradständer mit 4 Anlehnbügeln – ca. 2 Stück\n-\tReihenfahrradständer mit 3 Anlehnbügeln – ca. 2 Stück\n\nAusführungsfristen – abhängig von der Witterung / vom Winterverlauf: \nBeginn: \tca. 18.01.2027\nEnde: \tca. 26.03.2027\n\n\n",
+     "contractPeriod": {
+      "startDate": "2027-01-18T00:00:00+01:00",
+      "endDate": "2027-03-26T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "f25a02c3-c822-432d-aeac-9750ba1cd3c2",
+  "version": "01",
+  "title": "Aussenanlagen BA1",
+  "nuts": [
+   "DE242"
+  ],
+  "cpv": [
+   "45233250",
+   "45233222"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Aussenanlagen BA 1",
+    "cpv": [
+     "45233250",
+     "45233222"
+    ],
+    "nuts": [
+     "DE242"
+    ],
+    "deadline": "2026-11-30T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-18+01:00",
+    "plannedEnd": "2027-03-26+01:00",
+    "estimatedValue": null,
+    "smeSuitable": true,
+    "selectionCriteria": [
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Befähigung zur Berufsausübung einschließlich Auflagen hinsichtlich der Eintragung in einem Berufs- oder Handelsregister Beschreibung: \nDie Eignung ist durch die Eintragung in die Liste des Vereins für Präqualifikation von Unternehmen e. V. (Präqualifikationsverzeichnis) oder Eigenerklärungen gemäß Formblatt 124 (Eigenerklärung zur Eignung) aus dem Vergabehandbuch Bayern nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl sind die im Formblatt 124 angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich ein Bieter zur Erfüllung des Auftrags auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis, oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 auch für diese anderen Unternehmen auf Verlangen vorzulegen. Auf Verlangen der Vergabestelle sind für die Beurteilung der Eignung vorzulegen: - Gewerbeanmeldung, Handelsregisterauszug und Eintragung in der Handwerksrolle bzw. der Industrie- und Handelskammer oder vergleichbaren Institutionen in den Ländern der Europäischen Union,- Qualifizierte Unbedenklichkeitsbescheinigung der Berufsgenossenschaft bzw. eine gleichwertige Bescheinigung des zuständigen Versicherungsträgers mit Angabe der Lohnsummen. Bieter, die ihren Sitz nicht in der Bundesrepublik Deutschland haben, müssen Bescheinigungen des zuständigen Versicherungsträgers vorlegen,- Name und Geburtsdatum aller Geschäftsführer und Prokuristen."
+     },
+     {
+      "type": "slc-stand-other",
+      "description": "Die Eignung ist durch die Eintragung in die Liste des Vereins für Präqualifikation von Unternehmen e. V. (Präqualifikationsverzeichnis) oder Eigenerklärungen gemäß Formblatt 124 (Eigenerklärung zur Eignung) aus dem Vergabehandbuch Bayern nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, sind die im Formblatt 124 angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich ein Bieter zur Erfüllung des Auftrags auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis, oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 auch für diese anderen Unternehmen auf Verlangen vorzulegen. Auf Verlangen der Vergabestelle sind für die Beurteilung der Eignung vorzulegen: - Bestätigung über den Umsatz an Bauleistungen in den letzten 3 abgeschlossenen Geschäftsjahren,- Angabe über die Zahl der in den letzten 3 abgeschlossenen Geschäftsjahren jahresdurchschnittlich beschäftigten Arbeitskräfte, gegliedert nach Lohngruppen mit extra ausgewiesenem technischen Leitungspersonal,- Vorlage Unbedenklichkeitsbescheinigung der tariflichen Sozialkasse, eine 41087-2025 Page 4/7 \n5.1.12. 5.1.11. 5.1.10. Unbedenklichkeitsbescheinigung des Finanzamtes, sowie eine Freistellungsbescheinigung nach § 48b EStG,- Angaben, ob für die geforderten Leistungen Nachunternehmer eingesetzt werden,- Verfügbare technische Ausrüstung."
+     },
+     {
+      "type": "slc-abil-staff-tech-work",
+      "description": "Die Eignung ist durch die Eintragung in die Liste des Vereins für Präqualifikation von Unternehmen e. V. (Präqualifikationsverzeichnis) oder Eigenerklärungen gemäß Formblatt 124 (Eigenerklärung zur Eignung) aus dem Vergabehandbuch Bayern nachzuweisen. Gelangt das Angebot eines nicht präqualifizierten Bieters in die engere Wahl, sind die im Formblatt 124 angegebenen Bescheinigungen innerhalb von 6 Kalendertagen nach Aufforderung vorzulegen. Beruft sich ein Bieter zur Erfüllung des Auftrags auf die Fähigkeiten anderer Unternehmen, ist die jeweilige Nummer im Präqualifikationsverzeichnis, oder es sind die Erklärungen und Bescheinigungen gemäß dem Formblatt 124 auch für diese anderen Unternehmen auf Verlangen vorzulegen. Referenzbescheinigungen für mindestens drei vergleichbare Leistungen in den letzten 3 Geschäftsjahren mit Angabe des Auftraggebers, der Ausführungsart, der Ausführungszeit, des im eigenen Betrieb erbrachten Leistungsumfangs, der durchschnittlich eingesetzten Arbeitnehmer, den besonderen technischen und gerätespezifischen Anforderungen, sowie des Auftragswertes (in Anlehnung an das Formblatt 444) sind auf Verlangen der Vergabestelle innerhalb von 6 Kalendertagen vorzulegen."
+     }
+    ]
+   }
+  ]
+ }
+}

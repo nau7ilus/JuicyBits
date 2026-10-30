@@ -1,0 +1,145 @@
+{
+ "id": "ec118801-a4f1-41cd-ba03-5d2e425bd719-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "ec118801-a4f1-41cd-ba03-5d2e425bd719",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ec118801-a4f1-41cd-ba03-5d2e425bd719",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:ec118801-a4f1-41cd-ba03-5d2e425bd719-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/ec118801-a4f1-41cd-ba03-5d2e425bd719?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "A349.01 Schlosserarbeiten",
+  "buyer": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+  "cpv": [
+   "45262670"
+  ],
+  "nuts": [
+   "DE21G"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c362926f-204a-41f4-838f-3fca9c867373",
+  "id": "ec118801-a4f1-41cd-ba03-5d2e425bd719",
+  "date": "2026-10-28T03:24:18Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE237605108",
+     "legalName": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau "
+    },
+    "address": {
+     "streetAddress": "Töginger Straße 18",
+     "locality": "Mühldorf a. Inn",
+     "region": "DE21G",
+     "postalCode": "84453",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+   "id": "DE237605108",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau "
+   },
+   "address": {
+    "streetAddress": "Töginger Straße 18",
+    "locality": "Mühldorf a. Inn",
+    "region": "DE21G",
+    "postalCode": "84453",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c362926f-204a-41f4-838f-3fca9c867373",
+   "title": "A349.01 Schlosserarbeiten",
+   "description": "Stahlinnengeländer  und Holzhandläufe für 5 Treppenhäuser\nHochwasserschutz für Außentüren, Fenster und Garagentore ",
+   "procuringEntity": {
+    "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+    "id": "DE237605108"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45262670",
+      "description": "Metalworking"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Waldwinkler Straße 1",
+      "locality": "Aschau a. Inn",
+      "region": "DE21G",
+      "postalCode": "84544",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28e471-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "A349.01 Schlosserarbeiten",
+     "description": "Stahlinnengeländer  und Holzhandläufe für 5 Treppenhäuser\nHochwasserschutz für Außentüren, Fenster und Garagentore \n ",
+     "contractPeriod": {
+      "startDate": "2027-02-22T00:00:00+01:00",
+      "endDate": "2028-02-29T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

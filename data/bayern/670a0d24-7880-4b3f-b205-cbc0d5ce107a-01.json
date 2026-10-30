@@ -1,0 +1,145 @@
+{
+ "id": "670a0d24-7880-4b3f-b205-cbc0d5ce107a-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "670a0d24-7880-4b3f-b205-cbc0d5ce107a",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=670a0d24-7880-4b3f-b205-cbc0d5ce107a",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:670a0d24-7880-4b3f-b205-cbc0d5ce107a-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/670a0d24-7880-4b3f-b205-cbc0d5ce107a?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "A355.01 Fliesenarbeiten",
+  "buyer": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+  "cpv": [
+   "45431000"
+  ],
+  "nuts": [
+   "DE21G"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-c1fda041-b416-4a09-9b2f-e183fca615b9",
+  "id": "670a0d24-7880-4b3f-b205-cbc0d5ce107a",
+  "date": "2026-10-28T03:26:12Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE237605108",
+     "legalName": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau "
+    },
+    "address": {
+     "streetAddress": "Töginger Straße 18",
+     "locality": "Mühldorf a. Inn",
+     "region": "DE21G",
+     "postalCode": "84453",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "[Telefon entfernt]",
+     "legalName": "Vergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximilianstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+   "id": "DE237605108",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau "
+   },
+   "address": {
+    "streetAddress": "Töginger Straße 18",
+    "locality": "Mühldorf a. Inn",
+    "region": "DE21G",
+    "postalCode": "84453",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "c1fda041-b416-4a09-9b2f-e183fca615b9",
+   "title": "A355.01 Fliesenarbeiten",
+   "description": "Abdichtungsarbeiten Boden Wände bis W3i ca. 2600m²\nFliesenarbeiten Boden ca. 2400m²\nFliesenarbeiten Wand ca. 1800m² \nTreppenhäuser 5 Stk\n ",
+   "procuringEntity": {
+    "name": "Landratsamt Mühldorf am Inn - FB 13 Kommunaler Hochbau ",
+    "id": "DE237605108"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45431000",
+      "description": "Tiling work"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Waldwinkler Straße 1",
+      "locality": "Aschau a. Inn",
+      "region": "DE21G",
+      "postalCode": "84544",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av28f142-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "A355.01 Fliesenarbeiten",
+     "description": "Abdichtungsarbeiten Boden Wände bis W3i ca. 2600m²\nFliesenarbeiten Boden ca. 2400m²\nFliesenarbeiten Wand ca. 1800m² \nTreppenhäuser 5 Stk\n ",
+     "contractPeriod": {
+      "startDate": "2027-07-19T00:00:00+02:00",
+      "endDate": "2028-03-20T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

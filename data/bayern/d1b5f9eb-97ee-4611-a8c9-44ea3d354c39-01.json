@@ -1,0 +1,276 @@
+{
+ "id": "d1b5f9eb-97ee-4611-a8c9-44ea3d354c39-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "d1b5f9eb-97ee-4611-a8c9-44ea3d354c39",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d1b5f9eb-97ee-4611-a8c9-44ea3d354c39",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:d1b5f9eb-97ee-4611-a8c9-44ea3d354c39-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:d1b5f9eb-97ee-4611-a8c9-44ea3d354c39-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/d1b5f9eb-97ee-4611-a8c9-44ea3d354c39?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Uw München-Pasing, Los1 (Umspannertausch und Bauleistungen) und Los 2 (Erneuerung Sekundärtechnik)",
+  "buyer": "DB Energie GmbH (Bukr 31)",
+  "cpv": [
+   "45232200",
+   "45230000",
+   "45232000"
+  ],
+  "nuts": [
+   "DE712",
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 3
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-72360e12-89ef-407a-839d-3ab2af4168c0",
+  "id": "d1b5f9eb-97ee-4611-a8c9-44ea3d354c39",
+  "date": "2026-10-29T03:26:14Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "DB Energie GmbH (Bukr 31)",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "03af3a2e-a9dd-4756-b820-80941b7f8603",
+     "legalName": "DB Energie GmbH (Bukr 31)"
+    },
+    "address": {
+     "streetAddress": "Kleyerstr.25",
+     "locality": "Frankfurt Main",
+     "region": "DE712",
+     "postalCode": "60326",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "0a9ea480-08e4-4ab6-bf12-d722d0ad54b6",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "DB Energie GmbH (Bukr 31)",
+   "id": "03af3a2e-a9dd-4756-b820-80941b7f8603",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "DB Energie GmbH (Bukr 31)"
+   },
+   "address": {
+    "streetAddress": "Kleyerstr.25",
+    "locality": "Frankfurt Main",
+    "region": "DE712",
+    "postalCode": "60326",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "72360e12-89ef-407a-839d-3ab2af4168c0",
+   "title": "Uw München-Pasing, Los1 (Umspannertausch und Bauleistungen) und Los 2 (Erneuerung Sekundärtechnik)",
+   "description": "Uw München-Pasing, Los1 (Umspannertausch und Bauleistungen) und Los 2 (Erneuerung Sekundärtechnik)",
+   "procuringEntity": {
+    "name": "DB Energie GmbH (Bukr 31)",
+    "id": "03af3a2e-a9dd-4756-b820-80941b7f8603"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232200",
+      "description": "Ancillary works for electricity power lines"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81241",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232200",
+      "description": "Ancillary works for electricity power lines"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81241",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45232200",
+      "description": "Ancillary works for electricity power lines"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81241",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated without prior call for competition",
+   "procurementMethodRationale": "No suitable tenders, requests to participate, or applications were received in response to a previous notice",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Unterwerk München-Pasing, Los 1 Bauleistungen Primärtechnik und Umspannertausch",
+     "description": "Abbruch und Montage der Primärtechnik",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-06-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Unterwerk München-Pasing, Los 2, Erneuerung der Sekundärtechnik",
+     "description": "Rückbau und Neumontage Sekundärtechnik",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-06-30T00:00:00+02:00"
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Unterwerk München-Pasing, Los 3 Rückbau Oberbau",
+     "description": "Rückbau eines bestehenden stillgelegten Werksgleises",
+     "contractPeriod": {
+      "startDate": "2027-02-01T00:00:00+01:00",
+      "endDate": "2028-06-30T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "30",
+  "noticeId": "d1b5f9eb-97ee-4611-a8c9-44ea3d354c39",
+  "version": "01",
+  "title": "Uw München-Pasing, Los1 (Umspannertausch und Bauleistungen) und Los 2 (Erneuerung Sekundärtechnik)",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "45232200",
+   "45230000",
+   "45232000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Unterwerk München-Pasing, Los 1 Bauleistungen Primärtechnik und Umspannertausch",
+    "cpv": [
+     "45232200"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-06-30+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   },
+   {
+    "id": "LOT-0002",
+    "title": "Unterwerk München-Pasing, Los 2, Erneuerung der Sekundärtechnik",
+    "cpv": [
+     "45232200"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-06-30+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   },
+   {
+    "id": "LOT-0003",
+    "title": "Unterwerk München-Pasing, Los 3 Rückbau Oberbau",
+    "cpv": [
+     "45232200"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-02-01+01:00",
+    "plannedEnd": "2028-06-30+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

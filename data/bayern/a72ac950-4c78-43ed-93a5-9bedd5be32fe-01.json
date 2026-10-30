@@ -1,0 +1,179 @@
+{
+ "id": "a72ac950-4c78-43ed-93a5-9bedd5be32fe-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "a72ac950-4c78-43ed-93a5-9bedd5be32fe",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a72ac950-4c78-43ed-93a5-9bedd5be32fe",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:a72ac950-4c78-43ed-93a5-9bedd5be32fe-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a72ac950-4c78-43ed-93a5-9bedd5be32fe?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "62-2026-688-EA Verlängerung Maintenance von Citrix-Lizenzen",
+  "buyer": "Stadt Regensburg",
+  "cpv": [
+   "48000000"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-b82366c5-1540-40f4-a335-92ebebc4bfe1",
+  "id": "a72ac950-4c78-43ed-93a5-9bedd5be32fe",
+  "date": "2026-10-28T03:22:16Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Regensburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9003625-22",
+     "legalName": "Stadt Regensburg"
+    },
+    "address": {
+     "streetAddress": "D.-Martin-Luther-Str. 3",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0630053-66",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Regensburg - Vergabeamt",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-9003625-22.1",
+     "legalName": "Stadt Regensburg - Vergabeamt"
+    },
+    "address": {
+     "streetAddress": "D.-Martin-Luther-Str. 3",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Regensburg",
+   "id": "09-9003625-22",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Regensburg"
+   },
+   "address": {
+    "streetAddress": "D.-Martin-Luther-Str. 3",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "b82366c5-1540-40f4-a335-92ebebc4bfe1",
+   "title": "62-2026-688-EA Verlängerung Maintenance von Citrix-Lizenzen",
+   "description": "Die Stadt Regensburg unterhält zwei Citrix-Farmen. \nGegenstand dieses Vergabeverfahrens ist die Verlängerung der Bestands-Lizenzen sowie der dazugehörigen Software-Maintenance und der Hardware RMA für die genannte Citrix-Umgebung.",
+   "procuringEntity": {
+    "name": "Stadt Regensburg",
+    "id": "09-9003625-22"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "48000000",
+      "description": "Software package and information systems"
+     },
+     "deliveryAddress": {
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93047",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/304012",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "amendments": [
+    {
+     "date": "2026-10-28T03:22:16.369Z",
+     "rationale": "Es wurde bei LOT-000 die \"Geschätzte Laufzeit - Enddatum der Laufzeit (BT-537-Lot)\" korrigiert.\n\nEs wurden bei LOT-0000 die Fristen verlängert, damit alle Unternehmen Kenntnis von den zusätzlichen Informationen nehmen können.",
+     "description": "Es wurde bei LOT-000 die \"Geschätzte Laufzeit - Enddatum der Laufzeit (BT-537-Lot)\" korrigiert.",
+     "amendsReleaseID": "da1254fd-acf1-4c6b-97e1-6efdcd3b9fda-01",
+     "releaseID": "a72ac950-4c78-43ed-93a5-9bedd5be32fe-01"
+    },
+    {
+     "date": "2026-10-28T03:22:16.369Z",
+     "rationale": "Es wurde bei LOT-000 die \"Geschätzte Laufzeit - Enddatum der Laufzeit (BT-537-Lot)\" korrigiert.\n\nEs wurden bei LOT-0000 die Fristen verlängert, damit alle Unternehmen Kenntnis von den zusätzlichen Informationen nehmen können.",
+     "description": "Frist für den Eingang der Angebote (BT-131(d)-Lot)\nDatum vorher 27.10.2026 23:59 Datum nachher 29.10.2026 23:59 \n\nFrist für die Anforderung zusätzlicher Informationen (BT-13(d)-Lot)\nDatum vorher 27.10.2026 23:59 Datum nachher 29.10.2026 23:59  \n\nDatum des Eröffnungstermins (BT-132(d)-Lot)\nDatum vorher 28.10.2026 07:00 Uhr Datum nachher  30.10.2026 07:00 \n\nDauer, während der das Angebot gültig bleiben muss (BT-98-Lot)\nBindefrist endet am: 03.12.2026 23:59 vorher 30.11.2026 23:59",
+     "amendsReleaseID": "da1254fd-acf1-4c6b-97e1-6efdcd3b9fda-01",
+     "releaseID": "a72ac950-4c78-43ed-93a5-9bedd5be32fe-01"
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "62-2026-688-EA Verlängerung Maintenance von Citrix-Lizenzen",
+     "description": "Die Stadt Regensburg unterhält zwei Citrix-Farmen. \nGegenstand dieses Vergabeverfahrens ist die Verlängerung der Bestands-Lizenzen sowie der dazugehörigen Software-Maintenance und der Hardware RMA für die genannte Citrix-Umgebung.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2029-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

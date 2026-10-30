@@ -1,0 +1,237 @@
+{
+ "id": "47f3f48d-214a-476f-8cb9-83b2a6ed49e3-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "47f3f48d-214a-476f-8cb9-83b2a6ed49e3",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=47f3f48d-214a-476f-8cb9-83b2a6ed49e3",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:47f3f48d-214a-476f-8cb9-83b2a6ed49e3-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/47f3f48d-214a-476f-8cb9-83b2a6ed49e3?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Erschliessung Stark und Schwachstrom",
+  "buyer": "Staatliches Bauamt Schweinfurt",
+  "cpv": [
+   "45231000"
+  ],
+  "nuts": [
+   "DE262",
+   "DE265"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-66ad47a6-3b93-4b69-adeb-86e3460952bd",
+  "id": "47f3f48d-214a-476f-8cb9-83b2a6ed49e3",
+  "date": "2026-10-28T03:22:21Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09721203305",
+     "legalName": "Staatliches Bauamt Schweinfurt"
+    },
+    "address": {
+     "streetAddress": "Mainberger Straße 14",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97422",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt - Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "991-02380-92",
+     "legalName": "Bundeskartellamt - Vergabekammer des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Straße 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Schweinfurt - Vergabestelle",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0996207-32",
+     "legalName": "Staatliches Bauamt Schweinfurt - Vergabestelle"
+    },
+    "address": {
+     "streetAddress": "Mainberger Straße 14",
+     "locality": "Schweinfurt",
+     "region": "DE262",
+     "postalCode": "97422",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   },
+   {
+    "name": "F. + S. Fernmelde- und",
+    "id": "ORG-0004",
+    "identifier": {
+     "id": "DE176276483",
+     "legalName": "F. + S. Fernmelde- und"
+    },
+    "address": {
+     "streetAddress": "Bützower Strasse 12a",
+     "locality": "Güstrow",
+     "region": "DE80K",
+     "postalCode": "18273",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Schweinfurt",
+   "id": "t:09721203305",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Schweinfurt"
+   },
+   "address": {
+    "streetAddress": "Mainberger Straße 14",
+    "locality": "Schweinfurt",
+    "region": "DE262",
+    "postalCode": "97422",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "66ad47a6-3b93-4b69-adeb-86e3460952bd",
+   "title": "Erschliessung Stark und Schwachstrom",
+   "description": "B62HE402040016\nHAB_SaaleckKa, Neubau WiGeb 1800/BetrGeb \nErschließung Stark- und Schwachstrom\nAußenkabel, symmetrisch A-2YF(L), 100x2x0,8      1.055,00m\nRangierung, Muffen von Papierkabeln/LWL             1.100 Stk\nKoaxialleitung LCM33      920,00m\nAußenkabel A-DQ(ZN)2Y 4x12         3.700,00m\nNYCYW 4x120     150,00m",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Schweinfurt",
+    "id": "t:09721203305"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45231000",
+      "description": "Construction work for pipelines, communication and power lines"
+     },
+     "deliveryAddress": {
+      "locality": "Hammelburg",
+      "region": "DE265",
+      "postalCode": "97762",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-10-02T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "F. + S. Fernmelde- und",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "F. + S. Fernmelde- und"
+     },
+     "address": {
+      "streetAddress": "Bützower Strasse 12a",
+      "locality": "Güstrow",
+      "region": "DE80K",
+      "postalCode": "18273",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Erschliessung Stark und Schwachstrom",
+     "description": "B62HE402040016\nHAB_SaaleckKa, Neubau WiGeb 1800/BetrGeb \nErschließung Stark- und Schwachstrom\nAußenkabel, symmetrisch A-2YF(L), 100x2x0,8      1.055,00m\nRangierung, Muffen von Papierkabeln/LWL             1.100 Stk\nKoaxialleitung LCM33      920,00m\nAußenkabel A-DQ(ZN)2Y 4x12         3.700,00m\nNYCYW 4x120     150,00m",
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2027-12-01T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Erschliessung Stark und Schwachstrom",
+    "status": "active",
+    "date": "2026-10-13T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "F. + S. Fernmelde- und",
+      "id": "DE176276483",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "F. + S. Fernmelde- und"
+      },
+      "address": {
+       "streetAddress": "Bützower Strasse 12a",
+       "locality": "Güstrow",
+       "region": "DE80K",
+       "postalCode": "18273",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Erschliessung Stark und Schwachstrom",
+    "status": "active",
+    "value": {
+     "amount": 551694.83,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-10-12T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

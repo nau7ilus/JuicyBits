@@ -1,0 +1,238 @@
+{
+ "id": "8c9b8809-1303-49d2-9f92-8d7afe252d35-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "8c9b8809-1303-49d2-9f92-8d7afe252d35",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8c9b8809-1303-49d2-9f92-8d7afe252d35",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:8c9b8809-1303-49d2-9f92-8d7afe252d35-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:8c9b8809-1303-49d2-9f92-8d7afe252d35-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8c9b8809-1303-49d2-9f92-8d7afe252d35?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Aufzugsanlagen",
+  "buyer": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+  "cpv": [
+   "45313100"
+  ],
+  "nuts": [
+   "DE252",
+   "DE254"
+  ],
+  "deadline": "2026-12-01T09:04:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bde88b04-a0e3-4a60-8fc4-6a1f934dde0a",
+  "id": "8c9b8809-1303-49d2-9f92-8d7afe252d35",
+  "date": "2026-10-29T03:22:24Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09113507199",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "reviewContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0358002-61",
+     "legalName": "Vergabekammer"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-0995209-19",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+   "id": "t:09113507199",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+   },
+   "address": {
+    "streetAddress": "Bohlenplatz 18",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91054",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bde88b04-a0e3-4a60-8fc4-6a1f934dde0a",
+   "title": "Aufzugsanlagen",
+   "description": "1x Glasaufzug 1600 kg incl. Schachtgerüst aus Glas\n2x Lastenaufzug 2500 kg\n1x Scherenhubbühne 1000 kg",
+   "procuringEntity": {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "t:09113507199"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45313100",
+      "description": "Lift installation work"
+     },
+     "deliveryAddress": {
+      "locality": "Nürnberg",
+      "region": "DE254",
+      "postalCode": "90469",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "value": {
+    "amount": 460380,
+    "currency": "EUR"
+   },
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/303772",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Aufzugsanlagen",
+     "description": "1x Glasaufzug 1600 kg incl. Schachtgerüst aus Glas\n2x Lastenaufzug 2500 kg\n1x Scherenhubbühne 1000 kg",
+     "value": {
+      "amount": 460380,
+      "currency": "EUR"
+     },
+     "contractPeriod": {
+      "startDate": "2027-03-01T00:00:00+01:00",
+      "endDate": "2029-04-27T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU",
+  "relatedProcesses": [
+   {
+    "id": "672034-2025",
+    "relationship": [
+     "planning"
+    ],
+    "scheme": "ocid",
+    "identifier": "672034-2025"
+   }
+  ]
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "8c9b8809-1303-49d2-9f92-8d7afe252d35",
+  "version": "01",
+  "title": "Aufzugsanlagen",
+  "nuts": [
+   "DE254"
+  ],
+  "cpv": [
+   "45313100"
+  ],
+  "estimatedValue": {
+   "amount": 460380,
+   "currency": "EUR"
+  },
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Aufzugsanlagen",
+    "cpv": [
+     "45313100"
+    ],
+    "nuts": [
+     "DE254"
+    ],
+    "deadline": "2026-12-01T09:04:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-03-01+01:00",
+    "plannedEnd": "2029-04-27+02:00",
+    "estimatedValue": {
+     "amount": 460380,
+     "currency": "EUR"
+    },
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-stand-to-spec-avg",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303772\n\n\n- Umsatz des Unternehmens in den letzten drei abgeschlossenen Geschäftsjahren, soweit er Bauleistungen und andere Leistungen betrifft, die mit der zu vergebenden Leistung vergleichbar sind unter Einschluss des Anteils bei gemeinsam mit anderen Unternehmen ausgeführten Leistungen.\n- Nimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-ref-work",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303772\n\nDie Anforderung des Nachweises vergleichbarer Referenzen gemäß FB 124 Eigenerklärung zur Eignung gilt auch für präqualifizierte Bieter. Präqualifizierte Bieter können sich dazu des PQ-Verzeichnisses bedienen, soweit dort Nachweise entsprechend vergleichbarer Referenzen hinterlegt sind. Präqualifizierte Bieter sollten prüfen, ob die im PQ-Verzeichnis hinterlegten Nachweise vergleichbare Referenzen betreffen und die Hinterlegung ggf. entsprechend anpassen. Alternativ können die Referenzen auch mit dem Angebot übermittelt werden. \n\nNimmt der Bieter in Hinblick auf die Kriterien für die wirtschaftliche und finanzielle Leistungsfähigkeit im Rahmen einer Eignungsleihe die Kapazitäten anderer Unternehmen in Anspruch, müssen diese gemeinsam für die Auftragsausführung haften; die Haftungserklärung ist gleichzeitig mit der „Verpflichtungserklärung“ abzugeben (siehe Teilnahmebedingungen)."
+     },
+     {
+      "type": "slc-abil-staff-yrly-avg-mp",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303772\n\n- Angaben zur Verfügbarkeit der für die Ausführung der Leistungen erforderlichen Arbeitskräfte"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Auflistung und kurze Beschreibung der Bedingungen/Eignungskriterien, die sowohl für nicht präqualifizierte als auch für präqualifizierte Firmen gelten – siehe: \nhttps://my.vergabe.bayern.de/eignungskriterien.php?lv_id=303772\n\n- Registereintragungen\n- Angabe zur Mitgliedschaft bei der Berufsgenossenschaft"
+     }
+    ]
+   }
+  ]
+ }
+}

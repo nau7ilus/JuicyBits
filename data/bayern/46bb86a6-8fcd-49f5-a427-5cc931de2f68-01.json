@@ -1,0 +1,304 @@
+{
+ "id": "46bb86a6-8fcd-49f5-a427-5cc931de2f68-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "46bb86a6-8fcd-49f5-a427-5cc931de2f68",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=46bb86a6-8fcd-49f5-a427-5cc931de2f68",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:46bb86a6-8fcd-49f5-a427-5cc931de2f68-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/46bb86a6-8fcd-49f5-a427-5cc931de2f68?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+  "buyer": "IKZ Lichtenau",
+  "cpv": [
+   "64210000"
+  ],
+  "nuts": [
+   "DE256"
+  ],
+  "deadline": null,
+  "lots": 6
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-51d8ce74-3716-4929-917c-9d797528c1c0",
+  "id": "46bb86a6-8fcd-49f5-a427-5cc931de2f68",
+  "date": "2026-10-28T03:24:16Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "IKZ Lichtenau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09571175",
+     "legalName": "IKZ Lichtenau"
+    },
+    "address": {
+     "streetAddress": "Ansbacher Straße 11",
+     "locality": "Lichtenau",
+     "region": "DE256",
+     "postalCode": "91586\n",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09035800261",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewContactPoint",
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "IKZ Lichtenau",
+   "id": "09571175",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "IKZ Lichtenau"
+   },
+   "address": {
+    "streetAddress": "Ansbacher Straße 11",
+    "locality": "Lichtenau",
+    "region": "DE256",
+    "postalCode": "91586\n",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "51d8ce74-3716-4929-917c-9d797528c1c0",
+   "title": "Vergabe einer Dienstleistungskonzession für den öffentlich geförderten Aufbau und Betrieb eines Gigabitnetzes nach § 5 Gigabit-Rahmenregelung des Bundesministerium für Verkehr und digitale Infrastruktur vom 01.08.2024.",
+   "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes gemäß dieser Ausschreibungsbekanntmachung, insbesondere der Karte zur Darstellung der Projektgebiete / Erschließungsgebiete, im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetze in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) vom Bundesministeriums für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen.",
+   "procuringEntity": {
+    "name": "IKZ Lichtenau",
+    "id": "09571175"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Ansbacher Straße 11",
+      "locality": "Lichtenau",
+      "region": "DE256",
+      "postalCode": "91586",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Rothenburger Straße 5",
+      "locality": "Windelsbach",
+      "region": "DE256",
+      "postalCode": "91635",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Schulstraße 2",
+      "locality": "Flachslanden",
+      "region": "DE256",
+      "postalCode": "91604",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Ansbacher Straße 11",
+      "locality": "Markt Lichtenau",
+      "region": "DE256",
+      "postalCode": "91586",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Alte Poststraße 17",
+      "locality": "Gemeinde Bruckberg",
+      "region": "DE256",
+      "postalCode": "91590",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "64210000",
+      "description": "Telephone and data transmission services"
+     },
+     "deliveryAddress": {
+      "streetAddress": "Johann-Flierl-Straße 19",
+      "locality": "Neuendettelsau",
+      "region": "DE256",
+      "postalCode": "91564",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0006"
+    }
+   ],
+   "procurementMethodDetails": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284937-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    },
+    {
+     "id": "DOC-0002",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284937-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0002"
+     ]
+    },
+    {
+     "id": "DOC-0003",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284937-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0003"
+     ]
+    },
+    {
+     "id": "DOC-0004",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284937-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0004"
+     ]
+    },
+    {
+     "id": "DOC-0005",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284937-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0005"
+     ]
+    },
+    {
+     "id": "DOC-0006",
+     "url": "https://plattform.aumass.de/Veroeffentlichung/av284937-eu",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0006"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) ",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 1 (Gesamtlos) beträgt 1121 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) ",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 2(Gemeinde Windelsbach) beträgt 414 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) ",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 3 (Markt Flachslanden) beträgt 369 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) ",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 4 (Markt Lichtenau) beträgt 202 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) ",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 5 (Gemeinde Bruckberg) beträgt 91 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    },
+    {
+     "id": "LOT-0006",
+     "title": "Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) ",
+     "description": "Bestimmung eines Netzbetreibers für den Aus- bzw. Aufbau und Betrieb eines Gigabitnetzes im Rahmen der Richtlinie „Förderung zur Unterstützung des Gigabitausbaus der Telekommunikationsnetzes in der Bundesrepublik Deutschland“ - Gigabit-Richtlinie des Bundes 2.0 (Gigabit-RL 2.0) in der Bekanntmachung vom Bundesministerium für Digitales und Staatsmodernisierung vom 13.01.2025 inkl. der zum Zeitpunkt der Bekanntmachung geltenden Nebenbestimmungen. Die Anzahl der Adressen im Los 6 (Gemeinde Neuendettelsbau) beträgt 45 Adressen.",
+     "contractPeriod": {
+      "durationInDays": 2555
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,178 @@
+{
+ "id": "cc197116-d16d-4d6b-af1f-eb45af448592-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "cc197116-d16d-4d6b-af1f-eb45af448592",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=cc197116-d16d-4d6b-af1f-eb45af448592",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:cc197116-d16d-4d6b-af1f-eb45af448592-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/cc197116-d16d-4d6b-af1f-eb45af448592?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "62-2026-777-EA - Verlegung der Strom- und LWL-Verkabelung im Leerrohr-Zugsystem - MU4 und MU2, ATV DIN 18322 u 18382",
+  "buyer": "Stadt Regensburg",
+  "cpv": [
+   "45315500",
+   "45314310",
+   "45315600"
+  ],
+  "nuts": [
+   "DE232"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-81a44038-bea1-4ff7-beb9-db36765f78ce",
+  "id": "cc197116-d16d-4d6b-af1f-eb45af448592",
+  "date": "2026-10-28T03:24:08Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadt Regensburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-9003625-22",
+     "legalName": "Stadt Regensburg"
+    },
+    "address": {
+     "streetAddress": "D.-Martin-Luther-Str. 3",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "reviewContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0630053-66",
+     "legalName": "Vergabekammer Nordbayern bei der Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Stadt Regensburg - Vergabeamt",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "09-9003625-22.1",
+     "legalName": "Stadt Regensburg - Vergabeamt"
+    },
+    "address": {
+     "streetAddress": "D.-Martin-Luther-Str. 3",
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93047",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "procurementServiceProvider",
+     "processContactPoint",
+     "evaluationBody",
+     "submissionReceiptBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadt Regensburg",
+   "id": "09-9003625-22",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Stadt Regensburg"
+   },
+   "address": {
+    "streetAddress": "D.-Martin-Luther-Str. 3",
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93047",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "81a44038-bea1-4ff7-beb9-db36765f78ce",
+   "title": "62-2026-777-EA - Verlegung der Strom- und LWL-Verkabelung im Leerrohr-Zugsystem - MU4 und MU2, ATV DIN 18322 u 18382",
+   "description": "Der Auftrag umfasst die Herstellung der Infrastruktur für die Strom- und Datenversorgung der Gebäudekomplexe MU4 und MU2, ausgehend von der Energiezentrale.\nWesentliche Leistungen sind die Verlegung der hierfür erforderlichen Mittelspannungskabel (ca. 885 m), Niederspannungskabel (ca. 3.060 m) sowie LWL-Kabel (ca. 2.765 m) im vorhandenen Leerrohr-Zugsystem.\nDes Weiteren gehören die Lieferung, Aufstellung und der spätere Rückbau einer temporären Trafostation (800 kVA) sowie die Lieferung und Installation von 11 Niederspannungsverteilungen und 11 Netzwerkschränken einschließlich der erforderlichen Kabelanschluss- und\nMontagearbeiten zum Leistungsumfang der Maßnahme.",
+   "procuringEntity": {
+    "name": "Stadt Regensburg",
+    "id": "09-9003625-22"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45315500",
+      "description": "Medium-voltage installation work"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "45314310",
+       "description": "Installation of cable laying"
+      },
+      {
+       "scheme": "CPV",
+       "id": "45315600",
+       "description": "Low-voltage installation work"
+      }
+     ],
+     "deliveryAddress": {
+      "locality": "Regensburg",
+      "region": "DE232",
+      "postalCode": "93053",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/1/tenderId/305374",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "62-2026-777-EA - Verlegung der Strom- und LWL-Verkabelung im Leerrohr-Zugsystem - MU4 und MU2, ATV DIN 18322 u 18382",
+     "description": "Der Auftrag umfasst die Herstellung der Infrastruktur für die Strom- und Datenversorgung der Gebäudekomplexe MU4 und MU2, ausgehend von der Energiezentrale.\nWesentliche Leistungen sind die Verlegung der hierfür erforderlichen Mittelspannungskabel (ca. 885 m), Niederspannungskabel (ca. 3.060 m) sowie LWL-Kabel (ca. 2.765 m) im vorhandenen Leerrohr-Zugsystem.\nDes Weiteren gehören die Lieferung, Aufstellung und der spätere Rückbau einer temporären Trafostation (800 kVA) sowie die Lieferung und Installation von 11 Niederspannungsverteilungen und 11 Netzwerkschränken einschließlich der erforderlichen Kabelanschluss- und\nMontagearbeiten zum Leistungsumfang der Maßnahme.",
+     "contractPeriod": {
+      "startDate": "2026-12-16T00:00:00+01:00",
+      "endDate": "2028-08-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

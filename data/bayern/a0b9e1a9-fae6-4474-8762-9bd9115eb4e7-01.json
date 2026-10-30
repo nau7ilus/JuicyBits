@@ -1,0 +1,833 @@
+{
+ "id": "a0b9e1a9-fae6-4474-8762-9bd9115eb4e7-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "a0b9e1a9-fae6-4474-8762-9bd9115eb4e7",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a0b9e1a9-fae6-4474-8762-9bd9115eb4e7",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:a0b9e1a9-fae6-4474-8762-9bd9115eb4e7-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a0b9e1a9-fae6-4474-8762-9bd9115eb4e7?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": null,
+  "title": "Sicherheitsüberprüfung ortsveränderlicher elektr. Geräte (RIM Düsseldorf)",
+  "buyer": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+  "cpv": [
+   "71630000"
+  ],
+  "nuts": [
+   "DE254",
+   "DEA11",
+   "DEA14",
+   "DEA1C",
+   "DEA1A",
+   "DEA12",
+   "DEA13",
+   "DEA32",
+   "DEA17",
+   "DEA1F"
+  ],
+  "deadline": null,
+  "lots": 9
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-bfe3459b-9f8a-4c17-b41b-3e17adedb120",
+  "id": "a0b9e1a9-fae6-4474-8762-9bd9115eb4e7",
+  "date": "2026-10-28T03:22:31Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE811458858",
+     "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+    },
+    "address": {
+     "streetAddress": "Regensburger Str. 104",
+     "locality": "Nürnberg",
+     "region": "DE254",
+     "postalCode": "90478",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procuringEntity",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Bundeskartellamt, Vergabekammern des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "---",
+     "legalName": "Bundeskartellamt, Vergabekammern des Bundes"
+    },
+    "address": {
+     "streetAddress": "Kaiser-Friedrich-Str. 16",
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Elektro Behrendt",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "DE457306894",
+     "legalName": "Elektro Behrendt"
+    },
+    "address": {
+     "streetAddress": "Parchauer See 162",
+     "locality": "Burg",
+     "region": "DEE06",
+     "postalCode": "39288",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+   "id": "DE811458858",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus"
+   },
+   "address": {
+    "streetAddress": "Regensburger Str. 104",
+    "locality": "Nürnberg",
+    "region": "DE254",
+    "postalCode": "90478",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "bfe3459b-9f8a-4c17-b41b-3e17adedb120",
+   "title": "Sicherheitsüberprüfung ortsveränderlicher elektr. Geräte (RIM Düsseldorf)",
+   "description": "Sicherheitsüberpr. ortsveränderlicher elektr. Geräte (RIM Düsseldorf)",
+   "procuringEntity": {
+    "name": "Bundesagentur für Arbeit (BA), vertreten durch den Vorstand, hier vertreten durch die Leitung des Geschäftsbereiches Einkauf im BA-Service-Haus",
+    "id": "DE811458858"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Düsseldorf",
+      "region": "DEA11",
+      "postalCode": "40237",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    },
+    {
+     "id": "LOT-0002",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Krefeld",
+      "region": "DEA14",
+      "postalCode": "47799",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0002"
+    },
+    {
+     "id": "LOT-0003",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Mettmann",
+      "region": "DEA1C",
+      "postalCode": "40822",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0003"
+    },
+    {
+     "id": "LOT-0004",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Wuppertal",
+      "region": "DEA1A",
+      "postalCode": "42285",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0004"
+    },
+    {
+     "id": "LOT-0005",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Duisburg",
+      "region": "DEA12",
+      "postalCode": "47058",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0005"
+    },
+    {
+     "id": "LOT-0006",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Essen",
+      "region": "DEA13",
+      "postalCode": "45127",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0006"
+    },
+    {
+     "id": "LOT-0007",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Gelsenkirchen",
+      "region": "DEA32",
+      "postalCode": "45879",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0007"
+    },
+    {
+     "id": "LOT-0008",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Oberhausen",
+      "region": "DEA17",
+      "postalCode": "46045",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0008"
+    },
+    {
+     "id": "LOT-0009",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71630000",
+      "description": "Technical inspection and testing services"
+     },
+     "deliveryAddress": {
+      "locality": "Wesel",
+      "region": "DEA1F",
+      "postalCode": "46483",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0009"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Elektro Behrendt",
+     "identifier": {
+      "id": "ORG-0001",
+      "legalName": "Elektro Behrendt"
+     },
+     "address": {
+      "streetAddress": "Parchauer See 162",
+      "locality": "Burg",
+      "region": "DEE06",
+      "postalCode": "39288",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Agenturbezirk Düsseldorf",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los:\n- Agentur für Arbeit Düsseldorf\n- Agentur für Arbeit Düsseldorf (Auslagerung)\n- Integrationpoint (im Jobcenter Düsseldorf)\n- Regionaldirektion Nordrhein-Westfalen\n- GBI (Auslagerung)\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    },
+    {
+     "id": "LOT-0002",
+     "title": "Agenturbezirk Krefeld",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los: \n- Agentur für Arbeit Krefeld\n- Agentur für Arbeit Krefeld - Gst. Kempen\n- Agentur für Arbeit Krefeld - Gst. Nettetal\n- Agentur für Arbeit Krefeld - Gst. Viersen\n- Agentur für Arbeit Krefeld - Gst. Willich\n- Jobcenter Krefeld\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    },
+    {
+     "id": "LOT-0003",
+     "title": "Agenturbezirk Mettmann",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los: \n- Agentur für Arbeit Mettmann\n- Agentur für Arbeit Mettmann - Gst. Hilden\n- Agentur für Arbeit Mettmann - Gst. Langenfeld\n- Agentur für Arbeit Mettmann - Gst. Ratingen\n- Agentur für Arbeit Mettmann - Gst. Velbert\n- Bildungs- und Tagungsstätte in Mettmann\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    },
+    {
+     "id": "LOT-0004",
+     "title": "Agenturbezirk Solingen/ Wuppertal",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los: \n- Agentur für Arbeit Solingen-Wuppertal, Haus A\n- Agentur für Arbeit So-lingen-Wuppertal, Haus B\n- Agentur für Arbeit So-lingen-Wuppertal - Gst. Solingen\n- Agentur für Arbeit So-lingen-Wuppertal - Gst. Remscheid\n- Jobcenter Remscheid\n- Jugendberufsagentur Remscheid SGB III\n- Jugendberufsagentur Remscheid SGB II\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    },
+    {
+     "id": "LOT-0005",
+     "title": "Agenturbezirk Duisburg",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los: \n- Agentur für Arbeit Duisburg (2 Standorte)\n- Agentur für Arbeit Duisburg - Gst. Hamborn\n- Agentur für Arbeit Duisburg - Auslagerung Duissernplatz\n\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    },
+    {
+     "id": "LOT-0006",
+     "title": "Agenturbezirk Essen",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los: \n- Agentur für Arbeit Essen (3 Standorte)\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    },
+    {
+     "id": "LOT-0007",
+     "title": "Agenturbezirk Gelsenkirchen",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los: \n- Agentur für Arbeit Gelsenkirchen\n- Agentur für Arbeit Gelsenkirchen - Gst. Bottrop\n- Agentur für Arbeit Gelsenkirchen - Gst. Buer\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    },
+    {
+     "id": "LOT-0008",
+     "title": "Agenturbezirk Oberhausen",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los: \n- Agentur für Arbeit Oberhausen\n- Agentur für Arbeit Oberhausen - Gst. Mülheim\n- Integrationspoint\n- Jobcenter Oberhausen (3 Standorte)\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    },
+    {
+     "id": "LOT-0009",
+     "title": "Agenturbezirk Wesel",
+     "description": "Der Auftragnehmer (AN) übernimmt die erstmalige und wiederkehrende Überprüfung der ort-veränderlichen elektrischen Betriebsmittel (BM) nach DGUV Vorschrift 3 (bzw. Vorschrift 4) in der zum Zeitpunkt der Leistungserbringung gültigen Fassung in den Liegenschaften des RIM Düsseldorf (siehe Kapitel I.5).\n\nDie Vertragslaufzeit beginnt mit Zuschlag und beträgt 54 Monate. Die Überprüfungen müssen aus innerbetrieblichen Gründen mind. alle 2 Jahre erfolgen und beginnen mit dem 01.01.2027. Sollten sich u.a. (z.B. im Rahmen einer sog. Gefährdungsanalyse) andere (z.B. kürzere) Prüfungszeiträume ergeben, können auch andere Überprüfungszyklen/Termine durch das RIM abgerufen werden. Das RIM vereinbart mit dem AN entsprechende Überprü-fungen/Termine (mindestens 4 Wochen vorher). Die zwei bzw. drei Überprüfungen (je nach Intervall) für die benannten Liegenschaften müssen innerhalb der Vertragslaufzeit komplett durchgeführt und abgeschlossen sein.\n\nFolgende Standorte gehören zu diesem Los: \n- Agentur für Arbeit Wesel\n- Agentur für Arbeit Wesel - Gst. Kamp-Lintfort\n- Agentur für Arbeit Wesel - Gst. Geldern\n- Agentur für Arbeit Wesel - Gst. Goch\n- Agentur für Arbeit Wesel - Gst. Moers\n- Agentur für Arbeit Wesel - Gst. Dinslaken\n- Agentur für Arbeit Wesel - Gst. Emmerich\n- Agentur für Arbeit Wesel - Gst. Kleve\n\nBieter haben die Möglichkeit, vor Angebotsabgabe die Objekte zu besichtigen.\n\nNähere Informationen entnehmen Sie bitte der Leistungsbeschreibung und den Vergabeunterlagen.",
+     "contractPeriod": {
+      "durationInDays": 1620
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   },
+   {
+    "id": "LOT-0002",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0002"
+    ]
+   },
+   {
+    "id": "LOT-0003",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0003"
+    ]
+   },
+   {
+    "id": "LOT-0004",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0004"
+    ]
+   },
+   {
+    "id": "LOT-0005",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0005"
+    ]
+   },
+   {
+    "id": "LOT-0006",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0006"
+    ]
+   },
+   {
+    "id": "LOT-0007",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0007"
+    ]
+   },
+   {
+    "id": "LOT-0008",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0008"
+    ]
+   },
+   {
+    "id": "LOT-0009",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0009"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0009",
+    "awardID": "CON-0009",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   },
+   {
+    "id": "CON-0007",
+    "awardID": "CON-0007",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   },
+   {
+    "id": "CON-0008",
+    "awardID": "CON-0008",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   },
+   {
+    "id": "CON-0003",
+    "awardID": "CON-0003",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   },
+   {
+    "id": "CON-0004",
+    "awardID": "CON-0004",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   },
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   },
+   {
+    "id": "CON-0002",
+    "awardID": "CON-0002",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   },
+   {
+    "id": "CON-0005",
+    "awardID": "CON-0005",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   },
+   {
+    "id": "CON-0006",
+    "awardID": "CON-0006",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     },
+     {
+      "id": "LOT-0002",
+      "relatedLot": "LOT-0002"
+     },
+     {
+      "id": "LOT-0003",
+      "relatedLot": "LOT-0003"
+     },
+     {
+      "id": "LOT-0004",
+      "relatedLot": "LOT-0004"
+     },
+     {
+      "id": "LOT-0005",
+      "relatedLot": "LOT-0005"
+     },
+     {
+      "id": "LOT-0006",
+      "relatedLot": "LOT-0006"
+     },
+     {
+      "id": "LOT-0007",
+      "relatedLot": "LOT-0007"
+     },
+     {
+      "id": "LOT-0008",
+      "relatedLot": "LOT-0008"
+     },
+     {
+      "id": "LOT-0009",
+      "relatedLot": "LOT-0009"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": null
+}

@@ -1,0 +1,139 @@
+{
+ "id": "2c437c1d-0802-4eb0-9678-23410a8e8acc-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "2c437c1d-0802-4eb0-9678-23410a8e8acc",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=2c437c1d-0802-4eb0-9678-23410a8e8acc",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:2c437c1d-0802-4eb0-9678-23410a8e8acc-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/2c437c1d-0802-4eb0-9678-23410a8e8acc?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "1002 BKP-ENF-Bezirkskrankenhaus Parsberg - Ersatzneubau Forensik Gewerk: 1141-001 Trockenbauarbeiten 2 Haus 4 Pforte",
+  "buyer": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+  "cpv": [
+   "45324000"
+  ],
+  "nuts": [
+   "DE232",
+   "DE236"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-07d57ba5-3a28-41f2-b2b7-dd1adc7d07b1",
+  "id": "2c437c1d-0802-4eb0-9678-23410a8e8acc",
+  "date": "2026-10-28T03:22:27Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "USt-IdNr:DE289669264",
+     "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+    },
+    "address": {
+     "locality": "Regensburg",
+     "region": "DE232",
+     "postalCode": "93053",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer"
+    ]
+   },
+   {
+    "name": "Vergabekammer Nordbayern, Regierung von Mittelfranken",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "Ust.IdNr: DE811335517",
+     "legalName": "Vergabekammer Nordbayern, Regierung von Mittelfranken"
+    },
+    "address": {
+     "streetAddress": "Promenade 27 (Schloss)",
+     "locality": "Ansbach",
+     "region": "DE251",
+     "postalCode": "91522",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+   "id": "USt-IdNr:DE289669264",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Med. Einrichtungen des Bez. Oberpfalz - KU"
+   },
+   "address": {
+    "locality": "Regensburg",
+    "region": "DE232",
+    "postalCode": "93053",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "07d57ba5-3a28-41f2-b2b7-dd1adc7d07b1",
+   "title": "1002 BKP-ENF-Bezirkskrankenhaus Parsberg - Ersatzneubau Forensik Gewerk: 1141-001 Trockenbauarbeiten 2 Haus 4 Pforte",
+   "description": "Haus 4\nTrennwände 150mm                       ca. 250 m²\nAkustikdecken gelocht                    ca. 700 m²\nGipsdecken                                     ca. 420 m²\n\nAT\nAkustikdecken gelocht                    ca. 50 m²\nGipsdecken                                     ca. 135 m²",
+   "procuringEntity": {
+    "name": "Med. Einrichtungen des Bez. Oberpfalz - KU",
+    "id": "USt-IdNr:DE289669264"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45324000",
+      "description": "Plasterboard works"
+     },
+     "deliveryAddress": {
+      "region": "DE236",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.staatsanzeiger-eservices.de/aJs/EFormsBekVuUrl?z_param=331383",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Trockenbauarbeiten 2 Haus 4 Pforte",
+     "description": "Haus 4\nTrennwände 150mm                       ca. 250 m²\nAkustikdecken gelocht                    ca. 700 m²\nGipsdecken                                     ca. 420 m²\n\nAT\nAkustikdecken gelocht                    ca. 50 m²\nGipsdecken                                     ca. 135 m²",
+     "contractPeriod": {
+      "startDate": "2027-01-18T00:00:00+01:00",
+      "endDate": "2027-06-14T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

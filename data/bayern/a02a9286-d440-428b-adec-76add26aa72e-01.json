@@ -1,0 +1,192 @@
+{
+ "id": "a02a9286-d440-428b-adec-76add26aa72e-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "a02a9286-d440-428b-adec-76add26aa72e",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a02a9286-d440-428b-adec-76add26aa72e",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:a02a9286-d440-428b-adec-76add26aa72e-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:a02a9286-d440-428b-adec-76add26aa72e-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a02a9286-d440-428b-adec-76add26aa72e?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": "ContractNotice",
+  "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Altholz",
+  "buyer": "Landkreis Günzburg",
+  "cpv": [
+   "90510000",
+   "90514000"
+  ],
+  "nuts": [
+   "DE278"
+  ],
+  "deadline": "2026-11-30T10:00:00+01:00",
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a02a9286-d440-428b-adec-76add26aa72e",
+  "id": "a02a9286-d440-428b-adec-76add26aa72e",
+  "date": "2026-10-29T03:22:22Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Landkreis Günzburg",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "8228",
+     "legalName": "Landkreis Günzburg"
+    },
+    "address": {
+     "streetAddress": "An der Kapuzinermauer 1",
+     "locality": "Günzburg",
+     "region": "DE278",
+     "postalCode": "89312",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "c23950bd-8bb7-4e83-987a-a33fb35284a0",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Landkreis Günzburg",
+   "id": "8228",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Landkreis Günzburg"
+   },
+   "address": {
+    "streetAddress": "An der Kapuzinermauer 1",
+    "locality": "Günzburg",
+    "region": "DE278",
+    "postalCode": "89312",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a02a9286-d440-428b-adec-76add26aa72e",
+   "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Altholz",
+   "description": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Altholz",
+   "procuringEntity": {
+    "name": "Landkreis Günzburg",
+    "id": "8228"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90510000",
+      "description": "Refuse disposal and treatment"
+     },
+     "deliveryAddress": {
+      "region": "DE278",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.deutsche-evergabe.de/dashboards/dashboard_off/a02a9286-d440-428b-adec-76add26aa72e",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Altholz",
+     "description": "Der Landkreis Günzburg beabsichtigt einen Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Altholz im Landkreis Günzburg zu vergeben.\n\nVertragslaufzeit 4 Jahre; 01.01.2027 - 31.12.2030\n\nIm Rahmen der Leistungserbringung sind vom Auftragnehmer folgende Teilleistungen zu erbringen: \n\n- Containergestellung zur Erfassung von Altholz der Kategorie A I bis A III sowie A IV an den Wertstoffhöfen bzw. an den vom Auftraggeber vorgegebenen Containerstandorten\n- Gestellung von fahrbaren Containertrappen als Aufstiegshilfen\n- Abfuhr der Container zur Erfasssung von Altholz der Kategorie A I bis A III sowie A IV und Transport zu eigens gewählten Verwertungs- und/oder Entsorgungsanlagen\n- ordnungsgemäße Verwertung von Altholz der Kategorie A I bis A III sowie von Altholz der Kategorie A IV\n\nAlle weiteren Informationen und Rahmenbedingungen sind den Vergabeunterlagen, insbesondere dem Leistungsverzeichnis zu entnehmen.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2030-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractNotice",
+  "noticeSubType": "16",
+  "noticeId": "a02a9286-d440-428b-adec-76add26aa72e",
+  "version": "01",
+  "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Altholz",
+  "nuts": [
+   "DE278"
+  ],
+  "cpv": [
+   "90510000",
+   "90514000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Rahmenvertrag zur Abfuhr, zum Transport und zur Verwertung von Altholz",
+    "cpv": [
+     "90510000"
+    ],
+    "nuts": [
+     "DE278"
+    ],
+    "deadline": "2026-11-30T10:00:00+01:00",
+    "participationDeadline": null,
+    "plannedStart": "2027-01-01+01:00",
+    "plannedEnd": "2030-12-31+01:00",
+    "estimatedValue": null,
+    "smeSuitable": false,
+    "selectionCriteria": [
+     {
+      "type": "slc-abil-ref-services",
+      "description": "Im Rahmen der Eigenerklärung wird mindestens eine, mit der zu vergebenden Leistung hinsichtlich der Leistungsart und des Auftragswertes vergleichbare Referenz aus den letzten drei Geschäftsjahren gefordert."
+     },
+     {
+      "type": "slc-stand-ins",
+      "description": "Im Rahmen der Eigenerklärung wird der Abschluss einer Berufs- und Betriebshaftpflichtversicherung vor Leistungsbeginn mit folgenden Mindestsummen gefordert:\n\n- für Personenschäden in Höhe von mindestens 2,5 Mio. EUR\n- für sonstige Schäden (Sach- und Vermögensschäden) in Höhe von mindestens 1,0 Mio. EUR"
+     },
+     {
+      "type": "slc-suit-reg-prof",
+      "description": "Eigenerklärung, dass eine Eintragung im Berufs- oder Handelsregister, sowie bei der Berufsgenossenschaft (soweit hierzu eine Eintragungspflicht besteht) vorliegt"
+     },
+     {
+      "type": "slc-suit-reg-trade",
+      "description": "Eigenerklärung, dass eine Eintragung im Berufs- oder Handelsregister, sowie bei der Berufsgenossenschaft (soweit hierzu eine Eintragungspflicht besteht) vorliegt"
+     }
+    ]
+   }
+  ]
+ }
+}

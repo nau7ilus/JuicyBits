@@ -1,0 +1,173 @@
+{
+ "id": "8a426081-4ced-48d9-a443-699e07c1c66c-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "8a426081-4ced-48d9-a443-699e07c1c66c",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8a426081-4ced-48d9-a443-699e07c1c66c",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:8a426081-4ced-48d9-a443-699e07c1c66c-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:8a426081-4ced-48d9-a443-699e07c1c66c-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/8a426081-4ced-48d9-a443-699e07c1c66c?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Abschluss RV Matratzenreinigung",
+  "buyer": "Bundeswehr-Dienstleistungszentrum Landsberg am Lech",
+  "cpv": [
+   "90900000"
+  ],
+  "nuts": [
+   "DE21E"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-28e5aeb8-82f0-4252-a018-ba0d4d5adc07",
+  "id": "8a426081-4ced-48d9-a443-699e07c1c66c",
+  "date": "2026-10-29T03:24:06Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bundeswehr-Dienstleistungszentrum Landsberg am Lech",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "991-14590-31",
+     "legalName": "Bundeswehr-Dienstleistungszentrum Landsberg am Lech"
+    },
+    "address": {
+     "streetAddress": "Siegfried-Meister-Straße 10",
+     "locality": "Landsberg",
+     "region": "DE21E",
+     "postalCode": "86899",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Vergabekammer des Bundes",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "t: 022894990",
+     "legalName": "Vergabekammer des Bundes"
+    },
+    "address": {
+     "locality": "Bonn",
+     "region": "DEA22",
+     "postalCode": "53113",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bundeswehr-Dienstleistungszentrum Landsberg am Lech",
+   "id": "991-14590-31",
+   "identifier": {
+    "id": "ORG-7001",
+    "legalName": "Bundeswehr-Dienstleistungszentrum Landsberg am Lech"
+   },
+   "address": {
+    "streetAddress": "Siegfried-Meister-Straße 10",
+    "locality": "Landsberg",
+    "region": "DE21E",
+    "postalCode": "86899",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "28e5aeb8-82f0-4252-a018-ba0d4d5adc07",
+   "title": "Abschluss RV Matratzenreinigung",
+   "description": "Abschluss einer Rahmenvereinbarung über die Matratzenreinigung",
+   "procuringEntity": {
+    "name": "Bundeswehr-Dienstleistungszentrum Landsberg am Lech",
+    "id": "991-14590-31"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "90900000",
+      "description": "Cleaning and sanitation services"
+     },
+     "deliveryAddress": {
+      "locality": "Landsberg am Lech",
+      "region": "DE21E",
+      "postalCode": "86899",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Abschluss RV Matratzenreinigung",
+     "description": "gemäß Vergabeunterlagen",
+     "contractPeriod": {
+      "startDate": "2027-04-01T00:00:00+02:00",
+      "endDate": "2031-03-31T00:00:00+02:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "status": "unsuccessful",
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "8a426081-4ced-48d9-a443-699e07c1c66c",
+  "version": "01",
+  "title": "Abschluss RV Matratzenreinigung",
+  "nuts": [
+   "DE21E"
+  ],
+  "cpv": [
+   "90900000"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Abschluss RV Matratzenreinigung",
+    "cpv": [
+     "90900000"
+    ],
+    "nuts": [
+     "DE21E"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-04-01+02:00",
+    "plannedEnd": "2031-03-31+02:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

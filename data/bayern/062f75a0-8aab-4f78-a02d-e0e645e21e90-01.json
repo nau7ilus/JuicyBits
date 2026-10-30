@@ -1,0 +1,223 @@
+{
+ "id": "062f75a0-8aab-4f78-a02d-e0e645e21e90-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "062f75a0-8aab-4f78-a02d-e0e645e21e90",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=062f75a0-8aab-4f78-a02d-e0e645e21e90",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:062f75a0-8aab-4f78-a02d-e0e645e21e90-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:062f75a0-8aab-4f78-a02d-e0e645e21e90-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/062f75a0-8aab-4f78-a02d-e0e645e21e90?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+  "buyer": "Technische Universität München",
+  "cpv": [
+   "38433300"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-2354ecf2-5f72-4f1d-b42d-b951b8a5143c",
+  "id": "062f75a0-8aab-4f78-a02d-e0e645e21e90",
+  "date": "2026-10-29T03:22:15Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Technische Universität München",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "09-1512011-61",
+     "legalName": "Technische Universität München"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80333",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern Vergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "09-0318006-60",
+     "legalName": "Regierung von Oberbayern Vergabekammer Südbayern"
+    },
+    "address": {
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Rohde & Schwarz GmbH & Co. KG",
+    "id": "ORG-0003",
+    "identifier": {
+     "id": "UStID DE130256683",
+     "legalName": "Rohde & Schwarz GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Mühldorfstraße 15",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81671",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Technische Universität München",
+   "id": "09-1512011-61",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Technische Universität München"
+   },
+   "address": {
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80333",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "2354ecf2-5f72-4f1d-b42d-b951b8a5143c",
+   "title": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+   "description": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+   "procuringEntity": {
+    "name": "Technische Universität München",
+    "id": "09-1512011-61"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "38433300",
+      "description": "Spectrum analyser"
+     },
+     "deliveryAddress": {
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "80333",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "goods",
+   "awardPeriod": {
+    "endDate": "2026-10-18T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Rohde & Schwarz GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-0003",
+      "legalName": "Rohde & Schwarz GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Mühldorfstraße 15",
+      "locality": "München",
+      "region": "DE212",
+      "postalCode": "81671",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+     "description": "Lieferleistung von Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+     "contractPeriod": {
+      "durationInDays": 70
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0001",
+    "status": "active",
+    "date": "2026-10-26T00:00:00+01:00",
+    "relatedLots": [
+     "LOT-0001"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "status": "active",
+    "items": [
+     {
+      "id": "LOT-0001",
+      "relatedLot": "LOT-0001"
+     }
+    ],
+    "dateSigned": "2026-10-25T23:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "062f75a0-8aab-4f78-a02d-e0e645e21e90",
+  "version": "01",
+  "title": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+  "nuts": [
+   "DE212"
+  ],
+  "cpv": [
+   "38433300"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0001",
+    "title": "Zweikanaliger Spektrumanalysator mit Kreuzkorrelation bis 44 GHz",
+    "cpv": [
+     "38433300"
+    ],
+    "nuts": [
+     "DE212"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": null,
+    "plannedEnd": null,
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

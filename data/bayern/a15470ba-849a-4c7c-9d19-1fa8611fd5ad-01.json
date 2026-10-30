@@ -1,0 +1,229 @@
+{
+ "id": "a15470ba-849a-4c7c-9d19-1fa8611fd5ad-01",
+ "source": {
+  "pubDay": "2026-10-29",
+  "noticeId": "a15470ba-849a-4c7c-9d19-1fa8611fd5ad",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a15470ba-849a-4c7c-9d19-1fa8611fd5ad",
+  "ocdsFile": "notices_2026-10-29_OCDS.zip:a15470ba-849a-4c7c-9d19-1fa8611fd5ad-01.json",
+  "eformsFile": "notices_2026-10-29_eForms.zip:a15470ba-849a-4c7c-9d19-1fa8611fd5ad-01.xml",
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/a15470ba-849a-4c7c-9d19-1fa8611fd5ad?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "award"
+  ],
+  "noticeType": "ContractAwardNotice",
+  "title": "Dachabdichtungsarbeiten",
+  "buyer": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+  "cpv": [
+   "45261410"
+  ],
+  "nuts": [
+   "DE252"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-1d5664af-17e1-4426-94a0-aa94e79acb8b",
+  "id": "a15470ba-849a-4c7c-9d19-1fa8611fd5ad",
+  "date": "2026-10-29T03:26:08Z",
+  "tag": [
+   "award"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "t:09113507199",
+     "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+    },
+    "address": {
+     "streetAddress": "Bohlenplatz 18",
+     "locality": "Erlangen",
+     "region": "DE252",
+     "postalCode": "91054",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "procurementServiceProvider",
+     "reviewBody"
+    ]
+   },
+   {
+    "name": "Gebrüder Rückert GmbH & Co. KG",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE275839618",
+     "legalName": "Gebrüder Rückert GmbH & Co. KG"
+    },
+    "address": {
+     "streetAddress": "Weiherstaße 58",
+     "locality": "Gosheim",
+     "region": "DE137",
+     "postalCode": "78559",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "tenderer",
+     "supplier"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau",
+   "id": "t:09113507199",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Staatliches Bauamt Erlangen-Nürnberg, Technische Geschäftsleitung,  SG Bau"
+   },
+   "address": {
+    "streetAddress": "Bohlenplatz 18",
+    "locality": "Erlangen",
+    "region": "DE252",
+    "postalCode": "91054",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "1d5664af-17e1-4426-94a0-aa94e79acb8b",
+   "title": "Dachabdichtungsarbeiten",
+   "description": "ca. 2145 m2 bituminöse Abdichtungsbahn (oberste Dachflächen) \nca. 475 m² EPS-Dämmung mit Gefälle, \nca. 215 m² Schaumglasdämmung mit Gefälle \nca. 1.450 m² MW-Dämmung mit Gefälle \nca. 120 m Auflastgeländer \nca. 475 m² Gründachaufbau",
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "45261410",
+      "description": "Roof insulation work"
+     },
+     "deliveryAddress": {
+      "locality": "Erlangen",
+      "region": "DE252",
+      "postalCode": "91058",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "works",
+   "awardPeriod": {
+    "endDate": "2026-08-28T00:00:00+02:00"
+   },
+   "numberOfTenderers": 1,
+   "tenderers": [
+    {
+     "name": "Gebrüder Rückert GmbH & Co. KG",
+     "identifier": {
+      "id": "ORG-9000",
+      "legalName": "Gebrüder Rückert GmbH & Co. KG"
+     },
+     "address": {
+      "streetAddress": "Weiherstaße 58",
+      "locality": "Gosheim",
+      "region": "DE137",
+      "postalCode": "78559",
+      "countryName": "DEU"
+     }
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "Dachabdichtungsarbeiten",
+     "description": "ca. 2145 m2 bituminöse Abdichtungsbahn (oberste Dachflächen) \nca. 475 m² EPS-Dämmung mit Gefälle, \nca. 215 m² Schaumglasdämmung mit Gefälle \nca. 1.450 m² MW-Dämmung mit Gefälle \nca. 120 m Auflastgeländer \nca. 475 m² Gründachaufbau",
+     "contractPeriod": {
+      "startDate": "2027-04-19T00:00:00+02:00",
+      "endDate": "2028-11-30T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "awards": [
+   {
+    "id": "LOT-0000",
+    "title": "Dachabdichtungsarbeiten",
+    "status": "active",
+    "date": "2026-08-28T00:00:00+02:00",
+    "suppliers": [
+     {
+      "name": "Gebrüder Rückert GmbH & Co. KG",
+      "id": "DE275839618",
+      "identifier": {
+       "id": "ORG-9000",
+       "legalName": "Gebrüder Rückert GmbH & Co. KG"
+      },
+      "address": {
+       "streetAddress": "Weiherstaße 58",
+       "locality": "Gosheim",
+       "region": "DE137",
+       "postalCode": "78559",
+       "countryName": "DEU"
+      }
+     }
+    ],
+    "relatedLots": [
+     "LOT-0000"
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "id": "CON-0001",
+    "awardID": "CON-0001",
+    "title": "Dachabdichtungsarbeiten",
+    "status": "active",
+    "value": {
+     "amount": 619999,
+     "currency": "EUR"
+    },
+    "items": [
+     {
+      "id": "LOT-0000",
+      "relatedLot": "LOT-0000"
+     }
+    ],
+    "dateSigned": "2026-08-27T22:00:00.000Z"
+   }
+  ],
+  "language": "DEU"
+ },
+ "eforms": {
+  "noticeType": "ContractAwardNotice",
+  "noticeSubType": "29",
+  "noticeId": "a15470ba-849a-4c7c-9d19-1fa8611fd5ad",
+  "version": "01",
+  "title": "Dachabdichtungsarbeiten",
+  "nuts": [
+   "DE252"
+  ],
+  "cpv": [
+   "45261410"
+  ],
+  "estimatedValue": null,
+  "lots": [
+   {
+    "id": "LOT-0000",
+    "title": "Dachabdichtungsarbeiten",
+    "cpv": [
+     "45261410"
+    ],
+    "nuts": [
+     "DE252"
+    ],
+    "deadline": null,
+    "participationDeadline": null,
+    "plannedStart": "2027-04-19+02:00",
+    "plannedEnd": "2028-11-30+01:00",
+    "estimatedValue": null,
+    "smeSuitable": null,
+    "selectionCriteria": []
+   }
+  ]
+ }
+}

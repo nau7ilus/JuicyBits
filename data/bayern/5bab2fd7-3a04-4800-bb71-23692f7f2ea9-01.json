@@ -1,0 +1,149 @@
+{
+ "id": "5bab2fd7-3a04-4800-bb71-23692f7f2ea9-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "5bab2fd7-3a04-4800-bb71-23692f7f2ea9",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=5bab2fd7-3a04-4800-bb71-23692f7f2ea9",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:5bab2fd7-3a04-4800-bb71-23692f7f2ea9-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/5bab2fd7-3a04-4800-bb71-23692f7f2ea9?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "Dienstleister Veranstaltungsausstattungen",
+  "buyer": "Bayern Tourismus Marketing GmbH",
+  "cpv": [
+   "79950000",
+   "79900000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-f4fda4d8-0af5-4459-bc04-e3d61f5d26b2",
+  "id": "5bab2fd7-3a04-4800-bb71-23692f7f2ea9",
+  "date": "2026-10-28T03:22:09Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Bayern Tourismus Marketing GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE203066713",
+     "legalName": "Bayern Tourismus Marketing GmbH"
+    },
+    "address": {
+     "streetAddress": "Arabellastr. 17",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "81925",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint",
+     "submissionReceiptBody"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "498921762411",
+     "legalName": "Regierung von Oberbayern"
+    },
+    "address": {
+     "streetAddress": "Vergabekammer Südbayern",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80534",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Bayern Tourismus Marketing GmbH",
+   "id": "DE203066713",
+   "identifier": {
+    "id": "ORG-0001",
+    "legalName": "Bayern Tourismus Marketing GmbH"
+   },
+   "address": {
+    "streetAddress": "Arabellastr. 17",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "81925",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "f4fda4d8-0af5-4459-bc04-e3d61f5d26b2",
+   "title": "Dienstleister Veranstaltungsausstattungen",
+   "description": "Herstellung und Lieferung von Printprodukten",
+   "procuringEntity": {
+    "name": "Bayern Tourismus Marketing GmbH",
+    "id": "DE203066713"
+   },
+   "items": [
+    {
+     "id": "LOT-0001",
+     "classification": {
+      "scheme": "CPV",
+      "id": "79950000",
+      "description": "Exhibition, fair and congress organisation services"
+     },
+     "additionalClassifications": [
+      {
+       "scheme": "CPV",
+       "id": "79900000",
+       "description": "Miscellaneous business and business-related services"
+      }
+     ],
+     "deliveryLocation": {
+      "description": "Abhängig vom Veranstaltungs-/Messestandort"
+     },
+     "relatedLot": "LOT-0001"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.dtvp.de/Satellite/notice/CXVHYD6DYH3QKUNS/documents",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0001"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0001",
+     "title": "Dienstleister Veranstaltungsausstattungen",
+     "description": "Für die Vorbereitung und Durchführung im Rahmen von Veranstaltungsausstattung benötigt die BayTM externe Unterstützung.",
+     "contractPeriod": {
+      "startDate": "2027-01-23T00:00:00+01:00",
+      "endDate": "2031-01-22T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}

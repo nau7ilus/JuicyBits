@@ -1,0 +1,141 @@
+{
+ "id": "880335ea-1062-4ef5-9f58-0d3ec03b9868-01",
+ "source": {
+  "pubDay": "2026-10-28",
+  "noticeId": "880335ea-1062-4ef5-9f58-0d3ec03b9868",
+  "link": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=880335ea-1062-4ef5-9f58-0d3ec03b9868",
+  "ocdsFile": "notices_2026-10-28_OCDS.zip:880335ea-1062-4ef5-9f58-0d3ec03b9868-01.json",
+  "eformsFile": null,
+  "noticeUri": "https://oeffentlichevergabe.de/api/notices/880335ea-1062-4ef5-9f58-0d3ec03b9868?format=ocds&noticeVersion=01"
+ },
+ "summary": {
+  "tag": [
+   "tender"
+  ],
+  "noticeType": null,
+  "title": "SV-JWA-261026-004 - Modernisierung U-Bahnhof Odeonsplatz, Planung Baulogistik",
+  "buyer": "Stadtwerke München GmbH",
+  "cpv": [
+   "71320000"
+  ],
+  "nuts": [
+   "DE212"
+  ],
+  "deadline": null,
+  "lots": 1
+ },
+ "ocds": {
+  "ocid": "ocds-mnwr74-a3afcbe6-1b78-4e64-8908-6b958d1394d4",
+  "id": "880335ea-1062-4ef5-9f58-0d3ec03b9868",
+  "date": "2026-10-28T03:24:18Z",
+  "tag": [
+   "tender"
+  ],
+  "initiationType": "tender",
+  "parties": [
+   {
+    "name": "Stadtwerke München GmbH",
+    "id": "ORG-0001",
+    "identifier": {
+     "id": "DE 812 500 229",
+     "legalName": "Stadtwerke München GmbH"
+    },
+    "address": {
+     "streetAddress": "Emmy-Noether-Straße 2",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80992",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "buyer",
+     "processContactPoint"
+    ]
+   },
+   {
+    "name": "Regierung von Oberbayern\nVergabekammer Südbayern",
+    "id": "ORG-0002",
+    "identifier": {
+     "id": "DE811335517",
+     "legalName": "Regierung von Oberbayern\nVergabekammer Südbayern"
+    },
+    "address": {
+     "streetAddress": "Maximiliansstraße 39",
+     "locality": "München",
+     "region": "DE212",
+     "postalCode": "80538",
+     "countryName": "DEU"
+    },
+    "roles": [
+     "reviewBody"
+    ]
+   }
+  ],
+  "buyer": {
+   "name": "Stadtwerke München GmbH",
+   "id": "DE 812 500 229",
+   "identifier": {
+    "id": "ORG-0000",
+    "legalName": "Stadtwerke München GmbH"
+   },
+   "address": {
+    "streetAddress": "Emmy-Noether-Straße 2",
+    "locality": "München",
+    "region": "DE212",
+    "postalCode": "80992",
+    "countryName": "DEU"
+   }
+  },
+  "tender": {
+   "id": "a3afcbe6-1b78-4e64-8908-6b958d1394d4",
+   "title": "SV-JWA-261026-004 - Modernisierung U-Bahnhof Odeonsplatz, Planung Baulogistik",
+   "description": "Modernisierung U-Bahnhof Odeonsplatz, Planung Baulogistik",
+   "procuringEntity": {
+    "name": "Stadtwerke München GmbH",
+    "id": "DE 812 500 229"
+   },
+   "items": [
+    {
+     "id": "LOT-0000",
+     "classification": {
+      "scheme": "CPV",
+      "id": "71320000",
+      "description": "Engineering design services"
+     },
+     "deliveryAddress": {
+      "region": "DE212",
+      "countryName": "DEU"
+     },
+     "relatedLot": "LOT-0000"
+    }
+   ],
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open",
+   "mainProcurementCategory": "services",
+   "numberOfTenderers": 0,
+   "documents": [
+    {
+     "id": "DOC-0001",
+     "url": "https://www.swm.de/einkauf/bekanntmachungen",
+     "language": "DEU",
+     "relatedLots": [
+      "LOT-0000"
+     ]
+    }
+   ],
+   "lots": [
+    {
+     "id": "LOT-0000",
+     "title": "SV-JWA-261026-004 - Modernisierung U-Bahnhof Odeonsplatz, Planung Baulogistik",
+     "description": "Auftragsgegenstand sind Leistungen zur Erstellung der Baulogistikplanung, sowie die baubegleitenden Baulogistikplanung mit stufenweiser Beauftragung für die Modernisierung des Kreuzungsbahnhofs am Odeonsplatz. Die Baumaßnahmen werden großteils im laufenden Betrieb durch mehrere Gewerke stattfinden. Planung und Ausführung erfolgen mit Hilfe des Building Information Modelling (BIM) und unter Berücksichtigung der üblichen Taxonomie und Nachhaltigkeitsaspekte.",
+     "contractPeriod": {
+      "startDate": "2027-01-01T00:00:00+01:00",
+      "endDate": "2034-12-31T00:00:00+01:00"
+     }
+    }
+   ]
+  },
+  "language": "DEU"
+ },
+ "eforms": null
+}
