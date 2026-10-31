@@ -12,7 +12,8 @@ import {loadSokosumiRuntime} from './sokosumi-runtime.mjs';
 import {taskTarget,isTaskForTarget} from './task-target.mjs';
 const target=taskTarget();
 const id=target.coworkerId;
-const releaseLock=acquireWorkerLock();
+// WORKER_LOCK: one lock per Coworker, so a second worker (e.g. the TUM Workspace Coworker) can run beside the first.
+const releaseLock=acquireWorkerLock(process.env.WORKER_LOCK?.trim()||undefined);
 process.once('exit',releaseLock);
 for(const signal of ['SIGINT','SIGTERM'])process.once(signal,()=>{releaseLock();process.exit(0)});
 function cli(args){return JSON.parse(execFileSync('sokosumi',['--preprod',...args,'--json'],{encoding:'utf8',timeout:30000,maxBuffer:4*1024*1024}));}

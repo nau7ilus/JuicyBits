@@ -103,7 +103,7 @@ npm run eval                                        # alle Testfälle
 Über Sokosumi (Preprod, Sokosumi-CLI 1.1.0):
 
 ```sh
-sokosumi --preprod agents hire 01a18f8f-7091-74ae-88a7-8b4856955f83 --input-file anfrage.json --max-credits 100 --json
+sokosumi --preprod agents hire 01a191f0-44a0-75e5-8156-ad7d4385d8fa --input-file anfrage.json --max-credits 100 --json
 sokosumi --preprod jobs get <JOB_ID> --json
 ```
 
