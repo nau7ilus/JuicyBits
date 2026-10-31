@@ -1,6 +1,6 @@
 ---
 name: assessment-prompt
-description: Tune TenderScout's German assessment prompt in agent/instructions.md (T6 criteria, point ranges, K.O. and to-do rules, strict JSON) and check the effect with npm run eval. Use for tickets T6 and T20 or when verdicts or scores look wrong.
+description: Tune JuicyBids's German assessment prompt in agent/instructions.md (T6 criteria, point ranges, K.O. and to-do rules, strict JSON) and check the effect with npm run eval. Use for tickets T6 and T20 or when verdicts or scores look wrong.
 ---
 
 # Assessment prompt

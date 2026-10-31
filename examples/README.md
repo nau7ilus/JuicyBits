@@ -21,10 +21,16 @@ T5 used the draft schema. Required Firmenpass fields that T5 does not state were
 | P2, P3 | `available_from` | `2026-12-01` | not stated in T5 |
 | P2 | `bid_lead_days` | 7 | exclusion "Restlaufzeit < 7 Kalendertage" |
 | P3 | `free_capacity` | 80–200 PT/Jahr | from `capacity_note` |
-| P3 | `references` | EVB-IT experience, public sector | was listed under certifications |
+| P3 | `references` | 3 fictional software-development jobs 2023–2025 (agile Java/TypeScript development for a state agency in Munich, a municipal IT provider in Upper Bavaria and a private insurance service provider; 60–140 person-days under EVB-IT, 62,000–145,000 €; 2 public, 1 private) | T11: the single T5 reference ("EVB-IT Projekterfahrung Öffentlicher Sektor Bayern") had no year, value or CPV and left B5 at the GO limit; replaced in the spirit of P1/P2 |
+| P3 | `revenue_band_eur`, `liability_insurance_eur` | `250k-1M`, 1,000,000 € | T11: not in T5; fictional, plausible for 4 senior developers billed per person-day |
+| P1 | `references` | 3 fictional roofing jobs 2023–2025 (system roof REI 30, fall-arrest nets, roof sheeting; 900–1,600 m², 160,000–340,000 €; 2 public, 1 private) | T11: B1 asks for 3 comparable references from the last 5 years (Formblatt 444); not in T5 |
+| P2 | `references` | 3 fictional maintenance-cleaning contracts 2021–2026 (school, library, private training centre; 2,400–6,200 m² NGF, 165,000–330,000 €; 2 public, 1 private) | T11: B3 asks for 3 references from the last five completed business years, at least 2 comparable; not in T5 |
+
+All references are invented for testing. Clients are described generically (no real names); the Firmenpass schema has no field to mark them, so they are marked here.
 
 ## Known differences to T5 expectations
-- B1 (Systemdach) and B3 (Stadtbücherei) come out as GO MIT AUFLAGE instead of GO: both notices require three comparable references and the T5 profiles list none. Under T6 that is a fixable gap. Adding `references` to P1 and P2 should give GO.
+- B1 (Systemdach) and B3 (Stadtbücherei) came out as GO MIT AUFLAGE without references (both notices require three). With the fictional `references` above, both are GO in two live runs (B1 75/75, B3 75/82).
+- B5 (Landtagsverwaltung, P3) was a borderline case with the original P3 (one reference without year, value or CPV, no revenue band): measured 64–77 across runs, flipping between GO and GO MIT AUFLAGE. With the three fictional `references`, `revenue_band_eur` and `liability_insurance_eur` added on 31 Oct it is GO in two live runs (81, 73). The margin stays small because the notice has no value or start date. Details: `docs/tickets/T11/abweichungen.md`.
 - B2, the steel case and B4 are dropped by the deterministic prefilter (value above `max_value_eur`, deadline shorter than `bid_lead_days`). The outcome NO-GO matches T5.
 Latest live run: `docs/tickets/T11/t5-eval-live.md`.
 

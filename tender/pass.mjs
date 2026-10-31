@@ -41,7 +41,7 @@ const PassSchema=z.object({
  exclusions:list,
  lookback_days:z.number().int().min(1).max(60).default(14),
 }).refine(p=>p.min_value_eur<=p.max_value_eur,{message:'min_value_eur muss kleiner oder gleich max_value_eur sein',path:['min_value_eur']})
- .refine(p=>p.states.every(s=>s in STATE_NUTS),{message:'TenderScout deckt nur Bayern ab: states muss ["DE-BY"] sein',path:['states']})
+ .refine(p=>p.states.every(s=>s in STATE_NUTS),{message:'JuicyBids deckt nur Bayern ab: states muss ["DE-BY"] sein',path:['states']})
  .refine(p=>p.trades.every(t=>t in TRADE_CPV),{message:'trades enthält eine unbekannte Leistung',path:['trades']});
 export class PassError extends Error{constructor(issues){super(`Firmenpass ungültig: ${issues.join('; ')}`);this.issues=issues;}}
 // Accepts the pass as object or JSON text (a Sokosumi task description). Returns the pass with derived fields filled in.

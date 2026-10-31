@@ -1,6 +1,6 @@
 ---
 name: tender-test-cases
-description: Maintain TenderScout test cases - Firmenpass profiles in examples/, expected verdicts in examples/t5-expected.json - and run npm run eval to compare the live pipeline with them. Use for tickets T5 and T11 or when checking assessment quality.
+description: Maintain JuicyBids test cases - Firmenpass profiles in examples/, expected verdicts in examples/t5-expected.json - and run npm run eval to compare the live pipeline with them. Use for tickets T5 and T11 or when checking assessment quality.
 ---
 
 # Tender test cases

@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import { registrationUrl, requireSavedRuntimeToken, requireAgentAuthor } from './registration-config.mjs';
+import { USDM } from './paid-task.mjs';
 const statePath = 'docs/registration-state.json';
 const payment = JSON.parse(fs.readFileSync('docs/payment-state.json'));
 let state = fs.existsSync(statePath) ? JSON.parse(fs.readFileSync(statePath)) : {provenance:'VERIFIED', sourceId:payment.sourceId, walletId:payment.walletId};
@@ -20,11 +21,16 @@ if(process.argv[2]==='key'){
  const author=requireAgentAuthor(process.env.AGENT_AUTHOR);
  if(state.registrationId){console.log('Registration already saved',state.registrationId);process.exit(0);}
  if(state.registrationWritePending)throw Error('Previous registration write uncertain; inspect registry before retry');
+ // The minted metadata is immutable: register only the public MIP-003 URL that Sokosumi and the registry can reach.
+ if(!process.env.AGENT_PUBLIC_URL)throw Error('AGENT_PUBLIC_URL must be set to the public https URL of the MIP-003 API before registration');
+ const apiBaseUrl=registrationUrl(process.env.AGENT_API_PORT,process.env.AGENT_PUBLIC_URL);
+ if(!process.env.OPENAI_MODEL?.trim())throw Error('OPENAI_MODEL must name the model for the registry Capability');
  const wallet=await request(`/wallet?walletType=Selling&id=${payment.walletId}`);
  const sources=await request('/payment-source?take=100');
  const find=(x)=>{if(Array.isArray(x)){for(const y of x){const r=find(y);if(r)return r;}}else if(x&&typeof x==='object'){if(x.id===payment.sourceId)return x;for(const y of Object.values(x)){const r=find(y);if(r)return r;}}};
  const source=find(sources);if(!source||wallet.walletAddress!==payment.sellerAddress)throw Error('Dedicated source or wallet mismatch');
- const body={network:'Preprod',type:'Standard',sellingWalletVkey:wallet.walletVkey,supportedPaymentSources:[{chain:'Cardano',network:'Preprod',paymentSourceType:'Web3CardanoV2',address:source.smartContractAddress,pricing:{pricingType:'Dynamic'}}],ExampleOutputs:[],Tags:['hackathon','tenders','bavaria'],name:'TenderScout',description:'Ranked, verified shortlist of open Bavarian public tenders with go/no-go reasoning for a contractor profile (Firmenpass).',Capability:{name:process.env.OPENAI_MODEL,version:'1'},Author:{name:author},apiBaseUrl:registrationUrl(process.env.AGENT_API_PORT)};
+ // name 'TenderScout': the on-chain registration keeps the old product name (T13 freeze); the product is JuicyBids.
+ const body={network:'Preprod',type:'Standard',sellingWalletVkey:wallet.walletVkey,supportedPaymentSources:[{chain:'Cardano',network:'Preprod',paymentSourceType:'Web3CardanoV2',address:source.smartContractAddress,pricing:{pricingType:'Fixed',fixed:[{asset:USDM,amount:'1000000'}]}}],ExampleOutputs:[],Tags:['hackathon','tenders','bavaria'],name:'TenderScout',description:'Ranked, verified shortlist of open Bavarian public tenders with go/no-go reasoning from a free-text request or a Firmenpass JSON.',Capability:{name:process.env.OPENAI_MODEL.trim(),version:'1'},Author:{name:author},apiBaseUrl};
  state.registrationWritePending=true;state.request=body;save();
  const r=await request('/registry',body);state.registrationId=r.id;state.registrationWritePending=false;state.registration=r;save();console.log(JSON.stringify(r));
 }else{

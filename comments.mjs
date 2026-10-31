@@ -13,7 +13,7 @@ async function openSession(sessionFile,resultFile){
  const {session}=await client.sessions.create();
  writeFileSync(sessionFile,JSON.stringify({sessionId:session.state.sessionId,phase:'comments'}),{mode:0o600});
  const report=readFileSync(resultFile,'utf8').slice(0,REPORT_LIMIT);
- return {sessionId:session.state.sessionId,context:`Dies ist der TenderScout-Bericht zu diesem Auftrag. Der Nutzer stellt dazu jetzt eine Rückfrage. Antworte auf Deutsch in kurzem Fließtext und stütze dich nur auf diesen Bericht.\n\n${report}\n\nRückfrage: `};
+ return {sessionId:session.state.sessionId,context:`Dies ist der JuicyBids-Bericht zu diesem Auftrag. Der Nutzer stellt dazu jetzt eine Rückfrage. Antworte auf Deutsch in kurzem Fließtext und stütze dich nur auf diesen Bericht.\n\n${report}\n\nRückfrage: `};
 }
 export async function reply(task){
  assertTaskTarget(task,target);

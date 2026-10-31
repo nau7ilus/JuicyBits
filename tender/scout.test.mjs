@@ -52,7 +52,16 @@ test('report lists GO before GO MIT AUFLAGE, hides NO-GO and the footer hash cov
  const f=footer(report),markdown=report.slice(0,report.lastIndexOf('\n\n```json'));
  assert.equal(f.sha256,sha256(markdown));assert.deepEqual([f.matches,f.verified,f.go,f.conditional,f.source_date],[3,3,1,1,'2026-10-29']);
  assert.ok(report.indexOf('Dacharbeiten a')<report.indexOf('Dacharbeiten b'));assert.doesNotMatch(report,/Dacharbeiten c/);
- assert.match(report,/\*\*GO\*\* · 89\/100/);assert.match(report,/\*\*GO MIT AUFLAGE\*\* · 69\/100/);
+ assert.match(report,/\*\*🟢 GO\*\* · █████████░ 89\/100/);assert.match(report,/\*\*🟡 GO MIT AUFLAGE\*\* · ███████░░░ 69\/100/);
+ assert.match(report,/## 2 Ausschreibungen, die Sie realistisch gewinnen können\./);
+ assert.match(report,/3 neue Bekanntmachungen passten zu Ihrem Gewerk und Ihrer Region\. Wir haben jede gegen Ihren Firmenpass geprüft und 2 aussortiert\./);
+ assert.match(report,/\| GEWERK \| REGION \| AUFTRAGSGRÖSSE \| FREI AB \| NACHWEISE \|\n\|---\|---\|---\|---\|---\|\n\| dachdecker \| Bayern \| 20\.000–500\.000\s€ \| 15\.01\.2027 \| Präqualifikation Bau \(PQ-VOB\), Meisterbetrieb \/ Handwerksrolle \|/);
+ assert.match(report,/\| 1 \| \*\*Dacharbeiten a\*\* — Stadt Musterstadt · DE212 · Fachliche Passung \(description\): Flachdach\. — ▸ Keine Auflage \| 30\.11\.2026 \(noch 31 Tage\) \| 100\.000\s€ \| 🟢 GO \| █████████░ 89 % \| \[Öffnen\]\(https:\/\/oeffentlichevergabe\.de\/ui\/de\/search\/details\?noticeId=a\) \|/);
+ assert.match(report,/\| 2 \| \*\*Dacharbeiten b\*\* — [^\n]* ▸ Haftpflicht auf 5 Mio\. € erhöhen, ca\. 3 Tage \| [^\n]* \| – \| 🟡 GO MIT AUFLAGE \| ███████░░░ 69 % \|/);
+ assert.match(report,/`GO 1 · GO MIT AUFLAGE 1 · NO-GO 1 · 1 im Vorfilter aussortiert`/);
+ assert.match(report,/## 1 Ausschreibung ist NO-GO\. Darum\./);assert.match(report,/## So entsteht die Punktzahl\./);
+ assert.match(report,/Eignung {12}██████████ 35\/35\nLeistbarkeit {7}██████████ 25\/25\nWirtschaftlichkeit ███████░░░ 18\/25\nRisiko {13}███████░░░ 11\/15/);
+ assert.ok(report.indexOf('BEZAHLT AUF CARDANO')<report.indexOf('## Treffer im Detail'));
  assert.match(report,/To-do bis zur Frist\*\*\n- Haftpflicht auf 5 Mio\. € erhöhen, ca\. 3 Tage/);
  assert.match(report,/Stufe A: Haupt-CPV ist ein spezifischer Branchencode/);
  assert.match(report,/Angebotsfrist 30\.11\.2026, 09:00 Uhr \(noch 31 Tage\)/);
@@ -61,7 +70,7 @@ test('report lists GO before GO MIT AUFLAGE, hides NO-GO and the footer hash cov
 });
 test('zero matches is a valid result and invalid passes get a readable answer',async()=>{
  const empty=await scout(EXAMPLE_PASS,null,undefined,{records:[record('x',{cpv:['90911000']})],now:NOW,ask:async()=>{throw new Error('model must not be called')}});
- assert.match(empty,/Keine Ausschreibung lohnt sich/);assert.equal(footer(empty).matches,0);
+ assert.match(empty,/## Keine Ausschreibung, die sich für Sie lohnt\./);assert.equal(footer(empty).matches,0);assert.doesNotMatch(empty,/\| # \| AUSSCHREIBUNG/);
  assert.match(await scout('{"trade":"dachdecker"}',null,undefined,{records:[],now:NOW}),/Firmenpass ungültig/);
 });
 test('report escapes Markdown in model text',()=>{
@@ -81,11 +90,23 @@ test('free-text intake adds the understanding block and the hash still covers it
  const f=footer(report),markdown=report.slice(0,report.lastIndexOf('\n\n```json'));
  assert.equal(f.sha256,sha256(markdown));
  assert.match(report,/## So wurde Ihre Anfrage verstanden/);assert.match(report,/\*\*Annahmen\*\*\n- A1 Datenbasis nur Bayern/);assert.match(report,/\*\*Offene Punkte\*\*\n- Q1 Zertifikate\?/);
- assert.ok(report.indexOf('So wurde Ihre Anfrage verstanden')<report.indexOf('**Ergebnis:**'));
+ assert.ok(report.indexOf('## Treffer im Detail')<report.indexOf('So wurde Ihre Anfrage verstanden'));assert.ok(report.indexOf('So wurde Ihre Anfrage verstanden')<report.indexOf('_Quelle:'));
 });
 test('JSON passes render no understanding block',async()=>{
  const report=await scout(JSON.stringify(EXAMPLE_PASS),null,undefined,{records:[record('a')],now:NOW,ask:async()=>reply([judgement('a')])});
  assert.doesNotMatch(report,/So wurde Ihre Anfrage verstanden/);
+});
+test('PDF export writes a PDF whose footer carries the Markdown hash',async()=>{
+ const {renderPdf}=await import('./pdf.mjs');
+ const {mkdtempSync,readFileSync,rmSync}=await import('node:fs');const {tmpdir}=await import('node:os');const {join}=await import('node:path');
+ const [facts]=prefilter(pass,[record('a')],NOW).candidates;
+ const [m]=mergeJudgements([facts],[judgement('a',{reasons:['Größe & Umlaute: äöüß €']})]).assessed;
+ const data={pass,verified:[m],excluded:{'Region passt nicht':1},coverage:{firstDay:'2026-10-29',lastDay:'2026-10-29'},intake:{source:'text',assumptions:['A1'],questions:['Q1?']},now:NOW};
+ const markdownResult=renderReport(data),dir=mkdtempSync(join(tmpdir(),'juicybids-'));
+ try{
+  const out=await renderPdf({...data,markdownResult},join(dir,'r.pdf')),pdf=readFileSync(out);
+  assert.equal(pdf.subarray(0,5).toString(),'%PDF-');assert.ok(pdf.length>2000);
+ }finally{rmSync(dir,{recursive:true,force:true})}
 });
 test('offline placeholder answers an intake prompt with a valid IT pass',async()=>{
  const answer=JSON.parse(await placeholder('AUFGABE: Firmenpass ableiten.\n\nFREITEXT:\nWir suchen IT-Aufträge.'));

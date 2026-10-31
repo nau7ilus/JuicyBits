@@ -1,6 +1,6 @@
 ---
 name: pitch-docs
-description: Write TenderScout's business case, README, Devfolio text and video storyboard from verified project facts and evidence. Use for tickets T14-T17, T22, T23 or any submission text.
+description: Write JuicyBids's business case, README, Devfolio text and video storyboard from verified project facts and evidence. Use for tickets T14-T17, T22, T23 or any submission text.
 ---
 
 # Pitch and docs

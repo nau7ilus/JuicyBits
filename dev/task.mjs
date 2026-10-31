@@ -17,7 +17,7 @@ const createArgs=target.taskArgs.length?target.taskArgs:['--personal'];
 const cli=a=>{const r=run('sokosumi',['--preprod',...a,'--json']);if(!r.ok)throw new Error(r.err||r.out||'sokosumi fehlgeschlagen');return JSON.parse(r.out);};
 mkdirSync(OUT,{recursive:true,mode:0o700});
 const description=readFileSync(file,'utf8');
-const name=nameArg??`TenderScout ${basename(file).replace(/\.(pass|profile)\.json$|\.(prompt\.)?txt$/,'')} ${new Date().toISOString().slice(0,10)}`;
+const name=nameArg??`JuicyBids ${basename(file).replace(/\.(pass|profile)\.json$|\.(prompt\.)?txt$/,'')} ${new Date().toISOString().slice(0,10)}`;
 console.log(color.dim(`Task anlegen: ${name} (${createArgs.join(' ')})`));
 const created=cli(['tasks','create',...createArgs,'--coworker-id',target.coworkerId,'--name',name,'--description',description,'--status','READY']);
 const id=created.task?.id;

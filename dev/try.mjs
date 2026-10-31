@@ -62,7 +62,7 @@ function compare(profile,rows){
 
 const live=Boolean(process.env.OPENAI_API_KEY&&process.env.OPENAI_MODEL);
 let file=null,pass=null,mode=live?'live':'offline';
-console.log(color.bold('TenderScout – interaktiver Test')+color.dim('  q = Ende'));
+console.log(color.bold('JuicyBids – interaktiver Test')+color.dim('  q = Ende'));
 if(!live)console.log(color.dim('OPENAI_API_KEY/OPENAI_MODEL fehlen: nur Offline-Modus. Siehe npm run setup.'));
 while(true){
  const examples=readdirSync('examples').filter(f=>/\.(pass|profile)\.json$|\.prompt\.txt$/.test(f)).sort();

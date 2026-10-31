@@ -1,5 +1,6 @@
 import {chmodSync,copyFileSync,existsSync,readFileSync} from 'node:fs';
 import {eveAddress} from '../start.mjs';
+import {registrationUrl} from '../registration-config.mjs';
 import {ask,closePrompt,color,confirm,interactive,readEnv,reachable,run} from './common.mjs';
 // Developer setup: checks tools, login, .env and data, offers the safe local steps and lists what the participant must provide.
 // npm run setup            interactive (offers npm ci, .env, login, npm test)
@@ -23,16 +24,17 @@ const HELP={
  SOKOSUMI_ORGANIZATION_SLUG:'leer = Personal Workspace; sonst Slug passend zur Organization-ID',
  BLOCKFROST_API_KEY_PREPROD:'Blockfrost-Projekt-Key für Cardano Preprod (nur bezahlte Jobs)',
  AGENT_AUTHOR:'euer Autorname, Pflicht vor der Agent-Registrierung (nur bezahlte Jobs)',
+ AGENT_PUBLIC_URL:'öffentliche https-URL der MIP-003-API (ngrok-Domain), Pflicht vor der Registrierung (nur bezahlte Jobs)',
  PAID_TASKS_ENABLED:'false bis der unbezahlte Task läuft',
 };
 const STAGES=[
  ['Offline-Test (npm run try, Modus offline)',[]],
  ['Live-Bewertung mit Modell (npm start + npm run try)',['OPENAI_API_KEY','OPENAI_MODEL','EVE_PORT','EVE_URL']],
  ['Sokosumi-Task (npm start + npm run worker)',['COWORKER_ID']],
- ['Bezahlte Preprod-Jobs (T13, npm run api)',['BLOCKFROST_API_KEY_PREPROD','AGENT_AUTHOR']],
+ ['Bezahlte Preprod-Jobs (T13, npm run api)',['BLOCKFROST_API_KEY_PREPROD','AGENT_AUTHOR','AGENT_PUBLIC_URL']],
 ];
 
-console.log(color.bold('TenderScout – Entwicklungs-Setup')+(checkOnly?color.dim('  (nur Prüfung, keine Änderungen)'):''));
+console.log(color.bold('JuicyBids – Entwicklungs-Setup')+(checkOnly?color.dim('  (nur Prüfung, keine Änderungen)'):''));
 
 section('1. Werkzeuge');
 const major=Number(process.versions.node.split('.')[0]);
@@ -61,6 +63,7 @@ try{eveAddress({EVE_PORT:env.EVE_PORT,EVE_URL:env.EVE_URL});line('ok','EVE_PORT 
 catch(e){need(e.message,HELP.EVE_URL);}
 if(set('OPENAI_CONTEXT_WINDOW_TOKENS')&&!(Number.isSafeInteger(Number(env.OPENAI_CONTEXT_WINDOW_TOKENS))&&Number(env.OPENAI_CONTEXT_WINDOW_TOKENS)>0))need('OPENAI_CONTEXT_WINDOW_TOKENS muss eine positive ganze Zahl sein');
 if(env.PAID_TASKS_ENABLED&&!['true','false'].includes(env.PAID_TASKS_ENABLED))need('PAID_TASKS_ENABLED muss true oder false sein');
+if(set('AGENT_PUBLIC_URL'))try{registrationUrl(env.AGENT_API_PORT||'21950',env.AGENT_PUBLIC_URL)}catch(e){need(e.message,HELP.AGENT_PUBLIC_URL)}
 if(set('SOKOSUMI_ORGANIZATION_ID')!==set('SOKOSUMI_ORGANIZATION_SLUG'))need('SOKOSUMI_ORGANIZATION_ID und _SLUG nur gemeinsam setzen',HELP.SOKOSUMI_ORGANIZATION_ID);
 for(const [stage,keys] of STAGES){
  const missing=keys.filter(k=>!set(k));

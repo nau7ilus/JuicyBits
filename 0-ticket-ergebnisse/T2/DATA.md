@@ -1,4 +1,4 @@
-# TenderScout data handover (B1, as of 30 Oct 2026)
+# JuicyBids data handover (B1, as of 30 Oct 2026)
 
 ## 1. Open-data endpoint
 Datenservice Öffentlicher Einkauf (oeffentlichevergabe.de), Open Data API, no login, licence CC0.

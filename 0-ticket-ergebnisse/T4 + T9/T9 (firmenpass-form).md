@@ -1,6 +1,6 @@
 # Firmenpass – Form by steps
 
-TenderScout company pass: the six steps of the form, the pass the agent receives, and what every field means.
+JuicyBids company pass: the six steps of the form, the pass the agent receives, and what every field means.
 Source of truth for catalogue and validation: `trades.mjs`. CPV codes still need a check against the official CPV list (T3).
 
 ## 1. Form definition by steps

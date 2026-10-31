@@ -1,14 +1,19 @@
-# TenderScout – Stand und Testanleitung
+# JuicyBids – Stand und Testanleitung
 
-Stand: Sa 31.10.2026, ca. 00:05. Für das ganze Team. Regeln und Befehle für Agenten: `AGENTS.md`.
+Stand: Sa 31.10.2026, ca. 11:15. Für das ganze Team. Regeln und Befehle für Agenten: `AGENTS.md`.
 
 ## Kurzfassung
+- **T13 ist komplett belegt, Track qualifiziert.** JuicyBids ist als Masumi-Agent auf Cardano Preprod registriert und steht in der Sokosumi-Galerie (100 Credits = 1 tUSDM); Registrierung und Galerie-Eintrag tragen noch den alten Namen „TenderScout“ (nach T13 eingefroren). Ein bezahlter Job lief am 31.10. um 02:39–03:26 durch: Sokosumi hat 1 tUSDM im Escrow gesperrt, der Ergebnis-Hash steht on-chain und passt zum Bericht, und um 03:26 hat der MPS **1,000000 tUSDM netto an unsere Selling Wallet** ausgezahlt (geprüft 10:52 mit `npm run receipt`). Beleg mit allen Tx-Hashes: `docs/tickets/T13/beleg.md`. Kasse: `docs/einnahmen.md`.
+- **Neu 31.10., 11:15: Agent beauftragt Agent.** Bei dünnen Freitext-Anfragen mit Firmenname kann JuicyBids einen Recherche-Agenten aus der Sokosumi-Galerie buchen und aus eigenen Credits bezahlen (`tender/research.mjs`, Konfiguration `RESEARCH_AGENT_ID`, `RESEARCH_MAX_CREDITS`, `RESEARCH_TIMEOUT_MINUTES` in `.env`). Funde füllen nur Lücken und stehen als „aus Recherche:“ in den Annahmen; Job-ID und Credits werden genannt. Die Eingabe folgt dem Schema des fremden Agenten (`RESEARCH_INPUT_TEMPLATE`, Platzhalter `{company}` `{location}` `{trade}` `{brief}`). Gebaut, 8 Unit-Tests. **Kein Live-Lauf, nichts abgebucht:** am 31.10. zwischen 11:05 und 11:30 mit Budget bis 400 Credits elf Galerie-Agenten geprüft. Company Researcher, Midesk, Statista Key Insight, Statista Research, Reddit Research: `input-schema` 404/422. Basic News Research, LinkedIn Analysis, Statista Single Answer: `/start_job` antwortet nicht MIP-003-konform (ZodError). PersonaTwin, Chronos News (beide Einträge): 502 beim Start. AI-Aura: lehnt jede Eingabe mit 422 ab, Schema unbekannt (zehn Feldnamen probiert). Die On-chain-Registry (Policy `67ab0c92…`, 1057 Assets) nennt keinen weiteren Recherche-Agenten mit erreichbarer URL. Sobald ein Agent funktioniert: ID, Credits und Template in `.env`, Worker neu starten, `npm run task -- examples/p4-pi-informatik.prompt.txt`.
+- **Neu 31.10., 11:45: Bericht als Dashboard und PDF.** Markdown und PDF beginnen mit Kopfzeile, Schlagzeile („N Ausschreibungen, die Sie realistisch gewinnen können.“), Firmenpass-Streifen (Gewerk, Region, Auftragsgröße, frei ab, Nachweise), Hinweis „Bezahlt auf Cardano“, Ergebnistabelle (Ausschreibung mit Auftraggeber und wichtigster Auflage, Frist, Wert, GO-Badge, Punkte als Balken, Link „Öffnen“), Summenzeile und zwei Kästen „NO-GO. Darum.“ und „So entsteht die Punktzahl.“; danach die Treffer im Detail mit vier Block-Balken. `npm run scout -- <pass> --pdf` schreibt zusätzlich `.local/report-<zeit>.md` und `.pdf` (`tender/pdf.mjs`, pdfkit 0.20.2, A4, gezeichnete Balken, SHA-256 des Markdown im Fuß). Der bezahlte Weg liefert weiter nur den Markdown-String (Endpunkte eingefroren, T24); das PDF gibt es lokal und könnte später als Link angehängt werden. 74 Tests grün.
+- **Neuer Name:** TenderScout heißt jetzt JuicyBids (Repo, Doku, Berichte, Prompt). Nur das On-chain-NFT, der Galerie-Eintrag und die gelieferten Belege behalten „TenderScout“.
+- Bezahlt wird über den **Masumi-Agenten** (MIP-003-API, öffentlich per ngrok), nicht über den Coworker. Sokosumi bezahlt Coworker-Tasks noch nicht (CLI-README 1.1.0). Der Coworker `JUICY_BIDS` läuft weiter unbezahlt.
+- Wie andere Teams, Coworker und KI-Assistenten JuicyBids buchen: `docs/tickets/T13/zugang-fuer-andere.md`. Büro-Assistent als Kunde (T25): `npm run assistant`.
 - Die Pipeline läuft von Anfang bis Ende: Firmenpass → Vorfilter → Bewertung nach T6 → Gegenprüfung → deutscher Bericht mit SHA-256.
 - **Neu: Freitext statt JSON.** Kunden schreiben ihre Anfrage in normalen Sätzen. Der Coworker baut daraus den Firmenpass, fragt im Task nach („So habe ich Ihre Anfrage verstanden“, Status `INPUT_REQUIRED`) und bewertet nach „passt“ oder Korrekturen. Live geprüft: `docs/tickets/T12/freitext.md`. JSON-Firmenpässe funktionieren weiter ohne Rückfrage.
 - **T12 ist erledigt:** Drei Sokosumi-Tasks (Preprod, Personal Workspace) sind durchgelaufen, Folgefrage als Kommentar wurde beantwortet. Beleg: `docs/tickets/T12/erster-task.md`.
 - Daten: 14 Tage Bayern (16.–29.10.), 1566 Bekanntmachungen, 708 mit offener Angebotsfrist, Kontaktdaten geschwärzt.
-- T5-Auswertung live: 6 von 8 Fällen wie erwartet, 2 teilweise (Erklärung unten).
-- **Noch offen:** bezahlter Job auf Preprod (T13). Ohne T13 ist der Track nicht qualifiziert. Schrittplan mit Zeitschätzung: `docs/tickets/T13/plan.md`.
+- T5-Auswertung live (31.10.): Lauf 1 8 von 8, Lauf 2 7 von 8 (B5 mit dünnem P3 bei 64–77). Seit 11:00 hat P3 drei fiktive Referenzen, Umsatzband und Versicherungssumme: Lauf 3 und 4 je 8 von 8, B5 bei 81 und 73 (`docs/tickets/T11/t5-eval-live.md`).
 
 ## Jetzt testen
 
@@ -58,6 +63,17 @@ npm run task -- examples/p4-pi-informatik.prompt.txt --answer "passt" # antworte
 ```
 Eigene Anfrage: Textdatei anlegen (z. B. `examples/meine-firma.prompt.txt`) oder in Sokosumi Web einen Task an den Coworker `JUICY_BIDS` mit Freitext als Beschreibung anlegen. Ohne Antwort fährt der Worker nach 30 min mit den Annahmen fort (`INTAKE_WAIT_MINUTES`). Lokal ohne Sokosumi: `npm run scout -- examples/p4-pi-informatik.prompt.txt` (keine Rückfrage, Annahmen stehen im Bericht).
 
+### Bezahlt über die Sokosumi-Galerie (T13, kostet 100 Credits)
+Läuft nur, solange auf dem Rechner von D die tmux-Sitzung `juicybids` (Eve, API, ngrok, Worker) und Docker (Masumi Payment Service) laufen. Zuschauen: `tmux attach -t juicybids` (Fenster mit Strg+b, 0–3; abkoppeln mit Strg+b, d).
+```sh
+npm run assistant -- examples/p3-isarcode.pass.json     # Büro-Assistent (T25): sucht JuicyBids (Galerie-Name „TenderScout“), fragt nach, bucht, holt den Bericht
+# oder direkt (Datei {"prompt": "<Freitext oder Firmenpass>"}):
+sokosumi --preprod agents hire 01a18f8f-7091-74ae-88a7-8b4856955f83 --input-file anfrage.json --max-credits 100 --json
+sokosumi --preprod jobs get <JOB_ID> --json            # payment_pending → processing → completed, ca. 5 min
+npm run receipt -- <MIP-003-Job-ID>                     # nach ca. 36 min: Auszahlung an die Selling Wallet prüfen (Job-ID aus .local/standard-jobs/)
+```
+In Sokosumi Web: Agentengalerie, „TenderScout“ suchen (so heißt JuicyBids dort; der Galerie-Eintrag ist nach T13 eingefroren). Er steht weit hinten, solange er wenige Jobs hat; `sokosumi agents list` zeigt nur die ersten 20 Agenten. Bezahlte Jobs fragen nicht nach, die Annahmen stehen im Bericht.
+
 ### Eigenen Fall testen
 1. Firmenpass als JSON anlegen, Vorlage: `examples/p1-alpendach.pass.json`, Felder: `docs/firmenpass.md`.
 2. `npm run scout -- <datei> --offline` zeigt Fehler im Firmenpass.
@@ -79,25 +95,28 @@ Exporte (OCDS und eForms pro Tag) von Hand nach `data/inbox/` laden, dann `npm r
 | T6 | Bewertungskriterien | fertig: Prompt `agent/instructions.md`, Punkte und Deckelungen in `tender/assess.mjs` |
 | T7, T8 | Laden, Vorfilter | fertig: CPV-Stufen A–F, Frist, Region, Wert, Angebotsvorlauf, max. 25 Kandidaten |
 | T10 | Bewertung + Bericht | fertig, live geprüft: `docs/tickets/T10/p3-isarcode-live-report.md` |
-| T11 | Qualitätstest | begonnen: `docs/tickets/T11/t5-eval-live.md` |
+| T11 | Qualitätstest | fertig für T5: 2 Live-Läufe am 31.10., `docs/tickets/T11/abweichungen.md`, Rohdaten `docs/tickets/T11/t5-eval-live.md` |
 | T12 | Erster Sokosumi-Job | **fertig**: `docs/tickets/T12/erster-task.md` (3 Tasks, Kommentar beantwortet); Freitext mit Rückfrage: `docs/tickets/T12/freitext.md` |
-| T13 | Bezahlter Job | **offen**, Plan: `docs/tickets/T13/plan.md` (ca. 3–4 h, MPS-Setup, Registrierung, Zahlung, Receipt) |
+| T13 | Bezahlter Job | **fertig**: Registrierung on-chain, Galerie, bezahlter Job mit Lock- und Result-Tx, `docs/tickets/T13/beleg.md`. Auszahlung belegt: Withdraw-Tx `831aa978…e279` um 03:26, +1,000000 tUSDM an der Selling Wallet (`docs/einnahmen.md`) |
 | T14–T17 | Pitch, Video, Devfolio, README | nicht in diesem Repo sichtbar; README ist noch leer |
 | T18 | Gegenprüfung | fertig: `tender/verify.mjs` |
 | T19 | SHA-256 | fertig: JSON-Footer im Bericht |
-| T20 | Prompt-Tuning | begonnen: To-do-Regel geschärft |
-| T24, T25 | PDF, Agent als Kunde | offen (Could) |
+| T20 | Prompt-Tuning | To-do-Regel geschärft; nach den Läufen vom 31.10. keine weitere Prompt-Änderung nötig (Beobachtungspunkte in `docs/tickets/T11/abweichungen.md`) |
+| T24 | PDF-Export | zurückgestellt: bräuchte eine neue Route in `agent-api.mjs`, Endpunkte sind nach T13 eingefroren |
+| T25 | Agent als Kunde | gebaut: `npm run assistant`, `docs/tickets/T25/agent-als-kunde.md`; Buchung bis zum Ende noch nicht gemessen |
 
-## T5-Auswertung (live, OpenAI, 30.10. 17:00)
+## T5-Auswertung (live, OpenAI, 31.10., zwei Läufe)
+P1 und P2 haben jetzt fiktive Referenzen (gekennzeichnet in `examples/README.md`). Details: `docs/tickets/T11/abweichungen.md`.
 
-| Fall | T5 erwartet | Ergebnis |
-|---|---|---|
-| B5 Softwareentwicklung Landtagsverwaltung (P3) | GO | GO, 75 (auch im Sokosumi-Task, 23:12) |
-| AIS.chat 5,5 VZÄ (P3), Helpdesk DPMA (P3) | NO-GO | NO-GO (eigene Ausschlüsse) |
-| B2 Dachabdichtung (P1), Stahlbau (P1), B4 AVA Augsburg (P2) | NO-GO | vom Vorfilter aussortiert (Wert über Höchstwert, Frist unter 7 Tagen) |
-| B1 Systemdach (P1), B3 Stadtbücherei (P2) | GO | GO MIT AUFLAGE, 62 und 65 (Sokosumi-Task P1: 58) |
+| Fall | T5 erwartet | Lauf 1 | Lauf 2 |
+|---|---|---|---|
+| B1 Systemdach (P1) | GO | GO 75 | GO 75 |
+| B3 Stadtbücherei (P2) | GO | GO 75 | GO 82 |
+| B5 Softwareentwicklung Landtagsverwaltung (P3) | GO | GO 72 | GO MIT AUFLAGE 67 |
+| AIS.chat 5,5 VZÄ (P3), Helpdesk DPMA (P3) | NO-GO | NO-GO 39 / 38 | NO-GO 39 / 39 |
+| B2 Dachabdichtung, Stahlbau (P1), B4 AVA Augsburg (P2) | NO-GO | Vorfilter | Vorfilter |
 
-B1 und B3: Beide Ausschreibungen verlangen drei Referenzen, die T5-Profile haben keine. Nach T6 ist das eine behebbare Lücke. Mit `references` in P1 und P2 sollten beide GO werden (B3 liefert die Referenzen, dann `npm run eval`).
+B5 schwankte mit dem alten P3 zwischen 64 und 77 (auch bezahlter Job: 68). Ursache war das dünne Profil (eine Referenz ohne Jahr, Wert und CPV), nicht der Prompt. Seit 31.10., 11:00 hat P3 drei Referenzen mit Jahr, Wert und CPV, `revenue_band_eur` und `liability_insurance_eur`; danach zwei Läufe 8 von 8 mit B5 bei 81 und 73. Die Bekanntmachung nennt weiter keinen Wert und keinen Beginn, ein Ausreißer nach unten bleibt möglich.
 
 ## Wie die Bewertung funktioniert
 - Vorfilter (Code): offene Ausschreibung, Bayern, Frist offen, CPV-Stufe A–E, Wert im Bereich, Angebotsvorlauf. Pro Verfahren nur die neueste Bekanntmachung.
@@ -119,18 +138,34 @@ B1 und B3: Beide Ausschreibungen verlangen drei Referenzen, die T5-Profile haben
 - Modellantworten schwanken leicht (B5 lag zwischen 69 und 77, Systemdach zwischen 58 und 62). Testfälle mit Grenzwerten mehrfach laufen lassen.
 - Ein Lauf mit 25 Kandidaten dauert ca. 1,5–2 min, die Antwort auf einen Kommentar ca. 1 min.
 - Daten enden am 29.10. Neue Tage nur per Hand-Download.
-- 3 Template-Tests schlagen unter Windows fehl (Pfadtrenner, Dateirechte); in WSL sind alle 53 grün.
+- 3 Template-Tests schlagen unter Windows fehl (Pfadtrenner, Dateirechte); in WSL sind alle 66 grün.
+- **JuicyBids ist nur erreichbar, solange der Rechner von D läuft:** tmux-Sitzung `juicybids` (Eve, API, ngrok, Worker) und Docker (MPS). Die URL `https://nursing-surfacing-crucial.ngrok-free.dev` steht unveränderlich im Registrierungs-NFT; eine neue Tunnel-URL heißt neu registrieren.
+- **Wenig Speicher:** Ubuntu hat 3,9 GB RAM (`.wslconfig`: `memory=4GB`), nachts waren nur 58 MB frei und der Swap voll. Die MIP-003-API ist daran zweimal mit `ENOMEM` abgestürzt (03:24 und 10:55). Seit 11:00 laufen API und Worker in tmux in einer `until`-Schleife und starten sich nach einem Absturz selbst neu. Dauerhafte Abhilfe: `.wslconfig` auf 6–8 GB und `wsl --shutdown` (beendet alles, danach Docker Desktop, tmux `juicybids` und die Claude-Sitzung neu starten); vor Demo und Video machen, nicht währenddessen.
+- **Setup neu starten** (nach Reboot oder `wsl --shutdown`): Docker Desktop starten (MPS und Registry kommen per `restart: unless-stopped` von selbst), dann in WSL im Repo:
+  ```sh
+  tmux new-session -d -s juicybids -n eve 'npm start 2>&1 | tee -a .local/eve.log'
+  tmux new-window -t juicybids -n api 'until npm run api 2>&1 | tee -a .local/api.log; do sleep 5; done'
+  tmux new-window -t juicybids -n ngrok 'ngrok http --domain=nursing-surfacing-crucial.ngrok-free.dev 21950'
+  tmux new-window -t juicybids -n worker 'until npm run worker 2>&1 | tee -a .local/worker.log; do sleep 5; done'
+  curl -s -H 'ngrok-skip-browser-warning: 1' https://nursing-surfacing-crucial.ngrok-free.dev/availability   # erwartet "available"
+  ```
+  Den Worker erst starten, wenn Eve auf Port 21949 antwortet (Eve braucht 1–2 min zum Bauen), sonst stirbt er mit `ECONNREFUSED`; die Schleife fängt das inzwischen ab.
+- Nach T13 eingefroren: Zahlungsstrecke, Endpunkte, Masumi-Konfiguration. Der Coworker-Bezahlweg (`paid-task.mjs`, `PAID_TASKS_ENABLED`) sendet `RequestedFunds`, das der MPS bei Festpreis ablehnt; er bleibt aus.
+- `sokosumi agents list` zeigt nur die ersten 20 Agenten, `--search` sucht nur darin. Vollständige Liste: `curl -s "https://api.preprod.sokosumi.com/v1/agents?limit=100&kind=cardano"`.
+- Ersatzweg `npm run buy` (eigener MPS kauft über die Purchasing Wallet, 30 tADA und 5 tUSDM liegen dort): gebaut, nicht live gelaufen.
 
 ## Nächste Schritte (kritischer Pfad)
-0. **Freitext live nachprüfen** (D): Korrektur-Task einmal wiederholen, ob die überholten Standard-Annahmen jetzt fehlen (Fix nach dem Live-Test).
-1. **T13** (D, mit Freigabe je Schritt): `docs/tickets/T13/plan.md` abarbeiten: MPS per Docker Compose, Selling Wallet mit Test-ADA, `AGENT_AUTHOR` in `.env`, `payment-registration.mjs key|register`, Registrierung bestätigen lassen, `npm run api`, `PAID_TASKS_ENABLED=true`, bezahlter Task, Receipt prüfen. Tx-Hash und Receipt nach `docs/evidence.md`. Regel aus `tickets.json`: Läuft T13 bis 01:00 nicht, schlafen; Masumi-Support ist morgen früh erreichbar.
-2. **TUM-Seat** (D): Organisatoren um Seat bitten, dann Coworker verbinden (siehe Probleme).
-3. **T11/T20** (B3, D): P1 und P2 mit `references` ergänzen, `npm run eval`, Abweichungen in `docs/tickets/T11/abweichungen.md`.
-4. **Daten** (B1): Export vom 30.10. (und 31.10.) nach `data/inbox/`, `npm run data:import`.
-5. **T17/T22, T16/T23** (B3, B4): README und Devfolio mit den Zahlen und Grenzen von oben; Belege aus `docs/tickets/`.
+1. ~~T13 abschließen~~ erledigt 31.10., 10:52 (Auszahlung belegt, siehe oben).
+2. **Rechner und Prozesse bis zur Bewertung am Laufen halten** (D): tmux `juicybids`, Docker, Laptop wach. Vor Demo und Video `sokosumi --preprod auth status --json` und `curl -s https://nursing-surfacing-crucial.ngrok-free.dev/availability`.
+3. **T21 Video** (B4, D liefert Aufnahmen): Sokosumi-Galerie mit JuicyBids (Eintrag „TenderScout“), bezahlter Job `01a18f9c-a001-7131-8f2e-e07480950460` mit Ergebnis, Tx-Hashes im Preprod-Explorer.
+4. **Freitext live nachprüfen** (D): Korrektur-Task einmal wiederholen, ob die überholten Standard-Annahmen jetzt fehlen.
+5. **TUM-Seat** (D): Organisatoren um Seat bitten, dann Coworker verbinden (siehe Probleme).
+6. ~~P3 vervollständigen~~ erledigt 31.10., 11:06 (zwei Läufe 8 von 8).
+7. **Daten** (B1): Export vom 30.10. (und 31.10.) nach `data/inbox/`, `npm run data:import`.
+8. **T16/T23 Devfolio** (B4): mit den Zahlen und Grenzen aus `README.md` (T17/T22 ist seit 31.10., 11:00 geschrieben) und `docs/evidence.md`.
 
-## Offene Fragen an Masumi
-Antworten laut Doku und Smart Contract (recherchiert in `docs/tickets/T13/plan.md`), von Masumi noch nicht bestätigt:
-- Hash des Ergebnisses on-chain: **ja**, `submit-result` schreibt `result_hash` in das Contract-Datum; der Bericht ist damit an die Zahlung gebunden.
-- Unter dem Angebotspreis abrechnen: **nein**, der Seller-Withdraw zahlt den vollen Contract-Wert oder es gibt einen vollständigen Refund. Festpreis bleibt 1 test USDM wie im Template.
-- Neu: Käufer-Freigabe des Angebots in Sokosumi (Task billing owner approves quote) ist laut CLI-README geplant, nicht live. Ob der bezahlte Task über Sokosumi oder nur über MIP-003 (`npm run api`) läuft, muss T13 zeigen.
+## Fragen an Masumi (Stand nach T13)
+- Hash des Ergebnisses on-chain: **ja, gemessen.** Die Submit-Result-Tx `e3bfe72f…2c01` hat `resultHash` `aa1beef4…0104` geschrieben, gleich dem Hash des gelieferten Berichts.
+- Unter dem Angebotspreis abrechnen: **nein** laut Contract (voller Withdraw oder voller Refund). Festpreis 1 tUSDM.
+- Käufer-Freigabe für Coworker-Tasks in Sokosumi: laut CLI-README geplant, nicht live. T13 lief deshalb über den Masumi-Agenten in der Galerie; Sokosumi war der Käufer.
+- Offen: ob Sokosumi den Ergebnis-Hash in der Web-Oberfläche als „verifiziert“ zeigt (Formel wie `hashResult` in Sokosumi, nicht im Web geprüft).

@@ -1,4 +1,4 @@
-# TenderScout (TUM Blockchain & AI Hackathon, Cardano track)
+# JuicyBids (TUM Blockchain & AI Hackathon, Cardano track)
 
 A paid Masumi/Sokosumi agent. For small and mid-sized contractors in Bavaria it turns a company profile with bidding criteria into a ranked, verified shortlist of public tenders with go/no-go reasoning.
 Deadline Sat 31 Oct 2026 15:00, freeze 14:30. Tickets, owners and dependencies: `tickets.json`. Current status and test guide (German): `STAND.md`.
@@ -46,7 +46,11 @@ npm run eval           # T5 cases against examples/t5-expected.json with the liv
 npm start              # local Eve agent (terminal 1)
 npm run worker         # Sokosumi worker (terminal 2), one per Coworker
 npm run api            # MIP-003 API for paid jobs
+npm run receipt -- <jobId>   # read-only: seller withdrawal and net tUSDM for a paid MIP-003 job
+npm run assistant -- <file>  # T25: office assistant books JuicyBids on Sokosumi (paid, asks first)
+npm run buy -- <file>        # fallback buyer via our own MPS purchasing wallet (paid, not measured live)
 ```
+Paid jobs run through the registered Masumi agent (public MIP-003 API via ngrok, Sokosumi gallery), not through Coworker tasks. Evidence: `docs/tickets/T13/beleg.md`. The masumi-services-dev-quickstart clone lives in `~/masumi-services-dev-quickstart` (outside the repo); Eve, API, ngrok and worker run in the tmux session `juicybids`.
 
 ## Data
 Source: Datenservice Öffentlicher Einkauf, `https://oeffentlichevergabe.de/api/notice-exports?pubDay=YYYY-MM-DD&format=ocds.zip|eforms.zip`, licence CC0.
