@@ -22,9 +22,14 @@ T5 used the draft schema. Required Firmenpass fields that T5 does not state were
 | P2 | `bid_lead_days` | 7 | exclusion "Restlaufzeit < 7 Kalendertage" |
 | P3 | `free_capacity` | 80–200 PT/Jahr | from `capacity_note` |
 | P3 | `references` | EVB-IT experience, public sector | was listed under certifications |
+| P1 | `references` | 3 fictional roofing jobs 2023–2025 (system roof REI 30, fall-arrest nets, roof sheeting; 900–1,600 m², 160,000–340,000 €; 2 public, 1 private) | T11: B1 asks for 3 comparable references from the last 5 years (Formblatt 444); not in T5 |
+| P2 | `references` | 3 fictional maintenance-cleaning contracts 2021–2026 (school, library, private training centre; 2,400–6,200 m² NGF, 165,000–330,000 €; 2 public, 1 private) | T11: B3 asks for 3 references from the last five completed business years, at least 2 comparable; not in T5 |
+
+All references are invented for testing. Clients are described generically (no real names); the Firmenpass schema has no field to mark them, so they are marked here.
 
 ## Known differences to T5 expectations
-- B1 (Systemdach) and B3 (Stadtbücherei) come out as GO MIT AUFLAGE instead of GO: both notices require three comparable references and the T5 profiles list none. Under T6 that is a fixable gap. Adding `references` to P1 and P2 should give GO.
+- B1 (Systemdach) and B3 (Stadtbücherei) came out as GO MIT AUFLAGE without references (both notices require three). With the fictional `references` above, both are GO in two live runs (B1 75/75, B3 75/82).
+- B5 (Landtagsverwaltung, P3) is a borderline case: measured 64–77 across runs, so it flips between GO and GO MIT AUFLAGE. Likely cause: P3's single reference has no year, value or CPV, and P3 has no revenue band; the notice has no value or start date. Details: `docs/tickets/T11/abweichungen.md`.
 - B2, the steel case and B4 are dropped by the deterministic prefilter (value above `max_value_eur`, deadline shorter than `bid_lead_days`). The outcome NO-GO matches T5.
 Latest live run: `docs/tickets/T11/t5-eval-live.md`.
 
