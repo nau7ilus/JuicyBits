@@ -2,6 +2,7 @@ import {createServer} from 'node:http';
 import {randomUUID} from 'node:crypto';
 import {existsSync,readFileSync,writeFileSync,mkdirSync,readdirSync} from 'node:fs';
 import {scout} from './tender/scout.mjs';
+import {pdfPath} from './tender/delivery.mjs';
 import {inputHash,resultHash,sha256} from './standard-hash.mjs';
 import {confirmedState} from './paid-task.mjs';
 const jobsDir='.local/standard-jobs';mkdirSync(jobsDir,{recursive:true,mode:0o700});
@@ -28,6 +29,10 @@ createServer(async(req,res)=>{
  if(!existsSync(`${jobsDir}/${id}.json`))return respond(res,404,{error:'Job not found'});
  const job=load(id);return respond(res,200,job.status==='completed'?{status:job.status,result:job.result}:{status:job.status});
  }
+ // Read-only PDF twin of a delivered report (tender/delivery.mjs). Not part of MIP-003; payment and hashing are unchanged.
+ const pdf=req.method==='GET'&&url.pathname.match(/^\/reports\/([0-9a-f-]{36})\.pdf$/);
+ if(pdf){const file=pdfPath(pdf[1]);if(!file||!existsSync(file))return respond(res,404,{error:'Report not found'});
+  res.writeHead(200,{'content-type':'application/pdf','content-disposition':`inline; filename="juicybids-${pdf[1].slice(0,8)}.pdf"`,'cache-control':'private, max-age=3600'});return res.end(readFileSync(file));}
  if(req.method!=='POST'||url.pathname!=='/start_job')return respond(res,404,{error:'Route not found'});
  // 16000 characters may need several bytes each after UTF-8 and JSON escaping.
  let bytes=0,body='';for await(const part of req){bytes+=part.length;if(bytes>100000)return respond(res,413,{error:'Request too large'});body+=part}
@@ -60,7 +65,7 @@ setInterval(async()=>{
  if(Number(payment.submitResultTime)<=Date.now()+120000){job.phase='deadline-blocked';job.status='failed';save(job);continue;}
  job.phase='model-pending';job.status='running';save(job);
  if(Number(payment.submitResultTime)<=Date.now()+120000)continue;
- job.result=await scout(job.input.prompt,`${jobsDir}/${job.id}-session`,Number(payment.submitResultTime));
+ job.result=await scout(job.input.prompt,`${jobsDir}/${job.id}-session`,Number(payment.submitResultTime),{reportId:job.id});
  writeFileSync(`${jobsDir}/${job.id}.txt`,job.result,{mode:0o600});job.resultHash=resultHash(job.result,job.nonce);job.phase='submit-pending';save(job);
  if(Number(payment.submitResultTime)<=Date.now()){job.phase='deadline-blocked';job.status='failed';save(job);continue;}
  await mps('/payment/submit-result',{network:'Preprod',blockchainIdentifier:payment.blockchainIdentifier,submitResultHash:job.resultHash});

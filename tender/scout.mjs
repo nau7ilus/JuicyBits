@@ -59,5 +59,8 @@ export async function scout(input,journal,deadline,options={}){
  try{result=await run(input,journal,deadline,options)}
  catch(e){if(e instanceof PassError)return `# JuicyBids – Firmenpass ungültig\n\n${e.issues.map(i=>`- ${i}`).join('\n')}\n\nBitte senden Sie den Firmenpass als JSON-Objekt erneut oder beschreiben Sie Ihre Firma und die gesuchte Leistung im Text.\n`;throw e;}
  const {pass,verified,rejected,excluded,coverage,intake:meta}=result;
- return renderReport({pass,verified,excluded,coverage,dropped:rejected,intake:meta,now:options.now??Date.now()});
+ const data={pass,verified,excluded,coverage,dropped:rejected,intake:meta,now:options.now??Date.now()};
+ // options.reportId: deliver a PDF twin and link it in the report (tender/delivery.mjs).
+ if(options.reportId){const {deliver}=await import('./delivery.mjs');return deliver(data,options.reportId);}
+ return renderReport(data);
 }

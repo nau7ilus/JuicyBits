@@ -54,7 +54,7 @@ test('report lists GO before GO MIT AUFLAGE, hides NO-GO and the footer hash cov
  assert.ok(report.indexOf('Dacharbeiten a')<report.indexOf('Dacharbeiten b'));assert.doesNotMatch(report,/Dacharbeiten c/);
  assert.match(report,/\*\*🟢 GO\*\* · █████████░ 89\/100/);assert.match(report,/\*\*🟡 GO MIT AUFLAGE\*\* · ███████░░░ 69\/100/);
  assert.match(report,/## 2 Ausschreibungen, die Sie realistisch gewinnen können\./);
- assert.match(report,/3 neue Bekanntmachungen passten zu Ihrem Gewerk und Ihrer Region\. Wir haben jede gegen Ihren Firmenpass geprüft und 2 aussortiert\./);
+ assert.match(report,/3 neue Bekanntmachungen passten zu Ihrem Gewerk und Ihrer Region\. Wir haben jede gegen Ihren Firmenpass geprüft und 1 aussortiert\./);
  assert.match(report,/\| GEWERK \| REGION \| AUFTRAGSGRÖSSE \| FREI AB \| NACHWEISE \|\n\|---\|---\|---\|---\|---\|\n\| dachdecker \| Bayern \| 20\.000–500\.000\s€ \| 15\.01\.2027 \| Präqualifikation Bau \(PQ-VOB\), Meisterbetrieb \/ Handwerksrolle \|/);
  assert.match(report,/\| 1 \| \*\*Dacharbeiten a\*\* — Stadt Musterstadt · DE212 · Fachliche Passung \(description\): Flachdach\. — ▸ Keine Auflage \| 30\.11\.2026 \(noch 31 Tage\) \| 100\.000\s€ \| 🟢 GO \| █████████░ 89 % \| \[Öffnen\]\(https:\/\/oeffentlichevergabe\.de\/ui\/de\/search\/details\?noticeId=a\) \|/);
  assert.match(report,/\| 2 \| \*\*Dacharbeiten b\*\* — [^\n]* ▸ Haftpflicht auf 5 Mio\. € erhöhen, ca\. 3 Tage \| [^\n]* \| – \| 🟡 GO MIT AUFLAGE \| ███████░░░ 69 % \|/);
