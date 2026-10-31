@@ -8,7 +8,8 @@ Preis: fest 1 tUSDM (100 Sokosumi-Credits) pro Job. Der Contract kennt nur volle
 |---|---|---|---|---|---|---|---|---|
 | 31.10.2026, 02:39–03:26 | `01a18f9c-a001-7131-8f2e-e07480950460` | `a2f61167-9885-4a90-a64b-358a75608020` | Sokosumi (Galerie, 100 Credits) | 1 tUSDM | **+1,000000** | −3,639147 (Gebühr 0,673627; 4,469470 zurück an den Käufer) | `831aa9787a6a6bf0c39478ca49ec71ad5c7206c5b5563efedfd90152c517e279` | 31.10., 10:52 |
 
-Summe: 1,000000 tUSDM aus 1 Job.
+| 31.10.2026, 13:04–13:10 | `01a191d8-8b4b-75ed-877c-898daeb8ce84` | `61fca7a2-9625-4c15-9a56-a10c17342684` | Büro-Assistent (`npm run assistant`) über Sokosumi, 100 Credits | 1 tUSDM | ausstehend, Freigabe ab 13:40 | – | – | Lock `b8210ad7…c3de`, Result `3e52ab32…c72b`, Hash passt |
+Summe: 1,000000 tUSDM ausgezahlt aus 1 Job; 1 weiterer Job (1 tUSDM) wartet auf die Freigabe.
 
 ## So kommt eine neue Zeile dazu
 1. Job-ID aus `.local/standard-jobs/` nehmen (eine Datei pro bezahltem Job).

@@ -5,7 +5,7 @@ import {PassError,validatePass} from '../tender/pass.mjs';
 import {ask,closePrompt,color,interactive,run} from './common.mjs';
 // T25: office assistant ("Büro-Assistent") of a contractor who books the external JuicyBids agent on Sokosumi Preprod as a paying customer.
 // npm run assistant -- <anfrage.txt|firmenpass.json> [--yes] [--max-credits N] [--agent-id ID]
-// --agent-id selects one catalog entry by id (e.g. after a re-registration); default is the entry named TenderScout (gallery name).
+// --agent-id selects one catalog entry by id (e.g. after a re-registration); default is the entry named JuicyBids.
 // Steps: 1 find the agent in the public catalog, 2 show input and price and confirm, 3 hire once, 4 poll the job and save the report.
 // Field names as measured in T13 (31.10.): catalog data[].{id,name,summary,credits,author.name}; hire {job:{id,status}};
 // jobs get --details {job:{status,result},events:[{id,createdAt,status,result}] newest first, files, links, inputRequest}.
@@ -15,7 +15,7 @@ const flag=name=>args.includes(name)?args[args.indexOf(name)+1]??'':null;
 const yes=args.includes('--yes'),agentIdArg=flag('--agent-id'),maxArg=flag('--max-credits');
 const USAGE='Aufruf: npm run assistant -- <anfrage.txt|firmenpass.json> [--yes] [--max-credits N] [--agent-id ID]';
 const CATALOG='https://api.preprod.sokosumi.com/v1/agents?limit=100&kind=cardano'; // public, no login (measured 31.10.)
-const AGENT_NAME='TenderScout',OUT='.local',POLL_MS=15000,MAX_MS=30*60*1000,PROMPT_MAX=16000; // AGENT_NAME: the on-chain registration and gallery entry keep the old name (T13 freeze). PROMPT_MAX: input_schema in agent-api.mjs
+const AGENT_NAME='JuicyBids',OUT='.local',POLL_MS=15000,MAX_MS=30*60*1000,PROMPT_MAX=16000; // AGENT_NAME: gallery entry of the second registration (31.10., 13:30); the first one was "TenderScout". PROMPT_MAX: input_schema in agent-api.mjs
 const BILLING='https://preprod.sokosumi.com/billing?tab=credits'; // credit balance page (tum-hackathon-agent skill)
 // Event and job states seen in T13. Failure state names are not measured: TODO (T25).
 const LABEL={INITIATED:'Job angelegt',AWAITING_PAYMENT:'Warte auf Zahlung: Sokosumi sperrt die Credits im Masumi-Escrow (Cardano Preprod)',RUNNING:'Zahlung bestätigt, JuicyBids prüft die Ausschreibungen',COMPLETED:'Ergebnis geliefert',payment_pending:'Zahlung ausstehend',completed:'abgeschlossen'};

@@ -84,4 +84,4 @@ Cardano Preprod, Masumi Payment Service, Sokosumi, MIP-003 agent API, Node.js, O
 
 - Repository: https://github.com/nau7ilus/JuicyBits
 - Demo video: TODO (T21)
-- Sokosumi agent ID: `01a18f8f-7091-74ae-88a7-8b4856955f83`
+- Sokosumi agent ID: `01a191f0-44a0-75e5-8156-ad7d4385d8fa` (gallery name: JuicyBids)

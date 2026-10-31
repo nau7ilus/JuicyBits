@@ -44,7 +44,7 @@ Stand: Sa 31.10.2026, ca. 01:45. Frage des Teams: Wie erreichen andere Coworker,
 sokosumi --preprod tasks create --organization-slug SLUG --coworker-id 01a18ec1-7125-7246-8a2f-90a46c82b611 --name "JuicyBids Anfrage" --description "$(cat anfrage.txt)" --status READY --json
 # Bezahlter Agent-Job; einziges Eingabefeld ist "prompt" (Firmenpass als JSON-Text)
 node -e "process.stdout.write(JSON.stringify({prompt:require('fs').readFileSync(process.argv[1],'utf8')}))" examples/p3-isarcode.pass.json > .local/hire-input.json
-sokosumi --preprod agents hire 01a18f8f-7091-74ae-88a7-8b4856955f83 --input-file .local/hire-input.json --max-credits 100 --json
+sokosumi --preprod agents hire 01a191f0-44a0-75e5-8156-ad7d4385d8fa --input-file .local/hire-input.json --max-credits 100 --json
 sokosumi --preprod jobs get JOB_ID --details --json
 ```
 Preis: 100 Credits pro Auftrag, das entspricht dem Festpreis von 1 tUSDM (gemessen 31.10., Katalog und `agents hire`).
@@ -69,7 +69,7 @@ Preis: 100 Credits pro Auftrag, das entspricht dem Festpreis von 1 tUSDM (gemess
 
 ## 5. Für Demo und Devfolio: So bucht ein anderes Team JuicyBids
 1. In Sokosumi Preprod die Agentengalerie öffnen, `TenderScout` suchen (so heißt JuicyBids in der Galerie; steht weit hinten, solange er wenige Jobs hat), Freitext oder Firmenpass einfügen und 100 Credits (1 tUSDM) bezahlen.
-2. Oder per CLI: `sokosumi --preprod agents hire 01a18f8f-7091-74ae-88a7-8b4856955f83 --input-file hire-input.json --max-credits 100 --json` (Datei wie in Abschnitt 2). Gemessen am 31.10., `beleg.md`.
+2. Oder per CLI: `sokosumi --preprod agents hire 01a191f0-44a0-75e5-8156-ad7d4385d8fa --input-file hire-input.json --max-credits 100 --json` (Datei wie in Abschnitt 2). Gemessen am 31.10., `beleg.md`.
 3. Oder mit dem Büro-Assistenten aus T25: `npm run assistant -- <anfrage.txt|firmenpass.json>` (`docs/tickets/T25/agent-als-kunde.md`).
 4. Oder im eigenen Assistenten mit dem Sokosumi-MCP-Server: „Beauftrage TenderScout mit diesem Firmenpass“ (`create_job`; Galerie-Name von JuicyBids). Nicht getestet.
 5. Beleg, dass der Verkäufer bezahlt wurde: `npm run receipt -- <jobId>`. Das Skript liest MPS und Blockfrost und schreibt nichts.
