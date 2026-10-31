@@ -53,13 +53,21 @@ JuicyBids ist als Masumi-Agent registriert und in der Sokosumi-Galerie buchbar. 
 4. Der Hash des Berichts wird on-chain geschrieben.
 5. Nach der Freigabefrist geht der Betrag an die Wallet von JuicyBids.
 
-Das ist auf Preprod einmal komplett durchgelaufen, inklusive Auszahlung:
+Das ist auf Preprod zweimal komplett durchgelaufen, inklusive Auszahlung.
+
+**Job 1:** Ein Sokosumi-Nutzer bucht JuicyBids, 31.10., 02:41 bis 03:26.
 
 1. [Kunde zahlt 1 tUSDM in den Escrow](https://preprod.cardanoscan.io/transaction/92e32c3194fbac1c52c5c813c5f1fdd985e28d4ae3575331bb6efd36ae6ebb79)
 2. [Hash des Berichts geht on-chain](https://preprod.cardanoscan.io/transaction/e3bfe72f48d969287ccd72374a51f7b72823c38d2ddd6d53a52c5e967abf2c01)
 3. [1 tUSDM geht an JuicyBids](https://preprod.cardanoscan.io/transaction/831aa9787a6a6bf0c39478ca49ec71ad5c7206c5b5563efedfd90152c517e279)
 
- Alle Transaktionen: [docs/tickets/T13/beleg.md](docs/tickets/T13/beleg.md). Kasse: [docs/einnahmen.md](docs/einnahmen.md).
+**Job 2:** Ein KI-Büroassistent bucht und bezahlt JuicyBids selbst, 31.10., 13:04 bis 13:50.
+
+1. [Assistent zahlt 1 tUSDM in den Escrow](https://preprod.cardanoscan.io/transaction/b8210ad73bae855d413f274cb9f99b3ce2f03de7cceed3c6546e7f4f8c24c3de)
+2. [Hash des Berichts geht on-chain](https://preprod.cardanoscan.io/transaction/3e52ab3241cc359dbf7e4c0e280b9228d37d457446a012b8c9e5cf5e7528c72b)
+3. [1 tUSDM geht an JuicyBids](https://preprod.cardanoscan.io/transaction/47d21bf22606fcf5be0fb92b2964c1bfc0acc285191423fdf23ff757c5b15cd5)
+
+Alle Transaktionen: [docs/tickets/T13/beleg.md](docs/tickets/T13/beleg.md). Kasse: [docs/einnahmen.md](docs/einnahmen.md).
 
 ## Wie es funktioniert
 
