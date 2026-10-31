@@ -90,7 +90,7 @@ export function summarize({pass,verified,excluded={},dropped=[],coverage={},now=
  const ranked=[...verified].sort((a,b)=>order[a.judgement.verdict]-order[b.judgement.verdict]||b.judgement.total-a.judgement.total);
  const shown=ranked.filter(m=>m.judgement.verdict!=='nogo');
  const count=v=>ranked.filter(m=>m.judgement.verdict===v).length,go=count('go'),conditional=count('conditional'),nogo=count('nogo');
- const prefiltered=Object.values(excluded).reduce((s,v)=>s+v,0),assessed=ranked.length+dropped.length,sorted=nogo+prefiltered+dropped.length;
+ const prefiltered=Object.values(excluded).reduce((s,v)=>s+v,0),assessed=ranked.length+dropped.length,sorted=nogo+dropped.length; // of the assessed notices; the prefilter count is in the summary line
  const headline=shown.length?`${n(shown.length,'Ausschreibung','Ausschreibungen')}, die Sie realistisch gewinnen können.`:'Keine Ausschreibung, die sich für Sie lohnt.';
  const subline=`${n(assessed,'neue Bekanntmachung passte','neue Bekanntmachungen passten')} zu Ihrem Gewerk und Ihrer Region. Wir haben jede gegen Ihren Firmenpass geprüft und ${sorted} aussortiert.`;
  const reasons=Object.entries(excluded).sort((a,b)=>b[1]-a[1]);
@@ -120,9 +120,11 @@ function dashboard(s){
  lines.push('## So entsteht die Punktzahl.','',`**${SCORING.lead}**`,'',`\`${SCORING.blocks}\``,'',SCORING.thresholds,SCORING.rule,'');
  return lines;
 }
-export function renderReport({pass,verified,excluded,coverage,dropped=[],intake,now=Date.now()}){
+// pdfUrl: public link to the PDF twin of this report (tender/delivery.mjs); shown right under the payment line.
+export function renderReport({pass,verified,excluded,coverage,dropped=[],intake,now=Date.now(),pdfUrl}){
  const s=summarize({pass,verified,excluded,dropped,coverage,now}),{ranked,shown,go,conditional}=s;
  const lines=dashboard(s);
+ if(pdfUrl){const at=lines.findIndex(l=>l.includes(PAYMENT.badge));lines.splice(at+1,0,'',`**📄 [Bericht als PDF herunterladen](${pdfUrl})**`);}
  if(shown.length)lines.push('## Treffer im Detail','');
  shown.forEach((m,i)=>lines.push(matchSection(i+1,m,now),''));
  if(intake?.source==='text')lines.push(...understanding(pass,intake));

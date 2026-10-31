@@ -35,6 +35,12 @@ Ausgabe ist ein Bericht mit Übersichtstabelle und Fortschrittsbalken, als Markd
 
 Jede Ausschreibung wird vor der Ausgabe noch einmal gegen die Quelldaten geprüft. Null Treffer ist ein gültiges Ergebnis.
 
+Der Kunde bekommt den Bericht in Sokosumi, das PDF als Link darin. Ein echtes Beispiel:
+
+1. [Anfrage](examples/ergebnis/1%20-%20anfrage.md)
+2. [Ergebnis](examples/ergebnis/2%20-%20ergebnis.md)
+3. [Ergebnis als PDF](examples/ergebnis/3%20-%20ergebnis.pdf)
+
 Fehlen im Profil Referenzen oder Zertifikate, kann JuicyBids selbst einen Recherche-Agenten aus der Sokosumi-Galerie beauftragen und bezahlen, der die Firma recherchiert. Die Funde füllen nur Lücken und sind im Bericht als Recherche markiert. Gebaut und getestet; in der Preprod-Galerie fehlt derzeit ein funktionierender Recherche-Agent, deshalb noch kein Live-Lauf.
 
 ## Bezahlung über Cardano
@@ -119,7 +125,7 @@ Drei fiktive Firmen, acht erwartete Urteile. Vier Live-Läufe am 31.10.: 8 von 8
 - [agent/instructions.md](agent/instructions.md): Bewertungskriterien
 - [tender/](tender/): Pipeline
 - [data/](data/): Import und Datensatz
-- [examples/](examples/): Testfirmen und erwartete Urteile
+- [examples/](examples/): Testfirmen und erwartete Urteile, [examples/ergebnis/](examples/ergebnis/) ein vollständiger Lauf
 - [docs/](docs/): Belege
 
 Code: MIT. Daten: CC0.

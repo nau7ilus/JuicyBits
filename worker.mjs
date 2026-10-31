@@ -3,7 +3,7 @@ import {existsSync,readFileSync,writeFileSync} from 'node:fs';
 import {acquireWorkerLock} from './worker-lock.mjs';
 import {client} from './client.mjs';
 import * as pipeline from './tender/scout.mjs';
-import {renderReport} from './tender/report.mjs';
+import {deliver} from './tender/delivery.mjs';
 import {PassError} from './tender/pass.mjs';
 import {applyAnswer,intake,isConfirmation,isPassInput,renderUnderstanding} from './tender/intake.mjs';
 import {reply} from './comments.mjs';
@@ -105,12 +105,12 @@ while(true){
   save({...state,phase:'model-pending'});
   const ask=await attachSession(sessionFile);
   const result=await pipeline.run(null,sessionFile,undefined,{pass:state.understanding.pass,intake:state.understanding,ask});
-  writeFileSync(resultFile,renderReport({...result,dropped:result.rejected,intake:state.understanding}),{mode:0o600});
+  writeFileSync(resultFile,await deliver({...result,dropped:result.rejected,intake:state.understanding},t.id),{mode:0o600});
   save({...state,phase:'result-saved'});
  }
  if(state.phase==='started'){
   save({...state,phase:'model-pending'});
-  const result=await pipeline.scout(state.input,sessionFile);
+  const result=await pipeline.scout(state.input,sessionFile,undefined,{reportId:t.id});
   writeFileSync(resultFile,result,{mode:0o600});save({...state,phase:'result-saved'});
  }
  if(state.phase==='result-saved'){
