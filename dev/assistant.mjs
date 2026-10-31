@@ -3,9 +3,9 @@ import {createInterface} from 'node:readline';
 import {isPassInput} from '../tender/intake.mjs';
 import {PassError,validatePass} from '../tender/pass.mjs';
 import {ask,closePrompt,color,interactive,run} from './common.mjs';
-// T25: office assistant ("Büro-Assistent") of a contractor who books the external TenderScout agent on Sokosumi Preprod as a paying customer.
+// T25: office assistant ("Büro-Assistent") of a contractor who books the external JuicyBids agent on Sokosumi Preprod as a paying customer.
 // npm run assistant -- <anfrage.txt|firmenpass.json> [--yes] [--max-credits N] [--agent-id ID]
-// --agent-id selects one catalog entry by id (e.g. after a re-registration); default is the entry named TenderScout.
+// --agent-id selects one catalog entry by id (e.g. after a re-registration); default is the entry named TenderScout (gallery name).
 // Steps: 1 find the agent in the public catalog, 2 show input and price and confirm, 3 hire once, 4 poll the job and save the report.
 // Field names as measured in T13 (31.10.): catalog data[].{id,name,summary,credits,author.name}; hire {job:{id,status}};
 // jobs get --details {job:{status,result},events:[{id,createdAt,status,result}] newest first, files, links, inputRequest}.
@@ -15,10 +15,10 @@ const flag=name=>args.includes(name)?args[args.indexOf(name)+1]??'':null;
 const yes=args.includes('--yes'),agentIdArg=flag('--agent-id'),maxArg=flag('--max-credits');
 const USAGE='Aufruf: npm run assistant -- <anfrage.txt|firmenpass.json> [--yes] [--max-credits N] [--agent-id ID]';
 const CATALOG='https://api.preprod.sokosumi.com/v1/agents?limit=100&kind=cardano'; // public, no login (measured 31.10.)
-const AGENT_NAME='TenderScout',OUT='.local',POLL_MS=15000,MAX_MS=30*60*1000,PROMPT_MAX=16000; // PROMPT_MAX: input_schema in agent-api.mjs
+const AGENT_NAME='TenderScout',OUT='.local',POLL_MS=15000,MAX_MS=30*60*1000,PROMPT_MAX=16000; // AGENT_NAME: the on-chain registration and gallery entry keep the old name (T13 freeze). PROMPT_MAX: input_schema in agent-api.mjs
 const BILLING='https://preprod.sokosumi.com/billing?tab=credits'; // credit balance page (tum-hackathon-agent skill)
 // Event and job states seen in T13. Failure state names are not measured: TODO (T25).
-const LABEL={INITIATED:'Job angelegt',AWAITING_PAYMENT:'Warte auf Zahlung: Sokosumi sperrt die Credits im Masumi-Escrow (Cardano Preprod)',RUNNING:'Zahlung bestätigt, TenderScout prüft die Ausschreibungen',COMPLETED:'Ergebnis geliefert',payment_pending:'Zahlung ausstehend',completed:'abgeschlossen'};
+const LABEL={INITIATED:'Job angelegt',AWAITING_PAYMENT:'Warte auf Zahlung: Sokosumi sperrt die Credits im Masumi-Escrow (Cardano Preprod)',RUNNING:'Zahlung bestätigt, JuicyBids prüft die Ausschreibungen',COMPLETED:'Ergebnis geliefert',payment_pending:'Zahlung ausstehend',completed:'abgeschlossen'};
 const FAILED=/fail|cancel|refund|error|dispute|expired/i;
 const fail=(msg,code=1)=>{console.error(color.bad(msg));closePrompt();process.exit(code)};
 const unknown=args.filter(a=>a.startsWith('--')&&!FLAGS.includes(a));
@@ -68,7 +68,7 @@ if(isPass){
 }
 console.log(`Art:     ${isPass?'Firmenpass (JSON), lokal geprüft: gültig':'Freitext (bezahlte Jobs fragen nicht nach; Annahmen stehen im Bericht)'}`);
 console.log(`Datei:   ${file} (${prompt.length} Zeichen)`);
-if(/[\w.+-]+@[\w-]+\.[\w.-]+/.test(prompt))console.log(color.todo('Hinweis: Die Anfrage enthält eine E-Mail-Adresse. TenderScout braucht keine Kontaktdaten; bitte vor dem Buchen entfernen.'));
+if(/[\w.+-]+@[\w-]+\.[\w.-]+/.test(prompt))console.log(color.todo('Hinweis: Die Anfrage enthält eine E-Mail-Adresse. JuicyBids braucht keine Kontaktdaten; bitte vor dem Buchen entfernen.'));
 const PREVIEW=1200;
 console.log(color.dim('Gesendet wird {"prompt": <Dateiinhalt>}:'));
 console.log(prompt.trim().slice(0,PREVIEW).split('\n').map(l=>`  │ ${l}`).join('\n')+(prompt.trim().length>PREVIEW?`\n  │ … (${prompt.trim().length-PREVIEW} Zeichen mehr)`:''));
@@ -151,5 +151,5 @@ Object.assign(journal,{status,completedAt:new Date().toISOString(),reportPath:re
 console.log(color.bold('Notiz fürs Büro'));
 console.log(`- Auftrag: ${agent.name}, Job ${jobId}, ${agent.credits} Credits (${tusdm(agent.credits)} tUSDM Testgeld).`);
 console.log(`- Bericht: ${result?reportPath:'nicht geliefert, siehe oben'}. Fakten (Frist, Wert, Auftraggeber, Link) stammen aus den Bekanntmachungen; vor einer Bewerbung die Vergabeunterlagen über den Link prüfen.`);
-console.log('- Bezahlung: über den Masumi-Escrow auf Cardano Preprod (Testnetz, kein echtes Geld). Sokosumi sperrt den Betrag im Smart Contract, TenderScout hinterlegt beim Liefern den Hash des Berichts on-chain, erst dann wird an TenderScout ausgezahlt. Beispielbeleg: docs/tickets/T13/beleg.md');
+console.log('- Bezahlung: über den Masumi-Escrow auf Cardano Preprod (Testnetz, kein echtes Geld). Sokosumi sperrt den Betrag im Smart Contract, JuicyBids hinterlegt beim Liefern den Hash des Berichts on-chain, erst dann wird an JuicyBids ausgezahlt. Beispielbeleg: docs/tickets/T13/beleg.md');
 console.log(`- Nachsehen: sokosumi --preprod jobs get ${jobId} --details --json oder in Sokosumi Web (Preprod) unter den Jobs.`);

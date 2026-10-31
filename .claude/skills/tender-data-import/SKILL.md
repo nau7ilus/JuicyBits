@@ -1,6 +1,6 @@
 ---
 name: tender-data-import
-description: Add publication days to the Bavarian tender dataset - download OCDS and eForms exports by hand, run the offline import into data/bayern, and check counts, deadlines and privacy. Use for TenderScout data work (tickets T2, T3, data refresh before demos).
+description: Add publication days to the Bavarian tender dataset - download OCDS and eForms exports by hand, run the offline import into data/bayern, and check counts, deadlines and privacy. Use for JuicyBids data work (tickets T2, T3, data refresh before demos).
 ---
 
 # Tender data import

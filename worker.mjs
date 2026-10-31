@@ -48,7 +48,7 @@ function findAnswer(events,state,consumed){
  return events.find((e,i)=>e?.actor?.type==='user'&&typeof e.comment==='string'&&e.comment.trim()&&!consumed[e.id]
   &&(qIdx>=0?i>qIdx:Date.parse(e.createdAt)>state.askedAt-5000));
 }
-const invalidText=e=>`# TenderScout – Anfrage nicht verständlich\n\nAus Ihrer Anfrage ließ sich kein Firmenpass ableiten:\n${e.issues.map(i=>`- ${i}`).join('\n')}\n\nBitte nennen Sie Leistung oder Gewerk, Region (Bayern), Auftragswert von–bis und ab wann Sie verfügbar sind, oder senden Sie einen Firmenpass als JSON (docs/firmenpass.md).\n`;
+const invalidText=e=>`# JuicyBids – Anfrage nicht verständlich\n\nAus Ihrer Anfrage ließ sich kein Firmenpass ableiten:\n${e.issues.map(i=>`- ${i}`).join('\n')}\n\nBitte nennen Sie Leistung oder Gewerk, Region (Bayern), Auftragswert von–bis und ab wann Sie verfügbar sind, oder senden Sie einen Firmenpass als JSON (docs/firmenpass.md).\n`;
 console.log('Continuous worker running',process.pid);
 while(true){
  try{
@@ -66,7 +66,7 @@ while(true){
   save({...state,phase:'intake'});
   const ask=await pipeline.openSession(sessionFile);
   try{
-   const understanding=await intake(state.input,ask);
+   const understanding=await pipeline.enrich(await intake(state.input,ask),ask);
    save({...state,phase:'question-pending',understanding,round:1});
    const q=await postQuestion(t.id,understanding);
    save({...state,phase:'awaiting-answer',questionEventId:q.eventId,askedAt:Date.now(),statusChanged:q.statusChanged});

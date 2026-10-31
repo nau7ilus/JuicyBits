@@ -1,11 +1,11 @@
 # T11 – Abweichungen zu T5
 
-Stand: Sa 31.10.2026, 02:55. Rollen D mit B3. Testfälle: `examples/t5-expected.json`, Läufe im Wortlaut: `t5-eval-live.md`.
+Stand: Sa 31.10.2026, 02:55; Nachtrag P3 ca. 11:00. Rollen D mit B3. Testfälle: `examples/t5-expected.json`, Läufe im Wortlaut: `t5-eval-live.md`.
 
 ## Kurzfassung
 - Mit Referenzen in P1 und P2 sind **B1 (Systemdach) und B3 (Stadtbücherei) in beiden Läufen GO**. Das Referenz-To-do aus dem Vorlauf entfällt.
 - Lauf 1: 8 von 8 wie erwartet. Lauf 2: 7 von 8, 1 teilweise.
-- Einzige Abweichung: **B5 Landtagsverwaltung (P3)** schwankt um die GO-Grenze (72, 67, Diagnose 64). Ursache vor allem dünne Nachweise im Profil P3 und fehlende Angaben in der Bekanntmachung, nicht der Prompt.
+- Einzige Abweichung: **B5 Landtagsverwaltung (P3)** schwankte um die GO-Grenze (72, 67, Diagnose 64). Ursache vor allem dünne Nachweise im Profil P3 und fehlende Angaben in der Bekanntmachung, nicht der Prompt. **Nachtrag 11:00:** Mit vervollständigtem P3 (drei Referenzen, Umsatzband, Versicherungssumme) ist B5 in zwei weiteren Läufen GO (81, 73); siehe unten.
 - Kein Prompt-Vorschlag für T20 (Begründung unten).
 
 ## Läufe
@@ -41,7 +41,7 @@ Die T5-Referenzwerte (88, 91, 90) stammen aus der Zeit vor dem T6-Punkteschema u
 | AIS.chat, DPMA (P3) | NO-GO, 39 und 39 | NO-GO, 39 und 38 / 39 und 39 |
 | Vorfilter-Fälle | ausgeschlossen | unverändert ausgeschlossen |
 
-Geändert wurde nur `references` in `examples/p1-alpendach.pass.json` und `examples/p2-isarglanz.pass.json`. P3 ist unverändert.
+Geändert wurde für Lauf 1 und 2 nur `references` in `examples/p1-alpendach.pass.json` und `examples/p2-isarglanz.pass.json`. P3 wurde erst für den Nachtrag (Lauf 3 und 4) vervollständigt, siehe unten.
 
 ## Neue Referenzen (fiktiv)
 Alle Referenzen sind für den Test erfunden. Der Firmenpass hat kein Feld zur Kennzeichnung; vermerkt ist das in `examples/README.md`. Auftraggeber sind nur allgemein beschrieben (keine echten Namen, keine Kontaktdaten).
@@ -69,10 +69,12 @@ Teilpunkte im Diagnoselauf (Summe 64, CPV-Stufe A = 5 Punkte, kein To-do, kein K
 | `aufwand` | 3 / 5 | Qualitätskonzept verlangt |
 | `risiko_abzug` | 0 | keine Sicherheitsleistung |
 
-Gemessene Summen für B5 bisher: 69–77 (laut `STAND.md`), 75 (Vorlauf), 72, 67, 64. Die Summe liegt also seit jeher an der GO-Grenze; wenige Punkte Modellschwankung entscheiden über GO oder GO MIT AUFLAGE.
+Gemessene Summen für B5 mit dem alten P3: 69–77 (laut `STAND.md`), 75 (Vorlauf), 72, 67, 64. Die Summe lag also seit jeher an der GO-Grenze; wenige Punkte Modellschwankung entschieden über GO oder GO MIT AUFLAGE.
 
-Wahrscheinliche Ursache: **Profil P3** (eine Referenz ohne Jahr, Wert und CPV; kein Umsatzband, keine Versicherungssumme) und **Daten** (B5 ohne Auftragswert und Beginn). Beides drückt die Summe auf 64–75; dazu kommt die bekannte Modellschwankung.
-Nächster Schritt (B3, nicht Teil dieses Auftrags): P3-Referenz wie bei P1 und P2 mit `year`, `value_eur`, `cpv` vervollständigen, danach `npm run eval` zweimal.
+Wahrscheinliche Ursache: **Profil P3** (eine Referenz ohne Jahr, Wert und CPV; kein Umsatzband, keine Versicherungssumme) und **Daten** (B5 ohne Auftragswert und Beginn). Beides drückte die Summe auf 64–75; dazu kam die bekannte Modellschwankung.
+
+### Nachtrag 31.10., ca. 11:00: P3 vervollständigt
+P3 hat jetzt drei fiktive Referenzen 2023–2025 mit Jahr, Wert (62.000–145.000 €), CPV (72262000, 72230000, 72212000) und Auftraggeberart (zwei öffentlich, eine privat; agile Java/TypeScript-Entwicklung nach EVB-IT, Abrechnung nach PT) sowie `revenue_band_eur` `250k-1M` und `liability_insurance_eur` 1.000.000 (vermerkt in `examples/README.md`). Zwei Läufe `npm run eval` danach (Lauf 3 und 4 in `t5-eval-live.md`): **B5 GO 81 und GO 73**, alle 8 Fälle wie erwartet. Die Summe liegt damit über der 70er-Grenze, in Lauf 4 aber nur um 3 Punkte; die Datenlücken der Bekanntmachung (kein Auftragswert, kein Beginn, Zuschlag 100 % Preis) bleiben und halten B5 bei den Ankerwerten 5/10 für `groesse` und `kapazitaet`. Nebenwirkung: Bei DPMA nennt das Modell den geforderten Jahresumsatz von 1,4 Mio. € jetzt als K.O. gegen das Umsatzband, statt ihn als „unklar“ zu behandeln; das Ergebnis NO-GO bleibt.
 
 ## Weitere Beobachtung (ohne Einfluss auf das Ergebnis)
 - DPMA, Lauf 2: Zusätzlich zum eigenen Ausschluss nennt das Modell als K.O. „Der geforderte durchschnittliche Jahresumsatz von mindestens 1.400.000 Euro ist im Firmenpass nicht belegt“. P3 hat kein `revenue_band_eur`, der Umsatz ist also unklar. Nach `agent/instructions.md` ist ein „unklar“ weder K.O. noch To-do; die Regel steht bereits im Prompt, das Modell hat sie in diesem Lauf nicht befolgt. Das Ergebnis bleibt NO-GO wegen des eigenen Ausschlusses.

@@ -121,6 +121,15 @@ export function isConfirmation(answer){
  return words.slice(1).every(w=>yes.has(w)||filler.has(w));
 }
 
+/** Merges research findings from an external agent into the understanding (tender/research.mjs). User facts win, findings fill gaps. */
+export async function applyResearch(previous,research,ask,now=Date.now()){
+ const {mergePrompt}=await import('./research.mjs');
+ const result=await extract(ask,mergePrompt(previous,research,now),now);
+ const kept=(previous.assumptions??[]).filter(a=>!result.assumptions.includes(a));
+ const open=(previous.questions??[]).filter(q=>result.questions.includes(q)||missingFactQuestions(result.pass).includes(q));
+ return {...result,assumptions:[...kept,...result.assumptions],questions:[...new Set([...result.questions,...open])].slice(0,6),source:'text'};
+}
+
 /** Merges a correction into the previous understanding via the model. Returns {pass, assumptions, questions, confirmed}. */
 export async function applyAnswer(previous,answer,ask,now=Date.now()){
  if(isConfirmation(answer))return {...previous,confirmed:true};

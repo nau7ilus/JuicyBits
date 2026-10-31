@@ -1,6 +1,6 @@
 # Bavarian tender data
 
-Offline dataset for TenderScout. Nothing here downloads data automatically.
+Offline dataset for JuicyBids. Nothing here downloads data automatically.
 
 ## Add a publication day
 1. Download both exports for the day in a browser (licence CC0; only finished days exist):

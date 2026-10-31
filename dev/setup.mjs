@@ -34,7 +34,7 @@ const STAGES=[
  ['Bezahlte Preprod-Jobs (T13, npm run api)',['BLOCKFROST_API_KEY_PREPROD','AGENT_AUTHOR','AGENT_PUBLIC_URL']],
 ];
 
-console.log(color.bold('TenderScout – Entwicklungs-Setup')+(checkOnly?color.dim('  (nur Prüfung, keine Änderungen)'):''));
+console.log(color.bold('JuicyBids – Entwicklungs-Setup')+(checkOnly?color.dim('  (nur Prüfung, keine Änderungen)'):''));
 
 section('1. Werkzeuge');
 const major=Number(process.versions.node.split('.')[0]);

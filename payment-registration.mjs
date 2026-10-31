@@ -29,6 +29,7 @@ if(process.argv[2]==='key'){
  const sources=await request('/payment-source?take=100');
  const find=(x)=>{if(Array.isArray(x)){for(const y of x){const r=find(y);if(r)return r;}}else if(x&&typeof x==='object'){if(x.id===payment.sourceId)return x;for(const y of Object.values(x)){const r=find(y);if(r)return r;}}};
  const source=find(sources);if(!source||wallet.walletAddress!==payment.sellerAddress)throw Error('Dedicated source or wallet mismatch');
+ // name 'TenderScout': the on-chain registration keeps the old product name (T13 freeze); the product is JuicyBids.
  const body={network:'Preprod',type:'Standard',sellingWalletVkey:wallet.walletVkey,supportedPaymentSources:[{chain:'Cardano',network:'Preprod',paymentSourceType:'Web3CardanoV2',address:source.smartContractAddress,pricing:{pricingType:'Fixed',fixed:[{asset:USDM,amount:'1000000'}]}}],ExampleOutputs:[],Tags:['hackathon','tenders','bavaria'],name:'TenderScout',description:'Ranked, verified shortlist of open Bavarian public tenders with go/no-go reasoning from a free-text request or a Firmenpass JSON.',Capability:{name:process.env.OPENAI_MODEL.trim(),version:'1'},Author:{name:author},apiBaseUrl};
  state.registrationWritePending=true;state.request=body;save();
  const r=await request('/registry',body);state.registrationId=r.id;state.registrationWritePending=false;state.registration=r;save();console.log(JSON.stringify(r));

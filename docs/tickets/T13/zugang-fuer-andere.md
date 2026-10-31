@@ -1,11 +1,13 @@
-# T13 – TenderScout für andere zugänglich machen
+# T13 – JuicyBids für andere zugänglich machen
+
+Hinweis: Registrierung (on-chain) und Galerie-Eintrag tragen den alten Namen `TenderScout`; beides ist nach T13 eingefroren. Gemeint ist immer JuicyBids.
 
 Stand: Sa 31.10.2026, ca. 01:45. Frage des Teams: Wie erreichen andere Coworker, eigene KI-Assistenten und andere Teams unseren Agenten, auch auf der Plattform?
 **Gemessen** ist nur, was in `STAND.md` und `docs/tickets/T12/` belegt ist. Alles andere ist **laut Doku, nicht gemessen** (Quellen unten).
 
 ## Zwei Wege
 
-| | Coworker `JUICY_BIDS` (Sokosumi) | Agent `TenderScout` (Masumi) |
+| | Coworker `JUICY_BIDS` (Sokosumi) | Agent `TenderScout` (Masumi, Galerie-Name von JuicyBids) |
 |---|---|---|
 | Technik | Unser Worker holt Tasks ab (`npm run worker`) | MIP-003-API `npm run api` mit `/start_job`, `/status`, `/availability`, `/input_schema` |
 | Preis | unbezahlt | 1 tUSDM pro Job, Cardano Preprod |
@@ -39,7 +41,7 @@ Stand: Sa 31.10.2026, ca. 01:45. Frage des Teams: Wie erreichen andere Coworker,
 **CLI** für Skripte. Anmeldung: `sokosumi --preprod auth login` (OAuth) oder ein Nutzer-API-Key über `auth login --api-key-stdin`, nie als Argument.
 ```sh
 # Coworker-Task in einem freigegebenen Workspace
-sokosumi --preprod tasks create --organization-slug SLUG --coworker-id 01a18ec1-7125-7246-8a2f-90a46c82b611 --name "TenderScout Anfrage" --description "$(cat anfrage.txt)" --status READY --json
+sokosumi --preprod tasks create --organization-slug SLUG --coworker-id 01a18ec1-7125-7246-8a2f-90a46c82b611 --name "JuicyBids Anfrage" --description "$(cat anfrage.txt)" --status READY --json
 # Bezahlter Agent-Job; einziges Eingabefeld ist "prompt" (Firmenpass als JSON-Text)
 node -e "process.stdout.write(JSON.stringify({prompt:require('fs').readFileSync(process.argv[1],'utf8')}))" examples/p3-isarcode.pass.json > .local/hire-input.json
 sokosumi --preprod agents hire 01a18f8f-7091-74ae-88a7-8b4856955f83 --input-file .local/hire-input.json --max-credits 100 --json
@@ -48,7 +50,7 @@ sokosumi --preprod jobs get JOB_ID --details --json
 Preis: 100 Credits pro Auftrag, das entspricht dem Festpreis von 1 tUSDM (gemessen 31.10., Katalog und `agents hire`).
 
 ## 3. Agent-Weg (Masumi, bezahlt)
-- **Galerie (gemessen):** Auf Preprod hat Sokosumi TenderScout ohne Formular übernommen, 3 Minuten nach der Registrierung (Sync alle 5 min). Sokosumi-Agent-ID `01a18f8f-7091-74ae-88a7-8b4856955f83`. Achtung: `sokosumi agents list` zeigt nur die ersten 20 Agenten, sortiert nach Anzahl Jobs. Vollständig: `curl -s "https://api.preprod.sokosumi.com/v1/agents?limit=100&kind=cardano"`. Für Mainnet nennt die Doku ein Formular.
+- **Galerie (gemessen):** Auf Preprod hat Sokosumi JuicyBids (als `TenderScout`) ohne Formular übernommen, 3 Minuten nach der Registrierung (Sync alle 5 min). Sokosumi-Agent-ID `01a18f8f-7091-74ae-88a7-8b4856955f83`. Achtung: `sokosumi agents list` zeigt nur die ersten 20 Agenten, sortiert nach Anzahl Jobs. Vollständig: `curl -s "https://api.preprod.sokosumi.com/v1/agents?limit=100&kind=cardano"`. Für Mainnet nennt die Doku ein Formular.
 - **Andere Coworker** holen einen Galerie-Agenten per `add_job_to_task` in ihren Task.
 - **Ohne Sokosumi, per Masumi-MCP-Server:** Tools `list_agents`, `hire_agent`, `check_job_status`, `get_job_full_result`. Dafür braucht man einen eigenen Masumi Node, Registry- und Payment-Token, Python 3.10+ und `uv`.
 - **Ohne Sokosumi, direkt per MIP-003** (Doku „Enable Agent Collaboration“):
@@ -65,11 +67,11 @@ Preis: 100 Credits pro Auftrag, das entspricht dem Festpreis von 1 tUSDM (gemess
 - Sokosumi bezahlt Coworker-Tasks noch nicht (CLI-README 1.1.0: „Implementation and live seller proof remain pending.“).
 - Bezahlte Agent-Jobs laufen ohne Rückfrage. Die Annahmen stehen im Bericht.
 
-## 5. Für Demo und Devfolio: So bucht ein anderes Team TenderScout
-1. In Sokosumi Preprod die Agentengalerie öffnen, `TenderScout` suchen (steht weit hinten, solange er wenige Jobs hat), Freitext oder Firmenpass einfügen und 100 Credits (1 tUSDM) bezahlen.
+## 5. Für Demo und Devfolio: So bucht ein anderes Team JuicyBids
+1. In Sokosumi Preprod die Agentengalerie öffnen, `TenderScout` suchen (so heißt JuicyBids in der Galerie; steht weit hinten, solange er wenige Jobs hat), Freitext oder Firmenpass einfügen und 100 Credits (1 tUSDM) bezahlen.
 2. Oder per CLI: `sokosumi --preprod agents hire 01a18f8f-7091-74ae-88a7-8b4856955f83 --input-file hire-input.json --max-credits 100 --json` (Datei wie in Abschnitt 2). Gemessen am 31.10., `beleg.md`.
 3. Oder mit dem Büro-Assistenten aus T25: `npm run assistant -- <anfrage.txt|firmenpass.json>` (`docs/tickets/T25/agent-als-kunde.md`).
-4. Oder im eigenen Assistenten mit dem Sokosumi-MCP-Server: „Beauftrage TenderScout mit diesem Firmenpass“ (`create_job`). Nicht getestet.
+4. Oder im eigenen Assistenten mit dem Sokosumi-MCP-Server: „Beauftrage TenderScout mit diesem Firmenpass“ (`create_job`; Galerie-Name von JuicyBids). Nicht getestet.
 5. Beleg, dass der Verkäufer bezahlt wurde: `npm run receipt -- <jobId>`. Das Skript liest MPS und Blockfrost und schreibt nichts.
 
 Ehrlich formulieren: Den Coworker gibt es nur in freigegebenen Workspaces, bezahlt wird über den Masumi-Agenten. Gemessen ist Schritt 2 (CLI-Buchung, `beleg.md`); Galerie im Web, Büro-Assistent und MCP sind nicht gemessen.

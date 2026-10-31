@@ -4,7 +4,7 @@ import {inputHash,resultHash} from '../standard-hash.mjs';
 import {USDM,confirmedState} from '../paid-task.mjs';
 import {registrationUrl} from '../registration-config.mjs';
 import {closePrompt,color} from './common.mjs';
-// Fallback buyer, only if the Sokosumi gallery path fails: one paid MIP-003 purchase of our own TenderScout agent
+// Fallback buyer, only if the Sokosumi gallery path fails: one paid MIP-003 purchase of our own JuicyBids agent
 // with the Purchasing wallet of our own Masumi Payment Service (Preprod, MPS 0.29.0).
 // npm run buy -- <firmenpass.json|anfrage.txt>   or   npm run buy -- --resume <nonce>
 // .local/buy-<nonce>.json is saved before each write. An uncertain write is looked up read-only, never sent again.

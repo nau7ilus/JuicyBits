@@ -18,9 +18,9 @@ test('registration uses the configured loopback port', () => {
  assert.equal(registrationUrl('32123', ''), 'http://127.0.0.1:32123');
 });
 test('registration uses a bare public https origin when configured', () => {
- assert.equal(registrationUrl('21950', 'https://tenderscout.ngrok-free.app'), 'https://tenderscout.ngrok-free.app');
- assert.equal(registrationUrl(undefined, 'https://TenderScout.Ngrok-Free.app'), 'https://tenderscout.ngrok-free.app');
- for (const value of ['http://tenderscout.ngrok-free.app','https://tenderscout.ngrok-free.app/','https://tenderscout.ngrok-free.app/api','https://tenderscout.ngrok-free.app?x=1','https://tenderscout.ngrok-free.app#x','https://user:pw@tenderscout.ngrok-free.app','https://tenderscout.ngrok-free.app:443',' https://tenderscout.ngrok-free.app','tenderscout.ngrok-free.app','https://localhost','https://127.0.0.1','https://[::1]','https://']) assert.throws(() => registrationUrl('21950', value), /AGENT_PUBLIC_URL/);
+ assert.equal(registrationUrl('21950', 'https://juicybids.ngrok-free.app'), 'https://juicybids.ngrok-free.app');
+ assert.equal(registrationUrl(undefined, 'https://JuicyBids.Ngrok-Free.app'), 'https://juicybids.ngrok-free.app');
+ for (const value of ['http://juicybids.ngrok-free.app','https://juicybids.ngrok-free.app/','https://juicybids.ngrok-free.app/api','https://juicybids.ngrok-free.app?x=1','https://juicybids.ngrok-free.app#x','https://user:pw@juicybids.ngrok-free.app','https://juicybids.ngrok-free.app:443',' https://juicybids.ngrok-free.app','juicybids.ngrok-free.app','https://localhost','https://127.0.0.1','https://[::1]','https://']) assert.throws(() => registrationUrl('21950', value), /AGENT_PUBLIC_URL/);
 });
 test('saved key requires its private unmasked token', () => {
  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'registration-test-'));

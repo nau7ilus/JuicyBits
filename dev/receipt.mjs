@@ -1,4 +1,4 @@
-import {existsSync,readFileSync} from 'node:fs';
+import {existsSync,readFileSync,appendFileSync,mkdirSync} from 'node:fs';
 import {sellerTokenNet} from '../settlement.mjs';
 import {USDM,confirmedState} from '../paid-task.mjs';
 import {closePrompt,color} from './common.mjs';
@@ -61,6 +61,8 @@ try{
  Object.assign(evidence,{netAtomicUnits:net.toString(),netUSDM:usdm(net),verified:net>0n});
  if(!evidence.verified)evidence.reason='No net tUSDM at the seller address in the withdrawal transaction';
  console.log(JSON.stringify(evidence,null,2));
+ // Revenue log (ignored path): one JSON line per verified receipt; the human-readable ledger is docs/einnahmen.md.
+ mkdirSync('.local',{recursive:true});appendFileSync('.local/receipts.jsonl',JSON.stringify(evidence)+'\n');
  if(!evidence.verified){console.error(color.bad('Withdraw bestätigt, aber kein Netto-tUSDM an sellerAddress. Adresse und Transaktion prüfen.'));exit(1);}
  console.error(color.ok(`Seller-Zahlung belegt: ${evidence.netUSDM} tUSDM, Tx ${withdraw.txHash}`));
  exit(0);

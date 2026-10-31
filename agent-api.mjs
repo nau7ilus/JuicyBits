@@ -21,7 +21,7 @@ const port=Number(process.env.AGENT_API_PORT||21950);
 createServer(async(req,res)=>{
  try{
  const url=new URL(req.url,'http://127.0.0.1');
- if(req.method==='GET'&&url.pathname==='/availability'){const ok=Boolean(readyRegistration());return respond(res,200,{status:ok?'available':'unavailable',type:'masumi-agent',message:ok?'TenderScout nimmt bezahlte Aufträge an.':'TenderScout ist noch nicht bereit: Registrierung oder Zahlungsschlüssel fehlt.'});}
+ if(req.method==='GET'&&url.pathname==='/availability'){const ok=Boolean(readyRegistration());return respond(res,200,{status:ok?'available':'unavailable',type:'masumi-agent',message:ok?'JuicyBids nimmt bezahlte Aufträge an.':'JuicyBids ist noch nicht bereit: Registrierung oder Zahlungsschlüssel fehlt.'});}
  if(req.method==='GET'&&url.pathname==='/input_schema')return respond(res,200,schema);
  if(req.method==='GET'&&url.pathname==='/status'){
  const id=url.searchParams.get('job_id');if(!/^[0-9a-f-]{36}$/.test(id||''))return respond(res,400,{error:'Invalid job_id'});

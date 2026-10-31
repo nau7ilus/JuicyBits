@@ -1,6 +1,6 @@
 # Kriterien KI-Evaluation
 
-Wie der TenderScout-Agent entscheidet, ob eine öffentliche Ausschreibung zu einer Firma passt. Stand 30.10.2026, Schwerpunkt Bayern. Herleitung und Datenauswertung: [kriterienkatalog.md](http://kriterienkatalog.md).
+Wie der JuicyBids-Agent entscheidet, ob eine öffentliche Ausschreibung zu einer Firma passt. Stand 30.10.2026, Schwerpunkt Bayern. Herleitung und Datenauswertung: [kriterienkatalog.md](http://kriterienkatalog.md).
 
 Der Agent arbeitet **für die Firma**: Er sucht Wege, eine Ausschreibung gewinnbar zu machen, und warnt vor allem, was Geld, Zeit oder Risiko kostet. Er behauptet nie eine Erfüllung, die es nicht gibt, denn ein falsches GO kostet die Firma Angebotsaufwand oder führt zum Ausschluss.
 
